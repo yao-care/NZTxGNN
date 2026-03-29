@@ -1,0 +1,53 @@
+# New Zealand Medsafe/PHARMAC Field Mapping Configuration
+
+country_code: "NZ"
+language: "en"
+regulatory_agency: "Medsafe"
+
+data_source:
+  name: "PHARMAC Community Pharmaceutical Schedule"
+  url: "https://schedule.pharmac.govt.nz/latest/CPSReporting.xlsx"
+  archive_url: "https://schedule.pharmac.govt.nz/pub/schedule/archive/2025/2025-07-01/CPSReporting_2025-07-01.xlsx"
+  schedule_page: "https://schedule.pharmac.govt.nz/"
+  format: Excel
+  encoding: utf-8
+  note: >
+    PHARMAC 社區藥品時程表 (CPSReporting.xlsx) 為主要資料來源，每月更新，
+    可自動下載。NZULM 需透過 email 申請 (https://info.nzulm.org.nz/data-access)
+    為備用來源。
+
+  # NZULM 備用來源
+  nzulm_url: "https://info.nzulm.org.nz/data-access"
+  nzulm_note: "Monthly CSV provided by email request"
+
+field_mapping:
+  # PHARMAC CPSReporting.xlsx - "Community Medicines" sheet 實際欄位
+  license_id: "Pharmacode"
+  brand_name_local: "Brand"
+  brand_name_en: "Chemical"
+  ingredients: "Chemical"
+  indication: ""
+  dosage_form: "Presentation"
+  manufacturer: ""
+  approval_date: ""
+  status: "Fully subsidised"
+
+  # 若使用 NZULM CSV，欄位映射如下 (需手動切換)
+  # license_id: "RegistrationNumber"
+  # brand_name_local: "TradeName"
+  # brand_name_en: "GenericName"
+  # ingredients: "ActiveIngredient"
+  # dosage_form: "DosageForm"
+  # manufacturer: "Sponsor"
+  # approval_date: "RegistrationDate"
+  # status: "Status"
+
+withdrawn_statuses:
+  - "Cancelled"
+  - "Withdrawn"
+  - "Suspended"
+  - "Delisted"
+
+ingredient_separator: ";"
+date_format: "%Y-%m-%d"
+encoding: "utf-8"

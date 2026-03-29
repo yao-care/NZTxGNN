@@ -1,0 +1,22 @@
+{
+  "description": "Disease and drug synonyms in English (New Zealand)",
+  "generated": "2026-03-29",
+  "indication_synonyms": {
+    "diabetes mellitus": ["diabetes", "type 2 diabetes", "type 1 diabetes", "blood sugar"],
+    "hypertension": ["high blood pressure", "hypertension", "elevated blood pressure"],
+    "cancer": ["cancer", "tumor", "tumour", "neoplasm", "carcinoma", "oncology"],
+    "heart disease": ["heart disease", "cardiac disease", "heart failure", "cardiovascular disease"],
+    "asthma": ["asthma", "bronchial asthma", "wheezing"],
+    "depression": ["depression", "depressive disorder", "major depression"],
+    "arthritis": ["arthritis", "rheumatoid arthritis", "osteoarthritis"],
+    "stroke": ["stroke", "cerebrovascular accident", "CVA"],
+    "obesity": ["obesity", "overweight", "metabolic syndrome"],
+    "alzheimer disease": ["Alzheimer's", "Alzheimer disease", "dementia"]
+  },
+  "drug_synonyms": {
+    "metformin": ["metformin", "Glucophage"],
+    "aspirin": ["aspirin", "acetylsalicylic acid"],
+    "ibuprofen": ["ibuprofen", "Nurofen", "Brufen"],
+    "acetaminophen": ["paracetamol", "Panadol"]
+  }
+}
