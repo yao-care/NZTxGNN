@@ -1,0 +1,12 @@
+{
+  "total_predictions": 3837,
+  "unique_drugs": 447,
+  "unique_indications": 1009,
+  "unique_products": 447,
+  "by_source": {
+    "KG": 3837
+  },
+  "by_confidence": {
+    "medium": 3837
+  }
+}
