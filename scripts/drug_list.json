@@ -1,0 +1,3135 @@
+{
+  "total": 447,
+  "generated_at": "2026-03-29T12:43:13.619812",
+  "drugs": [
+    {
+      "name": "CETUXIMAB",
+      "file": "db00002.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DORNASE ALFA",
+      "file": "db00003.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ETANERCEPT",
+      "file": "db00005.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "GOSERELIN",
+      "file": "db00014.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DESMOPRESSIN",
+      "file": "db00035.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "OMALIZUMAB",
+      "file": "db00043.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "INSULIN LISPRO",
+      "file": "db00046.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "INSULIN GLARGINE",
+      "file": "db00047.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ADALIMUMAB",
+      "file": "db00051.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "GEMTUZUMAB OZOGAMICIN",
+      "file": "db00056.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PEGASPARGASE",
+      "file": "db00059.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "INFLIXIMAB",
+      "file": "db00065.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TRASTUZUMAB",
+      "file": "db00072.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RITUXIMAB",
+      "file": "db00073.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LARONIDASE",
+      "file": "db00090.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CICLOSPORIN",
+      "file": "db00091.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FILGRASTIM",
+      "file": "db00099.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "OCTREOTIDE",
+      "file": "db00104.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "OXYTOCIN",
+      "file": "db00107.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NATALIZUMAB",
+      "file": "db00108.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PALIVIZUMAB",
+      "file": "db00110.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BEVACIZUMAB",
+      "file": "db00112.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ASCORBIC ACID",
+      "file": "db00126.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CALCITRIOL",
+      "file": "db00136.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RIBOFLAVIN",
+      "file": "db00140.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FOLIC ACID",
+      "file": "db00158.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PYRIDOXINE HYDROCHLORIDE",
+      "file": "db00165.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "COLECALCIFEROL",
+      "file": "db00169.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PRAVASTATIN",
+      "file": "db00175.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RAMIPRIL",
+      "file": "db00178.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NICOTINE",
+      "file": "db00184.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LORAZEPAM",
+      "file": "db00186.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BORTEZOMIB",
+      "file": "db00188.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TRAMADOL HYDROCHLORIDE",
+      "file": "db00193.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FLUCONAZOLE",
+      "file": "db00196.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ERYTHROMYCIN",
+      "file": "db00199.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "HYDROXOCOBALAMIN",
+      "file": "db00200.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CAFFEINE CITRATE",
+      "file": "db00201.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SILDENAFIL",
+      "file": "db00203.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AZITHROMYCIN",
+      "file": "db00207.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ADAPALENE",
+      "file": "db00210.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MIDODRINE",
+      "file": "db00211.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PANTOPRAZOLE",
+      "file": "db00213.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CITALOPRAM HYDROBROMIDE",
+      "file": "db00215.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MOXIFLOXACIN",
+      "file": "db00218.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PREGABALIN",
+      "file": "db00230.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TEMAZEPAM",
+      "file": "db00231.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NEVIRAPINE",
+      "file": "db00238.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLADRIBINE",
+      "file": "db00242.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MESALAZINE",
+      "file": "db00244.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BENZATROPINE MESYLATE",
+      "file": "db00245.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ZIPRASIDONE",
+      "file": "db00246.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CABERGOLINE",
+      "file": "db00248.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DAPSONE",
+      "file": "db00250.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PHENYTOIN SODIUM",
+      "file": "db00252.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DOXYCYCLINE",
+      "file": "db00254.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLOTRIMAZOLE",
+      "file": "db00257.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CYCLOSERINE",
+      "file": "db00260.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ANAGRELIDE HYDROCHLORIDE",
+      "file": "db00261.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CARMUSTINE",
+      "file": "db00262.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "METOPROLOL SUCCINATE",
+      "file": "db00264.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CROTAMITON",
+      "file": "db00265.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ROPINIROLE HYDROCHLORIDE",
+      "file": "db00268.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TOPIRAMATE",
+      "file": "db00273.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "THEOPHYLLINE",
+      "file": "db00277.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ACARBOSE",
+      "file": "db00284.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "VENLAFAXINE",
+      "file": "db00285.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TRAVOPROST",
+      "file": "db00287.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ATOMOXETINE",
+      "file": "db00289.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CHLORAMBUCIL",
+      "file": "db00291.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MORPHINE HYDROCHLORIDE",
+      "file": "db00295.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TENOFOVIR DISOPROXIL",
+      "file": "db00300.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TRANEXAMIC ACID",
+      "file": "db00302.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PARACETAMOL",
+      "file": "db00316.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "GEFITINIB",
+      "file": "db00317.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CODEINE PHOSPHATE",
+      "file": "db00318.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMITRIPTYLINE",
+      "file": "db00321.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TOLCAPONE",
+      "file": "db00323.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FLUOROMETHOLONE",
+      "file": "db00324.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ETHAMBUTOL HYDROCHLORIDE",
+      "file": "db00330.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "METFORMIN HYDROCHLORIDE",
+      "file": "db00331.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IPRATROPIUM BROMIDE",
+      "file": "db00332.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "OLANZAPINE",
+      "file": "db00334.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ATENOLOL",
+      "file": "db00335.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PIMECROLIMUS",
+      "file": "db00337.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "OMEPRAZOLE",
+      "file": "db00338.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PYRAZINAMIDE",
+      "file": "db00339.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CETIRIZINE HYDROCHLORIDE",
+      "file": "db00341.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DILTIAZEM HYDROCHLORIDE",
+      "file": "db00343.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NITISINONE",
+      "file": "db00348.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLOBAZAM",
+      "file": "db00349.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MINOXIDIL",
+      "file": "db00350.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SULFADIAZINE SODIUM",
+      "file": "db00359.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "VINORELBINE",
+      "file": "db00361.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SUCRALFATE",
+      "file": "db00364.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LEVONORGESTREL",
+      "file": "db00367.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MIRTAZAPINE",
+      "file": "db00370.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TIMOLOL",
+      "file": "db00373.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMLODIPINE",
+      "file": "db00381.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PROCYCLIDINE HYDROCHLORIDE",
+      "file": "db00387.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CARBIMAZOLE",
+      "file": "db00389.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DIGOXIN",
+      "file": "db00390.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BECLOMETHASONE DIPROPIONATE",
+      "file": "db00394.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PROGESTERONE",
+      "file": "db00396.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ZOLEDRONIC ACID",
+      "file": "db00399.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MUPIROCIN",
+      "file": "db00410.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PRAMIPEXOLE HYDROCHLORIDE",
+      "file": "db00413.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PHENOXYMETHYLPENICILLIN",
+      "file": "db00417.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SPIRONOLACTONE",
+      "file": "db00421.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "METHYLPHENIDATE HYDROCHLORIDE",
+      "file": "db00422.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PROCHLORPERAZINE",
+      "file": "db00433.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ALLOPURINOL",
+      "file": "db00437.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TRIMETHOPRIM",
+      "file": "db00440.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "GEMCITABINE HYDROCHLORIDE",
+      "file": "db00441.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ENTECAVIR",
+      "file": "db00442.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BETAMETHASONE DIPROPIONATE",
+      "file": "db00443.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "EPIRUBICIN HYDROCHLORIDE",
+      "file": "db00445.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CHLORAMPHENICOL",
+      "file": "db00446.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LANSOPRAZOLE",
+      "file": "db00448.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LEVOTHYROXINE",
+      "file": "db00451.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LORATADINE",
+      "file": "db00455.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PRAZOSIN",
+      "file": "db00457.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IMIPRAMINE HYDROCHLORIDE",
+      "file": "db00458.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TENOXICAM",
+      "file": "db00469.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MONTELUKAST",
+      "file": "db00471.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FLUOXETINE HYDROCHLORIDE",
+      "file": "db00472.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CHLORPROMAZINE HYDROCHLORIDE",
+      "file": "db00477.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LENALIDOMIDE",
+      "file": "db00480.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CELECOXIB",
+      "file": "db00482.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BRIMONIDINE TARTRATE",
+      "file": "db00484.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SOTALOL",
+      "file": "db00489.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BUSPIRONE HYDROCHLORIDE",
+      "file": "db00490.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ENTACAPONE",
+      "file": "db00494.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ZIDOVUDINE",
+      "file": "db00495.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FLUTAMIDE",
+      "file": "db00499.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "HALOPERIDOL",
+      "file": "db00502.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RITONAVIR",
+      "file": "db00503.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "VANCOMYCIN",
+      "file": "db00512.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CISPLATIN",
+      "file": "db00515.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ALBENDAZOLE",
+      "file": "db00518.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "METOLAZONE",
+      "file": "db00524.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "OXALIPLATIN",
+      "file": "db00526.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ERLOTINIB",
+      "file": "db00530.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CYCLOPHOSPHAMIDE",
+      "file": "db00531.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CIPROFLOXACIN",
+      "file": "db00537.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NORTRIPTYLINE HYDROCHLORIDE",
+      "file": "db00540.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FLUOROURACIL",
+      "file": "db00544.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PYRIDOSTIGMINE BROMIDE",
+      "file": "db00545.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PROPYLTHIOURACIL",
+      "file": "db00550.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LAMOTRIGINE",
+      "file": "db00555.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BOSENTAN",
+      "file": "db00559.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "METHOTREXATE",
+      "file": "db00563.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CARBAMAZEPINE",
+      "file": "db00564.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PROPRANOLOL",
+      "file": "db00571.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLONIDINE",
+      "file": "db00575.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LACTULOSE",
+      "file": "db00581.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "VORICONAZOLE",
+      "file": "db00582.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ENALAPRIL MALEATE",
+      "file": "db00584.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DICLOFENAC SODIUM",
+      "file": "db00586.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FLUTICASONE PROPIONATE",
+      "file": "db00588.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DOXAZOSIN",
+      "file": "db00590.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ETHOSUXIMIDE",
+      "file": "db00593.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMILORIDE HYDROCHLORIDE",
+      "file": "db00594.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LABETALOL",
+      "file": "db00598.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LINEZOLID",
+      "file": "db00601.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IVERMECTIN",
+      "file": "db00602.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MEDROXYPROGESTERONE ACETATE",
+      "file": "db00603.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BISOPROLOL FUMARATE",
+      "file": "db00612.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TRIAMCINOLONE ACETONIDE",
+      "file": "db00620.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TESTOSTERONE",
+      "file": "db00624.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "EFAVIRENZ",
+      "file": "db00625.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PREDNISONE",
+      "file": "db00635.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SIMVASTATIN",
+      "file": "db00641.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PEMETREXED",
+      "file": "db00642.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MEBENDAZOLE",
+      "file": "db00643.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NYSTATIN",
+      "file": "db00646.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LATANOPROST",
+      "file": "db00654.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "VERAPAMIL HYDROCHLORIDE",
+      "file": "db00661.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ADRENALINE",
+      "file": "db00668.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SUMATRIPTAN",
+      "file": "db00669.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TAMOXIFEN CITRATE",
+      "file": "db00675.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LOSARTAN POTASSIUM",
+      "file": "db00678.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMPHOTERICIN B",
+      "file": "db00681.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "WARFARIN SODIUM",
+      "file": "db00682.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MIDAZOLAM",
+      "file": "db00683.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TOBRAMYCIN",
+      "file": "db00684.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DAUNORUBICIN",
+      "file": "db00694.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "EPLERENONE",
+      "file": "db00700.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NALTREXONE HYDROCHLORIDE",
+      "file": "db00704.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TAMSULOSIN HYDROCHLORIDE",
+      "file": "db00706.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LAMIVUDINE",
+      "file": "db00709.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "APOMORPHINE HYDROCHLORIDE",
+      "file": "db00714.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PAROXETINE",
+      "file": "db00715.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NORETHISTERONE",
+      "file": "db00717.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LISINOPRIL",
+      "file": "db00722.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IMIQUIMOD",
+      "file": "db00724.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RISPERIDONE",
+      "file": "db00734.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RILUZOLE",
+      "file": "db00740.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "HYDROCORTISONE",
+      "file": "db00741.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MODAFINIL",
+      "file": "db00745.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TRETINOIN",
+      "file": "db00755.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLOPIDOGREL",
+      "file": "db00758.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TETRACYCLINE",
+      "file": "db00759.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "POTASSIUM CHLORIDE",
+      "file": "db00761.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IRINOTECAN HYDROCHLORIDE",
+      "file": "db00762.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "OLOPATADINE",
+      "file": "db00768.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ETOPOSIDE",
+      "file": "db00773.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ACICLOVIR",
+      "file": "db00787.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NAPROXEN",
+      "file": "db00788.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PERINDOPRIL",
+      "file": "db00790.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PRIMIDONE",
+      "file": "db00794.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SULFASALAZINE",
+      "file": "db00795.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CANDESARTAN CILEXETIL",
+      "file": "db00796.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "INDAPAMIDE",
+      "file": "db00808.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TROPICAMIDE",
+      "file": "db00809.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ACETAZOLAMIDE",
+      "file": "db00819.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DISULFIRAM",
+      "file": "db00822.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FOSFOMYCIN",
+      "file": "db00828.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DIAZEPAM",
+      "file": "db00829.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CEFACLOR MONOHYDRATE",
+      "file": "db00833.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MIFEPRISTONE",
+      "file": "db00834.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LOPERAMIDE HYDROCHLORIDE",
+      "file": "db00836.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DONEPEZIL HYDROCHLORIDE",
+      "file": "db00843.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLOFAZIMINE",
+      "file": "db00845.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DACARBAZINE",
+      "file": "db00851.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TEMOZOLOMIDE",
+      "file": "db00853.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TERBINAFINE",
+      "file": "db00857.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PENICILLAMINE",
+      "file": "db00859.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PREDNISOLONE",
+      "file": "db00860.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TACROLIMUS",
+      "file": "db00864.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SIROLIMUS",
+      "file": "db00877.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "EMTRICITABINE",
+      "file": "db00879.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CHLOROTHIAZIDE",
+      "file": "db00880.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "QUINAPRIL",
+      "file": "db00881.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLOMIFENE CITRATE",
+      "file": "db00882.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BUMETANIDE",
+      "file": "db00887.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BIMATOPROST",
+      "file": "db00905.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMANTADINE HYDROCHLORIDE",
+      "file": "db00915.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "METRONIDAZOLE",
+      "file": "db00916.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PHENOXYBENZAMINE HYDROCHLORIDE",
+      "file": "db00925.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FAMOTIDINE",
+      "file": "db00927.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AZACITIDINE",
+      "file": "db00928.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SALICYLIC ACID",
+      "file": "db00936.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SALMETEROL",
+      "file": "db00938.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FEXOFENADINE HYDROCHLORIDE",
+      "file": "db00950.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ISONIAZID",
+      "file": "db00951.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RIZATRIPTAN",
+      "file": "db00953.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CARBOPLATIN",
+      "file": "db00958.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "METHYLPREDNISOLONE",
+      "file": "db00959.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "METHYLDOPA",
+      "file": "db00968.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "EZETIMIBE",
+      "file": "db00973.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DIPYRIDAMOLE",
+      "file": "db00975.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CYCLOPENTOLATE HYDROCHLORIDE",
+      "file": "db00979.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ISOTRETINOIN",
+      "file": "db00982.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CYTARABINE",
+      "file": "db00987.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RIVASTIGMINE",
+      "file": "db00989.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AZATHIOPRINE",
+      "file": "db00993.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "GABAPENTIN",
+      "file": "db00996.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DOXORUBICIN HYDROCHLORIDE",
+      "file": "db00997.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SALBUTAMOL",
+      "file": "db01001.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "KETOPROFEN",
+      "file": "db01009.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLOBETASOL PROPIONATE",
+      "file": "db01013.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "GLIBENCLAMIDE",
+      "file": "db01016.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MINOCYCLINE HYDROCHLORIDE",
+      "file": "db01017.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FELODIPINE",
+      "file": "db01023.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "KETOCONAZOLE",
+      "file": "db01026.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PROBENECID",
+      "file": "db01032.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MERCAPTOPURINE",
+      "file": "db01033.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "THALIDOMIDE",
+      "file": "db01041.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MELPHALAN",
+      "file": "db01042.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RIFAMPICIN",
+      "file": "db01045.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IBUPROFEN",
+      "file": "db01050.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PRAZIQUANTEL",
+      "file": "db01058.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NORFLOXACIN",
+      "file": "db01059.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMOXICILLIN",
+      "file": "db01060.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "OXYBUTYNIN",
+      "file": "db01062.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MELATONIN",
+      "file": "db01065.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "GLIPIZIDE",
+      "file": "db01067.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLONAZEPAM",
+      "file": "db01068.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PROMETHAZINE HYDROCHLORIDE",
+      "file": "db01069.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ATORVASTATIN",
+      "file": "db01076.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "VIGABATRIN",
+      "file": "db01080.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PILOCARPINE HYDROCHLORIDE",
+      "file": "db01085.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PRIMAQUINE",
+      "file": "db01087.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ILOPROST",
+      "file": "db01088.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LEFLUNOMIDE",
+      "file": "db01097.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ROSUVASTATIN",
+      "file": "db01098.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CAPECITABINE",
+      "file": "db01101.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SERTRALINE",
+      "file": "db01104.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LEVOCABASTINE",
+      "file": "db01106.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "HEPARIN SODIUM",
+      "file": "db01109.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MICONAZOLE",
+      "file": "db01110.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PAPAVERINE HYDROCHLORIDE",
+      "file": "db01113.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NIFEDIPINE",
+      "file": "db01115.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMIODARONE HYDROCHLORIDE",
+      "file": "db01118.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DIAZOXIDE",
+      "file": "db01119.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "GLICLAZIDE",
+      "file": "db01120.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ECONAZOLE NITRATE",
+      "file": "db01127.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PIOGLITAZONE",
+      "file": "db01132.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CARVEDILOL",
+      "file": "db01136.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BUPROPION HYDROCHLORIDE",
+      "file": "db01156.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ITRACONAZOLE",
+      "file": "db01167.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PROCARBAZINE HYDROCHLORIDE",
+      "file": "db01168.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ARSENIC TRIOXIDE",
+      "file": "db01169.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MOCLOBEMIDE",
+      "file": "db01171.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ORPHENADRINE CITRATE",
+      "file": "db01173.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ESCITALOPRAM",
+      "file": "db01175.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CYCLIZINE HYDROCHLORIDE",
+      "file": "db01176.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IDARUBICIN HYDROCHLORIDE",
+      "file": "db01177.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PROPAFENONE HYDROCHLORIDE",
+      "file": "db01182.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NALOXONE HYDROCHLORIDE",
+      "file": "db01183.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLINDAMYCIN",
+      "file": "db01190.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BRINZOLAMIDE",
+      "file": "db01194.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FLECAINIDE ACETATE",
+      "file": "db01195.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CAPTOPRIL",
+      "file": "db01197.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ZOPICLONE",
+      "file": "db01198.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LEVETIRACETAM",
+      "file": "db01202.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NADOLOL",
+      "file": "db01203.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LOMUSTINE",
+      "file": "db01206.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLARITHROMYCIN",
+      "file": "db01211.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CEFTRIAXONE",
+      "file": "db01212.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FINASTERIDE",
+      "file": "db01216.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DANTROLENE",
+      "file": "db01219.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RIFAXIMIN",
+      "file": "db01220.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BUDESONIDE",
+      "file": "db01222.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "QUETIAPINE",
+      "file": "db01224.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ENOXAPARIN SODIUM",
+      "file": "db01225.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PACLITAXEL",
+      "file": "db01229.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "METOCLOPRAMIDE HYDROCHLORIDE",
+      "file": "db01233.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DEXAMETHASONE",
+      "file": "db01234.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ARIPIPRAZOLE",
+      "file": "db01238.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "EPOPROSTENOL",
+      "file": "db01240.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CLOMIPRAMINE HYDROCHLORIDE",
+      "file": "db01242.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DOCETAXEL",
+      "file": "db01248.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DASATINIB",
+      "file": "db01254.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "POSACONAZOLE",
+      "file": "db01263.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DARUNAVIR",
+      "file": "db01264.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PALIPERIDONE",
+      "file": "db01267.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SUNITINIB",
+      "file": "db01268.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IDURSULFASE",
+      "file": "db01271.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ALGLUCOSIDASE ALFA",
+      "file": "db01272.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "HYDRALAZINE HYDROCHLORIDE",
+      "file": "db01275.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "GALSULFASE",
+      "file": "db01279.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "INSULIN ASPART",
+      "file": "db01306.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "INSULIN GLULISINE",
+      "file": "db01309.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CEFAZOLIN",
+      "file": "db01327.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RASAGILINE",
+      "file": "db01367.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BEZAFIBRATE",
+      "file": "db01393.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "COLCHICINE",
+      "file": "db01394.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TIOTROPIUM BROMIDE",
+      "file": "db01409.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PAROMOMYCIN",
+      "file": "db01421.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ALFACALCIDOL",
+      "file": "db01436.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DIHYDROCODEINE TARTRATE",
+      "file": "db01551.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "URSODEOXYCHOLIC ACID",
+      "file": "db01586.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "EVEROLIMUS",
+      "file": "db01590.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SOLIFENACIN SUCCINATE",
+      "file": "db01591.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IRON",
+      "file": "db01592.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DEFERASIROX",
+      "file": "db01609.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ZUCLOPENTHIXOL HYDROCHLORIDE",
+      "file": "db01624.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PROPYLENE GLYCOL",
+      "file": "db01839.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "UREA",
+      "file": "db03904.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "THIOTEPA",
+      "file": "db04572.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TETRABENAZINE",
+      "file": "db04844.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FEBUXOSTAT",
+      "file": "db04854.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NILOTINIB",
+      "file": "db04868.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "VILDAGLIPTIN",
+      "file": "db04876.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PERMETHRIN",
+      "file": "db04930.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PIRFENIDONE",
+      "file": "db04951.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "USTEKINUMAB",
+      "file": "db05679.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TRASTUZUMAB EMTANSINE",
+      "file": "db05773.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ACETYLCYSTEINE",
+      "file": "db06151.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IPILIMUMAB",
+      "file": "db06186.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ICATIBANT",
+      "file": "db06196.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ELTROMBOPAG",
+      "file": "db06210.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TOLVAPTAN",
+      "file": "db06212.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TOCILIZUMAB",
+      "file": "db06273.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TERIPARATIDE",
+      "file": "db06285.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PERTUZUMAB",
+      "file": "db06366.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMBRISENTAN",
+      "file": "db06403.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ETRAVIRINE",
+      "file": "db06414.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PAZOPANIB",
+      "file": "db06589.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MIDOSTAURIN",
+      "file": "db06595.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MEPOLIZUMAB",
+      "file": "db06612.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AXITINIB",
+      "file": "db06626.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DENOSUMAB",
+      "file": "db06643.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LIRAGLUTIDE",
+      "file": "db06655.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BETAHISTINE DIHYDROCHLORIDE",
+      "file": "db06698.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CALCIUM CARBONATE",
+      "file": "db06724.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BENDAMUSTINE HYDROCHLORIDE",
+      "file": "db06769.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CAPSAICIN",
+      "file": "db06774.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LANREOTIDE",
+      "file": "db06791.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LODOXAMIDE",
+      "file": "db06794.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "METHENAMINE",
+      "file": "db06799.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RALTEGRAVIR POTASSIUM",
+      "file": "db06817.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TICAGRELOR",
+      "file": "db08816.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IVACAFTOR",
+      "file": "db08820.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DEFERIPRONE",
+      "file": "db08826.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CRIZOTINIB",
+      "file": "db08865.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FINGOLIMOD",
+      "file": "db08868.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BRENTUXIMAB VEDOTIN",
+      "file": "db08870.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TALIGLUCERASE ALFA",
+      "file": "db08876.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "RUXOLITINIB",
+      "file": "db08877.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TERIFLUNOMIDE",
+      "file": "db08880.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AFLIBERCEPT",
+      "file": "db08885.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BEDAQUILINE",
+      "file": "db08903.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DIMETHYL FUMARATE",
+      "file": "db08908.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "POMALIDOMIDE",
+      "file": "db08910.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TRAMETINIB",
+      "file": "db08911.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DABRAFENIB",
+      "file": "db08912.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DOLUTEGRAVIR",
+      "file": "db08930.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "OBINUTUZUMAB",
+      "file": "db08935.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BISACODYL",
+      "file": "db09020.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "VEDOLIZUMAB",
+      "file": "db09033.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NIVOLUMAB",
+      "file": "db09035.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "SILTUXIMAB",
+      "file": "db09036.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PEMBROLIZUMAB",
+      "file": "db09037.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "EMPAGLIFLOZIN",
+      "file": "db09038.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DULAGLUTIDE",
+      "file": "db09045.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "IBRUTINIB",
+      "file": "db09053.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ACIPIMOX",
+      "file": "db09055.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "OLAPARIB",
+      "file": "db09074.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LENVATINIB",
+      "file": "db09078.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NINTEDANIB",
+      "file": "db09079.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MAGNESIUM HYDROXIDE",
+      "file": "db09104.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "STIRIPENTOL",
+      "file": "db09118.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "POTASSIUM CITRATE",
+      "file": "db09125.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DOCUSATE SODIUM",
+      "file": "db11089.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "CALCIUM GLUCONATE",
+      "file": "db11126.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ALECTINIB",
+      "file": "db11363.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "VENETOCLAX",
+      "file": "db11581.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ATEZOLIZUMAB",
+      "file": "db11595.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "DURVALUMAB",
+      "file": "db11714.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NIRAPARIB",
+      "file": "db11793.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "OCRELIZUMAB",
+      "file": "db11988.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BENRALIZUMAB",
+      "file": "db12023.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "BENZBROMARONE",
+      "file": "db12319.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MEBEVERINE HYDROCHLORIDE",
+      "file": "db12554.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "NUSINERSEN",
+      "file": "db13161.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FERROUS SULFATE",
+      "file": "db13257.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "EMICIZUMAB",
+      "file": "db13923.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "TESTOSTERONE UNDECANOATE",
+      "file": "db13946.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "FERROUS FUMARATE",
+      "file": "db14491.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "LITHIUM CARBONATE",
+      "file": "db14509.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "MOMETASONE FUROATE",
+      "file": "db14512.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "HYDROCORTISONE ACETATE",
+      "file": "db14539.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "UPADACITINIB",
+      "file": "db15091.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "PREDNISOLONE ACETATE",
+      "file": "db15566.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    }
+  ]
+}
