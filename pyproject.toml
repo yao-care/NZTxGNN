@@ -5,11 +5,11 @@ description = "New Zealand Drug Repurposing Prediction System - Medsafe approved
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "httpx>=0.28.1",
     "beautifulsoup4>=4.14.3",
     "feedparser>=6.0.12",
     "lxml>=6.0.2",
     "numpy<3",
-    "openai>=1.0.0",
     "pandas>=2.2.0",
     "pubchempy>=1.0.5",
     "pytest>=9.0.2",
