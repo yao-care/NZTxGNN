@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-19T22:28:26.323879+00:00",
+  "fetched_at": "2026-04-19T23:30:39.775376+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -8,6 +8,76 @@
       "title": "Substantial amount of medical information provided by popular chatbots inaccurate and incomplete - NZDoctor",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdkE3Vnp0NnZsaHVrOVJabXZjTmFVbXktcUxvanRWOHNSQlVPNlJEMzNKLXR5QTlNU05YY2U2MWpfZFlrbWNoUkhvWDZtMVhWRVgwVWxqUFdOWjlMRks0ZVdnT1FVcHRXMFZpZmQzODl2Y3VPU0laYXRwMTgzLUpxWGhvQzNZbWUxZllBRk5aTWRvS3hwbm1rTFFtLVc0emF4QURjUDdrSjdpWEFTYmtQaXZ1eUtRR3phZU5VRzVkLUZjSFk?oc=5",
       "published": "2026-04-17T04:06:55+00:00",
+      "source": {
+        "name": "NZDoctor",
+        "url": "https://www.nzdoctor.co.nz"
+      }
+    },
+    {
+      "id": "10ee896a2f8d",
+      "title": "Trust and AI Adoption in Medicine - MedCity News",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfcy1rSzVKd3hnUVQ2SVN4eGpWTnRXM2pqeEREdUpqQ2R5NVhfb0Z6dzNVTEl1eEtOWE1nazUxZU91c2tOd0FYc2VtczdGb0dxRGFSaDc1ZE9KT1NuVGx4dW1fZDg0T1BCanhSNkZreGV2Y2ZC?oc=5",
+      "published": "2026-04-19T13:31:56+00:00",
+      "source": {
+        "name": "MedCity News",
+        "url": "https://medcitynews.com"
+      }
+    },
+    {
+      "id": "23cf81addc04",
+      "title": "What to know about methylene blue - Harvard Health",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNallzckNjaGx2Uk5aRHI1QldoMDBmak0yYlZlbDR2SU9oUk84SzZDdmZQWWl2V1lGSTk1YzBNRWdOZmZTSll6NzBzQ3dkeFlNQUtXc3JGVlZ5TVZnQTBVVUNUZ0tCOC05clRmbmtnN3RVRG9HVnhmT1Q4N1JJRXQwZzVJeWpFREtiUTF1dV9nYjZPeVlVSlE?oc=5",
+      "published": "2025-04-24T07:00:00+00:00",
+      "source": {
+        "name": "Harvard Health",
+        "url": "https://www.health.harvard.edu"
+      }
+    },
+    {
+      "id": "d4bfc2792a2e",
+      "title": "The medical AI revolution requires rethinking health care’s architecture - statnews.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcm4tNm54TUZtazRnQVgyZmNNVWlPX0NmRFRIcWJxN0pHZG4wcVFtWUoxd25SLUo2RlAwRlVrcHBrbFktTndfV1RNX3FzMlRaMDlzZ0hQT01uM0ZVOFZlSkk3SjNYbGpMV2xKOEktSE5tX3g5R3FHeEpCX3BXa1U2V1ROOUFQNHVnSzFkeUMyQmRXdlJO?oc=5",
+      "published": "2026-04-17T10:51:38+00:00",
+      "source": {
+        "name": "statnews.com",
+        "url": "https://www.statnews.com"
+      }
+    },
+    {
+      "id": "0e957564f1f8",
+      "title": "GLP-1 Medications for Weight Loss: How to Get Started - Yale Medicine",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnRKSW1oTWY4cjJVZHJ3RE9sUzNDRkR6djVvcy10dWdqWjFMNklEMy1rVVVaNFdQTHltaWJFcnFFYi1SbUpCNnJLX2liZ0dNM2RESGZ1a095VWwtVlc1Q2FmSmxVblR2dnZxRFlYVDdmMGtPcUd6YXV1WC1kSnVaNEhJYmd2UjZrdnNYZ1NRMA?oc=5",
+      "published": "2026-02-24T08:00:00+00:00",
+      "source": {
+        "name": "Yale Medicine",
+        "url": "https://www.yalemedicine.org"
+      }
+    },
+    {
+      "id": "a50c679a4009",
+      "title": "Turmeric benefits: A look at the evidence - Harvard Health",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ0haeGRfa0pqVkNiOHJJb2lpMWd2Q0ducVVyQ19NMGtHa2dPTzMtQTZaMkg3LWVHR1ZRYTZyRkNoNXZIcDFURmg3R2pGNUNybHJtQzJRa0tTa3NKR0dWUzNJVXk4cDZKTFJwdE1iM1dsaElrTVYxRHNKOS03eXRON3lfWWZsa3NQUHRKaDVQdDNqYnhwWXJCMGJHOXJlY1U5?oc=5",
+      "published": "2024-03-22T07:00:00+00:00",
+      "source": {
+        "name": "Harvard Health",
+        "url": "https://www.health.harvard.edu"
+      }
+    },
+    {
+      "id": "31c55c2bbef6",
+      "title": "Grapefruit and medication: A cautionary note - Harvard Health",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTVZEZ0UzSWlaY2pVbS1LazhZUDBqNHlzOE5OLVRPZUtHWlNqMmI0QjhNWGR6dWx0aldFcHRKSHVlX2xZUmVZaXFsOEVlZFU2VkZZc2V4M3ZrUi1ROVYwRUE0cXl4V0VBMEdZT0VGVEZFZ3laZ1FqQVl4WnNSYnA0QnRTM0txVFQ0amZQTVlFamdMeXI0bXlrYmlVcWtUbDU1WGI4Mg?oc=5",
+      "published": "2021-03-30T07:00:00+00:00",
+      "source": {
+        "name": "Harvard Health",
+        "url": "https://www.health.harvard.edu"
+      }
+    },
+    {
+      "id": "2dd9e103badb",
+      "title": "That’s not who we are: Defending public healthcare in Aotearoa - NZDoctor",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZEVNQlh2dFFVUGNDeVdOV2RIeGROTmxIQkVhV19BZUlVdjZfX1JCMWVHQ2ZwNXJzS1lXXzN2Y2F6TGVnNlBkZk1WMEhLci1CeHVHa2NzRmx3bXVIRHpMQ1V6eUVJZnFJSzJ0NXZSNGhyQUxOMGVjUXlELXZidk1URGdma3pSV0JuOElvZk5CV2ZrMFlXYXJJUmVnbTVwUTJROEc0MjNB?oc=5",
+      "published": "2026-04-19T22:36:55+00:00",
       "source": {
         "name": "NZDoctor",
         "url": "https://www.nzdoctor.co.nz"
@@ -34,16 +104,6 @@
       }
     },
     {
-      "id": "75d212ad2f89",
-      "title": "Where U.S. science has been hit hardest after Trump’s first year - The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTTN5VENfVXloOExOaGo2NHZGUWJ2T2xySnJ0RUxfbDdZMWdxVmxROVpmS3FIeUZwY0J2UW5BYVU1VE5VbWpuZG03RmtaMWdZUWxDanMwSDJwYnJHX1oxem5tbnEtdGFLOXBTVmM0SGJKdUJZdVhyb0tnelpYdmptYWsxdDRKOVFzM0hyUklzQQ?oc=5",
-      "published": "2026-04-19T17:00:00+00:00",
-      "source": {
-        "name": "The Washington Post",
-        "url": "https://www.washingtonpost.com"
-      }
-    },
-    {
       "id": "786911ac87c5",
       "title": "Medical education expert, experienced GP and NHS researcher appointed to lead New Zealand Graduate School of Medicine - University of Waikato",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWGxlUmxHTmdfQ19aMGdIVHpWWnhyeGdqRUVqSGpoZGRNSXp6V1RLWW9jNlNKZlNDR085WUZwU0xEbGlEYi15NmI2RENsRHRHaWtXRF9Bc1Z5ZEMwcV82dUpWd0F5djRTc0FEMXVUOGNrS0tQaXpCQzRrbHFyaFRMTHMxVmpqVmRIdkJHOHFDaW1CX3pqTURfVXRZb1FlbWxYdmV5QkpzUFg3SFlqTkI0dW5EelV4dmhWd3RLdEJfQld1OGZoVDFfYnVOZC1EXzdpQVBtMmRrUzE0bEs0VjJIc3BTM19vb09GdDBkZ21OWDc1dw?oc=5",
@@ -51,6 +111,16 @@
       "source": {
         "name": "University of Waikato",
         "url": "https://www.waikato.ac.nz"
+      }
+    },
+    {
+      "id": "75d212ad2f89",
+      "title": "Where U.S. science has been hit hardest after Trump’s first year - The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTTN5VENfVXloOExOaGo2NHZGUWJ2T2xySnJ0RUxfbDdZMWdxVmxROVpmS3FIeUZwY0J2UW5BYVU1VE5VbWpuZG03RmtaMWdZUWxDanMwSDJwYnJHX1oxem5tbnEtdGFLOXBTVmM0SGJKdUJZdVhyb0tnelpYdmptYWsxdDRKOVFzM0hyUklzQQ?oc=5",
+      "published": "2026-04-19T17:00:00+00:00",
+      "source": {
+        "name": "The Washington Post",
+        "url": "https://www.washingtonpost.com"
       }
     },
     {
@@ -64,16 +134,6 @@
       }
     },
     {
-      "id": "f6ff657968da",
-      "title": "NYU Langone Health neurologists present latest clinical findings and research at AAN 2026 - EurekAlert!",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nV0N2eFZ4aXluVHJEM1NMbnBVbndFT2pvclVGdVhoWDc4V2lSYzg1NnpweV9ka2JvYjQtX3VWb0xIeGUtSm45S1VlQnpjUUxIeHJnODVXMl9wM1dZ?oc=5",
-      "published": "2026-04-19T11:18:51+00:00",
-      "source": {
-        "name": "EurekAlert!",
-        "url": "https://www.eurekalert.org"
-      }
-    },
-    {
       "id": "77aa284eaf35",
       "title": "Weight loss leads to notable muscle loss, study finds - Medical Xpress",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95LWJPOUZkRFcyU18tR2xMM0VJa0ljQzZ1WjNiMHJMWGpxOTVPUDZqSUQwWDVHXzdKSDFmUGp2QlpjdEdHX1J3b1l1T0d3cE96eGlnTUh5MWI4R2ZJUVJLM0xYdkE3czluT19xZWNjdlQwbVRHcWFvQmRn?oc=5",
@@ -81,6 +141,16 @@
       "source": {
         "name": "Medical Xpress",
         "url": "https://medicalxpress.com"
+      }
+    },
+    {
+      "id": "f6ff657968da",
+      "title": "NYU Langone Health neurologists present latest clinical findings and research at AAN 2026 - EurekAlert!",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nV0N2eFZ4aXluVHJEM1NMbnBVbndFT2pvclVGdVhoWDc4V2lSYzg1NnpweV9ka2JvYjQtX3VWb0xIeGUtSm45S1VlQnpjUUxIeHJnODVXMl9wM1dZ?oc=5",
+      "published": "2026-04-19T11:18:51+00:00",
+      "source": {
+        "name": "EurekAlert!",
+        "url": "https://www.eurekalert.org"
       }
     },
     {
@@ -104,16 +174,6 @@
       }
     },
     {
-      "id": "19b7d9ac4397",
-      "title": "Should you really trust health advice from an AI chatbot? - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HdE1oUEpael9KeVVRUnZfeGhKbmgzdEVSS0hZU0VRZmZmWElhcXU1aWU5dWF4NHlIT3ZpeE90Z3RvS2RZYmRUT01rendNWWpkMkZHNC05TlpSZw?oc=5",
-      "published": "2026-04-18T23:04:43+00:00",
-      "source": {
-        "name": "BBC",
-        "url": "https://www.bbc.com"
-      }
-    },
-    {
       "id": "e5498d25d7b7",
       "title": "Overlooked Brain Connections Hold Clues to Cognition and Mental Health - Yale School of Medicine",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVFF3cWQxMDhMOXV2TXJBUG5qbm12VEhGVzFjYTBHNEM1QS1TY1kyQmdMOHBvNGROWTZGVWVjWEpqT0laWEFQRWFJekdCeUNrNVN1Y25JaW91cFVERnVGYkxCNE56ek9Iajd4Nnc4SjVvYWdGcWY5cGdSU0VYNVIyQVRhMktZRXBfZ2lhMmtPNUJfcWpQbFhmWWhReDFCYXpJdWt0N1h5Z2U4Q1M1TzZF?oc=5",
@@ -134,13 +194,13 @@
       }
     },
     {
-      "id": "ea3b3cdaf060",
-      "title": "AI brings traditional Chinese medicine closer to Portuguese public - Xinhua",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5UUG5vRkNYZUtVYUlLMTlHLXBLMEFrZjNEeTdBTmtXVGxKX0ZhXzNVYzNYeDNYajNmN3h0YUxrU0tJTkpObFJGU1pXOU0wVjVVMWNWeUtnTkdVaE9WV01KLVpCczg1QWVUX0tWRzVoVjM5dDlQRDZxRmtXRU0?oc=5",
-      "published": "2026-04-19T12:10:15+00:00",
+      "id": "19b7d9ac4397",
+      "title": "Should you really trust health advice from an AI chatbot? - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HdE1oUEpael9KeVVRUnZfeGhKbmgzdEVSS0hZU0VRZmZmWElhcXU1aWU5dWF4NHlIT3ZpeE90Z3RvS2RZYmRUT01rendNWWpkMkZHNC05TlpSZw?oc=5",
+      "published": "2026-04-18T23:04:43+00:00",
       "source": {
-        "name": "Xinhua",
-        "url": "https://english.news.cn"
+        "name": "BBC",
+        "url": "https://www.bbc.com"
       }
     },
     {
@@ -177,7 +237,7 @@
       "id": "0d3fa2879be3",
       "title": "Opinion | Cannabis is neither harmless nor a cure-all - The Washington Post",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOejNtdG5JcTZKRjlLaVpNUWYzUVBMVFI5dmlZVFYtaE9kT18wUTEzN1pTX28yRWhnT1RHWmNTb1EwNC1KN2M5YUgxMWtXQ3o0MTBJanl2ZXJsSFItRHF1SkN6emc4Wl9ZaTMxc3JjZXNtOW5XNzJ0VFVQQ0doRmFIVGE2d25MM1QxWXRMMV83WE91RWx4U19TaWl5MWF5alpJbWMxRl8wZw?oc=5",
-      "published": "2026-04-19T21:48:39+00:00",
+      "published": "2026-04-19T23:18:39+00:00",
       "source": {
         "name": "The Washington Post",
         "url": "https://www.washingtonpost.com"
@@ -201,6 +261,16 @@
       "source": {
         "name": "University of Waikato",
         "url": "https://www.waikato.ac.nz"
+      }
+    },
+    {
+      "id": "ea3b3cdaf060",
+      "title": "AI brings traditional Chinese medicine closer to Portuguese public - Xinhua",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5UUG5vRkNYZUtVYUlLMTlHLXBLMEFrZjNEeTdBTmtXVGxKX0ZhXzNVYzNYeDNYajNmN3h0YUxrU0tJTkpObFJGU1pXOU0wVjVVMWNWeUtnTkdVaE9WV01KLVpCczg1QWVUX0tWRzVoVjM5dDlQRDZxRmtXRU0?oc=5",
+      "published": "2026-04-19T12:10:15+00:00",
+      "source": {
+        "name": "Xinhua",
+        "url": "https://english.news.cn"
       }
     },
     {
@@ -274,16 +344,6 @@
       }
     },
     {
-      "id": "eab743bb5304",
-      "title": "He joined Arizona's street medicine team. It changed him forever - azcentral.com and The Arizona Republic",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUGhMakROU2ZnNk5nVGJxT2lNTUx4TnhWd05SaXAxLUp5Nno1b0hZVzJqcmFsNmp0V1FubnlIbk8xQlo5UkVoaGNpc3RobHEzQi1XT29kOWVnYTVLTDRIalE1M0pFVXNYWkhPQW8wLVVNTXBHM21CMHJfQXJGQTRlQUs3MTg3VnVNanlZNHlEWk5nTExqQlFna1NiR3RLTlJ5X25OczJJQVFDRVBOUWxyUGxiZ1lBTVFld0RtWDNhTUExcnhRdlhIelZ3YTJ3emFGTFl6MVUxNU9SMExWVlB0T2ln?oc=5",
-      "published": "2026-04-19T11:01:00+00:00",
-      "source": {
-        "name": "azcentral.com and The Arizona Republic",
-        "url": "https://www.azcentral.com"
-      }
-    },
-    {
       "id": "2d2f9c3e7291",
       "title": "How Soil Bacteria Could Help Solve Antibiotic Resistance - News-Medical",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWWFka2pTaWY2Wm1aOHVSTXJPLXNlVC1uTUh3TXdvSklVeVg1Ym1jUWI1SE43S3lNUFR4SGFvNUlkQWFlc3lENlJJaWVBWW5pZG1DamNvaTZZM3ZyYUpWeE82RlAyTHhTaVBfdnhGQzNXY3NrdC0wMEhTWThKV3ZtcXA4NUUydGduLUQ5YnRrR1pMSXRTd09oZWNZVkgwdw?oc=5",
@@ -294,13 +354,13 @@
       }
     },
     {
-      "id": "10ee896a2f8d",
-      "title": "Trust and AI Adoption in Medicine - MedCity News",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfcy1rSzVKd3hnUVQ2SVN4eGpWTnRXM2pqeEREdUpqQ2R5NVhfb0Z6dzNVTEl1eEtOWE1nazUxZU91c2tOd0FYc2VtczdGb0dxRGFSaDc1ZE9KT1NuVGx4dW1fZDg0T1BCanhSNkZreGV2Y2ZC?oc=5",
-      "published": "2026-04-19T13:31:56+00:00",
+      "id": "eab743bb5304",
+      "title": "He joined Arizona's street medicine team. It changed him forever - azcentral.com and The Arizona Republic",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUGhMakROU2ZnNk5nVGJxT2lNTUx4TnhWd05SaXAxLUp5Nno1b0hZVzJqcmFsNmp0V1FubnlIbk8xQlo5UkVoaGNpc3RobHEzQi1XT29kOWVnYTVLTDRIalE1M0pFVXNYWkhPQW8wLVVNTXBHM21CMHJfQXJGQTRlQUs3MTg3VnVNanlZNHlEWk5nTExqQlFna1NiR3RLTlJ5X25OczJJQVFDRVBOUWxyUGxiZ1lBTVFld0RtWDNhTUExcnhRdlhIelZ3YTJ3emFGTFl6MVUxNU9SMExWVlB0T2ln?oc=5",
+      "published": "2026-04-19T11:01:00+00:00",
       "source": {
-        "name": "MedCity News",
-        "url": "https://medcitynews.com"
+        "name": "azcentral.com and The Arizona Republic",
+        "url": "https://www.azcentral.com"
       }
     },
     {
@@ -321,6 +381,16 @@
       "source": {
         "name": "Medical Xpress",
         "url": "https://medicalxpress.com"
+      }
+    },
+    {
+      "id": "4b372a0a3372",
+      "title": "Carolyn Muruthi: Can Traditional Medicine Hold the Key to Modern Oncology? - Oncodaily",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14ajBFZFUxRFhnNTgwSkp4b2FlZ25EajlYSWltX0s3UWVieDc5UjdVdXRDanBrNGlFX3REQVNYRUw1eU5BejhXRjFGaHJQUmt4bjZvV0I3dEZyTUJER1F4dQ?oc=5",
+      "published": "2026-04-19T16:57:20+00:00",
+      "source": {
+        "name": "Oncodaily",
+        "url": "https://oncodaily.com"
       }
     },
     {
@@ -354,16 +424,6 @@
       }
     },
     {
-      "id": "d8e5c2277c6d",
-      "title": "Long-term cure rates for multidrug-resistant tuberculosis much better than expected - Medical Xpress",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa2Z1T3RtbEVlOWQ5c0ozdE1lT3Blb1RjTVY1WUpUSnI2bFBkY2dCWFpydmQ5S28yZ3l0ZlVJRlBBSHdtX2JPUU96S1phY3E4OE1aVDZiNHFNaWJjek4zVG80LTQ2NF8zV25TQ1NIUktweV9PSTVrVk44RW9nMkRzcmRWV0t5c1dk?oc=5",
-      "published": "2026-04-16T21:40:04+00:00",
-      "source": {
-        "name": "Medical Xpress",
-        "url": "https://medicalxpress.com"
-      }
-    },
-    {
       "id": "8fb5c2a14a5e",
       "title": "'Huge milestone': Medical students could be on way to Whanganui - NZ Herald",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbUY1b1hycnV4bTRmTU00eVQ4c1FWOUJaN2xmcnZkMExkUVo5S1FKOVc5djBla0xxeEtjRlJ0cVRrckw0SnlsWUhFUTA3dEQ5TExRX0liSVlodi0tLW5qcUlWSDRxa2RQWFFMelNpdTZJMDJjLXA5TGRBU3kwemU0Ymwwd0taOGVTVlVINjl0eFhHbjV5c3BOd0s1X1U1bTAtazlhTTRmRThOUndyVWpfZ21yX0M3dHYzeUQxS1VCOVpJVm9pUlVqRVZrZEU5UllsbjhwSjRUWjRUVlVzcmZwQ2xMOEluVHdob0E3cks2clc?oc=5",
@@ -381,16 +441,6 @@
       "source": {
         "name": "Stellenbosch University",
         "url": "https://www.su.ac.za"
-      }
-    },
-    {
-      "id": "cdbe8bd36f70",
-      "title": "Opening up about farmers’ mental health - UW School of Medicine and Public Health",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aN2VCdWRMWDdMODVqdDUxc2ViVmYtd1FEalhydWFOVUx6cWI4WHhrc2hEeEEzV0ozcHk3cHJPVThELW5zUU9KY2FBbk92NFVUaHR3cFVjcmxPMVAxUmtNVWtSU1RZa2NnU21ENUo2c1FpMlYtMy1GWQ?oc=5",
-      "published": "2026-04-15T12:42:16+00:00",
-      "source": {
-        "name": "UW School of Medicine and Public Health",
-        "url": "https://www.med.wisc.edu"
       }
     },
     {
@@ -414,6 +464,26 @@
       }
     },
     {
+      "id": "8af7d312e261",
+      "title": "Obesity, GLP-1s, and metabolic care - News-Medical",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUlVkdmxVM045NWFjbERuRk13dDdIMHVISDFFUFBMZVNSRURfaS1jR29LX0ZrWWlwMWdMTE9vSWtjSzY4dlo4RHNCYzNyRkR3Sl9qMlNFcWJheWhGSk41bmZJWWo3Q21qUWNIbjhEOWtLaDJTdy1LQUZLOUVvdGNjUEZHZWlValZ6?oc=5",
+      "published": "2026-04-17T12:51:00+00:00",
+      "source": {
+        "name": "News-Medical",
+        "url": "https://www.news-medical.net"
+      }
+    },
+    {
+      "id": "0a1c4afa9d01",
+      "title": "New study highlights fructose’s unique role in metabolic disease - News-Medical",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSzdydklTaUVlemVaSktpWG9yTjZ5bThQU3kyOXVxdE93NW5JLWt0NFlaZVV3VWRtWlA2SS1UaS1oaWR5Z0ViQnZnckNmZDFnbUo1cjFsQkM2cWppVmxmQk1qWnVaM3F2eUJjMFl4bktYUnFxZjAwVm5uV0FlQ1dMVU1wX2lyOWpvRXpQeDhyUV9KTUJTSjJ5NzJGc1hFbUtQaVdiRjJleDNrNGt6V1NWLWZIdC1uVS1m?oc=5",
+      "published": "2026-04-17T14:45:00+00:00",
+      "source": {
+        "name": "News-Medical",
+        "url": "https://www.news-medical.net"
+      }
+    },
+    {
       "id": "eb1480d0eaab",
       "title": "Chikungunya therapy shows promise in first-in-human study - Healio",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZWlRcllvUmdCTWNxUFJ0MG5RWTY5ZmdWTVRPVVU0MXR2T2RVV1Y5dlVjeS04cFhseE1lS1pLQ1Blc0JFb0oyYm5iZm5WSWNRdk5mcG1md3ZoV3g2SXVhcmdtVWU5WURPQ1VkMDU2SmNvNU9kQzFmQ0tiaUt2d3owM3BNUVVtM2Utd2FOdzE5emhSeWdzV3BRZ0hLY3pDWkFKaGJtaWVzS1dvVk9ncUdtdg?oc=5",
@@ -434,43 +504,13 @@
       }
     },
     {
-      "id": "8af7d312e261",
-      "title": "Obesity, GLP-1s, and metabolic care - News-Medical",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUlVkdmxVM045NWFjbERuRk13dDdIMHVISDFFUFBMZVNSRURfaS1jR29LX0ZrWWlwMWdMTE9vSWtjSzY4dlo4RHNCYzNyRkR3Sl9qMlNFcWJheWhGSk41bmZJWWo3Q21qUWNIbjhEOWtLaDJTdy1LQUZLOUVvdGNjUEZHZWlValZ6?oc=5",
-      "published": "2026-04-17T12:51:00+00:00",
+      "id": "ee9c59051ed0",
+      "title": "Physical activity for public health in the 21st century - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ja1djazBaZV93akd0UC1UQUZrSkRLUXZBdXF4Z0pIbE1UUUoyTUhVSGVzYU80V2kzYmJDb3h0UzVDR3NKbXJEWkdXenZHSWwxbkZLV0d0YUNfRGJsTHpn?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "News-Medical",
-        "url": "https://www.news-medical.net"
-      }
-    },
-    {
-      "id": "2cb93e3d730a",
-      "title": "TRANSFORMING LIVES THROUGH MEDICAL OUTREACH - Ministry of Defence – Kenya",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZOW9RS0l2LTNQdXpOcDNzMnBKWGZqNU8weHJ4TU9Lam13Y0tBWHh1ZDlMaVN6UXdlbzNJbWdQNUVMUm1mdkV6bW5EcGFxZm9ERHdZMmZpMkpPZlVDa0hOWlZ3c0dBSkFEZ3BFYlNZRWlXR0ctWkxzQnVZTQ?oc=5",
-      "published": "2026-04-19T13:49:52+00:00",
-      "source": {
-        "name": "Ministry of Defence – Kenya",
-        "url": "https://www.mod.go.ke"
-      }
-    },
-    {
-      "id": "0a1c4afa9d01",
-      "title": "New study highlights fructose’s unique role in metabolic disease - News-Medical",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSzdydklTaUVlemVaSktpWG9yTjZ5bThQU3kyOXVxdE93NW5JLWt0NFlaZVV3VWRtWlA2SS1UaS1oaWR5Z0ViQnZnckNmZDFnbUo1cjFsQkM2cWppVmxmQk1qWnVaM3F2eUJjMFl4bktYUnFxZjAwVm5uV0FlQ1dMVU1wX2lyOWpvRXpQeDhyUV9KTUJTSjJ5NzJGc1hFbUtQaVdiRjJleDNrNGt6V1NWLWZIdC1uVS1m?oc=5",
-      "published": "2026-04-17T14:45:00+00:00",
-      "source": {
-        "name": "News-Medical",
-        "url": "https://www.news-medical.net"
-      }
-    },
-    {
-      "id": "f20fc575993b",
-      "title": "WV medical student elected to national leadership role in osteopathic family medicine - WV News",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNYjlHeUF0ZXpkSFdBYzN4bVp0XzRqVS1sVFR2ZlNEVmxlLWE0M3dSUWFLZ0tkSk1UT1hzUm4tNTFrR1U0endyRllkdTJqVjNqV0U3OEZiMGVuM1M4aGZLYWx5M0U1YUU4TERNeXNqT19pUDMxejM0MkxackRlUFNrYzdHTkFOOUFKTXFwTkl2SWJEUE55cUtScmhZQXp6MDJfQ2FuWk5MaVZPMGtlbHFNektKQk5Ld2drR3NsMVhQRGRPUkhfNzZ3bWFiZDU2aTV5NDgweHU5Zks1RkFnLWJ0endzSm9TWkhQWmkyYU45RGhCYkprcWl2Ml9NM2VRaWs?oc=5",
-      "published": "2026-04-19T17:34:00+00:00",
-      "source": {
-        "name": "WV News",
-        "url": "https://www.wvnews.com"
+        "name": "Nature",
+        "url": "https://www.nature.com"
       }
     },
     {
@@ -484,16 +524,6 @@
       }
     },
     {
-      "id": "ee9c59051ed0",
-      "title": "Physical activity for public health in the 21st century - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ja1djazBaZV93akd0UC1UQUZrSkRLUXZBdXF4Z0pIbE1UUUoyTUhVSGVzYU80V2kzYmJDb3h0UzVDR3NKbXJEWkdXenZHSWwxbkZLV0d0YUNfRGJsTHpn?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Nature",
-        "url": "https://www.nature.com"
-      }
-    },
-    {
       "id": "cfc16c105f6f",
       "title": "How long does a transplanted heart last? - Medical Xpress",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vVDJaLWZYSm9pT01VZ0Yzdjh6RkhfTVYwcTNQOXlYZzJrcDhFSTFHa2NQSWRELW02TEdtb3E5TmhWTzlOTEZ1M3l1dkF1c1d5MDRJVjFrQ09qN3lHaUZZbHVHcVp3enY0R242SlNhYw?oc=5",
@@ -501,6 +531,16 @@
       "source": {
         "name": "Medical Xpress",
         "url": "https://medicalxpress.com"
+      }
+    },
+    {
+      "id": "2cb93e3d730a",
+      "title": "TRANSFORMING LIVES THROUGH MEDICAL OUTREACH - Ministry of Defence – Kenya",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZOW9RS0l2LTNQdXpOcDNzMnBKWGZqNU8weHJ4TU9Lam13Y0tBWHh1ZDlMaVN6UXdlbzNJbWdQNUVMUm1mdkV6bW5EcGFxZm9ERHdZMmZpMkpPZlVDa0hOWlZ3c0dBSkFEZ3BFYlNZRWlXR0ctWkxzQnVZTQ?oc=5",
+      "published": "2026-04-19T13:49:52+00:00",
+      "source": {
+        "name": "Ministry of Defence – Kenya",
+        "url": "https://www.mod.go.ke"
       }
     },
     {
@@ -524,13 +564,13 @@
       }
     },
     {
-      "id": "350e13b76dfc",
-      "title": "Celebrating tiny triumphs: Marian's annual NICU reunion unites families and caregivers - Santa Maria Times",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTUFRT0pjaEt0bmpORXBJdmgzYlpCcFdCN3BCNFlYbGlaTWVmN3UzUVFxcmtVVnAxVXYtV0RQX3hITXp4Yl81Nm5fZ2pJR2Jld1pLM1FXcXVNbjYtZElobEc2U2haTGMyYzdQZU9TU2FUQTJId3FYV3lyazJDOGJ6Z3NDRnJ1WGwwR0dXc3doZzB1Q3Nma1FOZjRhdjNrNzFsUkE2ekpUUm02QWRNa3lrRnAtOFlIZXBCZzR4elZuZGo0YjhoQndfNXBEM3NfWWYtMXlWR09PMWdDZmtnWmNTbU5LR0NReDJ5d21GUkVXQW5TWGRVYkhBOU8xNlg3aUk4WTFB0gGIAkFVX3lxTE1vcEVYazFOUExiRS1JaUFrd1dJLU9tUy1LZTE3WnNwT1pSUlhWb0V0eFR0OFBza2h2NGZvYnphbExRaGpIdE9lNXl6RXlhaHJScEZjRUpMVU1MZklUQVY4WllCMFhnOFE1UkY4V1lTdnUxc3lSUEE3OVRwdWJGLVhaTEZIdElGUHAtX1BNNTFDd1pLTklOenlkS2RkdDZONnh1R1ZGS01wVm8wZ3ZaaHBkRTNwUlpRcDAxX3l1OG1HZkVSaHphNVBmZkUxRnVuU3VCSjZqbC1Ia2lzQVh4TDVlRTVJdW1JSUdYUDM3ejRESTBpV3BjS2J0V19uWTBUekpobkE0RVRWZw?oc=5",
-      "published": "2026-04-19T22:00:00+00:00",
+      "id": "f20fc575993b",
+      "title": "WV medical student elected to national leadership role in osteopathic family medicine - WV News",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNYjlHeUF0ZXpkSFdBYzN4bVp0XzRqVS1sVFR2ZlNEVmxlLWE0M3dSUWFLZ0tkSk1UT1hzUm4tNTFrR1U0endyRllkdTJqVjNqV0U3OEZiMGVuM1M4aGZLYWx5M0U1YUU4TERNeXNqT19pUDMxejM0MkxackRlUFNrYzdHTkFOOUFKTXFwTkl2SWJEUE55cUtScmhZQXp6MDJfQ2FuWk5MaVZPMGtlbHFNektKQk5Ld2drR3NsMVhQRGRPUkhfNzZ3bWFiZDU2aTV5NDgweHU5Zks1RkFnLWJ0endzSm9TWkhQWmkyYU45RGhCYkprcWl2Ml9NM2VRaWs?oc=5",
+      "published": "2026-04-19T17:34:00+00:00",
       "source": {
-        "name": "Santa Maria Times",
-        "url": "https://santamariatimes.com"
+        "name": "WV News",
+        "url": "https://www.wvnews.com"
       }
     },
     {
@@ -541,6 +581,16 @@
       "source": {
         "name": "ASU News",
         "url": "https://news.asu.edu"
+      }
+    },
+    {
+      "id": "350e13b76dfc",
+      "title": "Celebrating tiny triumphs: Marian's annual NICU reunion unites families and caregivers - Santa Maria Times",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTUFRT0pjaEt0bmpORXBJdmgzYlpCcFdCN3BCNFlYbGlaTWVmN3UzUVFxcmtVVnAxVXYtV0RQX3hITXp4Yl81Nm5fZ2pJR2Jld1pLM1FXcXVNbjYtZElobEc2U2haTGMyYzdQZU9TU2FUQTJId3FYV3lyazJDOGJ6Z3NDRnJ1WGwwR0dXc3doZzB1Q3Nma1FOZjRhdjNrNzFsUkE2ekpUUm02QWRNa3lrRnAtOFlIZXBCZzR4elZuZGo0YjhoQndfNXBEM3NfWWYtMXlWR09PMWdDZmtnWmNTbU5LR0NReDJ5d21GUkVXQW5TWGRVYkhBOU8xNlg3aUk4WTFB0gGIAkFVX3lxTE1vcEVYazFOUExiRS1JaUFrd1dJLU9tUy1LZTE3WnNwT1pSUlhWb0V0eFR0OFBza2h2NGZvYnphbExRaGpIdE9lNXl6RXlhaHJScEZjRUpMVU1MZklUQVY4WllCMFhnOFE1UkY4V1lTdnUxc3lSUEE3OVRwdWJGLVhaTEZIdElGUHAtX1BNNTFDd1pLTklOenlkS2RkdDZONnh1R1ZGS01wVm8wZ3ZaaHBkRTNwUlpRcDAxX3l1OG1HZkVSaHphNVBmZkUxRnVuU3VCSjZqbC1Ia2lzQVh4TDVlRTVJdW1JSUdYUDM3ejRESTBpV3BjS2J0V19uWTBUekpobkE0RVRWZw?oc=5",
+      "published": "2026-04-19T22:00:00+00:00",
+      "source": {
+        "name": "Santa Maria Times",
+        "url": "https://santamariatimes.com"
       }
     },
     {
@@ -584,16 +634,6 @@
       }
     },
     {
-      "id": "84b44743ea66",
-      "title": "Lung Cancer: Are Pesticides Driving Cases in People Under 50? - Healthline",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYW1oQ0l3S3ZwZ1RUNlZtV1NoVTNfOTZQZndCRWhPcE1kN3RGdk1pdHE3THhmSFB3dFQ5RUFkYW0wTjZ6TS16RHViS0dwVXZsNm1VYXVTU0E0N05jMVBwaXUwaVIteV95QWpYdXVDUGlGd3hJZFJRODVzQ2w2QVB4c1hKckx2WnEyNEE3VWZJUURJTEVaMk15VmlQN3c?oc=5",
-      "published": "2026-04-19T16:23:20+00:00",
-      "source": {
-        "name": "Healthline",
-        "url": "https://www.healthline.com"
-      }
-    },
-    {
       "id": "3237878b7ce4",
       "title": "‘Forever chemicals’ detected in dolphin milk - EurekAlert!",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1SW1zNkJCN1M2S0FiNkdQNnNuU3Jqd1BfS2J6aHV0bVVBQ1JvN0E0cFhaN0tsUzdNVU5CQXdMRHVUQU00bzV1Q09OMldLOTVTUmtHeXJKYTh4TDNE?oc=5",
@@ -624,23 +664,13 @@
       }
     },
     {
-      "id": "e7ba4af81128",
-      "title": "Hong Kong’s spinal muscular atrophy patients seek aid for injection therapy - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNEVmbldtRU1Gb0hLVU1CeTdKSTViUmhnYzRMTWk0UnRPOGJLZFdjYml2d2t1NUlZOGRFNG1sX19mMW1wenh4emxvSVNLWnlGM3dRZmN2M3VMdzlfQlQ2YzFwQ1NVaUVOMGVfTVkxWDFtNXkxbEFzRWVzQXZXWkszY19MN2FNcks2RFFSMWY0U0VkU3hXaFhWWVJnVXc5VFhZZXpqUXE1WlUxMS1ERWttdy1uQ0VNNzE0Njd1czctSHVVT0xSUTlzXzRKcHVxSHE5cGtSbzJaQ3HSAdgBQVVfeXFMTVlxZHN3VDh0SHRzVFpCbS1RQ0J0a2xmWnhCdHZwczd3akJGcXNmSHl3NG9mUzNYZ3l2eXJkUy1VVFY4UU9HdXpjZk5URmtmR2xUMXpTM0pqUWdYYklIUzUyMERnVmtyVlZYY0pYbWNPLWxCNmJRY0w3ZmlqNzc3MVBwNFkyVklZSFNmamR0SVJZLUUzNDVZYnZ3YVFJVkp1WmF5MlI3ZmFlSDkwSUtnc3FkdWNqS3NXa0ZUbXhWd3BPSDlRYlEzc1diV01qaHhRRDFxcFBDWWM3?oc=5",
-      "published": "2026-04-19T13:30:17+00:00",
+      "id": "84b44743ea66",
+      "title": "Lung Cancer: Are Pesticides Driving Cases in People Under 50? - Healthline",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYW1oQ0l3S3ZwZ1RUNlZtV1NoVTNfOTZQZndCRWhPcE1kN3RGdk1pdHE3THhmSFB3dFQ5RUFkYW0wTjZ6TS16RHViS0dwVXZsNm1VYXVTU0E0N05jMVBwaXUwaVIteV95QWpYdXVDUGlGd3hJZFJRODVzQ2w2QVB4c1hKckx2WnEyNEE3VWZJUURJTEVaMk15VmlQN3c?oc=5",
+      "published": "2026-04-19T16:23:20+00:00",
       "source": {
-        "name": "South China Morning Post",
-        "url": "https://www.scmp.com"
-      }
-    },
-    {
-      "id": "31fe1bd0f0a1",
-      "title": "Hospital Reuses Syringes, Infects Hundreds of Children With HIV - Futurism",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2MlRoMTdHc3NmV01rdHNhc2dqN3BhQXB1c3F2Yl9XaDlnZ0liY3hROVFwSklwUW1lT3lUQ19sRngxcGdDMUNuWkh5RnlCYVhoNVRyc2lWSTlPTzczR3NsMVV5ellma1h5RjJSUnl6ZGdVZklr?oc=5",
-      "published": "2026-04-19T11:30:00+00:00",
-      "source": {
-        "name": "Futurism",
-        "url": "https://futurism.com"
+        "name": "Healthline",
+        "url": "https://www.healthline.com"
       }
     },
     {
@@ -654,6 +684,16 @@
       }
     },
     {
+      "id": "e7ba4af81128",
+      "title": "Hong Kong’s spinal muscular atrophy patients seek aid for injection therapy - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNEVmbldtRU1Gb0hLVU1CeTdKSTViUmhnYzRMTWk0UnRPOGJLZFdjYml2d2t1NUlZOGRFNG1sX19mMW1wenh4emxvSVNLWnlGM3dRZmN2M3VMdzlfQlQ2YzFwQ1NVaUVOMGVfTVkxWDFtNXkxbEFzRWVzQXZXWkszY19MN2FNcks2RFFSMWY0U0VkU3hXaFhWWVJnVXc5VFhZZXpqUXE1WlUxMS1ERWttdy1uQ0VNNzE0Njd1czctSHVVT0xSUTlzXzRKcHVxSHE5cGtSbzJaQ3HSAdgBQVVfeXFMTVlxZHN3VDh0SHRzVFpCbS1RQ0J0a2xmWnhCdHZwczd3akJGcXNmSHl3NG9mUzNYZ3l2eXJkUy1VVFY4UU9HdXpjZk5URmtmR2xUMXpTM0pqUWdYYklIUzUyMERnVmtyVlZYY0pYbWNPLWxCNmJRY0w3ZmlqNzc3MVBwNFkyVklZSFNmamR0SVJZLUUzNDVZYnZ3YVFJVkp1WmF5MlI3ZmFlSDkwSUtnc3FkdWNqS3NXa0ZUbXhWd3BPSDlRYlEzc1diV01qaHhRRDFxcFBDWWM3?oc=5",
+      "published": "2026-04-19T13:30:17+00:00",
+      "source": {
+        "name": "South China Morning Post",
+        "url": "https://www.scmp.com"
+      }
+    },
+    {
       "id": "15f4ceec7b7e",
       "title": "Shift seen in WA drug use: more smoking, less injecting - UW Medicine | Newsroom",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPS2dxWXdYV21JVEhtM2pwZWVnT19HekwxTzA0R3Uyc2NPMG1JX2lqUjJUYW83Si14akJEZ1VQVHduNHZDbndsNWl1ckxZckxjQzU1QlY4ZFZBek94UnlHSEszbXJPM00xZzgtVjdVVmRNbnUxQXViZnFCWkx3b3NxLURUUmFHVWRfRHBxdU0tWFFQN3M5R3c?oc=5",
@@ -664,13 +704,23 @@
       }
     },
     {
-      "id": "ce8b2c420139",
-      "title": "Study finds popular AI chatbots often give problematic health advice - News-Medical",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYm1uV0M0VWxwTWVKeFJLWTJMaDVEOHM2VFByMzJ4bDhvaEFSR0ZtWllaTUxBWnFzUTNoV09XS1FtTGNYU0Q1US1pY3JIaXc1TTkxM3JiVzgwZE1nbDBxTF9xWUthMGJlVkVRZEhwbVpyLVBLTHlETDVXUmxPcm5JTFlmWnpTTC1sRk1Gd2FRZWtjT0lQTU9LUVQ1ZERtWnJtWVBmNmtGUVBqTWIzdExlZ2FrZ2RfYUU?oc=5",
-      "published": "2026-04-17T00:32:00+00:00",
+      "id": "4245f56084d8",
+      "title": "Sleep deprivation disrupts gut microbiota, worsening colorectal cancer outcomes - Medical Xpress",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVXZGLUYzVVVqVl9QOVhuMXdPbVdzbXh4NWZkV0ZjcUFQUzV3cjJMWUxYZVBDN3M3aUxMQmFJMFR3SkpGalZtcDNWajNUY0k5Z1gwTGZpcHJBQVpJT2ZnZEFEc29kSjkxUzdEY1ktZGhFMEwzd3VkUTI3SG9jZThPOENRSVYwY0hlMnNrSm9LaUJDU0E?oc=5",
+      "published": "2026-04-16T20:00:11+00:00",
       "source": {
-        "name": "News-Medical",
-        "url": "https://www.news-medical.net"
+        "name": "Medical Xpress",
+        "url": "https://medicalxpress.com"
+      }
+    },
+    {
+      "id": "31fe1bd0f0a1",
+      "title": "Hospital Reuses Syringes, Infects Hundreds of Children With HIV - Futurism",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2MlRoMTdHc3NmV01rdHNhc2dqN3BhQXB1c3F2Yl9XaDlnZ0liY3hROVFwSklwUW1lT3lUQ19sRngxcGdDMUNuWkh5RnlCYVhoNVRyc2lWSTlPTzczR3NsMVV5ellma1h5RjJSUnl6ZGdVZklr?oc=5",
+      "published": "2026-04-19T11:30:00+00:00",
+      "source": {
+        "name": "Futurism",
+        "url": "https://futurism.com"
       }
     },
     {
@@ -681,6 +731,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "ce8b2c420139",
+      "title": "Study finds popular AI chatbots often give problematic health advice - News-Medical",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYm1uV0M0VWxwTWVKeFJLWTJMaDVEOHM2VFByMzJ4bDhvaEFSR0ZtWllaTUxBWnFzUTNoV09XS1FtTGNYU0Q1US1pY3JIaXc1TTkxM3JiVzgwZE1nbDBxTF9xWUthMGJlVkVRZEhwbVpyLVBLTHlETDVXUmxPcm5JTFlmWnpTTC1sRk1Gd2FRZWtjT0lQTU9LUVQ1ZERtWnJtWVBmNmtGUVBqTWIzdExlZ2FrZ2RfYUU?oc=5",
+      "published": "2026-04-17T00:32:00+00:00",
+      "source": {
+        "name": "News-Medical",
+        "url": "https://www.news-medical.net"
       }
     },
     {
@@ -744,26 +804,6 @@
       }
     },
     {
-      "id": "3878d0ad2a38",
-      "title": "Oregon measles outbreak grows, with more community transmission - Jefferson Public Radio",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWGJvLUplSG5HUFdkMUcxcERCaWJERHVIWTJpc2trVTlwcFJPc29KZEdWLVNGS3ZIbkxmOVg3dXlJT2xEaFRuZkNkQ3FJZTA3THoxZG9pNFJaZFg0dTNvWV9ESGloNFNZRVBubGtzajF2Y0hEMEZ1QS0tZnlPYjRqaFJkWjhDWmNfd1Y5RDg4ZVh0Y0htaTBKNUYtcWdYNmZSejFBUnY5NkNKS0wySDFDdWtsZ2U?oc=5",
-      "published": "2026-04-19T13:43:00+00:00",
-      "source": {
-        "name": "Jefferson Public Radio",
-        "url": "https://www.ijpr.org"
-      }
-    },
-    {
-      "id": "4e2e862ded02",
-      "title": "Scientists Intrigued by Nasal Spray That Reverse Brain Aging in Mice, Say It May Work on Humans as Well - Futurism",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YUHFCd1Q3VUxvWHNZTTFyZ2RCcngzdHF2dy1rTjY1WnZyTHZMNUFPZHFsYmdTUkNjaHNmdjFqZUpKU25oTHlVTE11SzhVMVoxd0xZcjVkb3hjRkNTR01panU1WjRFXzloZmN3REtxY085OEt4eDdEVC1iN1BKZw?oc=5",
-      "published": "2026-04-19T14:30:00+00:00",
-      "source": {
-        "name": "Futurism",
-        "url": "https://futurism.com"
-      }
-    },
-    {
       "id": "7006839ae126",
       "title": "It doesn’t matter how much you sit — walking more could lower your risk of death and disease - ScienceDaily",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jdFRpYlNjOE9qYWI4NFVMOW9RNkYwY01UNEhHZ1ZFTGZyd2JpV3NUQmRndFVOU0QteThtSEZHeUg2RkF2OUxPWUxzcnhqS3RxQW9oeTRjczMzODFrVnZLZ1VCTV85Rkd1cGpwaTFqMA?oc=5",
@@ -771,6 +811,16 @@
       "source": {
         "name": "ScienceDaily",
         "url": "https://www.sciencedaily.com"
+      }
+    },
+    {
+      "id": "3878d0ad2a38",
+      "title": "Oregon measles outbreak grows, with more community transmission - Jefferson Public Radio",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWGJvLUplSG5HUFdkMUcxcERCaWJERHVIWTJpc2trVTlwcFJPc29KZEdWLVNGS3ZIbkxmOVg3dXlJT2xEaFRuZkNkQ3FJZTA3THoxZG9pNFJaZFg0dTNvWV9ESGloNFNZRVBubGtzajF2Y0hEMEZ1QS0tZnlPYjRqaFJkWjhDWmNfd1Y5RDg4ZVh0Y0htaTBKNUYtcWdYNmZSejFBUnY5NkNKS0wySDFDdWtsZ2U?oc=5",
+      "published": "2026-04-19T13:43:00+00:00",
+      "source": {
+        "name": "Jefferson Public Radio",
+        "url": "https://www.ijpr.org"
       }
     },
     {
@@ -804,13 +854,13 @@
       }
     },
     {
-      "id": "ff2b58c3f3e5",
-      "title": "University of Idaho expands health care workforce plans - University of Idaho",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE04X0t5bWZGZjFMcXNYMlEza1R0LWRxakQwbEpmcW1HYklyektGMFlTclVKdmh1R1VaWFV0Sk5JNjFJb0djblQ0OWJXU3p1aGdESVdjN3JpUHgyYjltZzBNUnk5WVRjRF9ud1ZuR3NHY0Q3WnM?oc=5",
-      "published": "2026-04-16T07:00:00+00:00",
+      "id": "4e2e862ded02",
+      "title": "Scientists Intrigued by Nasal Spray That Reverse Brain Aging in Mice, Say It May Work on Humans as Well - Futurism",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YUHFCd1Q3VUxvWHNZTTFyZ2RCcngzdHF2dy1rTjY1WnZyTHZMNUFPZHFsYmdTUkNjaHNmdjFqZUpKU25oTHlVTE11SzhVMVoxd0xZcjVkb3hjRkNTR01panU1WjRFXzloZmN3REtxY085OEt4eDdEVC1iN1BKZw?oc=5",
+      "published": "2026-04-19T14:30:00+00:00",
       "source": {
-        "name": "University of Idaho",
-        "url": "https://www.uidaho.edu"
+        "name": "Futurism",
+        "url": "https://futurism.com"
       }
     },
     {
@@ -841,16 +891,6 @@
       "source": {
         "name": "Medical Design & Outsourcing",
         "url": "https://www.medicaldesignandoutsourcing.com"
-      }
-    },
-    {
-      "id": "d8137ab23547",
-      "title": "Stony Brook Medicine Showcased Mobile Stroke Unit and Advanced Robotic Platforms During East Campus Day Visit - Stony Brook Medicine",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOY2J6S042dzdwUmJnajNlNWEya1UtU2FvaC1IMzdRSVRMd29qQ0xmQ0FGSzBzdHhDQ1pKeDZCX3dwb0NfUlk5b1hzSkZqTmRmOUhRTTdiektpUVNxNDZGTzRwRzZDWnkxS0JvYURSTXA1bzc4N1ZnU0Ria0lSOFFFakpuQkVFSDNEbWVXRDFZRlpqVW9qSVZiUTNodDlsbTAtMk9NMVpybThrM2hmNkRfbmJlOG5kVUc5aWdvM2pwNEdPNnd6SUt0RU12aVBUYWtKTXNyVWRDM1Ezb3JRR2FxWVluRXo?oc=5",
-      "published": "2026-04-17T03:13:27+00:00",
-      "source": {
-        "name": "Stony Brook Medicine",
-        "url": "https://news.stonybrookmedicine.edu"
       }
     },
     {
@@ -904,16 +944,6 @@
       }
     },
     {
-      "id": "1d032f5361a1",
-      "title": "Is your home blood pressure monitor accurate? - Harvard Health",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRHdaREt1VkVab1MzeVlMVk5UYTV5aldLbjVOVmlkdGNBd2Fxc3hUQWtxdEtDQjk0VjZaV3VlZUJCbTVWZ0RYZ1VTTjB4VVlkcVA5Sm9mcmdkV2pTVEVIdjk1MGUwWWtzX3R3aFVIeG9vX0tCQ1VOQVR6OVlURFpCNU1pRzBTREZpZ3BqcGQwdmRTVzV5Zmt4a1ptZFhJUQ?oc=5",
-      "published": "2026-04-16T19:26:24+00:00",
-      "source": {
-        "name": "Harvard Health",
-        "url": "https://www.health.harvard.edu"
-      }
-    },
-    {
       "id": "94dcee01c53a",
       "title": "WHO global report on traditional, complementary and integrative medicine 2024 - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wa09EdElkdVN4eHEtN3BZaEVpdzEtVDNsVUxnWjAzZDJsSVBXalNxRUFUbGM4aFlVa3RtSW1KeTFwREs5eTM0WFYyQ3dVNHg4VG5lR01KTXpKQk1ta2djdVNlOA?oc=5",
@@ -921,6 +951,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "1d032f5361a1",
+      "title": "Is your home blood pressure monitor accurate? - Harvard Health",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRHdaREt1VkVab1MzeVlMVk5UYTV5aldLbjVOVmlkdGNBd2Fxc3hUQWtxdEtDQjk0VjZaV3VlZUJCbTVWZ0RYZ1VTTjB4VVlkcVA5Sm9mcmdkV2pTVEVIdjk1MGUwWWtzX3R3aFVIeG9vX0tCQ1VOQVR6OVlURFpCNU1pRzBTREZpZ3BqcGQwdmRTVzV5Zmt4a1ptZFhJUQ?oc=5",
+      "published": "2026-04-16T19:26:24+00:00",
+      "source": {
+        "name": "Harvard Health",
+        "url": "https://www.health.harvard.edu"
       }
     },
     {
@@ -954,26 +994,6 @@
       }
     },
     {
-      "id": "2b405c5c3a09",
-      "title": "Stony Brook Medicine Spotlights Advances in Brain Health and Aging - Stony Brook Medicine",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVBvbVlqTkpXOFA4VEpkV3Ztclltb3FZWVdiSEVrajRwRVZLWXpqMThDclhwNk9lNlBTc3ZFaGFGY0NiR0ZSb1lLOHNpal80MDlMS3VMUEIwdkhPcV9JV3FGRkFxNjJrUEpKdmVFR2NYMVBVcV9TSTljQ1dUdjJtWUlRUlU3X2cwaF9oVlV1Y21DTWdPMm1qQTBqZ2t6REtSZzF3MWg0enRua1k?oc=5",
-      "published": "2026-04-17T03:18:27+00:00",
-      "source": {
-        "name": "Stony Brook Medicine",
-        "url": "https://news.stonybrookmedicine.edu"
-      }
-    },
-    {
-      "id": "58db9bc46832",
-      "title": "Penn Medicine, Children's Hospital of Philadelphia team awarded Breakthrough Prize for developing gene therapy for inherited blindness - PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxObGw5VkZjM3VkZnFXT096Z1RGVVRtQW84TGJUVHpSTjUyYVhvRk14bmtWam5NSTVPdGUtNE9iT19ibXVsVjRUSmh0MmVUVHZhaXIxOUtiMmd0TjEwM0RWc3Y0cVlzQ3o2ZjhUYnVFMkNObFBIRkVWSWN1QWdhNS1LYm5zbEN1ZXJjMkxkbTU2Q1ZDQkFBUU1lWVdxcVlxRGZraWFaQmw1NlgzSlQxY1M2NDVsUkI4ZS1qQkxwNHE2YmVNZ0lVVDdLMHdrWWFWZDRFS2Z4Y3l6dWllSEpDbXpyOGVGM2pjNWVkSkkxRVVZSGFSb0RxYmZmSTJ0STQzVm8yOUtRNmJEUjBoaU12Mm0waEYxTUFFcFU?oc=5",
-      "published": "2026-04-18T23:01:00+00:00",
-      "source": {
-        "name": "PR Newswire",
-        "url": "https://www.prnewswire.com"
-      }
-    },
-    {
       "id": "394464ff1056",
       "title": "Experimental drug doubles one-year survival in pancreatic cancer - Live Science",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ1I4Q3IySWl1UDBDWUpFdWJFZzFNcTJ3YTJmUllvMEt6SHdpb05LMVFjOHMyc21tZ1pZcExVRmR5Vkd3dW5NMHJDUFZIdVFaeE1wUTQ2NzNLTldzd3JHTWx2cDEtZ3ZWYnFBbzUxcFlhNkZjaHNYcHB6am5md3ZCQ1lyOHlTQllDZk81UVVSM2JwcUhJeTBxaTFLWHpkM1dCWHVabUFIR2c2LXJYYUVuRGZMdXg?oc=5",
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Live Science",
         "url": "https://www.livescience.com"
-      }
-    },
-    {
-      "id": "ee7be9e52cfc",
-      "title": "A physician discusses the future of kidney transplantation - michiganmedicine.org",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV0UxUEJvQWxIOGx1UFZ6Y3FfLWdSLVVaWHgySVlGWEJLMlA4OWkxOTJGLUFfWWs0eEQxYWZqUDJYdUV5djJzRjFfSnBXVDV4MV9aa0xSeHhUcGQ5VEp2blg2WFlsdVJPTmFoMEU2aUdLbmVDcGxzY09tNi00QVdsbDJHbnREU2EySWM0Y0JBM0Q1T3pldVJjZQ?oc=5",
-      "published": "2026-04-17T12:00:00+00:00",
-      "source": {
-        "name": "michiganmedicine.org",
-        "url": "https://www.michiganmedicine.org"
-      }
-    },
-    {
-      "id": "e3171bcd139f",
-      "title": "ChatGPT Health performance in a structured test of triage recommendations - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rRkk1OUpGNUVkSENodzF4dzJVbVNJUXFCMnl2RE9YY2hKTkx0QTlnS0s0QlFjSGpoSmdYSFJDdmNSWmNwTG1fdDB2QnpFNC1CRTZ1dmgzSGNmQVRFLVBF?oc=5",
-      "published": "2026-02-23T08:00:00+00:00",
-      "source": {
-        "name": "Nature",
-        "url": "https://www.nature.com"
       }
     }
   ]
