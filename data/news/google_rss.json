@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-05-03T18:49:42.060728+00:00",
+  "fetched_at": "2026-05-03T19:50:21.178032+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "a29e43d767eb",
+      "title": "Medicinal cannabis stigmatised 'even within the medical community', doctor says - RNZ",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORUV1bmxCWnYyRGVNQnBTcVA1LW9HdnlxQVEtSFhuRTJyakJPZl9kQ3NnLUI5aVZSM1lQN2hLV0R3OVlzYnRDM2M2YzZRUHN2OXpEOHpnRW1iYk5tX3NtZE40Yk1SdEJXQVZ5Ni1QRHhpM1NKdV9uTlZqOFVqUVZaSGRURy1renBQa1pSM2lVT0tkNWdBUTJGaTVhNEJpd3hjS1p2dy1TQ0FmUHIwTURjZjJaNDBldjVr?oc=5",
+      "published": "2026-05-03T18:45:53+00:00",
+      "source": {
+        "name": "RNZ",
+        "url": "https://www.rnz.co.nz"
+      }
+    },
     {
       "id": "821ce1e9c2f4",
       "title": "Leg burns suffered following laser hair removal - 21HDC02815 - NZ Doctor",
@@ -41,16 +51,6 @@
       "source": {
         "name": "Nature",
         "url": "https://www.nature.com"
-      }
-    },
-    {
-      "id": "bf48934e79a8",
-      "title": "New medicine funding could be life-saving for rural areas, health expert says - RNZ",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMTEzM0s2clRqaldGbzJBbmV2VDJ1NERJdWtsSEZPN25HcFQ1N1NMa2JzMzB1X2tDRUJxeUVzeTdBeTFHNUQxZ2h2MnhQaDZadmZBbVhiT1ljVXNMLXRIN0hRWVpHLTlhRWo5TjRJMnNnYnhHT1dYczZ1WXFFM1pGSC1sN09mQ0Z5bDFXTVdIZjF0NUtWLUtpOG9qM05uZ3VRVmk3Sll2R2ktVGNpbHlHOF9JUDdxT20zdEE?oc=5",
-      "published": "2026-02-10T08:00:00+00:00",
-      "source": {
-        "name": "RNZ",
-        "url": "https://www.rnz.co.nz"
       }
     },
     {
@@ -134,26 +134,6 @@
       }
     },
     {
-      "id": "15bea631c2b7",
-      "title": "Bridging the Gap: A Cross-Sectional Study of Hemodialysis Services and Patient Psychosocial Burden in Semi-urban Punjab, Pakistan - Cureus",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTkhJNG5qNVJuRkk0cGM2ZEJiOGh0eUtMRk53YjgzSTViRHhEbkVZUEs3VlU3cGtCakE2cjVxV0UwWUpzTTBWS25oNG1UbG1OM3RrTGlHQ1hWNHpCd25kVXpNVkszdUtZSVpLdGJrc1pZSWlhbDRrV01udUd6cmtIZGlZX1lnQ1lISlQwUTJvY1h0UnoxN0JwZWl4aWd2eTBVWE1aS241cnlLVU1DZkVEQjBnTDlfcmFYTTNsUW1wZkVCeWpNeTBrakIxQ3dZY21VS1RTRzZFdWRPTWtfR2dFWHhqeXF6eFVxaWFVd0xzV2pVQnJoVnV0WV93?oc=5",
-      "published": "2026-05-03T11:28:16+00:00",
-      "source": {
-        "name": "Cureus",
-        "url": "https://www.cureus.com"
-      }
-    },
-    {
-      "id": "f25c3065354d",
-      "title": "The \"Pentastack\" of Illegal Drugs That Looksmaxxers Like Clavicular Are Taking to Enjoy a Night Out Sounds Like a One-Way Trip to the Hospital - Futurism",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUbnBhT0pXUE96V1IxOTI3V0EzRjVzR1ZLOGgya0NieGdMTU51X2JsMXdNaldVN3FfTnYweGVLVVNCZFBxM3hIYzlUZWU5MGRKd1BHNmVQdG5TWDZlV1ByZHI3NTFPVm1LcTFkajVLcWlsV251?oc=5",
-      "published": "2026-05-03T13:00:00+00:00",
-      "source": {
-        "name": "Futurism",
-        "url": "https://futurism.com"
-      }
-    },
-    {
       "id": "02f174c518fb",
       "title": "West Point graduate takes next big step – medical school - UCLA Health",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR0xjdENoUW9DZGQ4eXNNcDYybGNjclQ4Nmk3NHQ5cXNFZVNOY08tVzRtMHVqYmloZEViTTIxRWdreGozcERHZVZjVzhmYmR6UUxiR1R2RnIzdVR6UndDUVlvZ0hzWXR4dERYYW52anN1VjZjMUNUbkhwbVA3UmJrZERJT1JVSy1pMG5oM0hfaF82Mmk5RjNvZVBB?oc=5",
@@ -161,6 +141,16 @@
       "source": {
         "name": "UCLA Health",
         "url": "https://www.uclahealth.org"
+      }
+    },
+    {
+      "id": "bf48934e79a8",
+      "title": "New medicine funding could be life-saving for rural areas, health expert says - RNZ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMTEzM0s2clRqaldGbzJBbmV2VDJ1NERJdWtsSEZPN25HcFQ1N1NMa2JzMzB1X2tDRUJxeUVzeTdBeTFHNUQxZ2h2MnhQaDZadmZBbVhiT1ljVXNMLXRIN0hRWVpHLTlhRWo5TjRJMnNnYnhHT1dYczZ1WXFFM1pGSC1sN09mQ0Z5bDFXTVdIZjF0NUtWLUtpOG9qM05uZ3VRVmk3Sll2R2ktVGNpbHlHOF9JUDdxT20zdEE?oc=5",
+      "published": "2026-02-10T08:00:00+00:00",
+      "source": {
+        "name": "RNZ",
+        "url": "https://www.rnz.co.nz"
       }
     },
     {
@@ -184,16 +174,6 @@
       }
     },
     {
-      "id": "8d6ca07b5e83",
-      "title": "Associate Health Minister Seymour pushing for more medicine funding in next year's Budget - RNZ",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQR09rVDA2M3RpWXVqRmFDWDBFWTJQVVJGU01YOTdqR2VWNTNYTDlqMUx3NC1LbGg2UXFfTnd2ZTlCNE9mQnU4OGdFcEJGbHF1ZEV5TGQ0WkFjODdCODFRLWJ1dnJMb0ZBeEdPa0szbzRydEE4eHp5ZkE5bDRJWWtPT2ZyOGFVcGlxWVZvNEc1RXVlRHdjaHhvcHZncmFfVjBlWURJcXdfa3I4b3FOZlM2RW83cHRSX1RaYUFBZ2VNWkdza2E2R05zVU5zZTN2dw?oc=5",
-      "published": "2025-10-04T07:00:00+00:00",
-      "source": {
-        "name": "RNZ",
-        "url": "https://www.rnz.co.nz"
-      }
-    },
-    {
       "id": "a793e264367b",
       "title": "Leading health experts to advise on new medical school - University of Waikato",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKY3EwX0QyLU9BRXU2MVhYaXNCcV9RZXAxRVBTOGE2VUpNTGRhY1E5ZWpOMnlNaUtDRWRmclNHOVYtSHo5NjBxRG5POUNfZnBZZzhJRm5JUzVVQzh6RDlYUTdCSURqa2RfUk9rY1ZXUHhOQnRP?oc=5",
@@ -201,6 +181,16 @@
       "source": {
         "name": "University of Waikato",
         "url": "https://www.waikato.ac.nz"
+      }
+    },
+    {
+      "id": "8d6ca07b5e83",
+      "title": "Associate Health Minister Seymour pushing for more medicine funding in next year's Budget - RNZ",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQR09rVDA2M3RpWXVqRmFDWDBFWTJQVVJGU01YOTdqR2VWNTNYTDlqMUx3NC1LbGg2UXFfTnd2ZTlCNE9mQnU4OGdFcEJGbHF1ZEV5TGQ0WkFjODdCODFRLWJ1dnJMb0ZBeEdPa0szbzRydEE4eHp5ZkE5bDRJWWtPT2ZyOGFVcGlxWVZvNEc1RXVlRHdjaHhvcHZncmFfVjBlWURJcXdfa3I4b3FOZlM2RW83cHRSX1RaYUFBZ2VNWkdza2E2R05zVU5zZTN2dw?oc=5",
+      "published": "2025-10-04T07:00:00+00:00",
+      "source": {
+        "name": "RNZ",
+        "url": "https://www.rnz.co.nz"
       }
     },
     {
@@ -224,23 +214,23 @@
       }
     },
     {
-      "id": "df0954753172",
-      "title": "What a great Iowa humanitarian, Bill Foege, taught me | Opinion - The Des Moines Register",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRUY0bUVHOE1JZlhaVmd6eVpKWHBjZGFfTm91MnY1cHZZYVZybzBmbnhlczVVaDNJeTM0czFOdzdGRG9iNHhsYXE5akRyU0VOc0x5UG81dWtaNjBYS3FBWmhMNDRVa3k3RXJaZXJETzZjU0pTR3RzVk1HcEdmWHllOHEyYU9qR3dlZmlqWDRLaGI5RWo2VU1iYXZwZm9fdGV2NEpKNi1ENjNQLVRuSlNLVDQwUW5XcVllZDhOdHdLMA?oc=5",
-      "published": "2026-05-03T14:29:00+00:00",
+      "id": "15bea631c2b7",
+      "title": "Bridging the Gap: A Cross-Sectional Study of Hemodialysis Services and Patient Psychosocial Burden in Semi-urban Punjab, Pakistan - Cureus",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTkhJNG5qNVJuRkk0cGM2ZEJiOGh0eUtMRk53YjgzSTViRHhEbkVZUEs3VlU3cGtCakE2cjVxV0UwWUpzTTBWS25oNG1UbG1OM3RrTGlHQ1hWNHpCd25kVXpNVkszdUtZSVpLdGJrc1pZSWlhbDRrV01udUd6cmtIZGlZX1lnQ1lISlQwUTJvY1h0UnoxN0JwZWl4aWd2eTBVWE1aS241cnlLVU1DZkVEQjBnTDlfcmFYTTNsUW1wZkVCeWpNeTBrakIxQ3dZY21VS1RTRzZFdWRPTWtfR2dFWHhqeXF6eFVxaWFVd0xzV2pVQnJoVnV0WV93?oc=5",
+      "published": "2026-05-03T11:28:16+00:00",
       "source": {
-        "name": "The Des Moines Register",
-        "url": "https://www.desmoinesregister.com"
+        "name": "Cureus",
+        "url": "https://www.cureus.com"
       }
     },
     {
-      "id": "aedb66a1a58c",
-      "title": "The body’s most mysterious organ may play a key role in longevity and cancer - The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdEtkYXRZMVd6VFVFRVRSZV9GY2E1eUdsRFh3aHhwZ015UTVfbm9JNFNJR2NhRWJpOG1Odms4cnF2QUlPZ19sTnowdU9vV25DcGZIenBTdlJBRUl2MmVSTVBTU05pNDB1R0FfOUhLS3pWY2UyQTVaM0RNekQ0NjdmT3hNUUdSaEFyYlE?oc=5",
-      "published": "2026-05-03T16:29:34+00:00",
+      "id": "f25c3065354d",
+      "title": "The \"Pentastack\" of Illegal Drugs That Looksmaxxers Like Clavicular Are Taking to Enjoy a Night Out Sounds Like a One-Way Trip to the Hospital - Futurism",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUbnBhT0pXUE96V1IxOTI3V0EzRjVzR1ZLOGgya0NieGdMTU51X2JsMXdNaldVN3FfTnYweGVLVVNCZFBxM3hIYzlUZWU5MGRKd1BHNmVQdG5TWDZlV1ByZHI3NTFPVm1LcTFkajVLcWlsV251?oc=5",
+      "published": "2026-05-03T13:00:00+00:00",
       "source": {
-        "name": "The Washington Post",
-        "url": "https://www.washingtonpost.com"
+        "name": "Futurism",
+        "url": "https://futurism.com"
       }
     },
     {
@@ -254,20 +244,30 @@
       }
     },
     {
+      "id": "df0954753172",
+      "title": "What a great Iowa humanitarian, Bill Foege, taught me | Opinion - The Des Moines Register",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRUY0bUVHOE1JZlhaVmd6eVpKWHBjZGFfTm91MnY1cHZZYVZybzBmbnhlczVVaDNJeTM0czFOdzdGRG9iNHhsYXE5akRyU0VOc0x5UG81dWtaNjBYS3FBWmhMNDRVa3k3RXJaZXJETzZjU0pTR3RzVk1HcEdmWHllOHEyYU9qR3dlZmlqWDRLaGI5RWo2VU1iYXZwZm9fdGV2NEpKNi1ENjNQLVRuSlNLVDQwUW5XcVllZDhOdHdLMA?oc=5",
+      "published": "2026-05-03T14:29:00+00:00",
+      "source": {
+        "name": "The Des Moines Register",
+        "url": "https://www.desmoinesregister.com"
+      }
+    },
+    {
+      "id": "aedb66a1a58c",
+      "title": "The body’s most mysterious organ may play a key role in longevity and cancer - The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdEtkYXRZMVd6VFVFRVRSZV9GY2E1eUdsRFh3aHhwZ015UTVfbm9JNFNJR2NhRWJpOG1Odms4cnF2QUlPZ19sTnowdU9vV25DcGZIenBTdlJBRUl2MmVSTVBTU05pNDB1R0FfOUhLS3pWY2UyQTVaM0RNekQ0NjdmT3hNUUdSaEFyYlE?oc=5",
+      "published": "2026-05-03T17:00:00+00:00",
+      "source": {
+        "name": "The Washington Post",
+        "url": "https://www.washingtonpost.com"
+      }
+    },
+    {
       "id": "06c6eede4a0b",
       "title": "An endurance limit that surfaces in punishing races may begin at birth - Medical Xpress",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5URUZzYjhoX0ZqNHZMbWQ3elYyUkZsM3RvTlk2ekdqalVULWVXMWY1Q2hoS0FjTU9fNFE1b0gyRm1Ya1hNZVVZV2VYalVNSWdmY3RJMVZVWmhESVNaSGNJcmdQN3pIZExRZkItWDdEOEJOQQ?oc=5",
       "published": "2026-04-30T23:20:04+00:00",
-      "source": {
-        "name": "Medical Xpress",
-        "url": "https://medicalxpress.com"
-      }
-    },
-    {
-      "id": "72ec95723ecc",
-      "title": "Blocking a cellular inflammation process could result in effective therapy for pancreatic cancer - Medical Xpress",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQVBoUkZRWmRpS3Y0bGhseE9rNHdCT2NPVDZFaGdudFRPVTVJLUE4eGxSVW1zenpuakRYMElGRkVKdmZLN0g1STRraFNpXzdDSGFKekZjaFZ5cWFXc2YyZWREakllM1VnZk5uX3dLUEJiOEtEWmE0ZGdrLUgtMU5XRklSYU82NmlXZDdkMC1oZzVoUUFvbmc?oc=5",
-      "published": "2026-05-03T12:00:05+00:00",
       "source": {
         "name": "Medical Xpress",
         "url": "https://medicalxpress.com"
@@ -294,6 +294,16 @@
       }
     },
     {
+      "id": "72ec95723ecc",
+      "title": "Blocking a cellular inflammation process could result in effective therapy for pancreatic cancer - Medical Xpress",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQVBoUkZRWmRpS3Y0bGhseE9rNHdCT2NPVDZFaGdudFRPVTVJLUE4eGxSVW1zenpuakRYMElGRkVKdmZLN0g1STRraFNpXzdDSGFKekZjaFZ5cWFXc2YyZWREakllM1VnZk5uX3dLUEJiOEtEWmE0ZGdrLUgtMU5XRklSYU82NmlXZDdkMC1oZzVoUUFvbmc?oc=5",
+      "published": "2026-05-03T12:00:05+00:00",
+      "source": {
+        "name": "Medical Xpress",
+        "url": "https://medicalxpress.com"
+      }
+    },
+    {
       "id": "43262e7eb0a6",
       "title": "3 Medical Routines That Older People May Not Need - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeDBSWjFWYUNpS05DWHdmaXpZZl80ZHFGeEpES0MzNnhRTmpUV3NyMUUxOHdxa0I2TGoxa0lEbDMzNDhBMXhlTWlVQ0tRcld2c3lOTExSNktDbkl0RXJwX0tZTTQyUFFwekFrTnRGUFVjU2dNRWRveWZhZUJrcUhCckM2YlhRQlI3Ry1WZ2p4RQ?oc=5",
@@ -301,16 +311,6 @@
       "source": {
         "name": "The New York Times",
         "url": "https://www.nytimes.com"
-      }
-    },
-    {
-      "id": "6dd1c5c5e942",
-      "title": "Don’t toss cannabis leaves: Scientists found rare compounds with medical potential - ScienceDaily",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sak12NGhmSmU5a09fWFdIZnFMRnJGazdjaGZZUkZFUU9uMlNZMktWU2F1bTdMbTRJTFJBck9GdWlOSzh2X0hvY0o3LVVWV0FjRXpJSFZHS3ZSazRwMi01bWV4S2RZQWxlZndIeWttOA?oc=5",
-      "published": "2026-05-02T03:38:37+00:00",
-      "source": {
-        "name": "ScienceDaily",
-        "url": "https://www.sciencedaily.com"
       }
     },
     {
@@ -324,16 +324,6 @@
       }
     },
     {
-      "id": "2a7f2b68497c",
-      "title": "Association of Short-Form Video Use With Attention Control and Sleep Quality Among Medical Students: A Cross-Sectional Study - Cureus",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQ1k4OG5ZWFpwR1JwS2FaOC1YNzVEMjZqNmZHVUc1RXFQeTBIbElTMFVzQlR1X2p1Tk9DN2NfdWp2T1dUNGZzRWY5a2dVNHpGc2hkY1E4NlU3UWQtTElWRFVoMXdLbkNxN01jc3hJNHhIZ2hzRGJxZFBpUEx3ZzUzWEpvZzlPQWhfMU0yU2hTMi1VMTV6Q2dHV3pzQ2ZSY1NrcjI0RHBjeS1hQ3pGTFRIRklpYnc1elNZWDVSZmJZNm05WWtSOV9OU1pSMnlqSk9wTzYxSlY1NkxnSjZQaEVNdW9zUHFab0l2YnhsVmdDSGhCWDRD?oc=5",
-      "published": "2026-05-03T05:52:36+00:00",
-      "source": {
-        "name": "Cureus",
-        "url": "https://www.cureus.com"
-      }
-    },
-    {
       "id": "0bbed1a1bbeb",
       "title": "Medical AI is moving faster than safety checks, experts warn - Medical Xpress",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORjBKTWJYV0luMDZ0a1NvMXJRb0VIM0JwWmhaNFpDcDdveDBxYXRQMHFWSDdZMVVwVGw1ZUVOYTVWRE9NNGVucGViRUNKTHltS1lBMXd5NklqSzRNTHlDTFBqX21lQW96cm9sQlhoOFdBZE92blp3eFBibV9LS1FONUxn?oc=5",
@@ -341,6 +331,16 @@
       "source": {
         "name": "Medical Xpress",
         "url": "https://medicalxpress.com"
+      }
+    },
+    {
+      "id": "2a7f2b68497c",
+      "title": "Association of Short-Form Video Use With Attention Control and Sleep Quality Among Medical Students: A Cross-Sectional Study - Cureus",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQ1k4OG5ZWFpwR1JwS2FaOC1YNzVEMjZqNmZHVUc1RXFQeTBIbElTMFVzQlR1X2p1Tk9DN2NfdWp2T1dUNGZzRWY5a2dVNHpGc2hkY1E4NlU3UWQtTElWRFVoMXdLbkNxN01jc3hJNHhIZ2hzRGJxZFBpUEx3ZzUzWEpvZzlPQWhfMU0yU2hTMi1VMTV6Q2dHV3pzQ2ZSY1NrcjI0RHBjeS1hQ3pGTFRIRklpYnc1elNZWDVSZmJZNm05WWtSOV9OU1pSMnlqSk9wTzYxSlY1NkxnSjZQaEVNdW9zUHFab0l2YnhsVmdDSGhCWDRD?oc=5",
+      "published": "2026-05-03T05:52:36+00:00",
+      "source": {
+        "name": "Cureus",
+        "url": "https://www.cureus.com"
       }
     },
     {
@@ -364,6 +364,26 @@
       }
     },
     {
+      "id": "35c902497db7",
+      "title": "Humans May Be Able to Grow New Teeth Within Just 4 Years - Popular Mechanics",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVi1sWW83OUsyWF91Qk1yYXpmajNWNEpaRWVZOFMyUHhCa0FrdlM3NmVETy1QSWVWanExclJqX0o5RHhIa2JVQUI4dG9sY3U1VjN6VTRnR0lfQlRKUElTUmUzQmxxRjhZai1LZDVLRDRyb1lCVy00TE1aemRlWFFYZVZldzFhV3IyOE44UGJFTjRHWTF2dS15SHhFUldUUzhV?oc=5",
+      "published": "2026-05-01T14:19:00+00:00",
+      "source": {
+        "name": "Popular Mechanics",
+        "url": "https://www.popularmechanics.com"
+      }
+    },
+    {
+      "id": "8fb5c2a14a5e",
+      "title": "'Huge milestone': Medical students could be on way to Whanganui - NZ Herald",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbUY1b1hycnV4bTRmTU00eVQ4c1FWOUJaN2xmcnZkMExkUVo5S1FKOVc5djBla0xxeEtjRlJ0cVRrckw0SnlsWUhFUTA3dEQ5TExRX0liSVlodi0tLW5qcUlWSDRxa2RQWFFMelNpdTZJMDJjLXA5TGRBU3kwemU0Ymwwd0taOGVTVlVINjl0eFhHbjV5c3BOd0s1X1U1bTAtazlhTTRmRThOUndyVWpfZ21yX0M3dHYzeUQxS1VCOVpJVm9pUlVqRVZrZEU5UllsbjhwSjRUWjRUVlVzcmZwQ2xMOEluVHdob0E3cks2clc?oc=5",
+      "published": "2025-10-07T07:00:00+00:00",
+      "source": {
+        "name": "NZ Herald",
+        "url": "https://www.nzherald.co.nz"
+      }
+    },
+    {
       "id": "6fd102214cc7",
       "title": "AI is quietly reshaping how Vermont’s doctors care for patients — and themselves - VTDigger",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT1hpODk5NnBaV2FsdHBlamxPS3NOT09QNGRpMlR3UE5FeF85Uzd6Ui1NLTJ5YTZSSFVVRDk3b0NpSWdVREVLbURtN29yYWh5TWRWMWJzN2ROeEpmWUpXZDFvd3BETC0tZWpxZUVwLUx5ZXNldTZaWHFhaXF4SlhPNG5IZk9EYkZkUUxFMjZqRWNQX1dxdVJGYjJaZE56bW9XeTBDZ2dqMk51RXh6SHo4?oc=5",
@@ -374,13 +394,23 @@
       }
     },
     {
-      "id": "097f5c4d9cc5",
-      "title": "Acromegaly Complications: Managing Long-Term Risks - Everyday Health",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb2RweEtrcnpDbmV2V1ZvUVVRRHd3bV9FWlZJMEJkVVU5NXVuYzgxZS1JeXVPMTFBTEVNYkRnMTRtbndINmh4SXYtakllbm5PWVZnS1dRMU9jb3oyMWoyeHQxOWdtaUZQdU9PMGp3WjBMQVhFbE1NMUNiaWZfbGxMSUk0UVRneldQX0pzLVRfaVZCSGNQX1FtMHBBd0pON2x5alE?oc=5",
-      "published": "2026-05-03T16:49:23+00:00",
+      "id": "ee9c59051ed0",
+      "title": "Physical activity for public health in the 21st century - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ja1djazBaZV93akd0UC1UQUZrSkRLUXZBdXF4Z0pIbE1UUUoyTUhVSGVzYU80V2kzYmJDb3h0UzVDR3NKbXJEWkdXenZHSWwxbkZLV0d0YUNfRGJsTHpn?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "Everyday Health",
-        "url": "https://www.everydayhealth.com"
+        "name": "Nature",
+        "url": "https://www.nature.com"
+      }
+    },
+    {
+      "id": "3fb61f6412d3",
+      "title": "Diabetic Ketoacidosis From Health Insurance-Requested Non-medical Switching - Cureus",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNejQwTkNJdDRobE9fSkFBWk9NenZEOWR4cy1kcVdLczNIVzA3eXpkTy10eFZQYUtFaG8yaDB3cmVpWjllUV8yQUp1TWtuQ1VIVHNJdmF4RHdQd0p6THJuZnFRR0Q3eDhUTklYaHpUeWtBQ3VWVk5KNFRERHJIaEdyQTlHWmhuZThWS0F3SlhoTklZS0stOVlid09vVmVKQzFneUo3bGlvcjYwLWc4YjE0UzdBOXo?oc=5",
+      "published": "2026-05-01T00:45:28+00:00",
+      "source": {
+        "name": "Cureus",
+        "url": "https://www.cureus.com"
       }
     },
     {
@@ -404,46 +434,6 @@
       }
     },
     {
-      "id": "8fb5c2a14a5e",
-      "title": "'Huge milestone': Medical students could be on way to Whanganui - NZ Herald",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbUY1b1hycnV4bTRmTU00eVQ4c1FWOUJaN2xmcnZkMExkUVo5S1FKOVc5djBla0xxeEtjRlJ0cVRrckw0SnlsWUhFUTA3dEQ5TExRX0liSVlodi0tLW5qcUlWSDRxa2RQWFFMelNpdTZJMDJjLXA5TGRBU3kwemU0Ymwwd0taOGVTVlVINjl0eFhHbjV5c3BOd0s1X1U1bTAtazlhTTRmRThOUndyVWpfZ21yX0M3dHYzeUQxS1VCOVpJVm9pUlVqRVZrZEU5UllsbjhwSjRUWjRUVlVzcmZwQ2xMOEluVHdob0E3cks2clc?oc=5",
-      "published": "2025-10-07T07:00:00+00:00",
-      "source": {
-        "name": "NZ Herald",
-        "url": "https://www.nzherald.co.nz"
-      }
-    },
-    {
-      "id": "3fb61f6412d3",
-      "title": "Diabetic Ketoacidosis From Health Insurance-Requested Non-medical Switching - Cureus",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNejQwTkNJdDRobE9fSkFBWk9NenZEOWR4cy1kcVdLczNIVzA3eXpkTy10eFZQYUtFaG8yaDB3cmVpWjllUV8yQUp1TWtuQ1VIVHNJdmF4RHdQd0p6THJuZnFRR0Q3eDhUTklYaHpUeWtBQ3VWVk5KNFRERHJIaEdyQTlHWmhuZThWS0F3SlhoTklZS0stOVlid09vVmVKQzFneUo3bGlvcjYwLWc4YjE0UzdBOXo?oc=5",
-      "published": "2026-05-01T00:45:28+00:00",
-      "source": {
-        "name": "Cureus",
-        "url": "https://www.cureus.com"
-      }
-    },
-    {
-      "id": "ee9c59051ed0",
-      "title": "Physical activity for public health in the 21st century - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ja1djazBaZV93akd0UC1UQUZrSkRLUXZBdXF4Z0pIbE1UUUoyTUhVSGVzYU80V2kzYmJDb3h0UzVDR3NKbXJEWkdXenZHSWwxbkZLV0d0YUNfRGJsTHpn?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Nature",
-        "url": "https://www.nature.com"
-      }
-    },
-    {
-      "id": "409748fff074",
-      "title": "Fresenius Medical Care’s Symvess Deal Shift And What It Means For Valuation - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTy1mSmV5V01BZW5BQW15Q3FvTF9BRTJkTHM4b1JTNkQ3WmYzSzlVTHlHVl9XU2xMM2hCeGo0LXZNVDY0MndvWW9aV1FFRk9NaXNCWE5sNk5oQTZaNzhKeTVWa1lhQVNabEpEMlVrMGRqcFJJNG1DcUNtRTZNNm9nbk1yajdjS0ExOG0zTmt4VHlPa3d3NVpNb01hc1pPZFJ5Unc?oc=5",
-      "published": "2026-05-03T18:04:07+00:00",
-      "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com"
-      }
-    },
-    {
       "id": "ce9b195dc875",
       "title": "UK and US Set Path to Shared Medical Device Approvals - Medscape",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdkNKU1gwem9NOF9QMG9KOVpzcGxkZlBITjUyRGktY2l2dDJ0Rjh3Zk8ySXc1Yk9XQkRsUmdKZEVMejA0MEdUaXpsc3FmbGpQNTBxTDhjeGFwUmZQN0U3djhNTjRHQVZUM1VSNC1PRlJGZ0xBS1BpTmFuVHMxbDlqZGYyM01YQ3M3cVVISnozcUVuSFZJc29keFd0LWxOUjFqS1E?oc=5",
@@ -454,13 +444,13 @@
       }
     },
     {
-      "id": "35c902497db7",
-      "title": "Humans May Be Able to Grow New Teeth Within Just 4 Years - Popular Mechanics",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVi1sWW83OUsyWF91Qk1yYXpmajNWNEpaRWVZOFMyUHhCa0FrdlM3NmVETy1QSWVWanExclJqX0o5RHhIa2JVQUI4dG9sY3U1VjN6VTRnR0lfQlRKUElTUmUzQmxxRjhZai1LZDVLRDRyb1lCVy00TE1aemRlWFFYZVZldzFhV3IyOE44UGJFTjRHWTF2dS15SHhFUldUUzhV?oc=5",
-      "published": "2026-05-01T14:19:00+00:00",
+      "id": "409748fff074",
+      "title": "Fresenius Medical Care’s Symvess Deal Shift And What It Means For Valuation - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTy1mSmV5V01BZW5BQW15Q3FvTF9BRTJkTHM4b1JTNkQ3WmYzSzlVTHlHVl9XU2xMM2hCeGo0LXZNVDY0MndvWW9aV1FFRk9NaXNCWE5sNk5oQTZaNzhKeTVWa1lhQVNabEpEMlVrMGRqcFJJNG1DcUNtRTZNNm9nbk1yajdjS0ExOG0zTmt4VHlPa3d3NVpNb01hc1pPZFJ5Unc?oc=5",
+      "published": "2026-05-03T18:04:07+00:00",
       "source": {
-        "name": "Popular Mechanics",
-        "url": "https://www.popularmechanics.com"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com"
       }
     },
     {
@@ -574,16 +564,6 @@
       }
     },
     {
-      "id": "0e3e65d0207e",
-      "title": "Affordable treatment for Australians with colorectal cancer - Australian Government Department of Health, Disability and Ageing",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGhxdkZ1cVBvM2xmd2htOG1jamN2dXRRZ1pjanpPTW4tdlF4dFhTUjc0R1hBZVBqUGtPMFYwQks0Rl9xUVJfOHlzRFJBLUJUbFhJZGlmbGkxM3dGYXNRSThhX1dSMzBLUmlJT0pZcDREamx4WkZkamRPckR5S2YzNWZkUHIxV0VrY1BqVHF5VmdfNlRMM1hkdEgxcmlXMkh6b0JmSUQ4VVdyeklqOW1UUEVrZm9rdkdZT1BTNVA0M1M4dw?oc=5",
-      "published": "2026-05-02T21:45:12+00:00",
-      "source": {
-        "name": "Australian Government Department of Health, Disability and Ageing",
-        "url": "https://www.health.gov.au"
-      }
-    },
-    {
       "id": "7e5b7b2bc63e",
       "title": "Large language model outperforms human doctors in clinical reasoning tasks - News-Medical",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM2xCRHNFLVFFSnFkbkRTS040TU9mZGJwSVNOYU1TOEhPWm5vYnJLRU9NV296c3VOdGZ5elEzcE50Z2l0WkZKdmlTRHZWSUVQaFRTWUdGVjJVX1dETFVwNnBwVWNWY1NaTDJLZUs4NEY2OWpoa0EyclhzUEx2MHJXajZVVURrWFRiUkM1djJhRUdWdkhlcmp6bUo4NTNHUnNXMW5sbHhqVVVzbkZZVXM2Znc2Tk1rM2taaEpxTHpYcw?oc=5",
@@ -591,26 +571,6 @@
       "source": {
         "name": "News-Medical",
         "url": "https://www.news-medical.net"
-      }
-    },
-    {
-      "id": "6c9d836cfd04",
-      "title": "Microchip nanoparticle test spots pancreatic cancer in blood, outperforming biopsy in early trial - Medical Xpress",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWGo5cjA0REJIbm9hMzFweHBCaEU5d3JYTXRCU3lUTXZGRnlBQTUtUUY0b2VvYmxPSWJ5U2JVUzVhRFVGem9jVmh3OV9NRzdCRnM5cWY2V1VMUFJZNjRRYjB1ZmdRNXFLZFRkdmhVQjNGZ0toOXdhdmtUbkg1aVZNNXp0WExRUXRYbHBjT19ZQS04ZWo1?oc=5",
-      "published": "2026-05-02T21:40:01+00:00",
-      "source": {
-        "name": "Medical Xpress",
-        "url": "https://medicalxpress.com"
-      }
-    },
-    {
-      "id": "f7915838e613",
-      "title": "CNC and partners helping students take Adventures in Health Care - Prince George Citizen",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUXN5c1MxZEduSTU0djYtQ09tTzVGczZfY1JSOUxKRmJXY0g0YllWOS1GM0ZkOUxCSnRTRkhkakRXODE1Z2JVYzZPNkJBYWZjVUxJVVc0cjJxWEdqOUszYy10Tl9LM0JTV3BJUXZxVjFHNmR4MWVCUWpoeXVUUW9tMk9lWlp4YjdsR3A1NnZFckhiVnVKRW92eGJHUjdJUGlLYmJjVWROMi1DV0Y5RXE5T1dKTVYtZlFtRlhIbw?oc=5",
-      "published": "2026-05-03T14:17:53+00:00",
-      "source": {
-        "name": "Prince George Citizen",
-        "url": "https://www.princegeorgecitizen.com"
       }
     },
     {
@@ -624,16 +584,6 @@
       }
     },
     {
-      "id": "4af4c697ba86",
-      "title": "Towards generalizable AI in medicine via Generalist–Specialist Collaboration - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NV2JldXdQVkNsRlFBbmxfYnc1NU9Ibm5OaHNtZDBPbHpGU1hndkRIWmRvWTNEV2wwTXZlajBodEpEV0Y4TzNHZUNQSG9xWTNhMWtXVnktczJXMVh4eVdj?oc=5",
-      "published": "2026-05-02T01:02:11+00:00",
-      "source": {
-        "name": "Nature",
-        "url": "https://www.nature.com"
-      }
-    },
-    {
       "id": "a8d6fcceb901",
       "title": "STAT readers on MAHA activists, perimenopause, and diversity in medical school - statnews.com",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOTNLSlpvQndIcWxRSVo5Tm1KdW1JTWpLMThfSzMxWVlLWDJ4d0xHYjV2TVQ2dzZheFdQdHZCUjRMWFVNUGxwY21yVEljX1o4WWhUU3dNV3JXLThUQ01aZzNpdnJDMHNtTVpYbXJOZmVBQkVna19sbzBvRm9pTmRWXzBYdEVLX2lJakVnY0ltZklXZUpSM19ITVZUZGctY3ZTeUJHVHB3?oc=5",
@@ -641,6 +591,16 @@
       "source": {
         "name": "statnews.com",
         "url": "https://www.statnews.com"
+      }
+    },
+    {
+      "id": "4af4c697ba86",
+      "title": "Towards generalizable AI in medicine via Generalist–Specialist Collaboration - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NV2JldXdQVkNsRlFBbmxfYnc1NU9Ibm5OaHNtZDBPbHpGU1hndkRIWmRvWTNEV2wwTXZlajBodEpEV0Y4TzNHZUNQSG9xWTNhMWtXVnktczJXMVh4eVdj?oc=5",
+      "published": "2026-05-02T01:02:11+00:00",
+      "source": {
+        "name": "Nature",
+        "url": "https://www.nature.com"
       }
     },
     {
@@ -654,13 +614,13 @@
       }
     },
     {
-      "id": "675ca99ea320",
-      "title": "Surgeons thought about taking Travis's face off before they saved him with a 'crazy idea' - Australian Broadcasting Corporation",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTktOak5UTDJDMElVMF92LV9SU3lxOFZvc0RhNUpaUkFpU0hqRndHRVgzWnp5VWJrNUVzZldpZ2tpM3VnWHZHN0o4TjZsWDd3cjBXdjN2MjF6U3VLSElDRVI3c0VOWXNWcjRPYl9VbXp1Z1VVNVMxRTVsbzFPMGNhQ2JjTDRMTG9fdUhYR1kxUGozcVFOV1d3eWpRS1Q4ZjhhVXFLaVVLMA?oc=5",
-      "published": "2026-05-03T02:03:00+00:00",
+      "id": "f7915838e613",
+      "title": "CNC and partners helping students take Adventures in Health Care - Prince George Citizen",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUXN5c1MxZEduSTU0djYtQ09tTzVGczZfY1JSOUxKRmJXY0g0YllWOS1GM0ZkOUxCSnRTRkhkakRXODE1Z2JVYzZPNkJBYWZjVUxJVVc0cjJxWEdqOUszYy10Tl9LM0JTV3BJUXZxVjFHNmR4MWVCUWpoeXVUUW9tMk9lWlp4YjdsR3A1NnZFckhiVnVKRW92eGJHUjdJUGlLYmJjVWROMi1DV0Y5RXE5T1dKTVYtZlFtRlhIbw?oc=5",
+      "published": "2026-05-03T14:17:53+00:00",
       "source": {
-        "name": "Australian Broadcasting Corporation",
-        "url": "https://www.abc.net.au"
+        "name": "Prince George Citizen",
+        "url": "https://www.princegeorgecitizen.com"
       }
     },
     {
@@ -671,6 +631,16 @@
       "source": {
         "name": "Harvard Medical School",
         "url": "https://hms.harvard.edu"
+      }
+    },
+    {
+      "id": "0e3e65d0207e",
+      "title": "Affordable treatment for Australians with colorectal cancer - Australian Government Department of Health, Disability and Ageing",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGhxdkZ1cVBvM2xmd2htOG1jamN2dXRRZ1pjanpPTW4tdlF4dFhTUjc0R1hBZVBqUGtPMFYwQks0Rl9xUVJfOHlzRFJBLUJUbFhJZGlmbGkxM3dGYXNRSThhX1dSMzBLUmlJT0pZcDREamx4WkZkamRPckR5S2YzNWZkUHIxV0VrY1BqVHF5VmdfNlRMM1hkdEgxcmlXMkh6b0JmSUQ4VVdyeklqOW1UUEVrZm9rdkdZT1BTNVA0M1M4dw?oc=5",
+      "published": "2026-05-02T21:45:12+00:00",
+      "source": {
+        "name": "Australian Government Department of Health, Disability and Ageing",
+        "url": "https://www.health.gov.au"
       }
     },
     {
@@ -724,13 +694,23 @@
       }
     },
     {
-      "id": "4d161a12ec6b",
-      "title": "4 Ways UC San Diego Research Is Changing the Future of Health - UC San Diego Today",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ1U2MVVqb1c0Z284eXNxVXJSdGVBYWpYUTRNbWlSSW1Da2FHYWN4UnM1ZXFwN2Q4RGJTNnVLTVdiaGgxc1p3MlV6am1FdjVrN1VQcE5LbmU1UkVTUjF6bnhSelo2YUZvM3JzQlJ2cjJGc0w5aVJIaFhNa2xDeG9qdTFkV1JFalF3czBpT3BQSm9HZHpx?oc=5",
-      "published": "2026-04-30T15:00:38+00:00",
+      "id": "6c9d836cfd04",
+      "title": "Microchip nanoparticle test spots pancreatic cancer in blood, outperforming biopsy in early trial - Medical Xpress",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWGo5cjA0REJIbm9hMzFweHBCaEU5d3JYTXRCU3lUTXZGRnlBQTUtUUY0b2VvYmxPSWJ5U2JVUzVhRFVGem9jVmh3OV9NRzdCRnM5cWY2V1VMUFJZNjRRYjB1ZmdRNXFLZFRkdmhVQjNGZ0toOXdhdmtUbkg1aVZNNXp0WExRUXRYbHBjT19ZQS04ZWo1?oc=5",
+      "published": "2026-05-02T21:40:01+00:00",
       "source": {
-        "name": "UC San Diego Today",
-        "url": "https://today.ucsd.edu"
+        "name": "Medical Xpress",
+        "url": "https://medicalxpress.com"
+      }
+    },
+    {
+      "id": "675ca99ea320",
+      "title": "Surgeons thought about taking Travis's face off before they saved him with a 'crazy idea' - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTktOak5UTDJDMElVMF92LV9SU3lxOFZvc0RhNUpaUkFpU0hqRndHRVgzWnp5VWJrNUVzZldpZ2tpM3VnWHZHN0o4TjZsWDd3cjBXdjN2MjF6U3VLSElDRVI3c0VOWXNWcjRPYl9VbXp1Z1VVNVMxRTVsbzFPMGNhQ2JjTDRMTG9fdUhYR1kxUGozcVFOV1d3eWpRS1Q4ZjhhVXFLaVVLMA?oc=5",
+      "published": "2026-05-03T02:03:00+00:00",
+      "source": {
+        "name": "Australian Broadcasting Corporation",
+        "url": "https://www.abc.net.au"
       }
     },
     {
@@ -774,16 +754,6 @@
       }
     },
     {
-      "id": "7d25fa082cea",
-      "title": "New First-in-Class Therapy for Chronic Graft-Versus-Host Disease Approved in Australia[1] - PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRG9tVFdrS2VtX0NCMXFoR1lHZHdfNVowOXUwaUJWRVh3QVBtWHNQaHZlREJ1YXdDVVJjbWt6Y3FIUjV2ZjU4amVUXzFSQjlpQ2RxdkJFSmxrSnh3SmpURzlhZXNfSl95U181ZEtFdG5RSkpkbDVJVlJzY1BLaFpIRUNCd091TnJjY1YyNVYtZTRJaXVNOUEyNXJmMk9YN25EX0RhTWdKZ3k5V1E5b0EwNEJaY2hhSEZUcmRIT2pZNVpVS1JSM3BPR0U1dmc3TDM3a0p1ZEdlVWdLT2M?oc=5",
-      "published": "2026-05-03T16:00:00+00:00",
-      "source": {
-        "name": "PR Newswire",
-        "url": "https://www.prnewswire.com"
-      }
-    },
-    {
       "id": "f26d6bdf4c97",
       "title": "A major new study found AI outperformed doctors in ER diagnosis — but there’s a catch - vox.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUjZDWVJJZGFHN3VFd1V4SFBmR05MTlZLX05qNnNCMmJBX1VwT0d3V0psZkdvcUhiUkhnTDRNalNjNnY0Vm9HeUpORko1UF9PaXdIam4zeXRwSml2R2pHa2F2RUhLZklRQ3gtbklsbDZUMU92YXJRYTRUanAyZUdsV21kdTBNLXlBQXpWN0xBQ0R3eWs?oc=5",
@@ -791,6 +761,16 @@
       "source": {
         "name": "vox.com",
         "url": "https://www.vox.com"
+      }
+    },
+    {
+      "id": "7d25fa082cea",
+      "title": "New First-in-Class Therapy for Chronic Graft-Versus-Host Disease Approved in Australia[1] - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRG9tVFdrS2VtX0NCMXFoR1lHZHdfNVowOXUwaUJWRVh3QVBtWHNQaHZlREJ1YXdDVVJjbWt6Y3FIUjV2ZjU4amVUXzFSQjlpQ2RxdkJFSmxrSnh3SmpURzlhZXNfSl95U181ZEtFdG5RSkpkbDVJVlJzY1BLaFpIRUNCd091TnJjY1YyNVYtZTRJaXVNOUEyNXJmMk9YN25EX0RhTWdKZ3k5V1E5b0EwNEJaY2hhSEZUcmRIT2pZNVpVS1JSM3BPR0U1dmc3TDM3a0p1ZEdlVWdLT2M?oc=5",
+      "published": "2026-05-03T16:00:00+00:00",
+      "source": {
+        "name": "PR Newswire",
+        "url": "https://www.prnewswire.com"
       }
     },
     {
@@ -814,16 +794,6 @@
       }
     },
     {
-      "id": "2cf6d0633252",
-      "title": "Her daughter Mila got a bespoke medicine. Now she’s starting a new biotech to make more - statnews.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVjFqUkh2bUhLeUpoNk1NZ1JrRjZEWEJRczVUNHR1NFB2dXQ0NXFJSVphaFFaMmlZc0hEVlA1LTNyODhNa2EydVpnakxNRVctblVZUEE5NG95RzFCUWtmVTl1Z0pmQjlCTkY3N1lsbGp6RzZSdm1ZaGh0Z0g5dDNWTXpkd3U4dmt6TEJvLWpYU29TNkIycmpyVmpSMGtYZEdENmd1aA?oc=5",
-      "published": "2026-05-01T08:33:41+00:00",
-      "source": {
-        "name": "statnews.com",
-        "url": "https://www.statnews.com"
-      }
-    },
-    {
       "id": "926618674d17",
       "title": "The arts for disease prevention and health promotion: a systematic review - Nature",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDRTBSamdhN2RYRl91ZGsySzJuQUN1WmFLNng0VUxEbmtndUs2cnpodjlUb3B2SDkwRHJST1B5WExFQmxvekFqOU5OcS1CLTAtaXJsQ2pKQ2NPb29lYVJV?oc=5",
@@ -831,6 +801,16 @@
       "source": {
         "name": "Nature",
         "url": "https://www.nature.com"
+      }
+    },
+    {
+      "id": "2cf6d0633252",
+      "title": "Her daughter Mila got a bespoke medicine. Now she’s starting a new biotech to make more - statnews.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVjFqUkh2bUhLeUpoNk1NZ1JrRjZEWEJRczVUNHR1NFB2dXQ0NXFJSVphaFFaMmlZc0hEVlA1LTNyODhNa2EydVpnakxNRVctblVZUEE5NG95RzFCUWtmVTl1Z0pmQjlCTkY3N1lsbGp6RzZSdm1ZaGh0Z0g5dDNWTXpkd3U4dmt6TEJvLWpYU29TNkIycmpyVmpSMGtYZEdENmd1aA?oc=5",
+      "published": "2026-05-01T08:33:41+00:00",
+      "source": {
+        "name": "statnews.com",
+        "url": "https://www.statnews.com"
       }
     },
     {
@@ -871,16 +851,6 @@
       "source": {
         "name": "The Ohio State University Wexner Medical Center",
         "url": "https://wexnermedical.osu.edu"
-      }
-    },
-    {
-      "id": "801827a87691",
-      "title": "Northeast Ohio Medical University (NEOMED) Celebrates 306 New Graduates at Commencement Ceremony - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLW8xTVNBbmZoYnk5QWRIZDcyNUk5OWJPSjlsS0pVUTM3dV9nWDV1dTZyWWpaY21oODEzYjRNZkhaOG8yT0NxSExOZlg5VFZJZmd4eExiQm9GNjUzblc5b1NZUjRBNHZkSE80T1diYUNqSFdiWDQyS1dnYmVaWVN2NjRLaVRMdHowQmZnMXRuQ0Z4M0l4RndCVEFESDlSZ2J1ZXJWY2JXbkZOcy1NZ2c?oc=5",
-      "published": "2026-05-02T22:07:00+00:00",
-      "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com"
       }
     },
     {
@@ -974,6 +944,16 @@
       }
     },
     {
+      "id": "801827a87691",
+      "title": "Northeast Ohio Medical University (NEOMED) Celebrates 306 New Graduates at Commencement Ceremony - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLW8xTVNBbmZoYnk5QWRIZDcyNUk5OWJPSjlsS0pVUTM3dV9nWDV1dTZyWWpaY21oODEzYjRNZkhaOG8yT0NxSExOZlg5VFZJZmd4eExiQm9GNjUzblc5b1NZUjRBNHZkSE80T1diYUNqSFdiWDQyS1dnYmVaWVN2NjRLaVRMdHowQmZnMXRuQ0Z4M0l4RndCVEFESDlSZ2J1ZXJWY2JXbkZOcy1NZ2c?oc=5",
+      "published": "2026-05-02T22:07:00+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com"
+      }
+    },
+    {
       "id": "e5b0a4141f7e",
       "title": "Neurologist Sara Huser, DO, Joins Holy Cross Medical Group - Florida Hospital News and Healthcare Report",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRHZiYlJYTGd5MjNqdmpiWGVlZWJBYks0MERDcTRIUnNCeWNwTmxXWUF3YXEyek90TUY1T0Y1Z1pienVCZTE0enNOMU0wNlJBMjNRWkJsdkM4MlVhSVQ3YnJDMy1SRE10U3k1cmdRNnRTUThpNkZBVHQ1YjNTeEF5V09xSnVCRUpJM05DNkxFVnBvR3lNMUllOGtDS0c?oc=5",
@@ -984,16 +964,6 @@
       }
     },
     {
-      "id": "922ac32f403a",
-      "title": "Blood vessels activate self-defense response that may slow atherosclerosis progression - Medical Xpress",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYVBLVXNpWDFucWlfUWJZMEVRYXhXV0tVRFFCLWptdndVblhrbU80ME1BdmpQS1M2UHc1LVA2OEkyZHdlQkNyYWZUZ0s3ZlpXcENoN191Nmw0YzM1eWhfUHdremt4MF9LZnBtQkxoNFJCRk9EUzF1Z2p4QXZTVUFoSmNWSzM5TnFMVTl2LXdmaXZCSnRv?oc=5",
-      "published": "2026-05-02T19:00:01+00:00",
-      "source": {
-        "name": "Medical Xpress",
-        "url": "https://medicalxpress.com"
-      }
-    },
-    {
       "id": "7b696ed80c3e",
       "title": "5 of the best exercises you can ever do - Harvard Health",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZmdMU0RFVkhMaU1IaUhkZHFfb0d2cFFIVEN4MGtGUy0zV0tCYXFvMk5HN1ZlMmltMGpIZ3k1aHNmNXhQangwN3BhdFctcF81aTl0TmgybFJqTGxwVDFxbE8wZGo2V3RPN2JTTnAwY3o5ZDlvVnZHQnpyVkh6bmh1dWhEZVczRGpuU3lWN0tZNA?oc=5",
@@ -1001,6 +971,36 @@
       "source": {
         "name": "Harvard Health",
         "url": "https://www.health.harvard.edu"
+      }
+    },
+    {
+      "id": "dc8a60b9dd22",
+      "title": "Can traditional medicine strengthen modern healthcare? An expert weighs in - UN News",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0Q1d0QmFGQ0ZDYV9RR1VMMEk5WC1aNTMzS1FxT1g0RHJjc2ZIZDhISG9QN2NRa0VYc1pfX3lHbjRyVDBWN2J6RC1UbnA3Y1UwRExNcHN0cw?oc=5",
+      "published": "2025-12-18T08:00:00+00:00",
+      "source": {
+        "name": "UN News",
+        "url": "https://news.un.org"
+      }
+    },
+    {
+      "id": "c99fbeea9940",
+      "title": "From Sick Care to Whole Health: 5 Forces Reshaping the Future of Healthcare - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQUZXaUtfd0dCS3hEeDBmS1BkX0xDRFNPMFA1T2tTRmxiU19Gb0dMYnN4MWptOTZBX2wyd3RFZkFfdUFINlphQVZySEg4Z3VvaTBoZlpsWlFPRmhfdzFRc2NLXzRZUnlOMmxoV1hJTGtpVGY4LTRpQ1owYmtDOUoyNmMwMkw5eDNiTXJjc0RtN0xmQV93NTE5ZVlvVlhNRzY3SG1CR1AtQTUydjVfSGFUT1ZvNzk3aENWSUJYYnUzNVBLbkhDZnZlS0Rn?oc=5",
+      "published": "2026-05-01T07:00:00+00:00",
+      "source": {
+        "name": "PR Newswire",
+        "url": "https://www.prnewswire.com"
+      }
+    },
+    {
+      "id": "d87c4cbd78e8",
+      "title": "Michigan Medicine notifies over 500 patients of unauthorized access to health records - MLive.com",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRWRQOXdDb09kMWp0LW1zN3BkMFF3UnFwMFpoeFA2ZHA2ZGtHR081c2owVGUtOXBkNzZ1aThOenEyTzl0TmM1Q3VxeHdkRmRfWTlua2FKdDFHMjNDeTktVFRBNmZYZnNLcVRMaklmYWM5TEIxa0ttaTZSSGZuSkNuVEtyUGhicE15YjdNbUVqcldnZUpUOEZGLXZqRHpsWkJSWFMtWlJOMC0tX1NMWHp1QjVWb0wxOERaNVR0SDVQUTRrZGRZS2RJeTNsTW1wc1ZO0gHkAUFVX3lxTFA5OFJvWElLTGJTX3Q4SUdkMmtYdGZENW9HZVdDWnlWRjZRUnZMZkI2dDk5RHZrRzlxSEpxR1JNUXZMdm41M3F0YUF6Nkh0aE5EUFVvQjdsTDZwT1VERjg1MjZBQ09odWp1UlExVW5mcUR3cDJiNUItRDlIODV2OG9MOF9JdXpMOFJTZ0NMUGVOQmlEdFI3MWtsLVFKdVFuOVJaLXU0OUhSTGJHOEIzdU82Y2Fuc0pkeGJCY1c0MFhnRTNiN2xmWmVNU2dxeEcyTzQ2Tnp3U0RoZXA0eFg0ZnlvZlFZXw?oc=5",
+      "published": "2026-05-01T13:24:00+00:00",
+      "source": {
+        "name": "MLive.com",
+        "url": "https://www.mlive.com"
       }
     }
   ]
