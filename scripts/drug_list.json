@@ -1,7 +1,147 @@
 {
-  "total": 447,
-  "generated_at": "2026-05-04T02:27:11.991125",
+  "total": 486,
+  "generated_at": "2026-05-04T13:47:21.892526",
   "drugs": [
+    {
+      "name": "Abiraterone Acetate",
+      "file": "abiraterone_acetate.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Acarbose",
+      "file": "acarbose.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Acetazolamide",
+      "file": "acetazolamide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cladribine",
+      "file": "cladribine.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Crotamiton",
+      "file": "crotamiton.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cyclizine Hydrochloride",
+      "file": "cyclizine_hydrochloride.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cyclizine Lactate",
+      "file": "cyclizine_lactate.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cyclopentolate Hydrochloride",
+      "file": "cyclopentolate_hydrochloride.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cyclophosphamide",
+      "file": "cyclophosphamide.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cycloserine",
+      "file": "cycloserine.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cyproterone Acetate",
+      "file": "cyproterone_acetate.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Cytarabine",
+      "file": "cytarabine.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dabigatran",
+      "file": "dabigatran.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dabrafenib",
+      "file": "dabrafenib.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dacarbazine",
+      "file": "dacarbazine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dantrolene",
+      "file": "dantrolene.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dapsone",
+      "file": "dapsone.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Darunavir",
+      "file": "darunavir.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dasatinib",
+      "file": "dasatinib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Daunorubicin",
+      "file": "daunorubicin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
     {
       "name": "CETUXIMAB",
       "file": "db00002.md",
@@ -3127,6 +3267,139 @@
     {
       "name": "PREDNISOLONE ACETATE",
       "file": "db15566.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Deferasirox",
+      "file": "deferasirox.md",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "predicted_indication": "**無**（TxGNN 預測結果未收錄）"
+    },
+    {
+      "name": "Deferiprone",
+      "file": "deferiprone.md",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Denosumab",
+      "file": "denosumab.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Desmopressin",
+      "file": "desmopressin.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Desmopressin Acetate",
+      "file": "desmopressin_acetate.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Desogestrel",
+      "file": "desogestrel.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dexamethasone",
+      "file": "dexamethasone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dexamethasone Phosphate",
+      "file": "dexamethasone_phosphate.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Diazepam",
+      "file": "diazepam.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Diazoxide",
+      "file": "diazoxide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Diclofenac Sodium",
+      "file": "diclofenac_sodium.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Digoxin",
+      "file": "digoxin.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dihydrocodeine Tartrate",
+      "file": "dihydrocodeine_tartrate.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Diltiazem Hydrochloride",
+      "file": "diltiazem_hydrochloride.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dimethicone",
+      "file": "dimethicone.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dimethyl Fumarate",
+      "file": "dimethyl_fumarate.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Dipyridamole",
+      "file": "dipyridamole.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Disopyramide Phosphate",
+      "file": "disopyramide_phosphate.md",
+      "evidence_level": "L5",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Disulfiram",
+      "file": "disulfiram.md",
       "evidence_level": "L5",
       "indication_count": 0,
       "predicted_indication": ""
