@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T06:54:12.228343+00:00",
+  "fetched_at": "2026-06-13T09:53:15.482766+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -64,6 +64,26 @@
       }
     },
     {
+      "id": "25d686b9158f",
+      "title": "Blue Cross CEO says Michigan Medicine deal promotes 'affordability' - The Detroit News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0NldE9za0NLOVlFODdhbVJtUk1qdkRoamhUUG11dlNQcXdVdURZRDlfMmhnOENuN2NuVTU2V2RvV1diR20yNmJaalg2cVl0STVlZWNiZkEyT2tVSDQ4NzhOTFRCZFZiTnJHNE1ybW1YZnlCbkp5blhvY2N0cjg1NmY1NUQwQ29naU93anhxUVp1Z05ETTJrSHJGNzNoU2o2ZXlIanU0ektlZw?oc=5",
+      "published": "2026-05-27T07:00:00+00:00",
+      "source": {
+        "name": "The Detroit News",
+        "url": "https://www.detroitnews.com"
+      }
+    },
+    {
+      "id": "ab5110aa2479",
+      "title": "The Paradox of Medical AI Implementation - Ground Truths | Eric Topol",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBZQk10VWU3a2xQb3ljZlVSTnQ1QnNVd1Y3bnF6MlI0SEhneFVKSnM3a3BDQVRKR3dJUVBmVnNjNkJEMUFINWpkZi1jQzYyVUxPTlB4TlphdEdibjJJU3pBYW1PQjRYMjlvdkM4VFViRE1CWjVlWk95Z0tDenVrUQ?oc=5",
+      "published": "2026-05-03T07:00:00+00:00",
+      "source": {
+        "name": "Ground Truths | Eric Topol",
+        "url": "https://erictopol.substack.com"
+      }
+    },
+    {
       "id": "0f573c4c6552",
       "title": "Sutter Health and Santa Clara University to Launch the Mark & Mary Stevens School of Medicine - Santa Clara University",
       "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPdDNlWU1vUTE3U3NHam55VEQ2M2hOQkVXU21sbWw2N0U3RDhSRkxidGJmUmxZbWpkQWJtNTFsdkdOVzhCMVRORUpvM3FDa2VPSnhjajNmQmE3RUdyUHlEejRUSDh4R1lNQUVuemhGeW8yNTVKWC1mTF9PdC05NERmU1ZVYWxscmw0TlVzMUhlQVdqUDlBT2FzSERUYXdhc09ia0RlcGMyNUVkMmRMN2V0RUlnUGpzU2lnc0tRajNMSGN0NkYxalhBVEVnelg1c0publ93dDdZOWRRdTZwZDNrXzJBNEplYUFfN3FQVTRoVWVRUk53RWx2R3BpU0JETmZvaUlya1BSaw?oc=5",
@@ -81,16 +101,6 @@
       "source": {
         "name": "Stanford Medicine",
         "url": "https://med.stanford.edu"
-      }
-    },
-    {
-      "id": "ab5110aa2479",
-      "title": "The Paradox of Medical AI Implementation - Ground Truths | Eric Topol",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBZQk10VWU3a2xQb3ljZlVSTnQ1QnNVd1Y3bnF6MlI0SEhneFVKSnM3a3BDQVRKR3dJUVBmVnNjNkJEMUFINWpkZi1jQzYyVUxPTlB4TlphdEdibjJJU3pBYW1PQjRYMjlvdkM4VFViRE1CWjVlWk95Z0tDenVrUQ?oc=5",
-      "published": "2026-05-03T07:00:00+00:00",
-      "source": {
-        "name": "Ground Truths | Eric Topol",
-        "url": "https://erictopol.substack.com"
       }
     },
     {
@@ -164,16 +174,6 @@
       }
     },
     {
-      "id": "5627c1fed1a3",
-      "title": "Orthopaedic Sports Medicine Boosts Shoulder Care Access - Mirage News",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONnlHNmJRNnpLQzE4VnR1XzREaDQzaTdoWmR0VFNYRTNVemtnNlRtMEtVbDhOUWc5QXVGZFJBOWgwakJHTGtaeUJMVUxzSjNXM3Vjdl9NdF9CNU40YXFtVEVuYzhucHh5UTBwY2liWV81WnhHMEJSbkxiaGhDVGtMWHpVMTNnUQ?oc=5",
-      "published": "2026-06-13T01:22:00+00:00",
-      "source": {
-        "name": "Mirage News",
-        "url": "https://www.miragenews.com"
-      }
-    },
-    {
       "id": "f30053fa5dec",
       "title": "Celebrating four decades of emergency medical service in Santa Monica - UCLA Health",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMXhoeGlrQjV0SVlCbE1mUzRqR1l3Znl5bU5vVV9ZbTJ6dWN5S1BMczRfajhsQ051TU1zMlNKUHBpNU9sYk9RUHVDekRRS0liWjBHaFlsU2p5NjU2SUxERVExSThDVGMwLTBMczhzWXQtVk9kN3JOOFBsTE9kSklJaWZTZzF4UU9Fb0pqZy1XNTNGaXJYUGthTk5xc0w?oc=5",
@@ -194,13 +194,13 @@
       }
     },
     {
-      "id": "cfaa7719b9db",
-      "title": "War is reshaping medicine in Ukraine - EU NEIGHBOURS east",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlpjSjZtWUw1UnRkOUUwZU1aOHFQdVNMX0xucG10a01iY3Y4YVhFNU5Qbk5RelRpX2o1VDFqRXdfQXpzVS1HbXhFTUdYZTZJNVhaeUwtTXEySV9sRXFlTDBUQWNMUVdMRmhObkRGT1ZIV21nM3BoeERQdmEzcmNseWJId1U?oc=5",
-      "published": "2026-06-13T06:44:34+00:00",
+      "id": "5627c1fed1a3",
+      "title": "Orthopaedic Sports Medicine Boosts Shoulder Care Access - Mirage News",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONnlHNmJRNnpLQzE4VnR1XzREaDQzaTdoWmR0VFNYRTNVemtnNlRtMEtVbDhOUWc5QXVGZFJBOWgwakJHTGtaeUJMVUxzSjNXM3Vjdl9NdF9CNU40YXFtVEVuYzhucHh5UTBwY2liWV81WnhHMEJSbkxiaGhDVGtMWHpVMTNnUQ?oc=5",
+      "published": "2026-06-13T01:22:00+00:00",
       "source": {
-        "name": "EU NEIGHBOURS east",
-        "url": "https://euneighbourseast.eu"
+        "name": "Mirage News",
+        "url": "https://www.miragenews.com"
       }
     },
     {
@@ -211,6 +211,16 @@
       "source": {
         "name": "Research Horizons",
         "url": "https://scienceblog.cincinnatichildrens.org"
+      }
+    },
+    {
+      "id": "cfaa7719b9db",
+      "title": "War is reshaping medicine in Ukraine - EU NEIGHBOURS east",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlpjSjZtWUw1UnRkOUUwZU1aOHFQdVNMX0xucG10a01iY3Y4YVhFNU5Qbk5RelRpX2o1VDFqRXdfQXpzVS1HbXhFTUdYZTZJNVhaeUwtTXEySV9sRXFlTDBUQWNMUVdMRmhObkRGT1ZIV21nM3BoeERQdmEzcmNseWJId1U?oc=5",
+      "published": "2026-06-13T06:44:34+00:00",
+      "source": {
+        "name": "EU NEIGHBOURS east",
+        "url": "https://euneighbourseast.eu"
       }
     },
     {
@@ -274,6 +284,16 @@
       }
     },
     {
+      "id": "de6aef02ad7a",
+      "title": "Injectable wireless device offers new approach to control nerve activity - News-Medical",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOExudEtHSllUdmRadlBTZ0hCak14T1ZzMlJ4encxOXY4dlpSNUVOTHZNTkk4NHlSTTJKUUN3bTVVSklWY3B1Q0FjNy1VRUFrU0MwelZWaURJSTR6SFZMVjRQUnRWN19hSWVzZWZsM3pyWEhMaVNWc09uLW1uZWJGcF9KZDZUYlV4NmtqN1lhZmU2a2dCTWNWME82NFBBUmdSZ1lsaHk1Z1p4aGxrR2hQODctWkU0NVFqNVgySw?oc=5",
+      "published": "2026-06-13T01:23:00+00:00",
+      "source": {
+        "name": "News-Medical",
+        "url": "https://www.news-medical.net"
+      }
+    },
+    {
       "id": "21f72e9ef8f4",
       "title": "The Hidden Cost of Racial Bias in Medicine - Medscape",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObDZrLWUyZm44azhIXzdnZXZCN0RmcTVCSC1xdk9iUDZGYTlpZkpkRHQ1RldmUkRGT3R6TWR2RGdMQTZtSEVaN1pubG5rRUVNbFJmSVdJcmItNy1VeENDbnIxeTRlV2hVU2N4VnBJeWJqeGlLcG54NldBVHpjajBkSGZOQTNzTHphX2c?oc=5",
@@ -294,33 +314,23 @@
       }
     },
     {
-      "id": "f1b0a68d8f17",
-      "title": "New degree focus helps health professionals boost their communication skills - ASU News",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdGc5ZUJrb3hIVWJFRjlBaW14TWZzc0gyRG13QzB0S2ZOWExkWFpxamM2NUhrZFJrSHotQ0hKS1BCbE44WFJUTUdWdUoyZzdjRDVfVDRkSlZlNXhsVFhmT3l1NWNRMXl0dmtOQ3V1ajYtMTFVeHpmNXNlLURFdnV1QTJ4eGFza3JQVGJDbzlMYzJmd2tlUTZtbjhLLVdCUmVVQnYzcmxJWVRvQW9qZ2MwaUMxV1hYSldubGVN?oc=5",
-      "published": "2026-06-12T19:55:44+00:00",
+      "id": "eff91652c697",
+      "title": "Why grandparents matter more than ever for children's mental health - ScienceDaily",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15aTVNQ0RKSl9waFlCd2h6SzZPUW50SzV3aWRTNGI0SWJEUFRlREdWNTduMHRsT2JwZFlOSHJ3T19QVm9jb2o2aWNXYWZycXJDZmtSU19UQzlUWGhMc181cVlxRjJNbHhaU29MUUNR?oc=5",
+      "published": "2026-06-13T09:13:24+00:00",
       "source": {
-        "name": "ASU News",
-        "url": "https://news.asu.edu"
+        "name": "ScienceDaily",
+        "url": "http://www.sciencedaily.com"
       }
     },
     {
-      "id": "b2b7c5cf7277",
-      "title": "Sanford Health MD named Top 50 clinical leader - Sanford Health News",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdXQyUlVZVmJRUHMyaU4zVnRfYm91MmVIeGlkZ1dOYkpILVNtYkYzWlhOb3paaEE4dG5vQ0xHbnMxTmVLY2dzWTNQdUxZWUU5MWVBeC02T2FUTFhfVGhWSU1adnhUSlRFRHR6clZmQTY2bElyR3A3RTVSY2Y1Z0VZUFB5bzIwUUdaeHRKVExFakExdXVuTWlncFBGWDhtWjN3aUhXS2Yxak42cGZuanIxVWp5TjNoeWJwbEdmcw?oc=5",
-      "published": "2026-06-12T14:13:04+00:00",
+      "id": "bc6c7808b8bb",
+      "title": "Out-of-this-world medical tech could boost health care on Earth, researchers say - CBC",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoX0dxSmsxWWJmMXozS1I1SmMxdzItekE2TzNkN1E3UDRmR1BMcDlxYzlVUU5ydVJDVFhpQUZ6QnFzYjNaTEdoeGRUVjNtQ2dTcU9OTEhaLUZTWEZUdXRTRU10RXNwT2Z1NjJYc05hQTliaUdaQlhPV3huZEo?oc=5",
+      "published": "2026-06-13T08:00:00+00:00",
       "source": {
-        "name": "Sanford Health News",
-        "url": "https://news.sanfordhealth.org"
-      }
-    },
-    {
-      "id": "47593d780ab4",
-      "title": "Arizona universities are key contributors to growing Phoenix Bioscience Core - ASU News",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeVZnM094TkpoeEdTZEhEdWhacEVCdjFRN1dYRHdXQkxicmllSkQtVVl6Rldma05WM3JORVNqd1B4OUVWTEZlRVJMaGdqdVZWWm1FOXMwazdMajRKalNmSEMzVERiVDNvNkY3QkdFVzFaRHg5MmJDLWRJb3psbEhLeGJEbTc2NGExMHg0eVJIUkZ3OTBvaWxWUTJtcEZoZmpYUDYwNURweTlBVW5nU1QydmFJd3I1ODgzY2Rn?oc=5",
-      "published": "2026-06-12T20:26:14+00:00",
-      "source": {
-        "name": "ASU News",
-        "url": "https://news.asu.edu"
+        "name": "CBC",
+        "url": "https://www.cbc.ca"
       }
     },
     {
@@ -334,16 +344,6 @@
       }
     },
     {
-      "id": "68c17f54ccb3",
-      "title": "Athens signals support for EU-wide push on medicines access and pricing - Euractiv",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX2FzckZYbzZsS0ZkZ0luOVhWX2NmTDhNb3l1dng1dy1TRURSeWRNXzlNUmZrRThMT3JERncxLWgzR01oTWJxcXpQQnAyY0tjRWtXNU1VWWRMT0toX1R3a1ZCQXVvVTlXNl9pWG5UZ2NaZ3JmVmY1RUI2S2tqMkc4b1I2N2VPVmk4ODFQVjN3MkdUVnQ0ekRuNWFnZURYX3g2UjdYSA?oc=5",
-      "published": "2026-06-12T14:39:45+00:00",
-      "source": {
-        "name": "Euractiv",
-        "url": "https://www.euractiv.com"
-      }
-    },
-    {
       "id": "cf363efa4493",
       "title": "Waikato names experienced GP leader as Deputy Dean of Medicine - University of Waikato",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcGkwcE5IRDg5QmlDWVZmOEtBODlOV2ktdHdFMVM4ZmI2UFZnRFlobF9rdmN3MW9rRE5FX1Y4dGhNaUJyQVFPRHJTWkIycTZwUzVRY2tHZzhqNDNjdUlzbWxrNldSWjR2VURmOU5lRkd1V2JXOHFmMkctc2x1T3lobzBwazk0YV9SeEFxbjRVUkk4WGt5NFppNjYzQ2Y2T2JlLTh3anExUzdGUQ?oc=5",
@@ -354,63 +354,33 @@
       }
     },
     {
-      "id": "cd0567cb530e",
-      "title": "Is Modern Medicine Losing the Art of Listening? - Medscape",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaVBXMXRWa3gzUm5OdkprOHhLU2RHZVdybnIwM0RXZGtNbFhLWkNnaVJfeGtPdE9JcWEzOXJJbzhYUHRPQlVYYWZHMXBuUXM4Y1p6NkVuQVcyUlNpWGVMenkxT0JsaE01NzYwb1g1a0FZVVNFbFBxbC1VLUpJNjdtVzZLZ1ZGRC1qUi1nazV3T0Q4QTB0NkhVNG1R?oc=5",
-      "published": "2026-06-12T11:29:52+00:00",
+      "id": "701fb2136f2e",
+      "title": "‘I’m pretty much all in’: An interview with a woman starting medical residency at almost 73 - statnews.com",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbS1rUkJzRVl0cmFUaUdwajV6MC1VVHRtbVQ1RnlMcVM4RzNkT3ljWF8zMzlvWFRWX1Rxd2d4S2R4VWljc0lpQklyZlotTWYxX3AwS3dPMVh5UjBPNkdBVW82SUFQdTgzYVl0bGpGY1BIcHdJUTBOeHFydU1ydmNYd3Mxbw?oc=5",
+      "published": "2026-06-13T08:32:36+00:00",
       "source": {
-        "name": "Medscape",
-        "url": "https://www.medscape.com"
+        "name": "statnews.com",
+        "url": "https://www.statnews.com"
       }
     },
     {
-      "id": "715fc654082f",
-      "title": "Opinion | Five Things I Wish Someone Said at My 1998 Medical School Graduation - MedPage Today",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPSW9iSUd6VG1uWEFXMngtc3BWYms2b3VrYWZhWUtNV0tCYU43TTBscTgyZHk1WDJUNFZZYkE5aW1RVnFUQkpmVWl6X2JoRHdPZUR3VlQwRFVrTld1TlVRTWhLNEI?oc=5",
-      "published": "2026-06-12T16:43:42+00:00",
+      "id": "f1b0a68d8f17",
+      "title": "New degree focus helps health professionals boost their communication skills - ASU News",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdGc5ZUJrb3hIVWJFRjlBaW14TWZzc0gyRG13QzB0S2ZOWExkWFpxamM2NUhrZFJrSHotQ0hKS1BCbE44WFJUTUdWdUoyZzdjRDVfVDRkSlZlNXhsVFhmT3l1NWNRMXl0dmtOQ3V1ajYtMTFVeHpmNXNlLURFdnV1QTJ4eGFza3JQVGJDbzlMYzJmd2tlUTZtbjhLLVdCUmVVQnYzcmxJWVRvQW9qZ2MwaUMxV1hYSldubGVN?oc=5",
+      "published": "2026-06-12T19:55:44+00:00",
       "source": {
-        "name": "MedPage Today",
-        "url": "https://www.medpagetoday.com"
+        "name": "ASU News",
+        "url": "https://news.asu.edu"
       }
     },
     {
-      "id": "e1b7338ad8b1",
-      "title": "Warning of cuts to medical services, L.A. County health officials ask state for emergency funds - Los Angeles Times",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOGhWLS0xdkxHMnJ5aUNXUXV0YzZ2UVJONUxUWDd0Z09ib1UxMjNDdmN1eEV1OXVjRUhaU3lwRnpMQUJ4MmxIQTA2cmZSVHQ1MkFUc0tjZHdfcGhaQVFkMHF5ZGd5d09aWWJiMG01b1puSUNka0w5aHhXZ0pzTHZORTNHVG9adjR0ZTRtNDQ5QnVXNVZiTVFUVjdSaC16T2dQWGpaSW9Vd0M?oc=5",
-      "published": "2026-06-12T10:00:00+00:00",
+      "id": "47593d780ab4",
+      "title": "Arizona universities are key contributors to growing Phoenix Bioscience Core - ASU News",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeVZnM094TkpoeEdTZEhEdWhacEVCdjFRN1dYRHdXQkxicmllSkQtVVl6Rldma05WM3JORVNqd1B4OUVWTEZlRVJMaGdqdVZWWm1FOXMwazdMajRKalNmSEMzVERiVDNvNkY3QkdFVzFaRHg5MmJDLWRJb3psbEhLeGJEbTc2NGExMHg0eVJIUkZ3OTBvaWxWUTJtcEZoZmpYUDYwNURweTlBVW5nU1QydmFJd3I1ODgzY2Rn?oc=5",
+      "published": "2026-06-12T20:26:14+00:00",
       "source": {
-        "name": "Los Angeles Times",
-        "url": "https://www.latimes.com"
-      }
-    },
-    {
-      "id": "d69c23ca2c21",
-      "title": "Readiness and Knowledge of Medical Students and Staff in the UAE Toward the Integration of Artificial Intelligence in Medicine - Cureus",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOR18tWkVidXFVZENRdENWd0JkSEJtbW1LemdwV2lEcmJOR0Q5N2NJcjB1UWhmTkt4MmtTRWF6NThudTdNNHVIbGUxYmsyd3dGdE1xakJ4SkhXNi02bXhEd0VyVWdFelktVGstU1pZclhxdllqNE05UlFjN2hRYlNjak9HdVJKYTBFNFAwemlteGFienNnbFJHYnhQX05TTUdPMWpEM2xYWnJlcGJHU2pjMkt3Z213OWV0akNLQm5wOWdlcS1fdkYwT3hBem02c3FFbDBvWE5zMUZVUG56Z1hLSUoxcVB4MG5pM0xiUnFIQloxM00yNUtOWg?oc=5",
-      "published": "2026-06-11T08:29:36+00:00",
-      "source": {
-        "name": "Cureus",
-        "url": "https://www.cureus.com"
-      }
-    },
-    {
-      "id": "9cda73986dca",
-      "title": "How will the Tracy Medline medical supply warehouse fire impact hospitals? - KCRA",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0laOEs4cEswQll6aXVWT2VEaGRSQXAyNFk4VHZuQ21HSG5FZjZVUnQ4NHFVaVRSVWlXQWlNTGZ4S1FHNDJnRTJtZ2RsenhKSGNaTWVPV3dwMUdYaF9lVUtFM3VRVURlcFZ2U29Mc3h4czhsY25jQWhGTEhvS01WdlExZGpyd3ptRVBHWEU4TEI0WFA0NVJ3?oc=5",
-      "published": "2026-06-12T18:26:00+00:00",
-      "source": {
-        "name": "KCRA",
-        "url": "https://www.kcra.com"
-      }
-    },
-    {
-      "id": "b532e0af7c27",
-      "title": "Idiopathic pulmonary fibrosis: Why vaccines matter for lung health - Mayo Clinic Press",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd3h0YjZTVHB2Q0lNQy1zTjNWWnpmZEU3aGxrNDJ2cm8zR0p5WktYdFBqbnpuckYtOEFZUkRoSXdSUXdETW1tU2hobHpxQTJ0SlNQUXRhRGtaY2NQZGxGRTNvdk14SnpUQUMzNk02c2hQMmQ1TzBhckZIbVRTaFVSb2ZfUnV2a25kdzhPbzhpYWU1SGxZQmg3RG95U2M0VENSeVBiLWpoSkcwbmFkM3RSWU9vYUNFWlNSakM1cXQ2OTJJVFM0ZHc?oc=5",
-      "published": "2026-06-12T22:04:59+00:00",
-      "source": {
-        "name": "Mayo Clinic Press",
-        "url": "https://mcpress.mayoclinic.org"
+        "name": "ASU News",
+        "url": "https://news.asu.edu"
       }
     },
     {
@@ -424,6 +394,76 @@
       }
     },
     {
+      "id": "b2b7c5cf7277",
+      "title": "Sanford Health MD named Top 50 clinical leader - Sanford Health News",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdXQyUlVZVmJRUHMyaU4zVnRfYm91MmVIeGlkZ1dOYkpILVNtYkYzWlhOb3paaEE4dG5vQ0xHbnMxTmVLY2dzWTNQdUxZWUU5MWVBeC02T2FUTFhfVGhWSU1adnhUSlRFRHR6clZmQTY2bElyR3A3RTVSY2Y1Z0VZUFB5bzIwUUdaeHRKVExFakExdXVuTWlncFBGWDhtWjN3aUhXS2Yxak42cGZuanIxVWp5TjNoeWJwbEdmcw?oc=5",
+      "published": "2026-06-12T14:13:04+00:00",
+      "source": {
+        "name": "Sanford Health News",
+        "url": "https://news.sanfordhealth.org"
+      }
+    },
+    {
+      "id": "68c17f54ccb3",
+      "title": "Athens signals support for EU-wide push on medicines access and pricing - Euractiv",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX2FzckZYbzZsS0ZkZ0luOVhWX2NmTDhNb3l1dng1dy1TRURSeWRNXzlNUmZrRThMT3JERncxLWgzR01oTWJxcXpQQnAyY0tjRWtXNU1VWWRMT0toX1R3a1ZCQXVvVTlXNl9pWG5UZ2NaZ3JmVmY1RUI2S2tqMkc4b1I2N2VPVmk4ODFQVjN3MkdUVnQ0ekRuNWFnZURYX3g2UjdYSA?oc=5",
+      "published": "2026-06-12T14:39:45+00:00",
+      "source": {
+        "name": "Euractiv",
+        "url": "https://www.euractiv.com"
+      }
+    },
+    {
+      "id": "715fc654082f",
+      "title": "Opinion | Five Things I Wish Someone Said at My 1998 Medical School Graduation - MedPage Today",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPSW9iSUd6VG1uWEFXMngtc3BWYms2b3VrYWZhWUtNV0tCYU43TTBscTgyZHk1WDJUNFZZYkE5aW1RVnFUQkpmVWl6X2JoRHdPZUR3VlQwRFVrTld1TlVRTWhLNEI?oc=5",
+      "published": "2026-06-12T16:43:42+00:00",
+      "source": {
+        "name": "MedPage Today",
+        "url": "https://www.medpagetoday.com"
+      }
+    },
+    {
+      "id": "b532e0af7c27",
+      "title": "Idiopathic pulmonary fibrosis: Why vaccines matter for lung health - Mayo Clinic Press",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd3h0YjZTVHB2Q0lNQy1zTjNWWnpmZEU3aGxrNDJ2cm8zR0p5WktYdFBqbnpuckYtOEFZUkRoSXdSUXdETW1tU2hobHpxQTJ0SlNQUXRhRGtaY2NQZGxGRTNvdk14SnpUQUMzNk02c2hQMmQ1TzBhckZIbVRTaFVSb2ZfUnV2a25kdzhPbzhpYWU1SGxZQmg3RG95U2M0VENSeVBiLWpoSkcwbmFkM3RSWU9vYUNFWlNSakM1cXQ2OTJJVFM0ZHc?oc=5",
+      "published": "2026-06-12T22:04:59+00:00",
+      "source": {
+        "name": "Mayo Clinic Press",
+        "url": "https://mcpress.mayoclinic.org"
+      }
+    },
+    {
+      "id": "9cda73986dca",
+      "title": "How will the Tracy Medline medical supply warehouse fire impact hospitals? - KCRA",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0laOEs4cEswQll6aXVWT2VEaGRSQXAyNFk4VHZuQ21HSG5FZjZVUnQ4NHFVaVRSVWlXQWlNTGZ4S1FHNDJnRTJtZ2RsenhKSGNaTWVPV3dwMUdYaF9lVUtFM3VRVURlcFZ2U29Mc3h4czhsY25jQWhGTEhvS01WdlExZGpyd3ptRVBHWEU4TEI0WFA0NVJ3?oc=5",
+      "published": "2026-06-12T18:26:00+00:00",
+      "source": {
+        "name": "KCRA",
+        "url": "https://www.kcra.com"
+      }
+    },
+    {
+      "id": "88931d23d321",
+      "title": "One in five Australians are medicating their mental health - AFR",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSlZzT1ZCS1RkN3ZNbGpEdTZwaWI0WTZjMFRzMXZhOVNaU1A2SXBVMEI3UWc0ZTRQTmxpU2tkcktaMTI2Mzcwd2tlSEMyMnZVbEZoTFNOOTV3d0N6RnFjQ014UE5XRG5taEFHbVFDZ3ViU2JKZnhvS1ZycTFTOEdVcEFRZ3hFX2xpRE5EbWo5ZzNzcUFwMWJZZDJmMHFadG9HUkNLSmhXaFI3Y1VGZF8wYUpNZUFjV0FkU01sWHliU0tEVXNTQkE?oc=5",
+      "published": "2026-06-10T19:00:00+00:00",
+      "source": {
+        "name": "AFR",
+        "url": "https://www.afr.com"
+      }
+    },
+    {
+      "id": "0fbc703cdcd7",
+      "title": "Stanford Medicine’s bold proposal to accelerate cancer innovation and transform care - Stanford Medicine",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdmZUbzdBS3lRWmtKcHZWbnpkU1VCSElvTTNQb3FkN3Zta1FjRkFfa0Q4Szc2eVZtcVpEdXpVLWYtM1RiT1VkRkozNG1wNl92MW5EdC0xMy1JZzVTYk9fUVpzMmJ1OTlwWUh5TGg3bFNlZ1FpQUp2dGk2a1A5aGpuY2xRcGk?oc=5",
+      "published": "2026-06-10T04:01:33+00:00",
+      "source": {
+        "name": "Stanford Medicine",
+        "url": "https://med.stanford.edu"
+      }
+    },
+    {
       "id": "1d77f67c1e6f",
       "title": "Gut bacteria linked to osteoporosis risk in primary hyperparathyroidism - EurekAlert!",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aNC0yMjJvTzNRYktyVTE4WDB1MFZPZEdvTUhVbGlCelZPZFlLbW0wSkRGUTlhY1QxRlVPVERmQ3JnYU1sb1AyNjNLQUljYUdPN21IVnlvbndFa0RH?oc=5",
@@ -431,6 +471,16 @@
       "source": {
         "name": "EurekAlert!",
         "url": "https://www.eurekalert.org"
+      }
+    },
+    {
+      "id": "cd0567cb530e",
+      "title": "Is Modern Medicine Losing the Art of Listening? - Medscape",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaVBXMXRWa3gzUm5OdkprOHhLU2RHZVdybnIwM0RXZGtNbFhLWkNnaVJfeGtPdE9JcWEzOXJJbzhYUHRPQlVYYWZHMXBuUXM4Y1p6NkVuQVcyUlNpWGVMenkxT0JsaE01NzYwb1g1a0FZVVNFbFBxbC1VLUpJNjdtVzZLZ1ZGRC1qUi1nazV3T0Q4QTB0NkhVNG1R?oc=5",
+      "published": "2026-06-12T11:29:52+00:00",
+      "source": {
+        "name": "Medscape",
+        "url": "https://www.medscape.com"
       }
     },
     {
@@ -464,23 +514,13 @@
       }
     },
     {
-      "id": "0fbc703cdcd7",
-      "title": "Stanford Medicine’s bold proposal to accelerate cancer innovation and transform care - Stanford Medicine",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdmZUbzdBS3lRWmtKcHZWbnpkU1VCSElvTTNQb3FkN3Zta1FjRkFfa0Q4Szc2eVZtcVpEdXpVLWYtM1RiT1VkRkozNG1wNl92MW5EdC0xMy1JZzVTYk9fUVpzMmJ1OTlwWUh5TGg3bFNlZ1FpQUp2dGk2a1A5aGpuY2xRcGk?oc=5",
-      "published": "2026-06-10T04:01:33+00:00",
+      "id": "3696e14b25cf",
+      "title": "Top achiever ready to make his mark in medicine - University of Auckland",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUEctSnRFODItWWJNVXNXZE5VRXJGa0poakJYSEpLQ2lLa0ItdmxIY1ZUQm1ha2VtMHhHREd2RzA2anRlRkZ0OVBlOXF2TElCT3VuNmVfRW1SVkE3UE5Da01PVVBNcjI1c0pNZUN4MkZtZGxrOE1kUjByeWFONXdUWG1jWQ?oc=5",
+      "published": "2025-12-10T08:00:00+00:00",
       "source": {
-        "name": "Stanford Medicine",
-        "url": "https://med.stanford.edu"
-      }
-    },
-    {
-      "id": "88931d23d321",
-      "title": "One in five Australians are medicating their mental health - AFR",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSlZzT1ZCS1RkN3ZNbGpEdTZwaWI0WTZjMFRzMXZhOVNaU1A2SXBVMEI3UWc0ZTRQTmxpU2tkcktaMTI2Mzcwd2tlSEMyMnZVbEZoTFNOOTV3d0N6RnFjQ014UE5XRG5taEFHbVFDZ3ViU2JKZnhvS1ZycTFTOEdVcEFRZ3hFX2xpRE5EbWo5ZzNzcUFwMWJZZDJmMHFadG9HUkNLSmhXaFI3Y1VGZF8wYUpNZUFjV0FkU01sWHliU0tEVXNTQkE?oc=5",
-      "published": "2026-06-10T19:00:00+00:00",
-      "source": {
-        "name": "AFR",
-        "url": "https://www.afr.com"
+        "name": "University of Auckland",
+        "url": "https://www.auckland.ac.nz"
       }
     },
     {
@@ -494,13 +534,13 @@
       }
     },
     {
-      "id": "dbd8a41ee8a3",
-      "title": "Noninvasive sequencing expands prenatal genetic screening capabilities - News-Medical",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZkwyT04zZGN3ellFNzRHaEU1TllaMU1SOHh1UnAwS3VKTVRaeHdoR0N3UnltNG80ODFTVVJoU0NQdHBYLUFCdEtVRjZqdjVCWDlOWkJlN0JaNGxZRXMxUldzdFB6Qm0xTS0wbjZvU0JXenhWYUl3NXZnWXljWHRoUnh0V3JzQ3l3WWpQRUxha2F4WDBCRnp6TkJHay1DQmFHWGhwRmFVU2Ffa1R4dVc2NFJaX2tKRUZHOVE?oc=5",
-      "published": "2026-06-13T02:32:00+00:00",
+      "id": "37ce47196396",
+      "title": "The big ideas from Stanford Health AI week - Stanford Medicine",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaEM5c2l1NGRfVGUyVnFOZnNfQ0lVcjI5a3JRbllybFRBaEdnd18zSDRkNGdLcXdrMUJfb0NBWXl0YnJmb0E3UkpUQVRORkp2OUNUa212UzlvSWhuSVhSN1ZoS0tSR3FNenpHdTNkS0RpSXUzOXo5dU4wNzRlQ3lWSw?oc=5",
+      "published": "2026-06-11T18:54:56+00:00",
       "source": {
-        "name": "News-Medical",
-        "url": "https://www.news-medical.net"
+        "name": "Stanford Medicine",
+        "url": "https://med.stanford.edu"
       }
     },
     {
@@ -524,26 +564,6 @@
       }
     },
     {
-      "id": "fed5c4482394",
-      "title": "UVA Joins SPARK GLOBAL to Accelerate Innovative New Medicines - UVA Health",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWm92QmVkSzMtQTlfV1BFUTRHQWlSUHZDT2cwQ3lmRHYyOExBQkhNY1k5WEEtMDJqMUZqTjdCNzdQV2kwMnhCUWU5RzdCS3RyOGs0bnBKdGhGdjFRSFlQMFV3dk8wdVRVVndVOVgzZmJtVnRscHFGM0RxdGlvMXQxdmlsUldhaEtVMllQOVFvejVaVnZxejNn?oc=5",
-      "published": "2026-06-12T16:11:31+00:00",
-      "source": {
-        "name": "UVA Health",
-        "url": "https://www.uvahealth.com"
-      }
-    },
-    {
-      "id": "3696e14b25cf",
-      "title": "Top achiever ready to make his mark in medicine - University of Auckland",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUEctSnRFODItWWJNVXNXZE5VRXJGa0poakJYSEpLQ2lLa0ItdmxIY1ZUQm1ha2VtMHhHREd2RzA2anRlRkZ0OVBlOXF2TElCT3VuNmVfRW1SVkE3UE5Da01PVVBNcjI1c0pNZUN4MkZtZGxrOE1kUjByeWFONXdUWG1jWQ?oc=5",
-      "published": "2025-12-10T08:00:00+00:00",
-      "source": {
-        "name": "University of Auckland",
-        "url": "https://www.auckland.ac.nz"
-      }
-    },
-    {
       "id": "c49b7c2420de",
       "title": "New vascularized grafts may improve bladder surgery for children - News-Medical",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTkxVXzg3WEY2ZDZwcV9xeWZfWjFPaEVuUE1qQzZDVVA2a29UUDhyY3FIZXJhUkI1NllZUFFIVm9PeXBFUGNWZ0JJc0JRME54Ujk5cjZMd3pEMGVWVFJYcEpnUHhHUG1VSkNwOWpxSTllVmcwYTBoU1FYRlpfWHY5VzhMcXI1WnZsN3F2S2R6VUhJY1MyZGFDOGRaUGY1OE1JV1F3alFqS0Y2NmJJRTVoNXpB?oc=5",
@@ -551,76 +571,6 @@
       "source": {
         "name": "News-Medical",
         "url": "https://www.news-medical.net"
-      }
-    },
-    {
-      "id": "76c245056743",
-      "title": "Trump's DOJ can't get names and medical files of trans youth in California, for now - NPR",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT3JSOGpMcEtacGpMek4xTk5JaUwwYWNZbFkzSXV4S19RcHozUUZMNTZyVHBPYWtVZjFadDNmRnJuWjNwbWxLVG9aUVdiLV9vVjlId0JLY01VTU5VdjJvOEozNTJCNmM1WHRLM2FRN3F2bnpLVGR6SUNiRUFGZGZoS28zdWpIT1VzeG5VZW5SbW1GUQ?oc=5",
-      "published": "2026-06-12T09:00:00+00:00",
-      "source": {
-        "name": "NPR",
-        "url": "https://www.npr.org"
-      }
-    },
-    {
-      "id": "37ce47196396",
-      "title": "The big ideas from Stanford Health AI week - Stanford Medicine",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaEM5c2l1NGRfVGUyVnFOZnNfQ0lVcjI5a3JRbllybFRBaEdnd18zSDRkNGdLcXdrMUJfb0NBWXl0YnJmb0E3UkpUQVRORkp2OUNUa212UzlvSWhuSVhSN1ZoS0tSR3FNenpHdTNkS0RpSXUzOXo5dU4wNzRlQ3lWSw?oc=5",
-      "published": "2026-06-11T18:54:56+00:00",
-      "source": {
-        "name": "Stanford Medicine",
-        "url": "https://med.stanford.edu"
-      }
-    },
-    {
-      "id": "dbda3c7ffad0",
-      "title": "Idiopathic pulmonary fibrosis: Managing GERD, medicine side effects and diet - Mayo Clinic Press",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOUgyc0pTOE9TSkNJOUJ0SEoyX1l2VTNWZUJYeG90Q0NNQnN3Z0FpenlGclZOZzBnTGJ2SHBSRE5fMWltcjJwWWFIZldWZmlkM2JSem1PZEJEdlljdlR1dUR3bG0ycU1YRGtCQmhacFBpbXhwMHlLS0NTSmFERFFCMWNNamZIbFRISWV4OWo2ckh2OFBFOVA5OGZsYThYV3FZY1lEdUJ1dFJldlhzQXh4a3VIQ25IRE1WaGx1UUp6R3kxeXZtOVpzd3E3aGZYZ3JHQmc?oc=5",
-      "published": "2026-06-12T22:04:59+00:00",
-      "source": {
-        "name": "Mayo Clinic Press",
-        "url": "https://mcpress.mayoclinic.org"
-      }
-    },
-    {
-      "id": "e3c3bc53d711",
-      "title": "From Multi-Omics to Digital Twins: A Data-Driven Future for Precision Medicine - Inside Precision Medicine",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNX1Q0ZE5jczBjZl9PZ0VKd3BkUHp3SlZSeE92cVprNFZwZF9jX0tNQmdGMjV1VDdGUWpSMXV2WF8zbkhOV3R6bXYwclNwVXdxRVBvSGszdWNEMS11QW9GdlFhZVQ0SEF4TGRyYkhNSU9OLXk3N2g0c2ZYSmw4M0UzUmFLNHVMb3NzMTNvUmZzanVIYXJucS01cm9UX3lSNUV4ZnRKVVFqVnJwWUhHUXVBX3dDZFhRQzdUWXVJY04zbEZkU0dQNzVIc2ZqNzdSYmk4MGk5d295MXpVcDBx?oc=5",
-      "published": "2026-06-12T19:25:25+00:00",
-      "source": {
-        "name": "Inside Precision Medicine",
-        "url": "https://www.insideprecisionmedicine.com"
-      }
-    },
-    {
-      "id": "60d53d604f96",
-      "title": "New Cumberland County medical school ready to boost local healthcare - The Fayetteville Observer",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ2tlU0s2d2RiV2tINnBhTDJWZjlObU1jQUdWQk5xUVNVWTYySFJLb0lwS2VfUnoyeGF2S01sNzVsT2NpWUxDU1dmcjFONmNpYnNrU2U1Vm9MQ09TVVZUbTdjN3lNMDEyLWF4aTczZ19EaUlMaTZiRjlpdEZjMjJIdVdoc0R5ZkF2VnJCQzRtem5mLVRVeUd3bzFSY2g4dDlHSnhLVzdnRnJmeXd6SE5Gci10NHBZbGtZUmtHYUU3dmdDa1R0UzR1cDRVTEpRWjdTOThBMmVR?oc=5",
-      "published": "2026-06-12T17:57:00+00:00",
-      "source": {
-        "name": "The Fayetteville Observer",
-        "url": "https://www.fayobserver.com"
-      }
-    },
-    {
-      "id": "db05f7fdc88f",
-      "title": "U.S., Honduran forces strengthen partnership during medical brigade in Villa de San Antonio - DVIDS",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcm1LU01abnpKSUtWY05Bc2hBWVZNeFppY3F4ODBIeDNBMjFmb09jWlRhNXRtejdRTWZDZ2hCTlRjMUNiRzVUNXI4TTFUSmhibXRWLXBoY3ZtNENuVWQ3WUhNS0pxbnJHWmdCbzl0TTIyZlVZdlk0QlkxM2tWWXZUUFNhdEt6YmJtSG1NUW1OR2Nad0N0cGRQT1pSTEc3ZTdnTmJreFd0RVRHa1hDb1o3dlJpS012OXBpX2RONmEwNA?oc=5",
-      "published": "2026-06-12T18:04:00+00:00",
-      "source": {
-        "name": "DVIDS",
-        "url": "https://www.dvidshub.net"
-      }
-    },
-    {
-      "id": "dd8a83a02d82",
-      "title": "Medical Student Outreach Program Race to Recruit - American Medical Association",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMnlBSXdJWnZmV3M2RzdzVkNZZDBUSHo5QllXdnlkV2paaDJOMEFlODdtMU80b0FXWFNrRkx2akxoRUJfOEFucXdSU2R0VEZaLVktRnQydjRqOXg5LW5razE1UmhTcVM5Y3piT0ZFVmhoeGM1ai00NUZfV2tCY243RWxxd2g4dHhnV01fYm4yeGVKT1Fab3BIOS1PODJPTEN3eHM2TDY2dUV3WDJSalF0Vw?oc=5",
-      "published": "2026-06-12T19:45:46+00:00",
-      "source": {
-        "name": "American Medical Association",
-        "url": "https://www.ama-assn.org"
       }
     },
     {
@@ -634,13 +584,13 @@
       }
     },
     {
-      "id": "9dea1bb7090c",
-      "title": "New fentanyl vaccine blocks deadly overdoses before they start - ScienceDaily",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yc3ppYnpnX19NN0UtYWhmcE1oRXAzVGQzbS1QMVlpOVVTbGd5RFZIbGtFRDgwZEhMV1pZSjV2RWd2VU5hSnpsUXp6eEtFcWY5MFd1Wmp2RlItUW56Tk1DanNxN2VBWjBRTHZ1TlBn?oc=5",
-      "published": "2026-06-13T05:36:53+00:00",
+      "id": "e1b7338ad8b1",
+      "title": "Warning of cuts to medical services, L.A. County health officials ask state for emergency funds - Los Angeles Times",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOGhWLS0xdkxHMnJ5aUNXUXV0YzZ2UVJONUxUWDd0Z09ib1UxMjNDdmN1eEV1OXVjRUhaU3lwRnpMQUJ4MmxIQTA2cmZSVHQ1MkFUc0tjZHdfcGhaQVFkMHF5ZGd5d09aWWJiMG01b1puSUNka0w5aHhXZ0pzTHZORTNHVG9adjR0ZTRtNDQ5QnVXNVZiTVFUVjdSaC16T2dQWGpaSW9Vd0M?oc=5",
+      "published": "2026-06-12T10:00:00+00:00",
       "source": {
-        "name": "ScienceDaily",
-        "url": "http://www.sciencedaily.com"
+        "name": "Los Angeles Times",
+        "url": "https://www.latimes.com"
       }
     },
     {
@@ -654,53 +604,33 @@
       }
     },
     {
-      "id": "5680950f7bd7",
-      "title": "Honoring military medicine professionals on Flag Day - Health.mil",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xal9rcFV4b2lIY3IyaXRSN1llRDNCMEdNZUZmdXpUSjc4TXd2aTVwODhKQVQtNzhTRDlTVy1fdTJ5QVdLbkFGOXBIZXVvWTJ2Zm9NaTlwcTFUNUxtN3NCbkFFdWc5VlVtdEJQaW91bVNyZw?oc=5",
-      "published": "2026-06-12T19:39:37+00:00",
+      "id": "dbda3c7ffad0",
+      "title": "Idiopathic pulmonary fibrosis: Managing GERD, medicine side effects and diet - Mayo Clinic Press",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOUgyc0pTOE9TSkNJOUJ0SEoyX1l2VTNWZUJYeG90Q0NNQnN3Z0FpenlGclZOZzBnTGJ2SHBSRE5fMWltcjJwWWFIZldWZmlkM2JSem1PZEJEdlljdlR1dUR3bG0ycU1YRGtCQmhacFBpbXhwMHlLS0NTSmFERFFCMWNNamZIbFRISWV4OWo2ckh2OFBFOVA5OGZsYThYV3FZY1lEdUJ1dFJldlhzQXh4a3VIQ25IRE1WaGx1UUp6R3kxeXZtOVpzd3E3aGZYZ3JHQmc?oc=5",
+      "published": "2026-06-12T22:04:59+00:00",
       "source": {
-        "name": "Health.mil",
-        "url": "https://www.health.mil"
+        "name": "Mayo Clinic Press",
+        "url": "https://mcpress.mayoclinic.org"
       }
     },
     {
-      "id": "d9eaece54c11",
-      "title": "News - NMCSD Pilots First Virtual Trauma Nursing Core Course for Navy Medicine - DVIDS",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUnR5TzRwZzk1S1VDckltdFF4MjJYOW12R3JCUGNvY2lVUHFxX200cUFkWXBWNG5vRUZlRjhES2RxWDRTSnd3NFVjdlNvWU1lU1Nxa05JN29aVlhkV2NTY1JuNjVHTFFOUVgzZExmQU5wRmZ4N3I4M2QwbGRZckliUHBtSFFJRzBSZGY5UXF5cElHM1BiRnlsT2YyamY3SWgzV2JZN18zbw?oc=5",
-      "published": "2026-06-12T21:28:00+00:00",
+      "id": "fed5c4482394",
+      "title": "UVA Joins SPARK GLOBAL to Accelerate Innovative New Medicines - UVA Health",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWm92QmVkSzMtQTlfV1BFUTRHQWlSUHZDT2cwQ3lmRHYyOExBQkhNY1k5WEEtMDJqMUZqTjdCNzdQV2kwMnhCUWU5RzdCS3RyOGs0bnBKdGhGdjFRSFlQMFV3dk8wdVRVVndVOVgzZmJtVnRscHFGM0RxdGlvMXQxdmlsUldhaEtVMllQOVFvejVaVnZxejNn?oc=5",
+      "published": "2026-06-12T16:11:31+00:00",
       "source": {
-        "name": "DVIDS",
-        "url": "https://www.dvidshub.net"
+        "name": "UVA Health",
+        "url": "https://www.uvahealth.com"
       }
     },
     {
-      "id": "732f9ae2641d",
-      "title": "Virtual Team-Based GI Care Superior to Traditional Care - Medscape",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM1RJRjM1WlZmRUFNUEROUFVqNnM1NnhzdHpXM1N5YUx1UXpqWTEyZ2xxWm4wc21uYlNndU01VkNnTmN1c0lIR20wc2NncUFvQmN1X1NMZDFFWVY2NkdKd1cyeUdUaDA1LXZrQVd3UWg5UGI4bldpaUhpQUVYN0pnVFRhampUMGs4NDhXLUZzeHlZZVhzdUJDbkVHRUpvNWN2aVNWZE1MT0diSFU?oc=5",
-      "published": "2026-06-12T13:48:03+00:00",
+      "id": "e3c3bc53d711",
+      "title": "From Multi-Omics to Digital Twins: A Data-Driven Future for Precision Medicine - Inside Precision Medicine",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNX1Q0ZE5jczBjZl9PZ0VKd3BkUHp3SlZSeE92cVprNFZwZF9jX0tNQmdGMjV1VDdGUWpSMXV2WF8zbkhOV3R6bXYwclNwVXdxRVBvSGszdWNEMS11QW9GdlFhZVQ0SEF4TGRyYkhNSU9OLXk3N2g0c2ZYSmw4M0UzUmFLNHVMb3NzMTNvUmZzanVIYXJucS01cm9UX3lSNUV4ZnRKVVFqVnJwWUhHUXVBX3dDZFhRQzdUWXVJY04zbEZkU0dQNzVIc2ZqNzdSYmk4MGk5d295MXpVcDBx?oc=5",
+      "published": "2026-06-12T19:25:25+00:00",
       "source": {
-        "name": "Medscape",
-        "url": "https://www.medscape.com"
-      }
-    },
-    {
-      "id": "f1cd7dde4aa3",
-      "title": "UCLA Health launches research-driven center of excellence to evaluate AI implementation in health care - UCLA Health",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeWpSYmt5cjdpNWxYa2FNY0dJejh1ZGljazlEZWQtNkNRcFFTZnNERGtwamhYY2pOajJuc0RzQlViSzVzRzdLTHlPMWR1eTRVajEwSWlZdkQ2Sm5GTWNrWldzYUlYZGZTSHllM0FpaTV0dDV3YV9KRmZrQXltLW5LUGFkeDVBWlg4TFJ5Nkx4NEVMTzhRYmtHYldB?oc=5",
-      "published": "2026-06-11T17:40:08+00:00",
-      "source": {
-        "name": "UCLA Health",
-        "url": "https://www.uclahealth.org"
-      }
-    },
-    {
-      "id": "edf8523540c2",
-      "title": "Stanford Medicine’s bold proposal to accelerate cancer innovation - Stanford Report",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcmFnRjl0bkcxc3hReHEtbTVqcnRiUGdDeURNTnctWFRZNFhEdmVFV2d3RXYyRExONS0tWkR5Q3FNTk0takRxNFZCTUV4eFVWeW5nQjFGOXA2UEF5bkVMUGI1VzZkel8zdVVKV1ZEdzFBX0dKb3V0eTY2VXVfekQ4a3B3QQ?oc=5",
-      "published": "2026-06-10T13:03:24+00:00",
-      "source": {
-        "name": "Stanford Report",
-        "url": "https://news.stanford.edu"
+        "name": "Inside Precision Medicine",
+        "url": "https://www.insideprecisionmedicine.com"
       }
     },
     {
@@ -714,6 +644,16 @@
       }
     },
     {
+      "id": "f1cd7dde4aa3",
+      "title": "UCLA Health launches research-driven center of excellence to evaluate AI implementation in health care - UCLA Health",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeWpSYmt5cjdpNWxYa2FNY0dJejh1ZGljazlEZWQtNkNRcFFTZnNERGtwamhYY2pOajJuc0RzQlViSzVzRzdLTHlPMWR1eTRVajEwSWlZdkQ2Sm5GTWNrWldzYUlYZGZTSHllM0FpaTV0dDV3YV9KRmZrQXltLW5LUGFkeDVBWlg4TFJ5Nkx4NEVMTzhRYmtHYldB?oc=5",
+      "published": "2026-06-11T17:40:08+00:00",
+      "source": {
+        "name": "UCLA Health",
+        "url": "https://www.uclahealth.org"
+      }
+    },
+    {
       "id": "a793e264367b",
       "title": "Leading health experts to advise on new medical school - University of Waikato",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKY3EwX0QyLU9BRXU2MVhYaXNCcV9RZXAxRVBTOGE2VUpNTGRhY1E5ZWpOMnlNaUtDRWRmclNHOVYtSHo5NjBxRG5POUNfZnBZZzhJRm5JUzVVQzh6RDlYUTdCSURqa2RfUk9rY1ZXUHhOQnRP?oc=5",
@@ -721,6 +661,46 @@
       "source": {
         "name": "University of Waikato",
         "url": "https://www.waikato.ac.nz"
+      }
+    },
+    {
+      "id": "edf8523540c2",
+      "title": "Stanford Medicine’s bold proposal to accelerate cancer innovation - Stanford Report",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcmFnRjl0bkcxc3hReHEtbTVqcnRiUGdDeURNTnctWFRZNFhEdmVFV2d3RXYyRExONS0tWkR5Q3FNTk0takRxNFZCTUV4eFVWeW5nQjFGOXA2UEF5bkVMUGI1VzZkel8zdVVKV1ZEdzFBX0dKb3V0eTY2VXVfekQ4a3B3QQ?oc=5",
+      "published": "2026-06-10T13:03:24+00:00",
+      "source": {
+        "name": "Stanford Report",
+        "url": "https://news.stanford.edu"
+      }
+    },
+    {
+      "id": "60d53d604f96",
+      "title": "New Cumberland County medical school ready to boost local healthcare - The Fayetteville Observer",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ2tlU0s2d2RiV2tINnBhTDJWZjlObU1jQUdWQk5xUVNVWTYySFJLb0lwS2VfUnoyeGF2S01sNzVsT2NpWUxDU1dmcjFONmNpYnNrU2U1Vm9MQ09TVVZUbTdjN3lNMDEyLWF4aTczZ19EaUlMaTZiRjlpdEZjMjJIdVdoc0R5ZkF2VnJCQzRtem5mLVRVeUd3bzFSY2g4dDlHSnhLVzdnRnJmeXd6SE5Gci10NHBZbGtZUmtHYUU3dmdDa1R0UzR1cDRVTEpRWjdTOThBMmVR?oc=5",
+      "published": "2026-06-12T17:57:00+00:00",
+      "source": {
+        "name": "The Fayetteville Observer",
+        "url": "https://www.fayobserver.com"
+      }
+    },
+    {
+      "id": "dd8a83a02d82",
+      "title": "Medical Student Outreach Program Race to Recruit - American Medical Association",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMnlBSXdJWnZmV3M2RzdzVkNZZDBUSHo5QllXdnlkV2paaDJOMEFlODdtMU80b0FXWFNrRkx2akxoRUJfOEFucXdSU2R0VEZaLVktRnQydjRqOXg5LW5razE1UmhTcVM5Y3piT0ZFVmhoeGM1ai00NUZfV2tCY243RWxxd2g4dHhnV01fYm4yeGVKT1Fab3BIOS1PODJPTEN3eHM2TDY2dUV3WDJSalF0Vw?oc=5",
+      "published": "2026-06-12T19:45:46+00:00",
+      "source": {
+        "name": "American Medical Association",
+        "url": "https://www.ama-assn.org"
+      }
+    },
+    {
+      "id": "db05f7fdc88f",
+      "title": "U.S., Honduran forces strengthen partnership during medical brigade in Villa de San Antonio - DVIDS",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcm1LU01abnpKSUtWY05Bc2hBWVZNeFppY3F4ODBIeDNBMjFmb09jWlRhNXRtejdRTWZDZ2hCTlRjMUNiRzVUNXI4TTFUSmhibXRWLXBoY3ZtNENuVWQ3WUhNS0pxbnJHWmdCbzl0TTIyZlVZdlk0QlkxM2tWWXZUUFNhdEt6YmJtSG1NUW1OR2Nad0N0cGRQT1pSTEc3ZTdnTmJreFd0RVRHa1hDb1o3dlJpS012OXBpX2RONmEwNA?oc=5",
+      "published": "2026-06-12T18:04:00+00:00",
+      "source": {
+        "name": "DVIDS",
+        "url": "https://www.dvidshub.net"
       }
     },
     {
@@ -734,53 +714,33 @@
       }
     },
     {
-      "id": "bb8938521b6e",
-      "title": "Bringing the A-Game to Every Call, Real or Simulated: Proper training is essential for first responders, equipping them with the skills and confidence needed to act quickly and effectively in life-threatening situations. Dr. Mike Menowsky, MD, FACEP, Program D - instagram.com",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TYWtQOVdRVnkxUk42emx4N3BsQWUwN09XWjctVlhiZG5pMy1uR3c0d3hxZHBPUU5QcGhrSHJNTG0zYWVDdy02cnlBekJmVjlER2c?oc=5",
-      "published": "2026-06-12T17:01:19+00:00",
+      "id": "9dea1bb7090c",
+      "title": "New fentanyl vaccine blocks deadly overdoses before they start - ScienceDaily",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yc3ppYnpnX19NN0UtYWhmcE1oRXAzVGQzbS1QMVlpOVVTbGd5RFZIbGtFRDgwZEhMV1pZSjV2RWd2VU5hSnpsUXp6eEtFcWY5MFd1Wmp2RlItUW56Tk1DanNxN2VBWjBRTHZ1TlBn?oc=5",
+      "published": "2026-06-13T05:36:53+00:00",
       "source": {
-        "name": "instagram.com",
-        "url": "https://www.instagram.com"
+        "name": "ScienceDaily",
+        "url": "http://www.sciencedaily.com"
       }
     },
     {
-      "id": "39d8a472f46b",
-      "title": "UVA Health offers guidance on stopping psychiatric medications - WVIR",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcXNvWEpSMEpvTGZnRC1Gc3BlT2JwaVg1aW43MXktOVU5SmZ0eVduQXo5QU9KTHY0aERYZkhvcVBGeC14TXItSjBSODRWLWFqMXFQUXFkc1JMTlc5UEx3amJBbFBSVEhzTkl3akNuZ1ljQ3JBMDZUWUxnRUJOOURkUlItWFJTdkVMb1FjRzhfWm5VWjlBb0xCZkV30gGuAUFVX3lxTFB4YktxTXRsVnpsSDdBVXgxeTBzTndSdXpfSjl6WWRmMFRZckRrY01CZkRhU0NTa2hXWFpMaEVUZVdveU5SaDRWS0toZkJYenR1dU5ndllxaEMtSFNXOGRHcElSM2dJWXhRckY0U1QtMlg0N3FzRERQMEJ5UXF1NE5OWW9fX3B3d2YyNG5scHFDS0ZVRHhkMmpqcUZUS1NMUHhaRWo2c19rclZLbFdSQQ?oc=5",
-      "published": "2026-06-12T22:40:00+00:00",
-      "source": {
-        "name": "WVIR",
-        "url": "https://www.29news.com"
-      }
-    },
-    {
-      "id": "3c5daf6aab2e",
-      "title": "Medtech firm Novus Scientific turns surgeons into allies - BioXconomy",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTgyMlcyTmdnQnZlUW0xdVdmcnNqWWhqM3NGMjBlTExtRWRzZFZTajJYYnRfV0M4dHRVbkRVc2NrcGhEcElMemM1UHpoMDBRbmZBQUZfa0p6aXRidlBIV2loVGdyeUUxQTJzUndrSFlxZURYMzMwWGRURTlMWmUwWW5LVTFOVXpnSWtwTzcyRDVJSE5HbTJrRF8zUmx5cnVuTWtvM01Xejgzc0xldU1VRlRR?oc=5",
-      "published": "2026-06-12T12:30:36+00:00",
-      "source": {
-        "name": "BioXconomy",
-        "url": "https://www.bioxconomy.com"
-      }
-    },
-    {
-      "id": "53d8a6633c12",
-      "title": "News - Trauma Capstone prepares Tripler’s medical residents for deployed environments - DVIDS",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTBXM1VMSXRIZHJ3VDFVbTMyWFRvZ1hycmVBTXNfU2VBSWVjUEJMM2JOWko0SVdrWEd3V2hHdHM0UnZraDdrLVhqLUFqZmxBUUdUSEFZTXJKLUQwYVliVXoxNEQ3c2ZxUWo5c25JNUE3S05UYXRPYklmM3FGbE5VR2FPZ3FnZzRwdUNBVGhVQUlhSFB2NzhJU1ZWalNBV3JzeXY1VWRlRlBnbzVNbl80?oc=5",
-      "published": "2026-06-12T15:42:00+00:00",
+      "id": "d9eaece54c11",
+      "title": "News - NMCSD Pilots First Virtual Trauma Nursing Core Course for Navy Medicine - DVIDS",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUnR5TzRwZzk1S1VDckltdFF4MjJYOW12R3JCUGNvY2lVUHFxX200cUFkWXBWNG5vRUZlRjhES2RxWDRTSnd3NFVjdlNvWU1lU1Nxa05JN29aVlhkV2NTY1JuNjVHTFFOUVgzZExmQU5wRmZ4N3I4M2QwbGRZckliUHBtSFFJRzBSZGY5UXF5cElHM1BiRnlsT2YyamY3SWgzV2JZN18zbw?oc=5",
+      "published": "2026-06-12T21:28:00+00:00",
       "source": {
         "name": "DVIDS",
         "url": "https://www.dvidshub.net"
       }
     },
     {
-      "id": "2d722066cbb2",
-      "title": "Fructose sends a weaker satiety signal to the brain than glucose - Medical Xpress",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa0pJNUJpOWtqZUZZUHJIMUh6dlZsZmFJbDVZZXRwTXhyQ0Voelk3MW92NG1KUG45Z3YxOUN5UjM4TUpkTmZnZTNINktMZ3JfakdBajRUWng1OXVwSnVOajRRR1JzUGJHNDFxYVU0cXYyMmNzOVU2c21uamExbFJtRkRQbUI4cnJq?oc=5",
-      "published": "2026-06-12T22:20:01+00:00",
+      "id": "5680950f7bd7",
+      "title": "Honoring military medicine professionals on Flag Day - Health.mil",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xal9rcFV4b2lIY3IyaXRSN1llRDNCMEdNZUZmdXpUSjc4TXd2aTVwODhKQVQtNzhTRDlTVy1fdTJ5QVdLbkFGOXBIZXVvWTJ2Zm9NaTlwcTFUNUxtN3NCbkFFdWc5VlVtdEJQaW91bVNyZw?oc=5",
+      "published": "2026-06-12T19:39:37+00:00",
       "source": {
-        "name": "Medical Xpress",
-        "url": "https://medicalxpress.com"
+        "name": "Health.mil",
+        "url": "https://www.health.mil"
       }
     },
     {
@@ -791,6 +751,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "76c245056743",
+      "title": "Trump's DOJ can't get names and medical files of trans youth in California, for now - NPR",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT3JSOGpMcEtacGpMek4xTk5JaUwwYWNZbFkzSXV4S19RcHozUUZMNTZyVHBPYWtVZjFadDNmRnJuWjNwbWxLVG9aUVdiLV9vVjlId0JLY01VTU5VdjJvOEozNTJCNmM1WHRLM2FRN3F2bnpLVGR6SUNiRUFGZGZoS28zdWpIT1VzeG5VZW5SbW1GUQ?oc=5",
+      "published": "2026-06-12T09:00:00+00:00",
+      "source": {
+        "name": "NPR",
+        "url": "https://www.npr.org"
       }
     },
     {
@@ -834,43 +804,33 @@
       }
     },
     {
-      "id": "cb6689cdb6d5",
-      "title": "UVA joins Spark Global initiative to accelerate medical research - WVIR",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOTdKNV9ZLU5IRWNBdDluMnd4N0g4amh0dnRWUnNsazdjVlVQTkpiVDUxcGNqMGttQ04tUWUyZzFldXhoSHJ5Mm5iQkVQMlhwdWlLVXVQb19SME9XZDI4OWE0WDhMcGZXRTJtOUNRUmdYZHhsd1E0dWtoWXpibTlsZzJ3Tlh5Qy1VSFdXTXBWa0s5d0hhV2szRnJaVC3SAbABQVVfeXFMUFpjdk82QmlBcVhmbTlwQUM3aTVuS2dDdk5DXzB4d1lRLVcxUVZmdGNNb05JQnBWc25mNzQ2UGlNN1pXYmQ0dGFUYkI3YXdYQVFJRWZjWDZhV21PUGNHUnFjLWp3VUJHQUMxakswaWdRVTNEZ0NYWGNBdkdraUNxcmlOOWszVjdta1k0UUl2Z3pOVWRIT0w1ZUZURHZ3VzJzYjZfaGdQenF3MFRGbHcxYXc?oc=5",
-      "published": "2026-06-12T21:59:00+00:00",
+      "id": "bb8938521b6e",
+      "title": "Bringing the A-Game to Every Call, Real or Simulated: Proper training is essential for first responders, equipping them with the skills and confidence needed to act quickly and effectively in life-threatening situations. Dr. Mike Menowsky, MD, FACEP, Program D - instagram.com",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TYWtQOVdRVnkxUk42emx4N3BsQWUwN09XWjctVlhiZG5pMy1uR3c0d3hxZHBPUU5QcGhrSHJNTG0zYWVDdy02cnlBekJmVjlER2c?oc=5",
+      "published": "2026-06-12T17:01:19+00:00",
+      "source": {
+        "name": "instagram.com",
+        "url": "https://www.instagram.com"
+      }
+    },
+    {
+      "id": "39d8a472f46b",
+      "title": "UVA Health offers guidance on stopping psychiatric medications - WVIR",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcXNvWEpSMEpvTGZnRC1Gc3BlT2JwaVg1aW43MXktOVU5SmZ0eVduQXo5QU9KTHY0aERYZkhvcVBGeC14TXItSjBSODRWLWFqMXFQUXFkc1JMTlc5UEx3amJBbFBSVEhzTkl3akNuZ1ljQ3JBMDZUWUxnRUJOOURkUlItWFJTdkVMb1FjRzhfWm5VWjlBb0xCZkV30gGuAUFVX3lxTFB4YktxTXRsVnpsSDdBVXgxeTBzTndSdXpfSjl6WWRmMFRZckRrY01CZkRhU0NTa2hXWFpMaEVUZVdveU5SaDRWS0toZkJYenR1dU5ndllxaEMtSFNXOGRHcElSM2dJWXhRckY0U1QtMlg0N3FzRERQMEJ5UXF1NE5OWW9fX3B3d2YyNG5scHFDS0ZVRHhkMmpqcUZUS1NMUHhaRWo2c19rclZLbFdSQQ?oc=5",
+      "published": "2026-06-12T22:40:00+00:00",
       "source": {
         "name": "WVIR",
         "url": "https://www.29news.com"
       }
     },
     {
-      "id": "041cfd74b498",
-      "title": "Woman Calls US Healthcare System 'Scam' After Getting Affordable Medicine From India: '$1000 vs $25' - NDTV",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaEJtRWxUS0VLUGhNR0dJa0IyTW9fQXpFb3MyTXdBdUxpS1puVWRTNUpKZG5pWnlvTUtaZGkzcmlHWXMxWlVOT3RfWGFXRWVwNVNjZHcwb05pMWZxUTV5OUJPNWVSYjhwMXBOM3c4OEJFQ0ZFZ1BlVDQxODdUem1CRHRPeklDXzF1VzBxSXJMdmFacS03V0JjR2hWN1g3SEkycVNXdFpDVXllSllKMHJwc09ocHlpdUFJTzVXclN4MThSdXFYbjdyZ3BJQdIB0wFBVV95cUxOelNNVHliUWlrdF84SC1CSFJoTElrT210M3dNSGM3YnpyLVFyVTQ4dTcyOXBUUWJzLWhfWHJ3YmRmYnJjU1Z6X19WTTd0RVVrM1BVd0pOMDZVZDVOWUE0aDNTaXktalA5Uy02ZHN0Zm5JVExuUm84cHpXc1E3bUVVb0luUV9SRFlNTTBhOVZBVnBCYVlpVHpqa1pCMkhOVl93c0VCTmg4c2dEN1NYVVgwYjZmOWZmdGdyU3lpZGc4TU9wODVBY1ZQQUNCVHRQbDEyMFlJ?oc=5",
-      "published": "2026-06-13T03:03:27+00:00",
+      "id": "2d722066cbb2",
+      "title": "Fructose sends a weaker satiety signal to the brain than glucose - Medical Xpress",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa0pJNUJpOWtqZUZZUHJIMUh6dlZsZmFJbDVZZXRwTXhyQ0Voelk3MW92NG1KUG45Z3YxOUN5UjM4TUpkTmZnZTNINktMZ3JfakdBajRUWng1OXVwSnVOajRRR1JzUGJHNDFxYVU0cXYyMmNzOVU2c21uamExbFJtRkRQbUI4cnJq?oc=5",
+      "published": "2026-06-12T22:20:01+00:00",
       "source": {
-        "name": "NDTV",
-        "url": "https://www.ndtv.com"
-      }
-    },
-    {
-      "id": "a6af63a7905a",
-      "title": "‘Beyond the Headlines’ Podcast: Understanding Delaware’s Medical School - Spotlight Delaware",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMldTNWkxamlJQTYxUG1XalpEZVBOaEVtN2txUXF6T05kQ2dhcllBMDYteU84TUxWM3BFcWE0VnBoSlpzd1A2blAtNFNWeWRTZ2w2THlGUXkyam83dlM3cEhBc09UMTZYYWhlYzJTcDdOYWxhV3p1a2tNQmRQVjZzNDZqeTBWLWVnRkM4VkU5bTJsZGtUVHpSTG5vbE9Ocm9MSUxmZGRNWUtDSjNkNEE?oc=5",
-      "published": "2026-06-12T10:00:00+00:00",
-      "source": {
-        "name": "Spotlight Delaware",
-        "url": "https://spotlightdelaware.org"
-      }
-    },
-    {
-      "id": "803a85851ffa",
-      "title": "ADA ousts researchers then apologizes; Medicare Advantage reverses 95% of appealed denials; AMA takes on AI and corporate medicine — Morning Medical Update Weekly Recap - Medical Economics",
-      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOSFRQTjFha01PRXgzc0F5SF83Zzh3ZXVfOVVjUzZBSmZRTW9vbmMyTjY3YUlQUGtBb2tFem5WWmQ3cEtjSkZNbWlNMm5CeDRZWnRtR3BXZjRxeThOb0c2eHBHTFhDQnR4bFFyajdsMEcxUXhhbUV2dXcwR2RPZUl0TUVXbmF2b3U3S3RUYWJ3OUg3TW51dDN4SWl4M1dxeXBRbXJTc081R0F5MkJ0T2dkWnJCREJPVUFoejhoU3F5Z0EzR2l0WTdlZlBpQ0MzVGZzVldWMWJ2SkFHWEdwUGRudTEtbm13QkxOVEVHeHhpZUxHcGJPY1R4QVJqVTVqdnQ2UGNkSFJJVjhYbmRfcXlweGZvVGZkdmxha21qajNfLVdRc2loNzVmZw?oc=5",
-      "published": "2026-06-12T16:51:19+00:00",
-      "source": {
-        "name": "Medical Economics",
-        "url": "https://www.medicaleconomics.com"
+        "name": "Medical Xpress",
+        "url": "https://medicalxpress.com"
       }
     },
     {
@@ -884,23 +844,53 @@
       }
     },
     {
-      "id": "53063d6298be",
-      "title": "Augmented reality system could make medical ultrasounds easier to interpret - MIT News",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd1FObDNrdHdLQm1CdmRBdXJrVUVwQWkxdzdqQkx1VEVSa2xxRV9RTFhNbnBNUURFRGY1cmxPN1E0XzBoY3lMWHh5cm1QUzFPa0U0NHZCT083YldrdDY5RjljZ3ppZHA1RHhMOENLVzFMSnhQNWJITmQ1TGNqb0tzSGFvS0d3dTRrMG1sRHpfQjZOa2VJblh4UERiNEh5aXNRRGludHI2ekVhdw?oc=5",
-      "published": "2026-06-10T09:00:00+00:00",
+      "id": "a609b37eec00",
+      "title": "Solent student masters the art of fake wounds to create life-saving simulations for the military and NHS - News-Medical",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPaWt2NENLZFUwVldOVjRKcFVuTUhRakJ6N2hYZmZ3YVc2cThNOFloWWEzcWFPS0ZSbzNIM2FOTFhGQmc0UldhcExjRXlRMTlkcXN4bzE5cWxiQUpyZVhPMk93UFYxMzFfN3Z6bG13MVhWSU9hYjFkMGlIQThNZzl4VU5oUC1wSDdXZDhjQXpsVWhqYUN1Z2dSdU9mTGpoVXg2TVZOMGVncElMNHNqZ2pJaXJjQmZFUTAwNnVsV05tRlVub3YyenpINEZJSUJlWkFnYlZDWWdpX3NhVGMwRGJHbFhKSUdEUjQ?oc=5",
+      "published": "2026-06-13T06:52:00+00:00",
       "source": {
-        "name": "MIT News",
-        "url": "https://news.mit.edu"
+        "name": "News-Medical",
+        "url": "https://www.news-medical.net"
       }
     },
     {
-      "id": "0ee975b0960a",
-      "title": "Medical Education Leaders Talk AI Integration, Faculty Adoption, and Key Trade-offs - Yale School of Medicine",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVEhaa3VYT1E2UlR6cVRCdE4xeURvSElieEdBVFM2QTVkWUYwdWtNTy1hM3M2MHRWV0g3bmRlV1ExUjR6ZDdNRnhnd3FoYWFScUM0RjZvVWJrVXFwOU9xNmwyWHJZb3Jick9NYzJ0MkR5Qm41MHRDMDBRMHpjbnVOcmp2aGxtS0k?oc=5",
-      "published": "2026-06-10T21:14:07+00:00",
+      "id": "53d8a6633c12",
+      "title": "News - Trauma Capstone prepares Tripler’s medical residents for deployed environments - DVIDS",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTBXM1VMSXRIZHJ3VDFVbTMyWFRvZ1hycmVBTXNfU2VBSWVjUEJMM2JOWko0SVdrWEd3V2hHdHM0UnZraDdrLVhqLUFqZmxBUUdUSEFZTXJKLUQwYVliVXoxNEQ3c2ZxUWo5c25JNUE3S05UYXRPYklmM3FGbE5VR2FPZ3FnZzRwdUNBVGhVQUlhSFB2NzhJU1ZWalNBV3JzeXY1VWRlRlBnbzVNbl80?oc=5",
+      "published": "2026-06-12T15:42:00+00:00",
       "source": {
-        "name": "Yale School of Medicine",
-        "url": "https://medicine.yale.edu"
+        "name": "DVIDS",
+        "url": "https://www.dvidshub.net"
+      }
+    },
+    {
+      "id": "1862da1d854d",
+      "title": "Bristol NHS Group colleagues honoured in King’s Birthday Honours List - North Bristol NHS",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT3poWjFpTC1tUzhDbjE5T0U5emM3THZReF8wTmlMakxuS0NzOC1vQ3Q0TGxsbENLaTZCVTJ3NHVlYUFfRHpFbG1TdzNJa09UMHdPRS1jaVA5U05iQ09ROUFxbGJyRXo0T2l6UWRHTjRNTjdrbEc1LWUyQWhqeWkzbzhqbEtFWUZtZ3Y2VUhteVV3eVpVa3o5UXMwVU12UjNUSDRTcDhSZG1ob3BhT2I1eWtoaXpObjZKeEg4Tg?oc=5",
+      "published": "2026-06-13T09:48:26+00:00",
+      "source": {
+        "name": "North Bristol NHS",
+        "url": "https://www.nbt.nhs.uk"
+      }
+    },
+    {
+      "id": "041cfd74b498",
+      "title": "Woman Calls US Healthcare System 'Scam' After Getting Affordable Medicine From India: '$1000 vs $25' - NDTV",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaEJtRWxUS0VLUGhNR0dJa0IyTW9fQXpFb3MyTXdBdUxpS1puVWRTNUpKZG5pWnlvTUtaZGkzcmlHWXMxWlVOT3RfWGFXRWVwNVNjZHcwb05pMWZxUTV5OUJPNWVSYjhwMXBOM3c4OEJFQ0ZFZ1BlVDQxODdUem1CRHRPeklDXzF1VzBxSXJMdmFacS03V0JjR2hWN1g3SEkycVNXdFpDVXllSllKMHJwc09ocHlpdUFJTzVXclN4MThSdXFYbjdyZ3BJQdIB0wFBVV95cUxOelNNVHliUWlrdF84SC1CSFJoTElrT210M3dNSGM3YnpyLVFyVTQ4dTcyOXBUUWJzLWhfWHJ3YmRmYnJjU1Z6X19WTTd0RVVrM1BVd0pOMDZVZDVOWUE0aDNTaXktalA5Uy02ZHN0Zm5JVExuUm84cHpXc1E3bUVVb0luUV9SRFlNTTBhOVZBVnBCYVlpVHpqa1pCMkhOVl93c0VCTmg4c2dEN1NYVVgwYjZmOWZmdGdyU3lpZGc4TU9wODVBY1ZQQUNCVHRQbDEyMFlJ?oc=5",
+      "published": "2026-06-13T03:03:27+00:00",
+      "source": {
+        "name": "NDTV",
+        "url": "https://www.ndtv.com"
+      }
+    },
+    {
+      "id": "dbd8a41ee8a3",
+      "title": "Noninvasive sequencing expands prenatal genetic screening capabilities - News-Medical",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZkwyT04zZGN3ellFNzRHaEU1TllaMU1SOHh1UnAwS3VKTVRaeHdoR0N3UnltNG80ODFTVVJoU0NQdHBYLUFCdEtVRjZqdjVCWDlOWkJlN0JaNGxZRXMxUldzdFB6Qm0xTS0wbjZvU0JXenhWYUl3NXZnWXljWHRoUnh0V3JzQ3l3WWpQRUxha2F4WDBCRnp6TkJHay1DQmFHWGhwRmFVU2Ffa1R4dVc2NFJaX2tKRUZHOVE?oc=5",
+      "published": "2026-06-13T02:32:00+00:00",
+      "source": {
+        "name": "News-Medical",
+        "url": "https://www.news-medical.net"
       }
     },
     {
@@ -914,6 +904,26 @@
       }
     },
     {
+      "id": "53063d6298be",
+      "title": "Augmented reality system could make medical ultrasounds easier to interpret - MIT News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd1FObDNrdHdLQm1CdmRBdXJrVUVwQWkxdzdqQkx1VEVSa2xxRV9RTFhNbnBNUURFRGY1cmxPN1E0XzBoY3lMWHh5cm1QUzFPa0U0NHZCT083YldrdDY5RjljZ3ppZHA1RHhMOENLVzFMSnhQNWJITmQ1TGNqb0tzSGFvS0d3dTRrMG1sRHpfQjZOa2VJblh4UERiNEh5aXNRRGludHI2ekVhdw?oc=5",
+      "published": "2026-06-10T09:00:00+00:00",
+      "source": {
+        "name": "MIT News",
+        "url": "https://news.mit.edu"
+      }
+    },
+    {
+      "id": "cb6689cdb6d5",
+      "title": "UVA joins Spark Global initiative to accelerate medical research - WVIR",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOTdKNV9ZLU5IRWNBdDluMnd4N0g4amh0dnRWUnNsazdjVlVQTkpiVDUxcGNqMGttQ04tUWUyZzFldXhoSHJ5Mm5iQkVQMlhwdWlLVXVQb19SME9XZDI4OWE0WDhMcGZXRTJtOUNRUmdYZHhsd1E0dWtoWXpibTlsZzJ3Tlh5Qy1VSFdXTXBWa0s5d0hhV2szRnJaVC3SAbABQVVfeXFMUFpjdk82QmlBcVhmbTlwQUM3aTVuS2dDdk5DXzB4d1lRLVcxUVZmdGNNb05JQnBWc25mNzQ2UGlNN1pXYmQ0dGFUYkI3YXdYQVFJRWZjWDZhV21PUGNHUnFjLWp3VUJHQUMxakswaWdRVTNEZ0NYWGNBdkdraUNxcmlOOWszVjdta1k0UUl2Z3pOVWRIT0w1ZUZURHZ3VzJzYjZfaGdQenF3MFRGbHcxYXc?oc=5",
+      "published": "2026-06-12T21:59:00+00:00",
+      "source": {
+        "name": "WVIR",
+        "url": "https://www.29news.com"
+      }
+    },
+    {
       "id": "56ec9867aec3",
       "title": "Dr. Maria Velez named to 40 Under 40 list by National Hispanic Medical Association - UCLA Health",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQazc5ZFA0RmZVQ3BwYm1aRVNxTVp4RUhfZWVFRjJDQmZJTzdrT09FTzNDMkFVQVlWWjEyODNGQUlGeThkd05xTDZZaFZyQ0U2SUV6MllZS1ZyNnNqX0lmXzNDQm1EX1VUU3VMSjduX0hmbWF6YmVTZVB6ZlRKeFZXMXlsaGY4TzdyX2xQaGh3TTczckdCNE41Q0FrRQ?oc=5",
@@ -924,33 +934,33 @@
       }
     },
     {
-      "id": "8f16bf89948c",
-      "title": "What doctors want patients to know about allergic rhinitis - American Medical Association",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMnVoMWVNRU9WTzRKVmQ3VGlHNGdiWVFzTUE0WE5xbHJ0d0gydTNMWTZhc3FHaTB5WDRuS01VM3czZkw3aS1Ud3d5VzEwNXludHoxRTkyMFZKeTVBUXZ5eGtlSXpna2tXcHRYTkVuQTBXWlNTNUtmWDhLTXpZUU5VeENkU19hWl9YYy04c2tZTnVPZGM4ekFtNzk1VWdXYWUwMEttNUhPRm1pQUNFRXV0bg?oc=5",
-      "published": "2026-06-12T12:00:00+00:00",
+      "id": "3c5daf6aab2e",
+      "title": "Medtech firm Novus Scientific turns surgeons into allies - BioXconomy",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTgyMlcyTmdnQnZlUW0xdVdmcnNqWWhqM3NGMjBlTExtRWRzZFZTajJYYnRfV0M4dHRVbkRVc2NrcGhEcElMemM1UHpoMDBRbmZBQUZfa0p6aXRidlBIV2loVGdyeUUxQTJzUndrSFlxZURYMzMwWGRURTlMWmUwWW5LVTFOVXpnSWtwTzcyRDVJSE5HbTJrRF8zUmx5cnVuTWtvM01Xejgzc0xldU1VRlRR?oc=5",
+      "published": "2026-06-12T12:30:36+00:00",
       "source": {
-        "name": "American Medical Association",
-        "url": "https://www.ama-assn.org"
+        "name": "BioXconomy",
+        "url": "https://www.bioxconomy.com"
       }
     },
     {
-      "id": "338e8874859c",
-      "title": "Emergency medical team arriving in quake-hit Glan, Sarangani on Sunday - Inquirer.net",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUk90M25iTjlNUGJUYUw3OElpNThhU0lqeTNxNlh2eVJ6YW16LWU3bTViYjM0dEFXQ0dKakhWd1gwaTFoQkNnSVdCNlMtSmM0REQ3TVZnTEREeFhKbjQyUlFPMERiS1FWaVhlVUNES3BZYVJoelRBQjVHN182QnNSZEYyRzdDbDZXNmJIUFdnRmJBUmhuM3lubTlpVdIBoAFBVV95cUxOQ0tkb3JJeEdORklNTFcwOW5iOXVvVUVxS09QZUhrOUtLQ2FaNlFvdUlrODhEc29VTThhbnlPUmdSSl9ZZ3lsQ01nUXc0Q05qbVR1aEdhbktmMzYtM25XbXdUS0ZJcmQ4WTZTVFBHWmpidjJqemdubFJrU3pHMGxKeGk3SngxSnN0c0R6cFAzWUpQeXVZSHJsdWhyaGNwR1po?oc=5",
-      "published": "2026-06-13T01:30:00+00:00",
+      "id": "548c6c0d43d4",
+      "title": "BIDMC’s Adam Rodman, MD, MPH, Named to National Academy of Medicine’s 2026 Class of Scholars in Diagnostic Excellence - Beth Israel Deaconess Medical Center",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeEljemcxMEFCVWJJSHN1S3hyMFdRbVUyUkVFT0pOSDdQMTZQUjIxeFZwNlVVLXpObXdXLWZYQzFhZDhtc0dxMkJBbnh2Q0M3TU5wdGw4a0kwZDNRN2E4aDZUWERIWFNDZm45MlM4M3NDeU84WDVvSl9ZSXh4NGpLV1RoM2NxN2xwTG83RFJ2Q1k2cXBDS2hlaDhaNkd3UW1xSlVPcGUtdVpGcFZXelk3cVNiaFd3Xy1iYW84?oc=5",
+      "published": "2026-06-12T19:56:53+00:00",
       "source": {
-        "name": "Inquirer.net",
-        "url": "https://newsinfo.inquirer.net"
+        "name": "Beth Israel Deaconess Medical Center",
+        "url": "https://bidmc.org"
       }
     },
     {
-      "id": "8e87546479cd",
-      "title": "Abridge partners with NVIDIA, expands beyond clinical documentation - MobiHealthNews",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcGJrVkZwNFUwWnNWNjhjQ2J4cVJ4NUpXNlFfT1ZkZFpGbE90MXFaUUg0cUZ5WmNSTk93X1FjcGxBVWpUMW16WkVVTlYzQ0Zyd1VzRkx5TUxsMzNvendGZnRfVHlmRmN6ZVRieTFZaHFOU1o5SERka0pvTWV0bUk0OTg2cWRzVTNULWxDS0xOaV9aeTNza0ctZXN6ZTBZdw?oc=5",
-      "published": "2026-06-12T18:56:41+00:00",
+      "id": "ee9c59051ed0",
+      "title": "Physical activity for public health in the 21st century - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ja1djazBaZV93akd0UC1UQUZrSkRLUXZBdXF4Z0pIbE1UUUoyTUhVSGVzYU80V2kzYmJDb3h0UzVDR3NKbXJEWkdXenZHSWwxbkZLV0d0YUNfRGJsTHpn?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "MobiHealthNews",
-        "url": "https://www.mobihealthnews.com"
+        "name": "Nature",
+        "url": "https://www.nature.com"
       }
     },
     {
@@ -974,16 +984,6 @@
       }
     },
     {
-      "id": "ee9c59051ed0",
-      "title": "Physical activity for public health in the 21st century - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ja1djazBaZV93akd0UC1UQUZrSkRLUXZBdXF4Z0pIbE1UUUoyTUhVSGVzYU80V2kzYmJDb3h0UzVDR3NKbXJEWkdXenZHSWwxbkZLV0d0YUNfRGJsTHpn?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Nature",
-        "url": "https://www.nature.com"
-      }
-    },
-    {
       "id": "2186e09d167f",
       "title": "One in three middle-aged adults struggle with basic, ‘everyday’ health tasks - Northwestern Now News",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeEctNGZPdW03eXE4M25Ra0xLTGFLWjJ5N21UMkdyNFlJVFA2UGJKcnVFN1FJaGgxVXJIQzQ5cHRVOHZYVkw5dkZkbVFXX09FcGtFbHdjZ2VtT20waXh1Nm1yMzBySGJCRlJydGhjaEJ1NW41aDJmb3pITTBDenRyTjJUUnNmNWd6WXUyNHBybHZkSTdsUDVMTDJqbFRxeG5WYWhMZ2Rha3dER1IzTUV3NFBuOVJJR0g4T21N?oc=5",
@@ -994,13 +994,13 @@
       }
     },
     {
-      "id": "649baa84c657",
-      "title": "How Dehydration Can Send You to the ER - Baptist Health",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSExtWTVfZXRUQ29kY0xVTWdkZ1V3WHA3dWJtbF9UeTNRREtmdHcyOGtLZlJhbFd0ZnJOTkQtblVCOENIZU1UZTFxR0VRbml5TloyNEZNczNVTHJQeVh2eFh6emtjOGlORW5hMGdnRzFsaEw5T2h4NzcxZmVGMk1EcUg2Zl85djdhQmlIOQ?oc=5",
-      "published": "2026-06-13T03:05:39+00:00",
+      "id": "803a85851ffa",
+      "title": "ADA ousts researchers then apologizes; Medicare Advantage reverses 95% of appealed denials; AMA takes on AI and corporate medicine — Morning Medical Update Weekly Recap - Medical Economics",
+      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOSFRQTjFha01PRXgzc0F5SF83Zzh3ZXVfOVVjUzZBSmZRTW9vbmMyTjY3YUlQUGtBb2tFem5WWmQ3cEtjSkZNbWlNMm5CeDRZWnRtR3BXZjRxeThOb0c2eHBHTFhDQnR4bFFyajdsMEcxUXhhbUV2dXcwR2RPZUl0TUVXbmF2b3U3S3RUYWJ3OUg3TW51dDN4SWl4M1dxeXBRbXJTc081R0F5MkJ0T2dkWnJCREJPVUFoejhoU3F5Z0EzR2l0WTdlZlBpQ0MzVGZzVldWMWJ2SkFHWEdwUGRudTEtbm13QkxOVEVHeHhpZUxHcGJPY1R4QVJqVTVqdnQ2UGNkSFJJVjhYbmRfcXlweGZvVGZkdmxha21qajNfLVdRc2loNzVmZw?oc=5",
+      "published": "2026-06-12T16:51:19+00:00",
       "source": {
-        "name": "Baptist Health",
-        "url": "https://baptisthealth.net"
+        "name": "Medical Economics",
+        "url": "https://www.medicaleconomics.com"
       }
     }
   ]
