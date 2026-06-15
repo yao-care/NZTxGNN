@@ -2,7 +2,7 @@
 layout: default
 title: Diclofenac Sodium
 parent: 僅模型預測 (L5)
-nav_order: 43
+nav_order: 114
 evidence_level: L5
 indication_count: 0
 ---

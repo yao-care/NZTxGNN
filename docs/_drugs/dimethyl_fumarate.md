@@ -2,7 +2,7 @@
 layout: default
 title: Dimethyl Fumarate
 parent: 僅模型預測 (L5)
-nav_order: 48
+nav_order: 119
 evidence_level: L5
 indication_count: 0
 ---
