@@ -2,7 +2,7 @@
 layout: default
 title: Dantrolene
 parent: 僅模型預測 (L5)
-nav_order: 28
+nav_order: 99
 evidence_level: L5
 indication_count: 9
 ---

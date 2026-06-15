@@ -2,7 +2,7 @@
 layout: default
 title: Dipyridamole
 parent: 僅模型預測 (L5)
-nav_order: 49
+nav_order: 120
 evidence_level: L5
 indication_count: 10
 ---
