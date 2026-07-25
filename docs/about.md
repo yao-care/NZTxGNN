@@ -113,7 +113,7 @@ rare diseases."
 
 | Item | Value |
 |------|-------|
-| Drug reports | 581 |
+| Drug reports | {{ site.drugs.size }} |
 | Regulatory authority | Medsafe |
 | Deployed sites | 30 countries / regions |
 
