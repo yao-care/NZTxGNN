@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: LORATADINE
 drugbank_id: DB00455
 evidence_level: L5
