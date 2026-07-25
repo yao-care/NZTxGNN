@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: GABAPENTIN
 drugbank_id: DB00996
 evidence_level: L5

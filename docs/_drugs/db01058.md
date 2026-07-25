@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: PRAZIQUANTEL
 drugbank_id: DB01058
 evidence_level: L5

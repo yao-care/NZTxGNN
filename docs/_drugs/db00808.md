@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: INDAPAMIDE
 drugbank_id: DB00808
 evidence_level: L5

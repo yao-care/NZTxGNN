@@ -1,5 +1,6 @@
 ---
-layout: drug
+layout: default
+nav_exclude: true
 title: DISULFIRAM
 drugbank_id: DB00822
 evidence_level: L5
