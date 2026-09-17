@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 213
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -99,7 +99,7 @@ Since this mechanistic link is already considered established clinical knowledge
 
 ## New Zealand Market Information
 
-Medroxyprogesterone Acetate is currently **not marketed** in this jurisdiction (market status: 未上市), and no license records are available in this Evidence Pack.
+Medroxyprogesterone Acetate is currently **not marketed** in this jurisdiction (market status: Not marketed), and no license records are available in this Evidence Pack.
 
 ---
 

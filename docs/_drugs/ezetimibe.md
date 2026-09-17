@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ezetimibe
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 145
-evidence_level: L5
+evidence_level: L1
 indication_count: 4
 ---
 
 # Ezetimibe
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidence Level: **L1** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ with **50 clinical trials** and **19 publications** currently supporting this di
 | Predicted New Indication | Hyperlipoproteinemia |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L1 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -99,7 +99,7 @@ The evidence base is exceptionally robust by repurposing standards: multiple lar
 
 ## Taiwan Market Information
 
-Ezetimibe is currently not registered in Taiwan (台灣未上市; TFDA authorization count: 0). No approved product licenses or package inserts are available from the TFDA database at this time.
+Ezetimibe is currently not registered in Taiwan (台灣Not marketed; TFDA authorization count: 0). No approved product licenses or package inserts are available from the TFDA database at this time.
 
 For reference, Ezetimibe is approved and commercially available in numerous major regulatory jurisdictions under the following product names:
 

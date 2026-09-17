@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dapsone
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 100
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Dapsone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -38,7 +38,7 @@ The txgnn-pipeline skill is for pipeline management — not applicable here. Pro
 - `predicted_indications`：空陣列 → 無 TxGNN 預測結果
 - `original_indications`：空陣列 → 無原始適應症資料
 - `original_moa`：[Data Gap]
-- 市場狀態：未上市，0 張許可證
+- 市場狀態：Not marketed，0 張許可證
 - 安全性資料：全部 [Data Gap]
 - 資料缺口：DG001（Blocking）、DG002（High）
 

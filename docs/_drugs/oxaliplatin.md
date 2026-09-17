@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Oxaliplatin
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 259
-evidence_level: L5
+evidence_level: L2
 indication_count: 4
 ---
 
 # Oxaliplatin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 

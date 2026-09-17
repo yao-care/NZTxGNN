@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dabigatran
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Dabigatran
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidence Level: **L5** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -51,7 +51,7 @@ At this stage, a complete repurposing evaluation **cannot be generated**; a "Hol
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
-> **⚠️ Data Quality Notice:** DB14726 may correspond to the active metabolite form of dabigatran rather than the clinically prescribed prodrug dabigatran etexilate (DB06695). The "未上市" (not marketed) status and absence of indications may reflect this distinction rather than a true absence from the market. Before proceeding, verify which DrugBank entry is the intended target.
+> **⚠️ Data Quality Notice:** DB14726 may correspond to the active metabolite form of dabigatran rather than the clinically prescribed prodrug dabigatran etexilate (DB06695). The "Not marketed" (not marketed) status and absence of indications may reflect this distinction rather than a true absence from the market. Before proceeding, verify which DrugBank entry is the intended target.
 
 ---
 

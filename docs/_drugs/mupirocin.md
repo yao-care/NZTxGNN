@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mupirocin
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Mupirocin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Mupirocin is a topical antibacterial agent traditionally used for skin and nasal
 | Predicted New Indication | Pleural Empyema (disease) |
 | TxGNN Prediction Score | 99.49% |
 | Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| New Zealand Market Status | ✗ Not Marketed (未上市) |
+| New Zealand Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -75,7 +75,7 @@ Currently no related literature available
 
 ## New Zealand Market Information
 
-No marketing authorization records were found for Mupirocin in New Zealand in this evidence pack (market status: 未上市 / Not Marketed; 0 total licenses on file).
+No marketing authorization records were found for Mupirocin in New Zealand in this evidence pack (market status: Not marketed / Not Marketed; 0 total licenses on file).
 
 ---
 

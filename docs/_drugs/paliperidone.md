@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Paliperidone
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 263
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -87,7 +87,7 @@ However, current clinical guidelines reserve clozapine as the preferred agent fo
 
 ## New Zealand Market Information
 
-Currently no New Zealand market authorization exists — paliperidone has "未上市" (not marketed) status with 0 registered licenses.
+Currently no New Zealand market authorization exists — paliperidone has "Not marketed" (not marketed) status with 0 registered licenses.
 
 ---
 

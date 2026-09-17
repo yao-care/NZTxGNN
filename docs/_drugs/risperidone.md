@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Risperidone
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 308
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Risperidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidence Level: **L1** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -49,7 +49,7 @@ Risperidone is a widely known atypical antipsychotic (D2/5-HT2A antagonist) gene
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
-**Note on Original Indication:** No Taiwan/NZ license or indication text exists in the regulatory data provided (`market_status: 未上市`, 0 licenses, `original_indications: []`). The original-indication context above (schizophrenia/bipolar disorder) reflects general public drug knowledge, not data extracted from this evidence pack, and should be confirmed against a formal source before use in any regulatory submission.
+**Note on Original Indication:** No Taiwan/NZ license or indication text exists in the regulatory data provided (`market_status: Not marketed`, 0 licenses, `original_indications: []`). The original-indication context above (schizophrenia/bipolar disorder) reflects general public drug knowledge, not data extracted from this evidence pack, and should be confirmed against a formal source before use in any regulatory submission.
 
 ---
 

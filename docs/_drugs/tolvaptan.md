@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tolvaptan
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 344
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -53,7 +53,7 @@ Currently, the drug-level mechanism of action field is a data gap. However, evid
 
 The predicted indication — "polycystic kidney disease 3" — falls within the autosomal dominant polycystic kidney disease (ADPKD) family (PKD1/PKD2/PKD3 genotypes), for which the V2-receptor/cAMP cystogenesis pathway is an already-validated drug target. This gives the TxGNN prediction strong mechanistic plausibility rather than a purely associative signal.
 
-It is worth flagging a data-quality note directly from the evidence pack's own analysis: the record shows `market_status = 未上市 (Not Marketed)` and `original_moa = [Data Gap]`, which is inconsistent with the substantial Phase 3 RCT and consensus-guideline literature below (tolvaptan/Jynarque is an established, approved ADPKD therapy in multiple jurisdictions). This inconsistency should be manually verified against source registries before final sign-off.
+It is worth flagging a data-quality note directly from the evidence pack's own analysis: the record shows `market_status = Not marketed (Not Marketed)` and `original_moa = [Data Gap]`, which is inconsistent with the substantial Phase 3 RCT and consensus-guideline literature below (tolvaptan/Jynarque is an established, approved ADPKD therapy in multiple jurisdictions). This inconsistency should be manually verified against source registries before final sign-off.
 
 ## Clinical Trial Evidence
 

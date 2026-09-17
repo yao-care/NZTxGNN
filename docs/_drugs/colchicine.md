@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Colchicine
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 86
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Colchicine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -84,7 +84,7 @@ Currently no related clinical trials registered for Colchicine in Plasmodium fal
 
 ## Taiwan Market Information
 
-Colchicine currently has **no registered authorizations** in Taiwan (市場狀態：未上市). No product listings, dosage forms, or approved indications are available from the Taiwan TFDA database.
+Colchicine currently has **no registered authorizations** in Taiwan (市場狀態：Not marketed). No product listings, dosage forms, or approved indications are available from the Taiwan TFDA database.
 
 > Colchicine is approved in other jurisdictions — including the United States (**Colcrys®**, **Mitigare®**) for acute gout and familial Mediterranean fever — but these approvals do not apply to the Taiwan market.
 

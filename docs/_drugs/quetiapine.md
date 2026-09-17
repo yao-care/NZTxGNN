@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Quetiapine
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 297
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Quetiapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -49,7 +49,7 @@ Quetiapine is an atypical antipsychotic generally used for schizophrenia, bipola
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
-**Note on Original Indication:** No Taiwan/NZ license or indication text exists in the regulatory data provided (`market_status: 未上市`, 0 licenses). The original-indication context above (schizophrenia/bipolar disorder) reflects general public drug knowledge, not data extracted from this evidence pack, and should be confirmed against a formal source before use in any regulatory submission.
+**Note on Original Indication:** No Taiwan/NZ license or indication text exists in the regulatory data provided (`market_status: Not marketed`, 0 licenses). The original-indication context above (schizophrenia/bipolar disorder) reflects general public drug knowledge, not data extracted from this evidence pack, and should be confirmed against a formal source before use in any regulatory submission.
 
 ---
 

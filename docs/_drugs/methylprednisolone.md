@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Methylprednisolone
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 221
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -43,7 +43,7 @@ Methylprednisolone is a systemic glucocorticoid; no specific original indication
 | Predicted New Indication | Alopecia Areata |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L2 |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -82,7 +82,7 @@ Note: The evidence pack's raw clinical trial search returned 18 records, but the
 
 ## New Zealand Market Information
 
-Not applicable — the evidence pack reports 台灣 (Taiwan) regulatory status as **未上市 (not marketed)**, with 0 authorizations and no license records available. There is currently no TFDA-approved product listing for methylprednisolone to summarize in a market table.
+Not applicable — the evidence pack reports 台灣 (Taiwan) regulatory status as **Not marketed (not marketed)**, with 0 authorizations and no license records available. There is currently no TFDA-approved product listing for methylprednisolone to summarize in a market table.
 
 ## Safety Considerations
 

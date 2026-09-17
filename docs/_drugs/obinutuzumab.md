@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 250
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidence Level: **L1** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -103,7 +103,7 @@ In short, the mechanistic rationale (shared CD20 target across CD20+ B-cell mali
 
 ## New Zealand Market Information
 
-No New Zealand authorization records are currently available — obinutuzumab is not marketed in New Zealand (未上市, 0 licenses on file). Market entry status will need to be confirmed directly with Medsafe.
+No New Zealand authorization records are currently available — obinutuzumab is not marketed in New Zealand (Not marketed, 0 licenses on file). Market entry status will need to be confirmed directly with Medsafe.
 
 ---
 

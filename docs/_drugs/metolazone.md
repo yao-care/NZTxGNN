@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Metolazone
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Metolazone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -43,7 +43,7 @@ The evidence pack does not contain metolazone's original approved indication (no
 | Predicted New Indication | Malignant Hypertensive Renal Disease |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not marketed (未上市) |
+| New Zealand Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
