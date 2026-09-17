@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Temozolomide
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 332
-evidence_level: L5
+evidence_level: L1
 indication_count: 2
 ---
 
 # Temozolomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidence Level: **L1** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -89,7 +89,7 @@ Mechanistically, the alkylating/DNA-damaging activity of temozolomide is not spe
 
 ## New Zealand Market Information
 
-Temozolomide currently holds no product authorizations in New Zealand (market status: 未上市 / not marketed; total licenses: 0).
+Temozolomide currently holds no product authorizations in New Zealand (market status: Not marketed / not marketed; total licenses: 0).
 
 ---
 

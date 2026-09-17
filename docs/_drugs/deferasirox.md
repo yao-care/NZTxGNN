@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Deferasirox
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 104
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Deferasirox
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -49,7 +49,7 @@ Deferasirox 是一種口服鐵螯合劑（iron chelator），全球廣泛用於�
 | 預測新適應症 | **無**（TxGNN 預測結果未收錄） |
 | TxGNN 預測分數 | N/A |
 | 證據等級 | **L5**（模型預測尚未執行） |
-| 台灣市場狀態 | ✗ 未上市（TFDA 查無核准記錄） |
+| 台灣市場狀態 | ✗ Not marketed（TFDA 查無核准記錄） |
 | 核准許可數量 | 0 |
 | 建議決策 | **Hold** |
 
@@ -64,7 +64,7 @@ Deferasirox 是一種口服鐵螯合劑（iron chelator），全球廣泛用於�
 - **長期輸血性鐵過載**（transfusional hemosiderosis）
 - **非輸血依賴性地中海貧血之鐵過載**（non-transfusion-dependent thalassemia）
 
-MOA 詳細資料需查詢 DrugBank API（DB01609）補全。
+MOA 詳細資料需Query the DrugBank API（DB01609）補全。
 
 ---
 
@@ -88,7 +88,7 @@ TFDA 查詢結果（查詢日期：2026-03-29）顯示 Deferasirox **在台灣�
 | 項目 | 結果 |
 |------|------|
 | 許可證數量 | 0 |
-| 市場狀態 | 未上市 |
+| 市場狀態 | Not marketed |
 | 劑型記錄 | 無 |
 
 > 注意：Deferasirox 在台灣以外地區（如美國 FDA、EMA、日本 PMDA）已核准上市，品牌名稱包括 **Exjade**（膜衣錠/分散錠）及 **Jadenu**（膜衣錠），惟台灣目前尚無核准記錄。
@@ -114,8 +114,8 @@ TFDA 查詢結果（查詢日期：2026-03-29）顯示 Deferasirox **在台灣�
 
 | 缺口 ID | 項目 | 嚴重程度 | 影響 | 建議補全方式 |
 |---------|------|----------|------|-------------|
-| DG001 | TFDA 仿單警語/禁忌 | 🔴 Blocking | 無法進行安全性初評 | 下載 TFDA 仿單 PDF 並解析 |
-| DG002 | 作用機轉（MOA） | 🟠 High | 影響機轉關聯性分析 | 查詢 DrugBank API（DB01609） |
+| DG001 | Medsafe package insert warnings/contraindications | 🔴 Blocking | 無法進行安全性初評 | 下載 TFDA 仿單 PDF 並解析 |
+| DG002 | 作用機轉（MOA） | 🟠 High | Limits mechanistic-link analysis | Query the DrugBank API（DB01609） |
 | DG003 | TxGNN 預測結果 | 🔴 Blocking | 無預測新適應症可評估 | 重新執行 TxGNN 預測流程 |
 
 ---
@@ -130,7 +130,7 @@ TFDA 查詢結果（查詢日期：2026-03-29）顯示 Deferasirox **在台灣�
 **繼續推進前需補全以下資料：**
 
 1. **重新執行 TxGNN 預測**：確認 Deferasirox（DB01609）已正確進入知識圖譜，並取得預測新適應症清單
-2. **補全 MOA 資料**：查詢 DrugBank API（DB01609），取得完整作用機轉描述
+2. **補全 MOA 資料**：Query the DrugBank API（DB01609），取得完整作用機轉描述
 3. **收集安全性資料**：下載並解析 TFDA 仿單 PDF，補全警語與禁忌欄位
 4. **確認台灣上市可行性**：評估是否需申請新藥查驗登記，或是否符合現行法規路徑
 5. **補全 Evidence Pack**：待上述資料收齊後，重新產出 v5 版本 Evidence Pack 並重新生成完整評估報告

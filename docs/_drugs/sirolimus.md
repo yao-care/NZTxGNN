@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sirolimus
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 322
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -94,7 +94,7 @@ Importantly, sirolimus itself (not just its analogs) has already been tested dir
 
 ## New Zealand Market Information
 
-Sirolimus currently has no market authorizations registered in New Zealand (0 licenses; market status: 未上市／Not marketed).
+Sirolimus currently has no market authorizations registered in New Zealand (0 licenses; market status: Not marketed／Not marketed).
 
 ---
 

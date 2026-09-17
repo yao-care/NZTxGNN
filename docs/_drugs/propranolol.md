@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Propranolol
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 293
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Propranolol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -48,7 +48,7 @@ indication_count: 6
 | Predicted New Indication | Cardiomyopathy (hypertrophic obstructive cardiomyopathy, HOCM) |
 | TxGNN Prediction Score | 99.12% (rank 6,856 of full candidate list) |
 | Evidence Level | L2 |
-| Taiwan Market Status | 未上市 (Not currently marketed) |
+| Taiwan Market Status | Not marketed (Not currently marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -95,7 +95,7 @@ The caveat is that "cardiomyopathy" in this Evidence Pack is a broad disease-ont
 
 ## Taiwan Market Information
 
-Propranolol is currently **not marketed** in Taiwan under this Evidence Pack (`market_status: 未上市`), and no TFDA license records were retrieved (`total_licenses: 0`). No authorization table can be produced at this time.
+Propranolol is currently **not marketed** in Taiwan under this Evidence Pack (`market_status: Not marketed`), and no TFDA license records were retrieved (`total_licenses: 0`). No authorization table can be produced at this time.
 
 ---
 
@@ -118,7 +118,7 @@ Decades of hemodynamic and observational literature support propranolol's mechan
 - Retrieve and parse the TFDA package insert (warnings, contraindications, DDI) — DG001, Blocking
 - Confirm detailed mechanism-of-action documentation via DrugBank — DG002, High
 - Define the target subtype precisely as HOCM (not broad "cardiomyopathy") before any protocol design, given the retrieved trials address deprescribing rather than initiation
-- If pursuing a Taiwan market pathway, obtain a licensing/importation assessment given current "未上市" status
+- If pursuing a Taiwan market pathway, obtain a licensing/importation assessment given current "Not marketed" status
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

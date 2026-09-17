@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pegaspargase
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 269
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Pegaspargase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -131,7 +131,7 @@ The scored evidence level (L1, based on a completed Phase 3 RCT with >5,000 pati
 **To proceed, the following is needed:**
 - Resolve DG001 (Blocking): retrieve the actual TFDA/regulatory package insert for safety warnings and contraindications
 - Resolve DG002 (High): obtain confirmed mechanism-of-action data from DrugBank rather than relying on inferred literature context
-- Reconcile the `original_indications = []` / `market_status = "未上市"` inconsistency against known regulatory approvals before using this record for market-status decisions
+- Reconcile the `original_indications = []` / `market_status = "Not marketed"` inconsistency against known regulatory approvals before using this record for market-status decisions
 - If the goal is genuine repurposing discovery, deprioritize rank-1 (a known indication) and instead investigate lower-ranked, evidence-backed signals in this same evidence pack — e.g., rank 8 ("Hodgkins lymphoma"), where the underlying trials/literature actually concentrate on extranodal NK/T-cell lymphoma (NKTCL), suggesting a possible disease-label mismatch worth verifying against the knowledge graph's disease ontology
 ## Disclaimer
 

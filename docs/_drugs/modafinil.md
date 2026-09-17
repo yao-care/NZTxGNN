@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Modafinil
-parent: 中證據等級 (L3-L4)
+parent: Moderate Evidence (L3-L4)
 nav_order: 232
 evidence_level: L4
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Modafinil
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **1** 個
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Modafinil 是一種清醒促進劑（eugeroic），目前已知核准用途集�
 | 預測新適應症 | Insomnia (disease) |
 | TxGNN 預測分數 | 99.85% |
 | 證據等級 | L4 |
-| 紐西蘭市場狀態 | ✗ 未上市 |
+| 紐西蘭市場狀態 | ✗ Not marketed |
 | 授權數量 | 0 |
 | 建議決策 | Hold |
 
@@ -97,7 +97,7 @@ Modafinil 是一種清醒促進劑（eugeroic），目前已知核准用途集�
 
 ## 紐西蘭市場資訊
 
-Modafinil 目前於紐西蘭**未上市**，查無任何授權許可證紀錄（total_licenses = 0），無法提供劑型、產品名稱或核准適應症等資訊。
+Modafinil 目前於紐西蘭**Not marketed**，查無任何授權許可證紀錄（total_licenses = 0），無法提供劑型、產品名稱或核准適應症等資訊。
 
 ---
 

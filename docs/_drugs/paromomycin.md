@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Paromomycin
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Paromomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -85,7 +85,7 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-No authorization records — Paromomycin is not currently marketed in New Zealand (`market_status`: 未上市, 0 licenses).
+No authorization records — Paromomycin is not currently marketed in New Zealand (`market_status`: Not marketed, 0 licenses).
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Metronidazole
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Metronidazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 10
 | 預測新適應症 | Pneumocystosis（肺囊蟲肺炎, PCP） |
 | TxGNN 預測分數 | 99.99%（rank 250） |
 | 證據等級 | L5（僅模型預測，無實質支持證據） |
-| 紐西蘭市場狀態 | 未上市 |
+| 紐西蘭市場狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | **Hold（暫緩）** |
 
@@ -104,7 +104,7 @@ indication_count: 10
 
 ## 安全性考量
 
-請參考藥品仿單以獲取安全性資訊（TFDA 仿單警語/禁忌、DDI 資料均為待補齊之關鍵資料缺口）。
+請參考藥品仿單以獲取安全性資訊（Medsafe package insert warnings/contraindications、DDI 資料均為待補齊之關鍵資料缺口）。
 
 ---
 

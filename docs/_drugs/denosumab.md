@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Denosumab
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Denosumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ Denosumab 是一種靶向 RANKL 的全人源單株抗體，在國際上已核准
 | TxGNN 預測新適應症 | 尚未產生 — 預測流程待執行 |
 | TxGNN 預測分數 | 無資料 |
 | 證據等級 | 無法評估 |
-| 台灣市場狀態 | 未上市（核准字號：0） |
+| 台灣市場狀態 | Not marketed（核准字號：0） |
 | 核准字號數量 | 0 |
 | 建議決策 | **Hold（暫緩）** |
 
@@ -69,9 +69,9 @@ Denosumab（品牌名：Prolia® / Xgeva®）是一種完全人源化 IgG₂ 單
 
 ## 台灣市場資訊
 
-目前台灣（TFDA）查詢結果顯示 Denosumab **核准字號數為 0，市場狀態為未上市**。
+目前台灣（TFDA）查詢結果顯示 Denosumab **核准字號數為 0，市場狀態為Not marketed**。
 
-> ⚠️ 注意：全球多數市場（美國 FDA、歐盟 EMA、日本 PMDA）均已核准 Denosumab 上市，台灣未上市狀態可能反映查詢範圍或資料收集問題，建議重新確認 TFDA 查詢結果。
+> ⚠️ 注意：全球多數市場（美國 FDA、歐盟 EMA、日本 PMDA）均已核准 Denosumab 上市，台灣Not marketed狀態可能反映查詢範圍或資料收集問題，建議重新確認 TFDA 查詢結果。
 
 ---
 

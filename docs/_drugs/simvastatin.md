@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Simvastatin
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 321
-evidence_level: L5
+evidence_level: L1
 indication_count: 8
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidence Level: **L1** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Simvastatin is an HMG-CoA reductase inhibitor (statin) established worldwide for
 | Predicted New Indication | Familial Hypercholesterolemia |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L1 |
-| New Zealand Market Status | Not marketed (未上市) |
+| New Zealand Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
