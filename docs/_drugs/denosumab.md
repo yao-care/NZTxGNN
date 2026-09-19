@@ -29,74 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Denosumab：評估報告 — TxGNN 預測資料待補齊
+# Denosumab: Assessment Report — TxGNN Prediction Data Pending Completion
 
 ## One-Sentence Summary
 
-Denosumab 是一種靶向 RANKL 的全人源單株抗體，在國際上已核准用於骨質疏鬆症及癌症骨轉移之骨骼相關事件預防。
-本次 Evidence Pack 中 **TxGNN 模型尚未產生任何老藥新用預測候選**，且作用機轉（MOA）及安全性警語等關鍵資料均標記為待補，
-目前**無法完成完整的老藥新用適應症評估**。
+Denosumab is a fully human-derived monoclonal antibody targeting RANKL, which has been internationally approved for the prevention of skeletal-related events in osteoporosis and cancer bone metastases. In the current Evidence Pack, **the TxGNN model has not yet generated any drug repurposing prediction candidates**, and key data such as mechanism of action (MOA) and safety warnings are marked as pending, making it currently **impossible to complete a comprehensive drug repurposing indication assessment**.
 
 ---
 
 ## Quick Overview
 
-| 項目 | 內容 |
-|------|------|
-| 原核准適應症 | Evidence Pack 未記錄（通用知識：骨質疏鬆症、癌症骨轉移骨骼相關事件預防） |
-| TxGNN 預測新適應症 | 尚未產生 — 預測流程待執行 |
-| TxGNN 預測分數 | 無資料 |
-| 證據等級 | 無法評估 |
-| 台灣市場狀態 | Not marketed（核准字號：0） |
-| 核准字號數量 | 0 |
-| 建議決策 | **Hold（暫緩）** |
+| Item | Content |
+|------|---------|
+| Original approved indications | Not recorded in Evidence Pack (general knowledge: osteoporosis, prevention of skeletal-related events in cancer bone metastases) |
+| TxGNN predicted new indications | Not yet generated — prediction workflow pending execution |
+| TxGNN prediction score | No data |
+| Evidence level | Cannot be assessed |
+| Taiwan market status | Not marketed (approval number: 0) |
+| Number of approval numbers | 0 |
+| Recommended decision | **Hold** |
 
 ---
 
-## 藥物背景說明
+## Drug Background Information
 
-雖然 Evidence Pack 中 `original_moa` 標記為資料缺口，根據公開藥理知識補充如下：
+Although `original_moa` is marked as a data gap in the Evidence Pack, the following information is provided based on publicly available pharmacological knowledge:
 
-Denosumab（品牌名：Prolia® / Xgeva®）是一種完全人源化 IgG₂ 單株抗體，能與 **RANK Ligand（RANKL）** 高親和性結合，阻斷其與破骨細胞表面 RANK 受體的交互作用，進而**抑制破骨細胞分化、活化與存活**，達到減少骨吸收的療效。
+Denosumab (brand names: Prolia® / Xgeva®) is a fully humanized IgG₂ monoclonal antibody that binds with high affinity to **RANK Ligand (RANKL)**, blocking its interaction with the RANK receptor on the surface of osteoclasts, thereby **inhibiting osteoclast differentiation, activation, and survival**, achieving the therapeutic effect of reducing bone resorption.
 
-此機轉的臨床應用包括：
-- **Prolia**：停經後女性骨質疏鬆症、男性骨質疏鬆症、糖皮質激素誘發骨質疏鬆症
-- **Xgeva**：實體腫瘤骨轉移患者之骨骼相關事件預防；骨巨細胞瘤（Giant Cell Tumor of Bone）治療
+Clinical applications of this mechanism include:
+- **Prolia**: postmenopausal female osteoporosis, male osteoporosis, glucocorticoid-induced osteoporosis
+- **Xgeva**: prevention of skeletal-related events in patients with bone metastases from solid tumors; treatment of giant cell tumor of bone
 
-然而，正式的老藥新用適應症評估**必須以 TxGNN 預測結果為基礎**，目前因預測資料缺失，無法進行機轉關聯性分析。
-
----
-
-## 台灣市場資訊
-
-目前台灣（TFDA）查詢結果顯示 Denosumab **核准字號數為 0，市場狀態為Not marketed**。
-
-> ⚠️ 注意：全球多數市場（美國 FDA、歐盟 EMA、日本 PMDA）均已核准 Denosumab 上市，台灣Not marketed狀態可能反映查詢範圍或資料收集問題，建議重新確認 TFDA 查詢結果。
+However, formal drug repurposing indication assessment **must be based on TxGNN prediction results**, and currently due to missing prediction data, mechanism-of-action correlation analysis cannot be performed.
 
 ---
 
-## 安全性注意事項
+## Taiwan Market Information
 
-本 Evidence Pack 之安全警語與禁忌症資料尚未收集完整。
+Current Taiwan (TFDA) search results show that Denosumab has **0 approval numbers and a market status of Not marketed**.
 
-請參閱官方仿單（Prolia® 或 Xgeva®）取得完整安全性資訊，已知重要安全考量包括：低鈣血症、顎骨壞死（ONJ）、非典型股骨骨折、感染風險增加等。
+> ⚠️ Note: Denosumab has been approved for marketing in most global markets (US FDA, European EMA, Japanese PMDA), and Taiwan's Not marketed status may reflect query scope or data collection issues. It is recommended to re-verify the TFDA query results.
 
 ---
 
-## 結論與後續步驟
+## Safety Considerations
 
-**決策：Hold（暫緩）**
+Safety warnings and contraindication data in this Evidence Pack have not yet been collected in full.
 
-**理由：**
-本次 Evidence Pack 資料不完整——TxGNN 尚未產生任何老藥新用預測候選、作用機轉資料缺失（DG002），且安全性警語亦尚未收集（DG001）。在缺乏預測適應症的情況下，無法執行任何證據評估或決策分析。
+Please refer to the official package inserts (Prolia® or Xgeva®) for complete safety information. Known important safety considerations include: hypocalcemia, osteonecrosis of the jaw (ONJ), atypical femoral fractures, increased infection risk, and others.
 
-**欲繼續推進，需補齊下列資料：**
+---
 
-1. **執行 TxGNN 預測流程**：為 Denosumab（DB06643）產生老藥新用候選適應症清單
-2. **補齊 MOA 資料（DG002）**：透過 DrugBank API 查詢正式 MOA 描述，以利機轉關聯性分析
-3. **補齊 TFDA 仿單安全資料（DG001）**：下載並解析 TFDA 仿單 PDF，提取警語與禁忌症（Blocking 等級，影響 S1 安全性初評）
-4. **確認台灣市場狀態**：重新驗證 TFDA 查詢結果是否正確反映市場狀況
-5. **補充原核准適應症欄位**：確保 `original_indications` 欄位正確填入後，方可執行完整的 From/To 適應症比對報告
+## Conclusion and Next Steps
+
+**Decision: Hold**
+
+**Rationale:**
+This Evidence Pack contains incomplete data—the TxGNN has not yet generated any drug repurposing prediction candidates, mechanism-of-action data is missing (DG002), and safety warnings have also not yet been collected (DG001). Without predicted indications, no evidence assessment or decision analysis can be performed.
+
+**To proceed further, the following data must be completed:**
+
+1. **Execute the TxGNN prediction workflow**: Generate a list of drug repurposing candidate indications for Denosumab (DB06643)
+2. **Complete MOA data (DG002)**: Query the formal MOA description through the DrugBank API to facilitate mechanism-of-action correlation analysis
+3. **Complete TFDA package insert safety data (DG001)**: Download and parse the TFDA package insert PDF to extract warnings and contraindications (Blocking level, affecting S1 safety initial assessment)
+4. **Confirm Taiwan market status**: Re-verify whether TFDA query results correctly reflect the market situation
+5. **Supplement original approved indication field**: Only after ensuring the `original_indications` field is correctly populated can a complete From/To indication comparison report be executed
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

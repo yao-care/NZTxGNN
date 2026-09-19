@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Digoxin: 證據包不完整 — 老藥新用評估待補充
+# Digoxin: Evidence Pack Incomplete — Drug Repurposing Assessment Pending Supplementation
 
 ## One-Sentence Summary
 
-Digoxin（DrugBank: DB00390）為本次 Evidence Pack 所收錄之藥物，目前於 New Zealand 市場無上市紀錄。
-TxGNN 模型在本次分析中**未產生任何新適應症預測**，
-且作用機轉（MOA）與安全性資料均存在關鍵數據缺口，無法完成標準老藥新用評估。
+Digoxin (DrugBank: DB00390) is a drug included in the current Evidence Pack and is not currently marketed in the New Zealand market.
+The TxGNN model **produced no new indication predictions** in this analysis,
+and critical data gaps exist in both mechanism of action (MOA) and safety data, preventing completion of a standard drug repurposing assessment.
 
 ---
 
@@ -43,10 +43,10 @@ TxGNN 模型在本次分析中**未產生任何新適應症預測**，
 
 | Item | Content |
 |------|---------|
-| Original Indication | 本次 Evidence Pack 無資料 |
-| Predicted New Indication | 無預測結果產生 |
+| Original Indication | No data in current Evidence Pack |
+| Predicted New Indication | No prediction results generated |
 | TxGNN Prediction Score | N/A |
-| Evidence Level | 無法評定（predicted_indications 為空） |
+| Evidence Level | Cannot be determined (predicted_indications is empty) |
 | New Zealand Market Status | Not marketed |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
@@ -55,16 +55,16 @@ TxGNN 模型在本次分析中**未產生任何新適應症預測**，
 
 ## Why This Evaluation Cannot Proceed
 
-本次 Evidence Pack 存在以下三項根本性缺口，導致老藥新用評估無法進行：
+The current Evidence Pack contains the following three fundamental gaps that prevent drug repurposing assessment from proceeding:
 
-**1. TxGNN 無預測輸出**
-`predicted_indications` 陣列為空，代表 TxGNN 模型未針對 Digoxin 產生任何新適應症候選。這可能源於知識圖譜節點連結不足，或模型信心分數低於輸出門檻。
+**1. TxGNN produces no prediction output**
+The `predicted_indications` array is empty, indicating that the TxGNN model generated no new indication candidates for Digoxin. This may result from insufficient knowledge graph node connectivity or model confidence scores below the output threshold.
 
-**2. 作用機轉（MOA）缺失**
-`drug.original_moa` 為空缺，無法進行機轉關聯性分析，也無法評估新舊適應症的藥理相似度。
+**2. Mechanism of action (MOA) is missing**
+`drug.original_moa` is empty, preventing mechanism-relatedness analysis and precluding assessment of pharmacological similarity between new and original indications.
 
-**3. 安全性資料完全缺失**
-Key warnings、contraindications、DDI 均無可用資料，無法完成基礎安全性初評（S1 評估階段）。
+**3. Safety data is completely absent**
+Key warnings, contraindications, and DDI data are unavailable, preventing completion of baseline safety initial assessment (S1 assessment phase).
 
 ---
 
@@ -73,19 +73,20 @@ Key warnings、contraindications、DDI 均無可用資料，無法完成基礎�
 **Decision: Hold**
 
 **Rationale:**
-TxGNN 模型未針對 Digoxin 產生任何適應症預測，且三項 Blocking/High 級別數據缺口同時存在，目前不具備進行老藥新用評估的最低數據條件。
+The TxGNN model produced no indication predictions for Digoxin, and three Blocking/High priority data gaps exist simultaneously, meaning the minimum data conditions necessary to conduct drug repurposing assessment are not currently met.
 
 **To proceed, the following is needed:**
 
-- **\[Priority 1 — Blocking\]** 取得 TFDA 仿單 PDF 並解析 Key Warnings 與 Contraindications（缺口 DG001）
-- **\[Priority 2 — High\]** 透過 DrugBank API 補齊作用機轉（MOA）資料（缺口 DG002）
-- **\[Priority 3\]** 重新執行 TxGNN 預測流程，確認 Digoxin 節點是否正確映射至知識圖譜
-- **\[Priority 4\]** 補充 DDI 查詢資料（當前狀態：not\_found，需確認查詢參數是否正確）
-- 上述缺口補齊後，重新生成完整 Evidence Pack（目前版本：v4，data\_cutoff：2026-04-20）
+- **\[Priority 1 — Blocking\]** Obtain TFDA package insert PDF and extract Key Warnings and Contraindications (Gap DG001)
+- **\[Priority 2 — High\]** Complete mechanism of action (MOA) data through DrugBank API (Gap DG002)
+- **\[Priority 3\]** Re-execute TxGNN prediction workflow to confirm correct mapping of Digoxin node to the knowledge graph
+- **\[Priority 4\]** Supplement DDI query data (current status: not\_found, need to confirm query parameters are correct)
+- Regenerate complete Evidence Pack once the above gaps are filled (current version: v4, data\_cutoff: 2026-04-20)
 
 ---
 
-> **注意：** 本報告因 Evidence Pack 數據不完整而無法輸出標準章節（Clinical Trial Evidence、Literature Evidence、New Zealand Market Information、Safety Considerations）。所有缺失章節將於數據補齊後的下一版本報告中完整呈現。
+> **Note:** This report cannot output standard sections (Clinical Trial Evidence, Literature Evidence, New Zealand Market Information, Safety Considerations) due to incomplete Evidence Pack data. All missing sections will be fully presented in the next version of the report after data gaps are filled.
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

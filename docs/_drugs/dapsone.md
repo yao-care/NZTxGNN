@@ -29,28 +29,24 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-The txgnn-pipeline skill is for pipeline management — not applicable here. Proceeding directly to generate the report from the Evidence Pack.
+Analysis of the Evidence Pack situation:
+
+- `predicted_indications`: empty array → no TxGNN prediction results
+- `original_indications`: empty array → no original indication data
+- `original_moa`: [Data Gap]
+- Market status: Not marketed, 0 authorizations
+- Safety data: all [Data Gap]
+- Data gaps: DG001 (Blocking), DG002 (High)
+
+Because the Evidence Pack data is severely incomplete, the following is an assessment report that accurately reflects the current situation:
 
 ---
 
-分析 Evidence Pack 的情況：
-
-- `predicted_indications`：空陣列 → 無 TxGNN 預測結果
-- `original_indications`：空陣列 → 無原始適應症資料
-- `original_moa`：[Data Gap]
-- 市場狀態：Not marketed，0 張許可證
-- 安全性資料：全部 [Data Gap]
-- 資料缺口：DG001（Blocking）、DG002（High）
-
-由於 Evidence Pack 資料嚴重不足，以下為如實反映現況的評估報告：
-
----
-
-# DAPSONE：Evidence Pack 資料不完整，無法執行老藥新用評估
+# DAPSONE: Incomplete Evidence Pack Data—Cannot Perform Drug Repurposing Assessment
 
 ## One-Sentence Summary
 
-DAPSONE（DrugBank ID：DB00250）目前的 Evidence Pack 資料嚴重不足，無法完成完整的老藥新用評估。TxGNN 模型尚未產生任何新適應症預測，且原始適應症、作用機轉、安全性警語等關鍵欄位均存在資料缺口，需完成資料補充後方可進入正式評估流程。
+DAPSONE (DrugBank ID: DB00250) currently has severely insufficient Evidence Pack data, making it impossible to complete a comprehensive drug repurposing assessment. The TxGNN model has not yet generated any new indication predictions, and key fields such as original indications, mechanism of action, and safety warnings all contain data gaps. The formal assessment process cannot be entered until these data gaps are remediated.
 
 ---
 
@@ -92,6 +88,7 @@ The Evidence Pack for DAPSONE contains no TxGNN-predicted indications and two un
 ---
 
 > **Note:** This report reflects the state of the Evidence Pack as of 2026-04-20. The absence of data does not indicate that DAPSONE lacks repurposing potential — only that the current data pipeline has not yet produced the inputs required for evaluation. Please re-run the evidence collection pipeline and regenerate this report once remediation steps are completed.
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
