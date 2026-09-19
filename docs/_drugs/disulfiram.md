@@ -29,15 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# DISULFIRAM：老藥新用評估報告（資料不足，無法完成完整分析）
+# DISULFIRAM: Drug Repurposing Assessment Report (Insufficient Data, Unable to Complete Full Analysis)
 
 ---
 
 ## One-Sentence Summary
 
-DISULFIRAM（DB00822）是一個臨床上已知用於酒精依賴戒治的藥物。
-本次 Evidence Pack 中 **TxGNN 模型未返回任何預測適應症**，且缺少作用機轉（MOA）與安全性資料，
-目前**無法進行正式的老藥新用評估**。
+DISULFIRAM (DB00822) is a clinically known drug used for the treatment of alcohol dependence. In this Evidence Pack, **the TxGNN model returned no predicted indications**, and there is missing information on mechanisms of action (MOA) and safety data; at present **a formal drug repurposing assessment cannot be conducted**.
 
 ---
 
@@ -45,10 +43,10 @@ DISULFIRAM（DB00822）是一個臨床上已知用於酒精依賴戒治的藥物
 
 | Item | Content |
 |------|---------|
-| Original Indication | Evidence Pack 中未提供（欄位為空） |
-| Predicted New Indication | 無（`predicted_indications` 為空陣列） |
-| TxGNN Prediction Score | 無 |
-| Evidence Level | 無法評定（無預測結果） |
+| Original Indication | Not provided in Evidence Pack (field empty) |
+| Predicted New Indication | None (`predicted_indications` empty array) |
+| TxGNN Prediction Score | None |
+| Evidence Level | Unable to determine (no prediction results) |
 | Taiwan Market Status | Not marketed |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
@@ -57,30 +55,30 @@ DISULFIRAM（DB00822）是一個臨床上已知用於酒精依賴戒治的藥物
 
 ## Why This Evaluation Cannot Proceed
 
-目前 Evidence Pack 缺少三項關鍵資料，導致評估流程中斷：
+The Evidence Pack currently lacks three critical pieces of data, halting the assessment process:
 
-**1. 無 TxGNN 預測結果**
-`predicted_indications` 陣列為空，代表 TxGNN 模型尚未對此藥物返回候選適應症。報告中所有核心分析章節（預測合理性、臨床試驗證據、文獻支持）均無法生成。
+**1. No TxGNN Prediction Results**
+The `predicted_indications` array is empty, indicating that the TxGNN model has not yet returned candidate indications for this drug. All core analytical sections in the report (prediction rationale, clinical trial evidence, literature support) cannot be generated.
 
-**2. 作用機轉（MOA）缺失**
-DrugBank 查詢已完成（`query_log` 顯示 `result_status: success`），但 MOA 欄位仍標記為 Data Gap，代表尚未解析或寫入 Evidence Pack。沒有 MOA 資料，無法進行機制關聯性分析。
+**2. Mechanism of Action (MOA) Data Missing**
+DrugBank query has been completed (`query_log` shows `result_status: success`), but the MOA field is still marked as a Data Gap, indicating it has not yet been parsed or written to the Evidence Pack. Without MOA data, mechanism-of-action relationship analysis cannot be performed.
 
-**3. 安全性資料缺失**
-TFDA 仿單查詢已完成（`result_status: success`），但警語與禁忌欄位未從 PDF 解析填入。此為 Blocking 級別的 Data Gap，影響安全性初評。
+**3. Safety Data Missing**
+TFDA package insert query has been completed (`result_status: success`), but warnings and contraindications fields have not been parsed and populated from the PDF. This is a Blocking-level Data Gap, affecting initial safety assessment.
 
 ---
 
 ## Taiwan Market Information
 
-DISULFIRAM 目前在台灣**Not marketed**，無任何藥品許可證記錄。
+DISULFIRAM is currently not marketed in Taiwan, with no drug authorization records.
 
 ---
 
 ## Safety Considerations
 
-請參閱仿單（Package Insert）之警語與禁忌事項。
+Please refer to the warnings and contraindications sections of the package insert.
 
-> **注意**：TFDA 仿單 PDF 已成功查詢（`query_log` ID 4），但尚未完成內容解析。需將警語、禁忌與交互作用欄位填入 Evidence Pack 後，方可進行正式安全性評估。
+> **Note**: The TFDA package insert PDF has been successfully queried (`query_log` ID 4), but content parsing has not yet been completed. The warnings, contraindications, and drug interactions fields must be populated in the Evidence Pack before formal safety assessment can be conducted.
 
 ---
 
@@ -89,15 +87,16 @@ DISULFIRAM 目前在台灣**Not marketed**，無任何藥品許可證記錄。
 **Decision: Hold**
 
 **Rationale:**
-Evidence Pack 中缺少 TxGNN 預測結果，且作用機轉與安全性資料均未填入，無法對 DISULFIRAM 的老藥新用潛力進行任何實質評估。
+Evidence Pack lacks TxGNN prediction results, and mechanism of action and safety data have not been populated, making it impossible to conduct any substantive assessment of DISULFIRAM's drug repurposing potential.
 
 **To proceed, the following is needed:**
 
-- [ ] 執行 TxGNN 模型預測，對 DB00822 生成候選適應症列表，寫入 `predicted_indications`
-- [ ] 解析 DrugBank 查詢結果，填入 `original_moa` 欄位
-- [ ] 解析已取得的 TFDA 仿單 PDF，將警語（`key_warnings`）與禁忌（`contraindications`）結構化寫入 Evidence Pack
-- [ ] 填入 `original_indications`（已知臨床用途：酒精依賴戒治）
-- [ ] 待上述資料齊全後，重新生成 Evidence Pack v5 並啟動完整評估流程
+- [ ] Execute TxGNN model prediction, generate candidate indication list for DB00822, write to `predicted_indications`
+- [ ] Parse DrugBank query results, populate `original_moa` field
+- [ ] Parse the obtained TFDA package insert PDF, structure and write warnings (`key_warnings`) and contraindications (`contraindications`) to Evidence Pack
+- [ ] Populate `original_indications` (known clinical use: alcohol dependence treatment)
+- [ ] After the above data is complete, regenerate Evidence Pack v5 and initiate the complete assessment workflow
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
