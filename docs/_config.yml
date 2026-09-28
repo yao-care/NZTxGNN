@@ -3,6 +3,7 @@ description: New Zealand Medsafe-approved Drug Repurposing predictions powered b
 remote_theme: just-the-docs/just-the-docs
 url: https://nztxgnn.yao.care
 baseurl: ""
+lang: en-NZ
 
 plugins:
   - jekyll-remote-theme
