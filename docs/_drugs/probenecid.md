@@ -29,8 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-Using **superpowers:using-superpowers** — checked for applicable skills; this is a template-driven document-generation task with the full formatting spec already supplied in the prompt, so no additional skill applies. Proceeding directly.
-
 Note before the report: the evidence pack contains **three** ranked TxGNN predictions, and the top-ranked one (`hypouricemia, renal`) has a mechanistic rationale in the data itself explaining that probenecid's pharmacology runs in the **opposite direction** of what the disease needs. I'm reporting this honestly rather than presenting it as a clean positive signal, and I've added a compact section covering candidates #2 and #3 since the template's single-indication structure would otherwise silently drop them.
 
 ---

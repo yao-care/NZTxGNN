@@ -29,10 +29,6 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 </div>
 
-The `txgnn-pipeline` skill covers pipeline infrastructure — the current task is report generation, which is fully defined by the system prompt. Proceeding directly.
-
----
-
 # Efavirenz: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary

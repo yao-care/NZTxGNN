@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-The txgnn-pipeline skill covers model training/deployment workflows, not report generation — the system prompt defines my role directly. Proceeding to write the report based on the Evidence Pack.
-
----
-
 # Dexamethasone Phosphate: Evaluation Incomplete — No TxGNN Predictions Available
 
 ## One-Sentence Summary

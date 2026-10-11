@@ -29,8 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-Using the evidence pack as provided (no skill applies here — this is a direct content-generation task from a fully-specified template).
-
 # Ocrelizumab: From Multiple Sclerosis to HER2 Positive Breast Carcinoma
 
 ## One-Sentence Summary

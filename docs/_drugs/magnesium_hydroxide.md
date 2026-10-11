@@ -29,8 +29,6 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 </div>
 
-Using superpowers:using-superpowers — checked for applicable skills; this is a fully-specified document-generation task (fill in an exact given template from structured data), no coding/debugging/design skill applies, so proceeding directly.
-
 # Magnesium Hydroxide: From Antacid/Laxative Use to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary

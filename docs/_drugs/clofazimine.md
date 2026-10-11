@@ -29,10 +29,6 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-The `txgnn-pipeline` skill is focused on pipeline management and training — it doesn't apply to this report-writing task. The system prompt already provides the full report format. Proceeding directly with the report.
-
----
-
 # Clofazimine: From Leprosy to Pneumocystosis
 
 ## One-Sentence Summary

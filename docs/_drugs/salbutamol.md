@@ -29,8 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using superpowers:using-superpowers — checked for relevant skills; this is a template-driven report-writing task fully specified by the prompt, no domain skill applies, so proceeding directly.
-
 # Salbutamol: From Asthma/COPD Bronchodilation to Papillary Conjunctivitis
 
 ## One-Sentence Summary

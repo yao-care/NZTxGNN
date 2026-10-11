@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using **superpowers:using-superpowers** — checked for a matching skill; this is a self-contained report-generation task fully specified by the prompt template itself, so no domain skill applies. Proceeding directly.
-
----
-
 # Midodrine: From Hypotensive Disorder to Variably Protease-Sensitive Prionopathy
 
 ## One-Sentence Summary

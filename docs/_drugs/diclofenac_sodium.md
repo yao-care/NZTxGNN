@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-The txgnn-pipeline skill covers training and deployment — not relevant here. Proceeding to generate the evaluation report from the Evidence Pack.
-
----
-
 # Diclofenac Sodium: Repurposing Evaluation on Hold — No TxGNN Predictions Available
 
 ## One-Sentence Summary

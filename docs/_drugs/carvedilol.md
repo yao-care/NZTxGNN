@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-The txgnn-pipeline skill is for pipeline management — the report format is defined directly in my system prompt. Proceeding with report generation now.
-
----
-
 # Carvedilol: From Heart Failure & Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
