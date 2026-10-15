@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ifosfamide
-parent: High Evidence (L1-L2)
-nav_order: 170
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 229
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ifosfamide
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,126 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Ifosfamide: From Testicular Carcinoma and Soft Tissue Sarcoma to Female Breast Carcinoma
+# Ifosfamide: From Cancer Chemotherapy to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Ifosfamide is an oxazaphosphorine alkylating agent historically established for testicular carcinoma and soft tissue sarcoma. The TxGNN model predicts it may also be effective for **Female Breast Carcinoma**, with **8 clinical trials** and **20 publications** currently supporting this direction — though formal New Zealand regulatory and safety label data are not yet available.
+Ifosfamide is an alkylating chemotherapy drug used in cancer treatment. Its New Zealand licences are all cancelled, and the licence records compiled for this report contain no approved-indication text.
+The TxGNN model predicts it may be effective for **female breast carcinoma**, with **6 clinical trials** (all Phase 1/2, mostly multi-agent regimens) and **20 publications** currently supporting this direction.
+The strongest evidence in the model's top ten predictions is for **rhabdomyosarcoma (rank 7)**, which has several Phase 3 trials, although most of them are in soft tissue sarcoma generally.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Testicular carcinoma / soft tissue sarcoma (per literature on file; no formal NZ-approved indication text available — drug is not marketed) |
-| Predicted New Indication | Female Breast Carcinoma |
+| Original Indication | Not available (no approved-indication text in the New Zealand licence records) |
+| Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 99.91% |
-| Evidence Level | L1 |
-| New Zealand Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L2 (as graded in the data compiled for this report; the breast trials are Phase 1/2, with no completed Phase 3 RCT) |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 3 (all cancelled) |
+| Recommended Decision | Hold (Research Question) for breast carcinoma; Proceed with Guardrails for rhabdomyosarcoma |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ifosfamide is part of the oxazaphosphorine alkylating agent class (structural analog of cyclophosphamide), its efficacy in testicular carcinoma and soft tissue sarcoma has been proven, and mechanistically may be applicable to female breast carcinoma.
+Detailed mechanism of action data is not available in the data compiled for this report. Ifosfamide is a well-known oxazaphosphorine alkylating agent and a prodrug. The liver activates it into metabolites that cross-link DNA, which kills rapidly dividing tumour cells. Mesna is routinely given alongside it to protect the bladder.
 
-Ifosfamide is a prodrug activated primarily by hepatic and intratumoral CYP3A4/CYP2B6 into 4-hydroxyifosfamide, which forms DNA cross-links and halts proliferation of rapidly dividing cells. This is a broad-spectrum cytotoxic mechanism not restricted to its original tumor types. Literature in this evidence pack directly demonstrates that CYP3A4, CYP2C9, and CYP2B6 are expressed in breast tumor tissue microsomes and actively metabolize ifosfamide intratumorally (PMID 14970873), and that ifosfamide produces measurable DNA damage in both peripheral lymphocytes and breast tumor tissue in breast cancer patients (PMID 11138456) — supporting biological plausibility beyond a purely computational signal.
+Breast carcinoma is a rapidly proliferating solid tumour, so a DNA-damaging agent is mechanistically plausible. Published reviews report single-agent response rates of roughly 7–30% in pretreated metastatic breast cancer, and higher rates in combination regimens. Ifosfamide-based regimens have also been used in metaplastic breast cancer and phyllodes tumours.
 
-Clinically, ifosfamide has already been used off-label in combination regimens (with paclitaxel, vinorelbine, etoposide, epirubicin, doxorubicin) for anthracycline-resistant and metastatic breast cancer since the 1990s, including a Phase 3 RCT directly comparing an ifosfamide-containing regimen against a standard doublet (NCT00954174). This body of empirical use, combined with the mechanistic rationale, makes the TxGNN prediction reasonable, though most trial data are older, small, or of unconfirmed final status.
+The supporting trials are mostly Phase 1/2 and use combination or high-dose regimens, so the contribution of ifosfamide alone is hard to isolate.
 
 ## Clinical Trial Evidence
 
+Trials for female breast carcinoma (the top prediction):
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00954174](https://clinicaltrials.gov/study/NCT00954174) | Phase 3 | Unknown | 637 | Randomized trial of paclitaxel+carboplatin vs. paclitaxel+ifosfamide in chemo-naïve carcinosarcoma of uterus/fallopian tube/peritoneum/ovary |
-| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | Phase 2 | Terminated | N/A | Intensive-dose topotecan + ifosfamide/mesna + etoposide (TIME) followed by autologous stem cell rescue in metastatic breast cancer |
-| [NCT00026078](https://clinicaltrials.gov/study/NCT00026078) | Phase 2 | Unknown | 42 | Docetaxel + ifosfamide as first-line chemotherapy in metastatic breast cancer |
-| [NCT00003086](https://clinicaltrials.gov/study/NCT00003086) | Phase 1/2 | Terminated | 12 | Sequential double autologous bone marrow transplant with samarium-153 for Stage IV breast cancer |
-| [NCT00012311](https://clinicaltrials.gov/study/NCT00012311) | Phase 2 | Unknown | N/A | Multi-cycle high-dose chemotherapy vs. optimized conventional-dose chemotherapy in metastatic breast cancer |
-| [NCT00002854](https://clinicaltrials.gov/study/NCT00002854) | Phase 1 | Completed | 33 | Sequential high-dose cisplatin, cyclophosphamide, etoposide, ifosfamide, carboplatin, taxol with autologous stem cell support |
-| [NCT00020722](https://clinicaltrials.gov/study/NCT00020722) | Phase 2 | Terminated | 7 | Chemotherapy followed by stem cell transplant plus activated T-cell therapy in Stage IV breast cancer |
-| [NCT04279509](https://clinicaltrials.gov/study/NCT04279509) | N/A | Unknown | 35 | Organoid-based high-throughput drug screen assay for refractory solid tumors (in vitro selection, not direct clinical efficacy) |
+| [NCT00026078](https://clinicaltrials.gov/study/NCT00026078) | Phase 2 | Unknown | 42 | Docetaxel plus ifosfamide as first-line therapy in metastatic breast cancer; the most direct test of ifosfamide in this indication, with no randomized comparator |
+| [NCT00012311](https://clinicaltrials.gov/study/NCT00012311) | Phase 2 | Unknown | Not reported | Multi-cycle high-dose versus optimized conventional chemotherapy in metastatic breast cancer; multi-agent, so the ifosfamide-specific effect is unclear |
+| [NCT00002854](https://clinicaltrials.gov/study/NCT00002854) | Phase 1 | Completed | 33 | Sequential high-dose cisplatin, cyclophosphamide, etoposide and ifosfamide with stem cell support; safety and feasibility data |
+| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | Phase 2 | Terminated | Not reported | Intensive-dose topotecan, ifosfamide/mesna and etoposide with autologous stem cell rescue in metastatic breast cancer |
+| [NCT00003086](https://clinicaltrials.gov/study/NCT00003086) | Phase 1/2 | Terminated | 12 | Samarium-153 within a double autologous transplant; ifosfamide is only a background component |
+| [NCT00020722](https://clinicaltrials.gov/study/NCT00020722) | Phase 2 | Terminated | 7 | Activated T cells after stem cell transplant in stage IV breast cancer; ifosfamide is peripheral |
+
+Selected Phase 3 trials supporting the rhabdomyosarcoma prediction (rank 7, score 99.67%):
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00003212](https://clinicaltrials.gov/study/NCT00003212) | Phase 3 | Completed | 780 | Two ifosfamide schedules versus standard-dose doxorubicin in advanced soft tissue sarcoma |
+| [NCT00061984](https://clinicaltrials.gov/study/NCT00061984) | Phase 3 | Completed | 455 | Doxorubicin alone versus doxorubicin plus ifosfamide as first-line therapy in advanced soft tissue sarcoma |
+| [NCT00003052](https://clinicaltrials.gov/study/NCT00003052) | Phase 3 | Completed | 340 | Neoadjuvant etoposide, ifosfamide and doxorubicin with or without regional hyperthermia in high-risk soft tissue sarcoma |
+| [NCT00002641](https://clinicaltrials.gov/study/NCT00002641) | Phase 3 | Completed | 350 | Adjuvant high-dose doxorubicin and ifosfamide with lenograstim in high-grade soft tissue sarcoma |
+| [NCT00025363](https://clinicaltrials.gov/study/NCT00025363) | Phase 2 | Completed | 150 | Randomized window study of irinotecan schedules with chemotherapy in relapsed rhabdomyosarcoma |
 
 ## Literature Evidence
 
+Publications for female breast carcinoma:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11932893](https://pubmed.ncbi.nlm.nih.gov/11932893/) | 2002 | Phase II open-label | Cancer | Paclitaxel (24-h infusion) + ifosfamide in anthracycline-resistant metastatic breast carcinoma |
-| [7695982](https://pubmed.ncbi.nlm.nih.gov/7695982/) | 1995 | Cohort/PK study | Eur J Cancer | Pharmacokinetics, metabolism and clinical effect of ifosfamide combined with anthracyclines in breast cancer patients |
-| [9226029](https://pubmed.ncbi.nlm.nih.gov/9226029/) | 1997 | Cohort | Tumori | Ifosfamide and etoposide in previously treated patients with advanced breast cancer |
-| [11138456](https://pubmed.ncbi.nlm.nih.gov/11138456/) | 2000 | Translational/PK-PD | Cancer Chemother Pharmacol | Ifosfamide metabolism and DNA damage in tumour and peripheral blood lymphocytes of breast cancer patients |
-| [14970873](https://pubmed.ncbi.nlm.nih.gov/14970873/) | 2004 | Ex vivo mechanistic | Br J Cancer | CYP3A4, CYP2C9 and CYP2B6 expression and ifosfamide turnover in breast cancer tissue microsomes |
-| [3286879](https://pubmed.ncbi.nlm.nih.gov/3286879/) | 1988 | Review | J Natl Cancer Inst | Foundational review confirming ifosfamide's proven activity in soft tissue sarcoma and testicular carcinoma |
-| [39306877](https://pubmed.ncbi.nlm.nih.gov/39306877/) | 2024 | Retrospective (unclassified) | Curr Probl Cancer | Ifosfamide-based chemotherapy experience in metaplastic breast cancer, a chemo-resistant breast cancer subtype |
-| [8918497](https://pubmed.ncbi.nlm.nih.gov/8918497/) | 1996 | Cohort (unclassified) | J Clin Oncol | Ifosfamide + vinorelbine as first-line chemotherapy for metastatic breast cancer |
-| [2347057](https://pubmed.ncbi.nlm.nih.gov/2347057/) | 1990 | Cohort (unclassified) | Cancer Chemother Pharmacol | Ifosfamide/methotrexate/5-FU (substituting cyclophosphamide) effective in CMF-resistant breast cancer |
-| [8873839](https://pubmed.ncbi.nlm.nih.gov/8873839/) | 1996 | Cohort (unclassified) | J Chemother | Ifosfamide + mesna + epirubicin (IMEpi) as second-line chemotherapy in advanced breast cancer, 50% overall response rate |
+| [14586149](https://pubmed.ncbi.nlm.nih.gov/14586149/) | 2003 | Review | Oncology | Ifosfamide is active in breast cancer; single-agent response rates are 7–30% in pretreated patients and higher in combinations, and mesna reduces urotoxicity |
+| [8918497](https://pubmed.ncbi.nlm.nih.gov/8918497/) | 1996 | Phase 2 trial | J Clin Oncol | Ifosfamide plus vinorelbine as first-line chemotherapy in metastatic breast cancer |
+| [8445421](https://pubmed.ncbi.nlm.nih.gov/8445421/) | 1993 | Phase 2 trial | J Clin Oncol | Ifosfamide plus mitoxantrone as first-line chemotherapy in metastatic breast cancer |
+| [11932893](https://pubmed.ncbi.nlm.nih.gov/11932893/) | 2002 | Phase 2 trial | Cancer | Paclitaxel (24-hour infusion) plus ifosfamide in anthracycline-resistant metastatic breast carcinoma |
+| [17370037](https://pubmed.ncbi.nlm.nih.gov/17370037/) | 2007 | Phase 2 trial | Invest New Drugs | Docetaxel plus ifosfamide in HER2-non-overexpressing advanced breast cancer after anthracyclines |
+| [39306877](https://pubmed.ncbi.nlm.nih.gov/39306877/) | 2024 | Cohort | Curr Probl Cancer | Experience with ifosfamide-based chemotherapy in metaplastic breast cancer |
+| [9226029](https://pubmed.ncbi.nlm.nih.gov/9226029/) | 1997 | Clinical study | Tumori | Ifosfamide plus etoposide in previously treated advanced breast cancer |
+| [1390313](https://pubmed.ncbi.nlm.nih.gov/1390313/) | 1992 | Review | Ann Oncol | Ifosfamide monotherapy in breast cancer shows about a 20% objective response; slight superiority over cyclophosphamide |
+| [2112056](https://pubmed.ncbi.nlm.nih.gov/2112056/) | 1990 | Clinical study | Cancer Chemother Pharmacol | Ifosfamide/etoposide with mesna uroprotection in 44 patients with advanced breast cancer |
+| [39074497](https://pubmed.ncbi.nlm.nih.gov/39074497/) | 2024 | Cohort | J Natl Compr Canc Netw | Adjuvant chemotherapy and long-term prognosis in malignant phyllodes tumours of the breast |
+
+Most of this literature consists of older Phase 2 studies and reviews. No randomized comparison of ifosfamide in breast cancer was identified.
 
 ## New Zealand Market Information
 
-Ifosfamide currently holds no product authorizations in New Zealand (0 licenses on file; market status: not marketed).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 712760 | Holoxan | Inj 2 g | Not available (licence cancelled) |
+| 712736 | Holoxan | Inj 1 g | Not available (licence cancelled) |
+| 2204223 | Baxter | Inj 1 mg for ECP | Not available (licence cancelled) |
+
+All three licences are cancelled, so ifosfamide currently has no valid New Zealand authorization.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (oxazaphosphorine alkylating agent, analog of cyclophosphamide) |
-| Myelosuppression Risk | High — dose-limiting hematologic toxicity is well documented; several trials in this evidence pack (e.g., NCT00003597, NCT00187109) specifically studied G-CSF/thrombopoietin support for ifosfamide-induced cytopenias, and multiple publications describe therapy-related MDS/AML following ifosfamide-containing regimens as a cumulative bone-marrow toxicity signal |
-| Emetogenicity Classification | Moderate to High (dose-dependent; higher at doses typically used in sarcoma/breast regimens) |
-| Monitoring Items | CBC with differential, renal function (BUN/creatinine — nephrotoxicity risk), urinalysis for hemorrhagic cystitis (mesna uroprotection required, referenced across multiple trials/literature), neurological status (case-reported ifosfamide-induced encephalopathy, PMID 41818182), liver function |
-| Handling Protection | Yes — must follow cytotoxic/hazardous drug handling regulations (preparation, administration, and waste disposal) |
+| Cytotoxicity Classification | Conventional cytotoxic (oxazaphosphorine alkylating agent) |
+| Myelosuppression Risk | High; leukopenia, anaemia and thrombocytopenia are expected, especially in combination or high-dose regimens |
+| Emetogenicity Classification | Moderate to high, depending on dose |
+| Monitoring Items | CBC with differential, renal function and electrolytes (including potassium), liver function, urinalysis, and neurological status |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
+
+Please refer to the package insert warnings and precautions for full details.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph** (drug-disease links, not label text): kidney disease, pyoureter, liver disease, gallbladder disease, thrombocytopenia, potassium deficiency disease, anaemia, macrocytic anaemia, hyperbilirubinaemia, hereditary hyperbilirubinaemia, Gilbert syndrome, renal tubular acidosis, leukopenia, and Fanconi renotubular syndrome.
+- **Drug interactions**: 100 interactions were identified, and the first 20 retrieved were mostly Moderate, with one Minor (levofloxacin). Notable examples:
+  - nephrotoxic agents: amphotericin B (including lipid complex), kanamycin, neomycin
+  - sulfonylureas and other antidiabetic agents: chlorpropamide, glimepiride, glipizide, glyburide, tolazamide, acetohexamide, nateglinide, repaglinide
+  - antiemetics and CNS-active drugs: aprepitant, metoclopramide, dronabinol, nabilone, scopolamine, bupropion, morphine
+- **Guardrails from the literature**: neurotoxicity, nephrotoxicity, haemorrhagic cystitis (mesna is required), myelosuppression and secondary malignancy, including therapy-related myelodysplastic syndrome and leukaemia.
+
+Package insert warnings and contraindications were not available for this report, so please refer to the package insert for label-based safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold (Research Question) for female breast carcinoma**
 
 **Rationale:**
-An L1 evidence level — anchored by a Phase 3 RCT, multiple Phase 1/2 trials, and mechanistic/translational literature specific to breast tumor tissue — supports pursuing this repurposing hypothesis, but a Blocking data gap on TFDA/Medsafe label content and the drug's unmarketed NZ status prevent an unconditional "Go."
+- The breast cancer evidence consists of Phase 1/2 trials and older Phase 2 literature, mostly of combination regimens. No completed Phase 3 trial tests ifosfamide in breast cancer, and ifosfamide's own contribution is hard to separate.
+- Ifosfamide has no valid New Zealand licence at present.
+- Among the other predictions, **rhabdomyosarcoma** (rank 7) has the strongest support (L1, with multiple Phase 3 trials), and could be considered **Proceed with Guardrails**. However, the Phase 3 trials are largely in soft tissue sarcoma or in combination regimens. Ifosfamide is already established in rhabdomyosarcoma regimens, so this is more confirmation than new repurposing.
+- Predictions for myelodysplastic syndromes, refractory cytopenia, aregenerative anaemia, sideroblastic anaemia, 5q deletion and monocytic leukaemia lack supporting evidence or conflict with the drug's myelosuppressive and secondary-malignancy profile, so they are **Hold**.
+- The botryoid embryonal rhabdomyosarcoma of the vagina prediction (rank 10) is plausible by extension from rhabdomyosarcoma, but rests on one case report (Research Question).
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism-of-action documentation from DrugBank — currently a High-severity gap (DG002)
-- Follow-up on NCT00954174 (Phase 3, status Unknown) to determine whether results were published
-- Drug-drug interaction data (current DDI query returned not_found)
-- Regulatory pathway assessment for import/use given ifosfamide is not currently marketed in New Zealand
+- Package insert warnings and contraindications (Medsafe), which are currently missing and block safety screening
+- Detailed mechanism of action data (DrugBank)
+- Approved-indication text and the regulatory status of any replacement product in New Zealand
+- For breast cancer: randomized or well-controlled comparative data isolating ifosfamide's contribution, particularly in metaplastic breast cancer and phyllodes tumours
+- A safety monitoring plan covering neurotoxicity, nephrotoxicity, haemorrhagic cystitis and myelosuppression, and long-term follow-up for secondary malignancy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

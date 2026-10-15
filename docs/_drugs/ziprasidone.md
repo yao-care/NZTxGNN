@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ziprasidone
-parent: Model Prediction Only (L5)
-nav_order: 365
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 486
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ziprasidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,74 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ziprasidone: From Schizophrenia/Bipolar Disorder to Trichotillomania
+# Ziprasidone: From Bipolar Disorder and Schizophrenia to Major Affective Disorder
 
 ## One-Sentence Summary
 
-Ziprasidone is an atypical (second-generation) antipsychotic internationally approved for schizophrenia and bipolar I disorder. The TxGNN model's **top-ranked** prediction for this drug is **Trichotillomania (hair-pulling disorder)**, with a prediction score of **99.83%**, but currently **zero clinical trials and zero publications** support this specific link — the evidence base is model-prediction-only (L5), and the recommended decision is **Hold**.
-
----
+Ziprasidone is an atypical antipsychotic originally used for manic bipolar disorder, bipolar disorder and schizophrenia.
+The TxGNN model predicts it may be effective for **Major Affective Disorder** (a depression-spectrum condition), with **7 clinical trials** and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia / Bipolar I Disorder (acute manic or mixed episodes) — internationally approved indications *(not found in this Evidence Pack; New Zealand licensing data is empty because the product is not marketed here)* |
-| Predicted New Indication | Trichotillomania |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Original Indication | Manic bipolar affective disorder, bipolar disorder, schizophrenia (from the knowledge graph; New Zealand licence entries contain no indication text) |
+| Predicted New Indication | Major Affective Disorder |
+| TxGNN Prediction Score | 99.66% |
+| Evidence Level | L2 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 4 (all cancelled) |
 | Recommended Decision | Hold |
 
----
+Note: the top-ranked TxGNN prediction is trichotillomania (99.83%), followed by hydranencephaly (99.67%). Neither has any supporting trials or literature, and hydranencephaly in particular has no plausible pharmacological link and looks like a graph artifact. This report focuses on major affective disorder, the highest-ranked prediction with substantial clinical evidence. Tourette syndrome (99.63%) is a secondary candidate with some literature (L3).
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for ziprasidone is not available in this Evidence Pack (flagged as a High-severity data gap, DG002). Based on general pharmacological knowledge, ziprasidone is an atypical antipsychotic combining D2 dopamine receptor antagonism with 5-HT2A antagonism and 5-HT1A partial agonism — a serotonin–dopamine modulation profile that underlies its established efficacy in schizophrenia and bipolar disorder.
+Currently, detailed mechanism of action data is not available in the compiled data. From general pharmacology, ziprasidone antagonises 5-HT2A and D2 receptors, is a partial agonist at 5-HT1A, and inhibits monoamine reuptake. This profile gives a plausible antidepressant and mood-stabilising mechanism.
 
-The TxGNN model links this serotonin–dopamine mechanism to trichotillomania on the theoretical basis that impulse-control disorders may involve similar dopaminergic/serotonergic dysregulation. However, the model's own rationale explicitly flags this as a **weak and unvalidated mechanistic link**: no clinical trial or published literature currently connects ziprasidone specifically to trichotillomania. This places the prediction at the lowest confidence tier (L5) — a graph-based inference rather than an evidence-backed hypothesis.
-
-**Important context:** Among ziprasidone's other TxGNN-predicted indications in this Evidence Pack, "major affective disorder" (rank 3, score 99.66%) is far better supported — 29 clinical trials (including multiple completed Phase 2/3/4 RCTs) and 20 publications, rated **L1 / Proceed with Guardrails**. Several other ranked predictions (e.g., hydranencephaly, congenital disorder of glycosylation, X-linked myopia variants) appear to be low-confidence knowledge-graph noise with no plausible mechanistic connection to an antipsychotic's pharmacology. Decision-makers should weigh the full prediction list rather than relying on TxGNN rank alone.
-
----
+The original indications (bipolar mania, bipolar disorder, schizophrenia) already overlap with the affective spectrum. Bipolar disorder involves depressive and mixed states, and several trials tested ziprasidone in these settings. For unipolar major depression, the use is as an add-on to an antidepressant, similar to other second-generation antipsychotics. The evidence is mixed: Phase 2 data and reviews exist, but nothing here establishes clear efficacy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for ziprasidone in trichotillomania.
-
----
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00633399](https://clinicaltrials.gov/study/NCT00633399) | Phase 2 | Completed | 458 | Three-phase study of ziprasidone added to an SSRI in MDD with inadequate SSRI response |
+| [NCT00555997](https://clinicaltrials.gov/study/NCT00555997) | Phase 2 | Completed | 120 | 12-week randomised, double-blind, placebo-controlled trial of ziprasidone monotherapy in MDD |
+| [NCT00490542](https://clinicaltrials.gov/study/NCT00490542) | Phase 2 | Completed | 73 | Double-blind, placebo-controlled trial in depressive mixed state |
+| [NCT00340379](https://clinicaltrials.gov/study/NCT00340379) | Phase 2/3 | Completed | 72 | Ziprasidone monotherapy vs sertraline plus haloperidol in psychotic major depression |
+| [NCT01168674](https://clinicaltrials.gov/study/NCT01168674) | Phase 4 | Completed | 49 | Predictors of response to ziprasidone augmentation in MDD (13-week crossover) |
+| [NCT00237666](https://clinicaltrials.gov/study/NCT00237666) | Phase 4 | Completed | 30 | Open-label flexible-dose study in bipolar II major depression |
+| [NCT00421954](https://clinicaltrials.gov/study/NCT00421954) | Phase 3 | Completed | 8 | Open-label feasibility study in psychotic adolescents (too small to count as Phase 3 RCT evidence) |
 
 ## Literature Evidence
 
-Currently no related literature available for ziprasidone in trichotillomania.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematic review/NMA | J Affect Disord | Compares augmentation agents in treatment-resistant depression |
+| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Systematic review/Meta-analysis | J Psychopharmacol | Antidepressant plus second-generation antipsychotic vs esketamine vs lithium in major depression |
+| [40808264](https://pubmed.ncbi.nlm.nih.gov/40808264/) | 2025 | Systematic review | Bipolar Disord | Pharmacological treatments for MDD and bipolar depression with mixed features |
+| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | Systematic review/Meta-analysis | Psychol Med | Efficacy and tolerability of antipsychotics as monotherapy and adjunct in MDD |
+| [27835715](https://pubmed.ncbi.nlm.nih.gov/27835715/) | 2017 | RCT | J Clin Psychiatry | Ziprasidone augmentation of escitalopram in MDD: cardiac, endocrine, metabolic and motor effects |
+| [27306192](https://pubmed.ncbi.nlm.nih.gov/27306192/) | 2016 | RCT post-hoc analysis | Int Clin Psychopharmacol | Ziprasidone augmentation for anxious vs non-anxious depression |
+| [26619770](https://pubmed.ncbi.nlm.nih.gov/26619770/) | 2015 | Review | Am J Psychiatry | Adjunctive ziprasidone in major depression and status of adjunctive atypical antipsychotics |
+| [19040553](https://pubmed.ncbi.nlm.nih.gov/19040553/) | 2008 | Review | CNS Neurosci Ther | Ziprasidone in affective disorders; approved for bipolar mania and mixed episodes |
+| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Review | Asia Pac Psychiatry | Antipsychotics as antidepressants; effective at sub-antipsychotic doses |
+| [28004626](https://pubmed.ncbi.nlm.nih.gov/28004626/) | 2017 | Review | CNS Spectr | Treatment of mixed mania/hypomania |
 
 ## New Zealand Market Information
 
-Ziprasidone is currently **not marketed** in New Zealand — there are no Medsafe product authorizations on record (total_licenses = 0), so no product table can be produced.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2479575 | Zusdone | Cap 20 mg | Not available (cancelled) |
+| 2479583 | Zusdone | Cap 40 mg | Not available (cancelled) |
+| 2479591 | Zusdone | Cap 60 mg | Not available (cancelled) |
+| 2479605 | Zusdone | Cap 80 mg | Not available (cancelled) |
 
----
+All four licences are cancelled, so no ziprasidone product is currently authorised in New Zealand according to the compiled data.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. *(Key warnings, contraindications, and drug–drug interaction data for ziprasidone were not available in this Evidence Pack; Medsafe/TFDA package-insert retrieval is flagged as a Blocking data gap, DG001.)*
+- **Contraindications flagged in the knowledge graph** (graph-derived associations, not label text): long QT syndrome, familial long QT syndrome, torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial infarction, orthostatic hypotension, liver failure, kidney disease, epilepsy, neutropenia, agranulocytosis, diabetes mellitus, diabetic ketoacidosis, hyperglycaemia, hyperlipidaemia, obesity disorders, potassium deficiency, female breast carcinoma, and several movement and neurological conditions (multiple system atrophy, basal ganglia disease, focal hand dystonia, blepharospasm).
+- **Cardiac risk**: A systematic review in children and adolescents (PMID 39549076) raises concern about QTc prolongation, so ECG monitoring would be needed.
+- **Drug interactions**: 100 interactions were recorded. Major-level examples include hydrocortisone, amphotericin B (including the lipid complex), bupropion and morphine. Moderate-level examples include metformin, pioglitazone, acarbose, famotidine, epinephrine, atropine and loperamide.
 
----
+Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN-ranked prediction (trichotillomania) has no supporting clinical trials or literature and rests solely on a theoretical, unvalidated mechanistic hypothesis — insufficient to justify advancing this specific indication at this time.
+The evidence level is L2, with several completed Phase 2 trials, including two placebo-controlled studies, but no confirmed Phase 3 RCTs and mixed results in unipolar depression. Ziprasidone currently has no valid New Zealand licence, and the package insert safety review (a blocking gap) has not been done. Cardiac (QTc) and metabolic contraindication signals need review before any further step.
 
 **To proceed, the following is needed:**
-- Preclinical or case-level evidence specifically linking ziprasidone to trichotillomania or related impulse-control disorders
-- Resolution of the Blocking data gap: Medsafe/TFDA approved package insert (warnings and contraindications)
-- Resolution of the High-severity data gap: confirmed mechanism-of-action documentation from DrugBank
-- Given the disparity in evidence strength, consider prioritizing evaluation of **major affective disorder** (L1, 29 trials, 20 publications) as a more actionable repurposing candidate for this drug ahead of trichotillomania
+- Download and review the Medsafe package insert for warnings and contraindications (blocking)
+- Obtain mechanism of action data from DrugBank
+- Retrieve published results from the Phase 2 trials (NCT00633399, NCT00555997) to judge efficacy
+- Define a cardiac monitoring plan (baseline and follow-up ECG, electrolytes)
+- Clarify New Zealand regulatory status and why the licences were cancelled
+- Treat the other top predictions (trichotillomania, hydranencephaly, rare congenital and eye disorders) as Hold. Tourette syndrome could be explored as a separate research question.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

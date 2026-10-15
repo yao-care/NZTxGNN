@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ribociclib
-parent: Moderate Evidence (L3-L4)
-nav_order: 302
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 401
+evidence_level: L5
 indication_count: 4
 ---
 
 # Ribociclib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,90 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Ribociclib: From HR+/HER2- Breast Cancer to Myeloid Leukemia
+# Ribociclib: From Breast Cancer to Myeloid Leukemia
 
 ## One-Sentence Summary
 
-Ribociclib is a CDK4/6 inhibitor used internationally (as Kisqali) for HR+/HER2- advanced or metastatic breast cancer, though it is not currently registered in New Zealand.
-The TxGNN model predicts it may be effective for **Myeloid Leukemia**, but this direction is currently supported only by **0 clinical trials** and **3 publications**, one of which reports the opposite association (AML arising after CDK4/6 inhibitor exposure).
-
----
+Ribociclib is a CDK4/6 inhibitor, known for use in hormone receptor-positive, HER2-negative breast cancer. The TxGNN model predicts it may be effective for **myeloid leukemia**, but there are **0 registered clinical trials** and only **1 preclinical publication** that directly supports this direction, so the prediction remains a research question.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HR+/HER2- advanced/metastatic breast cancer (per literature in this evidence pack; not NZ-registered) |
-| Predicted New Indication | Myeloid Leukemia |
+| Original Indication | Not stated in the New Zealand license data compiled for this report (the literature describes use in HR+/HER2- breast cancer) |
+| Predicted New Indication | Myeloid leukemia |
 | TxGNN Prediction Score | 99.35% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L4 (preclinical/mechanistic evidence only) |
+| New Zealand Market Status | Cancelled only (no currently valid licenses) |
+| Number of Authorizations | 3 (all cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Official mechanism-of-action documentation for ribociclib is currently a data gap (DrugBank query pending, item DG002). Based on the literature within this evidence pack, ribociclib is consistently described as an oral, highly selective CDK4/6 (cyclin-dependent kinase 4/6) inhibitor that blocks cell-cycle progression via the cyclin D–CDK4/6–Rb pathway, and it is used clinically for HR+/HER2- breast cancer.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ribociclib inhibits CDK4/6, which regulates the G1-S transition of the cell cycle. Blocking this step stops proliferation of cells that depend on the CDK4/6–retinoblastoma pathway.
 
-The rationale for extending this mechanism to myeloid leukemia is that the cyclin D–CDK4/6–Rb axis is also over-activated in a subset of AML blasts; one in vitro study (PMID 32560251) reports that CDK4/6 inhibitors can overcome pharmacokinetic drug resistance in AML cells, suggesting a theoretical basis for antileukemic activity.
+Myeloid leukemia cells may depend on CDK4/6 signalling for proliferation, which gives a plausible mechanistic rationale. A 2020 preclinical study (PMID 32560251) suggests CDK4/6 inhibitors can target pharmacokinetic drug resistance in acute myeloid leukemia cells, for example by affecting the ABCB1 and ABCG2 efflux transporters. This points to a possible role in combination with standard induction therapy.
 
-However, this mechanistic hypothesis is directly contradicted by a second source in the same evidence set: a case report (PMID 30575100) describing a patient who **developed** AML with eosinophilia after CDK4/6 inhibitor treatment, consistent with the known myelosuppressive/marrow-toxicity profile of this drug class rather than a therapeutic effect. A third publication (PMID 41641105) is a case report of vulvar/breast adenocarcinoma that is largely unrelated to leukemia treatment. With no clinical trials testing ribociclib for myeloid leukemia, the evidence direction is currently ambiguous rather than supportive.
-
----
+The high TxGNN score is a graph-based prediction only. No clinical trial has tested this drug–disease pair, so the link should be treated as a hypothesis.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+Only one publication relates directly to the predicted indication. The second paper returned for this prediction (a vulvar adenocarcinoma case report) is not relevant to myeloid leukemia.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32560251](https://pubmed.ncbi.nlm.nih.gov/32560251/) | 2020 | Preclinical/In vitro | Cancers | CDK4/6 inhibitors may overcome pharmacokinetic drug resistance (ABCB1/ABCG2-mediated) in AML cells in vitro |
-| [30575100](https://pubmed.ncbi.nlm.nih.gov/30575100/) | 2019 | Case Report (adverse event) | American Journal of Hematology | AML with eosinophilia arose after CDK4/6 inhibitor treatment in a patient with underlying clonal hematopoiesis — signal of marrow toxicity, not treatment benefit |
-| [41641105](https://pubmed.ncbi.nlm.nih.gov/41641105/) | 2026 | Case Report (largely unrelated) | Frontiers in Oncology | Case of vulvar adenocarcinoma with concomitant breast cancer; not directly relevant to myeloid leukemia treatment |
-
----
+| [32560251](https://pubmed.ncbi.nlm.nih.gov/32560251/) | 2020 | Preclinical/In vitro | Cancers | CDK4/6 inhibitors may counter ABCB1/ABCG2-mediated drug resistance in AML cells, which could support combination use |
 
 ## New Zealand Market Information
 
-Ribociclib is not currently marketed in New Zealand — no product license or authorization records are available (0 licenses on file).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2701367 | Kisqali | Tab 200 mg | Not available (cancelled) |
+| 2701359 | Kisqali | Tab 200 mg | Not available (cancelled) |
+| 2701340 | Kisqali | Tab 200 mg | Not available (cancelled) |
 
 ## Cytotoxicity
 
-Ribociclib is an antineoplastic agent (CDK4/6 inhibitor used in breast cancer treatment), so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (CDK4/6 inhibitor — not a conventional cytotoxic chemotherapeutic) |
-| Myelosuppression Risk | High — multiple pharmacovigilance and meta-analysis sources in this evidence set (e.g., hematological toxicity network meta-analysis, FAERS-based comparative studies, systematic review of CDK4/6 inhibitor hematological adverse events) consistently identify neutropenia, thrombocytopenia, and leukopenia as common, often dose-limiting toxicities of this drug class |
-| Emetogenicity Classification | Not established from current evidence pack — refer to official package insert once obtained |
-| Monitoring Items | CBC with differential (baseline and periodic, particularly neutrophils and platelets); liver function tests; ECG/QT monitoring should be confirmed against the label, as QT prolongation is a recognized class concern for CDK4/6 inhibitors |
-| Handling Protection | Oral small-molecule targeted agent; institutional hazardous-oral-oncolytic handling precautions are recommended pending confirmation from the official package insert (currently a Blocking data gap, see below) |
-
----
+| Cytotoxicity Classification | Targeted therapy (CDK4/6 inhibitor, oral kinase inhibitor) |
+| Myelosuppression Risk | High. Neutropenia, leukopenia and thrombocytopenia are well-documented, and a meta-analysis and pharmacovigilance studies describe haematological toxicity as a class effect |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Complete blood count with differential, liver function, ECG/QT interval and electrolytes (per standard practice for this class; confirm against the package insert) |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Official TFDA/NZ package insert data (key warnings, contraindications) and drug-drug interaction data are not yet available (Blocking data gap DG001) — please refer to the package insert for safety information once obtained.
+- **Haematological toxicity**: Published reports describe myelosuppression (neutropenia, leukopenia, thrombocytopenia) with CDK4/6 inhibitors. This is especially relevant in leukemia, where bone marrow function is already compromised.
+- **Other reported adverse events**: Case reports describe pneumonitis and visual hallucination with ribociclib.
+- **Drug Interactions**: 100 interactions were identified. Those listed include **Major** interactions with clarithromycin and dolasetron. Moderate interactions include famotidine, hydrocortisone, metformin, pioglitazone, alosetron, loperamide, aprepitant, dexamethasone, cimetidine and saxagliptin, among others.
 
----
+Please refer to the package insert for warnings and contraindications.
+
+## Other Predicted Indications (for context)
+
+| Predicted Indication | TxGNN Score | Evidence Level | Assessment |
+|------|------|------|------|
+| Thrombocytopenia | 99.27% | L4 | Hold. The literature describes thrombocytopenia as an adverse effect of ribociclib, not a therapeutic target. Use for this condition is mechanistically implausible and could worsen it |
+| Macrothrombocytopenia with mitral valve insufficiency | 99.08% | L5 | Hold. No evidence; likely a graph artefact and a safety concern |
+| Hereditary thrombocytopenia with normal platelets | 99.07% | L5 | Hold. No evidence; the ontology entry itself looks inconsistent and should be checked |
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for the myeloid leukemia hypothesis is preclinical-only (L4), with no clinical trials and a directly conflicting adverse-event signal (CDK4/6 inhibitor–associated AML). Combined with the drug's unregistered status in New Zealand and a Blocking safety data gap (no TFDA/NZ package insert yet obtained), the candidate cannot proceed past initial screening. Note also that other TxGNN-ranked candidates for this drug (thrombocytopenia, marcothrombocytopenia, hereditary thrombocytopenia) appear to reflect ribociclib's known myelosuppressive adverse-effect profile rather than genuine treatment opportunities — this raises a general caution about interpreting raw TxGNN scores for this drug without evidence triage.
+The only support for myeloid leukemia is one preclinical study and a plausible mechanism, with no registered clinical trials. In addition, ribociclib's marrow-suppressing profile is a concern in a haematological malignancy, and all New Zealand licenses are cancelled.
 
 **To proceed, the following is needed:**
-- Official TFDA/NZ package insert (warnings, contraindications) — Blocking gap DG001
-- Verified mechanism-of-action documentation from DrugBank — High-priority gap DG002
-- A dedicated preclinical/translational study to resolve the conflicting AML signal (antileukemic activity vs. drug-induced AML risk) before any clinical trial is considered
-- Re-triage of the thrombocytopenia-related candidates to confirm they represent ADR signals rather than repurposing opportunities, before further evaluation resources are committed
+- Detailed mechanism of action data
+- Package insert warnings and contraindications (not yet retrieved)
+- Further preclinical work in myeloid leukemia models, including combination with standard AML therapy and assessment of marrow toxicity
+- Review of whether a currently valid New Zealand supply route exists, given that all three licenses are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

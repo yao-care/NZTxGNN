@@ -2,7 +2,7 @@
 layout: default
 title: Erythromycin
 parent: Moderate Evidence (L3-L4)
-nav_order: 138
+nav_order: 183
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,82 +29,75 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Erythromycin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Erythromycin: From Bacterial Infections (Including Conjunctivitis) to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Erythromycin is a macrolide antibiotic with established activity against gram-positive bacteria and atypical intracellular pathogens, including *Chlamydia* and fusospirochaetal organisms, historically used across a broad spectrum of bacterial infections.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis (PEK)**,
-with **0 clinical trials** and **2 publications** currently supporting this direction.
-
----
+Erythromycin is a macrolide antibiotic originally used for a range of bacterial infections, including pneumonia, pertussis, gonorrhoea, acne and conjunctivitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but there are **no registered clinical trials** and only **1 publication** (a clinical management review) for this indication, so evidence is limited to model prediction and indirect literature.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No approved indication on record in this market |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+|------|------|
+| Original Indication | Bacterial infections, including acne, otitis media, streptococcal and staphylococcal infections, pneumonia, gonorrhoea, pertussis, urethritis and conjunctivitis (the New Zealand licence record has no indication text) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L4 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Erythromycin is a macrolide antibiotic whose primary mechanism involves binding to the 50S ribosomal subunit of susceptible bacteria, inhibiting protein synthesis. Beyond direct antibacterial action, macrolides as a class carry well-documented anti-inflammatory properties — including suppression of matrix metalloproteinases (MMPs) and pro-inflammatory interleukins such as IL-8 — which may offer additional benefit in inflammatory ocular surface disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Erythromycin is a macrolide antibiotic (a class that inhibits bacterial protein synthesis) with activity against Gram-positive organisms such as *Staphylococcus*. It is also reported to have anti-inflammatory and meibomian gland-modulating effects.
 
-Punctate epithelial keratoconjunctivitis (PEK) most commonly arises as a secondary complication of blepharokeratoconjunctivitis (BKC), an eyelid margin infection driven primarily by *Staphylococcus aureus* and *Chlamydia* species. Both pathogens fall within erythromycin's spectrum of activity, and the 0.5% erythromycin ophthalmic ointment is already in clinical use for lid margin and conjunctival bacterial infections. This mechanistic overlap forms a plausible bridge between the drug and PEK.
+Punctate epithelial keratoconjunctivitis is closely related to blepharokeratoconjunctivitis, where staphylococcal blepharitis can drive punctate corneal epithelial disease. Erythromycin's antibacterial and anti-inflammatory properties could plausibly address both components. Erythromycin is also already used for bacterial conjunctivitis, which supports ocular applicability.
 
-Currently, detailed mechanism of action data is not available in the supplied dataset. Based on known information, erythromycin belongs to the macrolide antibiotic class; its antibacterial and anti-inflammatory profile provides a coherent rationale for the TxGNN prediction. However, PEK as a stand-alone indication lacks direct RCT evidence, which limits the confidence grade to L4 and warrants further investigation before clinical translation.
+The link is nonetheless indirect. The single supporting publication is a general clinical management review in children, not a study of erythromycin in this condition. The very high TxGNN score is a computational prediction only.
 
----
+Other predicted indications in the data (lower ranked) include acute contagious conjunctivitis (largely overlapping with the existing label), exposure keratitis, lymphogranuloma venereum (biologically strong, as a chlamydial infection, but doxycycline is first-line) and necrotizing ulcerative gingivitis (dated evidence, not a preferred option today).
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Review / Case Series | Journal of Pediatric Ophthalmology and Strabismus | Describes clinical features and management of blepharokeratoconjunctivitis in children — the primary upstream aetiology of PEK; supports the pathogen-to-mechanism link for erythromycin |
-| [32826651](https://pubmed.ncbi.nlm.nih.gov/32826651/) | 2021 | Case Report | Cornea | Documents *Encephalitozoon hellem* keratoconjunctivitis in an immunocompetent adult diagnosed by metagenomic deep sequencing; illustrates the diagnostic complexity of atypical keratoconjunctivitis and the need for pathogen-directed therapy |
-
----
+|------|-----|------|------|---------|
+| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Review | Journal of Pediatric Ophthalmology and Strabismus | Describes history, symptoms, clinical signs and treatment of chronic blepharokeratoconjunctivitis in children; not specific to erythromycin |
 
 ## New Zealand Market Information
 
-No regulatory authorizations for erythromycin are on record in the New Zealand Medsafe database for this dataset. The drug is recorded as **not marketed**.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2270234 (cancelled) | Erythrocin IV | Inj 1 g vial | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications / disease associations (from a knowledge graph, not label text)**: long QT syndrome (including familial), torsades de pointes, porphyria, kidney disease, liver disease, gallbladder disease, haematologic disease, *Clostridium difficile* colitis, myasthenia gravis and other neuromuscular junction disease, hearing disorders, exfoliative dermatitis and other dermatitis, folic acid deficiency anaemia, perinatal necrotizing enterocolitis and pyoureter.
+- **Drug Interactions**: 100 interactions were identified. Examples among those shown:
+  - **Major**: loperamide, clarithromycin
+  - **Moderate**: corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), famotidine, cimetidine, pioglitazone, chlorpropamide, aprepitant, alosetron, balsalazide, bisacodyl, picosulfuric acid, polyethylene glycol with electrolytes
+  - **Minor**: amoxicillin
 
-> **Note:** Key warnings, contraindications, and drug interaction data were not retrievable in this Evidence Pack cycle. The TFDA package insert has been identified as a remediation source (Data Gap DG001, severity: Blocking); this must be resolved before any formal safety screening (S1 stage) can proceed.
-
----
+Please refer to the package insert for full warnings and contraindications, as label-based data are not available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence is limited to two indirect publications — a paediatric BKC review and an atypical keratoconjunctivitis case report — with no registered clinical trials evaluating erythromycin specifically in punctate epithelial keratoconjunctivitis. The mechanistic rationale is plausible but unconfirmed at the clinical level, placing this candidate at L4 and precluding a Go recommendation at this stage.
+The prediction score is very high, but there are no registered trials and only one indirect review for this indication. The product's New Zealand licence is cancelled and no label-based safety information is available.
 
 **To proceed, the following is needed:**
-- Resolve Data Gap DG001: download and parse the TFDA (or equivalent) package insert to extract key warnings and contraindications, enabling S1 safety screening
-- Resolve Data Gap DG002: query DrugBank API for formal MOA data to strengthen the mechanistic argument
-- Conduct a targeted literature search specifically for erythromycin ophthalmic ointment in PEK or BKC-associated corneal epithelial disease
-- Confirm New Zealand registration status for erythromycin ophthalmic formulations through a direct Medsafe query (the 0.5% ointment may be registered under a brand not captured in the current dataset)
-- If ophthalmic registration is confirmed, assess whether PEK falls within the scope of existing label indications or requires a formal new indication filing
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data (e.g. from DrugBank)
+- Direct clinical evidence of erythromycin (likely topical ophthalmic) in punctate epithelial keratoconjunctivitis
+- Assessment of route compatibility, since the only New Zealand product was an intravenous injection, not an ophthalmic formulation
+- Review of QT-prolongation risk and the major drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

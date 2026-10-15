@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Potassium Chloride
-parent: Model Prediction Only (L5)
-nav_order: 281
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 373
+evidence_level: L4
 indication_count: 1
 ---
 
 # Potassium Chloride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Potassium Chloride: From Electrolyte Replacement (Hypokalemia) to Renal Tubular Acidosis
+# Potassium Chloride: From Potassium Deficiency to Renal Tubular Acidosis
 
 ## One-Sentence Summary
 
-Potassium chloride is a basic electrolyte replacement agent, clinically used to correct hypokalemia; no formal original-indication text is available in this evidence pack. The TxGNN model predicts high relevance to **Renal Tubular Acidosis (RTA)**, a condition in which impaired tubular acid handling frequently causes potassium wasting, with **9 clinical trials** and **19 publications** currently supporting this direction.
+Potassium chloride is an electrolyte replacement originally used to treat potassium deficiency and constipation disorder.
+The TxGNN model predicts it may be useful for **renal tubular acidosis**, but there are **no registered clinical trials** and the literature consists of about **18 publications**, mostly case reports and reviews describing potassium chloride as supportive therapy for hypokalaemia in this condition.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack (`original_indications` empty, no NZ license text available) — potassium chloride's established clinical role is electrolyte (potassium) repletion |
-| Predicted New Indication | Renal Tubular Acidosis |
+| Original Indication | Potassium deficiency disease; constipation disorder (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L3 (review articles, observational studies, and mechanistic literature; no completed RCT identified) |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L4 |
+| New Zealand Market Status | ✓ Marketed |
+| Number of Authorizations | 6 (1 valid, 5 cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, potassium chloride is an electrolyte-replacement agent used to correct potassium deficiency, and mechanistically may be applicable to renal tubular acidosis by directly replenishing potassium lost through impaired tubular handling.
+Currently, detailed mechanism of action data is not available. Based on known information, potassium chloride is a potassium salt, its efficacy in potassium deficiency is well established, and it may be applicable to renal tubular acidosis because of the hypokalaemia that accompanies the condition.
 
-Renal tubular acidosis (particularly distal/type 1 and type 2 RTA) is characterized by a defect in renal acid-base handling that commonly produces hypokalemia alongside hyperchloremic, normal-anion-gap metabolic acidosis. Correcting the associated electrolyte deficit with potassium salts (potassium chloride, potassium citrate, or potassium bicarbonate) is already an established component of RTA management in the nephrology literature, which is consistent with the TxGNN model's high prediction score.
+Distal (type 1) renal tubular acidosis involves impaired distal H+ secretion and urinary potassium wasting. This often causes hypokalaemia, sometimes severe enough to cause periodic paralysis or respiratory failure. Several of the case reports describe patients treated with potassium chloride for exactly this problem.
 
-The mechanistic link here is not a novel pharmacological action but a direct treatment of the electrolyte disturbance that defines the disease — the literature evidence (e.g., Sebastian et al. 1976, on potassium bicarbonate correction in classic RTA) supports plausibility, though most sources describe RTA pathophysiology and diagnosis rather than dedicated potassium chloride efficacy trials.
+The use is supportive and symptom-directed, not disease-modifying. Alkali therapy (bicarbonate or citrate salts) is the standard primary treatment. Chloride does not correct the acid-base disturbance, so potassium citrate is generally preferred when both potassium and alkali are needed. The very high TxGNN score likely reflects the established link between potassium deficiency and RTA rather than a novel repurposing signal. This is largely an extension of the existing label use, not a true new indication.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01834768](https://clinicaltrials.gov/study/NCT01834768) | Phase 2 | Unknown | 31 | Safety of eplerenone (mineralocorticoid receptor antagonist) in cyclosporine A-treated transplant recipients, relevant to tubular toxicity and electrolyte handling |
-| [NCT06867471](https://clinicaltrials.gov/study/NCT06867471) | N/A | Recruiting | 43 | Crossover study of exogenous ketosis on proteinuria/renal function in chronic and polycystic kidney disease |
-| [NCT01843309](https://clinicaltrials.gov/study/NCT01843309) | Phase 4 | Terminated | 36 | Spironolactone for prevention of electrolyte abnormalities in amphotericin B-treated patients |
-| [NCT07273838](https://clinicaltrials.gov/study/NCT07273838) | Phase 2 | Recruiting | 130 | SGLT2 inhibitor for acute cardiorenal syndrome/AKI in heart failure patients |
-| [NCT01894594](https://clinicaltrials.gov/study/NCT01894594) | Phase 1 | Terminated | 7 | Alkali therapy (sodium bicarbonate) effect on bicarbonate and potassium levels in Sickle Cell Disease |
-| [NCT03354507](https://clinicaltrials.gov/study/NCT03354507) | N/A | Unknown | 40 | Sodium bicarbonate for renal tubular acidosis in pediatric epilepsy patients on topiramate |
-| [NCT00120731](https://clinicaltrials.gov/study/NCT00120731) | N/A | Withdrawn | 0 | Potassium citrate for urinary chemistry/acid-base effects in children with hypercalciuria and urolithiasis |
-| [NCT03644706](https://clinicaltrials.gov/study/NCT03644706) | Phase 3 | Terminated | 3 | ADV7103 vs placebo in preventing metabolic acidosis in pediatric/adult distal RTA (dRTA) |
-| [NCT06750172](https://clinicaltrials.gov/study/NCT06750172) | N/A | Recruiting | 33 | 24-hour urinary aldosterone consistency in diagnosing primary aldosteronism via oral sodium loading test |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+The publications are mostly case reports, reviews and cohort studies. No RCTs were found. The table lists the most relevant ones.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [783200](https://pubmed.ncbi.nlm.nih.gov/783200/) | 1976 | Original study | J Clin Invest | In 10 classic (type 1) RTA patients, oral potassium bicarbonate corrected acidosis; sodium conservation was impaired in some patients under sodium restriction |
-| [21314872](https://pubmed.ncbi.nlm.nih.gov/21314872/) | 2011 | Review | Int J Clin Pract | Clinical approach to proximal and distal RTA subtypes in adults, including electrolyte correction strategies |
-| [3518609](https://pubmed.ncbi.nlm.nih.gov/3518609/) | 1986 | Review | Annu Rev Med | Clinical spectrum of RTA across proximal, hypokalemic distal, and hyperkalemic distal subtypes |
-| [8694660](https://pubmed.ncbi.nlm.nih.gov/8694660/) | 1996 | Review | Arch Intern Med | Pathophysiology and diagnostic approach to RTA using urinary and serum electrolytes |
-| [17297212](https://pubmed.ncbi.nlm.nih.gov/17297212/) | 2007 | Review | Acta Med Indones | Approach to hypokalemia, including renal causes such as RTA |
-| [33459628](https://pubmed.ncbi.nlm.nih.gov/33459628/) | 2021 | Review | Arch Esp Urol | RTA and kidney stone diagnosis/management, including distal RTA mechanisms |
-| [22368897](https://pubmed.ncbi.nlm.nih.gov/22368897/) | 2011 | Observational study | JPMA | Prevalence and risk factors of RTA after kidney transplantation |
-| [25377117](https://pubmed.ncbi.nlm.nih.gov/25377117/) | 2014 | Review | Nephron Physiol | Effects of mineralocorticoids on acid-base balance and renal acid excretion |
-| [33769949](https://pubmed.ncbi.nlm.nih.gov/33769949/) | 2021 | Review | J Am Soc Nephrol | Reassessment of urine anion gap as an indirect measure of ammonium excretion in metabolic acidosis |
-| [38445406](https://pubmed.ncbi.nlm.nih.gov/38445406/) | 2023 | Genetic study | La Tunisie Medicale | Genotype-phenotype correlation of distal RTA, including hypokalemia and nephrocalcinosis features |
+| [38445406](https://pubmed.ncbi.nlm.nih.gov/38445406/) | 2023 | Cohort (genotype-phenotype) | La Tunisie medicale | Distal RTA is a rare genetic disorder with hyperchloraemic metabolic acidosis, hypokalaemia and nephrocalcinosis |
+| [25447623](https://pubmed.ncbi.nlm.nih.gov/25447623/) | 2015 | Prospective study | Am J Med | Etiologic and therapeutic analysis of hypokalaemic nonperiodic paralysis, which stresses prompt diagnosis and treatment of curable causes |
+| [786013](https://pubmed.ncbi.nlm.nih.gov/786013/) | 1976 | Review | Am J Med Sci | Causes, consequences and correction of hypokalaemia |
+| [6277192](https://pubmed.ncbi.nlm.nih.gov/6277192/) | 1982 | Review | Am J Med | Disorders of distal nephron function |
+| [40288831](https://pubmed.ncbi.nlm.nih.gov/40288831/) | 2025 | Case report with review | Nefrologia | Primary RTA in pregnancy and perinatal prognosis |
+| [34748193](https://pubmed.ncbi.nlm.nih.gov/34748193/) | 2022 | Case report | J Nephrol | Distal RTA with hypokalaemic periodic paralysis during pregnancy |
+| [37727491](https://pubmed.ncbi.nlm.nih.gov/37727491/) | 2023 | Case report | World J Clin Cases | Incomplete distal RTA uncovered during pregnancy |
+| [34595212](https://pubmed.ncbi.nlm.nih.gov/34595212/) | 2021 | Case report | Case Rep Nephrol Dial | Type I RTA with severe hypokalaemia (K 1.6 mEq/L) treated with potassium chloride infusion |
+| [40654398](https://pubmed.ncbi.nlm.nih.gov/40654398/) | 2024 | Case report | JNMA | Sjögren's syndrome presenting with severe hypokalaemia and metabolic acidosis, treated with intravenous potassium chloride |
+| [1468597](https://pubmed.ncbi.nlm.nih.gov/1468597/) | 1992 | Case report | Nihon Naibunpi Gakkai Zasshi | Distal RTA with Hashimoto's thyroiditis and Sjögren syndrome, treated with oral potassium chloride |
 
 ## New Zealand Market Information
 
-Currently not marketed in New Zealand; no authorization records are available (`total_licenses` = 0).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 405663 (valid) | Chlorvescent | Effervescent tablet, 548 mg (14 mEq) with chloride 285 mg (8 mEq) | Not available |
+| 2717700 (cancelled) | Span-K | Long-acting tablet, 600 mg (8 mmol) | Not available |
+| 2144468 (cancelled) | Span-K | Long-acting tablet, 600 mg (8 mmol) | Not available |
+| 2593785 (cancelled) | Juno | Injection, 75 mg per mL, 10 mL | Not available |
+| 2679280 (cancelled) | Pfizer | Injection, 75 mg per mL, 10 mL | Not available |
+
+One further cancelled injection licence (2678942, LumaCina) is also on record.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease contraindications (knowledge graph, not label text)**: The knowledge graph links potassium chloride to a number of conditions where it may be contraindicated or need caution. They include kidney disease, anuria, heart disease, congestive heart failure, coronary artery disease, hypertension, peptic and gastric ulcer disease, pancreatitis, liver disease, hypercalcaemia, nephrocalcinosis, COPD, epilepsy, sickle cell anaemia, Wilson disease and hereditary haemochromatosis. Kidney disease and nephrocalcinosis are particularly relevant because they are common in RTA.
+- **Drug Interactions**: The data compiled for this report show 100 recorded interactions. The main ones are:
+  - **Major**: amiloride, benazepril, olmesartan, valsartan, azilsartan medoxomil (potassium-raising agents), and anticholinergics and antihistamines such as atropine, hyoscyamine, homatropine, benzatropine, biperiden, glycopyrronium, chlorpheniramine, brompheniramine, acrivastine, phenyltoloxamine and amitriptyline.
+  - **Moderate**: ketorolac, ibuprofen, aliskiren.
+  - **Minor**: cyanocobalamin.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- TFDA/package-insert safety data is a **Blocking** data gap (DG001), so the drug cannot yet pass an initial safety (S1) evaluation; the drug is also not currently marketed in New Zealand, and no completed randomized trial directly evaluates potassium chloride for RTA (evidence is largely review/mechanistic/observational, L3).
+Evidence is limited to model prediction, case reports and reviews (L4), with no clinical trials. Potassium chloride only treats the hypokalaemia of RTA, not the acidosis, and alkali therapy such as potassium citrate is generally preferred. This is better seen as an existing potassium-deficiency use than as a new indication.
 
 **To proceed, the following is needed:**
-- TFDA-equivalent package insert warnings/contraindications (DG001)
-- Mechanism of action confirmation via DrugBank (DG002)
-- Drug-drug interaction data (current query returned no results)
-- Formal clinical evidence (ideally an RCT or guideline citation) specifically evaluating potassium chloride/potassium salts as therapy for RTA-associated hypokalemia, rather than inferring solely from disease pathophysiology literature
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Comparative evidence of potassium chloride versus potassium citrate or bicarbonate in RTA
+- A safety plan for patients with renal impairment, nephrocalcinosis, or those taking potassium-raising drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

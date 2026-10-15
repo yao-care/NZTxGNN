@@ -2,7 +2,7 @@
 layout: default
 title: Lanreotide
 parent: Model Prediction Only (L5)
-nav_order: 194
+nav_order: 258
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Lanreotide: From Somatostatin-Analog Therapy to Hypertrichosis
+# Lanreotide: From Acromegaly to Hypertrichosis
 
 ## One-Sentence Summary
 
-Lanreotide is a long-acting somatostatin analog; per available background it is used to suppress growth hormone/IGF-1 secretion in conditions such as acromegaly and neuroendocrine tumours (formal indication text is not available in this evidence pack). The TxGNN model predicts it may be effective for **hypertrichosis (disease)**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and no mechanistic link between somatostatin receptor signalling and hair growth pathways has been established.
+Lanreotide is a somatostatin analogue originally used to treat acromegaly, hyperpituitarism and pituitary gigantism.
+The TxGNN model predicts it may be effective for **hypertrichosis**, but **no clinical trials or publications** currently support this prediction, which is purely computational.
 
 ---
 
@@ -41,23 +42,30 @@ Lanreotide is a long-acting somatostatin analog; per available background it is 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — drug is not marketed in New Zealand and no license/indication text exists; per repurposing-rationale notes, lanreotide is clinically used for acromegaly and neuroendocrine tumours |
-| Predicted New Indication | Hypertrichosis (disease) |
+| Original Indication | Acromegaly (also hyperpituitarism and pituitary gigantism, from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 7 (all cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a Blocking/High-severity data gap). Based on the limited background information present in this evidence pack, lanreotide belongs to the somatostatin-analog class, understood to suppress growth hormone (GH) and IGF-1 secretion, and is used clinically in conditions such as acromegaly and neuroendocrine tumours.
+Detailed mechanism of action data is not available in the data compiled for this report. Lanreotide is known to be a somatostatin analogue that suppresses growth hormone (GH) and IGF-1 secretion, which is why it is effective in acromegaly.
 
-Hypertrichosis (excessive hair growth) has no established pathophysiological connection to somatostatin receptor signalling. The repurposing rationale attached to this candidate explicitly notes that no known mechanistic link exists between the two, and the prediction is generated purely from TxGNN's embedding-based similarity score, without any corroborating clinical trial or literature evidence.
+The link to hypertrichosis is speculative. Excess IGF-1 signalling might theoretically influence hair follicle growth, but hypertrichosis has many causes (congenital, drug-induced, metabolic), and a somatostatin-based mechanism has not been shown to apply to any of them. The very high score most likely reflects network proximity in the knowledge graph, such as shared phenotypes or genes, rather than a demonstrated pharmacological relationship.
 
-Given the complete absence of supporting data (0 trials, 0 publications) and the missing original-indication/MOA data needed for cross-validation, this prediction should be treated as a low-confidence model output rather than a mechanistically grounded hypothesis.
+Other top-ranked predictions show the same pattern of weak mechanistic support:
+
+| Rank | Predicted Indication | Score | Evidence | Comment |
+|------|------|------|------|------|
+| 2 | Malformation syndrome with odontal and/or periodontal component | 99.96% | None | No plausible link between SSTR2/SSTR5 agonism and dental malformation |
+| 3 | Syndrome with a Dandy-Walker malformation as major feature | 99.96% | None | Structural congenital defect, unlikely to be reversed by a postnatal somatostatin analogue |
+| 4 | Isolated genetic hair shaft abnormality | 99.96% | None | Usually caused by structural gene defects (e.g. keratin genes), not the GH/IGF-1 axis |
+| 5 | Ambras type hypertrichosis universalis congenita | 99.96% | None | Linked to 8q22 rearrangements affecting TRPS1, not a somatostatin pathway |
 
 ---
 
@@ -75,13 +83,31 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Lanreotide is not marketed in New Zealand (0 authorizations on record); no product/license data is available.
+All seven licences are cancelled, and approved indication text is not available for any of them.
+
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2709597 | Mytolac S29 | Inj 60 mg per 0.5 ml, 0.5 ml syringe | Cancelled |
+| 2720264 | Somatuline Autogel | Inj 60 mg per 0.5 ml, 0.5 ml syringe | Cancelled |
+| 2698153 | Mytolac | Inj 90 mg per 0.5 ml, 0.5 ml syringe | Cancelled |
+| 2698161 | Mytolac | Inj 120 mg per 0.5 ml, 0.5 ml syringe | Cancelled |
+| 2720272 | Somatuline Autogel | Inj 90 mg per 0.5 ml, 0.5 ml syringe | Cancelled |
+
+Two further cancelled licences (2659131 and 2698145) are also on record.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level cautions from the knowledge graph** (these are drug-disease contraindication links, not package insert text): hypertension, liver disease, gallbladder disease and gallstones (cholelithiasis, cholecystolithiasis, choledocholithiasis), hyperglycaemia, hypoglycaemia, hypothyroidism (including myxedema and congenital hypothyroidism), and impaired renal function.
+- **Drug Interactions**: 100 interactions were identified in total, and the 20 reviewed are all rated Moderate. They are dominated by glucose-lowering agents, which is consistent with lanreotide's effect on glucose regulation:
+  - Insulins (aspart, degludec, detemir, glargine, glulisine, isophane, regular)
+  - Metformin, pioglitazone, acarbose, chlorpropamide, glimepiride
+  - GLP-1 receptor agonists (albiglutide, dulaglutide, semaglutide)
+  - DPP-4 inhibitors (alogliptin, linagliptin)
+  - SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin)
+
+Package insert warnings and contraindications were not available, so please refer to the package insert for authoritative safety information.
 
 ---
 
@@ -90,13 +116,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (hypertrichosis) has no clinical trials, no literature support, and no plausible mechanistic link to lanreotide's somatostatin-agonist activity — it is a pure model-score output (L5) and does not meet the threshold for further evaluation. Note: the four other TxGNN-ranked candidates in this evidence pack (periodontal/odontal malformation syndrome, Dandy-Walker-related syndrome, isolated genetic hair shaft abnormality, Ambras-type congenital hypertrichosis) are similarly unsupported — the one candidate with literature hits (20 PubMed records on periodontitis) was reviewed and found to be keyword-matched noise unrelated to lanreotide, not genuine evidence.
+The prediction rests solely on a knowledge-graph score (L5), with no clinical trials, no literature and no plausible mechanism. The drug also has no currently valid New Zealand licence, and the package insert safety data needed for screening is missing.
 
 **To proceed, the following is needed:**
-- Confirmed original indication(s) and detailed MOA for lanreotide (currently Blocking/High data gaps)
-- TFDA/regulatory package insert (warnings, contraindications) — currently unavailable
-- A biologically plausible mechanistic hypothesis linking somatostatin receptor pathways to hypertrichosis before any further screening investment
-- If pursuing this candidate further, targeted literature/trial searches using lanreotide-specific terms combined with hair-growth/dermatology MeSH terms, since the current PubMed pull returned no direct hits
+- Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank to allow a proper mechanistic analysis
+- Preclinical or observational evidence linking somatostatin or GH/IGF-1 signalling to hypertrichosis
+- A review of whether a new registration or supply route is feasible, since all licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

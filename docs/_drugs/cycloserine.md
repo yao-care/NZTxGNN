@@ -2,7 +2,7 @@
 layout: default
 title: Cycloserine
 parent: Model Prediction Only (L5)
-nav_order: 93
+nav_order: 126
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,80 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Cycloserine: Evaluation Pending — No TxGNN Predictions Available
+# Cycloserine: From Pulmonary Tuberculosis to Irritable Bowel Syndrome
 
 ## One-Sentence Summary
 
-Cycloserine (DB00260) is a broad-spectrum antibiotic known for use in drug-resistant tuberculosis management.
-The current Evidence Pack contains **no TxGNN-predicted indications** for this compound, and critical data fields — original indication, mechanism of action, and safety profile — are absent from the pipeline output.
-A full repurposing evaluation cannot be completed until these gaps are resolved.
-
----
+Cycloserine is a second-line antibiotic originally used to treat pulmonary tuberculosis.
+The TxGNN model predicts it may be effective for **irritable bowel syndrome**, but **no clinical trials and no publications** currently support this direction, so the prediction rests on computation alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not recorded in Evidence Pack |
-| Predicted New Indication | No predictions available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — No predictions generated |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+|------|------|
+| Original Indication | Pulmonary tuberculosis |
+| Predicted New Indication | Irritable bowel syndrome |
+| TxGNN Prediction Score | 99.95% |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid authorization) |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Since the `predicted_indications` array is empty in this Evidence Pack, no mechanistic repurposing rationale can be presented. The following data gaps directly block analysis:
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cycloserine is a D-alanine analogue that inhibits bacterial cell wall synthesis, and it also acts as a partial agonist at the NMDA receptor glycine site. Its efficacy in tuberculosis is established, but a mechanistic route to irritable bowel syndrome is not supported by the available data.
 
-**Original indication** is not recorded in the Evidence Pack. The TFDA query returned zero results (query log ID 1), indicating Cycloserine has no regulatory footprint in the queried database. Without a confirmed base indication, the "From X to Y" repurposing framework cannot be applied.
+Possible links, such as the gut-brain axis, effects on gut microbiota, or visceral hypersensitivity, are speculative. The very high TxGNN score (rank 784 among predictions for this drug) reflects patterns in the knowledge graph and has not been verified by any clinical or literature evidence. This should be treated as a hypothesis only.
 
-**Mechanism of action** is not available. The DrugBank query returned a result (query log ID 3), yet MOA data was not populated — suggesting an extraction failure downstream. Without MOA, it is not possible to assess pharmacological overlap with any candidate new indication.
-
-**Safety profile** is entirely absent. Warnings and contraindications both returned as data gaps despite a successful package insert query (query log ID 4). For a compound with known CNS toxicity risks, this constitutes a blocking issue for any safety-gated repurposing decision.
-
----
+Other predicted indications fare no better. Acne, gastroparesis, conjunctivitis, insomnia, pharyngitis and nasal cavity disease also have no supporting trials. For insomnia, the literature points the opposite way: a case report describes cycloserine **causing** insomnia and psychosis in multidrug-resistant tuberculosis.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for irritable bowel syndrome.
 
 ## New Zealand Market Information
 
-Cycloserine is not currently marketed in New Zealand. No product authorizations are on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2566508 | Cyclorin | Cap 250 mg | Not stated (authorization cancelled) |
 
----
+## Cytotoxicity
+
+Cycloserine is an antibacterial agent rather than an antineoplastic drug, so this section does not apply.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-related cautions from the knowledge graph (not label text)**: The drug-disease contraindication data lists epilepsy, anxiety disorder, neurotic disorder, dysthymic disorder, psychotic disorder, schizophreniform disorder, schizoaffective disorder, mental disorder, substance abuse/dependence, kidney disease, pyoureter, vitamin B12 deficiency, megaloblastic anemia and sideroblastic anemia.
+- **Neuropsychiatric effects**: A published case report describes cycloserine-induced insomnia and psychosis in a patient treated for multidrug-resistant tuberculosis.
+- **Drug Interactions** (11 recorded):
+  - **Major**: bupropion, ethanol, iohexol, iopamidol
+  - **Moderate**: picosulfuric acid, polyethylene glycol (3350 with electrolytes), sodium sulfate, caffeine, dicoumarol, warfarin, lindane
 
----
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for authoritative safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack for Cycloserine is structurally incomplete — no TxGNN predictions were generated, and three blocking data gaps (original indication, MOA, safety warnings) prevent entry into the standard evaluation workflow.
+The prediction for irritable bowel syndrome has a high model score but no clinical trials, no literature, and no documented mechanistic link. The drug's known neuropsychiatric toxicity and its cancelled status in New Zealand add further barriers.
 
 **To proceed, the following is needed:**
-
-- **Run TxGNN prediction pipeline** for Cycloserine (DB00260) to generate candidate repurposing indications
-- **Extract MOA from DrugBank** — query log confirms a successful DrugBank hit (ID 3); re-run extraction to populate `original_moa`
-- **Parse package insert safety data** — query log confirms a successful TFDA insert retrieval (ID 4); re-run parsing to populate `key_warnings` and `contraindications`
-- **Confirm original indication** from DrugBank categories or international label (e.g., WHO, FDA) to anchor the "From X" axis of repurposing analysis
-- **Re-generate Evidence Pack** after gaps are resolved, then re-submit for full evaluation
+- Mechanism of action data (for example from DrugBank) and a plausible mechanistic rationale for irritable bowel syndrome
+- Package insert warnings and contraindications from Medsafe for safety screening
+- Preclinical or early clinical evidence of benefit in irritable bowel syndrome
+- A review of whether any route and formulation could be made available in New Zealand, given the cancelled authorization
+- A risk assessment of neuropsychiatric adverse effects and of the interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

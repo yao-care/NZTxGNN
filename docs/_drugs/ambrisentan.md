@@ -2,15 +2,15 @@
 layout: default
 title: Ambrisentan
 parent: High Evidence (L1-L2)
-nav_order: 24
-evidence_level: L1
+nav_order: 31
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ambrisentan
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,105 +29,99 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Ambrisentan: From Pulmonary Arterial Hypertension to PAH Associated with Congenital Heart Disease
+# Ambrisentan: From Pulmonary Arterial Hypertension to PAH Associated with Connective Tissue Disease
 
 ## One-Sentence Summary
 
-Ambrisentan is a selective endothelin type A (ETA) receptor antagonist globally approved for idiopathic and heritable pulmonary arterial hypertension (PAH), though not currently registered in the New Zealand market.
-The TxGNN model predicts it may be effective across multiple PAH subtypes; **PAH associated with congenital heart disease (PAH-CHD)** represents the top actionable prediction, supported by **9 registered clinical trials** (including 1 completed Phase 3 study) and **18 publications**.
-A companion indication — **PAH associated with connective tissue disease (PAH-CTD)** — carries parallel L2 evidence and a "Proceed with Guardrails" recommendation.
-
-> **Note on TxGNN ranking**: The model's top-ranked prediction by score is pulmonary arteriovenous malformation (PAVM, score 99.41%), but clinical evidence for that indication is limited to a single case report (L4). This report focuses on PAH-CHD (rank 2, score 99.37%, L1 evidence) as the primary actionable candidate.
-
----
+Ambrisentan is an endothelin receptor antagonist originally used to treat pulmonary arterial hypertension (PAH).
+The TxGNN model predicts it may be effective for **PAH associated with connective tissue disease (CTD-PAH)**,
+with **2 clinical trials** and **19 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Idiopathic/heritable pulmonary arterial hypertension (globally approved; not registered in New Zealand) |
-| Predicted New Indication | PAH associated with congenital heart disease (PAH-CHD) |
-| TxGNN Prediction Score | 99.37% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+|------|------|
+| Original Indication | Pulmonary arterial hypertension |
+| Predicted New Indication | PAH associated with connective tissue disease (rank 3 of the model's predictions; see note below) |
+| TxGNN Prediction Score | 99.30% |
+| Evidence Level | L2 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Proceed with Guardrails |
 
----
+**Note on selection:** The top-ranked prediction (pulmonary arteriovenous malformation, score 99.41%) has only a single case report, no trials, and Evidence Level L4, so the recommendation is Hold. This report therefore focuses on the best-supported prediction, CTD-PAH. The other predictions are summarised at the end.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, Ambrisentan is a highly selective endothelin receptor type A (ETA) antagonist. Endothelin-1 (ET-1) is one of the most potent vasoconstrictors known — it acts primarily through ETA receptors to drive pulmonary vasoconstriction, vascular smooth muscle proliferation, and fibrotic remodelling. These are the defining pathological features of all forms of PAH.
+Ambrisentan selectively blocks the endothelin receptor type A. This reduces endothelin-driven vasoconstriction and vascular smooth muscle proliferation in the pulmonary arteries. Detailed mechanism-of-action data is not available in the data compiled for this report, so this description is based on the drug's known pharmacological class.
 
-In congenital heart disease (CHD), persistent left-to-right cardiac shunts chronically expose the pulmonary vasculature to excess blood flow and shear stress. This triggers sustained ET-1 overproduction and ETA receptor upregulation, progressively destroying pulmonary vascular architecture. In its most advanced form — Eisenmenger syndrome — the shunt reverses and the condition becomes inoperable. Because ET-1/ETA signalling is the central driver of this pathological cascade, Ambrisentan's mechanism of action is highly congruent with CHD-PAH pathophysiology. The repurposing logic is not speculative: it is a mechanistic extension of the same ETA blockade that underpins the approved PAH indication.
-
-Multiple international PAH management guidelines already position endothelin receptor antagonist (ERA) therapy as a recommended option for Eisenmenger syndrome. The completed Phase 3 study in Chinese PAH patients with CHD-related disease (NCT01808313, n=134) provides the highest-quality direct evidence supporting this prediction. A systematic review and meta-analysis (PMID 31096477) further affirms ERA utility in Eisenmenger syndrome, consolidating the evidence to L1 level.
-
----
+CTD-PAH, including systemic sclerosis-associated PAH, is a recognised subgroup of Group 1 PAH, the same disease family as the approved indication. The mechanistic link is therefore direct, and endothelin-driven vascular remodelling is central to this subtype. Because it falls within the approved PAH category, it is largely covered by existing labelling. The repurposing question is mainly about confirming benefit in this subgroup rather than opening a new disease area.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01808313](https://clinicaltrials.gov/study/NCT01808313) | Phase 3 | Completed | 134 | Open-label, single-arm study of Ambrisentan in Chinese PAH patients including CHD-related subgroup. Primary endpoint: 6-minute walk distance change over 12 weeks (PEP) with optional 12-week dose-adjustment extension. Largest direct efficacy dataset for Ambrisentan in Asian CHD-PAH. |
-| [NCT01884675](https://clinicaltrials.gov/study/NCT01884675) | Phase 3 | Terminated | 33 | Double-blind RCT: Ambrisentan 5 mg vs placebo in inoperable CTEPH over 16 weeks. Terminated early (33 of 160 planned enrolled); termination reason requires clarification to rule out safety signal. Design is high quality but early termination limits standalone evidential value. |
-| [NCT01342952](https://clinicaltrials.gov/study/NCT01342952) | Phase 2 | Completed | 38 | Long-term open-label extension of the paediatric PAH study in patients aged 8–18 years; duration minimum 6 months, some participants followed to age 18 or until discontinuation. Provides paediatric CHD-PAH long-term safety data through 2022. |
-| [NCT01332331](https://clinicaltrials.gov/study/NCT01332331) | Phase 2 | Terminated | 41 | Randomised, open-label dose-finding study of high vs low body-weight–adjusted Ambrisentan in paediatric PAH (ages 8–18); terminated early after 24 weeks. Offers dose-response and pharmacokinetic data for the paediatric population. |
-| [NCT04095286](https://clinicaltrials.gov/study/NCT04095286) | Phase 1 | Completed | 29 | Crossover relative bioavailability study comparing a new low-dose Ambrisentan dispersible tablet (intended for paediatric use) with the marketed reference tablet in healthy adults. Supports paediatric dose formulation development. |
-| [NCT02688387](https://clinicaltrials.gov/study/NCT02688387) | Phase 1 | Completed | 112 | Crossover PK study comparing multiple fixed-dose combination (FDC) tablets of Ambrisentan + Tadalafil in healthy participants. Supports development of combination therapy formulations for PAH. |
-| [NCT01894022](https://clinicaltrials.gov/study/NCT01894022) | Phase 3 | Terminated | 19 | Open-label extension of the CTEPH Phase 3 study (NCT01884675); terminated early with only 19 participants. Long-term safety reference only; no independent efficacy value. |
-| [NCT01383083](https://clinicaltrials.gov/study/NCT01383083) | N/A | Unknown | 42 | Study of Iloprost (not Ambrisentan) in CHD-PAH/Eisenmenger physiology. Indirect comparator — demonstrates clinical trial feasibility and prostaglandin pathway relevance in this population. |
-| [NCT00593905](https://clinicaltrials.gov/study/NCT00593905) | N/A | Withdrawn | 0 | Pharmacogenomics study of ERA therapy (including Ambrisentan) in PAH; withdrawn before any enrolment. No usable data. |
-
----
+| [NCT02290613](https://clinicaltrials.gov/study/NCT02290613) | Phase 2 | Completed | 38 | Randomised, double-blind, placebo-controlled proof-of-concept trial of early treatment in borderline PAH associated with systemic sclerosis (EDITA). Small and in an early/borderline population. |
+| [NCT01042158](https://clinicaltrials.gov/study/NCT01042158) | Phase 4 | Completed | 25 | 36-week open-label single-arm study of ambrisentan plus tadalafil in scleroderma-associated PAH, assessing 6-minute walk distance, NYHA class and haemodynamics. The combination design limits attribution to ambrisentan alone. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31096477](https://pubmed.ncbi.nlm.nih.gov/31096477/) | 2019 | Systematic Review | Medicine | Meta-analysis evaluating PAH-specific drug therapy in Eisenmenger syndrome. Qualitative synthesis supports ERA and other targeted agents in CHD-PAH. Highest-tier evidence for this indication. |
-| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Narrative Review | JAMA | Comprehensive review of PAH diagnosis and management. Addresses CHD-associated PAH subgroup, risk stratification, and ERA positioning within current treatment guidelines. |
-| [21371683](https://pubmed.ncbi.nlm.nih.gov/21371683/) | 2011 | Observational/Case Series | American Journal of Cardiology | Early clinical experience with Ambrisentan in Eisenmenger syndrome (Columbia University, 2007–2008). Assessed effects on resting and exercise systemic arterial oxygen saturation, exercise capacity, and haemodynamics. |
-| [34921523](https://pubmed.ncbi.nlm.nih.gov/34921523/) | 2022 | Prospective Observational | Pediatric Pulmonology | Real-world safety and tolerability of Ambrisentan + Tadalafil combination in paediatric pulmonary hypertension. Relevant to paediatric CHD-PAH management. |
-| [41727855](https://pubmed.ncbi.nlm.nih.gov/41727855/) | 2025 | Review | Frontiers in Pediatrics | ET-1 pathobiology in the failing Fontan circulation (single-ventricle CHD). Provides mechanistic rationale for ETA antagonism in complex congenital heart disease with pulmonary vascular involvement. |
-| [22104452](https://pubmed.ncbi.nlm.nih.gov/22104452/) | 2011 | Registry/Cohort | Postgraduate Medicine | Texas Adult Congenital Heart Program: characterises clinical burden of PAH in adult CHD patients and describes treatment practice patterns. |
-| [28348949](https://pubmed.ncbi.nlm.nih.gov/28348949/) | 2017 | Case Report | Respiratory Medicine Case Reports | Advanced PAH combination therapy in Eisenmenger syndrome. Describes haemodynamic and functional outcomes with multi-drug PAH regimens. |
-| [25787798](https://pubmed.ncbi.nlm.nih.gov/25787798/) | 2015 | Case Report | International Heart Journal | Adult Eisenmenger syndrome (VSD) treated with PAH drugs. Demonstrates individual patient benefit from targeted PAH therapy including ERA. |
-| [18333354](https://pubmed.ncbi.nlm.nih.gov/18333354/) | 2007 | Expert Review | Romanian Journal of Internal Medicine | Review of PAH management in congenital heart disease, including pathophysiology of Eisenmenger syndrome and evidence for targeted therapy at the time. |
-| [21852894](https://pubmed.ncbi.nlm.nih.gov/21852894/) | 2009 | Review | Progress in Pediatric Cardiology | Non-CHD paediatric PAH — discusses IPAH, capillary haemangiomatosis, and haemoglobin-related PAH in the context of growing experience with targeted therapies. |
-
----
+| [38378970](https://pubmed.ncbi.nlm.nih.gov/38378970/) | 2024 | Systematic review / meta-analysis | Intern Emerg Med | Meta-analysis of RCTs reporting CTD-PAH outcomes (functional class, survival, 6-minute walk distance, clinical worsening). |
+| [23906950](https://pubmed.ncbi.nlm.nih.gov/23906950/) | 2013 | Meta-analysis | BMJ Open | Meta-analysis of clinical trials addressing the optimal treatment of CTD-PAH. |
+| [32161055](https://pubmed.ncbi.nlm.nih.gov/32161055/) | 2020 | Post hoc analysis (AMBITION) | Ann Rheum Dis | Initial ambrisentan plus tadalafil combination compared with monotherapy in CTD-PAH and the systemic sclerosis subgroup. |
+| [28039187](https://pubmed.ncbi.nlm.nih.gov/28039187/) | 2017 | Subgroup analysis (AMBITION) | Ann Rheum Dis | Initial combination therapy in CTD-PAH, addressing uncertainty about benefit in this population. |
+| [27492539](https://pubmed.ncbi.nlm.nih.gov/27492539/) | 2016 | Subgroup analysis (ARIES-E) | Respir Med | 3-year efficacy and safety of ambrisentan in CTD-PAH patients. |
+| [26360334](https://pubmed.ncbi.nlm.nih.gov/26360334/) | 2015 | Clinical study | Am J Respir Crit Care Med | Up-front ambrisentan plus tadalafil combination therapy in scleroderma-associated PAH. |
+| [28425346](https://pubmed.ncbi.nlm.nih.gov/28425346/) | 2017 | Drug review | Ther Adv Respir Dis | Ambrisentan is approved for idiopathic, heritable and connective tissue disease-associated PAH, with improved exercise capacity and haemodynamics. |
+| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | Review | Drugs | Overview of PAH treatment in connective tissue disease. |
+| [37765060](https://pubmed.ncbi.nlm.nih.gov/37765060/) | 2023 | Review | Pharmaceuticals (Basel) | Recent advances in treating CTD-associated PAH. |
+| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Review | JAMA | General review of PAH diagnosis and treatment. |
 
 ## New Zealand Market Information
 
-Ambrisentan is not currently registered or marketed in New Zealand. No product authorizations are on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2626454 | Ambrisentan Viatris | Tab 10 mg | Not available (cancelled) |
+| 2626446 | Ambrisentan Viatris | Tab 5 mg | Not available (cancelled) |
 
-> Ambrisentan (brand names **Letairis®** [USA] and **Volibris®** [EU/UK]) received FDA approval in 2007 and EMA approval in 2008 for pulmonary arterial hypertension (WHO Group I). Its absence from the New Zealand market is likely commercial rather than safety-driven. Any access programme or clinical trial in New Zealand would require a consent under Section 29 of the Medicines Act 1981, or full regulatory submission to Medsafe.
-
----
+Both authorizations are cancelled, so no valid product is currently listed. Market status should be verified before any proposal.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations from the knowledge graph (not label text)**: contraindication links to congestive heart failure, anaemia, macrocytic anaemia and pulmonary veno-occlusive disease.
+- **Drug Interactions**: 100 interactions were identified. Those with a stated severity include:
+  - Moderate: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, eliglustat, naltrexone
+  - Minor: clarithromycin, miconazole, omeprazole
+  - Severity not classified: calcitriol, pantoprazole, doxycycline, morphine, metformin, lansoprazole, vancomycin, lactulose, prednisone, simvastatin, potassium chloride, and others
+- **Suggested monitoring for this use**: embryo-fetal toxicity, hepatic function, oedema and anaemia.
 
-> **Key interaction specific to PAH-CHD and HIV-PAH populations**: The evidence pack specifically flags that HIV protease inhibitors are potent CYP3A4 and P-glycoprotein inhibitors, which may significantly elevate Ambrisentan plasma concentrations. For any patient on antiretroviral therapy, close therapeutic monitoring and dose adjustment protocols are required before initiating Ambrisentan.
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
----
+## Other Predictions (Summary)
+
+| Predicted Indication | Score | Evidence Level | Recommendation |
+|------|------|------|------|
+| Pulmonary arteriovenous malformation | 99.41% | L4 | Hold (a single case report concerns PAH rather than AVM treatment; vasodilation could theoretically worsen right-to-left shunting) |
+| PAH associated with congenital heart disease | 99.37% | L3 | Research Question (an ambrisentan cohort study in Eisenmenger syndrome exists; no registered trials) |
+| PAH associated with HIV infection | 99.30% | L4 | Research Question (case series only; antiretroviral interactions need evaluation) |
+| PAH associated with chronic haemolytic anaemia | 99.30% | L5 | Hold (no evidence; anaemia is a known adverse effect) |
+| PAH associated with schistosomiasis | 99.30% | L5 | Hold (model prediction only) |
+| Malformation syndrome with odontal/periodontal component, hypotrichosis simplex of the scalp, hypertrichosis, Dandy-Walker malformation syndrome | 99.12–99.19% | L5 | Hold (no plausible mechanism; likely graph artefacts; ambrisentan is teratogenic) |
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-PAH associated with congenital heart disease has robust and mechanistically coherent evidence: one completed Phase 3 study in the target CHD-PAH population (n=134), multiple Phase 2 studies and long-term extensions providing paediatric data, and a systematic review affirming ERA utility in Eisenmenger syndrome. The ETA-antagonism mechanism directly addresses the ET-1–driven pulmonary vascular remodelling central to CHD-PAH. The evidence package is sufficiently strong to advance to structured clinical planning.
+CTD-PAH is a direct subgroup of the approved PAH indication, supported by two completed trials, meta-analyses, and ambrisentan subgroup analyses from the AMBITION and ARIES-E studies. However, the trials are small, one used a combination design, and there is no dedicated Phase 3 RCT in this subgroup, so evidence is moderate (L2). Both New Zealand authorizations are cancelled.
 
 **To proceed, the following is needed:**
-- Obtain and review full results data from NCT01808313 (the completed Phase 3 Chinese CHD-PAH study), including primary endpoint outcomes, subgroup analyses, and safety table
-- Investigate the reason for early termination of NCT01884675 — determine whether it was efficacy, safety, or commercial, and assess impact on the evidence base
-- Obtain Taiwan/NZ regulatory package insert for complete safety profile, boxed warnings, contraindications, and drug interactions (currently a blocking data gap per DG001 in the evidence pack)
-- Develop a DDI monitoring protocol, particularly for paediatric patients and adults co-prescribed cardiovascular polypharmacy
-- Define the target patient population for any local access programme: Eisenmenger syndrome (inoperable) vs. pre-Eisenmenger CHD-PAH; adult vs. paediatric age band
-- Initiate parallel evaluation of **PAH associated with connective tissue disease (PAH-CTD, rank 3, L2 evidence)** — this indication has 3 clinical trials (including 1 completed Phase 4 SSc-PAH study) and multiple AMBITION trial sub-analyses specifically examining Ambrisentan + Tadalafil in CTD-PAH, making it a strong co-primary candidate
+- Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
+- Detailed mechanism-of-action data from DrugBank
+- Confirmation of New Zealand market and supply status, since no valid authorization exists
+- A safety monitoring plan covering embryo-fetal toxicity, liver function, oedema, anaemia, and drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

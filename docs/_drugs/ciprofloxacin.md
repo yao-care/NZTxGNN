@@ -2,7 +2,7 @@
 layout: default
 title: Ciprofloxacin
 parent: Moderate Evidence (L3-L4)
-nav_order: 73
+nav_order: 99
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ciprofloxacin is a broad-spectrum fluoroquinolone antibiotic widely used for treating a range of bacterial infections, including respiratory, urinary tract, and skin infections.
-The TxGNN model predicts it may be effective for **Diffuse Scleroderma**,
-with **0 clinical trials** and **2 publications** currently supporting this direction.
+Ciprofloxacin is a fluoroquinolone antibiotic, originally used for infections such as typhoid fever, bacterial pneumonia, anthrax and infectious diarrhoea.
+The TxGNN model predicts it may be effective for **Diffuse Scleroderma**, but there are **no registered clinical trials** and only **2 publications**, neither of which is controlled clinical evidence of benefit.
+Of the ten predictions generated, only septicaemic plague has meaningful supporting evidence, and it is better viewed as an extension of existing anti-infective use.
 
 ---
 
@@ -43,29 +43,29 @@ with **0 clinical trials** and **2 publications** currently supporting this dire
 
 | Item | Content |
 |------|------|
-| Original Indication | Broad-spectrum bacterial infections (fluoroquinolone antibiotic) |
-| Predicted New Indication | Diffuse Scleroderma |
+| Original Indication | Not stated in the licence records. The knowledge graph lists bacterial infections (typhoid fever, salmonellosis, bacterial pneumonia, anthrax, shigellosis, among others) |
+| Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L4 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 4 (all cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Ciprofloxacin is a fluoroquinolone antibiotic whose primary mechanism targets bacterial DNA gyrase (GyrA/GyrB) and Topoisomerase IV, enzymes essential for DNA replication — leading to rapid bactericidal activity. Beyond this antibacterial role, emerging in vitro and small-scale clinical data suggest ciprofloxacin may possess antifibrotic properties, potentially through inhibition of TGF-β–induced fibroblast proliferation and collagen synthesis. This secondary mechanism forms the biological basis of the TxGNN prediction.
+Detailed mechanism of action data is not available in the data compiled for this report. Ciprofloxacin is generally known as a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy in bacterial infections is well established.
 
-Diffuse scleroderma (diffuse cutaneous systemic sclerosis) is an autoimmune connective tissue disease characterized by progressive skin and visceral fibrosis, microvascular injury, and immune dysregulation — conditions for which no disease-modifying pharmacological treatment currently exists. Two mechanistic pathways connect ciprofloxacin to this indication: (1) direct suppression of fibroblast activation and collagen deposition, potentially attenuating skin thickening; and (2) treatment of small intestinal bacterial overgrowth (SIBO), a common and debilitating gastrointestinal complication in systemic sclerosis patients that contributes to malnutrition and symptom burden.
+For diffuse scleroderma, there are two possible links. First, small intestinal bacterial overgrowth (SIBO) is common in systemic sclerosis, and antibiotics can treat it. A 1995 study of 24 patients with systemic sclerosis examined SIBO detection and treatment outcome. This route is symptomatic and does not change the underlying disease. Second, a 2010 report proposed that oral ciprofloxacin has an antifibrotic effect in skin. This mechanism is hypothetical, and no controlled clinical data confirming it were available.
 
-However, this prediction requires cautious interpretation. The antifibrotic evidence remains confined to preclinical models and a single small-cohort clinical study, with no registered trials specifically designed to evaluate ciprofloxacin as a disease-modifying agent in scleroderma. The signal is biologically plausible but clinically unvalidated.
+The very high TxGNN score is therefore not matched by clinical evidence. The prediction should be treated as a hypothesis to test, not as an established use.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for diffuse scleroderma.
 
 ---
 
@@ -73,22 +73,30 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Small cohort (controlled, double-blind design) | The Journal of Dermatology | Evaluated oral ciprofloxacin as an antifibrotic agent in scleroderma patients; primary study directly investigating this repurposing hypothesis |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Observational | British Journal of Rheumatology | Investigated small bowel bacterial overgrowth (SIBO) in 24 systemic sclerosis patients (6 with diffuse form); ciprofloxacin was among antibiotic treatments used, demonstrating indirect benefit via SIBO management |
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Controlled, double-blind randomized trial (as described in the abstract; classified as preclinical/exploratory) | The Journal of Dermatology | Tested whether oral ciprofloxacin reduces scleroderma severity and acts as an antifibrotic in skin. Results were not available in the data provided |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Diagnostic/Observational | British Journal of Rheumatology | 24 systemic sclerosis patients with malabsorption symptoms assessed for SIBO, including treatment outcome |
 
 ---
 
 ## New Zealand Market Information
 
-Ciprofloxacin is not currently approved or marketed in New Zealand (0 authorizations on record). Regulatory approval would be required before any clinical use.
+All four licences are cancelled, and none is currently valid. Approved indication text was not available for any of them.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2676885 | Ipca-Ciprofloxacin | Tab 500 mg | Not available (cancelled) |
+| 2676893 | Ipca-Ciprofloxacin | Tab 750 mg | Not available (cancelled) |
+| 2676877 | Ipca-Ciprofloxacin | Tab 250 mg | Not available (cancelled) |
+| 2539144 | Ciprofloxacin Teva | Eye drops 0.3% | Not available (cancelled) |
 
 ---
 
 ## Safety Considerations
 
-> ⚠️ **Important safety note relevant to this indication:** Ciprofloxacin (fluoroquinolone class) carries an **FDA Black Box Warning** for risk of peripheral neuropathy, which may be irreversible. This is particularly relevant as one of the TxGNN's lower-ranked predictions (rank 9) involves a hematological disease with acquired peripheral neuropathy — a direction that should be **excluded** as the drug may cause rather than treat this condition.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: long QT syndrome (including familial), torsades de pointes, epilepsy, kidney disease, potassium deficiency, tendinitis and other tendon disorders (Achilles bursitis, heel spur, periarthritis), peripheral neuropathy, *Clostridium difficile* colitis, myasthenia gravis, and neuromuscular junction disease.
+- **Drug Interactions**: 100 interactions were identified. Major-level interactions include corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone) and bupropion. Moderate-level interactions include antidiabetic drugs (metformin, pioglitazone, acarbose, alogliptin, albiglutide), famotidine, loperamide, alosetron, aspirin, aprepitant and bisacodyl.
 
-For full safety information, please refer to the package insert warnings and precautions.
+Relevance to the predicted indication: patients with systemic sclerosis often receive corticosteroids, and combining them with a fluoroquinolone is a major interaction (tendon-related risk). Systemic sclerosis can also involve the kidneys, the gastrointestinal tract and peripheral nerves, where the listed contraindication-related conditions matter. Package insert warnings were not available, so please refer to the package insert for full safety information.
 
 ---
 
@@ -97,15 +105,20 @@ For full safety information, please refer to the package insert warnings and pre
 **Decision: Hold**
 
 **Rationale:**
-The current evidence base for ciprofloxacin in diffuse scleroderma is limited to two small observational-level studies (L4), with no registered clinical trials. While the antifibrotic and SIBO-treatment hypotheses offer a coherent mechanistic framework, the evidence is insufficient to support advancing beyond an exploratory research stage.
+The TxGNN score is high, but the evidence is limited to one study of unclear results and one SIBO study, with no registered trials. The only plausible benefit is symptomatic (SIBO) or hypothetical (antifibrotic). Safety considerations (tendon risk with corticosteroids, kidney and nerve involvement) add further caution. All New Zealand licences are cancelled.
+
+**Other predictions in the data compiled for this report:**
+- **Septicaemic plague** (score 99.64%, evidence level L2, flagged as a research question) is the best-supported prediction. Randomized non-inferiority trial evidence exists for bubonic plague (published 2025), along with animal-model data and guidelines. However, the randomized data cover bubonic, not septicaemic, plague, and this is better classed as an extension of existing anti-infective use than true repurposing.
+- **Monoclonal gammopathy** (L4) is supported only by infection-prophylaxis studies in myeloma and transplant patients, which is supportive care and not disease treatment.
+- **Hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, premalignant haematological disease, punctate epithelial keratoconjunctivitis and haematological disease with peripheral neuropathy** (all L5) have no plausible mechanism or supporting evidence and are likely knowledge-graph artefacts. The neuropathy prediction is potentially contraindicated, since fluoroquinolones carry a peripheral neuropathy risk.
 
 **To proceed, the following is needed:**
-- Confirmatory mechanistic studies establishing ciprofloxacin's antifibrotic activity in scleroderma-relevant fibroblast models (TGF-β pathway quantification)
-- A prospective pilot clinical trial (Phase 1/2) in diffuse scleroderma patients with pre-specified endpoints (e.g., modified Rodnan Skin Score, SIBO eradication rate)
-- Long-term safety data for ciprofloxacin use in autoimmune/fibrotic disease populations, given fluoroquinolone-class risks (tendinopathy, peripheral neuropathy, QT prolongation)
-- New Zealand regulatory assessment for this new indication prior to any clinical development pathway
-
-> **Note on ranked predictions:** While diffuse scleroderma is the top-ranked TxGNN prediction by model score, **septicemic plague (rank 10)** carries the strongest clinical evidence in this Evidence Pack (L2, Phase 2 completed RCT, FDA-recognized indication). Ciprofloxacin is already established by US CDC/FDA as a first-line treatment and post-exposure prophylaxis agent for plague — this finding reflects the model correctly identifying a validated clinical use, reinforcing confidence in the TxGNN knowledge graph.
+- Full results of the 2010 ciprofloxacin scleroderma study (PMID 20507401) and a critical appraisal of its design
+- Detailed mechanism of action data, particularly for the proposed antifibrotic effect
+- Package insert warnings and contraindications from Medsafe (needed before safety screening can proceed)
+- Clarification of the current New Zealand regulatory position, since all licences are cancelled
+- A safety assessment for systemic sclerosis patients on corticosteroids or with kidney, gastrointestinal or nerve involvement
+- If the plague indication is pursued, confirmation that the evidence extends from bubonic to septicaemic plague
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

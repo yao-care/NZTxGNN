@@ -2,7 +2,7 @@
 layout: default
 title: Taliglucerase Alfa
 parent: Model Prediction Only (L5)
-nav_order: 330
+nav_order: 436
 evidence_level: L5
 indication_count: 5
 ---
@@ -33,27 +33,37 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Taliglucerase alfa is a recombinant human glucocerebrosidase used as enzyme replacement therapy for Gaucher disease (GBA gene deficiency). The TxGNN model predicts it may be effective for **Hurler syndrome (MPS I)**, but currently **no clinical trials** and **no published literature** support this direction — the prediction rests on model score alone.
+Taliglucerase alfa is a recombinant glucocerebrosidase enzyme replacement therapy, originally used to treat Gaucher disease.
+The TxGNN model predicts it may be effective for **Hurler syndrome**, but there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gaucher disease (per drug classification; New Zealand regulatory data unavailable — not marketed) |
+| Original Indication | Gaucher disease |
 | Predicted New Indication | Hurler syndrome |
 | TxGNN Prediction Score | 99.52% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for taliglucerase alfa is not available in the current evidence pack. Based on known drug classification, taliglucerase alfa is a recombinant human glucocerebrosidase, used exclusively as enzyme replacement therapy to correct the GBA enzyme deficiency underlying Gaucher disease.
+Currently, detailed mechanism of action data is not available in the source database. Based on known information, taliglucerase alfa is a recombinant glucocerebrosidase (beta-glucosidase) that hydrolyses glucosylceramide, and its efficacy in Gaucher disease is established.
 
-Hurler syndrome (MPS I) is caused by deficiency of a different lysosomal enzyme, alpha-L-iduronidase, acting on a different substrate (glycosaminoglycans rather than glucocerebroside). Although Gaucher disease and Hurler syndrome are both lysosomal storage diseases, they do not share a common enzyme target or metabolic pathway.
+Hurler syndrome (MPS I) is caused by a deficiency of alpha-L-iduronidase, which leads to accumulation of glycosaminoglycans (dermatan sulfate and heparan sulfate). Both Gaucher disease and Hurler syndrome are lysosomal storage disorders, so the high score most likely reflects shared lysosomal pathway annotations in the knowledge graph.
 
-The mechanistic rationale accompanying this prediction explicitly flags this as a weak link, more likely reflecting TxGNN's disease-similarity clustering (grouping diseases of the same broad category) than a genuine pharmacological mechanism transferable from glucocerebrosidase replacement to alpha-L-iduronidase deficiency. This should be treated as a hypothesis-generating signal only, not mechanistically validated.
+However, glucocerebrosidase does not break down the substrates that accumulate in MPS I, so there is no direct enzymatic rationale. Secondary glycolipid accumulation does occur in MPS, but this does not justify treatment with this enzyme. The link is a network-based prediction only.
+
+Other predictions from the same model show a similar pattern:
+
+| Predicted Indication | Score | Assessment |
+|------|------|------|
+| Scheie syndrome | 99.29% | Attenuated MPS I; same substrate mismatch as Hurler syndrome |
+| Benign neoplasm of adrenal gland | 99.28% | No plausible mechanistic link; likely a knowledge-graph artefact |
+| Autosomal ichthyosis syndrome with fatal disease course | 99.24% | Tenuous link through glucosylceramide metabolism in the skin barrier; IV enzyme does not reach the epidermis or cross the blood-brain barrier effectively |
+| Cholesteryl ester storage disease | 99.12% | Different enzyme deficiency (lysosomal acid lipase); a specific enzyme replacement is already the approved approach |
 
 ## Clinical Trial Evidence
 
@@ -65,24 +75,27 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Taliglucerase alfa is not currently marketed in New Zealand (0 product authorizations on file), so no product-level licensing information is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2541106 (cancelled) | Elelyso | Inj 200 unit vial | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found for this drug, and the data compiled for this report did not include warnings or contraindications from the New Zealand package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but there are zero supporting clinical trials, zero literature citations, and the drug's own mechanistic rationale describes the enzyme-target overlap with Hurler syndrome as biologically weak (glucocerebrosidase vs. alpha-L-iduronidase, distinct substrates). This is a pure model-prediction signal (L5) with no corroborating evidence.
+The prediction has no supporting clinical or literature evidence (L5), and the proposed mechanism does not hold up: glucocerebrosidase does not act on the glycosaminoglycans that accumulate in Hurler syndrome. The only New Zealand licence is cancelled, and safety data are missing.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert data (currently a blocking data gap — DG001)
-- Confirmed, sourced mechanism-of-action documentation for taliglucerase alfa (DG002)
-- Preclinical or mechanistic studies testing any cross-pathway effect on alpha-L-iduronidase activity or glycosaminoglycan accumulation
-- If pursued, safety and dosing data specific to an MPS I population, since none currently exists for this drug
+- Mechanism of action data from DrugBank
+- Package insert warnings and contraindications from Medsafe (currently a blocking gap for safety screening)
+- Preclinical evidence showing that glucocerebrosidase has any effect on MPS I substrates or outcomes
+- Consideration of established alternatives, since approved enzyme replacement therapies already exist for MPS I and for cholesteryl ester storage disease
+- Clarification of the New Zealand supply status given the cancelled licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Allopurinol
 parent: Moderate Evidence (L3-L4)
-nav_order: 23
+nav_order: 29
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,80 +29,78 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Allopurinol: From Gout / Hyperuricemia to Hepatic Porphyria
+# Allopurinol: From Gout to Hepatic Porphyria
 
 ## One-Sentence Summary
 
-Allopurinol is a well-established xanthine oxidase (XO) inhibitor, primarily used to treat gout and hyperuricemia by reducing uric acid synthesis.
-The TxGNN model predicts it may be effective for **Hepatic Porphyria**, with **0 clinical trials** and **2 publications** currently supporting this direction.
-The mechanistic rationale is biologically plausible but remains at the hypothesis stage, placing this candidate at evidence level L4.
-
----
+Allopurinol is a xanthine oxidase inhibitor originally used for gout, hyperuricaemia and acute urate nephropathy.
+The TxGNN model predicts it may be effective for **hepatic porphyria**, but there are **0 clinical trials** and only **2 publications** (one hypothesis paper and one old rat study), neither of which shows a clinical benefit.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gout / Hyperuricemia (not retrievable from NZ regulatory data; 0 registered licenses) |
-| Predicted New Indication | Hepatic Porphyria |
+|------|------|
+| Original Indication | Gout, hyperuricaemia, acute urate nephropathy (from the knowledge graph; no approved indication text in the New Zealand licence data) |
+| Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L4 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no valid licences) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, Allopurinol is a xanthine oxidase (XO) inhibitor that blocks the conversion of hypoxanthine → xanthine → uric acid, explaining its efficacy in gout and hyperuricemia. Beyond XO inhibition, allopurinol has also been reported to suppress the activity of δ-aminolevulinate synthase (ALAS) — the rate-limiting enzyme of hepatic heme biosynthesis.
+Currently, detailed mechanism of action data is not available. Based on known information, allopurinol is a xanthine oxidase inhibitor whose efficacy in gout and hyperuricaemia is established, and it may have some biological connection to heme metabolism relevant to porphyria.
 
-Hepatic porphyria (including acute intermittent porphyria and related disorders) is mechanistically defined by excessive ALAS overactivation, leading to toxic accumulation of precursors such as δ-aminolevulinic acid (ALA) and porphobilinogen (PBG). If allopurinol's ALAS-suppressive activity operates in hepatic tissue, it could in principle reduce this toxic precursor burden — providing a direct molecular link between the drug's secondary pharmacology and the disease's core pathophysiology.
+Older preclinical work suggests allopurinol can interact with heme metabolism, for example by degrading hepatic cytochrome P450 heme and affecting regulation of ALA synthase. A 2019 hypothesis paper discusses metabolic targeting of 5-aminolevulinate synthase in acute hepatic porphyrias, and a 1992 rat study examines drug effects on hepatic heme metabolism. Together these give a plausible but indirect link.
 
-PMID 31443750 (Badawy, 2019, *Medical Hypotheses*) directly proposes metabolic targeting of hepatic ALAS as a strategy for acute hepatic porphyrias, discussing heme feedback regulation and relevant enzymatic pathways. This hypothesis paper gives the TxGNN prediction a biologically coherent anchor. However, there is no clinical trial data and no controlled human evidence to date; this remains a preclinical/mechanistic-level candidate (L4).
-
----
+The direction of effect is unresolved. The same heme-related effects could worsen porphyria rather than help it. No human clinical data are available, so the prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | Hypothesis / Mechanistic Review | Medical Hypotheses | Proposes metabolic targeting of hepatic ALAS via TDO inhibition or tryptophan as therapy for acute hepatic porphyrias; discusses heme biosynthesis feedback loops and enzymatic pathways directly relevant to allopurinol's potential mechanism of action in porphyria |
-| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | Animal Study (Rat, in vivo) | Biochemical Pharmacology | Examines carbamazepine's acute effects on haem metabolism in rat liver via a porphyria exacerbation screening model; characterises drug interactions with heme/tryptophan pyrrolase pathway, providing mechanistic context for heme pathway drug effects |
-
----
+|------|-----|------|------|---------|
+| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | Review (hypothesis) | Medical Hypotheses | Proposes targeting liver 5-ALAS, via tryptophan or inhibition of heme use by tryptophan 2,3-dioxygenase, as a therapy for acute hepatic porphyrias; does not test allopurinol clinically |
+| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | Preclinical (animal) | Biochemical Pharmacology | Acute carbamazepine administration altered haem metabolism in rat liver, relevant to how drugs exacerbate hepatic porphyrias; not a study of allopurinol benefit |
 
 ## New Zealand Market Information
 
-Allopurinol currently has **no registered authorizations** in the New Zealand regulatory database. No licensed products, dosage forms, or approved indications are on record. This is notable given allopurinol's widespread global use — independent verification against Medsafe's online database is recommended before drawing regulatory conclusions.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2666863 | Ipca-Allopurinol (cancelled) | Tab 300 mg | Not available |
+| 2666855 | Ipca-Allopurinol (cancelled) | Tab 100 mg | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level contraindication signals (from the knowledge graph, not label text)**: liver disease, gallbladder disease, impaired renal function, hypersensitivity vasculitis, cutaneous leukocytoclastic angiitis, allergic cutaneous vasculitis, and anti-glomerular basement membrane disease. The liver disease signal is particularly relevant to a hepatic porphyria indication.
+- **Drug Interactions**: 100 interactions were found in the DDI screen. The main ones rated Moderate are:
+  - Aluminum hydroxide
+  - Attapulgite
+  - Kaolin
+  - Magaldrate
+  - Sucralfate
 
----
+  Minor interactions include amoxicillin and chlorpropamide. Many others (for example metformin, omeprazole, pantoprazole, glimepiride, morphine and doxycycline) have an unrated severity.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction carries a plausible molecular basis — allopurinol's reported ALAS-inhibitory effect aligns directly with the core pathophysiology of hepatic porphyria — but is supported only by a single hypothesis paper and an indirect animal study, with no clinical trial evidence whatsoever. The L4 evidence level does not support clinical development without dedicated preclinical validation.
+The prediction rests on a high model score plus indirect preclinical and hypothesis-level literature, with no clinical trials. The heme-related mechanism could plausibly be harmful in porphyria, and allopurinol has no current valid licence in New Zealand.
 
 **To proceed, the following is needed:**
-- Dedicated preclinical studies in established hepatic porphyria animal models (e.g., AIP mouse model) measuring the effect of allopurinol on urinary ALA/PBG excretion and ALAS activity
-- Confirmation and quantification of allopurinol's ALAS-inhibitory potency in hepatic tissue (separate from its XO-inhibitory primary mechanism)
-- Full mechanism of action documentation via DrugBank API query (currently a High-severity data gap)
-- Safety profile review via Medsafe/TFDA package insert — currently a Blocking data gap that prevents formal safety screening
-- Independent verification of NZ market status against the Medsafe database, given the discrepancy with global availability of this drug
+- Mechanism of action data, in particular clarifying the direction of effect on heme biosynthesis and ALA synthase
+- Targeted preclinical or case-level evidence showing benefit rather than exacerbation in porphyria
+- Package insert warnings and contraindications for safety screening
+- Clarification of the regulatory pathway, since both New Zealand licences are cancelled
+- A hepatic safety assessment, given the liver disease contraindication signal
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

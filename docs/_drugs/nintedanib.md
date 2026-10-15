@@ -2,7 +2,7 @@
 layout: default
 title: Nintedanib
 parent: Moderate Evidence (L3-L4)
-nav_order: 243
+nav_order: 322
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,17 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-Using the evidence pack (NINTEDANIB, DB09079), here is the repurposing evaluation report. Note upfront: `original_moa`, `original_indications`, and all `safety` fields are explicitly marked as data gaps in the pack, so I have not fabricated values for them — this is called out where relevant rather than guessed.
-
----
-
-# Nintedanib: From Angiokinase Inhibition to a New Role in Dermatofibrosarcoma Protuberans
-
-*(Original approved indication is not populated in this evidence pack — see Data Gaps below. Nintedanib is presented here by its known pharmacological class, a triple angiokinase inhibitor, pending confirmation of its labeled indication.)*
+# Nintedanib: From Idiopathic Pulmonary Fibrosis and Lung Cancer to Dermatofibrosarcoma Protuberans
 
 ## One-Sentence Summary
 
-> Nintedanib's original approved indication is not documented in the current evidence pack (data gap). The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**, based on its known activity as a VEGFR/FGFR/PDGFR-targeting tyrosine kinase inhibitor. This direction is currently supported by **0 clinical trials** and **1 review publication** — evidence is mechanistic/theoretical only, not yet clinically tested.
+Nintedanib was originally used to treat idiopathic pulmonary fibrosis and non-small cell lung cancer.
+The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**,
+but there are currently **no registered clinical trials** and only **1 publication** (a class-level review) supporting this direction.
 
 ---
 
@@ -47,23 +43,25 @@ Using the evidence pack (NINTEDANIB, DB09079), here is the repurposing evaluatio
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in evidence pack (data gap — DrugBank/TFDA license extraction pending) |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
+| Original Indication | Idiopathic pulmonary fibrosis, non-small cell lung cancer (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 99.15% |
 | Evidence Level | L4 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data (`original_moa`) is not available as a standalone field. However, the repurposing rationale in this evidence pack describes nintedanib as a **triple angiokinase inhibitor**, with activity against VEGFR, FGFR, and PDGFR. This is consistent with its known public profile as a multi-target tyrosine kinase inhibitor.
+Detailed mechanism of action data for nintedanib is not available in the data compiled for this report. Based on general pharmacological knowledge (not verified against the compiled data), nintedanib is a multi-target tyrosine kinase inhibitor acting on PDGFR alpha/beta, VEGFR 1-3 and FGFR 1-3.
 
-Dermatofibrosarcoma protuberans (DFSP) is a rare soft-tissue sarcoma with a well-characterized molecular driver: the **COL1A1-PDGFB gene fusion**, which causes constitutive activation of PDGFRβ signaling and drives tumor growth. This mechanism is already clinically validated — imatinib, a PDGFR-targeted tyrosine kinase inhibitor, is an approved treatment for DFSP. Since nintedanib's PDGFR-inhibitory activity overlaps directly with this validated disease mechanism, there is a plausible biological rationale for its potential efficacy in DFSP.
+DFSP is driven by the COL1A1-PDGFB fusion, which causes constitutive PDGFR-beta activation. Inhibiting PDGFR is therefore a biologically plausible approach. The one retrieved publication is a review of small-molecule PDGFR inhibitors in neoplastic disorders. It offers indirect, class-level support and contains no nintedanib-specific clinical data.
 
-That said, the supporting evidence in this pack is limited to a single review article discussing PDGFR inhibitors as a drug class in oncology — it does not report primary data on nintedanib specifically in DFSP, nor is there any clinical trial evidence. The mechanistic logic is sound, but the evidence strength remains indirect (class-level, not drug-specific).
+Imatinib is the established PDGFR-directed therapy for DFSP, so nintedanib would need to show a rationale beyond it, such as activity after imatinib resistance.
+
+Two other predictions, liposarcoma (score 99.13%) and ovarian myxoid liposarcoma (score 99.12%), have no trials or literature behind them. They are computational predictions only, and the second likely reflects proximity to the liposarcoma node in the knowledge graph. Both are at evidence level L5 with a recommendation of Hold.
 
 ---
 
@@ -77,19 +75,39 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews the role of small-molecule PDGFR inhibitors as a drug class in treating neoplastic disorders driven by PDGF signaling; discusses PDGFR inhibition as a therapeutic strategy relevant to PDGFR-fusion-driven tumors such as DFSP, but does not report nintedanib-specific trial or case data. |
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews the role of small-molecule PDGFR inhibitors in neoplastic disorders; indirect class-level support only, no nintedanib-specific data |
 
 ---
 
 ## New Zealand Market Information
 
-Nintedanib is currently **not marketed** in New Zealand under this evidence pack (`total_licenses: 0`), and no product authorizations are on file. No authorization table can be generated at this time.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2553708 | Ofev | Cap 150 mg | Not available (licence cancelled) |
+| 2553694 | Ofev | Cap 100 mg | Not available (licence cancelled) |
+
+---
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor), based on general pharmacological knowledge |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. *(All safety fields — key warnings, contraindications, and drug interactions — are unpopulated in this evidence pack; DDI query returned "not_found.")*
+- **Drug Interactions**: 100 interactions were identified in the DDI database. The entries listed in the data compiled for this report are mostly Moderate, and one is Major:
+  - **Major**: Dexamethasone
+  - **Moderate, bleeding-related (antiplatelet/anticoagulant/thrombolytic agents)**: acetylsalicylic acid, clopidogrel, cilostazol, dipyridamole, cangrelor, abciximab, apixaban, betrixaban, dalteparin, bivalirudin, desirudin, antithrombin III, alteplase, caplacizumab, defibrotide
+  - **Moderate, other**: clarithromycin, cobicistat, naltrexone, rolapitant
+
+For other safety information (warnings and contraindications), please refer to the package insert. It could not be retrieved for this report.
 
 ---
 
@@ -98,26 +116,13 @@ Please refer to the package insert for safety information. *(All safety fields �
 **Decision: Hold**
 
 **Rationale:**
-- Evidence level is L4 (mechanistic/class-level rationale only) with a single non-drug-specific review article and zero clinical trials for the lead candidate indication (DFSP). While the PDGFR-mechanism argument is biologically credible given the precedent of imatinib in DFSP, there is no direct evidence — preclinical or clinical — for nintedanib itself in this indication, and core safety/regulatory data for the drug are also missing.
+The prediction score is high, and PDGFR-beta activation in DFSP gives a plausible mechanism. However, there are no clinical trials and no nintedanib-specific publications, and imatinib is already the established targeted therapy. In addition, all New Zealand licences for nintedanib are cancelled.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and mechanism of action (DG002 — DrugBank API lookup)
-- TFDA/package-insert warnings, contraindications, and DDI data (DG001 — currently Blocking; required before any S1 safety pre-assessment)
-- Nintedanib-specific preclinical evidence (e.g., PDGFRβ-fusion cell line or xenograft models) supporting activity in DFSP
-- A drug-specific literature or case-report search (current single hit is a general PDGFR-inhibitor class review, not nintedanib-specific)
-
----
-
-### Note: Additional Lower-Priority Candidate Indications
-
-Two further indications were predicted by TxGNN but currently have **no clinical trial or literature evidence at all** and are scored L5 (model prediction only):
-
-| Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|---|---|---|---|
-| Liposarcoma | 99.13% | L5 | Hold |
-| Ovarian Myxoid Liposarcoma | 99.12% | L5 | Hold |
-
-Both are held pending any supporting mechanistic or clinical data; no action is recommended on these at this time.
+- Nintedanib-specific preclinical or clinical data in DFSP, especially in imatinib-resistant disease
+- Verified mechanism of action data from DrugBank
+- The Medsafe package insert (warnings and contraindications), which is required before safety screening
+- Clarification of the New Zealand supply and regulatory pathway, since there are no valid licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

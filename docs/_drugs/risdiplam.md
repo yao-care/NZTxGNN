@@ -2,7 +2,7 @@
 layout: default
 title: Risdiplam
 parent: Model Prediction Only (L5)
-nav_order: 307
+nav_order: 406
 evidence_level: L5
 indication_count: 1
 ---
@@ -33,28 +33,29 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Risdiplam is an SMN2 pre-mRNA splicing modulator originally developed for spinal muscular atrophy (SMA).
-The TxGNN model predicts it may be effective for **Acne**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and no plausible biological mechanism linking the two conditions has been identified.
+Risdiplam is an oral SMN2 splicing modifier, a drug class used for spinal muscular atrophy (SMA).
+The TxGNN model predicts it may be effective for **acne**, but **no clinical trials and no publications** currently support this direction.
+The prediction rests only on a knowledge-graph score.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Spinal muscular atrophy (SMA) *(from repurposing rationale narrative; not confirmed in structured regulatory data — original_indications field is empty)* |
-| Predicted New Indication | Acne (disease) |
+| Original Indication | Not stated in the New Zealand licence data (the drug's known use is spinal muscular atrophy) |
+| Predicted New Indication | Acne |
 | TxGNN Prediction Score | 99.45% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for risdiplam is not available in this evidence pack (marked as a data gap). Based on the repurposing rationale provided, risdiplam is known as an SMN2 pre-mRNA splicing modulator, used in SMA to increase retention of SMN2 exon 7 and thereby raise functional SMN protein expression.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, risdiplam is an SMN2 splicing modifier developed for spinal muscular atrophy, where it increases production of functional SMN protein.
 
-There is no established pathway connecting SMN2 splicing modulation to acne pathophysiology (e.g., sebaceous gland regulation, TLR2/4 inflammatory signaling, androgen metabolism, or *C. acnes* suppression). SMA and acne are unrelated in both target organ system and disease mechanism.
+No documented biological link connects SMN2 splicing modulation to the processes that drive acne: sebum production, follicular hyperkeratinization, *C. acnes* colonization and inflammation. The high TxGNN score may reflect knowledge-graph topology artifacts, such as shared neighbours through off-target splicing or retinoid-related pathways, rather than a true pharmacological relationship.
 
-This prediction currently rests solely on the TxGNN model's statistical score, with no supporting mechanistic, preclinical, or clinical evidence. It should be treated as a low-confidence hypothesis requiring biological validation before any further evaluation.
+The prediction should therefore be treated as a hypothesis only. Its mechanistic plausibility is currently low and unproven.
 
 ## Clinical Trial Evidence
 
@@ -66,26 +67,34 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Risdiplam is not currently marketed in New Zealand; no authorizations are on record (0 licenses).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2649403 | Evrysdi (cancelled) | Powder for oral solution, 750 mcg per mL, 60 mg per bottle | Not recorded |
+
+The only New Zealand authorization has been cancelled, so no valid product is currently marketed. The available formulation is oral only.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: Two moderate-level interactions were identified:
+  - Metformin
+  - Methylnaltrexone
+- **Other Safety Concerns**: Preclinical retinal toxicity and effects on epithelial tissue have been reported for risdiplam. These would need careful weighing against a non-life-threatening condition like acne.
 
-*(Note: TFDA package insert warnings/contraindications data is marked as a Blocking data gap — required before any Stage 1 safety assessment can proceed.)*
+Please refer to the package insert for warnings and contraindications, as this information is not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence level is L5 (model prediction only), with no clinical trials, literature, or identified mechanistic link supporting acne as an indication for risdiplam. Foundational drug data (original indication, MOA, TFDA safety labeling) also remain incomplete.
+The only support for this prediction is a high TxGNN score, with no clinical trials, no literature and no plausible mechanism (Evidence Level L5). The drug's New Zealand licence is cancelled, and its preclinical retinal and epithelial toxicity signals are difficult to justify for acne.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and mechanism of action (currently data gaps)
-- TFDA/regulatory package insert warnings and contraindications (Blocking gap, DG001)
-- Preclinical or mechanistic rationale connecting SMN2 splicing modulation to dermatological/acne pathways
-- At minimum, exploratory or observational clinical evidence before advancing past S0
+- Mechanism of action data and a plausible biological link between SMN2 splicing modulation and acne pathogenesis
+- Package insert warnings and contraindications (for example from the Medsafe website)
+- Preclinical or early clinical evidence of benefit in acne
+- A benefit-risk assessment addressing retinal and epithelial toxicity
+- Clarification of the regulatory status of the cancelled licence and of route compatibility (oral versus the topical or systemic routes typically used for acne)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Magnesium Hydroxide
-parent: High Evidence (L1-L2)
-nav_order: 211
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 280
+evidence_level: L3
 indication_count: 6
 ---
 
 # Magnesium Hydroxide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **6** 
+Evidence Level: **L3** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,29 +29,32 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 </div>
 
-# Magnesium Hydroxide: From Antacid/Laxative Use to Active Peptic Ulcer Disease
+# Magnesium Hydroxide: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary
 
-Magnesium hydroxide is a long-established inorganic antacid/laxative (e.g. "milk of magnesia") with no formal indication record in this evidence pack and no current New Zealand market authorization. The TxGNN model's top prediction is **Active Peptic Ulcer Disease**, essentially reaffirming its classical acid-neutralizing use, supported by **0 registered clinical trials** but **20 identified publications**, several of them controlled human trials from the 1980s–90s.
+Magnesium hydroxide is an antacid originally used for acid-related stomach and bowel conditions such as peptic ulcer disease, reflux, dyspepsia and constipation.
+The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this overlaps heavily with its existing use, and the data compiled for this report show **0 clinical trials** and **9 publications**, mostly older studies of combined aluminium/magnesium hydroxide products.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded in this evidence pack (no NZ/Medsafe license on file); classically used as an OTC antacid and laxative agent |
-| Predicted New Indication | Active Peptic Ulcer Disease |
+| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, constipation, dyspepsia (from the knowledge graph; no approved indication text is available for the New Zealand licence) |
+| Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L2 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L3 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 (0 currently valid) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Structured mechanism-of-action data (DrugBank MOA field) is not available for this candidate. However, the evidence pack's own mechanistic rationale is well characterized: magnesium hydroxide directly neutralizes gastric acid, raises intragastric pH, and reduces pepsin activity. Human and animal studies further show that antacids containing Mg(OH)₂ can induce endogenous prostaglandin and EGF/EGF-receptor expression, contributing an additional mucosal cytoprotective effect beyond simple acid buffering.
+Detailed mechanism of action data is not available. Based on known information, magnesium hydroxide is an antacid that neutralizes gastric acid. This is directly relevant to relieving ulcer pain and supporting ulcer healing.
 
-This is not really a *novel* repurposing signal — acid neutralization and ulcer-related mucosal protection are the textbook, decades-old rationale for antacid use in peptic ulcer disease. TxGNN's high score here largely reflects recovery of an already-established pharmacological relationship rather than an unexpected new indication. That said, it validates the model's mechanistic grounding and confirms the drug's continued relevance as adjunct/symptomatic therapy in an era dominated by PPIs and H2-receptor antagonists.
+Active peptic ulcer disease is essentially the same condition as one of the drug's original indications, so this is not a true repurposing candidate. The high TxGNN score most likely reflects this close overlap in the knowledge graph.
+
+Most of the supporting literature concerns combined aluminium/magnesium hydroxide products, not magnesium hydroxide alone. The one randomized trial in the set tests nizatidine, not magnesium hydroxide.
 
 ## Clinical Trial Evidence
 
@@ -61,39 +64,40 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7034155](https://pubmed.ncbi.nlm.nih.gov/7034155/) | 1981 | RCT | Scandinavian Journal of Gastroenterology | 12-week double-blind trial (n=72): antacid/anticholinergic vs cimetidine vs placebo in active duodenal/prepyloric ulcers; antacid regimen showed 50% healing at 3 weeks vs placebo |
-| [6086186](https://pubmed.ncbi.nlm.nih.gov/6086186/) | 1984 | RCT | Clinics in Gastroenterology | Review/trial data on antacids and anticholinergics in duodenal ulcer treatment |
-| [1526089](https://pubmed.ncbi.nlm.nih.gov/1526089/) | 1992 | RCT | Clinical Pharmacology and Therapeutics | Multicenter double-blind comparison in active benign gastric ulcer disease, using antacid-era comparator design |
-| [22950493](https://pubmed.ncbi.nlm.nih.gov/22950493/) | 2013 | Review | Current Pharmaceutical Design | Updated review of cellular/molecular mechanisms of antacid-mediated gastric cytoprotection and ulcer healing |
-| [2595273](https://pubmed.ncbi.nlm.nih.gov/2595273/) | 1989 | Animal study | Scandinavian Journal of Gastroenterology | Al(OH)₃/Mg(OH)₂ antacid gastroprotection in rats against ethanol/aspirin/stress ulcers, mediated by endogenous prostanoids |
-| [3018068](https://pubmed.ncbi.nlm.nih.gov/3018068/) | 1986 | Clinical study | Journal of Clinical Gastroenterology | Postprandial buffering comparison of sodium bicarbonate vs aluminum-magnesium hydroxide in duodenal ulcer patients |
-| [8260735](https://pubmed.ncbi.nlm.nih.gov/8260735/) | 1993 | Review | Journal of Physiology and Pharmacology | Clinical pharmacology review of magnesium/aluminium-containing antacids, including cytoprotective mechanisms |
-| [37146](https://pubmed.ncbi.nlm.nih.gov/37146/) | 1979 | Review | Fortschritte der Medizin | Overview of antacid therapy: acid-neutralizing capacity and dosing relative to meals in peptic ulcer disease |
-| [2686073](https://pubmed.ncbi.nlm.nih.gov/2686073/) | 1989 | Clinical study | Terapevticheskii Arkhiv | Effect of almagel (Al/Mg antacid) on gastric/duodenal acidity and protease activity in duodenal ulcer patients |
-| [9305482](https://pubmed.ncbi.nlm.nih.gov/9305482/) | 1997 | Clinical study | Alimentary Pharmacology & Therapeutics | H2-receptor antagonists and Al/Mg(OH)₃ antacids show an aggravating effect on H. pylori gastritis in duodenal ulcer patients |
+| [3018068](https://pubmed.ncbi.nlm.nih.gov/3018068/) | 1986 | Clinical physiology study | J Clin Gastroenterol | Compared sodium bicarbonate with aluminium-magnesium hydroxide (Maalox) for postprandial gastric acid buffering in duodenal ulcer patients |
+| [3903784](https://pubmed.ncbi.nlm.nih.gov/3903784/) | 1985 | Controlled clinical trial | Pharmatherapeutica | 30 outpatients with active gastric or duodenal ulcer; triletide plus aluminium/magnesium hydroxide compared with the antacids alone over 8 weeks |
+| [4059297](https://pubmed.ncbi.nlm.nih.gov/4059297/) | 1985 | Clinical trial | Pharmatherapeutica | 30 duodenal ulcer outpatients randomized to antacids, triletide or both for 8 weeks |
+| [1526089](https://pubmed.ncbi.nlm.nih.gov/1526089/) | 1992 | RCT (not a magnesium hydroxide study) | Clin Pharmacol Ther | Nizatidine versus placebo in benign gastric ulcer healing; indirect relevance only |
+| [9305482](https://pubmed.ncbi.nlm.nih.gov/9305482/) | 1997 | Cohort/clinical study | Aliment Pharmacol Ther | H2-receptor antagonists and antacids had an aggravating effect on H. pylori gastritis in duodenal ulcer patients |
+| [2228342](https://pubmed.ncbi.nlm.nih.gov/2228342/) | 1990 | Review | Int J Clin Pharmacol Res | Role of antacids in upper GI mucosal protection, including effects on prostanoid production in gastric ulcer patients |
+| [3660893](https://pubmed.ncbi.nlm.nih.gov/3660893/) | 1987 | Review | Z Gastroenterol | Aluminium-magnesium hydroxide mixtures healed gastric and duodenal ulcers better than placebo |
+| [2595273](https://pubmed.ncbi.nlm.nih.gov/2595273/) | 1989 | Animal study | Scand J Gastroenterol | An aluminium/magnesium hydroxide antacid protected rats from gastric lesions through a prostanoid-related effect |
+| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | In vitro/product evaluation | Med Pharm Rep | Acid-neutralizing capacity of antacids marketed in Morocco |
 
 ## New Zealand Market Information
 
-No active Medsafe authorizations on record — magnesium hydroxide is currently not marketed in New Zealand under this evidence pack, so no product/license table can be produced.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2599953 | Phillips Milk of Magnesia (cancelled) | Suspension 8% | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the knowledge graph, not label text)**: kidney disease and impaired renal function, nephrolithiasis, nephrocalcinosis, liver disease, gallbladder disease, hypercalcaemia, hyperparathyroidism, hypophosphataemia and other phosphorus metabolism disorders, diarrhoeal disease, appendicitis, intestinal impaction, haemorrhoids, sarcoidosis, and gastric cancer.
+- **Drug Interactions**: 100 interactions were recorded. Among the first 20 listed, the one classified as Major is **dolutegravir**. Moderate interactions include doxycycline, alendronic acid, amiodarone, hydrochlorothiazide, hydrocortisone, tramadol, abiraterone, acalabrutinib, acetazolamide, alfuzosin, amiloride, amisulpride, dextroamphetamine and salbutamol. Minor interactions include famotidine, ranitidine, ibuprofen, alprazolam and acebutolol.
+- **Literature-reported risks**: prolonged use of magnesium-containing antacids can impair phosphate absorption and cause bone demineralization. One case report describes osteomalacia and bilateral hip fracture after heavy magnesium hydroxide use as a laxative.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic link (acid neutralization + mucosal cytoprotection) is textbook-level and directly supported by multiple older human RCTs and mechanism studies, but no modern registered clinical trials exist and the drug has no current NZ market presence, so guardrails (safety/regulatory data) are needed before advancing.
+The predicted indication duplicates the drug's existing peptic ulcer use, so it is not a genuine repurposing opportunity. No clinical trials are registered, the literature is old and mostly about combination products, and the only New Zealand licence has been cancelled.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert warnings and contraindications (currently blocking — DG001)
-- Formal DrugBank mechanism-of-action confirmation (currently high-priority gap — DG002)
-- Drug interaction (DDI) data, as the DDI query returned no results
-- Confirmation of formal original indication text, since no license record currently exists
-
-*Note — other TxGNN-predicted indications for this drug in the same evidence pack:* gastric ulcer (disease) and gastroduodenitis also scored L2/Proceed with Guardrails; gastrojejunal ulcer scored L3/Research Question; stomach disease scored L3/Research Question; peptic ulcer perforation scored L5/Hold (mechanistically implausible — perforation is a surgical emergency, not treatable by antacid).
+- Package insert warnings and contraindications, which are currently missing and block safety screening
+- Detailed mechanism of action data
+- Modern controlled studies of magnesium hydroxide alone in active ulcer disease, if a distinct claim is to be pursued
+- A decision on whether re-registration in New Zealand is intended
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Atomoxetine
-parent: High Evidence (L1-L2)
-nav_order: 38
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 50
+evidence_level: L3
 indication_count: 10
 ---
 
 # Atomoxetine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,103 +29,92 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Atomoxetine: From ADHD to Specific Developmental Disorder
+# Atomoxetine: From Attention Deficit Hyperactivity Disorder to Specific Developmental Disorder
 
 ## One-Sentence Summary
 
-Atomoxetine is a selective norepinephrine reuptake inhibitor (NRI) originally approved globally for attention-deficit/hyperactivity disorder (ADHD), though it has not received marketing authorization in New Zealand.
-The TxGNN model predicts it may be effective for **Specific Developmental Disorder** (a spectrum encompassing ADHD, ASD with comorbid ADHD, and related neurodevelopmental conditions),
-with **8 clinical trials** and **15 publications** currently supporting this direction.
-
----
+Atomoxetine is a selective norepinephrine reuptake inhibitor, originally used to treat attention deficit hyperactivity disorder (ADHD).
+The TxGNN model predicts it may be effective for **specific developmental disorder**,
+but there are **no registered clinical trials** and only **15 publications** (mostly ADHD-centred) for this indication, so the evidence is indirect.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | ADHD (Attention-Deficit/Hyperactivity Disorder) — globally approved; not registered in New Zealand |
-| Predicted New Indication | Specific Developmental Disorder |
-| TxGNN Prediction Score | 99.999% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+|------|------|
+| Original Indication | Attention deficit hyperactivity disorder (the approved indication text on the New Zealand licences is not available; this is taken from the drug's knowledge-graph indication data) |
+| Predicted New Indication | Specific developmental disorder |
+| TxGNN Prediction Score | 99.998% |
+| Evidence Level | L3 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 7 (all cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data from DrugBank is not available in this Evidence Pack. Based on known pharmacology, atomoxetine is a **selective norepinephrine reuptake inhibitor (NRI)** that inhibits the norepinephrine transporter (NET) in the prefrontal cortex, raising synaptic norepinephrine (NE) concentrations. This directly improves attention, executive function, and impulse control — the core neurobiological deficits in ADHD and related neurodevelopmental disorders.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, atomoxetine is a selective norepinephrine reuptake inhibitor, a non-stimulant treatment for ADHD, and its efficacy in ADHD is established.
 
-"Specific developmental disorder" as a diagnostic category encompasses ADHD, autism spectrum disorder (ASD) with comorbid ADHD symptoms, and other disorders of attention and executive function. The mechanistic bridge is therefore direct: atomoxetine's NRI action targets the same noradrenergic circuits that are dysregulated across this entire spectrum, making the predicted indication essentially an extension of the drug's established therapeutic niche rather than a true cross-disease leap.
+ADHD frequently co-occurs with specific developmental disorders such as learning disabilities and developmental coordination disorder. Any benefit would plausibly come from improved attention and executive function, not from a direct effect on the learning disorder itself.
 
-The clinical evidence reinforces this reasoning. Multiple Phase 3 and Phase 4 randomized controlled trials have specifically enrolled children with ASD or pervasive developmental disorder alongside ADHD symptoms (NCT00498173, NCT00844753, NCT00380692), and a 396-patient multicenter Phase 4 RCT (NCT04085172) directly evaluated atomoxetine as an active comparator — providing the highest-quality head-to-head data. The TxGNN model's prediction thus aligns with a body of evidence that is already clinically well-recognized.
-
----
+The supporting literature (a network meta-analysis, an autism-ADHD meta-analysis, an EEG study in ADHD with learning disabilities) is largely ADHD-centred. The link to the predicted disease is therefore indirect.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT04085172](https://clinicaltrials.gov/study/NCT04085172) | Phase 4 | Completed | 396 | Multicenter double-blind RCT; atomoxetine used as active comparator vs. guanfacine ER in ADHD children/adolescents who failed prior stimulants; most rigorously designed trial in this set |
-| [NCT00844753](https://clinicaltrials.gov/study/NCT00844753) | Phase 4 | Completed | 128 | Double-blind placebo-controlled RCT evaluating atomoxetine with and without Parent Management Training in children with autism/Asperger's/PDD-NOS who have ADHD symptoms; 6-week dose titration |
-| [NCT00510276](https://clinicaltrials.gov/study/NCT00510276) | Phase 4 | Completed | 445 | Double-blind placebo-controlled RCT assessing atomoxetine efficacy and functional outcomes in young adults with ADHD; largest sample in this set |
-| [NCT00380692](https://clinicaltrials.gov/study/NCT00380692) | Phase 4 | Completed | 97 | Randomized double-blind comparison of atomoxetine vs. placebo for ADHD symptoms in children and adolescents with autism spectrum disorder |
-| [NCT00498173](https://clinicaltrials.gov/study/NCT00498173) | Phase 3 | Completed | 60 | Double-blind placebo-controlled trial evaluating atomoxetine for ADHD symptoms in autistic disorder, Asperger's syndrome, and PDD-NOS |
-| [NCT01470261](https://clinicaltrials.gov/study/NCT01470261) | N/A | Completed | 1398 | ADDUCE observational study; investigated long-term adverse effects of ADHD medications (including atomoxetine) on growth, neurological, psychiatric, and cardiovascular systems over 2 years |
-| [NCT00573859](https://clinicaltrials.gov/study/NCT00573859) | Phase 1/2 | Completed | 27 | Examined reinforcing mechanisms of smoking in adult ADHD; provides mechanistic context for NRI effects on reward and attention circuits |
-| [NCT05635318](https://clinicaltrials.gov/study/NCT05635318) | N/A | Unknown | 102 | Quantitative EEG neurofeedback as add-on therapy for ADHD; atomoxetine serves as a control arm; limited evidentiary weight due to unknown status |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [39701638](https://pubmed.ncbi.nlm.nih.gov/39701638/) | 2025 | Network Meta-analysis | The Lancet Psychiatry | Comparative efficacy and acceptability of pharmacological, psychological, and neurostimulatory interventions for ADHD in adults; highest-level synthesis of available evidence |
-| [30653855](https://pubmed.ncbi.nlm.nih.gov/30653855/) | 2019 | Meta-analysis | Autism Research | Systematic review and meta-analysis of atomoxetine for ADHD in children with autism spectrum disorder; 3 RCTs, n=241; assessed efficacy and safety using GRADE approach |
-| [27721971](https://pubmed.ncbi.nlm.nih.gov/27721971/) | 2016 | Systematic Review | Therapeutic Advances in Psychopharmacology | Review of atomoxetine efficacy in ADHD with common comorbidities including pervasive developmental disorders; covers children, adolescents, and adults |
-| [32946507](https://pubmed.ncbi.nlm.nih.gov/32946507/) | 2020 | Systematic Review | PLoS One | Systematic review of sex differences in atomoxetine prescription rates and efficacy in girls and women with ADHD; highlights underrepresented populations |
-| [25545605](https://pubmed.ncbi.nlm.nih.gov/25545605/) | 2015 | Review | Journal of Affective Disorders | Systematic review of comorbidity in pediatric bipolar disorder, including ADHD co-occurrence and treatment implications |
-| [33012168](https://pubmed.ncbi.nlm.nih.gov/33012168/) | 2021 | Review | Clinical EEG and Neuroscience | qEEG in childhood ADHD and learning disabilities; supports neurophysiological overlap between ADHD and specific developmental disorders |
-| [39514707](https://pubmed.ncbi.nlm.nih.gov/39514707/) | 2024 | Case-based Review | Journal of Developmental and Behavioral Pediatrics | Teletherapy and atomoxetine management of ADHD with co-occurring internalizing symptoms; illustrates real-world use in complex neurodevelopmental presentations |
-| [35485452](https://pubmed.ncbi.nlm.nih.gov/35485452/) | 2022 | Cohort Study | Neuropsychopharmacology Reports | Retrospective cohort identifying patient-specific factors associated with atomoxetine efficacy in adult ADHD; long-term response approximately 40% at 6 months |
-| [31425490](https://pubmed.ncbi.nlm.nih.gov/31425490/) | 2020 | Systematic Review | Therapeutic Drug Monitoring | Potential pharmacokinetic/pharmacodynamic interactions between synthetic cathinones and prescription drugs including atomoxetine; peripheral safety context |
-| [32022784](https://pubmed.ncbi.nlm.nih.gov/32022784/) | 2020 | Systematic Review | Therapeutic Drug Monitoring | Novel phenethylamine interactions with prescription drugs including atomoxetine in ADHD populations; relevant to polypharmacy risk assessment |
-
----
+|------|-----|------|------|---------|
+| [39701638](https://pubmed.ncbi.nlm.nih.gov/39701638/) | 2025 | Network meta-analysis | The Lancet Psychiatry | Compares efficacy and acceptability of drug, psychological and neurostimulation treatments for adult ADHD |
+| [30653855](https://pubmed.ncbi.nlm.nih.gov/30653855/) | 2019 | Systematic review/meta-analysis | Autism Research | Atomoxetine for ADHD symptoms in children with autism; three placebo-controlled RCTs, 241 children |
+| [27721971](https://pubmed.ncbi.nlm.nih.gov/27721971/) | 2016 | Review | Ther Adv Psychopharmacol | Efficacy of atomoxetine in ADHD with common comorbidities (oppositional, mood, anxiety, developmental, substance use) |
+| [35485452](https://pubmed.ncbi.nlm.nih.gov/35485452/) | 2022 | Retrospective cohort | Neuropsychopharmacol Rep | Factors associated with atomoxetine efficacy in adult ADHD; long-term efficacy about 40% at 6 months |
+| [33012168](https://pubmed.ncbi.nlm.nih.gov/33012168/) | 2021 | Observational (EEG) | Clin EEG Neurosci | Quantitative EEG in childhood ADHD and learning disabilities |
+| [39514707](https://pubmed.ncbi.nlm.nih.gov/39514707/) | 2024 | Case report | J Dev Behav Pediatr | Atomoxetine and teletherapy in a child with ADHD, anxiety and suicidality |
+| [42675180](https://pubmed.ncbi.nlm.nih.gov/42675180/) | 2026 | Cohort/neuroimaging | Nat Biomed Eng | Structural connectivity deviations in youths with ADHD predict symptom and treatment outcomes |
+| [25545605](https://pubmed.ncbi.nlm.nih.gov/25545605/) | 2015 | Review | J Affect Disord | Comorbidity in paediatric bipolar disorder: prevalence, impact and treatment |
 
 ## New Zealand Market Information
 
-Atomoxetine currently holds **no marketing authorizations** in New Zealand. The drug is not registered with Medsafe and is not commercially available on the New Zealand market.
+All seven licences below are cancelled; none is currently valid. The approved indication text is not available for these licences.
 
-> For reference: Atomoxetine (brand name Strattera) is approved for ADHD in over 97 countries, including the United States (FDA, 2002), the European Union, Australia, and Japan. Any use in New Zealand would require special access arrangements (e.g., Section 29 of the Medicines Act 1981 or Medsafe provisional consent).
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2637081 | APO-Atomoxetine | Cap 40 mg | Cancelled |
+| 2637065 | APO-Atomoxetine | Cap 18 mg | Cancelled |
+| 2637073 | APO-Atomoxetine | Cap 25 mg | Cancelled |
+| 2638525 | APO-Atomoxetine | Cap 60 mg | Cancelled |
+| 2638517 | APO-Atomoxetine | Cap 10 mg | Cancelled |
 
----
+Two further cancelled licences (Cap 100 mg: 2638541; Cap 80 mg: 2638533) are not shown.
 
 ## Safety Considerations
 
-Detailed warning and contraindication data specific to the New Zealand regulatory context is not available in this Evidence Pack.
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for safety information.
 
-> Please refer to the approved package insert (e.g., Strattera global prescribing information) for comprehensive safety information, including the FDA black-box warning regarding suicidal ideation in children and adolescents, hepatotoxicity risk, cardiovascular precautions (blood pressure and heart rate monitoring), and MAO inhibitor contraindication.
-
----
+- **Disease conditions flagged as contraindications in the knowledge graph** (these come from drug-disease relationship data, not from label text): hypertension, orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy, coronary artery disease, myocardial infarction, stroke and other cerebrovascular disorders, heart conduction disease, sudden cardiac arrest, epilepsy, bipolar disorder and other major affective disorders, psychotic and schizoaffective disorders, liver disease, gallbladder disease, hyperbilirubinemia (including Gilbert syndrome), hemoglobinopathy, and angle-closure glaucoma.
+- **Drug interactions**: 100 interactions were identified; the 20 shown in the data include two rated **Major**: **cisapride** and **dolasetron**. Others rated Moderate include bupropion, cimetidine, famotidine, clarithromycin, epinephrine, ephedrine, fenfluramine, dexfenfluramine, eliglustat, granisetron and loperamide, as well as several laxatives (bisacodyl, castor oil, glycerin, lactitol, lactulose).
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Atomoxetine's established mechanism of action directly targets the core neurobiological pathology of specific developmental disorders, and the L1 evidence base — including multiple completed Phase 3/4 RCTs in autism-spectrum and neurodevelopmental populations — provides sufficient clinical grounding to move forward; however, the absence of New Zealand regulatory approval and missing local safety documentation require structured risk management before any clinical deployment.
+The TxGNN score is very high, but the supporting evidence is indirect: no clinical trials target specific developmental disorder, and the literature is almost entirely about ADHD. Atomoxetine also has no valid New Zealand licence at present. This is a research question and not an actionable repurposing candidate.
 
 **To proceed, the following is needed:**
+- Trials or studies that test atomoxetine directly in specific developmental disorders (such as learning disabilities), separate from ADHD symptom control
+- Mechanism of action data from DrugBank
+- The Medsafe package insert, to complete the warnings and contraindications review
+- Clarification of the New Zealand regulatory position (all licences are cancelled) and the approved indication text
+- A review of the cardiovascular, psychiatric and hepatic contraindication flags against the target population
 
-- **Regulatory pathway**: Determine feasibility of Medsafe registration or Section 29 access; review requirements for submission of an application covering the neurodevelopmental indication
-- **Safety documentation**: Obtain and translate TFDA/FDA/EMA package insert warnings, contraindications, and black-box content (suicidality in paediatric patients) into local clinical protocols
-- **MOA data confirmation**: Retrieve complete DrugBank pharmacology entry (DB00289) to formally document NRI mechanism for regulatory dossier
-- **Drug interaction assessment**: Conduct a structured DDI review given that the DDI database returned no results (query_status: not_found) — atomoxetine is a CYP2D6 substrate with known interactions with MAO inhibitors, strong CYP2D6 inhibitors (fluoxetine, paroxetine), and cardiovascular agents
-- **Paediatric monitoring plan**: Define mandatory cardiovascular monitoring (BP, HR), hepatic function surveillance, and suicidality screening protocols aligned with international labelling requirements
-- **Indication scoping**: Clarify whether the target population is ADHD alone, ASD+ADHD comorbidity, or the broader specific developmental disorder category — as each carries different regulatory and clinical trial precedent
+**Other predicted indications for reference:**
+- **Tourette syndrome** (evidence level L2) is the strongest alternative. A Phase 2 pilot (NCT04354103) was terminated with only 5 participants, and an RCT in ADHD with comorbid Tourette syndrome suggests tics are not worsened. The benefit shown is ADHD control, not tic suppression, so this would merit "Proceed with Guardrails" at best.
+- **Transient tic disorder** (L3) rests on evidence extrapolated from Tourette syndrome.
+- **Trichotillomania** and **manic bipolar affective disorder** (both L4) show conflicting or harm-leaning signals, so Hold.
+- **Restless legs syndrome** (L4) rests on a single case report and has a plausible risk of worsening restlessness or sleep, so Hold.
+- **Faciodigitogenital syndrome, chondromyxoid fibroma, cerebellar ataxia** and **autosomal dominant cerebellar ataxia** (all L5) are computational predictions only, with no trials or literature, so Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

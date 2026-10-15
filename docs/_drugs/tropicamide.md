@@ -2,7 +2,7 @@
 layout: default
 title: Tropicamide
 parent: Model Prediction Only (L5)
-nav_order: 354
+nav_order: 469
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,31 +29,39 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Tropicamide: From Ophthalmic Mydriasis to Cauda Equina Syndrome
+# Tropicamide: From Cycloplegia to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Tropicamide is a non-selective muscarinic acetylcholine receptor (M-receptor) antagonist historically used only as a topical ophthalmic agent for pupil dilation and cycloplegia. The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but currently **no clinical trials** and **no publications** support this direction — the prediction rests entirely on graph-topology similarity to other anticholinergic drugs.
+Tropicamide is a short-acting antimuscarinic eye drop, originally used to produce cycloplegia and pupil dilation for eye examinations.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are currently **no clinical trials and no publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Topical ophthalmic mydriasis / cycloplegia (no formal indication text on file; systemic use not established) |
-| Predicted New Indication | Cauda Equina Syndrome |
+| Original Indication | Cycloplegia (the New Zealand licence records contain no approved indication text) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.53% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| New Zealand Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data from DrugBank is flagged as a blocking data gap in this evidence pack (DG002). Based on information embedded in the model's own rationale, tropicamide is a non-selective M-receptor antagonist with pharmacology documented only for topical ophthalmic use (mydriasis/cycloplegia); no systemic pharmacokinetic data exists.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the known pharmacology of the drug and the receptor data compiled, tropicamide is a muscarinic antagonist that acts on the M2, M3, M4 and M5 receptors. Its established use is as a short-acting mydriatic to allow better examination of the lens, vitreous humor and retina.
 
-Cauda equina syndrome is a neurosurgical emergency driven by mechanical compression of lumbosacral nerve roots, producing lower motor neuron damage and loss of bladder, bowel, and perineal function — its definitive treatment is surgical decompression, not pharmacotherapy. An anticholinergic mechanism has no direct correspondence to this pathology, and could plausibly worsen neurogenic urinary retention rather than help it. The TxGNN score of 0.995 most likely reflects the graph's topological proximity between tropicamide and other anticholinergic drugs linked to urinary/neurologic symptom nodes, not any causal or clinical evidence — this is explicitly flagged in the model's own rationale as a mechanism-direction concern.
+Cauda equina syndrome causes neurogenic bladder and bowel dysfunction, so antimuscarinic action could in principle reduce detrusor overactivity. However, this link is weak:
+- Tropicamide is formulated only as an ophthalmic product with minimal systemic exposure.
+- Cauda equina syndrome is caused by nerve root compression and requires surgical decompression, not drug therapy alone.
+- The high score most likely reflects a shared antimuscarinic class association with bladder drugs rather than a validated therapeutic link.
 
-Two lower-ranked predictions for this drug (neurogenic bladder, irritable bowel syndrome) follow a more conventional class-effect logic — other anticholinergics (oxybutynin, dicyclomine) are established in those indications — but tropicamide itself has never been studied systemically for any of the three predicted indications.
+Other predictions with the same weakness were also generated for this drug:
+- **Neurogenic bladder (obsolete ontology term)**, score 99.13%: antimuscarinics such as oxybutynin and tolterodine are established for this use, but approved alternatives already exist and the obsolete term weakens the mapping.
+- **Irritable bowel syndrome**, score 99.12%: antispasmodics such as hyoscine and dicyclomine are used for it, but tropicamide has no oral or systemic formulation.
+
+All three predictions are L5 (model prediction only).
 
 ## Clinical Trial Evidence
 
@@ -65,24 +73,37 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Tropicamide is not currently marketed in New Zealand under this evidence pack's regulatory data — 0 product authorizations are on file.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 254002 | Mydriacyl (cancelled) | Eye drops 1% | Not recorded |
+| 253995 | Mydriacyl (cancelled) | Eye drops 0.5% | Not recorded |
+
+Both authorizations are cancelled, so there is currently no valid marketed tropicamide product in New Zealand according to the data compiled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph (not label text)**: the following conditions are linked to tropicamide as contraindications:
+  - Eye: open-angle glaucoma, angle-closure (closed-angle) glaucoma, ocular hypertension
+  - Cardiovascular: hypertension and hypertensive disorder, myocardial ischemia, coronary artery disease, sudden cardiac arrest, heart conduction disease
+  - Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, hyperthyroidism, Graves disease, thyrotoxicosis
+- **Drug interactions**: 10 interacting drugs were identified, but their severity levels are unclassified. These are atropine, potassium chloride, vancomycin, simvastatin, prednisolone, famotidine, warfarin, lidocaine, fluconazole and brimonidine. Atropine is another antimuscarinic, so additive anticholinergic effects are plausible.
+- **Receptor targets**: M2, M3, M4 and M5 muscarinic receptors.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All three TxGNN-predicted indications for tropicamide sit at Evidence Level L5 with zero clinical trials or literature, and the top-ranked prediction (cauda equina syndrome) has a mechanistic-direction concern (potential worsening of urinary retention) rather than a clear supporting rationale. A blocking data gap (DG001: TFDA/regulatory package insert warnings and contraindications) also prevents this candidate from entering the S1 safety review stage.
+The prediction rests on model scores and class-level plausibility only, with no trials or publications. Tropicamide is an ophthalmic-only agent with minimal systemic exposure, has no valid New Zealand licence, and cauda equina syndrome requires surgical rather than pharmacological treatment.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert data (warnings, contraindications) to resolve blocking gap DG001
-- Confirmed mechanism-of-action data from DrugBank to resolve gap DG002
-- Preclinical or mechanistic studies specifically evaluating systemic anticholinergic effects relevant to cauda equina syndrome, neurogenic bladder, or IBS
-- Systemic pharmacokinetic/dosing data, since tropicamide has no established non-ophthalmic route of administration
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- Evidence that a systemically relevant formulation and route could deliver adequate exposure for neurogenic bladder or bowel symptoms
+- Preclinical or clinical data supporting any non-ophthalmic use
+- Comparison against approved antimuscarinic alternatives for neurogenic bladder and irritable bowel syndrome, which are more plausible targets than cauda equina syndrome
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

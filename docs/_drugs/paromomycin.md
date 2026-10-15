@@ -2,7 +2,7 @@
 layout: default
 title: Paromomycin
 parent: Model Prediction Only (L5)
-nav_order: 266
+nav_order: 350
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,86 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Paromomycin: From Intestinal Amebiasis to Peritonitis (Amebic Complication)
+# Paromomycin: From Hepatic Encephalopathy to Hepatoportal Sclerosis
 
 ## One-Sentence Summary
 
-Paromomycin is a non-absorbable aminoglycoside historically used against intestinal amebiasis and (via other routes) leishmaniasis; formal original-indication data is missing from this evidence pack. Among 8 TxGNN-predicted indications for this drug, only one — **Peritonitis** — is backed by actual literature, while the other 7 (all scoring higher, e.g. hepatoportal sclerosis, portal hypertension, cirrhosis subtypes) have **zero clinical or literature evidence** and are flagged by the pack itself as likely embedding-cluster artifacts rather than real signals. The peritonitis link is narrow and indirect: it traces back to amebic colitis perforating into amebic peritonitis, not general bacterial peritonitis, supported by **0 clinical trials** and **20 PubMed records** (most only tangentially related).
-
----
+Paromomycin is a poorly absorbed aminoglycoside antibiotic, originally used for hepatic coma and hepatic encephalopathy.
+The TxGNN model predicts it may be effective for **hepatoportal sclerosis**, but **no clinical trials** and **no publications** currently support this specific prediction. It is a graph-based prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — drug is not marketed in Taiwan/NZ (no license records); per pack context, paromomycin is known as an anti-amebic/anti-leishmanial aminoglycoside |
-| Predicted New Indication | Peritonitis (specifically, as a complication of amebic colitis/liver abscess — not general bacterial peritonitis) |
-| TxGNN Prediction Score | 99.03% (rank 7348) |
-| Evidence Level | L4 (mechanism/indirect infectious-disease link; no clinical trials) |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Original Indication | Hepatic coma / hepatic encephalopathy (from the knowledge graph; no approved indication text is available from the New Zealand licence record) |
+| Predicted New Indication | Hepatoportal sclerosis |
+| TxGNN Prediction Score | 99.90% |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid authorization) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
-**Note on ranking:** The pack's #1–#7 ranked predictions (hepatoportal sclerosis, early-onset familial noncirrhotic portal hypertension, hepatopulmonary syndrome, idiopathic copper-associated cirrhosis, primitive portal vein thrombosis, hepatic porphyria, acute urate nephropathy) all score higher (99.79–99.90%) but have **no supporting trials or literature at all**, and the pack's own mechanistic-link notes describe them as probable "liver-disease node clustering" artifacts in the knowledge graph rather than genuine pharmacological signals. Peritonitis (rank 8) is the only candidate reaching decision stage S1 with actual evidence, so it is the focus of this report.
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for paromomycin is not available in this evidence pack (`[Data Gap]`, DG002, High severity). Based on the pack's contextual notes, paromomycin is a non-absorbable aminoglycoside antibiotic that acts primarily within the gut lumen, historically used against intestinal amebiasis (*Entamoeba histolytica*) and, via parenteral/topical routes, against visceral and cutaneous leishmaniasis.
+Currently, detailed mechanism of action data is not available. Based on known information, paromomycin is an oral aminoglycoside that is barely absorbed from the gut. It is used to reduce intestinal bacteria and the ammonia they produce, which is the basis for its use in hepatic encephalopathy.
 
-The connection to peritonitis is indirect and infection-specific rather than a broad anti-inflammatory or antibacterial mechanism: amebic colitis can occasionally progress to bowel perforation and amebic peritonitis, a recognized complication of untreated or severe intestinal amebiasis. One case report in the evidence set (PMID 19242252) explicitly documents peritoneal, pleural, and pericardial extension of amebic liver abscess, and another (PMID 34840954) describes paromomycin used successfully alongside metronidazole for fulminant amoebic colitis. This supports a plausible but narrow role — treating the underlying amebic infection to prevent or manage amebic peritonitis — not a general therapeutic effect against peritonitis of other etiologies (bacterial, post-surgical, dialysis-related, etc.).
+Hepatoportal sclerosis is a form of non-cirrhotic portal hypertension. A link to paromomycin is speculative and could only run through the gut-liver axis (for example, gut-derived bacteria or endotoxin affecting the liver). No data compiled for this report supports that idea.
 
-Most of the remaining literature attached to this prediction (in vitro Leishmania drug-interaction and resistance studies, formulation/nanoparticle papers) reflects paromomycin's established antiparasitic pharmacology rather than direct evidence for peritonitis, and one record (PMID 15619205, ovarian carcinoma E-cadherin expression) appears unrelated and is likely a co-occurrence artifact from the literature search.
-
----
+The same score (99.90%) was given to several unrelated liver and portal conditions, such as familial non-cirrhotic portal hypertension, hepatopulmonary syndrome, copper-associated cirrhosis and primitive portal vein thrombosis. This suggests the score reflects a shared position in the knowledge graph rather than a signal specific to hepatoportal sclerosis. It should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [19242252](https://pubmed.ncbi.nlm.nih.gov/19242252/) | 2009 | Case Report | Current Opinion in Pediatrics | Amebic liver abscess with peritoneal, pleural, and pericardial extension; underscores under-recognized complications |
-| [34840954](https://pubmed.ncbi.nlm.nih.gov/34840954/) | 2021 | Case Report | IDCases | Metronidazole + paromomycin successfully treated fulminant amoebic colitis (with intussusception) during cytotoxic chemotherapy |
-| [11096579](https://pubmed.ncbi.nlm.nih.gov/11096579/) | 1999 | Review | Current Treatment Options in Gastroenterology | Amebiasis management guidance; metronidazole first-line, invasive treatment only if medical therapy fails |
-| [23833177](https://pubmed.ncbi.nlm.nih.gov/23833177/) | 2013 | Review | J Antimicrob Chemother | Immunomodulatory effects of antileishmanial drugs including paromomycin (mechanistic background, not peritonitis-specific) |
-| [4293095](https://pubmed.ncbi.nlm.nih.gov/4293095/) | 1967 | Review (toxicity) | JAMA | Nephrotoxicity of antibiotics — safety-relevant background, not efficacy evidence |
+Currently no related literature available for hepatoportal sclerosis.
 
-**Note:** The evidence.literature array for this indication contains 20 records total; the remaining 15 are predominantly in vitro *Leishmania* susceptibility/resistance and drug-formulation studies with no direct relevance to peritonitis, plus one apparently unrelated oncology paper (PMID 15619205). These are excluded from the table above as non-relevant.
-
----
+For context, the second-ranked-by-literature prediction, peritonitis (score 99.03%), has 16 associated publications, but they are not about peritonitis treatment. The ten provided are mainly reviews, in vitro studies and formulation work on *Leishmania* and amoebiasis, plus one case report of amoebic colitis treated with metronidazole and paromomycin. They are indirect evidence at best.
 
 ## New Zealand Market Information
 
-No authorization records — Paromomycin is not currently marketed in New Zealand (`market_status`: Not marketed, 0 licenses).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2434652 (cancelled) | Humatin | Cap 250 mg | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph (not label text)**: kidney disease, pyoureter, hearing loss disorder, and X-linked mixed deafness with perilymphatic gusher. These are consistent with the known nephrotoxicity and ototoxicity concerns of aminoglycosides.
+- **Drug Interactions**: 36 interactions were found in total. Major interactions include:
+  - Neuromuscular blockers: cisatracurium, atracurium, doxacurium, metocurine, mivacurium
+  - Live cholera vaccine (*Vibrio cholerae* CVD 103-HgR strain)
+- Moderate interactions include proton pump inhibitors (rabeprazole, omeprazole, esomeprazole, lansoprazole, dexlansoprazole), estrogens (ethinylestradiol, estradiol, mestranol), methotrexate, mycophenolate mofetil, picosulfuric acid, enflurane and indium In-111 oxyquinoline. Digoxin is a minor interaction.
 
-*(Note: `key_warnings`, `contraindications`, and DDI data are all marked as data gaps in this pack. DG001 — TFDA/package-insert warnings and contraindications — is flagged as a Blocking gap, meaning a formal safety (S1) evaluation cannot be completed until this is resolved.)*
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for peritonitis is indirect (limited to amebic colitis/liver abscess progressing to amebic peritonitis) and consists only of case reports and reviews — no clinical trials or systematic studies test paromomycin against peritonitis directly. The other 7 higher-scoring TxGNN predictions for this drug have no evidence at all and are likely knowledge-graph artifacts, reinforcing that this candidate needs targeted validation rather than immediate advancement.
+The prediction rests on model score alone (Evidence Level L5). There are no clinical trials or relevant publications, and the proposed mechanism is speculative. The only New Zealand authorization has been cancelled, and label safety information is unavailable.
 
 **To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently a Blocking data gap
-- DrugBank-sourced mechanism of action detail
-- A literature search specifically scoped to "paromomycin AND amebic/parasitic peritonitis" to separate genuinely relevant records from the broader antileishmanial literature currently attached
-- Clarification of the intended peritonitis subtype (amebic vs. bacterial vs. dialysis-associated) before any further evidence grading, since the current mechanistic link supports only the amebic subtype
+- Mechanism of action data (for example, from DrugBank)
+- Package insert warnings and contraindications from Medsafe
+- Preclinical or clinical evidence linking gut decontamination to hepatoportal sclerosis or non-cirrhotic portal hypertension
+- Assessment of route and formulation, since no valid New Zealand product is currently available
+- A renal and hearing safety assessment given the knowledge-graph contraindication signals
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

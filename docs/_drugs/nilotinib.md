@@ -2,7 +2,7 @@
 layout: default
 title: Nilotinib
 parent: Moderate Evidence (L3-L4)
-nav_order: 242
+nav_order: 321
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,93 +29,91 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Nilotinib: From Chronic Myeloid Leukemia to Dermatofibrosarcoma Protuberans
+# Nilotinib: From BCR-ABL1-Positive Chronic Myelogenous Leukaemia to Dermatofibrosarcoma Protuberans
 
 ## One-Sentence Summary
 
-Nilotinib is a second-generation BCR-ABL/PDGFR/KIT tyrosine kinase inhibitor, publicly known for its approved use in Philadelphia-chromosome-positive chronic myeloid leukemia (CML); however, the Evidence Pack itself does not yet contain a confirmed original indication or formal DrugBank MOA record (flagged as Data Gap DG002). The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans**, a PDGFB-driven soft-tissue tumor, but this direction is currently supported only by **1 mechanistic review article** and **no registered clinical trials**.
-
----
+Nilotinib is a tyrosine kinase inhibitor originally used to treat BCR-ABL1-positive chronic myelogenous leukaemia.
+The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**,
+but at present there are **no registered clinical trials** and only **1 review article** supporting this direction, so the evidence is at the model-prediction and mechanism level.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not confirmed in Evidence Pack (DrugBank/TFDA record pending — see DG002); publicly documented use is chronic myeloid leukemia |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
+| Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive (from the knowledge graph; no approved indication text is available in the New Zealand licence records) |
+| Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L4 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data for this specific record is not available in the Evidence Pack (DG002, High severity). Based on publicly known pharmacology, nilotinib belongs to the class of small-molecule tyrosine kinase inhibitors that block BCR-ABL, PDGFR (α/β), and KIT signaling, and its efficacy in Philadelphia-chromosome-positive leukemias is well established.
+Detailed mechanism of action data for nilotinib is not available in the data compiled for this report. The following reasoning is therefore based on the known pharmacology of the drug rather than on supplied data. Nilotinib inhibits BCR-ABL1, which drives chronic myelogenous leukaemia, and it also inhibits PDGFR-alpha/beta and KIT.
 
-Dermatofibrosarcoma protuberans (DFSP) is a rare, locally aggressive soft-tissue sarcoma driven in the vast majority of cases by a COL1A1-PDGFB gene fusion, which produces constitutively activated PDGFB signaling through the PDGFR receptor. This is the same receptor family targeted by nilotinib. Imatinib, a related first-generation PDGFR/BCR-ABL/KIT inhibitor, is already an approved standard-of-care therapy for unresectable or metastatic DFSP, which lends strong biological plausibility to the idea that other PDGFR-inhibiting TKIs in the same pharmacological class — including nilotinib — could show activity against the same tumor driver.
+DFSP is characterised by a COL1A1-PDGFB translocation. This produces a constitutively active PDGFB ligand that drives PDGFR-beta signalling. Blocking PDGFR signalling is therefore a biologically plausible way to act against this tumour. Imatinib, a related tyrosine kinase inhibitor with the same target activity, is the established targeted therapy for unresectable or metastatic DFSP. This supports the plausibility of nilotinib as a related PDGFR-inhibiting agent, and it is consistent with the high TxGNN score.
 
-The single literature record retrieved for this prediction (Roskoski, 2018) is a pharmacology review of small-molecule PDGFR inhibitors across neoplastic disorders, which supports the mechanistic rationale but does not constitute direct clinical evidence for nilotinib in DFSP specifically. The prediction should therefore be regarded as mechanistically plausible but clinically unproven at this stage.
-
----
+This remains an inference. No trial or clinical data on nilotinib in DFSP were supplied.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews small-molecule PDGFR inhibitors across neoplastic disorders; establishes the mechanistic basis for targeting PDGFR-driven tumors (e.g., DFSP) with this drug class, which includes nilotinib. |
-
----
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Review of small-molecule PDGFR inhibitors in neoplastic disorders, covering the role of PDGF/PDGFR signalling as a therapeutic target |
 
 ## New Zealand Market Information
 
-Nilotinib is currently not marketed in New Zealand, and no product authorizations are on file (0 licenses recorded).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2439360 | Tasigna (cancelled) | Cap 200 mg | Not recorded |
+| 2468115 | Tasigna (cancelled) | Cap 150 mg | Not recorded |
 
 ## Cytotoxicity
 
-Nilotinib is an antineoplastic tyrosine kinase inhibitor (BCR-ABL/PDGFR/KIT class), so this section is included.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (BCR-ABL/PDGFR/KIT tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Low to Moderate — class-associated thrombocytopenia, neutropenia, and anemia are known with BCR-ABL TKIs; drug-specific hematologic toxicity data not yet available in this Evidence Pack |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential, liver function tests, electrolytes, and ECG/QTc (BCR-ABL TKIs of this class carry a known QT-prolongation signal) |
-| Handling Protection | Oral antineoplastic agent — handle per institutional hazardous-drug precautions pending confirmation from the official package insert |
-
-*Note: The above reflects general knowledge of the drug's pharmacological class. Formal TFDA/DrugBank-sourced toxicity data has not yet been retrieved (see DG001, DG002) and should be confirmed before clinical use.*
-
----
+| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor) |
+| Myelosuppression Risk | Medium. The knowledge graph lists neutropenia, thrombocytopenia, anaemia and agranulocytosis among its contraindication-related conditions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | CBC with differential, liver function, electrolytes (including potassium), blood glucose, ECG for QT interval |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note that TFDA package insert warnings/contraindications are currently marked as a **Blocking** data gap (DG001) in this Evidence Pack — this must be resolved before the candidate can proceed to a formal S1 safety review.
+- **Conditions flagged in the knowledge graph (not label text):**
+  - Cardiovascular: long QT syndrome (including familial), torsades de pointes, hypertension
+  - Hepatic and biliary: liver disease, gallbladder disease, hyperbilirubinaemia (including Gilbert syndrome), pancreatitis
+  - Haematological: thrombocytopenia, neutropenia, agranulocytosis, anaemia
+  - Metabolic and electrolyte: hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, hypophosphataemia
+- **Drug Interactions:** 100 interactions were identified. Examples of the **Major** level include:
+  - Dexamethasone
+  - Clarithromycin
+  - Picosulfuric acid
+  - Polyethylene glycol (3350 with electrolytes)
 
----
+  **Moderate** examples include acid-suppressing drugs (famotidine, ranitidine, rabeprazole, omeprazole, cimetidine), corticosteroids (hydrocortisone, triamcinolone, betamethasone, budesonide), pioglitazone, loperamide, bupropion, aprepitant, bisacodyl and saxagliptin.
+
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for authoritative safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible (shared PDGFR-pathway rationale with the approved analog imatinib) but is currently supported only by a general pharmacology review, with zero registered clinical trials and no New Zealand marketing status. Critically, the Blocking-severity safety data gap (DG001) means a formal S1 safety review cannot yet be completed.
+The only support is a high model score, a plausible PDGFR-based mechanism and one general review, with no clinical trials. Both New Zealand licences are cancelled, and the package insert safety data needed for safety screening is missing.
 
 **To proceed, the following is needed:**
-- Resolve DG001: obtain and parse the TFDA/manufacturer package insert for warnings, contraindications, and DDI data
-- Resolve DG002: confirm original indication and formal MOA via DrugBank API query
-- Targeted literature/trial search specifically for "nilotinib" + "dermatofibrosarcoma protuberans" or "PDGFB fusion sarcoma" (current search may have been too narrow, given zero hits despite biological plausibility)
-- Case-report or compassionate-use evidence review, given DFSP is a rare disease where RCTs are unlikely
-- Confirm route of administration and dosing feasibility relative to the approved CML regimen if repurposing is pursued
+- Package insert warnings and contraindications from Medsafe, which block safety screening
+- Mechanism of action data from DrugBank
+- Targeted literature on nilotinib in DFSP, including case series or trials, and comparison with imatinib
+- Clarification of the reason for the licence cancellations and whether any nilotinib product is currently available in New Zealand
+- A cardiac (QT) and metabolic safety monitoring plan, given the knowledge-graph contraindication signals and the Major drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

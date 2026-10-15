@@ -2,7 +2,7 @@
 layout: default
 title: Norethisterone
 parent: Moderate Evidence (L3-L4)
-nav_order: 247
+nav_order: 327
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,81 +29,96 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Norethisterone: From Hormonal Contraception to Amenorrhea
+# Norethisterone: From Endometriosis and Primary Ovarian Failure to Amenorrhea
 
 ## One-Sentence Summary
 
-Norethisterone is a synthetic progestin (19-nortestosterone derivative) widely used in hormonal contraception, hormone replacement therapy, and menstrual cycle management; a formal original-indication record is not yet on file for this candidate (see Data Gaps DG001/DG002).
-The TxGNN model predicts it may be effective for **amenorrhea**, with **8 clinical trials** and **20 publications** currently surfaced, though most of this evidence is indirect (studies of related drugs/combinations rather than norethisterone-specific amenorrhea trials).
+Norethisterone is a synthetic progestin, originally used for conditions such as endometriosis, primary ovarian failure, postmenopausal osteoporosis and postmenopausal atrophic vaginitis.
+The TxGNN model predicts it may be useful for **amenorrhea**, but there are **no registered clinical trials** and the **20 publications** found mostly describe amenorrhea as a side effect of hormonal contraception rather than a treatment target, so the evidence is **model prediction with limited supporting literature**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded in this dataset — commonly used clinically as a progestin for hormonal contraception and menstrual cycle regulation (see Data Gap DG002) |
+| Original Indication | Endometriosis, primary ovarian failure, postmenopausal osteoporosis, postmenopausal atrophic vaginitis (from the knowledge graph; New Zealand licence text is not available) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.60% |
 | Evidence Level | L4 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
+| Number of Authorizations | 3 (all cancelled) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (Data Gap DG002). Based on known pharmacology, norethisterone is a synthetic progestin (19-nortestosterone derivative) and acts as a progesterone receptor agonist. It suppresses the hypothalamic-pituitary-ovarian axis, induces secretory transformation of the endometrium, and produces withdrawal bleeding on discontinuation — the classic mechanism used clinically both to induce menses (e.g., progesterone challenge test) and to manage secondary amenorrhea.
+Detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, norethisterone is a synthetic progestin that activates progesterone receptors, suppresses gonadotropin secretion, and causes secretory transformation of an estrogen-primed endometrium.
 
-The relationship between norethisterone's established uses (contraception, HRT add-back therapy, menstrual disorder management) and the predicted new indication of amenorrhea is therefore mechanistically direct rather than speculative: progestins of this class are already used off-label to induce or regulate menstruation. However, the evidence surfaced for this specific candidate is largely indirect — most clinical trials involve other agents (elagolix, relugolix) co-administered with norethindrone acetate as "add-back" therapy for heavy menstrual bleeding/uterine fibroids, not norethisterone-driven treatment of amenorrhea itself. One early Phase I trial (PMID 6786825) directly documents amenorrhea as an observed menstrual effect of norethisterone enanthate/acetate, providing the most direct — though old and small-scale — supporting data point.
+In secondary amenorrhea where endogenous estrogen is adequate, a short progestin course followed by withdrawal can trigger withdrawal bleeding. This is also used as a diagnostic challenge. That is biologically plausible and fits with norethisterone's existing uses in cycle regulation and hormone replacement (primary ovarian failure, endometriosis).
+
+There is an important caveat. Most of the literature found describes amenorrhea as an *adverse effect or outcome* of hormonal contraceptives (for example, injectable norethisterone enanthate), not as a condition treated by norethisterone. The TxGNN score is a model output, not clinical evidence. This prediction should be viewed as a research question rather than a validated indication.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06953076](https://clinicaltrials.gov/study/NCT06953076) | N/A | Recruiting | 111 | Only trial with a norethisterone-containing regimen (relugolix + estradiol + norethisterone add-back) directly in the mix; evaluates ultrasound changes in uterine fibroids, not amenorrhea as primary endpoint, and has no results yet (Grade B relevance) |
-| [NCT01817530](https://clinicaltrials.gov/study/NCT01817530) | Phase 2 | Completed | 571 | Elagolix ± add-back therapy vs placebo for heavy menstrual bleeding with fibroids; GnRH-axis modulation relevant but opposite direction (suppressing rather than inducing bleeding), and drug is not norethisterone |
-| [NCT03412890](https://clinicaltrials.gov/study/NCT03412890) | Phase 3 | Completed | 477 | Relugolix + estradiol + norethindrone acetate long-term extension study for heavy menstrual bleeding/fibroids; norethindrone present only as add-back component |
-| [NCT03751124](https://clinicaltrials.gov/study/NCT03751124) | Phase 3 | Completed | 229 | Randomized withdrawal study of relugolix + estradiol + norethindrone acetate in uterine fibroids; not focused on norethisterone or amenorrhea endpoints |
-| [NCT03049735](https://clinicaltrials.gov/study/NCT03049735) | Phase 3 | Completed | 388 | LIBERTY 1 — relugolix ± estradiol/norethindrone acetate vs placebo for heavy menstrual bleeding; norethindrone as adjunct only |
-| [NCT03103087](https://clinicaltrials.gov/study/NCT03103087) | Phase 3 | Completed | 382 | LIBERTY 2 — same design as LIBERTY 1, norethindrone as adjunct only |
-| [NCT05620355](https://clinicaltrials.gov/study/NCT05620355) | Phase 3 | Unknown | 312 | BG2109 ± add-back therapy for heavy menstrual bleeding with fibroids; drug not confirmed as norethisterone, status unknown |
-| [NCT01441635](https://clinicaltrials.gov/study/NCT01441635) | Phase 2 | Completed | 271 | Elagolix vs placebo for heavy uterine bleeding with fibroids; unrelated drug, included only for adjacent mechanism context |
+Currently no related clinical trials registered.
 
-**Note:** None of the above trials test norethisterone as monotherapy for amenorrhea; all evidence graded C except NCT06953076 (Grade B). This is best characterized as indirect, class-level evidence.
+---
 
 ## Literature Evidence
 
+The most relevant publications are listed below. Many older entries have no abstract available.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6786825](https://pubmed.ncbi.nlm.nih.gov/6786825/) | 1981 | Phase I Trial | Contraception | Phase I trial of norethisterone enanthate and acetate in 20 women; documents amenorrhea, spotting, and abolished LH/FSH surges as menstrual effects — the most direct supporting data point |
-| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | RCT | PLoS One | WHICH randomized trial comparing DMPA-IM vs norethisterone enanthate (NET-EN) on estradiol levels and menstrual/behavioral outcomes relevant to HIV risk |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic Review | Cochrane Database Syst Rev | Cochrane review of combination injectable contraceptives, including norethisterone-based regimens and their bleeding-pattern effects |
-| [37103532](https://pubmed.ncbi.nlm.nih.gov/37103532/) | 2023 | Review | Obstetrics and Gynecology | Review of oral GnRH antagonists co-administered with add-back steroids (incl. norethindrone) for uterine leiomyomas, relevant to HPO-axis suppression mechanism |
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematic Review | Cochrane Database Syst Rev | Earlier Cochrane review of combination injectable contraceptives (precursor to the 2013 update) |
-| [1908716](https://pubmed.ncbi.nlm.nih.gov/1908716/) | 1991 | Review | Curr Opin Obstet Gynecol | Review of sustained-release progestin contraceptive systems and their menstrual effects |
-| [8313486](https://pubmed.ncbi.nlm.nih.gov/8313486/) | 1993 | Review | Bull World Health Organ | WHO memorandum reviewing once-a-month injectable contraceptives (Cyclofem, Mesigyna) including effectiveness and bleeding side-effects |
-| [2975377](https://pubmed.ncbi.nlm.nih.gov/2975377/) | 1988 | Review | The Practitioner | Review of injectable contraception methods |
-| [3071312](https://pubmed.ncbi.nlm.nih.gov/3071312/) | 1988 | Review | Australian Family Physician | Guidance on choosing an oral contraceptive |
-| [6508652](https://pubmed.ncbi.nlm.nih.gov/6508652/) | 1984 | Review | Australian Family Physician | Review of oral contraceptives |
+| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Combination injectable contraceptives are highly effective and reversible; bleeding pattern changes may limit acceptability |
+| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Earlier version of the same review on combination injectable contraceptives |
+| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | Randomised trial (WHICH) | PLoS One | Compared DMPA-IM and NET-EN injectables on estradiol levels, menstrual effects, mood and sexual behaviour |
+| [41489365](https://pubmed.ncbi.nlm.nih.gov/41489365/) | 2026 | Observational/Mechanistic | Biol Reprod | In 521 randomised women, DMPA-IM caused more amenorrhea than NET-EN; amenorrhea is a contraceptive effect, not a treatment outcome |
+| [8336583](https://pubmed.ncbi.nlm.nih.gov/8336583/) | 1993 | Randomised trial | Med J Aust | Continuous low-dose oestrogen plus progestogen HRT; efficacy and acceptability compared across three progestogens |
+| [6786825](https://pubmed.ncbi.nlm.nih.gov/6786825/) | 1981 | Phase I trial | Contraception | In 20 Cuban women, norethisterone enanthate and norethisterone acetate abolished LH/FSH peaks; menstrual disorders including amenorrhea occurred |
+| [3695501](https://pubmed.ncbi.nlm.nih.gov/3695501/) | 1987 | Formulation study | J Steroid Biochem | Norethisterone microspheres for 90 to 180 days of contraception; amenorrhea was among the side effects |
+| [6230212](https://pubmed.ncbi.nlm.nih.gov/6230212/) | 1983 | Survey | Contraception | Survey of 35 investigators on managing menstrual disturbances with DMPA and NET-EN |
+| [31056890](https://pubmed.ncbi.nlm.nih.gov/31056890/) | 2019 | Case report | JBRA Assist Reprod | Secondary amenorrhea and infertility with autoimmune hypothyroidism; a combined estradiol plus norethisterone test was used |
+| [12290848](https://pubmed.ncbi.nlm.nih.gov/12290848/) | 1994 | Review | J Obstet Gynaecol | Review of once-a-month combined injectable contraceptives |
+
+---
 
 ## New Zealand Market Information
 
-Norethisterone is currently **not marketed** under this candidate record, with **0 registered authorizations** and no license entries on file.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 398322 | Noriday 28 (cancelled) | Tab 350 mcg | Not available |
+| 2695618 | Noriday (cancelled) | Tab 350 mcg | Not available |
+| 2607441 | Primolut N (cancelled) | Tab 5 mg | Not available |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. TFDA warnings, contraindications, and drug-drug interaction data are currently a **Blocking** data gap (DG001) that must be resolved before this candidate can complete the S1 safety initial evaluation.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: hypertension, epilepsy, anxiety and neurotic disorders, porphyria, kidney disease, liver disease, gallbladder disease, hyperglycaemia and diabetes mellitus (including diabetic ketoacidosis), hypertriglyceridaemia, hypercalcaemia, hypothyroidism, systemic lupus erythematosus, asthma, and female breast carcinoma.
+- **Drug Interactions**: 100 interactions were recorded; the 20 listed are all of Moderate severity. Most involve glucose-lowering agents, which may have their effect reduced: acarbose, metformin, alogliptin, linagliptin, dapagliflozin, GLP-1 agonists (albiglutide, dulaglutide, exenatide, lixisenatide), nateglinide, pramlintide, and various insulins. Others include aprepitant, clotrimazole, metreleptin and prucalopride.
+
+Package insert warnings and contraindications were not available, so please refer to the current package insert for authoritative safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale for norethisterone in amenorrhea is sound and consistent with established progestin pharmacology, but the supporting clinical evidence is indirect (mostly trials of other drugs using norethindrone acetate as an add-back component) and evidence level is only L4. More critically, a Blocking data gap (DG001 — TFDA warnings/contraindications) currently prevents formal S1 safety review.
+The prediction rests on a model score and a plausible but unverified mechanism. No clinical trials exist, and the literature mostly treats amenorrhea as a contraceptive side effect. All three New Zealand licences are cancelled, and package insert safety data are missing.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism of action documentation from DrugBank (DG002)
-- Formal original-indication record for this candidate
-- A trial or real-world dataset directly assessing norethisterone efficacy for inducing/regulating menses in amenorrhea patients, rather than relying on adjunct/add-back study data
+- Mechanism of action data from DrugBank
+- Medsafe package insert warnings and contraindications for a safety screen
+- A targeted literature search on progestin withdrawal for secondary amenorrhea, including guideline sources and trials
+- Confirmation of current product availability in New Zealand, since no licence is currently valid
+- Clarification of the indication, such as secondary amenorrhea versus primary amenorrhea, and the dose regimen
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

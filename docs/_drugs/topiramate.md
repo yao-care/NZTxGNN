@@ -2,7 +2,7 @@
 layout: default
 title: Topiramate
 parent: Model Prediction Only (L5)
-nav_order: 345
+nav_order: 457
 evidence_level: L5
 indication_count: 9
 ---
@@ -33,7 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Topiramate is a well-established second-generation anticonvulsant, originally developed for the treatment of partial-onset and generalized epilepsy (and later migraine prophylaxis). The TxGNN model's top-ranked prediction proposes it may be effective for **Trigeminal Nerve Neoplasm**, but currently **0 clinical trials** and **0 publications** support this specific link — this is a model-score-only signal with no corroborating evidence.
+Topiramate is a broad-spectrum antiseizure medicine, originally used for epilepsy (generalized tonic-clonic seizures, partial epilepsy and Lennox-Gastaut syndrome).
+The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but there are **0 clinical trials** and **0 publications** supporting it.
+The more credible predicted directions are epilepsy-related reflex seizure conditions, such as visual epilepsy and audiogenic seizures, where the evidence is indirect.
 
 ---
 
@@ -41,47 +43,72 @@ Topiramate is a well-established second-generation anticonvulsant, originally de
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (partial-onset and generalized seizures); migraine prophylaxis (per published literature — formal Taiwan/NZ licensed indication text not available) |
-| Predicted New Indication | Trigeminal Nerve Neoplasm |
+| Original Indication | Epilepsy (generalized tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome), based on knowledge-graph indication data; no approved indication text is available from the New Zealand licences |
+| Predicted New Indication | Trigeminal nerve neoplasm (rank 1) |
 | TxGNN Prediction Score | 99.70% |
-| Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 14 (all cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for topiramate is not available in this evidence pack (drug-level MOA field is a documented data gap). Based on the literature captured elsewhere in this pack, topiramate is known to act on multiple targets — voltage-gated sodium and calcium channels, GABA-A receptors, AMPA/kainate glutamate receptors, and carbonic anhydrase isoenzymes — which together underlie its broad-spectrum antiseizure and migraine-preventive effects.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, topiramate acts through several mechanisms: blockade of voltage-gated sodium channels, enhancement of GABA-A activity, antagonism of AMPA/kainate glutamate receptors, and weak carbonic anhydrase inhibition. Its efficacy in epilepsy is well established.
 
-Trigeminal nerve neoplasm (typically a schwannoma or other nerve-sheath tumor) is a structurally and pathologically distinct condition from epilepsy or migraine. None of topiramate's known ion-channel or enzyme-inhibitory mechanisms have an established link to tumor suppression, and no preclinical or clinical literature in this evidence pack connects topiramate to neoplastic disease of the trigeminal nerve.
+For the top-ranked prediction, **trigeminal nerve neoplasm**, no plausible mechanism links these actions to anti-tumour activity. The very high score (0.997) probably reflects proximity in the knowledge graph to trigeminal-related conditions such as trigeminal neuralgia, not a therapeutic effect on the tumour. Symptomatic relief of neuropathic pain is conceivable, but that would be a different indication.
 
-By contrast, several lower-ranked TxGNN predictions for topiramate (e.g., visual epilepsy, thinking seizures, reading seizures, audiogenic seizures — ranks 2–9) are directly consistent with topiramate's known antiepileptic pharmacology and are backed by substantial clinical trial and literature evidence. This suggests the model's top-ranked "novel" indication (trigeminal nerve neoplasm) lacks the biological plausibility and evidentiary support seen in its other, more conventional seizure-related predictions.
+The other predicted indications are mostly rare reflex epilepsies (visual epilepsy, micturition-induced seizures, startle epilepsy, eating seizures, orgasm-induced seizures, thinking seizures, audiogenic seizures and reading seizures). Topiramate's general antiseizure mechanisms make these plausible. However, the supporting literature addresses the parent indication (epilepsy) and not these specific conditions, so the evidence is indirect. Audiogenic seizures have preclinical support: topiramate was anticonvulsant in DBA/2 mice and in genetic generalized epilepsy rat models, but there are no human data.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered for trigeminal nerve neoplasm, or for any of the other predicted indications reviewed.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+For trigeminal nerve neoplasm, currently no related literature is available. The table below shows the most relevant publications retrieved for the next-ranked prediction, visual epilepsy. These are indirect evidence, since none addresses visually triggered seizures specifically.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systematic review / network meta-analysis | J Neurol | Compares efficacy and safety of antiseizure medications for idiopathic generalized epilepsies |
+| [34817852](https://pubmed.ncbi.nlm.nih.gov/34817852/) | 2021 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Efficacy and tolerability of topiramate in juvenile myoclonic epilepsy |
+| [35421622](https://pubmed.ncbi.nlm.nih.gov/35421622/) | 2022 | Review | Seizure | Molecular mechanisms of topiramate and its clinical value in epilepsy |
+| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Guideline | Neurology | AAN/AES practice guideline update on new antiepileptic drugs for new-onset epilepsy |
+| [39899099](https://pubmed.ncbi.nlm.nih.gov/39899099/) | 2025 | Review | Continuum | Update on antiseizure medications, including pharmacokinetics, indications and use |
+| [38576261](https://pubmed.ncbi.nlm.nih.gov/38576261/) | 2024 | Consensus statement | Eur J Neurol | Seizure management in primary mitochondrial diseases |
+| [37684052](https://pubmed.ncbi.nlm.nih.gov/37684052/) | 2023 | Review | BMJ | Management of epilepsy during pregnancy and lactation |
+
+For audiogenic seizures (rank 8), preclinical studies include [10666508](https://pubmed.ncbi.nlm.nih.gov/10666508/) (2000, Eur J Pharmacol), where topiramate antagonized sound-induced seizures in DBA/2 mice and potentiated other anticonvulsants, and [12581224](https://pubmed.ncbi.nlm.nih.gov/12581224/) (2003, Epilepsia), which tested topiramate in two genetic generalized epilepsy rat models.
 
 ---
 
 ## New Zealand Market Information
 
-Topiramate is not currently marketed in New Zealand, and no product authorization records are available in this evidence pack.
+All 14 licences are cancelled and none is currently valid. The approved indication text is not available for any of them. Five of the main authorizations are listed below.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 437212 | Topamax | Sprinkle cap 15 mg | Cancelled |
+| 471011 | Topamax | Tab 200 mg | Cancelled |
+| 2350424 | Arrow-Topiramate | Tab 100 mg | Cancelled |
+| 2465841 | Topiramate Actavis | Tab 100 mg | Cancelled |
+| 470996 | Topamax | Tab 50 mg | Cancelled |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information.
+
+- **Contraindication signals from the knowledge graph** (not label text): anxiety disorder, neurotic disorder, dysthymic disorder, kidney disease, pyoureter, liver disease, gallbladder disease, diarrheal disease, ocular hypertension, nephrolithiasis (including SLC26A1-related susceptibility), acute urate nephropathy, acidosis disorder, metabolic acidosis, amnestic disorder and retrograde amnesia.
+- **Drug interactions:** the interaction query found 100 interactions in total; the first 20 returned are summarised here.
+  - **Major:** metformin, hyoscyamine, atropine, scopolamine, glycopyrronium, clidinium, dicyclomine, mepenzolate, methscopolamine, propantheline, trospium
+  - **Moderate:** pioglitazone, morphine, dronabinol, phentermine, metoclopramide, phenylbutyric acid, nabilone, glyburide, glycerol phenylbutyrate
 
 ---
 
@@ -90,13 +117,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (trigeminal nerve neoplasm) has zero supporting clinical trials or literature, and no plausible mechanistic link connects topiramate's known ion-channel/enzyme-modulating pharmacology to nerve tumor treatment — this is currently a model-score-only signal (L5) with no corroborating evidence.
+The top prediction (trigeminal nerve neoplasm) has a very high model score but no trials, no literature and no plausible anti-tumour mechanism, so it is not supported. All New Zealand licences are cancelled. The epilepsy-related predictions are mechanistically plausible but rest on indirect evidence only. Visual epilepsy, thinking seizures and audiogenic seizures could be treated as research questions rather than development candidates.
 
 **To proceed, the following is needed:**
-- TFDA/package insert warnings and contraindications (currently a Blocking data gap — DG001)
-- Confirmed mechanism of action data (DG001/DG002)
-- Any preclinical or case-level evidence linking topiramate to neural tumor pathways before further evaluation
-- Reassessment of whether lower-ranked, evidence-rich predictions (e.g., seizure-related indications) represent more actionable repurposing candidates than the top TxGNN score alone
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- Disease-specific studies, such as case series or trials, for the reflex epilepsy indications
+- Clarification of why all New Zealand licences were cancelled and whether a product is still available
+- Review of the knowledge-graph contraindications, especially renal, metabolic acidosis and cognitive effects, against the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

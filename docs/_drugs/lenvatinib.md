@@ -2,7 +2,7 @@
 layout: default
 title: Lenvatinib
 parent: High Evidence (L1-L2)
-nav_order: 200
+nav_order: 265
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,95 +29,97 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Lenvatinib: From Thyroid Cancer to Liposarcoma
+# Lenvatinib: From Renal Cell and Thyroid Carcinoma to Liposarcoma
 
 ## One-Sentence Summary
 
-Lenvatinib is a multi-target tyrosine kinase inhibitor originally developed for thyroid cancer and later extended to hepatocellular and renal cell carcinoma.
-The TxGNN model predicts it may be effective for **Liposarcoma**, most notably in combination with eribulin,
-with **1 completed clinical trial** and **4 supporting publications** currently backing this direction.
-
----
+Lenvatinib is a multi-kinase inhibitor originally used for renal cell carcinoma and thyroid carcinoma.
+The TxGNN model predicts it may be effective for **liposarcoma**,
+with **1 completed Phase Ib/II trial** and **1 matching single-arm publication** supporting this direction. The evidence is early and comes from a combination regimen with eribulin.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Thyroid cancer (differentiated thyroid carcinoma) — no New Zealand license record on file to confirm official indication text |
+| Original Indication | Renal cell carcinoma and thyroid carcinoma (knowledge-graph indications; the New Zealand licence records contain no indication text) |
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 99.51% |
 | Evidence Level | L2 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 2 (both cancelled) |
+| Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?
 
-Detailed original mechanism-of-action documentation for this candidate is a flagged data gap. Based on known information drawn from the evidence pack's own rationale, Lenvatinib is a multi-target tyrosine kinase inhibitor acting on VEGFR1-3, FGFR1-4, PDGFRα, KIT, and RET, giving it a broad anti-angiogenic effect that underlies its established use in vascular-dependent solid tumors such as thyroid, hepatocellular, and renal cell carcinoma.
+Detailed mechanism of action data is not available in the compiled data. Based on known information, lenvatinib is a multi-kinase inhibitor that targets VEGFR1-3, FGFR1-4, PDGFRα, RET and KIT. Its anti-angiogenic and growth-signalling effects are established in renal cell and thyroid carcinoma.
 
-Liposarcoma and leiomyosarcoma are soft-tissue sarcomas with rich tumor vasculature and stroma, making them mechanistically plausible targets for an anti-angiogenic agent. The strongest evidence here is not for Lenvatinib monotherapy but for the combination of Lenvatinib with eribulin (a microtubule inhibitor), where the two agents act through complementary mechanisms — anti-angiogenesis plus mitotic disruption.
+Liposarcoma is a soft tissue sarcoma that depends on tumour blood supply and growth-factor signalling. Blocking these pathways could plausibly slow its growth. Preclinical work also suggests that eribulin combined with other anticancer agents is synergistic.
 
-This mechanistic complementarity is further supported by biomarker research showing CDK4 amplification as a recurring molecular feature of dedifferentiated liposarcoma, offering a potential basis for future biomarker-guided patient selection. Overall, the rationale is reasonable but is specific to the Lenvatinib+eribulin combination rather than Lenvatinib used alone.
-
----
+A completed single-arm Phase Ib/II study (LEADER) of lenvatinib plus eribulin in advanced adipocytic sarcoma and leiomyosarcoma gives a direct clinical signal. It has no randomised comparator, and lenvatinib's own contribution cannot be separated from eribulin's.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Phase 1/2 | Completed | 30 | Single-arm study of Lenvatinib (anti-angiogenic) plus eribulin (chemotherapy targeting mitosis) in inoperable/metastatic adipocytic sarcoma and leiomyosarcoma; relevance graded A — direct evaluation of the combination in advanced liposarcoma with completed enrollment |
-
----
+| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Phase 1/2 | Completed | 30 | Single-arm study of lenvatinib plus eribulin in inoperable or metastatic adipocytic sarcoma and leiomyosarcoma (LEADER); tests safety and efficacy |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Phase 1/2 (single-arm) | Clinical Cancer Research | Primary publication of the LEADER study (NCT03526679) reporting safety and efficacy of lenvatinib plus eribulin in advanced liposarcoma and leiomyosarcoma |
-| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Preclinical/Biomarker | Experimental Hematology & Oncology | CDK4 identified as a prognostic biomarker in soft tissue sarcoma, with synergistic effect of CDK4 inhibition in sequential treatment of dedifferentiated liposarcoma |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclinical | Anticancer Research | Broad-spectrum preclinical activity of eribulin in combination with mechanistically different anticancer agents, including anti-angiogenic agents, across tumor models including liposarcoma |
-| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Case Report | Case Reports in Oncology | Individualized treatment (targeted therapy + surgery + chemotherapy) achieved notable tumor size reduction in a dedifferentiated liposarcoma patient with lung/abdominal metastasis |
-
----
+| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Phase Ib/II single-arm trial | Clin Cancer Res | LEADER study of lenvatinib plus eribulin in advanced liposarcoma and leiomyosarcoma, where options are limited |
+| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Preclinical/biomarker | Exp Hematol Oncol | CDK4 as a prognostic biomarker in soft tissue sarcoma; inhibition has synergistic effects in dedifferentiated liposarcoma |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclinical | Anticancer Res | Eribulin combined with mechanistically different agents shows broad antitumour activity |
+| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Case report | Case Rep Oncol | Tumour reduction in dedifferentiated liposarcoma with lung metastasis under individualised treatment |
 
 ## New Zealand Market Information
 
-Lenvatinib is currently **not marketed in New Zealand** — no product licenses are on file (total authorizations: 0).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2607166 | Lenvima | Cap 10 mg | Not recorded (licence cancelled) |
+| 2607158 | Lenvima | Cap 4 mg | Not recorded (licence cancelled) |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-target tyrosine kinase inhibitor; not a conventional cytotoxic chemotherapy agent) |
-| Myelosuppression Risk | Not available in current data set; please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Not available in current data set; please refer to the package insert warnings and precautions |
-| Monitoring Items | Not specified in current data set; TKI-class agents typically require monitoring of blood pressure, renal/hepatic function, thyroid function, and proteinuria — please refer to the package insert |
-| Handling Protection | Not available in current data set; please refer to the package insert and institutional hazardous drug handling protocols |
-
----
+| Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified. The main ones listed:
+  - **Major**: Dolasetron, Cisapride
+  - **Moderate**: Famotidine, Loperamide, Bisacodyl, Clarithromycin, Levofloxacin, Palonosetron, Granisetron, Naltrexone and several laxatives (picosulfuric acid, polyethylene glycol, sodium sulfate, castor oil, glycerin, lactitol, lactulose, magnesium citrate, magnesium hydroxide)
+  - **Minor**: Metronidazole
 
----
+  The major interactions are with drugs that affect heart rhythm, so QT-related risk deserves review.
+
+Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold (research question only)**
 
 **Rationale:**
-A completed Phase 1/2 trial (n=30) plus four supporting publications establish a reasonable, though combination-specific (Lenvatinib+eribulin), rationale for liposarcoma — sufficient to advance under guardrails, but not sufficient to bypass a formal safety review, since New Zealand-specific labeling data (TFDA-equivalent warnings/contraindications) is a **Blocking** data gap that currently prevents entry into the S1 safety initial assessment.
+The only direct support is one completed, non-randomised Phase Ib/II study of a lenvatinib plus eribulin combination (n=30). Lenvatinib has no currently valid New Zealand licence. Package insert safety data are also missing.
 
 **To proceed, the following is needed:**
-- Package insert warnings, contraindications, and drug interaction data (currently a Blocking data gap)
-- Confirmed original mechanism-of-action documentation (currently a High-severity data gap)
-- Clarification that predicted efficacy applies to the Lenvatinib+eribulin combination, not Lenvatinib monotherapy
-- Regulatory pathway assessment given the drug is not currently marketed in New Zealand
+- Randomised or larger comparative data in liposarcoma, ideally separating lenvatinib's contribution from eribulin's
+- Efficacy and safety results from the LEADER study
+- Mechanism of action data from DrugBank
+- Package insert warnings and contraindications from Medsafe
+- Clarification of the cancelled New Zealand licences and the availability of supply
+
+### Other Predictions Worth Noting
+
+- **Unclassified renal cell carcinoma** (score 99.49%, L2): Proceed with Guardrails. A Phase 2 trial in non-clear cell RCC and CLEAR biomarker data support it, and lenvatinib is already established in RCC.
+- **Renal carcinoma** (score 99.37%, L1): Proceed with Guardrails. The Phase 3 CLEAR trial supports it, but this is validation of an existing indication, not true repurposing.
+- **TFE3-fusion RCC** (L4): The only trial is a not-yet-recruiting Phase 2 triplet study. Research question.
+- **Renal cell carcinoma associated with neuroblastoma, ovarian myxoid liposarcoma, childhood kidney cell carcinoma, angiolipoma, familial spontaneous pneumothorax, endocrine-cerebro-osteodysplasia syndrome** (all L5): Hold. These predictions are computational only, with no trials or literature.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

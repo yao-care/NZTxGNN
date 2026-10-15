@@ -2,7 +2,7 @@
 layout: default
 title: Spironolactone
 parent: Model Prediction Only (L5)
-nav_order: 324
+nav_order: 429
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,61 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Spironolactone: From Edema/Hypertension to Hypotrichosis Simplex of the Scalp
+# Spironolactone: From Hypertension and Heart Failure to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Spironolactone is a long-established aldosterone receptor antagonist used clinically for fluid retention, hypertension, and related conditions (specific original indication text unavailable — drug is not marketed in New Zealand). The TxGNN model predicts it may be effective for **Hypotrichosis Simplex of the Scalp**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal with no corroborating real-world evidence.
+Spironolactone is an aldosterone receptor antagonist, originally used for hypertension, congestive heart failure and primary aldosteronism.
+The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (drug not marketed in New Zealand; no license text on file) |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
+| Original Indication | Hypertension, congestive heart failure, hyperaldosteronism and primary aldosteronism (from the knowledge graph; no approved-indication text is available from New Zealand licences) |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.26% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 3 (all cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this candidate. Based on known pharmacology, spironolactone is an aldosterone receptor antagonist with secondary anti-androgenic activity; this anti-androgenic effect is the basis for its established off-label use in female-pattern androgenetic alopecia (androgen-driven hair loss).
+Detailed mechanism of action data is not currently available in the data compiled for this report. Spironolactone is known as an aldosterone receptor antagonist with anti-androgenic activity (androgen receptor blockade and reduced androgen synthesis). Its efficacy in hypertension and heart failure is established.
 
-However, the predicted indication here — hypotrichosis simplex of the scalp — is a distinct, genetically driven condition (typically linked to APCDD1 mutations disrupting Wnt signaling in hair follicle development) with no known hormonal or androgen-pathway component. The second-ranked prediction, congenital hypotrichosis with milia, is similarly a congenital keratinization/follicle-development disorder (associated with HR-gene or related pathways), again without an established androgen or mineralocorticoid link.
+The anti-androgenic action is used clinically in female pattern hair loss, so a general link to hair-follicle biology is plausible. However, hypotrichosis simplex of the scalp is a rare genetic hair-loss disorder (variants in genes such as CDSN, APCDD1 and RPL21) that is not androgen-driven. No direct mechanistic rationale for spironolactone has been established.
 
-The evidence pack's own mechanistic rationale flags this directly: the high TxGNN score most likely reflects proximity between "hypotrichosis" and "alopecia" phenotype nodes within the knowledge graph, rather than a genuine shared biological mechanism. Without any supporting trials or literature, this prediction should be treated as a hypothesis-generating artifact rather than a validated mechanistic link.
+The high score of 0.993 is a model prediction only. It likely reflects shared hair-phenotype associations in the knowledge graph rather than a validated mechanism, and it should be treated as a hypothesis.
+
+A second prediction, **congenital hypotrichosis milia** (score 99.04%), has the same limitations. The link is indirect and speculative, and there is no clinical evidence for it either.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## New Zealand Market Information
 
-Spironolactone is not currently marketed in New Zealand, and no product authorizations are on record (0 licenses).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2435179 | Spiractin | Tab 25 mg | Not available (cancelled) |
+| 344877 | Biomed | Oral liq 5 mg per ml | Not available (cancelled) |
+| 2435187 | Spiractin | Tab 100 mg | Not available (cancelled) |
+
+All three licences are cancelled, so no spironolactone product is currently authorised in New Zealand according to the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindications** (from drug-disease contraindication edges, not package insert text): kidney disease, anuria, diabetes mellitus, diabetic ketoacidosis, potassium deficiency disease, gout, hyperuricemia, hypercalcemia, hyperparathyroidism, osteitis fibrosa, nephrocalcinosis, phosphorus metabolism disease, hepatic coma, hepatic encephalopathy, pancreatitis, pyoureter, systemic lupus erythematosus (including paediatric), and neonatal jaundice.
+- **Drug interactions**: 100 interactions were identified, and the first 20 returned are summarised here.
+  - **Major**: loperamide.
+  - **Moderate**: hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, metformin, bupropion, morphine, bisacodyl, castor oil, dronabinol, exenatide, and the SGLT2 inhibitors canagliflozin, dapagliflozin, empagliflozin and ertugliflozin.
+  - **Minor**: doxycycline, acetylsalicylic acid and fidaxomicin.
+
+Please refer to the package insert for formal warnings and contraindications, as these were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a TxGNN graph-similarity score (L5) with zero corroborating clinical trials or literature, and the proposed indications (genetic/congenital hypotrichosis) lack a plausible mechanistic connection to spironolactone's known antimineralocorticoid/anti-androgenic activity. Compounding this, the drug is not marketed in New Zealand and core safety data (warnings, contraindications, DDI) are unavailable, blocking any S1 safety review.
+The prediction has no supporting trials or literature (evidence level L5). The proposed mechanism is not established for this non-androgen-driven genetic condition. Spironolactone also has no valid New Zealand licence at present.
 
 **To proceed, the following is needed:**
-- TFDA/official package insert data (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action data from DrugBank or primary literature
-- Preclinical or mechanistic evidence directly linking spironolactone's pathway to APCDD1/Wnt or HR-gene/keratinization biology, to rule out graph-proximity artifact
-- Drug-drug interaction data
-- Reassessment if any clinical trials or case literature for these specific indications emerge
+- Mechanism of action data, and a clear mechanistic rationale linking spironolactone to the genetic causes of hypotrichosis simplex of the scalp
+- A literature and trial search, including case reports and preclinical hair-follicle studies
+- The Medsafe package insert, to complete the warnings and contraindications review (a blocking gap for safety screening)
+- Clarification of the regulatory pathway and route of administration, given the cancelled licences and the unassessed route compatibility (for example, whether a topical formulation would be needed)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

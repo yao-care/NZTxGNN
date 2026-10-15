@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lisinopril
-parent: Moderate Evidence (L3-L4)
-nav_order: 207
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 273
+evidence_level: L5
 indication_count: 10
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,109 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-此 Evidence Pack 含 10 個 TxGNN 預測適應症；其中 8 個為 L5/S0（僅模型分數、無臨床試驗或文獻），僅 rank 7（septal MI）與 rank 9（chronic pulmonary heart disease）達 L3/S1。以下報告聚焦證據最完整的 **rank 9：Chronic Pulmonary Heart Disease**（唯一有 lisinopril 專屬文獻支持者）。
-
----
-
-# Lisinopril: From Hypertension/Heart Failure to Chronic Pulmonary Heart Disease
+# Lisinopril: From Hypertension and Myocardial Infarction to Posteroinferior Myocardial Infarction
 
 ## One-Sentence Summary
 
-Lisinopril is an ACE inhibitor whose established uses are hypertension, heart failure and post-MI management (this Evidence Pack itself contains no jurisdiction-specific regulatory record of the original indication). The TxGNN model predicts potential efficacy for **Chronic Pulmonary Heart Disease (chronic cor pulmonale)**, with **5 loosely-related clinical trials** and **8 publications** — including two drug-specific cohort studies on lisinopril in pulmonary hypertension/cor pulmonale — currently supporting this direction.
+Lisinopril is an ACE inhibitor originally used for hypertension and myocardial infarction.
+The TxGNN model predicts it may be effective for **posteroinferior myocardial infarction**, but this is an anatomical subtype of an already-approved indication, so the high score mostly reflects ontology proximity.
+There are **0 clinical trials** and **0 publications** specific to this prediction, so the evidence rests on model prediction alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the regulatory data provided (New Zealand: not marketed); generically known as hypertension / heart failure / post-MI (ACE inhibitor class) |
-| Predicted New Indication | Chronic Pulmonary Heart Disease |
-| TxGNN Prediction Score | 99.68% |
-| Evidence Level | L3 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Original Indication | Hypertension, myocardial infarction (the data compiled for this report holds no approved-indication text from New Zealand licences; the indications listed come from the knowledge graph) |
+| Predicted New Indication | Posteroinferior myocardial infarction |
+| TxGNN Prediction Score | 99.90% |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 3 (all cancelled) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (flagged as a High-severity data gap). Based on generally known pharmacology, lisinopril is an ACE inhibitor (ACEi): it blocks conversion of angiotensin I to angiotensin II, reducing systemic and pulmonary vascular resistance, afterload, and neurohormonal activation.
+Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, lisinopril is an angiotensin-converting enzyme (ACE) inhibitor that blocks the renin-angiotensin system (RAS). Its efficacy in hypertension and myocardial infarction is established.
 
-Chronic pulmonary heart disease (cor pulmonale) arises from sustained pulmonary hypertension secondary to chronic lung disease, leading to right ventricular strain. Because ACEi reduce vascular resistance and afterload — the same mechanism underlying their approved use in systemic hypertension and heart failure — extrapolation to the pulmonary vasculature is mechanistically plausible.
+Posteroinferior myocardial infarction is an anatomical subtype of myocardial infarction, an indication lisinopril already holds. The high TxGNN score (99.90%) therefore mostly reflects closeness in the disease ontology rather than new evidence. Mechanistically, ACE inhibition attenuates post-infarction remodelling and would be expected to apply across infarct locations, but no subtype-specific data were supplied.
 
-This plausibility is reinforced by two lisinopril-specific cohort studies in the evidence set (Pribylov 2006; Verbitskiĭ 2003), both reporting attenuation of pulmonary hypertension and improved right ventricular function in patients with chronic cor pulmonale/COPD. This is a materially stronger evidentiary basis than the other 9 candidates in this pack, which are supported only by TxGNN's prediction score with no drug-specific trials or literature (L5).
+**Other predictions in the top ranks**
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Posterolateral myocardial infarction | 99.90% | L5 | Subtype of an approved indication; no subtype-specific evidence |
+| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.89% | L4 | 15 papers retrieved, mostly off-target; one preclinical study suggests angiotensin II does not drive hypoxic pulmonary artery contraction, which argues against the mechanism |
+| 4 | Pulmonary hypertension, unclear multifactorial mechanism | 99.89% | L5 | Prediction only |
+| 5 | Malignant hypertensive renal disease | 99.89% | L5 | Extension of the approved hypertension indication |
+| 6 | Malignant renovascular hypertension | 99.89% | L5 | Plausible, but ACE inhibitors carry a risk of acute renal failure in bilateral renal artery stenosis |
+| 7 | Septal myocardial infarction | 99.88% | L4 | One 2024 case report on an ACE inhibitor plus coenzyme Q10; indirect support only |
+| 8 | Braddock syndrome | 99.86% | L5 | Prediction only |
+| 9 | Chronic pulmonary heart disease | 99.68% | L3 | The most notable lead (see below) |
+| 10 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 99.33% | L5 | Prediction only |
+
+Among all predictions, **chronic pulmonary heart disease** (rank 9) has the most specific supporting literature: two small Russian-language clinical reports on lisinopril in chronic cor pulmonale and in pulmonary hypertension with endothelial dysfunction. It is classed as a research question, but the study designs and outcomes cannot be confirmed.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04486118](https://clinicaltrials.gov/study/NCT04486118) | Phase 2 | Active, not recruiting | 36 | Centrally-acting ACE inhibition for cognitive impairment in SLE — relevance graded C, not a lisinopril-specific or cor pulmonale trial |
-| [NCT03967496](https://clinicaltrials.gov/study/NCT03967496) | N/A | Completed | 402 | Postoperative delirium incidence study — no direct relevance to lisinopril or cor pulmonale |
-| [NCT00982423](https://clinicaltrials.gov/study/NCT00982423) | Phase 1/2 | Completed | 41 | Furosemide dose effects on cardiorenal/humoral function in CHF — not a lisinopril trial |
-| [NCT06697353](https://clinicaltrials.gov/study/NCT06697353) | N/A | Completed | 4936 | Real-world vericiguat outcomes in Japanese HFrEF patients — not a lisinopril trial |
-| [NCT00292162](https://clinicaltrials.gov/study/NCT00292162) | N/A | Completed | 41 | Radiofrequency ablation for AF in advanced CHF — not a drug intervention trial |
+Currently no related clinical trials registered.
 
-**Note:** None of the retrieved trials directly test lisinopril in chronic pulmonary heart disease; all are graded "C" (low direct relevance) in the source query.
+---
 
 ## Literature Evidence
 
+Currently no related literature available for posteroinferior myocardial infarction.
+
+For reference, the most relevant literature among the other predictions (chronic pulmonary heart disease):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [17047621](https://pubmed.ncbi.nlm.nih.gov/17047621/) | 2006 | Cohort | Kardiologiia | Lisinopril (10 mg/day) attenuated pulmonary hypertension and improved right ventricular systolic/diastolic function in heart failure patients with combined ischemic heart disease and COPD |
-| [14524095](https://pubmed.ncbi.nlm.nih.gov/14524095/) | 2003 | Cohort | Problemy tuberkuleza i boleznei legkikh | Lisinopril used in treatment of patients with chronic cor pulmonale |
-| [26895877](https://pubmed.ncbi.nlm.nih.gov/26895877/) | 2016 | Review | European journal of pediatrics | Reviews underuse of ACEi/ARB/mineralocorticoid antagonists in pediatric chronic heart failure |
-| [19393838](https://pubmed.ncbi.nlm.nih.gov/19393838/) | 2009 | Review | Clinical therapeutics | Review of nebivolol (beta-blocker), not lisinopril-specific |
-| [19592143](https://pubmed.ncbi.nlm.nih.gov/19592143/) | 2009 | Review | American journal of kidney diseases | Depression in CKD patients; case mentions ACEi use, not disease-focused |
-| [11170787](https://pubmed.ncbi.nlm.nih.gov/11170787/) | 2001 | Preclinical | Experimental and molecular pathology | Rat models of hypertension (aortic constriction, Goldblatt) and cardiopulmonary protein synthesis |
-| [20852161](https://pubmed.ncbi.nlm.nih.gov/20852161/) | 2010 | Case Report | American journal of health-system pharmacy | Hypotension/bradycardia from concomitant tizanidine + lisinopril — safety signal, not efficacy |
-| [32404370](https://pubmed.ncbi.nlm.nih.gov/32404370/) | 2020 | Case Report | BMJ case reports | Rare case of biventricular non-compaction; no direct lisinopril efficacy data |
+| [17047621](https://pubmed.ncbi.nlm.nih.gov/17047621/) | 2006 | Clinical study (design unconfirmed) | Kardiologiia | Lisinopril 10 mg/day attenuated pulmonary hypertension and improved right ventricular systolic function and diastolic filling in heart failure patients with ischaemic heart disease and COPD |
+| [14524095](https://pubmed.ncbi.nlm.nih.gov/14524095/) | 2003 | Clinical study (likely small, uncontrolled) | Problemy tuberkuleza i boleznei legkikh | Lisinopril in chronic cor pulmonale; no abstract available |
+| [20852161](https://pubmed.ncbi.nlm.nih.gov/20852161/) | 2010 | Case report (safety) | Am J Health Syst Pharm | Severe bradycardia and hypotension with concomitant tizanidine and lisinopril |
+
+---
 
 ## New Zealand Market Information
 
-No marketing authorizations are currently on record — lisinopril is listed as **not marketed** in New Zealand in this dataset (0 licenses).
+All three licences are cancelled, and no approved-indication text is available.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2643669 | Teva Lisinopril | Tab 5 mg | Cancelled; no indication text available |
+| 2643677 | Teva Lisinopril | Tab 10 mg | Cancelled; no indication text available |
+| 2643685 | Teva Lisinopril | Tab 20 mg | Cancelled; no indication text available |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (No warnings, contraindications, or drug interaction data are available in this Evidence Pack; Medsafe/TFDA package-insert retrieval is flagged as a **Blocking** data gap — DG001.)
+Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for these.
+
+- **Disease contraindications (from the knowledge graph, not label text)**: kidney disease, liver disease, pancreatitis, gallbladder disease, angioedema (including hereditary, acquired and ACE-inhibitor-induced forms), systemic lupus erythematosus, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, neutropenia and agranulocytosis, aortic stenosis and aortic valve disease, hypotensive disorders, hyperparathyroidism, hepatic coma and encephalopathy, connective tissue disease, and bone disease.
+- **Drug interactions**: 100 interactions were identified. Those shown include two **Major** ones, with potassium citrate and potassium bicarbonate (hyperkalaemia risk). The rest shown are **Moderate**, including corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), antidiabetic drugs (metformin, alogliptin, saxagliptin, canagliflozin, dapagliflozin, empagliflozin, chlorpropamide), aspirin, morphine, bupropion, dronabinol, and bowel-preparation agents.
+- **Literature signals**: a case report documents severe hypotension and bradycardia when lisinopril was combined with tizanidine, and a 2026 case report describes lisinopril-induced small bowel angioedema.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence level is L3, based on two older cohort studies (not RCTs) directly linking lisinopril to improved pulmonary hemodynamics in cor pulmonale, with no clinical trials specifically testing this drug-indication pair. A Blocking data gap (missing package-insert safety data) also prevents any S1 safety pre-assessment from being completed.
+The top prediction is a subtype of an indication lisinopril already covers, so the score reflects ontology proximity rather than new evidence. There are no trials or literature specific to it, and lisinopril has no currently valid New Zealand licence. The most promising genuinely new direction is chronic pulmonary heart disease, but it is supported only by small, unconfirmed studies.
 
 **To proceed, the following is needed:**
-- Medsafe/TFDA package insert (warnings, contraindications) — currently Blocking (DG001)
-- DrugBank-sourced mechanism of action confirmation — currently High-severity gap (DG002)
-- A prospective RCT or larger controlled cohort of lisinopril in chronic pulmonary heart disease/COPD-associated pulmonary hypertension
-- Route/formulation compatibility assessment, pending market authorization data
+- The Medsafe package insert (warnings and contraindications), which is a blocking gap for safety screening
+- Mechanism of action data (for example from DrugBank)
+- Confirmation of subtype-specific data for infarct location, such as post-MI trial subgroup analyses
+- For chronic pulmonary heart disease, full texts and design details of the Russian-language studies, and a search for controlled trials
+- Clarification of why the licences were cancelled and whether any re-registration is planned
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

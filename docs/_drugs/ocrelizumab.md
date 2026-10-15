@@ -2,7 +2,7 @@
 layout: default
 title: Ocrelizumab
 parent: Model Prediction Only (L5)
-nav_order: 251
+nav_order: 332
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,76 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Ocrelizumab: From Multiple Sclerosis to HER2 Positive Breast Carcinoma
+# Ocrelizumab: From Progressive Multiple Sclerosis to HER2-Positive Breast Carcinoma
 
 ## One-Sentence Summary
 
-Ocrelizumab is an anti-CD20 monoclonal antibody; based on the mechanistic notes accompanying this evidence pack, its established use is in multiple sclerosis (B-cell depletion), though this is not confirmed in the formal indication/MOA fields (flagged as a data gap). The TxGNN model predicts possible efficacy in **HER2 Positive Breast Carcinoma**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure graph-relation signal with no corroborating mechanistic or clinical evidence.
-
----
+Ocrelizumab is an anti-CD20 antibody originally used to treat progressive multiple sclerosis.
+The TxGNN model predicts it may be effective for **HER2-positive breast carcinoma**,
+but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Multiple Sclerosis (referenced only in the rationale narrative; not present in the drug's formal `original_indications`/`original_moa` fields — see data gap DG002) |
-| Predicted New Indication | HER2 Positive Breast Carcinoma |
+| Original Indication | Progressive multiple sclerosis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Predicted New Indication | HER2 positive breast carcinoma |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the drug-level field (flagged as data gap DG002, High severity). Based on the rationale notes embedded in this evidence pack, ocrelizumab is an anti-CD20 monoclonal antibody whose known effect is depletion of CD20-positive B cells, with its approved use referenced as multiple sclerosis.
+Currently, detailed mechanism of action data is not available. Based on known information, ocrelizumab is a humanized anti-CD20 monoclonal antibody that depletes B cells. Its efficacy in multiple sclerosis has been demonstrated, but the data compiled for this report do not show a mechanistic link to HER2-positive breast carcinoma.
 
-HER2-positive breast carcinoma is driven by overexpression/amplification of the HER2/neu receptor tyrosine kinase — a pathway with no established interaction with CD20+ B-cell depletion. While tumor-infiltrating B cells are present in some breast cancer tissue, there is no evidence that depleting them reverses HER2-driven tumor growth.
+The original indication (an autoimmune neurological disease) and the predicted indication (a breast cancer subtype) are biologically quite distant. The compiled data give no evidence that CD20-directed B-cell depletion is relevant to HER2-driven tumours. The high TxGNN score (0.999) is a computational signal only and should be treated as a hypothesis, not as evidence of efficacy.
 
-The high TxGNN score (99.89%) most likely reflects a graph-topology association within the knowledge graph rather than a biologically interpretable mechanism. The same pattern repeats across all five predicted indications in this pack (HER2+, normal breast-like, PR+, luminal A/B, PR− breast cancer) — all are breast cancer molecular subtypes with no known CD20/B-cell-depletion linkage, and all are rated L5 with a Hold recommendation. Rank 4 does carry 19 attached literature records, but on inspection these are keyword mismatches (B-cell developmental biology, hepatitis B vaccines, HLA-B allele typing) unrelated to either ocrelizumab or breast cancer, and should be treated as noise rather than supporting evidence.
-
----
+The same applies to the other breast cancer subtypes predicted for this drug (normal breast-like subtype, progesterone-receptor positive, luminal A or B, and progesterone-receptor negative; scores 99.80–99.81%). None has clinical trials, and the only literature returned (for luminal A/B) concerns multiple sclerosis and other immune conditions, not breast cancer.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for HER2-positive breast carcinoma.
 
----
+For the lower-ranked prediction "breast tumor luminal A or B", 18 publications were retrieved, but the ones reviewed concern ocrelizumab or B-cell therapy in multiple sclerosis, lupus, or hypogammaglobulinemia. They appear to be matches on the drug name rather than breast cancer evidence, so they are not counted as support for this prediction.
 
 ## New Zealand Market Information
 
-Ocrelizumab is not currently marketed in New Zealand (0 authorizations on file); no product license records are available for this evidence pack.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2717441 | Ocrevus SC (cancelled) | Inj 40 mg per ml, 23 ml vial | Not available |
+| 2540789 | Ocrevus (cancelled) | Inj 30 mg per ml, 10 ml vial | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified in the interaction screening. Examples:
+  - Moderate: corticosteroids (hydrocortisone, prednisolone, prednisone, dexamethasone, betamethasone, budesonide, triamcinolone), radiopharmaceuticals (iobenguane I-131, ibritumomab tiuxetan, tositumomab, samarium-153 lexidronam), albendazole, pentamidine, levamisole
+  - Minor: zinc salts (sulfate, acetate, gluconate, chloride)
 
-*(Key warnings, contraindications, and DDI data are all unavailable in this pack — TFDA/Medsafe package insert data is flagged as a Blocking data gap, DG001.)*
-
----
+For other safety information (warnings and contraindications), please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by TxGNN's graph score (L5) — zero clinical trials, zero relevant literature, and no plausible mechanistic link between CD20+ B-cell depletion and HER2-driven breast cancer. The drug is also not marketed in New Zealand, and core safety data is blocked by a missing package insert.
+The prediction is supported only by the TxGNN model score (L5), with no clinical trials or relevant publications, and no mechanistic link between CD20 B-cell depletion and HER2-positive breast carcinoma is established. In addition, both New Zealand licences for the drug are cancelled.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert (warnings, contraindications) — currently Blocking (DG001)
-- Confirmed mechanism of action and original approved indication — currently High severity gap (DG002)
-- Preclinical/mechanistic studies establishing a biological pathway between B-cell depletion and HER2 signaling
-- Any real-world clinical or case-level evidence in breast cancer populations before advancing past S0
+- Mechanism of action data and a biologically plausible rationale linking CD20 B-cell depletion to HER2-positive breast cancer
+- Preclinical or other supporting studies in breast cancer models
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Clarification of the New Zealand regulatory status, since both licences are cancelled
+- Assessment of route and formulation compatibility for an oncology setting
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Ethosuximide
 parent: Model Prediction Only (L5)
-nav_order: 140
+nav_order: 187
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,72 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ethosuximide: From Absence Seizures to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Ethosuximide: From Absence Epilepsy to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Ethosuximide is a classic antiepileptic drug used for the treatment of absence (petit mal) seizures, acting by suppressing abnormal electrical activity in the thalamus.
-The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, however **0 clinical trials** and **0 publications** currently support this direction.
-This prediction rests entirely on computational modelling; the mechanistic link is highly speculative and evidence is insufficient to proceed at this stage.
-
----
+Ethosuximide is an anti-seizure medicine originally used to treat absence epilepsy.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Absence seizures (petit mal epilepsy) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+|------|------|
+| Original Indication | Absence epilepsy (the New Zealand licence records contain no approved indication text) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | ✗ Cancelled only (no currently valid authorizations) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on known pharmacology, Ethosuximide is a succinimide-class anticonvulsant whose primary mechanism involves blockade of neuronal T-type calcium channels (Cav3.2/Cav3.1), reducing the low-threshold calcium current in thalamic relay neurons. This action suppresses the rhythmic burst firing responsible for the 3 Hz spike-and-wave discharges seen in absence epilepsy.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Ethosuximide is generally known to block T-type calcium channels in thalamic neurons, which is the basis of its efficacy in absence epilepsy.
 
-NSIAD is a rare congenital disorder caused by gain-of-function mutations in AVPR2 (the V2 vasopressin receptor gene on chromosome Xq28), leading to constitutive receptor activation, persistent intracellular cAMP elevation, and inappropriate trafficking of aquaporin-2 (AQP2) water channels to the apical membrane of renal collecting duct cells — resulting in water retention and dilutional hyponatraemia without a correctable vasopressin stimulus.
+NSIAD is a different kind of condition. It is caused by gain-of-function mutations in the vasopressin V2 receptor gene (*AVPR2*), or in some cases *GNAS*. These mutations cause the receptor to signal constantly, so the kidney retains water even when vasopressin is low. No link between T-type calcium channel blockade and this renal mechanism has been established in the available data.
 
-The mechanistic bridge between these two conditions is extremely tenuous. While calcium signalling can theoretically influence intracellular vesicle trafficking (including AQP2 exocytosis), there is no direct evidence that T-type calcium channel blockade modulates AVPR2/cAMP/AQP2 pathways in the kidney. The TxGNN graph neural network may have detected a weak topological proximity in its disease–drug knowledge graph, but this association lacks any experimental or clinical corroboration. The very high model confidence score (99.91%) should therefore be interpreted with caution in the absence of supporting evidence.
+A possible effect of calcium-channel or downstream signalling changes on water handling in the renal collecting duct is purely speculative. The very high TxGNN score (99.91%) is a model output only, with no clinical trial or literature support. It should be treated as a hypothesis to investigate, not as evidence of efficacy.
 
----
+## New Zealand Market Information
 
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2106019 (cancelled) | Zarontin | Oral liquid 250 mg per 5 ml | Not recorded |
+| 2705117 (cancelled) | Zarontin | Capsule 250 mg | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not label text)**: the TxGNN knowledge graph links ethosuximide to contraindication or caution signals in the following conditions:
+  - Psychiatric: anxiety disorder, neurotic disorder, dysthymic disorder
+  - Renal, hepatic and biliary: kidney disease, pyoureter, liver disease, gallbladder disease
+  - Haematological: hematologic disease, neutropenia, agranulocytosis
+  - Autoimmune and metabolic: systemic lupus erythematosus (including the paediatric form), acute intermittent porphyria
 
----
+  Kidney disease is directly relevant to a renal indication such as NSIAD.
+- **Drug Interactions**: 92 interactions were identified, and the 20 shown in the data are all rated Moderate. Main examples:
+  - CNS depressants and opioids: morphine (including liposomal), opium, ethanol, dronabinol, nabilone
+  - Antiemetics and antihistamines: aprepitant, metoclopramide, promethazine, chlorpheniramine
+  - Antimalarials: chloroquine, mefloquine, hydroxychloroquine
+  - Folate-related agents: folic acid, leucovorin, levoleucovorin
+  - Others: sibutramine, cobicistat, deferasirox, fostamatinib
+
+Please refer to the package insert for warnings and contraindications. The label information was not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate is classified at Evidence Level L5 — the prediction is based solely on TxGNN computational output, with zero supporting clinical trials or published literature. The mechanistic link between ethosuximide's T-type calcium channel blockade and the AVPR2/AQP2 pathway underlying NSIAD is highly speculative and not substantiated by any experimental data.
+The prediction is supported only by the TxGNN model score. There are no clinical trials or publications, no documented mechanistic link to NSIAD, and no currently valid New Zealand authorization. The safety data also raise renal and haematological concerns.
 
 **To proceed, the following is needed:**
-
-- **Preclinical validation**: In vitro or animal model studies examining whether ethosuximide or T-type calcium channel inhibition affects AQP2 trafficking, V2 receptor signalling, or urinary concentration in NSIAD-relevant models (e.g., AVPR2 gain-of-function knock-in mice)
-- **Mechanistic clarification**: Retrieval of the full MOA data (currently listed as Data Gap) to assess whether any secondary pharmacological activity might provide a more plausible biological rationale
-- **Safety profile review**: Formal retrieval of ethosuximide package insert warnings, contraindications, and drug interaction data — all currently unavailable — before any repurposing study can be designed
-- **NSIAD disease context**: Given NSIAD predominantly affects infants and young children (X-linked), any future study design must address paediatric dosing, safety, and regulatory requirements for this rare population
-- **Alternative candidates**: Given the weak mechanistic rationale, investigators should consider whether other ion channel modulators with more direct links to renal tubular water handling (e.g., tolvaptan, indomethacin) represent higher-priority repurposing candidates for NSIAD
+- Mechanism of action data (MOA) and a plausible biological link between T-type calcium channel blockade and *AVPR2*/*GNAS*-driven water retention
+- A systematic literature search, and preclinical studies (for example cell or animal models of constitutive V2 receptor signalling)
+- Medsafe package insert warnings and contraindications, which are currently missing and block safety screening
+- A review of the regulatory pathway, since both New Zealand licences are cancelled and the route compatibility for the new indication has not been assessed
+- An assessment of the renal and haematological safety signals in the NSIAD patient population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

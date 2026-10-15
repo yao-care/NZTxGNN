@@ -2,7 +2,7 @@
 layout: default
 title: Lamivudine
 parent: Moderate Evidence (L3-L4)
-nav_order: 192
+nav_order: 256
 evidence_level: L3
 indication_count: 5
 ---
@@ -29,71 +29,95 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-# Lamivudine: From HIV-1/Chronic Hepatitis B to Feline Acquired Immunodeficiency Syndrome
+# Lamivudine: From Chronic Hepatitis B and HIV/AIDS to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-> Lamivudine (3TC, DB00709) is a nucleoside reverse transcriptase inhibitor established for HIV-1 and chronic Hepatitis B infection in humans. The TxGNN model's top-ranked prediction is **Feline Acquired Immunodeficiency Syndrome (FIV in cats)** — a veterinary, not human, indication — supported by **5 clinical trials** (all human HIV trials, graded as species-mismatched) and **5 veterinary publications**. The signal appears to be a keyword-driven artifact ("immunodeficiency") rather than a genuine human repurposing opportunity.
+Lamivudine is a nucleoside reverse transcriptase inhibitor originally used to treat chronic hepatitis B virus infection and HIV/AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV infection in cats)**, supported by **0 clinical trials** and **3 publications** (two cohort studies in cats and one in vitro study). This is essentially a veterinary extension of an existing antiviral use, not a new human indication.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection / Chronic Hepatitis B (based on known drug class; not marketed in New Zealand, so no local label text is available) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV) |
+| Original Indication | Chronic hepatitis B virus infection; HIV infection; AIDS (from the knowledge graph, since no approved indication text is available from Medsafe) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L3 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 4 (all cancelled) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is flagged as a data gap in this evidence pack (DG002). Based on known information, Lamivudine is a cytidine nucleoside analogue reverse transcriptase inhibitor (NRTI) used in combination antiretroviral regimens for HIV-1 and as monotherapy/combination therapy for chronic Hepatitis B; its efficacy in these indications is well established, and its mechanism (competitive inhibition of viral reverse transcriptase) is not disease-specific to human hosts.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) that is active against HIV-1 reverse transcriptase and hepatitis B virus polymerase. Its efficacy in HIV and hepatitis B is established.
 
-Feline Immunodeficiency Virus (FIV) is a lentivirus in the same family as HIV, and both depend on reverse transcriptase for replication, so there is a genuine molecular rationale for cross-species antiviral activity — this is corroborated by veterinary literature dating back over two decades. However, this predicted indication is a **veterinary disease in cats**, not a human indication, which falls outside the scope of a human drug repurposing evaluation. Additionally, all five associated clinical trials are human HIV-1 studies evaluating dolutegravir- or darunavir-based regimens with abacavir/lamivudine or lamivudine/tenofovir combinations — they were almost certainly retrieved by keyword overlap on "immunodeficiency" rather than genuine relevance to feline disease, and are graded "C" (species mismatch) by the evidence pipeline itself. The only substantively relevant evidence is a small body of independent veterinary literature (in vitro and small-cohort studies in cats), which supports biological plausibility but does not constitute human clinical evidence.
+Feline immunodeficiency virus (FIV) is a lentivirus that causes an AIDS-like disease in cats. Its reverse transcriptase is structurally related to that of HIV, so NRTI activity is biologically plausible. Published veterinary studies have used lamivudine as part of combination regimens (for example with zidovudine) in naturally infected cats, and an in vitro study tested zidovudine, lamivudine and abacavir against FIV replication.
+
+Because the human indication (HIV/AIDS) is already established, this prediction is best read as support for veterinary use rather than a new human therapy. The evidence comes from animal studies and is not human clinical evidence.
+
+Other predictions for this drug were also reviewed and are weaker:
+- **Simian immunodeficiency virus infection** (score 99.93%, L4): macaque studies support the mechanism but mainly mirror the existing HIV indication. Several retrieved papers are only tangentially related.
+- **Chronic hepatitis C virus infection** (score 99.11%, L4): lamivudine has no established activity against HCV, which replicates through a different polymerase. The literature mostly reflects co-mention of HBV and HCV in general reviews, and direct-acting antivirals already treat HCV effectively.
+- **A genetic neurodevelopmental disorder with ataxic gait** (99.93%) and **obsolete familial combined hyperlipidemia** (99.63%): computational predictions only, with no trials, no literature and no apparent mechanistic link.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Phase 3 | Completed | 13 | Dolutegravir + abacavir/lamivudine PK/safety study in HIV-1 ART-naïve adults (Grade C — species mismatch, human HIV trial, not related to feline disease) |
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + abacavir/lamivudine vs Atripla in HIV-1 ART-naïve adults (Grade C — species mismatch) |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Dolutegravir dose-selection with abacavir/lamivudine or tenofovir/emtricitabine in HIV-1 adults (Grade C — species mismatch) |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Completed | 145 | Boosted darunavir + lamivudine vs tenofovir-based regimens in HIV-1 adults (Grade C — species mismatch) |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir vs raltegravir with dual NRTI (incl. abacavir/lamivudine) in HIV-1 adults (Grade C — species mismatch) |
+Currently no related clinical trials registered.
 
-**Note:** All 5 trials are human HIV-1 studies with no relevance to feline disease; they were most likely captured due to keyword overlap on "immunodeficiency virus" and lamivudine's presence in the regimen.
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Cohort | Journal of feline medicine and surgery | Long-term antiretroviral therapy follow-up (initially zidovudine, ART) in FIV-infected cats |
-| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Cohort | Viruses | Compared zidovudine, zidovudine + interferon-α, zidovudine + lamivudine, and zidovudine + valproic acid in naturally FIV-infected cats over 1 year |
-| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | Review | Veterinary immunology and immunopathology | AZT/3TC combination showed additive-to-synergistic anti-FIV activity in primary PBMCs, but not in chronically infected cells |
-| [11327469](https://pubmed.ncbi.nlm.nih.gov/11327469/) | 2001 | In-vitro | American journal of veterinary research | Characterized 3TC-resistant FIV pol gene mutants and replication kinetics vs wild-type FIV |
-| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Preclinical/Animal | Antiviral research | Combined zidovudine + lamivudine + abacavir suppressed FIV replication in vitro |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Cohort | Viruses | Compared zidovudine alone, zidovudine + interferon-α, zidovudine + lamivudine, and zidovudine + valproic acid in naturally FIV-infected cats in the late asymptomatic stage, with one year of follow-up (clinical status, viral load, CD4+/CD8+ ratio) |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Cohort | Journal of Feline Medicine and Surgery | Follow-up of long-term (5-6 years) antiretroviral therapy in FIV-infected cats, starting with zidovudine |
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Preclinical/Animal study | Antiviral Research | Combined zidovudine, lamivudine and abacavir suppressed FIV replication in vitro; supports the cat as a model for HIV drug combinations |
+
+---
 
 ## New Zealand Market Information
 
-Lamivudine is currently **not marketed** in New Zealand under this evidence pack (0 authorizations on file), so no product/authorization table is available.
+All four licences are cancelled, and no approved indication text is available.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 307696 | Zeffix | Oral liquid 5 mg/ml | Not available (cancelled) |
+| 2638045 | Lamivudine Viatris | Tablet 150 mg | Not available (cancelled) |
+| 474320 | 3TC | Oral liquid 10 mg/ml | Not available (cancelled) |
+| 2399369 | Zetlam | Tablet 100 mg | Not available (cancelled) |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications could not be retrieved. Please refer to the package insert for safety information.
+
+- **Conditions flagged in the knowledge graph (not label text)**: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, lactic acidosis, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), myopathy, myositis, dermatomyositis, hypertriglyceridemia, and obesity-related disorders. These should be checked against the official label before any use.
+- **Drug Interactions**: 100 interactions were found in total. The moderate-level ones listed are lactitol, mannitol, naltrexone, orlistat and sorbitol. Other listed interactions (for example metformin, cimetidine, omeprazole, pantoprazole, morphine and vancomycin) have an unknown severity level.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction is a veterinary indication (feline FIV), not a human disease, and falls outside the scope of human drug repurposing. The associated "clinical trial" evidence consists entirely of human HIV-1 trials misattributed via keyword matching, and the only genuinely relevant evidence is limited to small, older veterinary studies. Note also that the remaining ranked candidates for this drug are similarly weak: simian immunodeficiency virus infection (rank 2, L4) reflects existing preclinical HIV drug-development models rather than a new indication; the rare neurodevelopmental disorder (rank 3, L5) and "obsolete" familial combined hyperlipidemia (rank 4, L5) have zero supporting trials or literature and no plausible mechanism; and chronic Hepatitis C (rank 5, L4) is mechanistically implausible since lamivudine only inhibits reverse-transcribing viruses, with the cited evidence largely mislabeled Hepatitis B data.
+The top prediction is supported only by small veterinary cohort studies and in vitro work, with no registered clinical trials. It does not represent a new human indication. In New Zealand, all lamivudine licences are cancelled, and the safety review is blocked because package insert data are missing.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank (DG002)
-- TFDA/label warnings and contraindications (DG001, currently blocking S1 safety screening)
-- A re-run of the TxGNN indication list restricted to human-disease ontology terms, to filter out veterinary/animal-model entries and disease-ontology mismatches (e.g., HBV/HCV mislabeling)
+- Download and parse the Medsafe package insert for warnings and contraindications (a blocking gap)
+- Detailed mechanism of action data from DrugBank
+- A decision on whether the veterinary use of an NRTI is in scope, since the evidence does not support a new human indication
+- Controlled veterinary trials in FIV-infected cats if the veterinary direction is pursued
+- Clarification of the licensing status, because all four New Zealand licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

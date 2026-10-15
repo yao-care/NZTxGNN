@@ -2,7 +2,7 @@
 layout: default
 title: Ramipril
 parent: Model Prediction Only (L5)
-nav_order: 299
+nav_order: 398
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,60 +29,90 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ramipril: From Hypertension to Pulmonary Hypertension with Unclear Multifactorial Mechanism
+# Ramipril: From Hypertension to Pulmonary Hypertension (Hypoxia/Lung Disease-Related)
 
 ## One-Sentence Summary
 
-Ramipril is a long-established ACE inhibitor, classically used to treat hypertension and reduce cardiovascular risk. The TxGNN model predicts it may be effective for **pulmonary hypertension with unclear multifactorial mechanism**, but this direction currently has **no supporting clinical trials and no supporting literature** — the prediction stands on the model score alone.
+Ramipril is an ACE inhibitor originally used for hypertension and for stroke and cerebrovascular disease.
+The TxGNN model predicts it may be useful for **pulmonary hypertension owing to lung disease and/or hypoxia**, but there are **0 clinical trials** and only **indirect preclinical literature** (1 rat study directly on hypoxic pulmonary hypertension) behind this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (general ACE-inhibitor class knowledge; the evidence pack itself has no `original_indications` recorded) |
-| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
+| Original Indication | Hypertension, stroke and cerebrovascular disease (the New Zealand licence records contain no approved indication text; these come from the knowledge-graph indication data) |
+| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia (the top-ranked prediction, "pulmonary hypertension with unclear multifactorial mechanism", has no supporting literature at all; this report focuses on the second-ranked prediction, which has the most relevant evidence) |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L4 (preclinical evidence only) |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 4 (all cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (`original_moa: [Data Gap]`). Based on general pharmacological knowledge, ramipril is a member of the ACE inhibitor class, which blocks conversion of angiotensin I to angiotensin II, lowering systemic vascular resistance and blood pressure. Its efficacy in hypertension and cardiovascular risk reduction is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Ramipril is known to be an angiotensin-converting enzyme (ACE) inhibitor, so it reduces angiotensin II production and lowers vascular tone through the renin-angiotensin system (RAS). Its efficacy in hypertension and in stroke prevention is established.
 
-Pulmonary hypertension "with unclear multifactorial mechanism" corresponds to WHO Group 5 PH — a heterogeneous catch-all category (e.g., metabolic, haematologic, or systemic disorders) rather than a single well-defined pathway. Because RAAS activation can contribute to pulmonary vascular remodeling in some PH subtypes, an ACE inhibitor mechanism is not implausible in principle. However, Group 5 PH's mechanistic diversity makes a specific, reliable link to ACE inhibition speculative rather than established.
+The link to pulmonary hypertension is that RAS activity may also affect the tone and remodelling of pulmonary blood vessels. The most relevant study is a 1996 rat experiment (PMID 9200213), in which ramipril given during three weeks of chronic hypoxia lowered baseline perfusion pressure in the lungs and attenuated the effects of hypoxia on pulmonary vessels. This fits a RAS-mediated mechanism.
 
-Critically, this is not corroborated by any external evidence in the pack: no clinical trials, no literature, and no ICTRP records were found for ramipril in this indication. The high TxGNN score alone should be read as a computational signal, not as confirmation of biological plausibility.
+This support is weak. The result comes from a single animal study and has not been confirmed in humans. The other retrieved papers concern myocardial infarction, kidney capillaries and cardiac remodelling, not pulmonary hypertension. ACE inhibitors are not an established therapy for pulmonary hypertension.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Only the publications that bear on this indication are listed. The rest of the retrieved set (for example the etomidate case report, the toxoplasmosis case report and the endometriosis study) is unrelated to pulmonary hypertension.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [9200213](https://pubmed.ncbi.nlm.nih.gov/9200213/) | 1996 | Preclinical (rat) | Physiological Research | Ramipril 10 mg/kg daily during 3 weeks of chronic hypoxia attenuated the effects of hypoxia on pulmonary blood vessels and lowered baseline perfusion pressure |
+| [15671045](https://pubmed.ncbi.nlm.nih.gov/15671045/) | 2005 | Preclinical / human tissue | European Heart Journal | ACE2 expression rises after myocardial infarction in rats and human failing hearts; background on RAS biology, not pulmonary hypertension |
+| [12069940](https://pubmed.ncbi.nlm.nih.gov/12069940/) | 2002 | Preclinical (rat) | Am J Physiol Regul Integr Comp Physiol | Transgenic rats with an active RAS showed somewhat better cardiac function after hypoxia-reoxygenation; indirect relevance only |
+| [19380417](https://pubmed.ncbi.nlm.nih.gov/19380417/) | 2009 | Preclinical / cohort | Cardiovascular Research | ACE inhibition promoted endothelial progenitor cells and neoangiogenesis in cardiac pressure overload; indirect relevance only |
+| [24907870](https://pubmed.ncbi.nlm.nih.gov/24907870/) | 2014 | Preclinical (rat) | Basic Research in Cardiology | Soluble guanylyl cyclase activation improved cardiac remodelling after myocardial infarction beyond ACE inhibition; not about pulmonary hypertension |
+
+## New Zealand Market Information
+
+All four licences are cancelled, and the records contain no approved indication text.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2635747 | Tryzan | Capsule 1.25 mg | Not recorded (cancelled) |
+| 2635755 | Tryzan | Capsule 2.5 mg | Not recorded (cancelled) |
+| 2635763 | Tryzan | Capsule 5 mg | Not recorded (cancelled) |
+| 2635771 | Tryzan | Capsule 10 mg | Not recorded (cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from knowledge-graph drug-disease edges, not label text)**: kidney disease, liver disease, gallbladder disease, renal artery obstruction, hypotensive disorder, hereditary angioedema (including C1 inhibitor deficiency), neutropenia and agranulocytosis, systemic lupus erythematosus (including paediatric), connective tissue disease, scleroderma and systemic sclerosis, bone disease, cartilage disease, and pyoureter.
+- **Drug Interactions**: The interaction query returned 100 records. The ones listed in the data compiled for this report include:
+  - **Major**: potassium citrate and potassium bicarbonate (risk of raised potassium).
+  - **Moderate**: corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), aspirin, morphine, bupropion, dronabinol, bowel-preparation products (picosulfuric acid, polyethylene glycol with electrolytes), and several antidiabetic drugs (metformin, glimepiride, chlorpropamide, alogliptin, and the SGLT2 inhibitors canagliflozin, dapagliflozin and empagliflozin).
+- **Other considerations from the prediction data**: ACE inhibitors carry a risk of acute renal failure in bilateral renal artery stenosis.
 
-*(Note: `safety.ddi.query_status` is `not_found`, and TFDA/Medsafe package-insert warnings and contraindications are recorded as a **Blocking** data gap — DG001 — meaning safety cannot yet be formally assessed at Stage 1.)*
+The package insert warnings and contraindications could not be retrieved, so the label should be checked before any further work.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (pulmonary hypertension with unclear multifactorial mechanism) has zero clinical trial or literature support and is not marketed in New Zealand — this is a pure L5 model prediction with no independent evidence to act on.
+The prediction score is very high (99.93%), but the support is limited to a single animal study from 1996, with no clinical trials and no human data. ACE inhibitors are not an established therapy for pulmonary hypertension. In addition, ramipril has no currently valid licence in New Zealand.
+
+Other predictions in the list were also reviewed. None has trial support:
+- Intracerebral haemorrhage (L4) has only indirect animal data.
+- Cerebral artery occlusion (L4) has one small human cerebral blood flow study and mixed animal results; it is the most promising candidate for further research, as it is consistent with ramipril's existing stroke-prevention role.
+- Malignant renovascular hypertension and malignant hypertensive renal disease (both L5) are mechanistically plausible but have no evidence, and the first carries a renal safety concern.
+- Prinzmetal angina, Braddock syndrome, ABri amyloidosis and brain stem infarction (all L5) have no ramipril-specific evidence.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Formal original indication history for ramipril (not present in this evidence pack)
-- Targeted literature/trial search specifically on ramipril in WHO Group 5 pulmonary hypertension, since the general PubMed pull returned no hits
-
-**Additional note:** other predictions in this evidence pack carry materially more evidence than the top rank — e.g., rank 8 (intracerebral hemorrhage, 4 literature incl. a ramipril-specific rat model study) and rank 10 (cerebral artery occlusion, 1 completed Phase 2 trial + 5 literature items directly involving ramipril). If further investigation is prioritized, these may warrant a separate evaluation ahead of the top-ranked pulmonary hypertension prediction.
+- Package insert warnings and contraindications (from Medsafe), as the safety data are currently incomplete
+- Mechanism of action data for ramipril (from DrugBank)
+- Confirmation of the 1996 rat findings in modern pulmonary hypertension models
+- A systematic literature search for human studies of ACE inhibitors in pulmonary hypertension
+- Clarification of the licensing situation, since all four New Zealand licences are cancelled
+- A safety plan for patients with renal impairment, renal artery stenosis, hypotension or angioedema risk
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

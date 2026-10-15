@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Baclofen
-parent: Moderate Evidence (L3-L4)
-nav_order: 43
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 56
+evidence_level: L5
 indication_count: 2
 ---
 
 # Baclofen
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,68 +33,88 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Baclofen is a selective GABA-B receptor agonist primarily used to treat spasticity and muscle rigidity associated with neurological conditions such as multiple sclerosis and spinal cord injury.
-The TxGNN model predicts it may be effective for **Attention Deficit-Hyperactivity Disorder (ADHD)**, currently supported by **0 clinical trials** and **10 publications**, predominantly at preclinical or indirect evidence levels.
-A second predicted indication — **nicotine dependence** — carries substantially stronger clinical support (3 trials, 20 publications) and may represent the more actionable near-term repurposing opportunity.
+Baclofen is a GABA-B receptor agonist that is widely known as a muscle relaxant, but no approved indication text is available in the New Zealand licence records compiled for this report.
+The TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder (ADHD)**, but there are **no registered clinical trials** and none of the **9 publications** retrieved studies baclofen in ADHD.
+A second prediction, **nicotine dependence**, has stronger support (3 Phase 2 trials and 20 publications) and is noted below as a more promising direction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Spasticity (no New Zealand regulatory record on file) |
-| Predicted New Indication | Attention Deficit-Hyperactivity Disorder (ADHD) |
+|------|------|
+| Original Indication | Not stated in the licence records (the three licences are for oral tablet and intrathecal injection forms) |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 99.32% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 3 (all cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Baclofen is a selective GABA-B receptor agonist that inhibits neuronal excitability by activating both presynaptic and postsynaptic GABA-B receptors across the spinal cord and brain. Activation of presynaptic GABA-B receptors reduces the release of excitatory neurotransmitters — including glutamate and monoamines such as dopamine and noradrenaline. This inhibitory modulation of monoaminergic tone forms the theoretical bridge between Baclofen's established use in spasticity and its proposed application in ADHD.
+Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, baclofen is a GABA-B receptor agonist. GABA-B activation can modulate dopaminergic and glutamatergic signalling in frontostriatal circuits involved in impulsivity and attention.
 
-ADHD is characterised by dysregulation of dopaminergic and noradrenergic signalling in the prefrontal cortex and fronto-striatal circuits. Baclofen's GABA-B agonism could theoretically dampen the excessive or erratic firing of these pathways, improving sustained attention, impulse control, and executive function. Indirect mechanistic support comes from studies using spontaneously hypertensive rats (SHR) — a validated preclinical ADHD model — in which GABA-B receptor stimulation modulated cortical EEG oscillations in ways consistent with normalising attention-related neural activity.
+This link is plausible but unproven. The retrieved literature is dominated by Tourette syndrome and tic disorder reviews, off-label methylphenidate prescribing, and rodent studies on impulsivity, hippocampal EEG, social play and effort-based decision-making. None of these tests baclofen in ADHD directly. The very high model score therefore reflects network-based association rather than demonstrated clinical evidence.
 
-However, the available human literature where Baclofen appears in ADHD-adjacent contexts relates primarily to comorbid conditions such as Tourette syndrome and autism spectrum disorders, where ADHD symptoms are secondary targets rather than the primary endpoint. A direct, prospectively tested mechanistic link between GABA-B agonism and ADHD core symptoms — inattention, hyperactivity, and impulsivity — has not yet been established in clinical trials.
+For context, the second predicted indication, **nicotine dependence** (score 99.19%), has a clearer mechanistic rationale. GABA-B activation in the mesolimbic pathway reduces dopamine release in the ventral tegmental area and nucleus accumbens, dampening nicotine reward, craving and withdrawal. Rodent studies (PMID 18682277, 24553576) support this.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Baclofen in ADHD.
+Currently no related clinical trials registered for ADHD.
+
+For reference, the nicotine dependence prediction has three Phase 2 trials:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01821560](https://clinicaltrials.gov/study/NCT01821560) | Phase 2 | Completed | 44 | Baclofen effects on brain and behavioural responses to smoking cues (fMRI, genetics); mechanistic rather than a cessation efficacy trial |
+| [NCT00257894](https://clinicaltrials.gov/study/NCT00257894) | Phase 2 | Terminated | 41 | Baclofen effect on smoking urge, withdrawal and reinforcement in moderate to heavy smokers |
+| [NCT01228994](https://clinicaltrials.gov/study/NCT01228994) | Phase 2 | Terminated | 6 | Randomised trial of baclofen vs placebo for smoking abstinence; too few participants for interpretable results |
 
 ---
 
 ## Literature Evidence
 
+None of the publications below tests baclofen in ADHD. They are the closest retrieved material.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35345730](https://pubmed.ncbi.nlm.nih.gov/35345730/) | 2022 | Systematic Review / Meta-analysis | Cureus | Reviews behavioural interventions, antipsychotics, and alpha-agonists for tics in Tourette's syndrome; ADHD is a major comorbidity addressed indirectly, supporting shared dopaminergic/GABAergic targets |
-| [30122296](https://pubmed.ncbi.nlm.nih.gov/30122296/) | 2019 | Observational / Clinical | L'Encéphale | Documents supervised off-label methylphenidate prescribing in adult ADHD; highlights pharmacotherapy gaps that Baclofen might theoretically address |
-| [26366961](https://pubmed.ncbi.nlm.nih.gov/26366961/) | 2015 | Review | Clinical Neuropharmacology | Reviews mood stabilisers in children and adolescents with ASD; attention deficits are highlighted as a cross-diagnostic pharmacotherapy target shared with ADHD |
-| [24295630](https://pubmed.ncbi.nlm.nih.gov/24295630/) | 2013 | Review | International Review of Neurobiology | Reviews emerging treatments for Tourette syndrome including Baclofen; ADHD comorbidity treated as a secondary target within the same neurobiological framework |
-| [10342599](https://pubmed.ncbi.nlm.nih.gov/10342599/) | 1999 | Review | Journal of Child Neurology | 450 patients with tics/Tourette's treated with Baclofen and botulinum toxin; earliest substantial clinical exposure dataset for Baclofen in ADHD-comorbid neurological conditions |
-| [21300040](https://pubmed.ncbi.nlm.nih.gov/21300040/) | 2011 | Animal / Preclinical | Brain Research | EEG responses to neurotransmitter agonists in SHR rats (ADHD model) vs. controls; GABA-B agonism modulates frontal cortex and hippocampal EEG in attention-relevant patterns |
-| [24062084](https://pubmed.ncbi.nlm.nih.gov/24062084/) | 2014 | Animal / Preclinical | Psychopharmacology | α2A-adrenergic stimulation in ventral hippocampus reduces impulsive decision-making; mechanistically parallel to GABA-B modulation strategies in ADHD |
-| [11393328](https://pubmed.ncbi.nlm.nih.gov/11393328/) | 2001 | Review | Paediatric Drugs | Comprehensive review of Tourette syndrome management; contextualises noradrenergic and dopaminergic circuits as shared therapeutic targets with ADHD |
-| [24103016](https://pubmed.ncbi.nlm.nih.gov/24103016/) | 2013 | Animal / Preclinical | European Journal of Neuroscience | Habenula integrity required for social play in rats; habenula regulates monoaminergic tone relevant to ADHD reward and motivation circuitry |
-| [24496320](https://pubmed.ncbi.nlm.nih.gov/24496320/) | 2014 | Animal / Preclinical | Neuropsychopharmacology | Anterior cingulate cortex and basolateral amygdala contributions to cognitive effort-based decision-making; deficits in this domain are characteristic of ADHD and depression |
+|------|-----|------|------|---------|
+| [35345730](https://pubmed.ncbi.nlm.nih.gov/35345730/) | 2022 | Review | Cureus | Behavioural, antipsychotic and alpha-agonist treatments for tics in Tourette syndrome, which often co-occurs with ADHD |
+| [10342599](https://pubmed.ncbi.nlm.nih.gov/10342599/) | 1999 | Review | J Child Neurol | 450 patients with tics/Tourette treated with baclofen/botulinum toxin type A; tic severity rated with the Yale scale |
+| [30122296](https://pubmed.ncbi.nlm.nih.gov/30122296/) | 2019 | Review | L'Encephale | Supervised off-label prescribing of methylphenidate in adult ADHD |
+| [24295630](https://pubmed.ncbi.nlm.nih.gov/24295630/) | 2013 | Review | Int Rev Neurobiol | Emerging treatments for Tourette syndrome |
+| [11393328](https://pubmed.ncbi.nlm.nih.gov/11393328/) | 2001 | Review | Paediatr Drugs | Clinical features and management of Tourette syndrome |
+| [24062084](https://pubmed.ncbi.nlm.nih.gov/24062084/) | 2014 | Preclinical | Psychopharmacology | α2A-adrenergic stimulation in the ventral hippocampus reduces impulsive decision-making in rats (guanfacine) |
+| [21300040](https://pubmed.ncbi.nlm.nih.gov/21300040/) | 2011 | Preclinical | Brain Res | EEG effects of neurotransmitter agonists in spontaneously hypertensive rats (ADHD model) |
+| [24496320](https://pubmed.ncbi.nlm.nih.gov/24496320/) | 2014 | Preclinical | Neuropsychopharmacology | Anterior cingulate and amygdala roles in cognitive effort decision-making in rodents |
 
 ---
 
 ## New Zealand Market Information
 
-Baclofen is not currently authorised or marketed in New Zealand. No product licences are on record.
+All three licences are cancelled and none has approved indication text on record.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 403903 | Pacifen | Tab 10 mg | Not recorded (cancelled) |
+| 2688417 | Sintetica Baclofen Intrathecal | Inj 2 mg per ml, 5 ml ampoule | Not recorded (cancelled) |
+| 2162334 | Lioresal Intrathecal | Inj 0.05 mg per ml, 1 ml ampoule | Not recorded (cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph** (not label text): epilepsy, kidney disease, psychotic and schizophrenia-spectrum disorders, other mental disorders, stroke and cerebrovascular disorders, cerebral infarction, autonomic nervous system disease (including autonomic dysreflexia and Horner syndrome), pyoureter and disease of the bladder neck. These deserve particular attention in an ADHD population, where psychiatric comorbidity and seizure risk are relevant.
+- **Drug Interactions** (100 records found; main ones listed):
+  - Major: morphine, liposomal morphine
+  - Moderate: dronabinol, nabilone, metoclopramide, opium, sibutramine, difenoxin, diphenoxylate
+  - Further interactions of unknown severity were also recorded (e.g. metformin, omeprazole, pantoprazole, glimepiride).
+
+Please refer to the package insert for full warnings and contraindications.
 
 ---
 
@@ -103,23 +123,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The evidence base for Baclofen in ADHD remains entirely at the preclinical and indirect level (L4). With no registered clinical trials specifically targeting ADHD, and a literature base that addresses ADHD only as a comorbidity in Tourette syndrome or autism spectrum disorder contexts, there is insufficient human clinical data to support advancing to a formal repurposing evaluation at this time.
+The ADHD prediction rests on model score alone (L5). No clinical trials exist, no retrieved publication studies baclofen in ADHD, and the drug has no valid New Zealand licence. By contrast, nicotine dependence (L2, three Phase 2 trials) is a better-supported research direction, though two of those trials were terminated early.
 
 **To proceed, the following is needed:**
-- At least one Phase 1/2 clinical trial directly investigating Baclofen in ADHD patients (symptom reduction as primary endpoint)
-- Formal MOA documentation confirming GABA-B receptor modulation of prefrontal dopaminergic and noradrenergic circuits in ADHD-relevant concentrations
-- Safety profile, contraindications, and drug interaction data for the New Zealand regulatory context
-- Differentiation study separating Baclofen's effects on ADHD core symptoms from its effects on comorbid tic or anxiety disorders
-
----
-
-### ⚑ Secondary Prediction to Note — Nicotine Dependence (L2, Recommended: Research Question)
-
-The TxGNN model also predicts Baclofen as a candidate for **nicotine dependence** (score: 99.19%), and this indication carries significantly stronger evidence. Three Phase 2 clinical trials were identified, including **one completed trial** (NCT01821560, n=44) examining Baclofen's effects on brain activity and smoking behaviour in cigarette smokers. Twenty publications are on record, spanning animal mechanistic studies, a randomised conference trial, and multiple pharmacotherapy reviews.
-
-The mechanistic rationale is well-characterised: Baclofen suppresses dopamine release in the nucleus accumbens by activating presynaptic GABA-B receptors at the ventral tegmental area (VTA), directly attenuating nicotine's reinforcing effects in the mesolimbic reward circuit. This pathway is essentially the same mechanism by which Baclofen has demonstrated efficacy in alcohol use disorder — itself an approved indication in France and several European countries.
-
-**This indication warrants a dedicated report and should be escalated to decision stage S2.** It represents a more mature repurposing case with translatable mechanism, completed human pilot data, and a clear analogy to an already-approved use.
+- Targeted literature search for baclofen in ADHD, in humans and in preclinical models
+- Mechanism of action data to test the GABA-B and frontostriatal hypothesis
+- Package insert warnings and contraindications from Medsafe, as safety screening cannot proceed without them
+- For nicotine dependence: results and termination reasons for NCT00257894 and NCT01228994, and the outcomes of NCT01821560
+- Clarification of the regulatory pathway, since all current New Zealand licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Mupirocin
 parent: Model Prediction Only (L5)
-nav_order: 235
+nav_order: 313
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,77 +29,59 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Mupirocin: From Topical Skin/Nasal Infection to Pleural Empyema
+# Mupirocin: From Impetigo to Pleural Empyema
 
 ## One-Sentence Summary
 
-Mupirocin is a topical antibacterial agent traditionally used for skin and nasal bacterial infections (e.g., impetigo, MRSA nasal decolonization); no original indication record was found in this evidence pack's regulatory data. The TxGNN model predicts it may be effective for **Pleural Empyema**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal with no confirmatory evidence.
-
----
+Mupirocin is a topical antibiotic originally used to treat impetigo and bullous impetigo.
+The TxGNN model predicts it may be effective for **pleural empyema**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the computational model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the evidence pack's license data (0 licenses on file); per the mechanistic rationale, Mupirocin is known clinically as a topical antibacterial for skin/nasal bacterial infections |
-| Predicted New Indication | Pleural Empyema (disease) |
+| Original Indication | Impetigo, bullous impetigo (from the TxGNN knowledge graph; no approved indication text is available for the New Zealand licence) |
+| Predicted New Indication | Pleural empyema |
 | TxGNN Prediction Score | 99.49% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| New Zealand Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 |
+| New Zealand Market Status | ✓ Marketed |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source database (DrugBank MOA field is a confirmed data gap, DG002). Based on known pharmacology, Mupirocin inhibits bacterial isoleucyl-tRNA synthetase, blocking protein synthesis in gram-positive organisms — including *Staphylococcus aureus* and MRSA. This is the basis for its established topical use in skin and nasal infections.
+Detailed mechanism of action data is not currently available in the data compiled for this report. From general pharmacological knowledge, mupirocin inhibits bacterial isoleucyl-tRNA synthetase. It is active mainly against *Staphylococcus aureus* (including MRSA) and some streptococci. Its efficacy in skin infections such as impetigo is established.
 
-The proposed mechanistic link to pleural empyema is that empyema is frequently caused by gram-positive organisms such as *S. aureus*, against which Mupirocin has demonstrated antibacterial activity — creating a superficial pharmacological rationale for the prediction.
+These organisms are also among the pathogens found in pleural empyema, which is the plausible link behind the prediction. However, mupirocin is a topical agent with no meaningful systemic exposure. It is not suited to treating a deep-seated infection of the pleural space. The high TxGNN score (99.49%) is a computational output only. It should not be read as evidence of clinical benefit.
 
-However, this link has a critical gap: Mupirocin has extremely low systemic bioavailability and is rapidly metabolized to inactive monic acid when absorbed. It is clinically formulated and used only as a topical (skin) or intranasal product, and there is no evidence it can reach therapeutic bactericidal concentrations in the pleural space. The mechanism (antibacterial activity against likely empyema pathogens) is plausible in isolation, but the route of administration and pharmacokinetics required to treat a deep pleural infection are fundamentally incompatible with the drug's current formulation. The same caveat applies to the secondary prediction, punctate epithelial keratoconjunctivitis (TxGNN score 99.10%): most cases are viral or idiopathic, Mupirocin has no antiviral activity, and no ophthalmic formulation or ocular penetration data exists for this drug. Both predictions should be treated as hypothesis-generating signals only, pending route-of-administration and pharmacokinetic feasibility assessment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
-
----
+A second prediction, **punctate epithelial keratoconjunctivitis** (score 99.10%), also has no supporting trials or literature. This condition is often viral (e.g. adenovirus), so an antibacterial would have limited relevance. The marketed product is for skin or nasal use, and ocular safety and tolerability are not established.
 
 ## New Zealand Market Information
 
-No marketing authorization records were found for Mupirocin in New Zealand in this evidence pack (market status: Not marketed / Not Marketed; 0 total licenses on file).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 523712 | Bactroban | Oint 2% | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signal**: The TxGNN knowledge graph records a contraindication link with **dermatitis**. This comes from graph data, not from package insert text.
+- **Drug Interactions**: The interaction query returned 100 entries, all with an unclassified severity level. Examples include calcitriol, clotrimazole, morphine, metformin, pantoprazole, omeprazole, vancomycin, triamcinolone, prednisone and simvastatin. Clinical significance has not been graded.
 
-*(Note: the underlying TFDA/NZ package-insert warning and contraindication data are flagged as a Blocking data gap (DG001) in this evidence pack — this must be resolved before any S1 safety pre-assessment can proceed.)*
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Both predicted indications are supported only by TxGNN model scores (Evidence Level L5), with zero clinical trials and zero literature identified, and the mechanistic rationale for each is undermined by a fundamental route-of-administration/pharmacokinetic mismatch (topical-only drug vs. deep pleural or ocular target tissue). Combined with a Blocking data gap on safety/label information and the drug's non-marketed status in New Zealand, there is currently insufficient basis to advance beyond an early screening stage.
+The prediction is supported only by the model score, with no clinical trials or literature. Mupirocin is topical with negligible systemic exposure, so it is a poor mechanistic fit for a deep pleural infection. The same applies to the ocular indication, for which no ophthalmic formulation exists.
 
 **To proceed, the following is needed:**
-- TFDA/NZ package insert warnings and contraindications (resolves Blocking gap DG001)
-- Confirmed mechanism of action data via DrugBank or primary literature (resolves gap DG002)
-- Pharmacokinetic/tissue-penetration data assessing whether any Mupirocin formulation (topical, or a hypothetical systemic/ocular formulation) could reach therapeutic concentrations in the pleural space or ocular surface
-- Preclinical (in vitro/in vivo) evidence of efficacy specifically in empyema or keratoconjunctivitis models
-- Formulation feasibility assessment if repurposing would require a new route of administration distinct from current topical/intranasal use
+- Mechanism of action data (for example from DrugBank)
+- Medsafe package insert warnings and contraindications. This gap blocks safety screening.
+- Evidence that a suitable route of administration exists for the proposed indication
+- Any clinical or preclinical studies in the predicted indications
+- Clarification of the approved indication text for the New Zealand licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

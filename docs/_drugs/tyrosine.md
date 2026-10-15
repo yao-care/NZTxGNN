@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tyrosine
-parent: Moderate Evidence (L3-L4)
-nav_order: 355
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 470
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tyrosine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,100 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-Using the report template directly (this is a template-driven deliverable, not an open-ended coding/debugging task — no other skill fits better).
-
-One judgment call worth flagging up front: the Evidence Pack ranks 10 TxGNN-predicted indications for Tyrosine, but `predicted_indications[0]` ("cauda equina syndrome") is explicitly annotated in the pack's own rationale as having **no treatment-mechanism link** — the only supporting literature is an unrelated case report. Several other top-ranked entries (hyperthyroidism, hyperthyroxinemia, TRβ resistance, neovascular glaucoma) are flagged by the pack itself as artifacts of embedding proximity or literal name confusion with "tyrosine kinase inhibitor" drugs. The only entry that reaches decision stage S1 with a coherent (if unresolved) mechanism is rank 5, **Postural Orthostatic Tachycardia Syndrome (POTS)**. I built the report around that entry rather than mechanically taking rank 1, since reporting a rationale the evidence pack itself refutes would be misleading. This is noted explicitly below.
-
----
-
-# Tyrosine: From Nutritional Amino Acid Supplement to Postural Orthostatic Tachycardia Syndrome (Research Signal)
+# Tyrosine: From an Unspecified Original Indication to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Tyrosine is a non-essential amino acid and precursor for catecholamine (dopamine/norepinephrine/epinephrine) synthesis; it is not currently marketed as an approved medicine in New Zealand and has no on-file original therapeutic indication.
-Among 10 TxGNN-predicted indications in this evidence pack, only **Postural Orthostatic Tachycardia Syndrome (POTS)** reaches a research-grade evidence tier (L4), supported by **1 clinical trial** and **4 publications**; the remaining 9 predictions (including the top TxGNN score, cauda equina syndrome) are explicitly flagged in the source data as lacking any credible mechanistic link.
-Overall, the evidence is not sufficient to support active repurposing at this time.
-
----
+Tyrosine is an amino acid and precursor of catecholamines and thyroid hormones. Its only New Zealand authorization (a powder sachet product) has been cancelled, and no approved indication is recorded.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting this specific indication.
+Evidence is very weak, so the recommendation is to hold.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established — Tyrosine is not currently marketed as an approved medicine in New Zealand; no original indication is on file |
-| Predicted New Indication | Postural Orthostatic Tachycardia Syndrome (POTS) |
-| TxGNN Prediction Score | 99.46% |
-| Evidence Level | L4 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Original Indication | Not recorded (the Medsafe license has no approved indication text) |
+| Predicted New Indication | Cauda equina syndrome |
+| TxGNN Prediction Score | 99.77% |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Tyrosine is not available in this evidence pack (Data Gap). Based on known pharmacology, tyrosine is the direct amino-acid substrate for tyrosine hydroxylase, the rate-limiting enzyme in catecholamine biosynthesis (dopamine → norepinephrine → epinephrine). This gives a plausible biochemical rationale for a role in POTS, a syndrome whose pathophysiology includes a "hypoadrenergic" subtype driven by insufficient norepinephrine synthesis — in that subtype, supplementing the biosynthetic precursor is mechanistically coherent.
+Currently, detailed mechanism of action data is not available. Based on known information, tyrosine is a catecholamine precursor (dopamine, norepinephrine) and a building block of thyroid hormones. No original indication is recorded in the New Zealand license data, so the link between an original use and the new indication cannot be assessed.
 
-However, the literature captured alongside this prediction cuts the other way for at least one subtype: PMID 39063020 reports benefit from **alpha-methyl-p-tyrosine (AMPT/metyrosine)**, a tyrosine hydroxylase *inhibitor* that lowers catecholamine synthesis, used successfully in a hyperadrenergic-pattern fatigue syndrome. That is the pharmacologic opposite of tyrosine supplementation. This means the direction of benefit is subtype-dependent, and the current evidence pack cannot distinguish which POTS patients would benefit from more tyrosine versus less catecholamine synthesis overall.
+For cauda equina syndrome, the data compiled for this report found no mechanistic link. The condition is a compressive injury to the lumbosacral nerve roots and is treated surgically. The high score (0.998) reflects a graph-based association only, and no study connects tyrosine to nerve-root injury.
 
-By contrast, most of the other 9 TxGNN-ranked predictions in this pack (cauda equina syndrome, obsolete neurogenic bladder, angle-closure/neovascular/traumatic glaucoma, hyperthyroidism, hyperthyroxinemia, TRβ resistance) are explicitly annotated as lacking a real mechanistic bridge — several are driven by literal name overlap between "tyrosine" and unrelated "tyrosine kinase inhibitor" drugs (e.g., axitinib, TKIs in the hyperthyroidism and neovascular glaucoma trial evidence), and others (hyperthyroidism, hyperthyroxinemia, TRβ resistance) involve supplying a hormone precursor to treat a state of hormone *excess* — a direction that does not make pharmacological sense. Tyrosine is a food-grade GRAS amino acid with a generally favorable safety background, which is the main reason POTS is framed as a research question rather than dismissed outright.
+Several other predicted indications were also reviewed (see the table below). None has convincing support. Two noteworthy points:
+- **Hyperthyroidism**: tyrosine is a substrate for thyroid hormone synthesis, so supplying it would not be expected to treat hormone excess and could theoretically worsen it.
+- **Postural orthostatic tachycardia syndrome (POTS)**: the only paper is a single case report using alpha-methyl-para-tyrosine, a tyrosine hydroxylase *inhibitor*. This is opposite pharmacology to tyrosine supplementation.
 
----
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Trials | Publications |
+|------|------|------|------|------|------|
+| 1 | Cauda equina syndrome | 99.77% | L5 | 0 | 0 |
+| 2 | Obsolete neurogenic bladder (disease) | 99.55% | L5 | 0 | 0 |
+| 3 | Angle-closure glaucoma | 99.54% | L5 | 0 | 4 |
+| 4 | Hyperthyroidism | 99.51% | L5 | 1 | 20 |
+| 5 | Postural orthostatic tachycardia syndrome | 99.46% | L4 | 0 | 1 |
+| 6 | Hyperthyroxinemia | 99.46% | L5 | 0 | 3 |
+| 7 | Resistance to thyroid hormone (TRβ mutation) | 99.40% | L5 | 0 | 4 |
+| 8 | Aqueous misdirection | 99.35% | L5 | 0 | 0 |
+| 9 | Traumatic glaucoma | 99.35% | L5 | 0 | 1 |
+| 10 | Neovascular glaucoma | 99.32% | L5 | 0 | 4 |
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials are registered for cauda equina syndrome.
+
+For the rank 4 prediction (hyperthyroidism), one trial exists, but it does not test tyrosine alone:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00580619](https://clinicaltrials.gov/study/NCT00580619) | Phase 1 | Completed | 170 | Studied the autonomic nervous system in chronic fatigue syndrome and the POTS subset, testing the hypothesis that sympathetic activation drives cardiovascular/inflammatory abnormalities; did not test tyrosine as an intervention (relevance grade B — related population/mechanism, not a direct tyrosine trial) |
-
----
+| [NCT06264544](https://clinicaltrials.gov/study/NCT06264544) | Not applicable | Not yet recruiting | 150 | Placebo-controlled trial of a zinc, selenium and L-tyrosine supplement to prevent thyrotoxicosis in adults with elevated TPOAb and the SEPP1 r25191G/A polymorphism. It is a combination supplement study and provides no efficacy evidence for tyrosine. |
 
 ## Literature Evidence
 
+Currently no related literature is available for cauda equina syndrome.
+
+Selected publications retrieved for other predicted indications (all indirect; none tests tyrosine as a treatment):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31412221](https://pubmed.ncbi.nlm.nih.gov/31412221/) | 2020 | Review | Annual Review of Medicine | Describes the three major POTS mechanisms — partial autonomic neuropathy, hypovolemia, and hyperadrenergic state — relevant to identifying which subtype tyrosine supplementation could target |
-| [15710782](https://pubmed.ncbi.nlm.nih.gov/15710782/) | 2005 | Cohort | Hypertension | Characterizes hyperadrenergic POTS associated with mast cell activation disorders |
-| [12403667](https://pubmed.ncbi.nlm.nih.gov/12403667/) | 2002 | Cohort | Circulation | Documents cardiac sympathetic dysautonomia in POTS and related orthostatic intolerance syndromes |
-| [39063020](https://pubmed.ncbi.nlm.nih.gov/39063020/) | 2024 | Case Report | International Journal of Molecular Sciences | Reports symptomatic improvement in stress-related chronic fatigue syndrome using alpha-methyl-p-tyrosine (AMPT), a tyrosine hydroxylase **inhibitor** — evidence for lowering, not raising, tyrosine-pathway activity in a hyperadrenergic-pattern patient |
-
----
+| [36848916](https://pubmed.ncbi.nlm.nih.gov/36848916/) | 2023 | Review | Lancet Diabetes Endocrinol | General review of hyperthyroidism causes, diagnosis and management |
+| [34913664](https://pubmed.ncbi.nlm.nih.gov/34913664/) | 2021 | Review | Am Fam Physician | Evaluation and treatment of thyroiditis |
+| [42812246](https://pubmed.ncbi.nlm.nih.gov/42812246/) | 2026 | Cohort | Front Med | Plasma amino acid alterations in early primary angle-closure glaucoma; an association, not evidence of benefit |
+| [27758063](https://pubmed.ncbi.nlm.nih.gov/27758063/) | 2017 | Cohort | Clin Exp Ophthalmol | Serum autoantibody course after acute angle-closure glaucoma attack |
+| [39063020](https://pubmed.ncbi.nlm.nih.gov/39063020/) | 2024 | Case report | Int J Mol Sci | Chronic fatigue syndrome case responding to alpha-methyl-p-tyrosine (a tyrosine hydroxylase inhibitor); not about POTS or tyrosine supplementation |
+| [10579356](https://pubmed.ncbi.nlm.nih.gov/10579356/) | 1999 | Basic research | Endocrinology | Novel thyroid hormone receptor beta mutations impairing ligand binding |
+| [35087972](https://pubmed.ncbi.nlm.nih.gov/35087972/) | 2021 | Review | Rom J Ophthalmol | Review of neovascular glaucoma causes and treatment |
 
 ## New Zealand Market Information
 
-Currently not marketed in New Zealand — no product licenses are on file.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2668742 | Tyrosine1000 | Powder, 4 g sachets | Not recorded (license status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No warnings or contraindications were available in the data compiled for this report, and no drug interaction records were found. Since the product license is cancelled, a current package insert may not be available from Medsafe.
 
----
+One theoretical concern is worth noting: because tyrosine is a thyroid hormone precursor, use in hyperthyroid or thyroid-related conditions would need careful consideration.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Across the 10 TxGNN-predicted indications for Tyrosine, only POTS reaches a research-grade evidence tier, and even there the direction of mechanistic benefit is subtype-dependent and unresolved (supplementation vs. inhibition of the same pathway). No clinical trial has directly tested tyrosine in POTS. Combined with the complete absence of regulatory safety data (a Blocking-severity data gap) and the drug's unmarketed status in New Zealand, the evidence does not support proceeding into active repurposing evaluation.
+All predicted indications are supported only by the model score (L4 at best, mostly L5). No trial or study shows tyrosine benefits cauda equina syndrome, and the plausible mechanisms are either absent or point the wrong way (hyperthyroidism, POTS). The only New Zealand authorization is cancelled.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert warnings and contraindications (Blocking data gap — currently missing, blocks any S1 safety screen)
-- Detailed mechanism of action / pharmacokinetic documentation (High-severity data gap)
-- A tyrosine-specific interventional trial restricted to confirmed hypoadrenergic-subtype POTS patients
-- Drug interaction (DDI) data — current query returned no results
-- Clarification of which POTS subtype(s) tyrosine supplementation is hypothesized to benefit, given literature evidence points toward pathway *inhibition* being beneficial in hyperadrenergic presentations
+- Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
+- Mechanism of action data for tyrosine
+- A credible mechanistic rationale for the top predicted indication, plus any preclinical or clinical studies testing tyrosine directly
+- Clarification of the original approved indication and the reason for license cancellation
+- Review of whether the "obsolete neurogenic bladder" term reflects an ontology mapping problem rather than a real target
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

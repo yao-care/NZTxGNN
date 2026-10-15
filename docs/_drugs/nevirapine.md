@@ -2,7 +2,7 @@
 layout: default
 title: Nevirapine
 parent: Moderate Evidence (L3-L4)
-nav_order: 240
+nav_order: 319
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,78 +29,73 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Nevirapine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Nevirapine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Nevirapine is a first-generation non-nucleoside reverse transcriptase inhibitor (NNRTI), originally developed for the treatment of **HIV-1 infection**. The TxGNN model predicts it may be effective for **Feline Acquired Immunodeficiency Syndrome (FIV in cats)**, but this direction is currently supported by only **0 clinical trials** and **1 publication** — and that single publication is a structural comparison study, not a demonstration of efficacy.
-
----
+Nevirapine is a non-nucleoside reverse transcriptase inhibitor, originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, but there are **no clinical trials** and only **1 publication** (a preclinical biochemical and structural study), so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (based on established drug classification; not directly recorded in this evidence pack — see MOA gap below) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV) |
+| Original Indication | HIV infectious disease; AIDS (from the knowledge graph, as no approved indication text is available for the New Zealand licences) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L4 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for nevirapine is not available in this evidence pack (flagged internally as a High-severity data gap). Based on established pharmacological knowledge, nevirapine is a first-generation NNRTI: it binds an allosteric hydrophobic pocket on the HIV-1 reverse transcriptase (RT) enzyme (involving residues such as Y181, K103, Y188) and has well-proven efficacy against HIV-1 infection in humans.
+Nevirapine is an NNRTI that binds an allosteric pocket of HIV-1 reverse transcriptase (RT). Detailed mechanism of action data are not available in the data compiled for this report, so this description relies on its known drug class.
 
-Feline immunodeficiency virus (FIV), the cause of feline acquired immunodeficiency syndrome, belongs to the same *Lentivirus* genus as HIV-1 — both cause a progressive, retrovirus-driven immunodeficiency syndrome. This shared lineage is the most likely basis for the TxGNN model's high similarity score.
+Feline immunodeficiency virus (FIV) is a lentivirus, like HIV, and it also depends on a reverse transcriptase. This gives a plausible mechanistic rationale. However, NNRTIs are generally weak or inactive against FIV RT because the NNRTI binding pocket differs. The high TxGNN score therefore probably reflects the shared lentiviral disease class and not demonstrated activity.
 
-However, the mechanistic case is weaker than it first appears. The single supporting publication (PMID 38031646) is explicitly a **biochemical and structural comparison** of NNRTIs (nevirapine, efavirenz, rilpivirine) against feline versus human RT — a study design typically used to test whether cross-species inhibition exists, not to confirm it. Amino acid sequence homology between FIV RT and HIV-1 RT is known to be low, and the NNRTI binding-pocket architecture differs meaningfully between the two enzymes. No in vitro potency data (IC50/EC50) or in vivo efficacy data are provided to show that nevirapine actually inhibits FIV RT. The mechanistic link should therefore be treated as an untested hypothesis rather than an established pharmacological rationale, which is consistent with the "Hold" recommendation already assigned at this stage.
-
-It is also worth noting explicitly that FIV is a **veterinary indication affecting cats**, not a human disease — pursuing this direction would follow a veterinary drug development pathway rather than a human clinical one.
-
----
+The only publication retrieved (2023) compares NNRTIs, including nevirapine, efavirenz and rilpivirine, against feline and human immunodeficiency virus RT. It is preclinical, and the available text does not show the direction of the result. FIV infection in cats is a veterinary condition, not a human clinical indication, so this prediction is a research consideration and not a human repurposing opportunity.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Structural/Biochemical Comparison | Journal of Veterinary Science | Compared NNRTIs (nevirapine, efavirenz, rilpivirine) against feline vs. human immunodeficiency virus reverse transcriptase; notes no effective FIV treatment currently exists and evaluates structural basis for potential cross-species NNRTI activity — does not report confirmed antiviral efficacy against FIV |
-
----
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Biochemical/structural in vitro study | Journal of Veterinary Science | Compares nevirapine, efavirenz and rilpivirine against feline and human immunodeficiency virus RT to assess NNRTI potential for FIV; the direction of the result cannot be confirmed from the available text |
 
 ## New Zealand Market Information
 
-Nevirapine is not currently marketed in New Zealand, and no product authorizations are on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2640023 | Nevirapine Viatris (cancelled) | Tab 200 mg | Not available |
+| 2014947 | Viramune Suspension (cancelled) | Oral suspension 10 mg per ml | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions listed as contraindications or high-risk in the knowledge graph** (these are graph associations, not package insert text): liver failure, liver disease, drug-induced liver injury, gallbladder disease, chronic hepatitis B and C virus infection, hepatitis C virus infection, exanthem, Stevens-Johnson syndrome, toxic epidermal necrolysis, Lyell syndrome, rhabdomyolysis, nodular fasciitis.
+- **Drug Interactions**: 100 interactions were recorded. The first 20 reviewed are all of Moderate severity, including rabeprazole, bupropion, aprepitant, clarithromycin, the corticosteroids (dexamethasone, betamethasone, budesonide, prednisolone, triamcinolone), saxagliptin, linagliptin, eliglustat, naltrexone, naloxegol, naldemedine, cisapride, granisetron, ondansetron, nitisinone and orlistat. Nevirapine is known to induce CYP3A4 and CYP2B6, which likely underlies many of these.
 
----
+Please refer to the package insert for the full warnings and contraindications, as label-based data were not available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic evidence for this prediction is weak and partly contradictory — the only supporting publication is a structural comparison study, not an efficacy study, and known differences between FIV and HIV-1 reverse transcriptase argue against straightforward cross-species activity. With zero clinical trials, a single non-efficacy literature reference, and a blocking gap in safety/label data, this candidate has not progressed past the S0 screening stage.
+The prediction rests on a high model score and a single preclinical paper. NNRTIs are generally weak against FIV RT, and FIV infection is not a human indication. Nevirapine is also no longer actively marketed in New Zealand (both licences cancelled), and it carries notable liver and skin toxicity risks.
 
 **To proceed, the following is needed:**
-- TFDA/manufacturer package insert warnings and contraindications (currently a Blocking data gap — without it, the candidate cannot enter the S1 safety review stage)
-- Complete mechanism of action / structural binding data for nevirapine (currently a High-severity data gap)
-- In vitro FIV RT inhibition assay data (IC50/EC50) to directly test the cross-species hypothesis raised in PMID 38031646
-- If in vitro signal is positive, feline pharmacokinetic and toxicity data before any further (veterinary) clinical consideration
+- Full text of PMID 38031646 to confirm whether nevirapine showed activity against FIV RT
+- Mechanism of action data and the Medsafe package insert warnings and contraindications
+- Veterinary efficacy and safety studies, if a veterinary application is to be considered
+- A decision on whether this non-human indication is in scope for this evaluation
+
+---
+
+*Other predictions with lower priority:* **Simian immunodeficiency virus infection** (L4, Hold) is a model-system finding. Native SIV RT is generally resistant to NNRTIs, and NNRTI activity appears only in engineered SHIV chimeras carrying HIV-1 RT. **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (L5, Hold) has no mechanistic link, trials or literature, and the safety burden would be significant in a paediatric neurological population.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

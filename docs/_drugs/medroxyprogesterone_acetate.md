@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: High Evidence (L1-L2)
-nav_order: 213
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 282
+evidence_level: L4
 indication_count: 10
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Medroxyprogesterone Acetate: From Original Indication (Not Documented) to Amenorrhea
+# Medroxyprogesterone Acetate: From Endometriosis and Endometrial Cancer to Amenorrhea
 
 ## One-Sentence Summary
 
-> The original approved indication for Medroxyprogesterone Acetate could not be determined from this Evidence Pack — the drug is not currently marketed in this jurisdiction and no license records or mechanism-of-action data are available.
-> The TxGNN model predicts it may be effective for **Amenorrhea**, supported by **10 clinical trials** and **20 publications**, though only one trial (terminated) directly targets this indication.
-> Because Medroxyprogesterone Acetate (as DMPA) is already well known clinically to induce amenorrhea as a hormonal effect, this is best understood as evidence consolidation of an established pharmacological effect rather than a novel repurposing hypothesis.
+Medroxyprogesterone acetate (MPA) is a synthetic progestin, originally used for endometriosis, endometrial cancer, and postmenopausal conditions such as osteoporosis and atrophic vaginitis.
+The TxGNN model predicts it may be effective for **amenorrhea**, but there are **0 registered clinical trials** and **20 publications**, mostly older reviews about contraception, supporting this direction.
+Secondary amenorrhea is already a labelled use of oral MPA, so this may not be true repurposing.
 
 ---
 
@@ -43,84 +43,104 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this Evidence Pack |
+| Original Indication | Endometriosis, endometrial carcinoma, postmenopausal osteoporosis, postmenopausal atrophic vaginitis (from the knowledge graph; New Zealand licence indication text is not available) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.9994% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| TxGNN Prediction Score | 99.999% |
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 7 (all cancelled) |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data is not available from DrugBank in this Evidence Pack (flagged as a High-severity data gap). Based on the repurposing rationale supplied with the prediction, Medroxyprogesterone Acetate is a potent progestin that, with sustained use, induces endometrial atrophy and decidualization — a well-documented pharmacological effect that directly causes amenorrhea. This is precisely the mechanism behind the known side effect of Depot Medroxyprogesterone Acetate (DMPA) injectable contraception, and the compound is also used clinically as a "progestin challenge test" to evaluate the cause of amenorrhea.
+Currently, detailed mechanism of action data is not available. Based on known information, MPA is a synthetic progestin. It induces withdrawal bleeding in estrogen-primed endometrium and suppresses gonadotropins. This is biologically plausible for secondary amenorrhea (the progestin challenge), and amenorrhea is also a known effect of depot MPA contraception.
 
-Because the original approved indication is not recorded in this pack, the relationship between the (undocumented) original indication and amenorrhea cannot be formally assessed here. However, the mechanistic pathway itself is textbook-level, well-established pharmacology rather than a novel hypothesis — it reflects consolidation of existing clinical knowledge into a structured evidence base rather than discovery of an unexpected new effect.
+Its established uses in endometriosis and endometrial disease rely on the same hormonal action on the endometrium. This makes the link to menstrual disorders mechanistically coherent.
 
-Since this mechanistic link is already considered established clinical knowledge, the primary value of this prediction is in formalizing existing real-world evidence (e.g., DMPA-induced amenorrhea, progestin withdrawal bleeding physiology) rather than opening a new therapeutic hypothesis requiring exploratory trials.
+The supplied literature mostly addresses contraception rather than treatment of amenorrhea. Amenorrhea appears there as a side effect of depot MPA, not as a studied therapeutic target. The prediction is therefore supported by mechanism and class knowledge more than by direct evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02449161](https://clinicaltrials.gov/study/NCT02449161) | Phase 3 | Terminated | 60 | Most directly relevant trial: effect of post-endometrial-ablation Medroxyprogesterone Acetate on amenorrhea rates; RCT terminated before completion |
-| [NCT01463202](https://clinicaltrials.gov/study/NCT01463202) | Phase 4 | Completed | 184 | Timing of postpartum DMPA administration and its effect on breastfeeding continuation, contraceptive continuation, and postpartum depression |
-| [NCT00808132](https://clinicaltrials.gov/study/NCT00808132) | Phase 3 | Completed | 1886 | Large double-blind RCT of bazedoxifene/conjugated estrogens on endometrial hyperplasia and osteoporosis prevention in postmenopausal women |
-| [NCT03309176](https://clinicaltrials.gov/study/NCT03309176) | Phase 4 | Completed | 42 | Evaluates whether progestin-induced endometrial withdrawal bleeding is necessary before ovulation induction with clomiphene citrate |
-| [NCT01300676](https://clinicaltrials.gov/study/NCT01300676) | Phase 2/3 | Completed | 79 | Tualang honey vs. hormone replacement therapy safety profile in postmenopausal women |
-| [NCT03018366](https://clinicaltrials.gov/study/NCT03018366) | Phase 2 | Completed | 29 | Atherosclerosis and inflammation in young women with functional hypothalamic amenorrhea (hypoestrogenemia) |
-| [NCT00392093](https://clinicaltrials.gov/study/NCT00392093) | Phase 4 | Completed | 108 | Hormone replacement therapy effect on disease activity, menopausal symptoms, and bone mineral density in peri/postmenopausal women with SLE |
-| [NCT06671548](https://clinicaltrials.gov/study/NCT06671548) | Phase 3 | Recruiting | 120 | Relugolix vs. placebo for heavy menstrual bleeding associated with uterine fibroids |
-| [NCT02792153](https://clinicaltrials.gov/study/NCT02792153) | Phase 1 | Withdrawn | 0 | Estradiol and fear extinction for calorie-dense foods in women with anorexia nervosa; withdrawn with zero enrollment |
-| [NCT07020429](https://clinicaltrials.gov/study/NCT07020429) | N/A | Not Yet Recruiting | 276 | Traditional Chinese herbal formula (Huanjingjian decoction) for premature ovarian insufficiency |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+The compiled literature is dominated by reviews on contraception. No randomized trials were identified, and abstracts were often unavailable. Ten of the most relevant publications are listed.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9554247](https://pubmed.ncbi.nlm.nih.gov/9554247/) | 1998 | RCT | Contraception | 100 women with DMPA-induced amenorrhea randomized to switch to Cyclofem or continue DMPA; 82% of Cyclofem users had vaginal bleeding return within 6 months vs. 10% of DMPA continuers |
-| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | RCT | PLoS One | WHICH randomized trial comparing DMPA-IM vs. norethisterone enanthate effects on estradiol levels and menstrual/psychological/behavioral measures relevant to HIV risk |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic Review | Cochrane Database of Systematic Reviews | Cochrane review of combination injectable contraceptives, including bleeding-pattern and acceptability outcomes |
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematic Review | Cochrane Database of Systematic Reviews | Earlier Cochrane review of combination injectable contraceptives |
-| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | Review | Drug Intelligence & Clinical Pharmacy | Review of drug-induced infertility via hypothalamic-pituitary-gonadal axis or direct gonadal toxicity, including progestin effects |
-| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | Review | The Journal of Reproductive Medicine | Counseling framework and side-effect management for DMPA users, including amenorrhea counseling |
-| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Review | International Journal of Fertility and Menopausal Studies | Review of long-acting contraceptive options and their bleeding/amenorrhea profiles |
-| [7139435](https://pubmed.ncbi.nlm.nih.gov/7139435/) | 1982 | Review | Canadian Medical Association Journal | Discusses whether DMPA should be considered for additional (non-contraceptive) uses |
-| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | Review | International Journal of Gynaecology and Obstetrics | Review of postpartum contraception, including postpartum amenorrhea considerations |
-| [120837](https://pubmed.ncbi.nlm.nih.gov/120837/) | 1979 | Review | IARC Monographs on the Evaluation of Carcinogenic Risk | IARC monograph on Medroxyprogesterone Acetate |
+| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Combination injectable contraceptives are effective and reversible; bleeding pattern changes may limit acceptability |
+| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Earlier version of the review above |
+| [8178904](https://pubmed.ncbi.nlm.nih.gov/8178904/) | 1994 | Review | Am J Obstet Gynecol | Depot MPA 150 mg IM every 3 months has contraceptive efficacy above 99% |
+| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | Review | J Reprod Med | Counselling and side-effect management for depot MPA users |
+| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Review | Int J Fertil Menopausal Stud | Long-acting contraceptive options, with pregnancy rates below 1 per 100 woman-years |
+| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | Review | Int J Gynaecol Obstet | Postpartum contraception; return of ovulation is unpredictable |
+| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | Review | Drug Intell Clin Pharm | Drug-induced infertility, including hormonal effects on the hypothalamic-pituitary-gonadal axis |
+| [120837](https://pubmed.ncbi.nlm.nih.gov/120837/) | 1979 | Review | IARC Monogr | Carcinogenic risk evaluation of MPA |
+| [8492647](https://pubmed.ncbi.nlm.nih.gov/8492647/) | 1993 | Review | MCN Am J Matern Child Nurs | Nursing overview of Depo-Provera |
+| [7139435](https://pubmed.ncbi.nlm.nih.gov/7139435/) | 1982 | Article | Can Med Assoc J | Discussion of additional uses for depot MPA |
 
 ---
 
 ## New Zealand Market Information
 
-Medroxyprogesterone Acetate is currently **not marketed** in this jurisdiction (market status: Not marketed), and no license records are available in this Evidence Pack.
+All seven licences are cancelled, and none is currently valid. Approved indication text was not available for these licences.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 274135 | Provera | Tab 10 mg | Not available (cancelled) |
+| 274186 | Provera | Tab 2.5 mg | Not available (cancelled) |
+| 261130 | Provera | Tab 5 mg | Not available (cancelled) |
+| 261149 | Provera HD | Tab 100 mg | Not available (cancelled) |
+| 271691 | Depo-Provera | Inj 150 mg per ml, 1 ml syringe | Not available (cancelled) |
+
+Two further cancelled licences (2643979, 2643987) cover Provera 2.5 mg and 5 mg tablets.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data for Medroxyprogesterone Acetate are not currently available in this Evidence Pack (regulatory package insert data collection is flagged as a Blocking data gap).
+- **Knowledge-graph contraindication associations** (not label text): hypertensive disorders, liver failure and liver disease, kidney disease, gallbladder disease, epilepsy, asthma, diabetes mellitus and diabetic ketoacidosis, systemic lupus erythematosus, hypothyroidism, hypercalcemia and related calcium/phosphorus disorders, hypertriglyceridemia, osteoporosis, anxiety and dysthymic disorders, substance abuse/dependence, and female breast carcinoma.
+- **Drug Interactions**: 100 interactions were found, and the 20 shown are all moderate. They fall mainly into antidiabetic agents, including acarbose, metformin, glimepiride, chlorpropamide, the gliptins, SGLT2 inhibitors, GLP-1 agonists, and insulins (possible effects on glucose control). Others include dexamethasone, aprepitant, clarithromycin, and pegvaliase.
+- **Breast safety**: several supplied papers suggest MPA-containing hormone therapy may increase breast density and epithelial proliferation.
+
+The package insert warnings and contraindications were not available, so please refer to the package insert for the authoritative safety information.
+
+---
+
+## Other Predicted Indications (Context)
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
+|---|---|---|---|---|
+| 2 | Breast fibrocystic disease | 99.95% | L3 | Two small, older, likely uncontrolled studies (1983, 1988) suggest benefit. MPA-containing HRT may be adverse in postmenopausal women. Research question. |
+| 3 | Benign mammary dysplasia | 99.92% | L4 | Thin and overlapping evidence. Hold. |
+| 4 | Cervix endometriosis | 99.92% | L4 | Mechanistically reasonable, but only case reports and animal data. Hold. |
+| 5-6 | Endometriosis in cutaneous scar; endometriosis of rectovaginal septum and vagina | 99.92% | L5 | Prediction only. Hold. |
+| 7-8 | Renal hypoplasia (bilateral and unspecified) | 99.91% / 99.91% | L5 | No plausible mechanism; likely a graph artifact. Hold. |
+| 9-10 | Apocrine adenosis and blunt duct adenosis of breast | 99.89% | L5 | No evidence, and breast-proliferation concern. Hold. |
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic link between Medroxyprogesterone Acetate and amenorrhea is well-established pharmacology (progestin-induced endometrial atrophy), and one RCT directly investigates this indication (NCT02449161), though it was terminated. Overall evidence is directionally strong but incomplete for a full safety/efficacy package.
+The mechanism is plausible and amenorrhea is already a recognised labelled use of oral MPA, but no clinical trials exist and the literature is mainly contraception reviews. All New Zealand licences are cancelled, and the package insert safety data is missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert warnings and contraindications (currently a Blocking data gap)
-- Confirmed original indication and DrugBank mechanism-of-action data
-- Completion or replacement of the terminated NCT02449161 trial, or additional prospective data specifically on Medroxyprogesterone Acetate for amenorrhea (rather than adjacent HRT/contraception trials)
-- Drug interaction (DDI) data, currently unavailable ("not_found")
+- Package insert warnings and contraindications from Medsafe
+- Mechanism of action data from DrugBank
+- Confirmation of whether amenorrhea is a labelled indication, which would make this an existing use rather than repurposing
+- Direct clinical evidence on MPA for amenorrhea (progestin challenge or treatment studies)
+- Clarification of current New Zealand availability, since all licences are cancelled
+- A breast and cardiovascular risk assessment for any use in postmenopausal or breast-disease populations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

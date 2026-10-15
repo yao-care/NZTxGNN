@@ -2,7 +2,7 @@
 layout: default
 title: Ketoprofen
 parent: Model Prediction Only (L5)
-nav_order: 188
+nav_order: 252
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ketoprofen: From NSAID Anti-Inflammatory Therapy to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Ketoprofen: From Rheumatoid Arthritis and Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Ketoprofen is a non-steroidal anti-inflammatory drug (NSAID) with a non-selective COX-1/COX-2 inhibitory mechanism, classically used for pain and inflammation (e.g., arthritis, musculoskeletal pain). The TxGNN model's top-ranked prediction for a new indication — **Acromesomelic Dysplasia, Hunter-Thompson Type** — is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags it as a likely embedding-space artifact unrelated to ketoprofen's anti-inflammatory mechanism. Two lower-ranked candidates (spondyloarthropathy susceptibility and LACC1-deficient juvenile arthritis) have a more defensible class-level mechanistic rationale and warrant follow-up instead.
-
----
+Ketoprofen is a non-steroidal anti-inflammatory drug (NSAID), originally used for rheumatoid arthritis, osteoarthritis and other joint disorders.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from local license records (drug not marketed in New Zealand). Ketoprofen is generically classified as an NSAID for pain/inflammation, per its known non-selective COX-1/COX-2 inhibitory mechanism cited in the evidence pack's rationale text. |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
+| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (from the knowledge graph; no approved indication text is available for the New Zealand licence) |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for ketoprofen is not available in this evidence pack (flagged as a Data Gap). Based on the evidence pack's own rationale annotations, ketoprofen is a non-selective COX-1/COX-2 inhibitor, a mechanism grounded in classical anti-inflammatory and analgesic pharmacology, consistent with its known role as an NSAID.
+Detailed mechanism of action data is not currently available for ketoprofen. It is a member of the non-selective cyclooxygenase (COX) inhibitor class of NSAIDs. These drugs reduce prostaglandin synthesis, which relieves pain and inflammation in arthritis.
 
-For the top-ranked prediction — Acromesomelic Dysplasia, Hunter-Thompson Type — the evidence pack explicitly states there is **no mechanistic link**: this is an NPR2-gene skeletal dysplasia driven by abnormal endochondral ossification, a pathway unrelated to COX inhibition or NSAID pharmacology. The high TxGNN score is attributed to clustering with other skeletal dysplasias in the model's embedding space rather than genuine pharmacological relevance, and is corroborated by zero clinical trials and zero literature hits across all queried sources.
+For this predicted indication, **no credible mechanistic link was identified**. Hunter-Thompson type acromesomelic dysplasia is a rare skeletal dysplasia caused by loss-of-function variants in *CDMP1/GDF5*, which affects BMP signalling. Ketoprofen has no known action on the GDF5/BMP pathway. The high score most likely reflects proximity in the knowledge graph, such as shared skeletal and joint phenotype terms with ketoprofen's arthritis indications, rather than a biological rationale. Symptomatic relief of joint pain is conceivable, but it would not modify the disease.
 
-By contrast, two other candidates in this evidence pack carry a more plausible class-level rationale: **spondyloarthropathy, susceptibility to** (rank 8) and **juvenile arthritis due to defect in LACC1** (rank 10) are both inflammatory joint conditions for which NSAIDs, including ketoprofen, are an established symptomatic treatment class. These are marked "Research Question" (decision stage S1) rather than "Hold," and are discussed further below.
+### Other Predictions Reviewed
 
----
+Among the top 10 predictions, only two have a plausible, class-level rationale. Even for these, the evidence is for the NSAID class and not for ketoprofen specifically.
+
+| Rank | Predicted Indication | Score | Assessment |
+|---|---|---|---|
+| 1 | Acromesomelic dysplasia, Hunter-Thompson type | 99.98% | No mechanistic link |
+| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 99.98% | No mechanistic link |
+| 3 | Myosclerosis | 99.98% | No direct link; at most symptomatic analgesia |
+| 4 | Brachyolmia | 99.98% | No mechanistic link |
+| 5 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.98% | No mechanistic link |
+| 6 | Brachydactyly-syndactyly syndrome | 99.97% | No mechanistic link |
+| 7 | Pseudoachondroplasia | 99.95% | Weak and indirect; symptomatic only |
+| 8 | Spondyloarthropathy, susceptibility to | 99.86% | Biologically plausible (NSAIDs are first-line therapy for axial spondyloarthritis); research question (L4) |
+| 9 | WHIM syndrome | 99.86% | No mechanistic link |
+| 10 | Juvenile arthritis due to defect in LACC1 | 99.74% | Indirect; symptomatic adjunct only; research question (L4) |
+
+**Spondyloarthropathy** is the most credible candidate, but it is essentially an extension of ketoprofen's existing anti-inflammatory use and not novel repurposing.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available for Acromesomelic Dysplasia, Hunter-Thompson Type.
-
----
+Currently no related literature available.
 
 ## New Zealand Market Information
 
-Ketoprofen currently holds no marketing authorization in New Zealand (0 licenses on file; market status: Not Marketed).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 397148 (cancelled) | Oruvail SR | Long-acting capsule 200 mg | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not currently available; TFDA package insert retrieval is flagged as a Blocking data gap — DG001.)
+- **Contraindications and cautions suggested by the knowledge graph** (not taken from label text): hypertension and hypertensive disorders, liver failure, kidney disease, active peptic ulcer disease, blood coagulation disease, myocardial infarction and coronary thrombosis, cardiovascular and heart disease, hemoglobinopathy, and pyoureter.
+- **Drug interactions**: 100 interactions were recorded. Among the 20 reviewed, most are Moderate. They include:
+  - corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide)
+  - acetylsalicylic acid
+  - metformin
+  - sulfonylureas (glimepiride, chlorpropamide)
+  - mesalazine and balsalazide
+  - naltrexone
+  - potassium salts (potassium citrate, potassium bicarbonate)
+  - bowel-preparation agents (picosulfuric acid, polyethylene glycol with electrolytes)
 
----
+  Famotidine, ranitidine, cimetidine and linaclotide are Minor.
 
-## Other Predicted Indications Worth Noting
-
-Since this evidence pack covers 10 ranked predictions for ketoprofen, the two with any research signal beyond raw model score are summarized here for context:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation | Notes |
-|------|---------|-------------|-----------------|-----------------|-----------------|-------|
-| 8 | Spondyloarthropathy, susceptibility to | 99.86% | L4 | S1 | Research Question | 1 review-type literature hit (PMID [20470931](https://pubmed.ncbi.nlm.nih.gov/20470931/)); NSAIDs are standard symptomatic therapy for this disease class, but the indication is "susceptibility," not the disease itself. |
-| 10 | Juvenile arthritis due to defect in LACC1 | 99.74% | L4 | S1 | Research Question | No disease-specific literature/trials; class-level NSAID rationale only (monogenic inflammatory arthritis). |
-
-All remaining ranks (1–7, 9) are flagged in their own rationale as lacking any inflammatory/COX-related mechanism and are recommended **Hold**.
-
----
+The package insert warnings and contraindications were not available for this report. Please refer to the package insert for authoritative safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Acromesomelic Dysplasia, Hunter-Thompson Type) has zero clinical trials, zero literature support, and its own rationale identifies it as a likely model artifact with no plausible mechanistic connection to ketoprofen's COX-inhibitory action.
+The top prediction is supported only by a model score. There are no clinical trials or publications, no plausible mechanistic link to the GDF5/BMP pathway, and the only New Zealand licence has been cancelled. The data compiled for this report do not support further investment in this indication.
 
 **To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a Blocking gap (DG001)
-- Ketoprofen's confirmed mechanism of action (DG002)
-- If pursuing this drug further, redirect research effort toward the two "Research Question" candidates (spondyloarthropathy susceptibility, LACC1-deficient juvenile arthritis) rather than the rank-1 prediction, and seek disease-specific NSAID trial/literature evidence for those instead
+- Mechanism of action data for ketoprofen
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- A mechanistic or preclinical rationale for the predicted indication
+- If a more plausible direction is wanted, a separate evaluation of spondyloarthropathy or LACC1-related juvenile arthritis, with a review of ketoprofen-specific evidence and the current New Zealand market situation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

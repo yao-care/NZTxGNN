@@ -2,7 +2,7 @@
 layout: default
 title: Entacapone
 parent: Model Prediction Only (L5)
-nav_order: 135
+nav_order: 178
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Entacapone: From Parkinson's Disease to PLA2G6-Associated Neurodegeneration
+# Entacapone: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
 
 ## One-Sentence Summary
 
-Entacapone is a selective COMT (catechol-O-methyltransferase) inhibitor used as adjunct therapy to levodopa/carbidopa in Parkinson's disease to extend dopaminergic activity and reduce motor fluctuations.
-The TxGNN model predicts it may be effective for **PLA2G6-Associated Neurodegeneration**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-This prediction is based on model inference alone, with no direct clinical or experimental evidence available.
-
----
+Entacapone is a COMT inhibitor originally used for Parkinson disease and related parkinsonian syndromes.
+The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegeneration**,
+but **no clinical trials and no publications** currently support this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Parkinson's disease (adjunct to levodopa/carbidopa) |
+|------|------|
+| Original Indication | Parkinson disease (the approved-indication text on the New Zealand licence is blank; this indication comes from the knowledge graph) |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid authorization) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological information, Entacapone is a peripheral COMT inhibitor — it blocks the enzyme responsible for degrading levodopa in peripheral tissues before it crosses the blood-brain barrier, thereby increasing brain dopamine availability. It is used exclusively as an add-on to levodopa/carbidopa in Parkinson's disease to smooth out "wearing-off" motor fluctuations.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, entacapone is a catechol-O-methyltransferase (COMT) inhibitor. It prolongs the action of levodopa, and its efficacy in Parkinson disease is established.
 
-PLA2G6-Associated Neurodegeneration (PLAN), classified as Neurodegeneration with Brain Iron Accumulation type 2 (NBIA2), is caused by mutations in the *PLA2G6* gene encoding a calcium-independent phospholipase A2. The resulting disruption in phospholipid metabolism leads to mitochondrial membrane dysfunction and progressive iron deposition predominantly in the basal ganglia. Crucially, certain PLAN subtypes — particularly the atypical adult-onset form — present with prominent Parkinsonian features including bradykinesia, rigidity, and tremor, providing a theoretical basis for dopaminergic augmentation.
+PLA2G6-associated neurodegeneration includes infantile neuroaxonal dystrophy and PLA2G6-related dystonia-parkinsonism. A rationale therefore exists for the parkinsonian features only, where extending levodopa exposure could help symptomatically. Entacapone would not address the underlying defect in lipid metabolism and membrane remodelling. This is essentially a symptomatic, not disease-modifying, hypothesis, and it is untested.
 
-However, the mechanistic link is highly indirect. The dominant pathology in PLAN is lipid dysregulation and iron accumulation, not primary dopaminergic neurodegeneration. COMT inhibition could at best offer symptomatic palliation for Parkinson-like features in a subset of patients, but does not address the underlying cause. The TxGNN model most likely identified this association through network proximity of shared neurodegeneration nodes rather than a direct pharmacological mechanism, and the prediction should be interpreted with caution.
-
----
+Other top-ranked predictions vary widely in plausibility:
+- **Juvenile parkinsonism (paralysis agitans, juvenile, of Hunt, score 99.60%)** is closely related to the original indications, so the dopaminergic rationale is plausible, but the prediction is largely label-adjacent.
+- **Lewy body dementia (99.25%)** shares alpha-synuclein pathology and dopaminergic deficits with Parkinson disease, but the supporting evidence is indirect and preclinical (L4).
+- **Progressive supranuclear palsy-corticobasal syndrome (99.04%)** responds poorly to dopaminergic therapy, so the rationale is weak.
+- **Rasmussen encephalitis, myelitis, transaldolase deficiency, lethal infantile mitochondrial myopathy, fructose-1,6-bisphosphatase deficiency and a congenital polymicrogyria syndrome** show no plausible mechanistic link to COMT inhibition. These may reflect knowledge-graph neighbourhood effects.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for PLA2G6-associated neurodegeneration.
 
----
+For other top-ranked predictions, the only linked trials are not therapeutic studies of entacapone:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04246437](https://clinicaltrials.gov/study/NCT04246437) | Phase 1 | Recruiting | 40 | [18F]F-DOPA PET imaging in autonomic failure (alpha-synucleinopathies). A diagnostic imaging study, linked to Lewy body dementia only through shared disease context |
+| [NCT02994719](https://clinicaltrials.gov/study/NCT02994719) | N/A | Active, not recruiting | 120 | Observational gait pattern analysis in neurological disease, including parkinsonian disorders. Does not test entacapone (linked to PSP-corticobasal syndrome) |
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for PLA2G6-associated neurodegeneration.
 
----
+For Lewy body dementia, the only related publications are preclinical:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39259788](https://pubmed.ncbi.nlm.nih.gov/39259788/) | 2024 | Preclinical (iPSC organoid) | Science Advances | Cortical organoids with SNCA triplication model alpha-synuclein pathology in Lewy body disease and were used to identify candidate therapeutic drugs |
+| [23913715](https://pubmed.ncbi.nlm.nih.gov/23913715/) | 2013 | In vitro | J Neurosci Res | Examined the effects of antiparkinsonian agents on beta-amyloid and alpha-synuclein oligomer formation in vitro |
 
 ## New Zealand Market Information
 
-Entacapone is currently **not marketed** in New Zealand. No drug authorizations are on record (total licenses: 0).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2685299 | Entacapone Viatris (cancelled) | Tab 200 mg | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information.
 
----
+- **Contraindications suggested by the knowledge graph** (not label text, so they need verification against the approved product information): multiple system atrophy, orthostatic hypotension, postural orthostatic tachycardia syndrome, drug-induced dyskinesia, epilepsy, liver disease, kidney disease, gallbladder disease, peptic or gastric ulcer, open-angle and angle-closure glaucoma, psychotic and other mental disorders (including schizoaffective and schizophreniform disorders, anxiety, neurotic and dysthymic disorders), diabetes mellitus and diabetic ketoacidosis, melanoma, myocardial infarction, coronary thrombosis, sudden cardiac arrest, heart conduction disease, hemoglobinopathy and diarrheal disease.
+- **Drug interactions**: 82 interactions were identified. Those graded Moderate include epinephrine (systemic, ophthalmic and topical), morphine (including liposomal), dronabinol, opium, nabilone, metoclopramide and iron. Interactions with unknown severity include pantoprazole, omeprazole, lansoprazole, doxycycline, metformin, atropine, lactulose, prednisone, simvastatin and potassium chloride.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported by model inference only (Evidence Level L5), with no clinical trials, published literature, or preclinical studies linking Entacapone to PLA2G6-associated neurodegeneration; the mechanistic connection is highly indirect and does not address the primary disease pathology of phospholipid dysregulation and iron deposition.
+The prediction for PLA2G6-associated neurodegeneration is supported by model output only (L5). There are no trials or literature, and the mechanism could at most justify symptomatic parkinsonian benefit. In addition, the only New Zealand authorization is cancelled, and package insert safety data are missing.
 
 **To proceed, the following is needed:**
-- Preclinical studies in PLA2G6-mutant cell or animal models to test whether dopaminergic agents provide measurable benefit
-- Evidence that levodopa monotherapy shows any symptomatic response in PLAN Parkinsonism (a prerequisite for evaluating a COMT inhibitor add-on)
-- Detailed safety profile and full MOA data from DrugBank and the package insert (currently flagged as Data Gap)
-- Regulatory pathway assessment for New Zealand, given that Entacapone is not currently authorised in the market
-- Review of the broader TxGNN top-10 prediction list — **Lewy body dementia** (rank 7, L4 evidence) and **juvenile paralysis agitans of Hunt** (rank 4, biologically plausible) represent stronger near-term research candidates than the rank-1 prediction
+- Mechanism of action data from DrugBank
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Case reports or preclinical data for entacapone in PLA2G6-related dystonia-parkinsonism
+- Clarification of the cancelled licence status and whether a supply route exists in New Zealand
+- If a nearby indication is prioritised, a focused review of juvenile parkinsonism or Lewy body dementia, which have more plausible rationales
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

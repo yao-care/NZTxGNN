@@ -2,7 +2,7 @@
 layout: default
 title: Tolcapone
 parent: Model Prediction Only (L5)
-nav_order: 343
+nav_order: 455
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tolcapone: From Parkinson's Disease to Rasmussen Subacute Encephalitis
+# Tolcapone: From Parkinson Disease to Rasmussen Subacute Encephalitis
 
 ## One-Sentence Summary
 
-Tolcapone is a COMT (catechol-O-methyltransferase) inhibitor known to be used as adjunct therapy to levodopa/carbidopa in Parkinson's disease. The TxGNN model's top-ranked prediction for this drug is **Rasmussen Subacute Encephalitis**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-generated hypothesis with no corroborating evidence.
+Tolcapone is a COMT inhibitor originally used for Parkinson disease and related parkinsonian syndromes.
+The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease, adjunct to levodopa/carbidopa (not captured in this evidence pack's structured fields; based on tolcapone's known pharmacological classification) |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
+| Original Indication | Parkinson disease (and related parkinsonian syndromes) |
+| Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid authorization) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (marked as a High-severity data gap in this evidence pack — DG002, pending DrugBank API query). Based on known information, tolcapone is a COMT inhibitor that reduces peripheral and central catecholamine breakdown, prolonging the effect of levodopa in Parkinson's disease. Its proven efficacy is limited to this dopaminergic pathway.
+Tolcapone is a catechol-O-methyltransferase (COMT) inhibitor. Detailed mechanism of action data are not available in the data compiled for this report, so this is based on its known drug class only. Its established role is in Parkinson disease, where blocking COMT prolongs the effect of levodopa-based dopaminergic therapy.
 
-Rasmussen subacute encephalitis, by contrast, is a rare autoimmune/neuroinflammatory disorder of childhood, driven by T-cell-mediated cortical inflammation rather than catecholamine metabolism. The evidence pack's own mechanistic assessment is explicit on this point: there is **no known mechanistic link** between COMT inhibition and Rasmussen encephalitis's autoimmune pathology, and no trial or literature evidence exists to bridge the two.
+Rasmussen encephalitis is an immune-mediated, inflammatory epilepsy that affects one brain hemisphere. It has no obvious connection to COMT inhibition or dopaminergic pathways. The high score (0.9993) is a computational prediction, and it probably reflects network proximity to neurological indications in the knowledge graph rather than a demonstrated biological link. No mechanistic rationale is supported by the available data.
 
-In short, this candidate reflects a graph-based statistical association from the TxGNN model rather than a biologically grounded hypothesis. It should be treated as an open research question at most, not a near-term repurposing candidate.
+Other top-ranked predictions are also unsupported by trials or literature. Two are worth noting:
+- **Lewy body dementia** (score 99.64%) is an alpha-synucleinopathy closely related to Parkinson disease, so a dopaminergic rationale is plausible. The only supplied publication is a preclinical iPSC organoid study that did not test tolcapone.
+- **Paralysis agitans, juvenile, of Hunt** (score 99.52%) is a historical term for juvenile-onset parkinsonism. It is likely an overlap with the existing label rather than a true new indication.
 
 ## Clinical Trial Evidence
 
@@ -61,28 +65,34 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for Rasmussen subacute encephalitis.
 
-## Taiwan Market Information
+## New Zealand Market Information
 
-Tolcapone is not currently marketed in Taiwan (0 authorizations on record), so no product license table is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 487236 | Tasmar (cancelled) | Tab 100 mg | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note that TFDA package insert data for tolcapone is marked as a **Blocking** data gap (DG001) in this evidence pack, which by itself prevents this candidate from entering the S1 safety initial evaluation stage regardless of the efficacy hypothesis. Separately, other candidates evaluated for this drug reference a known boxed hepatotoxicity warning associated with tolcapone — this should be independently confirmed against the official TFDA/manufacturer package insert once obtained.
+- **Knowledge graph contraindication signals** (from drug-disease relationships, not label text): liver disease, gallbladder disease, melanoma, hypotensive disorder, rhabdomyolysis, nodular fasciitis, tardive dyskinesia, lingual-facial-buccal dyskinesia.
+- **Drug Interactions**: 65 interactions were identified. Among those listed, the one major interaction is with **methylene blue**. Moderate interactions include epinephrine, morphine, opium, codeine, dronabinol, nabilone, naltrexone, metoclopramide, promethazine, chlorpheniramine, cetirizine, dextromethorphan and ethanol. Warfarin and dicoumarol are minor. Omeprazole is of unknown severity.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information. Tolcapone is also known to carry a hepatotoxicity warning, which is relevant to any new use.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Rasmussen subacute encephalitis) carries only L5 evidence (model prediction alone, no trials or literature), and the stated mechanistic rationale explicitly finds no known pathological connection to tolcapone's COMT-inhibitory action. Combined with the blocking absence of TFDA safety data, this candidate cannot currently proceed past S0.
+The prediction rests on a model score only, with no clinical trials, no literature and no plausible mechanistic link between COMT inhibition and Rasmussen encephalitis. Tolcapone is also no longer actively authorized in New Zealand, and its hepatotoxicity profile raises the bar for any new use.
 
 **To proceed, the following is needed:**
-- TFDA package insert / label data (DG001, Blocking) — required before any safety review
-- DrugBank-sourced MOA detail (DG002)
-- Preclinical or mechanistic evidence linking catecholamine metabolism to Rasmussen encephalitis pathology, if this direction is to be pursued further
-- Note: two other predictions in this same evidence pack carry stronger mechanistic plausibility and L4 evidence — **Lewy body dementia** (rank 6, dopamine/α-synuclein pathway literature) and **paralysis agitans, juvenile, of Hunt** (rank 10, likely a historical synonym for juvenile Parkinsonism, directly aligned with tolcapone's approved MOA) — these may warrant separate evaluation ahead of the top-ranked candidate.
+- Package insert warnings and contraindications (Medsafe) to enable safety screening
+- Detailed mechanism of action data (e.g., from DrugBank)
+- A mechanistic rationale and preclinical evidence linking COMT inhibition to Rasmussen encephalitis
+- Consideration of Lewy body dementia as a more biologically plausible candidate for further investigation as a research question
+- Clarification of the New Zealand regulatory pathway, since the only licence is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

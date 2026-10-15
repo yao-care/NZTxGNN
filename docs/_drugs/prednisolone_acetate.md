@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prednisolone Acetate
-parent: High Evidence (L1-L2)
-nav_order: 285
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 378
+evidence_level: L5
 indication_count: 10
 ---
 
 # Prednisolone Acetate
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,116 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Prednisolone Acetate: From Steroid-Responsive Ocular Inflammation to Vernal Conjunctivitis
+# Prednisolone Acetate: From Uveitis to Chronic Follicular Conjunctivitis
 
 ## One-Sentence Summary
 
-Prednisolone acetate is a topical ophthalmic corticosteroid generally used to treat steroid-responsive ocular inflammatory conditions. The TxGNN model predicts it may also be effective for **Vernal Conjunctivitis** (vernal keratoconjunctivitis, VKC), with **1 clinical trial** and **19 publications** — including a comparative model study testing the drug directly — making this the best-supported candidate among 10 TxGNN-predicted indications for this drug.
-
----
+Prednisolone acetate is a topical ophthalmic corticosteroid, originally used for uveitis and other inflammatory eye conditions such as conjunctivitis and iridocyclitis.
+The TxGNN model predicts it may be effective for **chronic follicular conjunctivitis**, but this is a **model prediction only**, with **no clinical trials and no publications** found for this specific condition.
+Among the other predicted conditions, papillary conjunctivitis and vernal conjunctivitis have some indirect supporting material, mostly concerning other corticosteroids or other drug classes.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no market license on file); prednisolone acetate is generally used as a topical corticosteroid for ocular inflammation |
-| Predicted New Indication | Vernal Conjunctivitis |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L2 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Uveitis (other original indications include iris disease, ciliary body disease, panuveitis, conjunctivitis, iridocyclitis and blepharoconjunctivitis; the New Zealand licence records contain no indication text) |
+| Predicted New Indication | Chronic follicular conjunctivitis |
+| TxGNN Prediction Score | 99.74% |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 2 (both cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (data gap, high severity). Based on known information, prednisolone acetate belongs to the corticosteroid (glucocorticoid) class and acts as a topical anti-inflammatory/immunosuppressive agent for ocular surface inflammation; its general efficacy in steroid-responsive ocular inflammatory conditions is well established in clinical practice.
+Detailed mechanism of action data is not available. Based on known information, prednisolone acetate is a topical corticosteroid. Its efficacy in ocular inflammation, including uveitis and conjunctivitis, is the basis of its original indications. Mechanistically, it may be applicable to chronic follicular conjunctivitis because corticosteroids reduce inflammation on the ocular surface.
 
-Vernal conjunctivitis is a chronic, type 1/4-hypersensitivity–mediated allergic inflammation of the conjunctiva. Topical corticosteroids are already the recognized standard of care for acute VKC flares, sitting mechanistically close to the drug's established anti-inflammatory role — this is reflected in the literature, where severe VKC cases are routinely escalated to topical corticosteroids after antihistamines or mast-cell stabilizers fail (PMID 12931748).
+The original indications already include conjunctivitis and blepharoconjunctivitis, so the predicted indication is close to the existing ones. This closeness is why the prediction is plausible, but it also means the model may simply be extending known uses rather than finding a new one. No trial or publication directly tests prednisolone acetate in chronic follicular conjunctivitis.
 
-Importantly, one tier-1 comparative study (PMID 24055903) tested **prednisolone acetate 1% directly** (not just the steroid class) against cyclosporine A and epinastine in an experimental allergic conjunctivitis model, demonstrating anti-inflammatory efficacy consistent with VKC pathophysiology. This is why vernal conjunctivitis stands out: among the 10 TxGNN-predicted indications for this drug, only vernal conjunctivitis (L2, Proceed with Guardrails) and papillary conjunctivitis (L2, Research Question) reach meaningful clinical evidence; the remaining candidates — including the top-ranked "chronic follicular conjunctivitis" — have only case-report-level or no supporting evidence and are recommended Hold.
+Several other predictions need caution because corticosteroids may be harmful in the underlying cause:
+- **Parasitic conjunctivitis**: steroids may worsen the infection without antiparasitic treatment.
+- **Acute hemorrhagic conjunctivitis**: usually viral and self-limiting, and steroids may prolong viral shedding.
+- **Conjunctival folliculosis**: often benign and self-limited, so benefit is doubtful.
+- **Postinfectious vasculitis**: topical ophthalmic dosing gives limited systemic exposure, so the mechanistic fit is weak.
 
----
+### Other Predicted Indications (Summary)
+
+| Rank | Predicted Disease | TxGNN Score | Evidence Level | Recommendation |
+|------|------|------|------|------|
+| 1 | Chronic follicular conjunctivitis | 99.74% | L5 | Hold |
+| 2 | Parasitic conjunctivitis | 99.74% | L5 | Hold |
+| 3 | Conjunctival folliculosis | 99.74% | L5 | Hold |
+| 4 | Serous conjunctivitis except viral | 99.74% | L5 | Hold |
+| 5 | Papillary conjunctivitis | 99.72% | L4 | Research Question |
+| 6 | Angelucci syndrome | 99.72% | L5 | Hold |
+| 7 | Pseudomembranous conjunctivitis | 99.71% | L4 | Research Question |
+| 8 | Acute hemorrhagic conjunctivitis | 99.70% | L5 | Hold |
+| 9 | Vernal conjunctivitis | 99.58% | L4 | Research Question |
+| 10 | Postinfectious vasculitis | 99.44% | L5 | Hold |
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials are registered for the top predicted indication, chronic follicular conjunctivitis.
+
+For other predicted indications, the following trials were found. Both are only indirectly relevant:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04705584](https://clinicaltrials.gov/study/NCT04705584) | NA | Unknown | 180 | Comparative study of topical cyclosporine A 2% vs. tacrolimus 0.3% as steroid alternatives in resistant spring catarrh (VKC); directly targets the VKC population but does not test prednisolone acetate itself, and trial status is unknown (Grade A relevance to indication, limited by design/uncertain completion). |
-
----
+| [NCT01437982](https://clinicaltrials.gov/study/NCT01437982) | Phase 4 | Completed | 140 | Post-marketing surveillance of loteprednol (Lotemax) 0.5% for adverse events (papillary conjunctivitis). This is a different corticosteroid, so it gives class-level information only. |
+| [NCT04705584](https://clinicaltrials.gov/study/NCT04705584) | Not applicable | Unknown | 180 | Cyclosporine A 2% vs tacrolimus 0.3% in resistant spring catarrh (vernal conjunctivitis), as an alternative to steroids. It does not clearly test prednisolone acetate. |
 
 ## Literature Evidence
 
+No literature is available for chronic follicular conjunctivitis. The most relevant publications found for other predicted indications are below:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [24055903](https://pubmed.ncbi.nlm.nih.gov/24055903/) | 2013 | RCT/Comparative | Cornea | Direct comparison of prednisolone acetate 1%, cyclosporine A 0.05%/2%, and epinastine in an experimental allergic conjunctivitis model — anti-inflammatory efficacy data specific to this drug. |
-| [12931748](https://pubmed.ncbi.nlm.nih.gov/12931748/) | 2003 | Cohort/Epidemiological | Asian Pac J Allergy Immunol | Prospective randomized cross-over study of VKC treatment in Thai patients; severe cases required topical corticosteroids after antihistamine/lodoxamide failure. |
-| [22378107](https://pubmed.ncbi.nlm.nih.gov/22378107/) | 2012 | Clinical Study | Cornea | Evaluated topical calcineurin inhibitors as a steroid-sparing option for steroid-dependent atopic keratoconjunctivitis, implying corticosteroids remain first-line before escalation. |
-| [26984315](https://pubmed.ncbi.nlm.nih.gov/26984315/) | 2016 | Cohort | Advances in Therapy | Review of intraocular pressure (IOP) elevation risk with topical ophthalmic corticosteroids in chronic ocular inflammation management — key safety consideration for the steroid class. |
-| [9713785](https://pubmed.ncbi.nlm.nih.gov/9713785/) | 1998 | Cohort | Journal of Glaucoma | Long-term IOP monitoring during topical corticosteroid use for giant papillary/allergic conjunctivitis-type indications. |
-| [21575117](https://pubmed.ncbi.nlm.nih.gov/21575117/) | 2012 | Case Series | Clin Exp Ophthalmol | Severe VKC requiring trabeculectomy for corticosteroid-induced glaucoma — highlights long-term steroid safety risk in this population. |
-| [24021018](https://pubmed.ncbi.nlm.nih.gov/24021018/) | 2014 | Clinical Study | Cutaneous and Ocular Toxicology | Evaluated retinal nerve fiber layer thickness in VKC patients under long-term topical corticosteroid therapy — safety monitoring data. |
-| [17102679](https://pubmed.ncbi.nlm.nih.gov/17102679/) | 2006 | Case Report | Cornea | Secondary bacterial keratitis/shield ulcer as a VKC complication, underscoring the need for concurrent anti-infective management alongside steroid use. |
-| [18063892](https://pubmed.ncbi.nlm.nih.gov/18063892/) | 2007 | Case Report | Korean J Ophthalmol | Conjunctival inclusion cysts observed during 16-month follow-up of chronic VKC — long-term disease course data. |
-| [8977483](https://pubmed.ncbi.nlm.nih.gov/8977483/) | 1996 | Preclinical | Invest Ophthalmol Vis Sci | Mouse model showing cyclosporine (a steroid alternative) inhibits mast-cell-mediated conjunctivitis, supporting the shared inflammatory mechanism corticosteroids also target. |
+| [24055903](https://pubmed.ncbi.nlm.nih.gov/24055903/) | 2013 | RCT (experimental model) | Cornea | Compared cyclosporine A 0.05% and 2%, epinastine 0.05% and prednisolone acetate 1% in an experimental allergic conjunctivitis model (vernal conjunctivitis). |
+| [26984315](https://pubmed.ncbi.nlm.nih.gov/26984315/) | 2016 | Review | Advances in Therapy | Topical corticosteroids are highly effective for ocular inflammation, but they carry a risk of raised intraocular pressure. Discusses loteprednol etabonate. |
+| [18020605](https://pubmed.ncbi.nlm.nih.gov/18020605/) | 1998 | Review | BioDrugs | Clinical potential of loteprednol etabonate, a "soft" corticosteroid designed to limit systemic adverse effects. |
+| [15523196](https://pubmed.ncbi.nlm.nih.gov/15523196/) | 2004 | Review | Current Opinion in Ophthalmology | Review of ocular manifestations and management of graft versus host disease (pseudomembranous conjunctivitis). |
+| [9713785](https://pubmed.ncbi.nlm.nih.gov/9713785/) | 1998 | Cohort | Journal of Glaucoma | Intraocular pressure changes during long-term loteprednol etabonate use. |
+| [12931748](https://pubmed.ncbi.nlm.nih.gov/12931748/) | 2003 | Cohort | Asian Pacific Journal of Allergy and Immunology | Treatment outcomes in Thai patients with vernal keratoconjunctivitis. Severe cases received topical corticosteroids. |
+| [29260110](https://pubmed.ncbi.nlm.nih.gov/29260110/) | 2017 | Cohort | American Journal of Ophthalmology Case Reports | Surgical excision of giant papillae in medically refractory giant papillary conjunctivitis. |
+| [32621983](https://pubmed.ncbi.nlm.nih.gov/32621983/) | 2020 | Case report | Journal of AAPOS | Mycoplasma-induced rash and mucositis with pseudomembrane formation, treated with topical prednisolone acetate among other agents. |
+| [21434554](https://pubmed.ncbi.nlm.nih.gov/21434554/) | 2011 | Case report | Indian Journal of Tuberculosis | Primary conjunctival tuberculosis initially misdiagnosed as allergic conjunctivitis and treated with prednisolone acetate 1%, with no improvement. |
+| [40248181](https://pubmed.ncbi.nlm.nih.gov/40248181/) | 2025 | Case report | Beyoglu Eye Journal | Refractory ligneous conjunctivitis responding to topical allogeneic serum drops. |
 
----
+Most of these publications concern other corticosteroids (loteprednol) or other drug classes (cyclosporine), so they are indirect evidence for prednisolone acetate.
 
 ## New Zealand Market Information
 
-No marketing authorizations are currently on file for New Zealand — prednisolone acetate is not marketed there (0 licenses recorded).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2501511 | Prednisolone-AFT | Eye drops 1% | Not recorded (status: cancelled) |
+| 260533 | Pred Forte | Eye drops 1% | Not recorded (status: cancelled) |
 
----
+Both licences are cancelled, so no prednisolone acetate product is currently valid in New Zealand. Only the ophthalmic route (eye drops 1%) is on record.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Drug-label warnings and contraindications for this product are currently a **blocking data gap** (DG001) and must be resolved before any safety pre-screening (S1) can proceed. Note that literature on the broader topical corticosteroid class cited above (PMIDs 26984315, 9713785, 21575117, 24021018) consistently flags IOP elevation and corticosteroid-induced glaucoma as class-level risks relevant to long-term use in VKC.
+Package insert warnings and contraindications could not be retrieved for this report. Please refer to the package insert for safety information.
 
----
+- **Conditions linked to contraindication in the knowledge graph** (not taken from label text):
+  - Eye conditions: herpes simplex virus keratitis, open-angle glaucoma, ocular hypertension, eye infectious disease, fungal infection of eye, viral eye infection, ocular tuberculosis, corneal pigmentation, conjunctivitis (disease)
+  - Metabolic and other conditions: diabetes mellitus, diabetic ketoacidosis, inherited porphyria, porphyrin metabolism disease, porphyria, G6PD deficiency, glycogen storage disease, cystinuria, galactosemia
+- **Class concern**: The literature highlights steroid-induced intraocular pressure elevation with long-term topical corticosteroid use.
+- **Infection risk**: Steroids may worsen parasitic, viral or tuberculous eye disease. This matters for several predicted indications, such as parasitic and acute hemorrhagic conjunctivitis.
+- **Drug interactions**: No interaction data were found.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A tier-1 comparative study directly testing prednisolone acetate in an allergic conjunctivitis model, combined with established literature support for topical corticosteroids as standard therapy for VKC flares, gives this indication the strongest evidence base (L2) among the 10 TxGNN candidates evaluated for this drug — but no clinical trial registers prednisolone acetate itself for VKC, and label-level safety data remains unresolved.
+The top prediction, chronic follicular conjunctivitis, rests on the model score alone (L5), with no trials or literature. The only partial support, for papillary and vernal conjunctivitis, comes from studies of other drugs. Prednisolone acetate also has no currently valid New Zealand licence, and the safety data are incomplete.
 
 **To proceed, the following is needed:**
-- TFDA/package-insert warnings and contraindications (DG001, blocking)
-- Detailed mechanism of action / drug classification confirmation (DG002)
-- New Zealand regulatory pathway assessment for this ophthalmic corticosteroid
-- Long-term IOP/glaucoma monitoring protocol, given corticosteroid-class safety signals identified in the literature
-- Consider parallel evaluation of papillary conjunctivitis (L2, Research Question stage) as a secondary candidate
+- Package insert warnings and contraindications from Medsafe, which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Direct clinical evidence for prednisolone acetate in chronic follicular conjunctivitis, or in papillary or vernal conjunctivitis
+- Clarification of the cancelled licence status and the approved indication text, to confirm that a marketed product is available
+- A safety plan for steroid-induced IOP elevation and for ruling out infectious causes before use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cytarabine
-parent: Model Prediction Only (L5)
-nav_order: 95
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 129
+evidence_level: L4
 indication_count: 9
 ---
 
 # Cytarabine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,72 +29,90 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# CYTARABINE: Repurposing Analysis — TxGNN Predictions Pending
+# Cytarabine: From Acute Leukaemia to Small Cell Lung Carcinoma
 
 ## One-Sentence Summary
 
-Cytarabine (ara-C) is a pyrimidine nucleoside analogue and cornerstone chemotherapy agent, classically used for acute myeloid leukaemia (AML) and other haematological malignancies.
-This Evidence Pack is **critically incomplete** — no TxGNN repurposing predictions have been generated, and two data gaps (TFDA package insert warnings, DrugBank MOA) must be resolved before a repurposing evaluation can proceed.
-A full report will be issued once predictions and missing data are available.
-
----
+Cytarabine is a pyrimidine nucleoside analogue chemotherapy, originally used for acute lymphoblastic and acute myeloid leukaemias.
+The TxGNN model predicts it may be effective for **small cell lung carcinoma**, but there are **no registered clinical trials** and **no SCLC-specific cytarabine clinical studies** among the 20 publications retrieved, so this is essentially a model prediction with indirect support.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Acute myeloid leukaemia, acute lymphocytic leukaemia, meningeal leukaemia *(general knowledge; not recorded in this Evidence Pack)* |
-| Predicted New Indication | Not yet available |
-| TxGNN Prediction Score | Not yet available |
-| Evidence Level | N/A — No predictions available |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
-
----
+|------|------|
+| Original Indication | Acute lymphoblastic leukaemia and acute myeloid leukaemia (including several subtypes). The New Zealand licence records contain no approved indication text. |
+| Predicted New Indication | Small cell lung carcinoma |
+| TxGNN Prediction Score | 99.78% |
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
+| Number of Authorizations | 6 (all cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-No TxGNN repurposing predictions are present in this Evidence Pack, so a mechanism-bridging analysis cannot yet be performed. The following reflects established pharmacological knowledge of cytarabine as background context.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cytarabine is a pyrimidine nucleoside analogue that inhibits DNA synthesis in rapidly dividing cells. Its efficacy in acute leukaemia is well established, and mechanistically it could be applicable to a highly proliferative tumour such as small cell lung carcinoma.
 
-Cytarabine is a cell-cycle–specific (S-phase) antimetabolite. Once inside the cell, it is phosphorylated to its active triphosphate form (Ara-CTP), which competes with deoxycytidine triphosphate (dCTP) for incorporation into DNA. This terminates or stalls the replicating DNA strand and inhibits DNA polymerase α, triggering apoptosis in rapidly dividing cells. Its high activity against haematological malignancies stems from the elevated dCTP pool turnover in leukaemic blast cells.
+However, the supporting evidence is weak. The retrieved literature mostly concerns non-small cell lung cancer (1990 phase II combinations of cytarabine with cisplatin, with a response rate of about 14% in one study and significant myelosuppression) and other antimetabolites such as gemcitabine and decitabine. Solid tumours are generally relatively insensitive to cytarabine. The only SCLC-specific item is a 1987 report on high-dose cytarabine in small cell lung cancer, which has no abstract available. The very high TxGNN score is therefore not backed by direct clinical evidence.
 
-Detailed MOA data from DrugBank was not successfully retrieved in this Evidence Pack (Data Gap DG002, severity: High). Once MOA data is available, a systematic mechanism-to-indication bridging analysis can identify biologically plausible repurposing targets — for example, exploring cytarabine's DNA-damaging properties in solid tumour contexts or its role in viral replication inhibition (a historically investigated direction).
+## Clinical Trial Evidence
 
----
+Currently no related clinical trials registered for small cell lung carcinoma.
+
+## Literature Evidence
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [3030547](https://pubmed.ncbi.nlm.nih.gov/3030547/) | 1987 | Clinical report | Cancer Treat Rep | High-dose cytarabine in small cell lung cancer; no abstract available, so findings cannot be summarised |
+| [2156598](https://pubmed.ncbi.nlm.nih.gov/2156598/) | 1990 | Phase II | Cancer | High-dose cytarabine plus cisplatin in untreated NSCLC (n=37): 14% response rate, grade IV myelosuppression in 32%, 4 deaths on study |
+| [2157307](https://pubmed.ncbi.nlm.nih.gov/2157307/) | 1990 | Phase II | Tumori | Cisplatin, vindesine and cytarabine in advanced NSCLC (n=32); modest activity |
+| [2158614](https://pubmed.ncbi.nlm.nih.gov/2158614/) | 1990 | Randomised phase II | Med Pediatr Oncol | Cisplatin-cytarabine vs cisplatin-vinblastine in 151 NSCLC patients (NSCLC, not SCLC) |
+| [2820740](https://pubmed.ncbi.nlm.nih.gov/2820740/) | 1987 | Pilot study | Eur J Cancer Clin Oncol | Cisplatin plus cytarabine in advanced NSCLC; no abstract available |
+| [1332622](https://pubmed.ncbi.nlm.nih.gov/1332622/) | 1992 | Review | Gan To Kagaku Ryoho | Gemcitabine and DMDC are related to cytarabine; many solid tumours are insensitive to cytarabine |
+| [1360876](https://pubmed.ncbi.nlm.nih.gov/1360876/) | 1992 | In vitro | Cancer Chemother Pharmacol | Drug sensitivity patterns in SCLC cell lines (doxorubicin focus; not cytarabine-specific) |
+| [18600541](https://pubmed.ncbi.nlm.nih.gov/18600541/) | 2008 | Preclinical | Nucleosides Nucleotides Nucleic Acids | Nucleoside transporters hENT1 and hCNT1, which mediate cytarabine uptake, are highly expressed in NSCLC cell lines and samples |
+
+## New Zealand Market Information
+
+All six authorizations are cancelled; none is currently valid. The records contain no approved indication text.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 786365 | Pfizer | Inj 20 mg per ml, 5 ml vial | Not recorded |
+| 2359537 | Pfizer | Inj 100 mg per ml, 20 ml vial | Not recorded |
+| 2695758 | Pfizer | Inj 20 mg per ml, 5 ml vial | Not recorded |
+| 2204231 | Baxter | Inj 100 mg intrathecal syringe for ECP | Not recorded |
+| 341711 | Cytarabine DBL | Inj 100 mg per ml, 20 ml vial | Not recorded |
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Pyrimidine antimetabolite (nucleoside analogue) |
-| Myelosuppression Risk | **High** — bone marrow suppression is the dose-limiting toxicity; leukopenia, thrombocytopenia, and anaemia are expected at standard and high doses |
-| Emetogenicity Classification | **Moderate** at standard doses; increases to moderate–high at high-dose consolidation regimens (≥ 1 g/m²) |
-| Monitoring Items | CBC with differential (neutrophil and platelet nadir monitoring), liver function tests, renal function, neurological assessment (cerebellar toxicity screening at high-dose regimens), ophthalmologic exam (conjunctivitis prevention with steroid eye drops at high doses) |
-| Handling Protection | Cytotoxic drug handling regulations apply — preparation in a biological safety cabinet, full PPE (gloves, gown, eye protection) required; follow institutional cytotoxic waste disposal protocols |
-
----
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (pyrimidine nucleoside antimetabolite) |
+| Myelosuppression Risk | High (grade IV myelosuppression in 32% of patients in a high-dose cytarabine plus cisplatin lung cancer study) |
+| Emetogenicity Classification | Nausea and vomiting reported in the lung cancer studies; please refer to the package insert for classification |
+| Monitoring Items | Complete blood count with differential, liver and renal function |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The TFDA package insert was queried (query log ID 4, status: success), however key warnings and contraindications were not extracted into this Evidence Pack (Data Gap DG001, severity: **Blocking** — prevents progression to safety initial assessment S1). DDI data query returned no results.
+- **Contraindication-related conditions (from a knowledge graph, not label text)**: kidney disease, liver disease, pancreatitis, gallbladder disease, thrombocytopenia, anaemia, leukopenia, neutropenia and agranulocytosis (including congenital neutropenia syndromes), peripheral neuropathy, pulmonary oedema, diarrhoeal disease, fungal infections, and necrotising enterocolitis.
+- **Drug Interactions**: 100 interactions were identified. Those with a graded severity are naltrexone (Moderate) and levofloxacin (Minor). Many others, including pantoprazole, omeprazole, metformin, morphine, vancomycin and prednisone, have an unknown severity level.
 
----
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This Evidence Pack contains two unresolved data gaps — no TxGNN predictions have been generated, and a Blocking-severity gap in TFDA safety data prevents completion of the standard evaluation framework. There is currently no repurposing candidate to evaluate.
+The prediction rests on model output and indirect evidence only (L4). There are no clinical trials, no SCLC-specific data of substance, historical NSCLC studies showed low response rates with substantial haematologic toxicity, and the drug currently has no valid New Zealand authorization.
 
 **To proceed, the following is needed:**
-
-- **[Blocking — DG001]** Extract TFDA package insert warnings, contraindications, and special population data; required to pass Safety Initial Assessment (S1)
-- **[Blocking]** Run TxGNN prediction pipeline for `DB00987 / CYTARABINE` to generate ranked repurposing candidates; no evaluation is possible without predictions
-- **[High — DG002]** Retrieve DrugBank MOA data via DrugBank API; required for mechanism-bridging analysis
-- Once predictions are available, run automated evidence collection (ClinicalTrials.gov, PubMed) for top-ranked indications and re-issue a full evaluation report
-- Confirm whether cytarabine is registered in any international market (e.g., FDA, EMA) to supplement the Taiwan non-marketed status and contextualize safety expectations
+- Review of the 1987 SCLC high-dose cytarabine report to establish actual activity
+- Detailed mechanism of action data
+- Package insert warnings and contraindications (Medsafe)
+- Preclinical or clinical data specific to cytarabine in SCLC
+- A regulatory plan, as all New Zealand licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

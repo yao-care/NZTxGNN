@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zidovudine
-parent: Moderate Evidence (L3-L4)
-nav_order: 364
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 485
+evidence_level: L5
 indication_count: 6
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,19 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **6**
 
 </div>
 
-Using the drug-repurposing evaluation report template supplied in the system prompt, here is the report generated from the Evidence Pack.
-
-Before the report, one editorial note on how I handled a structural mismatch in this specific pack: `predicted_indications` contains **6** ranked diseases, and array position `[0]` ("feline acquired immunodeficiency syndrome") is a veterinary/animal-model finding, not a human indication — its own `repurposing_rationale` explicitly says so. Rather than silently forcing a human-drug report around a cat disease, I followed the template's literal extraction rules for the required fields (so the Quick Overview reflects `predicted_indications[0]` as instructed), but added a supplementary comparison table so the reviewer can see all 6 predictions and their wildly different evidence quality (2 non-human models, 2 zero-evidence/likely false positives, 2 with real L1 human trial evidence that actually just restate zidovudine's original approved use). This is flagged transparently in the report rather than guessed away.
-
----
-
-# Zidovudine: From HIV/AIDS Treatment to Feline Acquired Immunodeficiency Syndrome (Veterinary Model)
+# Zidovudine: From HIV Infection and AIDS to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-> Zidovudine (AZT) is the original nucleoside reverse transcriptase inhibitor (NRTI), established since 1987 as an antiretroviral for HIV infection/AIDS.
-> The top-ranked TxGNN prediction in this evidence pack is **Feline Acquired Immunodeficiency Syndrome** — a veterinary, cross-species model finding (score **99.96%**) — supported only by **20 animal-study publications** and **0 human clinical trials**.
-> This pack additionally contains 5 other predictions, including two (AIDS-related complex, congenital HIV) with strong human trial evidence, but these largely restate zidovudine's already-established indication rather than a genuinely new repurposing target — see "Other Predicted Indications" below.
+Zidovudine is a nucleoside reverse transcriptase inhibitor, originally used to treat HIV infection and AIDS.
+The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency syndrome**, a veterinary indication supported by **19 publications** (all animal or veterinary studies) and **no registered clinical trials**.
+The highest-ranked prediction with direct human clinical evidence is **AIDS related complex**, supported by **44 clinical trials** and **19 publications**, but this largely confirms zidovudine's established use rather than a new one.
 
 ---
 
@@ -49,92 +43,128 @@ Before the report, one editorial note on how I handled a structural mismatch in 
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection / AIDS (antiretroviral therapy) — inferred from repurposing-rationale text in this pack; not separately listed in the regulatory record (New Zealand: unmarketed, 0 licenses on file) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (veterinary/animal-model indication) |
+| Original Indication | HIV infectious disease; AIDS (the licence records contain no approved indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome (rank 1) |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Evidence Level | L3 (animal and veterinary studies only; no human trials for this indication) |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 2 (both cancelled) |
+| Recommended Decision | Hold (rank 1 is a veterinary research question; see the Conclusion for the human-relevant predictions) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, a structured mechanism-of-action (MOA) record is not available for this drug in the evidence pack (flagged as a High-severity data gap, DG002). Based on the mechanistic descriptions embedded in this pack's own repurposing rationale, zidovudine is a thymidine nucleoside analogue: it is phosphorylated intracellularly to its active triphosphate form, which competitively inhibits HIV-1 reverse transcriptase and causes premature viral DNA chain termination, blocking retroviral replication.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, zidovudine is a thymidine analogue that must be phosphorylated in lymphocytes before it acts. It inhibits the reverse transcriptase of HIV by chain termination, and its efficacy in HIV infection and AIDS is well established.
 
-Feline immunodeficiency virus (FIV) and feline leukemia virus (FeLV) are both retroviruses (lentivirus/oncovirus) whose reverse transcriptase is structurally homologous to HIV-1's. The theoretical rationale is that a nucleoside analogue built to block HIV-1 RT should, in principle, cross-inhibit these related retroviral enzymes in cats.
+Feline immunodeficiency virus (FIV) is a lentivirus related to HIV and carries a reverse transcriptase that zidovudine can inhibit. In experimentally and naturally infected cats, zidovudine lowered plasma virus titres and in some studies produced clinical benefit. It did not prevent infection when given prophylactically. Toxicity, mainly anaemia, has also been documented in cats. The same logic applies to the second-ranked prediction, simian immunodeficiency virus infection, where macaque studies show reduced viral load and prolonged survival.
 
-However, this is explicitly a **cross-species animal model/veterinary indication**, not a human clinical indication, and the evidence pack itself flags that it does not fit the target population of a human drug-repurposing pipeline. It should be labeled clearly as a veterinary research question rather than a candidate for human regulatory advancement.
+Both are animal models or veterinary conditions, so they are not directly applicable to human drug repurposing. Two lower-scored predictions on the list, AIDS related complex and congenital HIV, are essentially the original HIV indication. Two others are probably model artefacts: a rare neurodevelopmental disorder and an obsolete familial combined hyperlipidaemia term. Neither has any literature, clinical trials or plausible mechanism.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+The top-ranked prediction (feline AIDS) has no registered clinical trials. The most relevant human trials are listed below for the rank 5 prediction, AIDS related complex, which has the strongest direct evidence.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00001011](https://clinicaltrials.gov/study/NCT00001011) | Phase 3 | Completed | 538 | Safety and efficacy of zidovudine in early AIDS related complex; evaluates HIV suppression and prevention of progression to AIDS |
+| [NCT00000736](https://clinicaltrials.gov/study/NCT00000736) | Phase 3 | Completed | 3200 | Zidovudine in asymptomatic HIV infection; delay or prevention of AIDS/ARC, and comparison of a lower dose with the dose used in AIDS and severe ARC |
+| [NCT00001022](https://clinicaltrials.gov/study/NCT00001022) | Phase 3 | Completed | 1200 | AZT alone vs AZT plus didanosine vs AZT plus zalcitabine for delaying AIDS-related conditions |
+| [NCT00002124](https://clinicaltrials.gov/study/NCT00002124) | Phase 3 | Completed | 1250 | Three doses of delavirdine plus zidovudine vs zidovudine alone in HIV-1 infection |
+| [NCT00000625](https://clinicaltrials.gov/study/NCT00000625) | Phase 2 | Completed | 2100 | Monotherapy vs combination nucleoside analogue therapy (AZT, ddI, ddC) in disease progression |
+| [NCT00000803](https://clinicaltrials.gov/study/NCT00000803) | Phase 2 | Completed | 471 | Delavirdine with AZT and/or ddI vs AZT/ddI; safety and anti-HIV activity |
+| [NCT00002238](https://clinicaltrials.gov/study/NCT00002238) | Phase 3 | Completed | Not reported | Interferon beta (Betaseron) in AIDS and advanced ARC patients on reduced-dose AZT |
+| [NCT00002326](https://clinicaltrials.gov/study/NCT00002326) | Phase 1 | Completed | 20 | Safety, tolerance and pharmacokinetics of AZT plus adefovir (PMEA) |
+| [NCT00000960](https://clinicaltrials.gov/study/NCT00000960) | Phase 3 | Completed | 1496 | Oral zidovudine in pregnant HIV-infected women and their infants to reduce mother-to-child transmission (relevant to the congenital HIV prediction) |
+| [NCT00002117](https://clinicaltrials.gov/study/NCT00002117) | Phase 3 | Completed | 528 | Alternative ddC and AZT combination schedules in HIV infection |
 
 ---
 
 ## Literature Evidence
 
+**Feline AIDS (rank 1, veterinary):**
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Prospective Animal Trial | Antimicrobial Agents and Chemotherapy | AZT + interferon-alpha 2b in presymptomatic FeLV-induced immunodeficiency (FAIDS); combination showed antiviral benefit over AZT alone |
-| [2164083](https://pubmed.ncbi.nlm.nih.gov/2164083/) | 1990 | Prospective Animal Trial | J Acquired Immune Deficiency Syndromes | AZT + IFN-α + IL-2 prophylaxis for FeLV-FAIDS; AZT inhibited FeLV replication in vitro, ~25–30% added effect with IFN-α |
-| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Prospective Animal Trial | J Acquired Immune Deficiency Syndromes | Prophylactic AZT (30 mg/kg/day) prevented early viremia and lymphocyte decline in FIV-inoculated cats, but did not prevent primary infection |
-| [2475068](https://pubmed.ncbi.nlm.nih.gov/2475068/) | 1989 | Review/Model Description | Antimicrobial Agents and Chemotherapy | Establishes FIV as a reverse-transcriptase-homologous model justifying AZT-based chemotherapy research for AIDS |
-| [18550661](https://pubmed.ncbi.nlm.nih.gov/18550661/) | 2008 | Genetic/Phylogenetic Analysis | Journal of Virology | Phylogenetic analysis of FIV gag/pol/env genes in AZT-treated vs. treatment-naïve cats in Brazil |
-| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Cohort (feline) | Archives of Virology | AZT and cyclosporine both lowered plasma FIV titers at 2 weeks post-infection; effect not sustained |
-| [7618256](https://pubmed.ncbi.nlm.nih.gov/7618256/) | 1995 | Animal Study (SCID mouse model) | Veterinary Immunology and Immunopathology | AZT reduced proviral burden and enhanced humoral immune response in SCID-feline mouse FIV model |
-| [9226004](https://pubmed.ncbi.nlm.nih.gov/9226004/) | 1997 | Preclinical/Drug Delivery Study | Journal of Leukocyte Biology | Erythrocyte-based targeted delivery system for phosphorylated nucleoside analogues (AZT-class) to macrophages, an HIV reservoir cell |
-| [15047505](https://pubmed.ncbi.nlm.nih.gov/15047505/) | 2004 | Animal Study | Antimicrobial Agents and Chemotherapy | Topical AZT-derivative spermicide (WHI-07) prevented vaginal/rectal FIV transmission in cats |
-| [8399067](https://pubmed.ncbi.nlm.nih.gov/8399067/) | 1993 | Animal Study | J Immunotherapy | AZT combined with adoptive lymphocyte transfer and IFN-α reversed FeLV infection in cats |
+| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Animal study | Archives of Virology | Zidovudine lowered plasma FIV titres at 2 weeks but did not prevent infection and the effect was not maintained |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Veterinary clinical study | Viruses | Zidovudine alone or combined with interferon, lamivudine or valproic acid in naturally FIV-infected cats over one year |
+| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Animal study | J Acquir Immune Defic Syndr | Prophylactic zidovudine prevented early viraemia and lymphocyte decline but not primary infection |
+| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Animal study | Antimicrob Agents Chemother | Interferon alpha plus zidovudine vs zidovudine alone in presymptomatic FeLV-induced immunodeficiency |
+| [2163339](https://pubmed.ncbi.nlm.nih.gov/2163339/) | 1990 | Animal toxicity study | Fundam Appl Toxicol | Dose-dependent zidovudine toxicity in FeLV-infected cats |
+| [8820595](https://pubmed.ncbi.nlm.nih.gov/8820595/) | 1995 | Review | Semin Vet Med Surg (Small Anim) | Management of retrovirus-infected cats, including zidovudine |
 
----
+**AIDS related complex (rank 5, human):**
 
-## Other Predicted Indications in This Evidence Pack
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2677429](https://pubmed.ncbi.nlm.nih.gov/2677429/) | 1989 | Clinical study | JAMA | Prolonged zidovudine therapy in 229 AIDS/ARC patients; 12-month survival 84.5% in the original treatment group |
+| [1777174](https://pubmed.ncbi.nlm.nih.gov/1777174/) | 1991 | Double-blind trial | AIDS | Zidovudine with or without acyclovir in 199 ARC patients |
+| [2191113](https://pubmed.ncbi.nlm.nih.gov/2191113/) | 1990 | Placebo-controlled trial | J Acquir Immune Defic Syndr | Quality of life; at 1 year, 1 death in the zidovudine group vs 10 in the placebo group |
+| [7693435](https://pubmed.ncbi.nlm.nih.gov/7693435/) | 1993 | Review | Drugs | Zidovudine delays progression to AIDS and ARC, reduces opportunistic infections and improves survival |
+| [2201071](https://pubmed.ncbi.nlm.nih.gov/2201071/) | 1990 | Review | Rev Infect Dis | Zidovudine intolerance, mainly time- and dose-dependent haematologic toxicity |
 
-This pack scored 6 diseases for zidovudine. Because the evidence quality and clinical relevance vary enormously between them, they are summarized here for full transparency rather than omitted:
+**Congenital HIV (rank 6, human):**
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation | Note |
-|------|----------------------|-------------|-----------------|-----------------|------------------|------|
-| 1 | Feline Acquired Immunodeficiency Syndrome | 99.96% | L3 | S1 | Research Question | Veterinary/animal model only (see main body above) |
-| 2 | Simian Immunodeficiency Virus Infection | 99.96% | L3 | S1 | Research Question | Non-human primate model; validates HIV-RT mechanism, not a human indication |
-| 3 | Neurodevelopmental disorder with ataxic gait, absent speech, decreased cortical white matter | 99.96% | L5 | S0 | Hold | 0 trials, 0 literature; purely theoretical LINE-1/interferon-pathway hypothesis |
-| 4 | Obsolete familial combined hyperlipidemia | 99.62% | L5 | S0 | Hold | 0 trials, 0 literature; mechanistically contradictory — NRTIs are known to *cause* dyslipidemia, not treat it; disease term is itself flagged "obsolete" in the ontology — likely a false-positive/data-noise prediction |
-| 5 | AIDS Related Complex | 99.19% | L1 | S3 | Proceed with Guardrails | 50 clinical trials, 20 publications, including the pivotal 1987 Fischl et al. placebo-controlled RCT (NEJM, PMID 3299089) that established AZT as the first approved anti-HIV drug — this **is** zidovudine's original indication, not a new one |
-| 6 | Congenital Human Immunodeficiency Virus | 99.19% | L1 | S3 | Proceed with Guardrails | 33 clinical trials, 20 publications, anchored by PACTG 076-era studies (e.g. NCT00386230) establishing AZT for prevention of mother-to-child HIV transmission — an established, guideline-endorsed use since 1994, not a novel repurposing target |
-
-**Interpretation:** none of the 6 predictions in this pack represent a genuinely new, actionable human repurposing indication for zidovudine. Ranks 1–2 are non-human models; ranks 3–4 have no supporting evidence at all and rank 4 is likely a database/ontology artifact; ranks 5–6 have strong evidence but simply rediscover the drug's own original approved indication.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [7913986](https://pubmed.ncbi.nlm.nih.gov/7913986/) | 1994 | Guideline | MMWR Recomm Rep | USPHS recommendations: zidovudine in pregnant women and newborns reduced perinatal transmission by about two-thirds |
+| [28537936](https://pubmed.ncbi.nlm.nih.gov/28537936/) | 2017 | Cohort/safety study | AIDS | Inconsistent evidence that zidovudine in pregnancy increases congenital malformations |
+| [29912896](https://pubmed.ncbi.nlm.nih.gov/29912896/) | 2018 | Systematic review and network meta-analysis | PLoS One | Comparative safety and effectiveness of perinatal antiretroviral therapies |
 
 ---
 
 ## New Zealand Market Information
 
-Zidovudine currently has no marketing authorization on file in New Zealand (0 licenses; market status: Not Marketed). No product, dosage form, or approved-indication records are available to summarize.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 818682 | Retrovir | Oral liquid 10 mg per ml | Not recorded (cancelled) |
+| 552666 | Retrovir | Capsule 100 mg | Not recorded (cancelled) |
+
+Both authorizations are cancelled, so there is currently no valid marketed zidovudine product in New Zealand.
+
+---
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Not an antineoplastic; antiretroviral nucleoside analogue with known haematologic and mitochondrial toxicity |
+| Myelosuppression Risk | Medium to high; anaemia and neutropenia are documented and are dose- and time-dependent |
+| Emetogenicity Classification | Low to medium |
+| Monitoring Items | Full blood count with differential, liver and renal function, creatine kinase, lactate |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Structured safety data (key warnings, contraindications, drug–drug interactions) could not be retrieved for this evidence pack. This is recorded as a **Blocking**-severity data gap (DG001 — TFDA/Medsafe package insert warnings/contraindications not yet extracted), which by definition prevents this candidate from completing the S1 safety pre-assessment stage.
+- **Contraindications (knowledge-graph associations, not label text)**: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, myopathy and other muscle disease (including myositis and dermatomyositis), neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), lactic acidosis, hypertriglyceridemia, obesity disorders, familial periodic paralysis, pyoureter.
+- **Drug Interactions**: 100 interactions are recorded. The main ones listed are:
+  - Moderate: amphotericin B (including the cholesteryl sulfate and lipid complex forms), corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone, prednisolone, prednisone, triamcinolone), naltrexone, rosuvastatin, simvastatin, orlistat.
+  - Minor: cimetidine, clarithromycin.
+  - Unclassified: pantoprazole, morphine, metformin, omeprazole.
+- **Evidence of toxicity in the literature**: haematologic toxicity (anaemia, leukopenia), and in cats, dose-dependent toxicity. For pregnancy, malformation evidence is inconsistent.
 
-Please refer to the package insert for safety information once retrieved.
+Package insert warnings and contraindications are not available in the data compiled for this report. Please refer to the package insert for full safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** for the top-ranked prediction (feline AIDS) and for the unsupported predictions (rank 3 and rank 4). **Proceed with Guardrails** applies only to ranks 5 and 6, which are confirmations of the established HIV use.
 
 **Rationale:**
-The top-ranked predicted indication in this pack (feline acquired immunodeficiency syndrome) is a veterinary cross-species model finding with no human clinical trial support (L3, Research Question stage) — it does not represent an actionable human repurposing candidate. The other predictions in this pack are similarly non-actionable: two are non-human primate models, two have zero supporting evidence (one likely a false positive), and the two with genuine L1 human trial evidence (AIDS-related complex, congenital HIV) merely restate zidovudine's own original, already-approved antiretroviral indication rather than constituting a new use.
+- The top prediction is a veterinary indication with animal evidence only, so it does not support human repurposing. The neurodevelopmental disorder and the obsolete hyperlipidaemia term have no evidence and no plausible mechanism, and zidovudine is more often linked to dyslipidaemia than to its treatment.
+- AIDS related complex and congenital HIV have Phase 3 support, but they are extensions of zidovudine's original use and not new repurposing. Zidovudine is now used within combination regimens, and all New Zealand licences are cancelled.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Structured mechanism-of-action documentation (DG002)
-- A pipeline-level review to exclude non-human (veterinary/primate model) predictions from the human drug-repurposing evaluation queue, or route them to a separate veterinary-use track
-- Re-scoring/filtering to prevent "re-discovery" of a drug's own original indication (ranks 5–6) from being reported as a novel repurposing signal
+- Package insert warnings and contraindications (from Medsafe) to complete safety screening
+- Detailed mechanism of action data (from DrugBank)
+- Verification of current availability in New Zealand, given the cancelled licences
+- For any HIV-related use: a monitoring plan for haematologic toxicity, myopathy and lactic acidosis, and a review of the 100 recorded interactions
+- For a veterinary pathway, if pursued: a separate veterinary regulatory and toxicity assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

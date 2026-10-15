@@ -2,7 +2,7 @@
 layout: default
 title: Amsacrine
 parent: Model Prediction Only (L5)
-nav_order: 29
+nav_order: 38
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,37 +29,40 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Amsacrine: From Acute Leukemia to Hyperthyroidism
+# Amsacrine: From Antineoplastic Use (Original Indication Not Recorded) to Plasma Cell Myeloma
 
 ## One-Sentence Summary
 
-Amsacrine (m-AMSA) is a cytotoxic antineoplastic agent established in the treatment of acute leukemia, acting via DNA intercalation and Topoisomerase II inhibition.
-The TxGNN model predicts it may be effective for **Hyperthyroidism**, however this association is currently supported by **no clinical trials** and **no published literature**.
-The high TxGNN score (99.37%) most likely reflects indirect knowledge-graph network connectivity rather than a genuine pharmacological relationship, and this prediction should be interpreted with significant caution.
+Amsacrine is a cytotoxic anticancer drug (a topoisomerase II inhibitor and DNA intercalator). The New Zealand licence records compiled for this report do not list an approved indication.
+The TxGNN model's top-ranked prediction is hyperthyroidism, which has no supporting evidence and no plausible mechanism. The most evidence-supported prediction is **plasma cell myeloma** (rank 2), with **0 registered clinical trials** and **4 publications**, including 2 Phase II studies that showed limited activity.
+
+The report below focuses on plasma cell myeloma, because the rank 1 prediction has no evidence and is mechanistically implausible.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Antineoplastic agent (acute leukemia); not registered in Taiwan |
-| Predicted New Indication | Hyperthyroidism |
-| TxGNN Prediction Score | 99.37% |
-| Evidence Level | L5 |
-| Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+|------|------|
+| Original Indication | Not recorded in the New Zealand licence data |
+| Predicted New Indication | Plasma cell myeloma (rank 2; the rank 1 prediction, hyperthyroidism, has no supporting evidence) |
+| TxGNN Prediction Score | 99.32% (plasma cell myeloma); 99.37% (hyperthyroidism, rank 1) |
+| Evidence Level | L3 (plasma cell myeloma); L5 (hyperthyroidism) |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current evidence package. Based on available scientific context, Amsacrine (m-AMSA) is a DNA-intercalating cytotoxic agent and Topoisomerase II inhibitor used in oncology — most notably for refractory acute non-lymphocytic leukaemia. Its mechanism involves insertion into the DNA double helix and stabilisation of the Topoisomerase II–DNA cleavage complex, generating DNA double-strand breaks that preferentially destroy rapidly proliferating cells. Cardiotoxicity is a documented class concern noted in the literature.
+Detailed mechanism of action data is not available in the data compiled for this report. From known pharmacology, amsacrine is a topoisomerase II poison and DNA intercalator. It damages DNA in rapidly dividing cells, which makes it biologically plausible against proliferating haematological malignancies such as myeloma.
 
-Hyperthyroidism is characterised by excessive synthesis and secretion of thyroid hormones (T3/T4), most commonly caused by Graves' disease, toxic nodular goitre, or thyroiditis. Standard treatment targets thyroid hormone synthesis (thionamides), radioiodine uptake, or peripheral adrenergic effects (beta-blockers). No established biological pathway connects Topoisomerase II inhibition or DNA intercalation to thyroid hormone regulation or thyroid gland physiology.
+The link to myeloma is therefore mechanistic, as both are haematological cancers. Two Phase II studies tested amsacrine in myeloma. A 1983 multi-tumour study (solid tumours, myeloma, lymphoma) reported only 12 partial responses among 221 evaluable patients. A 1989 myeloma-specific trial in 74 previously treated patients found a good response in only 2 patients (3%) and improvement in 3 (4%). Severe toxicity occurred in 33% of patients who received three or more courses, and the authors concluded the dose and schedule were usually ineffective in multiple myeloma.
 
-The repurposing rationale analysis explicitly identifies this prediction as a probable false positive: the TxGNN high score likely arises from indirect node linkages in the disease knowledge graph — such as shared comorbidity or immune-modulation nodes — rather than a real pharmacological interaction between Amsacrine and hyperthyroidism pathophysiology. This prediction does not meet the threshold for mechanistic plausibility required to advance beyond a model-prediction-only stage.
+Modern myeloma therapies (proteasome inhibitors, immunomodulatory drugs, anti-CD38 antibodies and BCMA-directed agents) have largely superseded this type of agent. The model score is high, but the real-world evidence does not show meaningful benefit.
+
+The other predictions (hyperthyroidism, thyroid hormone resistance, bronchitis, indolent myeloma) have no clinical or literature support. There is no recognised mechanism linking a DNA-damaging cytotoxic drug to these conditions, and its toxicity would be disproportionate for them.
 
 ---
 
@@ -71,25 +74,42 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2913481](https://pubmed.ncbi.nlm.nih.gov/2913481/) | 1989 | Phase II trial (single-arm) | Med Pediatr Oncol | 74 previously treated myeloma patients received 120 mg/m² every 3 weeks; good response in 3%, improvement in 4%; severe toxicity in 33% with three or more courses; dose and schedule usually ineffective |
+| [6688199](https://pubmed.ncbi.nlm.nih.gov/6688199/) | 1983 | Phase II trial | Cancer Treat Rep | Heavily pretreated solid tumours, myeloma and lymphoma; 12 partial responses in 221 evaluable patients at 120 mg/m² every 28 days; some antitumour activity |
+| [2064323](https://pubmed.ncbi.nlm.nih.gov/2064323/) | 1991 | Review | Anticancer Res | Review of new drugs for acute and chronic leukaemia with emphasis on m-AMSA; myeloma is mentioned only in relation to other agents |
+| [1958848](https://pubmed.ncbi.nlm.nih.gov/1958848/) | 1991 | In vitro preclinical | Anti-Cancer Drugs | Compared cytotoxicity of DNA intercalating agents in myeloma cells and rat heart cells; raises cardiotoxicity concern |
+
+---
+
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2680521 | AmsaLyo | Inj 75 mg | Not recorded (cancelled) |
+| 2577437 | Amsidine | Inj 50 mg per ml, 1.5 ml ampoule | Not recorded (cancelled) |
 
 ---
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic (DNA intercalating agent / Topoisomerase II inhibitor) |
-| Myelosuppression Risk | High — cytotoxic mechanism targeting rapidly dividing cells; haematological toxicity expected based on drug class |
-| Emetogenicity Classification | Moderate |
-| Monitoring Items | CBC with differential, ECG and cardiac function monitoring (known cardiotoxicity — confirmed in in vitro comparative studies with heart myocytes), liver and renal function |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (topoisomerase II inhibitor / DNA intercalator) |
+| Myelosuppression Risk | High (severe toxicity was reported in 33% of myeloma patients receiving three or more courses) |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | CBC with differential, liver and renal function, electrolytes, cardiac function (cardiotoxicity concern) |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Cardiotoxicity**: An in vitro study (PMID 1958848) compared heart-cell and tumour-cell toxicity of DNA intercalating agents and raised a cardiotoxicity concern.
+- **Severe toxicity**: In the 1989 Phase II myeloma trial, 33% of patients who received three or more courses had severe toxicity.
+
+Please refer to the package insert for further safety information, including warnings, contraindications and drug interactions.
 
 ---
 
@@ -98,15 +118,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-There is no mechanistic basis connecting Amsacrine's Topoisomerase II inhibition and DNA intercalation to hyperthyroidism pathophysiology, no registered clinical trials, and no published literature supporting this indication. The TxGNN rank-1 prediction is assessed as a likely knowledge-graph false positive driven by indirect disease-node connectivity.
+The prediction for plasma cell myeloma rests on only two older single-arm Phase II studies, which showed low response rates and notable toxicity. There are no registered trials, the drug is no longer marketed in New Zealand, and modern myeloma treatments are far more effective. The remaining predictions have no supporting evidence.
 
 **To proceed, the following is needed:**
-- Formal mechanism of action data (MOA) from DrugBank to enable structured mechanistic analysis
-- Identification of a biologically plausible pathway linking Topoisomerase II inhibition to thyroid hormone synthesis or secretion (none currently known)
-- At minimum one hypothesis-generating in vitro or in silico study before any clinical consideration can be entertained
-
-**Alternative candidate warranting priority review:**
-The rank-2 TxGNN prediction — **Plasma Cell Myeloma** (score 99.32%, Evidence Level L3) — is mechanistically more plausible (Topoisomerase II inhibition against a highly proliferative plasma cell tumour) and is supported by 7 published studies including two Phase II single-arm trials (PMID [6688199](https://pubmed.ncbi.nlm.nih.gov/6688199/) and [2913481](https://pubmed.ncbi.nlm.nih.gov/2913481/)). Although both trials showed insufficient single-agent efficacy, the existing evidence base makes Plasma Cell Myeloma a more productive target for repurposing evaluation — particularly in combination regimens or specific patient subgroups.
+- Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- The original approved indication from the licence records
+- Evidence of benefit over current standard myeloma therapies, which is unlikely given the existing Phase II results
+- A cardiac and haematological safety assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Acetazolamide
 parent: Model Prediction Only (L5)
-nav_order: 13
+nav_order: 15
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,100 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# ACETAZOLAMIDE: Drug Repurposing Evaluation Report
+# Acetazolamide: From Glaucoma and Altitude Sickness to Exercise-Induced Malignant Hyperthermia
 
 ## One-Sentence Summary
 
-Acetazolamide (DrugBank: DB00819) is a carbonic anhydrase inhibitor with known uses in glaucoma, epilepsy, and altitude sickness. However, the TxGNN model has **not yet generated any predicted new indications** for this drug, and critical data gaps remain in mechanism of action and safety information. This report serves as a **baseline data inventory** pending completion of the prediction pipeline.
-
----
+Acetazolamide is a carbonic anhydrase inhibitor originally used for absence epilepsy, congestive heart failure, open-angle and angle-closure glaucoma, and altitude sickness.
+The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**,
+but there are **no clinical trials and no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Drug Name (INN) | ACETAZOLAMIDE |
-| DrugBank ID | [DB00819](https://go.drugbank.com/drugs/DB00819) |
-| Original Indication | *(No approved indication text available in evidence pack)* |
-| Predicted New Indication | **None** — TxGNN prediction not yet available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | **L5** (No prediction or supporting evidence available) |
-| Taiwan Market Status | ❌ Not marketed (Not marketed) |
-| Number of TFDA Authorizations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Original Indication | Open-angle glaucoma, angle-closure glaucoma, altitude sickness, congestive heart failure, absence epilepsy (from the knowledge graph; no approved indication text is available for the New Zealand licence) |
+| Predicted New Indication | Exercise-induced malignant hyperthermia |
+| TxGNN Prediction Score | 99.95% |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, the TxGNN model has not output any predicted new indications for acetazolamide. Therefore, a mechanistic plausibility analysis cannot be performed at this time.
+Currently, detailed mechanism of action data is not available. Based on known information, acetazolamide is a carbonic anhydrase inhibitor that alters acid-base balance and fluid handling. It has proven use in glaucoma, altitude sickness and heart failure congestion, and it is also used in some channelopathies such as periodic paralysis.
 
-Detailed mechanism of action (MOA) data is also not available in this evidence pack. Based on publicly known information, acetazolamide is a sulfonamide derivative that acts as a potent carbonic anhydrase inhibitor. It reduces the formation of hydrogen and bicarbonate ions, leading to decreased aqueous humour secretion (relevant to glaucoma), altered renal bicarbonate reabsorption (relevant to diuresis and altitude sickness), and reduced neuronal excitability (relevant to epilepsy). Once the MOA data gap is filled and the TxGNN prediction pipeline is completed, a full mechanistic rationale can be provided.
+A link to malignant hyperthermia, which involves dysfunction of ryanodine receptor and calcium handling, is speculative. The data compiled for this report contain nothing that directly supports it. The very high TxGNN score (99.95%, model rank 737) reflects patterns in the knowledge graph, not demonstrated biology or clinical benefit.
 
----
+Other top-ranked predictions are equally unsupported. Hypertrophic cardiomyopathy, cardiomyopathy and several myopathies have only indirect or tangential evidence, and for intestinal obstruction and pseudo-obstruction the literature points toward harm.
 
 ## Clinical Trial Evidence
 
-No predicted indication is available from TxGNN; therefore, no targeted clinical trial search was performed.
-
-> Currently no related clinical trials registered for a predicted new indication.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No predicted indication is available from TxGNN; therefore, no targeted literature search was performed.
+Currently no related literature available for exercise-induced malignant hyperthermia.
 
-> Currently no related literature available for a predicted new indication.
+For context, the next-ranked predictions have only indirect literature. Examples are a case report of acetazolamide for hypochloremia in advanced heart failure with hypertrophic cardiomyopathy ([30279861](https://pubmed.ncbi.nlm.nih.gov/30279861/), 2018) and a case of non-cardiogenic pulmonary edema after intravenous acetazolamide ([29123889](https://pubmed.ncbi.nlm.nih.gov/29123889/), 2017). Case reports of acetazolamide-induced adynamic ileus ([19653068](https://pubmed.ncbi.nlm.nih.gov/19653068/), 2009) point toward harm.
 
----
+## New Zealand Market Information
 
-## Taiwan Market Information
-
-Acetazolamide currently has **no TFDA-approved licenses** and is **not marketed in Taiwan**.
-
-> No authorization records available.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2670801 (cancelled) | Medsurge | Tab 250 mg | Not available |
 
 ## Safety Considerations
 
-> Please refer to the package insert for safety information.
->
-> Key warnings, contraindications, and drug-drug interaction data were not available in this evidence pack. The TFDA package insert query returned 1 result but the content was not parsed into the safety fields. It is recommended to retrieve and review the original package insert PDF for complete safety information.
+Package insert warnings and contraindications were not available for this report, so please refer to the package insert for label safety information. The following signals come from other data sources:
 
----
-
-## Data Gaps Summary
-
-The following critical data gaps were identified and must be resolved before this candidate can advance:
-
-| Gap ID | Category | Item | Severity | Impact | Remediation |
-|--------|----------|------|----------|--------|-------------|
-| DG001 | Drug Level | TFDA Package Insert Warnings/Contraindications | **Blocking** | Cannot enter S1 safety preliminary assessment | Download and parse package insert PDF from TFDA website |
-| DG002 | Drug Level | Mechanism of Action (MOA) | **High** | Affects mechanistic relevance analysis | Query DrugBank API |
-
-Additionally:
-- **TxGNN prediction** has not been generated — the `predicted_indications` array is empty
-- **Original indications** field is empty — needs to be populated from DrugBank or TFDA sources
-- **DDI data** was queried but returned no results
-
----
+- **Knowledge-graph contraindications** (not label text): liver failure, liver disease, kidney disease, renal tubular acidosis, hematologic disease, gallbladder disease, gout, type 1 and type 2 diabetes mellitus, diabetic ketoacidosis, respiratory failure, and adrenal insufficiency conditions (including Addison disease and congenital adrenal hyperplasia).
+- **Drug interactions**: 100 interactions were identified. Major ones include acetylsalicylic acid and cisapride. Moderate ones include antidiabetic agents (acarbose, acetohexamide, alogliptin, canagliflozin, dapagliflozin, chlorpropamide, and GLP-1 agonists such as albiglutide and dulaglutide), corticosteroids (dexamethasone, betamethasone, beclomethasone), amphotericin B formulations, and laxatives (bisacodyl, castor oil).
+- **Literature signals**: reports of adynamic ileus and non-cardiogenic pulmonary edema after intravenous use. Cirrhosis carries a risk of hyperammonemia and encephalopathy. Diuresis could be harmful in obstructive hypertrophic cardiomyopathy.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No new indication has been predicted by the TxGNN model, and there are multiple blocking-level data gaps. This candidate cannot proceed to evaluation until the prediction pipeline is completed and essential safety data is obtained.
+The prediction rests on a model score alone, with no trials, no literature and no plausible mechanistic support. The only licence in New Zealand is cancelled, and the safety signals for several neighbouring predictions are unfavourable.
 
 **To proceed, the following is needed:**
-1. **Run TxGNN prediction pipeline** for acetazolamide to generate candidate new indications
-2. **Resolve DG001 (Blocking):** Download and parse the TFDA package insert to extract warnings and contraindications
-3. **Resolve DG002 (High):** Query DrugBank API to retrieve the detailed mechanism of action
-4. **Populate original indications** from DrugBank or regulatory sources (glaucoma, epilepsy, altitude sickness, heart failure, etc.)
-5. **Re-query DDI databases** using alternative sources if the primary query returns no results
-6. Once the above gaps are filled and a TxGNN prediction is available, regenerate this report for full evaluation
+- Mechanism of action data, and any preclinical evidence linking carbonic anhydrase inhibition to ryanodine receptor or calcium handling in malignant hyperthermia
+- Package insert warnings and contraindications (from Medsafe) for a formal safety screen
+- Any clinical or case-level evidence in exercise-induced malignant hyperthermia
+- Clarification of the regulatory pathway, since there is no valid New Zealand licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

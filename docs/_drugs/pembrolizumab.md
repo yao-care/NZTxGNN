@@ -2,7 +2,7 @@
 layout: default
 title: Pembrolizumab
 parent: Model Prediction Only (L5)
-nav_order: 271
+nav_order: 355
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,102 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the evidence pack as provided (no additional research needed — this is a direct report-generation task from structured data).
-
----
-
-# Pembrolizumab: From Approved Oncology Indications to Gingival Fibromatosis
+# Pembrolizumab: From Non-Small Cell Lung Cancer and Metastatic Melanoma to Fibromatosis, Gingival
 
 ## One-Sentence Summary
 
-Pembrolizumab is a PD-1 immune checkpoint inhibitor with established oncology use (referenced within this evidence pack as approved for PD-L1-positive NSCLC, among other cancers), though no original-indication or license data for New Zealand is on file. The TxGNN model's top-ranked prediction for this drug is **Gingival Fibromatosis**, a benign fibrotic gum condition — but this prediction is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags it as a likely false positive with no plausible mechanistic link to PD-1 blockade.
+Pembrolizumab is a PD-1 immune checkpoint inhibitor, originally used to treat non-small cell lung cancer and metastatic melanoma.
+The TxGNN model predicts it may be effective for **gingival fibromatosis** (score 99.4%), but **no clinical trials and no publications** support this prediction.
+The result is a computational signal only, and it should not be treated as evidence of benefit.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no license records or original-indication data on file for New Zealand |
-| Predicted New Indication | Gingival Fibromatosis |
+| Original Indication | Non-small cell lung carcinoma, lung cancer, metastatic melanoma (from the knowledge graph; the New Zealand licence records contain no indication text) |
+| Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.40% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for pembrolizumab is not available in this evidence pack. Based on contextual information embedded in the evidence pack's own rationale text, pembrolizumab is a PD-1 immune checkpoint inhibitor that activates cytotoxic T-cell–mediated anti-tumour immunity, and is referenced as approved for PD-L1-positive non-small cell lung cancer (NSCLC) and other solid tumours.
+Detailed mechanism of action data is not available in the data compiled for this report. From the pharmacology data, pembrolizumab is an antibody that binds the PD-1 receptor (PDCD1, CD279) on T cells. Blocking PD-1 releases the "brake" on T cells so they can attack tumour cells. It is approved in many cancers, including melanoma, lung cancer, head and neck cancer, Hodgkin lymphoma and others.
 
-Gingival fibromatosis is a benign fibrous overgrowth of gum tissue, typically caused by germline mutations (e.g., *SOS1*) or drug-induced fibroblast proliferation (cyclosporine, phenytoin, calcium channel blockers). It has no established connection to tumour immune evasion, PD-1/PD-L1 signalling, or T-cell exhaustion — the biological axis pembrolizumab targets. There is no known disease pathway linking checkpoint blockade to fibroblast regulation.
+For gingival fibromatosis, no mechanistic link was identified. Gingival fibromatosis is a benign overgrowth of gum tissue, usually hereditary or drug-induced. It has no established relationship to the PD-1/PD-L1 pathway. The high model score most likely reflects network proximity in the knowledge graph rather than a biological rationale. Without trial or literature support, this prediction cannot be considered reasonable on current evidence.
 
-Given this mechanistic mismatch and the complete absence of clinical trials or literature (see below), this prediction should be treated as a high-score, low-plausibility artifact of the TxGNN model rather than a genuine repurposing candidate. The model's own generated rationale explicitly reaches the same conclusion.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
-## Safety Considerations
+---
 
-Please refer to the package insert for safety information.
+## New Zealand Market Information
+
+Both New Zealand licences for pembrolizumab are cancelled. Neither record contains approved indication text.
+
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2547996 | Keytruda | Inj 25 mg per ml, 4 ml vial | Cancelled |
+| 2508427 | Baxter | Inj 1 mg for ECP | Cancelled |
+
+---
 
 ## Cytotoxicity
 
-Pembrolizumab is an immune checkpoint inhibitor (anti-PD-1 monoclonal antibody) used in oncology; no DrugBank category or original-indication data confirming this classification is present in this evidence pack, but its oncology use is corroborated by literature referenced elsewhere in this evidence pack (e.g., NSCLC, melanoma, hepatocellular carcinoma, head and neck cancer trials).
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (PD-1 checkpoint inhibitor) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low — checkpoint inhibitors are not classically myelosuppressive; the dominant toxicity pattern is immune-related adverse events (irAEs) rather than bone marrow suppression |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Thyroid function, liver and renal function, cortisol/ACTH (endocrine irAEs), pulmonary status (pneumonitis), skin exam, and neurologic/neuromuscular assessment given reported irAEs (hypophysitis, myocarditis/myositis, Stevens-Johnson syndrome) |
-| Handling Protection | Standard IV biologic infusion precautions per institutional hazardous-drug policy; conventional cytotoxic handling regulations do not directly apply as this is a monoclonal antibody, not a small-molecule cytotoxic agent |
+| Cytotoxicity Classification | Immunotherapy (anti-PD-1 monoclonal antibody); not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions. Immune-related adverse events (for example thyroid, liver, adrenal and pituitary function) are described in the literature. |
+| Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
+
+## Safety Considerations
+
+- **Drug Interactions**: 13 interaction records were found.
+  - **Major**: lenalidomide, pomalidomide, thalidomide.
+  - **Moderate**: systemic corticosteroids, namely hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone, methylprednisolone and deflazacort. Corticosteroids are suspected of reducing immunotherapy efficacy (a cohort study of first-line pembrolizumab in NSCLC examined this).
+  - The remaining record is the PD-1 (CD279) target, which is pharmacology information rather than an interaction.
+
+Please refer to the package insert for warnings and contraindications. The package insert warnings are currently missing, which blocks formal safety screening.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Zero clinical trials and zero publications support pembrolizumab's use in gingival fibromatosis, and the drug's known mechanism (T-cell checkpoint blockade for tumour immune evasion) has no established relevance to this benign fibrotic condition. The evidence pack's own generated rationale independently identifies this as a likely false-positive prediction.
+The prediction is supported only by a model score. There are no trials, no publications and no mechanistic rationale for gingival fibromatosis. Pembrolizumab also has no valid New Zealand licence at present, and immune-related toxicity would be hard to justify in a benign condition.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for pembrolizumab (currently a data gap)
-- TFDA/Medsafe package insert (warnings, contraindications, DDI) — currently unavailable
-- If pursued at all, a preclinical/mechanistic rationale connecting PD-1 signalling to fibroblast proliferation, which does not currently exist
+- Medsafe package insert warnings and contraindications (currently a blocking gap)
+- Mechanism of action data from DrugBank
+- Any biological evidence linking PD-1 signalling to gingival fibromatosis
+- Clarification of regulatory status, since both New Zealand licences are cancelled
 
-**Note:** This evidence pack contains nine other ranked candidates for pembrolizumab. Two — *lung hilum carcinoma* (rank 4) and *pulmonary sulcus neoplasm* (rank 8) — are anatomical subtypes of NSCLC, a cancer type pembrolizumab is already referenced as approved for; these are flagged "Research Question" rather than "Hold" and may warrant separate evaluation as label-extension questions rather than novel repurposing hypotheses.
+---
+
+### Note on other predictions
+
+None of the other top-ranked predictions had direct clinical support. Most are rare genetic or benign conditions with no PD-1 rationale (inclusion body myopathy with Paget disease, ovarioleukodystrophy, lung fibroma, lung hamartoma, and a rare leukomelanoderma syndrome). Two are subsets of the approved lung cancer indication (lung hilum carcinoma and pulmonary sulcus neoplasm), which would be an extension of an existing indication rather than true repurposing. The large body of lung cancer trials and literature matched to "lung benign neoplasm" and "lung germ cell tumor" concerns malignant NSCLC and SCLC and general checkpoint-inhibitor research, so it should not be credited to those indications.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

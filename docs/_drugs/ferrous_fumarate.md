@@ -2,7 +2,7 @@
 layout: default
 title: Ferrous Fumarate
 parent: Model Prediction Only (L5)
-nav_order: 150
+nav_order: 197
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,74 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ferrous Fumarate: From Iron Deficiency (Indication Data Not on File) to Non-syndromic Esophageal Malformation
+# Ferrous Fumarate: From Iron Deficiency Anaemia to Non-Syndromic Esophageal Malformation
 
 ## One-Sentence Summary
 
-Ferrous fumarate is an iron salt commonly used for iron supplementation, though this evidence pack does not contain formally recorded original indication or mechanism-of-action data for the drug. The TxGNN model predicts a possible association with **non-syndromic esophageal malformation**, but this prediction is currently supported by **zero clinical trials** and **zero publications**, and the accompanying mechanistic analysis explicitly finds no plausible biological link between iron supplementation and a congenital structural anomaly.
-
----
+Ferrous fumarate is an oral iron supplement, originally used to treat iron deficiency anaemia and related anaemias.
+The TxGNN model predicts it may be effective for **non-syndromic esophageal malformation**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no licensed indication text on file (drug is not marketed in New Zealand) |
+| Original Indication | Iron deficiency anaemia and related anaemias (folic acid deficiency anaemia, anaemia of prematurity, hypochromic anaemia, microcytic anaemia); acne also appears in the knowledge graph. No approved indication text is available from the New Zealand licence record. |
 | Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 99.49% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 (0 currently valid, 1 cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for ferrous fumarate in this evidence pack. No original indication record was returned either, so a direct pharmacological comparison between the original and predicted indications cannot be constructed from the available data.
+Currently, detailed mechanism of action data is not available. Based on known information, ferrous fumarate is an oral iron salt whose efficacy in correcting iron deficiency and related anaemias is well established.
 
-More importantly, the model's own repurposing rationale flags this specific prediction as biologically implausible: non-syndromic esophageal malformation is a congenital anatomical defect arising from failure of embryonic tracheo-esophageal septation, and it is managed surgically rather than pharmacologically. Iron salts act on iron-ion supplementation and hematopoietic support — a mechanism with no known connection to structural embryogenesis. There is therefore no credible mechanistic bridge between the drug's presumed pharmacology and this predicted indication.
+The predicted condition is a different kind of problem. Esophageal malformations (such as esophageal atresia or tracheoesophageal fistula) are structural defects that arise during embryonic development. Restoring iron levels would not be expected to correct such a defect, so no plausible mechanistic link can be drawn from the data compiled for this report.
 
-Given the combination of missing drug-level data (MOA, original indication, safety label) and an explicit lack of mechanistic plausibility noted in the source rationale, this candidate should be treated as a pure model-output signal rather than a scientifically grounded repurposing hypothesis at this stage.
-
----
+The high score (0.995) is a knowledge-graph prediction only, and no clinical or published evidence backs it up. It may reflect graph artefacts, such as shared gene or pathway neighbours, rather than a real therapeutic relationship. Oral iron is also known to irritate the oesophageal and gastrointestinal lining, which argues against benefit in this setting.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## New Zealand Market Information
 
-Ferrous fumarate is not currently marketed in New Zealand under this evidence pack, and no product authorizations are on file.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2162156 (cancelled) | Ferro-tab | Tab 200 mg (65.7 mg elemental) | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 80 potential interactions were identified in total. Examples from the compiled list include:
+  - **Moderate**: proton pump inhibitors (rabeprazole, omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole), tetracycline-class antibiotics (doxycycline, tetracycline, minocycline), levofloxacin, antacids and mineral products (magnesium oxide, calcium carbonate, aluminium hydroxide, magaldrate), pancrelipase, sodium sulfate, triethylenetetramine.
+  - **Minor**: cimetidine, zinc sulfate, zinc acetate.
+- **Disease associations flagged as contraindications in the knowledge graph** (not drawn from product label text): hypertensive disorders, anxiety and neurotic disorders, porphyrias, kidney disease, liver disease, gallbladder disease, peptic ulcer disease, diabetes mellitus and diabetic ketoacidosis, hyperglycaemia, hyperparathyroidism, hypercalcaemia, nephrocalcinosis, sarcoidosis, sickle cell anaemia, primary hyperoxaluria, hereditary haemochromatosis, haemosiderosis, iron metabolism diseases, and Wilson disease.
 
----
+For product-label warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported only by a raw TxGNN model score (L5), with no clinical trials, no literature, and no plausible mechanistic rationale — the source analysis itself concludes there is no credible biological link between iron supplementation and a congenital esophageal structural defect. Core drug-level data (MOA, original indication, TFDA/NZ label warnings and contraindications) are also missing, which blocks even a preliminary safety assessment (S1 stage).
+The prediction is supported only by a model score. There are no clinical trials or publications, no plausible mechanistic link, and the only New Zealand authorisation has been cancelled. Oral iron's known mucosal irritation also argues against use in an oesophageal condition.
 
 **To proceed, the following is needed:**
-- Original indication and confirmed drug label data (currently missing — Blocking gap DG001)
-- Mechanism of action data from DrugBank or equivalent source (High-priority gap DG002)
-- An independent clinical/biological plausibility review of the non-syndromic esophageal malformation prediction before any further evidence search is warranted
-- Any preclinical, case-report, or mechanistic literature that could establish a rationale, should one emerge
+- Mechanism of action data for ferrous fumarate
+- Any independent biological or clinical evidence linking iron supplementation to oesophageal development or malformation
+- Package insert warnings and contraindications, to allow a proper safety screen
+- Confirmation of route and formulation compatibility with the proposed use
+- Review of whether the knowledge-graph link is an artefact before investing further
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

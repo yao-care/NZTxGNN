@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sucralfate
-parent: Moderate Evidence (L3-L4)
-nav_order: 325
-evidence_level: L3
+parent: High Evidence (L1-L2)
+nav_order: 430
+evidence_level: L2
 indication_count: 2
 ---
 
 # Sucralfate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **2** 
+Evidence Level: **L2** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,85 @@ Evidence Level: **L3** | Predicted Indications: **2**
 
 </div>
 
-# Sucralfate: From Peptic Ulcer Disease to Duodenogastric Reflux
+# Sucralfate: From Duodenal Ulcer to Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-Sucralfate (DrugBank DB00364) is a mucosal-protective agent historically used in the management of peptic (duodenal/gastric) ulcer disease, based on the drug's own literature record rather than a New Zealand regulatory filing, since the drug currently holds no marketing authorization in New Zealand.
-The TxGNN model predicts it may be effective for **Duodenogastric Reflux**, with **0 registered clinical trials** and **13 relevant publications** currently supporting this direction.
-A second candidate indication, duodenal obstruction, scored similarly (99.30%) but has even thinner supporting literature and is not covered further below.
-
----
+Sucralfate was originally used to treat duodenal ulcer.
+The TxGNN model predicts it may be effective for **duodenogastric reflux**,
+supported by **no registered clinical trials** but **10 publications**, including **2 randomized controlled trials** in alkaline reflux gastritis.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in New Zealand regulatory records (drug not marketed); literature in this evidence pack references historical use in duodenal/gastric ulcer and erosive gastroduodenitis |
+| Original Indication | Duodenal ulcer (from the knowledge graph; the New Zealand licence has no indication text recorded) |
 | Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.37% (rank 5283) |
-| Evidence Level | L3 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
+| TxGNN Prediction Score | 99.37% |
+| Evidence Level | L2 |
+| New Zealand Market Status | ✓ Marketed |
+| Number of Authorizations | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (data gap). Based on the retrieved literature itself, sucralfate is described as having "cytoprotective features in addition to its known antipepsin and antacid effects" (PMID 3838414), and case/randomized studies describe its use for mucosal protection against gastric erosion and ulceration.
+Currently, detailed mechanism of action data is not available. Based on known information, sucralfate is a mucosal-protective agent, its efficacy in duodenal ulcer has been established, and mechanistically it may be applicable to duodenogastric reflux. This reasoning draws on general pharmacological knowledge rather than the data compiled for this report.
 
-Duodenogastric reflux involves retrograde flow of alkaline duodenal (bile-containing) content into the stomach, producing mucosal injury (alkaline/bile reflux gastritis) that is mechanistically related to the acid-peptic mucosal injury sucralfate is traditionally used to treat. Multiple retrieved publications directly studied sucralfate for this indication — including randomized trials against placebo (PMID 3475771) and against rabeprazole (PMID 12923369) — which is consistent with the TxGNN prediction and suggests the model captured a genuine, previously-studied mechanistic link rather than a purely novel association.
+Sucralfate is generally understood to form a protective, adherent barrier over damaged gastric and oesophageal mucosa and to bind bile salts and pepsin. Duodenogastric reflux (alkaline or bile reflux) injures the mucosa through duodenal contents, so a barrier and bile-binding action plausibly reduces that injury. This is consistent with its original use in duodenal ulcer, where mucosal protection is also central.
 
-Because taiwan_regulatory contains no New Zealand licenses for sucralfate, this rationale relies on literature evidence within the pack rather than an official approved-indication text, and should be treated as lower-confidence until a formal MOA and regulatory record are obtained.
-
----
+The very high TxGNN score is supported by the retrieved literature, which includes randomized trials of sucralfate in patients with alkaline reflux gastritis. Results should still be read cautiously, as these studies are small and old.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3839973](https://pubmed.ncbi.nlm.nih.gov/3839973/) | 1985 | RCT | The American Journal of Medicine | Randomized, double-blind study of sucralfate 6g/day vs. placebo in 23 patients with alkaline reflux gastritis symptoms after Billroth I/II or vagotomy/pyloroplasty |
-| [12923369](https://pubmed.ncbi.nlm.nih.gov/12923369/) | 2003 | RCT | European Journal of Gastroenterology & Hepatology | Randomized trial of sucralfate vs. rabeprazole vs. no treatment for post-cholecystectomy alkaline reactive gastritis |
-| [3475771](https://pubmed.ncbi.nlm.nih.gov/3475771/) | 1987 | RCT | Scandinavian Journal of Gastroenterology. Supplement | Prospective randomized trial of sucralfate vs. placebo in patients with symptomatic/macroscopic gastritis, including duodenogastric reflux comparison |
-| [1391144](https://pubmed.ncbi.nlm.nih.gov/1391144/) | 1992 | Comparative study | Minerva Gastroenterologica e Dietologica | Compared cisapride (prokinetic) vs. sucralfate (cytoprotective) for dyspeptic symptoms in 18 patients with duodenogastric reflux gastritis |
-| [17285081](https://pubmed.ncbi.nlm.nih.gov/17285081/) | 2006 | Review | Journal de Chirurgie | Review of duodenogastric and gastroesophageal bile reflux pathophysiology, diagnosis (24h bile monitoring), and therapeutic management |
-| [14723838](https://pubmed.ncbi.nlm.nih.gov/14723838/) | 2004 | Review | Current Treatment Options in Gastroenterology | Review of duodenogastric reflux-induced (alkaline) esophagitis; notes PPIs as best medical treatment, difficulty of DGER management |
-| [6372664](https://pubmed.ncbi.nlm.nih.gov/6372664/) | 1984 | Review | Annual Review of Medicine | Review of alkaline reflux (bile) gastritis and esophagitis, pathophysiology and diagnostic features |
-| [3552846](https://pubmed.ncbi.nlm.nih.gov/3552846/) | 1987 | Review | Gastroenterologie Clinique et Biologique | Pharmacologic basis of medical treatment for duodenogastric reflux (abstract not available) |
-| [3838414](https://pubmed.ncbi.nlm.nih.gov/3838414/) | 1985 | Review | The American Journal of Gastroenterology | ACG committee review of sucralfate's non-ulcer uses, including cytoprotective, antipepsin, and antacid effects |
-| [3616071](https://pubmed.ncbi.nlm.nih.gov/3616071/) | 1987 | Case series | Revista Española de las Enfermedades del Aparato Digestivo | 50 cases of postsurgical biliary reflux gastritis treated with sucralfate (abstract not available) |
+| [3839973](https://pubmed.ncbi.nlm.nih.gov/3839973/) | 1985 | RCT | Am J Med | Double-blind trial of sucralfate 6 g/day vs placebo for 6 weeks in 23 post-gastric-surgery patients with alkaline reflux gastritis symptoms, followed by open-label sucralfate |
+| [12923369](https://pubmed.ncbi.nlm.nih.gov/12923369/) | 2003 | RCT | Eur J Gastroenterol Hepatol | Sucralfate vs rabeprazole vs no treatment for post-cholecystectomy alkaline reactive gastritis, assessing dyspeptic symptoms and endoscopic/histological signs |
+| [1391144](https://pubmed.ncbi.nlm.nih.gov/1391144/) | 1992 | Clinical study | Minerva Gastroenterol Dietol | 18 patients with duodenogastric reflux gastritis; cisapride 30 mg/day vs sucralfate 4 g/day for two months |
+| [3616071](https://pubmed.ncbi.nlm.nih.gov/3616071/) | 1987 | Case series | Rev Esp Enferm Apar Dig | 50 cases of post-surgical biliary reflux gastritis treated with sucralfate |
+| [3475771](https://pubmed.ncbi.nlm.nih.gov/3475771/) | 1987 | Clinical report | Scand J Gastroenterol Suppl | Randomized sucralfate vs placebo trial in gastritis, comparing gastroesophageal with duodenogastric reflux |
+| [14723838](https://pubmed.ncbi.nlm.nih.gov/14723838/) | 2004 | Review | Curr Treat Options Gastroenterol | Duodenogastric reflux-induced oesophagitis; proton-pump inhibitors described as best medical treatment |
+| [6372664](https://pubmed.ncbi.nlm.nih.gov/6372664/) | 1984 | Review | Annu Rev Med | Alkaline reflux gastritis and oesophagitis: features, pathophysiology and management |
+| [3838414](https://pubmed.ncbi.nlm.nih.gov/3838414/) | 1985 | Committee report | Am J Gastroenterol | Non-ulcer uses of sucralfate (gastritis, oesophagitis) are promising but not clearly established |
+| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | Cohort/Descriptive | Eur J Pediatr | Primary duodenogastric reflux in six children and adolescents (not a sucralfate study) |
+| [10228771](https://pubmed.ncbi.nlm.nih.gov/10228771/) | 1999 | Surgical series | Hepatogastroenterology | Duodenal switch operation for pathologic duodenogastric reflux (not drug-related) |
 
----
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2602288 | Carafate | Tab 1 g | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions flagged in the knowledge graph (not label text)**: hyperglycaemia, chronic kidney disease, chronic renal failure syndrome and end-stage renal failure. Caution is reasonable in patients with these conditions.
+- **Drug Interactions** (100 interactions found; examples below):
+  - **Major**: dolutegravir, bictegravir
+  - **Moderate**: tetracycline, doxycycline, alendronic acid, risedronic acid, ibandronate, acarbose, pioglitazone, alogliptin, albiglutide, allopurinol, ascorbic acid, calcifediol, baloxavir marboxil
+  - **Minor**: atenolol, acebutolol, betaxolol, bisoprolol, anagrelide
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-- Sucralfate is currently not marketed in New Zealand (0 licenses) and package-insert-level safety/warning data is marked as a Blocking data gap, so the candidate cannot yet pass an initial safety screen; supporting evidence for duodenogastric reflux is limited to small, unregistered historical trials and reviews rather than modern registered clinical trials.
+Two small randomized trials and several clinical reports suggest a benefit of sucralfate in alkaline reflux gastritis, and the mechanism is plausible. However, no registered trials exist, the studies are old and small, and mechanism and label safety data are missing.
 
 **To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications, DDI) to clear the Blocking data gap (DG001)
-- Confirmed drug MOA from DrugBank or equivalent source (DG002)
-- Evaluation of whether a New Zealand marketing pathway exists for sucralfate before further repurposing investment
-- A contemporary, registered clinical trial (ClinicalTrials.gov/ICTRP) confirming efficacy in duodenogastric reflux, since none currently exist
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Critical appraisal of the two RCTs, and ideally a larger modern trial
+- A dosing and interaction management plan (e.g. spacing from interacting drugs) and caution in renal impairment and diabetes
+
+---
+
+**Note on the second prediction (duodenal obstruction):** Its TxGNN score is high (99.30%), but the evidence level is L5 and the recommendation is **Hold**. There is no clear mechanistic link, because sucralfate's mucosal protection does not treat a mechanical obstruction. None of the retrieved literature shows sucralfate treating obstruction. The score likely reflects network proximity to duodenal ulcer.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

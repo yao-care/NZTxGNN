@@ -2,7 +2,7 @@
 layout: default
 title: Oxybutynin
 parent: Model Prediction Only (L5)
-nav_order: 260
+nav_order: 343
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,68 +33,78 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-> Oxybutynin is an M3-predominant antimuscarinic/antispasmodic agent, traditionally used for overactive bladder and urinary urgency incontinence.
-> The TxGNN model predicts it may be effective for **Restless Legs Syndrome**,
-> but currently **0 clinical trials** and **0 publications** support this specific direction — the prediction is model-score-driven only.
-
----
+Oxybutynin is an antimuscarinic, antispasmodic drug originally used to treat overactive bladder and neurogenic bladder.
+The TxGNN model predicts it may be effective for **restless legs syndrome**, but this is a computational prediction only, with **0 clinical trials** and **0 publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Overactive bladder / urinary urgency incontinence (based on known pharmacological classification; official NZ label text unavailable — see below) |
-| Predicted New Indication | Restless Legs Syndrome |
+| Original Indication | Overactive bladder, neurogenic bladder, cauda equina syndrome (from the knowledge graph; the New Zealand licence record has no indication text) |
+| Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 99.74% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action documentation is currently a data gap (DG002, High severity). Based on known pharmacology, oxybutynin is an M3-predominant antimuscarinic ("musculotropic") antispasmodic that acts on bladder detrusor and gastrointestinal smooth muscle, and it also has central nervous system-penetrant anticholinergic activity.
+Currently, detailed mechanism of action data is not available. Based on known information, oxybutynin is a muscarinic antagonist with musculotropic antispasmodic activity. Its efficacy in bladder overactivity is established, but the link to restless legs syndrome (RLS) is unclear.
 
-Restless Legs Syndrome pathophysiology is primarily linked to dopaminergic system dysfunction and disturbed brain iron metabolism — there is no established pathway connecting muscarinic receptor antagonism to RLS symptom control. The repurposing rationale in the evidence pack explicitly notes this prediction "lacks mechanistic support" and is purely driven by the TxGNN model score (network rank 2803), not by any known biological pathway.
+RLS is mainly associated with dopaminergic dysfunction and brain iron deficiency, which are not obviously related to muscarinic blockade. Anticholinergic drugs may also worsen sleep quality and cognition. The very high TxGNN score therefore cannot be mechanistically verified from the data compiled for this report.
 
-Given the absence of any supporting clinical trials, ICTRP registrations, or PubMed literature for this drug–disease pair (query log IDs 5–7, all zero results), this candidate should be treated as an early-stage computational hypothesis only, not a mechanistically or clinically substantiated signal.
-
----
+Two other predictions were also reviewed:
+- **Gastroduodenitis** (score 99.62%): no trials or literature. Reduced gastric motility and secretion offers a theoretical rationale, but anticholinergics can worsen reflux.
+- **Peptic ulcer disease** (score 99.31%): evidence level L4, with only weak, dated literature (see below).
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for restless legs syndrome. The only literature is for the third-ranked prediction, peptic ulcer disease:
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [14173506](https://pubmed.ncbi.nlm.nih.gov/14173506/) | 1964 | Clinical evaluation (older, likely uncontrolled) | Current Therapeutic Research | Clinical evaluation of oxybutynin chloride in gastrointestinal disease; no abstract available |
+| [4380481](https://pubmed.ncbi.nlm.nih.gov/4380481/) | 1965 | Pharmacology/Review | Archives Internationales de Pharmacodynamie et de Therapie | Describes oxybutynin as a musculotropic antispasmodic with moderate anticholinergic action |
+| [2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/) | 1990 | Case report (adverse event) | DICP: The Annals of Pharmacotherapy | Case of oxybutynin-induced reflux esophagitis, likely from reduced lower esophageal sphincter tone; a safety signal against upper GI use |
+
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2627167 (cancelled) | Alchemy Oxybutynin | Tab 5 mg | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications suggested by the knowledge graph** (not label text), main groups:
+  - Obstructive and gastrointestinal: paralytic ileus, intestinal obstruction, toxic megacolon, bladder neck obstruction, benign prostatic hyperplasia, ulcerative colitis and inflammatory bowel disease, gastroesophageal reflux disease, esophagitis, hiatus hernia
+  - Eye and neuromuscular: angle-closure glaucoma, myasthenia gravis
+  - Cardiovascular and endocrine: hypertension, coronary artery disease, heart conduction disease, hyperthyroidism
+  - Organ function: kidney disease, liver disease
+- **Drug Interactions** (100 recorded; examples shown):
+  - Major: potassium chloride, potassium citrate
+  - Moderate: other anticholinergics (atropine, hyoscyamine, glycopyrronium, dicyclomine, trospium, propantheline), opioids (morphine, opium, loperamide), metoclopramide, aprepitant, eluxadoline, pramlintide
+- **Literature signal**: oxybutynin-induced reflux esophagitis (1990 case report), relevant to the gastroduodenitis and peptic ulcer predictions.
 
----
+Please refer to the package insert for official warnings, as label-based safety data were not available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction carries a high TxGNN score but no mechanistic, preclinical, or clinical evidence, and the drug is not currently marketed in New Zealand (0 authorizations). This is an L5, decision-stage S0 candidate — insufficient to advance.
+The predictions rest on model scores alone (L5 for restless legs syndrome and gastroduodenitis, L4 for peptic ulcer disease), with no trials and no supporting modern literature. The mechanistic link is weak or unverifiable, there is a documented reflux safety signal for upper GI use, and the only New Zealand licence is cancelled.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): official label warnings/contraindications, required before any S1 safety screen
-- Resolve DG002 (High): confirmed mechanism-of-action data to evaluate biological plausibility for RLS
-- Preclinical or mechanistic studies exploring any muscarinic–RLS pathway
-- At least preliminary clinical or case-level evidence before moving beyond S0
-
-*Note: The evidence pack also lists two additional candidates for oxybutynin — gastroduodenitis (rank 2, L5, Hold) and peptic ulcer disease (rank 3, L4/S1, Hold — supported by 3 older publications, though one reports oxybutynin-induced reflux esophagitis, a mechanism-conflicting adverse signal). Both were evaluated but are outside the scope of this primary report, which follows the template's use of the top-ranked prediction.*
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A literature search for anticholinergic or antimuscarinic effects in restless legs syndrome, including sleep-related adverse effects
+- Confirmation of current regulatory and supply status in New Zealand, since the only licence is cancelled
+- Route and formulation compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

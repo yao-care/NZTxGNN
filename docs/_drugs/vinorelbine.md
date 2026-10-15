@@ -2,7 +2,7 @@
 layout: default
 title: Vinorelbine
 parent: High Evidence (L1-L2)
-nav_order: 363
+nav_order: 483
 evidence_level: L2
 indication_count: 10
 ---
@@ -33,101 +33,91 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Vinorelbine is a semi-synthetic vinca alkaloid whose established use, as reflected throughout the literature evidence in this pack, is chemotherapy for **advanced non-small cell lung cancer (NSCLC)** and metastatic breast cancer.
-The TxGNN model predicts it may also be effective for **Ewing Sarcoma**,
-with **4 clinical trials** and **5 publications** currently supporting this direction.
-
----
+Vinorelbine is a vinca alkaloid chemotherapy drug, originally used for non-small cell lung cancer (NSCLC) and lung cancer.
+The TxGNN model predicts it may be effective for **Ewing sarcoma**,
+with **3 clinical trials** (one completed Phase 2 trial, one Phase 2 trial of unknown status, and one cohort study) and **6 publications** currently supporting this direction, although most of this evidence is indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-Small Cell Lung Cancer (NSCLC) — established use per literature evidence; formal TFDA/Medsafe label text is a confirmed data gap (see below) |
-| Predicted New Indication | Ewing Sarcoma |
+| Original Indication | Non-small cell lung cancer; lung cancer (from the knowledge graph, since no approved indication text is available in the New Zealand licence records) |
+| Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 99.999% |
 | Evidence Level | L2 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
+| Number of Authorizations | 7 (all cancelled) |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data for vinorelbine is not available in structured form from DrugBank (flagged as a High-severity data gap, DG002). Based on known information drawn from the evidence pack itself, vinorelbine is a semi-synthetic vinca alkaloid that binds tubulin and inhibits microtubule polymerization, thereby blocking mitotic spindle formation and arresting cancer cells in mitosis. Its efficacy in NSCLC (and breast cancer) is well documented across dozens of trials and reviews in this pack — it is repeatedly described as "an established treatment for advanced non-small cell lung cancer" and a standard chemotherapy backbone, particularly in combination with platinum agents.
+Currently, detailed mechanism of action data is not available from the compiled data. Based on known information, vinorelbine is a vinca alkaloid that inhibits microtubule polymerization, causing mitotic arrest and apoptosis in rapidly dividing cells. Its efficacy in NSCLC is well established.
 
-Ewing sarcoma is a highly malignant small round-cell tumor of bone and soft tissue that is characteristically chemosensitive, especially to cytotoxic, microtubule-targeting agents. Vinorelbine combined with cyclophosphamide ("VC regimen") is already an established salvage regimen in pediatric oncology for relapsed/refractory sarcomas, including Ewing sarcoma, rhabdomyosarcoma, osteosarcoma, and neuroblastoma — this is not a novel mechanistic leap but an extension of existing clinical practice.
+Ewing sarcoma is a highly proliferative bone and soft-tissue tumour with high relapse rates, particularly in metastatic disease. This makes an antimitotic agent a plausible fit. Vinorelbine combined with low-dose (metronomic) cyclophosphamide has shown activity in relapsed or refractory paediatric solid tumours. A 2026 review also discusses this combination as a rationale for maintenance therapy in the international INTER-EWING-1 trial.
 
-Mechanistically, the rationale is therefore consistent: a drug whose core activity is anti-microtubule cytotoxicity, already used off-label/on-protocol in pediatric refractory sarcomas via the VC regimen, is a reasonable candidate for further development in Ewing sarcoma specifically. This is supported by a completed Phase II trial in children with recurrent/refractory malignancies (NCT00003234) and a Phase II vinorelbine + cyclophosphamide trial explicitly enrolling Ewing tumor patients (NCT00180947), alongside preclinical work showing synergistic apoptosis induction when vinorelbine is combined with a PLK1 inhibitor in Ewing sarcoma cells (PMID 26260582).
-
----
+Preclinical work adds support. Microtubule-interfering drugs, including vinorelbine, acted synergistically with a PLK1 inhibitor in inducing apoptosis in Ewing sarcoma cells. However, none of the evidence isolates vinorelbine's contribution in a Ewing sarcoma-specific randomized setting.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00003234](https://clinicaltrials.gov/study/NCT00003234) | Phase 2 | Completed | 50 | Phase II study of vinorelbine in children with recurrent or refractory malignancies — direct drug/pediatric-population evidence. |
-| [NCT00180947](https://clinicaltrials.gov/study/NCT00180947) | Phase 2 | Unknown | 210 | Vinorelbine + cyclophosphamide in refractory/relapsed rhabdomyosarcoma, soft tissue tumors, **Ewing tumors**, osteosarcoma, neuroblastoma, and medulloblastoma; status is "Unknown" so currency should be verified. |
-| [NCT05999994](https://clinicaltrials.gov/study/NCT05999994) | Phase 2 | Recruiting | 105 | CAMPFIRE master protocol for pediatric/young-adult oncology; Ewing sarcoma may be a sub-study, but the vinorelbine arm/sub-protocol is not explicitly confirmed in the title. |
-| [NCT06451302](https://clinicaltrials.gov/study/NCT06451302) | N/A | Active, not recruiting | 100 | Multicenter cohort study of risk-stratified treatment outcomes in pediatric Ewing sarcoma (China); observational, not a vinorelbine-specific interventional trial — background epidemiology only. |
-
----
+| [NCT00180947](https://clinicaltrials.gov/study/NCT00180947) | Phase 2 | Unknown | 210 | Vinorelbine plus cyclophosphamide in refractory or relapsed tumours, including Ewing tumours, rhabdomyosarcoma, osteosarcoma, neuroblastoma and medulloblastoma. Regimen matches the Ewing literature, but results are unconfirmed. |
+| [NCT00003234](https://clinicaltrials.gov/study/NCT00003234) | Phase 2 | Completed | 50 | Vinorelbine in children with recurrent or refractory malignancies. Mixed paediatric population, so the Ewing-specific signal is indirect. |
+| [NCT06451302](https://clinicaltrials.gov/study/NCT06451302) | N/A | Active, not recruiting | 100 | Prospective cohort of risk-stratified treatment in paediatric Ewing sarcoma in China. Observational design that does not isolate vinorelbine. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22633624](https://pubmed.ncbi.nlm.nih.gov/22633624/) | 2012 | Phase 2 trial report | European Journal of Cancer | Vinorelbine + continuous low-dose oral cyclophosphamide in children/young adults with relapsed or refractory solid tumors; good tolerability, efficacy demonstrated particularly in rhabdomyosarcoma. |
-| [12115359](https://pubmed.ncbi.nlm.nih.gov/12115359/) | 2002 | Phase 2 trial report | Cancer | Vinorelbine in previously treated advanced childhood sarcomas; evidence of activity, notably in rhabdomyosarcoma. |
-| [37637411](https://pubmed.ncbi.nlm.nih.gov/37637411/) | 2023 | Review | Frontiers in Pharmacology | Comprehensive review of chemotherapeutic drugs for soft tissue sarcomas, including vinorelbine-class agents. |
-| [26260582](https://pubmed.ncbi.nlm.nih.gov/26260582/) | 2016 | Preclinical (mechanistic) | International Journal of Cancer | Synergistic induction of apoptosis by PLK1 inhibitor BI 6727 combined with microtubule-interfering drugs (including vinorelbine) specifically in Ewing sarcoma cells. |
-| [36451163](https://pubmed.ncbi.nlm.nih.gov/36451163/) | 2022 | Case Report | BMC Urology | Case report/literature review of extraosseous Ewing's sarcoma/pPNET of the kidney; general disease-background reference, not vinorelbine-specific. |
-
----
+| [22633624](https://pubmed.ncbi.nlm.nih.gov/22633624/) | 2012 | Phase 2 trial | Eur J Cancer | Vinorelbine plus continuous low-dose cyclophosphamide in children and young adults with relapsed or refractory solid tumours. Good tolerance, with efficacy notably in rhabdomyosarcoma. |
+| [12115359](https://pubmed.ncbi.nlm.nih.gov/12115359/) | 2002 | Phase 2 trial | Cancer | Vinorelbine in previously treated advanced childhood sarcomas, with evidence of activity in rhabdomyosarcoma. |
+| [42561548](https://pubmed.ncbi.nlm.nih.gov/42561548/) | 2026 | Systematic review | Cancer Treat Rev | Rationale for vinorelbine plus low-dose cyclophosphamide as maintenance therapy in Ewing sarcoma (INTER-EWING-1). |
+| [37637411](https://pubmed.ncbi.nlm.nih.gov/37637411/) | 2023 | Review | Front Pharmacol | Review of chemotherapy drugs for soft tissue sarcomas. |
+| [26260582](https://pubmed.ncbi.nlm.nih.gov/26260582/) | 2016 | Preclinical | Int J Cancer | PLK1 inhibitor BI 6727 acted synergistically with microtubule-interfering drugs, including vinorelbine, to induce apoptosis in Ewing sarcoma cells. |
+| [36451163](https://pubmed.ncbi.nlm.nih.gov/36451163/) | 2022 | Case report | BMC Urol | Extraosseous Ewing sarcoma of the kidney. Diagnostic focus, with little relevance to vinorelbine efficacy. |
 
 ## New Zealand Market Information
 
-Vinorelbine currently holds **no authorizations in New Zealand** (market status: not marketed; total licenses: 0). No product records are available to summarize in table form.
+All seven licences are cancelled and no approved indication text is recorded.
 
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2651920 | Vinorelbine Te Arai | Capsule 80 mg | Not recorded |
+| 2651912 | Vinorelbine Te Arai | Capsule 20 mg | Not recorded |
+| 2547880 | Vinorelbine Te Arai | Capsule 30 mg | Not recorded |
+| 2236605 | Vinorelbine Ebewe | Injection 10 mg/mL, 5 mL vial | Not recorded |
+| 2236613 | Vinorelbine Ebewe | Injection 10 mg/mL, 1 mL vial | Not recorded |
 
 ## Cytotoxicity
 
-Vinorelbine is a conventional cytotoxic chemotherapy agent (vinca alkaloid class), meeting the antineoplastic criteria for this section.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Vinca alkaloid / anti-microtubule agent) |
-| Myelosuppression Risk | High — dose-limiting toxicity for vinorelbine is myelosuppression (notably neutropenia), consistently reported across the included trial and review literature |
-| Emetogenicity Classification | Low to moderate (consistent with the vinca alkaloid class) |
-| Monitoring Items | CBC with differential (neutropenia surveillance), liver function tests, assessment for peripheral neuropathy, and injection-site monitoring |
-| Handling Protection | Yes — vinorelbine is a vesicant and hazardous drug; standard cytotoxic drug handling and extravasation precautions are required |
-
-*Note: No DrugBank-sourced toxicity monograph was available for this candidate; the above is derived from patterns consistently reported in the clinical trial and literature evidence within this pack. Please cross-check against the official package insert once available.*
-
----
+| Cytotoxicity Classification | Conventional cytotoxic (vinca alkaloid, antimicrotubule agent) |
+| Myelosuppression Risk | High (neutropenia is the dose-limiting toxicity) |
+| Emetogenicity Classification | Low to moderate |
+| Monitoring Items | CBC with differential, liver function, renal function |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. A dedicated data gap (DG001, Blocking severity) has been identified: TFDA/Medsafe label warnings and contraindications for vinorelbine are not yet available, which currently blocks formal S1 safety pre-assessment.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: liver failure, infectious disease, ileus, intestinal obstruction, interstitial lung disease, lung disease, obsolete rare pulmonary disease, leukopenia.
+- **Drug Interactions**: 100 interactions were identified. Of the 20 listed in detail, the only **Major** interaction is with clarithromycin. **Moderate** interactions include aprepitant, dexamethasone, metronidazole, eliglustat, miconazole, rolapitant, rosuvastatin, simvastatin, tinidazole and glycerol phenylbutyrate. Levofloxacin is **Minor**. Several others (e.g. pantoprazole, omeprazole, morphine, metformin) have unclassified severity.
 
----
+Package insert warnings and contraindications were not available, so please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanistic rationale is strong and consistent with existing pediatric oncology practice (vinorelbine + cyclophosphamide as a salvage regimen in relapsed/refractory sarcomas including Ewing sarcoma), and is supported by two completed/ongoing Phase II trials plus preclinical mechanistic data (evidence level L2). However, vinorelbine is not currently marketed in New Zealand, and critical safety documentation (TFDA/Medsafe label) is missing, so progression should proceed only under defined guardrails rather than as an unconditional "Go."
+Ewing sarcoma has the strongest support among the predicted indications. It is backed by completed and ongoing Phase 2 studies and a recent review on the vinorelbine and cyclophosphamide regimen, but the evidence is indirect, mostly from mixed paediatric populations. All New Zealand licences are cancelled, so any use would require re-supply or special access.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert with warnings, contraindications, and DDI data (DG001 — Blocking)
-- Confirmed mechanism-of-action documentation from DrugBank (DG002 — High)
-- Clarification of NCT05999994 (CAMPFIRE) sub-protocol status to confirm whether a vinorelbine/Ewing-sarcoma-specific arm exists
-- Updated status check on NCT00180947 (currently "Unknown") to assess data currency
-- Route-of-administration compatibility assessment (currently unassessed/pending)
-- A defined regulatory pathway assessment for New Zealand market entry, given the drug is not currently marketed there
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- Ewing sarcoma-specific efficacy results, such as the outcome of NCT00180947 and the INTER-EWING-1 trial
+- A plan for supply and regulatory pathway in New Zealand, given that no licence is currently valid
+- A myelosuppression monitoring plan and review of the clarithromycin interaction for paediatric and young adult patients
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

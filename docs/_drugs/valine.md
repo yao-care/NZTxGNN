@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Valine
-parent: Model Prediction Only (L5)
-nav_order: 359
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 474
+evidence_level: L4
 indication_count: 10
 ---
 
 # Valine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Valine: From Essential Amino Acid Nutrient to Sclerosing Cholangitis
+# Valine: From an Unspecified Original Indication to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Valine (DrugBank DB00161) is a branched-chain essential amino acid with no established therapeutic indication on file and is not currently marketed in New Zealand. The TxGNN model predicts a possible association with **Sclerosing Cholangitis**, but this direction is currently supported by only **2 publications** and **0 clinical trials**, and neither publication directly confirms a causal or therapeutic role for valine in this disease.
-
----
+Valine is an essential branched-chain amino acid. Its only New Zealand licence (a 4 g sachet powder) is cancelled, and no approved indication is recorded.
+The TxGNN model predicts it may be useful for **sclerosing cholangitis**, but there are **0 clinical trials** and only **2 indirect publications** (a cohort study and a Mendelian randomization study), and neither tests valine as a treatment.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not applicable — no approved therapeutic indication on file (essential amino acid / nutritional component) |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Not recorded in the licence data |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, valine is a branched-chain amino acid (BCAA) that functions primarily as a nutritional/metabolic substrate rather than a conventional pharmacological agent, and it has no on-file approved therapeutic indication to compare against sclerosing cholangitis.
+Currently, detailed mechanism of action data is not available. Valine is a branched-chain amino acid (BCAA) used as a nutritional supplement, and its approved therapeutic use is not documented in the data compiled for this report.
 
-The two literature hits returned for this pair are only loosely connected to the prediction. One (PMID 15790420) actually investigates plasma **tyrosine** — not valine — in relation to fatigue in primary sclerosing cholangitis and primary biliary cirrhosis, and is a keyword-adjacent rather than direct match. The other (PMID 39015781) is a Mendelian randomization study of blood metabolites and cholestatic liver disease risk, but it does not confirm valine specifically as a significant causal metabolite for sclerosing cholangitis.
+The link to sclerosing cholangitis is indirect. Altered amino acid metabolism, including imbalances between BCAAs and aromatic amino acids, has been reported in cholestatic liver disease. A 2005 cohort study examined plasma tyrosine and fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. A 2024 Mendelian randomization study linked blood metabolites and metabolic pathways to cholestatic liver diseases.
 
-Given the absence of MOA data, the absence of any clinical trial evidence, and the fact that neither retrieved publication directly substantiates a valine–sclerosing cholangitis mechanistic link, the biological plausibility of this prediction cannot currently be established beyond the model's statistical association.
-
----
+These studies show metabolic associations. They do not show that giving valine treats sclerosing cholangitis. The high TxGNN score is a model prediction and has not been confirmed by clinical data.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39015781](https://pubmed.ncbi.nlm.nih.gov/39015781/) | 2024 | Mendelian Randomization | Frontiers in Medicine | Investigates causal relationships between blood metabolites/metabolic pathways and cholestatic liver diseases (PBC, PSC); does not confirm valine as a significant causal metabolite. |
-| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Observational | BMC Gastroenterology | Examines plasma amino acid patterns and fatigue in PBC/PSC; the amino acid studied is tyrosine, not valine — only tangentially relevant. |
-
----
+| [39015781](https://pubmed.ncbi.nlm.nih.gov/39015781/) | 2024 | Mendelian randomization | Frontiers in Medicine | Examined causal links between blood metabolites and the risk of primary biliary cholangitis and primary sclerosing cholangitis. Does not test valine supplementation. |
+| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Studied abnormal amino acid patterns and their relation to fatigue in PBC and PSC, focusing on tyrosine. Not a valine treatment study. |
 
 ## New Zealand Market Information
 
-Valine is not currently marketed in New Zealand (0 authorizations on file); no product license data is available.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2514079 (cancelled) | Valine50 | Powder, 4 g sachets | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No interaction records were found for valine in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but there are no clinical trials and no literature directly confirming a mechanistic or causal link between valine and sclerosing cholangitis — the two retrieved papers are tangential (wrong amino acid) or inconclusive (metabolite not confirmed causal). Combined with the lack of MOA data and the drug's unmarketed status in New Zealand, evidence is insufficient to advance beyond model prediction.
+The prediction rests on a model score and indirect metabolic associations only. There are no trials, no demonstrated mechanism, and no valid New Zealand licence. The other nine predicted indications (glaucoma subtypes, hyperthyroidism, thyroid hormone resistance and others) have even weaker support. Much of their literature concerns "Val" as a residue in gene mutations, not valine as a drug.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data for valine (DrugBank API query, currently a blocking data gap)
-- A follow-up Mendelian randomization or metabolomic study specifically isolating valine (not aggregate BCAA/amino acid panels) as a causal factor in sclerosing cholangitis
-- TFDA/regulatory package insert or safety monograph data, since none is currently available
-- Preclinical or mechanistic studies establishing biological plausibility before considering any clinical investigation
+- Mechanism of action data for valine
+- Package insert warnings and contraindications from Medsafe, which are required before any safety screening
+- Evidence that valine supplementation affects the course of sclerosing cholangitis, such as preclinical or early-phase clinical studies
+- Clarification of the original approved indication and the reason the licence was cancelled
+- Assessment of route and formulation compatibility for the proposed use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

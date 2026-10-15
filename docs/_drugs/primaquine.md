@@ -2,7 +2,7 @@
 layout: default
 title: Primaquine
 parent: Model Prediction Only (L5)
-nav_order: 288
+nav_order: 382
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Primaquine: From Malaria to Myiasis
+# Primaquine: From Plasmodium vivax Malaria to Myiasis
 
 ## One-Sentence Summary
 
-Primaquine is an 8-aminoquinoline originally used for the radical cure of *Plasmodium vivax*/*ovale* malaria (relapse prevention) and as a gametocytocide against *P. falciparum*; no New Zealand regulatory indication text is available because the drug is not currently marketed there. The TxGNN model predicts it may be effective for **Myiasis**, but this ranking is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-score prediction with no literature or mechanistic corroboration.
+Primaquine is an 8-aminoquinoline antimalarial, originally used for the radical cure of *Plasmodium vivax* malaria.
+The TxGNN model predicts it may be effective for **myiasis** (infestation by fly larvae), but there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ---
 
@@ -41,47 +42,59 @@ Primaquine is an 8-aminoquinoline originally used for the radical cure of *Plasm
 
 | Item | Content |
 |------|------|
-| Original Indication | Malaria (radical cure of *P. vivax*/*P. ovale*, gametocytocidal activity against *P. falciparum*) — no NZ-specific approved indication text available (not marketed) |
+| Original Indication | Plasmodium vivax malaria |
 | Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 99.76% |
-| Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known pharmacology, primaquine is an 8-aminoquinoline antimalarial that generates oxidative metabolites, disrupting mitochondrial function in the erythrocytic, hepatic, and gametocyte stages of *Plasmodium* parasites; this oxidative mechanism is also the basis of its hemolytic risk in G6PD-deficient patients.
+Currently, detailed mechanism of action data is not available. Based on known information, primaquine is an 8-aminoquinoline whose efficacy against *P. vivax* malaria is established. It acts mainly on liver-stage parasites and on the gametocytes of the malaria parasite.
 
-Myiasis, however, is a dipteran larval tissue infestation (e.g. *Dermatobia hominis*, *Cochliomyia*) whose standard management is mechanical larva removal, occlusive/asphyxiation techniques, or ivermectin — none of which share a pharmacological target with primaquine's antiprotozoal oxidative-stress mechanism. The evidence pack's own rationale for this prediction explicitly states there is "no known association" between primaquine's mechanism and myiasis treatment, and that the ranking rests solely on the TxGNN model score (0.9976) with no supporting trial or literature data. This should be read as a low-confidence, exploratory signal rather than a mechanistically grounded hypothesis.
+The biological link to myiasis is weak. Myiasis is an infestation of tissue by dipteran (fly) larvae, which are multicellular insects. Malaria is caused by a single-celled protozoan. Primaquine has no known activity against fly larvae.
+
+The very high score is most likely a graph artefact. Three related subtypes (furuncular, wound and creeping myiasis) have almost identical scores of about 99.73%. This suggests the signal spread through the disease hierarchy, possibly because the model sees the drug as close to other antiparasitic agents. The score should not be read as evidence of real pharmacological activity.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## New Zealand Market Information
 
-Primaquine currently has no marketing authorization in New Zealand (0 licenses on file), so no product/dosage-form table can be generated.
+Both authorizations are cancelled, so no primaquine product is currently authorized in New Zealand. Any use would require an unapproved-medicine pathway or a new sponsor.
+
+| Authorization Number | Product Name | Dosage Form | Status | Approved Indication |
+|---------|------|------|------|-----------|
+| 2587637 | Sanofi Primaquine | Tab 15 mg | Cancelled | Not recorded in the registry entry |
+| 2664062 | Bayshore | Tab 15 mg | Cancelled | Not recorded in the registry entry |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level contraindications (from knowledge-graph data, not label text)**: neutropenia, agranulocytosis, G6PD deficiency, hemolytic anemia, methemoglobinemia due to methemoglobin reductase deficiency, glycogen storage disease, cystinuria, galactosemia, and pyruvate dehydrogenase E3 deficiency. The G6PD and hemolysis-related entries are the most important in practice, because primaquine can cause serious hemolysis in G6PD-deficient patients.
+- **Drug Interactions**: 100 interactions were recorded in total.
+  - **Major**: dolasetron.
+  - **Moderate**: several, including ondansetron, granisetron, palonosetron, clarithromycin, levofloxacin, famotidine, loperamide, alosetron, and a number of laxatives and bowel-preparation agents (bisacodyl, picosulfuric acid, polyethylene glycol, lactulose, lactitol, magnesium citrate, sodium sulfate, glycerin, castor oil).
+  - **Minor**: metronidazole.
+  - Several of these are QT-related or gastrointestinal-motility interactions.
 
-*(Note: TFDA/Medsafe warnings and contraindications are flagged internally as a Blocking-severity data gap — a package insert was located but not yet parsed, so safety data could not be extracted for this evidence pack.)*
+Please refer to the package insert for label-level warnings and contraindications.
 
 ---
 
@@ -90,13 +103,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The myiasis prediction is evidence level L5 — a model score with zero supporting clinical trials or literature, and the stated repurposing rationale itself finds no mechanistic link to primaquine's known antiprotozoal activity. Combined with the unresolved Blocking-severity safety data gap (no parsed warnings/contraindications), this candidate cannot proceed past initial screening (S0).
+The prediction has no clinical trials, no literature and no plausible mechanism, since primaquine has no known activity against fly larvae. The high score is probably an artefact of the disease hierarchy. The drug also carries significant hemolysis and methemoglobinemia risks, and it has no valid New Zealand authorization. Together these do not justify further investment for this indication.
 
 **To proceed, the following is needed:**
-- Parse the located TFDA/Medsafe package insert to populate warnings and contraindications (removes the Blocking gap)
-- Confirm mechanism of action via DrugBank API query
-- Obtain preclinical or in-vitro data testing primaquine activity against myiasis-causing larvae before further scoring
-- Consider deprioritizing myiasis in favor of higher-evidence candidates already present in this same evidence pack — notably **pneumocystosis** (6 trials incl. completed Phase 3, 20 publications) and **toxoplasmosis** (L4, 7 literature records) — which have documented clinical use of primaquine (typically with clindamycin) and warrant separate, dedicated evaluation reports
+- A mechanistic rationale, or in vitro or in vivo evidence of larvicidal activity, to show a real pharmacological link.
+- A systematic literature search beyond the model's retrieval, to confirm that no relevant reports exist.
+- Package insert warnings and contraindications, and the mechanism of action data, to support any safety assessment.
+- A benefit-risk comparison with the standard treatments for myiasis (such as wound care, larval removal and ivermectin), which are likely safer.
+- A plan for G6PD screening and a regulatory pathway, given that all New Zealand authorizations are cancelled.
+
+Other predicted indications for primaquine, such as pneumocystosis (as a clindamycin combination) and malaria itself, have much stronger supporting evidence. They would be better candidates for evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

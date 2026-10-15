@@ -2,7 +2,7 @@
 layout: default
 title: Alglucosidase Alfa
 parent: Model Prediction Only (L5)
-nav_order: 22
+nav_order: 27
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,44 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alglucosidase Alfa: From Pompe Disease to Adult Polyglucosan Body Disease
+# Alglucosidase Alfa: From Glycogen Storage Disease to Adult Polyglucosan Body Disease
 
 ## One-Sentence Summary
 
-Alglucosidase alfa is a recombinant human acid alpha-glucosidase (GAA) enzyme replacement therapy approved for Pompe disease (glycogen storage disease type II), a lysosomal storage disorder caused by GAA enzyme deficiency leading to progressive glycogen accumulation in muscle tissue.
-The TxGNN model predicts it may have potential against **Adult Polyglucosan Body Disease (APBD)**, a rare neurodegenerative disorder caused by partial GBE1 enzyme deficiency.
-However, this direction is supported by **no clinical trials** and **no published literature** — this is a model-only prediction at Evidence Level L5, and the mechanistic connection remains indirect at best.
+Alglucosidase alfa is a recombinant human enzyme originally used to treat glycogen storage disease (Pompe disease, GSD II).
+The TxGNN model predicts it may be effective for **adult polyglucosan body disease**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction rests on model output alone, and the biological rationale is weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Pompe Disease (Glycogen Storage Disease Type II) |
-| Predicted New Indication | Adult Polyglucosan Body Disease (APBD) |
+|------|------|
+| Original Indication | Glycogen storage disease (Pompe disease). The New Zealand licence record contains no approved indication text. |
+| Predicted New Indication | Adult polyglucosan body disease |
 | TxGNN Prediction Score | 99.47% |
-| Evidence Level | L5 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Alglucosidase alfa (brand names: Myozyme, Lumizyme) replaces the deficient lysosomal enzyme acid alpha-glucosidase (GAA). In Pompe disease, absent or severely reduced GAA activity causes glycogen to accumulate inside lysosomes of cardiac and skeletal muscle cells, leading to progressive myopathy and respiratory failure. By delivering exogenous recombinant GAA via mannose-6-phosphate receptor-mediated uptake, alglucosidase alfa restores lysosomal glycogen catabolism and has become the standard of care for this condition.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, alglucosidase alfa is a recombinant human acid alpha-glucosidase (GAA). It breaks down glycogen inside lysosomes and is an established enzyme replacement therapy for Pompe disease.
 
-Adult Polyglucosan Body Disease (APBD) arises from partial loss-of-function mutations in the GBE1 gene, which encodes the glycogen branching enzyme (GBE) — a cytosolic enzyme distinct from GAA. GBE deficiency results in the accumulation of abnormally structured, poorly-branched polyglucosan bodies in neurons and axons, causing a progressive neurological syndrome involving upper and lower motor neuron degeneration, cognitive decline, and autonomic dysfunction. Both Pompe disease and APBD belong to the broad family of glycogen storage disorders, and the TxGNN model almost certainly captured this disease-cluster similarity when generating its high score.
+Adult polyglucosan body disease is caused by a deficiency of the glycogen branching enzyme (GBE1). This produces poorly branched, insoluble polyglucosan that accumulates mainly in the cytosol of neurons and other cells. The shared theme of abnormal glycogen metabolism likely explains the high TxGNN score.
 
-Despite the phenotypic clustering, the mechanistic connection is weak. Alglucosidase alfa addresses GAA deficiency within the lysosomal compartment; it cannot substitute for GBE1 function in the cytosol, nor can it correct the structural abnormality of polyglucosan bodies once formed. There is currently no pharmacological rationale, no clinical trial evidence, and no case report literature to suggest that enzyme replacement targeting GAA would produce therapeutic benefit in GBE1-deficient disease. This prediction is best treated as a hypothesis-generating signal from the model's graph structure, not a clinically actionable repurposing candidate.
+The mechanistic link is nonetheless weak and speculative:
+- Lysosomal GAA does not correct the GBE1 defect.
+- The enzyme does not readily cross the blood-brain barrier.
+- It does not readily reach polyglucosan stored in the cytosol.
+
+The other top-ranked predictions follow the same pattern:
+- **Glycogen branching enzyme deficiency (fatal perinatal and congenital neuromuscular forms)**: these are also GBE1 disorders, and the prediction likely reflects proximity to the original indication in the knowledge graph. GAA cannot replace branching enzyme activity.
+- **Eyelid and ocular conditions** (congenital entropion, congenital ectropion, epiblepharon, congenital Horner syndrome, ptosis-related syndromes, and others): no plausible mechanism links them to enzyme replacement for glycogen storage, so these predictions are probably knowledge-graph artifacts.
 
 ---
 
@@ -75,9 +82,19 @@ Currently no related literature available.
 
 ---
 
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2500701 | Myozyme (status: cancelled) | Inj 50 mg vial | Not recorded |
+
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interaction records were found for this drug.
+
+Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ---
 
@@ -86,14 +103,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high confidence score (99.47%) driven by shared glycogen storage disease phenotype clustering, but the enzymes involved — GAA (lysosomal, targeted by alglucosidase alfa) and GBE1 (cytosolic, deficient in APBD) — operate in distinct metabolic compartments with no known cross-correction mechanism. The absence of any clinical trial, published literature, or preclinical data further reinforces that this candidate does not warrant clinical translation at this stage.
+The prediction is supported only by the model score, with no clinical trials or literature. The mechanistic link is weak because lysosomal GAA does not address the GBE1 defect or reach cytosolic polyglucosan. The only New Zealand licence has been cancelled, so there is no current local supply pathway.
 
 **To proceed, the following is needed:**
-- In vitro studies in GBE1-deficient cell models to assess whether alglucosidase alfa exerts any secondary effect on polyglucosan body clearance via non-specific lysosomal activity
-- Animal model data (e.g., Gbe1-knockin mice) to evaluate whether exogenous GAA influences disease progression
-- Detailed mechanistic analysis of any potential GAA–GBE pathway crosstalk in neurons and axons
-- MOA documentation (currently a data gap) to support or refute any broader lysosomal autophagy rationale
-- New Zealand regulatory pre-consultation only if preclinical data emerges and justifies further development
+- Package insert warnings and contraindications from Medsafe, as safety screening cannot proceed without them
+- Detailed mechanism-of-action data from DrugBank
+- Preclinical evidence on whether GAA can reach and degrade polyglucosan in relevant cells or models
+- A review of current supply and regulatory status in New Zealand, since the only licence is cancelled
+- Evaluation of whether a clinical question exists for adult polyglucosan body disease, since the other nine predictions lack credible biological support
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

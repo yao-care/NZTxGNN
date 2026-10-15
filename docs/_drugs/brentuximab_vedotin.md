@@ -2,7 +2,7 @@
 layout: default
 title: Brentuximab Vedotin
 parent: Moderate Evidence (L3-L4)
-nav_order: 52
+nav_order: 70
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,90 +29,91 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Brentuximab Vedotin: From Hodgkin Lymphoma / sALCL to Follicular Lymphoma
+# Brentuximab Vedotin: From Hodgkin Lymphoma to Follicular Lymphoma
 
 ## One-Sentence Summary
 
-Brentuximab vedotin (BV) is an anti-CD30 antibody–drug conjugate approved for relapsed/refractory classical Hodgkin lymphoma (cHL) and systemic anaplastic large-cell lymphoma (sALCL), where CD30 is universally or highly expressed on tumour cells.
-The TxGNN model predicts it may be effective for **Follicular Lymphoma (FL)**, with **6 clinical trials** and **20 publications** currently informing this direction — though the majority are indirect or non-FL-specific.
-The mechanistic basis is biologically weak (CD30 expression in FL is low and unstable in < 10% of cases), and the sole active direct trial (NCT04587687) is still recruiting; a decision to proceed should await its results.
+Brentuximab vedotin is an anti-CD30 antibody-drug conjugate originally used to treat Hodgkin lymphoma (including classic Hodgkin lymphoma).
+The TxGNN model predicts it may be effective for **follicular lymphoma**, but the supporting evidence is thin: **6 clinical trials** (3 of them withdrawn with no patients enrolled, 2 terminated early) and a literature set that is mostly reviews on T-cell lymphoma, with **no study showing efficacy in follicular lymphoma**.
+Among the other predicted indications, **B-cell neoplasm** (especially diffuse large B-cell lymphoma) has clearly stronger evidence and may be the more promising direction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Classical Hodgkin Lymphoma; Systemic Anaplastic Large Cell Lymphoma (sALCL) |
-| Predicted New Indication | Follicular Lymphoma |
+|------|------|
+| Original Indication | Hodgkin lymphoma (including classic Hodgkin lymphoma) |
+| Predicted New Indication | Follicular lymphoma |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L3 |
-| New Zealand Market Status | Not marketed (0 authorisations) |
-| Number of Authorisations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid authorization) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data source. Based on contextual information from the clinical trial records in this Evidence Pack, brentuximab vedotin is an antibody–drug conjugate (ADC) composed of an anti-CD30 monoclonal antibody (brentuximab) linked to the microtubule-disrupting cytotoxin MMAE (monomethyl auristatin E). Upon binding to CD30-expressing cells, the conjugate is internalised, MMAE is released intracellularly, and it arrests cell division by disrupting the tubulin network — ultimately triggering apoptosis.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, brentuximab vedotin is an antibody-drug conjugate: an anti-CD30 antibody linked to the cytotoxic agent MMAE. CD30 is strongly expressed on Hodgkin/Reed-Sternberg cells, which is why the drug works in Hodgkin lymphoma.
 
-The mechanistic bridge to follicular lymphoma rests on whether FL cells express CD30. Unlike cHL (near-universal CD30 expression on Reed–Sternberg cells) or sALCL (CD30 universally expressed), FL cells show CD30 positivity in fewer than 10% of cases, and expression is typically low-level and heterogeneous. This fundamentally limits the selectivity of BV's antibody-targeting mechanism in unselected FL patients. PMID 32476657 documents a single case where Grade I FL underwent histological transformation to CD30+ ALCL, after which BV produced a complete response — but this represents transformed disease, not de novo FL, and cannot be generalised to FL as an entity.
-
-The TxGNN model likely identified the shared lymphoma network topology (FL is a B-cell non-Hodgkin lymphoma with overlapping biological pathways to CD30-positive subtypes) as the basis for this prediction. While the prediction score is high (99.89%), it reflects graph-structural similarity rather than confirmed CD30 biology in FL. The currently recruiting Phase 2 trial NCT04587687 is directly testing BV + Bendamustine in relapsed/refractory FL and represents the key piece of evidence that could either validate or refute this hypothesis.
+Follicular lymphoma is a B-cell lymphoma that generally has low CD30 expression. The mechanistic rationale is therefore limited to CD30-positive subsets or possible bystander effects, where MMAE released near target cells kills neighbouring tumour cells. The high TxGNN score reflects knowledge-graph similarity between lymphoid diseases and should not be read as evidence of efficacy.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | Phase 2 | Recruiting | 23 | BV + Bendamustine specifically in R/R FL; the only active, directly relevant trial — results will determine feasibility of this combination |
-| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | Phase 2 | Terminated | 25 | Rituximab + Bendamustine ± BV in R/R CD30+ DLBCL; early termination limits conclusions, but provides limited safety data in the B-cell NHL setting |
-| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | Phase 1/2 | Terminated | 20 | BV + Rituximab as frontline therapy for CD30+ and/or EBV+ lymphomas (including FL); CD30 selection criterion is an important design precedent for FL sub-group identification |
-| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | Phase 2 | Withdrawn | 0 | Risk-stratified sequential treatment with Rituximab-BV-Bendamustine (RBvB) for newly diagnosed PTLD with CD20/CD30 expression; withdrawn before enrolment — no data generated |
-| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | Phase 2 | Withdrawn | 0 | BV + Bendamustine + Rituximab for R/R CD30+ B-cell NHL (including FL); withdrawn before enrolment — no data generated |
-| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | Phase 2 | Withdrawn | 0 | BV + Pembrolizumab for recurrent PTCL; broad NHL indication, not FL-specific, withdrawn before enrolment |
+|---------|------|------|------|---------|
+| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | Phase 2 | Recruiting | 23 | Brentuximab vedotin + bendamustine in relapsed/refractory follicular lymphoma; directly on-indication, no results yet |
+| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | Phase 1/2 | Terminated | 20 | Brentuximab vedotin + rituximab as frontline therapy in CD30+ and/or EBV+ lymphomas; follicular lymphoma is only one of several histologies |
+| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | Phase 2 | Terminated | 25 | Randomized rituximab + bendamustine ± brentuximab vedotin in CD30+ DLBCL; terminated early, limited data |
+| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | Phase 2 | Withdrawn | 0 | Rituximab, brentuximab vedotin and bendamustine in post-transplant lymphoproliferative disorders; no patients enrolled |
+| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | Phase 2 | Withdrawn | 0 | Brentuximab vedotin + bendamustine + rituximab in CD30+ B-cell NHL; no patients enrolled |
+| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | Phase 2 | Withdrawn | 0 | Brentuximab vedotin + pembrolizumab in peripheral T-cell lymphoma; no patients enrolled |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | Case Report | Gulf J Oncol | Grade I FL transforming to CD30+ ALK1− ALCL; BV + high-dose methotrexate achieved complete response — demonstrates BV activity in FL transformation context, not primary FL |
-| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Review | Leuk Res Rep | Immunotherapy in indolent NHL including FL; reviews monoclonal antibody landscape — contextual background for BV positioning in iNHL |
-| [28967896](https://pubmed.ncbi.nlm.nih.gov/28967896/) | 2018 | Review | Bone Marrow Transplant | Post-ASCT maintenance in lymphoma; mentions FL maintenance rituximab and BV post-ASCT consolidation in HL — contextual, not FL-BV direct evidence |
-| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | Phase 2 Trial | Blood Adv | BV + Gemcitabine followed by BV maintenance in R/R PTCL (≥5% CD30+); ORR and PFS reported — PTCL, not FL, but establishes BV combination activity in non-HL lymphoma |
-| [38306597](https://pubmed.ncbi.nlm.nih.gov/38306597/) | 2024 | Review | Blood | Current and upcoming treatment for common PTCL subtypes including PTCL-NOS, ALCL, TFH lymphomas; BV + CHP as frontline for CD30+ PTCL — relevant as background on BV in NHL, not FL |
+|------|-----|------|------|---------|
+| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | Cohort (Phase 2) | Blood Adv | Brentuximab vedotin + gemcitabine in relapsed/refractory peripheral T-cell lymphoma (not follicular lymphoma) |
+| [33320379](https://pubmed.ncbi.nlm.nih.gov/33320379/) | 2021 | Cohort | Eur J Haematol | Brentuximab vedotin added to ICE in relapsed/refractory peripheral T-cell lymphoma |
+| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Review | Leuk Res Rep | Immunotherapy in indolent non-Hodgkin lymphoma, including follicular lymphoma |
+| [38306597](https://pubmed.ncbi.nlm.nih.gov/38306597/) | 2024 | Review | Blood | Treatment of common nodal peripheral T-cell lymphomas, including brentuximab vedotin-CHP |
+| [39644004](https://pubmed.ncbi.nlm.nih.gov/39644004/) | 2024 | Review | Hematology ASH Educ Program | Incorporating brentuximab vedotin and novel agents into peripheral T-cell lymphoma management |
+| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | Case report | Gulf J Oncol | Grade I follicular lymphoma transformed to CD30+ ALK1- anaplastic large cell lymphoma, with complete response to brentuximab vedotin and high-dose methotrexate |
 
-> **Note:** The majority of the 20 retrieved publications relate to PTCL, HL, or DLBCL rather than FL specifically. Dedicated FL–BV literature is sparse, reflecting the early-stage nature of this repurposing hypothesis.
+None of these publications evaluates brentuximab vedotin for follicular lymphoma itself; most address T-cell lymphomas. The case report involves transformation to a CD30+ T-cell lymphoma.
 
 ---
 
 ## New Zealand Market Information
 
-Brentuximab vedotin currently holds **no regulatory authorisations** in New Zealand. No product licences, approved indications, or marketed formulations are on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2649152 | Adcetris | Inj 50 mg vial | Not available (authorization cancelled) |
 
 ---
 
 ## Cytotoxicity
 
-Brentuximab vedotin qualifies as an antineoplastic agent: it is an ADC with MMAE (a cytotoxic microtubule-disrupting agent) as its payload, and it is used exclusively for malignant haematological conditions.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted cytotoxic — Antibody–Drug Conjugate (anti-CD30 × MMAE, auristatin class) |
-| Myelosuppression Risk | Moderate to High — neutropenia is the most common haematological toxicity reported across cHL/sALCL trials; febrile neutropenia documented |
-| Emetogenicity Classification | Low to Moderate (MMAE payload; IV infusion every 3 weeks) |
-| Monitoring Items | CBC with differential (each cycle), liver function tests, renal function, peripheral neuropathy assessment, serum uric acid (tumour lysis risk in lymphoma) |
-| Handling Protection | Must be handled according to cytotoxic drug handling regulations; MMAE payload has vesicant potential — closed-system drug transfer devices recommended |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (antibody-drug conjugate carrying the cytotoxic agent MMAE, a microtubule inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert; haematological parameters (CBC) and liver function are generally monitored |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Detailed warnings, contraindications, and drug interaction data were not available in this Evidence Pack (data gaps DG001 and DG002 are flagged as Blocking/High severity). Key areas to investigate prior to any clinical use include: peripheral neuropathy (a class effect of MMAE-based ADCs), infusion-related reactions, pulmonary toxicity, and opportunistic infections.
+- **Drug Interactions**: The interaction screen returned 100 records. The ones shown are all graded Moderate, and many involve antidiabetic agents (e.g., acarbose, metformin, pioglitazone, glimepiride, glipizide, dapagliflozin, empagliflozin, exenatide, dulaglutide). Other interacting drugs include clarithromycin, bupropion, clotrimazole, eliglustat and chenodeoxycholic acid. The full list should be reviewed before any use.
+
+Package insert warnings and contraindications were not available; please refer to the package insert for these.
 
 ---
 
@@ -121,15 +122,15 @@ Please refer to the package insert for safety information. Detailed warnings, co
 **Decision: Hold**
 
 **Rationale:**
-The biological basis for BV in follicular lymphoma is weak — CD30 expression occurs in fewer than 10% of FL cases, meaning the majority of FL patients would not have the drug's target. Only one active Phase 2 trial (NCT04587687, BV + Bendamustine, n=23, recruiting) is directly evaluating this combination in R/R FL; all other trials in this Evidence Pack were terminated or withdrawn without generating data. The evidence level (L3) reflects indirect and observational support rather than completed controlled trials in FL.
+For follicular lymphoma, the evidence is limited to one small recruiting Phase 2 trial without results, while several related trials were withdrawn or terminated. Follicular lymphoma generally has low CD30 expression, and the New Zealand authorization has been cancelled. Within the same predicted set, B-cell neoplasm (rank 4, Level L2, completed Phase 2 in relapsed/refractory NHL with n=176, and a Phase 3 trial in relapsed/refractory DLBCL with a published report) is the more supported direction.
 
 **To proceed, the following is needed:**
-
-- Results from NCT04587687 (BV + Bendamustine in R/R FL; expected completion December 2026) — this trial is the decision gate
-- CD30 expression profiling data in FL patients to identify the CD30-positive sub-population that could plausibly benefit
-- Mechanism of action documentation (DrugBank MOA query — data gap DG002)
-- New Zealand-specific regulatory pathway assessment: BV is not currently approved in NZ for any indication; global approval status (FDA/EMA) for cHL/sALCL should be documented as part of the regulatory bridge strategy
-- Safety profile review from the package insert (data gap DG001 — TFDA warnings and contraindications required for safety pre-screening)
+- Results from NCT04587687 (brentuximab vedotin + bendamustine in relapsed/refractory follicular lymphoma)
+- CD30 expression data in follicular lymphoma, to define a responsive subgroup
+- Package insert warnings and contraindications (Medsafe)
+- Mechanism of action data from DrugBank
+- Clarification of the cancelled New Zealand authorization and current supply options
+- Consideration of re-prioritising the B-cell neoplasm/DLBCL indication for further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Salicylic Acid
 parent: Model Prediction Only (L5)
-nav_order: 317
+nav_order: 419
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,59 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salicylic Acid: From Topical Dermatological Use to Papillary Conjunctivitis
+# Salicylic Acid: From Topical Dermatological and Inflammatory Conditions to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Salicylic acid (DrugBank DB00936) is a keratolytic agent with mild anti-inflammatory (COX-inhibiting) properties, traditionally used in topical dermatological treatments; no specific original indication text is available in this evidence pack, and the drug is not currently marketed in New Zealand. The TxGNN model predicts possible efficacy for **Papillary Conjunctivitis**, but this is currently a **model-prediction-only** finding, with **no supporting clinical trials or published literature**.
+Salicylic acid is a long-established agent used mainly in skin care and for inflammatory conditions, including acne, warts, corns, seborrheic dermatitis and fungal skin infections.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but **no clinical trials and no publications** were found to support this prediction.
+It is a computational prediction only (evidence level L5).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack (drug not marketed; no approved indication text on file) |
-| Predicted New Indication | Papillary Conjunctivitis |
+| Original Indication | Acne, seborrheic dermatitis, tinea infections, rheumatoid arthritis, allergic rhinitis and others (from the knowledge graph; no approved indication text is available for the New Zealand licence) |
+| Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known pharmacology, salicylic acid is a keratolytic agent with mild anti-inflammatory activity via COX inhibition, most commonly used in topical/dermatological formulations. No formal original-indication text or regulatory record exists in this evidence pack, and the compound is not currently marketed in New Zealand (0 authorizations).
+Detailed mechanism of action data is not currently available. Salicylic acid is generally proposed to act through inhibition of COX enzymes, which reduces prostaglandin synthesis, but no public bioactivity data were found to confirm this at a specific molecular target. It also has keratolytic activity, which explains its use on the skin.
 
-The repurposing rationale for papillary conjunctivitis suggests that salicylic acid's keratolytic and weak anti-inflammatory action could theoretically reduce the inflammatory component of papillary hyperplasia on the conjunctiva. However, this is explicitly flagged as a **non-specific, mechanistically weak link** — there is no pharmacological or safety data supporting ophthalmic/topical ocular use of salicylic acid, and the association is drawn by analogy rather than direct evidence.
+The knowledge graph links salicylic acid to several inflammatory and allergic conditions, including allergic rhinitis, rheumatoid arthritis and synovitis. Papillary conjunctivitis is an allergic or inflammatory disease of the ocular surface, so an anti-inflammatory effect could in theory be relevant. This is speculative.
 
-Given the absence of any clinical trials or literature (0 records across ClinicalTrials.gov, ICTRP, and PubMed for this drug–disease pair), this prediction should be treated as a hypothesis generated purely by the TxGNN model, not as a mechanistically or clinically validated candidate.
+There is also a practical concern. Topical salicylic acid is irritating and is generally unsuitable for application to the eye. The high score probably reflects proximity in the knowledge graph rather than demonstrated therapeutic benefit.
+
+Other top-ranked predictions are weaker still. Most are rare genetic skeletal or developmental syndromes (for example brachyolmia, pseudoachondroplasia and acromesomelic dysplasia) with no plausible mechanism. The most biologically plausible alternative is susceptibility to spondyloarthropathy (score 99.34%), because of the overlap with the drug's rheumatoid arthritis and synovitis indications. It is also unsupported by trials or literature, and other NSAIDs are the usual standard of care.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2574136 (cancelled) | Midwest | Powder | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions / Pharmacology**: The data compiled for this report list one pharmacological association, with the target ASIC3 (acid-sensing ion channel 3). No interaction severity level is available. The compiled data note that no public bioactivity data confirm the proposed COX-inhibition mechanism.
+- **Site-specific concern**: Topical salicylic acid carries an irritation risk, which is particularly relevant to any ocular use.
 
-*Note: TFDA/regulatory package insert warnings and contraindications are currently a documented blocking data gap (DG001) — this information could not be retrieved and is required before any S1 safety review can proceed.*
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score (L5 evidence — no clinical trials, no literature, no preclinical ophthalmic data), and the drug's own mechanism-of-action and regulatory safety data are both marked as gaps (DG001 blocking, DG002 high). The mechanistic link to papillary conjunctivitis is explicitly characterized as weak and non-specific in the source rationale.
+The prediction rests on a model score alone, with no clinical trials or literature. Ocular irritation risk argues against the proposed route, and the only New Zealand licence has been cancelled.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data (DG002)
-- Preclinical or in vitro evidence for topical/ocular anti-inflammatory activity relevant to papillary conjunctivitis
-- Any clinical trial or case-report evidence specific to ophthalmic use of salicylic acid
-- Establishment of an original approved indication and regulatory history, since none is currently on file
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data (for example from DrugBank)
+- Preclinical or clinical evidence for papillary conjunctivitis, together with an assessment of ocular tolerability and route compatibility
+- Confirmation of whether any product is currently marketed in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

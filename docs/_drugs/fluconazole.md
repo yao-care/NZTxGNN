@@ -2,7 +2,7 @@
 layout: default
 title: Fluconazole
 parent: Model Prediction Only (L5)
-nav_order: 154
+nav_order: 204
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,77 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Fluconazole: From Fungal Infections to Punctate Epithelial Keratoconjunctivitis
+# Fluconazole: From Candidiasis to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Fluconazole is a triazole antifungal, globally established for treating systemic fungal infections such as candidiasis and cryptococcal meningitis.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**,
-but this direction currently has **no supporting clinical trials** and **no supporting literature** — it is a model-only prediction.
-
----
+Fluconazole is an azole antifungal originally used to treat candidiasis (oral, oesophageal, vulvovaginal, and disseminated forms) and cryptococcal meningitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Fungal infections (systemic mycoses, e.g. candidiasis, cryptococcal meningitis) — based on the drug's established global identity; no local license record confirms this |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+| Original Indication | Oral candidiasis, oesophageal candidiasis, vulvovaginal candidiasis, candidaemia, disseminated candidiasis, cryptococcal meningitis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.24% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 5 (all cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Fluconazole is a triazole antifungal. Its mechanism of action is inhibition of fungal cytochrome P450-dependent lanosterol 14α-demethylase (CYP51), which blocks ergosterol synthesis and disrupts fungal cell membrane integrity.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, fluconazole is an azole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), blocking ergosterol synthesis. Its efficacy in candidiasis and cryptococcal infection is established.
 
-Punctate epithelial keratoconjunctivitis is typically caused by viral infection (e.g. adenovirus-related epidemic keratoconjunctivitis, herpesvirus) or is idiopathic (e.g. Thygeson's superficial punctate keratitis). Only a small minority of cases overlap with fungal keratitis. Because the disease's fungal etiology is not established as a primary driver, Fluconazole's antifungal mechanism has only a low, indirect theoretical relationship to this indication rather than a direct pathophysiological match.
+The link to the new indication is weak. Punctate epithelial keratoconjunctivitis is most often viral (for example, adenoviral) or related to ocular surface disease. An antifungal mechanism would be relevant only if the condition had a fungal cause, which is not the usual case.
 
-This assessment is further limited by data quality: the drug's formal MOA record and Taiwan/New Zealand regulatory registration are both marked as data gaps in this evidence pack, and the drug is not currently marketed in New Zealand. The similarity between the original indication and this predicted indication has not yet been formally assessed (status: pending). Overall, mechanistic plausibility is weak, and this prediction should be treated as an early-stage, unvalidated signal.
-
----
+The high model score may reflect network proximity to other ocular infection or inflammation indications rather than a true therapeutic mechanism. This is a hypothesis only and is not supported by clinical evidence in the data compiled.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## New Zealand Market Information
 
-Fluconazole is not currently marketed in New Zealand under this evidence pack, and no authorization records exist (total licenses: 0).
+All five licences below are cancelled; none is currently valid. Approved indication text was not available.
 
----
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2149052 | Mylan | Capsule 200 mg | Cancelled |
+| 2149079 | Mylan | Capsule 150 mg | Cancelled |
+| 2173824 | Flucazole | Capsule 150 mg | Cancelled |
+| 950289 | Diflucan | Powder for oral suspension 10 mg/ml | Cancelled |
+| 2149060 | Mylan | Capsule 50 mg | Cancelled |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: long QT syndrome, familial long QT syndrome, kidney disease, pyoureter, liver disease, gallbladder disease.
+- **Drug Interactions**: 100 interactions were identified in total. The main ones listed here are from the first 20 records returned.
+  - **Major**: Chlorpropamide
+  - **Moderate**: Famotidine, rabeprazole, omeprazole, dexlansoprazole, hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide (including nasal), loperamide, aprepitant, bisacodyl, picosulfuric acid, polyethylene glycol (3350 with electrolytes), saxagliptin
+  - **Minor**: Amphotericin B (including lipid complex), clarithromycin
 
----
+Package insert warnings and contraindications have not yet been reviewed. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported only by the TxGNN model score (L5 evidence) — there are no clinical trials or published literature linking Fluconazole to punctate epithelial keratoconjunctivitis, and the mechanistic rationale is weak given the disease's predominantly viral/idiopathic etiology. Foundational drug-level data (confirmed MOA, TFDA/Medsafe warnings and contraindications, market registration) are also incomplete, which blocks even an initial safety assessment (S1).
+The only support for this prediction is a high model score (99.24%). There are no clinical trials or publications, the mechanism has no established link to the usual causes of the condition, and no New Zealand licence is currently valid.
 
 **To proceed, the following is needed:**
-- Official TFDA/Medsafe package insert data (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action documentation from DrugBank or equivalent source
-- Literature or clinical evidence establishing a fungal etiology link to punctate epithelial keratoconjunctivitis
-- Drug-drug interaction (DDI) data, currently not found
-- Confirmation of local market/registration status before any regulatory pathway can be scoped
+- Clinical or preclinical evidence (trials, case series, or literature) for fluconazole in punctate epithelial keratoconjunctivitis
+- Clarification of whether a fungal cause is plausible in the target population
+- Mechanism of action data and a mechanistic rationale specific to this condition
+- Package insert warnings and contraindications from Medsafe, to enable safety screening
+- Assessment of route compatibility (for example, whether an ophthalmic formulation would be needed, since the identified forms are oral only)
+- Review of the QT-prolongation, renal, and hepatic risks and the major interaction with chlorpropamide
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

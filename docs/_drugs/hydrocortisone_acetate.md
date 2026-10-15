@@ -2,7 +2,7 @@
 layout: default
 title: Hydrocortisone Acetate
 parent: Model Prediction Only (L5)
-nav_order: 166
+nav_order: 225
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hydrocortisone Acetate: From Corticosteroid Anti-Inflammatory Therapy to Alopecia Areata
+# Hydrocortisone Acetate: From Autoimmune and Inflammatory Conditions to Alopecia Areata
 
 ## One-Sentence Summary
 
-Hydrocortisone acetate is a corticosteroid; the evidence pack does not document its original approved indication (no New Zealand licenses or original_indications data are recorded), but corticosteroids as a class are established anti-inflammatory/immunosuppressive agents. The TxGNN model predicts it may be effective for **Alopecia Areata**, supported by **1 completed Phase 3 clinical trial** and **2 supporting publications** — already reflecting existing clinical practice (topical/intralesional corticosteroid use) rather than a novel hypothesis.
+Hydrocortisone acetate is a corticosteroid originally used for autoimmune disease, inflammatory bowel disease (including Crohn disease), adrenocortical insufficiency and related conditions.
+The TxGNN model predicts it may be effective for **alopecia areata**,
+with **1 clinical trial** (in which hydrocortisone was the comparator) and **2 publications** (a 1973 case series and a 1979 review) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented (no New Zealand licenses or original indication data available in the evidence pack) |
-| Predicted New Indication | Alopecia Areata |
+| Original Indication | Autoimmune disease, inflammatory bowel disease and Crohn disease, adrenocortical insufficiency, congenital adrenal hyperplasia (from the knowledge graph; the New Zealand licence has no approved indication text) |
+| Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L2 (1 completed Phase 3 RCT involving the drug) |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L1 (as assigned in the compiled data; see the note below) |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 (cancelled) |
+| Recommended Decision | Hold |
+
+> **Note on the evidence level:** The L1 label would normally require two or more completed Phase 3 RCTs. Only one such trial was found, and hydrocortisone was the low-potency comparator rather than the test drug. In my judgement the real strength of evidence is closer to L2–L3 at best. This is why the recommendation below is more cautious than the label suggests.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for hydrocortisone acetate is not available in the evidence pack. Based on known pharmacology, hydrocortisone acetate belongs to the corticosteroid class, which acts through anti-inflammatory and local immunosuppressive effects — this is a well-characterized class mechanism, even though the specific documented MOA for this product is a data gap (flagged as High severity in the source data).
+Detailed mechanism of action data is not currently available. Based on known information, hydrocortisone acetate is a corticosteroid with anti-inflammatory and immunosuppressive effects. Its efficacy in autoimmune and inflammatory conditions is established.
 
-Because the original approved indication for this specific product is not documented, the relationship to alopecia areata cannot be assessed directly against a labeled indication. However, topical and intralesional corticosteroids — including hydrocortisone formulations — are already a standard, widely used treatment approach for alopecia areata in dermatology practice, which strengthens plausibility independent of the missing original-indication data.
+Alopecia areata is an autoimmune, T-cell-mediated attack on hair follicles. Because hydrocortisone's original indications include autoimmune disease, the mechanistic link is plausible. Corticosteroids, given by intralesional injection or topically, are an established treatment class for alopecia areata. A 1973 report described intralesional injection of hydrocortisone acetate suspension in severe forms of the disease.
 
-Mechanistically, alopecia areata is driven by T-cell-mediated autoimmune attack on hair follicles. Corticosteroids suppress this local inflammatory/immune process, which is precisely why they are already used clinically (topical application, intralesional injection) for this condition. This makes the TxGNN prediction a reinforcement of established practice rather than a new mechanistic hypothesis. One caveat noted directly in the source rationale: this specific product (hydrocortisone acetate) is currently **not marketed** in New Zealand, so actual accessibility depends on confirming approved dosage forms and indication status.
+There is an important limitation. Hydrocortisone is a low-potency steroid and is generally considered less effective than higher-potency agents such as clobetasol. The prediction is therefore mechanistically sound, but the benefit of this specific drug is likely modest.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomized controlled trial in children comparing clobetasol propionate 0.05% cream vs. hydrocortisone 1% cream for alopecia areata; addresses the lack of high-quality evidence on which topical steroid potency is safe and effective for this population. |
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomized trial in children with alopecia areata comparing clobetasol propionate 0.05% cream with hydrocortisone 1% cream. Hydrocortisone was the low-potency comparator, and the trial used the 1% cream rather than the acetate salt. Results are not given in the available summary. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [153470](https://pubmed.ncbi.nlm.nih.gov/153470/) | 1979 | Review | MMW, Münchener medizinische Wochenschrift | Reviews advances in topical dermatologic therapy; notes hydrocortisone acetate's anti-inflammatory potency is comparable to newer topical corticosteroids, informing its continued use as a reference-standard topical steroid. |
-| [4755919](https://pubmed.ncbi.nlm.nih.gov/4755919/) | 1973 | Case series | Przegląd dermatologiczny | Describes treatment of severe alopecia areata using intralesional subcutaneous injections of hydrocortisone acetate suspension. |
+| [4755919](https://pubmed.ncbi.nlm.nih.gov/4755919/) | 1973 | Case series | Przeglad dermatologiczny | Treatment of severe alopecia areata with intralesional injections of hydrocortisone acetate suspension (no abstract available). |
+| [153470](https://pubmed.ncbi.nlm.nih.gov/153470/) | 1979 | Review | MMW, Munchener medizinische Wochenschrift | General review of topical skin therapy. It notes that the anti-inflammatory effect of fluocortin butyl ester is about equal to that of hydrocortisone acetate. Not specific to alopecia areata. |
 
 ## New Zealand Market Information
 
-This product currently has no authorized license or marketed product in New Zealand (0 authorizations on record).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2611120 (cancelled) | Colifoam | Rectal foam 10%, CFC-Free (14 applications) | Not stated |
+
+The only New Zealand authorization is a rectal foam, and it has been cancelled. It is not a formulation suited to treating alopecia areata, so a new product would likely be needed.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions flagged in the knowledge graph (not label text):** Prior drug-disease contraindication links include hypertension, epilepsy, gastric ulcer, kidney disease, liver disease, gallbladder disease, hyperglycemia, measles, herpes simplex virus keratitis, and pituitary or growth hormone deficiency disorders (including hypopituitarism, Kallmann syndrome and Sheehan syndrome).
+
+No drug interaction data were found. For label-based warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- One completed Phase 3 RCT directly involving hydrocortisone in alopecia areata, together with established clinical use of topical/intralesional corticosteroids for this condition, supports cautious advancement — but the drug's unmarketed status in New Zealand and missing MOA/safety data mean it cannot proceed without further verification. (Note: 9 additional lower-ranked predicted indications for this drug — including telogen effluvium, alopecia mucinosa, and others — currently have no supporting trials or literature and remain at Hold.)
+The mechanistic link to alopecia areata is plausible and the model score is high. However, the only trial used hydrocortisone as a low-potency comparator, and the supporting literature is dated and limited. The one New Zealand product is cancelled and is a rectal foam. The other nine predicted indications have model predictions only, with no supporting trials or literature.
 
 **To proceed, the following is needed:**
-- TFDA-equivalent package insert warnings and contraindications (currently a Blocking data gap; required before any safety pre-assessment)
-- Detailed mechanism of action data via DrugBank (currently a High-severity data gap)
-- Confirmation of New Zealand regulatory pathway and available dosage forms, given the product is currently unmarketed
-- Additional controlled trial data to strengthen evidence beyond a single Phase 3 study
+- Trial results for NCT01453686, to see how hydrocortisone 1% performed against clobetasol
+- Comparison against the higher-potency corticosteroids already used for alopecia areata
+- Detailed mechanism of action data
+- Package insert warnings and contraindications from Medsafe
+- A suitable topical or intralesional formulation and a registration pathway in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

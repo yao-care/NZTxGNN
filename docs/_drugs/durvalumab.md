@@ -2,7 +2,7 @@
 layout: default
 title: Durvalumab
 parent: Model Prediction Only (L5)
-nav_order: 129
+nav_order: 170
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,91 +29,97 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Durvalumab: From Urothelial Carcinoma to Prostatic Urethra Urothelial Carcinoma
+# Durvalumab: From Transitional Cell Carcinoma to Prostatic Urethra Urothelial Carcinoma
 
 ## One-Sentence Summary
 
-Durvalumab is a humanized anti-PD-L1 monoclonal antibody (immune checkpoint inhibitor) approved globally for urothelial carcinoma and non-small cell lung cancer, but not yet marketed in Taiwan.
-The TxGNN model predicts it may be effective for **Prostatic Urethra Urothelial Carcinoma** (rank 1 of 10 predicted indications, score: 99.98%), yet currently **no clinical trials or publications** specifically support this indication.
-Across all 10 predicted indications, the strongest existing evidence is for infiltrating bladder urothelial carcinoma sarcomatoid variant (rank 3, L3 — 2 clinical trials identified).
-
----
+Durvalumab is a PD-L1 immune checkpoint inhibitor whose original indication in the data compiled for this report is transitional cell carcinoma (urothelial cancer).
+The TxGNN model predicts it may be effective for **prostatic urethra urothelial carcinoma**, but **no clinical trials and no publications** currently support this specific indication.
+Related urothelial and variant-histology indications have some early-phase trial activity (see below), so the top-ranked prediction rests on model similarity alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No Taiwan approval; globally approved for urothelial carcinoma and NSCLC |
-| Predicted New Indication | Prostatic Urethra Urothelial Carcinoma |
+|------|------|
+| Original Indication | Transitional cell carcinoma (from the knowledge-graph indication data; no approved indication text is available from New Zealand licences) |
+| Predicted New Indication | Prostatic urethra urothelial carcinoma |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 3 (all cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, Durvalumab is an anti-PD-L1 immune checkpoint inhibitor — it blocks the interaction between PD-L1 on tumor cells and PD-1/CD80 receptors on T cells, thereby restoring the immune system's ability to recognize and attack the tumor. Its efficacy in urothelial carcinoma (bladder cancer and upper tract variants) has been demonstrated in multiple global trials (e.g., DANUBE study), and it is mechanistically applicable to any PD-L1-expressing urothelial subtype.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, durvalumab is an anti-PD-L1 antibody, and its efficacy in urothelial carcinoma is the basis of its original indication. Mechanistically, it may be applicable to histologically related tumours.
 
-Prostatic urethra urothelial carcinoma is a rare anatomical subtype of urothelial carcinoma arising in the prostatic urethral segment. Like other urothelial carcinomas, tumor cells at this site frequently express PD-L1, and the local tumor microenvironment shares immunological features with bladder urothelial carcinoma. This biological similarity forms the mechanistic basis for the TxGNN prediction: the model infers applicability from the broader urothelial carcinoma immune profile.
+Prostatic urethral urothelial carcinoma shares its histology with transitional cell carcinoma, and it is plausibly PD-L1 responsive. The high TxGNN score reflects this similarity. However, no trials or literature were supplied for this specific site, so the link remains theoretical.
 
-However, this specific subtype is exceptionally rare. No clinical trial has specifically enrolled patients with prostatic urethral urothelial carcinoma for anti-PD-L1 treatment, and no published literature directly addresses Durvalumab in this context. This prediction should be regarded as hypothesis-generating at this stage, requiring dedicated prospective evidence before any clinical translation.
-
----
+Other predictions in the list follow the same logic. Urothelial variants (sarcomatoid bladder and kidney pelvis carcinoma, renal pelvis papillary carcinoma) are close to the original indication. Cervical and uterine ligament tumours have only a general rationale for PD-L1 blockade in solid tumours.
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials specifically registered for Prostatic Urethra Urothelial Carcinoma with Durvalumab.
+There are no clinical trials for the top-ranked indication, prostatic urethra urothelial carcinoma. Currently no related clinical trials are registered for it.
 
----
+For context, trials found for other predicted indications in the same family are below.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03912818](https://clinicaltrials.gov/study/NCT03912818) | Phase 2 | Terminated | 7 | Durvalumab plus neoadjuvant chemotherapy in variant histology bladder cancer; terminated early with very low enrollment, so it is underpowered |
+| [NCT02812420](https://clinicaltrials.gov/study/NCT02812420) | Early Phase 1 | Active, not recruiting | 54 | Pre-surgical durvalumab plus tremelimumab in muscle-invasive, high-risk urothelial carcinoma ineligible for cisplatin; no results provided |
+| [NCT03452332](https://clinicaltrials.gov/study/NCT03452332) | Phase 1 | Completed | 20 | Hypofractionated radiotherapy with durvalumab and tremelimumab in recurrent or metastatic cervical, vaginal or vulvar cancer; early safety and feasibility, not specific to endocervical carcinoma |
 
 ## Literature Evidence
 
-Currently no related literature available for Prostatic Urethra Urothelial Carcinoma with Durvalumab.
+There is no literature for the top-ranked indication. For context, publications found for the endocervical carcinoma prediction (rank 6) are below.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [42518016](https://pubmed.ncbi.nlm.nih.gov/42518016/) | 2026 | Nonrandomized clinical trial | Oncology and Therapy | Phase 1 study of ceralasertib plus durvalumab in Chinese patients with advanced solid tumours refractory to prior anti-PD-(L)1 therapy; assesses safety, pharmacokinetics and antitumour activity |
+| [37467967](https://pubmed.ncbi.nlm.nih.gov/37467967/) | 2023 | Review | Biomedical Journal | Small cell neuroendocrine carcinoma of the cervix: molecular basis and therapeutic advances; the data are limited to case series and reports |
 
-## Taiwan Market Information
+## New Zealand Market Information
 
-Durvalumab has not received any marketing authorization in Taiwan (0 licenses). No product information is available from Taiwan regulatory records.
+All three licences are cancelled. No approved indication text is recorded for them.
 
----
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2578425 | Imfinzi | Inj 50 mg per ml, 2.4 ml vial | Cancelled |
+| 2578433 | Imfinzi | Inj 50 mg per ml, 10 ml vial | Cancelled |
+| 2642166 | Baxter | Inj 1 mg for ECP | Cancelled |
 
 ## Cytotoxicity
 
-Durvalumab is an antineoplastic agent (immune checkpoint inhibitor targeting PD-L1) indicated for malignant tumors.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Immunotherapy — Anti-PD-L1 immune checkpoint inhibitor (not conventional cytotoxic) |
-| Myelosuppression Risk | Low for direct myelosuppression; immune-mediated cytopenias (autoimmune hemolytic anemia, thrombocytopenia) may occur as immune-related adverse events (irAEs) |
-| Emetogenicity Classification | Low (monoclonal antibodies are not directly emetogenic) |
-| Monitoring Items | CBC with differential, liver function tests (AST/ALT/bilirubin), thyroid function (TSH, free T4), fasting blood glucose, serum creatinine; comprehensive monitoring for irAEs across all organ systems |
-| Handling Protection | Standard biohazard precautions for IV monoclonal antibody preparations; conventional cytotoxic drug handling regulations are not required |
-
----
+|------|------|
+| Cytotoxicity Classification | Immunotherapy (anti-PD-L1 monoclonal antibody), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 81 interactions were identified. The main ones are:
+  - **Major**: adalimumab
+  - **Moderate**: corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone, methylprednisolone, deflazacort), roflumilast, alefacept, alemtuzumab, anakinra, tetanus toxoid and anthrax vaccine
+  - **Minor**: zinc salts (acetate, gluconate, sulfate, chloride)
 
----
+Corticosteroid and other immunosuppressant interactions deserve attention, because they may blunt the immune-mediated effect of a checkpoint inhibitor. For other safety information, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The rank 1 predicted indication (prostatic urethra urothelial carcinoma) is supported only by TxGNN model prediction with no clinical trials or literature (L5), making it insufficiently evidenced for drug repurposing development at this time. Among the 10 predicted indications in this pack, infiltrating bladder urothelial carcinoma sarcomatoid variant (rank 3) represents a more actionable research target, with L3 evidence including a Phase 2 trial (NCT03912818) specifically designed for variant histology bladder cancer.
+The top-ranked prediction has a very high model score but only L5 evidence: no trials, no literature, and no mechanism data. The New Zealand licences are all cancelled. Related variant-histology urothelial indications (ranks 2 and 3) have some early-phase trials, but these are small, early or terminated, and they could be considered research questions.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (MOA) from DrugBank API query (DG002 remediation)
-- Taiwan package insert (仿單) or TFDA safety information for key warnings and contraindications (DG001 remediation)
-- Reprioritise to rank 3 indication (infiltrating bladder urothelial carcinoma sarcomatoid variant) as the primary research candidate, given existing Phase 2 trial evidence
-- PD-L1 expression prevalence data specific to prostatic urethra urothelial carcinoma before any dedicated trial design
-- Case series or retrospective data on anti-PD-L1 response in upper urinary tract and prostatic urethra urothelial subtypes
+- Package insert warnings and contraindications (currently the main blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Clinical or observational evidence specific to prostatic urethral urothelial carcinoma, or a decision to prioritise the better-supported rank 2 and 3 indications
+- Clarification of the New Zealand regulatory status, since all licences are cancelled
+- Route and formulation compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

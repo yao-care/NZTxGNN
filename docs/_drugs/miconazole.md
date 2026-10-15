@@ -2,7 +2,7 @@
 layout: default
 title: Miconazole
 parent: Moderate Evidence (L3-L4)
-nav_order: 225
+nav_order: 299
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,69 +29,97 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Miconazole: From Fungal Infections to Acne
+# Miconazole: From Superficial Fungal Skin Infections to Acne
 
 ## One-Sentence Summary
 
-Miconazole is an imidazole-class antifungal, with its specific approved indications not on file due to the drug currently being unmarketed in New Zealand.
-The TxGNN model predicts it may be effective for **Acne**,
-but this direction is currently supported only by **1 low-relevance clinical trial** and **4 publications**, none of which directly test miconazole in acne patients.
+Miconazole is an imidazole antifungal originally used for fungal and yeast infections of the skin, nails and vagina (for example tinea pedis, cutaneous candidiasis and vulvovaginal candidiasis).
+The TxGNN model predicts it may be useful for **acne**, but there are currently **no registered clinical trials** and only **4 publications**, which are mostly reviews, in vitro work or small studies. This is best treated as a research question rather than a validated indication.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — Miconazole is not currently marketed in New Zealand and no approved indication text is on file (general class use: antifungal/fungal infections) |
-| Predicted New Indication | Acne (disease) |
+| Original Indication | Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis, tinea unguium, pityriasis versicolor, dermatophytosis of the groin and perianal area, vulvovaginal candidiasis (from the knowledge graph; New Zealand licence indication text is not available) |
+| Predicted New Indication | Acne |
 | TxGNN Prediction Score | 99.54% |
 | Evidence Level | L4 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | ✓ Marketed |
+| Number of Authorizations | 5 (2 valid, 3 cancelled) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Miconazole is part of the imidazole antifungal class, its efficacy in fungal infections has been proven, and mechanistically may be applicable to acne.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, miconazole is an azole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase) and disrupts ergosterol synthesis. Its efficacy in superficial fungal skin infections is established, and it may be mechanistically applicable to acne through the pathways below.
 
-The repurposing rationale rests on in vitro evidence that miconazole (and related azole antifungals) inhibit *Propionibacterium acnes*, the bacterium implicated in acne pathogenesis, alongside literature describing miconazole's broader antimicrobial and possible anti-inflammatory effects on skin lesions. This provides biological plausibility for a link between an antifungal agent and an inflammatory skin condition traditionally treated with antibiotics.
+The link between the original and new indications is indirect, and three lines of reasoning support it:
+- **Anti-bacterial activity:** Azole antifungals show in vitro activity against *Cutibacterium (Propionibacterium) acnes*, the bacterium involved in acne vulgaris (PMID 20045949).
+- **Overlap with yeast-driven disease:** *Malassezia* yeasts cause Pityrosporum folliculitis, an acne-like condition that is often misdiagnosed as acne vulgaris (PMID 8593718). An antifungal would logically help here, but this is a different disease.
+- **Anti-inflammatory effects:** Miconazole has been reported to have anti-inflammatory effects on skin (PMID 18627330), which may be relevant to inflammatory acne lesions.
 
-However, this plausibility has not yet been tested directly: no identified clinical trial administers miconazole specifically for acne, and the supporting literature consists largely of in vitro, review, and tangentially related clinical studies rather than acne-specific interventional data.
+These pathways are plausible but not confirmed as the mechanism of benefit in acne vulgaris. The very high TxGNN score is a computational prediction and does not substitute for clinical evidence.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Phase 2/3 | Suspended | 80 | Compared a topical cream combining beclomethasone + gentamicin + **clotrimazole** (not miconazole) in patients with contaminated dermatosis/acne-like lesions. Relevance graded C — different azole drug, suspended trial, low direct relevance to miconazole. |
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Review | Expert Opinion on Pharmacotherapy | Reviews miconazole's multifaceted effects on skin disorders beyond simple antifungal activity |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro | Biological & Pharmaceutical Bulletin | Azole antifungal agents, including miconazole-class compounds, show in vitro inhibitory activity against *P. acnes* isolated from acne vulgaris patients |
-| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Clinical (split-face) | Skin Research and Technology | Assesses catamenial acne management; direct relevance to miconazole is unclear |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Cohort/therapeutic trial | Clinical and Experimental Dermatology | Evaluates Pityrosporum (Malassezia) folliculitis, a condition often misdiagnosed as acne vulgaris — not the same disease entity |
+| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Review | Expert Opin Pharmacother | Overview of the multifaceted effects of miconazole on skin disorders; miconazole nitrate is a long-established imidazole antifungal |
+| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Clinical study (split-face, likely small) | Skin Res Technol | Split-face assessment in mild inflammatory catamenial acne in young women |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Clinical study / therapeutic trial | Clin Exp Dermatol | 62 patients with Pityrosporum folliculitis, a condition often misdiagnosed as acne vulgaris; diagnosis and therapeutic trials (a different but acne-like condition) |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro study | Biol Pharm Bull | In vitro activity of azole antifungals against *P. acnes* isolated from patients with acne vulgaris |
+
+---
 
 ## New Zealand Market Information
 
-Currently no market authorization records available — Miconazole is not marketed in New Zealand (0 authorizations on file).
+Indication text is not available for these authorizations. All products listed are single-ingredient miconazole.
+
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 253294 | Daktarin | Tincture 2% | Valid |
+| 253278 | Daktarin | Lotion 2% | Valid |
+| 697648 | Micreme | Vaginal cream 2% with applicator | Cancelled |
+| 2405008 | Decozol | Oral gel 20 mg per g | Cancelled |
+| 2184354 | Multichem | Cream 2% | Cancelled |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the knowledge graph, not label text):** liver disease and gallbladder disease are listed as drug-disease contraindication links.
+- **Drug Interactions:** 100 interactions were found in the DDInter database. Most listed are Moderate; a few are Minor. Examples:
+  - Moderate: paclitaxel, fentanyl, alfentanil, hydrocodone, acalabrutinib, nifedipine, amlodipine, amiodarone, amitriptyline, alprazolam, alfuzosin, aliskiren, alosetron, ethinylestradiol, estradiol
+  - Minor: dolutegravir, loratadine, amphotericin B, ambrisentan
+
+Please refer to the package insert for other safety information, including warnings and label contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence is limited to in vitro antibacterial activity against *P. acnes* and indirect/review literature; the only registered clinical trial tested a different azole (clotrimazole) and was suspended, so there is no direct clinical evidence supporting miconazole for acne (Evidence Level L4, Decision Stage S0).
+The TxGNN score is high (99.54%), but the supporting evidence is limited to a review, in vitro data, a small split-face study and a study of a related but different condition. There are no registered clinical trials for acne (Evidence Level L4), and the safety review cannot be completed without the package insert. The idea is plausible and worth exploring as a research question, not yet as a development decision.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert data — warnings and contraindications (currently a Blocking data gap, DG001)
-- Confirmed mechanism of action data for miconazole (DG002)
-- A dedicated clinical trial or pilot study testing miconazole (not related azoles) directly in acne patients
-- Basic drug interaction (DDI) profile, currently unavailable
+- Medsafe package insert warnings and contraindications, which are required for safety screening
+- Detailed mechanism of action data (for example from DrugBank) to strengthen the mechanistic link
+- Controlled clinical evidence in acne vulgaris specifically, such as a randomised trial of a topical formulation
+- Confirmation of which topical formulations and indications are currently valid in New Zealand, and a route-compatibility check for acne treatment
+- Review of the interaction profile, particularly if systemic exposure is expected
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

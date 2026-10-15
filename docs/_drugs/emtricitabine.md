@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Model Prediction Only (L5)
-nav_order: 134
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 176
+evidence_level: L4
 indication_count: 3
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Emtricitabine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Emtricitabine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Emtricitabine (FTC) is a nucleoside reverse transcriptase inhibitor (NRTI) established as a cornerstone backbone agent in combination antiretroviral therapy for human HIV-1 infection.
-The TxGNN model ranks **Feline Acquired Immunodeficiency Syndrome (Feline AIDS / FIV infection)** as its top predicted new indication with a score of **99.92%**,
-currently supported by **1 direct veterinary clinical study** and **4 adjacent human HIV trials** — reflecting mechanistic plausibility rather than mature clinical evidence.
-
----
+Emtricitabine is a nucleoside reverse transcriptase inhibitor, originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, but there are **0 clinical trials** and only **1 publication** (an animal study) supporting this direction.
+This is a veterinary indication with very limited relevance to human drug repurposing.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (inferred from clinical context as combination ART backbone; no New Zealand regulatory approval on file) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV Infection) |
+|------|------|
+| Original Indication | HIV infectious disease, AIDS (the New Zealand licence record contains no approved indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 (veterinary observational study + preclinical mechanistic basis) |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question) |
-
----
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only (no currently valid authorization) |
+| Number of Authorizations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Emtricitabine is a cytidine analogue that acts as a nucleoside reverse transcriptase inhibitor (NRTI). It is incorporated into viral DNA during reverse transcription, where it acts as a chain terminator — blocking further elongation of the viral genome. In human medicine, it is universally co-formulated with tenofovir (as Truvada/Descovy) and serves as an anchor component of combination ART for HIV-1. Although formal MOA data was not retrieved in this evidence pack, its antiviral class and mechanism of action are well established in the clinical literature included below.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) with proven activity against HIV-1 reverse transcriptase, and it may be mechanistically applicable to related lentiviruses.
 
-Feline Immunodeficiency Virus (FIV) belongs to the same Lentivirus genus as HIV, sharing a highly conserved reverse transcriptase structure. Because emtricitabine targets the RT enzyme active site — rather than species-specific viral proteins — its inhibitory action is theoretically transferable across lentiviral species. This structural conservation is the mechanistic foundation of the TxGNN prediction: the model has identified that FIV's RT biology is sufficiently similar to HIV-1's to make FTC a plausible therapeutic candidate.
+Feline immunodeficiency virus (FIV) is a lentivirus whose reverse transcriptase is structurally related to that of HIV, so NRTI activity is plausible. The very high TxGNN score most likely reflects this shared antiviral target class and the similarity between FIV and HIV.
 
-Critically, a 2023 veterinary pharmacology study (*Viruses*, PMID 37112803) directly evaluated a combination ART regimen — dolutegravir (2.5 mg/kg) + tenofovir (20 mg/kg) + **emtricitabine (40 mg/kg)** — in FIV-infected domestic cats. The study reported measurable improvements in immune cell parameters (CD4+ T-cell immunophenotype), providing the first direct in vivo evidence that FTC-containing cART affects FIV disease biology. This veterinary data substantially raises the biological credibility of the TxGNN prediction, even though the study is small and observational in design.
+The only supporting publication (PMID 37112803, 2023) evaluated a combination antiretroviral regimen (dolutegravir, tenofovir and emtricitabine) in FIV-infected cats. Only part of the abstract was available, so the specific contribution of emtricitabine and the clinical outcomes cannot be confirmed. Because this is a veterinary disease, it offers little value as a human repurposing opportunity.
 
----
+The other predictions are weaker or not true repurposing:
+- **Simian immunodeficiency virus infection** (score 99.92%, L4): The literature consists of macaque studies of emtricitabine with tenofovir for pre-exposure prophylaxis (PrEP) and of resistance mutations. These support the mechanism and the preclinical basis of human PrEP, but SIV is an animal model of HIV and is essentially the same therapeutic area as the approved indication.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.92%, L5): No mechanistic link, trials or literature were identified. This should be treated as a computational artifact.
 
 ## Clinical Trial Evidence
 
-All four registered clinical trials are **indirect (Grade C)**: emtricitabine appears as a backbone drug in the comparator or background arm of human HIV-1 trials, not as the primary investigational agent for feline AIDS. No clinical trials in cats or veterinary settings were identified on ClinicalTrials.gov.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + ABC/3TC vs. Efavirenz/Emtricitabine/TDF (Atripla) in ART-naïve HIV-1 adults; emtricitabine appears in comparator arm only — not primary investigational drug |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Dose selection for dolutegravir administered with either ABC/3TC or TDF/emtricitabine backbone in ART-naïve HIV-1 subjects |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Completed | 145 | Darunavir/ritonavir + lamivudine vs. darunavir/ritonavir + TDF/emtricitabine in naïve HIV-1 patients; emtricitabine in comparator arm only |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir once daily vs. raltegravir twice daily, both with NRTI backbone (ABC/3TC or TDF/FTC), in ART-naïve HIV-1 adults |
-
-> These trials collectively confirm emtricitabine's efficacy and safety as a standard-of-care NRTI in human lentiviral infection, providing indirect mechanistic support. None directly address FIV or feline patients.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Veterinary Observational/Experimental | *Viruses* | Combination ART (dolutegravir 2.5 mg/kg + tenofovir 20 mg/kg + emtricitabine 40 mg/kg) administered to FIV-infected domestic cats; study assessed pharmacokinetics and immune outcomes — reported measurable improvement in CD4+ T-cell immunophenotype, establishing proof-of-concept for cART in feline FIV |
-
-> Only one publication directly addresses emtricitabine use in FIV-infected cats. This is the sole direct veterinary evidence base for this repurposing hypothesis.
-
----
+|------|-----|------|------|---------|
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Preclinical/Veterinary study | Viruses | Evaluated pharmacokinetics and clinical outcomes of combination antiretroviral therapy (dolutegravir, tenofovir, emtricitabine) in FIV-infected domestic cats; study type inferred from title and not verified |
 
 ## New Zealand Market Information
 
-Emtricitabine is **not currently registered or marketed in New Zealand**. No pharmaceutical authorizations are on file in the regulatory dataset. Clinicians seeking access would need to consider unapproved medicine access pathways (e.g., Section 29 of the Medicines Act 1981) or veterinary-specific regulatory routes for feline use cases.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2250063 (cancelled) | Emtriva | Cap 200 mg | Not recorded |
 
 ## Safety Considerations
 
-Formal safety data (key warnings, contraindications, drug interactions) for the New Zealand regulatory jurisdiction was not retrieved in this evidence pack. All safety fields returned as unavailable.
+- **Contraindication-related associations (from a knowledge graph, not label text)**: The knowledge graph links emtricitabine to a number of conditions, including liver failure, liver disease, kidney disease, chronic hepatitis B and C virus infection, lactic acidosis, Fanconi renotubular syndrome, hypophosphatemia, osteomalacia, rickets, fatty liver disease and non-alcoholic steatohepatitis, long QT syndrome, torsades de pointes, epilepsy, and several psychiatric disorders. These are not confirmed label contraindications and should be verified against the official product information.
+- **Drug Interactions**: 20 interactions were identified. The two **major** interactions are:
+  - Leflunomide
+  - Teriflunomide
 
-> Please refer to established international prescribing information — such as the FDA label or EMA SmPC for Emtriva® / Descovy® — for comprehensive safety guidance, including renal dose adjustments, lactic acidosis risk, and hepatitis B flare warnings upon discontinuation, before any clinical or veterinary use.
-
----
+  Most of the remaining interactions are moderate, including orlistat, naltrexone, cobicistat, methotrexate, cladribine, clofarabine, epirubicin, idelalisib, cabozantinib, brentuximab vedotin, tioguanine, trabectedin, asparaginase, pegaspargase and the interferon beta products. Eribulin is minor.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (Research Question)**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic basis for emtricitabine activity against FIV is biologically sound and supported by a directly relevant 2023 veterinary study, but a single small observational study in cats does not constitute sufficient evidence to advance beyond an exploratory research question at this time.
+The predicted indication is a veterinary disease with no clinical trials and a single animal study of a multi-drug regimen. Emtricitabine's contribution to the outcome cannot be isolated. Emtricitabine has no currently valid New Zealand authorization, and the package insert safety data are unavailable.
 
 **To proceed, the following is needed:**
-
-- **Controlled veterinary trials**: Prospective, adequately powered trials assessing emtricitabine-containing cART in FIV-infected cats, with pre-specified virological and immunological endpoints
-- **Feline pharmacokinetic studies**: Formal PK/PD characterisation in cats to establish optimal dosing (the 2023 paper used 40 mg/kg, far exceeding standard human dosing of 200 mg/day) and confirm target tissue drug exposures
-- **MOA and safety gap remediation**: Retrieve TFDA package insert and DrugBank MOA data to resolve data gaps DG001 and DG002, enabling a complete mechanistic and safety assessment
-- **Veterinary safety monitoring protocol**: Define haematological monitoring plan (CBC, renal function, liver enzymes) appropriate for long-term antiretroviral use in cats
-- **Regulatory pathway scoping**: Assess feasibility of veterinary medicine authorisation (emtricitabine is currently approved only for human use) and determine whether compassionate use or research exemption frameworks apply
+- Mechanism of action data for emtricitabine
+- Package insert warnings and contraindications from Medsafe
+- Review of the full text of PMID 37112803 to confirm the role of emtricitabine
+- A clear decision on whether a veterinary indication falls within the scope of this repurposing programme
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

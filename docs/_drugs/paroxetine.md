@@ -2,7 +2,7 @@
 layout: default
 title: Paroxetine
 parent: Model Prediction Only (L5)
-nav_order: 267
+nav_order: 351
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,60 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Paroxetine: From SSRI Antidepressant to Ohdo Syndrome and Variants
+# Paroxetine: From Depression and Anxiety Disorders to Ohdo Syndrome and Variants
 
 ## One-Sentence Summary
 
-Paroxetine (DB00715) is a widely used selective serotonin reuptake inhibitor (SSRI); the evidence pack does not include a specific original-indication text or DrugBank-sourced original MOA. The TxGNN model predicts a possible link to **Ohdo syndrome and variants**, an ultra-rare chromatin-modification genetic disorder, but this prediction is supported by **zero clinical trials** and **zero publications**, and the model's own rationale flags it as a likely false positive.
+Paroxetine is a selective serotonin reuptake inhibitor (SSRI) originally used for depression, anxiety disorders, post-traumatic stress disorder, social phobia and obsessive-compulsive disorder.
+The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
+but there are currently **no clinical trials and no publications** supporting this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack (no `original_indications` or license text available) |
+| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, unipolar and endogenous depression, major depressive disorder, post-traumatic stress disorder, social phobia, phobic disorder, obsessive-compulsive disorder (the New Zealand licence record contains no approved indication text) |
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 99.11% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid authorization) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (data gap DG002, High severity). No `original_indications` were provided in the evidence pack either, so the drug's established clinical use cannot be characterized from this data source alone.
+Currently, detailed mechanism of action data is not available. Based on known information, paroxetine is an SSRI whose efficacy in depression and anxiety-spectrum disorders is established, but a mechanistic link to Ohdo syndrome cannot be verified from the data compiled for this report.
 
-Based on the repurposing rationale supplied with this candidate, Ohdo syndrome (including the SBBYS/Say-Barber-Biesecker-Young-Simpson variant) is a monogenic developmental disorder caused by dysfunction of chromatin-modifying genes such as *KAT6A*/*KAT6B* (histone acetyltransferases). Paroxetine's known pharmacological target is the serotonin transporter (SERT), which has no established mechanistic connection to *KAT6A*/*KAT6B* chromatin regulation.
+Ohdo syndrome (including the Say-Barber-Biesecker-Young-Simpson variant, associated with KAT6B variants) is a rare genetic neurodevelopmental disorder characterised by intellectual disability, blepharophimosis and hypotonia. Its underlying pathology involves epigenetic and chromatin regulation, which is not clearly connected to serotonin reuptake inhibition.
 
-Given the combination of missing original-MOA data, an unmarketed status in New Zealand, and the absence of any supporting trials or literature, the evidence pack itself assesses this TxGNN score as most likely a **model false positive** arising from a sparsely connected region of the knowledge graph, rather than a biologically grounded signal.
+The only support is the high knowledge-graph prediction score (0.991). Any plausible benefit is speculative and would most likely be symptomatic, for example for anxiety, depression or behavioural features, rather than disease-modifying. The score should be treated as a hypothesis-generating signal, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## New Zealand Market Information
 
-Paroxetine is currently not marketed in New Zealand under this evidence pack, and no product authorizations are on file (total licenses: 0).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2626799 (cancelled) | Loxamine | Tab 20 mg | Not recorded |
+
+## Cytotoxicity
+
+Not applicable. Paroxetine is not an antineoplastic drug.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications / conditions of concern (from the knowledge graph, not label text)**: epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome (including the nephrogenic form), serotonin syndrome, drug-induced akathisia, and an obsolete pathologic fracture entry.
+- **Drug Interactions**: 100 interactions were identified; the first 20 retrieved are summarised here.
+  - **Major**: bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron, phentermine.
+  - **Moderate**: morphine, acetylsalicylic acid (aspirin), chlorpropamide, cimetidine, clarithromycin, picosulfuric acid, polyethylene glycol (3350 with electrolytes), dronabinol, eluxadoline, glimepiride, repaglinide, sodium sulfate.
+  - **Minor**: aprepitant.
+
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for the full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but evidence level is L5 (model prediction only) — no clinical trials, no literature, no established mechanistic link between SERT inhibition and the *KAT6A*/*KAT6B* pathway underlying Ohdo syndrome. The evidence pack's own rationale flags this as a probable false positive.
+The prediction is supported only by a model score (Evidence Level L5). There are no clinical trials or publications, no verifiable mechanistic link, and the only New Zealand authorization is cancelled. The knowledge-graph contraindication list is also substantial.
 
 **To proceed, the following is needed:**
-- Regulatory/package-insert warnings and contraindications (DG001, Blocking — required before any S1 safety screening)
-- Confirmed mechanism of action from DrugBank or equivalent source (DG002)
-- Any preclinical or mechanistic evidence connecting serotonergic modulation to *KAT6A*/*KAT6B*-related chromatin disorders
-- Re-evaluation once literature/clinical-trial evidence emerges, or reprioritization toward higher-confidence candidates in this drug's pipeline
+- Mechanism of action data (DrugBank) and a plausible biological rationale linking serotonin reuptake inhibition to Ohdo syndrome or KAT6B-related pathology
+- Package insert warnings and contraindications from Medsafe
+- Preclinical or case-level evidence, and a literature and trial registry search specific to Ohdo syndrome
+- Clarification of the regulatory pathway, since the only New Zealand licence is cancelled
+- Evaluation of route and formulation compatibility, and of the benefit-risk balance in a paediatric neurodevelopmental population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

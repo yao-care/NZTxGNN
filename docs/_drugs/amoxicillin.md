@@ -2,7 +2,7 @@
 layout: default
 title: Amoxicillin
 parent: Model Prediction Only (L5)
-nav_order: 28
+nav_order: 37
 evidence_level: L5
 indication_count: 8
 ---
@@ -33,51 +33,71 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Amoxicillin is a broad-spectrum aminopenicillin antibiotic, classically used to treat a wide range of bacterial infections including respiratory tract infections, urinary tract infections, and otitis media.
-The TxGNN model predicts it may be effective for **Polyclonal Hyperviscosity Syndrome**, with **no clinical trials** and **no publications** currently supporting this direction.
-At this stage, the prediction lacks both mechanistic plausibility and empirical evidence.
+Amoxicillin is a beta-lactam antibiotic originally used for bacterial infections such as urinary tract infection, otitis media, pneumonia and pharyngitis.
+The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but **no clinical trials and no publications** currently support this prediction.
+This is a model-only prediction with no mechanistic or clinical backing.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Broad-spectrum bacterial infections (no New Zealand licensing record available) |
-| Predicted New Indication | Polyclonal Hyperviscosity Syndrome |
+|------|------|
+| Original Indication | Bacterial infections (urinary tract infection, infectious otitis media, streptococcal and staphylococcal infections, bacterial pneumonia, pharyngitis, among others). No approved indication text is available from the New Zealand licence records. |
+| Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 8 (all cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacological knowledge, Amoxicillin is a broad-spectrum aminopenicillin that exerts its antibacterial effects by covalently binding to penicillin-binding proteins (PBPs), thereby blocking bacterial cell wall cross-linking and triggering bacterial lysis. This mechanism is specific to organisms that possess a peptidoglycan-based cell wall and has no known direct effect on mammalian immune cell function or immunoglobulin synthesis.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, amoxicillin is a beta-lactam antibacterial that inhibits bacterial cell wall synthesis, and its efficacy in bacterial infections is well established.
 
-Polyclonal hyperviscosity syndrome is caused by excessive production of polyclonal immunoglobulins — a feature of immune-mediated and inflammatory conditions such as autoimmune diseases, chronic infections, or reactive plasmacytosis — resulting in abnormally elevated plasma viscosity. The pathological driver is immunoglobulin overproduction, not a bacterial pathogen susceptible to beta-lactam antibiotics.
+Polyclonal hyperviscosity syndrome is a protein/immunoglobulin-driven rheological disorder. No plausible mechanistic link to an antibacterial was identified. The very high TxGNN score (99.63%) most likely reflects network proximity in the knowledge graph rather than a pharmacological rationale.
 
-There is no identified mechanistic link between Amoxicillin's PBP-inhibition pathway and the immunoglobulin dysregulation underlying this syndrome. The TxGNN prediction score of 99.63%, despite ranking only 3,669th among all candidate pairs, likely reflects topological proximity of hematological disease nodes in the knowledge graph rather than any genuine therapeutic mechanism. This prediction should be interpreted as a graph-inference artifact and does not currently carry biological plausibility.
+For completeness, the other top-ranked predictions (hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant haematological disease, monoclonal gammopathy, and haematological disease with acquired peripheral neuropathy) also lack a mechanistic link. The one biologically plausible candidate is **septicemic plague** (rank 8). It is plausible because amoxicillin has in vitro and animal activity against *Yersinia pestis*, but beta-lactams are not standard plague therapy and no human clinical trials exist.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for polyclonal hyperviscosity syndrome.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for polyclonal hyperviscosity syndrome.
+
+---
+
+## New Zealand Market Information
+
+All eight licences are cancelled; none is currently valid. Approved indication text was not available for any of them.
+
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2669617 | Miro-Amoxicillin | Cap 250 mg | Cancelled |
+| 2669625 | Miro-Amoxicillin | Cap 500 mg | Cancelled |
+| 2272628 | Ibiamox | Inj 250 mg vial | Cancelled |
+| 2503565 | Alphamox 250 | Granules for oral liquid 250 mg per 5 ml | Cancelled |
+| 2712601 | Amoxycillin Sandoz | Cap 500 mg | Cancelled |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information. The following items are drawn from the knowledge graph and drug-interaction databases.
+
+- **Knowledge-graph contraindication signals (not label text)**: liver disease and liver failure, cholestasis, kidney disease, *Clostridium difficile* colitis, myasthenia gravis, porphyria, long QT syndrome / torsades de pointes / ventricular tachycardia, osteoporosis, bone fracture, infectious mononucleosis, and gallbladder disease. These need verification against the official label.
+- **Drug interactions** (100 recorded; main examples):
+  - **Major**: methotrexate; live cholera vaccine (*Vibrio cholerae* CVD 103-HgR).
+  - **Moderate**: tetracyclines (doxycycline, minocycline, demeclocycline), oestrogens (ethinylestradiol, estradiol), coumarin-type anticoagulants (dicoumarol, anisindione), mycophenolate mofetil, entecavir, balsalazide, and probiotics (*Lactobacillus acidophilus*, *Bifidobacterium longum infantis*).
+  - **Minor**: macrolides (azithromycin, clarithromycin, erythromycin), allopurinol, amiloride.
 
 ---
 
@@ -86,12 +106,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Amoxicillin's mechanism of action — bacterial cell wall synthesis inhibition via PBP binding — has no known pathway relevant to polyclonal immunoglobulin overproduction or plasma hyperviscosity, and zero clinical or preclinical evidence exists to support this predicted indication.
+The prediction for polyclonal hyperviscosity syndrome rests on model score alone (L5), with no trials, no literature, and no plausible mechanism. In addition, amoxicillin currently has no valid New Zealand licence.
 
 **To proceed, the following is needed:**
-- Identification of any plausible off-target biological effect of Amoxicillin on immune cell signalling, B-cell proliferation, or immunoglobulin secretion through dedicated mechanistic studies
-- Preclinical in vitro or animal model data demonstrating measurable activity in immunoglobulin-driven hyperviscosity models
-- Clarification of New Zealand regulatory status and any post-market safety data if the drug is introduced
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- Any mechanistic or clinical rationale linking amoxicillin to polyclonal hyperviscosity syndrome
+- If an infection-related direction is wanted, re-evaluate septicemic plague with head-to-head comparison against standard therapy
+- Clarification of the regulatory pathway, since all New Zealand licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cyproterone Acetate
-parent: Model Prediction Only (L5)
-nav_order: 94
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 128
+evidence_level: L4
 indication_count: 10
 ---
 
 # Cyproterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,84 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cyproterone Acetate: Drug Repurposing Evaluation (Pending TxGNN Predictions)
+# Cyproterone Acetate: From Androgen-Dependent Conditions to Migraine Disorder
 
 ## One-Sentence Summary
 
-Cyproterone Acetate (DB04839) is a synthetic antiandrogen and progestogen with established clinical use internationally for conditions including prostate cancer, androgen-dependent disorders, and hormone therapy.
-However, the current Evidence Pack contains **no TxGNN-predicted new indications** for this compound, and the drug is **not registered in New Zealand**, meaning evaluation cannot proceed beyond the preliminary stage.
-A full repurposing assessment requires pipeline rerun with TxGNN predictions and retrieval of missing MOA and safety data.
+Cyproterone acetate is a steroidal antiandrogen with progestogenic activity, used in androgen-dependent conditions such as prostate cancer, acne, hirsutism and hormonal contraception. The TxGNN model predicts it may be effective for **migraine disorder**, but there are **no registered clinical trials** and only **3 publications**, none of which show a therapeutic benefit. This is a model prediction without clinical support.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available in current dataset |
-| Predicted New Indication | No TxGNN predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction not yet generated |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+|------|------|
+| Original Indication | Not stated in the New Zealand licence records. Pharmacology data lists androgen-dependent conditions (prostate cancer, acne, hirsutism) |
+| Predicted New Indication | Migraine disorder |
+| TxGNN Prediction Score | 99.66% |
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 2 (both cancelled) |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-No TxGNN repurposing predictions are present in this Evidence Pack (`predicted_indications: []`). As a result, no mechanistic bridging analysis can be performed at this stage.
+Detailed mechanism of action data is not available. Based on known pharmacology, cyproterone acetate blocks the androgen receptor and has progestogenic activity. It is used as chemical castration in androgen-dependent disease, for acne and hirsutism in women, and in some contraceptive and menopausal treatments.
 
-Currently, detailed mechanism of action data is also not available in the Evidence Pack. Based on publicly known pharmacological class, Cyproterone Acetate is a synthetic steroidal antiandrogen and progestogen. Its established clinical roles internationally include suppression of androgen-dependent conditions (such as prostate cancer and severe acne/hirsutism) and use in gender-affirming hormone therapy. These mechanisms — androgen receptor antagonism and progestogenic activity — may have relevance to conditions driven by androgen excess or hormone-dependent cell proliferation, but this hypothesis cannot be formally evaluated until TxGNN predictions are available.
+The link to migraine is indirect. Hormonal fluctuation, especially of oestrogen and progestogen, is a recognised migraine trigger, so an effect on neuro-hormonal pathways is plausible. A review of progestin effects on the brain notes that cyproterone acetate increases dopaminergic responses and binds opiate receptors independently of its classical effects.
 
-Once predictions are generated, the mechanistic bridge between Cyproterone Acetate's antiandrogen pathway and candidate new indications should be assessed using updated DrugBank MOA data (Data Gap DG002).
+However, the retrieved literature covers progestin effects on the brain, hormone supplementation in postmenopausal women, and long-term side effects of cyproterone-containing therapy. None shows that the drug treats migraine, and hormonal exposure may even worsen it. The very high TxGNN score is a prediction, not clinical evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered in the Evidence Pack.
-
-> **Note:** This reflects the absence of `predicted_indications` in the current dataset, not the global clinical trial landscape. Once a target indication is identified via TxGNN, a dedicated ClinicalTrials.gov search should be conducted.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available in the Evidence Pack.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [14670648](https://pubmed.ncbi.nlm.nih.gov/14670648/) | 2003 | Review | Maturitas | Progestins interact with GABA-A receptors, dopamine release and opioid binding. Cyproterone acetate increases dopaminergic responses and binds opiate receptors |
+| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Cohort | Headache | Compared three oral hormone replacement schemes and their effects on migraine in postmenopausal women |
+| [10857213](https://pubmed.ncbi.nlm.nih.gov/10857213/) | 2000 | Review | Zentralblatt fur Gynakologie | Long-term side effects of cyproterone-containing therapy in gynaecology, including discussion of possible mutagenic potency |
 
-> **Note:** Same as above — literature evidence is indication-specific and cannot be retrieved until TxGNN predictions define the candidate repurposing target.
+Related literature for the other migraine predictions (migraine with brainstem aura) concerns hormonal contraception and thrombosis or stroke risk. This is a safety signal, not evidence of benefit.
 
 ---
 
 ## New Zealand Market Information
 
-Cyproterone Acetate is **not currently registered** in New Zealand. No product authorizations were found in the regulatory query (0 licenses, query date 2026-03-29).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2220482 | Siterone (cancelled) | Tab 50 mg | Not recorded |
+| 2235862 | Siterone (cancelled) | Tab 100 mg | Not recorded |
 
-> This does not preclude future registration or off-label use discussion, but any repurposing pathway would require full regulatory submission from the outset.
+---
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Hormonal antiandrogen (not a conventional cytotoxic). Used in prostate cancer |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The only interaction data compiled is pharmacological: the drug's target is the androgen receptor. No drug-drug interaction details are available.
+- **Thrombosis risk**: Literature retrieved for related predictions consistently links cyproterone-containing contraceptives to venous thromboembolism, altered thrombin generation and interaction with factor V Leiden. Migraine with aura is also a recognised stroke-risk concern with combined hormonal products. This is relevant to any migraine use.
+- **Long-term effects**: Concerns about possible mutagenic potency have been discussed, although a large multicentre analysis (2,506 patients) was cited as not finding an increase.
 
-> The TFDA package insert query (query ID 4) returned one result on 2026-03-29, but the structured safety fields (key warnings, contraindications) could not be parsed into the Evidence Pack. Retrieval and parsing of the package insert PDF is listed as a Blocking data gap (DG001) and must be resolved before any safety screening can proceed.
+Please refer to the package insert for full safety information. Label warnings and contraindications could not be retrieved, and this is a blocking gap for safety screening.
 
 ---
 
@@ -100,15 +115,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack for Cyproterone Acetate (DB04839) is incomplete at two blocking points: no TxGNN predictions have been generated, and critical safety data (package insert warnings and contraindications) has not been structured into the pipeline. Evaluation cannot proceed responsibly without these inputs.
+The prediction rests on model inference only. There are no clinical trials, the literature shows no therapeutic effect on migraine, and the safety literature (thrombosis, stroke risk) points in the adverse direction. The drug also has no valid New Zealand licence.
 
 **To proceed, the following is needed:**
+- Package insert warnings and contraindications (from the Medsafe website) to complete safety screening
+- Mechanism of action data (from DrugBank)
+- Evidence of therapeutic benefit in migraine, such as controlled studies
+- A thrombosis and stroke risk assessment for migraine populations
+- Clarification of the regulatory pathway, since all current New Zealand licences are cancelled
 
-- **[Blocking — DG001]** Parse and structure the TFDA package insert PDF to extract warnings, contraindications, and dosing restrictions — required before safety screening (S1 gate)
-- **[High — DG002]** Query DrugBank API to retrieve mechanism of action (MOA) data for DB04839 — required for mechanistic bridging analysis
-- **[Pipeline]** Re-run TxGNN prediction pipeline for DB04839 to generate `predicted_indications` with scores, clinical trial links, and literature evidence
-- **[Regulatory]** Confirm whether Cyproterone Acetate has been evaluated or rejected by Medsafe (New Zealand) previously, as the absence of registration may reflect a prior regulatory decision rather than a data gap
-- **[Evidence]** Once a target indication is identified, conduct structured ClinicalTrials.gov and PubMed searches specific to that indication
+**Other predictions (for context):** Amenorrhea is the only other prediction with trial evidence (a Phase 4 study, NCT01103518, n=100, status unknown, in irregular cycles of hyperandrogenic origin). It reaches evidence level L3 and is better framed as a research question on cycle regulation in hyperandrogenism. The thrombophilia-related predictions (thrombophilia, antithrombin deficiency, heparin cofactor 2 deficiency, factor 5 excess) reflect adverse risk associations, and use in these conditions is not supported and could cause harm.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

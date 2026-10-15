@@ -2,7 +2,7 @@
 layout: default
 title: Lithium Carbonate
 parent: Model Prediction Only (L5)
-nav_order: 208
+nav_order: 274
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,14 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using no specific skill here — this is a direct report-generation task fully specified by the prompt's own template; I'll follow it directly against the given evidence pack.
-
 # Lithium Carbonate: From Bipolar Disorder to Pseudoachondroplasia
 
 ## One-Sentence Summary
 
-Lithium carbonate (DrugBank ID: DB14509) is a long-established mood stabilizer, though this evidence pack does not itself contain original-indication or MOA data.
-The TxGNN model's top prediction is **Pseudoachondroplasia**, a rare skeletal dysplasia, but this signal is currently supported by **0 clinical trials** and **0 publications** — it is a pure network-similarity prediction with no empirical backing.
+Lithium carbonate is a mood stabiliser originally used for bipolar disorder and related affective disorders. The TxGNN model predicts it may be effective for **pseudoachondroplasia**, a rare skeletal dysplasia. However, there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
 
 ---
 
@@ -44,49 +41,56 @@ The TxGNN model's top prediction is **Pseudoachondroplasia**, a rare skeletal dy
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack (`taiwan_regulatory.licenses` is empty; lithium carbonate is generally known as a mood stabilizer for bipolar disorder, but this is not sourced from the pack) |
+| Original Indication | Bipolar disorder, major affective disorder, manic bipolar affective disorder (the approved-indication text in New Zealand licences is blank; these come from the knowledge graph) |
 | Predicted New Indication | Pseudoachondroplasia |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap in this pack). Lithium carbonate is widely known pharmacologically as an inhibitor of GSK-3β and a modulator of the Wnt signaling pathway, but no original-indication or efficacy data is included in this evidence pack to anchor a direct comparison.
+Detailed mechanism of action data is not available for this drug. Based on known information, lithium is an established mood stabiliser, and its efficacy in bipolar disorder is well recognised. Its knowledge-graph indications also include several joint and musculoskeletal conditions (such as rheumatoid arthritis, osteoarthritis and juvenile idiopathic arthritis), which probably contributes to the model linking it to skeletal disorders.
 
-Pseudoachondroplasia and bipolar disorder belong to entirely different physiological domains — one is a skeletal growth-plate disorder driven by a *COMP* gene mutation, the other a neuropsychiatric mood disorder. There is no established clinical or epidemiological relationship between the two conditions.
+A speculative mechanistic link is lithium's inhibition of GSK-3β and modulation of Wnt signalling, which may affect chondrocyte function. Pseudoachondroplasia is caused by COMP gene mutations that lead to endoplasmic reticulum stress and chondrocyte death. No direct evidence connects lithium to this mechanism, so the prediction should be read as a hypothesis only.
 
-The mechanistic rationale supplied by the model is speculative: *COMP* mutations cause chondrocyte endoplasmic-reticulum stress and an unfolded-protein response, and lithium's known GSK-3β/Wnt inhibition could theoretically influence chondrocyte differentiation. However, this connection is not supported by any direct study of lithium in pseudoachondroplasia — it reflects TxGNN's knowledge-graph embedding similarity only, not experimental or clinical evidence.
+The other top-ranked predictions are also rare skeletal or developmental conditions (for example acromesomelic dysplasia Hunter-Thompson type, brachyolmia and brachydactyly-syndactyly syndrome). They share the same pattern: high model scores, no trials, and only indirect Wnt/BMP signalling arguments. The model's high scores for this cluster likely reflect network proximity rather than a demonstrated biological basis.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for pseudoachondroplasia.
 
 ---
 
 ## New Zealand Market Information
 
-No marketing authorization is currently registered for lithium carbonate in New Zealand under this evidence pack (`total_licenses: 0`, market status: Not Marketed).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 733393 | Douglas | Cap 250 mg | Not stated (licence cancelled) |
+| 260851 | Priadel | Tab long-acting 400 mg | Not stated (licence cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease contraindications (from the knowledge graph, not label text)**: kidney disease, hypothyroidism (including myxedema and congenital hypothyroidism), diabetes insipidus (including central and neurohypophyseal forms), heart conduction disease, sudden cardiac arrest, cognitive disorder, psoriasis (including parapsoriasis), and pyoureter.
+- **Drug Interactions**: 100 interactions were found in total. The first 20 retrieved include:
+  - **Major**: bupropion, lorcaserin
+  - **Moderate**: acarbose, famotidine, albiglutide, alogliptin, metformin, pioglitazone, loperamide, mesalazine, morphine, balsalazide, metronidazole, canagliflozin, chlorpropamide, potassium citrate, clarithromycin
+  - **Minor**: doxycycline, epinephrine, acetylsalicylic acid
 
-*(Note: `safety.key_warnings`, `safety.contraindications`, and DDI data are all flagged as data gaps in this pack — TFDA/Medsafe label data has not yet been retrieved, which is also listed as a Blocking data gap (DG001) preventing S1 safety review.)*
+Package insert warnings were not available. Please refer to the package insert for further safety information. Lithium has a narrow therapeutic window, so any use would need careful monitoring.
 
 ---
 
@@ -95,14 +99,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (Pseudoachondroplasia, L5/S0) has zero supporting clinical trials or literature — it is model output only, with a purely theoretical mechanistic link.
-- Worth flagging separately: among the 10 candidate indications in this pack, **WHIM syndrome** (rank 9, L4/S1, "Research Question") stands out with a more concrete mechanistic rationale — lithium's established clinical use for raising neutrophil counts (via G-CSF stimulation) parallels the neutropenia seen in WHIM syndrome — making it a more plausible research lead than the top-ranked skeletal dysplasias, even though it is not the top TxGNN score.
+The prediction is supported only by a model score (99.98%), with no clinical trials or literature for pseudoachondroplasia and only a speculative mechanistic link. Lithium also has no currently valid licence in New Zealand, and the available safety data are incomplete.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert data (warnings, contraindications) — currently Blocking (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Original indication and licensing data, currently absent from this pack
-- If pursuing WHIM syndrome as an alternative research question: a literature search specifically on lithium-induced granulopoiesis and any case reports/series in CXCR4-related neutropenia
+- Preclinical evidence that lithium or GSK-3β/Wnt modulation affects COMP-related chondrocyte ER stress or growth plate function
+- Detailed mechanism of action data
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Assessment of the regulatory pathway, given that both New Zealand licences are cancelled
+- A risk-benefit assessment for a paediatric skeletal population, including renal, thyroid and serum-level monitoring
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

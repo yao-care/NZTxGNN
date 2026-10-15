@@ -2,7 +2,7 @@
 layout: default
 title: Mesalazine
 parent: Model Prediction Only (L5)
-nav_order: 218
+nav_order: 287
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Mesalazine: From Ulcerative Colitis to Osteoarthritis
+# Mesalazine: From Ulcerative Colitis to Congenital Hypotrichosis with Juvenile Macular Dystrophy
 
 ## One-Sentence Summary
 
-> Mesalazine (5-aminosalicylic acid, 5-ASA) is an anti-inflammatory aminosalicylate historically used for ulcerative colitis and other inflammatory bowel conditions.
-> The TxGNN model's highest-ranked prediction (congenital hypotrichosis with juvenile macular dystrophy) has **zero supporting evidence** and is judged biologically implausible, so this report focuses instead on **Osteoarthritis**, the top TxGNN-ranked candidate with an actual evidentiary trail —
-> currently supported by **0 clinical trials** and **3 publications**, including one direct 2024 mechanistic study on 5-ASA itself.
+Mesalazine (5-aminosalicylic acid, 5-ASA) was originally used to treat ulcerative colitis and other inflammatory bowel conditions.
+The TxGNN model predicts it may be effective for **congenital hypotrichosis with juvenile macular dystrophy**, but **no clinical trials and no publications** currently support this prediction. It is a model output only, with no identifiable mechanistic rationale.
 
 ---
 
@@ -43,55 +42,76 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 | Item | Content |
 |------|------|
-| Original Indication | Ulcerative colitis (inferred from literature evidence in this pack; no New Zealand regulatory record exists, see below) |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 (preclinical/mechanistic) |
-| New Zealand Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
+| Original Indication | Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
+| TxGNN Prediction Score | 99.65% |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 13 (all cancelled) |
 | Recommended Decision | Hold |
-
-*Note: the TxGNN model's absolute top-ranked prediction for this drug, "congenital hypotrichosis with juvenile macular dystrophy" (score 99.65%), was excluded from this report — it has 0 clinical trials, 0 literature, and no known mechanistic link to mesalazine's anti-inflammatory action; it is most likely an artifact of the embedding space. A third candidate, rheumatoid arthritis (L3, 6 trials, 20 publications), was also considered but the trial/literature evidence there predominantly concerns **sulfasalazine** (a pro-drug that splits into sulfapyridine + mesalazine), and head-to-head studies (PMID 2860942, PMID 2877851) indicate sulfapyridine — not 5-ASA — is the moiety responsible for anti-rheumatic activity. That signal is therefore judged confounded rather than a genuine mesalazine effect.*
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for mesalazine is not available in this evidence pack (a High-severity data gap, DG002). Based on the literature evidence collected, mesalazine (5-ASA) is a topically/luminally acting anti-inflammatory agent whose efficacy in ulcerative colitis is established through suppression of intestinal prostaglandin and leukotriene synthesis (COX/lipoxygenase pathway inhibition).
+Currently, detailed mechanism of action data is not available from the compiled data. Based on known pharmacology, mesalazine is the active moiety of sulfasalazine and acts as a local anti-inflammatory agent in the gut. Its proposed actions include PPAR-gamma agonism, COX/lipoxygenase inhibition and NF-kB modulation. Its efficacy in ulcerative colitis is well established.
 
-Osteoarthritis (OA) is increasingly understood as an inflammation-driven degenerative joint disease rather than purely mechanical wear, involving cartilage-degrading cytokine and prostaglandin/leukotriene signaling similar in kind to the inflammatory cascade mesalazine suppresses in the gut. This shared inflammatory biology is the plausible basis for the TxGNN association.
+The predicted indication is a rare genetic disorder caused by CDH3 mutation, affecting hair follicle and retinal development. It has no plausible connection to mesalazine's anti-inflammatory action. The high TxGNN score appears to be a graph-based prediction artifact rather than a biologically grounded signal.
 
-Importantly, unlike the rheumatoid arthritis candidate, the strongest piece of evidence here (PMID 38310093, *Nature Communications*, 2024) studies 5-ASA directly — not sulfasalazine — and reports that it suppresses osteoarthritis progression through the OSCAR–PPARγ axis, a cartilage-protective pathway. This makes the OA signal mechanistically more direct and less confounded than the RA signal, even though it remains at the preclinical/mechanistic stage with no clinical trial data yet.
+Other predicted indications were also reviewed:
+
+- **Rheumatoid arthritis** (score 99.57%, Evidence Level L4): the only indirect link is through sulfasalazine, an established DMARD. The antirheumatic effect is largely attributed to the sulfapyridine moiety, not 5-ASA, so efficacy cannot be extrapolated to mesalazine alone.
+- **Osteoarthritis** (score 99.63%, L5): the link is plausible but weak, since low-grade inflammation is involved but mesalazine has poor systemic absorption.
+- **Seborrheic keratosis, osteoarthritis susceptibility, vulvar inverted follicular keratosis and pseudoachondroplasia**: no supporting mechanism, trials or literature.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+Currently no related literature available for the top-ranked prediction.
+
+For reference, the literature retrieved for the lower-ranked predictions is summarised below. None of it demonstrates clinical benefit of mesalazine in the predicted indications.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38310093](https://pubmed.ncbi.nlm.nih.gov/38310093/) | 2024 | Preclinical mechanistic study | Nature communications | 5-ASA suppresses osteoarthritis progression via the OSCAR–PPARγ axis, a cartilage-protective signaling pathway; identified as a candidate disease-modifying OA drug |
-| [38491514](https://pubmed.ncbi.nlm.nih.gov/38491514/) | 2024 | Bioinformatics/target identification | Journal of translational medicine | Integrative analysis of OA transcriptional datasets and drug-target interaction data to identify novel therapeutic targets/candidates |
-| [1673814](https://pubmed.ncbi.nlm.nih.gov/1673814/) | 1991 | In vitro pharmacology | Wiener klinische Wochenschrift | Sulfasalazine and its metabolite 5-ASA modulate prostaglandin/leukotriene release from human synovial tissue in osteoarthritis, chondrocalcinosis, and rheumatoid arthritis samples |
+| [38491514](https://pubmed.ncbi.nlm.nih.gov/38491514/) | 2024 | Computational analysis | J Transl Med | Transcriptomic target identification in osteoarthritis; hypothesis-generating only (osteoarthritis) |
+| [7588084](https://pubmed.ncbi.nlm.nih.gov/7588084/) | 1995 | Review | Drugs | Sulfasalazine as a DMARD in rheumatoid arthritis; unclear whether the sulfapyridine or the mesalazine moiety is active (rheumatoid arthritis) |
+| [7904547](https://pubmed.ncbi.nlm.nih.gov/7904547/) | 1993 | Review | Clin Pharmacokinet | Pharmacokinetics of slow-acting antirheumatic drugs, including sulfasalazine (rheumatoid arthritis) |
+| [7781502](https://pubmed.ncbi.nlm.nih.gov/7781502/) | 1995 | Review | Dtsch Med Wochenschr | General review of mesalazine (rheumatoid arthritis) |
+| [12235076](https://pubmed.ncbi.nlm.nih.gov/12235076/) | 2002 | Pharmacovigilance | Gut | Serious adverse reactions to sulphasalazine and mesalazine reported to the Committee on Safety of Medicines (rheumatoid arthritis) |
+| [41443863](https://pubmed.ncbi.nlm.nih.gov/41443863/) | 2026 | Case report | Intern Med | 5-ASA-induced colitis in a rheumatoid arthritis patient without IBD (rheumatoid arthritis) |
+| [31830393](https://pubmed.ncbi.nlm.nih.gov/31830393/) | 2019 | Case report | G Ital Nefrol | DRESS syndrome with acute renal failure after sulfasalazine and mesalazine in a rheumatoid arthritis patient |
+| [36855206](https://pubmed.ncbi.nlm.nih.gov/36855206/) | 2023 | Case report | J Med Case Rep | Tofacitinib in IBD-associated arthritis; not about mesalazine (rheumatoid arthritis) |
 
 ---
 
 ## New Zealand Market Information
 
-Mesalazine currently holds **no product authorizations** in New Zealand (market status: Not marketed / Not Marketed, 0 licenses on record). No dosage form or approved-indication data is available for this market.
+All 13 licences are cancelled. No approved indication text is available. Five representative entries:
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2470616 | Asacol | Tab 800 mg | Cancelled; indication text not available |
+| 2111985 | Pentasa | Suppos 1 g | Cancelled; indication text not available |
+| 2601354 | Pentasa | Modified release granules, 1 g | Cancelled; indication text not available |
+| 2714523 | Octasa | Tab 400 mg | Cancelled; indication text not available |
+| 715867 | Pentasa | Enema 1 g per 100 ml | Cancelled; indication text not available |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified. Major-level interactions include **cidofovir** and **human botulinum neurotoxin A/B immune globulin**. Moderate-level interactions include NSAIDs (ketorolac, ibuprofen, celecoxib, bromfenac), nephrotoxic agents (acyclovir, amphotericin B and its formulations, amikacin, bacitracin, capreomycin, cisplatin), azathioprine, and sulfonylureas (acetohexamide, chlorpropamide).
+- **Disease-level contraindication signals (from the knowledge graph, not label text)**: kidney disease, interstitial nephritis, lipoid nephrosis, pyoureter, liver disease, gallbladder disease, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), and pyloric stenosis.
+- **Reported adverse reactions in the retrieved literature**: DRESS syndrome with acute renal failure and 5-ASA-induced colitis.
 
-*(Note: TFDA package insert warnings/contraindications are flagged as a Blocking data gap (DG001) in this evidence pack — this must be resolved before any S1 safety review can proceed.)*
+Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for full safety information.
 
 ---
 
@@ -100,13 +120,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The osteoarthritis signal rests on one strong but purely preclinical mechanistic study (5-ASA-specific, OSCAR–PPARγ axis) with no clinical trial validation, and mesalazine is not currently marketed in New Zealand. Combined with a Blocking gap in TFDA safety/labeling data, the evidence is not yet sufficient to advance past a research hypothesis.
+The predicted indication has no clinical trials, no literature and no plausible mechanistic link to mesalazine, so the score of 99.65% appears to be a model artifact. No other predicted indication has clinical evidence either (rheumatoid arthritis reaches only L4 and is confounded by sulfasalazine). Mesalazine also has no currently valid New Zealand licence.
 
 **To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications (Blocking gap, DG001)
-- Mechanism of action data from DrugBank (DG002)
-- A clinical trial (Phase 2 or later) specifically evaluating mesalazine in osteoarthritis
-- Confirmation of original approved indication(s) and NZ regulatory pathway, given the drug is currently unmarketed there
+- Detailed mechanism of action data for mesalazine, plus any biological evidence connecting CDH3-related pathways to its pharmacology
+- Preclinical or mechanistic studies for the predicted indication
+- Medsafe package insert warnings and contraindications
+- Clarification of the regulatory status given all licences are cancelled
+- If a repurposing direction is pursued, consideration of better-supported candidates, such as rheumatoid arthritis, which would first require evidence specific to mesalazine rather than sulfasalazine
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

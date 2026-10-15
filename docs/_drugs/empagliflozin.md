@@ -2,7 +2,7 @@
 layout: default
 title: Empagliflozin
 parent: Model Prediction Only (L5)
-nav_order: 133
+nav_order: 175
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,78 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Empagliflozin: From Type 2 Diabetes to Classic Stiff Person Syndrome
+# Empagliflozin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
 
 ## One-Sentence Summary
 
-Empagliflozin is a selective SGLT2 (sodium-glucose cotransporter 2) inhibitor, globally established for the treatment of type 2 diabetes and heart failure with reduced ejection fraction.
-The TxGNN model predicts it may be effective for **Classic Stiff Person Syndrome**,
-however **no clinical trials** and **no publications** currently support this specific repurposing direction.
-
----
+Empagliflozin is an SGLT2 inhibitor originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **classic stiff person syndrome**, but this is a model-only prediction, with **0 clinical trials** and **0 publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Type 2 diabetes / heart failure (global approval; no New Zealand authorisation on record) |
-| Predicted New Indication | Classic Stiff Person Syndrome |
+|------|------|
+| Original Indication | Type 2 diabetes mellitus (from the knowledge graph; no approved indication text available in the New Zealand licence records) |
+| Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 99.06% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not marketed |
-| Number of Authorisations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Empagliflozin is a selective inhibitor of the sodium-glucose cotransporter 2 (SGLT2) expressed in the renal proximal tubule. By blocking glucose reabsorption it lowers blood glucose independently of insulin, and exerts pleiotropic downstream effects including reduced cardiac preload/afterload, mitochondrial protection, and suppression of NF-κB–driven systemic inflammation. Formal MOA data was not captured in the current Evidence Pack; the characterisation above is drawn from published pharmacology literature.
+Detailed mechanism of action data is not available in the data compiled for this report. Empagliflozin is known as an SGLT2 inhibitor that lowers renal glucose reabsorption, and its efficacy in type 2 diabetes is established. However, this general pharmacology has not been linked to the predicted indication by any supplied data.
 
-Classic Stiff Person Syndrome (SPS) is a rare autoimmune neurological disorder primarily mediated by antibodies against glutamic acid decarboxylase 65 (GAD65), resulting in progressive muscle rigidity and episodic spasms driven by impaired GABAergic inhibition. The theoretical bridge to empagliflozin relies on three indirect hypotheses: (1) SGLT2 inhibition may dampen NF-κB–mediated neuroinflammation, thereby reducing the autoimmune attack on GABAergic interneurons; (2) improved mitochondrial efficiency and reduced reactive oxygen species could confer neuroprotection; (3) scattered preclinical studies suggest SGLT2 inhibitors modulate autoimmune-related inflammatory markers. All three remain highly speculative.
+Stiff person syndrome is an autoimmune neurological disorder, typically associated with anti-GAD65 antibodies and impaired GABAergic signalling. A loose connection may exist through the overlap between GAD65 autoimmunity and autoimmune diabetes, but this is speculative and does not support a therapeutic effect of empagliflozin.
 
-There is no GAD65-antibody animal model data, no reported use of empagliflozin in SPS patients, and no case series or clinical trials. The mechanistic distance between a renal glucose transporter and a GABAergic autoimmune disease is substantial. The high TxGNN score (99.06%) most likely reflects shared graph topology in the knowledge graph — particularly nodes related to inflammation and metabolic signalling — rather than a direct pharmacological relationship.
-
----
+The high score (0.991) is a graph-based prediction only. Notably, focal stiff limb syndrome (rank 2) received an identical score, suggesting the model treats these closely related conditions as near-duplicates rather than providing independent evidence. The third prediction, opsismodysplasia (score 0.990), also has no supporting mechanistic link: it is a rare skeletal dysplasia caused by INPPL1 (SHIP2) mutations, and SGLT2 inhibition does not act on that pathway. Bone-safety concerns reported for SGLT2 inhibitors would also need careful evaluation in a paediatric skeletal disorder.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## New Zealand Market Information
 
-Empagliflozin holds no registered product authorisations in New Zealand as of the data cutoff date (2026-06-07). The drug is not marketed domestically under any dosage form or brand name.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2599708 | Jardiance | Tab 25 mg | Not available (licence cancelled) |
+| 2599694 | Jardiance | Tab 10 mg | Not available (licence cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 potential interactions were identified in the interaction screening. Most of those listed are Moderate, with a few Minor. Examples include:
+  - Moderate: phenylephrine, acebutolol, acetazolamide, formoterol, pseudoephedrine, nifedipine, epinephrine, ethinylestradiol, hydrocortisone, salbutamol, ethanol, fosinopril, fosphenytoin, furosemide, gemifloxacin
+  - Minor: topical hydrocortisone, topical alclometasone
 
----
+Please refer to the package insert for warnings and contraindications, as this information was not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although TxGNN assigns a very high prediction score (99.06%), the evidence base is L5 — model prediction only — with zero supporting clinical trials, literature, case reports, or preclinical SPS-model studies. No New Zealand regulatory footprint exists for empagliflozin, and the mechanistic link to Classic Stiff Person Syndrome remains entirely theoretical.
+The prediction rests solely on a computational score, with no clinical trials, no literature, and no supported mechanistic link to stiff person syndrome. The drug also has no currently valid New Zealand licence.
 
 **To proceed, the following is needed:**
-- Preclinical validation in a GAD65-antibody SPS animal model to test whether SGLT2 inhibition alters disease course
-- Systematic review of pharmacovigilance databases for SPS onset or resolution in diabetic patients on empagliflozin
-- Mechanistic studies confirming CNS penetration or indirect neuroimmune modulation by SGLT2 inhibitors
-- Formal MOA documentation addressing neuroinflammatory pathways
-- Safety and drug-interaction profiling for the neurological patient population (who may not have the metabolic comorbidities that define the established safety profile)
-- New Zealand regulatory pathway assessment (Medsafe) before any clinical development is initiated locally
+- Mechanism of action data, and a plausible biological rationale linking SGLT2 inhibition to GABAergic or autoimmune pathways in stiff person syndrome
+- Preclinical or observational evidence supporting the prediction
+- Package insert warnings and contraindications from Medsafe
+- Clarification of the regulatory status of empagliflozin in New Zealand, given that both Jardiance licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

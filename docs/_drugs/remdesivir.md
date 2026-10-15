@@ -2,7 +2,7 @@
 layout: default
 title: Remdesivir
 parent: Model Prediction Only (L5)
-nav_order: 301
+nav_order: 400
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,74 +29,95 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Remdesivir: From COVID-19 to Multiple Endocrine Neoplasia
+# Remdesivir: From Antiviral Use (No Indication Text Recorded) to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-Remdesivir is a nucleotide analogue prodrug developed as a broad-spectrum RNA-dependent RNA polymerase (RdRp) inhibitor, originally studied and approved for COVID-19 (and earlier investigated for Ebola virus disease). The TxGNN model predicts potential efficacy for **Multiple Endocrine Neoplasia (MEN)**, but this prediction is currently supported by **zero clinical trials** and **zero publications** — it is a model-score-only signal that the evidence pack itself flags as mechanistically implausible.
-
----
+Remdesivir is a nucleotide analog antiviral. The New Zealand licence record compiled for this report does not state an approved indication.
+The TxGNN model's top prediction is **multiple endocrine neoplasia**, but there are **0 clinical trials** and **0 publications** supporting it, so this is a model-only prediction.
+The second-ranked prediction, **HIV infectious disease**, has **1 clinical trial** and **20 publications** in the compiled data, but these relate almost entirely to COVID-19 rather than HIV.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | COVID-19 (not confirmed via New Zealand regulatory data — no licenses on file; historically also investigated for Ebola virus disease) |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
+| Original Indication | Not recorded (the licence entry has no indication text) |
+| Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed, verified mechanism-of-action data from DrugBank is not currently available (flagged as a High-severity data gap, DG002). Based on information captured in this evidence pack, remdesivir is a nucleotide analogue prodrug that inhibits the RNA-dependent RNA polymerase (RdRp) of RNA viruses such as SARS-CoV-2 and Ebola virus — an antiviral mechanism with no known biological pathway overlapping endocrine tumour syndromes.
+Detailed mechanism of action data is not available in the compiled data. From general pharmacology, remdesivir is a nucleotide analog prodrug that inhibits viral RNA-dependent RNA polymerase, giving it activity against several RNA viruses such as SARS-CoV-2 and Ebola.
 
-Multiple Endocrine Neoplasia (MEN) is driven by germline mutations in genes such as *RET* or *MEN1*, causing hormone-secreting tumours across multiple endocrine glands. This is a genetically driven oncogenic/endocrine process, not a viral infection, and it does not depend on RdRp activity or any other target known to be modulated by remdesivir.
+Multiple endocrine neoplasia is a hereditary tumour syndrome (for example, driven by MEN1 or RET mutations) and is not caused by viral replication. No credible mechanistic link to an antiviral polymerase inhibitor could be identified. The high score (0.995, rank 4483) appears to be a knowledge-graph artefact rather than a meaningful signal.
 
-The evidence pack's own mechanistic assessment concludes that this prediction lacks mechanistic plausibility and that the high TxGNN score most likely reflects a spurious correlation at the embedding level rather than a genuine pharmacological relationship. No clinical trials, no preclinical studies, and no literature currently exist connecting remdesivir to MEN — this is a pure model-prediction signal (L5) with no corroborating evidence.
-
----
+For context, the other predictions show the same pattern:
+- **HIV infectious disease (score 99.32%)**: only an indirect link through the nucleotide-analog class. HIV relies on reverse transcriptase and integrase, not on RNA-dependent RNA polymerase.
+- **Simian immunodeficiency virus infection and feline AIDS (99.07% each)**: lentiviral, animal-model or veterinary indications. The identical scores suggest shared graph neighbours rather than independent evidence.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.03%)** and **homozygous familial hypercholesterolemia (99.03%)**: genetic disorders with no plausible antiviral-sensitive pathway.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials are registered for the top-ranked prediction, multiple endocrine neoplasia.
 
----
+For the second-ranked prediction (HIV infectious disease), one trial was retrieved:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04385719](https://clinicaltrials.gov/study/NCT04385719) | Phase 2 | Completed | 24 | Pharmacokinetic study in healthy Ugandan volunteers, testing how tenofovir/lamivudine or atazanavir/ritonavir affect remdesivir blood levels. It provides no HIV efficacy evidence (relevance grade C). |
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top-ranked prediction, multiple endocrine neoplasia.
 
----
+For the second-ranked prediction (HIV infectious disease), the retrieved publications are almost entirely about COVID-19 and are not direct evidence in HIV. The most relevant ones are:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33264556](https://pubmed.ncbi.nlm.nih.gov/33264556/) | 2021 | RCT | N Engl J Med | WHO Solidarity trial of repurposed antivirals (including remdesivir) in hospitalised COVID-19 patients |
+| [38675889](https://pubmed.ncbi.nlm.nih.gov/38675889/) | 2024 | RCT | Viruses | No remdesivir resistance observed in the Phase 3 SIMPLE trials in severe and moderate COVID-19 |
+| [35817072](https://pubmed.ncbi.nlm.nih.gov/35817072/) | 2022 | RCT | Lancet Respir Med | Tixagevimab-cilgavimab versus placebo in hospitalised COVID-19 patients also receiving remdesivir |
+| [41136410](https://pubmed.ncbi.nlm.nih.gov/41136410/) | 2025 | Review | Nat Rev Dis Primers | Overview of acute SARS-CoV-2 infection |
+| [34696838](https://pubmed.ncbi.nlm.nih.gov/34696838/) | 2021 | Review | The Enzymes | Mechanisms of viral RNA replication inhibition by nucleotide analogs, comparing SARS-CoV-2 RdRp with HIV reverse transcriptase |
+| [34859557](https://pubmed.ncbi.nlm.nih.gov/34859557/) | 2022 | Observational | HIV Med | High frequency of potential drug interactions in HIV-positive patients receiving COVID-19 treatment |
+| [36097825](https://pubmed.ncbi.nlm.nih.gov/36097825/) | 2023 | Cohort | Clin Infect Dis | Subgenomic RNA monitoring of remdesivir response in hospitalised COVID-19 patients |
 
 ## New Zealand Market Information
 
-Remdesivir is not currently marketed in New Zealand (0 authorizations on file), so no product/dosage-form/indication table can be produced.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2640139 | Veklury | Inj 100 mg vial | Not recorded (licence status: cancelled) |
 
----
+## Cytotoxicity
+
+Remdesivir is an antiviral rather than an antineoplastic drug, so no cytotoxicity assessment applies.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (No structured warnings, contraindications, or drug-interaction data are currently available in this evidence pack — DG001, TFDA package insert retrieval, is flagged as a Blocking gap preventing formal S1 safety review.)
+Drug interactions: 100 interactions were identified in the interaction database. The 20 reviewed are all of Moderate severity, including:
+- Antibiotics: doxycycline, minocycline, tetracycline, clarithromycin, levofloxacin, vancomycin, kanamycin, neomycin
+- Antifungals: amphotericin B and its lipid complex
+- Antidiabetics: acarbose, pioglitazone
+- Others: bupropion, naltrexone, mesalazine, balsalazide, olsalazine, chenodeoxycholic acid, oxandrolone, oxymetholone
 
----
+Please refer to the package insert for warnings and contraindications, as this information was not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The MEN prediction has no supporting clinical trials or literature and the proposed mechanistic link is explicitly assessed as biologically implausible — the high TxGNN score alone is insufficient to justify any further review stage.
+The top prediction, multiple endocrine neoplasia, rests solely on a knowledge-graph score with no clinical trials, no literature, and no plausible mechanism. The only prediction with any retrieved evidence (HIV) is supported by material that concerns COVID-19, not HIV. Remdesivir's only New Zealand licence is cancelled, and label safety information could not be obtained.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse the TFDA/official package insert for warnings, contraindications, and DDI data before any safety evaluation can begin
-- Resolve DG002 (High): confirm verified MOA data via DrugBank API rather than the narrative summary in this evidence pack
-- Any preclinical or mechanistic rationale specifically linking RdRp inhibition to MEN pathophysiology, if it is to be pursued further
-- Note for portfolio triage: the rank-2 candidate ("HIV infectious disease") in this same evidence pack shows a disease-label mismatch — all 23 linked trials and effectively all 20 linked publications are actually COVID-19/Ebola studies, not HIV studies. This suggests the underlying evidence-matching pipeline may need review before other remdesivir candidates in this pack are trusted at face value.
+- Medsafe package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical evidence specific to the predicted indication
+- Clarification of the cancelled licence status and the current availability of remdesivir in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

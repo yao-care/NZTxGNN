@@ -2,7 +2,7 @@
 layout: default
 title: Venetoclax
 parent: Model Prediction Only (L5)
-nav_order: 361
+nav_order: 477
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Venetoclax: From Chronic Lymphocytic Leukemia to CLL/SLL with IGHV Somatic Hypermutation
+# Venetoclax: From Acute Lymphoblastic Leukaemia and Richter Syndrome to CLL/SLL with Somatic Hypermutation of the IGHV Gene
 
 ## One-Sentence Summary
 
-Venetoclax is a selective BCL-2 inhibitor originally developed and approved for chronic lymphocytic leukemia (CLL)/small lymphocytic lymphoma (SLL), and later extended to acute myeloid leukemia. The TxGNN model's top prediction for this drug is **chronic lymphocytic leukemia/small lymphocytic lymphoma with IGHV somatic hypermutation** — but this is a molecularly-defined subtype of venetoclax's own existing indication rather than a distinct new disease, and it currently has **zero clinical trials** and **zero publications** supporting it directly in this evidence pack.
+Venetoclax is an oral BCL-2 inhibitor. The compiled data list acute lymphoblastic leukaemia and Richter syndrome as its original indications.
+The TxGNN model predicts it may be effective for **chronic lymphocytic leukaemia/small lymphocytic lymphoma (CLL/SLL) with immunoglobulin heavy chain variable-region (IGHV) gene somatic hypermutation**.
+There are currently **0 clinical trials** and **0 publications** specific to this subtype, so the prediction rests on the model score and mechanistic plausibility alone.
 
 ---
 
@@ -41,23 +43,23 @@ Venetoclax is a selective BCL-2 inhibitor originally developed and approved for 
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic Lymphocytic Leukemia (CLL) / Small Lymphocytic Lymphoma (SLL) — internationally established indication; not confirmed in New Zealand regulatory data (data gap, see below) |
-| Predicted New Indication | Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene (IGHV) somatic hypermutation |
+| Original Indication | Acute lymphoblastic/lymphocytic leukaemia; Richter syndrome (from the knowledge graph, because the New Zealand licence records contain no indication text) |
+| Predicted New Indication | CLL/SLL with immunoglobulin heavy chain variable-region gene somatic hypermutation |
 | TxGNN Prediction Score | 99.55% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| New Zealand Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 |
+| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
+| Number of Authorizations | 4 (all cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data is not available in this evidence pack (flagged as data gap **DG002**, High severity). Based on established public pharmacological knowledge, venetoclax is a selective, orally bioavailable small-molecule inhibitor of the anti-apoptotic protein BCL-2, which restores apoptosis in cancer cells that depend on BCL-2 overexpression to evade cell death.
+Detailed mechanism of action data is not available in the compiled data. Based on known information, venetoclax is a selective BCL-2 inhibitor. BCL-2 is a protein that helps cancer cells evade programmed cell death. Venetoclax is an established therapy in chronic lymphocytic leukaemia generally and in several other BCL-2-dependent blood cancers.
 
-The predicted "new" indication here — CLL/SLL with IGHV somatic hypermutation — is not a separate disease from venetoclax's already-established indication. IGHV mutation status is a well-known **prognostic biomarker within CLL/SLL** (mutated IGHV, or M-CLL, generally reflects a post-germinal-center origin and more indolent course), not a distinct oncologic entity. Venetoclax already has robust, mature clinical evidence in CLL/SLL broadly — for example, the Phase 3 MURANO trial (PMID 40009494) supporting venetoclax-rituximab in relapsed/refractory CLL appears elsewhere in this evidence pack, under the closely related rank-2 candidate ("pregerminal center CLL/SLL").
+CLL/SLL cells depend heavily on BCL-2 for survival, which gives the predicted indication a sound mechanistic basis. The original indications, acute lymphoblastic leukaemia and Richter syndrome (a transformation of CLL), are also lymphoid malignancies.
 
-Because venetoclax's BCL-2-dependent mechanism is not thought to differ meaningfully by IGHV mutation status, the very high TxGNN score for this specific molecular subtype is mechanistically plausible but adds little beyond what is already known for the parent CLL/SLL indication. No clinical trials or publications specific to this IGHV-hypermutated subtype were retrieved, so this prediction is best interpreted as a knowledge-graph-level refinement of an already-approved indication rather than a genuine drug-repurposing opportunity. Analysts should note that several *other* candidates in this evidence pack (e.g., follicular lymphoma, chronic myelogenous leukemia) carry substantially stronger and more actionable evidence — see Conclusion.
+The prediction is for a specific molecular subtype, CLL/SLL with mutated IGHV. Nothing in the compiled data addresses this subtype directly. Any benefit is inferred from CLL in general, and the high model score is a prediction, not clinical proof.
 
 ---
 
@@ -75,27 +77,45 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Venetoclax is not currently marketed in New Zealand (0 authorizations on file). No product license records are available in this evidence pack.
+All four licences for the single-ingredient product Venclexta are cancelled. No approved indication text is recorded for any of them.
+
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|------|
+| 2555654 | Venclexta | Tab 50 mg | Cancelled |
+| 2555638 | Venclexta | Tab 14 x 10 mg, 7 x 50 mg, 21 x 100 mg | Cancelled |
+| 2555662 | Venclexta | Tab 100 mg | Cancelled |
+| 2635054 | Venclexta | Tab 10 mg | Cancelled |
 
 ---
 
 ## Cytotoxicity
 
-Venetoclax is classified as antineoplastic (approved for hematologic malignancies including CLL/SLL and AML), so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (selective BCL-2 inhibitor) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | High — no drug-specific toxicity data is available in this evidence pack; based on the drug's established class profile, significant neutropenia and thrombocytopenia are recognized risks requiring active monitoring |
-| Emetogenicity Classification | Low — based on established class profile; not independently confirmed in this evidence pack |
-| Monitoring Items | Complete blood count (CBC) with differential; renal function and electrolytes (potassium, phosphate, calcium, uric acid), particularly during initial dose ramp-up due to the known class-wide risk of Tumor Lysis Syndrome (TLS) |
-| Handling Protection | Please refer to the package insert warnings and precautions — New Zealand/TFDA-specific package insert data is currently unavailable (blocking data gap, see DG001) |
+| Cytotoxicity Classification | Targeted therapy (BCL-2 inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions are recorded. The 20 shown in the compiled data include these **Major**-level ones:
+  - Aprepitant
+  - Dexamethasone
+  - Clarithromycin
+  - Eliglustat
+  - Rolapitant
+  - Fidaxomicin
+  - Cobicistat
+  - Deferiprone
+  - Samarium (153Sm) lexidronam
+
+  Several other interactions are rated Moderate (e.g., alvimopan, loperamide, cimetidine, miconazole, rifaximin, clotrimazole, deferasirox) or Minor (naloxegol). Many of these involve CYP3A or transporter pathways, so dose review is needed when co-prescribing.
+
+For warnings and contraindications, please refer to the package insert.
 
 ---
 
@@ -104,12 +124,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication carries no clinical trial or literature evidence (Evidence Level L5) and, on closer inspection, represents a molecularly-refined subtype of venetoclax's already-approved CLL/SLL indication rather than a genuinely novel repurposing candidate. Combined with a blocking-severity data gap in regulatory safety information (DG001 — TFDA/Medsafe package insert warnings and contraindications), this candidate cannot proceed past initial safety screening (S1) at this time.
+The prediction score is high and BCL-2 dependence in CLL/SLL makes it plausible. However, the compiled data contain no trials or publications for the IGHV-mutated subtype, so the evidence is model prediction only (L5). All New Zealand licences are also cancelled, and package insert safety information is missing.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert (warnings, contraindications) to resolve blocking data gap DG001
-- Formal mechanism-of-action documentation (DrugBank or equivalent) to resolve data gap DG002
-- If pursuing venetoclax repurposing further, redirect evaluation toward candidates in this evidence pack with substantially stronger support — notably **follicular lymphoma** (rank 7; Evidence Level L2, "Proceed with Guardrails," including a 2025 Phase 2 trial and the CONTRALTO study) and **chronic myelogenous leukemia, BCR-ABL1 positive** (rank 5; Evidence Level L2, "Research Question," with multiple Phase 2 combination trials) — rather than this IGHV-subtype candidate
+- Subtype-specific clinical evidence, for example a review of venetoclax trial data in CLL stratified by IGHV mutation status
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from Medsafe
+- Clarification of current New Zealand regulatory and supply status
+- A drug-interaction management plan, especially for CYP3A-related Major interactions
+
+**Other predicted indications:** The same data show stronger support for other indications. Myeloid leukaemia (AML) is rated L1 with a "Proceed with Guardrails" recommendation. Chronic myelogenous leukaemia (BCR-ABL1 positive) and follicular lymphoma are both L2. If the goal is to prioritise repurposing candidates, these deserve review ahead of the IGHV-mutated CLL/SLL subtype.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tranexamic Acid
-parent: Moderate Evidence (L3-L4)
-nav_order: 347
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 460
+evidence_level: L5
 indication_count: 1
 ---
 
 # Tranexamic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,59 +29,99 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Tranexamic Acid: From Antifibrinolytic Bleeding Control to Amenorrhea
+# Tranexamic Acid: From Endometriosis to Amenorrhea
 
 ## One-Sentence Summary
 
-Tranexamic acid (DB00302) is a well-known antifibrinolytic agent whose established pharmacology is used to *reduce* bleeding (e.g., heavy menstrual bleeding, surgical hemorrhage) — no structured original-indication record was returned in this evidence pack. The TxGNN model predicts a **99.19% score** association with **amenorrhea**, but this prediction is supported by **0 clinical trials** and only **2 review-level publications**, neither of which actually discusses amenorrhea — both are about controlling uterine bleeding. This mismatch strongly suggests a knowledge-graph labeling artifact rather than a genuine repurposing signal.
+Tranexamic acid is an antifibrinolytic drug. The knowledge graph lists endometriosis as its original indication, although the New Zealand licence records contain no approved indication text.
+The TxGNN model predicts it may be useful for **amenorrhea (disease)**, but there are currently **0 clinical trials** and **2 publications** (both reviews), so the evidence is **model prediction with indirect literature support only**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no New Zealand license record; known pharmacologically as an antifibrinolytic used to control bleeding (e.g., heavy menstrual bleeding, surgical hemorrhage) |
+| Original Indication | Endometriosis / endometriosis of uterus (from the knowledge graph; no approved indication text in the New Zealand licence records) |
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 99.19% |
-| Evidence Level | L4 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L4 (no trials; only indirect review literature and a mechanistic rationale) |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 2 (both cancelled; 0 currently valid) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available as a structured field. Based on known pharmacology, tranexamic acid is a competitive, reversible inhibitor that binds the lysine-binding site of plasminogen, blocking its conversion to plasmin. This antifibrinolytic action **reduces** clot breakdown and is clinically used to **decrease** bleeding — most notably in heavy menstrual bleeding (menorrhagia) and abnormal uterine bleeding (AUB).
+Detailed mechanism of action data is not currently available in the data compiled for this report. Based on established pharmacology, tranexamic acid is a lysine analogue that blocks plasminogen binding to fibrin. This reduces fibrinolysis and bleeding, including menstrual blood loss.
 
-This is directionally opposite to the predicted indication, amenorrhea (the absence of menstruation). A drug that reduces menstrual blood loss is not mechanistically positioned to induce or treat an *absence* of menses; if anything, the pharmacological logic points toward menorrhagia/AUB, not amenorrhea.
+The link to "amenorrhea" is **indirect**. Tranexamic acid does not act on the hormonal or endometrial pathways that would cause true amenorrhea, so any benefit would be a reduction in bleeding volume rather than correction of an underlying cause. The label "amenorrhea" is also ambiguous. It can mean the condition itself, or a desired therapeutic state of menses suppression, for example prophylaxis in premenopausal haematology patients at risk of heavy bleeding. The second reading is the more plausible one for this drug.
 
-Consistent with this, both supporting publications are about controlling uterine bleeding — not amenorrhea: one reviews pharmacological therapy for abnormal uterine bleeding, and the other reviews menstrual suppression/prophylaxis in hematologic cancer patients (i.e., using agents like tranexamic acid to manage bleeding risk during cytopenia, not to induce amenorrhea per se). This strongly suggests the TxGNN prediction reflects an **ontology/label confusion** between adjacent menstrual-disorder nodes (amenorrhea vs. menorrhagia/AUB) in the knowledge graph, rather than a genuine, literature-grounded repurposing hypothesis.
+The high TxGNN score (0.99) is a model prediction only and should not be treated as clinical evidence.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause (New York, N.Y.) | Reviews pharmacological therapy for abnormal uterine bleeding; nonhormonal agents (including antifibrinolytics) reduce bleeding by 25–35%. Concerns bleeding *control*, not amenorrhea. |
-| [39043214](https://pubmed.ncbi.nlm.nih.gov/39043214/) | 2024 | Review | Journal of Oncology Pharmacy Practice | Systematic approach to menses prophylaxis and suppression in pre-menopausal hematologic cancer patients with treatment-related cytopenias; discusses menstrual suppression agents, not amenorrhea treatment specifically. |
+|------|------|------|------|---------|
+| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause | Evidence-based overview of medical therapy for abnormal uterine bleeding. Treatment choice depends on cause, bleeding amount, contraception needs, fertility preservation and perimenopausal status. Non-hormonal agents are included. |
+| [39043214](https://pubmed.ncbi.nlm.nih.gov/39043214/) | 2024 | Review | J Oncol Pharm Pract | Systematic approach to menses prophylaxis and suppression in premenopausal haematologic cancer patients. Data comparing therapies are scarce in the cancer setting. |
+
+Both publications are reviews on bleeding management. Neither directly tests tranexamic acid for amenorrhea.
+
+---
+
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2574020 | Mercury Pharma | Tab 500 mg | Not recorded (status: cancelled) |
+| 2497174 | Tranexamic-AFT | Inj 100 mg per ml, 10 ml ampoule | Not recorded (status: cancelled) |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindications / disease associations (from the knowledge graph, not label text):** the knowledge graph links tranexamic acid to the following conditions, which should be reviewed against the official label.
+- Cardiovascular and thrombotic: thrombophlebitis, coronary artery disease, stroke and cerebrovascular disorder, hypertension
+- Hormone-sensitive cancers: female breast carcinoma, endometrial cancer and other uterine corpus neoplasms
+- Metabolic: diabetes mellitus, diabetic ketoacidosis, hyperglycemia, hyperlipidemia, hypertriglyceridemia, obesity
+- Other: porphyria, liver disease, gallbladder disease, migraine, brain edema, anxiety and neurotic disorders, dysthymic disorder
+
+**Drug Interactions:** 35 interactions were identified in total. The main ones are:
+- **Major:**
+  - Oestrogens and hormonal contraceptives (ethinylestradiol, estradiol, conjugated estrogens, esterified estrogens, estrone, diethylstilbestrol, norethisterone, drospirenone, etonogestrel). These raise the risk of thrombosis.
+  - Pro-coagulant products (anti-inhibitor coagulant complex, Factor IX complex).
+  - Carfilzomib.
+  - Estramustine.
+- **Moderate:** Thrombolytics (alteplase, anistreplase), which have opposing pharmacological effects.
+
+Please refer to the package insert for warnings and official contraindications. The label data were not available for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN score, the predicted indication (amenorrhea) contradicts the known direction of tranexamic acid's antifibrinolytic mechanism, and neither supporting publication actually addresses amenorrhea — both concern bleeding control. This pattern is more consistent with a disease-node labeling error in the knowledge graph than a valid repurposing signal, and there are zero clinical trials to corroborate the direction.
+The prediction rests on a model score and an indirect mechanistic argument. There are no registered trials, and the only literature is two general reviews on bleeding management. All New Zealand licences are cancelled, and the dominant concern is thrombotic risk, particularly with concurrent hormonal therapy.
 
 **To proceed, the following is needed:**
-- Confirm with the TxGNN modeling team whether the "amenorrhea (disease)" node was correctly mapped, or whether this signal actually corresponds to menorrhagia/abnormal uterine bleeding (AUB) — a mislabeled node would invalidate this candidate as stated
-- TFDA/regulatory package insert with warnings and contraindications (currently a **Blocking** data gap — required before any S1 safety review)
-- DrugBank-sourced mechanism of action record (currently a data gap; general pharmacology was used above as a substitute)
-- If re-scoped to menorrhagia/AUB, re-run literature and clinical trial evidence search under the corrected indication before re-evaluating
+- Clarify the target indication. Decide whether it is true amenorrhea or menses suppression/prophylaxis (for example in haematology patients), and define the outcome measure.
+- Obtain the package insert from Medsafe to confirm warnings and contraindications. This is a blocking gap for safety screening.
+- Obtain mechanism of action data from DrugBank.
+- Search for trials or studies of tranexamic acid for menses suppression.
+- Review the thrombotic risk, especially in patients on hormonal therapy.
+- Confirm the regulatory pathway, because all current New Zealand licences are cancelled.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Aflibercept
 parent: Model Prediction Only (L5)
-nav_order: 18
+nav_order: 23
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,70 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Aflibercept: From Neovascular Eye Disease to Esotropia
+# Aflibercept: From Neovascular Retinal and Macular Disease to Esotropia
 
 ## One-Sentence Summary
 
-Aflibercept is a VEGF-trap fusion protein used to treat neovascular (wet) age-related macular degeneration (AMD) and diabetic macular edema (DME) by suppressing pathological blood vessel growth in the eye.
-The TxGNN model predicts it may be effective for **Esotropia** (convergent strabismus),
-however **no clinical trials** and **no published literature** currently support this repurposing direction.
-
----
+Aflibercept is a VEGF trap, given by injection into the eye, originally used for retinal and macular conditions such as macular degeneration, diabetic macular edema and retinal artery occlusion. The TxGNN model predicts it may be effective for **esotropia**, but this is a model prediction only, with **no clinical trials** and **no publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Neovascular AMD / Diabetic Macular Edema (based on known pharmacology; no regulatory data on file) |
+|------|------|
+| Original Indication | Macular degeneration, diabetic macular edema, retinal artery occlusion, metastasis from malignant tumour of colon (from the knowledge graph; no approved indication text is available from the New Zealand licence) |
 | Predicted New Indication | Esotropia |
 | TxGNN Prediction Score | 99.38% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Aflibercept is a recombinant fusion protein (VEGF-trap) that binds VEGF-A, VEGF-B, and placental growth factor (PlGF), blocking their interaction with VEGF receptors and thereby suppressing pathological neovascularization. Its established clinical role is in ophthalmic conditions driven by abnormal vessel growth — wet AMD, diabetic macular edema, and macular edema following retinal vein occlusion. A second formulation (ziv-aflibercept) is used in metastatic colorectal cancer, but that is a distinct drug entity (DB08886).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, aflibercept is a trap for VEGF-A, VEGF-B and placental growth factor (PlGF). It is used intravitreally for neovascular retinal and macular disease.
 
-Esotropia is a form of convergent strabismus arising from neuromuscular imbalance of the extraocular muscles, accommodative refractive error, or neurodevelopmental anomalies. These pathological mechanisms have no established connection to the VEGF/angiogenesis axis. Aflibercept's VEGF-trap mechanism does not act on extraocular muscle innervation, motor neuron control, or the accommodative reflex pathway involved in esotropia.
+The link to esotropia is indirect at best. Esotropia is an inward misalignment of the eyes, usually of neuromuscular or sensorimotor origin. It can occur secondarily to vision loss from retinal disease (sensory esotropia). In that setting, treating the underlying retinal disease might help vision, but it would not directly correct the misalignment.
 
-The TxGNN model's high score (0.994) most likely reflects an **ophthalmological ontology overlap** in the knowledge graph — both conditions are classified as eye diseases — rather than a genuine mechanistic link. A highly speculative indirect hypothesis exists: VEGF carries neurotrophic signaling roles in neural development, but this remains entirely in early-stage basic research with no clinical translation evidence whatsoever. The biological plausibility for this repurposing candidate is low.
-
----
+No established mechanism explains how anti-VEGF therapy would correct ocular misalignment. The high score of 0.994 probably reflects proximity to ophthalmic indications in the knowledge graph rather than a causal biological pathway. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2441195 (cancelled) | Eylea | Inj 40 mg per ml, 0.1 ml vial | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions:** The interaction screen returned 78 interacting drugs in total. The 20 entries reviewed include the following.
 
----
+- **Major:** deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib, certolizumab pegol, cladribine, clozapine
+- **Moderate (examples):** strontium chloride Sr-89, roflumilast, chloramphenicol (including ophthalmic), zidovudine, alefacept, alemtuzumab, anakinra, azathioprine, canakinumab, and several vaccines (tetanus toxoid, anthrax, live cholera)
+
+Many of these are immunosuppressive or myelosuppressive agents, or live vaccines. Please refer to the package insert for warnings and contraindications, as these were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial or published literature evidence supporting the use of aflibercept in esotropia, and the mechanistic connection between VEGF inhibition and the neuromuscular or accommodative pathology underlying esotropia is biologically implausible based on current understanding. This remains an L5 model-only prediction.
+The prediction rests on model output alone (L5). There are no registered clinical trials and no literature, and no direct biological mechanism links VEGF inhibition to correcting ocular misalignment. The only New Zealand licence is cancelled, and the package insert safety data were not available.
 
 **To proceed, the following is needed:**
-- Preclinical studies (in vitro or animal models) demonstrating any effect of VEGF inhibition on extraocular muscle function or accommodative mechanisms
-- Identification of a biologically plausible patient subpopulation where neovascular or inflammatory components contribute to strabismus (e.g., secondary strabismus from retinal disease)
-- Full mechanism of action (MOA) data retrieved from DrugBank API to rule out any undocumented pathway connecting VEGF signaling to ocular motor control
-- Safety data and package insert review from the originating regulatory authority before any further clinical evaluation
+- Mechanism of action data and a credible biological rationale for esotropia
+- A targeted literature and trial search, for example sensory esotropia secondary to retinal disease
+- Package insert warnings and contraindications from Medsafe
+- Clarification of the New Zealand regulatory status and approved indications
+- Assessment of route compatibility (intravitreal administration versus any approach relevant to strabismus)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

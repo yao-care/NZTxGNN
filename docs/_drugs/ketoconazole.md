@@ -2,15 +2,15 @@
 layout: default
 title: Ketoconazole
 parent: Moderate Evidence (L3-L4)
-nav_order: 187
-evidence_level: L3
+nav_order: 251
+evidence_level: L4
 indication_count: 1
 ---
 
 # Ketoconazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Ketoconazole: From Fungal Infections to Acne (Disease)
+# Ketoconazole: From Superficial and Systemic Fungal Infections to Acne
 
 ## One-Sentence Summary
 
-Ketoconazole is an imidazole antifungal agent. The TxGNN model predicts it may be effective for **Acne (disease)**, with **1 ongoing clinical trial** and **15 related publications** (predominantly mechanistic and indirect evidence) currently supporting this direction. Key safety and mechanism-of-action data for this candidate remain unavailable, which limits confidence in the prediction.
+Ketoconazole is an imidazole antifungal originally used for fungal skin infections (such as tinea, pityriasis versicolor and seborrheic dermatitis) and for systemic mycoses.
+The TxGNN model predicts it may be effective for **acne**, but the supporting evidence is thin: **1 registered clinical trial** (no results yet) and a handful of **laboratory studies, reviews and case reports**, so this remains a research question.
 
 ---
 
@@ -41,23 +42,23 @@ Ketoconazole is an imidazole antifungal agent. The TxGNN model predicts it may b
 
 | Item | Content |
 |------|------|
-| Original Indication | Fungal infections (imidazole antifungal); specific approved-indication text not available in this evidence pack |
-| Predicted New Indication | Acne (disease) |
+| Original Indication | Fungal skin infections (e.g., tinea pedis, tinea corporis, pityriasis versicolor, cutaneous candidiasis), seborrheic dermatitis, and systemic mycoses (histoplasmosis, aspergillosis). Taken from the knowledge-graph indication list; the New Zealand licence records contain no approved indication text. |
+| Predicted New Indication | Acne |
 | TxGNN Prediction Score | 99.80% |
-| Evidence Level | L3 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 5 (all cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ketoconazole is an imidazole antifungal whose efficacy in fungal infections is well established; mechanistically it may also be applicable to acne.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, ketoconazole inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which disrupts the fungal cell membrane. At higher doses it also inhibits human steroidogenic enzymes (CYP17A1, CYP11A1), lowering androgen synthesis. This mechanistic reasoning is inferred, not drawn from the supplied data.
 
-Two plausible mechanistic links connect ketoconazole to acne. First, ketoconazole inhibits steroidogenic enzymes (e.g., CYP17), producing an anti-androgen effect that can reduce sebaceous gland activity — relevant because acne in conditions like PCOS is strongly linked to hyperandrogenism (PMID 19445767, 8090657). Second, ketoconazole directly inhibits the lipase activity of *Propionibacterium acnes*, reducing the free fatty acids that drive follicular inflammation (PMID 28111792, 20045949).
+Acne is partly driven by androgen-stimulated sebum production, so lowering androgens could plausibly help. Ketoconazole is also active against *Malassezia* (*Pityrosporum*) yeasts, which are linked to seborrheic dermatitis and to acne-like follicular eruptions that are often misdiagnosed as acne vulgaris. Laboratory studies further report that ketoconazole inhibits the growth and lipase activity of *Cutibacterium (Propionibacterium) acnes*, the bacterium implicated in acne, and has mild anti-inflammatory effects.
 
-Additionally, *Malassezia* (Pityrosporum) species — normal skin flora that ketoconazole's antifungal activity targets — can cause folliculitis that clinically mimics or coexists with acne (PMID 8629828, 8255067, 8593718). This gives a biologically coherent, if indirect, rationale for repurposing. However, because ketoconazole's original indication is fungal infection rather than a dermatologic inflammatory condition, and oral formulations carry known hepatotoxicity concerns, the extrapolation to acne treatment (particularly for any non-topical route) should be treated cautiously pending confirmed MOA and safety data.
+The very high TxGNN score is a computational prediction and not clinical evidence. Systemic use carries serious liver and adrenal risks, so any repurposing would need to be limited to topical use.
 
 ---
 
@@ -65,7 +66,7 @@ Additionally, *Malassezia* (Pityrosporum) species — normal skin flora that ket
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07237763](https://clinicaltrials.gov/study/NCT07237763) | NA | Active, not recruiting | 52 | Randomized comparison of topical ketoconazole 2% cream vs. topical adapalene 2% cream in mild comedonal/papulopustular acne, testing whether ketoconazole is a better-tolerated alternative to topical retinoids. |
+| [NCT07237763](https://clinicaltrials.gov/study/NCT07237763) | N/A | Active, not recruiting | 52 | Randomized trial comparing topical ketoconazole 2% cream with topical adapalene 2% cream in mild comedonal and papulopustular acne over 12 weeks. No results available yet. |
 
 ---
 
@@ -73,27 +74,38 @@ Additionally, *Malassezia* (Pityrosporum) species — normal skin flora that ket
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28111792](https://pubmed.ncbi.nlm.nih.gov/28111792/) | 2017 | Mechanistic study | Microbiology and Immunology | Ketoconazole inhibits *P. acnes* lipase activity, a proposed direct anti-acne mechanism. |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro study | Biological & Pharmaceutical Bulletin | Azole antifungals, including ketoconazole, show in vitro activity against *P. acnes* isolated from acne patients. |
-| [12566804](https://pubmed.ncbi.nlm.nih.gov/12566804/) | 2003 | Review | Dermatology (Basel) | Overview of systemic acne treatment options and rationale for antimicrobial/anti-inflammatory agents. |
-| [8629828](https://pubmed.ncbi.nlm.nih.gov/8629828/) | 1996 | Case series | Archives of Dermatology | Neonatal *Malassezia furfur* pustulosis, an acne-like eruption linked to fungal infection. |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Case series | Clinical and Experimental Dermatology | *Pityrosporum* folliculitis frequently misdiagnosed as acne vulgaris; therapeutic trial data included. |
-| [8255067](https://pubmed.ncbi.nlm.nih.gov/8255067/) | 1993 | Review | The Keio Journal of Medicine | *Pityrosporum ovale* implicated in multiple skin conditions including acne-like folliculitis. |
-| [19445767](https://pubmed.ncbi.nlm.nih.gov/19445767/) | 2009 | Review | BMJ Clinical Evidence | PCOS review identifying acne as a hyperandrogenism-related manifestation, supporting anti-androgen rationale. |
-| [8090657](https://pubmed.ncbi.nlm.nih.gov/8090657/) | 1993 | Review | Polski Tygodnik Lekarski | Hyperandrogenic manifestations including acne improve with anti-androgen therapy in PCOS. |
-| [32872149](https://pubmed.ncbi.nlm.nih.gov/32872149/) | 2020 | Review | Pharmaceuticals (Basel) | Review of adapalene, the comparator drug in the active ketoconazole trial. |
+| [28111792](https://pubmed.ncbi.nlm.nih.gov/28111792/) | 2017 | Laboratory study | Microbiol Immunol | Ketoconazole inhibits *P. acnes* lipase activity and bacterial growth, suggesting a possible alternative acne treatment amid antibiotic resistance. |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | Laboratory study | Biol Pharm Bull | In vitro activity of azole antifungals, including ketoconazole, against *P. acnes* isolates from acne patients. |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Clinical study | Clin Exp Dermatol | *Pityrosporum* folliculitis in 62 patients is often misdiagnosed as acne vulgaris; diagnosis and therapeutic trials reported. |
+| [8629828](https://pubmed.ncbi.nlm.nih.gov/8629828/) | 1996 | Case series | Arch Dermatol | Neonatal papulopustular eruptions resembling acne are associated with *Malassezia furfur* infection. |
+| [8255067](https://pubmed.ncbi.nlm.nih.gov/8255067/) | 1993 | Review | Keio J Med | *Pityrosporum ovale* is linked to pityriasis versicolor, folliculitis and seborrheic dermatitis. |
+| [12566804](https://pubmed.ncbi.nlm.nih.gov/12566804/) | 2003 | Review | Dermatology | Overview of systemic acne treatments (antibiotics and others); background context. |
+
+Several other retrieved publications (for example on polycystic ovary syndrome, infant rashes and Cushing's syndrome) are only indirectly related and are not summarised here.
 
 ---
 
 ## New Zealand Market Information
 
-Ketoconazole currently holds no marketing authorization in New Zealand (market status: Not marketed／Not Marketed). No product license records are available in the evidence pack.
+All five licences are cancelled, and no approved indication text is recorded for them.
+
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2168626 | Teva-Ketoconazole | Tab 200 mg | Cancelled |
+| 2592010 | Strides Shasun | Tab 200 mg | Cancelled |
+| 2652242 | Burel | Tab 200 mg | Cancelled |
+| 2650924 | Taro | Tab 200 mg | Cancelled |
+| 461504 | Sebizole | Shampoo 2% | Cancelled |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications suggested by the knowledge graph** (not taken from label text): long QT syndrome (including familial), torsades de pointes, liver disease, gallbladder disease, adrenocortical insufficiency, Addison disease, skin atrophy, telangiectasis and capillary disease (including hereditary hemorrhagic telangiectasia), peripheral vascular and arterial disease (including intermittent claudication), and achlorhydria.
+- **Systemic risks**: Systemic ketoconazole is associated with serious liver toxicity and adrenal insufficiency, consistent with the liver-disease and adrenal entries above.
+- **Drug Interactions**: 100 interactions were identified. The major-level interactions in the listed sample are with **loperamide**, **triamcinolone** and **budesonide**. Moderate interactions include famotidine, ranitidine, omeprazole, rabeprazole, dexamethasone, hydrocortisone, betamethasone, aprepitant, pioglitazone, alosetron, atropine and hyoscyamine. Amphotericin B interactions are minor. The list shown is partial, so the full set should be reviewed before any use.
+
+The package insert warnings and contraindications could not be retrieved, so the New Zealand product information should be consulted directly.
 
 ---
 
@@ -102,14 +114,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-A Blocking data gap (TFDA/package-insert warnings and contraindications) prevents this candidate from entering the S1 safety pre-assessment, and ketoconazole is not currently marketed in New Zealand. Supporting evidence is presently limited to one small, still-active (not yet reported) trial plus indirect mechanistic and case-level literature (Evidence Level L3) — not yet sufficient to proceed.
+The evidence is limited to model prediction, laboratory studies, reviews and one small ongoing topical trial without results (L4). There is no currently valid New Zealand licence, and systemic ketoconazole has serious safety concerns, so there is not yet enough support to advance.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) to unblock S1 safety evaluation
-- Confirmed mechanism-of-action data from DrugBank or primary literature
-- Drug-drug interaction (DDI) data
-- Completion and results of NCT07237763
-- A larger, controlled trial with completed efficacy/safety outcomes for acne
+- Results from NCT07237763 and any further randomized trials of topical ketoconazole in acne
+- Retrieval and review of the Medsafe package insert warnings and contraindications
+- Mechanism-of-action data from DrugBank to replace the inferred mechanism
+- A route and formulation strategy limited to topical use, given the systemic liver and adrenal risks
+- Confirmation of whether a topical product could be supplied in New Zealand, since all current licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

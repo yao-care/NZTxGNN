@@ -2,7 +2,7 @@
 layout: default
 title: Propylthiouracil
 parent: Moderate Evidence (L3-L4)
-nav_order: 295
+nav_order: 392
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,83 +29,89 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Propylthiouracil: From Hyperthyroidism to Thyroid Hormone Resistance (THRB Mutation)
+# Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (THRB Mutation)
 
 ## One-Sentence Summary
 
-Propylthiouracil (PTU) is a thionamide-class antithyroid drug historically used to manage hyperthyroidism, including Graves' disease. TxGNN predicts a possible link to **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (RTH-β)**, but this is currently supported only by **0 clinical trials** and **6 case-report/mechanistic publications** — evidence is preliminary at best.
-
----
+Propylthiouracil (PTU) is an antithyroid drug originally used to treat hyperthyroidism, Graves disease, thyrotoxicosis and thyroid crisis.
+The TxGNN model predicts it may be effective for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but **no clinical trials** and only **4 publications** (mouse models and case reports, none testing PTU as a therapy) are available, so this is a model prediction without clinical support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from New Zealand regulatory data (no licenses on record); based on established pharmacology, PTU is used for hyperthyroidism (e.g., Graves' disease) |
+| Original Indication | Hyperthyroidism, Graves disease, thyrotoxicosis, thyroid crisis (from the knowledge graph; no approved indication text on the New Zealand licence) |
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
-| TxGNN Prediction Score | 99.66% (global rank 3394) |
+| TxGNN Prediction Score | 99.66% |
 | Evidence Level | L4 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, propylthiouracil is a thionamide that inhibits thyroid peroxidase, blocking new thyroid hormone synthesis and also reducing peripheral conversion of T4 to T3 — its efficacy in hyperthyroidism (notably Graves' disease) is well established.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. From general pharmacology, PTU inhibits thyroid peroxidase, which reduces thyroid hormone synthesis, and it also reduces peripheral conversion of T4 to T3. Its efficacy in hyperthyroid states is well established.
 
-Resistance to thyroid hormone (RTH-β) is superficially related because it shares the same hormone axis and can present with biochemical findings that mimic hyperthyroidism (elevated T4/T3), sometimes leading to misdiagnosis. This overlap likely explains why TxGNN links the two conditions.
+In resistance to thyroid hormone beta (RTHβ), tissues respond poorly to circulating hormone, and T4/T3 are elevated with a TSH that is not suppressed. In theory, lowering hormone synthesis would reduce the elevated hormone levels, which is probably why the model links the two conditions.
 
-However, the mechanistic fit is questionable: RTH-β is caused by reduced *receptor* responsiveness to thyroid hormone, not excess hormone production. PTU works upstream by suppressing synthesis, so it does not correct the underlying receptor defect. Consistent with this, several of the literature items below describe RTH patients who were misdiagnosed as thyrotoxic and treated with PTU without clinical benefit (e.g., worsening goiter). This should be treated as a caution flag rather than confirmatory evidence.
-
----
+The mechanism is, however, a poor fit in practice. Lowering hormone output removes negative feedback and raises TSH, which can enlarge a goitre and stimulate thyroid growth. The retrieved literature supports this concern: mouse models carrying a TRβ mutation develop thyroid carcinoma in a TSH-dependent manner (PMID 22919057, 21909131), and one case report describes a patient previously treated with PTU for presumed thyrotoxicosis whose goitre became larger (PMID 10724359). Antithyroid drugs are generally not recommended in RTHβ. The very high TxGNN score is a model output only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case report | Endocrine Journal | Thai woman with de novo L330S THRB mutation; previously treated with propylthiouracil for presumed thyrotoxicosis, with goiter enlarging rather than improving — illustrates misdiagnosis risk and lack of PTU benefit in RTH |
-| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clinical Endocrinology | Two RTH cases (M313T mutation) in one family, including neonatal thyrotoxicosis; discusses diagnostic overlap with true thyrotoxicosis |
-| [18561095](https://pubmed.ncbi.nlm.nih.gov/18561095/) | 2009 | Case report | Exp Clin Endocrinol Diabetes | Turkish family with P453A THRB mutation causing RTH; describes clinical/biochemical presentation |
-| [14684607](https://pubmed.ncbi.nlm.nih.gov/14684607/) | 2004 | Preclinical (animal) | Endocrinology | Mouse model study of dominant-negative TR-β mutation (Δ337T) and its cardiac effects in RTH |
-| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Preclinical (animal) | Oncogene | Thrb(PV/PV) mouse model shows thyroid hormone activates tumor cell proliferation via mutant TR-β, linking RTH mutation to follicular thyroid carcinoma |
-| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Preclinical (animal) | Endocrinology | Role of TSH in spontaneous thyroid carcinoma development in mice with heterozygous THRB mutation |
+| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Preclinical (mouse) | Endocrinology | In TRβ-mutant mice, TSH contributes to spontaneous development of thyroid carcinoma |
+| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Preclinical (mouse) | Oncogene | Thyroid hormone activates tumour cell proliferation in a mouse model of follicular thyroid carcinoma with a TRβ mutation |
+| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clin Endocrinol | Neonatal thyrotoxicosis and maternal infertility in a family with a TRβ (M313T) mutation |
+| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case report | Endocr J | De novo L330S mutation in a young woman previously treated with PTU; her goitre enlarged on treatment |
 
----
+None of these studies tests PTU as a treatment for RTHβ.
 
 ## New Zealand Market Information
 
-Propylthiouracil is not currently authorized for marketing in New Zealand (0 licenses on record in this evidence pack).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2010526 (cancelled) | PTU | Tab 50 mg | Not stated |
 
----
+## Cytotoxicity
+
+Omitted: PTU is not an antineoplastic drug.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: thrombocytopenia, hypothyroidism, myxedema, congenital hypothyroidism, hyperbilirubinemia (including hereditary forms and Gilbert syndrome), interstitial lung disease, drug-induced liver injury, and blood-cell disorders such as leukopenia, pancytopenia, agranulocytosis and neutropenia (including congenital and cyclic forms).
+- **Drug Interactions**: 83 interactions were identified. The main ones are:
+  - Major: deferiprone
+  - Moderate: naltrexone, iodide I-131, iodide I-123, macimorelin, warfarin, dicoumarol, theophylline, aminophylline, oxtriphylline
+  - Level not graded: pantoprazole, omeprazole, nystatin, rosuvastatin, prednisone, hydrocortisone, budesonide, dexamethasone, potassium chloride, clopidogrel
 
-*(Note: TFDA label warnings/contraindications and drug interaction data are marked as a Blocking data gap in this evidence pack — see Conclusion.)*
-
----
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for this indication is limited to case reports and preclinical/animal mechanism studies (no clinical trials, no observational cohorts), and several of the case reports actually document PTU being *ineffective* when misapplied to RTH patients — mechanistically, PTU suppresses hormone synthesis but does not address the receptor-level defect that defines RTH. Combined with a Blocking data gap on safety labeling, the evidence does not support advancing this candidate at this time.
+The prediction rests on a model score alone (L4). No clinical trials exist, the literature consists of mouse models and case reports that do not test PTU, and the mechanism suggests a risk of raising TSH and worsening goitre. The only New Zealand licence is cancelled, and the package insert safety data have not been obtained.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert data (warnings, contraindications) — currently a Blocking gap
-- Confirmed mechanism of action (DrugBank MOA) to properly assess mechanistic plausibility for RTH-β
-- Expert endocrinology review reconciling why a synthesis inhibitor would benefit a receptor-resistance disorder
-- If pursued, a defined regulatory pathway for New Zealand market entry (currently unmarketed, 0 licenses)
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Clinical evidence that PTU benefits RTHβ patients, and an assessment of the TSH-rise risk
+- A review of the hepatotoxicity risk and of New Zealand supply options, since no valid licence is currently held
+
+---
+
+### Supplementary Note: Other Predicted Indications
+
+Two further predictions were also reviewed:
+
+- **Neonatal thyrotoxicosis** (TxGNN score 99.40%, L4, recommendation: Research Question). The mechanistic link is strong, but the evidence is indirect (reviews on managing maternal hyperthyroidism in pregnancy, plus one cohort study, PMID 25747892), with no registered trials. Hepatotoxicity concerns limit direct neonatal use, and methimazole is generally preferred outside early pregnancy.
+- **Hyperthyroxinemia** (TxGNN score 99.08%, L4, recommendation: Hold). This is a non-specific laboratory finding, and benefit depends on the cause. Lowering hormone would be inappropriate in familial dysalbuminemic hyperthyroxinemia, where patients are euthyroid. Evidence is limited to animal studies, case reports and observational reports, with no trials.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

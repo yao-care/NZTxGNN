@@ -2,7 +2,7 @@
 layout: default
 title: Mirtazapine
 parent: Model Prediction Only (L5)
-nav_order: 229
+nav_order: 304
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,68 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Mirtazapine: From Major Depressive Disorder to Ohdo Syndrome and Variants
+# Mirtazapine: From Depression to Ohdo Syndrome and Variants
 
 ## One-Sentence Summary
 
-Mirtazapine is a noradrenergic and specific serotonergic antidepressant (NaSSA), publicly known for treating **Major Depressive Disorder**; formal Taiwan/NZ regulatory indication text is not available in this evidence pack. The TxGNN model predicts potential relevance to **Ohdo syndrome and variants**, a rare congenital chromosomal-developmental disorder, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests entirely on network-embedding similarity with no mechanistic or empirical corroboration.
-
----
+Mirtazapine is an antidepressant, originally used for unipolar depression, major depressive disorder and anxiety disorder.
+The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
+but **no clinical trials and no publications** currently support this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Major Depressive Disorder (MDD) — based on general pharmacological knowledge; formal regulatory indication text not provided in evidence pack |
+| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known general pharmacology, mirtazapine acts via α2-adrenergic receptor antagonism and 5-HT2/5-HT3 receptor blockade plus H1 antihistamine activity, an action profile established for major depressive disorder.
+Currently, detailed mechanism of action data is not available. Based on general knowledge, mirtazapine is an antidepressant whose efficacy in depression and anxiety is established. However, the data compiled for this report do not show a mechanistic link to Ohdo syndrome.
 
-Ohdo syndrome and its variants are rare autosomal-dominant congenital disorders, most commonly linked to mutations in *KAT6A*/*KAT6B* or other SET-domain-related developmental genes. These are structural/developmental gene disorders, not disorders of monoaminergic neurotransmission — there is no established biological pathway connecting mirtazapine's receptor pharmacology to Ohdo syndrome's genetic-developmental etiology.
+Ohdo syndrome is a rare genetic disorder (KAT6B-related) with neurodevelopmental features. No plausible pharmacological rationale linking mirtazapine to its underlying pathology is evident from the available data. The very high TxGNN score (99.42%) reflects a model prediction without clinical corroboration.
 
-Per the model's own repurposing rationale, this association reflects TxGNN network-embedding similarity only, with **no known biological or mechanistic link** identified. Two related predictions (blepharophimosis–intellectual disability syndrome, Ohdo type; and benign paroxysmal torticollis of infancy) share the same limitation — the latter has a marginally more plausible theoretical tie to serotonergic/noradrenergic dysregulation (as a migraine-variant syndrome), but still lacks any supporting study. This prediction should be treated as a hypothesis-generation signal only, not a mechanistically substantiated candidate.
-
----
+Two other predictions show the same pattern:
+- **Blepharophimosis - intellectual disability syndrome, Ohdo type** (score 99.11%): likely driven by overlap with the Ohdo syndrome entry, so it is not an independent signal. Any symptomatic benefit (for example for sleep or mood) would be speculative and would not address the underlying disease.
+- **Benign paroxysmal torticollis of infancy** (score 99.11%): a self-limiting episodic movement disorder of infancy. Mirtazapine is not established for paediatric use, which is a further concern.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
----
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2678802 | Noumed | Tab 30 mg | Not available (licence cancelled) |
+| 2678810 | Noumed | Tab 45 mg | Not available (licence cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications / disease associations (knowledge graph, not label text)**: The knowledge graph links mirtazapine to the following conditions as contraindications:
+  - Neurological and psychiatric: epilepsy, manic bipolar affective disorder, drug-induced akathisia, serotonin syndrome
+  - Blood pressure and autonomic: orthostatic hypotension, hypotensive disorder, postural orthostatic tachycardia syndrome, multiple system atrophy
+  - Cardiovascular and cerebrovascular: myocardial infarction, coronary thrombosis, stroke, cerebrovascular disorder, cerebral infarction, susceptibility to ischemic stroke
+  - Haematological: neutropenia, agranulocytosis, hemoglobinopathy
+  - Metabolic: hypertriglyceridemia, obesity disorder, monogenic obesity
+  - Organ function: liver disease, gallbladder disease, impaired renal function disease
+- **Drug Interactions**: The interaction query returned 100 records. Of the 20 listed, the **Major** interactions are:
+  - Bupropion
+  - Lorcaserin
+  - Dolasetron
+  - Palonosetron
 
----
+  The remaining listed interactions are Moderate, including famotidine, loperamide, aprepitant, morphine, dexamethasone, cimetidine, clarithromycin and levofloxacin.
+
+Package insert warnings were not available for this report. Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is an L5 (model-prediction-only) candidate with no clinical trials, no literature, and no identifiable mechanistic pathway linking mirtazapine's known pharmacology to Ohdo syndrome's genetic-developmental pathology. There is no basis to advance to safety or clinical evaluation at this time.
+All three predicted indications rest on model scores alone (Evidence Level L5), with no clinical trials or literature. No mechanistic link to a rare genetic neurodevelopmental disorder is apparent, and mirtazapine currently has no valid New Zealand licence.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a blocking data gap (DG001)
-- Confirmed mechanism of action and original indication documentation (DG002)
-- Preclinical or mechanistic studies exploring any plausible biological link between mirtazapine's receptor targets and Ohdo syndrome pathophysiology
-- Any case reports or observational data, should they emerge, given the current complete absence of trials/literature
+- Mechanism of action data for mirtazapine, and a pharmacological rationale linking it to the predicted disease
+- Package insert warnings and contraindications from Medsafe
+- Preclinical or clinical evidence (trials or literature) for the predicted indication
+- Paediatric safety assessment, particularly for the infant-onset condition
+- Clarification of the regulatory pathway, since both New Zealand licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

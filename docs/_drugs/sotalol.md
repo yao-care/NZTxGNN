@@ -2,7 +2,7 @@
 layout: default
 title: Sotalol
 parent: Model Prediction Only (L5)
-nav_order: 323
+nav_order: 428
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Sotalol: From Ventricular Arrhythmia / Atrial Fibrillation to Sick Sinus Syndrome 2, Autosomal Dominant
+# Sotalol: From Atrial Fibrillation to Sick Sinus Syndrome 2 (Autosomal Dominant)
 
 ## One-Sentence Summary
 
-Sotalol is a Class III antiarrhythmic (combined β-blockade and potassium-channel blockade) established for ventricular arrhythmias and rhythm control of atrial fibrillation/flutter. The TxGNN model's top-ranked prediction links it to **Sick Sinus Syndrome 2, Autosomal Dominant**, but this pairing has **zero supporting clinical trials and zero literature**, and the underlying pharmacology points in the *opposite* therapeutic direction — sotalol's own mechanism would be expected to worsen this condition rather than treat it.
+Sotalol is a beta-blocker with class III antiarrhythmic activity, originally used to treat atrial fibrillation.
+The TxGNN model predicts it may be effective for **sick sinus syndrome 2, autosomal dominant**, but **no clinical trials and no publications** support this prediction, and the mechanism points toward potential harm rather than benefit.
 
 ---
 
@@ -41,41 +42,67 @@ Sotalol is a Class III antiarrhythmic (combined β-blockade and potassium-channe
 
 | Item | Content |
 |------|------|
-| Original Indication | Ventricular arrhythmias and atrial fibrillation/flutter rate/rhythm control (based on known pharmacology; no NZ license record on file) |
+| Original Indication | Atrial fibrillation (from the knowledge graph; no approved indication text is available from New Zealand licences) |
 | Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no valid authorizations) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for sotalol is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology, however, sotalol acts as a non-selective β-adrenergic blocker combined with a Class III potassium-channel (IKr) blocker, which prolongs cardiac repolarization. This mechanism is well established for suppressing ventricular arrhythmias and maintaining sinus rhythm in atrial fibrillation/flutter.
+Currently, detailed mechanism of action data is not available from the compiled data. From general pharmacology, sotalol combines beta-adrenergic blockade with potassium channel blockade (class III activity). It is used for rhythm control in atrial fibrillation, where it slows sinus rate and atrioventricular conduction.
 
-Sick sinus syndrome 2 (autosomal dominant) is a genetic sinus-node dysfunction, commonly linked to HCN4/SCN5A mutations, that already presents with abnormally slow or unreliable sinus node activity. Sotalol's β-blocking and K⁺-channel-blocking effects would be expected to further suppress sinus node automaticity and conduction — the opposite of what this condition requires. Consistent with this, sick sinus syndrome is typically listed as a contraindication (or requires prior pacemaker placement) on antiarrhythmic drug labels, rather than being a treatment target.
+Sick sinus syndrome 2 is linked to loss of function of the HCN4 channel, which causes sinus bradycardia. Because sotalol slows the sinus rate and AV conduction, it would be expected to worsen sinus node dysfunction rather than treat it. The knowledge graph itself lists sick sinus syndrome and atrioventricular block as contraindications for sotalol.
 
-This prediction therefore appears to be a case where the TxGNN model surfaced a strong network-level association without capturing directionality — the drug-disease link exists, but pharmacologically in a risk/contraindication sense rather than a therapeutic one. No clinical trials or literature exist to support (or refute) this specific pairing.
+The high TxGNN score (0.998) is therefore most likely a graph-based artifact of the shared arrhythmia context, not a sign of therapeutic potential.
+
+Other predictions were also reviewed, and none has solid support:
+- **Stroke disorder** (score 99.44%, L4): Sotalol's link is only indirect, via rhythm control in AF. Stroke prevention in AF relies on anticoagulation, not rhythm control.
+- **Manic bipolar affective disorder** (99.43%, L4): The only literature concerns QT-prolongation interaction risks with antipsychotics, not efficacy.
+- **Wildervanck syndrome, sarcoglycanopathy, macrocephaly/dysmorphic facies/psychomotor retardation, obsolete susceptibility to ischemic stroke** (L5): Prediction only, with no plausible mechanistic link or any supporting studies.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials are registered for the top predicted indication (sick sinus syndrome 2, autosomal dominant).
+
+For reference, one trial was retrieved for the lower-ranked prediction of stroke disorder, and it does not test stroke outcomes:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00007605](https://clinicaltrials.gov/study/NCT00007605) | Phase 3 | Completed | 706 | CSP #399: amiodarone and sotalol for maintaining sinus rhythm in atrial fibrillation. It supports the original AF indication, and is only indirectly relevant to stroke. |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature is available for the top predicted indication.
+
+---
+
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2127903 | Mylan | Tab 80 mg | Not available (cancelled) |
+| 2127911 | Mylan | Tab 160 mg | Not available (cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: based on the drug's known Class III/β-blocking mechanism, sinus node dysfunction (including sick sinus syndrome) is a recognized area of caution for antiarrhythmic agents of this class, independent of the specific safety fields on file (which are currently unpopulated for sotalol).
+Package insert warnings and contraindications were not available in the data compiled for this report. The following comes from the knowledge graph and interaction database.
+
+- **Contraindications (knowledge graph, not label text)**: Long QT syndrome (including familial), torsades de pointes, asthma (intrinsic and allergic), bronchial disease, potassium deficiency, diabetes mellitus, diabetic ketoacidosis, hypotension, impaired renal function, atrioventricular block, sick sinus syndrome (including familial), and anaphylaxis.
+- **Drug Interactions**: 100 interactions were identified. Major-level examples include **epinephrine**, **clarithromycin**, **picosulfuric acid**, and **polyethylene glycol (3350 with electrolytes)**. Many others are moderate, such as famotidine, bupropion, morphine, atropine, cimetidine, canagliflozin, and dapagliflozin.
+- **Other concerns from the literature**: Sotalol carries proarrhythmic risk (QT prolongation, torsades de pointes) and requires renal dose adjustment. Beta-blockade can augment the torsadogenic action of QT-prolonging drugs such as antipsychotics.
+
+Notably, the predicted indication (sick sinus syndrome) is itself on sotalol's contraindication list.
 
 ---
 
@@ -84,12 +111,13 @@ Please refer to the package insert for safety information. Note: based on the dr
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (sick sinus syndrome 2, autosomal dominant) has no clinical trial or literature support (L5, model prediction only), and the drug's known mechanism plausibly worsens rather than treats this condition. This should be treated as a likely false-positive/contraindication signal rather than a repurposing opportunity.
+The prediction rests on a model score alone (L5). No trials or publications support it, and sotalol's pharmacology would be expected to worsen sinus node dysfunction. Sick sinus syndrome is also a listed contraindication. None of the other predicted indications has direct supporting evidence. Sotalol currently has no valid New Zealand authorization.
 
 **To proceed, the following is needed:**
-- TFDA/package insert warnings and contraindications for sotalol (currently a Blocking data gap — DG001)
-- Confirmed mechanism of action from DrugBank (currently a High-severity data gap — DG002), to formally verify the directional mismatch described above
-- If pursuing repurposing for this drug, evaluate the higher-evidence candidate in the same batch instead: **stroke disorder** (rank 4, L2/S1, "Research Question"), which is supported by multiple Phase 3 AF trials and cohort literature, albeit via an indirect AF-rhythm-control-to-stroke-prevention pathway rather than a direct anti-stroke mechanism
+- Package insert warnings and contraindications (from the Medsafe documents)
+- Mechanism of action data from DrugBank
+- Preclinical or clinical evidence that sotalol benefits, or at least does not harm, patients with HCN4-related sick sinus syndrome
+- Clarification of regulatory pathway, since all New Zealand licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

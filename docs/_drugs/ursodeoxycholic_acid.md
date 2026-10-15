@@ -2,7 +2,7 @@
 layout: default
 title: Ursodeoxycholic Acid
 parent: Model Prediction Only (L5)
-nav_order: 357
+nav_order: 472
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,31 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ursodeoxycholic Acid: From Primary Biliary Cholangitis/Gallstones to Homozygous Familial Hypercholesterolemia
+# Ursodeoxycholic Acid: From Cholelithiasis to Homozygous Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-Ursodeoxycholic acid (UDCA, DB01586) is a hydrophilic bile acid historically used to treat primary biliary cholangitis and to dissolve gallstones. The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia (HoFH)**, but this prediction is currently supported by **no clinical trials and no published literature** — it rests on the model score alone.
+Ursodeoxycholic acid (UDCA) is a bile acid originally used to treat gallstone disease (cholelithiasis, cholecystolithiasis, choledocholithiasis) and primary biliary cholangitis.
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia (HoFH)**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in structured license data (drug is unmarketed in New Zealand); per rationale notes, UDCA has historically been used for PBC and gallstone dissolution |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
+| Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis, primary biliary cholangitis, Reynolds syndrome (no approved indication text is available from the New Zealand licence record) |
+| Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid authorization) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (`original_moa` is a data gap). Based on known information, UDCA is a hydrophilic bile acid analogue whose established pharmacology centers on lowering biliary cholesterol saturation and exerting cytoprotective/anti-apoptotic effects, with possible weak activation of FXR and modulation of the enterohepatic bile acid circulation.
+Detailed mechanism of action data is not currently available. Based on known information, UDCA is a hydrophilic bile acid whose efficacy in gallstone disease and primary biliary cholangitis is established. Mechanistically, it may be applicable to disorders of cholesterol handling.
 
-Theoretically, changes in the bile acid pool can feed back to suppress hepatic CYP7A1 and indirectly influence cholesterol synthesis and LDL receptor expression — a mechanism loosely analogous to bile acid sequestrants such as cholestyramine. However, this effect is far weaker than that of true bile acid-binding resins, and it does not target the core pathology of HoFH, which is loss-of-function from biallelic LDLR gene defects. UDCA does not act by upregulating LDLR or providing an LDLR-independent clearance pathway for LDL-C.
+The proposed link runs through bile acid and cholesterol metabolism. UDCA is reported to reduce intestinal cholesterol absorption, suppress hepatic cholesterol synthesis and biliary cholesterol secretion, and modulate the bile acid pool (for example, through FXR-related signaling). This is why a model built on drug-disease network relationships would connect it with a lipid disorder.
 
-In short, the mechanistic link is indirect and speculative rather than targeted. Because the original MOA data is missing, it is also not possible to formally compare UDCA's established indications (PBC, gallstone dissolution) against HoFH for mechanistic overlap — this should be treated as a hypothesis-generating signal only.
+However, this link is plausible but unverified, and there is a significant biological concern. HoFH is caused mainly by loss-of-function variants in *LDLR* (or *APOB*, *PCSK9*, *LDLRAP1*), leading to near-absent LDL receptor activity. Bile acid-mediated cholesterol lowering depends largely on upregulating LDL receptors, so a meaningful LDL-C-lowering effect in HoFH is doubtful. The high model score should therefore be read as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -65,24 +67,29 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-UDCA is not currently marketed in New Zealand (market status: Not marketed) and has 0 registered authorizations on file, so no product table is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2397528 (cancelled) | Ursosan | Cap 250 mg | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: TFDA/product-label warnings and contraindications are flagged as a **Blocking** data gap (DG001) — this must be resolved before the candidate can advance to the S1 safety review stage.
+- **Drug Interactions**: The interaction screening returned 100 potential interacting drugs in total; the first 20 listed are summarized here. Three are rated **Minor**: cyclosporine, aluminum hydroxide, and magaldrate. The remaining 17 have an unclassified severity (for example cyanocobalamin, calcitriol, folic acid, pravastatin, ramipril, lorazepam, tramadol, fluconazole, oseltamivir, erythromycin, sildenafil, pantoprazole, citalopram, moxifloxacin, nelfinavir, glimepiride, and indinavir). Notably, aluminum-containing antacids are commonly reported to bind bile acids and may reduce absorption, and cyclosporine absorption can be affected, so these warrant attention if the drug is used.
+
+Package insert warnings and contraindications were not available for this report; please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is evidence level L5 — supported only by the TxGNN model score, with zero clinical trials or literature, and a mechanistically indirect rationale that does not address HoFH's core LDLR defect. Combined with a Blocking safety data gap and missing MOA data, there is currently insufficient basis to proceed.
+The prediction is supported only by a model score (99.86%), with no clinical trials or publications. The mechanism is also biologically questionable in HoFH, where LDL receptor function is largely absent. In addition, the only New Zealand authorization has been cancelled.
 
 **To proceed, the following is needed:**
-- TFDA/package-insert safety data (warnings, contraindications, DDI) — currently Blocking (DG001)
-- Confirmed mechanism of action data from DrugBank or primary literature (DG002)
-- At least preclinical or observational evidence directly linking UDCA to lipid-lowering effects in HoFH or LDLR-deficient models
-- Formal documentation of original approved indications (currently absent from structured data)
+- Mechanism of action data for UDCA, and a critical assessment of whether any LDL-receptor-independent effect could matter in HoFH
+- Preclinical or early clinical evidence of lipid lowering in HoFH or receptor-deficient models
+- Package insert warnings and contraindications (currently blocking for safety screening)
+- Clarification of the regulatory status and available formulations in New Zealand, since the sole licence is cancelled
+- Review of the interaction profile, especially with bile acid-binding agents and cyclosporine
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

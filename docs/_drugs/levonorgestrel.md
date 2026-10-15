@@ -2,7 +2,7 @@
 layout: default
 title: Levonorgestrel
 parent: Moderate Evidence (L3-L4)
-nav_order: 205
+nav_order: 271
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,92 +29,96 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Levonorgestrel: From Contraceptive Use to Acne
+# Levonorgestrel: From Postmenopausal Osteoporosis to Acne
 
 ## One-Sentence Summary
 
-Levonorgestrel is a synthetic progestin used globally in contraceptive products (oral contraceptives, IUDs, subdermal implants, and emergency contraception), though it holds no market authorization in New Zealand. The TxGNN model's top-ranked prediction (rank 1611 overall) proposes potential relevance to **Acne (disease)**, but the evidence is thin and mechanistically ambiguous — **5 clinical trials** (none designed to test levonorgestrel monotherapy for acne) and **20 literature records** (6 directly discussing acne or progestin androgenicity), rated at evidence level **L4**.
-
----
+Levonorgestrel is a progestin used mainly in hormonal contraception (tablets, intrauterine systems and implants). The knowledge graph lists its original indication as postmenopausal osteoporosis/osteoporosis.
+The TxGNN model predicts it may be effective for **acne**, but there are **0 clinical trials** and only **1 randomized trial** (of a levonorgestrel plus ethinylestradiol combination pill) among the 20 publications retrieved, so the evidence is weak and the mechanism points in an uncertain direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no approved license record in New Zealand. Based on the literature in this evidence pack, levonorgestrel is known internationally as a progestin used in contraception (combined oral contraceptives, IUDs, subdermal implants, emergency contraception) |
+| Original Indication | Postmenopausal osteoporosis / osteoporosis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L4 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 6 (all cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (DG002, High severity gap). Based on the literature in this evidence pack, levonorgestrel is a 19-nortestosterone-derived progestin used across multiple contraceptive delivery forms — oral pills, intrauterine systems, and subdermal implants — where its efficacy in preventing pregnancy is well established.
+Detailed mechanism of action data is not available for this drug. Levonorgestrel is a progestin of the 19-nortestosterone (androstane) family, and it retains some residual androgenic activity.
 
-The link to acne is mechanistically contested rather than straightforward. One review in the evidence pack (PMID 7825629, "The androgenicity of progestins") classifies levonorgestrel as one of the more strongly androgenic progestins, which theoretically *stimulates* sebum production and could worsen acne — the opposite of a therapeutic direction. Separately, a placebo-controlled RCT (PMID 12196750) and a randomized multicenter study (PMID 10717776) show that low-dose **combined** oral contraceptives containing ethinyl estradiol + levonorgestrel improve acne, but this benefit is attributed to the estrogen component raising SHBG and lowering free testosterone — a combination-product effect, not an action of levonorgestrel in isolation.
+A direct anti-acne mechanism is not obvious. Acne improvement with hormonal contraceptives is generally attributed to the estrogen component (higher SHBG, lower free testosterone) or to anti-androgenic progestins such as chlormadinone acetate. Reviews in the literature on progestin androgenicity suggest that levonorgestrel-based systems and implants are not established acne treatments and may even worsen acne in some users.
 
-This creates a genuine directional ambiguity: levonorgestrel's own androgenic activity works against an anti-acne effect, while the estrogen it is typically co-formulated with works in favor of one. None of the identified trials isolate levonorgestrel's independent contribution, so the TxGNN prediction should be read as flagging a drug-class association (progestin-containing combined contraceptives and acne) rather than a validated single-agent mechanism.
-
----
+The very high TxGNN score (0.999) is therefore not well supported by the mechanism. The link to acne is indirect and possibly opposite in direction. The relationship between the listed original indication (osteoporosis) and acne is also weak: both are sex-steroid-influenced conditions, but that is a loose connection.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00161226](https://clinicaltrials.gov/study/NCT00161226) | N/A | Terminated | 44 | LNG-releasing IUS (Mirena) trial for endometrial cancer prevention in obese women; notes acne as a known side effect of oral progestins, but was not designed to test acne treatment |
-| [NCT01650168](https://clinicaltrials.gov/study/NCT01650168) | N/A | Completed | 101,498 | Large safety cohort comparing nomegestrol acetate/estradiol vs. LNG-containing combined oral contraceptives; focused on VTE and general safety, not acne efficacy |
-| [NCT05492487](https://clinicaltrials.gov/study/NCT05492487) | Phase 2 | Unknown | 60 | Fertility-sparing treatment of atypical endometrial hyperplasia (Mirena vs. megestrol); unrelated to acne |
-| [NCT00480532](https://clinicaltrials.gov/study/NCT00480532) | N/A | Completed | 131 | Continuous combined oral contraceptive + doxycycline for bleeding control; doxycycline (not levonorgestrel) is the acne-relevant component, so LNG's independent contribution cannot be isolated |
-| [NCT05570786](https://clinicaltrials.gov/study/NCT05570786) | Phase 2 | Completed | 100 | Subdermal gestrinone implant for endometriosis-related pelvic pain; title truncated in source data, no confirmed link to acne |
-
-None of these trials were designed to evaluate levonorgestrel specifically for acne treatment.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+The most relevant publications retrieved (the data compiled for this report did not classify most of them beyond "review" or "pending"):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | RCT | J Am Acad Dermatol | Placebo-controlled RCT: low-dose ethinyl estradiol/levonorgestrel (EE/LNG) combined OC improved moderate acne, attributed to lowered bioavailable androgens |
-| [10717776](https://pubmed.ncbi.nlm.nih.gov/10717776/) | 1999 | RCT | Contraception | Multicenter, open-label, randomized comparison of two low-dose EE oral contraceptives with different progestins (incl. LNG); compared androgenic marker and acne outcomes |
-| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Review | Am J Med | Classifies levonorgestrel among the more androgenic progestins — mechanistic basis for concern that LNG alone could aggravate rather than treat acne |
-| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Review | Drugs | Drug evaluation of EE/chlormadinone acetate; reports EE/CMA was significantly more effective than EE/levonorgestrel for mild-to-moderate papulopustular acne |
-| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | Review | Am J Clin Dermatol | Reviews dermatological benefits (acne, hirsutism, seborrhea) of antiandrogenic hormonal therapy, providing comparative context to LNG's androgenic profile |
-| [16796485](https://pubmed.ncbi.nlm.nih.gov/16796485/) | 2006 | Review | J Womens Health | Reviews drospirenone vs. medroxyprogesterone acetate, levonorgestrel, and micronized progesterone; notes LNG's association with acne vulgaris as a side effect rather than a treatment benefit |
-
-The remaining 14 literature records in this evidence pack (contraceptive efficacy, IUD/implant reviews, VTE risk, lipid effects) are general levonorgestrel/contraception literature not specific to acne and were excluded from this table.
-
----
+| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | RCT (placebo-controlled) | J Am Acad Dermatol | Low-dose oral contraceptive with 20 µg ethinylestradiol + 100 µg levonorgestrel tested for moderate acne; the benefit cannot be attributed to levonorgestrel alone because of the estrogen component |
+| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Review | Drugs | Ethinylestradiol/chlormadinone acetate was significantly more effective than ethinylestradiol/levonorgestrel for mild-to-moderate papulopustular acne |
+| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | Review | Am J Clin Dermatol | Describes the role of androgens in acne, hirsutism and seborrhoea, and the dermatological benefits of an anti-androgenic progestin combination |
+| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Review | Am J Med | Progestins derived from 19-carbon (androstane) compounds have androgenic activity, which is relevant to acne risk |
+| [30088446](https://pubmed.ncbi.nlm.nih.gov/30088446/) | 2018 | Review | Curr Drug Targets | Molecular interactions of steroids in sebum production and acne |
+| [11727177](https://pubmed.ncbi.nlm.nih.gov/11727177/) | 2001 | Review | Semin Reprod Med | Levonorgestrel-releasing intrauterine system: contraception and reduced menstrual bleeding (no acne-specific data) |
+| [11091988](https://pubmed.ncbi.nlm.nih.gov/11091988/) | 2000 | Review | Obstet Gynecol Clin North Am | Levonorgestrel contraceptive implants: mechanisms and efficacy (no acne-specific data) |
+| [32909630](https://pubmed.ncbi.nlm.nih.gov/32909630/) | 2020 | Systematic review | Cochrane Database Syst Rev | Levonorgestrel-releasing intrauterine system for endometrial hyperplasia (not acne-related) |
 
 ## New Zealand Market Information
 
-Levonorgestrel currently holds no market authorization in New Zealand (0 licenses on file).
+All six licences are cancelled. No approved indication text is available for any of them.
 
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2712164 | Levonorgestrel -1 (Lupin) | Tab 1.5 mg | Not available (cancelled) |
+| 2013908 | Mirena | Intra-uterine device 52 mg | Not available (cancelled) |
+| 2703068 | Jadelle | Subdermal implant (2 x 75 mg rods) | Not available (cancelled) |
+| 2591839 | Microlut | Tab 30 mcg | Not available (cancelled) |
+| 2474891 | Jaydess | Intra-uterine device 13.5 mg | Not available (cancelled) |
+
+A sixth cancelled licence (2645424, Levonorgestrel BNM, Tab 1.5 mg) is also on record.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are marked as data gaps in this evidence pack — DG001, Blocking severity — and were not available at the time of this review.)
-
----
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: hypertension, epilepsy, anxiety and neurotic disorders, porphyria, kidney disease, liver disease, gallbladder disease, hyperglycaemia and diabetes mellitus (including diabetic ketoacidosis), hypothyroidism, systemic lupus erythematosus, asthma, blood coagulation disease, hypertriglyceridaemia, and hypercalcaemia/phosphorus metabolism disorders.
+- **Drug Interactions**: 100 interactions were found; all 20 shown are of moderate level. They include antidiabetic agents (acarbose, canagliflozin, dapagliflozin, ertugliflozin, exenatide, liraglutide, linagliptin, nateglinide, and several insulins), as well as aprepitant, clotrimazole, glycerol phenylbutyrate and linaclotide.
+- **Bone health**: some progestin-only methods are associated with reduced bone density, which matters for a drug originally linked to osteoporosis.
+- Package insert warnings and contraindications were not available, so please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic direction is contradictory — levonorgestrel's androgenic activity could worsen rather than treat acne, and the only supportive clinical evidence comes from combined estrogen+LNG contraceptives, not levonorgestrel alone. Evidence level is L4 (mechanism/preclinical-level), no dedicated single-agent trials exist, and the drug is unmarketed in New Zealand with a blocking safety data gap (package insert warnings/contraindications not yet obtained).
+The TxGNN score is very high, but no clinical trials exist, the only acne RCT tested a combination pill in which the estrogen likely drives the effect, and the androgenicity of levonorgestrel suggests the effect could be neutral or adverse. In New Zealand, all licences are cancelled, and the original indication and safety data are incomplete.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (TFDA/NZ package insert warnings and contraindications) — blocking for S1 safety review
-- Resolve DG002 (levonorgestrel mechanism of action detail) — needed to properly assess mechanistic plausibility
-- Dedicated trial or pharmacoepidemiologic data isolating levonorgestrel's independent effect on acne (vs. combination-product confounding)
-- Clarification of any New Zealand regulatory pathway or market-entry plan, given 0 current authorizations
-- Completion of "pending" study-type/relevance classification for the remaining literature records
+- Mechanism of action data from DrugBank
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Confirmation of the original indication, since the knowledge graph lists osteoporosis, which does not match the drug's known contraceptive use
+- Evidence isolating the effect of levonorgestrel from the estrogen component on acne, such as comparator studies against anti-androgenic progestins
+- Clarification of the status of the cancelled New Zealand licences and which formulations would be relevant
+
+### Other Predicted Indications (Context Only)
+
+| Predicted Indication | TxGNN Score | Evidence Level | Note |
+|------|------|------|------|
+| Worth syndrome | 99.61% | L5 | No trials or literature; no plausible mechanism |
+| Pregnancy associated osteoporosis | 99.45% | L5 | Biologically close to the original indication, but no evidence retrieved and a bone-density safety concern |
+| Autosomal dominant neovascular inflammatory vitreoretinopathy | 99.39% | L5 | No evidence; no plausible mechanism |
+| Blunt duct adenosis of breast | 99.02% | L5 | Hormone-responsive lesion, but direction of effect uncertain |
+| Apocrine adenosis of breast | 99.02% | L5 | Same as above; identical score suggests a shared graph-based prediction |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

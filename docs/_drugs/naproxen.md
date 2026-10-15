@@ -2,7 +2,7 @@
 layout: default
 title: Naproxen
 parent: Model Prediction Only (L5)
-nav_order: 238
+nav_order: 316
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,76 +29,81 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Naproxen: From NSAID Therapy to Brachydactyly-Syndactyly Syndrome
+# Naproxen: From Musculoskeletal Pain and Inflammatory Arthritis to Brachydactyly-Syndactyly Syndrome
 
 ## One-Sentence Summary
 
-Naproxen is a well-known nonsteroidal anti-inflammatory drug (NSAID); however, this evidence pack does not contain recorded data on its original approved indication. TxGNN predicts a possible association with **Brachydactyly-Syndactyly Syndrome**, a rare congenital skeletal disorder, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and no biologically plausible mechanistic link has been identified.
-
----
+Naproxen is a non-steroidal anti-inflammatory drug (NSAID) originally used for arthritis, gout, tendinitis, bursitis, migraine and other pain and inflammatory conditions.
+The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**,
+but there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on a computational prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in evidence pack (Naproxen is a propionic-acid class NSAID generally used for pain/inflammation) |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
+| Original Indication | Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, gout, tendinitis, bursitis, migraine and others (taken from the knowledge-graph indication list, as no approved-indication text is available for the New Zealand licences) |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 99.35% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 5 (all cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (original_moa = Data Gap). Naproxen is generally known as a propionic acid derivative NSAID that inhibits COX-1/COX-2 to reduce prostaglandin synthesis, producing analgesic, anti-inflammatory, and antipyretic effects. This information comes from general pharmacological knowledge and is not sourced from the evidence pack itself.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, naproxen is a non-selective COX-1/COX-2 inhibitor that reduces prostaglandin synthesis. This explains its proven benefit in inflammatory and painful musculoskeletal conditions.
 
-Brachydactyly-syndactyly syndrome is a congenital skeletal malformation associated with mutations in developmental pathways such as GDF5/ROR2, resulting in structural limb abnormalities from birth. This is fundamentally a developmental/structural genetic condition, not an inflammatory or pain-mediated pathology — there is no established pharmacological pathway connecting COX inhibition to correction of congenital limb malformation.
+Brachydactyly-syndactyly syndromes are congenital limb malformations caused by developmental gene variants. An anti-inflammatory and analgesic drug has no plausible disease-modifying role in such a structural condition. The high score (0.994, rank 5394) most likely reflects proximity in the knowledge graph to skeletal and limb-related terms among naproxen's original indications, not a pharmacological rationale. NSAID exposure in pregnancy also raises fetal safety concerns.
 
-The repurposing rationale explicitly flags this as having **no direct mechanistic link**: the high TxGNN score likely reflects co-occurrence of "skeletal/joint"-related nodes within the knowledge graph rather than a genuine causal or therapeutic signal. Notably, all four top-ranked predictions for Naproxen in this pack (brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, acromesomelic dysplasia Hunter-Thompson type, brachyolmia-amelogenesis imperfecta syndrome) are rare congenital skeletal/developmental syndromes with the same absence-of-mechanism pattern — this consistency across the top ranks further supports the interpretation that these are structural artifacts of the graph embedding rather than independent, credible repurposing signals.
-
----
+The other top predictions show the same pattern: colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.2%), acromesomelic dysplasia Hunter-Thompson type (99.2%) and brachyolmia-amelogenesis imperfecta syndrome (99.1%). All are genetic developmental disorders with no trials, no literature and no mechanistic link to COX inhibition. At most, naproxen could give symptomatic pain relief for secondary musculoskeletal complaints, which is not a repurposing indication.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## New Zealand Market Information
 
-No authorization records are available — Naproxen is currently not marketed in this jurisdiction per the evidence pack (0 licenses on file).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2654458 | Noflam 250 | Tab 250 mg | Cancelled; indication text not available |
+| 2654466 | Noflam 500 | Tab 500 mg | Cancelled; indication text not available |
+| 2518619 | Naprosyn SR 1000 | Tab long-acting 1 g | Cancelled; indication text not available |
+| 2725495 | Noflam 250 | Tab 250 mg | Cancelled; indication text not available |
+| 2518627 | Naprosyn SR 750 | Tab long-acting 750 mg | Cancelled; indication text not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph (not label text):** hypertension, liver failure and liver disease, kidney disease, congestive heart failure, coronary artery disease, myocardial infarction, stroke and cerebrovascular disorders, blood coagulation disorders, anaemia, diabetes mellitus and diabetic ketoacidosis, epilepsy, osteoporosis, obesity, gallbladder disease, benign prostatic hyperplasia, and substance abuse or dependence.
+- **Drug Interactions:** The interaction query returned 100 records. The main ones listed are all Moderate:
+  - Acetylsalicylic acid (aspirin)
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone
+  - Metformin and chlorpropamide
+  - Acid-suppressing drugs: famotidine, ranitidine, cimetidine, rabeprazole, dexlansoprazole
+  - Mesalazine and balsalazide
+  - Aprepitant
+  - Potassium citrate and potassium bicarbonate
+  - Bowel preparations: picosulfuric acid, polyethylene glycol with electrolytes
+- **Pregnancy:** NSAID exposure carries fetal safety concerns, which matters for a congenital-malformation indication.
 
-> Note: Warnings/contraindications and drug-drug interaction data could not be retrieved for this evidence pack (query status: not found). This is flagged as a **Blocking** data gap (DG001), as it prevents this candidate from entering the S1 safety pre-screening stage.
-
----
+Please also refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication has an Evidence Level of L5 (model prediction only, no supporting clinical trials or literature), and the repurposing rationale itself identifies no plausible mechanistic connection between Naproxen's NSAID activity and this congenital skeletal disorder. Combined with a Blocking data gap on safety information (package insert warnings/contraindications not yet retrieved), this candidate does not currently meet the bar to advance.
+The prediction is based only on a knowledge-graph score, with no clinical trials, no literature and no plausible mechanistic link. The target condition is a congenital structural disorder that COX inhibition would not be expected to change. All New Zealand licences are cancelled, and naproxen carries a notable cardiovascular, renal and gastrointestinal risk profile.
 
 **To proceed, the following is needed:**
-- Retrieve TFDA/regulatory package insert warnings and contraindications (resolves Blocking gap DG001, required for S1 safety pre-screening)
-- Confirm Naproxen's original approved indication(s) and mechanism of action (DG002) to properly ground original-vs-predicted indication comparison
-- Independent literature/preclinical review to assess whether any plausible biological pathway links NSAID pharmacology to skeletal developmental disorders
-- Given the pattern across all top-4 predictions (rare congenital skeletal syndromes with zero trials/literature and no mechanistic rationale), consider re-evaluating whether this candidate-disease pairing reflects a genuine signal or a knowledge-graph artifact before committing further review resources
+- Mechanism of action data confirmed from DrugBank
+- Package insert warnings and contraindications from Medsafe, which are needed for safety screening
+- Any preclinical or clinical evidence linking naproxen to this condition
+- Confirmation of the current New Zealand regulatory and supply status, given that all licences are cancelled
+- A pregnancy and paediatric safety assessment, given the congenital nature of the target disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

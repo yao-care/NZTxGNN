@@ -2,7 +2,7 @@
 layout: default
 title: Mefenamic Acid
 parent: High Evidence (L1-L2)
-nav_order: 214
+nav_order: 283
 evidence_level: L2
 indication_count: 8
 ---
@@ -29,84 +29,77 @@ Evidence Level: **L2** | Predicted Indications: **8**
 
 </div>
 
-Using no additional skill — this is a direct content-generation task fully specified by the prompt template already in the conversation; I'll follow it directly.
-
-# Mefenamic Acid: From Pain/Inflammatory Conditions to Rheumatoid Arthritis
+# Mefenamic Acid: From Pain and Inflammation (NSAID) to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-> Mefenamic acid is a fenamate-class NSAID whose original regulatory indication data could not be retrieved from New Zealand sources (unmarketed product, no license records).
-> The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**,
-> a use already explored in historical clinical literature, with **3 randomized controlled trials** and **20 publications** currently supporting this direction.
-
----
+Mefenamic acid is a nonsteroidal anti-inflammatory drug (NSAID) that is marketed in New Zealand as Ponstan capsules.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**,
+with **no registered clinical trials** but **20 publications** (several older double-blind comparative trials) supporting symptomatic benefit.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from regulatory records (analgesic/anti-inflammatory NSAID by known drug class) |
-| Predicted New Indication | Rheumatoid Arthritis |
+| Original Indication | Not stated in the available New Zealand licence data |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.73% |
 | Evidence Level | L2 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | ✓ Marketed |
+| Number of Authorizations | 2 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the structured evidence pack. Based on known pharmacology, mefenamic acid is a fenamate-class NSAID that non-selectively inhibits COX-1/COX-2, reducing prostaglandin synthesis and producing direct analgesic and anti-inflammatory effects. This mechanism is a well-established pharmacological fact for the fenamate class, not a speculative inference.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mefenamic acid is an NSAID that inhibits COX-1 and COX-2, which lowers prostaglandin synthesis. Prostaglandins mediate pain and inflammation in rheumatoid arthritis, so symptomatic relief is mechanistically plausible.
 
-Rheumatoid arthritis (RA) is a chronic inflammatory joint disease in which prostaglandin-mediated inflammation drives pain and joint damage — the same pathway mefenamic acid targets. Because of this direct mechanistic overlap, mefenamic acid's anti-inflammatory/analgesic activity is plausibly applicable to RA symptom management.
+Because mefenamic acid is already an NSAID, this is closer to an extension within the same drug class than a true repurposing. It would relieve symptoms only and is not expected to modify the course of the disease.
 
-Notably, this is not a purely novel repurposing signal: mefenamic acid was already studied head-to-head against ibuprofen, phenylbutazone, sulindac, flurbiprofen, and aspirin in RA patients during the 1960s–1970s, indicating the drug class had established clinical use in RA symptomatic treatment historically, even though current regulatory records (TFDA/NZ) show no active license or approved indication text for this specific use.
-
----
+Other predictions in the model output include osteoarthritis susceptibility, headache disorder, migraine disorder, and several rare syndromes. Of these, migraine has the most supporting literature (double-blind trials in menstrual migraine, in acute attacks versus acetaminophen, and in prophylaxis). The rare congenital syndromes (colobomatous microphthalmia-rhizomelic dysplasia and brachydactyly-syndactyly) have no plausible mechanistic link and are likely knowledge-graph artefacts.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT | Current Medical Research and Opinion | Double-blind crossover in 24 RA patients: mefenamic acid, flurbiprofen and sulindac all significantly superior to placebo on pain score, joint tenderness, and morning stiffness |
-| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | RCT | The Journal of International Medical Research | Randomized double-blind within-patient study (n=40): mefenamic acid and ibuprofen showed similar analgesic/anti-inflammatory effect; similar side-effect profile |
-| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | RCT | The Medical Journal of Australia | Double-blind crossover trial: mefenamic acid (1500 mg/day) compared favourably with ibuprofen (1200 mg/day); side effects mild, mostly gastrointestinal |
-| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | Cohort/Case series | Annals of the Rheumatic Diseases | Early clinical study specifically titled "Mefenamic acid in rheumatoid arthritis" |
-| [306128](https://pubmed.ncbi.nlm.nih.gov/306128/) | 1978 | Review | Scottish Medical Journal | Reviews the clinical place of mefenamic acid in RA treatment |
-| [10439](https://pubmed.ncbi.nlm.nih.gov/10439/) | 1976 | Comparative study | The Journal of Rheumatology | Evaluation of 10 antirheumatic drugs (including mefenamic acid) in 684 RA patients using daily pain charts and withdrawal/satisfaction metrics |
-| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | Comparative study | British Medical Journal | Mefenamic acid and flufenamic acid compared with aspirin and phenylbutazone in RA |
-| [6039589](https://pubmed.ncbi.nlm.nih.gov/6039589/) | 1967 | Comparative study | Annals of the Rheumatic Diseases | Outpatient RA drug assessment comparing mefenamic/flufenamic acids with phenylbutazone and aspirin |
-| [4890710](https://pubmed.ncbi.nlm.nih.gov/4890710/) | 1967 | Double-blind study | Reumatismo | Clinical and biohumoral double-blind evaluation of mefenamic acid therapy in RA (preliminary observations) |
-| [20668](https://pubmed.ncbi.nlm.nih.gov/20668/) | 1977 | Review | Seminars in Arthritis and Rheumatism | General review of anti-inflammatory drugs including fenamates |
+| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT (double-blind crossover) | Curr Med Res Opin | In 24 patients, mefenamic acid, sulindac and flurbiprofen were all significantly better than placebo for pain, joint tenderness and morning stiffness |
+| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | RCT (double-blind crossover) | Med J Aust | Mefenamic acid 1500 mg/day compared favourably with ibuprofen; side effects were mild and mainly gastrointestinal |
+| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | RCT (double-blind) | J Int Med Res | In 40 patients, analgesic and anti-inflammatory effect was not significantly different from ibuprofen |
+| [326491](https://pubmed.ncbi.nlm.nih.gov/326491/) | 1977 | Double-blind crossover | Curr Med Res Opin | In 18 patients, mefenamic acid and indomethacin were both significantly better than placebo on most measures |
+| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | Clinical study | Ann Rheum Dis | Early clinical study of mefenamic acid in rheumatoid arthritis (no abstract available) |
+| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | Comparative study | Br Med J | Mefenamic acid and flufenamic acid compared with aspirin and phenylbutazone (no abstract available) |
+| [1455792](https://pubmed.ncbi.nlm.nih.gov/1455792/) | 1992 | Clinical study | Vopr Kurortol Fizioter Lech Fiz Kult | Electrophoresis of mefenamic acid reported complete or partial response in 75% of 125 patients (uncontrolled) |
+| [5676955](https://pubmed.ncbi.nlm.nih.gov/5676955/) | 1968 | Case report (safety) | Br Med J | Three patients developed autoimmune haemolytic anaemia during mefenamic acid therapy; all recovered after withdrawal |
 
----
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 616168 | Ponstan | Cap 250 mg | Not available in the licence data |
+| 2469499 | Ponstan | Cap 250 mg | Not available in the licence data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+- **Disease-related cautions (knowledge graph, not label text)**: Knowledge-graph contraindication links include hypertension, kidney disease, liver disease, gallbladder disease, active peptic ulcer disease, blood coagulation disorders, myocardial infarction and other cardiovascular or heart disease, and haemoglobinopathy.
+- **Drug Interactions**: 100 interactions were identified. Those listed include moderate-level interactions with acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), metformin, chlorpropamide, mesalazine, balsalazide, aprepitant, potassium citrate and potassium bicarbonate. Minor interactions include famotidine, ranitidine and cimetidine.
+- **Literature-reported risks**: Autoimmune haemolytic anaemia, enteropathy with villous atrophy after prolonged use, analgesic-associated renal disease, and medication-overuse headache.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Three randomized controlled trials (1976–1979) and a body of historical literature directly support mefenamic acid's analgesic/anti-inflammatory efficacy in RA patients, and its COX-inhibition mechanism is directly relevant to RA's inflammatory pathology. However, the drug is currently unmarketed in New Zealand and key safety/regulatory data (package insert warnings, contraindications, MOA, DDI) are unavailable, so this cannot proceed without safety gating.
+Several double-blind comparative trials show symptomatic benefit in rheumatoid arthritis, comparable to ibuprofen, indomethacin and sulindac. These trials are old and small, and none are registered clinical trials. Benefit is symptomatic only, and gastrointestinal, renal and cardiovascular risks apply.
 
 **To proceed, the following is needed:**
-- TFDA/NZ package insert warnings and contraindications (currently blocking data gap, DG001)
-- Verified mechanism of action documentation from DrugBank or equivalent source (DG002)
-- Drug-drug interaction profile (current query returned "not_found")
-- New Zealand regulatory pathway assessment, since the product currently has zero active licenses
-- Modern RA-specific trial data, since existing RCT evidence is >45 years old and predates current RA standard-of-care (DMARDs/biologics) comparators
+- Package insert warnings and contraindications from Medsafe, which are currently unavailable and block formal safety screening
+- Approved indication text for the two New Zealand licences
+- Detailed mechanism of action data (for example from DrugBank)
+- Modern, adequately powered trials versus current NSAIDs
+- A monitoring plan for gastrointestinal, renal and cardiovascular risk, with limits on treatment duration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

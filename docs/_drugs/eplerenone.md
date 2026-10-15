@@ -2,7 +2,7 @@
 layout: default
 title: Eplerenone
 parent: Moderate Evidence (L3-L4)
-nav_order: 137
+nav_order: 182
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,37 +29,37 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Eplerenone: From Hypertension / Heart Failure to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
+# Eplerenone: From Hypertension to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
 
 ## One-Sentence Summary
 
-Eplerenone is a selective mineralocorticoid receptor antagonist (MRA), approved internationally for hypertension and heart failure with reduced ejection fraction (HFrEF), though it is not currently registered in Taiwan.
-The TxGNN model predicts it may be effective for **Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia** (Group 3 PH),
-with **0 clinical trials** and **20 publications** retrieved — all of which are general hypoxia biology reviews and do not directly study eplerenone in this indication.
+Eplerenone is a mineralocorticoid receptor antagonist originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia**,
+but there are **no registered clinical trials** and the **13 publications** retrieved are mostly preclinical, indirect, or review-level, so this remains a research question.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension; Heart failure with reduced ejection fraction (international approvals; no Taiwan registration) |
-| Predicted New Indication | Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia (Group 3 PH) |
+|------|------|
+| Original Indication | Hypertension (hypertensive disorder). No approved indication text is available from the New Zealand licence records, so this is taken from the knowledge-graph indication data |
+| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Eplerenone is a selective mineralocorticoid receptor antagonist (MRA) that competitively blocks the aldosterone receptor with greater selectivity than spironolactone, reducing off-target steroid side effects. The theoretical bridge to Group 3 pulmonary hypertension runs through the aldosterone–MR–RAAS axis: chronic hypoxia activates the renin–angiotensin–aldosterone system, and excess aldosterone is known to promote pulmonary vascular fibrosis, endothelial dysfunction, and right ventricular remodeling. In theory, blocking mineralocorticoid receptors could interrupt hypoxia-induced pulmonary vascular remodeling via the HIF-1α/RAAS interaction — a mechanistically coherent but as yet unvalidated pathway.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, eplerenone is a selective mineralocorticoid receptor (MR) antagonist. Its efficacy in hypertension is established, and mechanistically it may be applicable to pulmonary hypertension driven by hypoxia.
 
-However, this reasoning is indirect. The 20 retrieved literature items are all general reviews of hypoxia biology — covering topics such as cerebral hypoxia, tumor hypoxia, and altitude physiology — and none directly evaluate eplerenone's efficacy in pulmonary hypertension. The gap between biological plausibility and actual clinical or preclinical data for this specific drug–disease pair is substantial.
+The literature points to a plausible link. Hypoxia can activate MR signalling and aldosterone synthesis. In preclinical work, hypoxia-driven aldosterone production in pulmonary artery endothelial cells promoted pulmonary vascular fibrosis, and aldosterone signalling promoted abnormal pulmonary artery smooth muscle cell survival. In animal models, eplerenone also reduced hypoxia-related atrial remodelling, and MR antagonists improved established pulmonary arterial hypertension in a rat model.
 
-It should also be noted that eplerenone's detailed mechanism of action data (MOA) was flagged as a data gap in this evidence pack, and Taiwan regulatory data is unavailable. Safety and efficacy conclusions must therefore be drawn from international sources pending further data retrieval.
+These findings are indirect. The human data come from obstructive sleep apnoea with systemic hypertension, not from pulmonary arterial pressure or pulmonary vascular remodelling. The very high TxGNN score is a computational prediction and not clinical evidence.
 
 ---
 
@@ -71,34 +71,42 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-> ⚠️ **Important caveat**: The 20 retrieved publications are general hypoxia biology reviews and are not specific to eplerenone use in pulmonary hypertension. They provide background context on the disease mechanism but do not constitute direct clinical or preclinical evidence for this drug–indication pair. The relevance classification for all items was marked as "pending" in the evidence pack.
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respiratory Care Clinics of North America | Reviews four core mechanisms of hypoxemia (hypoventilation, V/Q mismatch, right-to-left shunt, low FiO₂); foundational disease-mechanism background |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | Journal of Cellular Biochemistry | Hypoxia modulates growth, metabolism, angiogenesis, and pH homeostasis; contributes to vascular disease and cancer pathogenesis |
-| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Review | Trends in Cancer | Deubiquitinases (DUBs) regulate HIF abundance under hypoxia; emerging role as drug targets in cancer |
-| [31961750](https://pubmed.ncbi.nlm.nih.gov/31961750/) | 2020 | Review | Annual Review of Immunology | Hypoxia shapes innate immunity and inflammatory responses through HIF-mediated oxygen sensing in healthy and inflamed tissue |
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Research Reviews | Hypoxia in pulmonary disease or high altitude can cause neurodegeneration; paradoxically may also confer neuroprotection in aging |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Review | Clinical Oncology | Tumor hypoxia drives radiotherapy and immunotherapy resistance; reviews hypoxia-targeted therapeutic modification strategies |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metabolic Brain Disease | Acute and chronic hypoxia cause cognitive dysfunction through multiple molecular mechanisms; clinical and preclinical evidence reviewed |
-| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Original Research | Advanced Science | HIF-1α/NAT10/SEPT9 positive feedback loop drives glycolysis addiction and hypoxia tolerance in gastric cancer; anti-angiogenic resistance mechanism |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review | Redox Biology | Hypoxia is a prominent but poorly understood feature of multiple sclerosis; interacts with inflammation and vascular dysfunction |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Opinion/Review | Revista Medica del IMSS | Hypobaric hypoxia at altitude vs sea level; differences in acclimatization between high-altitude residents and lowland visitors |
+|------|-----|------|------|---------|
+| [27230560](https://pubmed.ncbi.nlm.nih.gov/27230560/) | 2016 | Clinical study (small) | Pol Arch Med Wewn | Eplerenone tested on obstructive sleep apnoea severity and arterial stiffness in resistant hypertension; indirect to pulmonary hypertension |
+| [41483355](https://pubmed.ncbi.nlm.nih.gov/41483355/) | 2026 | Review | Curr Hypertens Rep | Reviews aldosterone blockade for blood pressure and oxygenation in sleep apnoea-related hypertension |
+| [35043674](https://pubmed.ncbi.nlm.nih.gov/35043674/) | 2022 | Preclinical (rat) | Am J Physiol Lung Cell Mol Physiol | Eplerenone and spironolactone tested in established pulmonary arterial hypertension in the SU5416-hypoxia rat model, focusing on interventricular dependence |
+| [29499691](https://pubmed.ncbi.nlm.nih.gov/29499691/) | 2018 | Preclinical | BMC Pulm Med | Eplerenone attenuated pulmonary vascular remodelling more than right ventricular remodelling in pulmonary arterial hypertension |
+| [25001622](https://pubmed.ncbi.nlm.nih.gov/25001622/) | 2014 | Preclinical | Circulation | Hypoxia upregulates StAR and stimulates aldosterone synthesis in pulmonary artery endothelial cells, promoting vascular fibrosis |
+| [27006450](https://pubmed.ncbi.nlm.nih.gov/27006450/) | 2016 | Preclinical | FASEB J | Aldosterone upregulates Raptor (mTORC1) and promotes abnormal pulmonary artery smooth muscle cell survival |
+| [35568141](https://pubmed.ncbi.nlm.nih.gov/35568141/) | 2022 | Preclinical (rat) | Cardiovasc Pathol | Eplerenone improved atrial remodelling induced by chronic intermittent hypoxia |
+| [35346763](https://pubmed.ncbi.nlm.nih.gov/35346763/) | 2022 | Preclinical (rat) | Exp Gerontol | Chronic intermittent hypoxia induced renal fibrosis via MR activation |
+| [15199296](https://pubmed.ncbi.nlm.nih.gov/15199296/) | 2004 | Review | Curr Opin Nephrol Hypertens | Glucocorticoids can activate the mineralocorticoid receptor and contribute to hypertension |
+| [39707386](https://pubmed.ncbi.nlm.nih.gov/39707386/) | 2024 | Preclinical | Cell Commun Signal | Eplerenone reduced cirrhosis-associated changes in hepatocyte glucose and lipid metabolism; hypoxia can activate hepatocyte MR |
 
 ---
 
-## Taiwan Market Information
+## New Zealand Market Information
 
-Eplerenone is not currently registered or marketed in Taiwan. No authorization records are available in the TFDA database. Internationally, eplerenone is approved (e.g., by the US FDA and EMA) for hypertension and heart failure following myocardial infarction, marketed under brand names such as Inspra.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2619512 | Inspra (cancelled) | Tab 25 mg | Not available |
+| 2619520 | Inspra (cancelled) | Tab 50 mg | Not available |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level contraindication signals (knowledge graph, not label text)**: liver disease, gallbladder disease, diabetic nephropathy, impaired renal function disease.
+- **Drug Interactions**: 100 interactions were identified in total. Major-level examples include:
+  - Aprepitant
+  - Clarithromycin
+  - Clotrimazole
+  - Potassium chloride, potassium citrate and potassium bicarbonate (risk of hyperkalaemia)
 
-> ⚠️ **Critical risk flag (Rank 4 predicted indication — Malignant Renovascular Hypertension)**: Renovascular hypertension, especially bilateral renal artery stenosis, is a relative contraindication for mineralocorticoid receptor antagonists. Aldosterone in this context serves as a compensatory renal perfusion mechanism; MR blockade may precipitate acute kidney injury and life-threatening hyperkalemia. If any research design considers eplerenone in patients with concurrent renovascular disease, this safety signal must be explicitly addressed.
+  Moderate-level examples include corticosteroids (hydrocortisone, dexamethasone, prednisone, and others), SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), acetylsalicylic acid, bupropion, miconazole, and the cannabinoids dronabinol and nabilone.
+
+Package insert warnings and contraindications were not available for this report; please refer to the package insert.
 
 ---
 
@@ -107,14 +115,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score (99.50%) for eplerenone in Group 3 pulmonary hypertension, and there is a biologically plausible mechanistic link via RAAS/aldosterone-driven pulmonary vascular remodeling. However, no clinical trials exist for this indication, and all 20 retrieved publications are general hypoxia biology reviews with no direct eplerenone-in-PH data. The evidence is classified as L4 (mechanistic inference only), which is insufficient to advance to clinical evaluation without dedicated preclinical validation.
+The prediction rests on a very high TxGNN score and on preclinical or indirect evidence. No clinical trials target pulmonary hypertension, and no human data address pulmonary pressures. Eplerenone also has no currently valid New Zealand licence, which adds a regulatory barrier.
 
 **To proceed, the following is needed:**
-- Dedicated preclinical studies (animal models of hypoxic PH) evaluating eplerenone's effect on pulmonary arterial remodeling, right ventricular hypertrophy, and hemodynamics
-- Retrieval of eplerenone-specific MOA data from DrugBank to formally confirm the aldosterone–MR–HIF-1α mechanistic link (currently flagged as a data gap)
-- Full safety review: download and parse the TFDA package insert (or international equivalents) to establish key warnings, contraindications, and drug interactions — currently all are marked as data gaps
-- Targeted PubMed search refined to *eplerenone* AND (*pulmonary hypertension* OR *pulmonary vascular remodeling* OR *right ventricular*) to retrieve any missed preclinical or clinical publications not captured by the current hypoxia-broad query
-- Assessment of eplerenone's known safety profile (hyperkalemia, renal impairment risk) in the target population — Group 3 PH patients often carry concurrent lung disease, cardiac comorbidities, and reduced renal reserve, all of which increase MRA-related adverse event risk
+- Direct clinical evidence in pulmonary hypertension, such as a pilot or Phase 2 study with haemodynamic endpoints
+- Detailed mechanism of action data
+- Medsafe package insert warnings and contraindications, which are required for safety screening
+- A regulatory pathway given the cancelled licences, including consideration of a new application or access route
+- A safety plan for hyperkalaemia and renal impairment, given the interaction and contraindication signals
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

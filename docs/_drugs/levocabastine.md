@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Levocabastine
-parent: Moderate Evidence (L3-L4)
-nav_order: 203
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 268
+evidence_level: L5
 indication_count: 2
 ---
 
 # Levocabastine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,72 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Levocabastine: From Undocumented Original Indication to Allergic Urticaria
+# Levocabastine: From Allergic Conjunctivitis to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Levocabastine is a highly selective H1 histamine receptor antagonist currently available only as a topical (nasal/ocular) formulation; the evidence pack does not document its original approved indication or MOA directly, but formulation and literature context point to allergic rhinitis/conjunctivitis as historical use. The TxGNN model predicts potential efficacy for **Allergic Urticaria**, but this is currently supported by **0 clinical trials** and only **2 indirectly relevant publications**, neither of which studies urticaria directly.
-
----
+Levocabastine is a topical antihistamine, originally used to treat allergic conjunctivitis (atopic, papillary and vernal forms).
+The TxGNN model predicts it may be effective for **allergic urticaria**,
+but there are currently **0 registered clinical trials** and only **3 loosely related publications** (none showing efficacy in urticaria), so this remains a model-based hypothesis.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in evidence pack (original_indications field empty; formulation data suggests nasal/ocular topical use) |
-| Predicted New Indication | Allergic Urticaria |
+| Original Indication | Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis |
+| Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.18% |
-| Evidence Level | L4 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 (the Evidence Pack's own scoring lists L4, but without clinical trials or mechanistic studies specific to urticaria, the criteria support only L5) |
+| New Zealand Market Status | ✓ Marketed |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed original mechanism-of-action data for levocabastine is not available in the evidence pack (`original_moa` is unrecorded). However, the model's own repurposing rationale identifies levocabastine as a highly selective H1 histamine receptor antagonist — H1 blockade is the established pharmacological class basis for treating urticaria, so the predicted mechanistic direction is plausible in principle.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, levocabastine is a selective histamine H1-receptor antagonist. Histamine H1 signalling on dermal blood vessels and sensory nerves drives the wheal and flare of allergic urticaria, so the mechanism is biologically plausible.
 
-That said, the supporting literature does not directly address urticaria: one study (PMID 8938880) evaluates intranasal levocabastine in an allergen nasal-challenge model for allergic rhinitis, and the other (PMID 1685361) is a general pharmacokinetic review of second-generation H1-antihistamines as a class, not levocabastine-specific efficacy data.
+The original indications (allergic conjunctivitis) and urticaria are both histamine-mediated allergic conditions. However, levocabastine is marketed only as topical eye drops (and elsewhere as a nasal spray), so systemic exposure is low. Urticaria is a skin disease usually treated with oral H1 antihistamines, and efficacy of levocabastine in it has not been established.
 
-Critically, levocabastine currently exists only in topical (nasal/ocular) formulations. Urticaria is a dermatologic condition requiring systemic drug exposure to reach therapeutic skin-tissue concentrations, and no evidence in this pack demonstrates that a topical formulation can achieve this. This route–indication mismatch is the central gap limiting confidence in the prediction.
+The high TxGNN score reflects similarity to other H1 antagonists at the class level, not drug-specific evidence.
 
----
+A second prediction, rosacea conjunctivitis (score 99.17%), has no trials or literature. Ocular rosacea is driven mainly by meibomian gland dysfunction, lid-margin inflammation, microbial and Demodex factors, and vascular dysregulation, so any benefit would likely be limited to symptomatic relief of itch or redness.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8938880](https://pubmed.ncbi.nlm.nih.gov/8938880/) | 1996 | RCT (allergen challenge, controlled) | Rhinology | Intranasal levocabastine significantly reduced sneezing (p<0.001) vs. placebo in an allergen-induced nasal challenge; evidence is specific to allergic rhinitis, not urticaria |
-| [1685361](https://pubmed.ncbi.nlm.nih.gov/1685361/) | 1991 | Review | Clinical Pharmacokinetics | General PK/PD review of second-generation H1-antihistamines for allergic rhinoconjunctivitis and chronic urticaria as a drug class; not levocabastine-specific efficacy data |
-
----
+| [8938880](https://pubmed.ncbi.nlm.nih.gov/8938880/) | 1996 | Clinical study (randomised, double-blind, placebo-controlled crossover) | Rhinology | In 22 patients with allergic rhinitis, levocabastine nasal spray significantly reduced sneezing and rhinorrhoea after allergen challenge. Not a urticaria study. |
+| [1685361](https://pubmed.ncbi.nlm.nih.gov/1685361/) | 1991 | Review | Clinical Pharmacokinetics | Reviews pharmacokinetic optimisation of second-generation H1 antihistamines in allergic rhinoconjunctivitis and chronic urticaria. Class-level information only. |
+| [42585211](https://pubmed.ncbi.nlm.nih.gov/42585211/) | 2026 | Pharmacovigilance analysis | PLoS One | Descriptive analysis of adverse reactions to azelastine and levocabastine from the WHO VigiAccess database. Safety profile comparison, not efficacy. |
 
 ## New Zealand Market Information
 
-Levocabastine is not currently marketed in New Zealand, and no product authorization records are on file.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2712571 | Livostin | Eye drops 0.5 mg per ml | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The only recorded interaction entry is a pharmacological target association with the NTS2 receptor (NTSR2). No affinity data were found to substantiate it, and no drug–drug interactions with a specified severity were recorded.
 
----
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence level is L4 (mechanism/class-level rationale only), no clinical trials or urticaria-specific literature exist, and a fundamental route–indication mismatch (topical-only formulation vs. a condition requiring systemic exposure) is unresolved. The drug is also not currently marketed in New Zealand, and safety/labeling data are blocked pending source retrieval (per data gap DG001).
+The high TxGNN score is driven by class-level similarity to other H1 antagonists. There are no clinical trials or urticaria-specific literature. The only marketed product is an eye drop with low systemic exposure, which makes efficacy in skin disease doubtful, and the rosacea conjunctivitis prediction has no supporting evidence at all.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed original mechanism of action and approved indication(s) from DrugBank or equivalent primary source (DG002)
-- Feasibility assessment of systemic exposure from topical levocabastine formulations, or evidence of a systemic dosage form
-- Urticaria-specific preclinical or clinical data (current literature only covers allergic rhinitis and general antihistamine PK)
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Confirmed mechanism of action data from DrugBank
+- Evidence of adequate systemic exposure or a suitable formulation for urticaria
+- Any drug-specific clinical data in urticaria (or ocular rosacea) before further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

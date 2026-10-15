@@ -2,7 +2,7 @@
 layout: default
 title: Ustekinumab
 parent: High Evidence (L1-L2)
-nav_order: 358
+nav_order: 473
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Ustekinumab: From Plaque Psoriasis to Dermatitis
+# Ustekinumab: From Psoriasis to Dermatitis
 
 ## One-Sentence Summary
 
-Ustekinumab is a monoclonal antibody originally developed for plaque psoriasis and related inflammatory conditions (general background knowledge; the evidence pack contains no confirmed original-indication or license text).
-The TxGNN model predicts it may be effective for **Dermatitis** (evidence points specifically toward atopic dermatitis),
-with **7 clinical trials** currently supporting this direction and **no published literature** yet identified.
+Ustekinumab is a monoclonal antibody that was originally used to treat psoriasis and psoriatic arthritis.
+The TxGNN model predicts it may be effective for **dermatitis**, with **6 clinical trials** and **20 publications** identified. Only 2 of those trials test ustekinumab directly in atopic dermatitis, and published results show limited efficacy.
 
 ---
 
@@ -43,23 +42,21 @@ with **7 clinical trials** currently supporting this direction and **no publishe
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack (drug is unlicensed in NZ; `original_indications` empty). Publicly known original use: plaque psoriasis/psoriatic arthritis. |
-| Predicted New Indication | Dermatitis (atopic dermatitis) |
+| Original Indication | Psoriatic arthritis, psoriasis, parapsoriasis (from the knowledge graph; no approved indication text is available from the New Zealand licence) |
+| Predicted New Indication | Dermatitis |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L2 |
-| New Zealand Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data from the drug record itself is marked as a data gap. However, based on the repurposing rationale attached to this prediction, ustekinumab's known pharmacology is an anti-IL-12/23 p40 monoclonal antibody that blocks the Th1/Th17 inflammatory pathway.
+Detailed mechanism of action data is not available in the data compiled for this report. Ustekinumab is known to be a human antibody that blocks the p40 subunit shared by interleukin-12 (IL-12) and interleukin-23 (IL-23). This inhibits the Th1 and Th17 immune pathways, which drive psoriasis.
 
-Psoriasis-family disease is strongly Th17-driven, and IL-12/23 blockade has well-established efficacy there — several trials in the evidence set (e.g., the CLEAR trial, NCT02074982) use ustekinumab as an active comparator in plaque psoriasis. Atopic dermatitis, by contrast, is primarily a Th2-driven disease, so the mechanistic link to "dermatitis" as predicted here is comparatively indirect. This raises a specific caution: the TxGNN score may be inflated by ustekinumab's strong association with psoriasis-spectrum disease being folded into the broader "dermatitis" concept, rather than reflecting confirmed efficacy in atopic dermatitis specifically.
-
-The one directly relevant trial (NCT01806662) tested ustekinumab in chronic atopic dermatitis patients with sub-optimal response to prior therapy and completed with n=32 — supportive but small and pilot-scale, not yet sufficient to establish efficacy independently of the psoriasis mechanistic assumption.
+Atopic dermatitis and other inflammatory skin diseases are mainly Th2-driven, but Th1, Th17 and Th22 activity also contributes, particularly in chronic lesions and in Asian or paediatric patients. This gives a plausible but only partial mechanistic rationale. Clinical efficacy in atopic dermatitis has been inconsistent, and any effect is likely smaller than with biologics that target Th2 pathways directly.
 
 ---
 
@@ -67,23 +64,47 @@ The one directly relevant trial (NCT01806662) tested ustekinumab in chronic atop
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Phase 2 | Completed | 32 | Randomized pilot study of ustekinumab in chronic atopic dermatitis with sub-optimal response to prior therapy — the only trial directly testing ustekinumab in an atopic-dermatitis-labeled population. |
-| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Phase 2 | Completed | 79 | Randomized, double-blind, placebo-controlled ustekinumab trial in adult Japanese subjects with severe atopic dermatitis. |
-| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Phase 2/3 | Recruiting | 45 | Contact dermatitis suction-blister model studying skin inflammation with biologic therapies; ustekinumab's specific inclusion is unconfirmed. |
-| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Phase 3 | Completed | 676 | CLEAR trial: secukinumab vs. ustekinumab in moderate-to-severe plaque psoriasis (ustekinumab as active comparator, not the test drug for dermatitis). |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Not yet recruiting | 10 | Cutaneous microdevice testing FDA-approved atopic dermatitis/psoriasis drugs in situ; drug-to-indication mapping unclear. |
-| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | N/A | Completed | 126 | Observational cardiovascular risk assessment in severe psoriasis patients on biologics; indirect safety signal only. |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | Completed | 1000 | Retrospective pharmacogenetic study on biologic therapy survival in cutaneous psoriasis; not a dermatitis efficacy study. |
+| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Phase 2 | Completed | 79 | Randomised, double-blind, placebo-controlled study of two ustekinumab doses in Japanese adults with severe atopic dermatitis; corresponds to the published study (PMID 28338223) |
+| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Phase 2 | Completed | 32 | Randomised pilot of ustekinumab in chronic atopic dermatitis with suboptimal response to prior therapy; small sample limits power |
+| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Phase 2/3 | Active, not recruiting | 45 | Contact dermatitis model using biologics to study skin inflammation; a mechanistic study, not an efficacy trial |
+| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Phase 3 | Completed | 676 | Secukinumab vs ustekinumab in plaque psoriasis (CLEAR); not a dermatitis study |
+| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | N/A | Completed | 126 | Cardiovascular risk in severe psoriasis patients on biologics; not relevant to dermatitis |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Not yet recruiting | 10 | Microdevice for testing drugs in skin conditions such as atopic dermatitis and psoriasis; a technology study with no efficacy evidence |
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | RCT | Exp Dermatol | Phase II placebo-controlled study of ustekinumab in 33 adults with moderate-to-severe atopic dermatitis; limited efficacy |
+| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | Phase II RCT | Br J Dermatol | Randomised, double-blind, placebo-controlled study in Japanese patients with severe atopic dermatitis |
+| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | Systematic review | J Dermatol Treat | Evaluates efficacy and safety of ustekinumab in atopic dermatitis |
+| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | Systematic review/meta-analysis | Allergy | Evidence appraisal of systemic treatments for moderate-to-severe atopic dermatitis, supporting the EAACI guideline |
+| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | Systematic review/meta-analysis | Am J Clin Dermatol | Asks whether biologics are efficacious in atopic dermatitis |
+| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | Real-world evidence analysis | J Dermatol Treat | Real-world effectiveness of ustekinumab in atopic dermatitis; prior anecdotal reports conflicted |
+| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | Review | Dermatol Ther | Review of off-label uses of ustekinumab |
+| [32172523](https://pubmed.ncbi.nlm.nih.gov/32172523/) | 2020 | Review | Clin Drug Investig | Reviews atopic dermatitis therapies that failed clinical trials and possible reasons |
+| [32347968](https://pubmed.ncbi.nlm.nih.gov/32347968/) | 2020 | Review | Contact Dermatitis | Review of biologics in allergic contact dermatitis |
+| [31514420](https://pubmed.ncbi.nlm.nih.gov/31514420/) | 2019 | Review | Children (Basel) | Biologic options for paediatric psoriasis and atopic dermatitis, including off-label use |
+
+---
+
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2455544 | Stelara (cancelled) | Inj 90 mg per ml, 1 ml pre-filled syringe | Not available |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. A blocking data gap (DG001: TFDA/regulatory package-insert warnings and contraindications) currently prevents this candidate from entering the S1 safety evaluation stage.
+- **Drug Interactions**: 100 interactions were identified in total. The main ones are:
+  - **Moderate**: corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisone, prednisolone); anticoagulants (warfarin, apixaban, rivaroxaban, dicoumarol); simvastatin; radiopharmaceuticals and radioimmunotherapies (iobenguane I-131, ibritumomab tiuxetan, tositumomab).
+  - **Minor**: zinc salts (sulfate, acetate, gluconate, chloride).
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -92,13 +113,13 @@ Please refer to the package insert for safety information. A blocking data gap (
 **Decision: Hold**
 
 **Rationale:**
-Evidence level is L2 on the strength of one completed but small Phase 2 pilot RCT (n=32) directly testing ustekinumab in atopic dermatitis, and the mechanistic link is plausible but indirect (Th17-oriented drug applied to a largely Th2-driven disease). More critically, a **Blocking**-severity data gap (missing TFDA/package-insert safety data) prevents this candidate from clearing initial safety evaluation (S1), so a Go or Guardrailed-Proceed decision cannot be responsibly made yet.
+Two completed Phase 2 randomised trials and several reviews test ustekinumab in atopic dermatitis, but efficacy has been limited and inconsistent, and no Phase 3 evidence exists. The only New Zealand licence is cancelled, and the safety data needed for screening are missing.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) to clear the blocking S1 safety gate
-- Confirmed mechanism-of-action documentation from DrugBank to validate the Th17-vs-Th2 mechanistic concern
-- Clarification of whether "dermatitis" evidence reflects atopic dermatitis specifically or is conflated with psoriasis-spectrum trials
-- A larger, adequately powered trial beyond the existing n=32 pilot before advancing past the research-question stage
+- Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A full review of the Phase 2 results (NCT01945086, NCT01806662) to identify any responsive patient subgroups, such as Asian, paediatric or chronic-lesion phenotypes
+- Clarification of the New Zealand regulatory and supply status, since the only licence is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

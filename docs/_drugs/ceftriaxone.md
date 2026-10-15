@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ceftriaxone
-parent: Moderate Evidence (L3-L4)
-nav_order: 68
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 89
+evidence_level: L5
 indication_count: 7
 ---
 
 # Ceftriaxone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,119 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# CEFTRIAXONE: From Bacterial Infections to Hyperamylasemia
+# Ceftriaxone: From Bacterial Infections to Hyperamylasemia
 
 ## One-Sentence Summary
 
-Ceftriaxone is a third-generation cephalosporin antibiotic widely used for treating serious bacterial infections including meningitis, pneumonia, and sepsis.
-The TxGNN model predicts it may have utility in **Hyperamylasemia**, with **0 clinical trials** and **3 publications** currently supporting this direction — all via indirect mechanistic links rather than direct therapeutic evidence.
-At Evidence Level L4, this prediction warrants a **Hold** decision pending mechanistic clarification.
+Ceftriaxone is a broad-spectrum cephalosporin antibiotic, originally used for infections such as bacterial pneumonia, meningitis, gonorrhoea and salmonellosis.
+The TxGNN model's top-ranked prediction is **hyperamylasemia**, but **no clinical trials** and only **3 publications** (a case report, a cohort study and a prophylaxis study, none showing a therapeutic effect) are linked to it.
+A far better-supported prediction is **infectious otitis media**, with **1 registered trial** (which does not test ceftriaxone) and **19 publications**, including a randomised trial of ceftriaxone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Serious bacterial infections (not registered in New Zealand) |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.39% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+|------|------|
+| Original Indication | Streptococcal infection, bacterial pneumonia, bacterial meningitis, gonorrhoea, salmonellosis and others (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Predicted New Indication | Hyperamylasemia (top-ranked). The most plausible alternative is infectious otitis media |
+| TxGNN Prediction Score | 99.39% (hyperamylasemia); 99.26% (infectious otitis media) |
+| Evidence Level | L5 (hyperamylasemia); L3 (infectious otitis media) |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 2 (both cancelled) |
+| Recommended Decision | Hold (hyperamylasemia); infectious otitis media is a research question |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on established pharmacological knowledge, ceftriaxone is a third-generation cephalosporin beta-lactam antibiotic. It exerts its bactericidal effect by binding to penicillin-binding proteins (PBPs) and inhibiting bacterial cell wall synthesis, leading to cell lysis. Its long half-life (6–9 hours) permits once-daily dosing, and its broad spectrum covers gram-positive organisms (including penicillin-resistant *Streptococcus pneumoniae*) and many gram-negative pathogens.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Ceftriaxone is a third-generation cephalosporin, a beta-lactam antibiotic that inhibits bacterial cell wall synthesis. Its efficacy in bacterial infections is well established.
 
-The connection between ceftriaxone and hyperamylasemia is not a direct therapeutic one. The mechanistic link is indirect and operates through two pathways: first, leptospirosis (Weil's syndrome) is a known cause of secondary hyperamylasemia, and ceftriaxone is the drug of choice for treating leptospirosis — treating the underlying infection may resolve the associated enzyme elevation. Second, prophylactic ceftriaxone administered after endoscopic papillosphincterotomy (EPS) may prevent secondary biliary infections, thereby reducing post-procedural pancreatic enzyme elevation.
+**Hyperamylasemia (rank 1):** There is no clear mechanistic link. Hyperamylasemia is a laboratory finding, not an infectious disease. The retrieved literature describes it as a secondary finding in other conditions (Weil syndrome, intracranial bleeding), or concerns ceftriaxone given to prevent infection after endoscopic papillosphincterotomy. The high model score is not supported by clinical evidence.
 
-These relationships represent coincidental or secondary effects rather than a direct mechanism for treating hyperamylasemia per se. The high TxGNN score (99.39%) most likely reflects disease co-occurrence patterns in the knowledge graph — specifically, the shared nodes between infectious disease entities and pancreatic enzyme abnormalities — rather than a genuine repurposing signal. Further mechanistic hypothesis generation is needed before this candidate can advance.
+**Other top-ranked predictions:** Polyclonal hyperviscosity syndrome, congenital analbuminemia and blood group incompatibility also have no identified mechanistic link and no supporting trials. For blood group incompatibility, the only ceftriaxone-related report concerns biliary pseudolithiasis, which is an adverse effect, not a benefit.
+
+**Infectious otitis media (rank 4):** This prediction is biologically plausible. Ceftriaxone is active against the main pathogens of acute otitis media (*Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis*). It is effectively an extension of its existing antibacterial spectrum rather than a novel repurposing mechanism.
+
+**Suppurative and chronic otitis media (ranks 6–7):** Support is weaker. Chronic disease is often caused by *Pseudomonas aeruginosa* and *Staphylococcus aureus*, which ceftriaxone covers poorly, and topical therapy is usually preferred.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for ceftriaxone in hyperamylasemia.
+No clinical trials are registered for hyperamylasemia. Currently no related clinical trials registered for the top-ranked prediction.
+
+For the better-supported prediction, infectious otitis media:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02567825](https://clinicaltrials.gov/study/NCT02567825) | Not applicable | Completed | 250 | Tympanostomy tubes vs nonsurgical management in children with recurrent acute otitis media. It does not test ceftriaxone and is relevant only as disease context |
 
 ---
 
 ## Literature Evidence
 
+**Hyperamylasemia (top-ranked prediction):**
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [10458061](https://pubmed.ncbi.nlm.nih.gov/10458061/) | 1999 | RCT/Observational | *Bratislavske lekarske listy* | Prophylactic ceftriaxone 1 g in 30 patients after endoscopic papillosphincterotomy and gallstone extraction; compared with controls without prophylaxis. Most common bile isolates were *Pseudomonas aeruginosa* and *E. coli*, all sensitive to ceftriaxone. Prophylactic effect on post-procedural biliary/pancreatic enzyme changes was assessed. |
-| [7522351](https://pubmed.ncbi.nlm.nih.gov/7522351/) | 1994 | Observational | *Southern Medical Journal* | Evaluated elevated pancreatic amylase and lipase in 38 patients with intracranial bleeding without pancreatitis; 25 had elevated lipase, 17/25 also had elevated amylase. Describes hyperamylasemia as a neurogenic phenomenon unrelated to antibiotic therapy. |
-| [36263834](https://pubmed.ncbi.nlm.nih.gov/36263834/) | 2023 | Case Report | *Revista española de enfermedades digestivas* | Weil syndrome (leptospirosis) presenting with upper GI bleeding; demonstrates that leptospirosis — for which ceftriaxone is first-line treatment — can cause multi-organ involvement including pancreatic enzyme elevation. Ceftriaxone not directly evaluated for hyperamylasemia. |
+|------|-----|------|------|---------|
+| [10458061](https://pubmed.ncbi.nlm.nih.gov/10458061/) | 1999 | Clinical study | Bratislavske lekarske listy | Ceftriaxone 1 g given to 30 patients after endoscopic papillosphincterotomy, compared with 30 without prophylaxis. The target was infection, not amylase |
+| [7522351](https://pubmed.ncbi.nlm.nih.gov/7522351/) | 1994 | Cohort | Southern Medical Journal | Elevated pancreatic enzymes in 38 patients with intracranial bleeding, without pancreatitis. Ceftriaxone not involved |
+| [36263834](https://pubmed.ncbi.nlm.nih.gov/36263834/) | 2023 | Case report | Revista espanola de enfermedades digestivas | Weil syndrome with upper gastrointestinal bleeding. Not a ceftriaxone treatment study |
+
+**Infectious otitis media (most plausible alternative):**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8989332](https://pubmed.ncbi.nlm.nih.gov/8989332/) | 1997 | RCT | Pediatrics | Single intramuscular ceftriaxone dose compared with 10 days of oral trimethoprim-sulfamethoxazole for acute otitis media |
+| [11099083](https://pubmed.ncbi.nlm.nih.gov/11099083/) | 2000 | Clinical study | Pediatric Infectious Disease Journal | One-day vs three-day intramuscular ceftriaxone in nonresponsive acute otitis media in children |
+| [9877360](https://pubmed.ncbi.nlm.nih.gov/9877360/) | 1998 | Clinical study | Pediatric Infectious Disease Journal | Bacteriologic efficacy of a three-day intramuscular ceftriaxone regimen in nonresponsive acute otitis media |
+| [35841649](https://pubmed.ncbi.nlm.nih.gov/35841649/) | 2022 | Cohort | Int J Pediatr Otorhinolaryngol | Patterns of ceftriaxone use for acute otitis media in US primary care; increased use may mark antimicrobial resistance |
+| [12166789](https://pubmed.ncbi.nlm.nih.gov/12166789/) | 2002 | Consensus recommendations | Clinical Pediatrics | Consensus recommendations for managing acute otitis media |
+| [10688388](https://pubmed.ncbi.nlm.nih.gov/10688388/) | 2000 | Review | Clinical Therapeutics | Combined revised recommendations for antimicrobial therapy of acute otitis media |
+| [39361280](https://pubmed.ncbi.nlm.nih.gov/39361280/) | 2024 | Review | JAMA Network Open | Appropriateness of paediatric outpatient antibiotic prescribing |
+| [20802367](https://pubmed.ncbi.nlm.nih.gov/20802367/) | 2010 | Review | Otology & Neurotology | Prevention and treatment of meningitis and acute otitis media in children with cochlear implants |
+
+For suppurative otitis media, one 1989 comparative study of ceftriaxone against cefotiam is available ([PMID 2523493](https://pubmed.ncbi.nlm.nih.gov/2523493/), Japanese Journal of Antibiotics). Efficacy was 71% with ceftriaxone and 86% with cefotiam in acute suppurative otitis media and acute exacerbation of chronic disease. The remaining literature is mostly microbiological surveys.
 
 ---
 
 ## New Zealand Market Information
 
-Ceftriaxone has no registered product authorizations in New Zealand based on the current Evidence Pack data.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2428644 | Ceftriaxone-AFT | Inj 1 g vial | Not available (status: cancelled) |
+| 2400820 | Ceftriaxone-AFT | Inj 500 mg vial | Not available (status: cancelled) |
+
+Both licences are cancelled, so there is currently no valid ceftriaxone product in New Zealand according to the data compiled.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (not label text): liver disease, gallbladder disease, neonatal jaundice, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis and haemolytic anaemia.
+- **Drug Interactions** (100 interactions recorded; main ones listed):
+  - **Major:** calcium chloride, calcium glucoheptonate, calcium gluconate.
+  - **Moderate:** kanamycin, neomycin, streptomycin, picosulfuric acid.
+  - Others are of unknown severity, e.g. amphotericin B, epinephrine, mannitol and amoxicillin.
+
+Please refer to the package insert for further safety information, including warnings.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (for the top-ranked prediction, hyperamylasemia). Infectious otitis media may be pursued as a research question.
 
 **Rationale:**
-The three retrieved publications link ceftriaxone to hyperamylasemia only through indirect mechanisms — treating an underlying infection (leptospirosis) or preventing post-procedural biliary complications — with no study directly evaluating ceftriaxone as a therapy for hyperamylasemia itself. The TxGNN signal most likely reflects knowledge graph co-occurrence rather than a repurposing-actionable therapeutic relationship.
+- The top-ranked predictions (hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility) have no mechanistic link and no supporting trials. They are L5 model outputs only.
+- Infectious otitis media (L3) is plausible, but it largely reflects ceftriaxone's existing antibacterial spectrum. Both New Zealand licences are cancelled, and the only registered trial does not test ceftriaxone.
 
 **To proceed, the following is needed:**
-
-- A coherent mechanistic hypothesis explaining how ceftriaxone could directly modulate serum amylase levels, independent of infection treatment
-- Preclinical data (in vitro or animal models) demonstrating any direct effect on pancreatic acinar cell function or amylase secretion
-- A systematic literature review to determine whether any population receiving ceftriaxone has shown measurable amylase reduction as a primary outcome
-- Clarification of ceftriaxone's full MOA profile (DrugBank data) to identify any off-target effects relevant to pancreatic physiology
-- Regulatory baseline: obtain package insert warnings and contraindications before any clinical exploration
+- Package insert warnings and contraindications (Medsafe), since safety screening cannot proceed without them
+- Detailed mechanism of action data
+- A New Zealand-valid product and approved indication text
+- For otitis media: current comparative trials against standard first-line therapy, and an assessment of antimicrobial resistance and stewardship concerns, given that guidelines generally favour amoxicillin first
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

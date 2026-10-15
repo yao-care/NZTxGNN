@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Risperidone
-parent: High Evidence (L1-L2)
-nav_order: 308
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 407
+evidence_level: L5
 indication_count: 6
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-# Risperidone: From Psychotic Disorders to Major Affective Disorder
+# Risperidone: From Schizophrenia and Bipolar Disorder to Familial Horizontal Gaze Palsy with Progressive Scoliosis
 
 ## One-Sentence Summary
 
-Risperidone is a widely known atypical antipsychotic (D2/5-HT2A antagonist) generally used for schizophrenia and bipolar disorder — no Taiwan/NZ regulatory indication text is on file for this drug in this evidence pack. Among 6 TxGNN-predicted indications, **Major Affective Disorder** (depression/bipolar spectrum) is by far the strongest candidate, supported by **37 clinical trials** (including multiple completed Phase 3 RCTs directly testing risperidone) and **20 publications**, several of which are systematic reviews/meta-analyses of risperidone augmentation in depression and bipolar disorder. The remaining 5 predicted indications range from weakly indirect (Asperger susceptibility, Phelan-McDermid syndrome, trichotillomania) to mechanistically implausible (gaze palsy with scoliosis, amelocerebrohypohidrotic syndrome) and are not pursued as the headline finding.
+Risperidone is an atypical antipsychotic originally used for schizophrenia, manic episodes in bipolar disorder and autism-related irritability.
+The TxGNN model's top-ranked prediction is **familial horizontal gaze palsy with progressive scoliosis**, an ultra-rare genetic disorder.
+This prediction has **0 clinical trials** and **0 publications** behind it, so it is a computational signal only.
 
 ---
 
@@ -41,71 +43,80 @@ Risperidone is a widely known atypical antipsychotic (D2/5-HT2A antagonist) gene
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available on file (see note below) |
-| Predicted New Indication | Major Affective Disorder |
-| TxGNN Prediction Score | 99.11% |
-| Evidence Level | L1 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Original Indication | Schizophrenia; bipolar disorder (including mania); autism spectrum disorder (the New Zealand licence records contain no indication text, so these come from the drug-disease knowledge graph) |
+| Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
+| TxGNN Prediction Score | 99.76% |
+| Evidence Level | L5 |
+| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
+| Number of Authorizations | 11 (all cancelled) |
 | Recommended Decision | Hold |
-
-**Note on Original Indication:** No Taiwan/NZ license or indication text exists in the regulatory data provided (`market_status: Not marketed`, 0 licenses, `original_indications: []`). The original-indication context above (schizophrenia/bipolar disorder) reflects general public drug knowledge, not data extracted from this evidence pack, and should be confirmed against a formal source before use in any regulatory submission.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on generally known pharmacology, risperidone is a potent dopamine D2 and serotonin 5-HT2A receptor antagonist ("atypical antipsychotic"), a receptor profile long associated with mood-stabilizing and antidepressant-augmenting effects in addition to its antipsychotic action.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Risperidone is generally understood to act as a dopamine D2 and serotonin 5-HT2A receptor antagonist. Its efficacy in schizophrenia and bipolar mania is well established.
 
-Major affective disorder (encompassing bipolar disorder and treatment-resistant major depressive disorder, MDD) sits directly adjacent to risperidone's core pharmacological class. Risperidone is already an established treatment for bipolar mania in several jurisdictions, and its use as an adjunct to SSRIs/SNRIs in treatment-resistant depression is supported by multiple completed Phase 3 randomized controlled trials in this evidence pack (e.g., NCT00095134, NCT00044681) plus several systematic reviews and meta-analyses of second-generation antipsychotic augmentation in MDD. This is a mechanistically direct and clinically well-precedented link, not merely a computational artifact.
-
-For context, the top-ranked TxGNN prediction overall ("gaze palsy, familial horizontal, with progressive scoliosis," score 99.76%) is explicitly flagged in this evidence pack's own rationale as having "no known mechanistic or clinical link" to risperidone's receptor pharmacology — a rare ROBO3-mutation brainstem axon-guidance disorder — and returned zero trials and zero literature. "Amelocerebrohypohidrotic syndrome" (rank 3) is similarly a rare ectodermal dysplasia with no plausible pharmacological connection and no evidence. "Asperger syndrome, susceptibility to" (rank 2) and "Phelan-McDermid syndrome" (rank 4) have indirect support only — risperidone is used off-label for irritability/behavioral symptoms in autism-spectrum populations broadly, but no disease-specific trials or strong literature exist for either entity in this pack. "Trichotillomania" (rank 5) has 10 case-report/case-series-level publications (L3) showing SSRI-augmentation benefit but no RCTs. None of these four match the strength of evidence behind Major Affective Disorder, so this report focuses on that indication.
+**For the top-ranked prediction, no plausible mechanistic link was found.** Familial horizontal gaze palsy with progressive scoliosis is an ultra-rare disorder linked to *ROBO3*, with neurodevelopmental and structural causes. Nothing in dopamine/serotonin receptor antagonism explains a benefit in this condition. The very high score (rank 2,631 among all predictions) reflects the knowledge-graph model's pattern matching, not biological or clinical evidence. It should not be read as a treatment signal.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) | Phase 3 | Completed | 630 | Adjunctive risperidone vs. placebo in MDD with sub-optimal response to standard antidepressant therapy |
-| [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) | Phase 3 | Completed | 258 | Risperidone augmentation of SSRI monotherapy in young and older adults with unipolar treatment-resistant depression, including long-term maintenance effect |
-| [NCT00391222](https://clinicaltrials.gov/study/NCT00391222) | Phase 3 | Completed | 585 | Risperidone long-acting injectable monotherapy vs. placebo for prevention of mood episodes in bipolar I disorder |
-| [NCT00277654](https://clinicaltrials.gov/study/NCT00277654) | Phase 3 | Completed | 111 | Risperidone monotherapy vs. placebo in ambulatory bipolar disorder with comorbid panic disorder/generalized anxiety disorder |
-| [NCT00167479](https://clinicaltrials.gov/study/NCT00167479) | Phase 4 | Completed | 60 | Risperidone monotherapy efficacy/tolerability in bipolar disorder with moderately severe anxiety |
-| [NCT00107939](https://clinicaltrials.gov/study/NCT00107939) | Phase 3 | Completed | 453 | Adjunctive therapy trial in bipolar mania where risperidone was one of five background atypical antipsychotics studied |
-| [NCT00057681](https://clinicaltrials.gov/study/NCT00057681) | Phase 3 | Completed | 379 | TEAM study: lithium vs. valproate vs. risperidone in children/adolescents with bipolar disorder or mania symptoms |
-| [NCT00571688](https://clinicaltrials.gov/study/NCT00571688) | Phase 4 | Completed | 50 | Risperidone Consta (LAI) vs. treatment-as-usual for reducing relapse/rehospitalization in bipolar disorder |
-| [NCT01282632](https://clinicaltrials.gov/study/NCT01282632) | Phase 1/2 | Completed | 42 | Pilot trial of risperidone vs. olanzapine as add-on to a failed SSRI in treatment-resistant depression |
-| [NCT00203723](https://clinicaltrials.gov/study/NCT00203723) | Phase 4 | Terminated | 45 | Combined ECT + risperidone vs. ECT alone for treatment-resistant depression |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [17975181](https://pubmed.ncbi.nlm.nih.gov/17975181/) | 2007 | RCT | Annals of Internal Medicine | Randomized trial of risperidone for treatment-refractory major depressive disorder |
-| [25295435](https://pubmed.ncbi.nlm.nih.gov/25295435/) | 2014 | Population-based study | Journal of Clinical Psychiatry | Nationwide effectiveness study of aripiprazole/olanzapine/quetiapine/risperidone augmentation for MDD |
-| [21154393](https://pubmed.ncbi.nlm.nih.gov/21154393/) | 2010 | Cochrane systematic review | Cochrane Database of Systematic Reviews | Second-generation antipsychotics (incl. risperidone) for major depressive disorder and dysthymia |
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematic review + network meta-analysis | Journal of Affective Disorders | Compares efficacy/discontinuation of augmentation agents, including risperidone, in treatment-resistant depression |
-| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | Systematic review + meta-analysis | Journal of Psychopharmacology | Augmentation/combination treatments for early-stage treatment-resistant depression |
-| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | Systematic review + meta-analysis | Psychological Medicine | Efficacy and safety/tolerability of antipsychotics (monotherapy and adjunctive) in adult MDD |
-| [24919175](https://pubmed.ncbi.nlm.nih.gov/24919175/) | 2014 | Meta-analysis | Brazilian Journal of Medical and Biological Research | Efficacy/tolerability of antidepressant augmentation with atypical antipsychotics (17 trials, 3807 patients) in MDD |
-| [23554581](https://pubmed.ncbi.nlm.nih.gov/23554581/) | 2013 | Meta-analysis | PLoS Medicine | Adjunctive atypical antipsychotic treatment for MDD: depression, quality-of-life, and safety outcomes |
-| [21189367](https://pubmed.ncbi.nlm.nih.gov/21189367/) | 2011 | Review | The Annals of Pharmacotherapy | Efficacy and safety review of risperidone augmentation specifically for MDD |
-| [20486830](https://pubmed.ncbi.nlm.nih.gov/20486830/) | 2010 | Review | Expert Opinion on Pharmacotherapy | Risperidone long-acting injection as monotherapy and adjunctive therapy in maintenance treatment of bipolar I disorder |
+Currently no related literature available.
+
+---
+
+## Other Predicted Indications Worth Noting
+
+The top-ranked prediction has no support, but other predictions for this drug have more evidence:
+
+| Rank | Predicted Indication | Score | Evidence Level | Evidence Found | Recommendation |
+|------|------|------|------|------|------|
+| 2 | Asperger syndrome, susceptibility to | 99.74% | L5 | None. It falls within the autism spectrum, which is already an approved use, so this is not a novel signal. | Hold |
+| 3 | Amelocerebrohypohidrotic syndrome | 99.69% | L5 | None. Antipsychotics can lower the seizure threshold, which is a concern in a population with epilepsy. | Hold |
+| 4 | Phelan-McDermid syndrome | 99.59% | L4 | 2 publications: a clinical management review and a zebrafish *shank3* study. No human efficacy data for risperidone. | Research Question |
+| 5 | Trichotillomania | 99.51% | L4 | 9 publications, mostly case reports and small case series of risperidone added to SSRIs. No RCT or registered trial. | Research Question |
+| 6 | Major affective disorder | 99.11% | L1 | 11 trials and 19 publications. Two completed Phase 3 RCTs of risperidone augmentation in treatment-resistant depression: [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) (n=630) and [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) (n=258). Supported by meta-analyses ([PMID 34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/), [PMID 35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/), [PMID 34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/)). | Proceed with Guardrails |
+
+The disease node for "major affective disorder" mixes unipolar depression and bipolar disorder. The bipolar trials largely reflect existing on-label use, so the repurposing-relevant signal is the depression augmentation data. It is also unclear whether every Phase 3 trial met its primary endpoint.
 
 ---
 
 ## New Zealand Market Information
 
-Risperidone is currently **not marketed** in New Zealand under this evidence pack's regulatory data source, with 0 authorizations on file. No product license records are available to summarize.
+All 11 licences are cancelled. Five representative entries:
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2347652 | Risperdal Consta | Inj 25 mg vial | Not stated (cancelled) |
+| 2347660 | Risperdal Consta | Inj 50 mg vial | Not stated (cancelled) |
+| 245402 | Risperdal | Tab 4 mg | Not stated (cancelled) |
+| 2466910 | Risperidone (Teva) | Tab 2 mg | Not stated (cancelled) |
+| 2662396 | Risperon | Oral liq 1 mg per ml | Not stated (cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all marked as data gaps in this evidence pack; the TFDA package insert warnings/contraindications item is flagged as a **Blocking** data gap — DG001 — that must be resolved before a formal safety assessment (S1) can proceed.)
+- **Conditions flagged in the drug-disease knowledge graph** (from knowledge-graph contraindication links, not package insert text), grouped as follows:
+  - Cardiovascular and cerebrovascular: stroke, cerebrovascular disorder, cerebral infarction, myocardial infarction, sudden cardiac arrest, heart conduction disease, cardiovascular disease, heart disease
+  - Blood pressure: orthostatic hypotension, hypotensive disorder, multiple system atrophy, postural orthostatic tachycardia syndrome
+  - Metabolic: diabetes mellitus, hyperglycemia, diabetic ketoacidosis, hyperlipidemia, familial hyperlipidemia, obesity
+  - Haematological: neutropenia, agranulocytosis, hemoglobinopathy
+  - Hepatic and biliary: liver failure, liver disease, gallbladder disease
+  - Other: epilepsy, female breast carcinoma
+- **Drug Interactions**: 100 interactions were identified. The main ones from the list reviewed are:
+  - **Major**: bupropion, morphine
+  - **Moderate**: metformin, acarbose, alogliptin, albiglutide, canagliflozin (glucose-lowering agents); atropine, hyoscyamine, glycopyrronium, clidinium (anticholinergics); epinephrine, hydrocortisone, amphotericin B, famotidine, loperamide, lorcaserin, bisacodyl
+  - **Minor**: ranitidine
+- For wording of warnings and contraindications, please refer to the package insert.
 
 ---
 
@@ -114,14 +125,13 @@ Please refer to the package insert for safety information. (Key warnings, contra
 **Decision: Hold**
 
 **Rationale:**
-Efficacy evidence for risperidone in major affective disorder is strong (L1 — multiple completed Phase 3 RCTs plus several systematic reviews/meta-analyses), but the Blocking data gap on TFDA package insert warnings/contraindications (DG001) means a formal safety evaluation cannot yet be completed, and the drug has no current NZ market presence in this dataset.
+The top-ranked prediction rests only on a knowledge-graph score. There are no trials or publications and no plausible mechanism for an ultra-rare genetic gaze disorder. Risperidone also has no valid New Zealand licence at present.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert warnings and contraindications (Blocking gap, DG001)
-- Confirmed original indication and MOA data from DrugBank or an authoritative label (DG002)
-- Formal DDI dataset (current query returned `not_found`)
-- Clarification of NZ market and licensing status, since no product is currently on file
-- Disease-specific evaluation of the four indirect/low-evidence predictions (Asperger susceptibility, Phelan-McDermid syndrome, trichotillomania) if pursued as secondary candidates
+- The Medsafe package insert, to complete safety screening (a blocking gap)
+- Detailed mechanism of action data
+- If the aim is productive repurposing, redirect review to the better-supported candidate, major affective disorder (treatment-resistant depression augmentation). That review should include confirmation of Phase 3 primary endpoint outcomes, a metabolic, prolactin, extrapyramidal and somnolence monitoring plan, and verification of the cancelled market status before any regulatory pathway is considered.
+- Trichotillomania and Phelan-McDermid syndrome could be handled as research questions only, pending controlled studies.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rifaximin
-parent: Model Prediction Only (L5)
-nav_order: 305
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 404
+evidence_level: L4
 indication_count: 6
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-Not needed here — I have everything required directly in the evidence pack. Proceeding to generate the report.
-
-# Rifaximin: From (No Approved Indication on File) to Oral Candidiasis
+# Rifaximin: From Hepatic Encephalopathy to Oral Candidiasis
 
 ## One-Sentence Summary
 
-> Rifaximin is a rifamycin-class, gut-restricted oral antibiotic; it is not currently marketed in Taiwan and no approved-indication text is on file. The TxGNN model predicts it may be effective for **Oral Candidiasis**, but this direction is supported by only **1 publication** (no clinical trials), and that publication actually reports rifaximin use as a *risk factor* for resistant *Candida* infection — not a treatment effect.
-
----
+Rifaximin is a non-absorbed, gut-targeted antibiotic, originally used for hepatic encephalopathy and hepatic coma.
+The TxGNN model predicts it may be effective for **oral candidiasis**, but the data compiled for this report include **no clinical trials** and only **1 publication**, and that publication points toward an increased risk of Candida infection rather than a benefit.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no Taiwan license/approved-indication text on file (drug is not marketed in Taiwan) |
-| Predicted New Indication | Oral Candidiasis |
+| Original Indication | Hepatic encephalopathy, hepatic coma (the New Zealand licence record has no approved indication text) |
+| Predicted New Indication | Oral candidiasis |
 | TxGNN Prediction Score | 99.75% |
-| Evidence Level | L5 (model prediction only; the one literature hit contradicts rather than supports efficacy) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for rifaximin is not available in this evidence pack. Based on general pharmacological knowledge, rifaximin is a non-absorbable, gut-restricted rifamycin derivative that inhibits bacterial DNA-dependent RNA polymerase; it is used clinically (outside Taiwan) for conditions such as hepatic encephalopathy, IBS-D, and traveler's diarrhea. It has **no known antifungal or anti-*Candida* mechanism**.
+Detailed mechanism of action data are not available. Based on known information, rifaximin is an oral, minimally absorbed antibiotic that acts within the gut. Its efficacy in hepatic encephalopathy is established, and it works by reducing gut bacteria.
 
-Oral candidiasis is a fungal infection, and there is no established pharmacological pathway by which a gut-selective antibacterial agent would be expected to treat it. The only literature retrieved for this prediction (PMID 34180023) points in the *opposite* direction: it describes rifaximin use as favouring the emergence of micafungin-resistant *Candida* infections in allogeneic HSCT recipients, most likely via disruption of gut microbial balance rather than any therapeutic effect. This is evidence of a **risk association, not a treatment signal**.
+The prediction does not hold up well mechanistically. Rifaximin has no known direct antifungal activity. The only publication found (PMID 34180023, 2021) is a cohort study in allogeneic stem cell transplant recipients, and it reports that rifaximin use **favoured** micafungin-resistant Candida infections. This is most likely due to disruption of the gut microbiota. It is a safety signal, not a therapeutic benefit. The high TxGNN score is probably a graph-based artifact and is not supported by biological plausibility or clinical data.
 
-Taken together, the TxGNN score likely reflects proximity in the knowledge-graph embedding space (e.g., shared "gut/infection" nodes) rather than a genuine, evidence-backed mechanistic link. This is not a case where absence of trials simply reflects an early-stage but plausible hypothesis — the one piece of available evidence actively argues against the prediction.
-
----
+Other top-ranked predictions (commissural lip fistula, osteoradionecrosis of the mandible, oral leukoedema, burning mouth syndrome) have no trials or literature and no plausible mechanistic link. A related prediction, candidiasis, shows the same pattern: the two available observational studies point toward risk rather than benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Case report/observational | Annals of Hematology | In allogeneic HSCT recipients, rifaximin use was associated with (favoured) emergence of micafungin-resistant *Candida* spp. infections — a risk signal, not a treatment finding |
+| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Cohort | Annals of Hematology | In allogeneic stem cell transplant recipients, rifaximin use was associated with more micafungin-resistant Candida infections. This is a risk signal, not evidence of benefit. |
 
----
+## New Zealand Market Information
 
-## Taiwan Market Information
-
-No authorizations on file. Rifaximin is not currently marketed in Taiwan (0 licenses).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2449935 (cancelled) | Xifaxan | Tab 550 mg | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug–drug interaction data are not yet available in this evidence pack — TFDA package insert retrieval is flagged as a blocking data gap.)
+- **Knowledge-graph contraindications** (from disease-level graph data, not label text): Clostridium difficile colitis; perinatal necrotizing enterocolitis.
+- **Fungal infection risk**: Available observational data link rifaximin use to Candida infections, including micafungin-resistant strains, in transplant recipients.
+- **Drug Interactions**: 69 interactions were identified in total. Most listed ones are Moderate, including alpelisib, apalutamide, cyclosporine, warfarin, tolvaptan, daclatasvir, ledipasvir and cabozantinib. One **Major** interaction was flagged: the live oral cholera vaccine (Vibrio cholerae CVD 103-HgR strain).
 
----
+Package insert warnings and contraindications could not be obtained. Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a TxGNN embedding score with no clinical trials and no mechanistic rationale for antifungal activity. The single available publication points against, not toward, therapeutic benefit — rifaximin use was linked to *increased* resistant-*Candida* risk rather than efficacy against oral candidiasis. This is insufficient, and directionally unfavorable, evidence to advance.
+The prediction rests almost entirely on a model score. There are no clinical trials, the single publication suggests harm rather than benefit, and no plausible antifungal mechanism exists. The product is also no longer licensed in New Zealand.
 
 **To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications data (currently a blocking data gap)
-- Confirmed mechanism-of-action data for rifaximin (currently a data gap)
-- In vitro or preclinical data testing rifaximin against *Candida* species, since no antifungal mechanism is currently established
-- Independent re-review of the TxGNN prediction given that the only real-world evidence found contradicts the predicted direction
-- If pursued further, safety monitoring should specifically address gut microbiome disruption and secondary fungal infection risk, not just standard antibacterial safety review
+- Package insert warnings and contraindications from Medsafe, which are required before any safety screening
+- Mechanism of action data from DrugBank
+- Any prospective evidence of antifungal or oral-cavity benefit, which is currently absent
+- Further evaluation of the Candida risk signal, accounting for confounding by indication in patients with cirrhosis and transplant recipients
+- Clarification of the cancelled licence status and the original approved indication in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

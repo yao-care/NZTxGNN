@@ -2,7 +2,7 @@
 layout: default
 title: Crotamiton
 parent: Model Prediction Only (L5)
-nav_order: 88
+nav_order: 119
 evidence_level: L5
 indication_count: 0
 ---

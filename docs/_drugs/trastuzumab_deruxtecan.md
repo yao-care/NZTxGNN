@@ -2,7 +2,7 @@
 layout: default
 title: Trastuzumab Deruxtecan
 parent: Model Prediction Only (L5)
-nav_order: 349
+nav_order: 463
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,31 +29,31 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Trastuzumab Deruxtecan: From HER2-Targeted Cytotoxic Therapy to Drug-induced Osteoporosis
+# Trastuzumab Deruxtecan: From HER2-Expressing Cancers to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-Trastuzumab deruxtecan is a HER2-targeted antibody-drug conjugate (ADC) combining an anti-HER2 antibody with a cytotoxic topoisomerase I inhibitor payload; its original approved indication is not documented in the current evidence pack. The TxGNN model predicts a possible signal for **Drug-induced Osteoporosis**, but this is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags the prediction as likely knowledge-graph noise.
+Trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate carrying a topoisomerase I inhibitor payload, used in HER2-expressing cancers. The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but **no clinical trials and no publications** currently support this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in evidence pack (drug class: HER2-targeted antibody-drug conjugate, cytotoxic chemotherapy) |
-| Predicted New Indication | Drug-induced Osteoporosis |
+| Original Indication | No approved indication text is available in the New Zealand licence records (the drug is used in HER2-expressing cancers) |
+| Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (DG002, High severity data gap). Based on the information present in this evidence pack, trastuzumab deruxtecan is known to be a HER2-targeted antibody-drug conjugate (ADC) — the antibody component binds HER2, and the conjugated cytotoxic payload is released intracellularly, placing it in the cytotoxic chemotherapy drug class.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate. Its payload, deruxtecan (an exatecan derivative), inhibits topoisomerase I and is cytotoxic to HER2-expressing tumour cells.
 
-Unlike typical repurposing signals where a shared pathway links the original and predicted indications, no such mechanistic link could be established here. Bone density regulation operates through the osteoclast–osteoblast (RANK/RANKL/OPG) axis, and there is no known direct interaction between HER2-ADC pharmacology and this pathway.
+The link between the original use and the predicted indication is weak. Bone remodelling (osteoblast/osteoclast balance, RANKL/OPG, Wnt signalling) is not a recognised target of HER2 blockade or topoisomerase I inhibition. The high score of 0.993 (rank 5693) is a knowledge-graph prediction. It likely reflects network proximity or shared associations rather than a biological rationale.
 
-The model's own rationale explicitly flags this as a low-confidence signal: despite a high raw TxGNN score, the prediction has **zero corroborating clinical trials or literature**, and the evidence pack notes this is "suspected to be knowledge-graph relational noise (high score but no supporting evidence), requiring manual review of the underlying KG edge provenance." This prediction should be treated as hypothesis-generating only, not as an actionable repurposing candidate at this stage.
+The predicted direction of effect is also questionable. Cytotoxic payloads and oncology therapies are more often associated with adverse bone effects than with bone protection. On current information, this prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -65,34 +65,50 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-This drug is currently **not marketed** in New Zealand (0 authorizations on file); no product/license records are available in the evidence pack.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2678276 | Enhertu (cancelled) | Inj 100 mg per ml, 1 ml vial | Not recorded |
+| 2697610 | Baxter (cancelled) | Inj 1 mg for ECP | Not recorded |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (HER2-directed antibody-drug conjugate) with cytotoxic payload |
+| Cytotoxicity Classification | Antibody-drug conjugate with a cytotoxic topoisomerase I inhibitor payload (targeted therapy with cytotoxic component) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Must follow cytotoxic drug handling regulations (ADC/cytotoxic payload class) |
+| Monitoring Items | Please refer to the package insert warnings and precautions (typically blood counts, liver and renal function) |
+| Handling Protection | Handle according to cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screening found 42 interacting drugs. Examples of the Major-level interactions shown are:
+  - Deferiprone
+  - Samarium (153Sm) lexidronam
+  - Adalimumab
+  - Baricitinib
+  - Certolizumab pegol
+  - Cladribine
+  - Leflunomide
+  - Natalizumab
+
+  Moderate-level examples include palifermin, strontium chloride Sr-89, roflumilast, chloramphenicol, alemtuzumab, anakinra, azathioprine, canakinumab, dimethyl fumarate and niraparib. Many of these are immunosuppressive or myelosuppressive agents, so overlapping toxicity is a concern.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication has no supporting clinical trials or literature (Evidence Level L5), and the mechanistic rationale itself flags the signal as likely graph noise rather than a biologically plausible connection. Combined with missing TFDA/insert safety data (DG001, Blocking) and missing MOA data (DG002, High), there is currently no basis to advance this candidate.
+The prediction is supported only by the model score (L5). There are no clinical trials or publications, no credible mechanistic link, and a plausible risk of adverse bone effects. The product also has no currently valid New Zealand licence.
 
 **To proceed, the following is needed:**
-- Manual review of the underlying TxGNN knowledge-graph edge provenance for this prediction
-- Confirmed original indication and mechanism of action (MOA) data
-- Package insert / regulatory safety data (warnings, contraindications, DDI) — currently Blocking gap DG001
-- Any preclinical or case-level evidence linking HER2-ADC therapy to bone density effects, if it exists
+- Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A literature and trial search to confirm whether any bone-related evidence exists
+- Preclinical or mechanistic evidence for an effect on bone remodelling
+- Clarification of the original approved indications and licensing status in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

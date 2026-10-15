@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bedaquiline
-parent: High Evidence (L1-L2)
-nav_order: 45
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 58
+evidence_level: L5
 indication_count: 10
 ---
 
 # Bedaquiline
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,124 +29,100 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Bedaquiline: From MDR-TB Treatment to Inactive Tuberculosis (Latent TB Prevention)
+# Bedaquiline: From Pulmonary Tuberculosis to Inactive (Latent) Tuberculosis
 
 ## One-Sentence Summary
 
-Bedaquiline (Sirturo) is a diarylquinoline antibiotic approved globally for multidrug-resistant tuberculosis (MDR-TB) treatment, though not currently registered in New Zealand.
-The TxGNN model predicts it may be effective for **Inactive Tuberculosis** (latent TB prevention), with **3 registered clinical trials** — including one Phase 2/3 trial enrolling 2,530 participants — and **20 publications** currently supporting this direction, representing a meaningful clinical shift from treating active disease to preventing reactivation.
-
-> **Note on TxGNN rankings:** The top-ranked prediction by TxGNN score is *tuberculosis, bovine* (rank 1, score 99.96%), followed closely by *tuberculous ascites* (rank 2), *tuberculoma* (rank 3), *inactive tuberculosis* (rank 4), and *avian tuberculosis* (rank 5) — all with near-identical scores (~99.96%). This report focuses on **inactive tuberculosis** (rank 4) as the primary subject because it carries the strongest clinical evidence (L2, Phase 2/3 RCT) and the most actionable repurposing rationale. Other TB-spectrum predictions are summarised in the Predicted Indication Landscape section below.
+Bedaquiline was originally developed to treat pulmonary tuberculosis and multidrug-resistant tuberculosis.
+The TxGNN model predicts it may be effective for **inactive tuberculosis** (preventive treatment), with **3 clinical trials** and **19 publications** currently related to this direction. The only trial that directly tests this use is still recruiting and has no results yet.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Multidrug-resistant tuberculosis (MDR-TB) — globally approved; not registered in New Zealand |
-| Predicted New Indication | Inactive Tuberculosis (Latent TB Prevention) |
-| TxGNN Prediction Score | 99.96% (rank 660/total) |
-| Evidence Level | L2 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+|------|------|
+| Original Indication | Pulmonary tuberculosis; multidrug-resistant tuberculosis (the New Zealand licence record contains no approved indication text) |
+| Predicted New Indication | Inactive tuberculosis (the top-ranked prediction by score is bovine tuberculosis; inactive tuberculosis is the best-supported one and is the focus of this report) |
+| TxGNN Prediction Score | 99.96% |
+| Evidence Level | L2 (a Phase 2/3 trial is registered but not completed, so this level is provisional) |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Bedaquiline works by selectively inhibiting the mycobacterial F₀F₁-ATP synthase — specifically binding the *c*-subunit of the F₀ membrane rotor — thereby blocking the proton translocation required for ATP generation. This mechanism is lethal even to dormant, non-replicating *M. tuberculosis* bacilli that are in a low-energy metabolic state, a property that sharply distinguishes bedaquiline from most first-line TB drugs (isoniazid, rifampicin) whose bactericidal activity depends on active bacterial replication. The drug's selectivity is exceptional: human mitochondrial ATP synthase shows >20,000-fold lower sensitivity compared to mycobacterial ATP synthase, providing a large therapeutic window.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, bedaquiline inhibits the F-ATP synthase (subunit c) of mycobacteria, which impairs the bacterium's energy metabolism. Its efficacy in drug-resistant pulmonary tuberculosis is established.
 
-This unique activity against dormant bacilli is precisely why the leap from *treating* MDR-TB to *preventing reactivation* of latent TB (LTBI/inactive TB) is mechanistically coherent. Latent TB exists in a dormant state sustained by low-energy metabolism; bedaquiline's ability to sterilize even non-replicating organisms suggests it could clear the bacterial reservoir that drives reactivation. A 2022 mouse model study confirmed that long-acting bedaquiline formulations showed sustained antituberculosis activity for preventive therapy scenarios (PMID 34939891), directly validating the animal proof-of-concept.
+Inactive (latent) tuberculosis is a persistent, low-replication infection with *Mycobacterium tuberculosis*. Because bedaquiline acts on energy production and is active against non-replicating bacilli, it may be applicable to preventive therapy. This is especially relevant for contacts of patients with multidrug-resistant TB, who cannot be protected by standard preventive regimens.
 
-The most significant safety challenge for this repurposing is the risk-benefit recalibration: current LTBI standard regimens (isoniazid, rifapentine) have well-established short-course safety profiles, while bedaquiline carries a risk of QT prolongation and hepatotoxicity that was accepted in the context of life-threatening MDR-TB, but requires more rigorous justification for a preventive indication in otherwise healthy or HIV-positive contacts. Defining the specific subpopulations — drug-resistant TB contacts, people living with HIV (PLHIV) — where the benefit clearly outweighs this risk is the central clinical question driving BREACH-TB.
+The prediction should still be read cautiously. The score reflects a model prediction, and no efficacy results for this use are yet available.
 
 ---
 
 ## Clinical Trial Evidence
 
-*(Inactive Tuberculosis — Rank 4)*
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06568484](https://clinicaltrials.gov/study/NCT06568484) | Phase 2/3 | Not Yet Recruiting | 2,530 | BREACH-TB: Seamless Phase 2/3 non-inferiority trial comparing 4-week bedaquiline vs. standard preventive regimen in PLHIV and high-risk contacts of DS-TB or RR-TB cases; 72-week follow-up for confirmed/probable TB disease |
-| [NCT05766267](https://clinicaltrials.gov/study/NCT05766267) | Phase 2/3 | Active, Not Recruiting | 288 | CRUSH-TB: 17-week bedaquiline + moxifloxacin + pyrazinamide ± rifabutin/delamanid vs. standard 6-month regimen for pulmonary TB; efficacy/safety data directly informs dosing parameters relevant to preventive use |
-| [NCT07069582](https://clinicaltrials.gov/study/NCT07069582) | Phase 1 | Not Yet Recruiting | 60 | Sub-study of SSTARLET: PK profiling of bedaquiline in breastfeeding women after single dose; provides safety data for a population relevant to TB preventive therapy (TPT) expansion |
+| [NCT06568484](https://clinicaltrials.gov/study/NCT06568484) | Phase 2/3 | Recruiting | 2530 | BREACH-TB: 4 weeks of bedaquiline vs a standard regimen to prevent TB disease over 72 weeks in people living with HIV and high-risk close contacts (non-inferiority design). No results yet. |
+| [NCT05766267](https://clinicaltrials.gov/study/NCT05766267) | Phase 2/3 | Active, not recruiting | 288 | CRUSH-TB: 17-week bedaquiline-moxifloxacin-pyrazinamide regimens (plus rifabutin or delamanid) vs the standard 6-month regimen. Tests active pulmonary TB, not inactive TB. |
+| [NCT07069582](https://clinicaltrials.gov/study/NCT07069582) | Phase 1 | Not yet recruiting | 60 | Single-dose pharmacokinetic study of anti-TB drugs, including bedaquiline, in plasma and breast milk of breastfeeding women. Exposure data only. |
 
 ---
 
 ## Literature Evidence
 
-*(Inactive Tuberculosis — Rank 4; up to 10 most relevant)*
+The retrieved literature consists mainly of reviews and general TB articles. No randomized controlled trial was supplied.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33299175](https://pubmed.ncbi.nlm.nih.gov/33299175/) | 2021 | Mechanism / Structural | *Nature* | Cryo-EM structure of mycobacterial ATP synthase bound to bedaquiline; confirms drug can sterilize latent *M. tuberculosis* by targeting dormant-phase energy metabolism |
-| [39766559](https://pubmed.ncbi.nlm.nih.gov/39766559/) | 2024 | Review / Mechanism | *Antibiotics* | Comprehensive review of Mtb F-ATP synthase inhibitors; details bedaquiline's activity under dormant/low-energy conditions directly relevant to latent TB clearance |
-| [34939891](https://pubmed.ncbi.nlm.nih.gov/34939891/) | 2022 | Preclinical | *Am J Respir Crit Care Med* | Long-acting bedaquiline formulation shows sustained antituberculosis activity for ≥12 weeks in validated mouse model of preventive therapy; proof-of-concept for LTBI indication |
-| [39301910](https://pubmed.ncbi.nlm.nih.gov/39301910/) | 2025 | Review | *Infect Disord Drug Targets* | Reviews bedaquiline delivery systems for MDR-TB; explicitly notes ability to target persistent/latent TB forms that remain viable despite conventional therapy |
-| [36982277](https://pubmed.ncbi.nlm.nih.gov/36982277/) | 2023 | Review | *Int J Mol Sci* | TB pathogenesis and treatment review; covers latent infection (~25% of global population) and emerging drug targets including bedaquiline for dormant bacilli |
-| [39887565](https://pubmed.ncbi.nlm.nih.gov/39887565/) | 2025 | Review | *Respirology* | Updates TB disease spectrum concept (latent → subclinical → active); supports rationale for preventive therapy in subclinical/inactive TB using newer agents |
-| [36915977](https://pubmed.ncbi.nlm.nih.gov/36915977/) | 2022 | Review | *J Zhejiang Univ Med Sci* | Progress on LTBI diagnosis and treatment; discusses current limitations of isoniazid/rifamycin regimens and need for novel agents |
-| [29187395](https://pubmed.ncbi.nlm.nih.gov/29187395/) | 2018 | Review | *Clin Microbiol Rev* | Comprehensive review of therapeutic approaches to dormant *M. tuberculosis*; bedaquiline identified as a key candidate due to ATP synthase inhibition in non-replicating state |
-| [38003836](https://pubmed.ncbi.nlm.nih.gov/38003836/) | 2023 | Review | *Pathogens* | Pediatric drug-resistant TB management; bedaquiline and delamanid highlighted for safe use in children — relevant to preventive therapy in pediatric contacts |
-| [28256380](https://pubmed.ncbi.nlm.nih.gov/28256380/) | 2017 | Review | *Presse Médicale* | TB/HIV co-infection challenges; identifies PLHIV as highest-priority group for preventive therapy — directly corresponds to BREACH-TB target population |
+| [28625141](https://pubmed.ncbi.nlm.nih.gov/28625141/) | 2018 | Review | Recent Patents on Anti-Infective Drug Discovery | Bedaquiline as a basis for shorter and better anti-TB regimens |
+| [39766559](https://pubmed.ncbi.nlm.nih.gov/39766559/) | 2024 | Review | Antibiotics (Basel) | *M. tuberculosis* F-ATP synthase inhibitors and targets, the mechanistic basis of bedaquiline |
+| [39887565](https://pubmed.ncbi.nlm.nih.gov/39887565/) | 2025 | Review | Respirology | Clinical update on TB, including its disease spectrum and subclinical TB |
+| [36982277](https://pubmed.ncbi.nlm.nih.gov/36982277/) | 2023 | Review | Int J Mol Sci | TB pathogenesis, current regimens and new drug targets |
+| [33837535](https://pubmed.ncbi.nlm.nih.gov/33837535/) | 2021 | Review | Clin Pharmacol Ther | Treatment of latent and active TB, and the roles of individual drugs |
+| [33319660](https://pubmed.ncbi.nlm.nih.gov/33319660/) | 2021 | Review | Curr Top Med Chem | Pathophysiology, drug resistance mechanisms, newer anti-TB drugs and host-directed therapies |
+| [37316702](https://pubmed.ncbi.nlm.nih.gov/37316702/) | 2023 | Review | Innere Medizin | What is new in TB treatment |
+| [39301910](https://pubmed.ncbi.nlm.nih.gov/39301910/) | 2025 | Review | Infect Disord Drug Targets | Bedaquiline-based delivery systems; notes activity against persistent or latent TB |
+| [36915977](https://pubmed.ncbi.nlm.nih.gov/36915977/) | 2022 | Review | Zhejiang Da Xue Xue Bao Yi Xue Ban | Progress in diagnosis and treatment of latent TB infection |
+| [28776518](https://pubmed.ncbi.nlm.nih.gov/28776518/) | 2017 | Review | Int J Mycobacteriol | Drugs targeting non-replicating TB bacilli |
 
 ---
 
-## Predicted Indication Landscape
+## New Zealand Market Information
 
-All 10 TxGNN predictions are summarised below for clinical decision-making context:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision | Rationale Summary |
-|------|---------|-------------|----------------|----------|-------------------|
-| 1 | Tuberculosis, Bovine | 99.96% | L4 | Research Question | *M. bovis* carries homologous ATP synthase target; 3 in-vitro papers confirm selectivity. No in vivo or clinical data. Veterinary regulatory pathway required. |
-| 2 | Tuberculous Ascites | 99.96% | L5 | Hold | No evidence. Peritoneal PK (drug penetration) completely unknown. |
-| 3 | Tuberculoma | 99.96% | L4 | Research Question | Case reports of bedaquiline in MDR/XDR-TB with CNS involvement. BBB penetration is poor (low CSF/plasma ratio) — the critical unknow. |
-| **4** | **Inactive Tuberculosis** | **99.96%** | **L2** | **Proceed with Guardrails** | **Phase 2/3 BREACH-TB trial (n=2,530); mouse model proof-of-concept; 20 publications. Best evidence in this pack.** |
-| 5 | Tuberculosis, Avian | 99.96% | L5 | Hold | *M. avium* ATP synthase has lower bedaquiline affinity (high MIC in vitro); no supporting evidence. |
-| 6 | Vulvovaginal Candidiasis | 99.88% | L5 | Hold | Fungal ATP synthase structurally distinct; no mechanism; TxGNN graph noise (TB/immunosuppression co-occurrence). |
-| 7 | Fascioliasis | 99.88% | L5 | Hold | Eukaryotic helminth — no mechanistic basis whatsoever. |
-| 8 | Urea Cycle Disorder | 99.78% | L5 | Hold | Genetic metabolic disorder; completely unrelated to antimicrobial mechanism. |
-| 9 | Cutaneous Tuberculosis | 99.70% | L4 | Research Question | *M. tuberculosis* causative — mechanism applies. Phase 3 LEOPARD trial (n=124,000) tests bedaquiline for *M. leprae* prophylaxis, providing cross-mycobacterial safety data. Skin penetration PK needed. |
-| 10 | Esophageal Candidiasis | 99.68% | L5 | Hold | Same as rank 6 — fungal, no mechanism, graph confound via HIV co-infection. |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2659956 | Sirturo | Tab 100mg | Not recorded (licence status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Detailed New Zealand / Taiwan-specific package insert data is not available (bedaquiline is not registered in New Zealand). The following safety information reflects globally available regulatory and clinical data:
+- **Drug Interactions**: 100 interactions were recorded. Among those listed, the **Major** interactions are with dexamethasone, clarithromycin, picosulfuric acid, polyethylene glycol (3350 with electrolytes), dolasetron, palonosetron and sodium sulfate. **Moderate** interactions include acarbose, famotidine, doxycycline, pioglitazone, loperamide, bupropion, bisacodyl, chenodeoxycholic acid, minocycline, oxandrolone, oxymetholone, tetracycline and naltrexone.
+- **Monitoring**: The prediction analysis recommends QTc monitoring and a full interaction review before any use.
 
-- **QT Prolongation**: Bedaquiline prolongs the QT interval; cardiac monitoring (baseline ECG and regular follow-up) is mandatory. Risk is amplified when co-administered with other QT-prolonging agents (e.g. fluoroquinolones, clofazimine, azithromycin).
-- **Hepatotoxicity**: Clinically significant liver enzyme elevations have been reported. Liver function tests (AST, ALT, bilirubin) should be monitored at baseline and throughout treatment.
-- **Long Half-life**: Terminal half-life is approximately 5.5 months (due to redistribution from tissues). Adverse effects and drug interactions may persist for months after the last dose — a particular consideration when designing LTBI preventive regimens that are inherently shorter.
-- **Drug Interactions**: Bedaquiline is metabolised primarily by CYP3A4. Strong CYP3A4 inducers (e.g. rifampicin, efavirenz) significantly reduce bedaquiline plasma levels. This interaction is clinically critical in the TB/HIV co-infection setting targeted by BREACH-TB.
-- **Mortality Signal**: A higher rate of all-cause mortality was observed in the bedaquiline arm vs. placebo in the pivotal Phase 2b trial (C208); the mechanistic explanation remains unclear. This signal requires careful monitoring in any preventive-use protocol.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** *(for Inactive Tuberculosis / Latent TB Prevention)*
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-BREACH-TB (NCT06568484) is a rigorously designed Phase 2/3 non-inferiority trial specifically targeting this indication (n=2,530, PLHIV and high-risk contacts), demonstrating that the field has cleared the proof-of-concept threshold and entered formal clinical validation. The mechanistic basis — bedaquiline's unique killing activity against dormant mycobacteria — is supported by structural biology data and a validated mouse preventive therapy model. The path to regulatory evaluation is clear, albeit requiring a compelling safety-benefit analysis against the established LTBI standard of care.
+A Phase 2/3 trial (BREACH-TB, n=2530) directly tests bedaquiline for TB prevention, and the mechanism is plausible for non-replicating bacilli. However, it is still recruiting, and the supporting literature is indirect. The licence in New Zealand is cancelled. Use should be limited to trial settings or carefully selected high-risk contacts, such as those of MDR-TB patients.
 
 **To proceed, the following is needed:**
-- Await BREACH-TB primary results (estimated completion: September 2027)
-- Clarify QT prolongation and hepatotoxicity risk in healthy or HIV-positive contacts receiving bedaquiline for prevention (vs. MDR-TB treatment context where higher risk is tolerated)
-- Define subpopulations with net benefit: drug-resistant TB contacts and PLHIV are the leading candidates
-- Investigate CYP3A4 drug interaction management in patients on antiretroviral therapy (ART)
-- Evaluate long-acting injectable formulation feasibility (NCT34939891 mouse data) to improve adherence in preventive settings
-- Obtain bedaquiline New Zealand regulatory registration for active TB first, as a prerequisite pathway to preventive indication
+- Efficacy and safety results from BREACH-TB
+- Package insert warnings and contraindications (from Medsafe), which are needed before safety screening
+- Confirmed mechanism of action data from DrugBank
+- QTc monitoring and interaction management plan
+- Clarification of the cancelled New Zealand licence and the supply route
 
----
-
-**For secondary indications requiring further research (Research Question):**
-- *Tuberculoma / CNS TB*: Measure CSF/plasma ratio in MDR-TB patients receiving bedaquiline; evaluate whether adjunctive steroids + BDQ improves CNS penetration
-- *Cutaneous TB*: Pharmacokinetic study of bedaquiline in skin tissue; LEOPARD trial safety data (n=124,000) can provide a safety bridge
-- *Bovine TB*: Requires veterinary pharmacology programme; in vivo cattle model efficacy and food safety assessment before any regulatory consideration
+**Other predictions (for reference):** Tuberculoma has case reports of BPaL/BPaLM regimens with radiographic resolution, but evidence is limited to case reports and CNS penetration is limited (Research Question). Bovine TB, tuberculous ascites and cutaneous TB have only indirect or in vitro evidence (Hold). Avian TB, vulvovaginal and esophageal candidiasis, fascioliasis and urea cycle disorder have no evidence or no plausible mechanism, and are likely model artifacts (Hold).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

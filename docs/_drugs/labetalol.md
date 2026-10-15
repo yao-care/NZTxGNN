@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Labetalol
-parent: Moderate Evidence (L3-L4)
-nav_order: 189
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 253
+evidence_level: L5
 indication_count: 4
 ---
 
 # Labetalol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,80 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Labetalol: From Hypertension to Malignant Renovascular Hypertension
+# Labetalol: From Hypertensive Disorder to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Labetalol is a combined alpha1/non-selective beta-adrenergic blocker traditionally used to treat hypertension, including hypertensive emergencies. The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**, but this direction is currently supported only by **0 clinical trials** and **2 case-report publications**, making the evidence base weak and preliminary.
-
----
+Labetalol is an antihypertensive originally used to treat hypertensive disorders and hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but there are **no registered clinical trials** and only **1 publication** (a single case report) behind this prediction, so the evidence rests essentially on the model score.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from New Zealand licensing data (drug is not marketed in NZ); pharmacologically, labetalol is an α1/non-selective β-blocker used for hypertension, including hypertensive emergencies |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Original Indication | Hypertensive disorder / hypertension (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.08% |
-| Evidence Level | L4 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 |
+| New Zealand Market Status | ✓ Marketed |
+| Number of Authorizations | 5 (1 valid, 4 cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, labetalol is a combined alpha1/non-selective beta-adrenergic blocker; its efficacy in hypertension, including hypertensive emergencies, has been well established, and mechanistically it may be applicable to malignant renovascular hypertension, where rapid, effective blood pressure control is the central therapeutic goal.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, labetalol combines alpha-1 and non-selective beta blockade. It is established in hypertension, and a link to severe or malignant hypertension is plausible. Renovascular hypertension is driven largely by renin-angiotensin activation, and beta-blockade reduces renin release.
 
-Labetalol's established use in hypertensive emergencies gives it a plausible mechanistic link to malignant renovascular hypertension, since both involve severe, acute blood pressure elevation requiring aggressive pharmacologic control. However, this predicted indication is a specific **etiological subtype** — hypertension driven by renovascular disease — rather than hypertension in general. The very high TxGNN score (0.99) is nearly identical across several other predicted "hypertension" and "pulmonary hypertension" indications in this evidence pack, which raises the possibility that the model is responding to a broad "hypertension" semantic cluster rather than evidence specific to the renal-vascular etiology.
+The predicted indication is largely a severe subtype of the already established hypertension indication, so it is not a distinct repurposing opportunity. The only retrieved publication (PMID 7242419) describes a case of hallucinogen-induced vasculitis with malignant hypertension in which labetalol and minoxidil were used for initial blood pressure control. It does not evaluate renovascular hypertension directly.
 
-This caveat is reinforced by the supporting literature: both available publications are older case reports (1981, 2004) describing labetalol's use for blood pressure control in the context of malignant hypertension, not renovascular hypertension specifically or dedicated efficacy studies. The mechanistic rationale is credible, but specificity to the renovascular subtype remains unproven.
-
----
+The other top predictions are weaker:
+- **Malignant hypertensive renal disease** (99.08%): strongly overlaps with the labelled indication, with no trials or literature.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.08%): no established pulmonary vasodilatory mechanism. Non-selective beta-blockade may worsen bronchospasm and hypoxia. The 10 retrieved papers concern systemic or pregnancy-related hypertension, and none evaluates pulmonary hypertension. The score likely reflects the shared term "hypertension".
+- **Pulmonary hypertension with unclear multifactorial mechanism** (99.08%): no mechanistic rationale, trials or literature. Beta-blockers are generally used cautiously because of the risk of reduced cardiac output.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7242419](https://pubmed.ncbi.nlm.nih.gov/7242419/) | 1981 | Case Report | The Medical Journal of Australia | Case of malignant hypertension with renal arteritic changes in a 20-year-old man; minoxidil and labetalol were used for initial blood pressure control |
-| [15113447](https://pubmed.ncbi.nlm.nih.gov/15113447/) | 2004 | Case Report | BMC Nephrology | Hyponatremic hypertensive syndrome in an 18-month-old child presenting as malignant renovascular hypertension |
-
----
+| [7242419](https://pubmed.ncbi.nlm.nih.gov/7242419/) | 1981 | Case report | Med J Aust | Malignant hypertension in a 20-year-old man after hallucinogen use, with arteritic renal vessel changes. Vasculitis responded to prednisone, and labetalol with minoxidil gave initial blood pressure control. |
 
 ## New Zealand Market Information
 
-Labetalol is not currently marketed in New Zealand — no product authorizations, dosage forms, or approved indication text are available in the regulatory dataset.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2604116 | Trandate (valid) | Inj 5 mg per ml, 20 ml ampoule | Not available |
+| 2582163 | Trandate (cancelled) | Tab 200 mg | Not available |
+| 2582155 | Trandate (cancelled) | Tab 100 mg | Not available |
+| 2708809 | Biocon (cancelled) | Tab 100 mg | Not available |
+| 2565579 | Presolol (cancelled) | Tab 200 mg | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph** (these are not label text and need confirmation against the package insert): liver failure, liver disease, hepatic coma/encephalopathy, kidney disease, anuria, pancreatitis, gallbladder disease, diabetes mellitus, diabetic ketoacidosis, hypotensive disorder, atrioventricular block, pulmonary emphysema, bronchial disease, gout, systemic lupus erythematosus, anxiety and neurotic disorders, and several electrolyte or metabolic conditions (potassium deficiency, hypercalcaemia, phosphorus metabolism disease, hyperparathyroidism).
+- **Drug interactions** (100 interactions recorded; selected examples):
+  - Major: epinephrine, dolasetron.
+  - Moderate: corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), anticholinergics (atropine, hyoscyamine, dicyclomine, methscopolamine), morphine, cimetidine, canagliflozin, dapagliflozin, chlorpropamide, and calcium salts.
+  - Minor: acetylsalicylic acid, magnesium oxide.
 
----
+The pulmonary-disease and bronchial-disease signals are particularly relevant to the pulmonary hypertension predictions. Please refer to the package insert for official warnings.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is supported only by two older case reports (no clinical trials, no systematic reviews), and the near-identical TxGNN scores across related "hypertension" predictions suggest the model may be generalizing from a broad hypertension association rather than renovascular-specific evidence. Combined with the absence of NZ market authorization and safety/labeling data, the evidence does not yet support advancing beyond a research question.
+The 99.08% TxGNN score is a model prediction only. There are no clinical trials, and the single publication is a case report that does not directly address renovascular hypertension. The predicted indications are either subtypes of the already established hypertension indication or, for pulmonary hypertension, mechanistically doubtful and potentially unsafe.
 
 **To proceed, the following is needed:**
-- TFDA/manufacturer package insert data (warnings, contraindications, DDI) — currently a blocking data gap
-- Confirmed mechanism of action detail from DrugBank or primary literature
-- Targeted literature or case-series search specific to labetalol in renovascular (not general) malignant hypertension, to test whether the TxGNN score reflects etiology-specific signal or a general hypertension cluster
-- Assessment of route/formulation availability (IV vs. oral) relevant to malignant hypertension management, given NZ has no current market presence
+- The Medsafe package insert, with warnings and contraindications (currently a blocking gap), to enable safety screening
+- Mechanism of action data from DrugBank
+- Clinical studies of labetalol in renovascular or malignant hypertension
+- Confirmation that the predicted indications are clinically distinct from the existing hypertension indication
+- Approved indication text for the valid injection licence (2604116)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

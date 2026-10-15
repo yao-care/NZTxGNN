@@ -2,7 +2,7 @@
 layout: default
 title: Palivizumab
 parent: Model Prediction Only (L5)
-nav_order: 264
+nav_order: 347
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Palivizumab: From RSV Prophylaxis to Benign Neoplasm of Tongue
+# Palivizumab: From Respiratory Syncytial Virus Infection to Benign Neoplasm of Tongue
 
 ## One-Sentence Summary
 
-Palivizumab is a monoclonal antibody against the RSV F glycoprotein, used to prevent respiratory syncytial virus (RSV) infection in high-risk infants by neutralizing the virus and blocking cell entry.
-The TxGNN model predicts it may be effective for **Benign Neoplasm of Tongue**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags it as a likely false positive.
-
----
+Palivizumab is a monoclonal antibody originally used against **respiratory syncytial virus (RSV) infection**.
+The TxGNN model predicts it may be effective for **benign neoplasm of tongue**, but **no clinical trials and no publications** currently support this prediction, which rests on a knowledge-graph score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | RSV (呼吸道融合病毒) 感染預防 |
+| Original Indication | Respiratory syncytial virus infection (the approved indication text on the New Zealand licence is not available) |
 | Predicted New Indication | Benign neoplasm of tongue |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
+| Number of Authorizations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed formal mechanism-of-action (MOA) data is marked as a data gap in this evidence pack. However, the model's own rationale text describes palivizumab's known mechanism: it is a monoclonal antibody that binds the RSV fusion (F) glycoprotein and neutralizes the virus, blocking its entry into respiratory epithelial cells. This is a purely antiviral mechanism with no known antineoplastic, antiproliferative, or tissue-remodeling activity.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Palivizumab is known to be a humanized monoclonal antibody that targets the F protein of RSV, and its use in RSV infection is established.
 
-There is no plausible biological link between RSV neutralization and the pathophysiology of a benign tongue neoplasm (localized epithelial/connective tissue proliferation). The evidence pack explicitly flags this concern: all 10 top-ranked predicted indications for this drug cluster tightly around a score of ~0.9994 (ranks 871–917) and are almost entirely unrelated tumor/cyst entities across disparate anatomic sites and cell lineages (tongue, epiglottis, testis, jugular foramen schwannoma, thyroglossal duct cyst, etc.). This tight score clustering across mechanistically unrelated diseases is a strong signature of a knowledge-graph embedding artifact rather than a genuine pharmacological signal.
+The data compiled for this report did not identify a mechanistic link between this antibody and benign tongue neoplasms. The RSV F protein has no known role in this tumour type, and an antiviral neutralizing antibody would not be expected to act on it. The high score (99.94%) most likely reflects proximity within the knowledge graph (for example, upper-airway or head-and-neck nodes) rather than pharmacology.
 
-Given the absence of any supporting clinical trial or literature evidence, and the mechanistic implausibility, this prediction should be treated as low-confidence and likely spurious rather than a genuine repurposing lead.
-
----
+The other top-ranked predictions show the same pattern. All ten, including epiglottis neoplasm, cervical neuroblastoma, benign neoplasm of hypopharynx, benign neoplasm of floor of mouth, tumour of testis and paratestis, cystic neoplasm, schwannoma of jugular foramen, mesenchymoma and thyroglossal duct cyst, scored between 99.93% and 99.94%. None has a plausible mechanism, trials or literature. This clustering suggests a systematic model artifact rather than a genuine signal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## New Zealand Market Information
 
-Palivizumab currently has no market authorizations on record (market status: Not marketed / not marketed, 0 licenses).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2621835 (cancelled) | Synagis | Injection, 100 mg per ml, 1 ml vial | Not available |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
+No drug-drug interaction records were found, and no contraindicated diseases were identified in the knowledge graph. This reflects missing data rather than confirmed safety.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trial or literature support (Evidence Level L5), no plausible mechanistic link between RSV neutralization and tumor pathophysiology, and shows a score-clustering pattern across 10 unrelated diseases that strongly suggests a model artifact rather than a true signal.
+The prediction has only a model score behind it (Evidence Level L5). There are no trials or publications, no plausible mechanism, and no currently valid New Zealand authorisation. The product's only licence has been cancelled.
 
 **To proceed, the following is needed:**
-- TFDA/package insert safety data (currently Blocking data gap — required before any S1 safety screening)
-- Formal DrugBank MOA confirmation (currently High-severity data gap)
-- Independent investigation into why this drug's top predictions cluster at near-identical scores across mechanistically unrelated oncology indications, to rule out a systematic model artifact before evaluating any individual prediction in this batch
-- Preclinical or mechanistic rationale specifically connecting RSV F-protein neutralization to tongue neoplasm biology, if this candidate is to be pursued further
+- A credible biological rationale linking RSV F protein neutralization to the proposed tumour type, or preclinical data supporting one
+- Mechanism of action data for palivizumab
+- The Medsafe package insert, to review warnings and contraindications
+- Confirmation of whether any palivizumab product is currently supplied in New Zealand
+- Comparison with other predicted indications to check whether the model output is systematically biased toward head-and-neck tumours
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

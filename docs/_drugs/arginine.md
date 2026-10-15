@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Arginine
-parent: Model Prediction Only (L5)
-nav_order: 32
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 43
+evidence_level: L4
 indication_count: 1
 ---
 
 # Arginine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,90 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# ARGININE: From Amino Acid Supplement to Gastroparesis
+# Arginine: From No Documented Original Indication to Gastroparesis
 
 ## One-Sentence Summary
 
-L-Arginine is an endogenous amino acid and nutritional supplement with no currently registered therapeutic indications in New Zealand or Taiwan.
-The TxGNN model predicts it may be effective for **Gastroparesis**, based on its role as the sole substrate for neuronal nitric oxide synthase (nNOS) — the key enzyme controlling pyloric relaxation and gastric emptying.
-This prediction is currently supported by **1 peripherally related clinical trial** and **10 preclinical publications**, placing the evidence at an early mechanistic stage.
-
----
+Arginine is an amino acid that has been sold in New Zealand as a supplement-type product, but no approved indication text is available for it.
+The TxGNN model predicts it may be useful for **gastroparesis**,
+and the current support is **0 clinical trials** and **8 publications**, all preclinical or case-level.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No registered therapeutic indications |
+|------|------|
+| Original Indication | Not available (no approved indication text in the licence records) |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L4 (Preclinical / mechanistic studies only) |
-| New Zealand Market Status | Not currently marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 4 (all cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-L-Arginine is the sole endogenous substrate for neuronal nitric oxide synthase (nNOS). In the enteric nervous system, nitric oxide (NO) serves as the primary inhibitory neurotransmitter, responsible for pyloric sphincter relaxation and coordinated gastric emptying. When NO production is impaired — whether through nNOS depletion, cofactor deficiency, or substrate exhaustion — the pylorus remains in a contracted state, resulting in the delayed gastric emptying that characterises gastroparesis.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. The following reasoning is based on known biology rather than on a recorded mechanism for the drug.
 
-The mechanistic link is directly supported by PMID 25057793 (Reichardt et al., 2014), which demonstrated that oral dexamethasone depletes L-arginine levels in mice, triggering gastroparesis, and that this effect was abolished in GR(dim) mutant mice — establishing a causal chain from arginine depletion to gastroparesis. Additional preclinical evidence shows that nNOS dysfunction is a common pathway in diabetic gastroparesis (PMID 18312542), Parkinson's disease-associated gastroparesis (PMID 35380456), and tetrahydrobiopterin (BH4)-deficient models (PMID 23639814), all conditions where the nitrergic pathway fails to provide adequate pyloric relaxation.
+L-arginine is the substrate of neuronal nitric oxide synthase (nNOS), which produces nitric oxide (NO). NO is the main inhibitory neurotransmitter driving nitrergic relaxation of the gastric fundus and pyloric sphincter. Loss of nNOS and impaired nitrergic signalling in myenteric neurons are recognised features of diabetic and other forms of gastroparesis. Replenishing the substrate is therefore a plausible approach.
 
-TxGNN's high confidence score (99.42%) is biologically coherent: if insufficient substrate supply is a root cause of nNOS-mediated gastroparesis, then supplementing L-arginine represents a pharmacologically rational intervention. However, no human clinical trials have directly tested this hypothesis, and the leap from mechanistic rodent data to clinical efficacy remains unvalidated.
-
----
+Two preclinical studies are consistent with this. In mice, glucocorticoids induced gastroparesis through depletion of L-arginine (PMID 25057793). In a rat Parkinson's disease model, nitrergic relaxation of the pyloric sphincter was impaired (PMID 35380456). However, this evidence is indirect and preclinical. No human trial has tested arginine supplementation for gastroparesis, and the high TxGNN score is a computational prediction that does not replace clinical evidence.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01702051](https://clinicaltrials.gov/study/NCT01702051) | N/A | Unknown | 150 | Observational study of autologous pancreatic islet transplantation after pancreatectomy to prevent diabetes. Indirectly relevant: post-pancreatectomy patients can develop gastroparesis, and the study population overlaps with a gastroparesis-prone group, but the primary endpoint is glycaemic control, not gastric motility. Arginine is not the intervention. |
-
-> **Note:** No clinical trials directly testing L-arginine for gastroparesis were identified. The trial above has only indirect (Grade C) relevance.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [25057793](https://pubmed.ncbi.nlm.nih.gov/25057793/) | 2014 | Animal study (mechanistic) | Endocrinology | Glucocorticoid-induced L-arginine depletion directly causes gastroparesis in mice; effect abolished in GR(dim) mutants — establishes causal arginine→nNOS→NO→gastroparesis pathway |
-| [35380456](https://pubmed.ncbi.nlm.nih.gov/35380456/) | 2022 | Animal study (6-OHDA PD rat) | Am J Physiol Gastrointest Liver Physiol | Impaired nitrergic relaxation of pyloric sphincter in Parkinson's disease rat model; nNOS dysfunction links PD neurodegeneration to delayed gastric emptying |
-| [23639814](https://pubmed.ncbi.nlm.nih.gov/23639814/) | 2013 | Animal study (BH4-deficient mouse) | Am J Physiol Gastrointest Liver Physiol | BH4 deficiency (nNOS cofactor) induces gastroparesis in newborn mice; confirms nitrergic pathway dependence on substrate/cofactor availability |
-| [18312542](https://pubmed.ncbi.nlm.nih.gov/18312542/) | 2008 | Animal study (diabetic BB-rat) | Neurogastroenterol Motil | Decreased nNOS expression in myenteric neurons of diabetic BB-rats; supports nNOS downregulation as mechanism of diabetic gastroparesis |
-| [18322959](https://pubmed.ncbi.nlm.nih.gov/18322959/) | 2008 | Animal study (diabetic mouse) | World J Gastroenterol | Ghrelin and GHRP-6 improve gastric motility in diabetic gastroparesis mice; contextualises therapeutic targets in nitrergic-deficient gastric dysmotility |
-| [19023028](https://pubmed.ncbi.nlm.nih.gov/19023028/) | 2009 | Animal study (vagotomy dog) | Am J Physiol Gastrointest Liver Physiol | Synchronized gastric electrical stimulation improves impaired accommodation via nitrergic pathway in vagotomised dogs; validates NO signalling as modifiable target |
-| [21193530](https://pubmed.ncbi.nlm.nih.gov/21193530/) | 2011 | Animal study (hyperglycaemia rat) | Am J Physiol Gastrointest Liver Physiol | Hyperglycaemia inhibits gastric motility via nodose ganglia KATP channels; mechanistic context for metabolic gastroparesis |
-| [31984783](https://pubmed.ncbi.nlm.nih.gov/31984783/) | 2020 | Animal study (rat, SNS) | Am J Physiol Gastrointest Liver Physiol | Sacral nerve stimulation improves gastric accommodation via spinal-vagal pathway; identifies neuromodulation as adjunct approach to nitrergic dysfunction |
-| [8194696](https://pubmed.ncbi.nlm.nih.gov/8194696/) | 1994 | Animal study (rat, anaphylaxis) | Gastroenterology | Antigen challenge causes delayed gastric emptying in sensitised rats; characterises gastroparesis mediators in immune-mediated settings |
-| [33867519](https://pubmed.ncbi.nlm.nih.gov/33867519/) | 2021 | Case report (MELAS) | Am J Case Rep | Lifestyle normalisation of lactate in m.3243A>G mitochondrial disorder carrier with MELAS; arginine is a recognised MELAS therapy but gastroparesis connection here is indirect |
+|------|-----|------|------|---------|
+| [25057793](https://pubmed.ncbi.nlm.nih.gov/25057793/) | 2014 | Animal study | Endocrinology | Glucocorticoids induced gastroparesis in mice through depletion of L-arginine |
+| [35380456](https://pubmed.ncbi.nlm.nih.gov/35380456/) | 2022 | Animal study | Am J Physiol Gastrointest Liver Physiol | Impaired nitrergic relaxation of the pyloric sphincter in a Parkinson's disease rat model with gastroparesis |
+| [18312542](https://pubmed.ncbi.nlm.nih.gov/18312542/) | 2008 | Animal study | Neurogastroenterol Motil | Jejunal myenteric neuropathy and nNOS expression in diabetic BB-rats |
+| [19023028](https://pubmed.ncbi.nlm.nih.gov/19023028/) | 2009 | Animal study | Am J Physiol Gastrointest Liver Physiol | Gastric electrical stimulation improved vagotomy-induced impaired accommodation via the nitrergic pathway in dogs |
+| [31984783](https://pubmed.ncbi.nlm.nih.gov/31984783/) | 2020 | Animal study | Am J Physiol Gastrointest Liver Physiol | Sacral nerve stimulation increased gastric accommodation in rats |
+| [21193530](https://pubmed.ncbi.nlm.nih.gov/21193530/) | 2011 | Animal study | Am J Physiol Gastrointest Liver Physiol | Hyperglycaemia inhibited gastric motility via nodose ganglia KATP channels |
+| [18322959](https://pubmed.ncbi.nlm.nih.gov/18322959/) | 2008 | Animal study | World J Gastroenterol | Ghrelin and GHRP-6 effects on gastric motility in diabetic mice with gastroparesis |
+| [8194696](https://pubmed.ncbi.nlm.nih.gov/8194696/) | 1994 | Animal study | Gastroenterology | Delayed gastric emptying in rats after food-protein-induced anaphylaxis |
+| [33867519](https://pubmed.ncbi.nlm.nih.gov/33867519/) | 2021 | Case report | Am J Case Rep | Lifestyle changes normalised serum lactate in an m.3243A>G carrier (limited relevance) |
 
----
+## New Zealand Market Information
+
+All four authorisations are cancelled, and no approved indication text is recorded for any of them.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2393786 | Biomed | Powder | Not recorded |
+| 2609282 | Solgar | Cap 500 mg | Not recorded |
+| 2668750 | Arginine2000 | Powder, 4 g sachets | Not recorded |
+| 2400588 | Clinicians | Tab 1,000 mg | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug interaction data were identified in this evidence pack.
+- **Contraindication signals from the knowledge graph** (drug-disease links in the TxGNN knowledge graph, not label text): 
+  - Kidney: kidney disease, chronic kidney disease, chronic renal failure, end-stage renal failure, nephrolithiasis, nephrocalcinosis, acute urate nephropathy
+  - Calcium and bone: hypercalcaemia, humoral hypercalcaemia of malignancy, hyperparathyroidism, osteitis fibrosa, lytic metastatic bone lesion, sarcoidosis, phosphorus metabolism disease
+  - Acid-base: metabolic acidosis, renal tubular acidosis, acidosis disorder
+  - Cardiovascular: heart disease, cardiovascular disease, digitalis poisoning, ventricular fibrillation
+  - Other: sickle cell anaemia, hereditary persistence of fetal haemoglobin, phenylketonuria and other phenylalanine metabolism disorders, constipation disorder, pyoureter
 
----
+These are model-derived signals and need confirmation against authoritative labelling. Notably, many gastroparesis patients have diabetes with associated kidney or cardiovascular disease, so this overlap deserves careful attention.
+
+Please refer to the package insert for further safety information, as no label warnings or drug-interaction data are available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic case for L-arginine in gastroparesis is scientifically compelling — arginine depletion has been causally linked to gastroparesis in animal models, and the nNOS/NO pathway is well-established as the pharmacological target. However, all current evidence is preclinical (L4), with no human clinical trials directly evaluating L-arginine supplementation for gastroparesis. This gap is too large to proceed without additional validation.
+The prediction rests on a plausible mechanism (arginine as the substrate for nitrergic gastric relaxation) and a high model score, but the evidence is only preclinical (L4). There are no registered clinical trials, no human data, and no currently valid New Zealand authorisation. Safety information is incomplete, and the knowledge-graph contraindication signals overlap with common comorbidities in gastroparesis.
 
 **To proceed, the following is needed:**
-
-- **Proof-of-concept human study**: A small Phase 1/2 trial measuring gastric emptying time (scintigraphy or breath test) before and after oral or IV L-arginine supplementation in patients with documented gastroparesis
-- **Baseline arginine profiling**: Plasma L-arginine and citrulline levels in gastroparesis patients compared to controls, to confirm substrate deficiency is present in the target population
-- **Mechanistic MOA data (DrugBank)**: Formal documentation of L-arginine's pharmacology, including nNOS affinity, bioavailability by route, and dose-response for NO production
-- **Safety data**: Package insert review for relevant warnings, particularly in patients with hepatic impairment (urea cycle disorders), renal insufficiency, or herpes simplex infections (arginine is a known viral replication promoter)
-- **Drug interaction data**: Arginine may potentiate vasodilatory effects of antihypertensives and PDE5 inhibitors; formal DDI screening is needed before clinical use
-- **Route and dose optimisation**: Determine whether oral supplementation achieves sufficient enteric tissue concentrations to restore nNOS substrate supply, or whether IV administration is required
+- Safety data from the Medsafe package insert (warnings and contraindications); this is a blocking gap
+- Mechanism of action data from DrugBank
+- Human evidence, such as a pilot or Phase 2 study of arginine supplementation in gastroparesis
+- Assessment of the relationship to the original indication and of route and formulation compatibility
+- A regulatory pathway given that all New Zealand licences are cancelled
+- A renal, cardiovascular and metabolic risk assessment for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

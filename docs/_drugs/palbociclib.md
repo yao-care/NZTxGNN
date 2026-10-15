@@ -2,7 +2,7 @@
 layout: default
 title: Palbociclib
 parent: Model Prediction Only (L5)
-nav_order: 262
+nav_order: 345
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,90 +29,110 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Palbociclib: From Breast Cancer to Hyperthyroidism
+# Palbociclib: From Breast Cancer Treatment to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Palbociclib is a CDK4/6 inhibitor whose evidence-pack literature consistently describes it as a treatment for HR+/HER2- metastatic breast cancer (the drug's own structured original-indication and MOA fields are data gaps). The TxGNN model's top prediction is **Hyperthyroidism**, but this ranking is supported by **zero clinical trials and zero publications** — it is a pure model output with no identifiable mechanistic rationale between CDK4/6 inhibition and thyroid hormone pathways.
+Palbociclib is a CDK4/6 inhibitor used in oncology. The top TxGNN prediction (hyperthyroidism) has no supporting evidence, so this report focuses on the best-supported candidate, **rheumatoid arthritis**. That candidate has **0 clinical trials** and **4 publications** (one case report, one cohort study, two preclinical studies), so the evidence is limited to early, indirect signals.
 
----
+*Note: The original indication was not available in the New Zealand licence data compiled for this report. Palbociclib is a CDK4/6 inhibitor and, per the literature retrieved, is used for hormone receptor-positive, HER2-negative breast cancer.*
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in structured data (TFDA/NZ license text and `original_indications` are data gaps — DG001/DG002). Literature within this evidence pack repeatedly identifies palbociclib as a therapy for HR+/HER2- metastatic breast cancer. |
-| Predicted New Indication | Hyperthyroidism |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Not stated in the licence data; literature indicates HR+/HER2- breast cancer |
+| Predicted New Indication | Rheumatoid arthritis (the top-ranked prediction, hyperthyroidism, has no evidence; see below) |
+| TxGNN Prediction Score | 99.36% (rheumatoid arthritis); 99.44% for hyperthyroidism |
+| Evidence Level | L4 (rheumatoid arthritis); L5 (hyperthyroidism) |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 3 (all cancelled) |
+| Recommended Decision | Hold (rheumatoid arthritis is a research question only) |
 
----
+### All Predicted Indications
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+|------|------|------|------|------|
+| 1 | Hyperthyroidism | 99.44% | L5 | Hold |
+| 2 | Rheumatoid arthritis | 99.36% | L4 | Research question |
+| 3 | Thrombotic disease | 99.32% | L4 | Hold |
+| 4 | Resistance to thyroid hormone (THR-beta mutation) | 99.30% | L5 | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (data gap DG002). Based on the literature captured elsewhere in this evidence pack, palbociclib is a CDK4/6 inhibitor used for HR+/HER2- metastatic breast cancer, acting on the G1/S cell-cycle checkpoint.
+Detailed mechanism of action data is not available for this report. Palbociclib belongs to the CDK4/6 inhibitor class, and its efficacy in breast cancer relies on blocking cell-cycle progression.
 
-For the top-ranked prediction, hyperthyroidism, the evidence pack's own rationale states there is **no identifiable mechanistic link**: CDK4/6 inhibition acts on cell-cycle regulation, with no known intersection with thyroid hormone synthesis, release, or receptor signaling. No clinical trials or publications support this candidate — it is a model-only association (TxGNN score 99.44%, evidence level L5).
+For **rheumatoid arthritis**, there is a plausible but indirect biological rationale. CDK4/6 drives proliferation of synovial fibroblasts and immune cells. Preclinical work shows CDK6-dependent synovial hyperplasia in arthritic mice, and cell-cycle inhibition combined with cytokine blockade enhanced antiarthritic effects in animal models without increased immune suppression. A single case report describes improvement of rheumatoid arthritis in a breast cancer patient treated with palbociclib. These findings are anecdotal or preclinical and do not establish efficacy in patients.
 
-This is a case where a high TxGNN score is not corroborated by mechanistic or literature evidence. By contrast, the pack's other ranked candidates carry more supporting information and are worth flagging for the record: **rheumatoid arthritis** (rank 2, L4) has four supporting publications, including a case report of RA improvement during palbociclib treatment and preclinical evidence of CDK6-dependent synovial hyperplasia; and **thrombotic disease** (rank 3, L4) is actually a *safety signal*, not a therapeutic lead — pharmacovigilance and cohort studies show CDK4/6 inhibitors are associated with an **increased** risk of thromboembolic events, the opposite of a treatment effect.
-
----
+For the other predictions, the data does not support a link:
+- **Hyperthyroidism** and **thyroid hormone resistance**: no trials or literature, and no mechanism linking CDK4/6 inhibition to these conditions is supported. The scores are knowledge-graph predictions only.
+- **Thrombotic disease**: the literature reports thromboembolism as a possible *adverse event* of CDK4/6 inhibitors. This is a safety signal, not a therapeutic benefit, and it contradicts the high prediction score.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for rheumatoid arthritis or any of the other predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Rheumatoid arthritis (the primary candidate):
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33587021](https://pubmed.ncbi.nlm.nih.gov/33587021/) | 2021 | Case report | Modern Rheumatology Case Reports | A breast cancer patient with pre-existing rheumatoid arthritis showed improvement while on palbociclib. |
+| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Cohort | The Oncologist | Examines pre-existing and emerging immune-mediated diseases in breast cancer patients on CDK4/6 inhibitors plus endocrine therapy; specific findings could not be assessed from the available text. |
+| [25165034](https://pubmed.ncbi.nlm.nih.gov/25165034/) | 2016 | Preclinical (animal) | Annals of the Rheumatic Diseases | CDK inhibition combined with cytokine blockade enhanced antiarthritic effects without increasing immune suppression in animal models. |
+| [39940918](https://pubmed.ncbi.nlm.nih.gov/39940918/) | 2025 | Preclinical | International Journal of Molecular Sciences | Synovial hyperplasia in arthritic mice and TNF-α-induced synovial fibroblast proliferation are CDK6-dependent and CDK4-independent. |
+
+Thrombotic disease (safety-related literature; most relevant items):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [36794339](https://pubmed.ncbi.nlm.nih.gov/36794339/) | 2023 | Pharmacovigilance and systematic review | Expert Opinion on Drug Safety | Investigates the association between CDK4/6 inhibitors and thrombosis. |
+| [39123221](https://pubmed.ncbi.nlm.nih.gov/39123221/) | 2024 | Pharmacovigilance (FAERS) | BMC Pharmacology & Toxicology | Compares adverse event profiles of palbociclib, abemaciclib and ribociclib. |
+| [35300061](https://pubmed.ncbi.nlm.nih.gov/35300061/) | 2022 | Cohort | Cancer Management and Research | Real-world thromboembolic events with ribociclib in metastatic breast cancer. |
+
+These describe thrombosis as a risk, not a therapeutic effect. No literature was available for hyperthyroidism or thyroid hormone resistance.
 
 ## New Zealand Market Information
 
-Palbociclib is not currently marketed in New Zealand (0 authorizations on file; no license records available).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2709074 | Palbociclib Pfizer | Tab 125 mg | Not available (cancelled) |
+| 2709066 | Palbociclib Pfizer | Tab 100 mg | Not available (cancelled) |
+| 2709058 | Palbociclib Pfizer | Tab 75 mg | Not available (cancelled) |
 
----
+All three authorizations are cancelled; there is currently no valid marketed product in the data compiled for this report.
 
 ## Cytotoxicity
 
-Palbociclib is an antineoplastic agent (CDK4/6 inhibitor used in breast cancer, per the literature captured in this evidence pack).
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (CDK4/6 inhibitor) |
-| Myelosuppression Risk | High — the evidence pack's own literature notes palbociclib-induced myelosuppression (PMID 39940918) and describes bone marrow suppression as a common adverse event for this drug class (PMID 37994878) |
-| Emetogenicity Classification | Not established in current evidence pack; refer to package insert |
-| Monitoring Items | CBC with differential (neutropenia monitoring), liver and renal function |
-| Handling Protection | Please refer to the package insert warnings and precautions; no TFDA/NZ label data available (DG001) |
-
----
+| Cytotoxicity Classification | Targeted therapy (CDK4/6 inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | Medium to high; bone marrow suppression is a recognised common adverse event of CDK4/6 inhibitors, and preclinical work notes palbociclib-induced myelosuppression |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Complete blood count; liver and renal function |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information (key warnings, contraindications, and DDI data are all data gaps in this evidence pack).
+- **Drug Interactions**: 100 interactions were identified. Major interactions include **clarithromycin**, **cobicistat**, **deferiprone** and **samarium (153Sm) lexidronam**. Many moderate interactions were also listed, for example aprepitant, dexamethasone, cimetidine, simvastatin, saxagliptin, miconazole, clotrimazole, cisapride and cilostazol.
+- **Adverse event signals from the literature**: bone marrow suppression, gastrointestinal toxicity, interstitial lung disease and thromboembolic events have been reported with CDK4/6 inhibitors.
 
-**Note from evidence review:** although not part of the structured safety fields, the literature evidence gathered for the "thrombotic disease" candidate (rank 3) indicates CDK4/6 inhibitors, including palbociclib, are associated with an **increased** risk of thromboembolic events in real-world and pharmacovigilance studies (PMID 35300061, 36794339, 39123221, 39083396, 41496429). This should be treated as a safety consideration for any repurposing pathway, not a therapeutic signal.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (hyperthyroidism) has no supporting clinical trials, no supporting literature, and no identifiable mechanistic link — it is evidence level L5, a model-only association. There is insufficient basis to advance this indication.
+Rheumatoid arthritis has biologically plausible but indirect support (one case report, one cohort study, and preclinical studies) and no clinical trials, so it is a research question rather than an actionable repurposing candidate. Other predictions rest on model scores alone or are contradicted by safety signals. In addition, all New Zealand authorizations are cancelled and the package insert safety data are missing.
 
 **To proceed, the following is needed:**
-- Original indication and MOA data for palbociclib (DrugBank API lookup — DG002)
-- TFDA/NZ package insert warnings and contraindications (DG001)
-- If pursuing repurposing further, prioritize the rheumatoid arthritis candidate (rank 2, L4, 4 supporting publications) over hyperthyroidism, which currently has no evidentiary basis
-- Treat the thromboembolism signal surfaced under "thrombotic disease" (rank 3) as a safety monitoring item, not a repurposing candidate
+- Package insert warnings and contraindications from Medsafe
+- Detailed mechanism of action data
+- Review of the full text of the 2025 cohort study (PMID 40504547) on immune-mediated diseases in CDK4/6 inhibitor patients
+- Controlled clinical evidence, starting with an exploratory trial in rheumatoid arthritis, with myelosuppression and infection risk weighed against benefit
+- Clarification of the New Zealand regulatory pathway given that all licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

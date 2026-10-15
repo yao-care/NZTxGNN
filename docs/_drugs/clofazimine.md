@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clofazimine
-parent: Moderate Evidence (L3-L4)
-nav_order: 80
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 108
+evidence_level: L5
 indication_count: 3
 ---
 
 # Clofazimine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,8 +33,9 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Clofazimine is an antimycobacterial riminophenazine dye, used primarily as part of WHO multidrug therapy (MDT) for leprosy (Hansen's disease) and in regimens for multidrug-resistant tuberculosis (MDR-TB).
-The TxGNN model predicts it may be effective for **Pneumocystosis** (Pneumocystis jirovecii pneumonia, PCP), with **1 associated clinical trial** and **4 publications** retrieved — though the evidence links are largely indirect, arising from shared HIV/AIDS comorbidity context rather than direct pharmacological activity against *P. jirovecii*.
+Clofazimine is an antimycobacterial drug originally used to treat leprosy (including multibacillary leprosy) and pyoderma gangrenosum.
+The TxGNN model predicts it may be effective for **pneumocystosis**, but there are **no registered clinical trials** and only **3 loosely related publications**, none of which show clofazimine acting against Pneumocystis.
+This is a model-only prediction with very weak supporting evidence.
 
 ---
 
@@ -42,33 +43,29 @@ The TxGNN model predicts it may be effective for **Pneumocystosis** (Pneumocysti
 
 | Item | Content |
 |------|------|
-| Original Indication | Leprosy (Hansen's disease); component of MDR-TB multidrug regimens |
-| Predicted New Indication | Pneumocystosis (Pneumocystis jirovecii pneumonia) |
+| Original Indication | Leprosy, multibacillary leprosy, pyoderma gangrenosum (from the knowledge graph; the New Zealand licence record has no indication text) |
+| Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack. Based on known published information, clofazimine is a riminophenazine compound included in the WHO multidrug therapy regimen for leprosy (alongside dapsone and rifampicin) and in all-oral shortened regimens for rifampicin-resistant/multidrug-resistant tuberculosis (MDR/RR-TB). Its antimicrobial activity is generally attributed to reactive oxygen species (ROS) generation and disruption of bacterial cell membranes — mechanisms that account for its efficacy against mycobacteria.
+Currently, detailed mechanism of action data is not available. Based on known information, clofazimine is a riminophenazine antimycobacterial with immunomodulatory and membrane-disrupting properties. Its efficacy in leprosy is established, but nothing in the data compiled for this report shows activity against *Pneumocystis*.
 
-*Pneumocystis jirovecii*, the causative agent of PCP, is a fungal pathogen. Clofazimine has no established antifungal mechanism and no published in vitro activity against *P. jirovecii*. The apparent connection in the TxGNN model most likely reflects knowledge-graph node proximity: both MAC infection and PCP are AIDS-defining opportunistic infections that co-occur in severely immunocompromised patients, generating strong co-occurrence signals in the underlying graph — rather than a genuine pharmacological link. The repurposing rationale in the evidence pack explicitly flags this as a probable graph-topology artifact.
+The retrieved literature does not support the prediction. One randomized trial examined clofazimine as prophylaxis against *Mycobacterium avium* complex (MAC) in AIDS patients, and a case report describes an AIDS patient with *M. kansasii* and *P. carinii* pneumonia. In both, *Pneumocystis* appears as a co-occurring opportunistic infection, not as a target of clofazimine. The very high TxGNN score (0.999) reflects a graph-based association, not demonstrated pharmacological activity.
 
-In short, the 99.90% TxGNN score is epidemiologically understandable but mechanistically unsupported. No study to date demonstrates that clofazimine has direct activity against *P. jirovecii*, either in vitro or in a clinical setting.
+The two other top-ranked predictions are also weak. Malaria (score 99.60%) has only indirect, preclinical support (an in vitro study of clofazimine analogues, PMID 29026393), and gastrin secretion abnormality (score 99.57%) has no supporting evidence at all.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00002058](https://clinicaltrials.gov/study/NCT00002058) | Not Applicable | Completed | N/A | Randomized controlled prophylaxis study of clofazimine for **MAC infection** in HIV patients (CD4 ≤100/mm³ or prior PCP episode). Primary target was Mycobacterium avium complex prevention — PCP history served only as an eligibility criterion, not a treatment outcome. |
-
-> **Important:** The sole identified trial targets MAC prophylaxis in HIV disease. Pneumocystosis appears only as a patient selection criterion for high-risk classification; this trial provides no evidence of clofazimine activity against PCP.
+Currently no related clinical trials registered.
 
 ---
 
@@ -76,18 +73,40 @@ In short, the 99.90% TxGNN score is epidemiologically understandable but mechani
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8501340](https://pubmed.ncbi.nlm.nih.gov/8501340/) | 1993 | RCT (MAC prophylaxis) | The Journal of Infectious Diseases | Randomized, prospective open-label trial of clofazimine 50 mg/day vs. no treatment for MAC prophylaxis in 110 HIV patients with prior PCP episode or CD4 ≤100/mm³. Primary endpoint was MAC prevention — PCP history was an inclusion criterion, not a study outcome. |
-| [2714863](https://pubmed.ncbi.nlm.nih.gov/2714863/) | 1989 | Case Report | Infection | AIDS patient with *Mycobacterium kansasii* lung disease complicated by concurrent PCP. Treatment included isoniazid, ethambutol, clofazimine, and ciprofloxacin targeting mycobacteria; TMP-SMX was added for PCP. Rapid recovery achieved — clofazimine's role was directed at *M. kansasii*, not *P. jirovecii*. |
-| [6299154](https://pubmed.ncbi.nlm.nih.gov/6299154/) | 1983 | Case Report | Annals of Internal Medicine | AIDS patient with hemophilia presenting with PCP, later developing disseminated *M. avium-intracellulare* bacteremia. Documents co-occurrence of PCP and MAC in an early AIDS case; clofazimine is not cited as treatment in the abstract. |
-| [11363899](https://pubmed.ncbi.nlm.nih.gov/11363899/) | 1996 | Review | PI Perspective | Opportunistic infections update (no abstract available). Review covering the management landscape for AIDS-associated opportunistic infections during the pre-HAART era. |
+| [8501340](https://pubmed.ncbi.nlm.nih.gov/8501340/) | 1993 | Randomized open-label trial | J Infect Dis | Clofazimine as prophylaxis for disseminated MAC in 110 HIV patients, many with prior *P. carinii* pneumonia; the endpoint was MAC, not Pneumocystis |
+| [11363899](https://pubmed.ncbi.nlm.nih.gov/11363899/) | 1996 | Review | PI Perspective | General update on opportunistic infections; no abstract available |
+| [2714863](https://pubmed.ncbi.nlm.nih.gov/2714863/) | 1989 | Case report | Infection | AIDS patient with *M. kansasii* lung disease complicated by *P. carinii* pneumonia; recovered on a multi-drug regimen, with Pneumocystis treated by trimethoprim-sulfamethoxazole |
 
-> **Critical assessment:** None of these four publications provide direct evidence that clofazimine treats or prevents PCP. The association is contextual — patients receiving clofazimine for mycobacterial disease simultaneously had PCP as a concurrent or qualifying diagnosis. The evidence does not support a direct therapeutic claim for pneumocystosis.
+---
+
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 654450 (cancelled) | Lamprene | Cap 50 mg | Not recorded |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: liver disease, gallbladder disease, diarrheal disease, active peptic ulcer disease, digestive system disease, intestinal disease, splenic infarction, splenic disease, hypersplenism.
+- **Drug Interactions**: 100 interactions were found in total. The first 20 returned are mostly Moderate. The Major ones are:
+  - Cisapride
+  - Dolasetron
+
+  Moderate examples include:
+  - Clarithromycin
+  - Levofloxacin
+  - Ondansetron
+  - Granisetron
+  - Palonosetron
+  - Famotidine
+  - Loperamide
+  - Many laxatives (bisacodyl, lactulose, magnesium hydroxide and others)
+
+  Metronidazole is Minor.
+
+Package insert warnings and contraindications were not available; please refer to the package insert for full safety information.
 
 ---
 
@@ -96,15 +115,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN prediction score for pneumocystosis reflects knowledge-graph proximity between AIDS-defining opportunistic infections (MAC and PCP sharing the same high-risk immunocompromised host), not a direct pharmacological effect. Clofazimine has no established antifungal mechanism against *Pneumocystis jirovecii*, and none of the retrieved clinical trials or publications demonstrate direct activity in PCP. With zero New Zealand authorizations and no mechanistic basis, this candidate does not meet the threshold for further clinical development without foundational preclinical data.
+The prediction rests only on a graph-model score. No trials exist, and the few publications mention Pneumocystis only as a co-infection, not as a treatment target. The product is also no longer licensed in New Zealand.
 
-**To proceed, the following would be needed:**
-
-- **In vitro susceptibility data:** Test clofazimine (and active metabolites) against *Pneumocystis jirovecii* to establish whether any fungicidal or fungistatic activity exists at clinically achievable concentrations
-- **Mechanistic hypothesis:** Determine whether ROS-generating activity or membrane-disruption properties extend to fungal cell wall/membrane targets in *P. jirovecii*
-- **MOA clarification:** Retrieve full DrugBank MOA profile (DG002 data gap) to identify any cross-class receptor or enzyme targets that may be relevant
-- **Immunomodulatory angle:** Evaluate whether clofazimine's immunomodulatory properties (separate from direct antimicrobial activity) could offer an adjunctive benefit in PCP management in immunocompromised patients — this represents the more scientifically plausible hypothesis
-- **Safety profile:** Obtain TFDA/full package insert warnings and contraindications (DG001 data gap) before any protocol design
+**To proceed, the following is needed:**
+- Mechanism of action data and any evidence of anti-*Pneumocystis* activity (in vitro or in animal models)
+- The Medsafe package insert, to assess warnings and contraindications
+- A review of the knowledge-graph contraindications (notably gastrointestinal and liver disease) against the likely target population, such as immunocompromised patients
+- Clarification of New Zealand supply and licensing, since the only licence is cancelled
+- If a direction is pursued, malaria may merit preclinical follow-up as a research question, given the in vitro analogue data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

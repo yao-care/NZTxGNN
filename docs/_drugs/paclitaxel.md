@@ -2,15 +2,15 @@
 layout: default
 title: Paclitaxel
 parent: High Evidence (L1-L2)
-nav_order: 261
-evidence_level: L1
+nav_order: 344
+evidence_level: L2
 indication_count: 10
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,111 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Paclitaxel: From Antineoplastic Chemotherapy to Female Breast Carcinoma
+# Paclitaxel: From Ovarian Cancer to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Paclitaxel is a taxane-class antineoplastic agent already used worldwide as standard-of-care chemotherapy for multiple solid tumors. The TxGNN model's top prediction — **Female Breast Carcinoma** — is supported by **13 clinical trials** and **20 publications**, though this reflects an already well-established global oncology use rather than a novel biological hypothesis; the main gap is that paclitaxel is currently **not marketed in New Zealand**.
-
----
+Paclitaxel is a microtubule-stabilising cytotoxic chemotherapy drug, originally used for ovarian cancer.
+The TxGNN model predicts it may be effective for **female breast carcinoma**,
+with **43 clinical trials** and **20 publications** compiled for this prediction. However, paclitaxel is already an established standard of care in breast cancer, so this is not a true repurposing candidate. The finding largely confirms existing clinical practice.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from local regulatory records (drug is not marketed in New Zealand; no license data on file) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| Original Indication | Ovarian cancer (the data compiled for this report did not include approved indication text from New Zealand licences; the original indication is taken from the knowledge-graph indication list) |
+| Predicted New Indication | Female breast carcinoma |
+| TxGNN Prediction Score | 99.995% |
+| Evidence Level | L2 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 11 (all cancelled) |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data from DrugBank/TFDA has not been retrieved (see Data Gap DG002). Based on available evidence in this pack, paclitaxel is a taxane that binds β-tubulin to stabilize microtubules and block spindle disassembly, driving G2/M cell-cycle arrest and apoptosis. This is a well-documented cytotoxic mechanism, not a new hypothesis.
+Detailed mechanism of action data is not available in the compiled data. Based on well-known pharmacology, paclitaxel stabilises microtubules, causing mitotic arrest and apoptosis in rapidly dividing tumour cells. This action does not depend on tumour type or hormone-receptor status.
 
-Importantly, the trial and literature evidence base for "female breast carcinoma" does not represent a genuinely novel repurposing signal — paclitaxel (and albumin-bound paclitaxel) is already a globally established, guideline-recommended chemotherapy backbone for breast cancer, frequently combined with trastuzumab, lapatinib, or other targeted agents. The TxGNN model's high score most likely reflects this pre-existing, extensively documented drug-disease relationship rather than an untested mechanistic bridge.
+Ovarian cancer and breast cancer are both epithelial solid tumours that respond to taxane-based chemotherapy. Reviews in the compiled literature (e.g. PMID 10791395 and 9282422) describe taxanes as evidence-based components of therapy for advanced breast, lung and ovarian carcinomas, and note that paclitaxel's licence was extended to breast cancer.
 
-The practical significance of this candidate is therefore primarily regulatory: paclitaxel is not currently marketed in New Zealand for any indication, so the "new indication" opportunity here is a market-access question (registration/import pathway) rather than a scientific discovery question. Any evaluation should treat this distinction explicitly when deciding next steps.
+The predicted indication therefore fits the mechanism well. Because paclitaxel is already used in breast cancer, the prediction mainly validates the model rather than pointing to a new use. The supplied trial list also shows mostly Phase 1/2 evidence for paclitaxel-specific effects in this setting.
 
----
+Other predicted indications in the data (ranked 2 to 10) are mostly breast cancer subtypes or anatomical variants. Ehrlich tumour (a mouse model), bilateral and nipple carcinoma, and two rhabdomyosarcoma entries have only preclinical, case-report or no evidence, and were rated Hold.
 
 ## Clinical Trial Evidence
 
+The most relevant trials for paclitaxel in female breast carcinoma (the data contained many more, including several Phase 3 combination studies):
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00003992](https://clinicaltrials.gov/study/NCT00003992) | Phase 2 | Completed | 200 | Paclitaxel + trastuzumab adjuvant therapy in HER2-overexpressing stage II/IIIA breast cancer |
-| [NCT00281658](https://clinicaltrials.gov/study/NCT00281658) | Phase 3 | Completed | 444 | Lapatinib + paclitaxel vs. placebo + paclitaxel in ErbB2-amplified metastatic breast cancer; direct efficacy data |
-| [NCT00455533](https://clinicaltrials.gov/study/NCT00455533) | Phase 2 | Completed | 384 | Randomized biomarker study comparing sequential AC→ixabepilone vs. AC→paclitaxel in early-stage breast cancer |
-| [NCT02280252](https://clinicaltrials.gov/study/NCT02280252) | Phase 2 | Completed | 69 | Concurrent paclitaxel and radiation in locally advanced breast cancer, multiethnic cohort |
-| [NCT00272987](https://clinicaltrials.gov/study/NCT00272987) | Phase 3 | Terminated | 63 | Paclitaxel + trastuzumab + lapatinib vs. paclitaxel + trastuzumab + placebo in ErbB2+ metastatic breast cancer |
-| [NCT04753177](https://clinicaltrials.gov/study/NCT04753177) | Phase 2/3 | Unknown | 120 | Neoadjuvant combined hormone therapy in premenopausal ER+/HER2- locally advanced breast cancer |
-| [NCT00054028](https://clinicaltrials.gov/study/NCT00054028) | Phase 1/2 | Completed | 31 | Suramin combined with paclitaxel in advanced (stage IIIB/IV) metastatic breast cancer |
-| [NCT00544167](https://clinicaltrials.gov/study/NCT00544167) | N/A | Completed | 45 | Adjuvant doxorubicin/cyclophosphamide followed by paclitaxel + sorafenib in high-risk early-stage breast cancer |
-| [NCT02225652](https://clinicaltrials.gov/study/NCT02225652) | Phase 2 | Completed | 11 | Dose-dense FEC followed by weekly paclitaxel in primary breast cancer |
-
----
+| [NCT00003539](https://clinicaltrials.gov/study/NCT00003539) | Phase 2 | Completed | 50 | Weekly paclitaxel plus trastuzumab in metastatic breast cancer; single-arm efficacy evidence |
+| [NCT00006120](https://clinicaltrials.gov/study/NCT00006120) | Phase 2 | Unknown | Not reported | Randomised comparison of two schedules of docetaxel or paclitaxel in metastatic breast cancer |
+| [NCT00006459](https://clinicaltrials.gov/study/NCT00006459) | Phase 3 | Completed | Not reported | Gemcitabine plus paclitaxel versus paclitaxel in unresectable or metastatic breast cancer |
+| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Phase 3 | Completed | 652 | Taxane-based chemotherapy with lapatinib or trastuzumab as first-line therapy for HER2-positive metastatic breast cancer |
+| [NCT00553358](https://clinicaltrials.gov/study/NCT00553358) | Phase 3 | Completed | 455 | Neo-ALTTO: neoadjuvant lapatinib, trastuzumab or both plus paclitaxel in HER2-positive breast cancer |
+| [NCT01822314](https://clinicaltrials.gov/study/NCT01822314) | Phase 3 | Completed | 632 | Neoadjuvant nab-paclitaxel versus solvent-based paclitaxel followed by anthracycline regimens |
+| [NCT00513292](https://clinicaltrials.gov/study/NCT00513292) | Phase 3 | Completed | 280 | Neoadjuvant FEC then paclitaxel plus trastuzumab compared with the reverse sequence in HER2-positive operable breast cancer |
+| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Phase 3 | Completed | 478 | Dose-dense adjuvant FE75C followed by docetaxel versus paclitaxel in node-positive breast cancer |
+| [NCT00075270](https://clinicaltrials.gov/study/NCT00075270) | Phase 3 | Completed | 580 | Lapatinib plus paclitaxel versus paclitaxel alone in first-line metastatic breast cancer |
+| [NCT05020860](https://clinicaltrials.gov/study/NCT05020860) | Phase 2 | Recruiting | 185 | Neoadjuvant systemic therapy study; paclitaxel-specific contribution unclear |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31783552](https://pubmed.ncbi.nlm.nih.gov/31783552/) | 2019 | Review | Biomolecules | Overview of paclitaxel's mechanistic and clinical effects in breast cancer, including resistance mechanisms |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug and Therapeutics Bulletin | Early review of paclitaxel/docetaxel licensing extension to metastatic breast carcinoma |
-| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Cohort | Cancer | Phase II trial of doxorubicin + paclitaxel in advanced breast carcinoma; importance of prior anthracycline exposure |
-| [32461977](https://pubmed.ncbi.nlm.nih.gov/32461977/) | 2020 | Cohort | BioMed Research International | Real-world efficacy of neoadjuvant epirubicin/cyclophosphamide + weekly paclitaxel/trastuzumab in HER2+ breast carcinoma |
-| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | Preclinical | Chemical Biology & Drug Design | Paclitaxel combination therapeutic potential and in vivo biomarkers in breast carcinoma |
-| [39009452](https://pubmed.ncbi.nlm.nih.gov/39009452/) | 2024 | Preclinical | Journal for ImmunoTherapy of Cancer | Paclitaxel's effect on tumor-associated macrophages enhancing PD-1 blockade in breast cancer |
-| [20665703](https://pubmed.ncbi.nlm.nih.gov/20665703/) | 2011 | Preclinical | Journal of Cellular Physiology | ZD6474 enhances paclitaxel antiproliferative/apoptotic effects in breast carcinoma cells |
-| [31515668](https://pubmed.ncbi.nlm.nih.gov/31515668/) | 2019 | Preclinical/in vitro | Cancer Chemotherapy and Pharmacology | SRSF3 downregulation sensitizes breast cancer cells to paclitaxel treatment |
-| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | Preclinical/Genetic | Nature Communications | TEKT4 germline variations enriched in breast cancer resistant to paclitaxel |
-| [17272681](https://pubmed.ncbi.nlm.nih.gov/17272681/) | 2007 | Preclinical | Molecular Pharmacology | Reversal of stathmin-mediated resistance to paclitaxel and vinblastine in breast carcinoma cells |
+| [10791395](https://pubmed.ncbi.nlm.nih.gov/10791395/) | 2000 | Review | Lancet | Paclitaxel and docetaxel are accepted evidence-based components of therapy for advanced breast, lung and ovarian cancers; paclitaxel approved in the USA for adjuvant node-positive breast cancer |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug and Therapeutics Bulletin | Licence extended to first-line ovarian cancer and metastatic breast cancer |
+| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Phase 2 clinical study | Cancer | Doxorubicin plus paclitaxel in metastatic breast carcinoma; efficacy and toxicity, with prior anthracycline therapy influencing results |
+| [11745249](https://pubmed.ncbi.nlm.nih.gov/11745249/) | 2001 | Clinical study | Cancer | Paclitaxel in multimodality treatment of inflammatory breast carcinoma |
+| [9296218](https://pubmed.ncbi.nlm.nih.gov/9296218/) | 1997 | Dose-finding study | Annals of Oncology | Maximum tolerated doses of 3-hour paclitaxel with cyclophosphamide in advanced breast cancer |
+| [10898354](https://pubmed.ncbi.nlm.nih.gov/10898354/) | 2000 | Review | Cancer | Developments in breast cancer chemotherapy, including taxanes |
+| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | Translational | Nature Communications | TEKT4 germline variants enriched after treatment, linked to paclitaxel resistance |
+| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | Computational/preclinical | Chemical Biology & Drug Design | Paclitaxel combinations and in vivo biomarkers in breast carcinoma |
+| [20665703](https://pubmed.ncbi.nlm.nih.gov/20665703/) | 2011 | Preclinical | Journal of Cellular Physiology | ZD6474 enhances paclitaxel antiproliferative and apoptotic effects in breast carcinoma cells |
+| [32086991](https://pubmed.ncbi.nlm.nih.gov/32086991/) | 2020 | Preclinical | Cancer Science | Targeting claudin-4 enhances chemosensitivity in triple-negative breast cancer |
 
----
+## New Zealand Market Information
+
+All 11 licences are cancelled; none are currently valid. Approved indication text was not available for any of them.
+
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2271834 | Anzatax | Inj 6 mg per ml, 16.7 ml vial | Cancelled |
+| 2271826 | Anzatax | Inj 150 mg | Cancelled |
+| 2207664 | Paclitaxel Ebewe | Inj 6 mg per ml, 16.7 ml vial | Cancelled |
+| 2207672 | Paclitaxel Ebewe | Inj 150 mg | Cancelled |
+| 2394596 | Paclitaxel Actavis | Inj 6 mg per ml, 50 ml vial | Cancelled |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (taxane class — microtubule-stabilizing agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (TFDA insert not yet retrieved — see Data Gap DG001) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Standard cytotoxic drug handling precautions apply, consistent with taxane-class chemotherapy agents |
-
----
+| Cytotoxicity Classification | Conventional cytotoxic (taxane, microtubule stabiliser) |
+| Myelosuppression Risk | High (neutropenia is the main dose-limiting toxicity; the knowledge graph also links paclitaxel to neutropenia, agranulocytosis, thrombocytopenia and anaemia) |
+| Emetogenicity Classification | Low |
+| Monitoring Items | Complete blood count with differential, liver function, renal function, and neurological assessment for peripheral neuropathy |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not label text):** neutropenia, agranulocytosis, thrombocytopenia, anaemia, liver disease, kidney disease, gallbladder disease, peripheral neuropathy, myocardial infarction, sudden cardiac arrest, hypotensive disorder, asthma, diabetes mellitus and diabetic ketoacidosis, psoriasis, hyperbilirubinaemia (including Gilbert syndrome), and several psychiatric conditions (anxiety, neurotic and dysthymic disorders). These should be treated as signals to verify against the package insert, not confirmed contraindications.
+- **Drug interactions:** the interaction query returned 100 interacting drugs; the first 20 are shown in the data compiled for this report. Moderate-level interactions include aprepitant, cimetidine, clarithromycin, clotrimazole, dexamethasone, eliglustat, metronomidazole, miconazole, rolapitant, rosuvastatin, simvastatin, tinidazole and troglitazone. Minor: ascorbic acid and levofloxacin. Several others (glimepiride, doxycycline, morphine, metformin, omeprazole) are of unknown severity.
+- The literature also documents paclitaxel-related adverse events, including pneumonitis, peripheral neuropathy, corneal lesions, uveitis and hand-foot-type skin reactions.
 
----
+Please refer to the package insert for formal warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 2 and Phase 3 trials (e.g., NCT00003992, NCT00281658, NCT00455533) support paclitaxel's efficacy in breast cancer, and this use is already globally established rather than experimental. However, New Zealand-specific regulatory and safety data are absent, and the drug is currently unmarketed there, so guardrails are needed before any local deployment decision.
+Paclitaxel has a clear mechanistic fit and extensive trial activity in breast cancer, including several completed Phase 3 trials. However, most of those trials test combinations, so paclitaxel's own contribution is not isolated, and it is already standard of care. This is therefore confirmation of existing use rather than new repurposing. Evidence is rated L2 for this indication because of the limited paclitaxel-specific Phase 2/3 data in the compiled set. Lower-ranked predictions (Ehrlich tumour, bilateral and nipple carcinoma, rhabdomyosarcoma subtypes) should be held.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert with warnings, precautions, and contraindications (Blocking gap, DG001)
-- DrugBank-sourced mechanism of action detail to confirm mechanistic relevance (High priority gap, DG002)
-- Formal drug-drug interaction (DDI) query, currently returning "not found"
-- Assessment of the New Zealand registration/import pathway given zero current authorizations
+- Package insert warnings and contraindications (a blocking data gap for safety screening), from the Medsafe data sheet
+- Mechanism of action data from DrugBank
+- Clarification of the original indication and of the New Zealand regulatory position, since all licences are cancelled and no approved indication text is available
+- Confirmation of the paclitaxel-specific effect in breast cancer from monotherapy or head-to-head Phase 3 data
+- A myelosuppression and neuropathy monitoring plan, and a review of drug interactions (particularly CYP-active agents)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

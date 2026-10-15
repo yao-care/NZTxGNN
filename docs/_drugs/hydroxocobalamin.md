@@ -2,7 +2,7 @@
 layout: default
 title: Hydroxocobalamin
 parent: Model Prediction Only (L5)
-nav_order: 167
+nav_order: 226
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,78 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Hydroxocobalamin: From Vitamin B12 Deficiency / Cyanide Poisoning to Esophageal Varices Without Bleeding
+# Hydroxocobalamin: From Vitamin B12 Deficiency to Esophageal Varices Without Bleeding
 
 ## One-Sentence Summary
 
-Hydroxocobalamin is the active form of vitamin B12, established for treating B12 deficiency and as a cyanide-poisoning antidote. The TxGNN model predicts potential efficacy for **Esophageal Varices Without Bleeding** with a **99.23%** prediction score, but currently **no clinical trials and no literature** support this direction — the prediction is based purely on knowledge-graph inference.
-
----
+Hydroxocobalamin is a form of vitamin B12, originally used to treat vitamin B12 deficiency, pernicious anemia and cyanide poisoning.
+The TxGNN model predicts it may be effective for **esophageal varices without bleeding**, but this is a computational prediction only, with **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin B12 deficiency / cyanide poisoning (based on known pharmacology; no formal Taiwan license data available) |
-| Predicted New Indication | Esophageal Varices Without Bleeding |
+| Original Indication | Vitamin B12 deficiency, cyanide poisoning, pernicious anemia (from the knowledge graph; no approved indication text is available for the New Zealand licence) |
+| Predicted New Indication | Esophageal varices without bleeding |
 | TxGNN Prediction Score | 99.23% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid authorization) |
+| Number of Authorizations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
-
-*Note: A near-identical prediction exists for **Esophageal Varices With Bleeding** (score 99.23%, rank 6146), also with no supporting trials or literature and a Hold recommendation.*
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (marked as a High-severity data gap). Based on known pharmacology, hydroxocobalamin's established mechanisms are cyanide detoxification (binding cyanide ions to form cyanocobalamin, excreted renally) and correction of B12 deficiency (coenzyme function in methionine/succinyl-CoA metabolism).
+Currently, detailed mechanism of action data is not available. Based on known information, hydroxocobalamin is a form of vitamin B12 and also acts as a cyanide scavenger. Its efficacy in B12 deficiency and cyanide poisoning is established, but neither use has a known connection to portal hypertension or variceal pressure.
 
-Esophageal varices arise from portal hypertension secondary to cirrhosis, involving changes in vessel wall tension and fragility. No pharmacological literature currently establishes a direct mechanistic link between the B12/cobalamin pathway and portal pressure regulation or esophageal vessel wall integrity.
+No established mechanistic link to esophageal varices has been identified. One speculative pathway is nitric oxide (NO) scavenging. Hydroxocobalamin binds NO and can raise blood pressure, while excess NO contributes to splanchnic vasodilation and portal hypertension in cirrhosis. This hypothesis is not supported by any data compiled for this report.
 
-The high TxGNN score (99.23%) most likely reflects an **indirect** knowledge-graph association — for example, the comorbidity relationship between B12 deficiency (e.g., pernicious anemia) and liver disease — rather than a causal pharmacological mechanism. This is a model-generated hypothesis that requires manual biological plausibility review before further investment.
-
----
+The very high score (99.23%) should be interpreted cautiously. It may reflect graph-proximity artifacts, such as shared links with liver disease or B12 deficiency, rather than true therapeutic potential. The same score was given to the related indication "esophageal varices with bleeding," which suggests the model is predicting at the disease-class level rather than from indication-specific evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## New Zealand Market Information
 
-This drug is currently **not marketed** in Taiwan (0 authorizations on record), so no license/product information is available.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2637391 (cancelled) | Hydroxocobalamin Panpharma | Inj 1 mg per ml, 1 ml ampoule | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph based, not from label text)**: Hypertensive disorder and hypertension are listed as contraindicated conditions. This is relevant to the speculative NO-scavenging mechanism, which could raise blood pressure.
+- **Drug Interactions**: 32 potential interactions were identified in total. Those rated **Moderate** are arsenic trioxide, chloramphenicol, iodide I-131 and iodide I-123. Others, with unrated severity, include omeprazole, lansoprazole, simvastatin, loperamide, prednisolone, ranitidine, acetylsalicylic acid, budesonide, folic acid, valsartan, ramipril, lorazepam, citalopram, acetaminophen, mirtazapine and levothyroxine.
+- **Bleeding variant**: In acute variceal hemorrhage, any agent that raises blood pressure could be harmful because of hemodynamic instability and rebleeding risk. Standard care (terlipressin or octreotide, antibiotics, endoscopic therapy) has no role for hydroxocobalamin.
 
-*(Note: TFDA package insert warnings/contraindications are flagged as a Blocking data gap (DG001) — this must be resolved before any S1 safety evaluation can proceed.)*
-
----
+Please refer to the package insert for further warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a TxGNN model score (L5, decision stage S0) with zero clinical trials, zero literature, and no established mechanistic rationale linking B12/cyanide pathways to portal hypertension or variceal pathology. Combined with a Blocking safety data gap and the drug's unmarketed status in Taiwan, there is insufficient basis to advance.
+The prediction rests on a model score alone (L5), with no clinical trials, no literature and no established mechanistic link. The only plausible hypothesis (NO scavenging) is speculative and raises a safety concern in patients with hypertension. The New Zealand authorization has also been cancelled.
 
 **To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — resolves Blocking gap DG001
-- Confirmed mechanism of action via DrugBank — resolves High-severity gap DG002
-- Preclinical/mechanistic studies exploring any B12–portal hypertension or vascular wall relationship
-- Ongoing surveillance for emerging trials or literature on either esophageal varices indication (with/without bleeding)
+- Mechanism of action data (e.g., from DrugBank) to support a mechanistic link analysis
+- Package insert warnings and contraindications from Medsafe, which are required for safety screening
+- Preclinical or mechanistic studies testing whether NO scavenging affects portal pressure
+- Systematic literature and trial searches specific to hydroxocobalamin and portal hypertension or varices
+- Confirmation of a currently available formulation and route in New Zealand, since the only licence is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

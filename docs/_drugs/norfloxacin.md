@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Norfloxacin
-parent: Moderate Evidence (L3-L4)
-nav_order: 248
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 328
+evidence_level: L5
 indication_count: 10
 ---
 
 # Norfloxacin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,19 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Norfloxacin: From Bacterial Infections to Septicemic Plague
-
-## Note on Candidate Selection
-
-This evidence pack contains 10 TxGNN-predicted indications for norfloxacin, all clustered at similar TxGNN scores (99.4–99.7%). Rank 1 by raw score ("hyperamylasemia") has **zero clinical, literature, or mechanistic support** — the pack itself annotates it as "無機轉關聯，無臨床或文獻證據支持" (no mechanistic link, no evidence). The same is true for ranks 2, 3, 4, 6, 7, 8, 9. Rank 5 ("punctate epithelial keratoconjunctivitis") has literature, but the pack flags it as a likely false positive — the cited cases are microsporidial (parasitic), not bacterial, and norfloxacin's antibacterial mechanism does not apply.
-
-Of the 10 candidates, only **rank 10 (septicemic plague)** carries a biologically coherent rationale and a higher evidence tier (L3, decision stage S2 "Research Question"). This report focuses on that candidate rather than blindly following score rank, and lists the other 9 as screened-out in the appendix below.
-
----
+# Norfloxacin: From Bacterial Infections (Urinary Tract Infection and Others) to Hyperamylasemia
 
 ## One-Sentence Summary
 
-Norfloxacin is a fluoroquinolone-class antibacterial agent, historically used to treat bacterial infections (e.g., urinary tract infections) via DNA gyrase inhibition. Among the TxGNN predictions in this pack, the most credible new-indication candidate is **Septicemic Plague**, based on class-effect reasoning with CDC/WHO-recommended fluoroquinolones (ciprofloxacin, levofloxacin) — but it is supported only by **2 historical animal/in-vitro publications** and **no clinical trials or norfloxacin-specific plague data**.
+Norfloxacin is a fluoroquinolone antibacterial originally used for infections such as urinary tract infection, typhoid fever, dysentery and bacterial pneumonia.
+The TxGNN model predicts it may be effective for **hyperamylasemia**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+It is a graph-based prediction only and has no supporting evidence.
 
 ---
 
@@ -49,23 +43,23 @@ Norfloxacin is a fluoroquinolone-class antibacterial agent, historically used to
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack — no NZ/TW license records available (norfloxacin is a well-established fluoroquinolone antibacterial; specific approved wording pending TFDA package insert retrieval, DG001) |
-| Predicted New Indication | Septicemic Plague |
-| TxGNN Prediction Score | 99.37% |
-| Evidence Level | L3 |
-| New Zealand Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
+| Original Indication | Bacterial infections, including urinary tract infection, typhoid fever, dysentery and bacterial pneumonia (the New Zealand licence has no approved indication text recorded) |
+| Predicted New Indication | Hyperamylasemia |
+| TxGNN Prediction Score | 99.70% |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (data gap DG002, High severity). Based on known pharmacology, norfloxacin is a **fluoroquinolone-class antibacterial**, and this class's efficacy against susceptible Gram-negative bacteria — including *Yersinia pestis*, the causative agent of plague — is well established for other members of the class (ciprofloxacin, levofloxacin, both CDC/WHO-recommended for plague treatment and post-exposure prophylaxis).
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Norfloxacin is a fluoroquinolone antibacterial that is generally understood to inhibit bacterial DNA gyrase and topoisomerase IV. Its efficacy is established in bacterial infections, not in laboratory findings.
 
-The mechanistic thread connecting norfloxacin's original antibacterial use to septicemic plague is a **class-effect argument**: all fluoroquinolones inhibit bacterial DNA gyrase/topoisomerase IV, and this mechanism is pathogen-agnostic within susceptible Gram-negative species. Since *Y. pestis* is susceptible to fluoroquinolones as a class, norfloxacin's inclusion is mechanistically plausible even without drug-specific trial data.
+The assessment found **no plausible mechanistic link** to hyperamylasemia. Hyperamylasemia is a laboratory finding with diverse causes, such as pancreatitis and renal impairment. It is not a primary infectious indication. The high TxGNN score reflects graph-based association only, with no supporting trial or literature evidence.
 
-However, this rationale is indirect. The two supporting publications (PMID 10987101, 11057367) are animal/in-vitro studies from 2000, in Russian-language literature, and neither directly tests norfloxacin against *Y. pestis* in a clinical or robust preclinical model — one focuses on vaccine-antibiotic interaction in mice, the other on a different pathogen (*Vibrio cholerae*) entirely. This is class-level, not drug-level, evidence.
+Other predictions were also reviewed. Most have no mechanistic rationale (polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, diffuse scleroderma and others). The only biologically plausible one is **septicemic plague** (score 99.37%). Plague is caused by *Yersinia pestis*, a susceptible Gram-negative bacterium. However, the evidence is preclinical and indirect. Norfloxacin's low serum levels may not suit systemic infection, and other agents are better supported. This is a research question, not a recommendation.
 
 ---
 
@@ -77,22 +71,31 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10987101](https://pubmed.ncbi.nlm.nih.gov/10987101/) | 2000 | Animal Study | Antibiotiki i khimioterapiia | Compared combined emergency (fluoroquinolone) + specific (EV vaccine) prophylaxis vs. sequential use in mice; norfloxacin's effect on post-vaccination immunity was noted as lower than ciprofloxacin/ofloxacin/pefloxacin |
-| [11057367](https://pubmed.ncbi.nlm.nih.gov/11057367/) | 2000 | In Vitro Study | Antibiotiki i khimioterapiia | Examined fluoroquinolone resistance mutants in *Vibrio cholerae* (not *Yersinia pestis*); indirect class-effect relevance only |
+Currently no related literature available for hyperamylasemia.
 
 ---
 
 ## New Zealand Market Information
 
-No marketing authorizations are on record. `market_status` = Not marketed (Not Marketed), `total_licenses` = 0.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2204398 (cancelled) | Arrow-Norfloxacin | Tab 400 mg | Not recorded |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Note: TFDA/Medsafe package insert retrieval is a **Blocking** data gap (DG001) — this prevents entry into the S1 safety review stage.)
+- **Contraindications / Disease Associations (knowledge graph, not label text)**: Knowledge graph records link norfloxacin to the following conditions of concern:
+  - Cardiac: long QT syndrome (including familial), torsades de pointes
+  - Hepatic and renal: liver failure, liver disease, cirrhosis, gallbladder disease, kidney disease
+  - Neuropsychiatric: epilepsy, anxiety disorder, psychotic disorders, schizophreniform and schizoaffective disorders, peripheral neuropathy
+  - Musculoskeletal: tendinitis, rhabdomyolysis
+  - Metabolic: diabetes mellitus, diabetic ketoacidosis, potassium deficiency
+  - Haematological: thrombocytopenia, anaemia
+- **Drug Interactions**: 100 interactions were found, of which the data lists 20 and the highlights are below.
+  - **Major**: hydrocortisone, dexamethasone, betamethasone, triamcinolone (corticosteroids), bupropion, chlorpropamide
+  - **Moderate**: antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, albiglutide, canagliflozin), famotidine, loperamide, acetylsalicylic acid, balsalazide, bisacodyl, calcium salts, potassium citrate
+- Package insert warnings and contraindications were not available. Please refer to the package insert for authoritative safety information.
 
 ---
 
@@ -101,29 +104,13 @@ Please refer to the package insert for safety information. (Note: TFDA/Medsafe p
 **Decision: Hold**
 
 **Rationale:**
-Evidence for septicemic plague is limited to L3 class-effect reasoning drawn from two 25-year-old animal/in-vitro studies, with no norfloxacin-specific clinical or preclinical plague data. Safety review cannot proceed because the TFDA/Medsafe package insert data (DG001) is a blocking gap, and norfloxacin is not marketed in the target jurisdiction.
+The prediction for hyperamylasemia rests on a model score alone, with no clinical trials, no literature and no plausible mechanism (Evidence Level L5). The product also has only a cancelled licence in New Zealand. The safety profile raises concerns, including QT prolongation, tendon and neurological effects, and major interactions with corticosteroids.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (TFDA/Medsafe package insert — warnings/contraindications) to unblock S1 safety review
-- Resolve DG002 (confirmed MOA from DrugBank) to strengthen the mechanistic rationale
-- Norfloxacin-specific in vitro/in vivo efficacy data against *Yersinia pestis*
-- Reassess whether the other 9 TxGNN-predicted indications in this pack merit any further screening, given current evidence gaps
-
----
-
-## Appendix: Other Screened Candidates (Not Selected)
-
-| Rank | Disease | TxGNN Score | Evidence Level | Reason Excluded |
-|------|---------|------|------|------|
-| 1 | Hyperamylasemia | 99.70% | L5 | No mechanistic link, no clinical/literature evidence |
-| 2 | Polyclonal hyperviscosity syndrome | 99.70% | L5 | No mechanistic link, no evidence |
-| 3 | Congenital analbuminemia | 99.67% | L5 | Genetic albumin defect, unrelated to antibacterial mechanism |
-| 4 | Blood group incompatibility | 99.55% | L5 | Immunohematology issue, unrelated to DNA gyrase inhibition |
-| 5 | Punctate epithelial keratoconjunctivitis | 99.54% | L4 | Cited literature is microsporidial (parasitic), not bacterial — likely TxGNN false positive |
-| 6 | Premalignant hematological system disease | 99.48% | L5 | No mechanistic link, no evidence |
-| 7 | Diffuse scleroderma | 99.44% | L5 | Autoimmune fibrotic disease, unrelated to antibacterial mechanism |
-| 8 | Monoclonal gammopathy | 99.42% | L5 | Cited literature is about fluoroquinolone resistance in cancer patients, not treatment of the condition |
-| 9 | Hematological disease with acquired peripheral neuropathy | 99.38% | L5 | No mechanistic link, no evidence |
+- Mechanism of action data and a rationale linking the drug to the proposed indication
+- Package insert warnings and contraindications from Medsafe
+- Any clinical or preclinical evidence supporting the new indication
+- If an anti-infective direction is wanted, a separate review of septicemic plague against better-supported fluoroquinolones and standard agents
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

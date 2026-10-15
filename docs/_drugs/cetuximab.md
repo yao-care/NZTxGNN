@@ -2,7 +2,7 @@
 layout: default
 title: Cetuximab
 parent: Model Prediction Only (L5)
-nav_order: 70
+nav_order: 93
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cetuximab: From Colorectal Cancer and Head and Neck Cancer to Non-Seminomatous Lesion
+# Cetuximab: From Colorectal and Head and Neck Cancer to Non-Seminomatous Lesion
 
 ## One-Sentence Summary
 
-Cetuximab is a chimeric IgG1 monoclonal antibody targeting EGFR, internationally approved for RAS wild-type colorectal cancer and head and neck squamous cell carcinoma (HNSCC), but not currently registered in New Zealand. The TxGNN model predicts it may have potential for **Non-Seminomatous Lesion** (global knowledge graph rank #729), with **no clinical trials** and **no supporting publications** identified for this specific direction. Given the absent mechanistic rationale and low EGFR expression profile of non-seminomatous tumours, the current recommendation is **Hold**.
+Cetuximab is an anti-EGFR monoclonal antibody, originally used for EGFR-expressing colorectal cancer and squamous cell carcinoma of the head and neck.
+The TxGNN model's top-ranked new prediction is **non-seminomatous lesion**, but it has **0 clinical trials** and **0 publications** behind it, so it is a model prediction only.
+Two lower-ranked predictions, **pre-malignant neoplasm** and **cystic neoplasm**, have some supporting trials and literature and are discussed below.
 
 ---
 
@@ -41,63 +43,110 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting EGFR, internationally
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in New Zealand; internationally approved for RAS wild-type colorectal cancer and head and neck squamous cell carcinoma |
-| Predicted New Indication | Non-Seminomatous Lesion |
+| Original Indication | Colorectal cancer; squamous cell carcinoma, including pharyngeal and laryngeal (from the knowledge graph; no approved indication text is available in the New Zealand licence records) |
+| Predicted New Indication | Non-seminomatous lesion |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | ✗ Cancelled only |
+| Number of Authorizations | 3 (all cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, Cetuximab is an anti-EGFR chimeric monoclonal antibody (IgG1 class) that competitively blocks EGFR ligand binding at the extracellular domain, thereby preventing receptor activation and downstream RAS/MAPK and PI3K/AKT signalling. This mechanism underpins its proven efficacy in KRAS/RAS wild-type colorectal cancer and EGFR-overexpressing HNSCC, where EGFR is a validated oncogenic driver.
+Cetuximab binds the epidermal growth factor receptor (EGFR) and blocks its signalling. It is used for EGFR-expressing metastatic colorectal cancer and, with radiotherapy, for squamous cell cancers of the head and neck. A detailed mechanism-of-action record is not available in the data compiled for this report, but the target is well established.
 
-Non-seminomatous germ cell tumours (NSGCTs) comprise embryonal carcinoma, yolk sac tumour, choriocarcinoma, and teratoma — a biologically diverse group driven primarily by germ cell developmental pathways rather than EGFR signalling. Published evidence reports EGFR expression in NSGCTs to be low and inconsistent, in marked contrast to the epithelial malignancies where Cetuximab is clinically effective. This biological mismatch substantially limits the mechanistic rationale for anti-EGFR therapy in this context.
+For the top-ranked prediction, **non-seminomatous lesion**, no mechanistic link has been established. The high score (0.9995) is a model output with no trial or literature support for EGFR-pathway involvement in this condition. It should not be treated as a repurposing signal on its own.
 
-NSGCTs are among the most chemosensitive solid tumours known: BEP (bleomycin, etoposide, cisplatin) achieves cure rates exceeding 90% in early-stage disease, leaving minimal unmet clinical need for alternative approaches. The absence of EGFR pathway dependency, combined with a highly effective existing standard of care, means the TxGNN prediction for this indication most likely reflects knowledge graph network proximity rather than direct biological plausibility.
+Two lower-ranked predictions have a more plausible rationale:
+
+- **Pre-malignant neoplasm (L2):** EGFR is overexpressed early in head and neck carcinogenesis, which supports EGFR-targeted chemoprevention. A completed Phase 2 trial tested single-agent cetuximab in high-risk pre-malignant upper aerodigestive lesions, but its results are not provided.
+- **Cystic neoplasm (L3):** EGFR is expressed in adenoid cystic carcinoma and other salivary gland tumours. Evidence consists of early-phase combination studies and one Phase II salivary gland study.
+
+Other predictions in the top 10 are weaker:
+
+- **Epiglottis neoplasm:** mostly laryngeal squamous cell carcinoma, already an original indication, so not true repurposing.
+- **Ductal or ductular proliferation:** the literature is mostly preclinical pancreatic cancer work. KRAS mutation, common in that setting, is a recognised predictor of resistance to anti-EGFR antibodies.
+- **Odontogenic cyst:** two case reports only, both about carcinoma arising in such a cyst.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials are registered for the top-ranked prediction, non-seminomatous lesion.
+
+The table below shows the most relevant trials for the better-supported predictions. None of them has results provided here.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00524017](https://clinicaltrials.gov/study/NCT00524017) | Phase 2 | Completed | 35 | Single-agent cetuximab in high-risk pre-malignant upper aerodigestive lesions (pre-malignant neoplasm); the most directly relevant trial |
+| [NCT01192087](https://clinicaltrials.gov/study/NCT01192087) | Phase 1/2 | Unknown | 49 | Cetuximab with IMRT and carbon-ion boost in adenoid cystic carcinoma (cystic neoplasm); combined with radiotherapy |
+| [NCT00482222](https://clinicaltrials.gov/study/NCT00482222) | Phase 3 | Unknown | 340 | Oxaliplatin/fluoropyrimidine with or without cetuximab in resectable colorectal liver metastases; an established cancer setting, not pre-malignant disease |
+| [NCT00397384](https://clinicaltrials.gov/study/NCT00397384) | Phase 1 | Completed | 43 | Erlotinib plus cetuximab dual EGFR blockade in advanced solid tumours; safety study, not specific to cystic neoplasms |
+| [NCT00101348](https://clinicaltrials.gov/study/NCT00101348) | Phase 1/2 | Completed | 66 | Erlotinib, cetuximab and bevacizumab in metastatic solid tumours; multi-agent combination |
+| [NCT01637194](https://clinicaltrials.gov/study/NCT01637194) | Phase 1 | Completed | 12 | Cetuximab plus everolimus in solid tumours; small safety study |
+| [NCT00719199](https://clinicaltrials.gov/study/NCT00719199) | Phase 1 | Terminated | 21 | FOLFIRI, cetuximab and IMO-2055 in colorectal cancer; terminated |
+| [NCT00537823](https://clinicaltrials.gov/study/NCT00537823) | Phase 2 | Terminated | 9 | Short-duration neoadjuvant FOLFOX before liver resection for colorectal metastases; terminated, not pre-malignant disease |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature is available for the top-ranked prediction, non-seminomatous lesion.
+
+The most relevant publications for the better-supported predictions are:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [18804410](https://pubmed.ncbi.nlm.nih.gov/18804410/) | 2009 | Phase II trial | Oral Oncology | Cetuximab in recurrent or metastatic salivary gland carcinomas (30 patients, mostly adenoid cystic); clinical benefit rate was the primary measure |
+| [24412287](https://pubmed.ncbi.nlm.nih.gov/24412287/) | 2014 | Review | Oral Oncology | Targeting EGFR for head and neck cancer chemoprevention; pre-malignant oral lesions show increased EGFR expression |
+| [33243986](https://pubmed.ncbi.nlm.nih.gov/33243986/) | 2020 | Review | Nature Reviews Disease Primers | Overview of head and neck squamous cell carcinoma |
+| [35300246](https://pubmed.ncbi.nlm.nih.gov/35300246/) | 2022 | Randomized Phase II | Clin Transl Radiat Oncol | Long-term results of cetuximab, gemcitabine and radiotherapy in locally advanced pancreatic cancer (PARC trial) |
+| [21552097](https://pubmed.ncbi.nlm.nih.gov/21552097/) | 2012 | Phase II | Am J Clin Oncol | Gemcitabine, oxaliplatin and cetuximab in advanced pancreatic cancer |
+| [27797376](https://pubmed.ncbi.nlm.nih.gov/27797376/) | 2017 | Preclinical | Oncogene | Cetuximab resistance in pancreatic ductal adenocarcinoma driven by integrin β1–Src–Akt bypass signalling |
+| [30141310](https://pubmed.ncbi.nlm.nih.gov/30141310/) | 2018 | Cohort | Asian Pac J Cancer Prev | Skin disorders and tumour location as prognostic factors in metastatic colorectal cancer treated with cetuximab |
+| [32518035](https://pubmed.ncbi.nlm.nih.gov/32518035/) | 2020 | Case report | Oral Oncology | Cetuximab monotherapy for relapsing high-grade mucoepidermoid carcinoma |
+| [41546361](https://pubmed.ncbi.nlm.nih.gov/41546361/) | 2025 | Case report | Gan to Kagaku Ryoho | Primary intraosseous carcinoma arising in an odontogenic cyst of the mandible |
 
 ---
 
 ## New Zealand Market Information
 
-Cetuximab has no Medsafe authorisations in New Zealand and is not currently marketed. Clinicians requiring access would need to apply through the Medsafe Special Access Scheme or a compassionate use pathway.
+All three licences are cancelled, and no approved indication text is recorded for them.
+
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| 2304457 | Erbitux | Inj 5 mg per ml, 20 ml vial |
+| 2304465 | Erbitux | Inj 5 mg per ml, 100 ml vial |
+| 2537958 | Baxter | Inj 1 mg for ECP |
 
 ---
 
 ## Cytotoxicity
 
-Cetuximab is an antineoplastic targeted therapy (anti-EGFR monoclonal antibody) used in the treatment of cancer.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — Anti-EGFR monoclonal antibody (chimeric IgG1); not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low (monoclonal antibodies carry minimal myelosuppressive risk; isolated neutropenia has been reported) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Serum electrolytes (magnesium — hypomagnesaemia is a common and clinically significant adverse effect), infusion reaction signs during and after administration, skin toxicity (acneiform rash — severity correlates with response), CBC, liver and renal function |
-| Handling Protection | Standard parenteral antineoplastic precautions; dedicated IV line required; resuscitation equipment must be available at bedside throughout each infusion |
+| Cytotoxicity Classification | Targeted therapy (anti-EGFR monoclonal antibody) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions:** 19 drug–drug interaction entries were found.
+  - **Major:** aminolevulinic acid and thalidomide.
+  - **Moderate:**
+    - Proton pump inhibitors: rabeprazole, omeprazole, dexlansoprazole, esomeprazole, lansoprazole and pantoprazole.
+    - Platinum agents: carboplatin, cisplatin and oxaliplatin.
+    - Fluoropyrimidines: capecitabine and fluorouracil.
+    - Others: methoxsalen, topical aminolevulinic acid, idelalisib, topical methyl aminolevulinate, omacetaxine mepesuccinate and verteporfin.
+- The case report in the literature (PMID 39415301) notes that cetuximab can cause severe infusion reactions.
 
-> **Clinical Note:** Cetuximab carries a well-documented risk of **severe infusion hypersensitivity reactions** (including anaphylaxis Grade 3–4), particularly in geographic regions where pre-existing IgE antibodies against alpha-1,3-galactose are prevalent. **Hypomagnesaemia** occurs in a significant proportion of patients on prolonged therapy and may require supplementation. **Acneiform skin rash** is the hallmark dermatologic toxicity and serves as a surrogate marker of biological activity. Pre-medication and on-site monitoring protocols per local oncology guidelines are essential before and during first administration.
+Please refer to the package insert for key warnings and contraindications, which are not available in the data compiled for this report.
 
 ---
 
@@ -106,16 +155,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Non-seminomatous testicular lesions express EGFR at low and inconsistent levels, and there is no established clinical or mechanistic evidence to support Cetuximab repurposing in this disease entity. The existing standard of care achieves high cure rates, and the TxGNN prediction is currently unsupported by any real-world data.
+The top-ranked prediction, non-seminomatous lesion, rests on a model score alone, with no trials, no literature and no mechanistic link (L5). Cetuximab is also no longer actively licensed in New Zealand, since all three licences are cancelled. The best-supported alternatives, pre-malignant upper aerodigestive lesions (L2) and cystic or salivary gland tumours (L3), are research questions rather than ready candidates. Their key trial results are not available, and most of their evidence comes from combination or early-phase studies.
 
 **To proceed, the following is needed:**
-
-- Systematic immunohistochemical evaluation of EGFR expression and copy number in non-seminomatous germ cell tumour tissue samples to establish biological target presence
-- Mechanistic in vitro studies in NSGCT cell lines to determine EGFR pathway dependency and sensitivity to EGFR blockade
-- Review of the TxGNN knowledge graph pathway linking Cetuximab to non-seminomatous lesion to identify any indirect mechanistic connections not captured by literature alone
-- Consider re-prioritising evaluation resources toward higher-evidence repurposing candidates identified in this same evidence pack:
-  - **Cystic Neoplasm** (Rank #9, Evidence Level L2): Phase 1/2 trial NCT01192087 directly studying Cetuximab + IMRT + carbon ion boost in adenoid cystic carcinoma; Phase 2 clinical data published (PMID 18804410)
-  - **Pre-Malignant Neoplasm** (Rank #10, Evidence Level L3): NCT00524017 — completed Phase 2 study of single-agent Cetuximab in high-risk pre-malignant upper aerodigestive lesions; supported by mechanistic review (PMID 24412287)
+- Package insert warnings and contraindications (a blocking gap for safety screening).
+- Detailed mechanism-of-action data.
+- Published results of NCT00524017 (pre-malignant upper aerodigestive lesions) and of the salivary gland carcinoma Phase II study.
+- A review of whether the non-seminomatous lesion prediction has any biological basis for EGFR involvement.
+- Clarification of the current regulatory and supply status of cetuximab in New Zealand.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

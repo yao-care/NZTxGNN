@@ -2,7 +2,7 @@
 layout: default
 title: Obinutuzumab
 parent: High Evidence (L1-L2)
-nav_order: 250
+nav_order: 331
 evidence_level: L1
 indication_count: 3
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-# Obinutuzumab: From Chronic Lymphocytic Leukemia to Follicular Lymphoma
+# Obinutuzumab: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Follicular Lymphoma
 
 ## One-Sentence Summary
 
-Obinutuzumab is a type II, glycoengineered anti-CD20 monoclonal antibody previously established in CD20-positive B-cell malignancies such as chronic lymphocytic leukemia (CLL). The TxGNN model predicts strong efficacy for **Follicular Lymphoma**, and unlike most model-only predictions this one is already backed by **50 clinical trials** (including the pivotal Phase 3 GALLIUM study) and **20 publications** identified in this evidence pack.
-
-*Note: this evidence pack contains three TxGNN-predicted indications for obinutuzumab. Two additional predictions — CLL/SLL with IGHV somatic hypermutation, and pregerminal-center CLL/SLL — returned zero matching trials or literature (Evidence Level L5, decision stage S0, recommendation Hold) and are not discussed further below.*
+Obinutuzumab is an anti-CD20 antibody, listed in the knowledge graph for acute lymphoblastic/lymphocytic leukaemia and Richter syndrome.
+The TxGNN model predicts it may be effective for **Follicular Lymphoma**, with **43 clinical trials** and **19 publications** compiled for this report, including several randomised studies.
+Note that follicular lymphoma is largely an established use of this drug class, so this is closer to confirmation than to novel repurposing.
 
 ---
 
@@ -43,85 +43,82 @@ Obinutuzumab is a type II, glycoengineered anti-CD20 monoclonal antibody previou
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic Lymphocytic Leukemia (CLL) — per clinical trial evidence (NCT02877550); no Taiwan/NZ license record available to confirm formally |
-| Predicted New Indication | Follicular Lymphoma |
+| Original Indication | Acute lymphoblastic/lymphocytic leukaemia; Richter syndrome (from the knowledge graph; no approved indication text is available from the New Zealand licences) |
+| Predicted New Indication | Follicular lymphoma |
 | TxGNN Prediction Score | 99.18% |
 | Evidence Level | L1 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | ✗ Cancelled only |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Obinutuzumab is a second-generation, glycoengineered, type II anti-CD20 monoclonal antibody. Compared with first-generation anti-CD20 agents (e.g., rituximab), its glycoengineered Fc region enhances antibody-dependent cellular cytotoxicity (ADCC) and direct B-cell killing, in addition to complement-dependent cytotoxicity (CDC).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, obinutuzumab is a glycoengineered type II anti-CD20 monoclonal antibody. It acts through direct B-cell death, enhanced antibody-dependent cellular cytotoxicity (ADCC) and antibody-dependent cellular phagocytosis (ADCP).
 
-CD20 is stably and highly expressed on malignant B cells in both CLL and follicular lymphoma (FL), so the drug's core mechanism transfers directly across these indications. This is not a purely speculative prediction: obinutuzumab already carries a regulatory-grade evidence base in FL — the Phase 3 GALLIUM trial (NCT01332968, n=1,401) demonstrated superior progression-free survival for obinutuzumab-based versus rituximab-based immunochemotherapy in previously untreated advanced FL, and this has been corroborated by multiple follow-on combination studies (with polatuzumab vedotin, venetoclax, lenalidomide, zanubrutinib, and others).
+Follicular lymphoma is a CD20-positive B-cell malignancy, so the target is present on the tumour cells. The original indications (leukaemia and Richter syndrome) are also B-cell malignancies, so the biological link is strong.
 
-In short, the mechanistic rationale (shared CD20 target across CD20+ B-cell malignancies) and the clinical evidence base are mutually reinforcing, which is why this candidate reaches Evidence Level L1 rather than remaining a pure model prediction.
+The published evidence includes randomised comparisons against rituximab-based immunochemotherapy in untreated follicular lymphoma. It also includes a randomised phase 2 study in relapsed/refractory disease. This indicates the use is already well established rather than newly discovered. The two highest-ranked predictions (CLL/SLL subtypes, scores of 99.21%) have no trials or literature and remain at L5 and Hold.
 
 ---
 
 ## Clinical Trial Evidence
 
+The compiled data contain 43 trials. The table lists the 10 most relevant, prioritising those graded for relevance.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01332968](https://clinicaltrials.gov/study/NCT01332968) | Phase 3 | Completed | 1401 | GALLIUM: obinutuzumab + chemo vs rituximab + chemo in previously untreated advanced indolent NHL; pivotal trial supporting FL indication |
-| [NCT01059630](https://clinicaltrials.gov/study/NCT01059630) | Phase 3 | Completed | 413 | GADOLIN: bendamustine vs bendamustine + obinutuzumab in rituximab-refractory indolent NHL |
-| [NCT03817853](https://clinicaltrials.gov/study/NCT03817853) | Phase 4 | Completed | 114 | Post-marketing study of obinutuzumab short-duration (90-min) infusion safety in previously untreated advanced FL |
-| [NCT04034056](https://clinicaltrials.gov/study/NCT04034056) | N/A (non-interventional) | Completed | 299 | Real-world effectiveness/safety of obinutuzumab in previously untreated advanced FL, relapse rate at 24 months |
-| [NCT03332017](https://clinicaltrials.gov/study/NCT03332017) | Phase 2 | Completed | 217 | ROSEWOOD: zanubrutinib + obinutuzumab vs obinutuzumab monotherapy in relapsed/refractory FL |
-| [NCT02611323](https://clinicaltrials.gov/study/NCT02611323) | Phase 1/2 | Completed | 133 | Obinutuzumab + polatuzumab vedotin + venetoclax in relapsed/refractory FL |
-| [NCT03113422](https://clinicaltrials.gov/study/NCT03113422) | Phase 2 | Completed | 56 | Venetoclax + obinutuzumab + bendamustine as front-line therapy in high tumor burden FL |
-| [NCT02600897](https://clinicaltrials.gov/study/NCT02600897) | Phase 1/2 | Completed | 114 | Obinutuzumab + polatuzumab vedotin + lenalidomide in relapsed/refractory FL |
-| [NCT01582776](https://clinicaltrials.gov/study/NCT01582776) | Phase 1/2 | Completed | 317 | Obinutuzumab + lenalidomide in FL and relapsed/refractory aggressive B-cell lymphoma |
-| [NCT05783596](https://clinicaltrials.gov/study/NCT05783596) | Phase 2 | Active, not recruiting | 47 | Glofitamab + obinutuzumab as first-line treatment of FL and marginal zone lymphoma |
+| [NCT05100862](https://clinicaltrials.gov/study/NCT05100862) | Phase 3 | Active, not recruiting | 799 | Zanubrutinib + obinutuzumab vs lenalidomide + rituximab in relapsed/refractory follicular or marginal zone lymphoma (primary endpoint: PFS) |
+| [NCT02871219](https://clinicaltrials.gov/study/NCT02871219) | Phase 2 | Completed | 96 | Obinutuzumab + lenalidomide in previously untreated follicular lymphoma |
+| [NCT03817853](https://clinicaltrials.gov/study/NCT03817853) | Phase 4 | Completed | 114 | Short-duration (90-minute) obinutuzumab infusion with chemotherapy; safety and feasibility, not efficacy |
+| [NCT00825149](https://clinicaltrials.gov/study/NCT00825149) | Phase 1 | Completed | 137 | Obinutuzumab with CHOP, FC or bendamustine in CD20+ follicular lymphoma; early safety and efficacy |
+| [NCT05169658](https://clinicaltrials.gov/study/NCT05169658) | Phase 2 | Completed | 42 | Subcutaneous mosunetuzumab ± polatuzumab vedotin and obinutuzumab in untreated indolent B-cell NHL; small pilot |
+| [NCT02391545](https://clinicaltrials.gov/study/NCT02391545) | Phase 1/2 | Terminated | 55 | Duvelisib with rituximab or obinutuzumab in untreated CD20+ follicular lymphoma |
+| [NCT05929222](https://clinicaltrials.gov/study/NCT05929222) | Phase 3 | Recruiting | 190 | Radiotherapy alone vs radiotherapy + obinutuzumab in early-stage follicular lymphoma (GAZEBO) |
+| [NCT01582776](https://clinicaltrials.gov/study/NCT01582776) | Phase 1/2 | Completed | 317 | Obinutuzumab + lenalidomide in follicular and aggressive B-cell lymphoma |
+| [NCT02257567](https://clinicaltrials.gov/study/NCT02257567) | Phase 1/2 | Completed | 331 | Polatuzumab vedotin + bendamustine + rituximab or obinutuzumab in relapsed/refractory follicular lymphoma or DLBCL |
+| [NCT04796922](https://clinicaltrials.gov/study/NCT04796922) | Phase 3 | Withdrawn | 0 | Parsaclisib + rituximab or obinutuzumab; withdrawn with no participants, so it provides no evidence |
 
-*40 additional trials (mostly early-phase combination studies or currently recruiting) are on file but not shown here.*
+Many other trials combine obinutuzumab with agents such as zanubrutinib, venetoclax, lenalidomide, atezolizumab and ibrutinib. Most are ongoing or have no reported results in the compiled data.
 
 ---
 
 ## Literature Evidence
 
+The compiled data contain 19 publications. The table lists the 10 most relevant, prioritising randomised trials.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28976863](https://pubmed.ncbi.nlm.nih.gov/28976863/) | 2017 | RCT | New England Journal of Medicine | Primary GALLIUM results: obinutuzumab-based vs rituximab-based chemotherapy in previously untreated advanced FL |
-| [29856692](https://pubmed.ncbi.nlm.nih.gov/29856692/) | 2018 | RCT | Journal of Clinical Oncology | GALLIUM sub-analysis: impact of chemotherapy backbone on efficacy/safety of obinutuzumab vs rituximab |
-| [37506346](https://pubmed.ncbi.nlm.nih.gov/37506346/) | 2023 | RCT | Journal of Clinical Oncology | ROSEWOOD: zanubrutinib + obinutuzumab vs obinutuzumab monotherapy in relapsed/refractory FL |
-| [31296423](https://pubmed.ncbi.nlm.nih.gov/31296423/) | 2019 | RCT | The Lancet Haematology | GALEN: obinutuzumab + lenalidomide in relapsed/refractory FL |
-| [37767550](https://pubmed.ncbi.nlm.nih.gov/37767550/) | 2024 | RCT | Haematologica | Polatuzumab vedotin + bendamustine + rituximab or obinutuzumab in relapsed/refractory FL |
-| [39830356](https://pubmed.ncbi.nlm.nih.gov/39830356/) | 2024 | Review | Frontiers in Pharmacology | Rapid review of efficacy, safety, and cost-effectiveness of obinutuzumab in FL |
-| [31360086](https://pubmed.ncbi.nlm.nih.gov/31360086/) | 2017 | Review | Blood and Lymphatic Cancer: Targets and Therapy | Impact of obinutuzumab alone and in combination for FL |
-| [38660754](https://pubmed.ncbi.nlm.nih.gov/38660754/) | 2024 | Review | Turkish Journal of Haematology | Comprehensive review of FL management, including obinutuzumab-based regimens |
-| [28276536](https://pubmed.ncbi.nlm.nih.gov/28276536/) | 2016 | Review | Drugs of Today | Overview of obinutuzumab in FL |
-| [35180337](https://pubmed.ncbi.nlm.nih.gov/35180337/) | 2022 | Review | Oncology (Williston Park) | Current and emerging therapies in FL, including anti-CD20 antibodies |
-
-*10 additional publications are on file with pending classification.*
+| [28976863](https://pubmed.ncbi.nlm.nih.gov/28976863/) | 2017 | Randomised trial (GALLIUM) | N Engl J Med | Obinutuzumab-based vs rituximab-based chemotherapy in previously untreated advanced follicular lymphoma |
+| [29856692](https://pubmed.ncbi.nlm.nih.gov/29856692/) | 2018 | RCT | J Clin Oncol | GALLIUM: influence of chemotherapy backbone on efficacy and safety (1,202 patients) |
+| [37404773](https://pubmed.ncbi.nlm.nih.gov/37404773/) | 2023 | RCT | HemaSphere | GALLIUM final analysis in untreated indolent NHL (FL and MZL) |
+| [37506346](https://pubmed.ncbi.nlm.nih.gov/37506346/) | 2023 | RCT (phase 2) | J Clin Oncol | ROSEWOOD: zanubrutinib + obinutuzumab vs obinutuzumab alone in relapsed/refractory follicular lymphoma |
+| [39376156](https://pubmed.ncbi.nlm.nih.gov/39376156/) | 2024 | Patient-reported outcomes | Curr Med Res Opin | ROSEWOOD quality-of-life results; the trial showed superior efficacy with a manageable safety profile |
+| [31296423](https://pubmed.ncbi.nlm.nih.gov/31296423/) | 2019 | Single-arm phase 2 | Lancet Haematol | GALEN: obinutuzumab + lenalidomide in relapsed/refractory follicular lymphoma |
+| [37767550](https://pubmed.ncbi.nlm.nih.gov/37767550/) | 2024 | Phase 1b/2 | Haematologica | Polatuzumab vedotin + bendamustine with rituximab or obinutuzumab in relapsed/refractory follicular lymphoma |
+| [38041532](https://pubmed.ncbi.nlm.nih.gov/38041532/) | 2024 | Systematic review / network meta-analysis | Cancer | Maintenance and consolidation strategies in untreated advanced follicular lymphoma |
+| [28324270](https://pubmed.ncbi.nlm.nih.gov/28324270/) | 2017 | Review | Targeted Oncology | Obinutuzumab in rituximab-refractory or relapsed follicular lymphoma (GADOLIN study) |
+| [31360086](https://pubmed.ncbi.nlm.nih.gov/31360086/) | 2017 | Review | Blood Lymphat Cancer | Impact of obinutuzumab alone and in combination in follicular lymphoma |
 
 ---
 
 ## New Zealand Market Information
 
-No New Zealand authorization records are currently available — obinutuzumab is not marketed in New Zealand (Not marketed, 0 licenses on file). Market entry status will need to be confirmed directly with Medsafe.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2471981 | Gazyva | Inj 25 mg per ml, 40 ml vial | Not available (cancelled) |
+| 2514184 | Baxter | Inj 1 mg for ECP | Not available (cancelled) |
 
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy / Immunotherapy (glycoengineered anti-CD20 monoclonal antibody; not a conventional cytotoxic chemotherapeutic) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Both licences are cancelled, so there is currently no valid New Zealand authorisation.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 81 interactions were identified. Major ones include deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib, certolizumab pegol, cladribine and clozapine. Moderate ones include live and inactivated vaccines (such as the cholera live vaccine, anthrax vaccine and tetanus toxoid), azathioprine, alemtuzumab, anakinra, canakinumab, chloramphenicol, zidovudine, roflumilast and strontium-89. Many of these relate to additive immunosuppression or myelosuppression.
+
+For warnings and contraindications, please refer to the package insert.
 
 ---
 
@@ -130,13 +127,14 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The follicular lymphoma prediction is supported by a pivotal completed Phase 3 RCT (GALLIUM) plus a large, consistent body of follow-on trials and literature (Evidence Level L1), giving this candidate a substantially stronger footing than a pure model prediction. However, obinutuzumab is not currently marketed in New Zealand, and drug-level safety and mechanism-of-action data remain unresolved (DG001: TFDA/Medsafe package insert — Blocking; DG002: MOA — High), so the candidate cannot yet clear a full safety pre-screen.
+Randomised phase 3 and phase 2 evidence (GALLIUM, ROSEWOOD) supports obinutuzumab in follicular lymphoma, and the antibody's target is well matched to the disease. However, both New Zealand licences are cancelled, and the package insert warnings and mechanism data are missing, so this is not a clean "Go".
 
 **To proceed, the following is needed:**
-- Medsafe/TFDA package insert (warnings, contraindications, DDI) to resolve DG001 before safety pre-screening
-- Structured drug mechanism-of-action data from DrugBank to resolve DG002
-- Confirmation of New Zealand market entry pathway/status, since no local license currently exists
-- Formal review of the two lower-confidence TxGNN predictions (CLL/SLL molecular subtypes) if those patient subpopulations become a priority — currently Hold, no supporting trials or literature identified
+- Confirmation of current regulatory and labelling status, since no valid New Zealand licence exists
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A review of the major drug interactions and of vaccination and immunosuppression precautions
+- Clarification of the CLL/SLL subtype predictions (rank 1 and 2), which currently have no supporting evidence and remain at Hold
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

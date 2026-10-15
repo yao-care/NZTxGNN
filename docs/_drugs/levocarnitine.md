@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Levocarnitine
-parent: High Evidence (L1-L2)
-nav_order: 204
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 269
+evidence_level: L5
 indication_count: 10
 ---
 
 # Levocarnitine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,120 +29,118 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Levocarnitine: From Carnitine Deficiency to Congestive Heart Failure
+# Levocarnitine: From Carnitine Supplementation to Autosomal Dominant Familial Hematuria-Retinal Arteriolar Tortuosity-Contractures Syndrome
 
 ## One-Sentence Summary
 
-> Levocarnitine (L-carnitine) is an endogenous compound essential for mitochondrial fatty-acid transport, classically used to treat primary and secondary carnitine deficiency.
-> Among 10 TxGNN-predicted new indications in this evidence pack, **Congestive Heart Failure** is the only candidate reaching **L2 evidence** and a **Proceed with Guardrails** recommendation,
-> supported by **12 clinical trials** (including a completed Phase 2/3 RCT with 268 patients) and **20 publications** linking myocardial fatty-acid metabolism to carnitine status.
-
-*Note on candidate selection*: this evidence pack is a multi-indication screen (`TW-DB00583-multi`). The TxGNN-highest-scoring items (rank 1, 2, 7, 8) are explicitly flagged in their own `repurposing_rationale` as score-only artefacts with **zero** trial/literature support and no plausible mechanistic link (e.g., rare collagen-gene or skeletal syndromes). This report focuses on the indication with the strongest actual evidence — Congestive Heart Failure (rank 9) — rather than the top raw model score. A portfolio overview of all 10 candidates is provided at the end.
-
----
+Levocarnitine is the active form of carnitine, which carries fatty acids into mitochondria for energy production. The data compiled for this report do not record an approved indication.
+The TxGNN model's top-ranked prediction is **autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome**, a rare COL4A1-related disorder, but it has **0 clinical trials** and **0 publications** behind it, so it is a model prediction only. Among the other ten predicted indications, **congestive heart failure** has the strongest support, with **2 clinical trials** and **11 publications**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Primary and secondary L-carnitine (carnitine) deficiency — based on established pharmacology; no Taiwan/NZ license record exists in this data pull to cite an official approved-indication text |
-| Predicted New Indication | Congestive Heart Failure |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L2 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Not recorded in the New Zealand license data (all indication fields are empty) |
+| Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
+| TxGNN Prediction Score | 99.94% |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid licenses) |
+| Number of Authorizations | 6 (all cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on known pharmacology, levocarnitine's core physiological role is shuttling long-chain fatty acids across the inner mitochondrial membrane for β-oxidation — the same pathway its established use (carnitine deficiency) depends on.
+Detailed mechanism-of-action data are not available in the compiled data. Based on general pharmacology, levocarnitine transports long-chain fatty acids into mitochondria for beta-oxidation and supports cellular energy metabolism.
 
-The failing heart relies heavily on fatty-acid oxidation to meet its energy demand, and myocardial carnitine depletion together with abnormal metabolic substrate switching has long been documented in heart failure, paralleling the mechanism of established metabolic-modulator drugs such as perhexiline and trimetazidine (both act on the carnitine palmitoyltransferase/fatty-acid oxidation axis).
-
-This mechanistic continuity — from correcting carnitine deficiency to supporting myocardial energetic substrate handling — is why, among the 10 TxGNN predictions in this pack, congestive heart failure carries the strongest and most literature-consistent mechanistic rationale, rather than being a pure statistical artifact of the model.
-
----
+The top-ranked predicted disease is a rare vascular basement membrane disorder caused by COL4A1 variants. It has no clear link to carnitine-mediated fatty acid transport or mitochondrial energy metabolism. The high score is likely a knowledge-graph artifact driven by shared gene or phenotype neighbors rather than a true pharmacological relationship. The second-ranked prediction, brain small vessel disease 1 (also COL4A1-related), has the same weakness. A mitochondrial-support or antioxidant rationale there is speculative.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01580553](https://clinicaltrials.gov/study/NCT01580553) | Phase 2/3 | Completed | 268 | Prospective, multicenter, randomized, double-blind, placebo-controlled trial of L-carnitine injection in Chinese heart failure patients — the largest completed direct trial in this set |
-| [NCT00247975](https://clinicaltrials.gov/study/NCT00247975) | Phase 2/3 | Terminated | 36 | L-carnitine for primary prevention of anthracycline-induced cardiotoxicity/heart failure in breast cancer patients |
-| [NCT01904396](https://clinicaltrials.gov/study/NCT01904396) | Phase 4 | Unknown | 30 | Identifies carnitine-responsive cardiomyopathy/myopathy in adults with dilated/hypertrophic cardiomyopathy |
-| [NCT04913805](https://clinicaltrials.gov/study/NCT04913805) | Phase 2 | Recruiting | 53 | Propionyl-L-carnitine + nicotinamide riboside vs. KNO3 for exercise endurance/mitochondrial function in HFpEF |
-| [NCT02862600](https://clinicaltrials.gov/study/NCT02862600) | Phase 2 | Terminated | 35 | Perhexiline (carnitine-pathway-related CPT inhibitor) for exercise capacity in hypertrophic cardiomyopathy with HFpEF |
-| [NCT06256276](https://clinicaltrials.gov/study/NCT06256276) | N/A | Completed | 21 | Protein/nutritional supplementation for autonomic dysfunction in elderly heart failure patients |
-| [NCT04426578](https://clinicaltrials.gov/study/NCT04426578) | Phase 2 | Unknown | 60 | Perhexiline for regression of LV hypertrophy in symptomatic hypertrophic cardiomyopathy (RESOLVE-HCM) |
-| [NCT01524861](https://clinicaltrials.gov/study/NCT01524861) | Phase 4 | Completed | 90 | α-lipoic acid + L-acetylcarnitine on sympathetic heart innervation in stress (tako-tsubo) cardiomyopathy |
-| [NCT03994874](https://clinicaltrials.gov/study/NCT03994874) | Phase 1/2 | Recruiting | 84 | PolyCore (polydextrin, L-carnitine, D-xylitol) peritoneal ultrafiltration in HFrEF with cardiorenal syndrome |
-| [NCT07201714](https://clinicaltrials.gov/study/NCT07201714) | Early Phase 1 | Not yet recruiting | 20 | Oral L-carnitine supplementation for symptoms/quality of life in cardiorenal heart failure |
-
----
+Currently no related clinical trials registered for the top-ranked indication.
 
 ## Literature Evidence
 
+Currently no related literature available for the top-ranked indication.
+
+## Other Predicted Indications With Evidence
+
+Because the top prediction has no supporting evidence, the compiled data were also reviewed for the other nine predictions. Only three have any evidence.
+
+| Rank | Indication | Score | Evidence Level | Data-Based Recommendation |
+|------|------|------|------|------|
+| 9 | Congestive heart failure | 99.47% | L2 | Proceed with Guardrails |
+| 4 | Rheumatoid arthritis | 99.87% | L2 | Research Question |
+| 3 | Diabetic nephropathy | 99.91% | L4 | Research Question |
+
+The remaining predictions have no clinical or literature evidence (L5, Hold): brain small vessel disease 1, sclerosing cholangitis, gout, brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, and hypoalphalipoproteinemia.
+
+### Congestive Heart Failure (strongest evidence)
+
+Carnitine moves long-chain fatty acids into mitochondria, and myocardial carnitine depletion is associated with impaired cardiac energy metabolism. Supplementation may therefore improve myocardial energy supply and cardiac function.
+
+**Clinical trials**
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01580553](https://clinicaltrials.gov/study/NCT01580553) | Phase 2/3 | Completed | 268 | Randomized, double-blind, placebo-controlled multicenter study of L-carnitine injection in Chinese heart failure patients (7-day treatment, 1-month follow-up). Results were not provided. |
+| [NCT07201714](https://clinicaltrials.gov/study/NCT07201714) | Early Phase 1 | Recruiting | 20 | Oral L-carnitine in cardiorenal heart failure, assessing symptoms, heart function and quality of life. Exploratory; no results yet. |
+
+**Literature**
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30195728](https://pubmed.ncbi.nlm.nih.gov/30195728/) | 2020 | Clinical study | Hellenic J Cardiol | Levocarnitine improved cardiac function and reduced urinary albumin, hs-CRP, BNP and troponin in patients with coronary heart disease and heart failure |
-| [17445089](https://pubmed.ncbi.nlm.nih.gov/17445089/) | 2007 | Review | Cardiovasc Drug Rev | Reviews perhexiline, which reduces fatty-acid metabolism via carnitine palmitoyltransferase inhibition — mechanistic analogue supporting the carnitine/FAO-heart failure link |
-| [19275645](https://pubmed.ncbi.nlm.nih.gov/19275645/) | 2009 | Review | Curr Pharm Des | Reviews metabolic (fatty-acid oxidation-targeted) treatment approaches for coronary artery disease and heart failure |
-| [36632072](https://pubmed.ncbi.nlm.nih.gov/36632072/) | 2023 | Review | Saudi J Biol Sci | Reviews L-carnitine nutrition/pathology; notes carnitine deficits contribute to cardiomyopathy and related conditions |
-| [12695723](https://pubmed.ncbi.nlm.nih.gov/12695723/) | 2003 | Review | Am J Med Sci | Notes L-carnitine deficiency may contribute to CHF in end-stage renal disease patients |
-| [11298185](https://pubmed.ncbi.nlm.nih.gov/11298185/) | 2000 | Review | Int J Exp Pathol | Reviews metabolic cardiomyopathies caused by disturbed fatty-acid/mitochondrial beta-oxidation metabolism, including heart failure |
-| [40593619](https://pubmed.ncbi.nlm.nih.gov/40593619/) | 2025 | Basic/Mechanistic | Nature Communications | Shows mitophagy mitigates cardiomyopathy caused by deficient mitochondrial fatty-acid β-oxidation |
-| [39197425](https://pubmed.ncbi.nlm.nih.gov/39197425/) | 2024 | RCT protocol | Kidney Blood Press Res | Design paper for the PURE RCT evaluating PolyCore (incl. L-carnitine) peritoneal ultrafiltration in refractory CHF |
-| [40287103](https://pubmed.ncbi.nlm.nih.gov/40287103/) | 2025 | Umbrella review | Complement Ther Med | Umbrella review of systematic reviews/meta-analyses on integrative medicine (including metabolic supplements) for chronic heart failure |
-| [21561431](https://pubmed.ncbi.nlm.nih.gov/21561431/) | 2011 | Review | Curr Drug Metab | General review of L-carnitine's metabolic functions, including its role in normal cardiac energy production |
+| [29468383](https://pubmed.ncbi.nlm.nih.gov/29468383/) | 2018 | RCT | Paediatric Drugs | Levocarnitine added to conventional therapy in 29 children with dilated cardiomyopathy |
+| [40172612](https://pubmed.ncbi.nlm.nih.gov/40172612/) | 2025 | Meta-analysis | Int Urol Nephrol | Safety and efficacy of L-carnitine for cardiac function in hemodialysis patients |
+| [30195728](https://pubmed.ncbi.nlm.nih.gov/30195728/) | 2020 | Clinical study | Hellenic J Cardiol | Effects on cardiac function, urinary albumin, hs-CRP, BNP and troponin in coronary heart disease with heart failure |
+| [24125620](https://pubmed.ncbi.nlm.nih.gov/24125620/) | 2013 | Clinical study | Zhonghua Liu Xing Bing Xue Za Zhi | Effects on heart function and endocrine markers in elderly patients with chronic heart failure |
+| [30041211](https://pubmed.ncbi.nlm.nih.gov/30041211/) | 2018 | Clinical study | Contrib Nephrol | Levocarnitine and cardiac function and renal anemia in hemodialysis patients |
+| [15591005](https://pubmed.ncbi.nlm.nih.gov/15591005/) | 2004 | Review | Ann N Y Acad Sci | Carnitine and propionyl-L-carnitine in cardiovascular disease; reduces ischemia-reperfusion injury and improves carbohydrate metabolism |
+| [30646314](https://pubmed.ncbi.nlm.nih.gov/30646314/) | 2018 | RCT | JAMA Netw Open | Levocarnitine in septic shock (RACE trial); indirect relevance to heart failure |
 
----
+Several other retrieved papers are off-topic: a stem-cell cardiomyopathy model and metabolic disease case reports. They are not counted as supporting evidence. Much of the relevant literature comes from small or regional studies, and outcome data for the Phase 2/3 trial are not available. Level L2 is therefore assigned conservatively, and the effect direction and size remain unverified.
+
+### Rheumatoid Arthritis and Diabetic Nephropathy
+
+- **Rheumatoid arthritis:** The only evidence is [NCT03953703](https://clinicaltrials.gov/study/NCT03953703), a completed Phase 2 randomized, placebo-controlled crossover pilot (n=15). Its title refers to dry eye in Sjögren's syndrome, so its direct relevance to rheumatoid arthritis should be checked. No results were provided.
+- **Diabetic nephropathy:** The only evidence is [PMID 41884608](https://pubmed.ncbi.nlm.nih.gov/41884608/) (2026), which tested a levocarnitine-alprostadil combination in end-stage diabetic nephropathy. The effect of levocarnitine alone cannot be isolated, and no trials are registered.
 
 ## New Zealand Market Information
 
-Currently no marketing authorization on file — market status is "Not Marketed" with 0 registered licenses in this data pull.
+All six licenses are cancelled, and none are currently valid.
 
----
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2609266 | Balance | Capsule 500 mg | Cancelled |
+| 2502151 | Solgar | Tablet 500 mg | Cancelled |
+| 2609274 | Solgar | Capsule 250 mg | Cancelled |
+| 2439816 | Balance | Oral liquid 500 mg per 10 ml | Cancelled |
+| 2711281 | Lacuna | Oral liquid 1 g per 10 ml | Cancelled |
+
+The sixth license is 2683059 (Metabolics, Capsule 500 mg, cancelled). Approved indication text is not recorded for any license. Available forms are oral only. The heart failure trial above used an injectable form, and no injectable product appears in the New Zealand license data.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are currently unavailable — TFDA package-insert warnings/contraindications are flagged as a **Blocking** data gap, DG001, and must be resolved before any S1 safety review.)
+- **Drug Interactions:** 68 interactions were identified. Two are rated Moderate: **warfarin** and **dicoumarol**, so anticoagulation monitoring is warranted. The remaining interactions listed have unclassified severity, including calcitriol, folic acid, ramipril, nicotine, lorazepam, fluconazole, pantoprazole, citalopram, metoprolol, topiramate, valproic acid, acetaminophen, omeprazole, diltiazem, sucralfate, mirtazapine, amlodipine and digoxin.
+- **Knowledge-graph contraindication signals** (computational associations, not label text): epilepsy, kidney disease, pyoureter, liver disease, gallbladder disease, hypotensive disorder, blood coagulation disease, cholestasis, benign recurrent intrahepatic cholestasis and familial intrahepatic cholestasis. These need confirmation against the package insert.
 
----
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- Congestive heart failure is the only TxGNN-predicted indication in this pack backed by a completed, adequately-powered RCT (n=268) plus a mechanistically coherent narrative (myocardial fatty-acid oxidation/carnitine depletion), reaching L2/S2 — clearly above the noise-level, zero-evidence predictions that dominate the raw score ranking.
+The top-ranked prediction has no clinical or literature evidence (L5) and no plausible mechanistic link to carnitine metabolism, so it is most likely a knowledge-graph artifact. No New Zealand license is currently valid, and the package insert safety data are missing.
+
+Congestive heart failure is the most promising alternative direction (L2, Proceed with Guardrails on the data alone). It would still need verified trial results before any advance.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (TFDA/Medsafe package-insert warnings and contraindications) — currently blocking any safety pre-screen
-- Resolve DG002 (formal MOA data from DrugBank) to substantiate the mechanistic rationale beyond general pharmacology
-- A larger, non-combination (single-agent), internationally replicated RCT specifically in HFrEF/HFpEF populations, since several supporting trials are terminated, small, or use levocarnitine only as part of a combination product (e.g., PolyCore)
-- Regulatory pathway assessment given the drug is currently unmarketed in New Zealand (0 licenses)
-- Safety monitoring plan for renal-impairment and cardiorenal syndrome subpopulations, which feature prominently in the supporting trials
-
----
-
-## Appendix: Full TxGNN Prediction Portfolio (Screening Overview)
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|
-| 1 | Autosomal dominant familial hematuria–retinal arteriolar tortuosity–contractures syndrome | 99.94% | L5 | Hold (no evidence, no mechanistic link) |
-| 2 | Brain small vessel disease 1 with/without ocular anomalies | 99.94% | L5 | Hold (literature is keyword-mismatch noise) |
-| 3 | Diabetic nephropathy | 99.91% | L3 | Research Question |
-| 4 | Rheumatoid arthritis | 99.87% | L2 | Research Question |
-| 5 | Sclerosing cholangitis | 99.75% | L4 | Hold |
-| 6 | Gout | 99.74% | L4 | Hold |
-| 7 | Brachydactyly-syndactyly syndrome | 99.66% | L5 | Hold (no evidence, no mechanistic link) |
-| 8 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.63% | L5 | Hold (no evidence, no mechanistic link) |
-| **9** | **Congestive heart failure** | **99.47%** | **L2** | **Proceed with Guardrails** (this report) |
-| 10 | Hypoalphalipoproteinemia | 99.45% | L4 | Hold |
-
-Rheumatoid arthritis (rank 4) is a secondary candidate worth monitoring: it also reaches L2/S2 with a completed, direct RCT (NCT03953703, grade A, though n=15) plus two ongoing Phase 2/3 trials targeting the JAK/STAT–TGF-β1 pathway, and could be escalated in a future evidence-pack cycle once those trials read out.
+- Medsafe package insert warnings and contraindications, which block safety screening
+- Mechanism-of-action data from DrugBank
+- Published results and design details (blinding, endpoints) for NCT01580553, to decide whether heart failure can be upgraded to L1
+- Confirmation of the original approved indication
+- A route and formulation plan, since an injectable product would be needed and none is currently marketed in New Zealand
+- A warfarin and anticoagulant interaction management plan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

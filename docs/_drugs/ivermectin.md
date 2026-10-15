@@ -2,7 +2,7 @@
 layout: default
 title: Ivermectin
 parent: Model Prediction Only (L5)
-nav_order: 185
+nav_order: 249
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,29 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Ivermectin: From Parasitic Infections to Vulvovaginal Candidiasis
+# Ivermectin: From Strongyloidiasis and Onchocerciasis to Vulvovaginal Candidiasis
 
 ## One-Sentence Summary
 
-Ivermectin is a long-established antiparasitic agent that paralyzes invertebrate parasites by binding glutamate-gated chloride channels; no formal original-indication record was provided in this evidence pack. The TxGNN model predicts potential efficacy for **Vulvovaginal Candidiasis**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and no antifungal mechanism has been established for ivermectin.
+Ivermectin is an antiparasitic originally used to treat strongyloidiasis and onchocerciasis.
+The TxGNN model predicts it may be effective for **vulvovaginal candidiasis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parasitic infections (inferred from known pharmacology; no structured original-indication data was provided) |
-| Predicted New Indication | Vulvovaginal Candidiasis |
+| Original Indication | Strongyloidiasis, onchocerciasis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Predicted New Indication | Vulvovaginal candidiasis |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (`original_moa`: [Data Gap]). Based on the drug's known pharmacology, ivermectin binds invertebrate glutamate-gated chloride channels, causing parasite paralysis and death — this is the basis of its established antiparasitic use. No established antifungal (anti-*Candida*) mechanism has been demonstrated for ivermectin; only scattered in vitro reports suggest weak, non-specific antifungal activity, which is insufficient to constitute a mechanistic link to vulvovaginal candidiasis.
+Currently, detailed mechanism of action data is not available. Based on known information, ivermectin is an antiparasitic whose efficacy in strongyloidiasis and onchocerciasis is established. It is generally understood to act on glutamate-gated chloride channels in invertebrates.
 
-The 99.95% TxGNN score is therefore more plausibly explained by graph-embedding proximity — ivermectin and vulvovaginal candidiasis likely sit near shared "genitourinary/reproductive-tract infection" neighborhoods in the knowledge graph — rather than a genuine pharmacological relationship. Notably, 8 additional predicted indications for ivermectin in this evidence pack (esophageal candidiasis, HPV infection, vulvovaginitis, *C. glabrata*, congenital/neonatal candidiasis, postmenopausal atrophic vaginitis, invasive candidiasis) show the same pattern: high scores clustered around candida/genitourinary conditions, each with little or no supporting mechanism, trials, or literature. This systematic clustering further supports a graph-topology artifact rather than a true repurposing signal.
+Candida is a fungus and lacks these targets, so there is no clear mechanistic reason for ivermectin to work against vulvovaginal candidiasis. The very high score (99.95%) therefore appears to be a graph-based association rather than a prediction backed by biology.
+
+The other top predictions are mostly other candidiasis or vaginitis conditions (esophageal, neonatal, congenital and invasive candidiasis, vulvovaginitis, atrophic vaginitis), plus anogenital HPV infection. None of them has clinical trial evidence, and the few linked papers are false-positive matches. For example, one case report describes disseminated strongyloidiasis after corticosteroid use, and another describes crusted scabies treated with ivermectin in immunocompromised children. Both concern ivermectin's original antiparasitic uses, not candidiasis.
 
 ## Clinical Trial Evidence
 
@@ -59,31 +63,54 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature directly supports the top predicted indication. The only publications linked to lower-ranked predictions are below, and neither supports a candidiasis use.
 
-## Taiwan Market Information
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [35835488](https://pubmed.ncbi.nlm.nih.gov/35835488/) | 2022 | Case report | BMJ Case Reports | Disseminated strongyloidiasis after prolonged corticosteroid treatment; matched to esophageal candidiasis only by association |
+| [10098288](https://pubmed.ncbi.nlm.nih.gov/10098288/) | 1999 | Case report | Australasian Journal of Dermatology | Oral ivermectin cleared crusted scabies in two immunocompromised children, one with chronic mucocutaneous candidiasis; this is an antiparasitic use, not candidiasis treatment |
 
-Ivermectin is currently **not marketed** in Taiwan, with 0 approved licenses on record — no product authorization data is available.
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2087057 | Stromectol (cancelled) | Tab 3 mg | Not available |
+| 2726424 | Stromectol (cancelled) | Tab 3 mg | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph associations, not label text)**: Loiasis and filariasis.
+- **Drug Interactions**: 100 interactions were identified in total. The main ones rated Moderate are:
+  - Aprepitant
+  - Clarithromycin
+  - Ethanol
+  - Cobicistat
+  - Deferasirox
+  - Warfarin
+  - Dicoumarol
+  - Fostamatinib
+  - Radioiodine (I-123, I-131)
+  - Topical abametapir
 
-*Note: TFDA package insert warnings/contraindications data is currently a blocking data gap (DG001) — a preliminary safety assessment (S1) cannot proceed until this is resolved.*
+  Other interactions, including omeprazole, lansoprazole, corticosteroids (prednisone, prednisolone, dexamethasone), H2 blockers and heparin, have no severity rating.
+- Use in neonates and very young or low-weight children is not established and would need separate review.
+
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no established antifungal mechanism for ivermectin, and no clinical trials or literature specifically support its use in vulvovaginal candidiasis — the high TxGNN score is best explained by graph proximity bias rather than genuine pharmacological relevance. This is compounded by a blocking gap in TFDA safety data, which prevents even a preliminary safety evaluation.
+The prediction is supported only by the TxGNN score. There are no clinical trials or relevant literature, no plausible antifungal mechanism, and no currently valid New Zealand licence (both are cancelled). The few linked papers are false-positive matches.
 
 **To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently blocking
-- Confirmed mechanism-of-action data from DrugBank
-- In vitro/preclinical evidence of genuine antifungal activity against *Candida* spp.
-- At least early-phase clinical or observational data specific to vulvovaginal candidiasis
-- A systematic review of the other 8 candida/genitourinary-clustered predictions before treating any of them as independent signals
+- Mechanism of action data and any evidence of antifungal activity against Candida (for example, in vitro studies)
+- Package insert warnings and contraindications from Medsafe, which are required for safety screening
+- Preclinical or clinical studies in the proposed indication
+- Assessment of route of administration and formulation suitability, since route compatibility has not been evaluated
+- A review of the licensing situation, since both New Zealand authorizations are cancelled
+- A comparison with existing effective antifungal therapies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

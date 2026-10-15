@@ -2,7 +2,7 @@
 layout: default
 title: Olsalazine
 parent: Model Prediction Only (L5)
-nav_order: 256
+nav_order: 338
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Olsalazine: From Ulcerative Colitis to Myelodysplastic Syndrome
+# Olsalazine: From Inflammatory Bowel Disease (Indication Not Documented in Licence Data) to Myelodysplastic Syndrome
 
 ## One-Sentence Summary
 
-Olsalazine is a 5-aminosalicylic acid (5-ASA/mesalazine) prodrug used for local intestinal anti-inflammatory therapy (ulcerative colitis).
-The TxGNN model predicts it may be effective for **Myelodysplastic Syndrome (MDS)**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-derived hypothesis.
+Olsalazine is a prodrug dimer of 5-aminosalicylic acid (5-ASA) that acts mainly in the colon. The licence data compiled for this report do not record its approved indication.
+The TxGNN model predicts it may be effective for **myelodysplastic syndrome**, but there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction is based on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ulcerative colitis (inferred from drug class — 5-ASA prodrug; formal record is a data gap, see DG001/DG002) |
+| Original Indication | Not documented in the New Zealand licence data |
 | Predicted New Indication | Myelodysplastic syndrome |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 3 (all cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (blocking data gap DG002). Based on the information available, olsalazine is split by colonic bacteria into two molecules of mesalazine (5-ASA), whose established efficacy is local intestinal anti-inflammatory action — inhibition of prostaglandin synthesis, modulation of the NF-κB pathway, and antioxidant effects — used to treat ulcerative colitis.
+Currently, detailed mechanism of action data is not available. Olsalazine is a prodrug dimer of 5-ASA that is largely confined to the colon, and systemic exposure is minimal.
 
-Myelodysplastic syndrome is a clonal hematopoietic stem cell disorder characterized by bone marrow failure and dysplastic blood cell production. There is no established pharmacological pathway connecting 5-ASA's local gut anti-inflammatory action to the somatic mutations and marrow failure mechanisms that drive MDS.
+Any link to myelodysplastic syndrome (for example, anti-inflammatory or NF-kB modulation by 5-ASA) is speculative. It rests solely on the TxGNN graph score, which is a computational association and not clinical evidence. Olsalazine is not known to affect haematopoiesis.
 
-The TxGNN score is very high (99.91%, rank 1173), but the evidence pack's own rationale notes this most likely reflects indirect co-occurrence of inflammation/immune-related gene nodes within the knowledge graph, rather than a substantiated mechanistic or clinical connection. Nine of the ten top-ranked predictions for this drug (MDS subtypes, cytopenias, sideroblastic/aregenerative anemia, and unrelated hypotrichosis/alopecia conditions) show the same pattern — high model scores with zero corroborating trials or literature — reinforcing that this is a data-driven hypothesis requiring independent validation, not an evidence-backed signal.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+The other top-ranked predictions are mostly myelodysplastic-syndrome-related terms (unclassified MDS, refractory cytopenia of childhood, partial deletion of 5q) or rare hair and anaemia disorders (hypotrichosis, alopecia, aregenerative anaemia). These likely reflect proximity in the knowledge graph rather than biological rationale, and the MDS-related terms are largely redundant with one another.
 
 ## Literature Evidence
 
 Currently no related literature available.
 
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
 ## New Zealand Market Information
 
-Olsalazine is currently not marketed in New Zealand; no authorization records are available (0 licenses on file).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 426342 | Dipentum (cancelled) | Tab 500 mg | Not recorded |
+| 588679 | Dipentum (cancelled) | Cap 250 mg | Not recorded |
+| 2641704 | Atnahs Olsalazine (cancelled) | Tab 500 mg | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: A screening query returned 100 potential interactions. Examples of the **Major**-level interactions are:
+  - Human immunoglobulin G (intravenous)
+  - Human botulinum neurotoxin A/B immune globulin
+  - Cidofovir
+  - Iothalamic acid
+
+  **Moderate**-level interactions include:
+  - NSAIDs: ketorolac, ibuprofen, celecoxib, diclofenac
+  - Nephrotoxic or potentially nephrotoxic agents: acyclovir, amphotericin B, amikacin, bacitracin, capreomycin, cisplatin, colistimethate
+  - Others: azathioprine, ibandronate, chlorpropamide, clofarabine
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but the evidence level is L5 (model prediction only) with no supporting clinical trials, literature, or plausible mechanistic overlap between olsalazine's local intestinal anti-inflammatory action and MDS bone marrow pathology. Critical safety data (TFDA label warnings/contraindications) are also missing, blocking any S1 safety assessment.
+The prediction is supported only by a model score, with no clinical trials, no literature and no mechanistic data. Olsalazine has minimal systemic absorption, and all New Zealand licences are cancelled.
 
 **To proceed, the following is needed:**
-- TFDA package insert data — warnings, precautions, contraindications (blocking gap DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Preclinical or mechanistic studies linking 5-ASA compounds to hematopoietic stem cell function or bone marrow modulation
-- Any case reports, in vitro, or animal studies in MDS or related myeloid/cytopenic disorders
-- Formal confirmation of original approved indication(s) for olsalazine
+- Mechanism of action data (for example from DrugBank)
+- Package insert warnings and contraindications from Medsafe, to allow safety screening
+- Preclinical or mechanistic evidence for a link between 5-ASA and myelodysplastic syndrome
+- Confirmation of the original approved indication and the regulatory pathway, given that no licences are currently valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

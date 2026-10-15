@@ -2,7 +2,7 @@
 layout: default
 title: Fentanyl
 parent: Model Prediction Only (L5)
-nav_order: 149
+nav_order: 196
 evidence_level: L5
 indication_count: 2
 ---
@@ -33,75 +33,73 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Fentanyl is a potent synthetic μ-opioid receptor agonist used clinically for moderate-to-severe pain management and anesthesia.
-The TxGNN model predicts a possible association with **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-but this direction is currently supported by **0 clinical trials** and **0 publications**, and the accompanying mechanistic review flags the association as biologically implausible.
-
----
+Fentanyl is a potent opioid (mu-opioid receptor agonist) that has been marketed in New Zealand as transdermal patches and an injectable, but all of its New Zealand authorizations are now cancelled.
+The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+This is a model-only prediction (evidence level L5) and the recommendation is **Hold**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Moderate-to-severe pain management / anesthesia adjunct (general opioid-analgesic use; specific New Zealand label text is not available because the product is not currently marketed there) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.46% (model rank 4,726) |
+| Original Indication | Not available in the New Zealand license records |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
+| TxGNN Prediction Score | 99.46% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
+| Number of Authorizations | 7 (all cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (blocked by data gap DG002). Based on known pharmacology, fentanyl is a member of the phenylpiperidine opioid class and acts as a full agonist at the μ-opioid receptor; its efficacy in analgesia and anesthesia is well established, and its downstream effects are concentrated in central pain modulation, sedation, and respiratory depression.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Fentanyl is known as a potent mu-opioid receptor agonist used for analgesia, but this comes from general pharmacological knowledge rather than the compiled data.
 
-The proposed link to NSIAD does not hold up mechanistically. NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2) itself, producing constitutive antidiuretic signalling that is independent of circulating ADH levels — the defect is at the receptor, not at the level of ADH secretion. Opioids such as fentanyl are, if anything, reported to **increase** ADH release via the hypothalamic-pituitary axis, which is the opposite of what would be needed to counteract a constitutively active receptor. No mechanistic, preclinical, or clinical data currently support fentanyl as a modulator or antagonist of AVPR2 signalling.
+The review of the prediction found **no credible mechanistic link** to the new indication. NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), which cause water retention independent of vasopressin. Opioids can indirectly promote ADH release and cause SIADH-like effects, which would worsen rather than treat antidiuresis.
 
-Taken together, this prediction most plausibly reflects an indirect co-occurrence pattern in the model's embedding space (e.g., "opioid drugs" clustering near "fluid balance / renal disease" concepts) rather than a causally grounded relationship. A second candidate generated for this drug, Tourette syndrome (score 99.05%, rank 7,259), is similarly weak: existing hypotheses for Tourette syndrome implicate an *overactive* endogenous opioid system, for which opioid receptor **antagonists** (not agonists like fentanyl) have been explored — meaning fentanyl's pharmacology runs in the opposite direction of the proposed therapeutic rationale. Both candidates are model-only associations (L5) with no supporting trials or literature and should be treated as hypothesis-generating at most.
+The high TxGNN score (0.995) is a computational output only and is not backed by pharmacological rationale, trials, or literature. It should not be treated as evidence of efficacy.
 
----
+**Second-ranked prediction (for reference):** Tourette syndrome (TxGNN score 99.05%, also L5, Hold). The link is weak and speculative: the opioid system modulates dopaminergic and striatal circuits involved in tic disorders. However, fentanyl's high abuse liability, respiratory depression risk, and tolerance/dependence make the risk-benefit profile unfavorable for a chronic, often pediatric-onset condition that already has safer options (alpha-2 agonists, antipsychotics, VMAT2 inhibitors, CBIT behavioral therapy). No trials or literature support it either.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## New Zealand Market Information
 
-Fentanyl is not currently marketed in New Zealand under this evidence pack (0 active authorizations, 0 registered licenses), so no product/authorization table is available.
+All authorizations below are cancelled. The license records contain no approved indication text.
 
----
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2472899 | Fentanyl Sandoz | Patch 50 mcg per hour | Cancelled |
+| 2472902 | Fentanyl Sandoz | Patch 75 mcg per hour | Cancelled |
+| 2472880 | Fentanyl Sandoz | Patch 25 mcg per hour | Cancelled |
+| 2472910 | Fentanyl Sandoz | Patch 100 mcg per hour | Cancelled |
+| 2688824 | Fentanyl Sandoz | Patch 12 mcg per hour | Cancelled |
+
+Two further cancelled authorizations (Boucher and Muir injection, 50 mcg per ml, 2 ml and 10 ml ampoules; 2381176 and 2381168) are not shown in the table above.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged by the knowledge graph (not label text):** The TxGNN knowledge graph lists contraindication links with conditions including hypertension, orthostatic hypotension and other hypotensive disorders, long QT syndrome and torsades de pointes, liver failure and liver disease, kidney disease, chronic obstructive pulmonary disease, asthma, pancreatitis, gallbladder disease, inflammatory bowel disease, benign prostatic hyperplasia, anxiety and neurotic disorders, potassium deficiency, and substance abuse/dependence.
+- **Drug Interactions:** 100 interactions were found. Examples of **Major** interactions: alvimopan, aprepitant, bupropion, clarithromycin, clotrimazole, dexamethasone, dexfenfluramine, fenfluramine, dolasetron, granisetron, lorcaserin. Examples of **Moderate** interactions: atropine, cimetidine, clidinium, dicyclomine, dronabinol, eluxadoline, glycerol phenylbutyrate, glycopyrronium, hyoscyamine.
 
-*(Note: TFDA/label warnings and contraindications for fentanyl are a blocking data gap (DG001) — this omission by itself is sufficient to prevent progression to a safety pre-assessment, independent of the efficacy evidence above.)*
-
----
+Package insert warnings and contraindications were not available; please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The predicted NSIAD indication is model-output only (L5), with zero supporting clinical trials or literature, and the mechanistic rationale runs counter to the known pathophysiology of NSIAD (receptor-level constitutive activation) and to fentanyl's known effect of increasing, not suppressing, ADH-related signalling.
-- A blocking safety data gap (missing TFDA/package-insert warnings and contraindications) independently prevents this candidate from entering a safety pre-assessment.
+The prediction rests only on a model score, with no clinical trials, no literature, and no plausible mechanism. Pharmacologically, opioids may worsen antidiuresis. Fentanyl also has a significant safety burden and no currently valid New Zealand authorization.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism-of-action data from DrugBank or primary pharmacology sources (DG002)
-- Preclinical or mechanistic evidence directly linking opioid receptor agonism to AVPR2 signalling or antidiuretic hormone regulation in NSIAD
-- Any future clinical trial or case-report evidence for fentanyl in NSIAD or Tourette syndrome, should it emerge, to re-evaluate the evidence level
+- Package insert warnings and contraindications (from Medsafe) to complete safety screening
+- Mechanism of action data (from DrugBank)
+- A credible mechanistic hypothesis linking mu-opioid agonism to AVPR2-driven antidiuresis, followed by preclinical support
+- Any clinical or preclinical literature for the predicted indications (NSIAD or Tourette syndrome)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

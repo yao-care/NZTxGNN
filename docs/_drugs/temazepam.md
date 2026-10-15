@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Temazepam
-parent: High Evidence (L1-L2)
-nav_order: 331
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 439
+evidence_level: L5
 indication_count: 1
 ---
 
 # Temazepam
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,82 @@ Evidence Level: **L2** | Predicted Indications: **1**
 
 </div>
 
-# Temazepam: From Insomnia to Sleep Disorder, Initiating and Maintaining Sleep
+# Temazepam: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
 
 ## One-Sentence Summary
 
-Temazepam is an internationally established benzodiazepine hypnotic; no original-indication text is available from New Zealand regulatory data because the drug is currently **not marketed** there. The TxGNN model predicts efficacy for **sleep disorder, initiating and maintaining sleep (insomnia)** with a **99.82%** prediction score — notably, this is not a novel therapeutic area but the drug's long-established clinical use, supported by **0 registered clinical trials** and **20 publications**, including a completed 2024 Phase III RCT specific to temazepam.
-
----
+Temazepam is a benzodiazepine hypnotic originally used to treat insomnia.
+The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, but this is essentially the same condition as its known indication, so it is not a true repurposing candidate.
+Currently there are **no registered clinical trials** and **20 publications** (mostly reviews and guidelines) related to this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from NZ regulatory data (drug not marketed); internationally documented as a short-term insomnia treatment (benzodiazepine hypnotic class) |
-| Predicted New Indication | Sleep disorder, initiating and maintaining sleep (insomnia) |
+| Original Indication | Insomnia (the New Zealand licence record contains no approved indication text; this comes from the knowledge graph) |
+| Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L2 |
-| New Zealand Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L4 (per the scoring in the data compiled for this report; no completed Phase 2/3 or Phase 3 trials) |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug. Based on known information, temazepam is a member of the benzodiazepine class of hypnotic/sedative agents, whose efficacy in the treatment of insomnia has been proven through decades of clinical use and sleep-laboratory research, and mechanistically it is directly applicable to the predicted indication.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, temazepam is a benzodiazepine receptor agonist that positively modulates GABA-A receptors. This enhances inhibitory neurotransmission and produces sedative-hypnotic effects, which is directly relevant to difficulty falling asleep and staying asleep.
 
-Importantly, the predicted new indication — "sleep disorder, initiating and maintaining sleep" — is essentially the drug's own long-established clinical use rather than a genuinely novel therapeutic area. Literature dating back to 1978 (PMID 342551) and 1984–1992 (PMID 6149491, 1319429) already documents temazepam's hypnotic efficacy, and a 2024 Phase III RCT (PMID 39304187) continues to evaluate it for insomnia in a specialized population (advanced cancer patients). The TxGNN prediction here should be read as **confirmation of a known indication**, and given that temazepam is not currently registered in New Zealand, the practical value of this signal is a potential **market-entry opportunity** for an already-validated hypnotic rather than a scientific repurposing discovery.
-
----
+The predicted indication is essentially identical to temazepam's original indication of insomnia. The high TxGNN score (99.82%) most likely reflects this overlap with a known use rather than a novel signal. The prediction is therefore pharmacologically sound, but it does not represent a new therapeutic opportunity.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+The literature below was retrieved for this prediction. Relevance to temazepam specifically has not been confirmed for every item; many are class-level reviews of insomnia drugs.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39304187](https://pubmed.ncbi.nlm.nih.gov/39304187/) | 2024 | RCT | Journal of Palliative Medicine | Three-arm, double-blind, Phase III RCT of temazepam vs. melatonin vs. placebo for insomnia in advanced cancer patients |
-| [39374004](https://pubmed.ncbi.nlm.nih.gov/39374004/) | 2024 | RCT | JAMA Internal Medicine | Randomized trial of masked taper with behavioral intervention for discontinuing benzodiazepine receptor agonist hypnotics |
-| [2859305](https://pubmed.ncbi.nlm.nih.gov/2859305/) | 1985 | RCT (multicenter, double-blind) | Journal of Clinical Psychopharmacology | Compared midazolam and temazepam for sleep and residual performance when dosed mid-night; temazepam 30mg vs. placebo |
-| [342551](https://pubmed.ncbi.nlm.nih.gov/342551/) | 1978 | Sleep laboratory study | Journal of Clinical Pharmacology | Evaluated temazepam 30mg for sleep induction/maintenance across short-, intermediate-, and long-term use |
-| [6149491](https://pubmed.ncbi.nlm.nih.gov/6149491/) | 1984 | Comparative study | Neuropsychobiology | Compared temazepam 40mg and flurazepam 30mg on sleep quality and residual performance in healthy subjects |
-| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Clinical Practice Guideline | Journal of Clinical Sleep Medicine | AASM guideline on pharmacologic treatment of chronic insomnia, evaluating individual drugs including temazepam |
-| [33249496](https://pubmed.ncbi.nlm.nih.gov/33249496/) | 2021 | Systematic Review / Network Meta-analysis | Sleep | Compared efficacy and safety of hypnotics, including temazepam, for insomnia in older adults |
-| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Review | Clinical Therapeutics | Reviewed safety and efficacy of sleep medications, including altered pharmacokinetics, in older adults |
-| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Review | Drugs & Aging | Recommendations for pharmacological management of insomnia in elderly patients |
-| [1319429](https://pubmed.ncbi.nlm.nih.gov/1319429/) | 1992 | Review | The Journal of Clinical Psychiatry | Historical review of benzodiazepine hypnotic pharmacology, noting temazepam's shorter half-life replacing flurazepam |
-
----
+| [39374004](https://pubmed.ncbi.nlm.nih.gov/39374004/) | 2024 | RCT | JAMA Internal Medicine | Masked taper combined with behavioural intervention (CBT-I) for discontinuing benzodiazepine receptor agonist hypnotics |
+| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Guideline | J Clin Sleep Med | American Academy of Sleep Medicine guideline on pharmacologic treatment of chronic insomnia in adults, assessing individual drugs |
+| [33249496](https://pubmed.ncbi.nlm.nih.gov/33249496/) | 2021 | Systematic review / network meta-analysis | Sleep | Comparative efficacy and safety of hypnotics for insomnia in older adults |
+| [32544795](https://pubmed.ncbi.nlm.nih.gov/32544795/) | 2020 | Quantitative comparison | Sleep Medicine | Quantitative comparison of drug efficacy for insomnia |
+| [31730011](https://pubmed.ncbi.nlm.nih.gov/31730011/) | 2019 | Overview of reviews | Systematic Reviews | Comparative effectiveness and safety of pharmacological and non-pharmacological insomnia interventions |
+| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Review | Clin Ther | Safety and efficacy of sleep medicines in older adults |
+| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Review | Drugs & Aging | Pharmacological management recommendations for insomnia in elderly patients |
+| [6132933](https://pubmed.ncbi.nlm.nih.gov/6132933/) | 1983 | Sleep laboratory studies | J Clin Psychopharmacol | Compares flurazepam, temazepam and triazolam; temazepam is slowly absorbed (peak 2-3 hours), limiting its usefulness for sleep onset |
+| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Review | J Clin Psychopharmacol | Critical review of rebound insomnia after discontinuing short half-life benzodiazepines, including temazepam |
+| [3332464](https://pubmed.ncbi.nlm.nih.gov/3332464/) | 1987 | Review | Semin Neurol | Temazepam is effective for sleep maintenance, but less so for sleep induction |
 
 ## New Zealand Market Information
 
-Temazepam is currently **not marketed** in New Zealand — no product authorizations are on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2184877 | Normison | Tab 10 mg | Not recorded (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*Note: TFDA/package-insert warnings and contraindications, and DDI data, were flagged as a **Blocking** data gap (DG001) in the source evidence pack and could not be retrieved — this must be resolved before any S1 safety assessment.*
-
----
+- **Contraindications suggested by the knowledge graph** (these come from drug-disease relationship data, not package insert text): anxiety disorder, neurotic disorder, dysthymic disorder, kidney disease, liver disease, gallbladder disease, pyoureter, obstructive sleep apnoea syndrome, sleep apnoea syndrome, congenital central hypoventilation syndrome, Haddad syndrome, amnestic disorder, retrograde amnesia, substance-related disorder, and substance abuse/dependence.
+- **Drug Interactions**: 100 interactions were identified in total; the first 20 are shown in the data compiled for this report.
+  - **Major**: morphine and liposomal morphine (additive central nervous system and respiratory depression is a known concern with opioids).
+  - **Moderate**: bupropion, dronabinol, nabilone, metoclopramide, teduglutide, opium, sibutramine.
+  - **Minor**: antacids such as magnesium oxide, aluminium hydroxide, calcium carbonate, magaldrate, magnesium carbonate and magnesium hydroxide.
+- Package insert warnings and contraindications could not be obtained. Please refer to the package insert for full safety information.
+- Literature in this set highlights rebound insomnia on discontinuation, and tolerance, dependence and abuse with benzodiazepines and Z-drugs, particularly in older adults.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-While temazepam's efficacy for insomnia is well-established (including a completed 2024 Phase III RCT), the drug is not currently marketed in New Zealand and a Blocking data gap exists for package-insert warnings/contraindications — safety review (S1) cannot proceed without this. The predicted "new" indication is also essentially the drug's known use, so the primary decision here concerns market entry rather than indication expansion.
+The predicted indication is effectively the same as temazepam's established use in insomnia, so the high TxGNN score reflects known use rather than a new finding. No clinical trials are registered, the evidence level is L4, and the only New Zealand licence has been cancelled. Package insert safety data is also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- TFDA/local regulatory package insert (warnings, contraindications) — required to clear the Blocking gap (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Drug-drug interaction (DDI) data (current query returned no results)
-- Regulatory pathway assessment for New Zealand market entry, given zero existing authorizations
+- Package insert warnings and contraindications from Medsafe (blocking gap)
+- Detailed mechanism of action data from DrugBank
+- Confirmation of whether this is a genuinely new indication; if not, a decision on whether re-evaluation is warranted
+- Clarification of why the New Zealand licence was cancelled and whether any current market route exists
+- Benefit-risk assessment for dependence, rebound insomnia and use in older adults
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

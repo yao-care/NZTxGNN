@@ -2,7 +2,7 @@
 layout: default
 title: Trametinib
 parent: Model Prediction Only (L5)
-nav_order: 346
+nav_order: 459
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trametinib: From BRAF-Mutant Melanoma to Choroideremia
+# Trametinib: From Metastatic Melanoma to Choroideremia
 
 ## One-Sentence Summary
 
-Trametinib is a MEK inhibitor whose established oncology use (reflected throughout this evidence pack's trial and literature data) is in BRAF V600-mutant melanoma, typically combined with a BRAF inhibitor such as dabrafenib. The TxGNN model's top-ranked prediction for this drug is **Choroideremia**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model association with no mechanistic or empirical backing found in this pack.
+Trametinib is a MEK1/2 inhibitor originally used to treat BRAF-mutant metastatic melanoma.
+The TxGNN model predicts it may be effective for **choroideremia**, a hereditary retinal degeneration.
+This prediction currently has **0 clinical trials** and **0 publications** supporting it, so it rests on the model score alone.
 
 ---
 
@@ -41,23 +43,21 @@ Trametinib is a MEK inhibitor whose established oncology use (reflected througho
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack's regulatory fields (`original_indications` empty, `original_moa` flagged as a data gap); trial/literature evidence throughout the pack consistently associates trametinib with BRAF V600-mutant melanoma, usually as part of a dabrafenib + trametinib regimen |
+| Original Indication | Metastatic melanoma |
 | Predicted New Indication | Choroideremia |
 | TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is marked as a data gap in this evidence pack. Based on the mechanistic notes attached to other predicted indications in this batch, trametinib is an allosteric MEK1/2 inhibitor acting on the MAPK/ERK signalling pathway, which underlies its established efficacy in BRAF V600-mutant melanoma.
+Trametinib targets mitogen-activated protein kinase kinase 1 and 2 (MEK1/MEK2, encoded by *MAP2K1* and *MAP2K2*). It is used against BRAF V600-mutant melanoma, where it is often combined with dabrafenib. The data compiled for this report did not include a full mechanism-of-action description, but the target information above is available.
 
-Choroideremia, however, is an inherited retinal degeneration caused by loss-of-function mutations in the *CHM* gene (REP1 protein deficiency) — a pathway with no known connection to MAPK/ERK signalling. The evidence pack's own repurposing rationale for this indication states there is no known pathological link between the two, and explicitly flags this candidate as a likely false positive arising purely from graph-embedding similarity in the TxGNN model.
-
-In short: the mechanistic story that supports trametinib in melanoma does not extend to choroideremia. This prediction should be treated as a model artifact rather than a biologically grounded hypothesis unless independent mechanistic or experimental data emerges.
+The link between the original and predicted indications is weak. Choroideremia is an X-linked retinal degeneration caused by loss of the *CHM* gene (REP1 protein), which disrupts Rab protein prenylation. No established connection exists between this disease and MAPK/MEK pathway inhibition. The high TxGNN score comes from graph-based patterns in the knowledge graph, with no trial or literature support. It is most likely a model artefact rather than a true therapeutic signal.
 
 ---
 
@@ -75,17 +75,20 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-No authorizations on record — Trametinib is not marketed in New Zealand (0 licenses in the tracked database).
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2483262 | Mekinist | Tab 2 mg | Cancelled |
+| 2483254 | Mekinist | Tab 0.5 mg | Cancelled |
+
+Both authorizations are cancelled, so trametinib has no currently valid marketing authorization in New Zealand.
 
 ---
 
 ## Cytotoxicity
 
-*Trametinib is an antineoplastic agent (MEK inhibitor used in oncology), so this section applies.*
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (MEK inhibitor; non-cytotoxic mechanism) |
+| Cytotoxicity Classification | Targeted therapy (MEK inhibitor, kinase inhibitor class) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
@@ -95,7 +98,24 @@ No authorizations on record — Trametinib is not marketed in New Zealand (0 lic
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Note: TFDA package insert warnings/contraindications are recorded as a **Blocking** data gap — DG001 — which prevents a complete initial safety assessment for this drug.)
+- **Drug Interactions**: The interaction screen identified 15 moderate-level interactions. The interacting drugs are:
+  - Fostamatinib
+  - Elagolix
+  - Apalutamide
+  - Brigatinib
+  - Dabrafenib
+  - Encorafenib
+  - Isavuconazonium
+  - Lasmiditan
+  - Midostaurin
+  - Sarecycline
+  - Enzalutamide
+  - Erdafitinib
+  - Gilteritinib
+  - Idelalisib
+  - Tucatinib
+
+For other safety information, please refer to the package insert.
 
 ---
 
@@ -104,13 +124,16 @@ Please refer to the package insert for safety information. (Note: TFDA package i
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (choroideremia) has no clinical trial or literature support and lacks a plausible mechanistic link to trametinib's known MAPK/ERK-based pharmacology — the evidence pack itself flags it as a probable false positive.
+The only support for choroideremia is a model score. There are no trials or publications, and the disease biology (defective Rab prenylation caused by *CHM* loss) has no recognised link to MEK inhibition. In addition, all New Zealand authorizations for trametinib are cancelled.
+
+Other predictions for trametinib have more support, though all of them stay within melanoma, close to the original indication. The most advanced is non-cutaneous melanoma, with a Phase 2 trial in BRAF non-V600-mutant melanoma (NCT02296112) and several dabrafenib/trametinib combination studies, for an evidence level of L2. Nodular malignant melanoma has observational literature (L3). Choroideremia was ranked first by TxGNN score only.
 
 **To proceed, the following is needed:**
-- TFDA/package insert safety data (warnings, contraindications) to close data gap DG001, which is currently blocking any safety evaluation for this drug
-- Independent mechanistic or preclinical evidence linking MEK inhibition to *CHM*/REP1-related retinal degeneration before this specific indication is reconsidered
-- Confirmed DrugBank MOA and original-indication data to close data gap DG002
-- Consider redirecting evaluation effort toward the more evidence-backed candidates in this same prediction batch — e.g., BRAF V600-mutant non-cutaneous/acral melanoma subtypes (L2–L3 evidence, "Research Question" stage), which have real supporting trials and a coherent mechanistic rationale, unlike choroideremia
+- Experimental or preclinical evidence that MEK/MAPK inhibition affects the choroideremia disease process (for example retinal pigment epithelium or photoreceptor models)
+- Package insert warnings and contraindications for trametinib
+- A review of ocular safety, since MEK inhibitors can cause retinal toxicity
+- Confirmation of the regulatory pathway, given that the New Zealand authorizations are cancelled
+- If prioritising by evidence, shift attention to the melanoma-related predictions above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

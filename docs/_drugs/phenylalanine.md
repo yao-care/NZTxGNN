@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenylalanine
-parent: Model Prediction Only (L5)
-nav_order: 276
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 363
+evidence_level: L4
 indication_count: 2
 ---
 
 # Phenylalanine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Phenylalanine: From Essential Amino Acid (No Approved Indication) to Sclerosing Cholangitis
+# Phenylalanine: From No Documented Original Indication to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Phenylalanine is an essential amino acid with no approved therapeutic indication on record and no market presence in New Zealand.
-The TxGNN model predicts it may be effective for **Sclerosing Cholangitis**, but the supporting evidence pack (**0 clinical trials**, **4 publications**) does not actually support a treatment relationship — closer reading suggests a likely knowledge-graph false positive.
-
----
+Phenylalanine is an essential amino acid. The data compiled for this report contain no approved indication for it in New Zealand, and its only license has been cancelled.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are **0 clinical trials** and only **3 loosely related publications**, none of which show that phenylalanine treats the condition.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No approved indication on record (phenylalanine is listed in DrugBank as an essential amino acid, not as a drug with a defined therapeutic indication) |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Not documented (the single Medsafe license has no approved indication text) |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.43% |
-| Evidence Level | L5 (model prediction only, no supportive studies) |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only (no currently valid license) |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (DG002, High severity gap). Phenylalanine is a nutritionally essential amino acid and metabolic precursor to tyrosine; it is not established as a pharmacological treatment for any hepatobiliary condition.
+Currently, detailed mechanism of action data is not available. Phenylalanine is a dietary essential amino acid and a precursor of tyrosine. No direct therapeutic mechanism linking it to sclerosing cholangitis has been established.
 
-Critically, when the four supporting literature items are examined individually, none actually describe phenylalanine as a therapeutic intervention for sclerosing cholangitis:
+The available literature links aromatic amino acid metabolism, specifically plasma tyrosine (a phenylalanine metabolite), to fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. This is an association with disease symptoms, not evidence that phenylalanine treats the disease. Altered amino acid levels in cholestatic liver disease more plausibly reflect impaired hepatic metabolism than a drug target.
 
-- **PMID 15790420** examines plasma **tyrosine** (not phenylalanine) concentration and fatigue in primary biliary cirrhosis/PSC — an association study, not a treatment study.
-- **PMID 32025163** is a serum metabolomics profiling study in cholangiocarcinoma — a biomarker/observational paper unrelated to phenylalanine supplementation or treatment.
-- **PMID 8000512** and **PMID 2103382** both concern **N-formyl-methionyl-leucyl-phenylalanine (fMLP)**, a bacterial chemotactic peptide that shares only a substring with "phenylalanine." In these preclinical rat models, fMLP *induces* small-duct cholangitis — the opposite direction from a therapeutic effect.
-
-Taken together, the mechanistic link between phenylalanine and sclerosing cholangitis is not supported by the retrieved evidence. The high TxGNN score (99.43%) most likely reflects a graph-embedding artifact — conflating phenylalanine with tyrosine (a shared metabolic pathway) and/or with the unrelated peptide fMLP (a lexical/substring overlap) — rather than a genuine pharmacological signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
+The very high TxGNN score (99.43%) is a computational prediction only and is not supported by clinical data. The second-ranked prediction, congenital prothrombin deficiency (score 99.26%), has no trials or literature at all. No plausible mechanism by which phenylalanine would correct prothrombin synthesis or function was identified, so it is not evaluated further here.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examines plasma **tyrosine** (not phenylalanine) levels and their relation to fatigue in PBC/PSC patients; an association study, no treatment data |
-| [32025163](https://pubmed.ncbi.nlm.nih.gov/32025163/) | 2020 | Cohort | Journal of Clinical and Experimental Hepatology | Serum metabolomic profiling to distinguish cholangiocarcinoma from benign hepatobiliary disease; biomarker discovery, not a treatment study |
-| [8000512](https://pubmed.ncbi.nlm.nih.gov/8000512/) | 1994 | Animal/Preclinical | Journal of Gastroenterology | In rats, the bacterial peptide **fMLP** (formyl-methionyl-leucyl-**phenylalanine**) *induced* small-duct cholangitis — an adverse/causal effect, not a therapeutic one |
-| [2103382](https://pubmed.ncbi.nlm.nih.gov/2103382/) | 1990 | Preclinical | Journal of Gastroenterology and Hepatology | Describes enterohepatic circulation of bacterial chemotactic fMLP-type peptides; mechanistic background on gut-derived peptides, unrelated to phenylalanine therapy |
+| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examined the relation between plasma tyrosine concentration and fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. This is an association study, not a treatment study. |
+| [32025163](https://pubmed.ncbi.nlm.nih.gov/32025163/) | 2020 | Cohort (metabolomic profiling) | Journal of Clinical and Experimental Hepatology | Serum metabolomic profiles in cholangiocarcinoma versus benign hepatobiliary disease, searching for biomarkers. It does not address PSC treatment. |
+| [2103382](https://pubmed.ncbi.nlm.nih.gov/2103382/) | 1990 | Basic/methodological | Journal of Gastroenterology and Hepatology | Radioimmunoassay of a formylated bacterial peptide and its enterohepatic circulation. It is not about phenylalanine as a therapy. |
 
----
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-Phenylalanine is not marketed in New Zealand and has no registered authorizations on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2474557 (cancelled) | Phenylalanine50 | Powder, 4 g sachets | Not stated |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Note: TFDA package insert warnings/contraindications data are marked as a **Blocking** data gap — DG001 — and must be resolved before any S1 safety review can proceed.)
+Package insert warnings and contraindications were not available for this report; please refer to the package insert for safety information.
 
----
+- **Disease associations from the knowledge graph (not label text)**: The TxGNN knowledge graph (PrimeKG) lists contraindication links between phenylalanine and the following conditions. These should be verified against authoritative sources:
+  - Phenylketonuria and other disorders of phenylalanine metabolism
+  - Kidney disease, including chronic kidney disease, chronic renal failure, end-stage renal failure, and acute urate nephropathy
+  - Kidney stone and calcium conditions: nephrolithiasis, nephrocalcinosis, hypercalcemia, humoral hypercalcemia of malignancy, sarcoidosis, and phosphorus metabolism disease
+  - Cardiac conditions: heart disease, cardiovascular disease, ventricular fibrillation, and digitalis poisoning
+  - Pyoureter
+- **Drug Interactions**: No interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on L5 evidence (model score only) and decision stage S0. Detailed review of all four cited publications shows none actually support a phenylalanine-to-sclerosing-cholangitis treatment relationship — two concern tyrosine, and two concern an unrelated bacterial peptide (fMLP) that *causes* cholangitis in animal models rather than treating it. This pattern is consistent with a knowledge-graph false positive rather than a genuine repurposing signal.
+The prediction rests almost entirely on a model score. No clinical trials exist, the literature shows only associations with disease symptoms, and no mechanism has been established. The only New Zealand license is cancelled and has no documented indication. The knowledge graph also flags contraindications in kidney, cardiac, and calcium-related conditions, which are common in patients with chronic liver disease.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/manufacturer safety labeling before any further evaluation
-- Resolve DG002 (High): obtain confirmed mechanism-of-action data for phenylalanine
-- Independent verification of whether the TxGNN embedding is conflating phenylalanine with tyrosine or with fMLP-type peptides
-- If pursued further, target literature/trial searches specifically on phenylalanine (not tyrosine or fMLP) in cholestatic/biliary disease models
-
-*Note: A second candidate indication (congenital prothrombin deficiency, score 99.26%, L5/Hold) was also evaluated and shows a similarly unsupported evidence trail (single withdrawn, zero-enrollment trial on an unrelated drug/indication) — not detailed here but carries the same Hold recommendation.*
+- Package insert warnings and contraindications from Medsafe, which are needed before any safety screening
+- Mechanism of action data (for example from DrugBank)
+- Preclinical or mechanistic studies testing whether phenylalanine or aromatic amino acid modulation affects cholestatic liver disease
+- Clarification of the original indication and the reason the license was cancelled
+- Route and formulation compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

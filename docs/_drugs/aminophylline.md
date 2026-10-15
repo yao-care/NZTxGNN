@@ -2,7 +2,7 @@
 layout: default
 title: Aminophylline
 parent: Moderate Evidence (L3-L4)
-nav_order: 25
+nav_order: 33
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,66 +29,75 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Aminophylline: From Bronchospasm to Migraine Disorder
+# Aminophylline: From Unspecified Original Indication to Migraine Disorder
 
 ## One-Sentence Summary
 
-Aminophylline is a methylxanthine compound historically established as a bronchodilator and treatment for apnea of prematurity, acting through adenosine receptor antagonism and phosphodiesterase inhibition.
-The TxGNN model predicts it may be effective for **Migraine Disorder**,
-with **0 clinical trials** and **6 publications** currently supporting this direction.
+Aminophylline is a theophylline-based xanthine (adenosine receptor antagonist and phosphodiesterase inhibitor). The product registered in New Zealand has no approved indication text on file.
+The TxGNN model predicts it may be effective for **migraine disorder**, but there are **no registered clinical trials** and only **4 publications**, of which just one is a relevant review. The evidence is mechanistic and exploratory.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bronchospasm; Apnea of Prematurity |
-| Predicted New Indication | Migraine Disorder |
+|------|------|
+| Original Indication | Not recorded in the New Zealand licence data |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L4 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licence) |
+| Number of Authorizations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data from DrugBank is not available for this report. Based on known information from published literature and clinical context, aminophylline is a methylxanthine derivative (theophylline + ethylenediamine) that acts primarily as a non-selective adenosine receptor antagonist and phosphodiesterase inhibitor. Its efficacy as a bronchodilator and for post-dural puncture headache is well established, and mechanistically this profile may extend to migraine disorder.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known pharmacology, aminophylline is a nonselective adenosine receptor antagonist and phosphodiesterase inhibitor. Adenosine signalling is implicated in trigeminovascular activation and cerebral vasodilation, both relevant to migraine.
 
-The biological link between aminophylline and migraine rests on the adenosine hypothesis of migraine. Accumulating evidence suggests that pathologically elevated adenosine levels in the brain — potentially reflecting impaired cerebral energy metabolism — drive intracranial vasodilation and nociceptive sensitization that underlie migraine attacks. Aminophylline, as an adenosine receptor antagonist, could directly block this pathway. Indirect support comes from caffeine, a structurally related methylxanthine that is already incorporated into established migraine combination products and is recommended for treating post-lumbar puncture headache — a headache phenotype with similar adenosine-mediated vasodilatory mechanisms.
+A 2023 review (PMID 38059379) proposes that migraine may involve impaired brain energy metabolism with high adenosine levels, and that aminophylline may relieve pain, particularly post-dural headache. A case report (PMID 34308528) describes a hemiplegic migraine episode triggered by the adenosine agonist regadenoson. This supports the plausibility that adenosine antagonism could act as a countermeasure.
 
-A 2023 review (PMID 38059379) directly proposed aminophylline as a candidate for migraine based on this mechanistic framework, and a 2022 case report (PMID 34308528) documented that aminophylline and caffeine effectively reversed hemiplegic migraine triggered by regadenoson, an adenosine A2A receptor agonist — providing direct pharmacological proof of concept. However, the evidence base currently comprises only mechanistic and observational data; no randomised controlled trial has been conducted.
+This is a hypothesis only. No controlled trials exist, and the original indication is not recorded, so the link between the original and new indication cannot be assessed.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials for aminophylline in migraine disorder are registered.
+Currently no related clinical trials registered for migraine disorder.
+
+For context, among lower-ranked predictions, the only registered trial is a Phase 1 safety study in healthy volunteers for pulmonary hypertension ([NCT01530464](https://clinicaltrials.gov/study/NCT01530464), 18 participants, completed). It did not test migraine.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Review/Clinical Report | Pain Management | Proposes aminophylline as an adenosine receptor antagonist for migraine and pain; reviews evidence for strong therapeutic relief in post-dural headache and observational case series data in migraine |
-| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Case Report | Journal of Nuclear Cardiology | Regadenoson (A2A adenosine agonist) triggered hemiplegic migraine during cardiac stress imaging; aminophylline and caffeine effectively reversed the episode — direct pharmacological proof of concept |
-| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Case Report | Canadian Journal of Cardiology | Syndrome X patient with adenosine-mediated chest pain and migraine-like vascular phenomena; documents adenosine excess as a shared pathophysiological trigger |
-| [219563](https://pubmed.ncbi.nlm.nih.gov/219563/) | 1979 | In Vitro | Stroke | Adenosine and adenine compounds markedly dilated human and feline pial (intracranial) but not extracranial arteries in vitro — mechanistic basis for selective intracranial involvement in adenosine-driven migraine |
+|------|-----|------|------|---------|
+| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Review | Pain Management | Proposes that migraine involves high adenosine and impaired brain energy metabolism, and that aminophylline may relieve pain, especially post-dural headache |
+| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Case report | J Nucl Cardiol | Hemiplegic migraine triggered by the adenosine agonist regadenoson; methylxanthines such as aminophylline are used to reverse its side effects |
+| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Case report | Can J Cardiol | Patient with syndrome X and excessive adenosine effect ("myocardial migraine") without ischemia |
+| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Review | Aggiornamenti Clinicoterapeutici | Historical article on medical headaches (no abstract available) |
 
 ---
 
 ## New Zealand Market Information
 
-Aminophylline currently has no regulatory authorisations in New Zealand. It is not marketed in this jurisdiction.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 333956 (cancelled) | DBL Aminophylline | Injection 25 mg per ml, 10 ml ampoule | Not recorded |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified. Examples include:
+  - **Major**: bupropion
+  - **Moderate**: famotidine, ranitidine, cimetidine, nizatidine, doxycycline, tetracycline, minocycline, clarithromycin, and corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide)
+  - **Minor**: lansoprazole
+- **Other signals from the literature on related predictions**: Xanthines may worsen tremor and tachycardia in thyrotoxicosis. Aminophylline withdrawal after dipyridamole stress has been reported to trigger coronary vasospasm in variant angina. Theophylline has a narrow therapeutic index.
+
+Please refer to the package insert for warnings and contraindications, as these were not available in the data compiled for this report.
 
 ---
 
@@ -97,15 +106,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic hypothesis linking aminophylline's adenosine antagonism to migraine pathophysiology is biologically plausible and supported by the known efficacy of related methylxanthines (caffeine) in migraine management; however, evidence is currently limited to a single 2023 review article and isolated case reports (L4), with no registered clinical trials and no controlled human efficacy data. The drug is also not marketed in New Zealand, and complete safety information (package insert warnings, contraindications) remains unavailable for formal evaluation.
+The prediction score is high, but support is limited to one narrative review and two case reports, with no registered trials. There is no valid New Zealand licence, no label safety data, and the interaction burden is large.
 
 **To proceed, the following is needed:**
-
-- **Safety profile clarification**: Obtain and review the full package insert (warnings, contraindications, drug interactions) before any clinical planning — this is currently a blocking data gap
-- **MOA documentation**: Confirm pharmacodynamic data via DrugBank or primary literature to support the adenosine antagonism hypothesis formally
-- **Proof-of-concept study**: A small prospective observational study or open-label pilot in acute migraine patients is the minimum required to move from L4 to L3 evidence
-- **Dose and route assessment**: Define clinically feasible dosing and administration route for migraine (oral aminophylline vs. IV) given existing PK data
-- **Regulatory pathway**: Assess requirements for a new indication filing in New Zealand given the current zero-authorisation status
+- Package insert warnings and contraindications (from Medsafe or the current product label)
+- Mechanism-of-action data from DrugBank
+- Controlled clinical evidence in migraine, such as a pilot randomized trial
+- A route and formulation plan, since the only New Zealand product was an injection and its licence is cancelled
+- A dose and therapeutic drug-monitoring strategy given the narrow therapeutic index and interaction burden
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

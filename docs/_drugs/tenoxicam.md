@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tenoxicam
-parent: High Evidence (L1-L2)
-nav_order: 334
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 442
+evidence_level: L3
 indication_count: 10
 ---
 
 # Tenoxicam
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,80 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Tenoxicam: From NSAID Musculoskeletal Pain Management to Rheumatoid Arthritis
+# Tenoxicam: From Arthritic Joint Disease to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Tenoxicam is an oxicam-class NSAID with long-established use in osteoarthritis, ankylosing spondylitis, and inflammatory/postoperative pain.
-The TxGNN model ranks **Rheumatoid Arthritis** as its top predicted indication, but this is not a novel repurposing signal —
-it is corroborated by **1 clinical trial** and **20 publications**, including several decades-old RCTs that already demonstrate efficacy in RA specifically.
+Tenoxicam is an oxicam-class NSAID, originally used for arthritic joint disease and arthropathy.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, which falls within its original indication area. This prediction is supported by **no registered clinical trials** and **19 publications** (mostly older studies from 1985-1996).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in New Zealand market data (drug unmarketed); based on established oxicam/NSAID use, tenoxicam is indicated for osteoarthritis, ankylosing spondylitis, and other inflammatory/postoperative pain conditions |
-| Predicted New Indication | Rheumatoid Arthritis |
+| Original Indication | Arthritic joint disease; arthropathy (from the knowledge graph, as no approved indication text is available for the New Zealand licences) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L2 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L3 |
+| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
+| Number of Authorizations | 2 (both cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (data gap). Based on known information, tenoxicam belongs to the oxicam class of NSAIDs (related to piroxicam), acting via inhibition of COX-1/COX-2 to reduce prostaglandin-mediated inflammation and pain. This anti-inflammatory mechanism is directly applicable to rheumatoid arthritis, an inflammatory joint disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tenoxicam is an oxicam NSAID that inhibits COX-1 and COX-2, reducing prostaglandin-mediated inflammation and pain. This is consistent with symptomatic control of rheumatoid arthritis.
 
-Notably, the literature evidence for this prediction is not exploratory extrapolation — tenoxicam has been directly studied and compared against other NSAIDs (piroxicam, aceclofenac, naproxen) specifically in RA populations since the 1980s–1990s, with several completed RCTs. This means the TxGNN model's high score for RA largely reflects an already-established, well-documented use of the drug rather than a genuinely new therapeutic hypothesis. The value of this candidate lies less in novelty and more in confirming the model correctly recovers known pharmacology.
+Rheumatoid arthritis lies within the scope of its original arthritic joint disease/arthropathy indication. This is therefore effectively an on-label type of use rather than true repurposing. The literature includes comparative studies against piroxicam, aceclofenac, ketoprofen and other NSAIDs, indicating symptomatic efficacy comparable to other NSAIDs.
+
+Note that the evidence is old (1985-1996), no Phase 3 trial is registered in the compiled data, and the product is no longer authorized in New Zealand.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05508451](https://clinicaltrials.gov/study/NCT05508451) | Phase NA | Completed | 80 | Compared tenoxicam, paracetamol, and tenoxicam-paracetamol combination for postoperative pain following double-jaw surgery. Not RA-specific; supports general analgesic/anti-inflammatory profile only (relevance grade B). |
+Currently no related clinical trials registered for rheumatoid arthritis.
+
+(For a different predicted indication, headache disorder, one Phase 4 trial exists: [NCT06786650](https://clinicaltrials.gov/study/NCT06786650), IV tenoxicam vs IV ibuprofen in acute migraine, n=100, active not recruiting, no results yet.)
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | RCT | Clinical Rheumatology | Multicentre double-blind RCT (n=292) comparing aceclofenac vs. tenoxicam in RA; both groups showed clinical improvement with comparable efficacy and safety |
-| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | RCT | The Journal of Rheumatology | RCT (n=102) comparing tenoxicam 20mg OD vs. piroxicam 20mg OD in RA; no difference in efficacy or adverse event rates |
-| [2695152](https://pubmed.ncbi.nlm.nih.gov/2695152/) | 1989 | RCT | The British Journal of Clinical Practice | Large double-blind parallel-group trial (n=1,328) in OA and RA comparing tenoxicam and piroxicam; tenoxicam showed slightly greater global assessment improvement |
-| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | RCT | The Journal of International Medical Research | Multicentre general-practice study (n=2,963) of oral tenoxicam 20mg/day for 12 weeks in OA/RA; symptom reduction sustained through long-term follow-up |
-| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | Review | Drugs | Pharmacology update: tenoxicam efficacy in RA, OA, ankylosing spondylitis and other rheumatic conditions is at least equivalent to other NSAIDs, tolerability comparable to or better than piroxicam |
-| [3315620](https://pubmed.ncbi.nlm.nih.gov/3315620/) | 1987 | Review | Drugs | Preliminary review of pharmacodynamics/pharmacokinetics; once-daily 20mg tenoxicam shown effective across RA, OA, ankylosing spondylitis, gout |
-| [8137596](https://pubmed.ncbi.nlm.nih.gov/8137596/) | 1994 | Review | Clinical Pharmacokinetics | Clinical pharmacokinetic review: complete oral absorption, ~99% protein binding, supports once-daily dosing in rheumatic disease |
-| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | Cohort | European Journal of Rheumatology and Inflammation | Double-blind parallel trials in OA, RA and ankylosing spondylitis; tenoxicam 20mg at least as effective as piroxicam with good tolerance |
-| [2512637](https://pubmed.ncbi.nlm.nih.gov/2512637/) | 1989 | Cohort | Scandinavian Journal of Rheumatology Supplement | 4-year long-term trial (n=20) of tenoxicam plus basis therapy (gold salts/D-penicillamine) in RA; sustained analgesic/anti-inflammatory benefit |
-| [3915889](https://pubmed.ncbi.nlm.nih.gov/3915889/) | 1985 | Cohort | European Journal of Rheumatology and Inflammation | Open multicentric study (n=79) of rectal tenoxicam suppository (20-40mg/day) for 6 weeks in RA and arthrosis |
+| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | RCT (double-blind) | Clin Rheumatol | Aceclofenac vs tenoxicam in 292 RA patients over 3 months; both groups improved clinically |
+| [2695152](https://pubmed.ncbi.nlm.nih.gov/2695152/) | 1989 | RCT (double-blind) | Br J Clin Pract | Tenoxicam vs piroxicam in 1,328 OA/RA patients; both improved pain and stiffness, with tenoxicam slightly greater on global assessment |
+| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | Comparative trial | J Rheumatol | Tenoxicam vs piroxicam 20 mg daily in 102 RA patients; no difference in efficacy or adverse events |
+| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | Double-blind trials | Eur J Rheumatol Inflamm | Tenoxicam at least as effective as piroxicam in OA, RA and ankylosing spondylitis |
+| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | Multicentre study | J Int Med Res | 20 mg/day in 2,963 OA/RA patients in general practice, with long-term follow-up |
+| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | Review | Drugs | Effective analgesic and anti-inflammatory agent in RA and other rheumatic conditions; tolerability at least as good as piroxicam |
+| [3315620](https://pubmed.ncbi.nlm.nih.gov/3315620/) | 1987 | Review | Drugs | 20 mg daily as effective as piroxicam 20 mg in RA and other rheumatic disorders |
+| [3317800](https://pubmed.ncbi.nlm.nih.gov/3317800/) | 1987 | Review | Scand J Rheumatol Suppl | 133 clinical studies; efficacy shown in double-blind comparisons, with 20 mg as the optimal dose |
+| [1778090](https://pubmed.ncbi.nlm.nih.gov/1778090/) | 1991 | Open study | Curr Med Res Opin | 736 African outpatients given 20 mg daily for 15-30 days for rheumatic disorders including RA |
+| [8137596](https://pubmed.ncbi.nlm.nih.gov/8137596/) | 1994 | Pharmacokinetics review | Clin Pharmacokinet | Completely absorbed orally, about 99% protein bound |
 
 ## New Zealand Market Information
 
-Tenoxicam currently has no marketing authorizations in New Zealand (market status: not marketed, 0 licenses on record).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2307022 | AFT | Inj 20 mg vial (cancelled) | Not available |
+| 2520559 | Tilcotil | Tab 20 mg (cancelled) | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not currently available in the evidence pack — flagged as a blocking data gap for TFDA/Medsafe label review.)
+Please refer to the package insert for safety information. No interaction records were found for this drug in the data compiled for this report.
+
+One related signal: a 1997 case report ([PMID 9303679](https://pubmed.ncbi.nlm.nih.gov/9303679/)) describes alopecia as a possible adverse effect of tenoxicam.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Efficacy in RA is well-supported by multiple historical RCTs and reviews (Evidence Level L2), but the only registered clinical trial for this indication is not RA-specific, the drug is unregistered in New Zealand, and core safety/MOA data are missing — so this should advance cautiously rather than as a confirmed go.
+Rheumatoid arthritis is essentially within tenoxicam's established NSAID use rather than a new repurposing opportunity. The supporting evidence is old (1985-1996), with no registered trials, and the product has no valid New Zealand authorization. Safety information (warnings and contraindications) is also missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert with warnings, contraindications, and drug interaction data (currently a Blocking data gap, DG001)
-- Confirmed mechanism of action detail (High-priority data gap, DG002)
-- Documentation of tenoxicam's actual approved indications in markets where it is registered, to properly characterize "original indication"
-- Assessment of whether pursuing RA is worthwhile given it largely confirms known NSAID class efficacy rather than revealing a novel therapeutic use
+- Medsafe package insert warnings and contraindications
+- Mechanism of action data (e.g., from DrugBank)
+- A decision on whether re-authorization in New Zealand is intended, given both licences are cancelled
+- Review of newer comparative evidence against currently used NSAIDs
+- For the headache disorder prediction, results from NCT06786650
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Phenoxymethylpenicillin
 parent: Model Prediction Only (L5)
-nav_order: 275
+nav_order: 362
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,74 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Phenoxymethylpenicillin: From Streptococcal Infections to Epiglottitis
+# Phenoxymethylpenicillin: From Streptococcal and Upper Respiratory Tract Infections to Epiglottitis
 
 ## One-Sentence Summary
 
-Phenoxymethylpenicillin (Penicillin V) is a narrow-spectrum, oral β-lactam antibiotic conventionally used against *Streptococcus* species infections. The TxGNN model predicts potential efficacy for **Epiglottitis** (score 99.90%), but this prediction is currently supported by **zero clinical trials and zero published literature** — it is a model-only signal.
-
----
+Phenoxymethylpenicillin (penicillin V) is an oral, narrow-spectrum penicillin originally used for streptococcal infections, pharyngitis, otitis media and other upper respiratory tract infections.
+The TxGNN model predicts it may be effective for **epiglottitis**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The evidence is model-based only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no NZ license/label text available); known pharmacologically as a narrow-spectrum agent for streptococcal infections |
+| Original Indication | Streptococcal infection, pharyngitis, otitis media, respiratory tract infections, scarlet fever, erysipelas (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid licences) |
+| Number of Authorizations | 4 (all cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed formal mechanism-of-action data is flagged as a data gap in this evidence pack. Based on the mechanistic notes accompanying the prediction, phenoxymethylpenicillin is a narrow-spectrum, orally administered penicillin that inhibits bacterial cell wall synthesis via penicillin-binding protein (PBP) binding, with activity primarily limited to *Streptococcus* species.
+Detailed mechanism of action data is not currently available. Based on known information, phenoxymethylpenicillin is a narrow-spectrum, beta-lactamase-labile penicillin with established activity against streptococci. Its efficacy in streptococcal infections and upper respiratory tract infections is well recognised, and it may be mechanistically applicable to bacterial epiglottitis.
 
-This mechanism does not align well with epiglottitis. Epiglottitis is most commonly caused by *Haemophilus influenzae* type b, an organism that frequently produces β-lactamase and is therefore often resistant to penicillin. Epiglottitis is also a respiratory emergency requiring immediate intravenous, broad-spectrum antibiotic coverage (e.g., ceftriaxone) — not an orally administered agent with slow, variable absorption like penicillin V.
+Epiglottitis (supraglottitis) is most often bacterial. Historically the main cause was *Haemophilus influenzae* type b, but *Streptococcus pyogenes*, *Streptococcus pneumoniae* and *Staphylococcus aureus* are also implicated. The link to the drug's original uses is therefore plausible only for streptococcal cases. The very high TxGNN score is probably driven by the drug's known streptococcal and upper respiratory tract indications.
 
-The evidence pack's own assessment concludes that the high TxGNN score most likely reflects a superficial "both are respiratory tract infections" association rather than a genuine mechanistic or clinical fit. No clinical trials or literature currently exist to support this specific application.
-
----
+There are important limits to this reasoning:
+- The drug has no activity against beta-lactamase-producing *H. influenzae* or MRSA.
+- It is an oral agent, whereas epiglottitis is an airway emergency that needs parenteral therapy (for example third-generation cephalosporins) and airway management.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for epiglottitis.
 
----
+For reference, the second-ranked prediction, laryngitis (score 99.85%, evidence level L4), has one linked publication. It is only indirect evidence:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [1632252](https://pubmed.ncbi.nlm.nih.gov/1632252/) | 1992 | RCT (inferred from the title) | Acta Oto-Laryngologica Supplementum | 106 adults with acute laryngitis received erythromycin or placebo. Erythromycin reduced nasopharyngeal *B. catarrhalis* isolation. The abstract notes that phenoxymethylpenicillin had no effect on the clinical course in earlier work. |
 
 ## New Zealand Market Information
 
-Phenoxymethylpenicillin currently holds no market authorization in New Zealand (0 licenses on record; market status: not marketed).
+All four licences are cancelled and none is currently valid. No approved indication text is available.
 
----
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2029219 | AFT | Granules for oral liquid, 125 mg per 5 ml | Cancelled |
+| 2029227 | AFT | Granules for oral liquid, 250 mg per 5 ml | Cancelled |
+| 2602873 | Cilicaine VK | Capsule, 500 mg | Cancelled |
+| 2602865 | Cilicaine VK | Capsule, 250 mg | Cancelled |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications suggested by the knowledge graph** (not taken from package insert text): kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, infectious mononucleosis, and chronic Epstein-Barr virus infection syndrome.
+- **Drug Interactions**: 32 interactions were identified. The main ones by severity are:
+  - Moderate: doxycycline, minocycline, tetracycline, neomycin, balsalazide, picosulfuric acid, warfarin, dicoumarol, iodide I-123, iodide I-131
+  - Minor: clarithromycin
+  - Severity unknown: omeprazole, lansoprazole, simvastatin, prednisolone, dexamethasone, acetylsalicylic acid, clopidogrel, heparin, ibuprofen
 
----
+For package insert warnings and contraindications, please refer to the package insert. The Medsafe package insert data could not be obtained for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The epiglottitis prediction is evidence level L5 — a model score only, with no supporting clinical trials or literature, and the mechanistic/pharmacokinetic rationale provided is unfavorable (antibacterial spectrum mismatch, oral route unsuitable for an airway emergency). Notably, a secondary TxGNN-predicted indication for this drug — laryngitis (score 99.85%) — does have direct clinical evidence, but that evidence (a double-blind RCT, PMID [3918495](https://pubmed.ncbi.nlm.nih.gov/3918495/), and multiple Cochrane systematic reviews including PMID [26002823](https://pubmed.ncbi.nlm.nih.gov/26002823/)) consistently found phenoxymethylpenicillin **ineffective**, reinforcing caution around broad respiratory-infection repurposing signals for this drug.
+The prediction rests on a model score alone, with no clinical trials or literature for epiglottitis. Clinically, an oral, beta-lactamase-labile penicillin is unsuitable for an airway emergency whose major pathogens it does not cover. No licence is currently valid in New Zealand.
 
 **To proceed, the following is needed:**
-- TFDA/NZ package insert warnings and contraindications (currently blocking data gap)
-- Verified mechanism-of-action documentation from DrugBank
-- Direct clinical or preclinical evidence specific to epiglottitis (currently none identified)
-- A regulatory pathway assessment, given the drug is not currently marketed in New Zealand (0 authorizations)
+- Medsafe package insert warnings and contraindications (currently a blocking data gap)
+- Detailed mechanism of action data
+- Clinical or microbiological evidence supporting use in streptococcal epiglottitis, and a defined role relative to standard parenteral therapy
+- Route compatibility assessment (oral drug versus parenteral requirement)
+- Clarification of regulatory status, since all New Zealand licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

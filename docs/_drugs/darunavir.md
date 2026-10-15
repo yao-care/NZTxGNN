@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Darunavir
-parent: Model Prediction Only (L5)
-nav_order: 101
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 135
+evidence_level: L4
 indication_count: 4
 ---
 
 # Darunavir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,72 +29,81 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# DARUNAVIR: Repurposing Candidate – Evaluation Incomplete
+# Darunavir: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Darunavir is an internationally approved HIV-1 protease inhibitor used for the treatment of HIV infection in adults and paediatric patients.
-This Evidence Pack contains **no TxGNN-predicted new indications** and has critical data gaps across safety, regulatory, and mechanistic domains, making a full repurposing evaluation impossible at this stage.
-A **Hold** decision is warranted until the missing inputs are resolved.
-
----
+Darunavir is an HIV-1 protease inhibitor, originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but this is largely an animal-model counterpart of HIV rather than a new human indication.
+Support is limited to **0 clinical trials** and **4 preclinical macaque publications** in which darunavir is, at most, one component of a combination regimen.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (international approval; no New Zealand authorization on record) |
-| Predicted New Indication | Not available – TxGNN predictions not yet generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 (no repurposing studies; model output absent) |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
+|------|------|
+| Original Indication | HIV infectious disease; AIDS |
+| Predicted New Indication | Simian immunodeficiency virus infection |
+| TxGNN Prediction Score | 99.97% |
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
+| Number of Authorizations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why a Full Prediction Cannot Be Assessed Yet
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, darunavir is an HIV-1 protease inhibitor, its efficacy in HIV infection and AIDS is established, and mechanistically it may be applicable to SIV infection.
 
-No entries exist in `predicted_indications`, so a repurposing rationale cannot be constructed from this Evidence Pack.
+SIV is a lentivirus closely related to HIV, and its protease is structurally and functionally similar to HIV-1 protease, the known target of darunavir. Biological plausibility is therefore high.
 
-What is known from international prescribing information is that darunavir is a second-generation HIV-1 protease inhibitor. It binds with high affinity to the active site of HIV-1 protease, preventing cleavage of the Gag-Pol polyprotein and thus blocking maturation of viral particles. This mechanism has attracted interest in whether protease inhibitor scaffolds may apply to other viral targets or certain cancers—but until TxGNN scoring is available, any mechanistic bridge to a new indication would be speculative and outside the scope of this Evidence Pack.
+The very high TxGNN score most likely reflects the similarity of SIV to HIV, the drug's original indication, rather than a genuinely new therapeutic opportunity. SIV infection in macaques is a research model for HIV and not a human clinical indication. The other predictions are weaker: feline AIDS is a veterinary condition with no established darunavir activity, and the remaining predicted indications (a rare neurodevelopmental disorder and an obsolete familial combined hyperlipidemia term) have no supported mechanistic link.
 
-Detailed mechanism of action data was flagged as a data gap (DG002) in this pack and must be loaded from DrugBank before the "Why is This Prediction Reasonable?" section can be properly completed.
+## Clinical Trial Evidence
 
----
+Currently no related clinical trials registered.
+
+## Literature Evidence
+
+All four publications are preclinical macaque studies of antiretroviral regimens. They appear to include darunavir only as one part of combination therapy and do not isolate its individual effect.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Preclinical animal study | PloS one | Combination ART plus the HDAC inhibitor SAHA in SIV-infected Chinese rhesus macaques, studying viral reservoirs |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Preclinical animal study | AIDS Res Hum Retroviruses | Comparison of two coformulated injectable ART regimens in SIVmac239-infected rhesus macaques |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Preclinical animal study | PLoS Pathogens | Highly intensified multidrug ART induced long-term viral suppression and restricted the viral reservoir in a simian AIDS model |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Preclinical animal study | AIDS | ART plus auranofin restricted the viral reservoir in the monkey AIDS model and contained viral load after ART suspension |
 
 ## New Zealand Market Information
 
-Darunavir has **0 active authorizations** in New Zealand. It is not currently marketed or registered in this jurisdiction.
+Both authorizations are cancelled, so there are currently no valid darunavir products on the New Zealand market. No approved indication text is available for these licenses.
 
-> Note: Darunavir (brand name Prezista®) is approved by the FDA, EMA, and multiple other regulatory agencies for HIV-1 treatment. This international approval history may shorten the regulatory pathway if a repurposing indication is later identified.
-
----
+| Authorization Number | Product Name | Dosage Form | Status |
+|---------|------|------|-----------|
+| 2626462 | Darunavir Viatris | Tab 400 mg | Cancelled |
+| 2626470 | Darunavir Viatris | Tab 600 mg | Cancelled |
 
 ## Safety Considerations
 
-Package insert warnings, contraindications, and drug-drug interaction data were not retrieved in this evaluation cycle (data gaps DG001 and DDI query returned `not_found`).
+- **Contraindications / disease associations (from the knowledge graph, not label text):** liver failure, liver disease, cirrhosis of liver, gallbladder disease, hyperglycemia, diabetes mellitus, diabetic ketoacidosis, chronic hepatitis B virus infection, hepatitis C virus infection (including chronic), hypertriglyceridemia, hemophilia (including the symptomatic form in female carriers).
+- **Drug Interactions:** 100 interactions are recorded in total. Examples listed here include one **Major** interaction, with cisapride. Many **Moderate** interactions are also listed, including:
+  - Antidiabetic agents: acarbose, metformin, pioglitazone, alogliptin, saxagliptin, canagliflozin, dapagliflozin, chlorpropamide, acetohexamide, albiglutide
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone
+  - Others: clarithromycin, aprepitant
 
-As an interim reference, please consult:
-- **Prezista® FDA label** or **EMA SmPC** for full contraindication and warning text
-- Known drug class warnings for HIV protease inhibitors include hepatotoxicity risk, skin reactions (including Stevens-Johnson Syndrome), lipid and glucose metabolism effects, and extensive CYP3A4-mediated drug interactions
-
----
+Package insert warnings and contraindications were not available for this report; please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This Evidence Pack is materially incomplete: there are no TxGNN-predicted indications, no safety data, no New Zealand regulatory approvals, and the mechanism of action has not been loaded. A repurposing evaluation cannot responsibly proceed without these inputs.
+The prediction rests on the biological similarity between SIV and HIV, which is darunavir's existing indication. The only supporting evidence is four preclinical macaque studies of combination ART that do not isolate darunavir's effect, and there are no clinical trials. There are no valid New Zealand authorizations, and the other predicted indications have no supporting evidence.
 
 **To proceed, the following is needed:**
-
-- **Run TxGNN model** for DARUNAVIR (DB01264) to generate predicted indications and confidence scores
-- **Download and parse package insert** (TFDA PDF or international SmPC) to extract MOA, warnings, and contraindications — resolves DG001 (Blocking severity)
-- **Retrieve MOA from DrugBank API** — resolves DG002 (High severity); required for mechanistic plausibility analysis
-- **Re-query drug-drug interaction database** to populate DDI profile
-- **Confirm international market status** (Prezista® is approved in 50+ countries) and document regulatory pathway implications for any future New Zealand submission
+- Mechanism of action data for darunavir
+- Package insert warnings and contraindications (Medsafe) to enable safety screening
+- Evidence that darunavir itself, not the combination, contributes to the effects seen in the SIV studies
+- Clarification of whether any human clinical question exists beyond the existing HIV indication, given that SIV is an animal model of HIV
+- Confirmation of regulatory status, since both New Zealand authorizations are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Deferiprone
-parent: Model Prediction Only (L5)
-nav_order: 105
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 139
+evidence_level: L4
 indication_count: 9
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Deferiprone: Evaluation Report — Insufficient Data for Full Assessment
+# Deferiprone: From Transfusional Iron Overload in Thalassaemia to Hepatic Porphyria
 
 ## One-Sentence Summary
 
-Deferiprone (DB08826) is an oral iron chelator approved in multiple international markets for treating iron overload in patients with thalassaemia who cannot tolerate standard therapy.
-However, **this Evidence Pack contains no TxGNN-predicted indications**, and Deferiprone holds **no New Zealand market authorization** — a complete repurposing evaluation cannot be conducted at this stage without first resolving the identified data gaps.
-
----
+Deferiprone is an oral iron chelator, originally used for iron overload in beta-thalassaemia and related haemoglobin disorders.
+The TxGNN model predicts it may be effective for **hepatic porphyria**, but there are **no registered clinical trials** and only **2 publications** (both preclinical or indirect) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Iron overload in thalassaemia *(sourced from published pharmacology; not present in Evidence Pack)* |
-| Predicted New Indication | None — no TxGNN predictions returned |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 (prediction stage not reached) |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
-
----
+|------|------|
+| Original Indication | Hemosiderosis and beta-thalassaemia-related conditions (from the knowledge graph; no approved indication text is available in the New Zealand licence records) |
+| Predicted New Indication | Hepatic porphyria |
+| TxGNN Prediction Score | 99.20% |
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 2 (both cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Not applicable — the TxGNN model has not returned any repurposing candidate for Deferiprone in this pipeline run. Without a predicted target indication, no mechanistic bridge can be assessed.
+Detailed mechanism of action data is not available. Based on known information, deferiprone is an oral iron chelator whose efficacy in transfusional iron overload (such as in thalassaemia) is established, and mechanistically it may be applicable to porphyrias in which iron plays a role in disease.
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on published pharmacology, Deferiprone belongs to the 3-hydroxy-4-pyridinone class of iron chelators: it binds trivalent iron (Fe³⁺) and promotes its urinary excretion, thereby preventing iron-mediated oxidative organ damage in chronic transfusion-dependent conditions such as beta-thalassaemia major. It is approved by the FDA (brand name **Ferriprox**) and EMA as an alternative to deferoxamine when deferoxamine therapy is inadequate or contraindicated.
+In some porphyrias, such as porphyria cutanea tarda, excess hepatic iron contributes to inhibition of the enzyme uroporphyrinogen decarboxylase and to the build-up of porphyrins. Reducing iron (for example by phlebotomy) is an established approach, so an iron chelator is a plausible alternative. A 2007 study in a mouse model of porphyria cutanea tarda compared an oral iron chelator (deferiprone) with iron-deficient diets for their effect on uroporphyrin accumulation. A 2020 study in congenital erythropoietic porphyria reported that iron chelation improved haemolytic anaemia and skin photosensitivity.
 
-Until TxGNN predictions are generated and MOA data is formally retrieved from DrugBank, the mechanistic rationale for any new indication remains speculative.
-
----
+Both pieces of evidence are preclinical or come from a different porphyria subtype, so they support a plausible mechanism but do not show benefit in people with hepatic porphyria.
 
 ## Clinical Trial Evidence
 
-No TxGNN-predicted indication is available; therefore, no indication-specific clinical trial evidence can be extracted at this stage.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No TxGNN-predicted indication is available; therefore, no indication-specific literature evidence can be extracted at this stage.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclinical / case-level | Blood | Iron chelation rescued haemolytic anaemia and skin photosensitivity in congenital erythropoietic porphyria |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preclinical (mouse model) | Hepatology | Compared deferiprone with iron-deficient diets for their effect on uroporphyria in a porphyria cutanea tarda model |
 
 ## New Zealand Market Information
 
-Deferiprone holds no current New Zealand Medsafe market authorizations. The TFDA query returned zero records; no approved product licenses exist in this jurisdiction.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2369524 | Ferriprox | Oral liquid 100 mg per 1 ml | Not available (cancelled) |
+| 2369532 | Ferriprox | Tablet 500 mg | Not available (cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 potential interactions were identified; the 20 reviewed are all rated Moderate. They mainly involve products containing polyvalent metal cations, which may bind deferiprone in the gut and reduce its effect:
+  - Calcium salts (phosphate, acetate, carbonate, citrate, gluconate, lactate, glubionate)
+  - Magnesium salts and antacids (oxide, hydroxide, carbonate, chloride, citrate, gluconate, sulfate, magaldrate)
+  - Aluminium hydroxide, kaolin, attapulgite and sucralfate
+  - Iron
 
-> **Note:** Both key warnings and contraindications were listed as data gaps in this Evidence Pack. The TFDA package insert query returned a result (query log ID 4, status: success), but the extracted content was not propagated into the safety fields. This should be resolved before any safety assessment is attempted.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN pipeline did not return any predicted indications for Deferiprone, and the drug is entirely absent from the New Zealand market. There is currently no basis — mechanistic, regulatory, or evidential — on which to recommend a repurposing pathway.
+The prediction rests on a computational score plus two preclinical or indirect publications, with no human trials in hepatic porphyria. In addition, both New Zealand licences for deferiprone are cancelled, so there is currently no marketed product to repurpose locally.
 
 **To proceed, the following is needed:**
+- Mechanism of action data for deferiprone
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Human clinical evidence (case series or trials) in a specific hepatic porphyria subtype
+- Clarification of the regulatory pathway given the cancelled New Zealand licences
+- Assessment of the risk-benefit balance in porphyria patients, whose iron status may differ from that of transfusion-dependent patients
 
-- **Re-run TxGNN pipeline** to generate predicted indications for Deferiprone (DB08826); verify input graph connectivity for this node
-- **Retrieve MOA data** from DrugBank API (Data Gap DG002) to enable mechanistic analysis
-- **Parse TFDA package insert** (query log ID 4 returned success — extract warnings and contraindications from the downloaded PDF to resolve Data Gap DG001)
-- **Cross-reference FDA Ferriprox label** as a regulatory reference, given New Zealand's absence of local authorization
-- **Re-submit Evidence Pack** once data gaps are resolved before any safety or efficacy evaluation proceeds
+**Other predictions of note:** Among the other predicted indications, pyruvate kinase deficiency of red cells is a plausible research question, because chronic haemolysis and transfusion can cause iron overload. Beta-thalassaemia with other manifestations overlaps with the drug's existing indications, so it is not a distinct repurposing signal. The remaining predictions (hepatopulmonary syndrome, idiopathic copper-associated cirrhosis, hepatoportal sclerosis, primitive portal vein thrombosis, early-onset familial noncirrhotic portal hypertension and hereditary pyropoikilocytosis) have no supporting evidence beyond the model score and are on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

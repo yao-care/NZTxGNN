@@ -2,7 +2,7 @@
 layout: default
 title: Everolimus
 parent: High Evidence (L1-L2)
-nav_order: 143
+nav_order: 190
 evidence_level: L2
 indication_count: 10
 ---
@@ -33,33 +33,32 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Everolimus is an mTOR (mechanistic target of rapamycin) inhibitor globally approved for renal cell carcinoma, hormone receptor-positive breast cancer, pancreatic neuroendocrine tumors, and organ transplant rejection prevention.
-The TxGNN model predicts it may be effective for **Liposarcoma** (specifically dedifferentiated liposarcoma, DDL),
-with **1 Phase 2 clinical trial** and **5 publications** currently supporting this direction.
+Everolimus is an mTOR inhibitor originally used for renal cell carcinoma, breast cancer, and tuberous sclerosis-related conditions.
+The TxGNN model predicts it may be effective for **liposarcoma**, with **1 clinical trial** (a Phase 2 combination study) and **4 publications** currently supporting this direction. Only one of these publications reports clinical results; the others are preclinical or not specific to everolimus.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No regulatory record for New Zealand (globally approved for renal cell carcinoma, breast cancer, neuroendocrine tumors, transplant rejection) |
-| Predicted New Indication | Liposarcoma (Dedifferentiated Liposarcoma, DDL) |
+|------|------|
+| Original Indication | Renal cell carcinoma (also breast carcinoma, kidney angiomyolipoma, tuberous sclerosis) |
+| Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L2 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
+| Number of Authorizations | 2 (both cancelled) |
+| Recommended Decision | Proceed with Guardrails (research-stage only) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on established pharmacology, Everolimus is a rapalog-class mTOR inhibitor that binds to FKBP-12, forming a complex that selectively inhibits mTORC1. This suppresses downstream signalling through S6K1 and 4E-BP1, leading to reduced cell proliferation, protein synthesis, angiogenesis, and tumour metabolism. Its efficacy in clear-cell renal cell carcinoma and other mTOR-driven malignancies is well established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, everolimus inhibits mTORC1, a key node downstream of PI3K/AKT signalling that drives tumour growth and survival. Its efficacy in renal cell carcinoma is established.
 
-Dedifferentiated liposarcoma (DDLPS) is one of the two most common subtypes of soft-tissue sarcoma, characterised by CDK4 gene amplification and aggressive clinical behaviour. Immunohistochemical and in vitro analysis of 99 DDLPS specimens has directly demonstrated dual activation of both the AKT/mTOR and MAPK pathways in this tumour type (PMID 26518767), providing strong mechanistic justification for mTOR inhibitor use. This pathway activation is not merely incidental — it drives tumour proliferation and resistance to conventional chemotherapy.
+Dedifferentiated liposarcoma is characterised by CDK4/MDM2 amplification. Combining mTOR inhibition with the CDK4/6 inhibitor ribociclib targets two converging proliferative pathways: cell cycle control and growth/survival signalling. Combination and preclinical data support the pathway relevance.
 
-The clinical hypothesis tested in NCT03114527 combines Ribociclib (a CDK4/6 inhibitor targeting the Rb-E2F axis) with Everolimus (mTOR inhibition) to achieve simultaneous dual-pathway blockade. Preclinical models across multiple tumour types have shown synergistic growth inhibition when these two mechanistically distinct targets are co-inhibited, making this combination rationally compelling for CDK4-amplified DDLPS.
+An important caveat is that the supporting clinical evidence is a single-arm combination study, so the contribution of everolimus alone cannot be separated out.
 
 ---
 
@@ -67,63 +66,71 @@ The clinical hypothesis tested in NCT03114527 combines Ribociclib (a CDK4/6 inhi
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Active, Not Recruiting | 48 | Two-arm trial: Ribociclib 300 mg/day (3 weeks on/1 week off) + Everolimus 2.5 mg daily in advanced DDL (Arm A) and LMS (Arm B) with ≥1 prior systemic therapy; Phase 2 results published 2024 (PMID 37967116) |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Active, not recruiting | 48 | Ribociclib + everolimus in advanced dedifferentiated liposarcoma (Arm A) and leiomyosarcoma (Arm B) after at least one prior systemic therapy; two-centre, single-arm design assessing anti-tumour activity |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Phase 2 Trial Results | Clinical Cancer Research | Phase II results of Ribociclib+Everolimus in advanced DDL and LMS; evaluated CDK4/6 and mTOR co-blockade; synergistic growth inhibition confirmed in multiple preclinical tumour models |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Translational/Mechanistic | Tumour Biology | AKT/mTOR and MAPK pathway activation demonstrated by immunohistochemistry in 99 DDLPS specimens; in vitro mTOR inhibitor antitumour effects evaluated, supporting mechanistic rationale |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Preclinical Review | Frontiers in Oncology | PDOX mouse model platform for sarcoma used to identify effective CDK inhibitor combinations; highlights intersection of CDK and mTOR pathway targeting in soft-tissue sarcomas |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclinical | Anticancer Research | Eribulin combined with mechanistically distinct agents (including mTOR inhibitors) evaluated in liposarcoma xenograft models; provides preclinical combination landscape context |
-| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Preclinical/Translational | Oncogene | XPO1 inhibitor KPT-330 disrupts core transcriptional regulatory circuitry in DDLPS; contextualises the broader targeted therapy landscape and identifies translation-level vulnerabilities |
+|------|-----|------|------|---------|
+| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Phase 2 trial report | Clin Cancer Res | Ribociclib + everolimus in advanced dedifferentiated liposarcoma and leiomyosarcoma; the combination showed biological synergy in tumour models |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review | Front Oncol | Patient-derived orthotopic xenograft models identify combination therapies with the CDK inhibitor palbociclib in sarcomas |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclinical | Anticancer Res | Eribulin combined with other anticancer agents; not everolimus-specific |
+| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Preclinical | Oncogene | XPO1 inhibitor KPT-330 in dedifferentiated liposarcoma; not everolimus-specific |
 
 ---
 
 ## New Zealand Market Information
 
-Everolimus currently has no regulatory authorizations recorded in New Zealand. No product listings, dosage forms, or approved indications are available in the current regulatory record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2334879 | Afinitor (cancelled) | Tab 10 mg | Not available |
+| 2334860 | Afinitor (cancelled) | Tab 5 mg | Not available |
 
 ---
 
 ## Cytotoxicity
 
-Everolimus meets criteria for the antineoplastic section: it is globally approved and used for oncological indications (renal cell carcinoma, breast cancer, neuroendocrine tumours) and belongs to the targeted anticancer drug class.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — mTOR inhibitor (rapalog class); not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low to Moderate — lymphopenia and thrombocytopenia are reported; anaemia and neutropenia less common than with conventional cytotoxics; haematological toxicity is manageable |
-| Emetogenicity Classification | Low (oral administration; nausea generally mild) |
-| Monitoring Items | CBC with differential, fasting blood glucose and HbA1c (hyperglycaemia risk), serum creatinine, liver function tests (AST/ALT), lipid panel (hyperlipidaemia), pulmonary function assessment (non-infectious pneumonitis is a class-specific toxicity), wound healing assessment if perioperative |
-| Handling Protection | Standard oral targeted therapy handling precautions; cytotoxic waste disposal per institutional policy recommended |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (mTOR inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions (the knowledge graph links everolimus with neutropenia, thrombocytopenia, leukopenia, and anaemia) |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | CBC, liver and renal function, blood glucose and lipids (suggested by the knowledge graph contraindication signals) |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Key warnings, contraindications, and drug interaction data are not available in the current Evidence Pack for New Zealand.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: liver failure and liver disease, kidney disease, thrombocytopenia, neutropenia, leukopenia, anaemia, hyperglycaemia and diabetes mellitus, diabetic ketoacidosis, hyperlipidaemia (including hypertriglyceridaemia and familial hyperlipidaemia), interstitial lung disease, congestive heart failure, stomatitis, haemolytic-uraemic syndrome, pericardial effusion, and lymphoma. These are knowledge-graph signals and should be verified against the official label.
+- **Drug Interactions** (100 interactions recorded; examples):
+  - Major: amphotericin B, aprepitant, dexamethasone, clarithromycin
+  - Moderate: antidiabetic agents (metformin, acarbose, glimepiride, SGLT2 inhibitors, DPP-4 inhibitors, GLP-1 agonists), cimetidine, eliglustat, eluxadoline
+  - Minor: zinc sulfate
 
-Please refer to the package insert for safety information. Particular attention should be paid to non-infectious pneumonitis, immunosuppression-related infection risk, hyperglycaemia, and mucositis — known class effects of mTOR inhibitors that require proactive monitoring.
+Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for authoritative safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Proceed with Guardrails** (as a research question, not for clinical adoption)
 
 **Rationale:**
-A Phase 2 clinical trial (NCT03114527) directly evaluating Ribociclib + Everolimus in dedifferentiated liposarcoma has been completed and published (PMID 37967116, 2024), and independent mechanistic evidence confirms AKT/mTOR pathway activation in DDLPS tumour specimens (PMID 26518767). Together, these constitute Level 2 evidence with a clear biological rationale, justifying advancement to the next evaluation stage under defined guardrails.
+- A completed-stage Phase 2 trial with published results suggests activity in dedifferentiated liposarcoma. However, it is a single-arm combination study, so everolimus-specific benefit is unproven. Everolimus has no currently valid New Zealand authorization.
 
 **To proceed, the following is needed:**
-- Full review of NCT03114527 published results (PMID 37967116) to assess primary efficacy endpoints (PFS, ORR) and dose-limiting toxicities in the sarcoma-specific population
-- New Zealand or international package insert acquisition to complete the safety profile (warnings, contraindications, drug-drug interactions — currently blocking data gaps DG001/DG002)
-- Mechanism of action documentation (MOA data gap DG002) to support regulatory submission narrative
-- Molecular patient selection criteria: prospective identification of patients with confirmed CDK4 amplification and/or mTOR pathway hyperactivation is recommended to maximise benefit-risk
-- Dose optimisation confirmation: the trial used Ribociclib 300 mg (reduced from standard 600 mg) + Everolimus 2.5 mg — dose rationale and tolerability data should be reviewed before clinical application
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- Randomized or everolimus-specific evidence in liposarcoma
+- Review of the cancelled New Zealand authorizations, and a regulatory pathway for any use
+
+**Other predicted indications (for reference):**
+- **Unclassified renal cell carcinoma** has the strongest evidence among them (L2). The data include the randomized Phase 2 ASPEN trial (everolimus vs sunitinib) and several everolimus combination studies in non-clear-cell RCC. It is a reasonable candidate for follow-up.
+- **Rhabdomyosarcoma** has L2 evidence from early-phase pediatric trials only (NCT00187174 Phase 1, NCT03245151 Phase 1/2), in mixed solid tumour populations.
+- The remaining predictions (ovarian myxoid liposarcoma, dermatofibrosarcoma protuberans, rhabdomyosarcoma subtypes, and Xp11.2 translocation RCC) rest on model prediction with little or no supporting evidence, so the recommendation is Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

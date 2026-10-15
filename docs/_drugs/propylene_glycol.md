@@ -2,7 +2,7 @@
 layout: default
 title: Propylene Glycol
 parent: Moderate Evidence (L3-L4)
-nav_order: 294
+nav_order: 391
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,68 +29,82 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Propylene Glycol: From Pharmaceutical Excipient to Bronchitis
+# Propylene Glycol: From Dry Eye Syndrome to Bronchitis
 
 ## One-Sentence Summary
 
-Propylene glycol has no approved original therapeutic indication on file — it is primarily used in pharmaceutical products as a solvent/excipient rather than as an active drug. The TxGNN model predicts a possible association with **Bronchitis**, but the supporting evidence (4 clinical trials, 3 publications) does not actually demonstrate a therapeutic effect of propylene glycol itself, and part of the literature points in the opposite direction.
+Propylene glycol was originally used for dry eye syndrome (xerophthalmia), mainly as a lubricant component in eye products.
+The TxGNN model predicts it may be effective for **bronchitis**, but there are **0 clinical trials** and only **3 publications** for this prediction, none showing a therapeutic benefit.
+The literature actually describes propylene glycol as a possible airway irritant, so this prediction is likely a knowledge-graph artifact.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no approved indications on file (propylene glycol is primarily used as a pharmaceutical excipient/solvent, not marketed as a standalone active drug) |
+| Original Indication | Dry eye syndrome, xerophthalmia (the regulatory record contains no approved indication text) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L4 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Cancelled only (no currently valid authorization) |
+| Number of Authorizations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for propylene glycol. Based on known information, propylene glycol is not typically developed or approved as an independent active pharmaceutical ingredient — it functions almost exclusively as a solvent, humectant, or vehicle within other drug formulations (including inhalation solutions), which explains why no original indication is on file.
+Currently, detailed mechanism of action data is not available. Based on known information, propylene glycol is a common excipient and lubricant vehicle, and it is used in ocular lubricant products for dry eye. It is not a disease-modifying drug.
 
-Because propylene glycol lacks a defined independent pharmacology, the TxGNN association with bronchitis likely reflects its frequent co-occurrence as a formulation component in respiratory drug products, rather than a direct pharmacological effect on airway disease.
+There is no credible therapeutic link between dry eye and bronchitis. The retrieved literature describes propylene glycol as a constituent of e-cigarette liquids that may irritate the airways and contribute to lung disease risk, which is the opposite of a therapeutic effect. One mouse study (quercetin in an elastase/LPS COPD model) is unrelated to propylene glycol treatment. The very high TxGNN score is not supported by clinical or mechanistic evidence.
 
-Critically, the underlying evidence does not support this link as an efficacy signal. All four bronchitis-related trials investigate **Cyclosporine Inhalation Solution (CIS)** for bronchiolitis obliterans after lung/hematopoietic stem cell transplant — cyclosporine is the active therapeutic agent, and propylene glycol, if present, is only a formulation excipient, not the treatment under study. The literature evidence is more concerning still: two of the three publications discuss propylene glycol as a constituent of e-cigarette aerosols and associate chronic exposure with an *increased* risk of airway/lung disease (including asthma and bronchitis-like pathology), i.e., evidence pointing toward harm rather than treatment benefit.
+Other top-ranked predictions are similarly weak. Diabetic retinopathy has only indirect evidence, and the various cataract types and severe non-proliferative diabetic retinopathy have no supporting studies. Their scores most likely reflect proximity to other eye-disease terms in the knowledge graph.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01273207](https://clinicaltrials.gov/study/NCT01273207) | Phase 2 | Completed | 7 | Extension study of Cyclosporine Inhalation Solution (CIS) in lung/HSCT transplant recipients for bronchiolitis obliterans; propylene glycol is not the study drug |
-| [NCT00755781](https://clinicaltrials.gov/study/NCT00755781) | Phase 3 | Completed | 284 | Multi-center RCT of CIS to improve bronchiolitis obliterans syndrome-free survival after lung transplant; active agent is cyclosporine, propylene glycol only a possible formulation solvent |
-| [NCT00938236](https://clinicaltrials.gov/study/NCT00938236) | Phase 3 | Terminated | 17 | Open-label extension of CIS in patients from prior CIS001 study; trial terminated, propylene glycol not the study agent |
-| [NCT01287078](https://clinicaltrials.gov/study/NCT01287078) | Phase 2 | Completed | 25 | CIS trial for bronchiolitis obliterans syndrome after lung/HSCT transplant; same limitation — cyclosporine is the treatment, not propylene glycol |
+Currently no related clinical trials registered for bronchitis.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26408554](https://pubmed.ncbi.nlm.nih.gov/26408554/) | 2015 | Review | Am J Physiol Lung Cell Mol Physiol | Reviews chronic e-cigarette use (propylene glycol is a major e-liquid constituent) as a potential cause of chronic lung disease, including chronic bronchitis |
-| [28983782](https://pubmed.ncbi.nlm.nih.gov/28983782/) | 2017 | Review | Curr Allergy Asthma Rep | Discusses e-cigarette constituents, including propylene glycol, as potential contributors to airway irritation and asthma pathogenesis |
-| [20920189](https://pubmed.ncbi.nlm.nih.gov/20920189/) | 2010 | Animal study | Respir Res | Mouse model of elastase/LPS-induced COPD; active compound studied is quercetin, not propylene glycol |
+| [26408554](https://pubmed.ncbi.nlm.nih.gov/26408554/) | 2015 | Review | Am J Physiol Lung Cell Mol Physiol | Reviews whether chronic e-cigarette use may cause lung disease, including chronic bronchitis and COPD. It does not show a therapeutic role for propylene glycol. |
+| [28983782](https://pubmed.ncbi.nlm.nih.gov/28983782/) | 2017 | Review | Curr Allergy Asthma Rep | E-cigarette liquids and aerosols contain airway irritants and toxicants linked to worsening lung disease and asthma. |
+| [20920189](https://pubmed.ncbi.nlm.nih.gov/20920189/) | 2010 | Preclinical (animal) | Respir Res | Quercetin reduced lung inflammation in a mouse COPD model. This study does not involve propylene glycol as a treatment. |
+
+---
 
 ## New Zealand Market Information
 
-Propylene glycol currently has no marketing authorizations on file for New Zealand (0 licenses registered).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2177447 | Midwest | Liquid | Not recorded (authorization cancelled) |
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The clinical trial evidence for bronchitis does not actually test propylene glycol — it tests cyclosporine inhalation solution, with propylene glycol at most a formulation excipient — and part of the literature suggests propylene glycol exposure (via e-cigarettes) may contribute to airway disease rather than treat it. Combined with missing MOA and safety/warning data, this candidate does not meet the bar to proceed. The other nine ranked candidates (diabetic retinopathy, various cataract subtypes, etc.) are weaker still — most have Evidence Level L5 with no supporting trials or literature at all.
+The bronchitis prediction rests only on a high model score. No trials support it, and the available literature points to potential airway irritation rather than benefit. The only New Zealand authorization has been cancelled.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert with warnings and contraindications (currently blocking — DG001)
-- Confirmed mechanism of action data for propylene glycol (DG002)
-- A trial or study design that isolates propylene glycol's own effect from co-administered active drugs, since existing "supporting" trials confound it with cyclosporine
+- Mechanism of action data and a credible biological rationale for respiratory use
+- Package insert warnings and contraindications (currently missing and blocking safety screening)
+- Direct clinical or preclinical evidence of benefit in bronchitis, including inhalation safety data
+- Review of the other predicted indications, none of which have direct evidence. Diabetic retinopathy has only indirect evidence: a post-injection pain trial in which artificial tears were a comparator, and a study of a different compound, propylene glycol mannate sulfate.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

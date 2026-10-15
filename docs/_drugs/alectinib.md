@@ -2,7 +2,7 @@
 layout: default
 title: Alectinib
 parent: Model Prediction Only (L5)
-nav_order: 20
+nav_order: 25
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,113 +29,102 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alectinib: From ALK-Positive Non-Small Cell Lung Cancer to ALK-Driven Rare Lung Tumors
+# Alectinib: From Non-Small Cell Lung Cancer to Fibromatosis, Gingival
 
 ## One-Sentence Summary
 
-Alectinib is a second-generation, highly selective ALK/RET tyrosine kinase inhibitor, with robust evidence supporting its use in ALK-positive non-small cell lung cancer (NSCLC) — approved in the United States, EU, and Japan, but not yet registered in New Zealand.
-The TxGNN model predicts it may be applicable to **ALK-driven rare lung tumors** (including neuroendocrine carcinomas), supported by **2 clinical trials** (including an active Phase 2/3 UK basket trial) and **multiple case reports** documenting responses in molecularly-defined rare cancers.
-For the core indication of ALK-positive NSCLC, evidence reaches **Level 1** from multiple completed Phase 3 RCTs — one of the strongest evidence bases in contemporary thoracic oncology.
-
----
+Alectinib is an ALK inhibitor originally used to treat ALK-positive non-small cell lung cancer.
+The TxGNN model's top-ranked prediction is **gingival fibromatosis**, but this is a pure model prediction with **0 clinical trials** and **0 publications** supporting it.
+The strong evidence in the compiled data (phase 3 RCTs such as ALEX, J-ALEX and ALINA) relates to the drug's original lung cancer indication, not to the predicted one.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | ALK-Positive Non-Small Cell Lung Cancer (approved in US/EU/Japan; **not registered in New Zealand**) |
-| Predicted New Indication | ALK-Driven Rare Lung Tumors (Neuroendocrine Carcinoma) |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L1 (ALK+ NSCLC overall); L3 (rare ALK+ lung tumors specifically) |
-| New Zealand Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Non-small cell lung cancer / lung cancer (approved indication text not available in the New Zealand licence record) |
+| Predicted New Indication | Fibromatosis, gingival |
+| TxGNN Prediction Score | 99.97% |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not currently available. Based on known information, alectinib is a selective ALK tyrosine kinase inhibitor. Its efficacy in ALK-positive non-small cell lung cancer is well established, including activity against central nervous system disease.
 
-While detailed mechanism of action data from DrugBank is pending retrieval (data gap DG002), alectinib is well established in the scientific literature as a second-generation, ATP-competitive inhibitor of anaplastic lymphoma kinase (ALK) and RET tyrosine kinases. It binds with high selectivity to the ALK kinase domain, blocking downstream proliferation signals through the RAS/MAPK, JAK/STAT3, and PI3K/AKT pathways. Compared to the first-generation ALK inhibitor crizotinib, alectinib demonstrates markedly superior central nervous system penetration and retains activity against multiple acquired resistance mutations (including L1196M, G1269A, and F1174L), which is why multiple Phase 3 trials have demonstrated its superiority.
+For gingival fibromatosis, no ALK-related mechanism has been established. The very high TxGNN score (99.97%) reflects proximity in the knowledge graph rather than a demonstrated biological rationale. No trials or publications support this prediction, so it should be treated as a hypothesis only.
 
-The primary oncogenic driver targeted by alectinib — the EML4-ALK fusion gene — drives tumor growth through constitutive ALK signaling and is present in approximately 3–5% of all NSCLC cases globally. The mechanistic rationale for extending this to rare ALK-positive lung tumors is straightforward: wherever an ALK fusion acts as the dominant oncogenic driver, targeted ALK inhibition should produce clinical responses regardless of histological subtype. This "oncogene-agnostic" principle has been directly validated by multiple case reports demonstrating objective responses to alectinib in ALK-rearranged large cell neuroendocrine carcinoma (LCNEC), atypical pulmonary carcinoids, and combined neuroendocrine-adenocarcinoma tumors.
+The other top-ranked predictions show the same pattern. Most are benign or unrelated conditions (lung fibroma, lung hamartoma, junctional epidermolysis bullosa and others) with no supporting evidence. A few merit a brief note:
 
-The DETERMINE basket trial (NCT05770037) directly operationalizes this hypothesis — a Phase 2/3 UK platform trial actively recruiting adults, pediatric, and TYA patients with ALK-positive rare cancers across tumor histologies. Although an earlier dedicated Phase 2 trial (NCT04644315) was terminated due to recruitment challenges (only 1 patient enrolled), DETERMINE's pooled rare-population design overcomes this limitation. From a New Zealand perspective, the most urgent finding is that alectinib is unregistered despite Level 1 evidence in ALK+ NSCLC, representing both an unmet clinical need and a concrete regulatory opportunity.
-
----
+- **Lung hilum carcinoma and pulmonary sulcus neoplasm** are presentations of lung cancer, so they are not true repurposing. There is no indication-specific evidence for the pulmonary sulcus tumour.
+- **Lung germ cell tumour** has one terminated phase 2 trial (1 participant) and case reports of ALK-rearranged rare tumours responding to ALK inhibitors. This suggests a biomarker-driven (ALK fusion) rationale rather than a histology-driven one. It is the only prediction flagged as a research question.
+- **Lung benign neoplasm** is graded L1, but all the retrieved literature concerns malignant ALK-positive NSCLC. This appears to be an ontology mismatch, so the grade does not support the predicted benign indication.
 
 ## Clinical Trial Evidence
 
+For the top-ranked prediction (gingival fibromatosis), currently no related clinical trials are registered.
+
+For reference, the only trial found among the top 10 predictions is for lung germ cell tumour:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05770037](https://clinicaltrials.gov/study/NCT05770037) | Phase 2/3 | Recruiting | 30 | DETERMINE basket trial (UK): evaluates alectinib in adult, pediatric, and TYA patients with ALK-positive rare cancers across tumor types including neuroendocrine malignancies; alectinib arm designed to assess efficacy in molecularly-defined rare cancers beyond NSCLC; completion expected October 2029 |
-| [NCT04644315](https://clinicaltrials.gov/study/NCT04644315) | Phase 2 | Terminated | 1 | Home-based, open-label study of alectinib in locally advanced or metastatic ALK-positive solid tumors other than lung cancer; terminated early due to insufficient enrollment, illustrating the recruitment challenge in this rare population |
-
----
+| [NCT04644315](https://clinicaltrials.gov/study/NCT04644315) | Phase 2 | Terminated | 1 | Single-arm, home-based study of alectinib in ALK-positive solid tumours other than lung cancer. Enrolled only 1 participant, so no usable efficacy data. |
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [38598794](https://pubmed.ncbi.nlm.nih.gov/38598794/) | 2024 | Phase 3 RCT | N Engl J Med | ALINA trial: adjuvant alectinib vs platinum-based chemotherapy in resected ALK+ NSCLC; significant improvement in disease-free survival, establishing adjuvant use |
-| [28586279](https://pubmed.ncbi.nlm.nih.gov/28586279/) | 2017 | Phase 3 RCT | N Engl J Med | ALEX trial: alectinib vs crizotinib in untreated advanced ALK+ NSCLC; alectinib superior in PFS and CNS activity |
-| [28501140](https://pubmed.ncbi.nlm.nih.gov/28501140/) | 2017 | Phase 3 RCT | Lancet | J-ALEX trial: alectinib vs crizotinib in Japanese patients; median PFS 34.1 vs 10.2 months favouring alectinib |
-| [30981696](https://pubmed.ncbi.nlm.nih.gov/30981696/) | 2019 | Phase 3 RCT | Lancet Respir Med | ALESIA trial: alectinib vs crizotinib in Asian ALK+ NSCLC; consistent PFS benefit in Asian populations confirms generalisability |
-| [38331773](https://pubmed.ncbi.nlm.nih.gov/38331773/) | 2024 | Systematic Review / Network Meta-analysis | BMC Cancer | Comparative efficacy of all ALK inhibitors for global and Asian patients; alectinib identified as an optimal first-line option |
-| [29151522](https://pubmed.ncbi.nlm.nih.gov/29151522/) | 2018 | Case Report | Internal Medicine (Tokyo) | ALK-rearranged large cell neuroendocrine carcinoma (LCNEC) with hepatic and bone metastases; significant partial response to alectinib after failure of cytotoxic chemotherapy |
-| [34994612](https://pubmed.ncbi.nlm.nih.gov/34994612/) | 2021 | Case Report | JCO Precision Oncology | Metastatic ALK-fusion-positive LCNEC; partial response to alectinib documented, supporting ALK-agnostic treatment approach |
-| [37031440](https://pubmed.ncbi.nlm.nih.gov/37031440/) | 2023 | Case Report | Orvosi Hetilap | Mixed large cell neuroendocrine carcinoma of the lung with ALK fusion; alectinib used as targeted therapy alternative to cytostatics with favourable initial response |
-| [36690569](https://pubmed.ncbi.nlm.nih.gov/36690569/) | 2023 | Case Report | Clin Lung Cancer | ALK-positive neuroendocrine lung tumour; favorable response to alectinib, adding to the growing body of ALK+ neuroendocrine case evidence |
-| [37561984](https://pubmed.ncbi.nlm.nih.gov/37561984/) | 2023 | Review | JCO Precision Oncology | ALK inhibitors (including alectinib and crizotinib) in adult-onset neuroblastoma; ALK somatic mutations enriched in adult disease; review supports ALK-inhibitor rationale across ALK-driven tumour types |
+For the top-ranked prediction (gingival fibromatosis), currently no related literature is available.
 
----
+The literature below relates to other predictions and mainly supports the original NSCLC indication:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38598794](https://pubmed.ncbi.nlm.nih.gov/38598794/) | 2024 | RCT (ALINA, phase 3) | N Engl J Med | Adjuvant alectinib versus chemotherapy in resected ALK-positive NSCLC |
+| [28586279](https://pubmed.ncbi.nlm.nih.gov/28586279/) | 2017 | RCT (ALEX, phase 3) | N Engl J Med | Alectinib versus crizotinib in untreated ALK-positive NSCLC |
+| [28501140](https://pubmed.ncbi.nlm.nih.gov/28501140/) | 2017 | RCT (J-ALEX, phase 3) | Lancet | Alectinib versus crizotinib in Japanese ALK-positive NSCLC patients |
+| [41110693](https://pubmed.ncbi.nlm.nih.gov/41110693/) | 2026 | RCT | Ann Oncol | Final overall survival analysis of the phase 3 ALEX study |
+| [32418886](https://pubmed.ncbi.nlm.nih.gov/32418886/) | 2020 | RCT follow-up | Ann Oncol | Updated overall survival and final progression-free survival data from ALEX |
+| [39368244](https://pubmed.ncbi.nlm.nih.gov/39368244/) | 2024 | Systematic review / network meta-analysis | Lung Cancer | Lorlatinib compared with other ALK inhibitors as first-line treatment |
+| [30069772](https://pubmed.ncbi.nlm.nih.gov/30069772/) | 2018 | Drug review | Recent Results Cancer Res | Overview of alectinib as a second-generation ALK inhibitor |
+| [32054410](https://pubmed.ncbi.nlm.nih.gov/32054410/) | 2020 | Case report | J Oncol Pharm Pract | Alectinib-related hypertriglyceridaemia-induced pancreatitis (safety report, not efficacy) |
+| [37031440](https://pubmed.ncbi.nlm.nih.gov/37031440/) | 2023 | Case report | Orv Hetil | Alectinib in mixed large cell neuroendocrine carcinoma of the lung |
+| [35200571](https://pubmed.ncbi.nlm.nih.gov/35200571/) | 2022 | Case report | Curr Oncol | Partial response to alectinib in ALK-rearranged combined adenocarcinoma and neuroendocrine carcinoma |
 
 ## New Zealand Market Information
 
-Alectinib currently has **no Medsafe-approved products in New Zealand** (0 licenses as of 2026-06-06). The drug is approved in the United States (FDA, brand name Alecensa®), the European Union (EMA), Japan (PMDA), and numerous other jurisdictions for ALK-positive NSCLC in both first-line metastatic and adjuvant settings. New Zealand patients currently lack registered access to this standard-of-care agent.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2574152 | Alecensa (cancelled) | Cap 150 mg | Not available |
 
 ## Cytotoxicity
 
-Alectinib is an antineoplastic agent used in the targeted treatment of ALK-positive lung cancer.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Second-generation ALK/RET tyrosine kinase inhibitor (non-conventional cytotoxic) |
-| Myelosuppression Risk | Low to Moderate — anaemia is the most common haematologic adverse event (including rare haemolytic anaemia); neutropenia and thrombocytopenia are less frequent than with conventional cytotoxics |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Full blood count with differential; liver function tests (ALT/AST — hepatotoxicity monitoring); creatine phosphokinase (CPK — myalgia/rhabdomyolysis risk); fasting lipid panel (hypertriglyceridaemia); blood glucose; ECG (sinus bradycardia); body weight (clinically significant weight gain in ~10% of patients) |
-| Handling Protection | Follow institutional cytotoxic drug handling protocols; oral capsule formulation reduces compounding exposure compared to IV agents, but standard cytotoxic precautions apply for handling and disposal |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (ALK tyrosine kinase inhibitor), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions. The literature notes anaemia, including a case of haemolytic anaemia |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert. Published reports also point to blood counts, lipids, liver function and cardiac parameters (ECG) |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Based on published literature (New Zealand package insert data not available due to absence of Medsafe registration):
+- **Drug Interactions**: 92 interactions were identified, of which the first 20 returned include one Major and the rest Moderate. The Major interaction is with aminolevulinic acid. Moderate interactions include dolasetron, naltrexone, mefloquine, quinine, methoxsalen, bedaquiline, atazanavir, and several beta-blockers (acebutolol, atenolol, betaxolol, bisoprolol), as well as cholinesterase inhibitors (edrophonium, physostigmine, ambenonium) and asparaginase products.
+- **Adverse events reported in the literature** (case reports): hypertriglyceridaemia-induced pancreatitis, haemolytic anaemia, DRESS syndrome, erythema multiforme and weight gain.
 
-- **Metabolic toxicity**: Life-threatening hypertriglyceridaemia-induced pancreatitis has been reported; fasting lipid monitoring is warranted, particularly in patients with pre-existing dyslipidaemia
-- **Weight gain**: Clinically significant weight gain observed in approximately 10% of patients on long-term alectinib; aetiology involves metabolic effects and potential promotion of adipogenesis; baseline weight and longitudinal monitoring recommended
-- **Bradycardia**: Sinus bradycardia is documented; QTc prolongation risk appears low based on intensive electrocardiographic monitoring in pivotal Phase 2 studies
-- **Haematologic**: Haemolytic anaemia has been reported as a rare but serious adverse event; monitoring of CBC and haemolysis markers (LDH, bilirubin, reticulocyte count) is advisable
-- **Dermatologic**: Erythema multiforme and DRESS (drug reaction with eosinophilia and systemic symptoms) syndrome have been reported; most cases were managed with dose modification or corticosteroids, with successful rechallenge in some cases
-
----
+Package insert warnings and contraindications were not available for this report; please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Alectinib has Level 1 evidence from at least four Phase 3 RCTs (ALEX, J-ALEX, ALESIA, ALINA) confirming superiority over crizotinib in ALK-positive NSCLC across global, Asian, and adjuvant populations. Despite this, alectinib holds zero Medsafe registrations in New Zealand — a clear and actionable gap between global standard of care and New Zealand clinical access. The novel repurposing direction toward ALK-driven rare lung tumors (neuroendocrine carcinomas) is mechanistically sound and supported by an active Phase 2/3 basket trial and accumulating case evidence, but requires more prospective data before regulatory consideration.
+The predicted indication, gingival fibromatosis, has no trials, no literature and no known mechanistic link to ALK inhibition, so the high TxGNN score alone is not sufficient. In addition, the only New Zealand licence for alectinib is cancelled, which limits near-term local access.
 
 **To proceed, the following is needed:**
-
-- **Immediate priority**: Submit Medsafe registration application for ALK-positive NSCLC based on existing global Phase 3 data (ALEX/J-ALEX/ALESIA/ALINA trials); expedited pathway may be applicable given overseas approvals
-- Retrieve mechanism of action data from DrugBank API to complete DG002 data gap
-- Develop New Zealand-specific safety monitoring protocol covering hepatic, cardiac (bradycardia), metabolic (hypertriglyceridaemia, weight gain), and haematologic surveillance
-- Confirm ALK testing capacity and companion diagnostic availability (e.g., Ventana D5F3 IHC or FISH) across New Zealand oncology centres
-- Conduct pharmacoeconomic evaluation for PHARMAC funding consideration, including cost-effectiveness against lorlatinib (third-generation ALK inhibitor) and reference to Australian PBS listing if available
-- For rare tumour repurposing: await interim data from the DETERMINE basket trial (NCT05770037; expected 2025–2026) before initiating a New Zealand regulatory pathway for this novel indication
+- Detailed mechanism of action data and a biological rationale linking ALK (or related kinase) signalling to gingival fibromatosis
+- Package insert warnings and contraindications from Medsafe to allow safety screening
+- Clarification of the current New Zealand regulatory status of alectinib, since the only licence is cancelled
+- Consideration of whether a biomarker-driven (ALK fusion) approach in rare tumours, such as the lung germ cell tumour signal, is a more promising direction than the top-ranked prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Mebendazole
 parent: Model Prediction Only (L5)
-nav_order: 212
+nav_order: 281
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Mebendazole: From Parasitic Infections (Anthelmintic) to Acne
+# Mebendazole: From Enterobiasis, Ascaridiasis and Trichuriasis to Acne
 
 ## One-Sentence Summary
 
-> Mebendazole is a benzimidazole anthelmintic, traditionally used to treat parasitic worm infections by inhibiting parasite β-tubulin polymerization and glucose uptake.
-> The TxGNN model predicts it may be effective for **Acne**, but this is currently supported by **0 clinical trials** and only **1 tangentially related case report**, with no known mechanistic basis connecting the drug's antiparasitic action to acne pathophysiology.
+Mebendazole is a benzimidazole anthelmintic originally used to treat intestinal worm infections (enterobiasis, ascaridiasis and trichuriasis).
+The TxGNN model predicts it may be effective for **acne**, but there are **0 clinical trials** and only **1 publication** (an unrelated case report) behind this prediction, so the evidence is very weak.
 
 ---
 
@@ -42,23 +42,21 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 | Item | Content |
 |------|------|
-| Original Indication | Parasitic worm infections (Anthelmintic) — specific original_indications data not provided; based on known drug classification |
-| Predicted New Indication | Acne (disease) |
+| Original Indication | Enterobiasis, ascaridiasis, trichuriasis (from the knowledge graph; the approved indication text in the New Zealand licence records is blank) |
+| Predicted New Indication | Acne |
 | TxGNN Prediction Score | 99.20% |
 | Evidence Level | L5 |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | ✓ Marketed |
+| Number of Authorizations | 2 (1 valid, 1 cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, mebendazole is a benzimidazole-class anthelmintic that inhibits β-tubulin polymerization and blocks glucose uptake in parasites, disrupting their energy metabolism and structural integrity.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Mebendazole is generally understood to be a benzimidazole anthelmintic that inhibits parasite tubulin polymerisation, and its efficacy against intestinal nematodes is established.
 
-There is no known biological relationship between this antiparasitic mechanism and the pathophysiology of acne, which involves follicular-sebaceous inflammation, *C. acnes* dysbiosis, sebum overproduction, and hyperkeratinization. No literature was found supporting an anti-inflammatory or antimicrobial effect of mebendazole relevant to acne treatment.
-
-The TxGNN score of 99.20% reflects a strong model-generated association only, with no mechanistic explanation and no confirmatory clinical or preclinical evidence. This prediction should be treated as an unvalidated hypothesis rather than as supported evidence.
+Any link to acne is speculative. Antiproliferative or anti-inflammatory effects (for example via tubulin or hedgehog signalling) have been proposed in principle, but nothing in the supplied data supports them. The only basis for this prediction is the high TxGNN knowledge-graph score. The link has not been biologically validated, and no similarity analysis between the original and new indications is available.
 
 ---
 
@@ -72,21 +70,27 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7072899](https://pubmed.ncbi.nlm.nih.gov/7072899/) | 1982 | Case Report | The American Journal of Tropical Medicine and Hygiene | Case report of human proliferative sparganosis presenting with acne-like nodular lesions; mentions "acne-like" only as a descriptive term for a parasitic skin lesion, not as evidence of therapeutic effect on acne. Relevance is unconfirmed (marked "pending"). |
+| [7072899](https://pubmed.ncbi.nlm.nih.gov/7072899/) | 1982 | Case report | Am J Trop Med Hyg | Report of human proliferative sparganosis in Venezuela. The patient had acne-like skin lesions as a symptom of the parasitic infection. This is not evidence of treating acne. |
 
 ---
 
 ## New Zealand Market Information
 
-Mebendazole is not currently marketed in New Zealand — no authorization records are available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 239852 (valid) | Vermox | Oral liquid 100 mg per 5 ml | Not specified in the available data |
+| 258040 (cancelled) | Vermox | Tablet 100 mg | Not specified in the available data |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph** (not label text): liver disease and gallbladder disease.
+- **Drug Interactions** (10 recorded; mostly moderate):
+  - Moderate: metronidazole, iodide I-131, iodide I-123, phenobarbital, carbamazepine, ritonavir, fosphenytoin, phenytoin, primidone
+  - Minor: cimetidine
 
-*(Note: TFDA package insert warnings/contraindications are flagged as a **Blocking** data gap (DG001) — this must be resolved before any S1 safety assessment can proceed.)*
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ---
 
@@ -95,14 +99,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The evidence level is L5 (model prediction only) — there are no clinical trials, no mechanistically relevant literature, and the one identified publication only superficially mentions "acne-like" lesions in an unrelated parasitic disease case report. There is no plausible mechanistic link between mebendazole's antiparasitic action and acne pathophysiology.
+The prediction rests only on a model score, with no clinical trials, no relevant literature and no documented mechanism linking mebendazole to acne. The one publication retrieved is an unrelated parasitic infection case report.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package insert data (warnings and contraindications) — currently a Blocking gap (DG001)
-- Verified mechanism of action data (DG001/DG002)
-- Preclinical or in vitro studies specifically evaluating mebendazole in acne-relevant models (e.g., anti-inflammatory, anti-*C. acnes*, sebocyte activity)
-- A targeted literature/clinical trial search specific to "mebendazole AND acne" to confirm the single retrieved reference is not a false positive
-- Confirmation of relevance for the existing PMID 7072899 reference, since it does not currently support the proposed indication
+- Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
+- Mechanism of action data, for example from DrugBank
+- Mechanistic or preclinical evidence supporting an effect in acne
+- A literature and trial search targeted at mebendazole in acne or related skin conditions
+- Assessment of route compatibility (oral formulations only are currently marketed; acne treatment would need to be evaluated for oral versus topical use)
+- Review of the liver and gallbladder disease contraindication signals and the enzyme-inducer interactions (e.g. phenytoin, carbamazepine) for any long-term dosing scenario
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

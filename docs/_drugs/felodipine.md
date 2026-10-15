@@ -2,7 +2,7 @@
 layout: default
 title: Felodipine
 parent: Model Prediction Only (L5)
-nav_order: 148
+nav_order: 195
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,119 +29,99 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Felodipine: From Hypertension/Angina to Prinzmetal Angina (Lead Candidate Among 7 TxGNN Predictions)
+# Felodipine: From Hypertension to Pulmonary Hypertension (Multifactorial)
 
 ## One-Sentence Summary
 
-Felodipine is a dihydropyridine calcium-channel blocker (calcium antagonist) with vascular selectivity, referenced in the evidence base for its use in hypertension, angina, and heart failure hemodynamics. The TxGNN model generated **7 candidate new indications** for this drug (candidate pack `TW-DB01023-multi`); the most credible finding is **Prinzmetal (variant) angina**, supported by **3 RCTs** and **6 additional publications**, while the remaining 6 candidates range from moderate mechanistic plausibility to likely knowledge-graph noise with no supporting evidence.
+Felodipine is a calcium channel blocker originally used to treat hypertension.
+The TxGNN model's top-ranked prediction is **pulmonary hypertension with unclear multifactorial mechanism**, but **no clinical trials and no publications** support this specific indication. The strongest evidence in the data compiled for this report is for a lower-ranked prediction, **Prinzmetal angina**, supported by several small, older human studies.
 
----
-
-## Quick Overview (Lead Candidate: Prinzmetal Angina)
+## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in structured regulatory data (`original_indications` empty; MOA marked as data gap DG002). Cardiovascular/antihypertensive use is inferable only from the cited literature (calcium antagonist). |
-| Predicted New Indication | Prinzmetal Angina |
-| TxGNN Prediction Score | 99.07% (rank 7,125) |
-| Evidence Level | L2 (1 completed RCT class evidence; 3 RCTs total identified) |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-**Note:** This evidence pack contains 7 ranked candidate indications for felodipine, not one. A full breakdown of all 7 is provided below because TxGNN score alone (rank 1–5 all score >99.8%) does not track with actual evidence quality — the highest-scoring candidates (rank 1–3, 5) have **zero** supporting trials or literature.
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 1 | Pulmonary hypertension, unclear multifactorial mechanism | 99.91% | L5 | S0 | Hold |
-| 2 | Pulmonary hypertension owing to lung disease/hypoxia | 99.91% | L5 | S0 | Hold |
-| 3 | Malignant hypertensive renal disease | 99.90% | L5 | S0 | Hold |
-| 4 | Malignant renovascular hypertension | 99.90% | L4 | S0 | Hold |
-| 5 | Braddock syndrome | 99.88% | L5 | S0 | Hold |
-| 6 | Chronic pulmonary heart disease (cor pulmonale) | 99.19% | L3 | S2 | Research Question |
-| **7** | **Prinzmetal angina** | **99.07%** | **L2** | **S3** | **Proceed with Guardrails** |
-
----
+| Original Indication | Hypertension (hypertensive disorder); the New Zealand licence records contain no approved indication text |
+| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
+| TxGNN Prediction Score | 99.91% |
+| Evidence Level | L5 (model prediction only) |
+| New Zealand Market Status | ✗ Cancelled only |
+| Number of Authorizations | 3 (all cancelled, 0 currently valid) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data (`original_moa`) is flagged as a data gap (DG002) and could not be retrieved from DrugBank in this pull. However, the literature captured in this evidence pack consistently describes felodipine as a **dihydropyridine calcium-channel blocker with vascular selectivity**, acting by blocking L-type calcium channels in vascular smooth muscle (see PMIDs 2487551, 2838319, 3154329, 7728649).
+Detailed mechanism of action data is not currently available. Based on known information, felodipine is a dihydropyridine L-type calcium channel blocker. It relaxes vascular smooth muscle, and its efficacy in hypertension is established.
 
-For **Prinzmetal (variant) angina**, the pathophysiology is coronary artery vasospasm — a mechanism directly addressed by dihydropyridine CCBs, which are already standard first-line therapy for this condition. Felodipine specifically has direct RCT evidence preventing ergonovine-induced and hyperventilation-induced coronary spasm, and head-to-head non-inferiority against nifedipine (the established comparator in this indication). This is the strongest mechanistic and clinical link among the 7 candidates.
+Pulmonary hypertension also involves increased vascular tone, so vasodilation is biologically plausible. However, calcium channel blockers help only a small vasoreactive subset of pulmonary arterial hypertension patients. The multifactorial group is heterogeneous, so the high score (99.91%) is a knowledge-graph prediction and not proof of benefit.
 
-For **chronic pulmonary heart disease** (rank 6), felodipine's systemic and pulmonary vasodilation reduced pulmonary vascular resistance and increased cardiac output in small 1980s hemodynamic studies of COPD and severe CHF patients — a plausible but dated and non-outcome-based signal.
-
-For the four weakest candidates (ranks 1, 2, 3, 5), the TxGNN scores are similarly high (>99.8%) but the underlying evidence is either absent or off-target: rank 2's 20 retrieved PubMed articles are generic hypoxia-biology papers (brain aging, cancer metabolism) with no direct link to felodipine or pulmonary hypertension, and rank 5 (Braddock/CHOPS syndrome, a COG1-related congenital disorder) has no plausible calcium-channel pathophysiology at all. These are most consistent with knowledge-graph false positives rather than genuine repurposing signals.
-
----
+Other predictions for this drug fall into three groups:
+- **Extensions of the existing indication:** malignant hypertensive renal disease and malignant renovascular hypertension. Blood pressure lowering is relevant, but both are largely extensions of the original indication, and their management usually relies on rapid-acting parenteral agents.
+- **Indirect or limited evidence:** pulmonary hypertension owing to lung disease/hypoxia (preclinical tissue-level hypoxia studies only) and chronic pulmonary heart disease (small short-term hemodynamic studies).
+- **Best-supported:** Prinzmetal angina. It is driven by coronary vasospasm, for which calcium channel blockers are established first-line therapy. This is class-consistent use rather than a novel repurposing signal.
+- **No plausible link:** Braddock syndrome, with no mechanistic link established from the supplied data.
 
 ## Clinical Trial Evidence
 
-No registered clinical trials (ClinicalTrials.gov or ICTRP) were found for felodipine in **any** of the 7 predicted indications.
-
-> Currently no related clinical trials registered for felodipine in these predicted indications.
-
----
+Currently no related clinical trials registered for the top-ranked prediction or for any of the other six predicted indications.
 
 ## Literature Evidence
 
-### Lead Candidate — Prinzmetal Angina (L2, 9 publications)
+For the top-ranked indication (pulmonary hypertension, multifactorial) and for malignant hypertensive renal disease, malignant renovascular hypertension and Braddock syndrome, currently no related literature is available.
+
+The two predictions with literature are summarised below.
+
+**Prinzmetal angina (score 99.07%, evidence level L2)**
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [8013514](https://pubmed.ncbi.nlm.nih.gov/8013514/) | 1994 | RCT | European Heart Journal | Once-daily felodipine ER prevented ergonovine-induced myocardial ischemia in 14 Prinzmetal angina patients |
-| [1746458](https://pubmed.ncbi.nlm.nih.gov/1746458/) | 1991 | RCT | American Journal of Cardiology | Once-daily felodipine matched four-times-daily nifedipine in controlling Prinzmetal angina in 30 patients |
-| [7744087](https://pubmed.ncbi.nlm.nih.gov/7744087/) | 1995 | RCT | European Heart Journal | Double-blind crossover vs nifedipine SR and placebo; felodipine ER improved exercise duration by 66s in exercise-induced angina |
-| [14689111](https://pubmed.ncbi.nlm.nih.gov/14689111/) | 2003 | Review | Herz | Reviews differential efficacy of calcium antagonists across hypertension and angina subtypes |
-| [7728649](https://pubmed.ncbi.nlm.nih.gov/7728649/) | 1995 | Review | Canadian Journal of Cardiology | CCBs are first-choice therapy in Prinzmetal angina via antivasospastic action; felodipine discussed specifically |
-| [3345765](https://pubmed.ncbi.nlm.nih.gov/3345765/) | 1988 | Cohort | European Heart Journal | Case series documenting exercise-induced ST elevation consistent with coronary spasm mechanism |
-| [2909138](https://pubmed.ncbi.nlm.nih.gov/2909138/) | 1989 | Cohort/small clinical study | American Journal of Cardiology | Felodipine reduced hyperventilation-induced ischemic attacks in variant angina |
-| [15222138](https://pubmed.ncbi.nlm.nih.gov/15222138/) | 2004 | Case report | Orvosi Hetilap | Nicergoline-induced Prinzmetal angina case (background pathophysiology, not felodipine-specific) |
-| [19052677](https://pubmed.ncbi.nlm.nih.gov/19052677/) | 2008 | Case report | Canadian Journal of Cardiology | Vasospasm-induced polymorphic ventricular tachycardia case (background, not felodipine-specific) |
+|------|-----|------|------|---------|
+| [1746458](https://pubmed.ncbi.nlm.nih.gov/1746458/) | 1991 | Comparative clinical study | Am J Cardiol | Once-daily felodipine (10 and 20 mg) compared with nifedipine 20 mg four times daily in 30 patients with Prinzmetal's angina |
+| [8013514](https://pubmed.ncbi.nlm.nih.gov/8013514/) | 1994 | Clinical study | Eur Heart J | Extended-release felodipine 20 mg once daily tested against ergonovine-induced ischaemia in 14 patients with variant angina |
+| [2909138](https://pubmed.ncbi.nlm.nih.gov/2909138/) | 1989 | Clinical study | Am J Cardiol | Effect of felodipine on hyperventilation-induced ischaemic attacks in variant angina (no abstract available) |
+| [7744087](https://pubmed.ncbi.nlm.nih.gov/7744087/) | 1995 | Randomized double-blind crossover trial | Eur Heart J | Felodipine ER 10 mg vs nifedipine SR vs placebo in 43 patients with stable exercise-induced angina; felodipine improved exercise duration by 66 s (stable angina, not Prinzmetal) |
+| [14689111](https://pubmed.ncbi.nlm.nih.gov/14689111/) | 2003 | Review | Herz | Overview of differential use of calcium antagonists |
+| [7728649](https://pubmed.ncbi.nlm.nih.gov/7728649/) | 1995 | Review | Can J Cardiol | Role of calcium channel blockers in angina, focusing on felodipine; first-choice drugs in Prinzmetal's angina |
 
-### Secondary Candidate — Chronic Pulmonary Heart Disease (L3, 3 publications)
+**Chronic pulmonary heart disease (score 99.19%, evidence level L3)**
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [2487551](https://pubmed.ncbi.nlm.nih.gov/2487551/) | 1989 | Open-label hemodynamic study | Cardiovascular Drugs and Therapy | Acute felodipine infusion assessed in severe chronic congestive heart failure; regional blood flow effects measured |
-| [2838319](https://pubmed.ncbi.nlm.nih.gov/2838319/) | 1988 | Open-label hemodynamic study | European Respiratory Journal | Felodipine infusion reduced pulmonary vascular resistance 18% and systemic vascular resistance 33%, increased cardiac output 33% in severe COPD |
-| [3154329](https://pubmed.ncbi.nlm.nih.gov/3154329/) | 1988 | Review | Cardiovascular Drugs and Therapy | Reviews calcium antagonists' minor/secondary indications in hypertension and arrhythmias |
+|------|-----|------|------|---------|
+| [2838319](https://pubmed.ncbi.nlm.nih.gov/2838319/) | 1988 | Clinical hemodynamic study | Eur Respir J | In 11 patients with severe COPD, felodipine infusion reduced pulmonary vascular resistance by 18% and systemic vascular resistance by 33%, and increased cardiac output and ventricular ejection fractions |
+| [2487551](https://pubmed.ncbi.nlm.nih.gov/2487551/) | 1989 | Clinical hemodynamic study | Cardiovasc Drugs Ther | Acute effects of felodipine on central hemodynamics and regional blood flow in 10 patients with severe heart failure (indirect relevance) |
+| [3154329](https://pubmed.ncbi.nlm.nih.gov/3154329/) | 1988 | Review | Cardiovasc Drugs Ther | Use and comparative efficacy of calcium antagonists in hypertension and arrhythmias |
 
-### Weak/Unsupported Candidates — Not Tabulated
-
-- **Malignant renovascular hypertension (rank 4, L4):** only 1 retrieved publication ([8893190](https://pubmed.ncbi.nlm.nih.gov/8893190/), 1996 case report) — describes renovascular hypertension after adrenalectomy, **not** a felodipine efficacy study.
-- **Pulmonary hypertension owing to lung disease/hypoxia (rank 2, L5):** 20 publications retrieved, but all are generic hypoxia-biology papers (brain aging, cancer metabolism, altitude physiology) with no direct relevance to felodipine or this indication — treated as evidentiary noise.
-- **Pulmonary hypertension, unclear multifactorial mechanism (rank 1, L5)** and **malignant hypertensive renal disease (rank 3, L5)**: no clinical trials or literature retrieved.
-- **Braddock syndrome (rank 5, L5):** no clinical trials or literature retrieved; no known pathophysiological link to calcium-channel modulation. Flagged as a likely false-positive association and recommended for exclusion from further follow-up.
-
----
+For pulmonary hypertension owing to lung disease/hypoxia, nine retrieved publications are all preclinical (for example PMIDs 8160846, 8584414, 9431863). They address tissue-level hypoxia or reoxygenation injury, not pulmonary hypertension, so they are not listed individually.
 
 ## New Zealand Market Information
 
-Felodipine currently holds **0 authorizations** and is **not marketed** in New Zealand under this evidence pack. No product license records are available to summarize.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2041510 | Felo 5 ER | Tab long-acting 5 mg | Not recorded (cancelled) |
+| 353760 | Plendil ER | Tab long-acting 2.5 mg | Not recorded (cancelled) |
+| 2041499 | Felo 10 ER | Tab long-acting 10 mg | Not recorded (cancelled) |
 
----
+All three authorizations are cancelled, so felodipine currently has no valid marketed product in New Zealand.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Structured safety data (key warnings, contraindications, drug-drug interactions) could not be retrieved for this evidence pack — the TFDA/regulatory package insert query is flagged as a **Blocking** data gap (DG001), and the DDI database query returned no results.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information.
 
----
+- **Knowledge-graph contraindications (not label text):** associations with these conditions include kidney disease, liver disease, gallbladder disease, angioedema (several forms), neutropenia/agranulocytosis, aortic stenosis, hypotensive disorder, hypertrophic cardiomyopathy, renal artery obstruction, myocardial infarction, coronary artery disease and atherosclerosis. These must be verified against the official label.
+- **Drug interactions:** 100 interactions were found. The sample reviewed lists one **Major** interaction, with **dolasetron**. The other listed interactions are Moderate, including corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), bupropion, aprepitant, morphine, acetylsalicylic acid, cimetidine, clarithromycin, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), calcium salts and magnesium sulfate.
+- **Indication-specific concerns:** systemic vasodilators can worsen ventilation-perfusion matching in hypoxic lung disease. Safety in severe heart failure and hypoxic lung disease needs careful evaluation.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for Prinzmetal angina, the lead candidate) — **Hold** for the remaining 6 candidates.
+**Decision: Hold**
 
 **Rationale:**
-- Prinzmetal angina has direct RCT-level evidence (3 trials) and a well-established mechanistic basis (CCBs are already standard therapy for coronary vasospasm), supporting cautious advancement (L2/S3).
-- Chronic pulmonary heart disease has plausible but dated (1980s), non-outcome hemodynamic evidence only (L3/S2) — warrants a research question rather than action.
-- The four remaining candidates (pulmonary hypertension ×2, malignant hypertensive/renovascular hypertension, Braddock syndrome) have no or off-target evidence (L4–L5) and should remain on Hold; Braddock syndrome in particular should be deprioritized as a probable knowledge-graph false positive.
+The top-ranked pulmonary hypertension prediction rests on model score alone (L5), with no trials or literature. Felodipine's market authorizations in New Zealand are all cancelled. The best-supported option, Prinzmetal angina (L2), relies on small, old studies and is a class effect of calcium channel blockers rather than a new repurposing finding.
 
 **To proceed, the following is needed:**
-- Resolve **DG001 (Blocking)**: obtain the TFDA/manufacturer package insert to complete the S1 safety screen — this is currently blocking any indication from advancing past S0/S1.
-- Resolve **DG002 (High)**: confirm felodipine's formal mechanism of action via DrugBank API rather than relying on literature-inferred descriptions.
-- For Prinzmetal angina: update the evidence base with contemporary (post-1995) trials or guideline citations, since all 3 RCTs are from 1991–1995; confirm current DDI profile before any clinical use.
-- Since felodipine is not currently marketed in New Zealand (0 licenses), a regulatory pathway/market-entry assessment would be required before any repurposing indication could be operationalized locally.
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A targeted literature review of calcium channel blockers in vasoreactive pulmonary arterial hypertension
+- A decision on whether Prinzmetal angina warrants further work, given the cancelled market status and the availability of other calcium channel blockers
+- Evaluation of regulatory and commercial feasibility, since there is currently no valid New Zealand licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

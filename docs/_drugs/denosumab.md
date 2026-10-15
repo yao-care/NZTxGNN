@@ -2,7 +2,7 @@
 layout: default
 title: Denosumab
 parent: Model Prediction Only (L5)
-nav_order: 106
+nav_order: 140
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,55 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Denosumab: Assessment Report — TxGNN Prediction Data Pending Completion
+# Denosumab: From Osteoporosis to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Denosumab is a fully human-derived monoclonal antibody targeting RANKL, which has been internationally approved for the prevention of skeletal-related events in osteoporosis and cancer bone metastases. In the current Evidence Pack, **the TxGNN model has not yet generated any drug repurposing prediction candidates**, and key data such as mechanism of action (MOA) and safety warnings are marked as pending, making it currently **impossible to complete a comprehensive drug repurposing indication assessment**.
+Denosumab was originally used to treat osteoporosis, including postmenopausal and drug-induced osteoporosis.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but this is a computational prediction only.
+There are currently **0 clinical trials** and **0 publications** supporting this direction. The related prediction, diabetic retinopathy, has only 2 indirect publications.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original approved indications | Not recorded in Evidence Pack (general knowledge: osteoporosis, prevention of skeletal-related events in cancer bone metastases) |
-| TxGNN predicted new indications | Not yet generated — prediction workflow pending execution |
-| TxGNN prediction score | No data |
-| Evidence level | Cannot be assessed |
-| Taiwan market status | Not marketed (approval number: 0) |
-| Number of approval numbers | 0 |
-| Recommended decision | **Hold** |
+|------|------|
+| Original Indication | Osteoporosis (including postmenopausal and drug-induced osteoporosis) |
+| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
+| TxGNN Prediction Score | 99.63% |
+| Evidence Level | L5 |
+| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
+| Number of Authorizations | 2 (both cancelled) |
+| Recommended Decision | Hold |
 
 ---
 
-## Drug Background Information
+## Why is This Prediction Reasonable?
 
-Although `original_moa` is marked as a data gap in the Evidence Pack, the following information is provided based on publicly available pharmacological knowledge:
+Currently, detailed mechanism of action data is not available. Based on known information, denosumab is a RANKL inhibitor, and its efficacy in osteoporosis is established. Mechanistically, it may be applicable to diabetic retinopathy, but this link is speculative.
 
-Denosumab (brand names: Prolia® / Xgeva®) is a fully humanized IgG₂ monoclonal antibody that binds with high affinity to **RANK Ligand (RANKL)**, blocking its interaction with the RANK receptor on the surface of osteoclasts, thereby **inhibiting osteoclast differentiation, activation, and survival**, achieving the therapeutic effect of reducing bone resorption.
+RANKL/RANK signalling has been proposed to play roles in vascular calcification, inflammation and metabolic regulation, which could plausibly relate to diabetic microvascular disease. However, the data compiled for this report contain no direct evidence linking RANKL inhibition to retinal vascular pathology.
 
-Clinical applications of this mechanism include:
-- **Prolia**: postmenopausal female osteoporosis, male osteoporosis, glucocorticoid-induced osteoporosis
-- **Xgeva**: prevention of skeletal-related events in patients with bone metastases from solid tumors; treatment of giant cell tumor of bone
-
-However, formal drug repurposing indication assessment **must be based on TxGNN prediction results**, and currently due to missing prediction data, mechanism-of-action correlation analysis cannot be performed.
+The model score is very high, but it reflects a computational prediction only. The related prediction, diabetic retinopathy (score 99.23%), has two publications. One observational study suggests denosumab given for osteoporosis may be associated with a lower incidence of type 2 diabetes and less foot ulceration. This is indirect support only and does not test retinopathy outcomes.
 
 ---
 
-## Taiwan Market Information
+## Clinical Trial Evidence
 
-Current Taiwan (TFDA) search results show that Denosumab has **0 approval numbers and a market status of Not marketed**.
+Currently no related clinical trials registered.
 
-> ⚠️ Note: Denosumab has been approved for marketing in most global markets (US FDA, European EMA, Japanese PMDA), and Taiwan's Not marketed status may reflect query scope or data collection issues. It is recommended to re-verify the TFDA query results.
+---
+
+## Literature Evidence
+
+No literature is available for severe nonproliferative diabetic retinopathy. For the related prediction, diabetic retinopathy, the following publications were retrieved (both indirect):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | Cohort/Observational (with meta-analysis) | Diabetes, Obesity & Metabolism | Denosumab for osteoporosis was associated with a lower incidence of type 2 diabetes, less foot ulceration and lower all-cause mortality than bisphosphonates; retinopathy-specific efficacy not confirmed |
+| [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | Observational | Cureus | FRAX fracture risk assessment in adults with type 2 diabetes; not about retinopathy or denosumab efficacy |
+
+---
+
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2406047 | Prolia (cancelled) | Inj 60 mg per 1 ml prefilled syringe | Not available |
+| 2594870 | Xgeva (cancelled) | Inj 120 mg per 1.7 ml vial | Not available |
 
 ---
 
 ## Safety Considerations
 
-Safety warnings and contraindication data in this Evidence Pack have not yet been collected in full.
+- **Drug Interactions**: 100 interactions were found, and the 20 listed are all rated Moderate. Main groups:
+  - Corticosteroids: hydrocortisone, triamcinolone (including ophthalmic), dexamethasone, betamethasone, budesonide, prednisolone, prednisone, methylprednisolone, corticotropin, tetracosactide
+  - Radiopharmaceutical or antibody agents: ibritumomab tiuxetan, iobenguane (I-131), tositumomab (I-131), tositumomab
+  - Immunomodulating or antimetabolite agents: levamisole, trimetrexate, mercaptopurine, dupilumab, tacrolimus
 
-Please refer to the official package inserts (Prolia® or Xgeva®) for complete safety information. Known important safety considerations include: hypocalcemia, osteonecrosis of the jaw (ONJ), atypical femoral fractures, increased infection risk, and others.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -86,16 +105,13 @@ Please refer to the official package inserts (Prolia® or Xgeva®) for complete 
 **Decision: Hold**
 
 **Rationale:**
-This Evidence Pack contains incomplete data—the TxGNN has not yet generated any drug repurposing prediction candidates, mechanism-of-action data is missing (DG002), and safety warnings have also not yet been collected (DG001). Without predicted indications, no evidence assessment or decision analysis can be performed.
+The prediction score is high, but there are no registered clinical trials and no retinopathy-specific literature. The only related publications are indirect observational reports. Both New Zealand authorizations are cancelled, and mechanism and label safety data are missing.
 
-**To proceed further, the following data must be completed:**
-
-1. **Execute the TxGNN prediction workflow**: Generate a list of drug repurposing candidate indications for Denosumab (DB06643)
-2. **Complete MOA data (DG002)**: Query the formal MOA description through the DrugBank API to facilitate mechanism-of-action correlation analysis
-3. **Complete TFDA package insert safety data (DG001)**: Download and parse the TFDA package insert PDF to extract warnings and contraindications (Blocking level, affecting S1 safety initial assessment)
-4. **Confirm Taiwan market status**: Re-verify whether TFDA query results correctly reflect the market situation
-5. **Supplement original approved indication field**: Only after ensuring the `original_indications` field is correctly populated can a complete From/To indication comparison report be executed
-
+**To proceed, the following is needed:**
+- Mechanism of action data (MOA), and a clearer mechanistic link between RANKL inhibition and retinal vascular pathology
+- Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
+- Preclinical or clinical studies testing denosumab on retinopathy outcomes
+- Clarification of the regulatory status in New Zealand and the route of administration (injection) in the context of an ophthalmic indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

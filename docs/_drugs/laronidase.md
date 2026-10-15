@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Laronidase
-parent: High Evidence (L1-L2)
-nav_order: 196
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 260
+evidence_level: L4
 indication_count: 2
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **2** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **2**
 
 </div>
 
-# Laronidase: From Mucopolysaccharidosis Type I to Lysosomal Storage Disease with Skeletal Involvement
+# Laronidase: From Mucopolysaccharidosis I (Hurler, Hurler-Scheie and Scheie Syndromes) to Lysosomal Storage Disease with Skeletal Involvement
 
 ## One-Sentence Summary
 
-Laronidase is a recombinant human α-L-iduronidase enzyme replacement therapy (ERT), originally developed for Mucopolysaccharidosis type I (MPS I; Hurler / Hurler-Scheie / Scheie syndrome). The TxGNN model predicts efficacy for **lysosomal storage disease with skeletal involvement**, a disease-ontology label that clinically overlaps with MPS I itself, supported by **4 publications** but **no dedicated clinical trials** registered under this specific label.
+Laronidase is a recombinant enzyme (alpha-L-iduronidase) originally used as enzyme replacement therapy for mucopolysaccharidosis type I (MPS I), including Hurler, Hurler-Scheie and Scheie syndromes.
+The TxGNN model predicts it may be effective for **lysosomal storage disease with skeletal involvement**, but this largely overlaps with the existing MPS I indication rather than being a true new use.
+Support is limited: **0 clinical trials** and **4 publications** (reviews, one in vitro study and one case report).
 
 ---
 
@@ -41,29 +43,31 @@ Laronidase is a recombinant human α-L-iduronidase enzyme replacement therapy (E
 
 | Item | Content |
 |------|------|
-| Original Indication | Mucopolysaccharidosis type I (MPS I; Hurler / Hurler-Scheie / Scheie syndrome) |
+| Original Indication | Mucopolysaccharidosis I (Hurler, Hurler-Scheie, Scheie syndromes); the New Zealand licence text is blank, so this comes from the knowledge graph |
 | Predicted New Indication | Lysosomal storage disease with skeletal involvement |
 | TxGNN Prediction Score | 99.31% |
-| Evidence Level | L1 |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L4 |
+| New Zealand Market Status | Cancelled only |
+| Number of Authorizations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, structured mechanism-of-action data (DrugBank MOA field) is not available. Based on the evidence pack's literature and rationale, Laronidase is recombinant human α-L-iduronidase — it directly supplies the lysosomal enzyme that MPS I patients lack, degrading accumulated glycosaminoglycans (heparan sulfate and dermatan sulfate). In vitro studies confirm the enzyme is taken up by fibroblasts and osteoblasts primarily via mannose-6-phosphate receptors, then trafficked to lysosomes and processed to its mature, active form.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, laronidase is a recombinant alpha-L-iduronidase that breaks down the glycosaminoglycans (dermatan sulfate and heparan sulfate) that build up in MPS I. Its efficacy in MPS I is established, and mechanistically it may be applicable to skeletal disease that arises from this storage.
 
-Importantly, the predicted indication "lysosomal storage disease with skeletal involvement" is not a genuinely distinct new disease — skeletal involvement (dysostosis multiplex, joint stiffness, short stature) is a core clinical manifestation of MPS I itself. This prediction is therefore best understood as a **re-confirmation of the already-approved use** rather than a novel repurposing hypothesis. Because the enzymatic mechanism is direct and already clinically validated in MPS I, mechanistic applicability is sound, but the incremental "repurposing" value is limited.
+Skeletal involvement (dysostosis multiplex) is a recognised manifestation of MPS I, so the predicted indication overlaps heavily with the approved use. The high score (0.993) most likely reflects this overlap. An in vitro study showed that cultured fibroblasts and osteoblasts take up laronidase, mainly through mannose 6-phosphate receptors, which suggests a plausible cellular route to bone tissue.
 
-A second candidate in this evidence pack, **Sanfilippo syndrome (MPS III)**, was also evaluated and rejected (Hold, L4). Sanfilippo syndrome results from deficiency of SGSH, NAGLU, HGSNAT, or GNS — none of which is α-L-iduronidase — so Laronidase cannot compensate for the underlying enzymatic defect. Sanfilippo syndrome is also predominantly neurodegenerative rather than skeletal, and Laronidase does not cross the blood-brain barrier, further weakening the case. This is flagged as a likely false positive from TxGNN's disease-embedding similarity rather than a valid mechanistic hypothesis.
+There are important limits. Intravenous enzyme penetrates avascular cartilage and bone poorly, and the clinical skeletal response is known to be limited. A 6.5-year follow-up of a boy with Scheie syndrome also reported a decline in overall status and disease progression despite therapy.
+
+*Other predicted candidate (Sanfilippo syndrome, MPS III):* The score is high (0.992), but it is most likely a network-proximity artifact within the MPS family. MPS III involves different enzyme deficiencies (e.g., SGSH, NAGLU, HGSNAT, GNS), so laronidase cannot replace the missing activity. It is also mainly a central nervous system disease, and intravenous laronidase does not meaningfully cross the blood-brain barrier. The retrieved literature concerns MPS I, not MPS III, so it does not support efficacy there.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered under "lysosomal storage disease with skeletal involvement" specifically.
+Currently no related clinical trials registered.
 
 ---
 
@@ -71,31 +75,42 @@ Currently no related clinical trials registered under "lysosomal storage disease
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review | BioDrugs | BioMarin's recombinant α-L-iduronidase ERT for MPS I; received US/EU orphan drug designation and FDA fast-track status; Phase I trial in 10 patients |
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Review | Pediatric Endocrinology Reviews | MPS I caused by α-L-iduronidase deficiency leading to GAG accumulation; spans Hurler, Scheie, and Hurler-Scheie phenotypes; diagnosed via urine GAG pattern and enzyme assay |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | Cohort (in vitro mechanism) | Biological & Pharmaceutical Bulletin | Laronidase taken up dose-dependently by MPS I fibroblasts and osteoblasts mainly via mannose-6-phosphate receptors, then processed to its mature lysosomal form |
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Cohort | Pediatric Neurology | 6.5-year follow-up of ERT in an attenuated (Scheie syndrome) case; despite treatment, the patient showed decline in overall status and disease progression |
+| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Review | Pediatr Endocrinol Rev | MPS I is caused by alpha-L-iduronidase deficiency, with a spectrum from Hurler to Scheie disease; diagnosis by urinary GAG pattern and enzyme assay |
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review | BioDrugs | Overview of laronidase development as enzyme replacement therapy for MPS I, with orphan drug designation and fast-track status |
+| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Case report | Pediatr Neurol | 6.5-year follow-up of a boy with Scheie syndrome on enzyme replacement therapy; overall decline and disease progression despite treatment |
+| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | In vitro study | Biol Pharm Bull | Laronidase was taken up by MPS I fibroblasts and osteoblasts, mainly via M6P receptors, and reached lysosomes |
+
+---
+
+## New Zealand Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2398362 (cancelled) | Aldurazyme | Injection 100 U per ml, 5 ml vial | Not stated in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: Two minor interactions were identified: chloroquine and procaine.
+
+Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The underlying enzyme-replacement mechanism is well-validated in MPS I, giving the prediction strong mechanistic footing (L1), but this specific disease label ("lysosomal storage disease with skeletal involvement") has no dedicated clinical trials, and the product is currently **not marketed in New Zealand**. A related candidate (Sanfilippo syndrome) was independently assessed and correctly rejected, indicating the model's broader predictions for this drug need case-by-case mechanistic screening rather than blanket acceptance.
+The predicted indication mostly restates the established MPS I use rather than a new target, and no clinical trials specifically address skeletal outcomes. The available literature is limited to reviews, an in vitro study and a single case report, and the only licence in New Zealand is cancelled.
 
 **To proceed, the following is needed:**
-- TFDA/Medsafe package insert data (warnings, contraindications) — currently a blocking data gap
-- Structured DrugBank mechanism-of-action data
-- A New Zealand market entry/authorization pathway assessment, given current unmarketed status
-- Clarification on whether "lysosomal storage disease with skeletal involvement" is to be regulated as equivalent to the existing MPS I indication or requires separate clinical substantiation
+- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Clinical data on skeletal outcomes (e.g., bone and joint endpoints) with laronidase
+- Clarification of the current regulatory and supply status in New Zealand, given the cancelled licence
+- Clarification of whether "lysosomal storage disease with skeletal involvement" differs meaningfully from the approved MPS I indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
