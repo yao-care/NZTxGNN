@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db09080-bronchitis",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db09080"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "bronchitis"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L4"
+    },
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9984
+    }
+  ]
+}

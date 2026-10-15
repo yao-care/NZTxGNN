@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00871-respiratory-malformation",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00871"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "respiratory malformation"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L1"
+    },
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9952
+    }
+  ]
+}

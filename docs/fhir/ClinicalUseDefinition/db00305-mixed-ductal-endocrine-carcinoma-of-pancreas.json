@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00305-mixed-ductal-endocrine-carcinoma-of-pancreas",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00305"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "mixed ductal-endocrine carcinoma of pancreas"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9985
+    }
+  ]
+}

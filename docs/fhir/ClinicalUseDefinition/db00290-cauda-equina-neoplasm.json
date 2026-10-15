@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00290-cauda-equina-neoplasm",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00290"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "cauda equina neoplasm"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.993
+    }
+  ]
+}

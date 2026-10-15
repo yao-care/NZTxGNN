@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db13879-omsk-hemorrhagic-fever",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db13879"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "Omsk hemorrhagic fever"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L4"
+    },
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9979
+    }
+  ]
+}

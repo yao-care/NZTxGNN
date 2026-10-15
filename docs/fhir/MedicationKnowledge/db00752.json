@@ -1,0 +1,31 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db00752",
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://nztxgnn.yao.care/drugs",
+        "code": "db00752",
+        "display": "DB00752"
+      }
+    ]
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NZ",
+          "display": "New Zealand"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}
