@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "drug_count": 476,
+  "drug_count": 460,
   "indication_count": 1575,
   "drugs": [
     {
@@ -21,14 +21,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Abiraterone Acetate",
-      "slug": "abiraterone-acetate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Acarbose",
@@ -2800,14 +2792,6 @@
       ]
     },
     {
-      "name": "Crotamiton",
-      "slug": "crotamiton",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Cyclizine",
       "slug": "cyclizine",
       "brands": [],
@@ -2867,22 +2851,6 @@
       ]
     },
     {
-      "name": "Cyclizine Hydrochloride",
-      "slug": "cyclizine-hydrochloride",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Cyclizine Lactate",
-      "slug": "cyclizine-lactate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Cyclopentolate",
       "slug": "cyclopentolate",
       "brands": [],
@@ -2905,14 +2873,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Cyclopentolate Hydrochloride",
-      "slug": "cyclopentolate-hydrochloride",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Cyclophosphamide",
@@ -3048,22 +3008,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Dabigatran",
-      "slug": "dabigatran",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Dabrafenib",
-      "slug": "dabrafenib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Dacarbazine",
@@ -3291,14 +3235,6 @@
       ]
     },
     {
-      "name": "Desmopressin Acetate",
-      "slug": "desmopressin-acetate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Desogestrel",
       "slug": "desogestrel",
       "brands": [],
@@ -3345,14 +3281,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Dexamethasone Phosphate",
-      "slug": "dexamethasone-phosphate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Diazepam",
@@ -3442,14 +3370,6 @@
       ]
     },
     {
-      "name": "Diclofenac Sodium",
-      "slug": "diclofenac-sodium",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Digoxin",
       "slug": "digoxin",
       "brands": [],
@@ -3533,14 +3453,6 @@
       ]
     },
     {
-      "name": "Dihydrocodeine Tartrate",
-      "slug": "dihydrocodeine-tartrate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Diltiazem",
       "slug": "diltiazem",
       "brands": [],
@@ -3565,30 +3477,6 @@
       ]
     },
     {
-      "name": "Diltiazem Hydrochloride",
-      "slug": "diltiazem-hydrochloride",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Dimethicone",
-      "slug": "dimethicone",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Dimethyl Fumarate",
-      "slug": "dimethyl-fumarate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Dipyridamole",
       "slug": "dipyridamole",
       "brands": [],
@@ -3601,22 +3489,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Disopyramide Phosphate",
-      "slug": "disopyramide-phosphate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Disulfiram",
-      "slug": "disulfiram",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Docetaxel",
