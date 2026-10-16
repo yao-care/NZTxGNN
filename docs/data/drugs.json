@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "total_count": 476,
+  "total_count": 460,
   "source": "NZTxGNN",
   "drugs": [
     {
@@ -12,16 +12,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/abacavir/"
-    },
-    {
-      "slug": "abiraterone-acetate",
-      "name": "Abiraterone Acetate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/abiraterone-acetate/"
     },
     {
       "slug": "acarbose",
@@ -1074,16 +1064,6 @@
       "url": "/drugs/crizotinib/"
     },
     {
-      "slug": "crotamiton",
-      "name": "Crotamiton",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/crotamiton/"
-    },
-    {
       "slug": "cyclizine",
       "name": "Cyclizine",
       "evidence_level": "L5",
@@ -1094,26 +1074,6 @@
       "url": "/drugs/cyclizine/"
     },
     {
-      "slug": "cyclizine-hydrochloride",
-      "name": "Cyclizine Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/cyclizine-hydrochloride/"
-    },
-    {
-      "slug": "cyclizine-lactate",
-      "name": "Cyclizine Lactate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/cyclizine-lactate/"
-    },
-    {
       "slug": "cyclopentolate",
       "name": "Cyclopentolate",
       "evidence_level": "L5",
@@ -1122,16 +1082,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/cyclopentolate/"
-    },
-    {
-      "slug": "cyclopentolate-hydrochloride",
-      "name": "Cyclopentolate Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/cyclopentolate-hydrochloride/"
     },
     {
       "slug": "cyclophosphamide",
@@ -1182,26 +1132,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/cytarabine/"
-    },
-    {
-      "slug": "dabigatran",
-      "name": "Dabigatran",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/dabigatran/"
-    },
-    {
-      "slug": "dabrafenib",
-      "name": "Dabrafenib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/dabrafenib/"
     },
     {
       "slug": "dacarbazine",
@@ -1304,16 +1234,6 @@
       "url": "/drugs/desmopressin/"
     },
     {
-      "slug": "desmopressin-acetate",
-      "name": "Desmopressin Acetate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/desmopressin-acetate/"
-    },
-    {
       "slug": "desogestrel",
       "name": "Desogestrel",
       "evidence_level": "L3",
@@ -1332,16 +1252,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/dexamethasone/"
-    },
-    {
-      "slug": "dexamethasone-phosphate",
-      "name": "Dexamethasone Phosphate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/dexamethasone-phosphate/"
     },
     {
       "slug": "diazepam",
@@ -1374,16 +1284,6 @@
       "url": "/drugs/diclofenac/"
     },
     {
-      "slug": "diclofenac-sodium",
-      "name": "Diclofenac Sodium",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/diclofenac-sodium/"
-    },
-    {
       "slug": "digoxin",
       "name": "Digoxin",
       "evidence_level": "L5",
@@ -1404,16 +1304,6 @@
       "url": "/drugs/dihydrocodeine/"
     },
     {
-      "slug": "dihydrocodeine-tartrate",
-      "name": "Dihydrocodeine Tartrate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/dihydrocodeine-tartrate/"
-    },
-    {
       "slug": "diltiazem",
       "name": "Diltiazem",
       "evidence_level": "L5",
@@ -1424,36 +1314,6 @@
       "url": "/drugs/diltiazem/"
     },
     {
-      "slug": "diltiazem-hydrochloride",
-      "name": "Diltiazem Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/diltiazem-hydrochloride/"
-    },
-    {
-      "slug": "dimethicone",
-      "name": "Dimethicone",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/dimethicone/"
-    },
-    {
-      "slug": "dimethyl-fumarate",
-      "name": "Dimethyl Fumarate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/dimethyl-fumarate/"
-    },
-    {
       "slug": "dipyridamole",
       "name": "Dipyridamole",
       "evidence_level": "L5",
@@ -1462,26 +1322,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/dipyridamole/"
-    },
-    {
-      "slug": "disopyramide-phosphate",
-      "name": "Disopyramide Phosphate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/disopyramide-phosphate/"
-    },
-    {
-      "slug": "disulfiram",
-      "name": "Disulfiram",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/disulfiram/"
     },
     {
       "slug": "docetaxel",
