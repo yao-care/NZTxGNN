@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma and gastrointestinal stromal tumour"
+monitor_inn: "SUNITINIB"
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "dermatofibrosarcoma protuberans", "childhood kidney cell carcinoma", "angiolipoma", "renal carcinoma", "heart fibrosarcoma"]
 ---
 
 # Sunitinib

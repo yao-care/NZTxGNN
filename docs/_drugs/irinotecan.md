@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L3). Approved use: Metastatic colon cancer and pancreatic adenocarcinoma"
+monitor_inn: "Irinotecan"
+predicted_indications: ["female breast carcinoma"]
 ---
 
 # Irinotecan

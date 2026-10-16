@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L2). Approved use: Hodgkin lymphoma (including classic Hodgkin lymphoma) and brain cance…"
+monitor_inn: "LOMUSTINE"
+predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer", "cerebral neuroblastoma", "pediatric cerebral ependymoblastoma", "pediatric infratentorial ependymoblastoma", "childhood brain germinoma", "cerebellopontine angle embryonal tumor", "lymph node cancer", "cerebral sarcoma"]
 ---
 
 # Lomustine

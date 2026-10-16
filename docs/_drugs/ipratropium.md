@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ipratropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease (COPD), allergic rhinitis…"
+monitor_inn: "Ipratropium"
+predicted_indications: ["obstructive lung disease", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 ---
 
 # Ipratropium

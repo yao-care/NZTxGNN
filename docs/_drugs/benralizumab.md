@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Benralizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). Approved use: Eosinophilic pneumonia"
+monitor_inn: "BENRALIZUMAB"
+predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
 ---
 
 # Benralizumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Tezacaftor: predicted new indication HIV infectious disease (evidence level L5). Approved use: Cystic fibrosis"
+monitor_inn: "tezacaftor"
+predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
 ---
 
 # Tezacaftor

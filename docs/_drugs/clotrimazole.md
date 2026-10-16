@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Clotrimazole: predicted new indication Vulvovaginitis (evidence level L1). Approved use: Tinea pedis, tinea corporis, cutaneous candidiasis…"
+monitor_inn: "CLOTRIMAZOLE"
+predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
 ---
 
 # Clotrimazole

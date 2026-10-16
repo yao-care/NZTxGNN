@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Albendazole: predicted new indication Alveolar echinococcosis (evidence level L2). Approved use: Cystic echinococcosis, cysticercosis"
+monitor_inn: "ALBENDAZOLE"
+predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
 ---
 
 # Albendazole

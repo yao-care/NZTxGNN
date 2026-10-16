@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Doxazosin: predicted new indication Migraine disorder (evidence level L4). Approved use: Hypertension"
+monitor_inn: "DOXAZOSIN"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Doxazosin

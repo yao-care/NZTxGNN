@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Palbociclib: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the licence data"
+monitor_inn: "PALBOCICLIB"
+predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 ---
 
 # Palbociclib

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Paromomycin: predicted new indication Hepatoportal sclerosis (evidence level L5). Approved use: Hepatic coma / hepatic encephalopathy"
+monitor_inn: "PAROMOMYCIN"
+predicted_indications: ["hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
 ---
 
 # Paromomycin

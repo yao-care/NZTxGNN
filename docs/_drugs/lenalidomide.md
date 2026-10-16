@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm…"
+monitor_inn: "LENALIDOMIDE"
+predicted_indications: ["myeloid leukemia", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
 ---
 
 # Lenalidomide

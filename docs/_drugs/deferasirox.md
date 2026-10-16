@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L5). Approved use: Beta-thalassemia and related haemoglobin disorders (hereditary persis…"
+monitor_inn: "DEFERASIROX"
+predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
 ---
 
 # Deferasirox

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Lacosamide: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the licence data (lacosamide is known as an antiseizu…"
+monitor_inn: "LACOSAMIDE"
+predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 ---
 
 # Lacosamide

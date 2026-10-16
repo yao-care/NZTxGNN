@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Insulin Degludec: predicted new indication Type 1 diabetes mellitus (evidence level L1). Approved use: Diabetes mellitus"
+monitor_inn: "insulin degludec"
+predicted_indications: ["type 1 diabetes mellitus", "autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 ---
 
 # Insulin Degludec

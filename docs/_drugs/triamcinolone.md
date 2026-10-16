@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Autoimmune disease, Crohn disease and inflammatory bowel disease…"
+monitor_inn: "Triamcinolone"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "idiopathic steroid-sensitive nephrotic syndrome", "alopecia universalis onychodystrophy vitiligo", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
 ---
 
 # Triamcinolone

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L2). Approved use: Rheumatoid arthritis (also juvenile idiopathic arthritis…"
+monitor_inn: "TOCILIZUMAB"
+predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 ---
 
 # Tocilizumab

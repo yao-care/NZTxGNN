@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis…"
+monitor_inn: "URSODEOXYCHOLIC ACID"
+predicted_indications: ["homozygous familial hypercholesterolemia"]
 ---
 
 # Ursodeoxycholic Acid

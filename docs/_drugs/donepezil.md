@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Donepezil: predicted new indication Top-ranked prediction: psychogenic movement disorders. Best-supported… (evidence level L5). Approved use: Alzheimer disease"
+monitor_inn: "Donepezil"
+predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 ---
 
 # Donepezil

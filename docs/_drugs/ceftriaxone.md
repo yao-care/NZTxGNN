@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Ceftriaxone: predicted new indication Hyperamylasemia . The most plausible alternative is infectious otitis… (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia, bacterial…"
+monitor_inn: "CEFTRIAXONE"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
 ---
 
 # Ceftriaxone

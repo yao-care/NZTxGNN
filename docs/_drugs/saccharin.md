@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Saccharin: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded"
+monitor_inn: "saccharin"
+predicted_indications: ["obsolete bundle branch block", "ventricular tachycardia"]
 ---
 
 # Saccharin

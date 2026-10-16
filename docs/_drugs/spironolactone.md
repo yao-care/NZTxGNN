@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension, congestive heart failure…"
+monitor_inn: "SPIRONOLACTONE"
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 ---
 
 # Spironolactone

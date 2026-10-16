@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L1). Approved use: Asthma"
+monitor_inn: "THEOPHYLLINE"
+predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "obstructive lung disease", "pharyngitis", "acute laryngopharyngitis"]
 ---
 
 # Theophylline

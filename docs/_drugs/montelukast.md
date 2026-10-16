@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Montelukast: predicted new indication Bronchitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, intrinsic asthma…"
+monitor_inn: "MONTELUKAST"
+predicted_indications: ["bronchitis", "atopic eczema", "asthma", "obstructive lung disease", "asthma-related traits, susceptibility to"]
 ---
 
 # Montelukast

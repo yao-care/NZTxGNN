@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (generalized tonic-clonic seizures, partial epilepsy…"
+monitor_inn: "TOPIRAMATE"
+predicted_indications: ["trigeminal nerve neoplasm", "visual epilepsy", "micturation-induced seizures", "startle epilepsy", "eating seizures", "orgasm-induced seizures", "thinking seizures", "audiogenic seizures", "reading seizures"]
 ---
 
 # Topiramate

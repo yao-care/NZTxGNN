@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma and lymphangioleiomyomatosis"
+monitor_inn: "SIROLIMUS"
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "lung PEComa", "vulva sarcoma"]
 ---
 
 # Sirolimus

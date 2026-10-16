@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Olodaterol: predicted new indication Bronchitis (evidence level L4). Approved use: Chronic obstructive pulmonary disease (COPD)"
+monitor_inn: "olodaterol"
+predicted_indications: ["bronchitis", "obstructive lung disease"]
 ---
 
 # Olodaterol

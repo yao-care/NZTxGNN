@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Miconazole: predicted new indication Acne (evidence level L4). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
+monitor_inn: "MICONAZOLE"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Miconazole

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Trastuzumab: predicted new indication Top-ranked by score: normal breast-like subtype of breast carcinoma.… (evidence level L5). Approved use: HER2 positive breast carcinoma"
+monitor_inn: "TRASTUZUMAB"
+predicted_indications: ["normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 ---
 
 # Trastuzumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Anxiety disorder, status epilepticus, absence epilepsy…"
+monitor_inn: "LORAZEPAM"
+predicted_indications: ["trigeminal nerve neoplasm", "insomnia (disease)", "reading seizures", "orgasm-induced seizures", "startle epilepsy", "thinking seizures", "micturation-induced seizures", "audiogenic seizures", "eating seizures", "acute encephalopathy with biphasic seizures and late reduced diffusion"]
 ---
 
 # Lorazepam

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Risdiplam: predicted new indication Acne (evidence level L5). Approved use: Not stated in the New Zealand licence data (the drug's known use is s…"
+monitor_inn: "RISDIPLAM"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Risdiplam

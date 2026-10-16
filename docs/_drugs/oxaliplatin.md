@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L5). Approved use: Metastasis from malignant tumour of colon"
+monitor_inn: "OXALIPLATIN"
+predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 ---
 
 # Oxaliplatin

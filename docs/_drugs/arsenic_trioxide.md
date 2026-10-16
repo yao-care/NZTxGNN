@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Arsenic Trioxide: predicted new indication Top-ranked: unclassified myelodysplastic syndrome. Best-supported: my… (evidence level L5). Approved use: Acute promyelocytic leukaemia, myelomonocytic leuk…"
+monitor_inn: "ARSENIC TRIOXIDE"
+predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 ---
 
 # Arsenic Trioxide

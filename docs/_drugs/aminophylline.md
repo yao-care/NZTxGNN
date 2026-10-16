@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded in the New Zealand licence data"
+monitor_inn: "AMINOPHYLLINE"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
 ---
 
 # Aminophylline

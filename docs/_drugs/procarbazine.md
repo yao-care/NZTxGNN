@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Procarbazine: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Hodgkin lymphoma (including classic Hodgkin lymphoma and its subtypes)"
+monitor_inn: "Procarbazine"
+predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 ---
 
 # Procarbazine

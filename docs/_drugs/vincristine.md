@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Vincristine: predicted new indication Ganglioneuroblastoma (evidence level L3). Approved use: Acute lymphoblastic leukemia, Hodgkin lymphoma…"
+monitor_inn: "vincristine"
+predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 ---
 
 # Vincristine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the New Zealand licence record (the clinical-use descri…"
+monitor_inn: "DOMPERIDONE"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Domperidone

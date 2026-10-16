@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Sacubitril: predicted new indication Top-ranked: brain small vessel disease 1 with or without ocular anoma… (evidence level L5). Approved use: Not stated in the New Zealand licence data (the combinat…"
+monitor_inn: "sacubitril"
+predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 ---
 
 # Sacubitril

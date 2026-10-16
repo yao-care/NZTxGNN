@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Probenecid: predicted new indication Renal hypouricemia (evidence level L4). Approved use: Gout"
+monitor_inn: "PROBENECID"
+predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 ---
 
 # Probenecid

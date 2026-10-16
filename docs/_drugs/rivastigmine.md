@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L4). Approved use: Alzheimer disease"
+monitor_inn: "RIVASTIGMINE"
+predicted_indications: ["glaucoma"]
 ---
 
 # Rivastigmine

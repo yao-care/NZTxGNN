@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Trastuzumab Deruxtecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: No approved indication text is available in the New Zealand licence r…"
+monitor_inn: "TRASTUZUMAB DERUXTECAN"
+predicted_indications: ["drug-induced osteoporosis"]
 ---
 
 # Trastuzumab Deruxtecan

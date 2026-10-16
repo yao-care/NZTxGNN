@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Lactulose: predicted new indication Obstructive jaundice (evidence level L3). Approved use: Hepatic encephalopathy, hepatic coma, constipation"
+monitor_inn: "LACTULOSE"
+predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 ---
 
 # Lactulose

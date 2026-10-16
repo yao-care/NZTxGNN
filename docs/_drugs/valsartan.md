@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Valsartan: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
+monitor_inn: "valsartan"
+predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 ---
 
 # Valsartan

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Bedaquiline: predicted new indication Inactive tuberculosis (evidence level L5). Approved use: Pulmonary tuberculosis"
+monitor_inn: "BEDAQUILINE"
+predicted_indications: ["tuberculosis, bovine", "tuberculous ascites", "tuberculoma", "inactive tuberculosis", "tuberculosis, avian", "vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "cutaneous tuberculosis", "esophageal candidiasis"]
 ---
 
 # Bedaquiline

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 9
 last_modified_at: 2026-10-15
 description: "Chloramphenicol: predicted new indication Conjunctivitis (evidence level L3). Approved use: Typhoid fever, salmonellosis, paratyphoid fever…"
+monitor_inn: "CHLORAMPHENICOL"
+predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Chloramphenicol

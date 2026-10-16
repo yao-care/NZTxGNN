@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Obinutuzumab: predicted new indication Follicular lymphoma (evidence level L1). Approved use: Acute lymphoblastic/lymphocytic leukaemia"
+monitor_inn: "OBINUTUZUMAB"
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "follicular lymphoma"]
 ---
 
 # Obinutuzumab

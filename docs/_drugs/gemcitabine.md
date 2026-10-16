@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Gemcitabine: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
+monitor_inn: "Gemcitabine"
+predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "rete ovarii adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 ---
 
 # Gemcitabine

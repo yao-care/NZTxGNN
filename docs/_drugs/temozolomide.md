@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Temozolomide: predicted new indication Adult astrocytic tumour (evidence level L1). Approved use: Anaplastic astrocytoma"
+monitor_inn: "TEMOZOLOMIDE"
+predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
 ---
 
 # Temozolomide

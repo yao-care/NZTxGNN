@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Simvastatin: predicted new indication Familial hypercholesterolemia (evidence level L1). Approved use: Hyperlipidaemia-related disorders (e.g. hypertriglyceridemia…"
+monitor_inn: "SIMVASTATIN"
+predicted_indications: ["familial hypercholesterolemia", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia, autosomal dominant", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Simvastatin

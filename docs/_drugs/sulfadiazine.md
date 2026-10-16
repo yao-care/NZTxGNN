@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Sulfadiazine: predicted new indication Pneumocystosis (evidence level L4). Approved use: Toxoplasmosis"
+monitor_inn: "Sulfadiazine"
+predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Sulfadiazine
