@@ -80,7 +80,7 @@ repurposing designed specifically for clinicians.
 "TxGNN integrates a knowledge graph of 17,080 biomedical entities and uses graph neural networks
 to learn complex relationships between nodes, predicting potential efficacy of drugs against
 rare diseases."
-<cite>&mdash; Huang et al., Nature Medicine (2023)</cite>
+<cite>&mdash; Huang et al., Nature Medicine (2024)</cite>
 </blockquote>
 
 ---

@@ -48,20 +48,15 @@ the evidence is graded from L1 to L5, and finally a decision recommendation is i
 
 ---
 
-## Dual-engine prediction
+## How predictions are made
 
-Two methods run in parallel, and a confidence label records whether they agree:
+TxGNN's deep learning (DL) model scores drug–disease pairs. Indications and contraindications already recorded for the drug in the TxGNN knowledge graph (KG) are then removed, so drug pages list only new predicted indications with a score of at least 0.99 (up to 10 per drug).
 
-| Method | Speed | Precision | Description |
-|--------|-------|-----------|-------------|
-| Knowledge graph (KG) | Fast | Lower | Inference over DrugBank relations and graph structure |
-| Deep learning (DL) | Slow | Higher | TxGNN graph neural network model |
-
-| Confidence | Source | Meaning |
-|------------|--------|---------|
-| very_high | KG + DL | Both methods agree |
-| high | DL only | High-scoring deep learning support |
-| medium | KG only | Knowledge graph support |
+| Step | Role |
+|------|------|
+| Deep learning (DL) | The TxGNN graph neural network scores each drug–disease pair |
+| Known-use check (KG) | Removes indications and contraindications already recorded in the knowledge graph; these are not counted as new predictions |
+| Evidence collection | Searches ClinicalTrials.gov and PubMed for each remaining prediction and assigns an evidence level (L1–L5) |
 
 ---
 
