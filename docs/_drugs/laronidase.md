@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 260
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Laronidase: predicted new indication Lysosomal storage disease with skeletal involvement (evidence level L4). Approved use: Mucopolysaccharidosis I (Hurler, Hurler-Scheie, Scheie syndromes)"
 ---
 
 # Laronidase

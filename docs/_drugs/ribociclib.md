@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Ribociclib: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Not stated in the New Zealand license data compiled for this report (…"
 ---
 
 # Ribociclib

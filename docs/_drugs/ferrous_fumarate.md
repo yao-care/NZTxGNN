@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Iron deficiency anaemia and related anaemias (folic acid deficiency a…"
 ---
 
 # Ferrous Fumarate

@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 283
 evidence_level: L2
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not stated in the available New Zealand licence data"
 ---
 
 # Mefenamic Acid

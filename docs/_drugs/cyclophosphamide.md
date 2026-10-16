@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 125
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Cyclophosphamide: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Mycosis fungoides and cutaneous T-cell lymphoma, plasma cell myeloma…"
 ---
 
 # Cyclophosphamide

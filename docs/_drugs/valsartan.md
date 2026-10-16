@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 475
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Valsartan: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 ---
 
 # Valsartan

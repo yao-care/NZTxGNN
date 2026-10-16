@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 329
 evidence_level: L2
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 ---
 
 # Nortriptyline

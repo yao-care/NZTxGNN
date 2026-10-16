@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 411
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Rizatriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder"
 ---
 
 # Rizatriptan

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Sacubitril: predicted new indication Top-ranked: brain small vessel disease 1 with or without ocular anoma… (evidence level L5). Approved use: Not stated in the New Zealand licence data (the combinat…"
 ---
 
 # Sacubitril

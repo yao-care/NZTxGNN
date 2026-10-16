@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 168
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bacterial infections (bronchitis, acne, bacterial pneumonia, anthrax…"
 ---
 
 # Doxycycline

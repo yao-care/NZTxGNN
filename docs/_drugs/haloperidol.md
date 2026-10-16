@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Psychotic disorder, schizophrenia, schizophreniform disorder…"
 ---
 
 # Haloperidol

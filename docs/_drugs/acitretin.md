@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 19
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not available"
 ---
 
 # Acitretin

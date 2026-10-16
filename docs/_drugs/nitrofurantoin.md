@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not listed in the New Zealand licence records (known use: urinary tra…"
 ---
 
 # Nitrofurantoin

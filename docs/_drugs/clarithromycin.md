@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 103
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Clarithromycin: predicted new indication Hyperamylasemia (evidence level L4). Approved use: Bacterial infections (otitis media, pneumonia, sinusitis…"
 ---
 
 # Clarithromycin

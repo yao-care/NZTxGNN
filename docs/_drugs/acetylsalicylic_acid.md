@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 18
 evidence_level: L3
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Acetylsalicylic Acid: predicted new indication Migraine with brainstem aura (evidence level L3). Approved use: Rheumatoid arthritis, migraine, myocardial infarction, osteoarthritis"
 ---
 
 # Acetylsalicylic Acid

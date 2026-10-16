@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 44
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Aripiprazole: predicted new indication Major affective disorder (major depressive disorder) (evidence level L1). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia…"
 ---
 
 # Aripiprazole

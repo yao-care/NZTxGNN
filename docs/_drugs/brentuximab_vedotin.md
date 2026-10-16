@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 70
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Brentuximab Vedotin: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Hodgkin lymphoma (including classic Hodgkin lymphoma)"
 ---
 
 # Brentuximab Vedotin

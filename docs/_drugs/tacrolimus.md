@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 435
 evidence_level: L1
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Atopic eczema / atopic dermatitis"
 ---
 
 # Tacrolimus

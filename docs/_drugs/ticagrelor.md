@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 451
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L2). Approved use: Acute coronary syndrome, peripheral vascular disease…"
 ---
 
 # Ticagrelor

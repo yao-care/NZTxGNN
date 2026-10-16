@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Bupropion: predicted new indication Attention deficit hyperactivity disorder (evidence level L5). Approved use: Major depressive disorder and nicotine dependence"
 ---
 
 # Bupropion

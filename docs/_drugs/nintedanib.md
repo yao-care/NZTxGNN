@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 322
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Idiopathic pulmonary fibrosis, non-small cell lung cancer"
 ---
 
 # Nintedanib

@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 420
 evidence_level: L1
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Pulmonary emphysema, intrinsic asthma, allergic asthma"
 ---
 
 # Salmeterol

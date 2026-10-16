@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 467
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Autoimmune disease, Crohn disease and inflammatory bowel disease…"
 ---
 
 # Triamcinolone

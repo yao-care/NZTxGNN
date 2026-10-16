@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 367
 evidence_level: L2
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Atopic eczema / atopic dermatitis"
 ---
 
 # Pimecrolimus

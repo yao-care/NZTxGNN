@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 437
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L4). Approved use: Female breast carcinoma"
 ---
 
 # Tamoxifen

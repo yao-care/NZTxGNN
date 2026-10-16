@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 294
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Metoclopramide: predicted new indication Gastric ulcer (evidence level L4). Approved use: Gastroesophageal reflux disease, esophagitis, peptic esophagitis"
 ---
 
 # Metoclopramide

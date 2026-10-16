@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 139
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Deferiprone: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Hemosiderosis and beta-thalassaemia-related conditions"
 ---
 
 # Deferiprone

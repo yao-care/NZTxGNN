@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease"
 ---
 
 # Entacapone

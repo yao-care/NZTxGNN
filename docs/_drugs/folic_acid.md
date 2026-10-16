@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin deficiency disorder"
 ---
 
 # Folic Acid

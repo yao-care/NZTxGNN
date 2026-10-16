@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 479
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Vilanterol: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease, asthma, bronchitis…"
 ---
 
 # Vilanterol

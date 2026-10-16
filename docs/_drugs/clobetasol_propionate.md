@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Clobetasol Propionate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Atopic eczema, atopic dermatitis, contact dermatitis…"
 ---
 
 # Clobetasol Propionate

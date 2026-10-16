@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 296
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, acute coronary syndrome, myocardial infarction"
 ---
 
 # Metoprolol

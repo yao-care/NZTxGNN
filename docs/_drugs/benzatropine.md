@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Benzatropine: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson's disease and related parkinsonian and dystonic disorders"
 ---
 
 # Benzatropine

@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 182
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Eplerenone: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L4). Approved use: Hypertension (hypertensive disorder). No approved indication text i…"
 ---
 
 # Eplerenone

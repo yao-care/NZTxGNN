@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 50
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Atomoxetine: predicted new indication Specific developmental disorder (evidence level L3). Approved use: Attention deficit hyperactivity disorder"
 ---
 
 # Atomoxetine

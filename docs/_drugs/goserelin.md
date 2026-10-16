@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 221
 evidence_level: L2
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Goserelin: predicted new indication Amenorrhea (evidence level L2). Approved use: Endometriosis"
 ---
 
 # Goserelin

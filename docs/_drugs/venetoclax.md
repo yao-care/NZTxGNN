@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Venetoclax: predicted new indication CLL/SLL with immunoglobulin heavy chain variable-region gene somatic… (evidence level L5). Approved use: Acute lymphoblastic/lymphocytic leukaemia"
 ---
 
 # Venetoclax

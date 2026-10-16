@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 94
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Chlorambucil: predicted new indication Pregerminal center chronic lymphocytic leukemia/small lymphocytic lym… (evidence level L4). Approved use: Hodgkin lymphoma, follicular lymphoma, mature B-cell n…"
 ---
 
 # Chlorambucil

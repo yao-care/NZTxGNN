@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 305
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Misoprostol: predicted new indication Amenorrhea (evidence level L4). Approved use: Not stated in the licence data"
 ---
 
 # Misoprostol

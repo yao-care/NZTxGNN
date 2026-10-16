@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Docetaxel: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Non-small cell lung cancer"
 ---
 
 # Docetaxel

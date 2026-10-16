@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 385
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Procarbazine: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Hodgkin lymphoma (including classic Hodgkin lymphoma and its subtypes)"
 ---
 
 # Procarbazine

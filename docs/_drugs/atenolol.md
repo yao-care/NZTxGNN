@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 48
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Atenolol: predicted new indication Posteroinferior myocardial infarction (evidence level L4). Approved use: Hypertension, myocardial infarction"
 ---
 
 # Atenolol

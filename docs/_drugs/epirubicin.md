@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L5). Approved use: Breast carcinoma / breast neoplasm"
 ---
 
 # Epirubicin

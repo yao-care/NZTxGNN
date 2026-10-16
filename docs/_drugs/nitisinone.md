@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Tyrosinemia"
 ---
 
 # Nitisinone

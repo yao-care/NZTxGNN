@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 376
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Pravastatin: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L4). Approved use: Hypertriglyceridaemia, stroke, cerebrovascular disorder…"
 ---
 
 # Pravastatin

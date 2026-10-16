@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 375
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Parkinson's disease…"
 ---
 
 # Pramipexole

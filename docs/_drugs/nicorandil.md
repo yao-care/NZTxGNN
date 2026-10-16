@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 320
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Nicorandil: predicted new indication Benign prostatic hyperplasia (evidence level L4). Approved use: Chronic stable angina pectoris"
 ---
 
 # Nicorandil

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 263
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 ---
 
 # Leflunomide

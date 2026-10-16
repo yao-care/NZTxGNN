@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 53
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Axitinib: predicted new indication Unclassified renal cell carcinoma (evidence level L5). Approved use: Renal cell carcinoma (clear cell and non-papillary renal cell carcino…"
 ---
 
 # Axitinib

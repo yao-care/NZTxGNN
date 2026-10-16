@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pemetrexed: predicted new indication Malignant peritoneal mesothelioma (evidence level L5). Approved use: Non-small cell lung carcinoma, lung cancer…"
 ---
 
 # Pemetrexed

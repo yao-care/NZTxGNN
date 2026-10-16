@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 384
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Probenecid: predicted new indication Renal hypouricemia (evidence level L4). Approved use: Gout"
 ---
 
 # Probenecid

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 38
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Amsacrine: predicted new indication Plasma cell myeloma (evidence level L5). Approved use: Not recorded in the New Zealand licence data"
 ---
 
 # Amsacrine

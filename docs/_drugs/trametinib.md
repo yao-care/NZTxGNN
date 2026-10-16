@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Trametinib: predicted new indication Choroideremia (evidence level L5). Approved use: Metastatic melanoma"
 ---
 
 # Trametinib
