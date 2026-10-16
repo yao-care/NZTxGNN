@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Dimethicone
 parent: Model Prediction Only (L5)

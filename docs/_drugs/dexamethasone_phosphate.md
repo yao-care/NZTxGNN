@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Dexamethasone Phosphate
 parent: Model Prediction Only (L5)

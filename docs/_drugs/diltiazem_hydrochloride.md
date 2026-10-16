@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Diltiazem Hydrochloride
 parent: Model Prediction Only (L5)

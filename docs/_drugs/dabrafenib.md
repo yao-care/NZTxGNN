@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Dabrafenib
 parent: Model Prediction Only (L5)
