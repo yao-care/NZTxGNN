@@ -56,7 +56,7 @@ Each source has its own licence — please check before citing:
 ## Academic citation
 
 > Huang, K., et al. (2023). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
-> [DOI: 10.1038/s41591-023-02233-x](https://doi.org/10.1038/s41591-023-02233-x)
+> [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)
 
 ---
 
