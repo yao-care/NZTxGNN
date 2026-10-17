@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L2). Approved use: Acute coronary syndrome, peripheral vascular disease…"
 monitor_inn: "TICAGRELOR"
-predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "mesenteric vascular occlusion", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
+predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "ischemic disease", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
 ---
 
 # Ticagrelor

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Pyridostigmine: predicted new indication Myasthenia gravis with thymus hyperplasia (evidence level L3). Approved use: Myasthenia gravis, adult-onset myasthenia gravis…"
 monitor_inn: "Pyridostigmine"
-predicted_indications: ["myasthenia gravis with thymus hyperplasia", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "myasthenia, limb-girdle, autoimmune", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+predicted_indications: ["hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 ---
 
 # Pyridostigmine
