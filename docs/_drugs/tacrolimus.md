@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "TACROLIMUS"
-predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+predicted_indications: ["parapsoriasis"]
 ---
 
 # Tacrolimus
@@ -27,7 +27,7 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

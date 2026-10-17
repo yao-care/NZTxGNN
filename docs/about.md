@@ -76,7 +76,7 @@ repurposing designed specifically for clinicians.
 </p>
 
 <blockquote class="expert-quote">
-"TxGNN integrates a knowledge graph of 17,080 biomedical entities and uses graph neural networks
+"TxGNN integrates a knowledge graph covering 17,080 diseases and uses graph neural networks
 to learn complex relationships between nodes, predicting potential efficacy of drugs against
 rare diseases."
 <cite>&mdash; Huang et al., Nature Medicine (2024)</cite>
@@ -91,7 +91,7 @@ rare diseases."
 <tr><th>Type</th><th>Source</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td>AI prediction</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvard knowledge graph prediction model</td></tr>
+<tr><td>AI prediction</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvard graph neural network model</td></tr>
 <tr><td>Clinical trials</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Global clinical trial registry</td></tr>
 <tr><td>Literature</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Biomedical literature database</td></tr>
 <tr><td>Drug information</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>Drug and target database</td></tr>

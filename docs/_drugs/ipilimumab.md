@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "IPILIMUMAB"
-predicted_indications: ["choroideremia", "non-cutaneous melanoma"]
+predicted_indications: ["choroideremia"]
 ---
 
 # Ipilimumab
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

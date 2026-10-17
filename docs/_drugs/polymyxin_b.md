@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the New Zealand license data"
 monitor_inn: "polymyxin b"
-predicted_indications: ["bronchitis", "laryngotracheitis", "conjunctivitis"]
+predicted_indications: ["bronchitis", "laryngotracheitis"]
 ---
 
 # Polymyxin B
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

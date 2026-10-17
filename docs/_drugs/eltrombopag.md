@@ -27,7 +27,7 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (partial epilepsy, Lennox-Gastaut syndrome)"
 monitor_inn: "LAMOTRIGINE"
-predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "audiogenic seizures", "eating seizures", "thinking seizures", "orgasm-induced seizures", "micturation-induced seizures", "reading seizures"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 ---
 
 # Lamotrigine
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

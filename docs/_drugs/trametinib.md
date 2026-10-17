@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Trametinib: predicted new indication Choroideremia (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "TRAMETINIB"
-predicted_indications: ["choroideremia", "non-cutaneous melanoma", "epithelioid cell melanoma", "eyelid melanoma", "scrotum melanoma", "lentigo maligna melanoma", "CDK4 linked melanoma", "amelanotic skin melanoma", "acral lentiginous melanoma (disease)", "nodular malignant melanoma"]
+predicted_indications: ["choroideremia"]
 ---
 
 # Trametinib
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 
