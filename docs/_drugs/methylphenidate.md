@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-15
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Attention deficit hyperactivity disorder (ADHD)"
 monitor_inn: "Methylphenidate"
-predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "dysthymic disorder"]
+predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 ---
 
 # Methylphenidate

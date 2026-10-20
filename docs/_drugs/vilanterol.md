@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Vilanterol: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease, asthma, bronchitis…"
 monitor_inn: "vilanterol"
-predicted_indications: ["tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 ---
 
 # Vilanterol

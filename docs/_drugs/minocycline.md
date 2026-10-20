@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection, bronchitis, acne, gonorrhoea, pharyngitis…"
 monitor_inn: "Minocycline"
-predicted_indications: ["exposure keratitis"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
 ---
 
 # Minocycline
