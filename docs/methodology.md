@@ -17,13 +17,13 @@ From AI prediction to evidence grading — every candidate has a traceable basis
 ## Overall pipeline
 
 <p class="key-answer" data-question="How does NZTxGNN produce its predictions?">
-The platform uses a four-stage pipeline: the TxGNN knowledge graph model predicts potential
+The platform uses a four-stage pipeline: the TxGNN graph neural network predicts potential
 drug&ndash;disease associations, evidence is then collected automatically for each predicted pair,
 the evidence is graded from L1 to L5, and finally a decision recommendation is issued.
 </p>
 
 <ol class="actionable-steps">
-<li><strong>TxGNN prediction</strong>: drug&ndash;disease relationships predicted with a knowledge graph combined with graph neural networks.</li>
+<li><strong>TxGNN prediction</strong>: drug&ndash;disease relationships predicted by a graph neural network trained on a knowledge graph.</li>
 <li><strong>Evidence collection</strong>: for each predicted pair, evidence is gathered from ClinicalTrials.gov, PubMed, DrugBank and Medsafe.</li>
 <li><strong>Evidence grading</strong>: graded L1 to L5, where L1 is strongest (multiple Phase 3 RCTs) and L5 is model prediction only.</li>
 <li><strong>Decision recommendation</strong>: Go, Proceed, Consider, Explore or Hold, based on the evidence level.</li>

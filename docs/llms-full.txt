@@ -17,7 +17,7 @@ Evidence levels range from L1 (stronger clinical evidence) to L5 (model predicti
 - `/evidence-high/` High Evidence (L1-L2) — L1-L2 drug repurposing candidates in NZTxGNN, supported by clinical trials or systematic reviews.
 - `/evidence-medium/` Moderate Evidence (L3-L4) — L3-L4 drug repurposing candidates in NZTxGNN, backed by observational or preclinical evidence.
 - `/evidence-low/` Model Prediction Only (L5) — L5 candidates in NZTxGNN: model prediction only, with no clinical or literature evidence yet.
-- `/methodology/` Methodology — How NZTxGNN produces and validates predictions: TxGNN knowledge graph prediction, evidence collection, L1-L5 grading, and decision recommendations.
+- `/methodology/` Methodology — How NZTxGNN produces and validates predictions: TxGNN graph neural network prediction, evidence collection, L1-L5 grading, and decision recommendations.
 - `/guide/` User Guide — NZTxGNN user guide: how to look up drugs, read evidence levels and interpret recommendations.
 - `/sources/` Data Sources — Data sources behind NZTxGNN: Medsafe registration data, TxGNN, ClinicalTrials.gov, PubMed and DrugBank.
 - `/downloads/` Downloads — NZTxGNN open data downloads: FHIR resources, prediction results and search index.
