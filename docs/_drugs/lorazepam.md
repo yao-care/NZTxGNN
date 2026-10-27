@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lorazepam: From Anxiety Disorder and Seizure Conditions to Trigeminal Nerve Neoplasm
+## Lorazepam: From Anxiety Disorder and Seizure Conditions to Trigeminal Nerve Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

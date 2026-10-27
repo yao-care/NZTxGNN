@@ -31,7 +31,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Acetaminophen: From Allergic Rhinitis, Migraine and Common Cold to Migraine with Brainstem Aura
+## Acetaminophen: From Allergic Rhinitis, Migraine and Common Cold to Migraine with Brainstem Aura
+{: .text-alpha }
 
 ## One-Sentence Summary
 

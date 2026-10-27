@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Cyclizine Lactate: Repurposing Evaluation — No Predictions Available
+## Cyclizine Lactate: Repurposing Evaluation — No Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

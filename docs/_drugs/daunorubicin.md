@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Daunorubicin: From Acute Leukaemia to Hodgkin's Lymphoma
+## Daunorubicin: From Acute Leukaemia to Hodgkin's Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Trimethoprim: From Urinary Tract Infection to Punctate Epithelial Keratoconjunctivitis
+## Trimethoprim: From Urinary Tract Infection to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

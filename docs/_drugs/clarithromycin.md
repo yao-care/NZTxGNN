@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Clarithromycin: From Respiratory and Ear/Sinus Bacterial Infections to Hyperamylasemia
+## Clarithromycin: From Respiratory and Ear/Sinus Bacterial Infections to Hyperamylasemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

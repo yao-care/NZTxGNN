@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tretinoin: From Acne and Acute Promyelocytic Leukaemia to Rheumatoid Nodulosis
+## Tretinoin: From Acne and Acute Promyelocytic Leukaemia to Rheumatoid Nodulosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

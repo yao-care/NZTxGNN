@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Deferasirox: From Beta-Thalassemia and Related Haemoglobin Disorders to HIV Infectious Disease
+## Deferasirox: From Beta-Thalassemia and Related Haemoglobin Disorders to HIV Infectious Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

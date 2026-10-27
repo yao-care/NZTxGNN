@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Heparin: From Pulmonary Embolism to Thrombophilia due to Protein C Deficiency (Autosomal Recessive)
+## Heparin: From Pulmonary Embolism to Thrombophilia due to Protein C Deficiency (Autosomal Recessive)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

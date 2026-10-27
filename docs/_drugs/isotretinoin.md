@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Isotretinoin: From Hypertensive Disorder to Malignant Renovascular Hypertension
+## Isotretinoin: From Hypertensive Disorder to Malignant Renovascular Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

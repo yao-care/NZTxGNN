@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **1**
 
 </div>
 
-# Dapsone: From Dermatitis Herpetiformis, Acne and Leprosy to Pneumocystosis
+## Dapsone: From Dermatitis Herpetiformis, Acne and Leprosy to Pneumocystosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

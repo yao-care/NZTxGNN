@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Mercaptopurine: From Acute Lymphoblastic Leukaemia to Myeloid Leukaemia
+## Mercaptopurine: From Acute Lymphoblastic Leukaemia to Myeloid Leukaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

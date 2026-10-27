@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Mupirocin: From Impetigo to Pleural Empyema
+## Mupirocin: From Impetigo to Pleural Empyema
+{: .text-alpha }
 
 ## One-Sentence Summary
 

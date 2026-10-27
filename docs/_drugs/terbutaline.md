@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-# Terbutaline: From Asthma to Obstructive Lung Disease
+## Terbutaline: From Asthma to Obstructive Lung Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

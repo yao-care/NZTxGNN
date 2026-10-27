@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Levocabastine: From Allergic Conjunctivitis to Allergic Urticaria
+## Levocabastine: From Allergic Conjunctivitis to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

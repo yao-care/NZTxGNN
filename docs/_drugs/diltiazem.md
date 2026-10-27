@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Diltiazem: From Hypertension to Obsolete Susceptibility to Ischemic Stroke
+## Diltiazem: From Hypertension to Obsolete Susceptibility to Ischemic Stroke
+{: .text-alpha }
 
 ## One-Sentence Summary
 

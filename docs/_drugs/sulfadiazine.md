@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Sulfadiazine: From Toxoplasmosis to Pneumocystosis
+## Sulfadiazine: From Toxoplasmosis to Pneumocystosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

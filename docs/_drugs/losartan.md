@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-# Losartan: From Hypertension to Malignant Renovascular Hypertension
+## Losartan: From Hypertension to Malignant Renovascular Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Mitoxantrone: From Acute Myeloid Leukaemia to Head and Neck Cancer
+## Mitoxantrone: From Acute Myeloid Leukaemia to Head and Neck Cancer
+{: .text-alpha }
 
 ## One-Sentence Summary
 

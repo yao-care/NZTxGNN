@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Oxybutynin: From Overactive Bladder to Restless Legs Syndrome
+## Oxybutynin: From Overactive Bladder to Restless Legs Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

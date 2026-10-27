@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Diclofenac Sodium: Repurposing Evaluation on Hold — No TxGNN Predictions Available
+## Diclofenac Sodium: Repurposing Evaluation on Hold — No TxGNN Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

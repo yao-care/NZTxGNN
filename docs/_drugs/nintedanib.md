@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Nintedanib: From Idiopathic Pulmonary Fibrosis and Lung Cancer to Dermatofibrosarcoma Protuberans
+## Nintedanib: From Idiopathic Pulmonary Fibrosis and Lung Cancer to Dermatofibrosarcoma Protuberans
+{: .text-alpha }
 
 ## One-Sentence Summary
 

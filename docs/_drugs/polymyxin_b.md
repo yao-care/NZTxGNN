@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Polymyxin B: From Ophthalmic Antibacterial Combination Products to Bronchitis
+## Polymyxin B: From Ophthalmic Antibacterial Combination Products to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

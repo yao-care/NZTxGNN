@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gemcitabine: From Ovarian Cancer to Female Breast Carcinoma
+## Gemcitabine: From Ovarian Cancer to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

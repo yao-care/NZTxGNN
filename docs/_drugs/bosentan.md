@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-# Bosentan: From Pulmonary Arterial Hypertension to Rheumatoid Arthritis
+## Bosentan: From Pulmonary Arterial Hypertension to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

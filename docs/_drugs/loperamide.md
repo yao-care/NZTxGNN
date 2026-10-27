@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Loperamide: From Diarrheal Disease to Acute Contagious Conjunctivitis
+## Loperamide: From Diarrheal Disease to Acute Contagious Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

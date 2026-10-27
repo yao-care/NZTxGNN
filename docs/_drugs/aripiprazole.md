@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Aripiprazole: From Bipolar Disorder and Schizophrenia to Major Affective Disorder
+## Aripiprazole: From Bipolar Disorder and Schizophrenia to Major Affective Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

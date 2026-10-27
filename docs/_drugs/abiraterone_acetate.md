@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Abiraterone Acetate: Evaluation Pending — No Predicted Indication Available
+## Abiraterone Acetate: Evaluation Pending — No Predicted Indication Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

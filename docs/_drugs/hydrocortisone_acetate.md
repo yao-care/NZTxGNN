@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hydrocortisone Acetate: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+## Hydrocortisone Acetate: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+{: .text-alpha }
 
 ## One-Sentence Summary
 

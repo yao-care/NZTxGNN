@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Procyclidine: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Procyclidine: From Parkinson Disease to Rasmussen Subacute Encephalitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

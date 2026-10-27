@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Levocarnitine: From Carnitine Supplementation to Autosomal Dominant Familial Hematuria-Retinal Arteriolar Tortuosity-Contractures Syndrome
+## Levocarnitine: From Carnitine Supplementation to Autosomal Dominant Familial Hematuria-Retinal Arteriolar Tortuosity-Contractures Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

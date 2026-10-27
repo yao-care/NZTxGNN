@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Amoxicillin: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+## Amoxicillin: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

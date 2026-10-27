@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Octreotide: From Acromegaly to Vulvar Inverted Follicular Keratosis
+## Octreotide: From Acromegaly to Vulvar Inverted Follicular Keratosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

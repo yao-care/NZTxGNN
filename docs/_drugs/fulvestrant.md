@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fulvestrant: From Breast Cancer Endocrine Therapy to HIV Infectious Disease
+## Fulvestrant: From Breast Cancer Endocrine Therapy to HIV Infectious Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

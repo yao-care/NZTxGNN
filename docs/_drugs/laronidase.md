@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Laronidase: From Mucopolysaccharidosis I (Hurler, Hurler-Scheie and Scheie Syndromes) to Lysosomal Storage Disease with Skeletal Involvement
+## Laronidase: From Mucopolysaccharidosis I (Hurler, Hurler-Scheie and Scheie Syndromes) to Lysosomal Storage Disease with Skeletal Involvement
+{: .text-alpha }
 
 ## One-Sentence Summary
 

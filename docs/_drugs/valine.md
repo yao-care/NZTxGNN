@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Valine: From an Unspecified Original Indication to Sclerosing Cholangitis
+## Valine: From an Unspecified Original Indication to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Pioglitazone: From Type 2 Diabetes Mellitus to Opsismodysplasia
+## Pioglitazone: From Type 2 Diabetes Mellitus to Opsismodysplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

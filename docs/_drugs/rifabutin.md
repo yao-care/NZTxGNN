@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rifabutin: From Mycobacterial Infection to HIV Infectious Disease
+## Rifabutin: From Mycobacterial Infection to HIV Infectious Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mycophenolate Mofetil: From Transplant Immunosuppression to HIV Infectious Disease
+## Mycophenolate Mofetil: From Transplant Immunosuppression to HIV Infectious Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

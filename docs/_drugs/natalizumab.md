@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Natalizumab: From Crohn's Disease and Multiple Sclerosis to Bronchitis
+## Natalizumab: From Crohn's Disease and Multiple Sclerosis to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

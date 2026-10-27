@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Carbamazepine: From Epilepsy and Trigeminal Neuralgia to Trigeminal Nerve Neoplasm
+## Carbamazepine: From Epilepsy and Trigeminal Neuralgia to Trigeminal Nerve Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

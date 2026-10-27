@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Citalopram: From Depression and Anxiety Disorders to Obsessive-Compulsive Disorder
+## Citalopram: From Depression and Anxiety Disorders to Obsessive-Compulsive Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

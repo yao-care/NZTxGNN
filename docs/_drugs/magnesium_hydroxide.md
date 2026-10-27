@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **6**
 
 </div>
 
-# Magnesium Hydroxide: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Magnesium Hydroxide: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

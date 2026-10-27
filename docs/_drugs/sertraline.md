@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Sertraline: From Anxiety Disorders to Histrionic Personality Disorder
+## Sertraline: From Anxiety Disorders to Histrionic Personality Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

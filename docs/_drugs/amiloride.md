@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Amiloride: From Hypertension and Congestive Heart Failure to Malignant Renovascular Hypertension
+## Amiloride: From Hypertension and Congestive Heart Failure to Malignant Renovascular Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

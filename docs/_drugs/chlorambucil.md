@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-# Chlorambucil: From Hodgkin Lymphoma and Other Lymphoid Malignancies to Pregerminal Center Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+## Chlorambucil: From Hodgkin Lymphoma and Other Lymphoid Malignancies to Pregerminal Center Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

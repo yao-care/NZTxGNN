@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Vilanterol: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+## Vilanterol: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

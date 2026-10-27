@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Papaverine: From Peripheral Vascular Disease to Ischemic Disease
+## Papaverine: From Peripheral Vascular Disease to Ischemic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

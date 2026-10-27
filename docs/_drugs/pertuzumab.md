@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Pertuzumab: From HER2-Positive Breast Carcinoma to Progesterone-Receptor Positive Breast Cancer
+## Pertuzumab: From HER2-Positive Breast Carcinoma to Progesterone-Receptor Positive Breast Cancer
+{: .text-alpha }
 
 ## One-Sentence Summary
 

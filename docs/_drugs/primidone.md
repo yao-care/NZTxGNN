@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Primidone: From Epilepsy to Trigeminal Nerve Neoplasm
+## Primidone: From Epilepsy to Trigeminal Nerve Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

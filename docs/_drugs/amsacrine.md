@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Amsacrine: From Antineoplastic Use (Original Indication Not Recorded) to Plasma Cell Myeloma
+## Amsacrine: From Antineoplastic Use (Original Indication Not Recorded) to Plasma Cell Myeloma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

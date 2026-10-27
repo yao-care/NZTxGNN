@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Lamotrigine: From Epilepsy to Trigeminal Nerve Neoplasm
+## Lamotrigine: From Epilepsy to Trigeminal Nerve Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

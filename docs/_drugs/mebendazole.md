@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Mebendazole: From Enterobiasis, Ascaridiasis and Trichuriasis to Acne
+## Mebendazole: From Enterobiasis, Ascaridiasis and Trichuriasis to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

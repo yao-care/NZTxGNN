@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Saccharin: From No Documented Original Indication to Obsolete Bundle Branch Block
+## Saccharin: From No Documented Original Indication to Obsolete Bundle Branch Block
+{: .text-alpha }
 
 ## One-Sentence Summary
 

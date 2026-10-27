@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acyclovir: From Herpesvirus Infections to Punctate Epithelial Keratoconjunctivitis
+## Acyclovir: From Herpesvirus Infections to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

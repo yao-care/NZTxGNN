@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **2**
 
 </div>
 
-# Moclobemide: From Anxiety Disorder to Agoraphobia
+## Moclobemide: From Anxiety Disorder to Agoraphobia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

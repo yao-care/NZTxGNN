@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Ribociclib: From Breast Cancer to Myeloid Leukemia
+## Ribociclib: From Breast Cancer to Myeloid Leukemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

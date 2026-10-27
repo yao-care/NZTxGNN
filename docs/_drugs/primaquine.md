@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Primaquine: From Plasmodium vivax Malaria to Myiasis
+## Primaquine: From Plasmodium vivax Malaria to Myiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

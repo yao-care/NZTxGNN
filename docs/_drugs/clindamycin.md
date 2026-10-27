@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Clindamycin: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
+## Clindamycin: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

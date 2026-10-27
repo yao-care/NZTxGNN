@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Nicorandil: From Angina Pectoris to Benign Prostatic Hyperplasia
+## Nicorandil: From Angina Pectoris to Benign Prostatic Hyperplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

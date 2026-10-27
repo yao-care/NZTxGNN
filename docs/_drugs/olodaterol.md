@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Olodaterol: From Chronic Obstructive Pulmonary Disease to Bronchitis
+## Olodaterol: From Chronic Obstructive Pulmonary Disease to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

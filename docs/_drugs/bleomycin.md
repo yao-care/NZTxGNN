@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Bleomycin: From Hodgkin Lymphoma and Other Lymphomas to Reticulum Cell Sarcoma (Lymphoma)
+## Bleomycin: From Hodgkin Lymphoma and Other Lymphomas to Reticulum Cell Sarcoma (Lymphoma)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

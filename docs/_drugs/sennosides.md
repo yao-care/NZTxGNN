@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Sennosides: From Constipation (Laxative Use) to Hypotrichosis Simplex of the Scalp
+## Sennosides: From Constipation (Laxative Use) to Hypotrichosis Simplex of the Scalp
+{: .text-alpha }
 
 ## One-Sentence Summary
 

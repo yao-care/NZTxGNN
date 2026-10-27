@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-# Imipramine: From Anxiety Disorder to Attention Deficit-Hyperactivity Disorder
+## Imipramine: From Anxiety Disorder to Attention Deficit-Hyperactivity Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

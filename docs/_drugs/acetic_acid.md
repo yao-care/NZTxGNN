@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Acetic Acid: From Otitis Externa to Post-Bacterial Disorder
+## Acetic Acid: From Otitis Externa to Post-Bacterial Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

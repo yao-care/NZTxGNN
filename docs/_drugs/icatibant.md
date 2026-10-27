@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-# Icatibant: From Hereditary Angioedema to C1 Inhibitor Deficiency
+## Icatibant: From Hereditary Angioedema to C1 Inhibitor Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

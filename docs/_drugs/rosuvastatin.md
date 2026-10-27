@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rosuvastatin: From Hyperlipidaemia and Atherosclerotic Disease to Cholesterol-Ester Transfer Protein Deficiency
+## Rosuvastatin: From Hyperlipidaemia and Atherosclerotic Disease to Cholesterol-Ester Transfer Protein Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

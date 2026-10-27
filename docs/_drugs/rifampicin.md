@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Rifampicin: From Pulmonary Tuberculosis to Conjunctivitis
+## Rifampicin: From Pulmonary Tuberculosis to Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

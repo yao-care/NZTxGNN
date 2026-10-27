@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Norfloxacin: From Bacterial Infections (Urinary Tract Infection and Others) to Hyperamylasemia
+## Norfloxacin: From Bacterial Infections (Urinary Tract Infection and Others) to Hyperamylasemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

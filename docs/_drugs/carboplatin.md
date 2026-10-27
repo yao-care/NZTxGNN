@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Carboplatin: From Ovarian Cancer to Female Breast Carcinoma
+## Carboplatin: From Ovarian Cancer to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

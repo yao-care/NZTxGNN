@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pemetrexed: From Non-Small Cell Lung Cancer and Pleural Mesothelioma to Malignant Peritoneal Mesothelioma
+## Pemetrexed: From Non-Small Cell Lung Cancer and Pleural Mesothelioma to Malignant Peritoneal Mesothelioma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

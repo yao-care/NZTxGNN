@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Cholecalciferol: From Vitamin D Deficiency and Bone Disorders to Familial Isolated Hypoparathyroidism (Impaired PTH Secretion)
+## Cholecalciferol: From Vitamin D Deficiency and Bone Disorders to Familial Isolated Hypoparathyroidism (Impaired PTH Secretion)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

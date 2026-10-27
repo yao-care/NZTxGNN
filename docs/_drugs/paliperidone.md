@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Paliperidone: From Schizophrenia to Retinal Dystrophy (Top-Ranked Prediction; Best-Supported Alternative: Treatment-Refractory Schizophrenia)
+## Paliperidone: From Schizophrenia to Retinal Dystrophy (Top-Ranked Prediction; Best-Supported Alternative: Treatment-Refractory Schizophrenia)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

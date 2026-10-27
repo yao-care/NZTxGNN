@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# DIHYDROCODEINE TARTRATE: Repurposing Analysis — Insufficient Evidence for Evaluation
+## DIHYDROCODEINE TARTRATE: Repurposing Analysis — Insufficient Evidence for Evaluation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

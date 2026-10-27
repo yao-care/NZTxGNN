@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Beclomethasone Dipropionate: From Asthma and Allergic Rhinitis to Atopic Eczema
+## Beclomethasone Dipropionate: From Asthma and Allergic Rhinitis to Atopic Eczema
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-# Tacrolimus: From Atopic Eczema to Seborrheic Dermatitis
+## Tacrolimus: From Atopic Eczema to Seborrheic Dermatitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

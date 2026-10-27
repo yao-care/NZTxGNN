@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Teriparatide: From Postmenopausal Osteoporosis to Duodenal Ulcer
+## Teriparatide: From Postmenopausal Osteoporosis to Duodenal Ulcer
+{: .text-alpha }
 
 ## One-Sentence Summary
 

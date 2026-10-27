@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Pegaspargase: From Acute Lymphoblastic Leukaemia to Precursor Lymphoblastic Lymphoma/Leukaemia
+## Pegaspargase: From Acute Lymphoblastic Leukaemia to Precursor Lymphoblastic Lymphoma/Leukaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

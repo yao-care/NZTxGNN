@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Adapalene: From Acne to Elevated Plasma Zinc
+## Adapalene: From Acne to Elevated Plasma Zinc
+{: .text-alpha }
 
 ## One-Sentence Summary
 

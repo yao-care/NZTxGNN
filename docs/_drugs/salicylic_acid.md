@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salicylic Acid: From Topical Dermatological and Inflammatory Conditions to Papillary Conjunctivitis
+## Salicylic Acid: From Topical Dermatological and Inflammatory Conditions to Papillary Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

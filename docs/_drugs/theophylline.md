@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-# Theophylline: From Asthma to Thrombotic Disease
+## Theophylline: From Asthma to Thrombotic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

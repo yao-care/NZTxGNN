@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Allantoin: From Psoriasis and Dermatitis to Severe Nonproliferative Diabetic Retinopathy
+## Allantoin: From Psoriasis and Dermatitis to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

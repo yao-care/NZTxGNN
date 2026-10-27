@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Periciazine: From Psychosis and Severe Behavioural Disturbance to Migraine Disorder
+## Periciazine: From Psychosis and Severe Behavioural Disturbance to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

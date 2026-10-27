@@ -31,7 +31,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Capecitabine: From Gastric Cancer to Gastric Tubular Adenocarcinoma
+## Capecitabine: From Gastric Cancer to Gastric Tubular Adenocarcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

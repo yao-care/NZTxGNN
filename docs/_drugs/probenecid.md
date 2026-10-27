@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Probenecid: From Gout to Renal Hypouricemia
+## Probenecid: From Gout to Renal Hypouricemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

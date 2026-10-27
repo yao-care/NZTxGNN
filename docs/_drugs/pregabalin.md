@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Pregabalin: From Neuropathic Pain and Anxiety to Tendinitis
+## Pregabalin: From Neuropathic Pain and Anxiety to Tendinitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

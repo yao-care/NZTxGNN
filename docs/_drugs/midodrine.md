@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Midodrine: From Orthostatic Hypotension to Hypotensive Disorder
+## Midodrine: From Orthostatic Hypotension to Hypotensive Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

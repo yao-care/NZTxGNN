@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Atezolizumab: From Transitional Cell Carcinoma to Prostatic Urethra Urothelial Carcinoma
+## Atezolizumab: From Transitional Cell Carcinoma to Prostatic Urethra Urothelial Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

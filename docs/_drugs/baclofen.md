@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Baclofen: From Spasticity to Attention Deficit-Hyperactivity Disorder
+## Baclofen: From Spasticity to Attention Deficit-Hyperactivity Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

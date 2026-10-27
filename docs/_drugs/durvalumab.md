@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Durvalumab: From Transitional Cell Carcinoma to Prostatic Urethra Urothelial Carcinoma
+## Durvalumab: From Transitional Cell Carcinoma to Prostatic Urethra Urothelial Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

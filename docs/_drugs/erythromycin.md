@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Erythromycin: From Bacterial Infections (Including Conjunctivitis) to Punctate Epithelial Keratoconjunctivitis
+## Erythromycin: From Bacterial Infections (Including Conjunctivitis) to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

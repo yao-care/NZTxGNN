@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfasalazine: From Rheumatoid Arthritis and Ulcerative Colitis to Osteoarthritis
+## Sulfasalazine: From Rheumatoid Arthritis and Ulcerative Colitis to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

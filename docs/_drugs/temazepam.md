@@ -31,7 +31,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Temazepam: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+## Temazepam: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

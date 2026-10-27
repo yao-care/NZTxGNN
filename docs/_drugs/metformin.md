@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Metformin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+## Metformin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Econazole: From Tinea Infections to Majocchi Granuloma
+## Econazole: From Tinea Infections to Majocchi Granuloma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

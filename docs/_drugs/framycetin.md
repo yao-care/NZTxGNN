@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Framycetin: From Topical Antibacterial Use to Sclerosing Cholangitis
+## Framycetin: From Topical Antibacterial Use to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

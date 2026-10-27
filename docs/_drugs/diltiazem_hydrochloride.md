@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Diltiazem Hydrochloride: Repurposing Evaluation — Insufficient Data for Full Analysis
+## Diltiazem Hydrochloride: Repurposing Evaluation — Insufficient Data for Full Analysis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Olsalazine: From Inflammatory Bowel Disease (Indication Not Documented in Licence Data) to Myelodysplastic Syndrome
+## Olsalazine: From Inflammatory Bowel Disease (Indication Not Documented in Licence Data) to Myelodysplastic Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

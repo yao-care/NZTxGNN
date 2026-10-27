@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Apomorphine: From Parkinson Disease to Polymicrogyria, Perisylvian, with Cerebellar Hypoplasia and Arthrogryposis
+## Apomorphine: From Parkinson Disease to Polymicrogyria, Perisylvian, with Cerebellar Hypoplasia and Arthrogryposis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Leflunomide: From Rheumatoid Arthritis to Brachydactyly-Syndactyly Syndrome
+## Leflunomide: From Rheumatoid Arthritis to Brachydactyly-Syndactyly Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

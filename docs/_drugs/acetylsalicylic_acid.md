@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-# Acetylsalicylic Acid: From Rheumatoid Arthritis and Migraine to Migraine with Brainstem Aura
+## Acetylsalicylic Acid: From Rheumatoid Arthritis and Migraine to Migraine with Brainstem Aura
+{: .text-alpha }
 
 ## One-Sentence Summary
 

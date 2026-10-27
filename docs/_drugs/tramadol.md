@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tramadol: From Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Tramadol: From Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+{: .text-alpha }
 
 ## One-Sentence Summary
 

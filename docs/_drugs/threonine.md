@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Threonine: From Metabolic Nutritional Support (MMA/PA Formulas) to Gastroparesis
+## Threonine: From Metabolic Nutritional Support (MMA/PA Formulas) to Gastroparesis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

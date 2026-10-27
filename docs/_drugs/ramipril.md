@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ramipril: From Hypertension to Pulmonary Hypertension (Hypoxia/Lung Disease-Related)
+## Ramipril: From Hypertension to Pulmonary Hypertension (Hypoxia/Lung Disease-Related)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

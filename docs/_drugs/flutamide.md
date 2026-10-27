@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Flutamide: From Prostate Cancer to Prostate Cancer/Brain Cancer Susceptibility
+## Flutamide: From Prostate Cancer to Prostate Cancer/Brain Cancer Susceptibility
+{: .text-alpha }
 
 ## One-Sentence Summary
 

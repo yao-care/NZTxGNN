@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **3**
 
 </div>
 
-# Albendazole: From Cystic Echinococcosis to Alveolar Echinococcosis
+## Albendazole: From Cystic Echinococcosis to Alveolar Echinococcosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

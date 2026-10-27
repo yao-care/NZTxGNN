@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Betamethasone: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+## Betamethasone: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Fosfomycin: From Urinary Tract Infection to Gonococcal Urethritis
+## Fosfomycin: From Urinary Tract Infection to Gonococcal Urethritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Nilotinib: From BCR-ABL1-Positive Chronic Myelogenous Leukaemia to Dermatofibrosarcoma Protuberans
+## Nilotinib: From BCR-ABL1-Positive Chronic Myelogenous Leukaemia to Dermatofibrosarcoma Protuberans
+{: .text-alpha }
 
 ## One-Sentence Summary
 

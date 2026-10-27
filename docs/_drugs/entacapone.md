@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Entacapone: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+## Entacapone: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+{: .text-alpha }
 
 ## One-Sentence Summary
 

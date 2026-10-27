@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Diclofenac: From Arthritis and Actinic Keratosis to Juvenile Idiopathic Arthritis
+## Diclofenac: From Arthritis and Actinic Keratosis to Juvenile Idiopathic Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

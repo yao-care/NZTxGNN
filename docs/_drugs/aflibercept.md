@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Aflibercept: From Neovascular Retinal and Macular Disease to Esotropia
+## Aflibercept: From Neovascular Retinal and Macular Disease to Esotropia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

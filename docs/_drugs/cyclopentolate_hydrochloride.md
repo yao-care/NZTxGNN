@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Cyclopentolate Hydrochloride: Repurposing Evaluation — Insufficient Data to Complete Assessment
+## Cyclopentolate Hydrochloride: Repurposing Evaluation — Insufficient Data to Complete Assessment
+{: .text-alpha }
 
 ## One-Sentence Summary
 

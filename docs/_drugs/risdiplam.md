@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Risdiplam: From Spinal Muscular Atrophy to Acne
+## Risdiplam: From Spinal Muscular Atrophy to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

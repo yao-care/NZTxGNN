@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Propylene Glycol: From Dry Eye Syndrome to Bronchitis
+## Propylene Glycol: From Dry Eye Syndrome to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

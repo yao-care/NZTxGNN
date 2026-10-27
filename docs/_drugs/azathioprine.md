@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Azathioprine: From Rheumatoid Arthritis to Inflammatory Bowel Disease
+## Azathioprine: From Rheumatoid Arthritis to Inflammatory Bowel Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

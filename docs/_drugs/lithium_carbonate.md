@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lithium Carbonate: From Bipolar Disorder to Pseudoachondroplasia
+## Lithium Carbonate: From Bipolar Disorder to Pseudoachondroplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

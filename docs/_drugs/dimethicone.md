@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# DIMETHICONE: Repurposing Evaluation — Insufficient Data for Assessment
+## DIMETHICONE: Repurposing Evaluation — Insufficient Data for Assessment
+{: .text-alpha }
 
 ## One-Sentence Summary
 

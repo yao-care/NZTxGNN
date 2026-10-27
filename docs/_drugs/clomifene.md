@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clomifene: From Female Infertility to 46,XY Disorder of Sex Development Due to Testicular Steroidogenesis Defect
+## Clomifene: From Female Infertility to 46,XY Disorder of Sex Development Due to Testicular Steroidogenesis Defect
+{: .text-alpha }
 
 ## One-Sentence Summary
 

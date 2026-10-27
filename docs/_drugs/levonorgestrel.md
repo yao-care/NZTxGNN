@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Levonorgestrel: From Postmenopausal Osteoporosis to Acne
+## Levonorgestrel: From Postmenopausal Osteoporosis to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

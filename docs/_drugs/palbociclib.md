@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Palbociclib: From Breast Cancer Treatment to Rheumatoid Arthritis
+## Palbociclib: From Breast Cancer Treatment to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

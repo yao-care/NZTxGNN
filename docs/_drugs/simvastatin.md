@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **8**
 
 </div>
 
-# Simvastatin: From Hyperlipidaemia and Stroke to Familial Hypercholesterolemia
+## Simvastatin: From Hyperlipidaemia and Stroke to Familial Hypercholesterolemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

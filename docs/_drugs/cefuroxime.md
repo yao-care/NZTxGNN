@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cefuroxime: From Bacterial Infections to Urinary Tract Infection
+## Cefuroxime: From Bacterial Infections to Urinary Tract Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

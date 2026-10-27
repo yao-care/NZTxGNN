@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Quetiapine: From Schizophrenia and Bipolar Disorder to Trichotillomania
+## Quetiapine: From Schizophrenia and Bipolar Disorder to Trichotillomania
+{: .text-alpha }
 
 ## One-Sentence Summary
 

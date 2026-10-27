@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Trastuzumab Deruxtecan: From HER2-Expressing Cancers to Drug-Induced Osteoporosis
+## Trastuzumab Deruxtecan: From HER2-Expressing Cancers to Drug-Induced Osteoporosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

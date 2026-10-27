@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Dabrafenib: Evidence Incomplete — Repurposing Evaluation Pending
+## Dabrafenib: Evidence Incomplete — Repurposing Evaluation Pending
+{: .text-alpha }
 
 ## One-Sentence Summary
 

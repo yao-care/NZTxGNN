@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Ocrelizumab: From Progressive Multiple Sclerosis to HER2-Positive Breast Carcinoma
+## Ocrelizumab: From Progressive Multiple Sclerosis to HER2-Positive Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

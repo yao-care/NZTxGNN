@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Docetaxel: From Non-Small Cell Lung Cancer to Female Breast Carcinoma
+## Docetaxel: From Non-Small Cell Lung Cancer to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Natamycin: From Mycotic Corneal Ulcer to Vulvovaginal Candidiasis
+## Natamycin: From Mycotic Corneal Ulcer to Vulvovaginal Candidiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

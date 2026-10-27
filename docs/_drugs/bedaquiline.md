@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bedaquiline: From Pulmonary Tuberculosis to Inactive (Latent) Tuberculosis
+## Bedaquiline: From Pulmonary Tuberculosis to Inactive (Latent) Tuberculosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

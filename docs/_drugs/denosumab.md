@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Denosumab: From Osteoporosis to Severe Nonproliferative Diabetic Retinopathy
+## Denosumab: From Osteoporosis to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

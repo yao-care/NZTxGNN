@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Sodium Citrate: From Acid-Related Upper GI and Upper Respiratory Conditions to Papillary Conjunctivitis
+## Sodium Citrate: From Acid-Related Upper GI and Upper Respiratory Conditions to Papillary Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

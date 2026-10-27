@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Potassium Citrate: From Potassium Deficiency and Renal Tubular Acidosis to Familial Visceral Myopathy
+## Potassium Citrate: From Potassium Deficiency and Renal Tubular Acidosis to Familial Visceral Myopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

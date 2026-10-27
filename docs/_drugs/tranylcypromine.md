@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tranylcypromine: From Depression to Benign Paroxysmal Torticollis of Infancy
+## Tranylcypromine: From Depression to Benign Paroxysmal Torticollis of Infancy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

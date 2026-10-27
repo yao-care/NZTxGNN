@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Atomoxetine: From Attention Deficit Hyperactivity Disorder to Specific Developmental Disorder
+## Atomoxetine: From Attention Deficit Hyperactivity Disorder to Specific Developmental Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

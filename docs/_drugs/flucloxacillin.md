@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Flucloxacillin: From Staphylococcal Infections to Conjunctivitis
+## Flucloxacillin: From Staphylococcal Infections to Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

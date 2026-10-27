@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prednisolone Acetate: From Uveitis to Chronic Follicular Conjunctivitis
+## Prednisolone Acetate: From Uveitis to Chronic Follicular Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

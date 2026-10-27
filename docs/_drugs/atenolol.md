@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-# Atenolol: From Hypertension and Myocardial Infarction to Posteroinferior Myocardial Infarction
+## Atenolol: From Hypertension and Myocardial Infarction to Posteroinferior Myocardial Infarction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

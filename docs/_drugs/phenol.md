@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Phenol: From Dermatitis to Acrodermatitis Chronica Atrophicans
+## Phenol: From Dermatitis to Acrodermatitis Chronica Atrophicans
+{: .text-alpha }
 
 ## One-Sentence Summary
 

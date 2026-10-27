@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pirfenidone: From Idiopathic Pulmonary Fibrosis to Extracutaneous Mastocytoma
+## Pirfenidone: From Idiopathic Pulmonary Fibrosis to Extracutaneous Mastocytoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

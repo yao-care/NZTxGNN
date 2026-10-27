@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ursodeoxycholic Acid: From Cholelithiasis to Homozygous Familial Hypercholesterolemia
+## Ursodeoxycholic Acid: From Cholelithiasis to Homozygous Familial Hypercholesterolemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

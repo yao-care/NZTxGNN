@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Miconazole: From Superficial Fungal Skin Infections to Acne
+## Miconazole: From Superficial Fungal Skin Infections to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

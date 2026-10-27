@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Rasagiline: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+## Rasagiline: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+{: .text-alpha }
 
 ## One-Sentence Summary
 

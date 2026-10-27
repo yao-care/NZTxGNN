@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Famotidine: From Gastric Ulcer to Duodenogastric Reflux
+## Famotidine: From Gastric Ulcer to Duodenogastric Reflux
+{: .text-alpha }
 
 ## One-Sentence Summary
 

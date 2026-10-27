@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-# Clotrimazole: From Fungal Skin and Mucosal Infections to Vulvovaginitis
+## Clotrimazole: From Fungal Skin and Mucosal Infections to Vulvovaginitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

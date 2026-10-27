@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Potassium Chloride: From Potassium Deficiency to Renal Tubular Acidosis
+## Potassium Chloride: From Potassium Deficiency to Renal Tubular Acidosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

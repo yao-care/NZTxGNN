@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-# Pravastatin: From Hyperlipidaemia and Atherosclerotic Disease to Homozygous Familial Hypercholesterolaemia
+## Pravastatin: From Hyperlipidaemia and Atherosclerotic Disease to Homozygous Familial Hypercholesterolaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

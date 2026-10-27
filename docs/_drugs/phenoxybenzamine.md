@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Phenoxybenzamine: From Pheochromocytoma to Primary Hereditary Glaucoma
+## Phenoxybenzamine: From Pheochromocytoma to Primary Hereditary Glaucoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

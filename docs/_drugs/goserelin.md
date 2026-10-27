@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **3**
 
 </div>
 
-# Goserelin: From Endometriosis to Amenorrhea
+## Goserelin: From Endometriosis to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

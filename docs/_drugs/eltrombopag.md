@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Eltrombopag: From Autoimmune Thrombocytopenia to HIV Infectious Disease
+## Eltrombopag: From Autoimmune Thrombocytopenia to HIV Infectious Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

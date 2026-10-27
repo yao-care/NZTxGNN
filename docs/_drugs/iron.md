@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Iron: From Iron Deficiency Anemia to Plummer-Vinson Syndrome
+## Iron: From Iron Deficiency Anemia to Plummer-Vinson Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

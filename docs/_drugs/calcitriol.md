@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Calcitriol: From Calcium and Phosphate Metabolism Disorders to Obsolete Vitamin D Deficiency
+## Calcitriol: From Calcium and Phosphate Metabolism Disorders to Obsolete Vitamin D Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

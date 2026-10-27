@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lacosamide: From Epilepsy (Original Indication Not Recorded in Licence Data) to Migraine Disorder
+## Lacosamide: From Epilepsy (Original Indication Not Recorded in Licence Data) to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

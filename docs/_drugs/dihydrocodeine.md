@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Dihydrocodeine: From Allergic Rhinitis and Common Cold to Nasal Cavity Disease
+## Dihydrocodeine: From Allergic Rhinitis and Common Cold to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

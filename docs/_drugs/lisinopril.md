@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lisinopril: From Hypertension and Myocardial Infarction to Posteroinferior Myocardial Infarction
+## Lisinopril: From Hypertension and Myocardial Infarction to Posteroinferior Myocardial Infarction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

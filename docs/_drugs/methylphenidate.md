@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Methylphenidate: From Attention Deficit Hyperactivity Disorder to Faciodigitogenital Syndrome
+## Methylphenidate: From Attention Deficit Hyperactivity Disorder to Faciodigitogenital Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

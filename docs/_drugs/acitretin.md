@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 </div>
 
-# Acitretin: From an Unspecified Original Indication to Acne
+## Acitretin: From an Unspecified Original Indication to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

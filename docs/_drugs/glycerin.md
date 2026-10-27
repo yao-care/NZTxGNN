@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Glycerin: From Constipation to Cauda Equina Syndrome
+## Glycerin: From Constipation to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

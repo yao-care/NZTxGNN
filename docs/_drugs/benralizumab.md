@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Benralizumab: From Eosinophilic Pneumonia to Thrombocytopenia Due to Immune Destruction
+## Benralizumab: From Eosinophilic Pneumonia to Thrombocytopenia Due to Immune Destruction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

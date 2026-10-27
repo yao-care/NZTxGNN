@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tolcapone: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Tolcapone: From Parkinson Disease to Rasmussen Subacute Encephalitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

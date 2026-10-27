@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Insulin Glulisine: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Glulisine: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+{: .text-alpha }
 
 ## One-Sentence Summary
 

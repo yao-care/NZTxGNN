@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Abacavir: From HIV Infection / AIDS to Simian Immunodeficiency Virus Infection
+## Abacavir: From HIV Infection / AIDS to Simian Immunodeficiency Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

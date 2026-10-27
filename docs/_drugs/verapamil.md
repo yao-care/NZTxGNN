@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Verapamil: From Hypertension and Arrhythmia to Obsolete Bundle Branch Block
+## Verapamil: From Hypertension and Arrhythmia to Obsolete Bundle Branch Block
+{: .text-alpha }
 
 ## One-Sentence Summary
 

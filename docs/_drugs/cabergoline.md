@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Cabergoline: From Hyperprolactinaemia to Pituitary Cancer
+## Cabergoline: From Hyperprolactinaemia to Pituitary Cancer
+{: .text-alpha }
 
 ## One-Sentence Summary
 

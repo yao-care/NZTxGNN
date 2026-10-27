@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Ibuprofen: From Rheumatoid Arthritis and Pain Conditions to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Ibuprofen: From Rheumatoid Arthritis and Pain Conditions to Acromesomelic Dysplasia, Hunter-Thompson Type
+{: .text-alpha }
 
 ## One-Sentence Summary
 

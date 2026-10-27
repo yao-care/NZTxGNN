@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Droperidol: From an Unspecified Original Indication to Tourette Syndrome
+## Droperidol: From an Unspecified Original Indication to Tourette Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

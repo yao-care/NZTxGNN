@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Sotalol: From Atrial Fibrillation to Sick Sinus Syndrome 2 (Autosomal Dominant)
+## Sotalol: From Atrial Fibrillation to Sick Sinus Syndrome 2 (Autosomal Dominant)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

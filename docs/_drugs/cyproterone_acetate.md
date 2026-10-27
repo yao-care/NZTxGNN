@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cyproterone Acetate: From Androgen-Dependent Conditions to Migraine Disorder
+## Cyproterone Acetate: From Androgen-Dependent Conditions to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

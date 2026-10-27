@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tolvaptan: From Inappropriate ADH Syndrome and Polycystic Kidney Disease to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
+## Tolvaptan: From Inappropriate ADH Syndrome and Polycystic Kidney Disease to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

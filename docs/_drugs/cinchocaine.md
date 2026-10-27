@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Cinchocaine: From Dermatitis to Bronchitis
+## Cinchocaine: From Dermatitis to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

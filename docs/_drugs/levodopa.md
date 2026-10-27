@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Levodopa: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Levodopa: From Parkinson Disease to Rasmussen Subacute Encephalitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

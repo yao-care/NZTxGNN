@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Disopyramide Phosphate: Antiarrhythmic Agent — No Repurposing Predictions Available
+## Disopyramide Phosphate: Antiarrhythmic Agent — No Repurposing Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

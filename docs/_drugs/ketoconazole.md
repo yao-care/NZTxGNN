@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Ketoconazole: From Superficial and Systemic Fungal Infections to Acne
+## Ketoconazole: From Superficial and Systemic Fungal Infections to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

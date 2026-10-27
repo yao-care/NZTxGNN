@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (THRB Mutation)
+## Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (THRB Mutation)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

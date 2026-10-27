@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# DISULFIRAM: Drug Repurposing Assessment Report (Insufficient Data, Unable to Complete Full Analysis)
+## DISULFIRAM: Drug Repurposing Assessment Report (Insufficient Data, Unable to Complete Full Analysis)
+{: .text-alpha }
 
 ---
 

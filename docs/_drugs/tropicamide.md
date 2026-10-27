@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Tropicamide: From Cycloplegia to Cauda Equina Syndrome
+## Tropicamide: From Cycloplegia to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

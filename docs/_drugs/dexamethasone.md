@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Dexamethasone: From Adrenal Insufficiency and Inflammatory Conditions to Alopecia Areata
+## Dexamethasone: From Adrenal Insufficiency and Inflammatory Conditions to Alopecia Areata
+{: .text-alpha }
 
 ## One-Sentence Summary
 

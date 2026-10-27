@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vancomycin: From Clostridium difficile Colitis to Diffuse Scleroderma
+## Vancomycin: From Clostridium difficile Colitis to Diffuse Scleroderma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Atazanavir: From HIV Infection to Congenital HIV
+## Atazanavir: From HIV Infection to Congenital HIV
+{: .text-alpha }
 
 ## One-Sentence Summary
 

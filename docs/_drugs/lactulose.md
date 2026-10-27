@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 </div>
 
-# Lactulose: From Hepatic Encephalopathy and Constipation to Obstructive Jaundice
+## Lactulose: From Hepatic Encephalopathy and Constipation to Obstructive Jaundice
+{: .text-alpha }
 
 ## One-Sentence Summary
 

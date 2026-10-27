@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Calcipotriol: From Psoriasis (Topical Vitamin D3 Analogue) to Seborrheic Keratosis
+## Calcipotriol: From Psoriasis (Topical Vitamin D3 Analogue) to Seborrheic Keratosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-# Lamivudine: From Chronic Hepatitis B and HIV/AIDS to Feline Acquired Immunodeficiency Syndrome
+## Lamivudine: From Chronic Hepatitis B and HIV/AIDS to Feline Acquired Immunodeficiency Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

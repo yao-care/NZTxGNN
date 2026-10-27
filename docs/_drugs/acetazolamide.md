@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acetazolamide: From Glaucoma and Altitude Sickness to Exercise-Induced Malignant Hyperthermia
+## Acetazolamide: From Glaucoma and Altitude Sickness to Exercise-Induced Malignant Hyperthermia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

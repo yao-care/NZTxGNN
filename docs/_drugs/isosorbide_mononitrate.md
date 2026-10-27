@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isosorbide Mononitrate: From Angina-Type Vasodilator Use to Hypertrichosis (Top Prediction), with Pulmonary Arterial Hypertension as the Most Plausible Candidate
+## Isosorbide Mononitrate: From Angina-Type Vasodilator Use to Hypertrichosis (Top Prediction), with Pulmonary Arterial Hypertension as the Most Plausible Candidate
+{: .text-alpha }
 
 ## One-Sentence Summary
 

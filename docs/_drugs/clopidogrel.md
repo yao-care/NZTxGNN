@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **8**
 
 </div>
 
-# Clopidogrel: From Acute Coronary Syndrome to Migraine Disorder
+## Clopidogrel: From Acute Coronary Syndrome to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

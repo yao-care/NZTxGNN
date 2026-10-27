@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Codeine: From Allergic Rhinitis and Headache Disorders to Nasal Cavity Disease
+## Codeine: From Allergic Rhinitis and Headache Disorders to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

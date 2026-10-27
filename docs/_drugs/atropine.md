@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Atropine: From an Anticholinergic Agent (Original Indication Not Recorded) to Migraine Disorder
+## Atropine: From an Anticholinergic Agent (Original Indication Not Recorded) to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

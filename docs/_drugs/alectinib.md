@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alectinib: From Non-Small Cell Lung Cancer to Fibromatosis, Gingival
+## Alectinib: From Non-Small Cell Lung Cancer to Fibromatosis, Gingival
+{: .text-alpha }
 
 ## One-Sentence Summary
 

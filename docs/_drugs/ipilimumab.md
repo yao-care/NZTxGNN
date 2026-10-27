@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Ipilimumab: From Metastatic Melanoma to Choroideremia
+## Ipilimumab: From Metastatic Melanoma to Choroideremia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

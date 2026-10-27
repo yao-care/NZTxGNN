@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amlodipine: From Hypertension to Brain Stem Infarction
+## Amlodipine: From Hypertension to Brain Stem Infarction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

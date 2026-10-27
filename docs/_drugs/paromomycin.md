@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Paromomycin: From Hepatic Encephalopathy to Hepatoportal Sclerosis
+## Paromomycin: From Hepatic Encephalopathy to Hepatoportal Sclerosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

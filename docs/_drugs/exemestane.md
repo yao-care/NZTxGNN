@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Exemestane: From Breast Cancer (Aromatase Inhibition) to Antithrombin Deficiency Type 2
+## Exemestane: From Breast Cancer (Aromatase Inhibition) to Antithrombin Deficiency Type 2
+{: .text-alpha }
 
 ## One-Sentence Summary
 

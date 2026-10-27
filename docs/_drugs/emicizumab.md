@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Emicizumab: From Hemophilia to Acquired Coagulation Factor Deficiency
+## Emicizumab: From Hemophilia to Acquired Coagulation Factor Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

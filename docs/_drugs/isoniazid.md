@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Isoniazid: From Pulmonary Tuberculosis to Conjunctivitis
+## Isoniazid: From Pulmonary Tuberculosis to Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

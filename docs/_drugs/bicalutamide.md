@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bicalutamide: From Prostate Cancer (Original Use) to Hypertrichosis
+## Bicalutamide: From Prostate Cancer (Original Use) to Hypertrichosis
+{: .text-alpha }
 
 Note: The data compiled for this report contains no approved indication text for the New Zealand licence. Bicalutamide is a known androgen receptor antagonist, but the original indication is not stated in the data. The top-ranked prediction by TxGNN score is hypertrichosis, but the only prediction with meaningful clinical evidence is **female breast carcinoma** (rank 9), which is also covered below.
 

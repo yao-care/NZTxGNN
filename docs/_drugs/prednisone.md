@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Prednisone: From Autoimmune and Inflammatory Disease to Alopecia Areata
+## Prednisone: From Autoimmune and Inflammatory Disease to Alopecia Areata
+{: .text-alpha }
 
 ## One-Sentence Summary
 

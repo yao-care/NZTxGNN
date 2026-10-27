@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Spironolactone: From Hypertension and Heart Failure to Hypotrichosis Simplex of the Scalp
+## Spironolactone: From Hypertension and Heart Failure to Hypotrichosis Simplex of the Scalp
+{: .text-alpha }
 
 ## One-Sentence Summary
 

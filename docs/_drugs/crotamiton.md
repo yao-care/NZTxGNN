@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# CROTAMITON: Antiparasitic Drug — TxGNN Prediction Data Unavailable
+## CROTAMITON: Antiparasitic Drug — TxGNN Prediction Data Unavailable
+{: .text-alpha }
 
 ## One-Sentence Summary
 

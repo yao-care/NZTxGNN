@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Ethambutol: From Pulmonary Tuberculosis to Epiglottitis
+## Ethambutol: From Pulmonary Tuberculosis to Epiglottitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

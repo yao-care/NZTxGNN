@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Ivermectin: From Strongyloidiasis and Onchocerciasis to Vulvovaginal Candidiasis
+## Ivermectin: From Strongyloidiasis and Onchocerciasis to Vulvovaginal Candidiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

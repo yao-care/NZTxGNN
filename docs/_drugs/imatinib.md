@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Imatinib: From Systemic Mastocytosis and Chronic Myeloid Leukaemia to Heart Fibrosarcoma
+## Imatinib: From Systemic Mastocytosis and Chronic Myeloid Leukaemia to Heart Fibrosarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

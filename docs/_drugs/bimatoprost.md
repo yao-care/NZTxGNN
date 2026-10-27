@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Bimatoprost: From Open-Angle Glaucoma to Alopecia
+## Bimatoprost: From Open-Angle Glaucoma to Alopecia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

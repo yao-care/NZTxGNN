@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clomipramine: From Obsessive-Compulsive Disorder to Anxiety Disorder
+## Clomipramine: From Obsessive-Compulsive Disorder to Anxiety Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

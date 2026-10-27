@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Paroxetine: From Depression and Anxiety Disorders to Ohdo Syndrome and Variants
+## Paroxetine: From Depression and Anxiety Disorders to Ohdo Syndrome and Variants
+{: .text-alpha }
 
 ## One-Sentence Summary
 

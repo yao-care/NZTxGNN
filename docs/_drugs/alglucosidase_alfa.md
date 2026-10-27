@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alglucosidase Alfa: From Glycogen Storage Disease to Adult Polyglucosan Body Disease
+## Alglucosidase Alfa: From Glycogen Storage Disease to Adult Polyglucosan Body Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

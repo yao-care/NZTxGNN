@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Lenalidomide: From Plasma Cell Myeloma to Myeloid Leukemia
+## Lenalidomide: From Plasma Cell Myeloma to Myeloid Leukemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

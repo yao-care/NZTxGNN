@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Fluticasone Furoate: From Asthma and Allergic Rhinitis to Atopic Eczema
+## Fluticasone Furoate: From Asthma and Allergic Rhinitis to Atopic Eczema
+{: .text-alpha }
 
 ## One-Sentence Summary
 

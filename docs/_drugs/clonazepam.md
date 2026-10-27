@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 </div>
 
-# Clonazepam: From Epilepsy and Anxiety Disorders to Restless Legs Syndrome
+## Clonazepam: From Epilepsy and Anxiety Disorders to Restless Legs Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Colchicine: From Gout to Plasmodium falciparum Malaria
+## Colchicine: From Gout to Plasmodium falciparum Malaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluorescein: From Diagnostic Dye (No Approved Indication on Record) to Prinzmetal Angina
+## Fluorescein: From Diagnostic Dye (No Approved Indication on Record) to Prinzmetal Angina
+{: .text-alpha }
 
 ## One-Sentence Summary
 

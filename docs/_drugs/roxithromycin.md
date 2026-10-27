@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Roxithromycin: From Bacterial Infections to Leprosy
+## Roxithromycin: From Bacterial Infections to Leprosy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

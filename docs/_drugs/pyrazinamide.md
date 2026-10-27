@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pyrazinamide: From Tuberculosis to Infectious Otitis Media
+## Pyrazinamide: From Tuberculosis to Infectious Otitis Media
+{: .text-alpha }
 
 ## One-Sentence Summary
 

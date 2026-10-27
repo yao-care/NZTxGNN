@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Budesonide: From Crohn's Disease and Asthma to Atopic Eczema
+## Budesonide: From Crohn's Disease and Asthma to Atopic Eczema
+{: .text-alpha }
 
 ## One-Sentence Summary
 

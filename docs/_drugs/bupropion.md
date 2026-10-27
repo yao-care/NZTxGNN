@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bupropion: From Depression and Smoking Cessation to Attention Deficit Hyperactivity Disorder
+## Bupropion: From Depression and Smoking Cessation to Attention Deficit Hyperactivity Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

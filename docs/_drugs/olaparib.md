@@ -31,7 +31,8 @@ Evidence Level: **L1** | Predicted Indications: **1**
 
 </div>
 
-# Olaparib: From Ovarian Cancer to Female Breast Carcinoma
+## Olaparib: From Ovarian Cancer to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

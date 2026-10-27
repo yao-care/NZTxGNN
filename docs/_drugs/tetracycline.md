@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Tetracycline: From Bacterial Infections (Urinary Tract Infection, Bronchitis, Acne and Others) to Punctate Epithelial Keratoconjunctivitis
+## Tetracycline: From Bacterial Infections (Urinary Tract Infection, Bronchitis, Acne and Others) to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

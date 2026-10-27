@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-# Nitroglycerin: From Angina and Vasodilator Therapy to Pulmonary Hypertension
+## Nitroglycerin: From Angina and Vasodilator Therapy to Pulmonary Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Cycloserine: From Pulmonary Tuberculosis to Irritable Bowel Syndrome
+## Cycloserine: From Pulmonary Tuberculosis to Irritable Bowel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

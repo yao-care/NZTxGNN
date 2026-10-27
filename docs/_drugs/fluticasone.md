@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Fluticasone: From Inhaled Respiratory Therapy to Migraine Disorder
+## Fluticasone: From Inhaled Respiratory Therapy to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

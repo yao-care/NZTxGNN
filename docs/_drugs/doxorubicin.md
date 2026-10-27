@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Doxorubicin: From Lymphoma and Leukaemia to Ewing Sarcoma
+## Doxorubicin: From Lymphoma and Leukaemia to Ewing Sarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

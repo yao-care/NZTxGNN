@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Bumetanide: From Congestive Heart Failure to Acute Pulmonary Heart Disease
+## Bumetanide: From Congestive Heart Failure to Acute Pulmonary Heart Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Ritonavir: From HIV/AIDS to Feline Acquired Immunodeficiency Syndrome
+## Ritonavir: From HIV/AIDS to Feline Acquired Immunodeficiency Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

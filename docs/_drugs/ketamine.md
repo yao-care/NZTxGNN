@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ketamine: From No Recorded Approved Indication to Headache Disorder
+## Ketamine: From No Recorded Approved Indication to Headache Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

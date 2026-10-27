@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Fluconazole: From Candidiasis to Punctate Epithelial Keratoconjunctivitis
+## Fluconazole: From Candidiasis to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

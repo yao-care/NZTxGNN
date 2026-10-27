@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Venetoclax: From Acute Lymphoblastic Leukaemia and Richter Syndrome to CLL/SLL with Somatic Hypermutation of the IGHV Gene
+## Venetoclax: From Acute Lymphoblastic Leukaemia and Richter Syndrome to CLL/SLL with Somatic Hypermutation of the IGHV Gene
+{: .text-alpha }
 
 ## One-Sentence Summary
 

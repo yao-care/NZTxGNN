@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Diazepam: From Epilepsy and Anxiety to Insomnia
+## Diazepam: From Epilepsy and Anxiety to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

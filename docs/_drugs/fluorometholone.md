@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluorometholone: From Ocular Inflammation (Uveitis and Conjunctivitis) to Postinfectious Vasculitis
+## Fluorometholone: From Ocular Inflammation (Uveitis and Conjunctivitis) to Postinfectious Vasculitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

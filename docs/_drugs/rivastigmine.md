@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Rivastigmine: From Alzheimer Disease to Glaucoma
+## Rivastigmine: From Alzheimer Disease to Glaucoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

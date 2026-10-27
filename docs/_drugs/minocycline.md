@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Minocycline: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
+## Minocycline: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

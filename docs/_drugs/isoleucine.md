@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Isoleucine: From No Registered Indication to Gastroparesis
+## Isoleucine: From No Registered Indication to Gastroparesis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

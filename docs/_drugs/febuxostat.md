@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Febuxostat: From Hyperuricemia to Renal Hypouricemia
+## Febuxostat: From Hyperuricemia to Renal Hypouricemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

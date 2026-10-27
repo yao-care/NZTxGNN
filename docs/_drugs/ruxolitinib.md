@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ruxolitinib: From Myeloproliferative Neoplasms to Uterine Corpus Perivascular Epithelioid Cell Tumor
+## Ruxolitinib: From Myeloproliferative Neoplasms to Uterine Corpus Perivascular Epithelioid Cell Tumor
+{: .text-alpha }
 
 ## One-Sentence Summary
 

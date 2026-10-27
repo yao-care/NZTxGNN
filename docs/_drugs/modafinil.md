@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Modafinil: From Narcolepsy to Insomnia
+## Modafinil: From Narcolepsy to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

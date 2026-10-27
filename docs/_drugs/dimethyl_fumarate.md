@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# DIMETHYL FUMARATE: Evidence Pack Incomplete — Evaluation on Hold
+## DIMETHYL FUMARATE: Evidence Pack Incomplete — Evaluation on Hold
+{: .text-alpha }
 
 ## One-Sentence Summary
 

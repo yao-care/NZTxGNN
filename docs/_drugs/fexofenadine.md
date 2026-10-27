@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Fexofenadine: From Allergic Rhinitis to Rosacea Conjunctivitis
+## Fexofenadine: From Allergic Rhinitis to Rosacea Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

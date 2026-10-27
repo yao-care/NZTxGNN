@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Domperidone: From Gastrointestinal Symptom Management to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Domperidone: From Gastrointestinal Symptom Management to Nephrogenic Syndrome of Inappropriate Antidiuresis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

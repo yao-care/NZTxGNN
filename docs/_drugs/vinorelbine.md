@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Vinorelbine: From Non-Small Cell Lung Cancer to Ewing Sarcoma
+## Vinorelbine: From Non-Small Cell Lung Cancer to Ewing Sarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

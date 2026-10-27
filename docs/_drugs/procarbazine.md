@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-# Procarbazine: From Hodgkin Lymphoma to Follicular Lymphoma
+## Procarbazine: From Hodgkin Lymphoma to Follicular Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

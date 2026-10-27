@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Tezacaftor: From Cystic Fibrosis to HIV Infectious Disease
+## Tezacaftor: From Cystic Fibrosis to HIV Infectious Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

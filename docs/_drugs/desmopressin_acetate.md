@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Desmopressin Acetate: Evaluation Halted — No Repurposing Predictions Available
+## Desmopressin Acetate: Evaluation Halted — No Repurposing Predictions Available
+{: .text-alpha }
 
 ---
 

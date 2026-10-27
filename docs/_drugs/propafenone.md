@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Propafenone: From Atrial Fibrillation and Ventricular Tachycardia to Catecholaminergic Polymorphic Ventricular Tachycardia
+## Propafenone: From Atrial Fibrillation and Ventricular Tachycardia to Catecholaminergic Polymorphic Ventricular Tachycardia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

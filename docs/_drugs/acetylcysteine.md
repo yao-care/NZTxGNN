@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acetylcysteine: From Bronchitis and Paracetamol Poisoning to Thrombotic Disease
+## Acetylcysteine: From Bronchitis and Paracetamol Poisoning to Thrombotic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

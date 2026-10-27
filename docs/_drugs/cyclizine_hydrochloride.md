@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Cyclizine Hydrochloride: Pending Evaluation — No TxGNN Predictions Available
+## Cyclizine Hydrochloride: Pending Evaluation — No TxGNN Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

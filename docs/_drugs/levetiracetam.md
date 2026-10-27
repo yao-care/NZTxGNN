@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Levetiracetam: From Partial Epilepsy to Status Epilepticus
+## Levetiracetam: From Partial Epilepsy to Status Epilepticus
+{: .text-alpha }
 
 ## One-Sentence Summary
 

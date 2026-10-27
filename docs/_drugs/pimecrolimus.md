@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-# Pimecrolimus: From Atopic Eczema to Seborrheic Dermatitis
+## Pimecrolimus: From Atopic Eczema to Seborrheic Dermatitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

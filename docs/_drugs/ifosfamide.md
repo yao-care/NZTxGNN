@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ifosfamide: From Cancer Chemotherapy to Female Breast Carcinoma
+## Ifosfamide: From Cancer Chemotherapy to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

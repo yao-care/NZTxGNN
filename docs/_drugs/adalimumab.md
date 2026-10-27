@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Adalimumab: From Crohn Disease and Rheumatoid Arthritis to Rheumatoid Vasculitis
+## Adalimumab: From Crohn Disease and Rheumatoid Arthritis to Rheumatoid Vasculitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

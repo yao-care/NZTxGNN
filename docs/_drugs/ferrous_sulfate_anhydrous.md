@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Ferrous Sulfate Anhydrous: From Iron Deficiency Anemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
+## Ferrous Sulfate Anhydrous: From Iron Deficiency Anemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

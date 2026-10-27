@@ -31,7 +31,8 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-# Obinutuzumab: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Follicular Lymphoma
+## Obinutuzumab: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Follicular Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

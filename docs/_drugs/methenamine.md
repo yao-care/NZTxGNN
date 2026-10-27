@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Methenamine: From Urinary Tract Infection to Ureaplasma Urethritis
+## Methenamine: From Urinary Tract Infection to Ureaplasma Urethritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

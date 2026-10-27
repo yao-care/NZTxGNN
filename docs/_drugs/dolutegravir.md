@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Dolutegravir: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Dolutegravir: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

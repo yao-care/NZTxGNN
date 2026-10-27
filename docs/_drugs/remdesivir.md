@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Remdesivir: From Antiviral Use (No Indication Text Recorded) to Multiple Endocrine Neoplasia
+## Remdesivir: From Antiviral Use (No Indication Text Recorded) to Multiple Endocrine Neoplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

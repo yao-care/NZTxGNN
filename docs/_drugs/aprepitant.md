@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aprepitant: From Its Original Use (Not Recorded in the Authorization Data) to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Aprepitant: From Its Original Use (Not Recorded in the Authorization Data) to Nephrogenic Syndrome of Inappropriate Antidiuresis
+{: .text-alpha }
 
 ## One-Sentence Summary
 
