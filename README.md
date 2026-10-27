@@ -19,7 +19,7 @@ Drug repurposing predictions for New Zealand Medsafe-approved drugs using the Tx
 
 | Item | Count |
 |------|------|
-| **Drug Reports** | 447 |
+| **Drug Reports** | 460 |
 | **Total Predictions** | 2,551,121 |
 | **Unique Drugs** | 542 |
 | **Unique Indications** | 17,041 |
