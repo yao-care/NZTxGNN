@@ -3,18 +3,18 @@ noindex: true
 sitemap: false
 layout: default
 title: Desmopressin Acetate
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 142
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-09-17
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Desmopressin Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **0** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,53 +33,21 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-## Desmopressin Acetate: Evaluation Halted — No Repurposing Predictions Available
+## Desmopressin Acetate
 {: .text-alpha }
 
----
-
-## One-Sentence Summary
-
-Desmopressin Acetate is a synthetic analogue of vasopressin (antidiuretic hormone), clinically recognised for treating central diabetes insipidus, nocturnal enuresis, and coagulation disorders such as mild Haemophilia A and von Willebrand disease type 1.
-This Evidence Pack contains **no TxGNN predicted indications**, so a formal repurposing evaluation cannot be completed at this stage.
-A **Hold** decision is recommended until the minimum required data are collected.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|---------|
-| Original Indication | Not recorded in this Evidence Pack |
-| Predicted New Indication | None available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | Insufficient data — below L5 |
+| Original Indication | Not recorded in the local data |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
 | Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Number of Authorizations | 5 (valid: 5) |
 
 ---
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-This Evidence Pack returned zero TxGNN predicted indications, no original indication records, no mechanism of action, and no safety data — the minimum inputs required for a repurposing evaluation are absent.
-
-**To proceed, the following is needed:**
-
-- **TxGNN model output** — predicted indications with confidence scores must be generated before any evaluation can begin
-- **Mechanism of action (MOA)** — DrugBank query returned 1 result but the data was not ingested into the Evidence Pack; re-run the extraction pipeline (DG002, severity: High)
-- **Taiwan package insert warnings and contraindications** — TFDA 仿單 PDF must be parsed (DG001, severity: Blocking)
-- **Drug-drug interaction (DDI) data** — current query returned `not_found`; cross-reference with international DDI databases (e.g., Lexicomp, Micromedex)
-- **Original indication mapping** — `original_indications` is an empty array; populate from TFDA licence records or DrugBank approved indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

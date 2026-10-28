@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 2
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Doxazosin: predicted new indication migraine disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 

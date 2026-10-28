@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cyclophosphamide: predicted new indication myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 

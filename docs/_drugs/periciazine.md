@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the New Zealand licence data (the approved indication…"
 monitor_inn: "periciazine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]

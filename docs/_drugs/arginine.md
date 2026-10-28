@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ARGININE"
 predicted_indications: ["gastroparesis (disease)"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Arginine: predicted new indication gastroparesis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

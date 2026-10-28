@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cyclopentolate"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cyclopentolate: predicted new indication Cauda Equina Syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

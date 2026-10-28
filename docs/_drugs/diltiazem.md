@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 153
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Diltiazem: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
