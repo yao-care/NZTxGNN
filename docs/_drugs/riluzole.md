@@ -4,17 +4,17 @@ title: Riluzole
 parent: Model Prediction Only (L5)
 nav_order: 405
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Riluzole: predicted new indication Bilateral parasagittal parieto-occipital polymicrogyria (evidence level L5). Approved use: Amyotrophic lateral sclerosis"
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
+description: "Riluzole: predicted new indication Bilateral parasagittal parieto-occipital polymicrogyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Riluzole: From Amyotrophic Lateral Sclerosis to Bilateral Parasagittal Parieto-occipital Polymicrogyria
+## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but **no clinical trials and no publications** currently support this specific p
 
 | Item | Content |
 |------|------|
-| Original Indication | Amyotrophic lateral sclerosis (the approved indication text in the New Zealand licence record is empty; this is taken from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bilateral parasagittal parieto-occipital polymicrogyria |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this drug in the data compiled for this report. Based on general knowledge, riluzole is thought to reduce glutamate-mediated excitotoxicity and block sodium channels. Reviews retrieved for ALS describe it as a drug thought to affect glutamate metabolism, which modestly prolongs survival in ALS.
 
-Polymicrogyria is a cortical malformation often associated with neuronal hyperexcitability. Glutamate modulation and sodium-channel blockade could plausibly be relevant to that hyperexcitability. However, this link is speculative. No trials or literature were retrieved for this condition, and the high graph score should be treated as a hypothesis, not as evidence of benefit.
+Polymicrogyria is a cortical malformation often associated with neuronal hyperexcitability. Glutamate modulation and sodium-channel blockade could plausibly be relevant to that hyperexcitability. However, this link is speculative. No trials or literature were retrieved for this condition. The high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis, not as evidence of benefit.
 
 Among the other top-ranked predictions, several (for example lower motor neuron syndrome with late-adult onset, Mills syndrome, monomelic amyotrophy) are motor neuron disorders that are biologically closer to ALS. These also have no direct clinical evidence. The ALS-susceptibility and ALS type 22 entries fall within riluzole's existing indication, so they are not true repurposing candidates.
 
@@ -70,7 +70,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for the predicted indication.
 
-For context, 20 publications were retrieved for the related entity "amyotrophic lateral sclerosis, susceptibility to". These are mostly reviews and mechanistic papers on ALS, not studies of riluzole in the predicted indication. Examples include [9178165](https://pubmed.ncbi.nlm.nih.gov/9178165/) (1997, Review, glutamate excitotoxicity in ALS) and [42161327](https://pubmed.ncbi.nlm.nih.gov/42161327/) (2026, association study, CYP2D6 variants and ALS risk and survival).
 
 ## New Zealand Market Information
 

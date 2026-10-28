@@ -6,9 +6,9 @@ nav_order: 412
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Restless legs syndrome, Parkinson disease"
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
+description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Ropinirole
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Ropinirole: From Restless Legs Syndrome and Parkinson Disease to Attention Deficit-Hyperactivity Disorder
+## Ropinirole: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **no registered clinical trials** but **8 publications** currently supporti
 
 | Item | Content |
 |------|------|
-| Original Indication | Restless legs syndrome, Parkinson disease (the New Zealand licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,10 +83,10 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2310880 | Ropin | Tab 5 mg | Not recorded (cancelled) |
-| 2310872 | Ropin | Tab 2 mg | Not recorded (cancelled) |
-| 2310864 | Ropin | Tab 1 mg | Not recorded (cancelled) |
-| 2310856 | Ropin | Tab 0.25 mg | Not recorded (cancelled) |
+| 2310880 | Ropin | Tab 5 mg | Not recorded (valid) |
+| 2310872 | Ropin | Tab 2 mg | Not recorded (valid) |
+| 2310864 | Ropin | Tab 1 mg | Not recorded (valid) |
+| 2310856 | Ropin | Tab 0.25 mg | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -101,14 +101,14 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high and a recent randomized trial exists, but there are no registered trials, the trial result is unconfirmed, and the other evidence is mostly case reports, reviews and preclinical work (L3). In addition, there are no currently valid New Zealand licences and the safety data are incomplete, so the drug is not ready to advance.
+The TxGNN score is very high and a recent randomized trial exists, but there are no registered trials, the trial result is unconfirmed, and the other evidence is mostly case reports, reviews and preclinical work (L3).
 
 **To proceed, the following is needed:**
 - Full-text review of the 2026 RCT (PMID 42640474) to confirm efficacy, safety and effect size
 - Independent replication in larger, multi-centre trials, ideally registered
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Medsafe
-- Review of the regulatory pathway, since all four New Zealand licences are cancelled
+- Review of the regulatory pathway; the drug is marketed, and all four New Zealand licences are valid
 - A safety plan covering impulse-control and gambling risk, psychiatric effects, orthostatic hypotension and paediatric use
 ## Disclaimer
 

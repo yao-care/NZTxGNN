@@ -6,9 +6,9 @@ nav_order: 370
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Constipation, dry eye syndrome, xerophthalmia"
 monitor_inn: "polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
+description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Polyethylene Glycol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Polyethylene Glycol: From Constipation and Dry Eye to Congenital Ichthyosiform Erythroderma
+## Polyethylene Glycol: Congenital ichthyosiform erythroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Constipation, dry eye syndrome, xerophthalmia (from the knowledge graph; no approved indication text is available on the New Zealand licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
-| TxGNN Prediction Score | 99.03% |
+| TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,7 +74,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2640120 | Systane Unit Dose | Eye drops 0.4% and propylene glycol 0.3%, 0.8 ml | Not stated (licence cancelled) |
+| 2640120 | Systane Unit Dose | Eye drops 0.4% and propylene glycol 0.3%, 0.8 ml | Not stated (licence valid) |
 
 ## Safety Considerations
 

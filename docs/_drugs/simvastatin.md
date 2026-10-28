@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Simvastatin
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 424
-evidence_level: L1
-indication_count: 8
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Simvastatin: predicted new indication Familial hypercholesterolemia (evidence level L1). Approved use: Hyperlipidaemia-related disorders (e.g. hypertriglyceridemia…"
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **8**
 
 </div>
 
-## Simvastatin: From Hyperlipidaemia and Stroke to Familial Hypercholesterolemia
+## Simvastatin: Brain stem infarction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Simvastatin is a statin originally used for lipid disorders (such as hypertriglyceridemia, homozygous familial hypercholesterolemia and hyperlipoproteinemia) and for atherosclerosis-related conditions such as stroke and cerebral infarction.
-The TxGNN model predicts it may be effective for **familial hypercholesterolemia**, with **8 clinical trials** and **20 publications** listed for this direction.
 Note that this prediction overlaps heavily with the existing labelled use, so it is closer to an on-label or near-label use than a true repurposing.
 
 ---
@@ -48,12 +47,12 @@ Note that this prediction overlaps heavily with the existing labelled use, so it
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperlipidaemia-related disorders (e.g. hypertriglyceridemia, homozygous familial hypercholesterolemia) and stroke/atherosclerosis-related disorders (from the knowledge graph; the New Zealand licence records contain no indication text) |
-| Predicted New Indication | Familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brain stem infarction |
+| TxGNN Prediction Score | 0.9941 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -62,7 +61,7 @@ Note that this prediction overlaps heavily with the existing labelled use, so it
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, simvastatin is an HMG-CoA reductase inhibitor. It lowers cholesterol synthesis in the liver and upregulates LDL receptors, which increases clearance of LDL cholesterol. This mechanism is directly relevant to familial hypercholesterolemia, where LDL clearance is impaired.
 
-The original indications already include homozygous familial hypercholesterolemia and several related hyperlipidaemias. Familial hypercholesterolemia is therefore the same disease family, and the prediction is better described as an extension to the heterozygous form than a new therapeutic area. Many patients still need add-on therapy (for example ezetimibe or PCSK9 inhibitors) to reach LDL-C targets, which is reflected in most of the trials below.
+The original indications already include homozygous familial hypercholesterolemia and several related hyperlipidaemias. Many patients still need add-on therapy (for example ezetimibe or PCSK9 inhibitors) to reach LDL-C targets, which is reflected in most of the trials below.
 
 Other predictions from the model are weaker. Brain stem infarction is a subtype of an existing indication with no trials. Several rare conditions (CETP deficiency, cholesterol 7alpha-hydroxylase deficiency, ABri amyloidosis, a rare neurodevelopmental disorder) are model predictions only, with no trials or literature. The HIV prediction concerns drug interactions and HIV-associated dyslipidaemia rather than antiviral activity, and one pilot study found no anti-HIV effect of simvastatin.
 
@@ -105,15 +104,14 @@ Only two trials (NCT00552097 and NCT00129402) directly evaluate simvastatin as p
 
 ## New Zealand Market Information
 
-All five licences are cancelled, and the records contain no approved indication text.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2643596 | Simvastatin Viatris | Tab 80 mg | Not recorded (cancelled) |
-| 2520087 | Simvastatin Mylan | Tab 10 mg | Not recorded (cancelled) |
-| 2643588 | Simvastatin Viatris | Tab 40 mg | Not recorded (cancelled) |
-| 2643561 | Simvastatin Viatris | Tab 20 mg | Not recorded (cancelled) |
-| 2643553 | Simvastatin Viatris | Tab 10 mg | Not recorded (cancelled) |
+| 2643596 | Simvastatin Viatris | Tab 80 mg | Not recorded (valid) |
+| 2520087 | Simvastatin Mylan | Tab 10 mg | Not recorded (valid) |
+| 2643588 | Simvastatin Viatris | Tab 40 mg | Not recorded (valid) |
+| 2643561 | Simvastatin Viatris | Tab 20 mg | Not recorded (valid) |
+| 2643553 | Simvastatin Viatris | Tab 10 mg | Not recorded (valid) |
 
 ---
 
@@ -132,12 +130,11 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 trials and a Cochrane review support simvastatin-based therapy in familial hypercholesterolemia, and the use largely overlaps with existing indications. However, all five New Zealand licences are cancelled, and most trials test add-on agents rather than simvastatin itself.
+Multiple completed Phase 3 trials and a Cochrane review support simvastatin-based therapy in familial hypercholesterolemia, and the use largely overlaps with existing indications.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (currently missing and a blocking gap)
 - Detailed mechanism of action data
-- Clarification of the New Zealand supply position, since no valid licence exists
 - A drug-interaction management plan, particularly for amiodarone, amlodipine, fenofibrate and CYP3A4 inhibitors
 - Confirmation of which trials contribute simvastatin-specific efficacy data
 ## Disclaimer

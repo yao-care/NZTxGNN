@@ -6,9 +6,9 @@ nav_order: 270
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian syndromes"
 monitor_inn: "levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
+description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levodopa
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Levodopa: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Levodopa: Rasmussen subacute encephalitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease and related parkinsonian syndromes (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
-| Number of Authorizations | 12 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Authorizations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not currently available. Based on known inf
 
 Rasmussen encephalitis is a rare, chronic, unilateral inflammatory brain disease. It causes refractory focal seizures, progressive hemiparesis and cognitive decline, and is thought to be driven by T-cell-mediated, autoimmune-type neuroinflammation. Levodopa treats dopamine deficiency and has no known link to this immune-mediated pathology or to seizure control.
 
-A possible connection is basal ganglia or dopaminergic involvement, since movement disorders can occur in Rasmussen encephalitis, but this is speculative. The high score may reflect network proximity to parkinsonism-related disease nodes in the training graph rather than a true therapeutic relationship. A high TxGNN score is a computational prediction and not evidence of efficacy.
+A possible connection is basal ganglia or dopaminergic involvement, since movement disorders can occur in Rasmussen encephalitis, but this is speculative. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A high TxGNN score is a computational prediction and not evidence of efficacy.
 
 ## Clinical Trial Evidence
 
@@ -72,7 +72,7 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All 12 licences are cancelled and none is currently valid. The approved indication text is not available for any of them. The five main authorizations are listed below.
+All 12 licences are valid. The approved indication text is not available for any of them. The five main authorizations are listed below.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -106,7 +106,7 @@ Package insert warnings and contraindications could not be retrieved for this re
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or literature (evidence level L5), and no plausible mechanism links levodopa to the immune-mediated pathology of Rasmussen encephalitis. The drug is also not currently marketed in New Zealand, and the epilepsy contraindication is a concern in a seizure-dominant disease.
+The prediction has no supporting clinical trials or literature (evidence level L5), and no plausible mechanism links levodopa to the immune-mediated pathology of Rasmussen encephalitis.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for levodopa (e.g. from DrugBank)

@@ -6,9 +6,9 @@ nav_order: 196
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not available in the New Zealand license records"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
+description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fentanyl
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Fentanyl: From Opioid Analgesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Fentanyl: Nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Fentanyl is a potent opioid (mu-opioid receptor agonist) that has been marketed in New Zealand as transdermal patches and an injectable, but all of its New Zealand authorizations are now cancelled.
+Fentanyl is a potent opioid (mu-opioid receptor agonist) that is marketed in New Zealand as transdermal patches and an injectable, with 7 valid licences out of 7.
 The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but there are **0 clinical trials** and **0 publications** supporting this direction.
 This is a model-only prediction (evidence level L5) and the recommendation is **Hold**.
 
@@ -46,12 +46,12 @@ This is a model-only prediction (evidence level L5) and the recommendation is **
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the New Zealand license records |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 7 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Authorizations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The review of the prediction found **no credible mechanistic link** to the new indication. NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), which cause water retention independent of vasopressin. Opioids can indirectly promote ADH release and cause SIADH-like effects, which would worsen rather than treat antidiuresis.
 
-The high TxGNN score (0.995) is a computational output only and is not backed by pharmacological rationale, trials, or literature. It should not be treated as evidence of efficacy.
+The high TxGNN score (0.9946) is a computational output only and is not backed by pharmacological rationale, trials, or literature. It should not be treated as evidence of efficacy.
 
-**Second-ranked prediction (for reference):** Tourette syndrome (TxGNN score 99.05%, also L5, Hold). The link is weak and speculative: the opioid system modulates dopaminergic and striatal circuits involved in tic disorders. However, fentanyl's high abuse liability, respiratory depression risk, and tolerance/dependence make the risk-benefit profile unfavorable for a chronic, often pediatric-onset condition that already has safer options (alpha-2 agonists, antipsychotics, VMAT2 inhibitors, CBIT behavioral therapy). No trials or literature support it either.
+**Second-ranked prediction (for reference):** Tourette syndrome (TxGNN score 0.9905, also L5, Hold). The link is weak and speculative: the opioid system modulates dopaminergic and striatal circuits involved in tic disorders. However, fentanyl's high abuse liability, respiratory depression risk, and tolerance/dependence make the risk-benefit profile unfavorable for a chronic, often pediatric-onset condition that already has safer options (alpha-2 agonists, antipsychotics, VMAT2 inhibitors, CBIT behavioral therapy). No trials or literature support it either.
 
 ## Clinical Trial Evidence
 
@@ -74,15 +74,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All authorizations below are cancelled. The license records contain no approved indication text.
+All 7 authorizations below are valid. The license records contain no approved indication text.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2472899 | Fentanyl Sandoz | Patch 50 mcg per hour | Cancelled |
-| 2472902 | Fentanyl Sandoz | Patch 75 mcg per hour | Cancelled |
-| 2472880 | Fentanyl Sandoz | Patch 25 mcg per hour | Cancelled |
-| 2472910 | Fentanyl Sandoz | Patch 100 mcg per hour | Cancelled |
-| 2688824 | Fentanyl Sandoz | Patch 12 mcg per hour | Cancelled |
+| 2472899 | Fentanyl Sandoz | Patch 50 mcg per hour | Valid |
+| 2472902 | Fentanyl Sandoz | Patch 75 mcg per hour | Valid |
+| 2472880 | Fentanyl Sandoz | Patch 25 mcg per hour | Valid |
+| 2472910 | Fentanyl Sandoz | Patch 100 mcg per hour | Valid |
+| 2688824 | Fentanyl Sandoz | Patch 12 mcg per hour | Valid |
 
 Two further cancelled authorizations (Boucher and Muir injection, 50 mcg per ml, 2 ml and 10 ml ampoules; 2381176 and 2381168) are not shown in the table above.
 
@@ -98,7 +98,7 @@ Package insert warnings and contraindications were not available; please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature, and no plausible mechanism. Pharmacologically, opioids may worsen antidiuresis. Fentanyl also has a significant safety burden and no currently valid New Zealand authorization.
+The prediction rests only on a model score, with no clinical trials, no literature, and no plausible mechanism. Pharmacologically, opioids may worsen antidiuresis.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (from Medsafe) to complete safety screening

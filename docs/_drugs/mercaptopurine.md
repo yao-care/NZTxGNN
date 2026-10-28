@@ -4,9 +4,9 @@ title: Mercaptopurine
 parent: High Evidence (L1-L2)
 nav_order: 286
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Mercaptopurine: predicted new indication Myeloid leukaemia (evidence level L2). Approved use: Acute lymphoblastic leukaemia"
+description: "Mercaptopurine: predicted new indication myeloid leukemia (evidence level L2). Approved use: Acute lymphoblastic leukaemia"
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocy
 # Mercaptopurine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Mercaptopurine: From Acute Lymphoblastic Leukaemia to Myeloid Leukaemia
+## Mercaptopurine: From Acute Lymphoblastic Leukaemia to myeloid leukemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ with **15 clinical trials** and **20 publications** compiled for this direction.
 |------|------|
 | Original Indication | Acute lymphoblastic leukaemia (the New Zealand licence records contain no approved indication text; this is taken from the drug's known indications) |
 | Predicted New Indication | Myeloid leukaemia |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -90,13 +90,13 @@ Its efficacy in ALL is well established, and myeloid and lymphoid leukaemias sha
 
 ## New Zealand Market Information
 
-All three authorisations are cancelled, and no approved indication text is recorded.
+All three authorisations are valid, and no approved indication text is recorded.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 261270 | Puri-nethol | Tablet 50 mg | Not recorded (cancelled) |
-| 2682257 | Xaluprine | Oral suspension 20 mg/ml | Not recorded (cancelled) |
-| 2545551 | Allmercap | Oral suspension 20 mg/ml | Not recorded (cancelled) |
+| 261270 | Puri-nethol | Tablet 50 mg | Not recorded (valid) |
+| 2682257 | Xaluprine | Oral suspension 20 mg/ml | Not recorded (valid) |
+| 2545551 | Allmercap | Oral suspension 20 mg/ml | Not recorded (valid) |
 
 ## Cytotoxicity
 
@@ -119,13 +119,13 @@ All three authorisations are cancelled, and no approved indication text is recor
 **Decision: Hold (research question)**
 
 **Rationale:**
-The only direct support for myeloid leukaemia comes from multi-drug regimens in which mercaptopurine's independent effect cannot be isolated, plus small cohort and pilot studies. All three New Zealand licences are cancelled, and package insert safety data are missing, so the safety screening step cannot proceed.
+The only direct support for myeloid leukaemia comes from multi-drug regimens in which mercaptopurine's independent effect cannot be isolated, plus small cohort and pilot studies. All three New Zealand licences are valid, and package insert safety data are missing, so the safety screening step cannot proceed.
 
 **To proceed, the following is needed:**
 - Obtain and review the package insert warnings and contraindications (a blocking gap)
 - Obtain detailed mechanism of action data
 - Prospective or randomised evidence isolating mercaptopurine's contribution in AML or APL maintenance
-- Clarification of the New Zealand licensing situation, including why all three authorisations were cancelled
+- Clarification of the New Zealand licensing situation
 - A safety plan covering TPMT/NUDT15 genotyping, blood count and liver monitoring, and interaction review
 
 **Note on other predictions:** The ALL (rank 10) and precursor lymphoblastic lymphoma/leukaemia (rank 9) predictions are effectively on-label use and carry an "L1 / Proceed with Guardrails" rating, but they are not true repurposing. Small cell lung carcinoma (L3) rests on a 1985 Phase II study and preclinical work. The remaining predictions, including Hodgkin lymphoma, are prediction-only or indirect and should be held.

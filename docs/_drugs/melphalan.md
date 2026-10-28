@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Melphalan
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 284
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Melphalan: predicted new indication Gonadal germ cell tumor (evidence level L2). Approved use: Ovarian cancer and related ovarian tumour types"
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,23 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Melphalan: From Ovarian Cancer to Gonadal Germ Cell Tumor
+## Melphalan: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Melphalan is a DNA-alkylating chemotherapy drug, listed in the knowledge graph for ovarian cancer and related ovarian tumour types.
-The TxGNN model predicts it may be effective for **gonadal germ cell tumor**,
 with **7 clinical trials** and **1 publication** currently linked to this prediction. Most of the trials test melphalan only as part of combination high-dose regimens, and the single publication is a 1964 paper with no abstract.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer and related ovarian tumour types (from the knowledge graph; no approved indication text is available from New Zealand licences) |
-| Predicted New Indication | Gonadal germ cell tumor |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Female breast carcinoma |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,9 +82,9 @@ An important caveat: in the available trials melphalan is given within multi-dru
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 783781 | Alkeran (cancelled) | Inj 50 mg | Not available |
-| 200271 | Alkeran (cancelled) | Tab 2 mg | Not available |
-| 2647699 | Melpha (cancelled) | Inj 50 mg | Not available |
+| 783781 | Alkeran (valid) | Inj 50 mg | Not available |
+| 200271 | Alkeran (valid) | Tab 2 mg | Not available |
+| 2647699 | Melpha (valid) | Inj 50 mg | Not available |
 
 ## Cytotoxicity
 
@@ -111,7 +109,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high and one completed Phase 2 trial is directly on-indication, but melphalan is only one part of a combination regimen and its own contribution is unknown. There is also no valid New Zealand authorization, no label safety data, and almost no supporting literature. The study is best treated as a research question rather than a candidate ready for development.
+The prediction score is high and one completed Phase 2 trial is directly on-indication, but melphalan is only one part of a combination regimen and its own contribution is unknown. The study is best treated as a research question rather than a candidate ready for development.
 
 **To proceed, the following is needed:**
 - Results and subgroup data from NCT00936936, ideally separating melphalan's contribution

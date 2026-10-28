@@ -4,17 +4,17 @@ title: Sodium Citrate
 parent: Model Prediction Only (L5)
 nav_order: 426
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "sodium citrate"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
+description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sodium Citrate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Sodium Citrate: From Acid-Related Upper GI and Upper Respiratory Conditions to Papillary Conjunctivitis
+## Sodium Citrate: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ The result is a computational signal only.
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, dyspepsia, pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; the one New Zealand licence lists no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on known information, sodium citrate acts as a buffering antacid that neutralises gastric acid. This is plausible for its acid-related original indications, but there is no established mechanistic link to allergic or contact-lens-related inflammation of the eye.
 
-The high score most likely reflects patterns in the knowledge graph (for example, shared links with respiratory and mucosal inflammatory conditions) rather than independent evidence. The other top-ranked predictions show the same pattern: nasal cavity disease, acute laryngopharyngitis, and gastroduodenitis sit close to the original indications, so they are not true repurposing signals. Others, such as familial visceral myopathy, rosacea conjunctivitis, allergic urticaria, and postgastrectomy syndrome, have no supporting mechanism or literature.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top-ranked predictions show the same pattern: nasal cavity disease and gastroduodenitis sit close to the original indications, so they are not true repurposing signals. Others, such as familial visceral myopathy, rosacea conjunctivitis, allergic urticaria, and postgastrectomy syndrome, have no supporting mechanism or literature.
 
-The only prediction with any literature is **stomach disease** (rank 4, score 99.89%, L4). That literature consists of in vitro and xenograft work on gastric cancer cells combining 3-bromopyruvate with sodium citrate (glycolysis inhibition), plus indirect or unrelated items. This is preclinical and a different mechanism from antacid use.
+The only prediction with any literature is **stomach disease** (rank 4, score 0.9989, L4). That literature consists of in vitro and xenograft work on gastric cancer cells combining 3-bromopyruvate with sodium citrate (glycolysis inhibition), plus indirect or unrelated items. This is preclinical and a different mechanism from antacid use.
 
 ## Clinical Trial Evidence
 
@@ -85,7 +85,7 @@ For reference, the highest-ranked prediction with literature (stomach disease) h
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2262673 | Micolette | Enema (sodium citrate 90 mg with sodium lauryl sulphoacetate 9 mg per ml, 5 ml) | Not recorded (licence cancelled) |
+| 2262673 | Micolette | Enema (sodium citrate 90 mg with sodium lauryl sulphoacetate 9 mg per ml, 5 ml) | Not recorded (licence valid) |
 
 ## Safety Considerations
 

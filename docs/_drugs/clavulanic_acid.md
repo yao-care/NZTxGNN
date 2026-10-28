@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Clavulanic Acid: From Bacterial Infections to Gonococcal Urethritis
+## Clavulanic Acid: From Bacterial Infections to Ureaplasma Urethritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **Ureaplasma urethritis**, but this h
 |------|------|
 | Original Indication | Urinary tract infection, bacterial pneumonia, Staphylococcus aureus infection, Escherichia coli infection, Klebsiella pneumonia (approved indication text is not available from the New Zealand licence records) |
 | Predicted New Indication | Ureaplasma urethritis (rank 1); gonococcal urethritis is the best-supported prediction (rank 2) |
-| TxGNN Prediction Score | 99.93% (Ureaplasma urethritis); 99.93% (gonococcal urethritis) |
+| TxGNN Prediction Score | 0.9993 (Ureaplasma urethritis); 0.9993 (gonococcal urethritis) |
 | Evidence Level | L5 (Ureaplasma urethritis); L3 (gonococcal urethritis) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -110,11 +110,11 @@ Evidence for the other predictions is minimal. Uterine inflammatory disease has 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2602121 | Curam Duo 500/125 | Tablet 500 mg (amoxicillin) with clavulanic acid 125 mg | Not available (cancelled) |
-| 2684748 | Amoxiclav Devatis Forte | Granules for oral liquid, amoxicillin 50 mg with clavulanic acid 12.5 mg per ml | Not available (cancelled) |
-| 319473 | Augmentin | Granules for oral liquid, amoxicillin 25 mg with clavulanic acid 6.25 mg per ml | Not available (cancelled) |
+| 2602121 | Curam Duo 500/125 | Tablet 500 mg (amoxicillin) with clavulanic acid 125 mg | Not available (valid) |
+| 2684748 | Amoxiclav Devatis Forte | Granules for oral liquid, amoxicillin 50 mg with clavulanic acid 12.5 mg per ml | Not available (valid) |
+| 319473 | Augmentin | Granules for oral liquid, amoxicillin 25 mg with clavulanic acid 6.25 mg per ml | Not available (valid) |
 
-All three authorizations are cancelled, so no valid product is currently listed.
+The drug is marketed, and all 3 of 3 licences are valid.
 
 ---
 
@@ -135,7 +135,7 @@ Package insert warnings and contraindications have not been retrieved. Please re
 
 **Rationale:**
 - The top-ranked prediction, Ureaplasma urethritis, has no trials and a mechanistic argument against it, because Ureaplasma lacks a cell wall.
-- Gonococcal urethritis is the only prediction with clinical studies and a sound mechanism, but the studies date from the 1980s and the use is historical rather than new. All New Zealand licences are cancelled, and current practice favours ceftriaxone-based regimens.
+- Ureaplasma urethritis is the main prediction (score 0.9993). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The drug is marketed, with 3 valid licences of 3.
 - The remaining predictions are supported only by computation or indirect evidence.
 
 **To proceed, the following is needed:**

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dacarbazine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 132
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L4). Approved use: Metastatic melanoma"
@@ -14,7 +14,7 @@ predicted_indications: ["upper aerodigestive tract neoplasm"]
 # Dacarbazine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but **no clinical trials** are registered for this indication and the **20 publi
 |------|------|
 | Original Indication | Metastatic melanoma; Hodgkin lymphoma (classic and related subtypes) |
 | Predicted New Indication | Upper aerodigestive tract neoplasm |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9926 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,8 +87,8 @@ No randomized trial in upper aerodigestive tract neoplasm was found. The most re
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 299308 | DBL Dacarbazine | Inj 200 mg vial | Not available (cancelled) |
-| 2204207 | Baxter | Inj 200 mg for ECP | Not available (cancelled) |
+| 299308 | DBL Dacarbazine | Inj 200 mg vial | Not available (valid) |
+| 2204207 | Baxter | Inj 200 mg for ECP | Not available (valid) |
 
 ## Cytotoxicity
 
@@ -121,7 +121,7 @@ The prediction rests on a model score alone (L4). There are no registered trials
 - Direct clinical evidence of dacarbazine in upper aerodigestive tract neoplasms (for example, trials or well-designed cohort studies)
 - Confirmed mechanism of action data from DrugBank
 - Medsafe package insert warnings and contraindications, to allow safety screening
-- Clarification of the New Zealand supply situation, since no valid licence currently exists
+- Clarification of the New Zealand supply situation; the drug is marketed, with 2 valid licences out of 2
 - Comparison against current standard therapies for the target indication
 ## Disclaimer
 

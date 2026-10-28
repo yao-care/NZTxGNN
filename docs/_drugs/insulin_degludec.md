@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 236
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Insulin Degludec: predicted new indication Type 1 diabetes mellitus (evidence level L1). Approved use: Diabetes mellitus"
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
+description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-## Insulin Degludec: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Degludec: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin degludec (supplied in New Zealand as the degludec/insulin aspart 70/30 co-formulation, Ryzodeg) is an ultra-long-acting insulin analogue originally used for diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**, with **40 clinical trials** and **19 publications** currently supporting this direction.
 This is essentially an established, on-label use of the drug rather than true repurposing, and the only New Zealand authorization on record is cancelled.
 
 ---
@@ -48,12 +47,12 @@ This is essentially an established, on-label use of the drug rather than true re
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (from the knowledge graph; no approved indication text is recorded in the New Zealand licence data) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune oophoritis |
+| TxGNN Prediction Score | 0.9923 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -110,7 +109,7 @@ Several additional Phase 1 pharmacodynamic studies and real-world surveillance s
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2704471 | Ryzodeg 70/30 Penfill | Injection: degludec 70 U with insulin aspart 30 U, 100 U per ml, 3 ml | Not recorded (status: cancelled) |
+| 2704471 | Ryzodeg 70/30 Penfill | Injection: degludec 70 U with insulin aspart 30 U, 100 U per ml, 3 ml | Not recorded (status: valid) |
 
 ---
 

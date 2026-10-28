@@ -4,17 +4,17 @@ title: Tolvaptan
 parent: Model Prediction Only (L5)
 nav_order: 456
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Tolvaptan: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Inappropriate ADH syndrome…"
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
+description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tolvaptan: From Inappropriate ADH Syndrome and Polycystic Kidney Disease to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
+## Tolvaptan: Renal-hepatic-pancreatic dysplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tolvaptan is a selective vasopressin V2 receptor antagonist, originally used for inappropriate ADH syndrome (SIADH), nephrogenic syndrome of inappropriate antidiuresis and polycystic kidney disease.
-The TxGNN model predicts it may be effective for **polycystic kidney disease 3 with or without polycystic liver disease (PKD3)**.
 There are **no registered clinical trials** for this specific disease, but **20 publications** are available. Two of them are pivotal RCTs in the broader ADPKD population (PKD1/PKD2), not PKD3-specific trials.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis, polycystic kidney disease (the data compiled for this report has no approved-indication text from the New Zealand licences) |
-| Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 (as assigned in the compiled data; derived from ADPKD-class RCTs, not PKD3-specific trials) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Renal-hepatic-pancreatic dysplasia |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 (as assigned in the compiled data; derived from ADPKD-class RCTs, not PKD3-specific trials) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -85,11 +84,11 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2647508 | Jinarc (cancelled) | Tab 30 mg | Not available |
-| 2647494 | Jinarc (cancelled) | Tab 15 mg | Not available |
-| 2647451 | Jinarc (cancelled) | Tab 45 mg + 15 mg | Not available |
-| 2647478 | Jinarc (cancelled) | Tab 60 mg + 30 mg | Not available |
-| 2647486 | Jinarc (cancelled) | Tab 90 mg + 30 mg | Not available |
+| 2647508 | Jinarc (valid) | Tab 30 mg | Not available |
+| 2647494 | Jinarc (valid) | Tab 15 mg | Not available |
+| 2647451 | Jinarc (valid) | Tab 45 mg + 15 mg | Not available |
+| 2647478 | Jinarc (valid) | Tab 60 mg + 30 mg | Not available |
+| 2647486 | Jinarc (valid) | Tab 90 mg + 30 mg | Not available |
 
 ## Safety Considerations
 
@@ -107,14 +106,13 @@ The package insert warnings and contraindications were not available for this re
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Tolvaptan is an established disease-modifying therapy for ADPKD, supported by large RCTs and reviews, and PKD3 shares the same cAMP-driven cystic pathophysiology. However, there are no PKD3-specific trials. The drug has no currently valid New Zealand licence and carries a significant hepatotoxicity risk, so the decision requires caution.
+Tolvaptan is an established disease-modifying therapy for ADPKD, supported by large RCTs and reviews, and PKD3 shares the same cAMP-driven cystic pathophysiology. However, there are no PKD3-specific trials.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - PKD3 (GANAB)-specific efficacy and safety data, or a justified extrapolation from the ADPKD evidence
 - A liver function monitoring plan
-- Clarification of regulatory status, since all New Zealand licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

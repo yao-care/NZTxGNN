@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease"
+last_modified_at: 2026-10-28
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
+description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Entacapone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Entacapone: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+## Entacapone: PLA2G6-associated neurodegeneration
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** currently support this specific p
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease (the approved-indication text on the New Zealand licence is blank; this indication comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,10 +61,10 @@ Detailed mechanism of action data is not available in the data compiled for this
 PLA2G6-associated neurodegeneration includes infantile neuroaxonal dystrophy and PLA2G6-related dystonia-parkinsonism. A rationale therefore exists for the parkinsonian features only, where extending levodopa exposure could help symptomatically. Entacapone would not address the underlying defect in lipid metabolism and membrane remodelling. This is essentially a symptomatic, not disease-modifying, hypothesis, and it is untested.
 
 Other top-ranked predictions vary widely in plausibility:
-- **Juvenile parkinsonism (paralysis agitans, juvenile, of Hunt, score 99.60%)** is closely related to the original indications, so the dopaminergic rationale is plausible, but the prediction is largely label-adjacent.
-- **Lewy body dementia (99.25%)** shares alpha-synuclein pathology and dopaminergic deficits with Parkinson disease, but the supporting evidence is indirect and preclinical (L4).
-- **Progressive supranuclear palsy-corticobasal syndrome (99.04%)** responds poorly to dopaminergic therapy, so the rationale is weak.
-- **Rasmussen encephalitis, myelitis, transaldolase deficiency, lethal infantile mitochondrial myopathy, fructose-1,6-bisphosphatase deficiency and a congenital polymicrogyria syndrome** show no plausible mechanistic link to COMT inhibition. These may reflect knowledge-graph neighbourhood effects.
+- **Juvenile parkinsonism (paralysis agitans, juvenile, of Hunt, score 0.9960)** is closely related to the original indications, so the dopaminergic rationale is plausible, but the prediction is largely label-adjacent.
+- **Lewy body dementia (0.9925)** shares alpha-synuclein pathology and dopaminergic deficits with Parkinson disease, but the supporting evidence is indirect and preclinical (L4).
+- **Progressive supranuclear palsy-corticobasal syndrome (0.9904)** responds poorly to dopaminergic therapy, so the rationale is weak.
+- **Rasmussen subacute encephalitis (0.9973), myelitis (0.9963), transaldolase deficiency (0.9943), lethal infantile mitochondrial myopathy (0.9928), fructose-1,6-bisphosphatase deficiency (0.9922) and polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (0.9906)** show no plausible mechanistic link to COMT inhibition. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -92,7 +92,7 @@ For Lewy body dementia, the only related publications are preclinical:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2685299 | Entacapone Viatris (cancelled) | Tab 200 mg | Not available |
+| 2685299 | Entacapone Viatris (valid) | Tab 200 mg | Not available |
 
 ## Safety Considerations
 

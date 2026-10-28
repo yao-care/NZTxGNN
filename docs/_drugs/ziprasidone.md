@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ziprasidone
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 486
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ziprasidone: predicted new indication Major Affective Disorder (evidence level L2). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia"
 monitor_inn: "ZIPRASIDONE"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
+description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ziprasidone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Ziprasidone: From Bipolar Disorder and Schizophrenia to Major Affective Disorder
+## Ziprasidone: Trichotillomania
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,15 +45,15 @@ The TxGNN model predicts it may be effective for **Major Affective Disorder** (a
 
 | Item | Content |
 |------|------|
-| Original Indication | Manic bipolar affective disorder, bipolar disorder, schizophrenia (from the knowledge graph; New Zealand licence entries contain no indication text) |
-| Predicted New Indication | Major Affective Disorder |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Trichotillomania |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
-Note: the top-ranked TxGNN prediction is trichotillomania (99.83%), followed by hydranencephaly (99.67%). Neither has any supporting trials or literature, and hydranencephaly in particular has no plausible pharmacological link and looks like a graph artifact. This report focuses on major affective disorder, the highest-ranked prediction with substantial clinical evidence. Tourette syndrome (99.63%) is a secondary candidate with some literature (L3).
+Note: the top-ranked TxGNN prediction is trichotillomania (0.9983), followed by hydranencephaly (0.9967). This report focuses on major affective disorder, the highest-ranked prediction with substantial clinical evidence. Tourette syndrome (0.9963) is a secondary candidate with some literature (L3).
 
 ## Why is This Prediction Reasonable?
 
@@ -92,12 +92,11 @@ The original indications (bipolar mania, bipolar disorder, schizophrenia) alread
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2479575 | Zusdone | Cap 20 mg | Not available (cancelled) |
-| 2479583 | Zusdone | Cap 40 mg | Not available (cancelled) |
-| 2479591 | Zusdone | Cap 60 mg | Not available (cancelled) |
-| 2479605 | Zusdone | Cap 80 mg | Not available (cancelled) |
+| 2479575 | Zusdone | Cap 20 mg | Not available (valid) |
+| 2479583 | Zusdone | Cap 40 mg | Not available (valid) |
+| 2479591 | Zusdone | Cap 60 mg | Not available (valid) |
+| 2479605 | Zusdone | Cap 80 mg | Not available (valid) |
 
-All four licences are cancelled, so no ziprasidone product is currently authorised in New Zealand according to the compiled data.
 
 ## Safety Considerations
 
@@ -112,7 +111,7 @@ Package insert warnings and contraindications were not available in the compiled
 **Decision: Hold**
 
 **Rationale:**
-The evidence level is L2, with several completed Phase 2 trials, including two placebo-controlled studies, but no confirmed Phase 3 RCTs and mixed results in unipolar depression. Ziprasidone currently has no valid New Zealand licence, and the package insert safety review (a blocking gap) has not been done. Cardiac (QTc) and metabolic contraindication signals need review before any further step.
+The evidence level is L2, with several completed Phase 2 trials, including two placebo-controlled studies, but no confirmed Phase 3 RCTs and mixed results in unipolar depression. Cardiac (QTc) and metabolic contraindication signals need review before any further step.
 
 **To proceed, the following is needed:**
 - Download and review the Medsafe package insert for warnings and contraindications (blocking)

@@ -4,17 +4,17 @@ title: Diazoxide
 parent: Model Prediction Only (L5)
 nav_order: 147
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Diazoxide: predicted new indication Hypotrichosis simplex of the scalp . Alopecia is the best-supported p… (evidence level L5). Approved use: Hyperinsulinaemic hypoglycaemia…"
 monitor_inn: "DIAZOXIDE"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "autosomal dominant hyperinsulinism due to Kir6.2 deficiency"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
 ---
 
 # Diazoxide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Diazoxide: From Hyperinsulinaemic Hypoglycaemia to Alopecia
+## Diazoxide: From Hyperinsulinaemic Hypoglycaemia to hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ Evidence is indirect, and the same approach cannot be applied to the other highl
 |------|------|
 | Original Indication | Hyperinsulinaemic hypoglycaemia, insulinoma and related pancreatic conditions (the approved indication text for the New Zealand licences is not available) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp (rank 1 by TxGNN). Alopecia (rank 4) is the best-supported prediction and is the focus of this report |
-| TxGNN Prediction Score | 99.96% (hypotrichosis simplex of the scalp); 99.91% (alopecia) |
+| TxGNN Prediction Score | 0.9996 (hypotrichosis simplex of the scalp); 0.9991 (alopecia) |
 | Evidence Level | L5 for the top-ranked prediction; L4 for alopecia |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (alopecia is a research question only) |
 
 ---
@@ -69,7 +69,7 @@ The high scores for the other hair-related predictions should be read with cauti
 - **Diffuse alopecia areata**: an autoimmune condition, which a KATP opener is unlikely to address.
 - **Ambras-type hypertrichosis and hypertrichosis**: these involve excess hair, so promoting hair growth would be counterproductive. The drug causes hypertrichosis rather than treating it.
 - **Autosomal dominant hyperinsulinism due to Kir6.2 deficiency**: mechanistically relevant, but it falls within the existing use area (congenital hyperinsulinism), so it is not true repurposing. Dominant KCNJ11 mutations are also often unresponsive to diazoxide.
-- **Dandy-Walker malformation syndrome, odontal/periodontal malformation syndrome and genetic hair shaft abnormality**: no plausible mechanism and no evidence, likely knowledge-graph artefacts.
+- **Dandy-Walker malformation syndrome, odontal/periodontal malformation syndrome and genetic hair shaft abnormality**: no plausible mechanism and no evidence, likely TxGNN model (deep learning) artefacts.
 
 ---
 
@@ -105,11 +105,11 @@ Related literature on hypertrichosis and the original indication:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2434628 | Proglicem | Capsule 25 mg | Not available (cancelled) |
-| 2635674 | e5 Pharma | Oral liquid 50 mg per ml | Not available (cancelled) |
-| 2434601 | Proglicem | Capsule 100 mg | Not available (cancelled) |
+| 2434628 | Proglicem | Capsule 25 mg | Not available (valid) |
+| 2635674 | e5 Pharma | Oral liquid 50 mg per ml | Not available (valid) |
+| 2434601 | Proglicem | Capsule 100 mg | Not available (valid) |
 
-All three authorisations are cancelled, so there is currently no valid marketed diazoxide product in New Zealand.
+All three authorisations are valid, so diazoxide is currently marketed in New Zealand.
 
 ---
 

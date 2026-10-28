@@ -48,19 +48,19 @@ but there are currently **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Cystic fibrosis |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 6 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Tezacaftor is part of fixed-dose combination therapies for cystic fibrosis (Symdeko, Trikafta, and Alyftrek), and its efficacy in cystic fibrosis is established. Its pharmacological target is listed as CFTR.
 
-No mechanistic link between tezacaftor and HIV infection is supported by the available data. The high TxGNN score (0.992) is a computational prediction only, with no clinical or literature corroboration. Any biological rationale, for example involving protein folding, trafficking, or host-pathogen pathways, would be speculative and needs independent validation.
+No mechanistic link between tezacaftor and HIV infection is supported by the available data. The high TxGNN score (0.9924) is a computational prediction only, with no clinical or literature corroboration. Any biological rationale, for example involving protein folding, trafficking, or host-pathogen pathways, would be speculative and needs independent validation.
 
-The other two top-ranked predictions are leprosy (score 99.14%) and multiple endocrine neoplasia (score 99.06%). Both are likewise model-only predictions with no trials or literature.
+The other two top-ranked predictions are leprosy (score 0.9914) and multiple endocrine neoplasia (score 0.9906). Both are likewise model-only predictions with no trials or literature.
 
 ## Clinical Trial Evidence
 
@@ -72,15 +72,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All six authorizations are cancelled. Approved indication text is not available for any of them.
+All six authorizations are valid. Approved indication text is not available for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2726211 | Alyftrek | Tablet: vanzacaftor 10 mg / tezacaftor 50 mg / deutivacaftor 125 mg | Cancelled |
-| 2726203 | Alyftrek | Tablet: vanzacaftor 4 mg / tezacaftor 20 mg / deutivacaftor 50 mg | Cancelled |
-| 2726238 | Trikafta | Oral granules: elexacaftor 100 mg / tezacaftor 50 mg / ivacaftor 75 mg, plus ivacaftor 75 mg, sachets | Cancelled |
-| 2726246 | Trikafta | Oral granules: elexacaftor 80 mg / tezacaftor 40 mg / ivacaftor 60 mg, plus ivacaftor 59.5 mg, sachets | Cancelled |
-| 2611694 | Trikafta | Tablet: elexacaftor 100 mg / tezacaftor 50 mg / ivacaftor 75 mg, plus ivacaftor 150 mg | Cancelled |
+| 2726211 | Alyftrek | Tablet: vanzacaftor 10 mg / tezacaftor 50 mg / deutivacaftor 125 mg | Valid |
+| 2726203 | Alyftrek | Tablet: vanzacaftor 4 mg / tezacaftor 20 mg / deutivacaftor 50 mg | Valid |
+| 2726238 | Trikafta | Oral granules: elexacaftor 100 mg / tezacaftor 50 mg / ivacaftor 75 mg, plus ivacaftor 75 mg, sachets | Valid |
+| 2726246 | Trikafta | Oral granules: elexacaftor 80 mg / tezacaftor 40 mg / ivacaftor 60 mg, plus ivacaftor 59.5 mg, sachets | Valid |
+| 2611694 | Trikafta | Tablet: elexacaftor 100 mg / tezacaftor 50 mg / ivacaftor 75 mg, plus ivacaftor 150 mg | Valid |
 
 A sixth authorization, 2649748 (Trikafta tablet: elexacaftor 50 mg / tezacaftor 25 mg / ivacaftor 37.5 mg, plus ivacaftor 75 mg), is also cancelled.
 
@@ -95,13 +95,13 @@ Please refer to the package insert for warnings and contraindications, as these 
 **Decision: Hold**
 
 **Rationale:**
-The HIV prediction is supported only by a model score, with no clinical trials, no literature, and no established mechanistic link. In addition, all New Zealand authorizations are cancelled and the package insert safety data are missing.
+The HIV prediction is supported only by a model score, with no clinical trials, no literature, and no established mechanistic link. In addition, all six New Zealand authorizations are valid and the package insert safety data are missing.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) to assess any plausible link to HIV
 - Medsafe package insert warnings and contraindications for safety screening
 - Preclinical or in vitro studies testing tezacaftor against HIV
-- Clarification of the New Zealand regulatory status, since all authorizations are cancelled
+- Clarification of the New Zealand regulatory status
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

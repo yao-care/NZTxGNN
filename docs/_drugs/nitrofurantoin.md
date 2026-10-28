@@ -6,9 +6,9 @@ nav_order: 325
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not listed in the New Zealand licence records (known use: urinary tra…"
 monitor_inn: "NITROFURANTOIN"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
+description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nitrofurantoin
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nitrofurantoin: From Urinary Tract Infection to Rheumatoid Arthritis
+## Nitrofurantoin: Rheumatoid arthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nitrofurantoin is an antibacterial drug. The data compiled for this report do not list an approved indication, but its known use is for urinary tract infections.
 The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **0 clinical trials** and no publications showing therapeutic benefit.
-The literature retrieved mostly describes harms, so the prediction is probably an artifact of the knowledge graph.
+The literature retrieved mostly describes harms, so the prediction is probably an artifact of the TxGNN model (deep learning): the score may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -48,12 +48,12 @@ The literature retrieved mostly describes harms, so the prediction is probably a
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the New Zealand licence records (known use: urinary tract infection) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The literature retrieved mostly describes harms, so the prediction is probably a
 
 Detailed mechanism of action data is not available in the data compiled for this report. Nitrofurantoin is a nitrofuran antibacterial. Its metabolites are generally understood to damage bacterial DNA and ribosomal proteins, and its efficacy in urinary tract infections is established.
 
-This mechanism has no plausible therapeutic link to rheumatoid arthritis, which is an autoimmune inflammatory joint disease. The very high TxGNN score (0.999) is most likely a knowledge-graph artifact and is not supported by clinical evidence.
+This mechanism has no plausible therapeutic link to rheumatoid arthritis, which is an autoimmune inflammatory joint disease. The very high TxGNN score (0.9989) is most likely a TxGNN model (deep learning) artifact and is not supported by clinical evidence.
 
 The retrieved literature points the other way. It describes drug-induced pulmonary fibrosis, an interaction between nitrofurantoin and methotrexate (a standard rheumatoid arthritis drug) causing irreversible pulmonary fibrosis, and an association between antibiotic use and rheumatoid arthritis flares.
 
@@ -95,9 +95,9 @@ None of these papers shows a therapeutic benefit of nitrofurantoin in rheumatoid
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 254738 | Nifuran | Tab 50 mg | Not recorded (cancelled) |
-| 254754 | Nifuran | Tab 100 mg | Not recorded (cancelled) |
-| 2493624 | Macrobid | Cap modified-release 100 mg | Not recorded (cancelled) |
+| 254738 | Nifuran | Tab 50 mg | Not recorded (valid) |
+| 254754 | Nifuran | Tab 100 mg | Not recorded (valid) |
+| 2493624 | Macrobid | Cap modified-release 100 mg | Not recorded (valid) |
 
 ---
 
@@ -125,13 +125,12 @@ Please also refer to the package insert for label warnings and contraindications
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials and no literature showing benefit, and the mechanism has no plausible link to rheumatoid arthritis. The available evidence instead raises safety concerns, especially pulmonary and hepatic toxicity and the methotrexate interaction. All New Zealand authorisations are cancelled.
+The prediction rests only on a model score. There are no clinical trials and no literature showing benefit, and the mechanism has no plausible link to rheumatoid arthritis. The available evidence instead raises safety concerns, especially pulmonary and hepatic toxicity and the methotrexate interaction. The drug is marketed in New Zealand, with 3 of 3 authorisations valid.
 
 **To proceed, the following is needed:**
 - A plausible mechanistic rationale for anti-rheumatic activity, supported by preclinical data
 - Mechanism of action data and the package insert warnings and contraindications
 - A safety assessment for patients on methotrexate or with pulmonary or hepatic disease
-- Confirmation of regulatory status, since no valid New Zealand authorisation currently exists
 
 The other predicted indications reviewed (including diabetic nephropathy, sclerosing cholangitis, methemoglobinemia and several rare genetic syndromes) also have only model-prediction support. For several of them the evidence points to harm, notably methemoglobinemia, where nitrofurantoin is a documented cause. None of them supports advancing the drug.
 ## Disclaimer

@@ -4,17 +4,17 @@ title: Lorazepam
 parent: Model Prediction Only (L5)
 nav_order: 278
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Anxiety disorder, status epilepticus, absence epilepsy…"
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
+description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lorazepam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lorazepam: From Anxiety Disorder and Seizure Conditions to Trigeminal Nerve Neoplasm
+## Lorazepam: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,29 +46,24 @@ Among the other top-10 predictions, **insomnia** has the most supporting evidenc
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, status epilepticus, absence epilepsy, Lennox-Gastaut syndrome (from knowledge-graph indication data; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Lorazepam is known to be a benzodiazepine that enhances GABA-A receptor-mediated inhibition, producing anxiolytic, sedative and anticonvulsant effects. This is general pharmacology rather than data from this report's sources.
 
-For the top-ranked prediction, trigeminal nerve neoplasm, there is no plausible disease-modifying link. Lorazepam has no known antitumour mechanism. At most it could offer symptomatic relief (anxiolysis, sedation, antiemetic use) in oncology care, which is not treatment of the tumour. This prediction is most likely a knowledge-graph artifact.
+For the top-ranked prediction, trigeminal nerve neoplasm, there is no plausible disease-modifying link. Lorazepam has no known antitumour mechanism. At most it could offer symptomatic relief (anxiolysis, sedation, antiemetic use) in oncology care, which is not treatment of the tumour. This prediction is most likely a TxGNN model (deep learning) artifact.
 
 Several lower-ranked predictions are mechanistically more coherent, because they relate to the drug's existing sedative and anticonvulsant uses:
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Insomnia | 99.80% | L3 | Plausible; older small studies exist, but current guidance limits benzodiazepines in chronic insomnia |
-| 3 | Reading seizures | 99.64% | L4 | Plausible reflex-epilepsy extension; only indirect evidence |
-| 7 | Micturition-induced seizures | 99.63% | L4 | Class-level support for acute seizures; no disease-specific evidence |
-| 4, 5, 6, 8, 9 | Orgasm-induced seizures, startle epilepsy, thinking seizures, audiogenic seizures, eating seizures | 99.63% | L4–L5 | Prediction-only or animal/indirect evidence |
-| 10 | Acute encephalopathy with biphasic seizures and late reduced diffusion | 99.47% | L5 | Prediction-only; supportive seizure control at most |
 
 ## Clinical Trial Evidence
 
@@ -93,8 +88,8 @@ For seizure-related predictions, the literature mainly supports benzodiazepines,
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 250120 | Ativan | Tab 2.5 mg | Not available (authorization cancelled) |
-| 2139022 | Ativan | Tab 1 mg | Not available (authorization cancelled) |
+| 250120 | Ativan | Tab 2.5 mg | Not available (authorization valid) |
+| 2139022 | Ativan | Tab 1 mg | Not available (authorization valid) |
 
 ## Safety Considerations
 
@@ -109,14 +104,13 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, trigeminal nerve neoplasm, has a very high model score (99.87%) but no trials, no literature and no plausible antitumour mechanism, so it is likely a graph artifact. All New Zealand authorizations are cancelled, which adds a regulatory barrier. Of the other predictions, insomnia (L3) and the seizure-related extensions (L4) are mechanistically reasonable but supported only by dated, indirect or class-level evidence, and are best treated as research questions rather than repurposing candidates.
+The top prediction, trigeminal nerve neoplasm, has a very high score from the TxGNN model (deep learning) (0.9987) but no trials, no literature and no plausible antitumour mechanism. The score may reflect similarities the model learned between related diseases, not biological evidence. The drug is marketed in New Zealand, with 2 of 2 licences valid.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Confirmation of the design and quality of the older insomnia studies (PMIDs 10220122 and 3280615), and a comparison against current insomnia guidance
 - Direct clinical evidence for any seizure subtype extension, such as reading epilepsy
-- A regulatory availability assessment, since no valid lorazepam authorization currently exists in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

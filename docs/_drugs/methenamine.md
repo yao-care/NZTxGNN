@@ -6,9 +6,9 @@ nav_order: 289
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Methenamine: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection"
 monitor_inn: "METHENAMINE"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
+description: "Methenamine: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methenamine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Methenamine: From Urinary Tract Infection to Ureaplasma Urethritis
+## Methenamine: Ureaplasma urethritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no supporting publications** were found, so this is
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection (the New Zealand licence records contain no approved indication text; this indication comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ureaplasma urethritis |
-| TxGNN Prediction Score | 99.79% |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,9 +69,9 @@ The high TxGNN score is a model output only and is not backed by trials or liter
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Gonococcal urethritis | 99.79% | L5 | Mucosal infection treated with systemic antibiotics. Transient urinary antiseptic exposure and the need for reliable cure make methenamine unsuitable. |
-| Uterine inflammatory disease | 99.77% | L4 | Methenamine does not reach uterine tissue at effective levels. The only article retrieved is a report on actinomycotic endometritis, which does not address methenamine efficacy. |
-| Xanthogranulomatous pyelonephritis | 99.73% | L4 | Methenamine acts only in bladder urine and does not reach renal tissue. The only article retrieved is a pathology survey with no methenamine evidence. |
+| Gonococcal urethritis | 0.9979 | L5 | Mucosal infection treated with systemic antibiotics. Transient urinary antiseptic exposure and the need for reliable cure make methenamine unsuitable. |
+| Uterine inflammatory disease | 0.9977 | L5 | Methenamine does not reach uterine tissue at effective levels. The only article retrieved is a report on actinomycotic endometritis, which does not address methenamine efficacy. |
+| Xanthogranulomatous pyelonephritis | 0.9973 | L5 | Methenamine acts only in bladder urine and does not reach renal tissue. The only article retrieved is a pathology survey with no methenamine evidence. |
 
 ## Clinical Trial Evidence
 
@@ -92,8 +92,8 @@ Two articles were retrieved for lower-ranked predictions. Neither provides evide
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 209538 | Hiprex | Tab 1 g | Not recorded (cancelled) |
-| 2671077 | Hiprex | Tab 1 g | Not recorded (cancelled) |
+| 209538 | Hiprex | Tab 1 g | Not recorded (valid) |
+| 2671077 | Hiprex | Tab 1 g | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -109,7 +109,7 @@ Package insert warnings and contraindications were not available and should be c
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials and no supporting literature. Methenamine's action is limited to acidic bladder urine, which makes effective exposure doubtful for Ureaplasma or gonococcal urethritis. It has no valid New Zealand licence at present.
+The prediction rests on a model score alone (L5), with no trials and no supporting literature. Methenamine's action is limited to acidic bladder urine, which makes effective exposure doubtful for Ureaplasma or gonococcal urethritis.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe

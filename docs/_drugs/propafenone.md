@@ -4,17 +4,17 @@ title: Propafenone
 parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
-indication_count: 8
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Atrial fibrillation"
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
+description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Propafenone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Propafenone: From Atrial Fibrillation and Ventricular Tachycardia to Catecholaminergic Polymorphic Ventricular Tachycardia
+## Propafenone: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,21 +49,21 @@ The top-ranked TxGNN prediction (manic bipolar affective disorder) is shown firs
 
 | Item | Rank 1: Manic bipolar affective disorder | Rank 2: CPVT (best-supported) |
 |------|------|------|
-| Original Indication | Atrial fibrillation; ventricular tachycardia | Atrial fibrillation; ventricular tachycardia |
-| Predicted New Indication | Manic bipolar affective disorder | Catecholaminergic polymorphic ventricular tachycardia |
-| TxGNN Prediction Score | 99.80% | 99.79% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Manic bipolar affective disorder |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 | L3 |
-| New Zealand Market Status | Cancelled only | Cancelled only |
-| Number of Authorizations | 1 | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) | Cancelled only |
+| Number of Authorizations | 1 (valid: 1) | 1 |
 | Recommended Decision | Hold | Proceed with Guardrails (research question only) |
 
-The New Zealand product record contains no approved indication text. The original indications above come from the knowledge graph.
+The New Zealand product record contains no approved indication text.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-**Rank 1 (manic bipolar affective disorder).** No plausible therapeutic mechanism is supported. The available literature describes propafenone as a cause of mania (a 1985 case report) and as part of interactions that produced psychiatric adverse effects (a 2001 venlafaxine-propafenone psychosis case and a 2020 review of antipsychotic-cardiac drug interactions). This is a safety signal, not evidence of benefit. The high score is most likely a graph-based artifact.
+**Rank 1 (manic bipolar affective disorder).** No plausible therapeutic mechanism is supported. The available literature describes propafenone as a cause of mania (a 1985 case report) and as part of interactions that produced psychiatric adverse effects (a 2001 venlafaxine-propafenone psychosis case and a 2020 review of antipsychotic-cardiac drug interactions). This is a safety signal, not evidence of benefit. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Rank 2 (CPVT).** Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that propafenone acts on β1- and β2-adrenoceptors and on the Kv1.5 potassium channel, and it is a class IC sodium channel blocker.
 
@@ -107,7 +107,7 @@ Literature for the top-ranked prediction (manic bipolar affective disorder):
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2534339 | Rytmonorm (cancelled) | Tab 150 mg | Not recorded |
+| 2534339 | Rytmonorm (valid) | Tab 150 mg | Not recorded |
 
 ---
 

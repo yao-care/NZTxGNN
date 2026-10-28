@@ -6,9 +6,9 @@ nav_order: 421
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Sennosides: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the New Zealand licence records"
 monitor_inn: "sennosides"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia"]
+description: "Sennosides: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sennosides
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Sennosides: From Constipation (Laxative Use) to Hypotrichosis Simplex of the Scalp
+## Sennosides: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,21 +44,21 @@ Sennosides are stimulant laxatives (anthraquinone glycosides) that act on the co
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the New Zealand licence records; the drug is a stimulant laxative |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, sennosides are stimulant laxatives. Their active metabolite, rheinanthrone, acts on the colonic epithelium and enteric signalling, and they are poorly absorbed.
 
-Hypotrichosis simplex of the scalp is a genetic hair follicle disorder (for example, variants in CDSN, APCDD1 or RPL21). No mechanistic link to sennosides was identified. The high TxGNN score appears to reflect proximity in the knowledge graph rather than a biologically plausible pathway.
+Hypotrichosis simplex of the scalp is a genetic hair follicle disorder (for example, variants in CDSN, APCDD1 or RPL21). No mechanistic link to sennosides was identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-The other top predictions show the same pattern: congenital hypotrichosis milia, diffuse alopecia areata, open-angle glaucoma, primary hereditary glaucoma and alopecia. Several are hair-related, which suggests a shared knowledge-graph artefact rather than independent biological signal. None has supporting trials or literature. This prediction should be treated as a computational hypothesis only.
+The other top predictions show the same pattern: congenital hypotrichosis milia, diffuse alopecia areata, open-angle glaucoma, primary hereditary glaucoma and alopecia. Several are hair-related, which suggests a shared TxGNN model (deep learning) artefact rather than independent biological signal. None has supporting trials or literature. This prediction should be treated as a computational hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -72,8 +72,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2712172 | Solax (cancelled) | Tab 50 mg with sennosides 8 mg | Not stated |
-| 2069482 | Laxsol (cancelled) | Tab 50 mg with sennosides 8 mg | Not stated |
+| 2712172 | Solax (valid) | Tab 50 mg with sennosides 8 mg | Not stated |
+| 2069482 | Laxsol (valid) | Tab 50 mg with sennosides 8 mg | Not stated |
 
 ## Safety Considerations
 
@@ -87,7 +87,7 @@ Please refer to the package insert for further safety information (warnings and 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only model support (L5), with no clinical trials, no literature and no plausible mechanistic link. Sennosides have no currently valid New Zealand licence, and their action is local to the colon, so they are not expected to reach hair follicles.
+The prediction has only model support (L5), with no clinical trials, no literature and no plausible mechanistic link.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to allow any meaningful mechanistic assessment

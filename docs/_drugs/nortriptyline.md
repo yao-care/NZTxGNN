@@ -6,9 +6,9 @@ nav_order: 329
 evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
+description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Nortriptyline
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **2**
 
 </div>
 
-## Nortriptyline: From Anxiety Disorder to Attention Deficit-Hyperactivity Disorder
+## Nortriptyline: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **no registered clinical trials** but **about 11 relevant publications** (i
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Enhancing noradrenergic signalling in prefrontal circuits is the same pathway targeted by atomoxetine and other non-stimulant ADHD treatments. This offers a plausible mechanistic link between a drug used for mood and anxiety conditions and ADHD. A PET study in patients with depression also confirmed that nortriptyline occupies NET in the human brain.
 
-The very high TxGNN score is a computational prediction and does not replace clinical evidence. A second predicted term, ADHD inattentive type (score 99.33%), is a subtype of the same condition. It has no specific trials or literature and largely mirrors the parent term, so it is not evaluated separately here.
+The very high TxGNN score is a computational prediction and does not replace clinical evidence. A second predicted term, ADHD inattentive type (score 0.9933), is a subtype of the same condition. It has no specific trials or literature and largely mirrors the parent term, so it is not evaluated separately here.
 
 ## Clinical Trial Evidence
 
@@ -86,8 +86,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2710706 | Allegron | Tab 25 mg | Not available (cancelled) |
-| 2710692 | Allegron | Tab 10 mg | Not available (cancelled) |
+| 2710706 | Allegron | Tab 25 mg | Not available (valid) |
+| 2710692 | Allegron | Tab 10 mg | Not available (valid) |
 
 Both licences are cancelled, so no nortriptyline product currently holds a valid authorization in New Zealand.
 
@@ -111,7 +111,7 @@ Published evidence (one pediatric RCT, a Cochrane review and several observation
 - Detailed mechanism of action data from DrugBank
 - Review of the RCT and Cochrane data for effect size and cardiac safety, especially ECG monitoring
 - Comparison against established ADHD treatments (stimulants, atomoxetine, α2-agonists)
-- A regulatory pathway for supply, since all current licences are cancelled
+- Regulatory pathway for supply: the drug is marketed in this country, with 2 valid licences of 2
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

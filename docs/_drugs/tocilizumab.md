@@ -4,17 +4,17 @@ title: Tocilizumab
 parent: High Evidence (L1-L2)
 nav_order: 454
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L2). Approved use: Rheumatoid arthritis (also juvenile idiopathic arthritis…"
 monitor_inn: "TOCILIZUMAB"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Tocilizumab: From Rheumatoid Arthritis to Ankylosing Spondylitis
+## Tocilizumab: Ankylosing spondylitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **ankylosing spondylitis**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis (also juvenile idiopathic arthritis, temporal arteritis, Castleman disease) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ankylosing spondylitis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,10 +87,10 @@ However, plausibility has not translated into demonstrated efficacy. The two Pha
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2337991 | Actemra | Inj 20 mg per ml, 10 ml vial | Cancelled |
-| 2440571 | Actemra | Inj 20 mg per ml, 20 ml vial | Cancelled |
-| 2337983 | Actemra | Inj 20 mg per ml, 4 ml vial | Cancelled |
-| 2478439 | Baxter | Inj 1 mg for ECP | Cancelled |
+| 2337991 | Actemra | Inj 20 mg per ml, 10 ml vial | Valid |
+| 2440571 | Actemra | Inj 20 mg per ml, 20 ml vial | Valid |
+| 2337983 | Actemra | Inj 20 mg per ml, 4 ml vial | Valid |
+| 2478439 | Baxter | Inj 1 mg for ECP | Valid |
 
 ## Safety Considerations
 
@@ -104,12 +104,12 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The only controlled data in ankylosing spondylitis come from two terminated Phase 3 trials with no demonstrated efficacy, and established TNF and IL-17 inhibitors are available. Tocilizumab also has no currently valid New Zealand authorization, and package insert safety information has not been obtained.
+The only controlled data in ankylosing spondylitis come from two terminated Phase 3 trials with no demonstrated efficacy, and established TNF and IL-17 inhibitors are available.
 
 **To proceed, the following is needed:**
 - Full results and termination reasons for NCT01209689 and NCT01209702, including the BUILDER-1/2 outcomes
 - Mechanism of action data and the Medsafe package insert warnings and contraindications
-- Clarification of regulatory status in New Zealand, since all 4 authorizations are cancelled
+- Clarification of regulatory status in New Zealand, since all 4 authorizations are valid
 - A comparison against established AS therapies to show a distinct clinical role
 ## Disclaimer
 

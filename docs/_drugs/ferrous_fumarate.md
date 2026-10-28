@@ -6,9 +6,9 @@ nav_order: 197
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Iron deficiency anaemia and related anaemias (folic acid deficiency a…"
 monitor_inn: "FERROUS FUMARATE"
 predicted_indications: ["non-syndromic esophageal malformation"]
+description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ferrous Fumarate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Ferrous Fumarate: From Iron Deficiency Anaemia to Non-Syndromic Esophageal Malformation
+## Ferrous Fumarate: Non-syndromic esophageal malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Iron deficiency anaemia and related anaemias (folic acid deficiency anaemia, anaemia of prematurity, hypochromic anaemia, microcytic anaemia); acne also appears in the knowledge graph. No approved indication text is available from the New Zealand licence record. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Non-syndromic esophageal malformation |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (0 currently valid, 1 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The predicted condition is a different kind of problem. Esophageal malformations (such as esophageal atresia or tracheoesophageal fistula) are structural defects that arise during embryonic development. Restoring iron levels would not be expected to correct such a defect, so no plausible mechanistic link can be drawn from the data compiled for this report.
 
-The high score (0.995) is a knowledge-graph prediction only, and no clinical or published evidence backs it up. It may reflect graph artefacts, such as shared gene or pathway neighbours, rather than a real therapeutic relationship. Oral iron is also known to irritate the oesophageal and gastrointestinal lining, which argues against benefit in this setting.
+The high score (0.9949) is a TxGNN model (deep learning) prediction only, and no clinical or published evidence backs it up. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Oral iron is also known to irritate the oesophageal and gastrointestinal lining, which argues against benefit in this setting.
 
 ## Clinical Trial Evidence
 
@@ -97,7 +97,7 @@ The prediction is supported only by a model score. There are no clinical trials 
 - Any independent biological or clinical evidence linking iron supplementation to oesophageal development or malformation
 - Package insert warnings and contraindications, to allow a proper safety screen
 - Confirmation of route and formulation compatibility with the proposed use
-- Review of whether the knowledge-graph link is an artefact before investing further
+- Review of whether the TxGNN model (deep learning) score reflects only similarities learned between related diseases, rather than biological evidence, before investing further
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -48,10 +48,10 @@ but there are currently **no clinical trials and no publications** supporting th
 |------|------|
 | Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, unipolar and endogenous depression, major depressive disorder, post-traumatic stress disorder, social phobia, phobic disorder, obsessive-compulsive disorder (the New Zealand licence record contains no approved indication text) |
 | Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.11% |
+| TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Ohdo syndrome (including the Say-Barber-Biesecker-Young-Simpson variant, associated with KAT6B variants) is a rare genetic neurodevelopmental disorder characterised by intellectual disability, blepharophimosis and hypotonia. Its underlying pathology involves epigenetic and chromatin regulation, which is not clearly connected to serotonin reuptake inhibition.
 
-The only support is the high knowledge-graph prediction score (0.991). Any plausible benefit is speculative and would most likely be symptomatic, for example for anxiety, depression or behavioural features, rather than disease-modifying. The score should be treated as a hypothesis-generating signal, not as evidence of efficacy.
+The only support is the high TxGNN model (deep learning) prediction score (0.9911). Any plausible benefit is speculative and would most likely be symptomatic, for example for anxiety, depression or behavioural features, rather than disease-modifying. The score should be treated as a hypothesis-generating signal, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 

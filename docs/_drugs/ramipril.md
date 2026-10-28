@@ -4,17 +4,17 @@ title: Ramipril
 parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ramipril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension, stroke and cerebrovascular disease"
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
+description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ramipril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ramipril: From Hypertension to Pulmonary Hypertension (Hypoxia/Lung Disease-Related)
+## Ramipril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be useful for **pulmonary hypertension owing to 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, stroke and cerebrovascular disease (the New Zealand licence records contain no approved indication text; these come from the knowledge-graph indication data) |
-| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia (the top-ranked prediction, "pulmonary hypertension with unclear multifactorial mechanism", has no supporting literature at all; this report focuses on the second-ranked prediction, which has the most relevant evidence) |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 (preclinical evidence only) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 (preclinical evidence only) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,14 +79,14 @@ Only the publications that bear on this indication are listed. The rest of the r
 
 ## New Zealand Market Information
 
-All four licences are cancelled, and the records contain no approved indication text.
+All four licences are valid, and the records contain no approved indication text.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2635747 | Tryzan | Capsule 1.25 mg | Not recorded (cancelled) |
-| 2635755 | Tryzan | Capsule 2.5 mg | Not recorded (cancelled) |
-| 2635763 | Tryzan | Capsule 5 mg | Not recorded (cancelled) |
-| 2635771 | Tryzan | Capsule 10 mg | Not recorded (cancelled) |
+| 2635747 | Tryzan | Capsule 1.25 mg | Not recorded (valid) |
+| 2635755 | Tryzan | Capsule 2.5 mg | Not recorded (valid) |
+| 2635763 | Tryzan | Capsule 5 mg | Not recorded (valid) |
+| 2635771 | Tryzan | Capsule 10 mg | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -103,7 +103,7 @@ The package insert warnings and contraindications could not be retrieved, so the
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.93%), but the support is limited to a single animal study from 1996, with no clinical trials and no human data. ACE inhibitors are not an established therapy for pulmonary hypertension. In addition, ramipril has no currently valid licence in New Zealand.
+The prediction score is very high (0.9993), but the support is limited to a single animal study from 1996, with no clinical trials and no human data. ACE inhibitors are not an established therapy for pulmonary hypertension. In addition, ramipril is marketed in New Zealand, with 4 valid licences out of 4.
 
 Other predictions in the list were also reviewed. None has trial support:
 - Intracerebral haemorrhage (L4) has only indirect animal data.
@@ -116,7 +116,7 @@ Other predictions in the list were also reviewed. None has trial support:
 - Mechanism of action data for ramipril (from DrugBank)
 - Confirmation of the 1996 rat findings in modern pulmonary hypertension models
 - A systematic literature search for human studies of ACE inhibitors in pulmonary hypertension
-- Clarification of the licensing situation, since all four New Zealand licences are cancelled
+- Clarification of the licensing situation, since all four New Zealand licences are valid
 - A safety plan for patients with renal impairment, renal artery stenosis, hypotension or angioedema risk
 ## Disclaimer
 

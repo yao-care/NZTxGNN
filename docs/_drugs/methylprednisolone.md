@@ -4,7 +4,7 @@ title: Methylprednisolone
 parent: Moderate Evidence (L3-L4)
 nav_order: 293
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Methylprednisolone: predicted new indication Alopecia areata (evidence level L3). Approved use: Autoimmune disease (other listed indications include adrenocortical i…"
 monitor_inn: "METHYLPREDNISOLONE"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Methylprednisolone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **1 clinical trial** and **20 publications** currently supporting this dire
 |------|------|
 | Original Indication | Autoimmune disease (other listed indications include adrenocortical insufficiency, Crohn disease and acute lymphoblastic leukaemia) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 7 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Authorizations | 7 (valid: 7) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -87,11 +87,11 @@ Importantly, the evidence is mostly open-label, retrospective or review-level. T
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 681776 | Medrol | Tab 100 mg | Cancelled; indication text not available |
-| 210692 | Medrol | Tab 4 mg | Cancelled; indication text not available |
-| 2454327 | Depo-Medrol | Inj 40 mg per ml, 1 ml vial | Cancelled; indication text not available |
-| 2394227 | Solu-Medrol-Act-O-Vial | Inj 40 mg vial | Cancelled; indication text not available |
-| 265357 | Solu-Medrol | Inj 1 g vial | Cancelled; indication text not available |
+| 681776 | Medrol | Tab 100 mg | Valid; indication text not available |
+| 210692 | Medrol | Tab 4 mg | Valid; indication text not available |
+| 2454327 | Depo-Medrol | Inj 40 mg per ml, 1 ml vial | Valid; indication text not available |
+| 2394227 | Solu-Medrol-Act-O-Vial | Inj 40 mg vial | Valid; indication text not available |
+| 265357 | Solu-Medrol | Inj 1 g vial | Valid; indication text not available |
 
 Two further authorizations (Solu-Medrol-Act-O-Vial 125 mg and 500 mg vials) are also cancelled.
 
@@ -110,14 +110,14 @@ For label warnings and contraindications, please refer to the package insert.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Alopecia areata has a plausible mechanistic link, and there is one completed Phase 4 trial plus multiple clinical series and reviews supporting pulse methylprednisolone. However, the evidence is mostly non-randomized, relapse rates are high, and all New Zealand authorizations are cancelled. This supports further evaluation, not a direct go decision.
+Alopecia areata has a plausible mechanistic link, and there is one completed Phase 4 trial plus multiple clinical series and reviews supporting pulse methylprednisolone. However, the evidence is mostly non-randomized, relapse rates are high, and the drug is marketed in this country with 7 valid licences of 7. This supports further evaluation, not a direct go decision.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data
 - Results and design details (randomization, controls) of NCT01167946
 - Controlled comparative data against current alternatives such as JAK inhibitors, plus relapse and long-term safety data
-- Clarification of the regulatory pathway given that no valid authorization exists in New Zealand
+- Clarification of the regulatory pathway for this new indication, given that the drug is marketed with 7 valid licences of 7
 
 **Other predicted indications:** Idiopathic steroid-sensitive nephrotic syndrome (L4, Research Question) is largely an extension within the corticosteroid class, supported by reviews and retrospective pulse-therapy studies. The remaining predictions (alopecia mucinosa, telogen effluvium, folliculitis decalvans, and several rare hereditary hair disorders) are model-only (L5) with no supporting trials, and are on Hold.
 ## Disclaimer

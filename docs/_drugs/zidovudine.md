@@ -4,17 +4,17 @@ title: Zidovudine
 parent: Model Prediction Only (L5)
 nav_order: 485
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Zidovudine: From HIV Infection and AIDS to Feline Acquired Immunodeficiency Syndrome
+## Zidovudine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Zidovudine is a nucleoside reverse transcriptase inhibitor, originally used to treat HIV infection and AIDS.
 The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency syndrome**, a veterinary indication supported by **19 publications** (all animal or veterinary studies) and **no registered clinical trials**.
-The highest-ranked prediction with direct human clinical evidence is **AIDS related complex**, supported by **44 clinical trials** and **19 publications**, but this largely confirms zidovudine's established use rather than a new one.
 
 ---
 
@@ -48,12 +47,12 @@ The highest-ranked prediction with direct human clinical evidence is **AIDS rela
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (the licence records contain no approved indication text) |
-| Predicted New Indication | Feline acquired immunodeficiency syndrome (rank 1) |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 (animal and veterinary studies only; no human trials for this indication) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 (animal and veterinary studies only; no human trials for this indication) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold (rank 1 is a veterinary research question; see the Conclusion for the human-relevant predictions) |
 
 ---
@@ -64,13 +63,13 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV and carries a reverse transcriptase that zidovudine can inhibit. In experimentally and naturally infected cats, zidovudine lowered plasma virus titres and in some studies produced clinical benefit. It did not prevent infection when given prophylactically. Toxicity, mainly anaemia, has also been documented in cats. The same logic applies to the second-ranked prediction, simian immunodeficiency virus infection, where macaque studies show reduced viral load and prolonged survival.
 
-Both are animal models or veterinary conditions, so they are not directly applicable to human drug repurposing. Two lower-scored predictions on the list, AIDS related complex and congenital HIV, are essentially the original HIV indication. Two others are probably model artefacts: a rare neurodevelopmental disorder and an obsolete familial combined hyperlipidaemia term. Neither has any literature, clinical trials or plausible mechanism.
+Both are animal models or veterinary conditions, so they are not directly applicable to human drug repurposing. The other two predictions are probably model artefacts: a rare neurodevelopmental disorder and an obsolete familial combined hyperlipidaemia term. Neither has any literature, clinical trials or plausible mechanism.
 
 ---
 
 ## Clinical Trial Evidence
 
-The top-ranked prediction (feline AIDS) has no registered clinical trials. The most relevant human trials are listed below for the rank 5 prediction, AIDS related complex, which has the strongest direct evidence.
+The top-ranked prediction (feline AIDS) has no registered clinical trials.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -100,7 +99,6 @@ The top-ranked prediction (feline AIDS) has no registered clinical trials. The m
 | [2163339](https://pubmed.ncbi.nlm.nih.gov/2163339/) | 1990 | Animal toxicity study | Fundam Appl Toxicol | Dose-dependent zidovudine toxicity in FeLV-infected cats |
 | [8820595](https://pubmed.ncbi.nlm.nih.gov/8820595/) | 1995 | Review | Semin Vet Med Surg (Small Anim) | Management of retrovirus-infected cats, including zidovudine |
 
-**AIDS related complex (rank 5, human):**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -124,10 +122,9 @@ The top-ranked prediction (feline AIDS) has no registered clinical trials. The m
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 818682 | Retrovir | Oral liquid 10 mg per ml | Not recorded (cancelled) |
-| 552666 | Retrovir | Capsule 100 mg | Not recorded (cancelled) |
+| 818682 | Retrovir | Oral liquid 10 mg per ml | Not recorded (valid) |
+| 552666 | Retrovir | Capsule 100 mg | Not recorded (valid) |
 
-Both authorizations are cancelled, so there is currently no valid marketed zidovudine product in New Zealand.
 
 ---
 
@@ -145,7 +142,7 @@ Both authorizations are cancelled, so there is currently no valid marketed zidov
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, myopathy and other muscle disease (including myositis and dermatomyositis), neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), lactic acidosis, hypertriglyceridemia, obesity disorders, familial periodic paralysis, pyoureter.
+- **Contraindications (associations only, not label text)**: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, myopathy and other muscle disease (including myositis and dermatomyositis), neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), lactic acidosis, hypertriglyceridemia, obesity disorders, familial periodic paralysis, pyoureter.
 - **Drug Interactions**: 100 interactions are recorded. The main ones listed are:
   - Moderate: amphotericin B (including the cholesteryl sulfate and lipid complex forms), corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone, prednisolone, prednisone, triamcinolone), naltrexone, rosuvastatin, simvastatin, orlistat.
   - Minor: cimetidine, clarithromycin.
@@ -162,7 +159,7 @@ Package insert warnings and contraindications are not available in the data comp
 
 **Rationale:**
 - The top prediction is a veterinary indication with animal evidence only, so it does not support human repurposing. The neurodevelopmental disorder and the obsolete hyperlipidaemia term have no evidence and no plausible mechanism, and zidovudine is more often linked to dyslipidaemia than to its treatment.
-- AIDS related complex and congenital HIV have Phase 3 support, but they are extensions of zidovudine's original use and not new repurposing. Zidovudine is now used within combination regimens, and all New Zealand licences are cancelled.
+- Zidovudine is now used within combination regimens, and it is marketed in New Zealand with 2 valid licences out of 2.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (from Medsafe) to complete safety screening

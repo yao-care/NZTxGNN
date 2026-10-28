@@ -48,10 +48,10 @@ This is largely on-label use rather than true repurposing, so the evidence is st
 |------|------|
 | Original Indication | Hereditary angioedema; hereditary angioedema with C1 inhibitor deficiency |
 | Predicted New Indication | C1 inhibitor deficiency |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

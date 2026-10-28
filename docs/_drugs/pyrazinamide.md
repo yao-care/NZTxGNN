@@ -50,10 +50,10 @@ The prediction rests on model output alone (evidence level L5).
 |------|------|
 | Original Indication | Pulmonary tuberculosis, meningeal tuberculosis, tuberculous meningitis (from the knowledge graph; the New Zealand licence has no indication text recorded) |
 | Predicted New Indication | Infectious otitis media |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,7 +96,7 @@ Several other retrieved items (orbitofacial tuberculosis, sacroiliitis in multio
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2142023 | AFT-Pyrazinamide | Tab 500 mg | Not recorded (licence cancelled) |
+| 2142023 | AFT-Pyrazinamide | Tab 500 mg | Not recorded (licence valid) |
 
 ---
 
@@ -121,7 +121,7 @@ The prediction for infectious otitis media is model-based only, with no trials o
 - Mechanism of action data
 - Evidence that the target population (tuberculous otitis media) differs from existing TB indications, or a clear mechanistic case for non-tuberculous disease
 - Confirmation of whether pyrazinamide is currently available in New Zealand, given the cancelled licence
-- Assessment of drug penetration into the middle and inner ear, and of the hepatic and neuropathy risks flagged in the knowledge graph
+- Assessment of drug penetration into the middle and inner ear, and of hepatic and neuropathy risks
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

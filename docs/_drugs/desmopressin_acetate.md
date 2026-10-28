@@ -8,6 +8,7 @@ nav_order: 142
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Desmopressin Acetate

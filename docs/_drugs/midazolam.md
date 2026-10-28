@@ -6,9 +6,9 @@ nav_order: 300
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Midazolam: predicted new indication Insomnia (evidence level L3). Approved use: Anxiety"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
+description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Midazolam
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-## Midazolam: From Anxiety to Insomnia
+## Midazolam: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **2 clinical trials** (both only indirectly related) and **10 publications*
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety (from the knowledge graph; no approved indication text is available from the New Zealand licences) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.74% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L3 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Anxiety and insomnia are closely related conditions, and both respond to enhanced GABAergic inhibition. Oral midazolam was studied as a sleep medication in the 1980s and 1990s, including dose-finding studies and a multicentre comparison against flurazepam in chronic insomnia. These studies suggest clinical activity.
 
-Practical limits remain: midazolam has a short half-life, a CYP3A4-related interaction burden (100 recorded interactions), and no active New Zealand licence.
 
 ## Clinical Trial Evidence
 
@@ -84,15 +83,15 @@ Other retrieved publications (a lemborexant delirium pilot study, a rodent zolpi
 
 ## New Zealand Market Information
 
-All five licences are cancelled and no approved indication text is recorded.
+All five licences are valid and no approved indication text is recorded.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2263076 | Midazolam-Pfizer | Inj 1 mg per ml, 5 ml plastic ampoule | Not recorded (cancelled) |
-| 2599260 | Midazolam-Baxter | Inj 5 mg per ml, 3 ml ampoule | Not recorded (cancelled) |
-| 2692406 | Midazolam-Pfizer | Inj 5 mg per ml, 1 ml plastic ampoule | Not recorded (cancelled) |
-| 2599279 | Midazolam-Baxter | Inj 1 mg per ml, 5 ml ampoule | Not recorded (cancelled) |
-| 2263068 | Midazolam-Pfizer | Inj 5 mg per ml, 3 ml plastic ampoule | Not recorded (cancelled) |
+| 2263076 | Midazolam-Pfizer | Inj 1 mg per ml, 5 ml plastic ampoule | Not recorded (valid) |
+| 2599260 | Midazolam-Baxter | Inj 5 mg per ml, 3 ml ampoule | Not recorded (valid) |
+| 2692406 | Midazolam-Pfizer | Inj 5 mg per ml, 1 ml plastic ampoule | Not recorded (valid) |
+| 2599279 | Midazolam-Baxter | Inj 1 mg per ml, 5 ml ampoule | Not recorded (valid) |
+| 2263068 | Midazolam-Pfizer | Inj 5 mg per ml, 3 ml plastic ampoule | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -106,7 +105,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The evidence is limited to older oral-midazolam hypnotic studies from the 1980s–1990s and two trials that are only indirectly related. There are no current valid New Zealand licences, and only injectable forms were ever registered, so there is no active commercial path. Established alternatives also exist for insomnia.
+The evidence is limited to older oral-midazolam hypnotic studies from the 1980s–1990s and two trials that are only indirectly related. Established alternatives also exist for insomnia.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (from Medsafe) to complete the safety screening

@@ -6,9 +6,9 @@ nav_order: 233
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Common wart, anogenital HPV infection…"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
+description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imiquimod
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Imiquimod: From Common Wart to Pre-malignant Neoplasm
+## Imiquimod: Pre-malignant neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Part of this evidence (actinic keratosis) overlaps with an existing indication, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Common wart, anogenital HPV infection, superficial multifocal basal cell carcinoma, actinic keratosis and related skin conditions (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pre-malignant neoplasm |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 (see note below) |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 (see note below) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note:* The two registered trials are small (n=20 and n=9), and one was terminated early. Only one is completed, and it is an open-label study in actinic keratosis, an already established use. No criteria for L1 or L2 are met, so the evidence is graded L3, based on systematic reviews and observational reports. This is more conservative than the L1 shown in the underlying scoring.
@@ -98,10 +98,9 @@ Caution: actinic keratosis is already an established use, so it should not be co
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2715775 | Padagis | Cream 5%, 250 mg sachet | Not recorded (cancelled) |
-| 2543907 | Perrigo | Cream 5%, 250 mg sachet | Not recorded (cancelled) |
+| 2715775 | Padagis | Cream 5%, 250 mg sachet | Not recorded (valid) |
+| 2543907 | Perrigo | Cream 5%, 250 mg sachet | Not recorded (valid) |
 
-Both authorisations are cancelled, so there is currently no valid imiquimod product on the New Zealand market.
 
 ---
 
@@ -126,7 +125,6 @@ The mechanism is plausible and there is a body of reviews and case reports for H
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Adequately powered randomised trials in the new settings (cervical, vulvar, anal)
-- Clarification of regulatory pathway, since no valid New Zealand product exists
 - Safety monitoring plan, with attention to photosensitivity, autoimmune conditions and the malignant-conversion signal
 
 ---

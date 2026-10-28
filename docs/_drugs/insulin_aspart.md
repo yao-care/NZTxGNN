@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 235
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Insulin Aspart: predicted new indication Type 1 diabetes mellitus (evidence level L1). Approved use: Diabetes mellitus"
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
+description: "Insulin Aspart: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Aspart
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Aspart: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Aspart: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin aspart is a rapid-acting insulin analogue, originally used to treat diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **Type 1 Diabetes Mellitus**,
 with **31 clinical trials** and **20 publications** currently supporting this direction. Note that this is essentially a confirmation of an established use rather than a true repurposing case.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (from the knowledge graph, as no approved indication text is available in the New Zealand licence records) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune oophoritis |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -96,13 +95,12 @@ The compiled data lists 31 trials. The most relevant (graded A or B for relevanc
 
 ## New Zealand Market Information
 
-All three licences are cancelled; none is currently valid.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2469952 | NovoRapid FlexPen | Inj 100 u per ml, 3 ml syringe | Not available (cancelled) |
-| 2105098 | NovoRapid Penfill | Inj 100 u per ml, 3 ml | Not available (cancelled) |
-| 2105101 | NovoRapid | Inj 100 u per ml, 10 ml | Not available (cancelled) |
+| 2469952 | NovoRapid FlexPen | Inj 100 u per ml, 3 ml syringe | Not available (valid) |
+| 2105098 | NovoRapid Penfill | Inj 100 u per ml, 3 ml | Not available (valid) |
+| 2105101 | NovoRapid | Inj 100 u per ml, 10 ml | Not available (valid) |
 
 ## Safety Considerations
 
@@ -113,10 +111,9 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 trials and systematic reviews support insulin aspart in type 1 diabetes, and the mechanism is direct insulin replacement. However, this overlaps with the original indication, so it is not a true repurposing finding. All New Zealand licences are cancelled, so product availability must be verified.
+Multiple completed Phase 3 trials and systematic reviews support insulin aspart in type 1 diabetes, and the mechanism is direct insulin replacement. However, this overlaps with the original indication, so it is not a true repurposing finding.
 
 **To proceed, the following is needed:**
-- Confirm current regulatory status and availability of insulin aspart products in New Zealand (all three licences are cancelled)
 - Obtain the Medsafe package insert to complete the warnings and contraindications review
 - Add detailed mechanism of action data from DrugBank
 - Establish a hypoglycaemia monitoring plan and injection-site rotation guidance

@@ -4,17 +4,17 @@ title: Mesalazine
 parent: Model Prediction Only (L5)
 nav_order: 287
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "MESALAZINE"
-predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Mesalazine: From Ulcerative Colitis to Congenital Hypotrichosis with Juvenile Macular Dystrophy
+## Mesalazine: Congenital hypotrichosis with juvenile macular dystrophy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **congenital hypotrichosis with
 
 | Item | Content |
 |------|------|
-| Original Indication | Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 13 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Authorizations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,12 +61,12 @@ The TxGNN model predicts it may be effective for **congenital hypotrichosis with
 
 Currently, detailed mechanism of action data is not available from the compiled data. Based on known pharmacology, mesalazine is the active moiety of sulfasalazine and acts as a local anti-inflammatory agent in the gut. Its proposed actions include PPAR-gamma agonism, COX/lipoxygenase inhibition and NF-kB modulation. Its efficacy in ulcerative colitis is well established.
 
-The predicted indication is a rare genetic disorder caused by CDH3 mutation, affecting hair follicle and retinal development. It has no plausible connection to mesalazine's anti-inflammatory action. The high TxGNN score appears to be a graph-based prediction artifact rather than a biologically grounded signal.
+The predicted indication is a rare genetic disorder caused by CDH3 mutation, affecting hair follicle and retinal development. It has no plausible connection to mesalazine's anti-inflammatory action. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predicted indications were also reviewed:
 
-- **Rheumatoid arthritis** (score 99.57%, Evidence Level L4): the only indirect link is through sulfasalazine, an established DMARD. The antirheumatic effect is largely attributed to the sulfapyridine moiety, not 5-ASA, so efficacy cannot be extrapolated to mesalazine alone.
-- **Osteoarthritis** (score 99.63%, L5): the link is plausible but weak, since low-grade inflammation is involved but mesalazine has poor systemic absorption.
+- **Rheumatoid arthritis** (score 0.9957, Evidence Level L4): the only indirect link is through sulfasalazine, an established DMARD. The antirheumatic effect is largely attributed to the sulfapyridine moiety, not 5-ASA, so efficacy cannot be extrapolated to mesalazine alone.
+- **Osteoarthritis** (score 0.9963, L5): the link is plausible but weak, since low-grade inflammation is involved but mesalazine has poor systemic absorption.
 - **Seborrheic keratosis, osteoarthritis susceptibility, vulvar inverted follicular keratosis and pseudoachondroplasia**: no supporting mechanism, trials or literature.
 
 ---
@@ -98,15 +98,15 @@ For reference, the literature retrieved for the lower-ranked predictions is summ
 
 ## New Zealand Market Information
 
-All 13 licences are cancelled. No approved indication text is available. Five representative entries:
+All 13 licences are valid. No approved indication text is available. Five representative entries:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2470616 | Asacol | Tab 800 mg | Cancelled; indication text not available |
-| 2111985 | Pentasa | Suppos 1 g | Cancelled; indication text not available |
-| 2601354 | Pentasa | Modified release granules, 1 g | Cancelled; indication text not available |
-| 2714523 | Octasa | Tab 400 mg | Cancelled; indication text not available |
-| 715867 | Pentasa | Enema 1 g per 100 ml | Cancelled; indication text not available |
+| 2470616 | Asacol | Tab 800 mg | Valid; indication text not available |
+| 2111985 | Pentasa | Suppos 1 g | Valid; indication text not available |
+| 2601354 | Pentasa | Modified release granules, 1 g | Valid; indication text not available |
+| 2714523 | Octasa | Tab 400 mg | Valid; indication text not available |
+| 715867 | Pentasa | Enema 1 g per 100 ml | Valid; indication text not available |
 
 ---
 
@@ -125,13 +125,13 @@ Package insert warnings and contraindications were not available in the compiled
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication has no clinical trials, no literature and no plausible mechanistic link to mesalazine, so the score of 99.65% appears to be a model artifact. No other predicted indication has clinical evidence either (rheumatoid arthritis reaches only L4 and is confounded by sulfasalazine). Mesalazine also has no currently valid New Zealand licence.
+The predicted indication has no clinical trials, no literature and no plausible mechanistic link to mesalazine, so the score of 0.9965 appears to be a model artifact. No other predicted indication has clinical evidence either (rheumatoid arthritis reaches only L4 and is confounded by sulfasalazine).
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data for mesalazine, plus any biological evidence connecting CDH3-related pathways to its pharmacology
 - Preclinical or mechanistic studies for the predicted indication
 - Medsafe package insert warnings and contraindications
-- Clarification of the regulatory status given all licences are cancelled
+- Clarification of the regulatory status given that all 13 licences are valid
 - If a repurposing direction is pursued, consideration of better-supported candidates, such as rheumatoid arthritis, which would first require evidence specific to mesalazine rather than sulfasalazine
 ## Disclaimer
 

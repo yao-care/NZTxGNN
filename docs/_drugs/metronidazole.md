@@ -6,9 +6,9 @@ nav_order: 297
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Anaerobic bacterial infections, giardiasis, bacterial vaginosis…"
 monitor_inn: "METRONIDAZOLE"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
+description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metronidazole
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Metronidazole: From Anaerobic and Protozoal Infections to Pneumocystosis
+## Metronidazole: Pneumocystosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The data compiled for this report show that the best-supported alternative signa
 
 | Item | Content |
 |------|------|
-| Original Indication | Anaerobic bacterial infections, giardiasis, bacterial vaginosis, peritonitis, intracranial abscess (the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,21 +62,21 @@ The data compiled for this report show that the best-supported alternative signa
 
 Detailed mechanism-of-action data are not available in the data compiled for this report. Metronidazole is a nitroimidazole whose nitro group is reduced in anaerobic bacteria and protozoa, producing DNA-damaging radicals.
 
-For pneumocystosis, this rationale does not hold. *Pneumocystis* is a fungus and has no comparable anaerobic nitroreductase target. The very high TxGNN score (0.9999) is most likely a graph-proximity artefact, arising from metronidazole's shared classification with other antiparasitic and anti-infective drugs. The retrieved literature consists of general antiparasitic reviews and HIV opportunistic infection case reports. None shows metronidazole efficacy against *Pneumocystis*. In the case reports, metronidazole was given for a coexisting amoebic or diarrhoeal illness.
+For pneumocystosis, this rationale does not hold. *Pneumocystis* is a fungus and has no comparable anaerobic nitroreductase target. The very high TxGNN score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The retrieved literature consists of general antiparasitic reviews and HIV opportunistic infection case reports. None shows metronidazole efficacy against *Pneumocystis*. In the case reports, metronidazole was given for a coexisting amoebic or diarrhoeal illness.
 
 **Other predicted indications (ranks 2-10)**
 
 | Rank | Disease | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Punctate epithelial keratoconjunctivitis | 99.93% | L5 | Prediction only; no trials or literature |
-| 3 | Ulcerative proctosigmoiditis | 99.87% | L4 | Plausible indirect link through gut dysbiosis; no controlled evidence |
-| 4 | Nocardiosis | 99.86% | L4 | Weak; *Nocardia* is aerobic and standard therapy is sulfonamide-based |
-| 5 | Postmenopausal atrophic vaginitis | 99.84% | L5 | Caused by oestrogen deficiency; the only paper concerns oestrogen cream |
-| 6 | Cryptococcal meningitis | 99.83% | L5 | No mechanistic link; metronidazole has no antifungal activity |
-| 7 | Papillary conjunctivitis | 99.76% | L5 | Prediction only; no trials or literature |
-| 8 | Myiasis | 99.75% | L4 | Indirect; metronidazole is an adjunct for wound anaerobes, not larvicidal |
-| 9 | Cap polyposis | 99.73% | L4 | Best-supported candidate; case reports with a proposed dysbiosis or anti-inflammatory mechanism |
-| 10 | Ulceration of vulva | 99.72% | L4 | Context-dependent (vulvar Crohn's disease, cutaneous amebiasis) |
+| 2 | Punctate epithelial keratoconjunctivitis | 0.9993 | L5 | Prediction only; no trials or literature |
+| 3 | Ulcerative proctosigmoiditis | 0.9987 | L5 | Plausible indirect link through gut dysbiosis; no controlled evidence |
+| 4 | Nocardiosis | 0.9986 | L5 | Weak; *Nocardia* is aerobic and standard therapy is sulfonamide-based |
+| 5 | Postmenopausal atrophic vaginitis | 0.9984 | L5 | Caused by oestrogen deficiency; the only paper concerns oestrogen cream |
+| 6 | Cryptococcal meningitis | 0.9983 | L5 | No mechanistic link; metronidazole has no antifungal activity |
+| 7 | Papillary conjunctivitis | 0.9976 | L5 | Prediction only; no trials or literature |
+| 8 | Myiasis | 0.9975 | L4 | Indirect; metronidazole is an adjunct for wound anaerobes, not larvicidal |
+| 9 | Cap polyposis | 0.9973 | L4 | Best-supported candidate; case reports with a proposed dysbiosis or anti-inflammatory mechanism |
+| 10 | Ulceration of vulva | 0.9972 | L5 | Context-dependent (vulvar Crohn's disease, cutaneous amebiasis) |
 
 ---
 
@@ -109,7 +109,7 @@ The ten publications retrieved for pneumocystosis are listed below. None provide
 
 ## New Zealand Market Information
 
-All four authorizations are cancelled, and no indication text is recorded for any of them.
+Four of the four authorizations are valid, and no indication text is recorded for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -137,7 +137,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The pneumocystosis prediction has no trials, no supporting literature and no plausible mechanism. The high score looks like a graph artefact. The product also has no currently valid New Zealand authorization.
+The pneumocystosis prediction has no trials, no supporting literature and no plausible mechanism. The high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Do not pursue pneumocystosis, cryptococcal meningitis, nocardiosis or atrophic vaginitis as repurposing targets.

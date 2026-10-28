@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brinzolamide
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 71
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Brinzolamide: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma, ocular hypertension"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brinzolamide: known uses and market status in New Zealand; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Brinzolamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,48 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Brinzolamide: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+<!-- known-uses-page -->
+<!-- description: Brinzolamide: known uses and market status in New Zealand; currently no new candidate indication -->
+## Brinzolamide: Known uses and market status in New Zealand
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+All of the TxGNN model's candidates for Brinzolamide (score ≥ 0.99) that can be traced to a source are already known uses, so there is currently no new predicted indication. The one known use is primary hereditary glaucoma, which is supported by a licence in another country. This page is for research reference only and is not medical advice.
 
-Brinzolamide was originally used to treat open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
-but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on model output alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma, ocular hypertension (from the knowledge graph; the New Zealand licence record has no indication text) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.48% |
-| Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in New Zealand | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug class, brinzolamide is a carbonic anhydrase II inhibitor. It lowers intraocular pressure (IOP) by reducing aqueous humour secretion, and its efficacy in open-angle glaucoma and ocular hypertension is established.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| primary hereditary glaucoma | licence in another country (approved indication: glaucoma) |
 
-Primary hereditary glaucoma (for example congenital or juvenile forms with raised IOP) shares the same pressure-driven pathology. A mechanistic rationale is therefore plausible. The very high TxGNN score most likely reflects the close similarity to the original glaucoma indications rather than a genuinely new mechanism.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-There are important caveats. This link rests on general drug-class knowledge, not on the supplied data. Primary congenital glaucoma is typically managed surgically, and carbonic anhydrase inhibitors are generally used only as adjunct or temporizing therapy. Topical use in children also raises safety questions (systemic absorption, risk of metabolic acidosis) that have not been evaluated here.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2117061 (cancelled) | Azopt | Eye drops 1% | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 2117061 | Brinzolamide | Eye drops 1% | Valid |
 
 ## Safety Considerations
 
@@ -80,19 +78,6 @@ Currently no related literature available.
 
 Please refer to the package insert for warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by the model score (L5), with no clinical trials or publications for primary hereditary glaucoma. Brinzolamide has no valid New Zealand authorization, and paediatric safety, which is central to hereditary glaucoma, has not been assessed.
-
-**To proceed, the following is needed:**
-- Systematic literature and trial-registry search for brinzolamide in primary congenital/juvenile glaucoma
-- Mechanism of action data (DrugBank) to confirm the mechanistic link
-- Package insert warnings and contraindications (Medsafe), which are needed before any safety screening
-- Paediatric safety assessment (systemic absorption, metabolic acidosis)
-- Route compatibility and regulatory pathway assessment, given the cancelled New Zealand licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

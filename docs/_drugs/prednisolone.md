@@ -4,17 +4,17 @@ title: Prednisolone
 parent: High Evidence (L1-L2)
 nav_order: 377
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease"
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
+description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Prednisolone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Prednisolone: From Autoimmune Disease to Alopecia Areata
+## Prednisolone: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **no registered clinical trials** but **19 publications** (including a plac
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease (the New Zealand licence records contain no approved indication text; this is taken from the drug's knowledge-graph indications) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -85,8 +85,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 317659 | Redipred | Oral liquid 5 mg per ml | Not recorded (cancelled) |
-| 307475 | Minims Prednisolone | Eye drops 0.5%, single dose (preservative free) | Not recorded (cancelled) |
+| 317659 | Redipred | Oral liquid 5 mg per ml | Not recorded (valid) |
+| 307475 | Minims Prednisolone | Eye drops 0.5%, single dose (preservative free) | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -117,10 +117,10 @@ A placebo-controlled RCT, a Cochrane network meta-analysis and systematic review
 
 | Rank | Predicted Indication | Evidence Level | Decision | Note |
 |------|------|------|------|------|
-| 2 | Alopecia mucinosa | L4 | Hold | Only a cyclosporine case report and an irrelevant canine paper |
+| 2 | Alopecia mucinosa | L5 | Hold | Only a cyclosporine case report and an irrelevant canine paper |
 | 3 | Telogen effluvium | L5 | Hold | No supporting evidence and no clear rationale |
 | 4 | Folliculitis decalvans | L4 | Hold | A single triple-therapy case report; prednisolone effect not isolated |
-| 5 | Alopecia antibody deficiency | L4 | Hold | Only an indirect lupus case report |
+| 5 | Alopecia antibody deficiency | L5 | Hold | Only an indirect lupus case report |
 | 6–9 | Rare genetic or structural conditions (hereditary hypotrichosis with recurrent skin vesicles, alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome, atrichia with papular lesions, prolapse of lacrimal gland) | L5 | Hold | Model prediction only |
 | 10 | Idiopathic steroid-sensitive nephrotic syndrome | L1 | Proceed with Guardrails | Established standard of care rather than true repurposing; Cochrane reviews and RCT literature support it; not among the drug's listed original indications |
 ## Disclaimer

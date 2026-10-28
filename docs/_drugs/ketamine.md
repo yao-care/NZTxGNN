@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ketamine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 250
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Ketamine: predicted new indication Headache disorder (evidence level L5). Approved use: Not recorded in the licence data"
 monitor_inn: "KETAMINE"
 predicted_indications: ["headache disorder"]
+description: "Ketamine: predicted new indication Headache disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Ketamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L1** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Ketamine: From No Recorded Approved Indication to Headache Disorder
+## Ketamine: Headache disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Several of the trials are completed randomised studies, but most are small, and 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the licence data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Headache disorder |
-| TxGNN Prediction Score | 99.33% |
+| TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 criterion is two or more completed Phase 3 RCTs. Only one Phase 3 trial (NCT03081416) is completed; the other (NCT05306899) is still recruiting. Strictly applied, the evidence is closer to L2. The L1 rating is carried over from the compiled scoring, and I recommend it be re-checked.
@@ -60,7 +60,7 @@ Several of the trials are completed randomised studies, but most are small, and 
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, ketamine is an NMDA receptor antagonist. Central sensitisation and glutamatergic signalling contribute to migraine, cluster headache and chronic headache pain, including cortical spreading depression and trigeminovascular activation. Blocking NMDA receptors may reduce this hyperexcitability and pain amplification.
 
-No approved indication is on record, so a direct comparison between original and new indication is not possible. Ketamine's established use as an analgesic and anaesthetic agent, together with its use in other chronic pain conditions, makes a pain-related application plausible. The very high TxGNN score (0.993) is consistent with this reasoning.
+No approved indication is on record, so a direct comparison between original and new indication is not possible. Ketamine's established use as an analgesic and anaesthetic agent, together with its use in other chronic pain conditions, makes a pain-related application plausible. The very high TxGNN score (0.9933) is consistent with this reasoning.
 
 Evidence is strongest for acute headache or migraine in the emergency department and weaker for chronic headache. Mechanistic support rests on general pharmacology rather than drug-specific labelling.
 
@@ -98,7 +98,7 @@ Other retrieved publications concern ketamine/esketamine in depression and other
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2719371 | Ketalar (cancelled) | Inj 100 mg per ml, 2 ml vial | Not recorded |
+| 2719371 | Ketalar (valid) | Inj 100 mg per ml, 2 ml vial | Not recorded |
 
 ## Safety Considerations
 
@@ -112,7 +112,7 @@ Package insert warnings and contraindications were not available; please refer t
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple randomised trials, including one completed Phase 3 trial, and several reviews support ketamine in acute headache and migraine, backed by a plausible NMDA-related mechanism. However, the trials are small, there is no approved indication on record, no currently valid New Zealand licence, and package insert safety information is missing. The cardiovascular and cerebrovascular cautions are especially relevant for headache populations.
+Multiple randomised trials, including one completed Phase 3 trial, and several reviews support ketamine in acute headache and migraine, backed by a plausible NMDA-related mechanism. The cardiovascular and cerebrovascular cautions are especially relevant for headache populations.
 
 **To proceed, the following is needed:**
 - Obtain and review the Medsafe package insert for warnings and contraindications (a blocking gap for safety screening)

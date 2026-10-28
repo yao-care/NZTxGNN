@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **irritable bowel syndrome**, b
 |------|------|
 | Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Irritable bowel syndrome |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cycloserine is a D-alanine analogue that inhibits bacterial cell wall synthesis, and it also acts as a partial agonist at the NMDA receptor glycine site. Its efficacy in tuberculosis is established, but a mechanistic route to irritable bowel syndrome is not supported by the available data.
 
-Possible links, such as the gut-brain axis, effects on gut microbiota, or visceral hypersensitivity, are speculative. The very high TxGNN score (rank 784 among predictions for this drug) reflects patterns in the knowledge graph and has not been verified by any clinical or literature evidence. This should be treated as a hypothesis only.
+Possible links, such as the gut-brain axis, effects on gut microbiota, or visceral hypersensitivity, are speculative. The very high TxGNN score (rank 784 among predictions for this drug) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It has not been verified by any clinical or literature evidence. This should be treated as a hypothesis only.
 
 Other predicted indications fare no better. Acne, gastroparesis, conjunctivitis, insomnia, pharyngitis and nasal cavity disease also have no supporting trials. For insomnia, the literature points the opposite way: a case report describes cycloserine **causing** insomnia and psychosis in multidrug-resistant tuberculosis.
 
@@ -73,7 +73,7 @@ Currently no related literature available for irritable bowel syndrome.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2566508 | Cyclorin | Cap 250 mg | Not stated (authorization cancelled) |
+| 2566508 | Cyclorin | Cap 250 mg | Not stated (authorization valid) |
 
 ## Cytotoxicity
 

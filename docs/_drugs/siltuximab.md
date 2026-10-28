@@ -6,9 +6,9 @@ nav_order: 423
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Castleman disease"
 monitor_inn: "SILTUXIMAB"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
+description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Siltuximab
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Siltuximab: From Castleman Disease to Extracutaneous Mastocytoma
+## Siltuximab: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Siltuximab is an anti-IL-6 monoclonal antibody, originally used for Castleman disease (and listed with Kimura disease in the knowledge graph).
+Siltuximab is an anti-IL-6 monoclonal antibody, originally used for Castleman disease.
 The TxGNN model predicts it may be effective for **extracutaneous mastocytoma**,
 but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model prediction alone.
 
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Castleman disease (the New Zealand licence records contain no approved indication text; this is taken from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Extracutaneous mastocytoma |
-| TxGNN Prediction Score | 99.64% |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,14 +60,14 @@ Siltuximab is a chimeric monoclonal antibody that blocks interleukin-6 (IL-6). D
 
 The link between Castleman disease and extracutaneous mastocytoma is weak. IL-6 may play a role in mast cell biology, and IL-6 is elevated in mastocytosis, but mast cell neoplasms are driven mainly by other pathways (such as KIT mutations). No direct mechanistic link is supported by the available data, so this connection is speculative.
 
-The high TxGNN score (99.64%) is a computational prediction only. It is not backed by clinical or literature evidence and should be treated as a hypothesis for investigation.
+The high TxGNN score (0.9964) is a computational prediction only. It is not backed by clinical or literature evidence and should be treated as a hypothesis for investigation.
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2500655 | Sylvant | Inj 400 mg vial | Not recorded (cancelled) |
-| 2500663 | Sylvant | Inj 100 mg vial | Not recorded (cancelled) |
+| 2500655 | Sylvant | Inj 400 mg vial | Not recorded (valid) |
+| 2500663 | Sylvant | Inj 100 mg vial | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -84,7 +84,7 @@ Please refer to the package insert for warnings and contraindications, as this i
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score, with no clinical trials or publications and a weak mechanistic link. Siltuximab also has no currently valid New Zealand licence.
+The prediction is supported only by the model score, with no clinical trials or publications and a weak mechanistic link.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence for IL-6 involvement in mast cell neoplasms, and any preclinical or case-level data

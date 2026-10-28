@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Theophylline
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 449
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-15
-description: "Theophylline: predicted new indication Thrombotic disease (evidence level L1). Approved use: Asthma"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "THEOPHYLLINE"
-predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "acute laryngopharyngitis"]
+predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
+last_modified_at: 2026-10-23
+description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Asthma"
 ---
 
 # Theophylline
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,85 +38,71 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Theophylline is a methylxanthine bronchodilator, originally used for asthma, bronchitis, emphysema and other chronic airway diseases.
-The TxGNN model predicts it may be effective for **thrombotic disease** (top-ranked prediction), but **no clinical trials** are registered for this indication and the retrieved literature is largely unrelated, so the prediction currently rests on model output and mechanistic plausibility alone.
+Theophylline is a bronchodilator whose knowledge-graph-recorded uses are asthma and other chronic airway diseases.
+The TxGNN model predicts it may be effective for **thrombotic disease**, but there are **0 clinical trials** and **no cited publication that directly studies theophylline in this disease**, so the prediction currently rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma (the data compiled for this report do not include approved-indication text from New Zealand licences; the original indications come from the knowledge graph: asthma, bronchitis, emphysema and related lung diseases) |
+| Original Indication | Asthma (relation recorded in the knowledge graph; the local licence records contain no indication text) |
 | Predicted New Indication | Thrombotic disease |
-| TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9962 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
+| Number of Approvals | 2 (both single-ingredient licences; approval type not specified in the records) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, theophylline is a non-selective phosphodiesterase (PDE) inhibitor and adenosine receptor antagonist. In platelets, PDE inhibition raises cAMP, which could reduce platelet aggregation, similar in principle to dipyridamole and cilostazol.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, theophylline is a non-selective phosphodiesterase (PDE) inhibitor and adenosine receptor antagonist. Its relation to asthma, bronchitis, emphysema and related airway diseases is recorded in the knowledge graph.
 
-The link to its original respiratory indications is indirect. In the airways, the same PDE inhibition produces bronchodilation. Whether this cAMP effect translates into an antithrombotic benefit is unproven. Adenosine antagonism may oppose it, because adenosine itself inhibits platelet aggregation. The retrieved literature is mostly unrelated (ticlopidine pharmacokinetics, blood-sample processing methods, a theophylline-detection sensor), so the high score is a prediction without clinical support.
+Mechanistically, PDE inhibition raises cAMP in platelets, which could plausibly reduce platelet aggregation and hence thrombosis. This is a theoretical link only. The retrieved literature is mostly off-target: ticlopidine pharmacokinetics, blood-sample processing and biomarker assay methods, platelet activation measurements, and a theophylline sensor paper. None of it demonstrates an antithrombotic effect of theophylline in patients. The high TxGNN score is therefore not supported by clinical data.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for thrombotic disease.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No publication directly tests theophylline as an antithrombotic. The items below are the closest in topic, and none provides efficacy evidence.
+None of the retrieved publications directly studies theophylline for thrombotic disease. The items below are the closest in topic and are shown for context only.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | Pharmacokinetic review | Clin Pharmacokinet | Pharmacokinetics of ticlopidine, an antiplatelet drug (not theophylline) |
-| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Review | CRC Crit Rev Biochem | Prostaglandins, platelets and atherosclerosis; indirect mechanistic context (cAMP and platelet aggregation) |
-| [15475744](https://pubmed.ncbi.nlm.nih.gov/15475744/) | 2004 | Observational study | Inflamm Bowel Dis | Platelet-leukocyte aggregates in inflammatory bowel disease; not drug-specific |
-| [8981060](https://pubmed.ncbi.nlm.nih.gov/8981060/) | 1996 | Laboratory study | Gen Pharmacol | Milrinone and adenosine inhibit human platelet response via cAMP; related mechanism, not theophylline |
-| [29254574](https://pubmed.ncbi.nlm.nih.gov/29254574/) | 2018 | Analytical method | Anal Chim Acta | Aptasensor for detecting theophylline; not clinical |
-| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | Assay method | Br J Haematol | Platelet factor 4 radioimmunoassay; theophylline is used only as an anticoagulant additive in sample preparation |
+| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | Review | Clinical Pharmacokinetics | Pharmacokinetics of ticlopidine, an antiplatelet drug; not about theophylline |
+| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Review | CRC Critical Reviews in Biochemistry | Prostaglandins, platelets and atherosclerosis; cAMP-mediated platelet inhibition as background |
+| [8981060](https://pubmed.ncbi.nlm.nih.gov/8981060/) | 1996 | Laboratory study | General Pharmacology | Milrinone (a PDE inhibitor) and adenosine inhibit human platelet response via cAMP; indirect mechanistic support only |
+| [25856065](https://pubmed.ncbi.nlm.nih.gov/25856065/) | 2015 | Methods/Laboratory | Platelets | Measurement of soluble CLEC-2 as a platelet activation marker |
+| [29220362](https://pubmed.ncbi.nlm.nih.gov/29220362/) | 2017 | Methods | PLoS One | Plasma preparation for monitoring platelet-stored molecules |
+| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | Methods/Laboratory | British Journal of Haematology | Platelet factor 4 radioimmunoassay (theophylline used as a sample additive) |
+| [4776567](https://pubmed.ncbi.nlm.nih.gov/4776567/) | 1973 | Clinical (no abstract) | Minerva Cardioangiologica | A theophylline nicotinate derivative in chronic obliterating peripheral arteriopathy; a different compound |
+| [29254574](https://pubmed.ncbi.nlm.nih.gov/29254574/) | 2018 | Analytical method | Analytica Chimica Acta | Electrochemical aptasensor for detecting theophylline; not a therapeutic study |
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 255092 | Nuelin | Oral liquid 80 mg per 15 ml | Not available (cancelled) |
-| 255149 | Nuelin-SR | Long-acting tablet 250 mg | Not available (cancelled) |
-
-Both licences are cancelled, so no valid theophylline product currently appears on the New Zealand register in the data compiled.
+| 255092 | Nuelin | Oral liquid 80 mg per 15 ml | Not stated in the licence records |
+| 255149 | Nuelin-SR | Long-acting tablet 250 mg | Not stated in the licence records |
 
 ## Safety Considerations
 
-- **Contraindications / cautions (from knowledge-graph drug-disease edges, not label text):** hypertension, liver failure and liver disease, epilepsy, anxiety and other neurotic disorders, psychotic disorders (including schizophreniform and schizoaffective disorders), inherited porphyria, kidney disease, gallbladder disease, thrombocytopenia, neutropenia and agranulocytosis, hypothyroidism, peptic ulcer disease, open-angle glaucoma, diabetes mellitus and diabetic ketoacidosis, benign prostatic hyperplasia, and dermatitis herpetiformis. Notably, thrombocytopenia is listed, which is relevant to any antithrombotic use.
-- **Drug Interactions:** 100 interactions were found. Examples from the interactions retrieved:
-  - **Major:** bupropion.
-  - **Moderate:** clarithromycin, cimetidine, famotidine, ranitidine, omeprazole, rabeprazole, doxycycline, tetracycline, minocycline, corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), activated charcoal, and bowel-preparation products (picosulfuric acid, polyethylene glycol).
-  - **Minor:** ephedrine.
-- Package insert warnings and contraindications were not available in the data compiled. Please refer to the package insert for label safety information.
+- **Contraindication-type relations recorded in the knowledge graph** (not label text): hypertension, liver failure and liver disease, epilepsy, anxiety and other mental disorders (including psychotic disorders), porphyria, kidney disease, hypothyroidism, peptic ulcer disease, open-angle glaucoma, diabetes mellitus and diabetic ketoacidosis, benign prostatic hyperplasia, thrombocytopenia, neutropenia and agranulocytosis, and others.
+- **Drug Interactions**: 100 interactions were found in the interaction database; the 20 shown include one Major interaction, **bupropion**. Moderate interactions include H2 blockers and PPIs (famotidine, ranitidine, cimetidine, omeprazole, rabeprazole), corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), tetracyclines (doxycycline, minocycline, tetracycline), clarithromycin, activated charcoal and some bowel-preparation products. Ephedrine is a Minor interaction.
+- Theophylline has a narrow therapeutic index, and interactions that change its blood levels are clinically important. Please refer to the package insert for full warnings.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score for thrombotic disease is very high (99.62%), but there are no clinical trials and no relevant literature. The mechanism is only plausible and may be opposed by adenosine antagonism. In addition, theophylline has a narrow therapeutic window, a heavy interaction burden, and no currently valid New Zealand licence.
+The prediction rests on a high model score and a theoretical PDE/cAMP platelet mechanism. No clinical trial or publication directly studies theophylline in thrombotic disease. Combined with a narrow therapeutic index and many interactions (especially with antithrombotic-relevant care settings), the evidence does not justify progressing.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and in vitro platelet-aggregation studies with theophylline at therapeutic concentrations
-- Any clinical or observational signal of antithrombotic effect (for example, thrombotic outcomes in existing theophylline users)
-- Package insert warnings and contraindications, to allow a safety screening
-- A plan for serum level monitoring and interaction management, and clarification of product availability in New Zealand
-
-**Other predicted indications (for context):**
-
-| Predicted Indication | Evidence Level | Note |
-|------|------|------|
-| Obstructive lung disease | L1 | Overlaps with the original indications, so not true repurposing. Includes Phase 3 trials, such as NCT01599871 (52-week placebo-controlled add-on trial, n=70) and NCT02340520 (n=13). Proceed with Guardrails: narrow therapeutic index, serum level monitoring, CYP1A2 variability, extensive interactions, and cancelled-only market status |
-| Nasal cavity disease (allergic rhinitis) | L3 | A small nasal allergen challenge study (n=14) and a Phase 2 trial, NCT01132781 (n=28); no Phase 3 data. Research question |
-| Tracheal disease | L3 | Mostly preclinical, veterinary or indirect evidence. Research question |
-| Pharyngitis | L4 | No credible direct evidence. Hold |
-| Laryngotracheitis | L5 | Prediction only. Hold |
-| Acute laryngopharyngitis | L5 | Prediction only. Hold |
+- Direct preclinical or clinical data showing an antithrombotic effect of theophylline at tolerable doses
+- Mechanism of action data and Medsafe package insert warnings and contraindications
+- A benefit-risk comparison with established antiplatelet and anticoagulant therapy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

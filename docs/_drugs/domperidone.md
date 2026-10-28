@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Not stated in the New Zealand licence record (the clinical-use description lists dyspepsia, heartburn, epigastric pain, nausea and vomiting) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.08% |
+| TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (0 currently valid) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,13 +60,13 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 NSIAD is caused by activating mutations of the vasopressin V2 receptor (AVPR2), or less commonly by GNAS-related signalling changes. Dopamine D2 antagonism has no established direct link to V2 receptor activity or renal water handling. Any connection, such as dopamine-vasopressin interactions in the collecting duct or off-target effects, would be speculative and would need independent validation.
 
-The high score (0.991) may reflect proximity within the knowledge graph, for example shared associations with water balance or hyponatraemia-related phenotypes, rather than a true mechanism. The original and new indications are therefore not clearly related, and this prediction should be treated as a hypothesis only.
+The high score (0.9908) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, for example shared associations with water balance or hyponatraemia-related phenotypes, not biological evidence. The original and new indications are therefore not clearly related, and this prediction should be treated as a hypothesis only.
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2631903 | Domperidone Viatris (cancelled) | Tab 10 mg | Not recorded |
+| 2631903 | Domperidone Viatris (valid) | Tab 10 mg | Not recorded |
 
 ## Safety Considerations
 

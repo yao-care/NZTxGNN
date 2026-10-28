@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Fluorescein is a fluorescent dye used mainly as a diagnostic agent, for example in angiography and corneal staining. The only New Zealand licence on record for it is cancelled, and no approved indication text is available.
-The TxGNN model ranks **Prinzmetal angina** as its top prediction, but there are **0 clinical trials** and **0 publications** for that disease, so the prediction is **model-only (L5)**. It appears to be a graph-prediction artifact rather than a real therapeutic signal.
+The TxGNN model (deep learning) ranks **Prinzmetal angina** as its top prediction, but there are **0 clinical trials** and **0 publications** for that disease, so the prediction is **model-only (L5)**. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -47,17 +47,17 @@ The TxGNN model ranks **Prinzmetal angina** as its top prediction, but there are
 |------|------|
 | Original Indication | Not available (the licence record contains no approved indication text) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Fluorescein is a diagnostic fluorescent dye used in angiography, and it has no known vasodilatory or anti-vasospastic activity.
 
-The review of the top prediction found no identifiable mechanistic link between fluorescein and Prinzmetal angina, which is a coronary vasospasm disorder. The high TxGNN score appears to be an artifact of the knowledge graph, with no supporting trials or literature.
+The review of the top prediction found no identifiable mechanistic link between fluorescein and Prinzmetal angina, which is a coronary vasospasm disorder. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, with no supporting trials or literature.
 
 The same holds for the other top-ranked predictions:
 - **Coagulation-related conditions** (antithrombin deficiency type 2, factor 5 excess with spontaneous thrombosis, heparin cofactor 2 deficiency): there is no plausible link to the coagulation cascade.

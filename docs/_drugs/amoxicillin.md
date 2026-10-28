@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-15
-description: "Amoxicillin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Bacterial infections (urinary tract infection…"
 monitor_inn: "AMOXICILLIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+last_modified_at: 2026-10-27
+description: "Amoxicillin: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Amoxicillin
@@ -33,92 +33,70 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Amoxicillin: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+## Amoxicillin: Penicillin-class beta-lactam antibacterial → polyclonal hyperviscosity syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Amoxicillin is a beta-lactam antibiotic originally used for bacterial infections such as urinary tract infection, otitis media, pneumonia and pharyngitis.
-The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but **no clinical trials and no publications** currently support this prediction.
-This is a model-only prediction with no mechanistic or clinical backing.
-
----
+Amoxicillin is a beta-lactam antibacterial that inhibits bacterial cell wall synthesis.
+The TxGNN model predicts it may be relevant to **polyclonal hyperviscosity syndrome**, but **no clinical trials and no publications** in the data compiled for this report support this prediction. It is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (urinary tract infection, infectious otitis media, streptococcal and staphylococcal infections, bacterial pneumonia, pharyngitis, among others). No approved indication text is available from the New Zealand licence records. |
-| Predicted New Indication | Polyclonal hyperviscosity syndrome |
-| TxGNN Prediction Score | 99.63% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | polyclonal hyperviscosity syndrome |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 8 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Authorizations | 8 (valid: 8) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, amoxicillin is a beta-lactam antibacterial that inhibits bacterial cell wall synthesis, and its efficacy in bacterial infections is well established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Amoxicillin is known as a beta-lactam antibacterial that blocks bacterial cell wall synthesis.
 
-Polyclonal hyperviscosity syndrome is a protein/immunoglobulin-driven rheological disorder. No plausible mechanistic link to an antibacterial was identified. The very high TxGNN score (99.63%) most likely reflects network proximity in the knowledge graph rather than a pharmacological rationale.
-
-For completeness, the other top-ranked predictions (hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant haematological disease, monoclonal gammopathy, and haematological disease with acquired peripheral neuropathy) also lack a mechanistic link. The one biologically plausible candidate is **septicemic plague** (rank 8). It is plausible because amoxicillin has in vitro and animal activity against *Yersinia pestis*, but beta-lactams are not standard plague therapy and no human clinical trials exist.
-
----
+Polyclonal hyperviscosity syndrome is a protein- and immunoglobulin-driven disorder of blood flow properties, not a bacterial infection. No plausible pharmacological link between an antibacterial and this condition was identified. The high score most likely reflects proximity in the model's network rather than a pharmacological rationale, and it should not be read as evidence of benefit.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for polyclonal hyperviscosity syndrome.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for polyclonal hyperviscosity syndrome.
-
----
+Currently no related literature available.
 
 ## New Zealand Market Information
 
-All eight licences are cancelled; none is currently valid. Approved indication text was not available for any of them.
-
-| Authorization Number | Product Name | Dosage Form | Status |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2669617 | Miro-Amoxicillin | Cap 250 mg | Cancelled |
-| 2669625 | Miro-Amoxicillin | Cap 500 mg | Cancelled |
-| 2272628 | Ibiamox | Inj 250 mg vial | Cancelled |
-| 2503565 | Alphamox 250 | Granules for oral liquid 250 mg per 5 ml | Cancelled |
-| 2712601 | Amoxycillin Sandoz | Cap 500 mg | Cancelled |
-
----
+| 2669617 | Miro-Amoxicillin | Cap 250 mg | Not recorded |
+| 2669625 | Miro-Amoxicillin | Cap 500 mg | Not recorded |
+| 2272628 | Ibiamox | Inj 250 mg vial | Not recorded |
+| 2503565 | Alphamox 250 | Grans for oral liq 250 mg per 5 ml | Not recorded |
+| 2712601 | Amoxycillin Sandoz | Cap 500 mg | Not recorded |
 
 ## Safety Considerations
 
-Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information. The following items are drawn from the knowledge graph and drug-interaction databases.
+- **Drug Interactions**: Interaction screening returned 100 records. Notable examples:
+  - **Major**: methotrexate; live cholera vaccine (Vibrio cholerae CVD 103-HgR strain)
+  - **Moderate**: doxycycline, minocycline, demeclocycline, ethinylestradiol, estradiol, mycophenolate mofetil, entecavir, balsalazide, dicoumarol, anisindione, and live probiotic products (Lactobacillus acidophilus, Bifidobacterium longum infantis)
+  - **Minor**: allopurinol, amiloride, azithromycin, clarithromycin, erythromycin
 
-- **Knowledge-graph contraindication signals (not label text)**: liver disease and liver failure, cholestasis, kidney disease, *Clostridium difficile* colitis, myasthenia gravis, porphyria, long QT syndrome / torsades de pointes / ventricular tachycardia, osteoporosis, bone fracture, infectious mononucleosis, and gallbladder disease. These need verification against the official label.
-- **Drug interactions** (100 recorded; main examples):
-  - **Major**: methotrexate; live cholera vaccine (*Vibrio cholerae* CVD 103-HgR).
-  - **Moderate**: tetracyclines (doxycycline, minocycline, demeclocycline), oestrogens (ethinylestradiol, estradiol), coumarin-type anticoagulants (dicoumarol, anisindione), mycophenolate mofetil, entecavir, balsalazide, and probiotics (*Lactobacillus acidophilus*, *Bifidobacterium longum infantis*).
-  - **Minor**: macrolides (azithromycin, clarithromycin, erythromycin), allopurinol, amiloride.
-
----
+Please refer to the package insert for other safety information (warnings and contraindications).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for polyclonal hyperviscosity syndrome rests on model score alone (L5), with no trials, no literature, and no plausible mechanism. In addition, amoxicillin currently has no valid New Zealand licence.
+The prediction rests only on a model score. There are no trials or publications on polyclonal hyperviscosity syndrome, and no plausible mechanism links a beta-lactam antibacterial to this condition.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data
-- Any mechanistic or clinical rationale linking amoxicillin to polyclonal hyperviscosity syndrome
-- If an infection-related direction is wanted, re-evaluate septicemic plague with head-to-head comparison against standard therapy
-- Clarification of the regulatory pathway, since all New Zealand licences are cancelled
+- Any direct clinical or preclinical evidence in polyclonal hyperviscosity syndrome
+- A plausible mechanistic hypothesis
+- Mechanism of action data and package insert warnings and contraindications from Medsafe
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

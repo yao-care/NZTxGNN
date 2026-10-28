@@ -6,9 +6,9 @@ nav_order: 427
 evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
+description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Sofosbuvir
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 </div>
 
-## Sofosbuvir: From Chronic Hepatitis C to Hepatitis B Virus Infection
+## Sofosbuvir: Hepatitis B virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The mechanistic basis is weak, and the data point to HBV reactivation risk durin
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection (the New Zealand licence record contains no approved-indication text; this comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L3 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The mechanistic basis is weak, and the data point to HBV reactivation risk durin
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sofosbuvir is a nucleotide analogue inhibitor of the HCV NS5B RNA-dependent RNA polymerase, and its efficacy in hepatitis C is well established.
 
-Mechanistically, however, the prediction is **not well supported**. HBV is a DNA virus that replicates through a reverse transcriptase, and sofosbuvir does not target that enzyme. The high TxGNN score most likely reflects the shared hepatitis/antiviral context in the knowledge graph rather than a true antiviral mechanism.
+Mechanistically, however, the prediction is **not well supported**. HBV is a DNA virus that replicates through a reverse transcriptase, and sofosbuvir does not target that enzyme. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The clinical data come mainly from HCV/HBV co-infected patients, where HCV clearance is the intended effect. The main HBV-related findings are HBV reactivation risk and changes in HBV DNA and HBsAg kinetics during DAA therapy. A small Phase 2 pilot of ledipasvir/sofosbuvir in HBV (NCT03312023, n=21) was designed to test whether the HBsAg reductions seen in co-infection could be reproduced, but a small single-arm design cannot establish an anti-HBV effect.
 
@@ -119,7 +119,7 @@ For other safety information, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-Sofosbuvir has no plausible mechanism against HBV, and the available evidence (L3) consists of co-infection studies in which HCV clearance is the goal and HBV reactivation is the main concern. The high TxGNN score is not backed by evidence of anti-HBV efficacy. Sofosbuvir is also not currently marketed in New Zealand under this licence (cancelled).
+Sofosbuvir has no plausible mechanism against HBV, and the available evidence (L3) consists of co-infection studies in which HCV clearance is the goal and HBV reactivation is the main concern. The high TxGNN score is not backed by evidence of anti-HBV efficacy.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and package insert warnings and contraindications (not yet available in the data compiled for this report)

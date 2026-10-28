@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: High Evidence (L1-L2)
 nav_order: 283
 evidence_level: L2
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not stated in the available New Zealand licence data"
 monitor_inn: "MEFENAMIC ACID"
-predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **8** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **no registered clinical trials** but **20 publications** (several older do
 |------|------|
 | Original Indication | Not stated in the available New Zealand licence data |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 2 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Because mefenamic acid is already an NSAID, this is closer to an extension within the same drug class than a true repurposing. It would relieve symptoms only and is not expected to modify the course of the disease.
 
-Other predictions in the model output include osteoarthritis susceptibility, headache disorder, migraine disorder, and several rare syndromes. Of these, migraine has the most supporting literature (double-blind trials in menstrual migraine, in acute attacks versus acetaminophen, and in prophylaxis). The rare congenital syndromes (colobomatous microphthalmia-rhizomelic dysplasia and brachydactyly-syndactyly) have no plausible mechanistic link and are likely knowledge-graph artefacts.
+Other predictions in the model output include osteoarthritis susceptibility, headache disorder, migraine disorder, and several rare syndromes. Of these, migraine has the most supporting literature (double-blind trials in menstrual migraine, in acute attacks versus acetaminophen, and in prophylaxis). The rare congenital syndromes (colobomatous microphthalmia-rhizomelic dysplasia and brachydactyly-syndactyly) have no plausible mechanistic link and are likely TxGNN model (deep learning) artefacts.
 
 ## Clinical Trial Evidence
 

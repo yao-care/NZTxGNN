@@ -6,9 +6,9 @@ nav_order: 415
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). Approved use: Polycythemia vera…"
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
+description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ruxolitinib
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ruxolitinib: From Myeloproliferative Neoplasms to Uterine Corpus Perivascular Epithelioid Cell Tumor
+## Ruxolitinib: Uterine corpus perivascular epithelioid cell tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ The best-supported alternative direction is **hemophagocytic lymphohistiocytosis
 
 | Item | Content |
 |------|------|
-| Original Indication | Polycythemia vera, myelofibrosis and other myeloproliferative neoplasms (from the knowledge graph; no approved-indication text in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Uterine corpus perivascular epithelioid cell tumor |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 (for the top-ranked prediction) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general knowledge, ruxolitinib inhibits JAK1 and JAK2, which blocks JAK-STAT signalling. This is the pathway that drives myeloproliferative neoplasms and many cytokine-mediated inflammatory states.
 
-For the top-ranked prediction (uterine PEComa), the link is speculative. PEComa is mainly associated with mTOR/TSC pathway activation, and any crosstalk with JAK-STAT is unsupported by the supplied data. The high TxGNN score most likely reflects similarity to neighbouring nodes in the knowledge graph. The same applies to the other PEComa-family and lymphangioleiomyomatosis predictions (ranks 2–4, 7). In lymphangioleiomyomatosis the established therapy targets mTOR, and no JAK-inhibitor evidence was provided. Benign PEComa generally does not require systemic therapy, so its clinical rationale is weak.
+For the top-ranked prediction (uterine PEComa), the link is speculative. PEComa is mainly associated with mTOR/TSC pathway activation, and any crosstalk with JAK-STAT is unsupported by the supplied data. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to the other PEComa-family and lymphangioleiomyomatosis predictions (ranks 2–4, 7). In lymphangioleiomyomatosis the established therapy targets mTOR, and no JAK-inhibitor evidence was provided. Benign PEComa generally does not require systemic therapy, so its clinical rationale is weak.
 
 Two other predictions have a more credible rationale:
 
@@ -92,10 +92,10 @@ For liposarcoma (rank 5), only two preclinical studies on JAK-STAT signalling in
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2554763 | Jakavi | Tab 5 mg | Cancelled; indication text not available |
-| 2627817 | Jakavi | Tab 10 mg | Cancelled; indication text not available |
-| 2554771 | Jakavi | Tab 15 mg | Cancelled; indication text not available |
-| 2554798 | Jakavi | Tab 20 mg | Cancelled; indication text not available |
+| 2554763 | Jakavi | Tab 5 mg | Valid; indication text not available |
+| 2627817 | Jakavi | Tab 10 mg | Valid; indication text not available |
+| 2554771 | Jakavi | Tab 15 mg | Valid; indication text not available |
+| 2554798 | Jakavi | Tab 20 mg | Valid; indication text not available |
 
 ## Cytotoxicity
 
@@ -122,7 +122,7 @@ Package insert warnings and contraindications could not be retrieved, so please 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (uterine PEComa) is supported only by a model score, with no trials or publications, and a mechanistic link that is speculative. Ruxolitinib is also currently not validly licensed in New Zealand (all four licences cancelled). HLH is the most credible repurposing direction (L3 evidence, mostly non-randomized), but it is a lower-ranked prediction and would need its own evaluation. Liposarcoma remains a preclinical research question.
+The top-ranked prediction (uterine PEComa) is supported only by a model score, with no trials or publications, and a mechanistic link that is speculative. Ruxolitinib is currently marketed in New Zealand (4 of 4 licences valid). HLH is the most credible repurposing direction (L3 evidence, mostly non-randomized), but it is a lower-ranked prediction and would need its own evaluation. Liposarcoma remains a preclinical research question.
 
 **To proceed, the following is needed:**
 - Mechanism-of-action data for ruxolitinib to support the mechanistic-link analysis

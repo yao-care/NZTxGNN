@@ -48,13 +48,13 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Allergic rhinitis (also vasomotor rhinitis, atopic, papillary and vernal conjunctivitis, idiopathic urticaria) |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 3 (1 valid, 2 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
-*Note: The approved indication text was not available in the licence records. The original indications above come from the TxGNN knowledge graph.*
+*Note: The approved indication text was not available in the licence records. The original indications above come from the TxGNN model (deep learning).*
 
 ## Why is This Prediction Reasonable?
 
@@ -62,7 +62,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Fexofenadine is already used for several types of conjunctivitis (allergic, atopic, papillary, vernal). By blocking histamine, it may reduce itching, redness and vasodilation of the ocular surface. This closeness to known conjunctivitis indications is the plausible link to rosacea conjunctivitis.
 
-The link is weak, however. Ocular rosacea is driven mainly by meibomian gland dysfunction, microbial or Demodex involvement, and neurovascular and innate-immune dysregulation. Histamine plays a limited role. Any benefit would probably be symptomatic (itching, redness) rather than disease-modifying. The high prediction score likely reflects the graph proximity of related conjunctivitis indications and should not be read as independent evidence.
+The link is weak, however. Ocular rosacea is driven mainly by meibomian gland dysfunction, microbial or Demodex involvement, and neurovascular and innate-immune dysregulation. Histamine plays a limited role. Any benefit would probably be symptomatic (itching, redness) rather than disease-modifying. The high prediction score (0.9985) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as related conjunctivitis indications, not biological evidence, and should not be read as independent evidence.
 
 ## Clinical Trial Evidence
 
@@ -77,8 +77,8 @@ Currently no related literature available.
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 2701405 | Telfast | Tab 60 mg | Not stated in the available records (valid) |
-| 2697092 | Fexaclear | Tab 180 mg | Not stated in the available records (cancelled) |
-| 2711222 | Fexaclear | Tab 120 mg | Not stated in the available records (cancelled) |
+| 2697092 | Fexaclear | Tab 180 mg | Not stated in the available records (valid) |
+| 2711222 | Fexaclear | Tab 120 mg | Not stated in the available records (valid) |
 
 Only the Telfast 60 mg licence is currently valid. All three products are oral tablets, and no topical or ophthalmic formulation is listed.
 

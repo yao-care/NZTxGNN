@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pyridostigmine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 394
-evidence_level: L3
-indication_count: 7
-last_modified_at: 2026-10-15
-description: "Pyridostigmine: predicted new indication Myasthenia gravis with thymus hyperplasia (evidence level L3). Approved use: Myasthenia gravis, adult-onset myasthenia gravis…"
+evidence_level: L5
+indication_count: 4
+last_modified_at: 2026-10-28
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+description: "Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-## Pyridostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+## Pyridostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pyridostigmine is an acetylcholinesterase inhibitor originally used to treat myasthenia gravis and related neuromuscular junction disorders.
-The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**, but this is essentially a subtype of the approved indication rather than a true repurposing.
 Currently there are **no registered clinical trials** and **3 publications** (a review, a case report and a cohort study), none of which evaluate pyridostigmine in a controlled way.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Myasthenia gravis, adult-onset myasthenia gravis, neuromuscular junction disease |
-| Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune disease of peripheral nervous system |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,11 +62,11 @@ Thymic hyperplasia is a common pathological feature of myasthenia gravis with ac
 The pharmacology data confirm that pyridostigmine targets acetylcholinesterase (ACHE) and butyrylcholinesterase (BCHE).
 
 Other predictions in the ranked list were considered, but they are weaker:
-- **Neonatal myasthenia gravis** (99.76%): acetylcholinesterase inhibition is mechanistically appropriate and used as supportive care. The literature consists of reviews and maternal pregnancy cohorts, with no controlled neonatal pyridostigmine studies. Neonatal dosing and safety need dedicated evaluation.
-- **Autoimmune disease of peripheral nervous system** (99.75%): a broad category driven mainly by myasthenia gravis. It may include Lambert-Eaton myasthenic syndrome and congenital myasthenic syndromes, where cholinesterase inhibitors can help in some subtypes and worsen others (for example slow-channel syndrome).
-- **Autoimmune limb-girdle myasthenia** (99.74%): supported only by a single case report with a brief review. Evidence level L4, Hold.
-- **Disease of receptor activity** (99.73%): a non-specific ontology grouping that should be mapped to specific diseases before further assessment. MuSK-positive myasthenia gravis patients may respond poorly or adversely to cholinesterase inhibitors.
-- **Hypersplenism** and **atypical haemolytic-uraemic syndrome with factor B anomaly** (99.30% and 99.22%): no plausible mechanistic link, no trials and no literature. These are computational predictions only (L5).
+- The literature consists of reviews and maternal pregnancy cohorts, with no controlled neonatal pyridostigmine studies. Neonatal dosing and safety need dedicated evaluation.
+- **Autoimmune disease of peripheral nervous system** (0.9975): a broad category driven mainly by myasthenia gravis. It may include Lambert-Eaton myasthenic syndrome and congenital myasthenic syndromes, where cholinesterase inhibitors can help in some subtypes and worsen others (for example slow-channel syndrome).
+- Evidence level L4, Hold.
+- **Disease of receptor activity** (0.9973): a non-specific ontology grouping that should be mapped to specific diseases before further assessment. MuSK-positive myasthenia gravis patients may respond poorly or adversely to cholinesterase inhibitors.
+- **Hypersplenism** and **atypical haemolytic-uraemic syndrome with factor B anomaly** (0.9930 and 0.9922): no plausible mechanistic link, no trials and no literature. These are computational predictions only (L5).
 
 ## Clinical Trial Evidence
 
@@ -100,7 +99,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically sound, but it largely restates the existing indication (a subtype of myasthenia gravis). There are no clinical trials, and the supporting literature has no controlled evidence specific to this subtype. In addition, New Zealand has no currently valid Mestinon authorization (the only one is cancelled), and label safety data are missing. These gaps block progression to safety screening.
+The prediction is mechanistically sound, but it largely restates the existing indication (a subtype of myasthenia gravis). There are no clinical trials, and the supporting literature has no controlled evidence specific to this subtype. These gaps block progression to safety screening.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (currently a blocking gap)

@@ -6,9 +6,9 @@ nav_order: 229
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ifosfamide: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not available"
 monitor_inn: "IFOSFAMIDE"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Ifosfamide: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ifosfamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ifosfamide: From Cancer Chemotherapy to Female Breast Carcinoma
+## Ifosfamide: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The strongest evidence in the model's top ten predictions is for **rhabdomyosarc
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no approved-indication text in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L2 (as graded in the data compiled for this report; the breast trials are Phase 1/2, with no completed Phase 3 RCT) |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 3 (all cancelled) |
+| TxGNN Prediction Score | 0.9991 |
+| Evidence Level | L5 (as graded in the data compiled for this report; the breast trials are Phase 1/2, with no completed Phase 3 RCT) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (Research Question) for breast carcinoma; Proceed with Guardrails for rhabdomyosarcoma |
 
 ## Why is This Prediction Reasonable?
@@ -75,7 +75,7 @@ Trials for female breast carcinoma (the top prediction):
 | [NCT00003086](https://clinicaltrials.gov/study/NCT00003086) | Phase 1/2 | Terminated | 12 | Samarium-153 within a double autologous transplant; ifosfamide is only a background component |
 | [NCT00020722](https://clinicaltrials.gov/study/NCT00020722) | Phase 2 | Terminated | 7 | Activated T cells after stem cell transplant in stage IV breast cancer; ifosfamide is peripheral |
 
-Selected Phase 3 trials supporting the rhabdomyosarcoma prediction (rank 7, score 99.67%):
+Selected Phase 3 trials supporting the rhabdomyosarcoma prediction (rank 7, score 0.9967):
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -108,11 +108,11 @@ Most of this literature consists of older Phase 2 studies and reviews. No random
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 712760 | Holoxan | Inj 2 g | Not available (licence cancelled) |
-| 712736 | Holoxan | Inj 1 g | Not available (licence cancelled) |
-| 2204223 | Baxter | Inj 1 mg for ECP | Not available (licence cancelled) |
+| 712760 | Holoxan | Inj 2 g | Not available (licence valid) |
+| 712736 | Holoxan | Inj 1 g | Not available (licence valid) |
+| 2204223 | Baxter | Inj 1 mg for ECP | Not available (licence valid) |
 
-All three licences are cancelled, so ifosfamide currently has no valid New Zealand authorization.
+All three licences are valid, so ifosfamide is currently marketed with valid New Zealand authorization.
 
 ## Cytotoxicity
 
@@ -143,7 +143,6 @@ Package insert warnings and contraindications were not available for this report
 
 **Rationale:**
 - The breast cancer evidence consists of Phase 1/2 trials and older Phase 2 literature, mostly of combination regimens. No completed Phase 3 trial tests ifosfamide in breast cancer, and ifosfamide's own contribution is hard to separate.
-- Ifosfamide has no valid New Zealand licence at present.
 - Among the other predictions, **rhabdomyosarcoma** (rank 7) has the strongest support (L1, with multiple Phase 3 trials), and could be considered **Proceed with Guardrails**. However, the Phase 3 trials are largely in soft tissue sarcoma or in combination regimens. Ifosfamide is already established in rhabdomyosarcoma regimens, so this is more confirmation than new repurposing.
 - Predictions for myelodysplastic syndromes, refractory cytopenia, aregenerative anaemia, sideroblastic anaemia, 5q deletion and monocytic leukaemia lack supporting evidence or conflict with the drug's myelosuppressive and secondary-malignancy profile, so they are **Hold**.
 - The botryoid embryonal rhabdomyosarcoma of the vagina prediction (rank 10) is plausible by extension from rhabdomyosarcoma, but rests on one case report (Research Question).

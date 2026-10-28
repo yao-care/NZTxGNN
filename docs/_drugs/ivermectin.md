@@ -6,9 +6,9 @@ nav_order: 249
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Strongyloidiasis, onchocerciasis"
 monitor_inn: "IVERMECTIN"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "congenital candidiasis", "neonatal candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
+description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ivermectin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Ivermectin: From Strongyloidiasis and Onchocerciasis to Vulvovaginal Candidiasis
+## Ivermectin: Vulvovaginal candidiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Strongyloidiasis, onchocerciasis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvovaginal candidiasis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, ivermectin is an antiparasitic whose efficacy in strongyloidiasis and onchocerciasis is established. It is generally understood to act on glutamate-gated chloride channels in invertebrates.
 
-Candida is a fungus and lacks these targets, so there is no clear mechanistic reason for ivermectin to work against vulvovaginal candidiasis. The very high score (99.95%) therefore appears to be a graph-based association rather than a prediction backed by biology.
+Candida is a fungus and lacks these targets, so there is no clear mechanistic reason for ivermectin to work against vulvovaginal candidiasis. The very high score (0.9995) therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top predictions are mostly other candidiasis or vaginitis conditions (esophageal, neonatal, congenital and invasive candidiasis, vulvovaginitis, atrophic vaginitis), plus anogenital HPV infection. None of them has clinical trial evidence, and the few linked papers are false-positive matches. For example, one case report describes disseminated strongyloidiasis after corticosteroid use, and another describes crusted scabies treated with ivermectin in immunocompromised children. Both concern ivermectin's original antiparasitic uses, not candidiasis.
 
@@ -79,12 +79,12 @@ No literature directly supports the top predicted indication. The only publicati
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2087057 | Stromectol (cancelled) | Tab 3 mg | Not available |
-| 2726424 | Stromectol (cancelled) | Tab 3 mg | Not available |
+| 2087057 | Stromectol (valid) | Tab 3 mg | Not available |
+| 2726424 | Stromectol (valid) | Tab 3 mg | Not available |
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: Loiasis and filariasis.
+- **Contraindications (from the TxGNN model (deep learning), not label text; may reflect similarities the model learned between related diseases, not biological evidence)**: Loiasis and filariasis.
 - **Drug Interactions**: 100 interactions were identified in total. The main ones rated Moderate are:
   - Aprepitant
   - Clarithromycin
@@ -107,7 +107,7 @@ Please refer to the package insert for further safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score. There are no clinical trials or relevant literature, no plausible antifungal mechanism, and no currently valid New Zealand licence (both are cancelled). The few linked papers are false-positive matches.
+The prediction is supported only by the TxGNN score. The few linked papers are false-positive matches.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and any evidence of antifungal activity against Candida (for example, in vitro studies)

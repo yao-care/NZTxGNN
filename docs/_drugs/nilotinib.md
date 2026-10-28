@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nilotinib
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 321
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Chronic myelogenous leukaemia, BCR-ABL1 positive"
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
+description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nilotinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Nilotinib: From BCR-ABL1-Positive Chronic Myelogenous Leukaemia to Dermatofibrosarcoma Protuberans
+## Nilotinib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but at present there are **no registered clinical trials** and only **1 review a
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive (from the knowledge graph; no approved indication text is available in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9931 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,8 +76,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2439360 | Tasigna (cancelled) | Cap 200 mg | Not recorded |
-| 2468115 | Tasigna (cancelled) | Cap 150 mg | Not recorded |
+| 2439360 | Tasigna (valid) | Cap 200 mg | Not recorded |
+| 2468115 | Tasigna (valid) | Cap 150 mg | Not recorded |
 
 ## Cytotoxicity
 

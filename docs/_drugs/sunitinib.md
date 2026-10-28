@@ -4,17 +4,17 @@ title: Sunitinib
 parent: High Evidence (L1-L2)
 nav_order: 434
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma and gastrointestinal stromal tumour"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
+description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sunitinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Sunitinib: From Renal Cell Carcinoma to Liposarcoma
+## Sunitinib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **2 Phase 2 clinical trials** and **9 publications** currently supporting t
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and gastrointestinal stromal tumour (from the knowledge graph; no approved indication text is available from the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisations) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold (research question only; see Conclusion) |
 
 ## Why is This Prediction Reasonable?
@@ -82,14 +82,14 @@ The very high TxGNN score supports the hypothesis. However, two completed Phase 
 
 ## New Zealand Market Information
 
-All four authorisations are cancelled, and no approved indication text is available for them.
+All four authorisations are valid, and no approved indication text is available for them.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2675463 | Sunitinib Rex | Cap 12.5 mg | Not available (cancelled) |
-| 2630338 | Sunitinib Pfizer | Cap 50 mg | Not available (cancelled) |
-| 2675471 | Sunitinib Rex | Cap 25 mg | Not available (cancelled) |
-| 2675498 | Sunitinib Rex | Cap 50 mg | Not available (cancelled) |
+| 2675463 | Sunitinib Rex | Cap 12.5 mg | Not available (valid) |
+| 2630338 | Sunitinib Pfizer | Cap 50 mg | Not available (valid) |
+| 2675471 | Sunitinib Rex | Cap 25 mg | Not available (valid) |
+| 2675498 | Sunitinib Rex | Cap 50 mg | Not available (valid) |
 
 ## Cytotoxicity
 
@@ -118,13 +118,13 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold (research question)**
 
 **Rationale:**
-- Two completed Phase 2 trials in non-GIST sarcoma and one Phase 2 publication in sarcoma subtypes suggest activity, but liposarcoma-specific response data are not clearly separated. The drug also has no currently valid New Zealand authorisation. Safety signals (QT prolongation, hepatotoxicity, cardiac failure) require careful management.
+- Two completed Phase 2 trials in non-GIST sarcoma and one Phase 2 publication in sarcoma subtypes suggest activity, but liposarcoma-specific response data are not clearly separated. Safety signals (QT prolongation, hepatotoxicity, cardiac failure) require careful management.
 
 **To proceed, the following is needed:**
 - Liposarcoma-specific efficacy data extracted from the completed Phase 2 trials (NCT00474994, NCT00400569, PMID 21154746)
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data
-- Clarification of why all New Zealand licences were cancelled and whether supply is feasible
+- Clarification of whether supply is feasible in New Zealand, where the drug is marketed and all 4 licences are valid
 - A cardiac and hepatic safety monitoring plan
 
 ---

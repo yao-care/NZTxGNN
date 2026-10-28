@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is a retinal dystrophy with no supportin
 |------|------|
 | Original Indication | Parkinsonian disorder / Parkinson disease (the New Zealand licence has no approved indication text) |
 | Predicted New Indication | Schizophrenia (the top-ranked prediction, retinal dystrophy with or without extraocular anomalies, has no evidence and is not pursued here) |
-| TxGNN Prediction Score | 99.13% (schizophrenia); the rank 1 prediction scores 99.29% |
-| Evidence Level | L4 (schizophrenia); L5 for rank 1 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9913 (schizophrenia); the rank 1 prediction scores 0.9929 |
+| Evidence Level | L5 (schizophrenia); L5 for rank 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

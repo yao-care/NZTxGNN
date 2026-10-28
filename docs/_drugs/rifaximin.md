@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Rifaximin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 404
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L4). Approved use: Hepatic encephalopathy, hepatic coma"
@@ -14,7 +14,7 @@ predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteorad
 # Rifaximin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **oral candidiasis**, but the d
 |------|------|
 | Original Indication | Hepatic encephalopathy, hepatic coma (the New Zealand licence record has no approved indication text) |
 | Predicted New Indication | Oral candidiasis |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data are not available. Based on known information, rifaximin is an oral, minimally absorbed antibiotic that acts within the gut. Its efficacy in hepatic encephalopathy is established, and it works by reducing gut bacteria.
 
-The prediction does not hold up well mechanistically. Rifaximin has no known direct antifungal activity. The only publication found (PMID 34180023, 2021) is a cohort study in allogeneic stem cell transplant recipients, and it reports that rifaximin use **favoured** micafungin-resistant Candida infections. This is most likely due to disruption of the gut microbiota. It is a safety signal, not a therapeutic benefit. The high TxGNN score is probably a graph-based artifact and is not supported by biological plausibility or clinical data.
+The prediction does not hold up well mechanistically. Rifaximin has no known direct antifungal activity. The only publication found (PMID 34180023, 2021) is a cohort study in allogeneic stem cell transplant recipients, and it reports that rifaximin use **favoured** micafungin-resistant Candida infections. This is most likely due to disruption of the gut microbiota. It is a safety signal, not a therapeutic benefit. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not supported by biological plausibility or clinical data.
 
 Other top-ranked predictions (commissural lip fistula, osteoradionecrosis of the mandible, oral leukoedema, burning mouth syndrome) have no trials or literature and no plausible mechanistic link. A related prediction, candidiasis, shows the same pattern: the two available observational studies point toward risk rather than benefit.
 

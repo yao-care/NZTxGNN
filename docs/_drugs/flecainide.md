@@ -4,17 +4,17 @@ title: Flecainide
 parent: Moderate Evidence (L3-L4)
 nav_order: 202
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Flecainide: predicted new indication Stroke disorder (evidence level L3). Approved use: Atrial fibrillation"
 monitor_inn: "Flecainide"
-predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Flecainide: predicted new indication Stroke disorder (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Flecainide
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Flecainide: From Atrial Fibrillation to Stroke Disorder
+## Flecainide: Stroke disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be useful for **stroke disorder**, but the link 
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Stroke disorder |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 6 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available. Based on known information, 
 
 Atrial fibrillation is a major cause of cardioembolic stroke. Any benefit for stroke would therefore come from reducing arrhythmia burden, not from a direct neuroprotective or antithrombotic effect. The only Phase 3 trial tests flecainide for preventing atrial arrhythmia after closure of a patent foramen ovale (PFO), a procedure done to prevent recurrent cryptogenic stroke. That is a post-procedural complication, not stroke itself.
 
-The very high TxGNN score most likely reflects the well-known atrial fibrillation–stroke association in the knowledge graph rather than independent evidence of benefit. The prediction should be treated as a research question.
+The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a research question.
 
 ## Clinical Trial Evidence
 
@@ -86,11 +86,11 @@ The very high TxGNN score most likely reflects the well-known atrial fibrillatio
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2694956 | Almarytm | Inj 10 mg per ml, 15 ml ampoule | Cancelled |
-| 2696967 | Tambocor German | Inj 10 mg per ml, 15 ml ampoule | Cancelled |
-| 2567121 | Flecainide Controlled Release Teva | Cap long-acting 200 mg | Cancelled |
-| 2447363 | Tambocor | Inj 10 mg per ml, 15 ml ampoule | Cancelled |
-| 2567695 | Flecainide BNM | Tab 50 mg | Cancelled |
+| 2694956 | Almarytm | Inj 10 mg per ml, 15 ml ampoule | Valid |
+| 2696967 | Tambocor German | Inj 10 mg per ml, 15 ml ampoule | Valid |
+| 2567121 | Flecainide Controlled Release Teva | Cap long-acting 200 mg | Valid |
+| 2447363 | Tambocor | Inj 10 mg per ml, 15 ml ampoule | Valid |
+| 2567695 | Flecainide BNM | Tab 50 mg | Valid |
 
 One further cancelled authorization (2567113, Flecainide Controlled Release Teva, long-acting capsule 100 mg) is not shown. Approved indication text was not available for any of these products.
 
@@ -109,14 +109,14 @@ Please refer to the package insert for the full set of warnings and contraindica
 **Decision: Hold**
 
 **Rationale:**
-The only Phase 3 trial targets post-PFO-closure arrhythmia, not stroke, and the literature mainly concerns atrial fibrillation management. The high TxGNN score probably reflects the known AF–stroke link. With no valid New Zealand authorization and significant cardiac contraindications, this is a research question rather than an actionable repurposing candidate.
+The only Phase 3 trial targets post-PFO-closure arrhythmia, not stroke, and the literature mainly concerns atrial fibrillation management. The high TxGNN score probably reflects the known AF–stroke link.
 
 **To proceed, the following is needed:**
 - Results from NCT05213104, and ideally a trial with stroke or cerebrovascular events as the primary endpoint
 - Mechanism of action data
 - Package insert warnings and contraindications for a formal safety screen
 - A defined patient population in whom flecainide is safe (without structural heart disease or conduction disease)
-- Clarification of New Zealand availability, since all current authorizations are cancelled
+- Confirmation of New Zealand availability: the drug is marketed, with 6 valid licences of 6
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

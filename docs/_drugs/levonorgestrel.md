@@ -4,17 +4,17 @@ title: Levonorgestrel
 parent: Moderate Evidence (L3-L4)
 nav_order: 271
 evidence_level: L4
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Postmenopausal osteoporosis / osteoporosis"
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Levonorgestrel: From Postmenopausal Osteoporosis to Acne
+## Levonorgestrel: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Levonorgestrel is a progestin used mainly in hormonal contraception (tablets, intrauterine systems and implants). The knowledge graph lists its original indication as postmenopausal osteoporosis/osteoporosis.
+Levonorgestrel is a progestin used mainly in hormonal contraception (tablets, intrauterine systems and implants).
 The TxGNN model predicts it may be effective for **acne**, but there are **0 clinical trials** and only **1 randomized trial** (of a levonorgestrel plus ethinylestradiol combination pill) among the 20 publications retrieved, so the evidence is weak and the mechanism points in an uncertain direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis / osteoporosis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 6 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available for this drug. Levonorgestrel
 
 A direct anti-acne mechanism is not obvious. Acne improvement with hormonal contraceptives is generally attributed to the estrogen component (higher SHBG, lower free testosterone) or to anti-androgenic progestins such as chlormadinone acetate. Reviews in the literature on progestin androgenicity suggest that levonorgestrel-based systems and implants are not established acne treatments and may even worsen acne in some users.
 
-The very high TxGNN score (0.999) is therefore not well supported by the mechanism. The link to acne is indirect and possibly opposite in direction. The relationship between the listed original indication (osteoporosis) and acne is also weak: both are sex-steroid-influenced conditions, but that is a loose connection.
+The very high TxGNN score (0.9988) is therefore not well supported by the mechanism. The link to acne is indirect and possibly opposite in direction. The relationship between the listed original indication (osteoporosis) and acne is also weak: both are sex-steroid-influenced conditions, but that is a loose connection.
 
 ## Clinical Trial Evidence
 
@@ -82,15 +82,15 @@ The most relevant publications retrieved (the data compiled for this report did 
 
 ## New Zealand Market Information
 
-All six licences are cancelled. No approved indication text is available for any of them.
+All six licences are valid. No approved indication text is available for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2712164 | Levonorgestrel -1 (Lupin) | Tab 1.5 mg | Not available (cancelled) |
-| 2013908 | Mirena | Intra-uterine device 52 mg | Not available (cancelled) |
-| 2703068 | Jadelle | Subdermal implant (2 x 75 mg rods) | Not available (cancelled) |
-| 2591839 | Microlut | Tab 30 mcg | Not available (cancelled) |
-| 2474891 | Jaydess | Intra-uterine device 13.5 mg | Not available (cancelled) |
+| 2712164 | Levonorgestrel -1 (Lupin) | Tab 1.5 mg | Not available (valid) |
+| 2013908 | Mirena | Intra-uterine device 52 mg | Not available (valid) |
+| 2703068 | Jadelle | Subdermal implant (2 x 75 mg rods) | Not available (valid) |
+| 2591839 | Microlut | Tab 30 mcg | Not available (valid) |
+| 2474891 | Jaydess | Intra-uterine device 13.5 mg | Not available (valid) |
 
 A sixth cancelled licence (2645424, Levonorgestrel BNM, Tab 1.5 mg) is also on record.
 
@@ -106,12 +106,12 @@ A sixth cancelled licence (2645424, Levonorgestrel BNM, Tab 1.5 mg) is also on r
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but no clinical trials exist, the only acne RCT tested a combination pill in which the estrogen likely drives the effect, and the androgenicity of levonorgestrel suggests the effect could be neutral or adverse. In New Zealand, all licences are cancelled, and the original indication and safety data are incomplete.
+The TxGNN score is very high, but no clinical trials exist, the only acne RCT tested a combination pill in which the estrogen likely drives the effect, and the androgenicity of levonorgestrel suggests the effect could be neutral or adverse. In New Zealand, the drug is marketed with 6 valid licences out of 6, and the original indication and safety data are incomplete.
 
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
-- Confirmation of the original indication, since the knowledge graph lists osteoporosis, which does not match the drug's known contraceptive use
+- Confirmation of the original indication, since the listed osteoporosis does not match the drug's known contraceptive use
 - Evidence isolating the effect of levonorgestrel from the estrogen component on acne, such as comparator studies against anti-androgenic progestins
 - Clarification of the status of the cancelled New Zealand licences and which formulations would be relevant
 
@@ -119,11 +119,10 @@ The TxGNN score is very high, but no clinical trials exist, the only acne RCT te
 
 | Predicted Indication | TxGNN Score | Evidence Level | Note |
 |------|------|------|------|
-| Worth syndrome | 99.61% | L5 | No trials or literature; no plausible mechanism |
-| Pregnancy associated osteoporosis | 99.45% | L5 | Biologically close to the original indication, but no evidence retrieved and a bone-density safety concern |
-| Autosomal dominant neovascular inflammatory vitreoretinopathy | 99.39% | L5 | No evidence; no plausible mechanism |
-| Blunt duct adenosis of breast | 99.02% | L5 | Hormone-responsive lesion, but direction of effect uncertain |
-| Apocrine adenosis of breast | 99.02% | L5 | Same as above; identical score suggests a shared graph-based prediction |
+| Worth syndrome | 0.9961 | L5 | No trials or literature; no plausible mechanism |
+| Autosomal dominant neovascular inflammatory vitreoretinopathy | 0.9939 | L5 | No evidence; no plausible mechanism |
+| Blunt duct adenosis of breast | 0.9902 | L5 | Hormone-responsive lesion, but direction of effect uncertain |
+| Apocrine adenosis of breast | 0.9902 | L5 | Same as above; the identical score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

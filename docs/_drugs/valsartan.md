@@ -4,17 +4,17 @@ title: Valsartan
 parent: Moderate Evidence (L3-L4)
 nav_order: 475
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Valsartan: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Valsartan: From Hypertension to Malignant Renovascular Hypertension
+## Valsartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Valsartan is an angiotensin II receptor blocker (ARB) originally used to treat hypertension, and it is also a component of the sacubitril/valsartan combination (Entresto).
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are **0 registered clinical trials** and only **1 preclinical publication** directly supporting this prediction.
 The indication overlaps heavily with the original hypertension indication, so the prediction is plausible but largely unproven in humans.
 
 ---
@@ -48,12 +47,12 @@ The indication overlaps heavily with the original hypertension indication, so th
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.97% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,12 +69,12 @@ Note that this predicted indication is essentially a severe subtype of the origi
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Malignant hypertensive renal disease | 99.97% | L4 | Only indirect support (a paper on avosentan, a different drug) |
-| Pulmonary hypertension, unclear multifactorial mechanism | 99.97% | L5 | Model prediction only |
-| Pulmonary hypertension due to lung disease/hypoxia | 99.97% | L4 | Mostly preclinical; many studies involve sacubitril/valsartan, so the valsartan contribution is confounded |
-| Braddock syndrome | 99.96% | L5 | Model prediction only |
-| Chronic pulmonary heart disease | 99.58% | L3 | Observational and post hoc heart failure data, not cor pulmonale itself |
-| Prinzmetal angina | 99.45% | L5 | No plausible mechanistic link |
+| Malignant hypertensive renal disease | 0.9997 | L4 | Only indirect support (a paper on avosentan, a different drug) |
+| Pulmonary hypertension, unclear multifactorial mechanism | 0.9997 | L5 | Model prediction only |
+| Pulmonary hypertension due to lung disease/hypoxia | 0.9997 | L4 | Mostly preclinical; many studies involve sacubitril/valsartan, so the valsartan contribution is confounded |
+| Braddock syndrome | 0.9996 | L5 | Model prediction only |
+| Chronic pulmonary heart disease | 0.9958 | L3 | Observational and post hoc heart failure data, not cor pulmonale itself |
+| Prinzmetal angina | 0.9945 | L5 | No plausible mechanistic link |
 
 ---
 
@@ -97,11 +96,10 @@ Currently no related clinical trials are registered for malignant renovascular h
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2554720 | Entresto 24/26 | Tablet (sacubitril 24.3 mg / valsartan 25.7 mg) | Not available (cancelled) |
-| 2554747 | Entresto 97/103 | Tablet (sacubitril 97.2 mg / valsartan 102.8 mg) | Not available (cancelled) |
-| 2554739 | Entresto 49/51 | Tablet (sacubitril 48.6 mg / valsartan 51.4 mg) | Not available (cancelled) |
+| 2554720 | Entresto 24/26 | Tablet (sacubitril 24.3 mg / valsartan 25.7 mg) | Not available (valid) |
+| 2554747 | Entresto 97/103 | Tablet (sacubitril 97.2 mg / valsartan 102.8 mg) | Not available (valid) |
+| 2554739 | Entresto 49/51 | Tablet (sacubitril 48.6 mg / valsartan 51.4 mg) | Not available (valid) |
 
-All three licences are cancelled, and no valid single-ingredient valsartan licences are listed.
 
 ---
 
@@ -127,7 +125,6 @@ The prediction is mechanistically plausible and strongly related to valsartan's 
 - Detailed mechanism of action data (for example from DrugBank)
 - Human clinical evidence in malignant or renovascular hypertension, or confirmation that existing hypertension guidance already covers this use
 - A review of renal artery stenosis and renal function risk specific to renovascular hypertension
-- Clarification of the regulatory pathway given that all NZ licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Dorzolamide
 parent: Model Prediction Only (L5)
 nav_order: 165
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Dorzolamide: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
+description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dorzolamide: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Dorzolamide: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Dorzolamide is a topical carbonic anhydrase inhibitor, originally used to lower eye pressure in open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but **no clinical trials and no publications** specific to this indication were found, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma; ocular hypertension (the New Zealand licence record does not state an approved indication) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +58,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Primary hereditary glaucoma is also a disease of raised IOP. A drug that reduces aqueous humour production is therefore mechanistically plausible, and this likely explains the high model score. However, hereditary forms often have structural drainage-angle abnormalities, and the data compiled for this report contain no study of dorzolamide in this setting. The score is a computational association, not clinical proof.
 
-For context, two other predictions in the same analysis, "glaucoma 1, open angle" and "open angle glaucoma", simply confirm the existing approved use. They are supported by Phase 3 and Phase 4 trials and systematic reviews, but they are not new indications.
+They are supported by Phase 3 and Phase 4 trials and systematic reviews, but they are not new indications.
 
 ## Clinical Trial Evidence
 
@@ -75,11 +74,11 @@ Currently no related literature available for primary hereditary glaucoma.
 |---------|------|------|-----------|
 | 2398354 (cancelled) | Dortimopt | Eye drops 2% with timolol 0.5% | Not stated in the licence record |
 
-The only New Zealand authorization is a fixed combination with timolol, and it is cancelled. There is currently no valid marketed dorzolamide product in New Zealand. The product is ophthalmic only.
+The only New Zealand authorization is a fixed combination with timolol, and it is cancelled. The product is ophthalmic only.
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (from knowledge-graph associations, not label text):** diabetes mellitus, diabetic ketoacidosis, myasthenia gravis (including adult-onset), neuromuscular junction disease, hyperthyroidism, Graves disease, thyrotoxicosis, hypoglycaemia, atrioventricular block, pulmonary emphysema, bronchial disease and anaphylaxis. Many of these are typical of beta-blockers, so they may relate to timolol in the combination product rather than to dorzolamide alone. This should be confirmed against the product label.
+- Many of these are typical of beta-blockers, so they may relate to timolol in the combination product rather than to dorzolamide alone. This should be confirmed against the product label.
 - **Drug interactions:** No specific drug-drug interactions were identified. The data list only dorzolamide's pharmacological targets (carbonic anhydrases 1, 7, 12 and 14).
 
 The package insert warnings and contraindications could not be retrieved, so please refer to the package insert for full safety information.

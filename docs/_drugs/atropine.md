@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and only **indirect, mostly precli
 |------|------|
 | Original Indication | Not available (no approved indication text in the New Zealand licence records) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.56% |
+| TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available. Based on known information, 
 
 Several publications suggest that the cholinergic system may take part in migraine pathophysiology. In rats, cholinergic modulation of meningeal mast cells has been linked to neurogenic inflammation in a nitroglycerin-induced migraine model. Stimulating the parasympathetic sphenopalatine ganglion causes plasma protein leakage in the dura mater. Central cholinergic pathways also contribute to antinociception in rodents. In chronic paroxysmal hemicrania, a related headache disorder, systemic atropine reduced attack-related sweating, tearing and nasal secretion.
 
-Together these findings make a role for muscarinic blockade in migraine plausible, but the evidence is indirect and largely animal-based. The high TxGNN score is a computational prediction and is not clinical evidence. A second predicted indication, migraine with brainstem aura (score 99.42%, evidence level L5), has no trials or specific literature and probably reflects its close relationship to the parent disease in the knowledge graph.
+Together these findings make a role for muscarinic blockade in migraine plausible, but the evidence is indirect and largely animal-based. The high TxGNN score is a computational prediction and is not clinical evidence. A second predicted indication, migraine with brainstem aura (score 0.9942, evidence level L5), has no trials or specific literature; its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -81,13 +81,13 @@ Of the retrieved publications, only some are relevant. None tests atropine as a 
 
 ## New Zealand Market Information
 
-All three licences are cancelled, and no approved indication text is recorded for any of them.
+Three licences are valid (3 of 3), but no approved indication text is recorded for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2528754 | Martindale | Inj 600 mcg per ml, 1 ml ampoule | Not recorded (cancelled) |
-| 2693976 | Hikma | Inj 600 mcg per ml, 1 ml ampoule | Not recorded (cancelled) |
-| 200905 | Atropt | Eye drops 1% | Not recorded (cancelled) |
+| 2528754 | Martindale | Inj 600 mcg per ml, 1 ml ampoule | Not recorded (valid) |
+| 2693976 | Hikma | Inj 600 mcg per ml, 1 ml ampoule | Not recorded (valid) |
+| 200905 | Atropt | Eye drops 1% | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -104,14 +104,14 @@ All three licences are cancelled, and no approved indication text is recorded fo
 **Decision: Hold**
 
 **Rationale:**
-The only support for atropine in migraine is a computational prediction plus indirect, mostly preclinical literature, and no clinical trial has tested it. All New Zealand licences are cancelled, and the anticholinergic side-effect and interaction burden is substantial for a chronic indication.
+The only support for atropine in migraine is a computational prediction plus indirect, mostly preclinical literature, and no clinical trial has tested it. All three New Zealand licences are valid, and the anticholinergic side-effect and interaction burden is substantial for a chronic indication.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Original approved indications and mechanism of action data
 - Clinical evidence in migraine, starting with a pilot or exploratory study with a suitable formulation and route
 - A risk-benefit assessment of anticholinergic adverse effects and the high interaction burden
-- Clarification of the regulatory pathway, since no valid licence currently exists in New Zealand
+- Clarification of the regulatory pathway for this indication, since the existing New Zealand licences carry no recorded approved indication text
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

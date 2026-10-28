@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Vancomycin is a glycopeptide antibiotic, originally used for Gram-positive bacterial infections such as *Clostridium difficile* colitis, staphylococcal infections and endocarditis.
-The TxGNN model predicts it may be effective for **diffuse scleroderma**, but there are **0 clinical trials** and only **1 unrelated case report** behind this prediction, so it is most likely a graph artifact.
+The TxGNN model (deep learning) predicts it may be effective for **diffuse scleroderma**, but there are **0 clinical trials** and only **1 unrelated case report** behind this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but th
 |------|------|
 | Original Indication | Clostridium difficile colitis, staphylococcal infections, endocarditis, bacterial arthritis, staphylococcal pneumonia (the regulatory record contains no approved indication text) |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 1 (0 currently valid) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Vancomycin is known to be a glycopeptide antibiotic that inhibits bacterial cell wall synthesis by binding D-Ala-D-Ala. Its efficacy in Gram-positive infections is well established.
 
-Diffuse scleroderma is an autoimmune, fibrotic disease, not a bacterial infection. No plausible mechanistic link between vancomycin and this condition could be identified. The only retrieved paper is a case report of erythroderma with sepsis and eosinophilia, which is not about scleroderma treatment. The high TxGNN score is likely a knowledge-graph artifact rather than a true therapeutic signal.
+Diffuse scleroderma is an autoimmune, fibrotic disease, not a bacterial infection. No plausible mechanistic link between vancomycin and this condition could be identified. The only retrieved paper is a case report of erythroderma with sepsis and eosinophilia, which is not about scleroderma treatment. The high TxGNN score is likely a TxGNN model (deep learning) artifact rather than a true therapeutic signal.
 
 For context, among the other top-ranked predictions only **streptococcal pneumonia** (rank 9) is biologically plausible, because the pathogen is Gram-positive. Vancomycin is already used for penicillin-resistant pneumococcal infection, so this is closer to an existing use than to true repurposing. The Gram-negative targets (paratyphoid fever, typhoid fever, salmonellosis) are implausible because vancomycin cannot penetrate the Gram-negative outer membrane. The remaining predictions (congenital analbuminemia, polyclonal hyperviscosity syndrome, hyperamylasemia, blood group incompatibility, premalignant hematological system disease) have no mechanistic rationale.
 
@@ -75,7 +75,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2696282 | Vancomycin Viatris (cancelled) | Inj 500 mg vial | Not recorded |
+| 2696282 | Vancomycin Viatris (valid) | Inj 500 mg vial | Not recorded |
 
 ## Safety Considerations
 

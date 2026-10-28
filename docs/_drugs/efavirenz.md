@@ -6,9 +6,9 @@ nav_order: 172
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease, AIDS"
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Efavirenz
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Efavirenz: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Efavirenz: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ There are **0 clinical trials** and **14 publications** (mostly macaque and labo
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease, AIDS (from the knowledge graph; no approved indication text is available in the New Zealand licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,8 +67,8 @@ SIV does not naturally carry an NNRTI-sensitive RT. The supporting studies inste
 This is the same mechanism as the original HIV indication. The finding therefore reflects a research model of HIV therapy, not a new human use. SIV is a non-human pathogen, and the high TxGNN score most likely reflects how closely SIV resembles HIV.
 
 Two other predictions were also reviewed, and neither is supported:
-- **Feline acquired immunodeficiency syndrome**: the only evidence is a 2023 biochemical and structural study of NNRTIs against feline immunodeficiency virus RT (PMID 38031646). It shows no clinical efficacy in cats, and NNRTIs are generally weak against this enzyme. Score 99.80%, L4.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter**: no trials or literature. Score 99.77%, L5. A hypothetical link via CYP46A1 has been suggested, but the data here do not support it. Efavirenz's neuropsychiatric adverse effects call for caution in a paediatric population.
+- **Feline acquired immunodeficiency syndrome**: the only evidence is a 2023 biochemical and structural study of NNRTIs against feline immunodeficiency virus RT (PMID 38031646). It shows no clinical efficacy in cats, and NNRTIs are generally weak against this enzyme. Score 0.9980, L4.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter**: no trials or literature. Score 0.9977, L5. A hypothetical link via CYP46A1 has been suggested, but the data here do not support it. Efavirenz's neuropsychiatric adverse effects call for caution in a paediatric population.
 
 ---
 
@@ -101,7 +101,7 @@ No randomised controlled trials or human studies were identified.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2676915 | Efavirenz Milpharm (cancelled) | Tab 600 mg | Not recorded |
+| 2676915 | Efavirenz Milpharm (valid) | Tab 600 mg | Not recorded |
 
 ---
 

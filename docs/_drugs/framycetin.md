@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Not specified in the licence data compiled for this report (marketed as ear/eye drops) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 2 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,12 +64,12 @@ Other predicted indications, all also at L5 with no trials or literature:
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Urinary tract infection | 99.42% | Plausible as an aminoglycoside class effect. Systemic use is limited by nephrotoxicity and ototoxicity. |
-| 3 | Congenital prothrombin deficiency | 99.41% | No plausible mechanism. Likely a graph-based artifact. |
-| 4 | Ureaplasma urethritis | 99.28% | Ureaplasma lacks a cell wall, and aminoglycoside activity against it is generally poor. |
-| 5 | Gonococcal urethritis | 99.28% | Class-level activity only. Poor systemic bioavailability limits use. |
-| 6 | Uterine inflammatory disease | 99.18% | Plausible for polymicrobial infection, but topical-only use limits relevance. |
-| 7 | Xanthogranulomatous pyelonephritis | 99.18% | Plausible against the associated bacteria, but nephrotoxicity is a concern in a diseased kidney. |
+| 2 | Urinary tract infection | 0.9942 | Plausible as an aminoglycoside class effect. Systemic use is limited by nephrotoxicity and ototoxicity. |
+| 3 | Congenital prothrombin deficiency | 0.9941 | No plausible mechanism. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| 4 | Ureaplasma urethritis | 0.9928 | Ureaplasma lacks a cell wall, and aminoglycoside activity against it is generally poor. |
+| 5 | Gonococcal urethritis | 0.9928 | Class-level activity only. Poor systemic bioavailability limits use. |
+| 6 | Uterine inflammatory disease | 0.9918 | Plausible for polymicrobial infection, but topical-only use limits relevance. |
+| 7 | Xanthogranulomatous pyelonephritis | 0.9918 | Plausible against the associated bacteria, but nephrotoxicity is a concern in a diseased kidney. |
 
 ## Clinical Trial Evidence
 

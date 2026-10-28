@@ -4,17 +4,17 @@ title: Sulfasalazine
 parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Sulfasalazine: predicted new indication Top-ranked: brachydactyly-syndactyly syndrome . Best-supported: osteo… (evidence level L5). Approved use: Rheumatoid arthritis, ulcerative colitis, inflammator…"
 monitor_inn: "SULFASALAZINE"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "osteoarthritis susceptibility", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "spondyloarthropathy, susceptibility to", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+description: "Sulfasalazine: predicted new indication Top-ranked: brachydactyly-syndactyly syndrome . Best-supported: osteoarthritis (brachydactyly-syndactyly syndrome) (evidence level L5). Approved use: Not recor…"
 ---
 
 # Sulfasalazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sulfasalazine: From Rheumatoid Arthritis and Ulcerative Colitis to Osteoarthritis
+## Sulfasalazine: Top-ranked: brachydactyly-syndactyly syndrome (no evidence). Best-supported: osteoarthritis (brachydactyly-syndactyly syndrome)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model's top-ranked prediction is **brachydactyly-syndactyly syndrome**
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, ulcerative colitis, inflammatory bowel disease, juvenile idiopathic arthritis, spondyloarthropathy (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
-| Predicted New Indication | Top-ranked: brachydactyly-syndactyly syndrome (no evidence). Best-supported: osteoarthritis |
-| TxGNN Prediction Score | 99.94% (brachydactyly-syndactyly syndrome); 99.64% (osteoarthritis) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Top-ranked: brachydactyly-syndactyly syndrome (no evidence). Best-supported: osteoarthritis (brachydactyly-syndactyly syndrome) |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 for the top-ranked prediction; L4 for osteoarthritis |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold (top-ranked prediction); osteoarthritis is a research question |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on the known pharmacology described there, sulfasalazine acts through NF-kB inhibition, folate pathway antagonism and inhibition of the cystine/glutamate antiporter (system xc-). Its efficacy in inflammatory joint and bowel disease is established, so a mechanistic fit with inflammatory joint conditions is plausible.
 
-**Top-ranked predictions:** The highest-scoring predictions are mostly rare congenital or developmental syndromes. Examples are brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, WHIM syndrome and acromesomelic dysplasia, Hunter-Thompson type. No mechanistic link, trial or publication supports any of them. They are graph-based computational predictions only and should not be pursued without new evidence.
+**Top-ranked predictions:** The highest-scoring predictions are mostly rare congenital or developmental syndromes. Examples are brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, WHIM syndrome and acromesomelic dysplasia, Hunter-Thompson type. No mechanistic link, trial or publication supports any of them. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are computational predictions only and should not be pursued without new evidence.
 
 **Osteoarthritis:** This is the most plausible new direction. Preclinical studies suggest sulfasalazine:
 - reduces proteoglycan and collagen release from cytokine-stimulated cartilage and down-regulates metalloproteinases;
@@ -95,8 +95,8 @@ Both New Zealand licences are cancelled, and no approved indication text is reco
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 251615 | Salazopyrin | Tab 500 mg | Not recorded (cancelled) |
-| 251585 | Salazopyrin EN | Tab EC 500 mg | Not recorded (cancelled) |
+| 251615 | Salazopyrin | Tab 500 mg | Not recorded (valid) |
+| 251585 | Salazopyrin EN | Tab EC 500 mg | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -122,7 +122,6 @@ The package insert warnings and contraindications could not be retrieved, so ple
 - Detailed mechanism of action data from DrugBank.
 - Human clinical data for osteoarthritis, starting with a systematic literature search or a pilot trial.
 - A review of the osteoarthritis risk-benefit balance, including the long-term safety profile and the contraindications noted above.
-- Clarification of the regulatory pathway, since there are no currently valid New Zealand licences.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -6,9 +6,9 @@ nav_order: 263
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Leflunomide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Leflunomide: From Rheumatoid Arthritis to Brachydactyly-Syndactyly Syndrome
+## Leflunomide: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis; psoriatic arthritis (from the knowledge graph, as no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Brachydactyly-syndactyly syndromes are congenital limb malformations of developmental origin. There is no evident rationale for postnatal immunomodulatory or antiproliferative treatment of such a condition. Leflunomide (through its active metabolite teriflunomide) is generally understood to inhibit dihydroorotate dehydrogenase (DHODH) and pyrimidine synthesis. This is background knowledge, not part of the compiled data. DHODH inhibition is associated with teratogenicity, and leflunomide is contraindicated in pregnancy, which argues against use in developmental disorders.
 
-The high TxGNN score (99.93%) is a computational prediction only. It is not corroborated by clinical or literature evidence. The second-ranked prediction, colobomatous microphthalmia-rhizomelic dysplasia syndrome (score 99.93%), is likewise a rare congenital syndrome with no supporting trials or publications and the same concerns.
+The high TxGNN score (0.9993) is a computational prediction only. It is not corroborated by clinical or literature evidence. The second-ranked prediction, colobomatous microphthalmia-rhizomelic dysplasia syndrome (score 0.9993), is likewise a rare congenital syndrome with no supporting trials or publications and the same concerns.
 
 ## Clinical Trial Evidence
 
@@ -73,8 +73,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 306843 | Arava (cancelled) | Tab 10 mg | Not available |
-| 369470 | Arava (cancelled) | Tab 20 mg | Not available |
+| 306843 | Arava (valid) | Tab 10 mg | Not available |
+| 369470 | Arava (valid) | Tab 20 mg | Not available |
 
 ## Safety Considerations
 
@@ -97,7 +97,7 @@ For label-based warnings and contraindications, please refer to the package inse
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or literature (evidence level L5), and no plausible mechanistic rationale is evident. The drug's known teratogenic risk argues against use in congenital developmental syndromes. Leflunomide also has no currently valid licence in New Zealand.
+The prediction has no supporting clinical trials or literature (evidence level L5), and no plausible mechanistic rationale is evident. The drug's known teratogenic risk argues against use in congenital developmental syndromes. Leflunomide is marketed in New Zealand, with 2 valid licences out of 2.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to assess whether any biological link to the predicted condition exists

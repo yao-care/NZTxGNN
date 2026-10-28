@@ -4,17 +4,17 @@ title: Olanzapine
 parent: Model Prediction Only (L5)
 nav_order: 334
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Bipolar disorder, manic bipolar affective disorder…"
 monitor_inn: "OLANZAPINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Olanzapine: From Bipolar Disorder and Schizophrenia to Benign Paroxysmal Torticollis of Infancy
+## Olanzapine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,26 +46,25 @@ Two other predictions (agoraphobia and dysthymic disorder) have some indirect li
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder, manic bipolar affective disorder, unipolar depression, major depressive disorder, anxiety disorder, schizophrenia (from the knowledge graph; no approved-indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 11 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Authorizations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, olanzapine is an atypical antipsychotic whose efficacy in schizophrenia, bipolar disorder and depressive conditions is established. It is generally understood to act through dopamine and serotonin receptor antagonism.
 
-Benign paroxysmal torticollis of infancy is a rare, usually self-limiting paediatric disorder thought to belong to the migraine spectrum, with links to channelopathies such as CACNA1A. A mechanistic link to olanzapine's dopaminergic and serotonergic antagonism is speculative. The very high score reflects a knowledge-graph association, not clinical evidence. Using an antipsychotic in infants for a condition that usually resolves on its own raises significant safety concerns.
+Benign paroxysmal torticollis of infancy is a rare, usually self-limiting paediatric disorder thought to belong to the migraine spectrum, with links to channelopathies such as CACNA1A. A mechanistic link to olanzapine's dopaminergic and serotonergic antagonism is speculative. The very high score (0.9954) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Using an antipsychotic in infants for a condition that usually resolves on its own raises significant safety concerns.
 
 ### Other Predicted Indications
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Agoraphobia | 99.47% | L3 | Evidence is for olanzapine augmentation in treatment-resistant panic disorder (often comorbid with agoraphobia), not agoraphobia itself. There is no RCT, and open-label and case-level data carry high risk of bias. Suitable as a research question. |
-| Dysthymic disorder | 99.28% | L4 | Olanzapine is already used in depressive conditions, so this may be an extension of existing use. The literature is indirect, and no dysthymia-specific olanzapine RCT is evident. Suitable as a research question. |
+| Agoraphobia | 0.9947 | L5 | Evidence is for olanzapine augmentation in treatment-resistant panic disorder (often comorbid with agoraphobia), not agoraphobia itself. There is no RCT, and open-label and case-level data carry high risk of bias. Suitable as a research question. |
 
 ## Clinical Trial Evidence
 
@@ -86,7 +85,6 @@ For the second-ranked prediction, **agoraphobia**, the following literature is a
 | [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Case report | Am J Psychiatry | Short report on olanzapine and panic attacks |
 | [25012437](https://pubmed.ncbi.nlm.nih.gov/25012437/) | 2014 | Cohort | J Affect Disord | Impact of comorbid anxiety disorders, including agoraphobia, on 24-month outcomes in bipolar I disorder |
 
-For the third-ranked prediction, **dysthymic disorder**:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -98,7 +96,7 @@ For the third-ranked prediction, **dysthymic disorder**:
 
 ## New Zealand Market Information
 
-All 11 licences are cancelled. The main ones are listed below; approved indication text is not available for any of them.
+All 11 licences are valid. The main ones are listed below; approved indication text is not available for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -126,7 +124,7 @@ Please refer to the package insert for full label warnings and contraindications
 **Decision: Hold**
 
 **Rationale:**
-The top prediction for benign paroxysmal torticollis of infancy rests on a knowledge-graph score alone. It has no trials or literature, a speculative mechanism, a self-limiting condition and a serious paediatric safety concern. In addition, no New Zealand licence for olanzapine is currently valid. The agoraphobia and dysthymia predictions are better supported, but only by indirect or low-level evidence, so they are best treated as research questions.
+The top prediction for benign paroxysmal torticollis of infancy rests on a TxGNN model (deep learning) score alone. It has no trials or literature, a speculative mechanism, a self-limiting condition and a serious paediatric safety concern. In addition, no New Zealand licence for olanzapine is currently valid. The agoraphobia and dysthymia predictions are better supported, but only by indirect or low-level evidence, so they are best treated as research questions.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for olanzapine
@@ -134,7 +132,7 @@ The top prediction for benign paroxysmal torticollis of infancy rests on a knowl
 - Any clinical or case-level evidence for olanzapine in benign paroxysmal torticollis of infancy, plus a paediatric risk-benefit assessment
 - For agoraphobia: a controlled trial of olanzapine augmentation, with the effect on agoraphobia assessed separately from panic symptoms
 - For dysthymic disorder: dysthymia-specific olanzapine data, and clarification of whether this is a new use or an extension of existing depression indications
-- Clarification of the regulatory position, since all New Zealand licences are cancelled
+- Clarification of the regulatory position in New Zealand, where all 11 licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

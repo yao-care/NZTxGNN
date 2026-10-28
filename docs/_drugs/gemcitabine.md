@@ -4,17 +4,17 @@ title: Gemcitabine
 parent: Model Prediction Only (L5)
 nav_order: 218
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Gemcitabine: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
+description: "Gemcitabine: predicted new indication Rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Gemcitabine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Gemcitabine: From Ovarian Cancer to Female Breast Carcinoma
+## Gemcitabine: Rectum mucinous adenocarcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Gemcitabine is a nucleoside-analogue chemotherapy drug, originally used to treat ovarian cancer.
-The TxGNN model predicts it may be effective for **female breast carcinoma**,
 with **33 clinical trials** and **20 publications** currently supporting this direction, including a completed Phase 3 randomized trial in metastatic breast cancer.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (no approved indication text is available in the New Zealand licence records; the original indication comes from the knowledge graph) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L1 (see note below) |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Rectum mucinous adenocarcinoma |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 (see note below) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level: the compiled data assign L1. The completed Phase 3 trial NCT00006459 (gemcitabine plus paclitaxel versus paclitaxel) and the large Phase 3 trial NCT00093795 (4,894 participants) both completed. However, no published results were retrieved for either, so L1 should be confirmed once the results are reviewed.*
@@ -99,7 +98,6 @@ No randomized controlled trial reports were retrieved. The literature consists m
 
 ## New Zealand Market Information
 
-All three authorizations are cancelled, and approved indication text is not available in the records.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -112,7 +110,6 @@ All three authorizations are cancelled, and approved indication text is not avai
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (nucleoside analogue / antimetabolite) |
-| Myelosuppression Risk | Medium to high (myelosuppression is a known concern; the knowledge graph links the drug to leukopenia, thrombocytopenia and anaemia) |
 | Emetogenicity Classification | Low to medium |
 | Monitoring Items | Complete blood count with differential, liver and renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
@@ -130,13 +127,12 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Breast carcinoma is supported by a completed Phase 3 randomized trial of gemcitabine plus paclitaxel in metastatic disease, several completed Phase 2 combination studies and multiple reviews. However, all New Zealand authorizations are cancelled, and no safety label data were available. Use should be restricted to the metastatic setting and to combination regimens, with close haematological monitoring.
+Breast carcinoma is supported by a completed Phase 3 randomized trial of gemcitabine plus paclitaxel in metastatic disease, several completed Phase 2 combination studies and multiple reviews. Use should be restricted to the metastatic setting and to combination regimens, with close haematological monitoring.
 
 **To proceed, the following is needed:**
 - Published results of NCT00006459 and NCT00093795 to confirm the evidence level
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data
-- Clarification of the regulatory pathway, since no valid New Zealand authorization currently exists
 - A monitoring plan for myelosuppression, renal and hepatic function, and retinal toxicity
 ## Disclaimer
 

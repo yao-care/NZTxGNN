@@ -6,7 +6,7 @@ nav_order: 345
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Palbociclib: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the licence data"
+description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not stated in the licence data"
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Palbociclib: From Breast Cancer Treatment to Rheumatoid Arthritis
+## Palbociclib: From Breast Cancer Treatment to Hyperthyroidism
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,20 +48,20 @@ Palbociclib is a CDK4/6 inhibitor used in oncology. The top TxGNN prediction (hy
 |------|------|
 | Original Indication | Not stated in the licence data; literature indicates HR+/HER2- breast cancer |
 | Predicted New Indication | Rheumatoid arthritis (the top-ranked prediction, hyperthyroidism, has no evidence; see below) |
-| TxGNN Prediction Score | 99.36% (rheumatoid arthritis); 99.44% for hyperthyroidism |
-| Evidence Level | L4 (rheumatoid arthritis); L5 (hyperthyroidism) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 3 (all cancelled) |
+| TxGNN Prediction Score | 0.9936 (rheumatoid arthritis); 0.9944 for hyperthyroidism |
+| Evidence Level | L5 (rheumatoid arthritis); L5 (hyperthyroidism) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (rheumatoid arthritis is a research question only) |
 
 ### All Predicted Indications
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 1 | Hyperthyroidism | 99.44% | L5 | Hold |
-| 2 | Rheumatoid arthritis | 99.36% | L4 | Research question |
-| 3 | Thrombotic disease | 99.32% | L4 | Hold |
-| 4 | Resistance to thyroid hormone (THR-beta mutation) | 99.30% | L5 | Hold |
+| 1 | Hyperthyroidism | 0.9944 | L5 | Hold |
+| 2 | Rheumatoid arthritis | 0.9936 | L4 | Research question |
+| 3 | Thrombotic disease | 0.9932 | L5 | Hold |
+| 4 | Resistance to thyroid hormone (THR-beta mutation) | 0.9930 | L5 | Hold |
 
 ## Why is This Prediction Reasonable?
 
@@ -70,7 +70,7 @@ Detailed mechanism of action data is not available for this report. Palbociclib 
 For **rheumatoid arthritis**, there is a plausible but indirect biological rationale. CDK4/6 drives proliferation of synovial fibroblasts and immune cells. Preclinical work shows CDK6-dependent synovial hyperplasia in arthritic mice, and cell-cycle inhibition combined with cytokine blockade enhanced antiarthritic effects in animal models without increased immune suppression. A single case report describes improvement of rheumatoid arthritis in a breast cancer patient treated with palbociclib. These findings are anecdotal or preclinical and do not establish efficacy in patients.
 
 For the other predictions, the data does not support a link:
-- **Hyperthyroidism** and **thyroid hormone resistance**: no trials or literature, and no mechanism linking CDK4/6 inhibition to these conditions is supported. The scores are knowledge-graph predictions only.
+- **Hyperthyroidism** and **thyroid hormone resistance**: no trials or literature, and no mechanism linking CDK4/6 inhibition to these conditions is supported. The scores are TxGNN model (deep learning) predictions only.
 - **Thrombotic disease**: the literature reports thromboembolism as a possible *adverse event* of CDK4/6 inhibitors. This is a safety signal, not a therapeutic benefit, and it contradicts the high prediction score.
 
 ## Clinical Trial Evidence
@@ -102,11 +102,11 @@ These describe thrombosis as a risk, not a therapeutic effect. No literature was
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2709074 | Palbociclib Pfizer | Tab 125 mg | Not available (cancelled) |
-| 2709066 | Palbociclib Pfizer | Tab 100 mg | Not available (cancelled) |
-| 2709058 | Palbociclib Pfizer | Tab 75 mg | Not available (cancelled) |
+| 2709074 | Palbociclib Pfizer | Tab 125 mg | Not available (valid) |
+| 2709066 | Palbociclib Pfizer | Tab 100 mg | Not available (valid) |
+| 2709058 | Palbociclib Pfizer | Tab 75 mg | Not available (valid) |
 
-All three authorizations are cancelled; there is currently no valid marketed product in the data compiled for this report.
+All three authorizations are valid; the drug is currently marketed, according to the data compiled for this report.
 
 ## Cytotoxicity
 
@@ -130,14 +130,14 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-Rheumatoid arthritis has biologically plausible but indirect support (one case report, one cohort study, and preclinical studies) and no clinical trials, so it is a research question rather than an actionable repurposing candidate. Other predictions rest on model scores alone or are contradicted by safety signals. In addition, all New Zealand authorizations are cancelled and the package insert safety data are missing.
+Rheumatoid arthritis has biologically plausible but indirect support (one case report, one cohort study, and preclinical studies) and no clinical trials, so it is a research question rather than an actionable repurposing candidate. Other predictions rest on model scores alone or are contradicted by safety signals. In addition, all three New Zealand authorizations are valid and the drug is marketed, but the package insert safety data are missing.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data
 - Review of the full text of the 2025 cohort study (PMID 40504547) on immune-mediated diseases in CDK4/6 inhibitor patients
 - Controlled clinical evidence, starting with an exploratory trial in rheumatoid arthritis, with myelosuppression and infection risk weighed against benefit
-- Clarification of the New Zealand regulatory pathway given that all licences are cancelled
+- Clarification of the New Zealand regulatory pathway given the three valid licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

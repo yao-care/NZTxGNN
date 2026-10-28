@@ -4,17 +4,17 @@ title: Alfacalcidol
 parent: Model Prediction Only (L5)
 nav_order: 26
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Alfacalcidol: predicted new indication Familial isolated hypoparathyroidism due to impaired PTH secretion (evidence level L5). Approved use: Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism…"
+indication_count: 3
 monitor_inn: "ALFACALCIDOL"
-predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "Dahlberg-Borer-Newcomer syndrome", "craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
+predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
+last_modified_at: 2026-10-23
+description: "Alfacalcidol: predicted new indication Craniofacial conodysplasia (evidence level L5). Approved use: Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism…"
 ---
 
 # Alfacalcidol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,81 +33,83 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Alfacalcidol: From Hyperparathyroidism to Familial Isolated Hypoparathyroidism Due to Impaired PTH Secretion
+## Alfacalcidol: From Hyperparathyroidism to Craniofacial Conodysplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Alfacalcidol is an active vitamin D analogue, originally used for hyperparathyroidism, osteitis fibrosa, hypoparathyroidism and renal osteodystrophy.
-The TxGNN model predicts it may be effective for **familial isolated hypoparathyroidism due to impaired PTH secretion**, but **no clinical trials and no publications** specific to this condition were found, so the prediction rests on model output and mechanistic reasoning alone.
+Alfacalcidol is an active vitamin D analog used in conditions such as hyperparathyroidism, osteitis fibrosa, hypoparathyroidism and renal osteodystrophy.
+The TxGNN model predicts it may be effective for **craniofacial conodysplasia**, an extremely rare skeletal dysplasia.
+Currently **0 clinical trials** and **0 publications** support this specific prediction, so it is a computational prediction only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism, renal osteodystrophy (from the knowledge graph; no approved indication text is available from New Zealand licences) |
-| Predicted New Indication | Familial isolated hypoparathyroidism due to impaired PTH secretion |
-| TxGNN Prediction Score | 99.61% |
-| Evidence Level | L5 (model prediction only, no specific studies) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism, renal osteodystrophy (relations recorded in the knowledge graph; the local licence records contain no approved-indication text) |
+| Predicted New Indication | Craniofacial conodysplasia |
+| TxGNN Prediction Score | 0.9955 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. From known pharmacology, alfacalcidol is a 1-alpha-hydroxylated vitamin D analogue. It bypasses the renal 1-alpha-hydroxylation step, which is PTH-dependent, and is converted to active 1,25-dihydroxyvitamin D after hepatic 25-hydroxylation.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Alfacalcidol (1-alpha-hydroxycholecalciferol) is a vitamin D analog. It acts through the vitamin D receptor to regulate calcium and phosphate balance and bone mineralization. Because it is already hydroxylated at the 1-alpha position, it does not need renal activation.
 
-Hypoparathyroidism is already among alfacalcidol's listed original indications. In familial isolated hypoparathyroidism, PTH secretion is impaired, so a drug that does not rely on PTH to become active is biologically sensible. The high TxGNN score probably reflects how close this disease sits to the known indication in the knowledge graph.
+Alfacalcidol is used in mineral and bone disorders, such as hyperparathyroidism and renal osteodystrophy. Craniofacial conodysplasia is also a skeletal condition. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only plausible link is a general effect on bone metabolism.
 
-No trials or literature were retrieved for this specific subtype. Support is by extension from the parent indication, not direct evidence.
+This link is speculative. No study in the data connects alfacalcidol to this condition, and the high score comes from the TxGNN model (deep learning); it may reflect similarities the model learned between related diseases, not biological evidence. The mechanism of action is also missing from the data, so a mechanistic comparison cannot be made.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available for this predicted indication.
+Currently no related literature available.
+
+---
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 315761 | One-Alpha | Oral drops 2 mcg per ml | Not stated (cancelled) |
-| 203092 | One-Alpha | Capsule 1 mcg | Not stated (cancelled) |
-| 203084 | One-Alpha | Capsule 0.25 mcg | Not stated (cancelled) |
+| 315761 | One-Alpha | Oral drops 2 mcg per ml | Not specified in licence record |
+| 203092 | One-Alpha | Capsule 1 mcg | Not specified in licence record |
+| 203084 | One-Alpha | Capsule 0.25 mcg | Not specified in licence record |
 
-All three licences are cancelled, so there is currently no valid marketed alfacalcidol product in New Zealand.
+---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No drug interaction records were found.
-- **Calcium-related risk (from the retrieved literature)**: Case reports in hypoparathyroidism describe hypercalcaemia and calcium-alkali syndrome when high-dose calcium is combined with active vitamin D. Calcium and renal function monitoring would be needed.
+Please refer to the package insert for safety information.
 
-Please refer to the package insert for further safety information. Warnings and contraindications from the New Zealand label have not yet been compiled.
-
-## Other Predicted Indications (For Reference)
-
-| Rank | Predicted Disease | Score | Evidence Level | Assessment |
-|---|---|---|---|---|
-| 2 | Dahlberg-Borer-Newcomer syndrome (Fanconi-Bickel syndrome) | 99.60% | L5 | Plausible indirect rationale (supporting bone and mineral metabolism), but the retrieved papers are mostly off-target and none studies alfacalcidol in this disease. Hold. |
-| 3 | Craniofacial conodysplasia | 99.55% | L5 | No evidence or mechanistic link identified. Hold. |
-| 4 | Acromesomelic dysplasia, Campailla-Martinelli type | 99.53% | L5 | Not a vitamin D or mineral metabolism defect, so the rationale is lacking. Hold. |
-| 5 | Renal tubular acidosis | 99.27% | L4 | Five case reports/reviews describe osteomalacia improving with alfacalcidol alongside alkali therapy. They are small, uncontrolled and confounded, and address the bone complication rather than the acidosis itself. Research question. |
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is mechanistically reasonable, since alfacalcidol does not need PTH for activation and hypoparathyroidism is already a listed use. However, there are no trials or literature for this subtype, and alfacalcidol has no currently valid New Zealand licence. The next-ranked predictions have even weaker support. Renal tubular acidosis is the only alternative with any clinical signal, limited to case reports.
+The prediction rests only on a high model score. No clinical trial or publication studies alfacalcidol in craniofacial conodysplasia, and no mechanistic link is established, so evidence is at L5. Alfacalcidol is already marketed in New Zealand, but that does not support this new use.
+
+The data also contain a better-supported lower-ranked prediction, renal tubular acidosis (score 0.9927). Five case reports describe osteomalacia secondary to this condition improving with active vitamin D, usually alongside alkali therapy. These reports cannot isolate alfacalcidol's effect. This is a research question and should be evaluated separately.
 
 **To proceed, the following is needed:**
-- Retrieval and review of the Medsafe package insert for warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Targeted literature search on alfacalcidol in familial or genetic hypoparathyroidism, to move beyond extrapolation from the parent indication
-- Assessment of whether an alfacalcidol product is obtainable in New Zealand, given that all licences are cancelled
-- For renal tubular acidosis, a structured review of the case reports to judge whether a controlled study on bone outcomes is justified
+- Any direct clinical or preclinical study of alfacalcidol in craniofacial conodysplasia
+- Mechanism of action data (from DrugBank) to allow a mechanistic comparison
+- The Medsafe package insert, to confirm approved indications, warnings and contraindications
+- Expert review of whether a bone-metabolism rationale is credible for this ultra-rare condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

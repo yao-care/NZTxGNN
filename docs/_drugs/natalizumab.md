@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
-description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Crohn's disease, inflammatory bowel disease, multiple sclerosis"
+last_modified_at: 2026-10-28
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
+description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Natalizumab
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Natalizumab: From Crohn's Disease and Multiple Sclerosis to Bronchitis
+## Natalizumab: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ It is a computational prediction only, and the evidence base is very weak.
 
 | Item | Content |
 |------|------|
-| Original Indication | Crohn's disease, inflammatory bowel disease, multiple sclerosis (from the knowledge graph; the New Zealand licence record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,9 +61,9 @@ Detailed mechanism of action data is not available in the data compiled for this
 Theoretically, reducing leukocyte migration could dampen airway inflammation, which is the link behind the model's prediction. However, natalizumab's immunosuppressive effect also raises infection risk, including respiratory infection. A plausible benefit is therefore not supported by any clinical data, and the prediction remains computational only.
 
 Other predictions from the model were also reviewed and are weaker or unfavourable:
-- **Psoriasis (score 99.19%)**: The literature is conflicting. One cohort or case series of 18 MS patients (PMID 33589543, 2021) reported improvement of comorbid psoriasis. Several case reports describe natalizumab inducing or aggravating psoriasis (PMIDs 35646438, 28905124, 30323758). Evidence stays at the case-report level and safety concerns outweigh the signal of benefit.
-- **Parapsoriasis (99.37%) and acute lichenoid pityriasis (99.04%)**: The only evidence is a 2020 case report of dermatologic adverse events (PMID 32470781). It suggests natalizumab may cause these conditions rather than treat them.
-- **Severe nonproliferative diabetic retinopathy (99.18%)**: No trials or literature. It has only a theoretical rationale, and the PML risk is a major barrier for a non-life-threatening indication.
+- **Psoriasis (score 0.9919)**: The literature is conflicting. One cohort or case series of 18 MS patients (PMID 33589543, 2021) reported improvement of comorbid psoriasis. Several case reports describe natalizumab inducing or aggravating psoriasis (PMIDs 35646438, 28905124, 30323758). Evidence stays at the case-report level and safety concerns outweigh the signal of benefit.
+- **Parapsoriasis (0.9937) and acute lichenoid pityriasis (0.9904)**: The only evidence is a 2020 case report of dermatologic adverse events (PMID 32470781). It suggests natalizumab may cause these conditions rather than treat them.
+- **Severe nonproliferative diabetic retinopathy (0.9918)**: No trials or literature. It has only a theoretical rationale, and the PML risk is a major barrier for a non-life-threatening indication.
 
 ## Clinical Trial Evidence
 
@@ -77,7 +77,7 @@ Currently no related literature available for bronchitis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2467062 | Tysabri | Inj 20 mg per ml, 15 ml vial | Not recorded (authorization cancelled) |
+| 2467062 | Tysabri | Inj 20 mg per ml, 15 ml vial | Not recorded (authorization valid) |
 
 ## Safety Considerations
 
@@ -97,7 +97,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score (99.46%) for bronchitis is not backed by any clinical trial or publication. Natalizumab's infection and PML risks, together with the cancelled New Zealand authorization, argue against pursuing this indication now.
+The high TxGNN score (0.9946) for bronchitis is not backed by any clinical trial or publication. Natalizumab's infection and PML risks, together with the cancelled New Zealand authorization, argue against pursuing this indication now.
 
 **To proceed, the following is needed:**
 - Preclinical or mechanistic evidence for alpha-4 integrin blockade in airway inflammation

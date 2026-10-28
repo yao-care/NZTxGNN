@@ -4,17 +4,17 @@ title: Letrozole
 parent: High Evidence (L1-L2)
 nav_order: 266
 evidence_level: L1
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Letrozole: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Not available"
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Letrozole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Letrozole: From an Unspecified Original Indication to Female Breast Carcinoma
+## Letrozole: Nipple carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Letrozole is a nonsteroidal aromatase inhibitor. The New Zealand licence records compiled for this report do not state an approved indication.
-The TxGNN model predicts it may be effective for **female breast carcinoma**, with **39 clinical trials** and **20 publications** listed for this prediction.
 This is an established use in hormone-receptor-positive breast cancer, not a new repurposing finding.
 
 ---
@@ -48,12 +47,12 @@ This is an established use in hormone-receptor-positive breast cancer, not a new
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the licence records contain no indication text) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nipple carcinoma |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -115,8 +114,8 @@ Selected from the trials listed for female breast carcinoma:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2656655 | Letrole | Tab 2.5 mg | Not stated (cancelled) |
-| 2699923 | Accord | Tab 2.5 mg | Not stated (cancelled) |
+| 2656655 | Letrole | Tab 2.5 mg | Not stated (valid) |
+| 2699923 | Accord | Tab 2.5 mg | Not stated (valid) |
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 180
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma, bronchitis, pulmonary emphysema, bronchiectasis, anaphylaxis…"
 monitor_inn: "Epinephrine"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
+description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **4**
 
 </div>
 
-## Epinephrine: From Asthma and Anaphylaxis to Obstructive Lung Disease
+## Epinephrine: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Supporting this are **15 registered clinical trials** (4 completed Phase 3 trial
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, bronchitis, pulmonary emphysema, bronchiectasis, anaphylaxis, hypotensive disorder, open-angle glaucoma (from the knowledge graph; the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 6 (all cancelled) |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -61,9 +61,8 @@ Detailed mechanism of action data is not available in the source data. Based on 
 Obstructive lung disease covers asthma and chronic obstructive pulmonary disease. Asthma, bronchitis, emphysema and bronchiectasis are already among epinephrine's known indications, so this prediction mostly reflects the existing label rather than a new therapeutic direction. The mechanism fits well with the airway narrowing and oedema seen in these conditions.
 
 Other predictions in this analysis are weaker:
-- **Food-dependent exercise-induced anaphylaxis** (score 99.57%, evidence level L4): a subtype of anaphylaxis, which is already an original indication. There are no clinical trials for this subtype; evidence is limited to reviews and case reports.
-- **Respiratory malformation** (score 99.56%, evidence level L3): epinephrine would not correct structural defects. The one related trial concerns transient tachypnoea of the newborn, a functional condition. This is best treated as a research question.
-- **Rienhoff syndrome** (score 99.57%, evidence level L5): no trials, no literature and no mechanistic rationale. Recommendation: Hold.
+- **Respiratory malformation** (score 0.9956, evidence level L3): epinephrine would not correct structural defects. The one related trial concerns transient tachypnoea of the newborn, a functional condition. This is best treated as a research question.
+- **Rienhoff syndrome** (score 0.9957, evidence level L5): no trials, no literature and no mechanistic rationale. Recommendation: Hold.
 
 ## Clinical Trial Evidence
 
@@ -99,11 +98,11 @@ Other predictions in this analysis are weaker:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2309823 | Aspen Adrenaline | Inj 1 in 1,000, 1 ml ampoule | Not recorded (cancelled) |
-| 603341 | DBL Adrenaline | Inj 1 in 1,000, 1 ml ampoule | Not recorded (cancelled) |
-| 534196 | Hospira | Inj 1 in 10,000, 10 ml ampoule | Not recorded (cancelled) |
-| 208191 | Epipen Jr | Inj 0.15 mg per 0.3 ml auto-injector | Not recorded (cancelled) |
-| 2390949 | Aspen Adrenaline | Inj 1 in 10,000, 10 ml ampoule | Not recorded (cancelled) |
+| 2309823 | Aspen Adrenaline | Inj 1 in 1,000, 1 ml ampoule | Not recorded (valid) |
+| 603341 | DBL Adrenaline | Inj 1 in 1,000, 1 ml ampoule | Not recorded (valid) |
+| 534196 | Hospira | Inj 1 in 10,000, 10 ml ampoule | Not recorded (valid) |
+| 208191 | Epipen Jr | Inj 0.15 mg per 0.3 ml auto-injector | Not recorded (valid) |
+| 2390949 | Aspen Adrenaline | Inj 1 in 10,000, 10 ml ampoule | Not recorded (valid) |
 
 A sixth licence (223972, Epipen, Inj 0.3 mg per 0.3 ml auto-injector) is also cancelled. All six licences are injectable forms; no inhaled epinephrine product is licensed in New Zealand.
 
@@ -123,7 +122,6 @@ Please refer to the package insert for official warnings and contraindications.
 
 **Rationale:**
 - Several completed Phase 3 trials of inhaled epinephrine in asthma support the obstructive lung disease prediction, but this largely mirrors existing indications.
-- No valid New Zealand licences remain, none cover an inhaled form, and the safety profile includes extensive cardiovascular and metabolic cautions.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (currently missing; a blocking gap for safety screening)

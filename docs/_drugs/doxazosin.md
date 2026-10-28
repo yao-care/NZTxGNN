@@ -5,10 +5,10 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 166
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-15
-description: "Doxazosin: predicted new indication Migraine disorder (evidence level L4). Approved use: Hypertension"
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
+last_modified_at: 2026-10-27
+description: "Doxazosin: predicted new indication migraine disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Doxazosin
@@ -33,75 +33,68 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Doxazosin: From Hypertension and Benign Prostatic Hyperplasia to Migraine Disorder
+## Doxazosin: alpha-1 adrenergic blocker → migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Doxazosin is an alpha-1 adrenergic blocker originally used to treat hypertension and benign prostatic hyperplasia.
-The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and only **1 publication** (a 1997 small case-based discussion) supporting this direction.
+Doxazosin is an alpha-1 adrenergic blocker. The TxGNN model predicts it may be useful for **migraine disorder**, with a score of **0.9919**. The supporting evidence is thin: **no clinical trials** and **1 publication**, a 1997 small case-series-style article.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension; benign prostatic hyperplasia (the New Zealand licence records contain no approved indication text, so this comes from the knowledge graph) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.20% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | migraine disorder |
+| TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known drug-class information, doxazosin is an alpha-1 adrenergic antagonist. Its efficacy in hypertension and benign prostatic hyperplasia comes from relaxing vascular and prostatic smooth muscle.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the known drug class, doxazosin blocks alpha-1 adrenergic receptors. Adrenergic signalling contributes to vascular tone and sympathetic modulation of vascular and trigeminovascular pathways, which offers a plausible, but unproven, basis for migraine prophylaxis.
 
-Adrenergic signalling contributes to cerebrovascular tone and sympathetic modulation of vascular and trigeminovascular pathways. This offers a plausible, but unproven, basis for migraine prophylaxis. The mechanistic link here is inferred from the drug class, not from direct mechanism data.
+The only supporting item is a 1997 article in which 10 patients with migraine were given terazosin or doxazosin. Most reported fewer or milder migraines, but half stopped the drug because of side effects. This is a very small, uncontrolled observation. The high TxGNN score is a computational prediction, not clinical evidence.
 
-The very high TxGNN score (99.20%) is a computational prediction, not clinical evidence. The only supporting item is a 1997 article in which 10 patients in a neurology practice received terazosin or doxazosin. Most had fewer or less severe migraines, but half stopped treatment because of side effects. Doxazosin's blood pressure-lowering effects (hypotension, dizziness, orthostasis) must also be weighed in this population.
+The cardiovascular effects of alpha-1 blockade (low blood pressure, dizziness, orthostatic symptoms) also need to be weighed in people who may have other vascular conditions.
 
-A second predicted indication, **migraine with brainstem aura** (score 99.19%), has no trials or literature of its own. It most likely reflects its close ontology relationship to migraine disorder. It should be treated as an extension of the general migraine hypothesis, not a separate candidate.
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | Review / narrative discussion | Headache | Ten migraine patients were given terazosin or doxazosin. All but one had lower migraine frequency and/or severity, but five stopped the drug because of side effects. No serious adverse reactions were reported. |
+| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | Review | Headache | Ten migraine patients given terazosin or doxazosin; all but one had fewer or milder migraines, but five stopped treatment because of side effects |
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2608774 | Doxazosin Clinect | Tab 4 mg | Not recorded (cancelled) |
-| 2608766 | Doxazosin Clinect | Tab 2 mg | Not recorded (cancelled) |
+| 2608774 | Doxazosin Clinect | Tab 4 mg | Not recorded |
+| 2608766 | Doxazosin Clinect | Tab 2 mg | Not recorded |
 
 ## Safety Considerations
 
-- **Disease-level cautions (from the knowledge graph, not label text)**: Contraindication links exist for multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, hypotensive disorder, liver failure, liver disease, gallbladder disease, pyloric stenosis, intestinal obstruction, priapism and intraoperative floppy iris syndrome.
-- **Drug Interactions**: The interaction check returned 100 records. The main ones listed are of Moderate level:
-  - Corticosteroids: hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone
-  - SGLT2 inhibitors: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin
-  - Opioids: morphine, opium
-  - Cannabinoids: dronabinol, nabilone
-  - Others: bupropion, clarithromycin
-- Interactions with calcitriol, clotrimazole and cimetidine have an unknown severity level.
+- **Drug Interactions**: 100 interactions were found in the interaction databases. The ones listed are mostly of moderate severity, including corticosteroids (hydrocortisone, prednisolone, prednisone, dexamethasone, betamethasone, budesonide, triamcinolone), opioids (morphine, opium), SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), bupropion, clarithromycin, and cannabinoids (dronabinol, nabilone).
 
-Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
+Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Support for this indication is limited to a computational prediction and one small 1997 report with no controlled data. No clinical trials are registered, and there are no valid New Zealand licences. Several knowledge-graph contraindications relate to low blood pressure, which is a practical concern for a migraine population.
+The only support is a small 1997 uncontrolled report in which half of the patients stopped treatment because of side effects, with no registered trials. The mechanism is plausible but unproven, and the score alone is not clinical evidence.
 
 **To proceed, the following is needed:**
-- Retrieval and review of the Medsafe package insert (warnings and contraindications), which is currently a blocking gap
-- Detailed mechanism of action data from DrugBank
-- A systematic literature search for controlled studies of alpha-1 blockers in migraine prophylaxis
-- A safety assessment of hypotension and orthostatic effects in migraine patients
-- Clarification of the feasibility of supply, given that all New Zealand licences are cancelled
+- Package insert warnings and contraindications
+- Detailed mechanism of action data
+- Controlled clinical data for migraine prophylaxis, with attention to blood pressure effects and tolerability
+- Confirmation of current market and supply status in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

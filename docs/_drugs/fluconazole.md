@@ -6,9 +6,9 @@ nav_order: 204
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Oral candidiasis, oesophageal candidiasis, vulvovaginal candidiasis…"
 monitor_inn: "FLUCONAZOLE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
+description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluconazole
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Fluconazole: From Candidiasis to Punctate Epithelial Keratoconjunctivitis
+## Fluconazole: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Oral candidiasis, oesophageal candidiasis, vulvovaginal candidiasis, candidaemia, disseminated candidiasis, cryptococcal meningitis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All five licences below are cancelled; none is currently valid. Approved indication text was not available.
+All five licences below are valid. Approved indication text was not available.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2149052 | Mylan | Capsule 200 mg | Cancelled |
-| 2149079 | Mylan | Capsule 150 mg | Cancelled |
-| 2173824 | Flucazole | Capsule 150 mg | Cancelled |
-| 950289 | Diflucan | Powder for oral suspension 10 mg/ml | Cancelled |
-| 2149060 | Mylan | Capsule 50 mg | Cancelled |
+| 2149052 | Mylan | Capsule 200 mg | Valid |
+| 2149079 | Mylan | Capsule 150 mg | Valid |
+| 2173824 | Flucazole | Capsule 150 mg | Valid |
+| 950289 | Diflucan | Powder for oral suspension 10 mg/ml | Valid |
+| 2149060 | Mylan | Capsule 50 mg | Valid |
 
 ## Safety Considerations
 
@@ -97,7 +97,7 @@ Package insert warnings and contraindications have not yet been reviewed. Please
 **Decision: Hold**
 
 **Rationale:**
-The only support for this prediction is a high model score (99.24%). There are no clinical trials or publications, the mechanism has no established link to the usual causes of the condition, and no New Zealand licence is currently valid.
+The only support for this prediction is a high model score (0.9924).
 
 **To proceed, the following is needed:**
 - Clinical or preclinical evidence (trials, case series, or literature) for fluconazole in punctate epithelial keratoconjunctivitis

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ticagrelor
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 451
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L2). Approved use: Acute coronary syndrome, peripheral vascular disease…"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
+description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ticagrelor
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Ticagrelor: From Acute Coronary Syndrome to Intracranial Arteriosclerosis
+## Ticagrelor: Intracranial arteriosclerosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **2 clinical trials** (neither with results yet) and **2 publications** (a 
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute coronary syndrome, peripheral vascular disease, intermittent claudication, peripheral arterial disease (the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Intracranial arteriosclerosis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,9 @@ Ticagrelor is also not affected by CYP2C19 loss-of-function status, which may be
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2724820 | Ticagrelor Mylan | Tab 90 mg | Cancelled; no indication text recorded |
-| 2638770 | Ticagrelor Sandoz | Tab 90 mg | Cancelled; no indication text recorded |
-| 2724286 | Ticagrelor Sandoz S29 | Tab 90 mg | Cancelled; no indication text recorded |
+| 2724820 | Ticagrelor Mylan | Tab 90 mg | Valid; no indication text recorded |
+| 2638770 | Ticagrelor Sandoz | Tab 90 mg | Valid; no indication text recorded |
+| 2724286 | Ticagrelor Sandoz S29 | Tab 90 mg | Valid; no indication text recorded |
 
 ## Safety Considerations
 
@@ -101,18 +101,18 @@ Please also refer to the package insert for full warnings and contraindications,
 **Decision: Hold (research question)**
 
 **Rationale:**
-The prediction score is very high and the mechanism is plausible, but no completed trial in intracranial atherosclerosis exists yet. The key Phase 3 trial (CAPTIVA) is still running and ticagrelor is only one of several tested options. In addition, ticagrelor currently has no valid New Zealand licences, and the package insert safety review could not be completed.
+The prediction score is very high and the mechanism is plausible, but no completed trial in intracranial atherosclerosis exists yet. The key Phase 3 trial (CAPTIVA) is still running and ticagrelor is only one of several tested options.
 
 **To proceed, the following is needed:**
 - CAPTIVA results (expected completion around January 2027), with ticagrelor-specific arm outcomes
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data from DrugBank
 - A bleeding-risk plan, particularly for intracranial haemorrhage
-- Clarification of New Zealand supply and licensing, since all three licences are cancelled
+- Clarification of New Zealand supply and licensing, since 3 of 3 licences are valid and the drug is marketed
 
 ## Other Predicted Indications (Brief Note)
 
-- **Ischemic disease** (score 99.64%, L1): Large RCTs in coronary, stroke/TIA and diabetic atherosclerosis populations support ticagrelor, but this largely overlaps existing indications, so it is a label consolidation rather than novel repurposing. It could proceed with guardrails (bleeding risk, patient selection, duration and aspirin combination).
+- **Ischemic disease** (score 0.9964, L1): Large RCTs in coronary, stroke/TIA and diabetic atherosclerosis populations support ticagrelor, but this largely overlaps existing indications, so it is a label consolidation rather than novel repurposing. It could proceed with guardrails (bleeding risk, patient selection, duration and aspirin combination).
 - **Other predictions** (Monckeberg arteriosclerosis, priapism, May-Thurner syndrome, livedo reticularis, mesenteric vascular occlusion, vascular ectasia, angiodysplasia, fibrocartilaginous embolism): Prediction-only or indirect evidence, with weak or implausible mechanisms. Angiodysplasia is a bleeding disorder, so this prediction is potentially harmful. Recommended: Hold.
 ## Disclaimer
 

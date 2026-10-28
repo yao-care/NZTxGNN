@@ -6,7 +6,7 @@ nav_order: 450
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Threonine: predicted new indication Gastroparesis (evidence level L5). Approved use: No approved indication text available"
+description: "Threonine: predicted new indication gastroparesis (evidence level L5). Approved use: No approved indication text available"
 monitor_inn: "threonine"
 predicted_indications: ["gastroparesis (disease)"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Threonine: From Metabolic Nutritional Support (MMA/PA Formulas) to Gastroparesis
+## Threonine: From Metabolic Nutritional Support (MMA/PA Formulas) to gastroparesis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **gastroparesis**, but there ar
 |------|------|
 | Original Indication | No approved indication text available |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.32% |
+| TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, threonine is an essential amino acid used in specialised amino-acid formulas, and no mechanistic link to gastric motility, gastric emptying, or enteric neuromuscular function can be established from the data compiled for this report.
 
-The high prediction score most likely reflects network proximity in the knowledge graph (for example, shared associations with gastrointestinal or metabolic nodes) rather than a validated biological pathway. One speculative possibility is that threonine is abundant in intestinal mucins, so it might play a role in mucosal integrity or general nutritional support. This has not been verified and would need independent confirmation.
+The high prediction score (0.9932) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. One speculative possibility is that threonine is abundant in intestinal mucins, so it might play a role in mucosal integrity or general nutritional support. This has not been verified and would need independent confirmation.
 
 The original indication is also not documented, because the authorization records contain no indication text. A direct comparison between the original and new indication is therefore not possible at this stage.
 
@@ -73,10 +73,10 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2668564 | MMA/PA Explore 5 | Powder, 12.5 g sachets | Not recorded (cancelled) |
-| 2498812 | MMA/PA Anamix Junior | Powder (neutral), 18 g sachets | Not recorded (cancelled) |
-| 2668572 | MMA/PA Express 15 | Powder, 25 g sachets | Not recorded (cancelled) |
-| 2386313 | MMA/PA Anamix Infant | Powder, can | Not recorded (cancelled) |
+| 2668564 | MMA/PA Explore 5 | Powder, 12.5 g sachets | Not recorded (valid) |
+| 2498812 | MMA/PA Anamix Junior | Powder (neutral), 18 g sachets | Not recorded (valid) |
+| 2668572 | MMA/PA Express 15 | Powder, 25 g sachets | Not recorded (valid) |
+| 2386313 | MMA/PA Anamix Infant | Powder, can | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -89,7 +89,7 @@ No drug interaction records were found. For all other safety information, please
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature, and no documented mechanism linking threonine to gastroparesis. In addition, all New Zealand authorizations are cancelled, and package insert safety information has not been reviewed.
+The prediction rests only on a model score, with no clinical trials, no literature, and no documented mechanism linking threonine to gastroparesis. In addition, the drug is marketed in New Zealand, with 4 valid licences out of 4, and package insert safety information has not been reviewed.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example, from DrugBank) and a plausible biological link to gastric motility

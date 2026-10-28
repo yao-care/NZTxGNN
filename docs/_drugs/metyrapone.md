@@ -4,17 +4,17 @@ title: Metyrapone
 parent: Model Prediction Only (L5)
 nav_order: 298
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Metyrapone: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not stated in the New Zealand license record (clinical use: diagnosti…"
 monitor_inn: "METYRAPONE"
-predicted_indications: ["exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
+predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
 ---
 
 # Metyrapone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Metyrapone is an 11-beta-hydroxylase inhibitor, used as a diagnostic tool for hypothalamic-pituitary function and occasionally to treat Cushing's syndrome.
 The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**,
-but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a graph-based prediction only.
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-based prediction only (TxGNN, deep learning).
 
 ## Quick Overview
 
@@ -48,17 +48,17 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Not stated in the New Zealand license record (clinical use: diagnostic testing of hypothalamic-pituitary function; occasional treatment of Cushing's syndrome) |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid license) |
-| Number of Authorizations | 1 (0 valid, 1 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. From the pharmacology data, metyrapone targets CYP11B1 (11-beta-hydroxylase) and CYP11B2 (aldosterone synthase), reducing cortisol synthesis. This is the basis for its use in testing pituitary-adrenal function and in Cushing's syndrome.
 
-The predicted indication has no established link to this mechanism. Malignant hyperthermia is driven mainly by dysregulated calcium release through the skeletal muscle ryanodine receptor (RYR1). The high TxGNN score most likely reflects shared network neighbours in the knowledge graph rather than a real pharmacological relationship.
+The predicted indication has no established link to this mechanism. Malignant hyperthermia is driven mainly by dysregulated calcium release through the skeletal muscle ryanodine receptor (RYR1). The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top predictions form a cluster of RYR1-related muscle disorders:
 - Malignant hyperthermia susceptibility
@@ -88,7 +88,7 @@ The only related publication across the top 10 predictions concerns a different 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 388130 | Metopirone (cancelled) | Cap 250 mg | Not stated |
+| 388130 | Metopirone (valid) | Cap 250 mg | Not stated |
 
 ## Safety Considerations
 
@@ -106,7 +106,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN graph score (L5). There are no clinical trials or publications for the top prediction, and no plausible mechanistic link between 11-beta-hydroxylase inhibition and RYR1-mediated calcium dysregulation. The New Zealand licence is cancelled, and the contraindications involve adrenal insufficiency.
+The prediction is supported only by the TxGNN model score (L5). There are no clinical trials or publications for the top prediction, and no plausible mechanistic link between 11-beta-hydroxylase inhibition and RYR1-mediated calcium dysregulation. The drug is marketed in New Zealand (1 valid licence of 1), and the contraindications involve adrenal insufficiency.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence connecting steroidogenesis inhibition to malignant hyperthermia pathophysiology, or preclinical studies in a relevant model

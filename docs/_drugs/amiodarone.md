@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Amiodarone
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 34
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Ventricular fibrillation"
@@ -14,7 +14,7 @@ predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia",
 # Amiodarone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Among the other predictions, **ventricular tachycardia** is far better supported
 |------|------|
 | Original Indication | Ventricular fibrillation (the approved indication text is not recorded in the New Zealand licence data) |
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia (top-ranked); ventricular tachycardia and incessant infant ventricular tachycardia are the better-supported predictions |
-| TxGNN Prediction Score | 99.78% (CPVT) |
+| TxGNN Prediction Score | 0.9978 (CPVT) |
 | Evidence Level | L4 for CPVT (L1 for ventricular tachycardia; L2 for incessant infant ventricular tachycardia) |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold for CPVT; Proceed with Guardrails for ventricular tachycardia and incessant infant ventricular tachycardia |
 
 ---
@@ -68,7 +68,7 @@ Detailed mechanism of action data are not available for this report. Based on kn
 
 **Incessant infant ventricular tachycardia (rank 2):** Paediatric data support amiodarone in refractory incessant tachycardias, but most evidence comes from mixed tachyarrhythmia populations rather than ventricular tachycardia alone.
 
-**Lower-ranked predictions (ranks 4–10):** Obsolete bundle branch block, rheumatoid arthritis, brachydactyly-syndactyly syndrome, heparin cofactor 2 deficiency, trichotillomania, colobomatous microphthalmia-rhizomelic dysplasia syndrome and gout have no plausible therapeutic link and appear to be knowledge-graph artefacts. For bundle branch block, amiodarone slows conduction and could worsen block. For rheumatoid arthritis, the retrieved literature describes amiodarone toxicity, not benefit. All are held at L5.
+**Lower-ranked predictions (ranks 4–10):** Obsolete bundle branch block, rheumatoid arthritis, brachydactyly-syndactyly syndrome, heparin cofactor 2 deficiency, trichotillomania, colobomatous microphthalmia-rhizomelic dysplasia syndrome and gout have no plausible therapeutic link and appear to be TxGNN model (deep learning) artefacts. For bundle branch block, amiodarone slows conduction and could worsen block. For rheumatoid arthritis, the retrieved literature describes amiodarone toxicity, not benefit. All are held at L5.
 
 ---
 
@@ -114,11 +114,11 @@ Literature for the top prediction (CPVT) consists of cohort studies, a general r
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2565129 | Max Health | Inj 50 mg per ml, 3 ml ampoule | Not recorded (cancelled) |
-| 770639 | Aratac | Tab 200 mg | Not recorded (cancelled) |
-| 770620 | Aratac | Tab 100 mg | Not recorded (cancelled) |
+| 2565129 | Max Health | Inj 50 mg per ml, 3 ml ampoule | Not recorded (valid) |
+| 770639 | Aratac | Tab 200 mg | Not recorded (valid) |
+| 770620 | Aratac | Tab 100 mg | Not recorded (valid) |
 
-All three authorisations are cancelled, so no valid amiodarone product is currently registered in the compiled data.
+All three authorisations are valid, so amiodarone is currently marketed, with 3 valid licences of 3 in the compiled data.
 
 ---
 
@@ -156,7 +156,7 @@ Package insert warnings and contraindications are not available in the compiled 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (currently missing and blocking for safety screening)
 - Detailed mechanism of action data
-- Clarification of the New Zealand regulatory position, since all three authorisations are cancelled and no approved indication text is recorded
+- Clarification of the New Zealand regulatory position, since all three authorisations are valid and no approved indication text is recorded
 - For incessant infant ventricular tachycardia: studies restricted to ventricular tachycardia, plus a monitoring plan for thyroid, hepatic, pulmonary and proarrhythmic toxicity and for neonatal iodine load
 - For CPVT: direct comparative evidence against beta-blockers and flecainide before any further development
 ## Disclaimer

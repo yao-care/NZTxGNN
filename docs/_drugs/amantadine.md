@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
-description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian and dystonic disorders"
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
+last_modified_at: 2026-10-27
+description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Amantadine
@@ -33,101 +33,69 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Amantadine: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Amantadine: NMDA receptor antagonist and dopaminergic modulator → Rasmussen subacute encephalitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Amantadine was originally used for Parkinson disease and related movement disorders.
-The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**,
-but **no clinical trials or publications** currently support this specific prediction. The prediction rests on model output alone.
-
----
+Amantadine is a drug with NMDA receptor activity that has been used in movement disorders such as Parkinson disease.
+The TxGNN model predicts it may be relevant for **Rasmussen subacute encephalitis**,
+but **no clinical trials and no publications** currently support this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease and related parkinsonian and dystonic disorders (the approved indication text on the New Zealand licences is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.48% |
+| TxGNN Prediction Score | 0.9948 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, amantadine acts on NMDA-type glutamate receptors (the data lists GluN2A, GluN2B, GluN2C and GluN2D as targets) and modulates dopaminergic signalling. Its efficacy in Parkinson disease and drug-induced movement disorders is established.
+Detailed mechanism of action data is not available in the data compiled for this report. The pharmacology records show that amantadine acts on NMDA receptor subunits GluN2A, GluN2B, GluN2C and GluN2D (genes GRIN2A, GRIN2B, GRIN2C, GRIN2D).
 
-Rasmussen encephalitis is a rare, progressive inflammatory brain disease in which glutamate-mediated excitotoxicity and neuroinflammation are thought to play a role. NMDA receptor antagonism could therefore be relevant, and this is the only plausible mechanistic link. It rests on general pharmacology rather than on supplied data, and it remains unverified.
-
-The very high model score should be interpreted with caution: there is no supporting study of any kind for this disease.
-
-Other predictions in the data set are worth noting:
-- **Myelitis** (score 99.24%, evidence L3): the literature concerns post-polio syndrome fatigue, a late sequela of poliomyelitis. It is indirect evidence for myelitis as a disease category.
-- **PLA2G6-associated neurodegeneration** (score 99.23%, evidence L4): the only publication concerns a different disease (PKAN), so this is extrapolation across subtypes.
-- **Transaldolase deficiency** (score 99.27%, evidence L5): no clear mechanistic connection is evident, and the signal is likely a knowledge-graph artefact.
-
----
+Rasmussen encephalitis is an inflammatory brain disease in which glutamate-mediated excitotoxicity and neuroinflammation are thought to play a part. Blocking NMDA receptors could therefore plausibly be relevant. This link is a hypothesis based on general pharmacology. It has not been tested in any study supplied here, and it should be treated as unverified.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available for Rasmussen subacute encephalitis.
-
-For reference, the highest-ranked alternative prediction (myelitis) has the following indirect literature, mostly on post-polio syndrome:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [7611638](https://pubmed.ncbi.nlm.nih.gov/7611638/) | 1995 | RCT | Ann N Y Acad Sci | Double-blind, placebo-controlled trial of amantadine for fatigue in post-polio syndrome; 23 patients completed 6 weeks of therapy |
-| [25984923](https://pubmed.ncbi.nlm.nih.gov/25984923/) | 2015 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Treatment for post-polio syndrome; effectiveness of pharmacological treatment not yet established |
-| [21328301](https://pubmed.ncbi.nlm.nih.gov/21328301/) | 2011 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Earlier version of the same review; same conclusion on effectiveness |
-| [16879288](https://pubmed.ncbi.nlm.nih.gov/16879288/) | 2006 | Guideline | Eur J Neurol | EFNS guideline on diagnosis and management of post-polio syndrome |
-| [2039376](https://pubmed.ncbi.nlm.nih.gov/2039376/) | 1991 | Case series | Arch Neurol | Open-label report of post-polio fatigue treated with amantadine |
-| [17874343](https://pubmed.ncbi.nlm.nih.gov/17874343/) | 2007 | Review | Neurol Neurochir Pol | Fatigue syndrome in chronic neurological disorders |
-| [15561551](https://pubmed.ncbi.nlm.nih.gov/15561551/) | 2005 | Review | Phys Med Rehabil Clin N Am | Ageing with polio and post-polio syndrome |
-
----
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 204749 | Symmetrel | Cap 100 mg | Not available (cancelled) |
-| 788589 | Symmetrel | Cap 100 mg | Not available (cancelled) |
+| 204749 | Symmetrel | Cap 100 mg | Not recorded |
+| 788589 | Symmetrel | Cap 100 mg | Not recorded |
 
----
+The local data lists two licences for Symmetrel (single-ingredient capsule, 100 mg). The licence records carry no indication text.
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not label text)**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, epilepsy, kidney disease, pyoureter, congestive heart failure, psychotic disorders (including schizophreniform and schizoaffective disorder), mental disorder, melanoma, angle-closure glaucoma, substance-related disorders, atopic eczema and dermatitis.
-- **Pharmacological targets**: amantadine acts on the NMDA receptor subunits GluN2A, GluN2B, GluN2C and GluN2D. No drug-drug interaction severity levels are available.
+- **Drug Interactions**: The interaction search completed and returned four pharmacology records. They describe amantadine's binding to NMDA receptor subunits (GluN2A, GluN2B, GluN2C, GluN2D), not drug–drug interactions with specific medicines. Concurrent use with other agents acting on the central nervous system should be reviewed with the package insert.
 
-Please refer to the package insert for full warnings and precautions.
-
----
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for Rasmussen subacute encephalitis rests on a very high model score only, with no clinical trials or publications (L5). In addition, amantadine currently has no valid New Zealand authorisation, so any use would require a new regulatory pathway.
+The TxGNN score is very high (0.9948), but no clinical trial or publication studies amantadine in Rasmussen encephalitis, so the evidence level is L5. The proposed NMDA-related mechanism is plausible but unverified.
 
 **To proceed, the following is needed:**
-- Detailed mechanism of action data (MOA) from DrugBank
-- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
-- A targeted literature search for amantadine or NMDA antagonists in Rasmussen encephalitis
-- Review of the post-polio syndrome systematic reviews and guideline to confirm their actual conclusions if myelitis is pursued instead
-- Assessment of route and formulation availability, given that both licences are cancelled
+- Targeted literature review of NMDA antagonism and glutamate excitotoxicity in Rasmussen encephalitis
+- Preclinical or case-level evidence of amantadine in this disease
+- Mechanism of action data for amantadine
+- Package insert warnings and contraindications from Medsafe, to allow a safety assessment
+- Confirmation of current licence status with the regulator
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

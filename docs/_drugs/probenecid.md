@@ -6,7 +6,7 @@ nav_order: 384
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Probenecid: predicted new indication Renal hypouricemia (evidence level L4). Approved use: Gout"
+description: "Probenecid: predicted new indication hypouricemia, renal (evidence level L4). Approved use: Gout"
 monitor_inn: "PROBENECID"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Probenecid: From Gout to Renal Hypouricemia
+## Probenecid: From Gout to hypouricemia, renal
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,13 +50,13 @@ The mechanism also points the wrong way: probenecid would likely worsen this con
 |------|------|
 | Original Indication | Gout; hyperuricemia |
 | Predicted New Indication | Renal hypouricemia |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Note: the New Zealand license record has no approved indication text, so the original indications above come from the TxGNN knowledge graph.*
+*Note: the New Zealand license record has no approved indication text, so the original indications above are not taken from approved labelling.*
 
 ---
 
@@ -66,9 +66,9 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The predicted indication, however, is hard to justify. Renal hypouricemia is caused mainly by loss-of-function variants in URAT1 or GLUT9. These variants already cause excessive urinary urate excretion and low serum urate. Additional uricosuric action from probenecid would be expected to **worsen** the underlying defect. It could increase the risk of exercise-induced acute kidney injury and urolithiasis.
 
-The high TxGNN score most likely reflects the strong graph association between probenecid and urate transport, not a therapeutic relationship. In the literature, probenecid appears only as a **diagnostic probe** of tubular urate handling. Several case reports describe patients whose urate excretion barely responded to it. No publication reports it as a treatment.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. In the literature, probenecid appears only as a **diagnostic probe** of tubular urate handling. Several case reports describe patients whose urate excretion barely responded to it. No publication reports it as a treatment.
 
-Two lower-ranked predictions were also reviewed: Lesch-Nyhan syndrome (score 99.39%) and partial HPRT deficiency (score 99.37%). Both are purine-overproduction disorders. Probenecid could plausibly lower serum urate there, but it would raise the urinary urate load and the risk of stones and urate nephropathy. Xanthine oxidase inhibitors such as allopurinol remain the preferred approach. For Lesch-Nyhan syndrome, lowering urate would also not address the neurobehavioral manifestations. Neither prediction has clinical trials or supporting clinical literature.
+Two lower-ranked predictions were also reviewed: Lesch-Nyhan syndrome (score 0.9939) and partial HPRT deficiency (score 0.9937). Both are purine-overproduction disorders. Probenecid could plausibly lower serum urate there, but it would raise the urinary urate load and the risk of stones and urate nephropathy. Xanthine oxidase inhibitors such as allopurinol remain the preferred approach. For Lesch-Nyhan syndrome, lowering urate would also not address the neurobehavioral manifestations. Neither prediction has clinical trials or supporting clinical literature.
 
 ---
 
@@ -101,13 +101,13 @@ Of the 20 publications retrieved, the following are the most relevant. All are r
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2012499 | Probenecid-AFT | Tab 500 mg | Not recorded (authorization cancelled) |
+| 2012499 | Probenecid-AFT | Tab 500 mg | Not recorded (authorization valid) |
 
 ---
 
 ## Safety Considerations
 
-- **Conditions flagged in the knowledge graph as contraindications** (knowledge-graph associations, not package insert text): liver failure, kidney disease and impaired renal function, blood disorders (thrombocytopenia, leukopenia, agranulocytosis, neutropenia and congenital neutropenia syndromes), peptic ulcer disease, muscle disorders (myopathy, rhabdomyolysis, familial periodic paralysis), and diarrhoeal or colitis conditions (including *Clostridium difficile* colitis).
+- **Conditions flagged as contraindications** (not package insert text): liver failure, kidney disease and impaired renal function, blood disorders (thrombocytopenia, leukopenia, agranulocytosis, neutropenia and congenital neutropenia syndromes), peptic ulcer disease, muscle disorders (myopathy, rhabdomyolysis, familial periodic paralysis), and diarrhoeal or colitis conditions (including *Clostridium difficile* colitis).
 - **Drug interactions:** 71 interactions were identified. The main ones are:
   - **Major:** phenylbutyric acid and glycerol phenylbutyrate.
   - **Moderate:** acetylsalicylic acid (aspirin), and the sulfonylurea and glinide antidiabetics (chlorpropamide, glimepiride, glipizide, glyburide, tolazamide, tolbutamide, acetohexamide, repaglinide, nateglinide).

@@ -48,10 +48,10 @@ Mechanistically the prediction is doubtful, and the evidence does not support it
 |------|------|
 | Original Indication | Fungal infections (chromomycosis, coccidioidomycosis, aspergillosis, candidiasis, histoplasmosis, sporotrichosis, fusariosis, mycetoma and others) |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,8 +82,8 @@ Posaconazole is established for prevention and treatment of invasive mould and y
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2631008 | Posaconazole Juno | Tab modified-release 100 mg | Not available (cancelled) |
-| 2645181 | Devatis | Oral liq 40 mg per ml | Not available (cancelled) |
+| 2631008 | Posaconazole Juno | Tab modified-release 100 mg | Not available (valid) |
+| 2645181 | Devatis | Oral liq 40 mg per ml | Not available (valid) |
 
 ## Safety Considerations
 

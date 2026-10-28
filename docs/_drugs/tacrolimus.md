@@ -4,17 +4,17 @@ title: Tacrolimus
 parent: High Evidence (L1-L2)
 nav_order: 435
 evidence_level: L1
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **3** 
+Evidence Level: **L1** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-## Tacrolimus: From Atopic Eczema to Seborrheic Dermatitis
+## Tacrolimus: Seborrheic dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **seborrheic dermatitis**, with
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic eczema / atopic dermatitis (from the knowledge graph; no approved-indication text is available in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisations) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -60,8 +60,7 @@ Detailed mechanism-of-action data for tacrolimus is not available in the data co
 Seborrheic dermatitis is a chronic, relapsing inflammatory skin disease of the face and scalp. It is thought to involve an inflammatory response to *Malassezia* yeast. Because both conditions are driven by skin inflammation, the same anti-inflammatory action is plausible in seborrheic dermatitis. It may also dampen the immune reaction to *Malassezia*. This fits the high TxGNN score.
 
 Two other predictions were also generated:
-- **Parapsoriasis** (score 99.24%) is supported only by two case reports of pityriasis lichenoides. This is a related but not identical condition, so it remains a research question (L4).
-- **Dermatitis** (score 99.17%) is largely atopic dermatitis in the trial data. It is effectively on-label evidence rather than true repurposing.
+- **Parapsoriasis** (score 0.9924) is supported only by two case reports of pityriasis lichenoides. This is a related but not identical condition, so it remains a research question (L4).
 
 ## Clinical Trial Evidence
 
@@ -89,7 +88,7 @@ Only one completed Phase 3 trial is registered for this indication. Results are 
 
 ## New Zealand Market Information
 
-All five authorisations are cancelled. No approved-indication text is recorded for any of them.
+All 5 authorisations are valid (5 of 5). No approved-indication text is recorded for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -130,13 +129,13 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-One completed Phase 3 trial (n=120), one completed Phase 4 trial (n=104) and a published maintenance-therapy study support topical tacrolimus in facial seborrheic dermatitis. The mechanism is plausible. However, only a single Phase 3 trial is registered, no results were available for this report, and all New Zealand authorisations are cancelled.
+One completed Phase 3 trial (n=120), one completed Phase 4 trial (n=104) and a published maintenance-therapy study support topical tacrolimus in facial seborrheic dermatitis. The mechanism is plausible. However, only a single Phase 3 trial is registered, and no results were available for this report. The product is marketed in New Zealand, with 5 valid authorisations out of 5.
 
 **To proceed, the following is needed:**
 - Results of NCT02004860 and NCT01591070, to confirm efficacy and relapse reduction
 - Package insert warnings and contraindications, which could not be retrieved (a blocking gap for safety screening)
 - Detailed mechanism-of-action data
-- Clarification of product availability in New Zealand, since all authorisations are cancelled
+- Clarification of product availability in New Zealand
 - A long-term safety plan covering malignancy and lymphoma risk and use in patients on interacting drugs
 ## Disclaimer
 

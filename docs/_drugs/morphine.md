@@ -6,9 +6,9 @@ nav_order: 311
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Diarrheal disease"
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
+description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Morphine
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Morphine: From Diarrheal Disease to Myofascial Pain Syndrome
+## Morphine: Myofascial pain syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The best-supported candidate among the ten predictions is **restless legs syndro
 
 | Item | Content |
 |------|------|
-| Original Indication | Diarrheal disease (from the knowledge graph; no approved indication text available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myofascial pain syndrome |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The best-supported candidate among the ten predictions is **restless legs syndro
 
 Detailed mechanism of action data is not currently available. Morphine is known to be an agonist at the mu, delta and kappa opioid receptors, and its general analgesic activity gives a plausible link to a painful muscle condition such as myofascial pain syndrome.
 
-The link to the original indication is weaker. Diarrhoea control relies on opioid effects on gut motility, which is a different mechanism from pain relief in muscle tissue. The high TxGNN score most likely reflects generic pain-related associations in the knowledge graph rather than specific evidence.
+The link to the original indication is weaker. Diarrhoea control relies on opioid effects on gut motility, which is a different mechanism from pain relief in muscle tissue. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The retrieved literature is largely indirect (temporomandibular joint dysfunction, post-thoracotomy pain, failed back surgery, nerve blocks, botulinum toxin). Opioids are not a guideline-supported treatment for myofascial pain. One 2026 randomized trial (PMID 41664327) used morphine only as an adjuvant in a local-infiltration combination.
 
@@ -90,12 +90,12 @@ Currently no related clinical trials registered for myofascial pain syndrome.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 754293 | RA-Morph | Oral liquid 2 mg per ml | Not stated (cancelled) |
-| 754285 | RA-Morph | Oral liquid 1 mg per ml | Not stated (cancelled) |
-| 754307 | RA-Morph | Oral liquid 5 mg per ml | Not stated (cancelled) |
-| 754315 | RA-Morph | Oral liquid 10 mg per ml | Not stated (cancelled) |
+| 754293 | RA-Morph | Oral liquid 2 mg per ml | Not stated (valid) |
+| 754285 | RA-Morph | Oral liquid 1 mg per ml | Not stated (valid) |
+| 754307 | RA-Morph | Oral liquid 5 mg per ml | Not stated (valid) |
+| 754315 | RA-Morph | Oral liquid 10 mg per ml | Not stated (valid) |
 
-All four authorizations are cancelled, so there is currently no valid single-ingredient or combination product in this dataset.
+All four licences are valid, so the drug is currently marketed in this country (4 valid licences of 4).
 
 ---
 
@@ -113,15 +113,15 @@ Please refer to the package insert for authoritative warnings and contraindicati
 
 | Rank | Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 4 | Restless legs syndrome | 99.47% | L3 | Strongest evidence of the ten (see below) |
-| 2 | Manic bipolar affective disorder | 99.64% | L5 | No direct clinical evidence; dependence risk in psychiatric patients |
-| 3 | Tourette syndrome | 99.48% | L5 | Only speculative opioid links |
-| 5 | ADHD, inattentive type | 99.34% | L5 | No trials or literature |
-| 6 | Migraine disorder | 99.32% | L4 | Guidelines discourage opioids; a morphine challenge study found no benefit over placebo |
-| 7 | Trichotillomania | 99.29% | L5 | No evidence; opioid antagonists, not agonists, are the studied agents |
-| 8 | Methemoglobinemia | 99.15% | L5 | No plausible mechanism |
-| 9 | Migraine with brainstem aura | 99.15% | L5 | Preclinical only; a spinal morphine neurological deficit case report is a safety signal |
-| 10 | Specific developmental disorder | 99.06% | L5 | Literature unrelated to therapeutic use |
+| 4 | Restless legs syndrome | 0.9947 | L3 | Strongest evidence of the ten (see below) |
+| 2 | Manic bipolar affective disorder | 0.9964 | L5 | No direct clinical evidence; dependence risk in psychiatric patients |
+| 3 | Tourette syndrome | 0.9948 | L5 | Only speculative opioid links |
+| 5 | ADHD, inattentive type | 0.9934 | L5 | No trials or literature |
+| 6 | Migraine disorder | 0.9932 | L4 | Guidelines discourage opioids; a morphine challenge study found no benefit over placebo |
+| 7 | Trichotillomania | 0.9929 | L5 | No evidence; opioid antagonists, not agonists, are the studied agents |
+| 8 | Methemoglobinemia | 0.9915 | L5 | No plausible mechanism |
+| 9 | Migraine with brainstem aura | 0.9915 | L5 | Preclinical only; a spinal morphine neurological deficit case report is a safety signal |
+| 10 | Specific developmental disorder | 0.9906 | L5 | Literature unrelated to therapeutic use |
 
 **Restless legs syndrome in more detail:**
 - **Trial:** [NCT01476124](https://clinicaltrials.gov/study/NCT01476124) is a completed Phase 1 crossover study (18 healthy subjects) of the pharmacokinetics and tolerability of morphine with gabapentin enacarbil. It has no RLS efficacy data.
@@ -137,13 +137,12 @@ Please refer to the package insert for authoritative warnings and contraindicati
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, myofascial pain syndrome, has no registered trials and only indirect literature, and opioids are not a recommended treatment for it. All New Zealand licences are cancelled and no label safety data is available. Restless legs syndrome is the only candidate with meaningful supporting evidence (L3), and it is best treated as a research question rather than a ready repurposing candidate.
+The top-ranked prediction, myofascial pain syndrome, has no registered trials and only indirect literature, and opioids are not a recommended treatment for it. The drug is marketed in New Zealand, with all 4 licences valid, and no label safety data is available. Restless legs syndrome is the only candidate with meaningful supporting evidence (L3), and it is best treated as a research question rather than a ready repurposing candidate.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for morphine
 - Medsafe package insert warnings and contraindications, which are required before safety screening
 - For restless legs syndrome: morphine-specific controlled efficacy data and a dependence and augmentation risk assessment
-- A route and formulation review, since no valid New Zealand product is currently marketed and intrathecal use would need separate consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

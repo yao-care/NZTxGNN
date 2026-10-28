@@ -6,9 +6,9 @@ nav_order: 306
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Mitomycin: predicted new indication Solid pseudopapillary carcinoma of the pancreas (evidence level L5). Approved use: Pancreatic adenocarcinoma"
 monitor_inn: "mitomycin"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
+description: "Mitomycin: predicted new indication Solid pseudopapillary carcinoma of pancreas (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mitomycin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mitomycin: From Pancreatic Adenocarcinoma to Solid Pseudopapillary Carcinoma of the Pancreas
+## Mitomycin: Solid pseudopapillary carcinoma of pancreas
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are currently **no clinical trials** and **no publications** directly 
 
 | Item | Content |
 |------|------|
-| Original Indication | Pancreatic adenocarcinoma (from the knowledge graph; no approved indication text is available in the New Zealand licence records) |
-| Predicted New Indication | Solid pseudopapillary carcinoma of the pancreas |
-| TxGNN Prediction Score | 99.86% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Solid pseudopapillary carcinoma of pancreas |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Based on known information, mitomycin is a DNA cross-linking alkylating agent. Its efficacy in pancreatic adenocarcinoma is the basis of its original indication, and mechanistically its general cytotoxic activity may be applicable to other pancreatic tumours.
 
-The predicted indication is a rare pancreatic tumour that is usually indolent and often cured by surgery, so cytotoxic therapy is rarely needed. The link to the original indication is therefore a general one (both are pancreatic neoplasms) and has not been confirmed by any study. The other top-ranked predictions are also pancreatic tumour subtypes, such as osteoclastic giant cell tumour, mixed-differentiation carcinoma, signet ring cell adenocarcinoma and undifferentiated carcinoma. All of them have scores of about 99.8% and rest on the same extrapolation from the parent indication. Ten predictions were compiled in total. None has clinical trial support, and only four (ranks 4, 7, 8 and 9) have any literature, which is indirect.
+The predicted indication is a rare pancreatic tumour that is usually indolent and often cured by surgery, so cytotoxic therapy is rarely needed. The link to the original indication is therefore a general one (both are pancreatic neoplasms) and has not been confirmed by any study. The other top-ranked predictions are also pancreatic tumour subtypes, such as osteoclastic giant cell tumour, mixed-differentiation carcinoma, signet ring cell adenocarcinoma and undifferentiated carcinoma. Ten predictions were compiled in total. None has clinical trial support, and only four (ranks 4, 7, 8 and 9) have any literature, which is indirect.
 
 ## Clinical Trial Evidence
 
@@ -77,22 +77,20 @@ There is no literature for the top-ranked prediction. The table below lists the 
 
 ## New Zealand Market Information
 
-All five licences are cancelled, and no approved indication text is recorded for them.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2601761 | Teva | Inj 20 mg vial | Cancelled |
-| 2677016 | Mitomycin (Fresenius Kabi) | Inj 5 mg vial | Cancelled |
-| 2137844 | Accord | Inj 5 mg vial | Cancelled |
-| 2686937 | Mitomycin (Sagent) | Inj 5 mg vial | Cancelled |
-| 2207605 | Baxter | Inj 1 mg for ECP | Cancelled |
+| 2601761 | Teva | Inj 20 mg vial | Valid |
+| 2677016 | Mitomycin (Fresenius Kabi) | Inj 5 mg vial | Valid |
+| 2137844 | Accord | Inj 5 mg vial | Valid |
+| 2686937 | Mitomycin (Sagent) | Inj 5 mg vial | Valid |
+| 2207605 | Baxter | Inj 1 mg for ECP | Valid |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (DNA cross-linking alkylating agent) |
-| Myelosuppression Risk | High; the knowledge graph links mitomycin to thrombocytopenia, leukopenia and anaemia |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Complete blood count with platelets, renal function, and signs of haemolytic-uraemic syndrome |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
@@ -114,7 +112,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials or direct literature. The target tumour is rare, usually indolent and mostly cured by surgery. In addition, all New Zealand licences for mitomycin are cancelled, and its safety profile includes serious myelosuppression and renal risks.
+The prediction rests on a model score alone (L5), with no trials or direct literature. The target tumour is rare, usually indolent and mostly cured by surgery.
 
 **To proceed, the following is needed:**
 - Mechanism of action data

@@ -6,9 +6,9 @@ nav_order: 471
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Upadacitinib: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+description: "Upadacitinib: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Upadacitinib
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Upadacitinib: From Rheumatoid Arthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+## Upadacitinib: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The predicted new indication is a congenital developmental syndrome involving eye malformation (coloboma, microphthalmia) and limb shortening (rhizomelic dysplasia). Such conditions are generally driven by developmental genetic variants rather than by inflammatory signalling. No clear biological link between JAK1 inhibition and this disorder was identified in the data compiled for this report. Of note, the original-indication-to-new-indication similarity has not been assessed.
 
-The very high score (99.61%, model rank 3815) most likely reflects relationships in the knowledge-graph network rather than a true mechanistic connection. The prediction should be treated as a hypothesis with no supporting evidence.
+The very high score (0.9961, model rank 3815) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis with no supporting evidence.
 
-A second predicted indication, brachydactyly-syndactyly syndrome (score 99.58%), is in the same position: a congenital limb malformation with no clinical trials or literature and no evident connection to JAK1 signalling. It is also rated L5 and Hold.
+A second predicted indication, brachydactyly-syndactyly syndrome (score 0.9958), is in the same position: a congenital limb malformation with no clinical trials or literature and no evident connection to JAK1 signalling. It is also rated L5 and Hold.
 
 ## Clinical Trial Evidence
 
@@ -76,11 +76,11 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2619415 | Rinvoq | Tab modified-release 15 mg | Cancelled; indication text not available |
-| 2682206 | Rinvoq | Tab modified-release 45 mg | Cancelled; indication text not available |
-| 2635046 | Rinvoq | Tab modified-release 30 mg | Cancelled; indication text not available |
+| 2619415 | Rinvoq | Tab modified-release 15 mg | Valid; indication text not available |
+| 2682206 | Rinvoq | Tab modified-release 45 mg | Valid; indication text not available |
+| 2635046 | Rinvoq | Tab modified-release 30 mg | Valid; indication text not available |
 
-All three authorizations are cancelled, and no valid single-ingredient or combination authorizations remain.
+All three authorizations are valid, and the drug is marketed.
 
 ## Safety Considerations
 
@@ -96,14 +96,14 @@ Please refer to the package insert for warnings and contraindications, as this i
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score. There are no clinical trials or publications, no plausible mechanistic link between JAK1 inhibition and a congenital developmental syndrome, and no currently valid New Zealand authorization. The evidence level is L5.
+The prediction is supported only by a model score. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for upadacitinib (e.g. from DrugBank)
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening
 - A biological rationale or preclinical evidence linking JAK signalling to the predicted disease
 - Evidence from literature or trial registries for this condition
-- Clarification of the regulatory position, given that all Rinvoq authorizations in New Zealand are cancelled
+- Clarification of the regulatory position, given that all three Rinvoq authorizations in New Zealand are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

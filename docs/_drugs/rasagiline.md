@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Parkinson disease (and related parkinsonian syndromes) |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,11 +64,11 @@ PLA2G6-associated neurodegeneration includes infantile neuroaxonal dystrophy and
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Rasmussen subacute encephalitis | 99.56% | L5 | No clear mechanistic link; likely reflects network proximity |
-| 3 | Myelitis | 99.32% | L5 | Speculative; standard treatment is immunomodulatory |
-| 4 | Paralysis agitans, juvenile, of Hunt | 99.25% | L4 | Historical term for juvenile parkinsonism; likely a re-labeling of an existing indication rather than true repurposing; safety and efficacy in young patients not established |
-| 5 | Transaldolase deficiency | 99.19% | L5 | No recognized relationship to MAO-B inhibition; likely a graph artifact |
-| 6 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 99.01% | L5 | A symptomatic MAO-B inhibitor is not expected to alter structural malformations |
+| 2 | Rasmussen subacute encephalitis | 0.9956 | L5 | No clear mechanistic link; likely reflects network proximity |
+| 3 | Myelitis | 0.9932 | L5 | Speculative; standard treatment is immunomodulatory |
+| 4 | Paralysis agitans, juvenile, of Hunt | 0.9925 | L5 | Historical term for juvenile parkinsonism; likely a re-labeling of an existing indication rather than true repurposing; safety and efficacy in young patients not established |
+| 5 | Transaldolase deficiency | 0.9919 | L5 | No recognized relationship to MAO-B inhibition; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| 6 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 0.9901 | L5 | A symptomatic MAO-B inhibitor is not expected to alter structural malformations |
 
 ## Clinical Trial Evidence
 

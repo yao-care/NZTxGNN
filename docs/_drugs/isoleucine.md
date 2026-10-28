@@ -6,9 +6,9 @@ nav_order: 244
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Isoleucine: predicted new indication Gastroparesis (evidence level L5). Approved use: No approved indication recorded"
 monitor_inn: "ISOLEUCINE"
 predicted_indications: ["gastroparesis (disease)"]
+description: "Isoleucine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Isoleucine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Isoleucine: From No Registered Indication to Gastroparesis
+## Isoleucine: Gastroparesis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction rests on the model score alone.
 
 | Item | Content |
 |------|------|
-| Original Indication | No approved indication recorded |
-| Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.32% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroparesis (disease) |
+| TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction rests on the model score alone.
 
 Currently, detailed mechanism of action data is not available. Isoleucine is an essential branched-chain amino acid, but the data compiled for this report contain no recorded original indication and no mechanism of action. A mechanistic link to gastroparesis therefore cannot be verified.
 
-The high score (0.993) reflects a pattern in the TxGNN knowledge graph, not clinical findings. One speculative hypothesis is that amino acid nutrient sensing could influence gastric emptying or enteroendocrine signalling. This has not been tested here and would need independent validation.
+The high score (0.9932) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. One speculative hypothesis is that amino acid nutrient sensing could influence gastric emptying or enteroendocrine signalling. This has not been tested here and would need independent validation.
 
 The drug has no established clinical-use context in New Zealand: the only licence is cancelled, and no known drug interactions are recorded.
 
@@ -108,12 +108,12 @@ No drug-interaction records were found.
 **Decision: Hold**
 
 **Rationale:**
-The only support is a high model prediction score. There are no clinical trials, no literature, no mechanism data, and no active New Zealand licence, so the evidence level is L5.
+The only support is a high model prediction score.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for isoleucine, and a testable rationale linking it to gastric motility
 - Preclinical or clinical evidence in gastroparesis (literature search and trial registry review)
-- The Medsafe package insert, to confirm warnings and contraindications and to check the knowledge-graph signals (especially kidney, cardiac and phenylalanine-metabolism conditions)
+- The Medsafe package insert, to confirm warnings and contraindications and to check the signals from the TxGNN model (deep learning) (especially kidney, cardiac and phenylalanine-metabolism conditions)
 - Assessment of route and formulation suitability for a gastroparesis use, since the only licence was a cancelled oral powder
 - A safety screening once the package insert is available
 ## Disclaimer

@@ -6,9 +6,9 @@ nav_order: 277
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Lopinavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Lopinavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Lopinavir
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Lopinavir: From HIV Infection / AIDS to Simian Immunodeficiency Virus Infection
+## Lopinavir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (from the knowledge graph, since the New Zealand licence record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,8 +62,8 @@ SIV is a closely related primate lentivirus, and its protease is structurally si
 This evidence is indirect and preclinical. The prediction mostly reflects network proximity to the original HIV/AIDS indication, so it is not a true repurposing opportunity for a new human disease.
 
 The other two predictions in the dataset are weaker:
-- **Feline acquired immunodeficiency syndrome** (score 99.90%): FIV protease differs from HIV-1 protease in substrate specificity and inhibitor sensitivity, so activity cannot be assumed. No trials or literature are available (L5).
-- **A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter** (score 99.90%): no plausible mechanistic link was found, and the prediction is likely a graph artifact (L5).
+- **Feline acquired immunodeficiency syndrome** (score 0.9990): FIV protease differs from HIV-1 protease in substrate specificity and inhibitor sensitivity, so activity cannot be assumed. No trials or literature are available (L5).
+- **A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter** (score 0.9990): no plausible mechanistic link was found, and the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence (L5).
 
 ## Clinical Trial Evidence
 

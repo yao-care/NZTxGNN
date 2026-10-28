@@ -48,10 +48,10 @@ The prediction rests on model output alone (**evidence level L5**).
 |------|------|
 | Original Indication | Not stated in the licence records compiled for this report (rivaroxaban is a Factor Xa inhibitor anticoagulant) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The link to rheumatoid arthritis (RA) is indirect. Autoimmune disease is associated with a thrombo-inflammatory state, with increased thrombin generation and crosstalk between coagulation and inflammation. Patients with RA also have a higher risk of venous thromboembolism. Rivaroxaban could address the thrombotic component of this picture, but not RA disease activity itself.
 
-None of the retrieved literature shows disease-modifying efficacy in RA. The very high TxGNN score (99.57%) is a network-based prediction without clinical support. It should not be read as evidence of efficacy.
+None of the retrieved literature shows disease-modifying efficacy in RA. The very high TxGNN score (0.9957) is a network-based prediction without clinical support. It should not be read as evidence of efficacy.
 
 Other predictions in the data (gout, HIV infection, brachydactyly-syndactyly syndrome) are weaker or are safety questions rather than repurposing opportunities. They are not evaluated further here.
 
@@ -81,9 +81,9 @@ Currently no related clinical trials registered for rheumatoid arthritis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2545152 | Xarelto | Tab 10 mg | Not stated (licence cancelled) |
-| 2425947 | Xarelto | Tab 20 mg | Not stated (licence cancelled) |
-| 2425920 | Xarelto | Tab 15 mg | Not stated (licence cancelled) |
+| 2545152 | Xarelto | Tab 10 mg | Not stated (licence valid) |
+| 2425947 | Xarelto | Tab 20 mg | Not stated (licence valid) |
+| 2425920 | Xarelto | Tab 15 mg | Not stated (licence valid) |
 
 ## Safety Considerations
 
@@ -99,13 +99,13 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has the highest model score but no clinical trials and no literature showing disease-modifying benefit in RA (evidence level L5). Rivaroxaban would address only the thrombotic component, not RA activity. All three New Zealand licences are cancelled, and bleeding-related interactions with common RA co-medications add safety concerns.
+The prediction has the highest model score but no clinical trials and no literature showing disease-modifying benefit in RA (evidence level L5). Rivaroxaban would address only the thrombotic component, not RA activity. The drug is marketed in New Zealand with all three licences valid, and bleeding-related interactions with common RA co-medications add safety concerns.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a clearer mechanistic rationale for any effect on RA inflammation
 - Preclinical or early-phase clinical evidence in RA, for example thromboprophylaxis or thrombo-inflammatory biomarker studies
 - Package insert warnings and contraindications from Medsafe, and the approved indications from the licence records
-- A review of current New Zealand availability, since all licences are cancelled
+- A review of current New Zealand availability, where all 3 licences are valid
 - A bleeding-risk assessment for RA patients using corticosteroids, NSAIDs or aspirin
 ## Disclaimer
 

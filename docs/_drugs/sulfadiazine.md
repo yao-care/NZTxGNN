@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulfadiazine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 431
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Sulfadiazine: predicted new indication Pneumocystosis (evidence level L4). Approved use: Toxoplasmosis"
 monitor_inn: "Sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
+description: "Sulfadiazine: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sulfadiazine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Sulfadiazine: From Toxoplasmosis to Pneumocystosis
+## Sulfadiazine: Pneumocystosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Sulfadiazine is a sulfonamide antibiotic originally used for toxoplasmosis and related infections, as well as inflammatory bowel conditions in the knowledge graph.
+Sulfadiazine is a sulfonamide antibiotic originally used for toxoplasmosis and related infections, as well as inflammatory bowel conditions.
 The TxGNN model predicts it may be effective for **Pneumocystosis**,
 but currently there are **0 registered clinical trials** and **19 publications** (mostly older reviews and case-based reports), so the evidence remains at the level of model prediction plus class-level mechanistic reasoning.
 
@@ -46,12 +46,12 @@ but currently there are **0 registered clinical trials** and **19 publications**
 
 | Item | Content |
 |------|------|
-| Original Indication | Toxoplasmosis (the approved indication text for the New Zealand license is not available; the original indications come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.39% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (0 valid, 1 cancelled) |
+| TxGNN Prediction Score | 0.9939 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,7 +87,7 @@ The 19 publications compiled are mainly reviews and observational or case report
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2674912 | Sulfadiazin-Heyl (cancelled) | Tab 500 mg | Not available |
+| 2674912 | Sulfadiazin-Heyl (valid) | Tab 500 mg | Not available |
 
 ## Safety Considerations
 
@@ -105,7 +105,7 @@ The following information comes from the knowledge graph and drug interaction da
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.39%), and the folate-pathway mechanism is plausible given the established role of sulfonamides in Pneumocystis therapy. However, there are no registered clinical trials, the literature is mostly older reviews and case reports, DHPS-mediated sulfa resistance has been reported, and the drug currently has no valid New Zealand licence. The second predicted indication, punctate epithelial keratoconjunctivitis, has no supporting evidence or mechanistic rationale (L5, Hold).
+The prediction score is high (0.9939), and the folate-pathway mechanism is plausible given the established role of sulfonamides in Pneumocystis therapy. The second predicted indication, punctate epithelial keratoconjunctivitis, has no supporting evidence or mechanistic rationale (L5, Hold).
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

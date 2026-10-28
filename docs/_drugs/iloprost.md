@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Iloprost
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 230
-evidence_level: L3
-indication_count: 9
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Iloprost: predicted new indication PAH associated with congenital heart disease (evidence level L3). Approved use: Pulmonary arterial hypertension"
+description: "Iloprost: predicted new indication hypotrichosis simplex of the scalp (evidence level L3). Approved use: Pulmonary arterial hypertension"
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotr
 # Iloprost
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-## Iloprost: From Pulmonary Arterial Hypertension to Pulmonary Arterial Hypertension Associated with Congenital Heart Disease
+## Iloprost: From Pulmonary Arterial Hypertension to Hypotrichosis Simplex of the Scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,13 +49,13 @@ The top-ranked prediction by score is **hypotrichosis simplex of the scalp**, wh
 |------|------|
 | Original Indication | Pulmonary arterial hypertension |
 | Predicted New Indication | PAH associated with congenital heart disease (the rank 1 prediction, hypotrichosis simplex of the scalp, has no evidence; see note below) |
-| TxGNN Prediction Score | 99.32% (rank 1 prediction: 99.45%) |
-| Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9945 (rank 1 prediction) |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
-**Note on selection:** The highest-scoring prediction, hypotrichosis simplex of the scalp (99.45%), is graded L5 (model prediction only) with no trials or publications. The best-supported prediction in the data is PAH associated with congenital heart disease, so this report presents it as the primary candidate. It is largely a subtype of the original PAH indication, so it is not a true repurposing case.
+**Note on selection:** The highest-scoring prediction, hypotrichosis simplex of the scalp (0.9945), is graded L5 (model prediction only) with no trials or publications. The best-supported prediction in the data is PAH associated with congenital heart disease, so this report presents it as the primary candidate. It is largely a subtype of the original PAH indication, so it is not a true repurposing case.
 
 ---
 
@@ -96,8 +96,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2722186 | Vebulis S29 | Nebuliser solution 10 mcg per ml, 2 ml | Not available (cancelled) |
-| 2643006 | Vebulis | Nebuliser solution 10 mcg per ml, 2 ml | Not available (cancelled) |
+| 2722186 | Vebulis S29 | Nebuliser solution 10 mcg per ml, 2 ml | Not available (valid) |
+| 2643006 | Vebulis | Nebuliser solution 10 mcg per ml, 2 ml | Not available (valid) |
 
 ---
 

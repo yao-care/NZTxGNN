@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Metoclopramide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 294
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Metoclopramide: predicted new indication Gastric ulcer (evidence level L4). Approved use: Gastroesophageal reflux disease, esophagitis, peptic esophagitis"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-10-28
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
+description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Metoclopramide: From Gastroesophageal Reflux Disease to Gastric Ulcer
+## Metoclopramide: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **gastric ulcer**, but the supp
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastroesophageal reflux disease, esophagitis, peptic esophagitis (from the knowledge graph; no approved-indication text is available for the New Zealand licences) |
-| Predicted New Indication | Gastric ulcer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,10 +61,10 @@ The link to gastric ulcer is therefore indirect. Delayed gastric emptying or alk
 
 Other predicted indications are weaker still:
 
-- **Gastroduodenitis (99.90%):** supported only by physiological and animal motility studies. Evidence level L4.
-- **Peptic ulcer disease (99.85%):** indirect evidence only. Evidence level L4.
-- **Gastrojejunal ulcer (99.78%):** no specific studies. Evidence level L5.
-- **Peptic ulcer perforation (99.78%):** a prokinetic has no plausible role here and could be unsafe. This is likely a propagation artefact. Evidence level L5.
+- **Gastroduodenitis (0.9990):** supported only by physiological and animal motility studies. Evidence level L4.
+- Evidence level L4.
+- **Gastrojejunal ulcer (0.9978):** no specific studies. Evidence level L5.
+- **Peptic ulcer perforation (0.9978):** a prokinetic has no plausible role here and could be unsafe. This is likely a propagation artefact. Evidence level L5.
 
 ## Clinical Trial Evidence
 
@@ -93,8 +93,8 @@ Most of the remaining retrieved literature consists of general reviews on prokin
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2690497 | Medsurge | Inj 5 mg per ml, 2 ml ampoule | Not available (status: cancelled) |
-| 2528878 | Metoclopramide Actavis 10 | Tab 10 mg | Not available (status: cancelled) |
+| 2690497 | Medsurge | Inj 5 mg per ml, 2 ml ampoule | Not available (status: valid) |
+| 2528878 | Metoclopramide Actavis 10 | Tab 10 mg | Not available (status: valid) |
 
 ## Cytotoxicity
 
@@ -119,7 +119,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a high model score, but no study shows that metoclopramide heals gastric ulcers. The only trial concerns pre-endoscopy gastric visualization, the literature is indirect, and the drug has no currently valid licence in New Zealand. The evidence level is L4, and the knowledge graph lists active peptic ulcer disease among the contraindication-related conditions.
+The prediction rests on a high model score, but no study shows that metoclopramide heals gastric ulcers. The evidence level is L4, and the knowledge graph lists active peptic ulcer disease among the contraindication-related conditions.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications, which block any safety screening

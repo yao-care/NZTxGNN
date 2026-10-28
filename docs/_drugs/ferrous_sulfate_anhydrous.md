@@ -6,7 +6,7 @@ nav_order: 198
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anem… (evidence level L5). Approved use: Iron deficiency anemia, folic acid defici…"
+description: "Ferrous Sulfate Anhydrous: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Iron deficiency anemia, folic acid defici…"
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
 ---
@@ -48,25 +48,25 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Iron deficiency anemia, folic acid deficiency anemia, microcytic anemia, hypochromic anemia, anemia of prematurity, vitamin deficiency disorder (no approved indication text in the New Zealand licence record) |
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, ferrous sulfate is an iron replacement salt, its efficacy in iron deficiency anemia is well established, and the model links it to other anemias through network proximity.
 
-The link to the predicted indication is weak. Megaloblastic anemia is classically driven by impaired DNA synthesis from vitamin B12 or folate deficiency. The constitutional form predicted here is, by definition, independent of both, and no iron-dependent mechanism is established. The high score most likely reflects proximity in the knowledge graph to approved anemia indications (folic acid deficiency anemia, microcytic anemia) rather than a genuine pharmacological rationale. Iron would not be expected to correct a B12/folate-independent defect.
+The link to the predicted indication is weak. Megaloblastic anemia is classically driven by impaired DNA synthesis from vitamin B12 or folate deficiency. The constitutional form predicted here is, by definition, independent of both, and no iron-dependent mechanism is established. The high score of 0.9978 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (such as folic acid deficiency anemia and microcytic anemia), not biological evidence. Iron would not be expected to correct a B12/folate-independent defect.
 
 **Other predictions reviewed**
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Plummer-Vinson syndrome | 99.77% | L4 | Biologically plausible: the syndrome combines iron deficiency anemia, dysphagia and upper esophageal webs, and iron repletion is the established standard of care, with case-series reports of improved dysphagia and anemia. Evidence is limited to case reports and small series, with no RCTs. This is effectively an extension of the existing iron deficiency anemia indication, not a novel repurposing. Recommendation: Research Question |
-| 3 | Biotin metabolic disease | 99.51% | L5 | No established role for iron; these disorders are treated with biotin. Likely reflects shared nutrient-deficiency neighbours in the graph. Recommendation: Hold |
-| 4 | Non-syndromic esophageal malformation | 99.49% | L5 | Structural malformations need surgical or endoscopic management; iron cannot correct them. Likely spurious association via Plummer-Vinson syndrome. Recommendation: Hold |
+| 2 | Plummer-Vinson syndrome | 0.9977 | L5 | Biologically plausible: the syndrome combines iron deficiency anemia, dysphagia and upper esophageal webs, and iron repletion is the established standard of care, with case-series reports of improved dysphagia and anemia. Evidence is limited to case reports and small series, with no RCTs. This is effectively an extension of the existing iron deficiency anemia indication, not a novel repurposing. Recommendation: Research Question |
+| 3 | Biotin metabolic disease | 0.9951 | L5 | No established role for iron; these disorders are treated with biotin. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Recommendation: Hold |
+| 4 | Non-syndromic esophageal malformation | 0.9949 | L5 | Structural malformations need surgical or endoscopic management; iron cannot correct them. Likely spurious association via Plummer-Vinson syndrome. Recommendation: Hold |
 
 ## Clinical Trial Evidence
 
@@ -80,7 +80,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2664429 | Ferro-Liquid (cancelled) | Oral liquid 30 mg (6 mg elemental iron) per 1 ml | Not recorded |
+| 2664429 | Ferro-Liquid (valid) | Oral liquid 30 mg (6 mg elemental iron) per 1 ml | Not recorded |
 
 ## Safety Considerations
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pegaspargase
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 353
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Pegaspargase: predicted new indication Precursor lymphoblastic lymphoma/leukaemia (evidence level L1). Approved use: Acute lymphoblastic leukaemia"
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
+description: "Pegaspargase: predicted new indication Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pegaspargase
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Pegaspargase: From Acute Lymphoblastic Leukaemia to Precursor Lymphoblastic Lymphoma/Leukaemia
+## Pegaspargase: Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **precursor lymphoblastic lymph
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukaemia (the data compiled for this report contains no approved-indication text from the local licence record, so this is taken from the knowledge graph) |
-| Predicted New Indication | Precursor lymphoblastic lymphoma/leukaemia |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -97,7 +97,7 @@ The table lists the 10 most relevant trials (the data contain 33 in total). In a
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2578158 | Oncaspar LYO | Inj 750 iu per ml, 5 ml vial | Not stated in the available record (licence cancelled) |
+| 2578158 | Oncaspar LYO | Inj 750 iu per ml, 5 ml vial | Not stated in the available record (licence valid) |
 
 The only New Zealand licence has been cancelled, so product availability would need to be verified before any use.
 

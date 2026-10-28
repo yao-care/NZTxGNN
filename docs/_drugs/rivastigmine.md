@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 410
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Rivastigmine: predicted new indication Glaucoma (evidence level L4). Approved use: Alzheimer disease"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
+description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rivastigmine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Rivastigmine: From Alzheimer Disease to Glaucoma
+## Rivastigmine: Glaucoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **glaucoma**, but there are cur
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer disease (the approved indication text is not available in the New Zealand licence records; this comes from the knowledge graph, which also lists related conditions such as Pick disease and cerebellar degeneration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Glaucoma |
-| TxGNN Prediction Score | 99.27% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9927 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,8 +79,8 @@ Both licences are cancelled, and no approved indication text is recorded for the
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2611570 | Rivastigmine Patch BNM 5 | Patch 4.6 mg per 24 hour | Not recorded (cancelled) |
-| 2611589 | Rivastigmine Patch BNM 10 | Patch 9.5 mg per 24 hour | Not recorded (cancelled) |
+| 2611570 | Rivastigmine Patch BNM 5 | Patch 4.6 mg per 24 hour | Not recorded (valid) |
+| 2611589 | Rivastigmine Patch BNM 10 | Patch 9.5 mg per 24 hour | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -102,7 +102,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The glaucoma prediction is supported only by a high model score, one rabbit study and two reviews, with no clinical trials. Rivastigmine also has no currently valid New Zealand licence, and package insert safety information is missing.
+The glaucoma prediction is supported only by a high model score, one rabbit study and two reviews, with no clinical trials.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe

@@ -6,9 +6,9 @@ nav_order: 299
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Miconazole: predicted new indication Acne (evidence level L4). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 monitor_inn: "MICONAZOLE"
 predicted_indications: ["acne (disease)"]
+description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Miconazole
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Miconazole: From Superficial Fungal Skin Infections to Acne
+## Miconazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be useful for **acne**, but there are currently 
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis, tinea unguium, pityriasis versicolor, dermatophytosis of the groin and perianal area, vulvovaginal candidiasis (from the knowledge graph; New Zealand licence indication text is not available) |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.54% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L4 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 5 (2 valid, 3 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,9 +95,9 @@ Indication text is not available for these authorizations. All products listed a
 |---------|------|------|-----------|
 | 253294 | Daktarin | Tincture 2% | Valid |
 | 253278 | Daktarin | Lotion 2% | Valid |
-| 697648 | Micreme | Vaginal cream 2% with applicator | Cancelled |
-| 2405008 | Decozol | Oral gel 20 mg per g | Cancelled |
-| 2184354 | Multichem | Cream 2% | Cancelled |
+| 697648 | Micreme | Vaginal cream 2% with applicator | Valid |
+| 2405008 | Decozol | Oral gel 20 mg per g | Valid |
+| 2184354 | Multichem | Cream 2% | Valid |
 
 ---
 
@@ -117,7 +117,7 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.54%), but the supporting evidence is limited to a review, in vitro data, a small split-face study and a study of a related but different condition. There are no registered clinical trials for acne (Evidence Level L4), and the safety review cannot be completed without the package insert. The idea is plausible and worth exploring as a research question, not yet as a development decision.
+The TxGNN score is high (0.9954), but the supporting evidence is limited to a review, in vitro data, a small split-face study and a study of a related but different condition. There are no registered clinical trials for acne (Evidence Level L4), and the safety review cannot be completed without the package insert. The idea is plausible and worth exploring as a research question, not yet as a development decision.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications, which are required for safety screening

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pertuzumab
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 359
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Pertuzumab: predicted new indication Progesterone-receptor positive breast cancer (evidence level L1). Approved use: HER2 positive breast carcinoma"
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+description: "Pertuzumab: predicted new indication Ectomesenchymoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Pertuzumab: From HER2-Positive Breast Carcinoma to Progesterone-Receptor Positive Breast Cancer
+## Pertuzumab: Ectomesenchymoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pertuzumab is a HER2-targeted monoclonal antibody, originally used to treat HER2-positive breast carcinoma.
-The TxGNN model predicts it may be effective for **progesterone-receptor positive breast cancer**, with **1 completed Phase 3 clinical trial** and **20 publications** currently supporting this direction.
 This is best understood as a receptor-subtype refinement of the existing HER2-positive indication rather than a wholly new use.
 
 ---
@@ -48,12 +47,12 @@ This is best understood as a receptor-subtype refinement of the existing HER2-po
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2 positive breast carcinoma |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Ectomesenchymoma |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -95,10 +94,9 @@ Roughly half of HER2-positive breast cancers also express oestrogen and/or proge
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2444208 | Perjeta (cancelled) | Inj 30 mg per ml, 14 ml vial | Not recorded |
-| 2555328 | Baxter (cancelled) | Inj 420 mg for ECP | Not recorded |
+| 2444208 | Perjeta (valid) | Inj 30 mg per ml, 14 ml vial | Not recorded |
+| 2555328 | Baxter (valid) | Inj 420 mg for ECP | Not recorded |
 
-Both licences are cancelled and none are currently valid.
 
 ---
 
@@ -128,7 +126,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Pertuzumab has a strong evidence base in HER2-positive breast cancer, including a completed Phase 3 trial and several randomised trials in HR+/HER2+ disease (WSG-TP-II, PERTAIN). However, this prediction is a subtype refinement of the existing indication. The only linked Phase 3 trial studied ER/PR-negative disease, and pertuzumab has no currently valid New Zealand licence.
+Pertuzumab has a strong evidence base in HER2-positive breast cancer, including a completed Phase 3 trial and several randomised trials in HR+/HER2+ disease (WSG-TP-II, PERTAIN). However, this prediction is a subtype refinement of the existing indication.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)

@@ -6,9 +6,9 @@ nav_order: 369
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Idiopathic pulmonary fibrosis, idiopathic interstitial pneumonia…"
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
+description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pirfenidone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pirfenidone: From Idiopathic Pulmonary Fibrosis to Extracutaneous Mastocytoma
+## Pirfenidone: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,23 +45,23 @@ The TxGNN model predicts it may be effective for **extracutaneous mastocytoma**,
 
 | Item | Content |
 |------|------|
-| Original Indication | Idiopathic pulmonary fibrosis, idiopathic interstitial pneumonia, acute interstitial pneumonia (from the knowledge graph; no approved indication text available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Extracutaneous mastocytoma |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, pirfenidone is an anti-fibrotic drug whose efficacy in idiopathic pulmonary fibrosis is established. It is reported to suppress TGF-β signaling, which is the main basis for its anti-fibrotic action.
 
-For extracutaneous mastocytoma, the mechanistic link is weak. Mast cell neoplasia is driven mainly by KIT signaling, and pirfenidone is not known to target KIT. The high score probably reflects patterns in the knowledge graph rather than a demonstrated biological connection. No trials or publications support this prediction.
+For extracutaneous mastocytoma, the mechanistic link is weak. Mast cell neoplasia is driven mainly by KIT signaling, and pirfenidone is not known to target KIT. The high score (0.9971) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or publications support this prediction.
 
 The other top-ranked predictions are also unsupported by clinical data. Those with at least a plausible mechanism include:
-- **Dermatofibrosarcoma protuberans** (score 99.41%): this tumour is driven by the COL1A1-PDGFB fusion, and pirfenidone has reported effects on PDGF and TGF-β signaling. No direct evidence was provided, and standard therapy is surgery or imatinib.
-- **Fibroblastic neoplasm** (score 99.23%): this is the only prediction with any literature. That literature is indirect and includes possible harm signals (see below).
+- **Dermatofibrosarcoma protuberans** (score 0.9941): this tumour is driven by the COL1A1-PDGFB fusion, and pirfenidone has reported effects on PDGF and TGF-β signaling. No direct evidence was provided, and standard therapy is surgery or imatinib.
+- **Fibroblastic neoplasm** (score 0.9923): this is the only prediction with any literature. That literature is indirect and includes possible harm signals (see below).
 
 ## Clinical Trial Evidence
 
@@ -86,8 +86,8 @@ This evidence is preclinical and anecdotal. It does not support efficacy against
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2575833 | Esbriet (cancelled) | Tab 801 mg | Not available |
-| 2602156 | Esbriet (cancelled) | Tab 267 mg | Not available |
+| 2575833 | Esbriet (valid) | Tab 801 mg | Not available |
+| 2602156 | Esbriet (valid) | Tab 267 mg | Not available |
 
 ## Safety Considerations
 
@@ -105,7 +105,7 @@ Package insert warnings and contraindications were not available in the compiled
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no clinical trials or literature for extracutaneous mastocytoma and no plausible link to KIT-driven disease. Approved KIT-directed therapies exist. No pirfenidone licence is currently valid in New Zealand.
+The prediction rests on a model score alone (L5), with no clinical trials or literature for extracutaneous mastocytoma and no plausible link to KIT-driven disease. Approved KIT-directed therapies exist.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which are needed before any safety screening

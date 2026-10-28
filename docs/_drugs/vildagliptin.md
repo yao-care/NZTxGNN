@@ -4,17 +4,17 @@ title: Vildagliptin
 parent: Model Prediction Only (L5)
 nav_order: 480
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Vildagliptin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+description: "Vildagliptin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vildagliptin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Vildagliptin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
+## Vildagliptin: Classic stiff person syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (taken from the knowledge-graph indication data, because the New Zealand licence record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Classic stiff person syndrome |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -81,7 +81,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Status | Approved Indication |
 |---------|------|------|------|-----------|
-| 2455161 | Galvus | Tab 50 mg | Cancelled | Not stated in the licence record |
+| 2455161 | Galvus | Tab 50 mg | Valid | Not stated in the licence record |
 
 ---
 
@@ -98,9 +98,8 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no trials, no literature and no identifiable mechanistic link to stiff person syndrome. Vildagliptin also has no currently valid New Zealand licence. Evidence is L5, which does not justify further investment at this stage.
+The prediction has a very high model score but no trials, no literature and no identifiable mechanistic link to stiff person syndrome. Evidence is L5, which does not justify further investment at this stage.
 
-Among the other predictions generated for this drug, **type 1 diabetes mellitus** has much more supporting evidence, including a completed Phase 2 randomised trial of rapamycin plus vildagliptin. It is adjacent to the original diabetes indication and may be a better candidate for follow-up.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological rationale linking DPP-4 inhibition to stiff person syndrome

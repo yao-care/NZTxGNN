@@ -4,17 +4,17 @@ title: Triamcinolone
 parent: Moderate Evidence (L3-L4)
 nav_order: 467
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Autoimmune disease, Crohn disease and inflammatory bowel disease…"
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Triamcinolone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Triamcinolone: From Autoimmune and Inflammatory Conditions to Alopecia Mucinosa
+## Triamcinolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa**, but **no
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease, Crohn disease and inflammatory bowel disease, adrenocortical insufficiency, acute lymphoblastic leukaemia, eosinophilic pneumonia (from the knowledge graph; no approved-indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia mucinosa |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,11 +76,11 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 253766 | Kenacort-A 40 | Injection 40 mg/ml, 1 ml ampoule | Not available (cancelled) |
-| 282499 | Kenacort-A 10 | Injection 10 mg/ml, 1 ml ampoule | Not available (cancelled) |
-| 250066 | Aristocort | Cream 0.02% | Not available (cancelled) |
-| 250082 | Aristocort | Ointment 0.02% | Not available (cancelled) |
-| 253790 | Kenalog in Orabase | Paste 0.1% | Not available (cancelled) |
+| 253766 | Kenacort-A 40 | Injection 40 mg/ml, 1 ml ampoule | Not available (valid) |
+| 282499 | Kenacort-A 10 | Injection 10 mg/ml, 1 ml ampoule | Not available (valid) |
+| 250066 | Aristocort | Cream 0.02% | Not available (valid) |
+| 250082 | Aristocort | Ointment 0.02% | Not available (valid) |
+| 253790 | Kenalog in Orabase | Paste 0.1% | Not available (valid) |
 
 ## Safety Considerations
 
@@ -95,7 +95,7 @@ Please refer to the package insert for full warnings and contraindications, as t
 **Decision: Hold**
 
 **Rationale:**
-The prediction for alopecia mucinosa has a very high model score but no clinical trials and no triamcinolone-specific literature (L4). All five New Zealand licences are cancelled, so there is no marketed product, and label safety information was not available.
+The prediction for alopecia mucinosa has a very high model score but no clinical trials and no triamcinolone-specific literature (L4). All five New Zealand licences are valid, so the drug is marketed, and label safety information was not available.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

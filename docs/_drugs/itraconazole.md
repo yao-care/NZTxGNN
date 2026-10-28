@@ -6,9 +6,9 @@ nav_order: 248
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Esophageal candidiasis, candidemia, histoplasmosis, aspergillosis…"
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
+description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Itraconazole
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Itraconazole: From Systemic Fungal Infections to Pneumocystosis
+## Itraconazole: Pneumocystosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but the dat
 
 | Item | Content |
 |------|------|
-| Original Indication | Esophageal candidiasis, candidemia, histoplasmosis, aspergillosis, blastomycosis, coccidioidomycosis, sporotrichosis, fusariosis and others (from the knowledge graph; no approved indication text on the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.34% |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available in the compiled data. From ge
 
 *Pneumocystis jirovecii* is classified as a fungus, which is the likely reason the model links it to itraconazole's approved indications. However, its cell membrane contains little or no ergosterol, with cholesterol as the main sterol. The azole mechanism therefore has **limited biological plausibility** against this organism.
 
-The high score (0.993) most likely reflects network proximity to approved antifungal indications such as histoplasmosis, aspergillosis and candidiasis, not a validated mechanism. The retrieved literature mostly covers prophylaxis and treatment of opportunistic infections in HIV, transplant and neutropenic patients. In those papers itraconazole is typically discussed for other fungi, not for Pneumocystis. This prediction should be treated as a hypothesis only.
+The high score (0.9934) most likely reflects network proximity to approved antifungal indications such as histoplasmosis, aspergillosis and candidiasis, not a validated mechanism. The retrieved literature mostly covers prophylaxis and treatment of opportunistic infections in HIV, transplant and neutropenic patients. In those papers itraconazole is typically discussed for other fungi, not for Pneumocystis. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -84,13 +84,13 @@ None of the retrieved papers shows itraconazole being tested for pneumocystosis.
 
 ## New Zealand Market Information
 
-All three licences are cancelled, and no approved indication text is recorded for them.
+All three licences are valid, and no approved indication text is recorded for them.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2354322 | Itrazole | Capsule 100 mg | Cancelled |
-| 2705109 | Itraconazole Cresent | Capsule 100 mg | Cancelled |
-| 2693364 | Itraconazole Kent | Oral liquid 10 mg/ml | Cancelled |
+| 2354322 | Itrazole | Capsule 100 mg | Valid |
+| 2705109 | Itraconazole Cresent | Capsule 100 mg | Valid |
+| 2693364 | Itraconazole Kent | Oral liquid 10 mg/ml | Valid |
 
 ## Safety Considerations
 
@@ -104,14 +104,14 @@ Package insert warnings and contraindications were not available in the compiled
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no registered clinical trials and no literature directly supporting itraconazole for pneumocystosis (Evidence Level L5). The mechanism is also biologically doubtful because *Pneumocystis* has little ergosterol. In addition, itraconazole has no currently valid New Zealand licence, and safety data from the package insert are missing.
+The prediction has no registered clinical trials and no literature directly supporting itraconazole for pneumocystosis (Evidence Level L5). The mechanism is also biologically doubtful because *Pneumocystis* has little ergosterol.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a mechanistic assessment of azole activity against *Pneumocystis*
 - Preclinical or in vitro evidence of itraconazole activity against *P. jirovecii*
 - Package insert warnings and contraindications from Medsafe, to allow safety screening
 - Review of the cardiac, hepatic and renal safety signals and the major drug interactions
-- Clarification of regulatory status, since all New Zealand licences are cancelled
+- Clarification of regulatory status, since 3 of 3 New Zealand licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

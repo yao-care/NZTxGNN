@@ -4,7 +4,7 @@ title: Alectinib
 parent: Model Prediction Only (L5)
 nav_order: 25
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Alectinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer / lung cancer"
 monitor_inn: "ALECTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Alectinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ The strong evidence in the compiled data (phase 3 RCTs such as ALEX, J-ALEX and 
 |------|------|
 | Original Indication | Non-small cell lung cancer / lung cancer (approved indication text not available in the New Zealand licence record) |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Based on known information, alectinib is a selective ALK tyrosine kinase inhibitor. Its efficacy in ALK-positive non-small cell lung cancer is well established, including activity against central nervous system disease.
 
-For gingival fibromatosis, no ALK-related mechanism has been established. The very high TxGNN score (99.97%) reflects proximity in the knowledge graph rather than a demonstrated biological rationale. No trials or publications support this prediction, so it should be treated as a hypothesis only.
+For gingival fibromatosis, no ALK-related mechanism has been established. The very high TxGNN score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or publications support this prediction, so it should be treated as a hypothesis only.
 
 The other top-ranked predictions show the same pattern. Most are benign or unrelated conditions (lung fibroma, lung hamartoma, junctional epidermolysis bullosa and others) with no supporting evidence. A few merit a brief note:
 
@@ -99,7 +99,7 @@ The literature below relates to other predictions and mainly supports the origin
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2574152 | Alecensa (cancelled) | Cap 150 mg | Not available |
+| 2574152 | Alecensa (valid) | Cap 150 mg | Not available |
 
 ## Cytotoxicity
 

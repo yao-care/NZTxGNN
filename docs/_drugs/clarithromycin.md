@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clarithromycin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 103
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
-description: "Clarithromycin: predicted new indication Hyperamylasemia (evidence level L4). Approved use: Bacterial infections (otitis media, pneumonia, sinusitis…"
 monitor_inn: "CLARITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
+last_modified_at: 2026-10-27
+description: "Clarithromycin: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Clarithromycin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,31 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Clarithromycin: From Respiratory and Ear/Sinus Bacterial Infections to Hyperamylasemia
+## Clarithromycin: macrolide antibiotic → hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Clarithromycin is a macrolide antibiotic originally used for bacterial infections such as pneumonia, sinusitis, otitis media, and streptococcal and staphylococcal infections.
-The TxGNN model predicts it may be effective for **hyperamylasemia**, but there are **0 clinical trials** and only **1 publication** (a case report), so this prediction rests almost entirely on computation.
+Clarithromycin is a macrolide antibiotic used against a range of bacterial infections, including respiratory tract and ear infections.
+The TxGNN model predicts it may be relevant to **hyperamylasemia**, but there are **no registered clinical trials** and only **1 publication** (a 2004 case report in which the condition appears incidental), so the evidence is very weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (otitis media, pneumonia, sinusitis, streptococcal and staphylococcal infections, Mycoplasma and chlamydial pneumonia). Taken from the knowledge graph, as no approved-indication text is available from the local licences |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.35% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | hyperamylasemia |
+| TxGNN Prediction Score | 0.9935 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, clarithromycin is a macrolide antibiotic, its efficacy in bacterial respiratory and ear/sinus infections is established, but there is no established mechanism linking it to the treatment of hyperamylasemia.
+Currently, detailed mechanism of action data is not available. Clarithromycin belongs to the macrolide class of antibiotics, which are known to act on bacterial protein synthesis and also to have some anti-inflammatory and immunomodulatory effects.
 
-The only publication found is a 2004 Japanese case report of a *Mycobacterium abscessus* lung infection complicated by primary macroamylasemia. Clarithromycin was most likely used there as an anti-mycobacterial agent, so the raised amylase appears to be an incidental finding rather than a treatment target. The high TxGNN score is a computational prediction and is not supported by clinical data.
-
-For context, other predicted indications are no stronger. Punctate epithelial keratoconjunctivitis has a plausible indirect link through the anti-inflammatory effects of macrolides on meibomian gland dysfunction, but supporting evidence is limited to one observational study. Polyclonal hyperviscosity syndrome, congenital analbuminemia, and blood group incompatibility have no trials or literature, and no credible mechanism.
+No established mechanism links clarithromycin to the treatment of hyperamylasemia. The only publication found is a 2004 Japanese case report of a *Mycobacterium abscessus* lung infection in a patient who also had primary macroamylasemia. Clarithromycin was most likely used there as an anti-mycobacterial agent, and the raised amylase was an incidental finding rather than a treatment target. The high score of 0.9935 is a computational output from the model and is not backed by clinical data.
 
 ## Clinical Trial Evidence
 
@@ -69,52 +67,34 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Case report | Nihon Kokyuki Gakkai Zasshi (J Jpn Respir Soc) | A 76-year-old man with prior pulmonary tuberculosis had a *M. abscessus* lung infection complicated by primary macroamylasemia. Hyperamylasemia was a co-existing finding, not a demonstrated treatment effect |
+| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Case report | Nihon Kokyuki Gakkai zasshi | A 76-year-old man with *M. abscessus* lung infection who also had primary macroamylasemia; the condition was a coexisting finding, not a studied treatment effect |
 
 ## New Zealand Market Information
 
-All four licences are cancelled, and none is currently valid. No approved-indication text is recorded for any of them.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2606038 | Klacid | Tab 250 mg | Not recorded (cancelled) |
-| 2605295 | Klacid | Tab 500 mg | Not recorded (cancelled) |
-| 2535378 | Klacid | Grans for oral liq 250 mg per 5 ml | Not recorded (cancelled) |
-| 2698056 | Klaricid | Tab 250 mg | Not recorded (cancelled) |
+| 2606038 | Klacid | Tab 250 mg | Not recorded in local data |
+| 2605295 | Klacid | Tab 500 mg | Not recorded in local data |
+| 2535378 | Klacid | Grans for oral liq 250 mg per 5 ml | Not recorded in local data |
+| 2698056 | Klaricid | Tab 250 mg | Not recorded in local data |
 
 ## Safety Considerations
 
-- **Disease contraindications (from the knowledge graph, not label text)**:
-  - Cardiac rhythm: long QT syndrome, torsades de pointes, ventricular tachycardia (including catecholaminergic polymorphic and incessant infant forms)
-  - Liver and biliary: liver failure, liver disease, cholestasis (including benign recurrent and familial intrahepatic forms), gallbladder disease
-  - Kidney: kidney disease, pyoureter
-  - Porphyria: inherited porphyria, porphyrin metabolism disease, porphyria
-  - Neuromuscular: myasthenia gravis (including adult-onset), neuromuscular junction disease
-  - Gastrointestinal: *Clostridium difficile* colitis, perinatal necrotizing enterocolitis
-  - Bone: osteoporosis, postmenopausal osteoporosis, bone fracture
-  - Viral: infectious mononucleosis, chronic Epstein-Barr virus infection syndrome
-- **Drug Interactions**: 100 interactions were identified in total, and 20 are listed in the data compiled for this report. Notable **Major** interactions include:
-  - Abemaciclib
-  - Fentanyl
-  - Acalabrutinib
+- **Drug Interactions**: The interaction data compiled for this report list 100 interacting drugs. Examples of those rated **Major** include abemaciclib, fentanyl and acalabrutinib. Examples rated **Moderate** include paclitaxel, tramadol, nifedipine, famotidine, formoterol, ethinylestradiol and hydrocortisone.
 
-  **Moderate** interactions include paclitaxel, tramadol, nifedipine, famotidine, formoterol, adenosine, trastuzumab emtansine, flunisolide, afatinib, ethinylestradiol, hydrocortisone, abiraterone, acarbose, and abametapir (topical). **Minor** interactions include dolutegravir, zidovudine, and loratadine. This is a partial list only, and the full set should be reviewed.
-
-Package insert warnings and contraindications were not available for this report. Please refer to the package insert for the label safety information.
+Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for hyperamylasemia rests on a model score of 99.35%, with no clinical trials and a single case report in which the raised amylase appears incidental to a mycobacterial infection. All New Zealand licences are cancelled, and package insert safety data are missing.
+The prediction rests only on a model score. No clinical trials exist, and the single publication is a case report in which hyperamylasemia was incidental to an infection treated with clarithromycin. No plausible mechanism links the drug to this condition.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for clarithromycin, and any evidence for a link to amylase handling or macroamylasemia
-- Package insert warnings and contraindications, to allow safety screening (currently a blocking gap)
-- Controlled or well-designed observational evidence in hyperamylasemia, if the indication is to be pursued
-- Review of the full interaction list, especially the Major interactions and QT-prolonging combinations
-- If a more promising direction is wanted, a focused evaluation of punctate epithelial keratoconjunctivitis, which has a more plausible indirect mechanism, though evidence is still limited
+- Mechanism of action data and a credible biological rationale for an effect on amylase levels
+- Package insert warnings and contraindications from Medsafe for safety screening
+- Controlled or observational studies that directly examine clarithromycin in hyperamylasemia
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

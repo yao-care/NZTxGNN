@@ -6,9 +6,9 @@ nav_order: 292
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Attention deficit hyperactivity disorder (ADHD)"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
+description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methylphenidate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Methylphenidate: From Attention Deficit Hyperactivity Disorder to Faciodigitogenital Syndrome
+## Methylphenidate: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The score is a model output only, and the evidence is at the prediction level.
 
 | Item | Content |
 |------|------|
-| Original Indication | Attention deficit hyperactivity disorder (ADHD); also narcolepsy (the New Zealand licence records contain no approved indication text, so this comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Faciodigitogenital syndrome |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 13 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Authorizations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,9 +63,9 @@ Faciodigitogenital syndrome is a rare X-linked disorder with skeletal and genita
 No direct mechanistic link is supported by the available data. The very high TxGNN score reflects a model prediction only, and it should be treated with caution.
 
 Other predictions in the model output are weaker or less plausible for this drug:
-- **Specific developmental disorder** (score 99.99%, L4): the literature is almost entirely ADHD-focused, which is already an approved indication. It is indirect evidence for other developmental disorders.
-- **Dysthymic disorder** (score 99.1%, L4): there is only indirect evidence from ADHD with comorbid subsyndromal depression. There is no direct evidence in dysthymia as a primary diagnosis.
-- **Chondromyxoid fibroma** (score 99.99%, L5): there is no plausible mechanistic link, and this is likely a knowledge-graph artefact.
+- **Specific developmental disorder** (score 0.9999, L4): the literature is almost entirely ADHD-focused, which is already an approved indication. It is indirect evidence for other developmental disorders.
+- **Dysthymic disorder** (score 0.9911, L4): there is only indirect evidence from ADHD with comorbid subsyndromal depression. There is no direct evidence in dysthymia as a primary diagnosis.
+- **Chondromyxoid fibroma** (score 0.9999, L5): there is no plausible mechanistic link, and this is likely a TxGNN model (deep learning) artefact.
 
 ## Clinical Trial Evidence
 
@@ -77,15 +77,15 @@ Currently no related literature available for faciodigitogenital syndrome.
 
 ## New Zealand Market Information
 
-All 13 licences are cancelled and none is currently valid. Five representative licences are listed below. The data contain no approved indication text.
+All 13 licences are currently valid. Five representative licences are listed below. The data contain no approved indication text.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 437204 | Rubifen | Immediate-release tablet 10 mg | Cancelled |
-| 2349329 | Ritalin | Immediate-release tablet 10 mg | Cancelled |
-| 2116782 | Rubifen SR | Sustained-release tablet 20 mg | Cancelled |
-| 2562782 | Methylphenidate ER - Teva | Extended-release tablet 36 mg | Cancelled |
-| 2711176 | Methylphenidate Sandoz XR | Modified-release tablet 18 mg | Cancelled |
+| 437204 | Rubifen | Immediate-release tablet 10 mg | Valid |
+| 2349329 | Ritalin | Immediate-release tablet 10 mg | Valid |
+| 2116782 | Rubifen SR | Sustained-release tablet 20 mg | Valid |
+| 2562782 | Methylphenidate ER - Teva | Extended-release tablet 36 mg | Valid |
+| 2711176 | Methylphenidate Sandoz XR | Modified-release tablet 18 mg | Valid |
 
 ## Safety Considerations
 
@@ -104,14 +104,13 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials or publications for faciodigitogenital syndrome, and no mechanistic link is supported. In addition, all New Zealand licences are cancelled, and package insert safety data is unavailable.
+The prediction rests only on a model score. There are no clinical trials or publications for faciodigitogenital syndrome, and no mechanistic link is supported. In addition, all 13 New Zealand licences are valid (13 of 13), and package insert safety data is unavailable.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) from DrugBank
 - Medsafe package insert warnings and contraindications
 - Case-level or trial evidence in faciodigitogenital syndrome, or a defined behavioural target (for example ADHD-like symptoms in these patients)
 - Review of the cardiovascular, psychiatric and seizure-related safety flags for the target population
-- Confirmation of a route to supply, given that there are no valid New Zealand licences
 
 **Other predictions to consider:** specific developmental disorder and dysthymic disorder (both L4, "Research Question") may be worth exploring as research questions. This would be mainly in patients with comorbid ADHD.
 ## Disclaimer

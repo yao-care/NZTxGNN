@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cyproterone Acetate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 128
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the New Zealand licence records. Pharmacology data list…"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "CYPROTERONE ACETATE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "migraine with or without aura, susceptibility to", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
+last_modified_at: 2026-10-27
+description: "Cyproterone Acetate: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cyproterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,14 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Cyproterone Acetate: From Androgen-Dependent Conditions to Migraine Disorder
+## Cyproterone Acetate: Steroidal antiandrogen with progestogenic activity → migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Cyproterone acetate is a steroidal antiandrogen with progestogenic activity, used in androgen-dependent conditions such as prostate cancer, acne, hirsutism and hormonal contraception. The TxGNN model predicts it may be effective for **migraine disorder**, but there are **no registered clinical trials** and only **3 publications**, none of which show a therapeutic benefit. This is a model prediction without clinical support.
+Cyproterone acetate is a steroidal antiandrogen with progestogenic activity, and the approved indication is not recorded in the local data.
+The TxGNN model predicts it may be relevant to **migraine disorder**, but there are **no clinical trials** and only **3 publications**, none showing a therapeutic benefit for migraine.
+This is a model-based prediction with very limited supporting evidence.
 
 ---
 
@@ -46,23 +48,23 @@ Cyproterone acetate is a steroidal antiandrogen with progestogenic activity, use
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the New Zealand licence records. Pharmacology data lists androgen-dependent conditions (prostate cancer, acne, hirsutism) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 2 (both cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | migraine disorder |
+| TxGNN Prediction Score | 0.9966 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known pharmacology, cyproterone acetate blocks the androgen receptor and has progestogenic activity. It is used as chemical castration in androgen-dependent disease, for acne and hirsutism in women, and in some contraceptive and menopausal treatments.
+Detailed mechanism-of-action data is not available in the data compiled for this report. From pharmacology data, cyproterone acetate is a ligand of the androgen receptor. It is used as a chemical castration agent in androgen-dependent conditions and as a progestogen in some hormonal treatments.
 
-The link to migraine is indirect. Hormonal fluctuation, especially of oestrogen and progestogen, is a recognised migraine trigger, so an effect on neuro-hormonal pathways is plausible. A review of progestin effects on the brain notes that cyproterone acetate increases dopaminergic responses and binds opiate receptors independently of its classical effects.
+The plausibility rests on hormonal biology. Fluctuations in oestrogen and progestogen are a recognised migraine trigger, so a progestin effect on neuro-hormonal pathways is conceivable. One review notes that cyproterone acetate increases dopaminergic responses and binds opiate receptors independently of its classical effects.
 
-However, the retrieved literature covers progestin effects on the brain, hormone supplementation in postmenopausal women, and long-term side effects of cyproterone-containing therapy. None shows that the drug treats migraine, and hormonal exposure may even worsen it. The very high TxGNN score is a prediction, not clinical evidence.
+However, the retrieved literature covers progestin effects on the brain, hormone supplementation in postmenopausal women, and long-term side effects of cyproterone acetate-containing therapy. None demonstrates a benefit for migraine, and hormonal exposure may worsen it. The very high score is a model prediction, not clinical evidence.
 
 ---
 
@@ -76,11 +78,11 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14670648](https://pubmed.ncbi.nlm.nih.gov/14670648/) | 2003 | Review | Maturitas | Progestins interact with GABA-A receptors, dopamine release and opioid binding. Cyproterone acetate increases dopaminergic responses and binds opiate receptors |
-| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Cohort | Headache | Compared three oral hormone replacement schemes and their effects on migraine in postmenopausal women |
-| [10857213](https://pubmed.ncbi.nlm.nih.gov/10857213/) | 2000 | Review | Zentralblatt fur Gynakologie | Long-term side effects of cyproterone-containing therapy in gynaecology, including discussion of possible mutagenic potency |
+| [14670648](https://pubmed.ncbi.nlm.nih.gov/14670648/) | 2003 | Review | Maturitas | Progestins interact with GABA-A receptors and dopamine and opioid systems; cyproterone acetate increases dopaminergic responses and binds opiate receptors |
+| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Cohort | Headache | Effects of three oral hormone replacement schemes on migraine course in postmenopausal women; cyproterone acetate not shown as the studied therapy |
+| [10857213](https://pubmed.ncbi.nlm.nih.gov/10857213/) | 2000 | Review | Zentralblatt fur Gynakologie | Long-term side effects of cyproterone acetate-containing gynaecological therapy; discusses mutagenic potential; no migraine benefit |
 
-Related literature for the other migraine predictions (migraine with brainstem aura) concerns hormonal contraception and thrombosis or stroke risk. This is a safety signal, not evidence of benefit.
+None of these studies directly examines cyproterone acetate as a treatment for migraine disorder, so the evidence level is capped at L5.
 
 ---
 
@@ -88,8 +90,8 @@ Related literature for the other migraine predictions (migraine with brainstem a
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2220482 | Siterone (cancelled) | Tab 50 mg | Not recorded |
-| 2235862 | Siterone (cancelled) | Tab 100 mg | Not recorded |
+| 2220482 | Siterone | Tab 50 mg | Not recorded |
+| 2235862 | Siterone | Tab 100 mg | Not recorded |
 
 ---
 
@@ -97,7 +99,7 @@ Related literature for the other migraine predictions (migraine with brainstem a
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Hormonal antiandrogen (not a conventional cytotoxic). Used in prostate cancer |
+| Cytotoxicity Classification | Hormonal antiandrogen, not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
@@ -107,11 +109,10 @@ Related literature for the other migraine predictions (migraine with brainstem a
 
 ## Safety Considerations
 
-- **Drug Interactions**: The only interaction data compiled is pharmacological: the drug's target is the androgen receptor. No drug-drug interaction details are available.
-- **Thrombosis risk**: Literature retrieved for related predictions consistently links cyproterone-containing contraceptives to venous thromboembolism, altered thrombin generation and interaction with factor V Leiden. Migraine with aura is also a recognised stroke-risk concern with combined hormonal products. This is relevant to any migraine use.
-- **Long-term effects**: Concerns about possible mutagenic potency have been discussed, although a large multicentre analysis (2,506 patients) was cited as not finding an increase.
+- **Drug Interactions**: Pharmacology data lists the androgen receptor as the main target of cyproterone acetate. No drug-drug interaction details with severity levels are available.
+- **Thrombotic risk (from related literature)**: Cyproterone acetate-containing contraceptives are consistently associated with increased venous thromboembolism risk and prothrombotic haemostatic changes in the retrieved literature. Hormonal contraception is also linked to vascular risk in migraine with aura.
 
-Please refer to the package insert for full safety information. Label warnings and contraindications could not be retrieved, and this is a blocking gap for safety screening.
+Please refer to the package insert for further safety information.
 
 ---
 
@@ -120,16 +121,13 @@ Please refer to the package insert for full safety information. Label warnings a
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model inference only. There are no clinical trials, the literature shows no therapeutic effect on migraine, and the safety literature (thrombosis, stroke risk) points in the adverse direction. The drug also has no valid New Zealand licence.
+No clinical trial or publication shows a therapeutic benefit of cyproterone acetate in migraine disorder. The prediction score is high, but the available evidence is indirect, and hormonal exposure may aggravate migraine and add thrombotic risk.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications (from the Medsafe website) to complete safety screening
-- Mechanism of action data (from DrugBank)
-- Evidence of therapeutic benefit in migraine, such as controlled studies
-- A thrombosis and stroke risk assessment for migraine populations
-- Clarification of the regulatory pathway, since all current New Zealand licences are cancelled
-
-**Other predictions (for context):** Amenorrhea is the only other prediction with trial evidence (a Phase 4 study, NCT01103518, n=100, status unknown, in irregular cycles of hyperandrogenic origin). It reaches evidence level L3 and is better framed as a research question on cycle regulation in hyperandrogenism. The thrombophilia-related predictions (thrombophilia, antithrombin deficiency, heparin cofactor 2 deficiency, factor 5 excess) reflect adverse risk associations, and use in these conditions is not supported and could cause harm.
+- Detailed mechanism of action data
+- Package insert warnings and contraindications
+- Controlled clinical data directly studying cyproterone acetate in migraine
+- A benefit-risk assessment addressing thrombotic and vascular risk
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

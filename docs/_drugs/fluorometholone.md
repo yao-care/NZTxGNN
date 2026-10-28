@@ -4,17 +4,17 @@ title: Fluorometholone
 parent: Model Prediction Only (L5)
 nav_order: 206
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Fluorometholone: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Uveitis, iritis, iridocyclitis…"
 monitor_inn: "FLUOROMETHOLONE"
-predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis", "lens-induced iridocyclitis"]
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
+description: "Fluorometholone: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluorometholone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluorometholone: From Ocular Inflammation (Uveitis and Conjunctivitis) to Postinfectious Vasculitis
+## Fluorometholone: Postinfectious vasculitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Among the other top-ranked predictions, only **punctate epithelial keratoconjunc
 
 | Item | Content |
 |------|------|
-| Original Indication | Uveitis, iritis, iridocyclitis, atopic/vernal/papillary conjunctivitis, corneal ulcer and related eye conditions (from the knowledge graph; the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Postinfectious vasculitis |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -98,8 +98,8 @@ Both authorizations are cancelled, and the records contain no approved indicatio
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 264415 | FML | Eye drops 0.1% | Not recorded (cancelled) |
-| 284866 | Flucon | Eye drops 0.1% | Not recorded (cancelled) |
+| 264415 | FML | Eye drops 0.1% | Not recorded (valid) |
+| 284866 | Flucon | Eye drops 0.1% | Not recorded (valid) |
 
 ---
 

@@ -6,7 +6,7 @@ nav_order: 243
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Iron: predicted new indication Top-ranked: vitamin B12- and folate-independent constitutional megalo… (evidence level L5). Approved use: Iron deficiency anemia (also folic acid deficiency anemia…"
+description: "Iron: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Iron deficiency anemia (also folic acid deficiency anemia…"
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Iron: From Iron Deficiency Anemia to Plummer-Vinson Syndrome
+## Iron: From Iron Deficiency Anemia to vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **vitamin B12- and folate-independent
 |------|------|
 | Original Indication | Iron deficiency anemia (also folic acid deficiency anemia, anemia of prematurity, hypochromic, microcytic and deficiency anemias). No approved indication text is available for the New Zealand licence. |
 | Predicted New Indication | Top-ranked: vitamin B12- and folate-independent constitutional megaloblastic anemia. Best-supported: Plummer-Vinson syndrome (rank 2) |
-| TxGNN Prediction Score | 99.89% (rank 1 prediction); 99.89% (Plummer-Vinson syndrome) |
+| TxGNN Prediction Score | 0.9989 (rank 1 prediction); 0.9989 (Plummer-Vinson syndrome) |
 | Evidence Level | L5 for the rank 1 prediction; L4 for Plummer-Vinson syndrome |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1 prediction); Plummer-Vinson syndrome is a research question |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **vitamin B12- and folate-independent
 
 Detailed mechanism of action data is not available. Based on known information, iron is a replacement mineral. Its efficacy in iron deficiency anemia is established, and it is the standard way to correct the underlying deficiency.
 
-**Rank 1 (megaloblastic anemia):** This prediction is not mechanistically plausible. Megaloblastic anemia arises from impaired DNA synthesis (B12/folate pathways or inherited defects), not iron deficiency. With no trials or literature, the high score likely reflects proximity to other anemia terms in the knowledge graph.
+**Rank 1 (megaloblastic anemia):** This prediction is not mechanistically plausible. Megaloblastic anemia arises from impaired DNA synthesis (B12/folate pathways or inherited defects), not iron deficiency. With no trials or literature, the high score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Rank 2 (Plummer-Vinson syndrome):** This is the most credible prediction. The syndrome is defined by iron deficiency anemia, dysphagia and esophageal webs. Case reports and reviews describe dysphagia improving, and webs regressing, once iron is replaced. This is partly on-label use (treating the iron deficiency) rather than true repurposing, and benefit for the esophageal manifestations rests on observational and case-level sources only.
 
@@ -110,7 +110,7 @@ No RCTs were found. Literature retrieved for the other predicted indications was
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2401088 | Ferinject (cancelled) | Inj 50 mg per ml, 10 ml vial | Not available |
+| 2401088 | Ferinject (valid) | Inj 50 mg per ml, 10 ml vial | Not available |
 
 ---
 

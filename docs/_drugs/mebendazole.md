@@ -6,9 +6,9 @@ nav_order: 281
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Mebendazole: predicted new indication Acne (evidence level L5). Approved use: Enterobiasis, ascaridiasis, trichuriasis"
 monitor_inn: "MEBENDAZOLE"
 predicted_indications: ["acne (disease)"]
+description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mebendazole
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Mebendazole: From Enterobiasis, Ascaridiasis and Trichuriasis to Acne
+## Mebendazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **acne**, but there are **0 cli
 
 | Item | Content |
 |------|------|
-| Original Indication | Enterobiasis, ascaridiasis, trichuriasis (from the knowledge graph; the approved indication text in the New Zealand licence records is blank) |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.20% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 2 (1 valid, 1 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **acne**, but there are **0 cli
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Mebendazole is generally understood to be a benzimidazole anthelmintic that inhibits parasite tubulin polymerisation, and its efficacy against intestinal nematodes is established.
 
-Any link to acne is speculative. Antiproliferative or anti-inflammatory effects (for example via tubulin or hedgehog signalling) have been proposed in principle, but nothing in the supplied data supports them. The only basis for this prediction is the high TxGNN knowledge-graph score. The link has not been biologically validated, and no similarity analysis between the original and new indications is available.
+Any link to acne is speculative. Antiproliferative or anti-inflammatory effects (for example via tubulin or hedgehog signalling) have been proposed in principle, but nothing in the supplied data supports them. The only basis for this prediction is the high TxGNN TxGNN model (deep learning) score. The link has not been biologically validated, and no similarity analysis between the original and new indications is available.
 
 ---
 

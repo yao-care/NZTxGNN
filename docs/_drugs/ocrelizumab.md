@@ -6,9 +6,9 @@ nav_order: 332
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Progressive multiple sclerosis"
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
+description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ocrelizumab
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Ocrelizumab: From Progressive Multiple Sclerosis to HER2-Positive Breast Carcinoma
+## Ocrelizumab: HER2 positive breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Progressive multiple sclerosis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HER2 positive breast carcinoma |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, ocrelizumab is a humanized anti-CD20 monoclonal antibody that depletes B cells. Its efficacy in multiple sclerosis has been demonstrated, but the data compiled for this report do not show a mechanistic link to HER2-positive breast carcinoma.
 
-The original indication (an autoimmune neurological disease) and the predicted indication (a breast cancer subtype) are biologically quite distant. The compiled data give no evidence that CD20-directed B-cell depletion is relevant to HER2-driven tumours. The high TxGNN score (0.999) is a computational signal only and should be treated as a hypothesis, not as evidence of efficacy.
+The original indication (an autoimmune neurological disease) and the predicted indication (a breast cancer subtype) are biologically quite distant. The compiled data give no evidence that CD20-directed B-cell depletion is relevant to HER2-driven tumours. The high TxGNN score (0.9989) is a computational signal only and should be treated as a hypothesis, not as evidence of efficacy.
 
-The same applies to the other breast cancer subtypes predicted for this drug (normal breast-like subtype, progesterone-receptor positive, luminal A or B, and progesterone-receptor negative; scores 99.80–99.81%). None has clinical trials, and the only literature returned (for luminal A/B) concerns multiple sclerosis and other immune conditions, not breast cancer.
+The same applies to the other breast cancer subtypes predicted for this drug (normal breast-like subtype, progesterone-receptor positive, luminal A or B, and progesterone-receptor negative; scores 99.80–0.9981). None has clinical trials, and the only literature returned (for luminal A/B) concerns multiple sclerosis and other immune conditions, not breast cancer.
 
 ## Clinical Trial Evidence
 
@@ -76,8 +76,8 @@ For the lower-ranked prediction "breast tumor luminal A or B", 18 publications w
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2717441 | Ocrevus SC (cancelled) | Inj 40 mg per ml, 23 ml vial | Not available |
-| 2540789 | Ocrevus (cancelled) | Inj 30 mg per ml, 10 ml vial | Not available |
+| 2717441 | Ocrevus SC (valid) | Inj 40 mg per ml, 23 ml vial | Not available |
+| 2540789 | Ocrevus (valid) | Inj 30 mg per ml, 10 ml vial | Not available |
 
 ## Safety Considerations
 

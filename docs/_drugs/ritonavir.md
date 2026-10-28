@@ -6,9 +6,9 @@ nav_order: 408
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease / AIDS"
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ritonavir
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Ritonavir: From HIV/AIDS to Feline Acquired Immunodeficiency Syndrome
+## Ritonavir: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease / AIDS; chronic hepatitis C virus infection (from the TxGNN knowledge graph; no approved indication text is available from the New Zealand licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,8 +60,8 @@ Ritonavir is an HIV-1 protease inhibitor that is also widely used as a CYP3A4 in
 Feline immunodeficiency virus (FIV) is a lentivirus, like HIV, and has a protease with similarity to the HIV-1 enzyme. This offers a plausible mechanistic rationale. The very high TxGNN score probably reflects the drug's similarity to approved HIV/AIDS use. However, the link cannot be verified: no trials or publications were retrieved for this indication.
 
 Note also that two other predictions were returned and are weaker or only indirectly supported:
-- **Simian immunodeficiency virus (SIV) infection** (score 99.92%, evidence level L4): this is mainly a non-human primate model of HIV, so it is useful as a research model rather than as a separate repurposing target.
-- **A rare neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.92%, L5): no plausible mechanistic link is evident, and the score appears to be a graph-based artifact.
+- **Simian immunodeficiency virus (SIV) infection** (score 0.9992, evidence level L4): this is mainly a non-human primate model of HIV, so it is useful as a research model rather than as a separate repurposing target.
+- **A rare neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9992, L5): no plausible mechanistic link is evident, and the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

@@ -6,9 +6,9 @@ nav_order: 379
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Prednisone: predicted new indication Alopecia areata (evidence level L3). Approved use: Autoimmune disease, adrenocortical insufficiency, Crohn disease…"
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
+description: "Prednisone: predicted new indication Alopecia areata (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Prednisone
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Prednisone: From Autoimmune and Inflammatory Disease to Alopecia Areata
+## Prednisone: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **no 
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease, adrenocortical insufficiency, Crohn disease, acute lymphoblastic leukaemia and others (approved indication text is not available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -84,10 +84,10 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2608731 | Prednisone Clinect | Tab 5 mg | Not available (cancelled) |
-| 2608758 | Prednisone Clinect | Tab 20 mg | Not available (cancelled) |
-| 2608723 | Prednisone Clinect | Tab 2.5 mg | Not available (cancelled) |
-| 2608715 | Prednisone Clinect | Tab 1 mg | Not available (cancelled) |
+| 2608731 | Prednisone Clinect | Tab 5 mg | Not available (valid) |
+| 2608758 | Prednisone Clinect | Tab 20 mg | Not available (valid) |
+| 2608723 | Prednisone Clinect | Tab 2.5 mg | Not available (valid) |
+| 2608715 | Prednisone Clinect | Tab 1 mg | Not available (valid) |
 
 ## Safety Considerations
 
@@ -102,14 +102,14 @@ Please refer to the package insert for further safety information, as label warn
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is consistent and the literature includes randomised trials and case series. However, those are mostly small or older studies, prednisone is used mainly as an adjunct to methotrexate or baricitinib, and relapse after withdrawal and steroid toxicity limit long-term use. No clinical trials are registered, and no valid New Zealand licence is currently held.
+The mechanism is consistent and the literature includes randomised trials and case series. However, those are mostly small or older studies, prednisone is used mainly as an adjunct to methotrexate or baricitinib, and relapse after withdrawal and steroid toxicity limit long-term use.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data
 - Confirmation of the design of the randomised studies, which was inferred from titles
 - A plan to limit long-term steroid exposure, such as short courses or use as an adjunct
-- Clarification of the regulatory pathway, since all four New Zealand licences are cancelled
+- Clarification of the regulatory pathway, since the drug is marketed in New Zealand with all four licences valid (4 valid licences of 4)
 
 **Other predicted indications (for reference):** Tenosynovitis has indirect, heterogeneous evidence and is a research question. Alopecia mucinosis has only case reports and is on Hold, pending differentiation of benign from lymphoma-associated disease. The remaining predictions (telogen effluvium, folliculitis decalvans, and several rare genetic or ill-defined conditions) have no supporting evidence and are on Hold.
 ## Disclaimer

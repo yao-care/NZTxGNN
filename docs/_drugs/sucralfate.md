@@ -48,10 +48,10 @@ supported by **no registered clinical trials** but **10 publications**, includin
 |------|------|
 | Original Indication | Duodenal ulcer (from the knowledge graph; the New Zealand licence has no indication text recorded) |
 | Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.37% |
+| TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L2 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -112,7 +112,7 @@ Two small randomized trials and several clinical reports suggest a benefit of su
 
 ---
 
-**Note on the second prediction (duodenal obstruction):** Its TxGNN score is high (99.30%), but the evidence level is L5 and the recommendation is **Hold**. There is no clear mechanistic link, because sucralfate's mucosal protection does not treat a mechanical obstruction. None of the retrieved literature shows sucralfate treating obstruction. The score likely reflects network proximity to duodenal ulcer.
+**Note on the second prediction (duodenal obstruction):** Its TxGNN score is high (0.9930), but the evidence level is L5 and the recommendation is **Hold**. There is no clear mechanistic link, because sucralfate's mucosal protection does not treat a mechanical obstruction. None of the retrieved literature shows sucralfate treating obstruction. The score likely reflects network proximity to duodenal ulcer.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

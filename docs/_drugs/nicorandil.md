@@ -4,17 +4,17 @@ title: Nicorandil
 parent: Moderate Evidence (L3-L4)
 nav_order: 320
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Nicorandil: predicted new indication Benign prostatic hyperplasia (evidence level L4). Approved use: Chronic stable angina pectoris"
+description: "Nicorandil: predicted new indication benign prostatic hyperplasia (disease) (evidence level L4). Approved use: Chronic stable angina pectoris"
 monitor_inn: "NICORANDIL"
-predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis susceptibility", "osteoarthritis"]
+predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
 ---
 
 # Nicorandil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Nicorandil: From Angina Pectoris to Benign Prostatic Hyperplasia
+## Nicorandil: From Angina Pectoris to benign prostatic hyperplasia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Nicorandil is a potassium channel opener and nitric oxide donor, used in several
 |------|------|
 | Original Indication | Chronic stable angina pectoris (from general pharmacology information; the New Zealand licence records contain no indication text) |
 | Predicted New Indication | Benign prostatic hyperplasia |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -88,8 +88,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2669250 | Max Health | Tab 20 mg | Not recorded (licence cancelled) |
-| 2669242 | Max Health | Tab 10 mg | Not recorded (licence cancelled) |
+| 2669250 | Max Health | Tab 20 mg | Not recorded (licence valid) |
+| 2669242 | Max Health | Tab 10 mg | Not recorded (licence valid) |
 
 ---
 
@@ -106,14 +106,14 @@ The interaction data contain only pharmacological target information (Kir6.1 and
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.71%), but the supporting evidence is limited to one animal study and two review articles from a single research group, with no human trials. Nicorandil currently has no valid licence in New Zealand. This should be treated as a research question rather than a candidate for immediate development.
+The TxGNN score is high (0.9971), but the supporting evidence is limited to one animal study and two review articles from a single research group, with no human trials. Nicorandil is currently marketed in New Zealand, with 2 valid licences of 2. This should be treated as a research question rather than a candidate for immediate development.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Confirmation in human studies, such as a pilot trial measuring prostatic blood flow and LUTS scores
 - A review of the blood pressure effects of nicorandil in older men, who often take other antihypertensive or BPH medications
-- A regulatory pathway assessment, given that all New Zealand licences are cancelled
+- A regulatory pathway assessment, given that Nicorandil is marketed in New Zealand with 2 valid licences of 2
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

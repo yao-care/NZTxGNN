@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Anagrelide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 39
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
-description: "Anagrelide: predicted new indication Reactive thrombocytosis (evidence level L4). Approved use: Thrombocythemia"
 monitor_inn: "Anagrelide"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
+last_modified_at: 2026-10-27
+description: "Anagrelide: predicted new indication reactive thrombocytosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Anagrelide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,109 +33,89 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Anagrelide: From Thrombocythemia to Reactive Thrombocytosis
+## Anagrelide: PDE3 inhibitor / platelet-lowering agent → reactive thrombocytosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Anagrelide is a platelet-lowering drug originally used to treat thrombocythemia and familial thrombocytosis.
-The TxGNN model predicts it may be effective for **reactive thrombocytosis**, but there are **0 registered clinical trials** and only **10 publications** (mostly reviews and case reports) that touch on the topic.
-This is a model prediction with weak clinical support, and the clinical rationale for treatment is doubtful.
-
----
+Anagrelide is a platelet-lowering medicine that acts on megakaryocyte maturation and is reported to inhibit phosphodiesterase 3A (PDE3A).
+The TxGNN model predicts it may be effective for **reactive thrombocytosis**, but there are **0 clinical trials** and only indirect literature (10 publications, mostly reviews and case reports on essential thrombocythaemia), so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Thrombocythemia; familial thrombocytosis (from the knowledge graph, as no approved indication text is available in the New Zealand licence record) |
-| Predicted New Indication | Reactive thrombocytosis |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | reactive thrombocytosis |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Anagrelide lowers platelet counts by inhibiting megakaryocyte maturation and differentiation. This is reported to involve PDE3 inhibition and suppression of megakaryocyte transcription factors such as GATA-1 and FOG-1. Detailed mechanism of action data was not available in the data compiled for this report, so this description draws on general literature knowledge. A PDE3A target link for anagrelide is listed in the interaction data.
+Detailed mechanism of action data is not available in the data compiled for this report. From general literature knowledge, anagrelide lowers platelet count by inhibiting megakaryocyte maturation and differentiation. This is reported to involve PDE3 inhibition and suppression of megakaryocyte transcription factors such as GATA-1 and FOG-1. A PDE3A interaction is also recorded in the pharmacology data.
 
-Mechanistically, a drug that lowers platelets could in principle act in any form of thrombocytosis. The high TxGNN score most likely reflects the similarity of this condition to the drug's known indications (essential thrombocythemia and familial thrombocytosis).
+Mechanistically, lowering platelets could work in any raised-platelet state. The model's high score most likely reflects similarity to clonal thrombocytosis conditions such as essential thrombocythaemia.
 
-However, the clinical logic is weak. Reactive (secondary) thrombocytosis is driven by an underlying condition such as inflammation, iron deficiency, infection, splenectomy or malignancy. It is usually self-limited, benign and carries low thrombotic risk, so platelet-lowering therapy is generally not indicated. The literature supports this: the reviews found distinguish reactive from clonal thrombocytosis mainly to decide who needs cytoreductive treatment, and they state that reactive forms do not generally require it.
-
----
+However, the clinical rationale is weak. Reactive (secondary) thrombocytosis is driven by an underlying condition such as inflammation, iron deficiency, infection, splenectomy or malignancy. It is usually self-limited and benign, with low thrombotic risk. The literature reviewed states that reactive thrombocytosis generally needs no platelet-lowering therapy. The prediction is therefore a computational result, not a clinical signal.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-No randomised controlled trials were found. The publications are reviews, case reports and a small retrospective series. The table lists the most relevant ones.
+None of these studies tests anagrelide in reactive thrombocytosis. They concern essential thrombocythaemia or thrombocytosis in general, and mostly mention reactive thrombocytosis as a condition to be distinguished.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Review | Expert Rev Anticancer Ther | Update on anagrelide's mechanisms and therapeutic potential; reactive thrombocytosis needs no therapy, while clonal thrombocytosis may need treatment |
-| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Review | Leuk Lymphoma | Critical review of anagrelide in essential thrombocythemia and related disorders; cytoreduction is for clonal, not reactive, thrombocytosis |
-| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Review | Med J Aust | Essential thrombocythaemia diagnosis requires excluding reactive thrombocytosis; platelet-lowering therapy for counts above 1000 x 10⁹/L |
-| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Review | Leuk Res | Role of thrombocytapheresis in extreme thrombocytosis in myeloproliferative neoplasms; medical cytoreduction remains the mainstay |
-| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Review | Am J Med Sci | Clinical spectrum of thrombocytosis and thrombocythemia |
-| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Review | Rinsho Ketsueki | Diagnosis and treatment of essential thrombocythemia, including differential diagnosis from reactive thrombocytosis; anagrelide listed among options |
-| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Retrospective case series | Pediatr Blood Cancer | Compares essential and reactive thrombocythemia in 12 children |
-| [38455691](https://pubmed.ncbi.nlm.nih.gov/38455691/) | 2024 | Case report | Eur J Case Rep Intern Med | Acute myocardial infarction in a patient with essential thrombocythaemia treated with anagrelide |
-| [27276864](https://pubmed.ncbi.nlm.nih.gov/27276864/) | 2016 | Case report | Srp Arh Celok Lek | Essential thrombocythemia with ankylosing spondylitis treated with anagrelide, DMARDs and etanercept |
-| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Case report | Medicine | Digit replantation in a patient with thrombocytosis after splenectomy |
-
----
+| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Review | Expert Rev Anticancer Ther | Update on anagrelide mechanisms and therapeutic potential. Reactive thrombocytosis needs no treatment, whereas clonal thrombocytosis may. |
+| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Review | Leuk Lymphoma | Critical review of anagrelide in essential thrombocythaemia. Reactive thrombocytosis is often inconsequential. |
+| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Review | Med J Aust | Essential thrombocythaemia review. Diagnosis requires excluding reactive thrombocytosis. |
+| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Review | Rinsho Ketsueki | Diagnosis and treatment of essential thrombocythaemia, including differentiation from reactive thrombocytosis. Anagrelide is among the drugs listed. |
+| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Review | Am J Med Sci | Clinical spectrum of thrombocytosis and thrombocythaemia. |
+| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Review | Leuk Res | Role of thrombocytapheresis in extreme thrombocytosis in myeloproliferative neoplasms. |
+| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Retrospective case series | Pediatr Blood Cancer | Retrospective analysis of 12 children comparing essential and reactive thrombocythaemia. |
+| [38455691](https://pubmed.ncbi.nlm.nih.gov/38455691/) | 2024 | Case report | Eur J Case Rep Intern Med | Acute myocardial infarction in a patient with essential thrombocythaemia treated with anagrelide. |
+| [27276864](https://pubmed.ncbi.nlm.nih.gov/27276864/) | 2016 | Case report | Srp Arh Celok Lek | Essential thrombocythaemia with ankylosing spondylitis treated with anagrelide and other agents. |
+| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Case report | Medicine | Digit replantation in a patient with thrombocytosis after splenectomy. |
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2583054 | Agrylin (cancelled) | Cap 0.5 mg | Not available |
-
----
+| 2583054 | Agrylin | Cap 0.5 mg | Not recorded in the local data |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Not a conventional cytotoxic; used as a platelet-lowering agent in myeloproliferative disorders |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (action is mainly on platelets) |
+| Cytotoxicity Classification | Not a conventional cytotoxic; acts as a platelet-lowering agent. Please refer to the package insert warnings and precautions. |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions; blood counts are generally monitored |
+| Monitoring Items | Platelet count and complete blood count; please also refer to the package insert |
 | Handling Protection | Please refer to the package insert warnings and precautions |
-
----
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (knowledge graph, not label text)**: The knowledge graph links anagrelide to contraindications or cautions in liver failure and liver disease, kidney disease, gallbladder disease, pyoureter, thrombocytopenia, blood coagulation disease, heart disease and cardiovascular disease, anaemia (including macrocytic anaemia), interstitial lung disease, eosinophilic pneumonia, pulmonary eosinophilia, and high output heart failure.
-- **Drug Interactions**: The interaction query returned one entry, a pharmacological target link to phosphodiesterase 3A (PDE3A). It is not a drug-drug interaction and has no severity rating.
-- A case report describes acute myocardial infarction in a patient with essential thrombocythaemia treated with anagrelide, which is consistent with the cardiovascular cautions above.
+Package insert warnings and contraindications are not available in the data compiled for this report. Please refer to the package insert for safety information.
 
-Package insert warnings and contraindications for New Zealand were not available. Please refer to the package insert for full safety information.
-
----
+- **Drug Interactions**: The only interaction recorded is a pharmacological target relationship with phosphodiesterase 3A (PDE3A). It is not a drug-drug interaction and carries no severity level.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone: there are no clinical trials, and the literature consists of reviews and case reports that do not test anagrelide in reactive thrombocytosis. Reactive thrombocytosis is usually benign and does not normally need platelet-lowering therapy, and anagrelide carries cardiovascular and other cautions. The product's only New Zealand licence is cancelled.
+No clinical trial or study directly examines anagrelide in reactive thrombocytosis, so the evidence level is L5. Reactive thrombocytosis is usually benign and self-limited and does not normally call for platelet-lowering therapy. The high model score is not enough to justify moving forward.
 
 **To proceed, the following is needed:**
-- A clear clinical need, such as a defined subgroup of reactive thrombocytosis with extreme counts and a documented thrombotic risk
-- Detailed mechanism of action data
-- The New Zealand package insert warnings and contraindications, with a review of the cardiovascular risk
-- Supporting clinical data, such as a pilot study in a defined patient subgroup
-- Clarification of the regulatory pathway, since there is currently no valid New Zealand authorisation
+- Clinical or observational data showing a patient group with reactive thrombocytosis who would benefit from platelet lowering (for example, extreme or thrombotic cases)
+- Package insert warnings and contraindications from Medsafe
+- Confirmed mechanism of action data from DrugBank
+- A risk-benefit assessment, given cardiovascular and other safety concerns in the label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

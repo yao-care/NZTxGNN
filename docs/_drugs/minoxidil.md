@@ -48,10 +48,10 @@ but there are **no registered clinical trials** and only **3 publications** (cas
 |------|------|
 | Original Indication | Hypertension and alopecia (the New Zealand licence records contain no indication text) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -78,8 +78,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2662981 | Minoxidil Roma | Tablet 10 mg | Not recorded (licence cancelled) |
-| 300438 | Loniten | Tablet 10 mg | Not recorded (licence cancelled) |
+| 2662981 | Minoxidil Roma | Tablet 10 mg | Not recorded (licence valid) |
+| 300438 | Loniten | Tablet 10 mg | Not recorded (licence valid) |
 
 ## Safety Considerations
 
@@ -93,7 +93,7 @@ For full warnings and contraindications, please refer to the package insert.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The model score is very high and the mechanism is plausible, with three recent case-level reports in this disease. However, all of them use combination therapy, there are no registered trials, and minoxidil has no currently valid licence in New Zealand. The evidence supports further investigation, not routine use.
+The model score is very high and the mechanism is plausible, with three recent case-level reports in this disease. However, all of them use combination therapy, there are no registered trials, and although minoxidil is marketed in New Zealand with 2 valid licences of 2, this does not establish use for this disease. The evidence supports further investigation, not routine use.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for minoxidil from DrugBank

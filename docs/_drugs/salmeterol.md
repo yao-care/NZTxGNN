@@ -4,17 +4,17 @@ title: Salmeterol
 parent: High Evidence (L1-L2)
 nav_order: 420
 evidence_level: L1
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Pulmonary emphysema, intrinsic asthma, allergic asthma"
 monitor_inn: "SALMETEROL"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **7** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-## Salmeterol: From Pulmonary Emphysema and Asthma to Bronchitis
+## Salmeterol: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This is largely an extension within the same obstructive airway disease spectrum
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary emphysema, intrinsic asthma, allergic asthma |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -103,12 +103,12 @@ Because of this overlap, the prediction is reasonable, but it reflects an extens
 
 ## New Zealand Market Information
 
-Both New Zealand authorizations are cancelled, and no currently valid licences exist.
+This drug is marketed in this country, with 2 valid licences out of 2.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 479489 | Serevent Accuhaler | Powder for inhalation, 50 mcg per dose, breath activated | Not available (cancelled) |
-| 2243903 | Serevent | Aerosol inhaler CFC-free, 25 mcg per dose | Not available (cancelled) |
+| 479489 | Serevent Accuhaler | Powder for inhalation, 50 mcg per dose, breath activated | Not available (valid) |
+| 2243903 | Serevent | Aerosol inhaler CFC-free, 25 mcg per dose | Not available (valid) |
 
 ---
 
@@ -130,7 +130,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 trials and randomized and observational studies support salmeterol (mainly with fluticasone) in COPD populations that include chronic bronchitis, giving an L1 evidence level. However, the use overlaps with existing indications, and no NZ licence is currently valid, so any pursuit depends on product availability.
+Multiple completed Phase 3 trials and randomized and observational studies support salmeterol (mainly with fluticasone) in COPD populations that include chronic bronchitis, giving an L1 evidence level.
 
 **To proceed, the following is needed:**
 - Confirm which formulations can be supplied in New Zealand, since both licences are cancelled
@@ -147,8 +147,8 @@ Multiple completed Phase 3 trials and randomized and observational studies suppo
 |------|------|------|------|
 | Obstructive lung disease | L1 | Proceed with Guardrails | On-label spectrum extension; large Phase 3/4 trials, mostly of salmeterol/fluticasone combinations |
 | Asthma | L1 | Proceed with Guardrails | Already an original indication, so this is established use rather than repurposing |
-| Atopic eczema | L4 | Research Question | Only indirect preclinical and mechanistic data; no clinical trials |
-| Respiratory malformation | L4 | Hold | Weak link; trials were in cystic fibrosis and asthma in pregnancy |
+| Atopic eczema | L5 | Research Question | Only indirect preclinical and mechanistic data; no clinical trials |
+| Respiratory malformation | L5 | Hold | Weak link; trials were in cystic fibrosis and asthma in pregnancy |
 | Rienhoff syndrome | L5 | Hold | No trials or literature; computational prediction only |
 | Asthma-related traits, susceptibility to | L5 | Hold | Genetic trait category, not a treatable disease |
 ## Disclaimer

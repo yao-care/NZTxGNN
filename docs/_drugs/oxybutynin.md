@@ -6,9 +6,9 @@ nav_order: 343
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Overactive bladder, neurogenic bladder, cauda equina syndrome"
 monitor_inn: "OXYBUTYNIN"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
+description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Oxybutynin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Oxybutynin: From Overactive Bladder to Restless Legs Syndrome
+## Oxybutynin: Restless legs syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **restless legs syndrome**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Overactive bladder, neurogenic bladder, cauda equina syndrome (from the knowledge graph; the New Zealand licence record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Restless legs syndrome |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,8 +60,8 @@ Currently, detailed mechanism of action data is not available. Based on known in
 RLS is mainly associated with dopaminergic dysfunction and brain iron deficiency, which are not obviously related to muscarinic blockade. Anticholinergic drugs may also worsen sleep quality and cognition. The very high TxGNN score therefore cannot be mechanistically verified from the data compiled for this report.
 
 Two other predictions were also reviewed:
-- **Gastroduodenitis** (score 99.62%): no trials or literature. Reduced gastric motility and secretion offers a theoretical rationale, but anticholinergics can worsen reflux.
-- **Peptic ulcer disease** (score 99.31%): evidence level L4, with only weak, dated literature (see below).
+- **Gastroduodenitis** (score 0.9962): no trials or literature. Reduced gastric motility and secretion offers a theoretical rationale, but anticholinergics can worsen reflux.
+- **Peptic ulcer disease** (score 0.9931): evidence level L4, with only weak, dated literature (see below).
 
 ## Clinical Trial Evidence
 

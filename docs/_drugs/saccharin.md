@@ -48,10 +48,10 @@ This is a model-only prediction (a second prediction, ventricular tachycardia, i
 |------|------|
 | Original Indication | Not recorded (the licence records contain no approved indication text) |
 | Predicted New Indication | Obsolete bundle branch block |
-| TxGNN Prediction Score | 99.39% |
+| TxGNN Prediction Score | 0.9939 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Saccharin is a no
 
 No mechanistic link to bundle branch block can be established. The high TxGNN score is a computational output only and is not backed by any clinical trial or published study. In addition, the predicted disease term is flagged as obsolete in the disease ontology, which further reduces its clinical relevance as a repurposing target.
 
-For completeness, the model's second-ranked prediction is **ventricular tachycardia** (score 99.26%). It likewise has no mechanistic link, no trials and no literature. Ventricular tachycardia is a life-threatening arrhythmia with established therapies, so a repurposing claim without clinical evidence would be inappropriate.
+For completeness, the model's second-ranked prediction is **ventricular tachycardia** (score 0.9926). It likewise has no mechanistic link, no trials and no literature. Ventricular tachycardia is a life-threatening arrhythmia with established therapies, so a repurposing claim without clinical evidence would be inappropriate.
 
 ## Clinical Trial Evidence
 
@@ -74,8 +74,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2377268 | Ora-Sweet SF | Suspension | Not recorded (cancelled) |
-| 2377225 | Ora-Blend SF | Suspension | Not recorded (cancelled) |
+| 2377268 | Ora-Sweet SF | Suspension | Not recorded (valid) |
+| 2377225 | Ora-Blend SF | Suspension | Not recorded (valid) |
 
 ## Safety Considerations
 

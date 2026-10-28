@@ -6,9 +6,9 @@ nav_order: 397
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Raltegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "Raltegravir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Raltegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Raltegravir
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Raltegravir: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Raltegravir: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The top-ranked prediction is a veterinary indication with no direct evidence; th
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (the data compiled for this report contains no approved-indication text from the local licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (0 currently valid) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,8 +61,8 @@ Currently, detailed mechanism of action data is not available. Based on known in
 Feline immunodeficiency virus (FIV) is a lentivirus that has its own integrase enzyme, structurally related to HIV-1 integrase. A class-level mechanistic rationale therefore exists. However, the high TxGNN score most likely reflects network proximity to the original HIV/AIDS indications rather than independent evidence. No trials or literature support activity against FIV, and because this is a veterinary indication, its relevance to human clinical development is limited.
 
 Two other predictions were also reviewed:
-- **Simian immunodeficiency virus (SIV) infection** (score 99.78%): Preclinical work in macaque models shows raltegravir-containing regimens act against SIV. This supports the mechanism, but SIV infection is a research model for HIV rather than a human disease, so it does not support a new human indication. Evidence level L4, categorised as a research question.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.77%): No mechanistic link was identified. This rare genetic disorder has no apparent viral or integrase-related pathophysiology, and the score may reflect a graph artefact. It should not be pursued.
+- **Simian immunodeficiency virus (SIV) infection** (score 0.9978): Preclinical work in macaque models shows raltegravir-containing regimens act against SIV. This supports the mechanism, but SIV infection is a research model for HIV rather than a human disease, so it does not support a new human indication. Evidence level L4, categorised as a research question.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9977): No mechanistic link was identified. This rare genetic disorder has no apparent viral or integrase-related pathophysiology. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be pursued.
 
 ## Clinical Trial Evidence
 
@@ -91,8 +91,8 @@ For the related prediction of SIV infection, the data compiled for this report l
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2562960 | Isentress HD (cancelled) | Tab 600 mg | Not available |
-| 2324059 | Isentress (cancelled) | Tab 400 mg | Not available |
+| 2562960 | Isentress HD (valid) | Tab 600 mg | Not available |
+| 2324059 | Isentress (valid) | Tab 400 mg | Not available |
 
 ## Safety Considerations
 
@@ -111,7 +111,7 @@ Please refer to the package insert for further safety information, including war
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is a veterinary indication with no trials or publications, and the high TxGNN score appears to reflect proximity to the original HIV/AIDS indications rather than independent evidence. The SIV literature is preclinical and validates the mechanism but does not support a new human indication. Raltegravir has also no currently valid New Zealand licences.
+The top prediction is a veterinary indication with no trials or publications, and the high TxGNN score appears to reflect proximity to the original HIV/AIDS indications rather than independent evidence. The SIV literature is preclinical and validates the mechanism but does not support a new human indication.
 
 **To proceed, the following is needed:**
 - Mechanism of action data

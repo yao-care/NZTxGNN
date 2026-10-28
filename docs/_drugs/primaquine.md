@@ -4,17 +4,17 @@ title: Primaquine
 parent: Model Prediction Only (L5)
 nav_order: 382
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Plasmodium vivax malaria"
 monitor_inn: "PRIMAQUINE"
 predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
+description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Primaquine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Primaquine: From Plasmodium vivax Malaria to Myiasis
+## Primaquine: Myiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **myiasis** (infestation by fly
 
 | Item | Content |
 |------|------|
-| Original Indication | Plasmodium vivax malaria |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myiasis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The biological link to myiasis is weak. Myiasis is an infestation of tissue by dipteran (fly) larvae, which are multicellular insects. Malaria is caused by a single-celled protozoan. Primaquine has no known activity against fly larvae.
 
-The very high score is most likely a graph artefact. Three related subtypes (furuncular, wound and creeping myiasis) have almost identical scores of about 99.73%. This suggests the signal spread through the disease hierarchy, possibly because the model sees the drug as close to other antiparasitic agents. The score should not be read as evidence of real pharmacological activity.
+The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Three related subtypes (furuncular, wound and creeping myiasis) have almost identical scores of about 0.9973. This suggests the model's signal spread across closely related diseases. The score should not be read as evidence of real pharmacological activity.
 
 ---
 
@@ -85,8 +85,8 @@ Both authorizations are cancelled, so no primaquine product is currently authori
 
 | Authorization Number | Product Name | Dosage Form | Status | Approved Indication |
 |---------|------|------|------|-----------|
-| 2587637 | Sanofi Primaquine | Tab 15 mg | Cancelled | Not recorded in the registry entry |
-| 2664062 | Bayshore | Tab 15 mg | Cancelled | Not recorded in the registry entry |
+| 2587637 | Sanofi Primaquine | Tab 15 mg | Valid | Not recorded in the registry entry |
+| 2664062 | Bayshore | Tab 15 mg | Valid | Not recorded in the registry entry |
 
 ---
 
@@ -108,14 +108,14 @@ Please refer to the package insert for label-level warnings and contraindication
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no literature and no plausible mechanism, since primaquine has no known activity against fly larvae. The high score is probably an artefact of the disease hierarchy. The drug also carries significant hemolysis and methemoglobinemia risks, and it has no valid New Zealand authorization. Together these do not justify further investment for this indication.
+The prediction has no clinical trials, no literature and no plausible mechanism, since primaquine has no known activity against fly larvae. The high score is probably an artefact of the disease hierarchy. Together these do not justify further investment for this indication.
 
 **To proceed, the following is needed:**
 - A mechanistic rationale, or in vitro or in vivo evidence of larvicidal activity, to show a real pharmacological link.
 - A systematic literature search beyond the model's retrieval, to confirm that no relevant reports exist.
 - Package insert warnings and contraindications, and the mechanism of action data, to support any safety assessment.
 - A benefit-risk comparison with the standard treatments for myiasis (such as wound care, larval removal and ivermectin), which are likely safer.
-- A plan for G6PD screening and a regulatory pathway, given that all New Zealand authorizations are cancelled.
+- A plan for G6PD screening and a regulatory pathway, given that the drug is marketed with 2 valid New Zealand authorizations out of 2.
 
 Other predicted indications for primaquine, such as pneumocystosis (as a clindamycin combination) and malaria itself, have much stronger supporting evidence. They would be better candidates for evaluation.
 ## Disclaimer

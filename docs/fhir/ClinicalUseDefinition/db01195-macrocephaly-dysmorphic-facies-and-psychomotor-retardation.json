@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db01195-macrocephaly-dysmorphic-facies-and-psychomotor-retardation",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db01195"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "macrocephaly, dysmorphic facies, and psychomotor retardation"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9951
+    }
+  ]
+}

@@ -4,17 +4,17 @@ title: Polymyxin B
 parent: Moderate Evidence (L3-L4)
 nav_order: 371
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the New Zealand license data"
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
+description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Polymyxin B
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Polymyxin B: From Ophthalmic Antibacterial Combination Products to Bronchitis
+## Polymyxin B: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The evidence is weak, and some of it points to a safety concern with inhaled use
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the New Zealand license data (licensed as eye ointment and eye drops combined with neomycin) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no valid licenses) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,10 +95,10 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 207381 | Maxitrol (cancelled) | Eye ointment 0.1% with neomycin sulphate 0.35% and polymyxin B sulphate 6,000 u per g | Not stated in the record |
-| 207454 | Maxitrol (cancelled) | Eye drops 0.1% with neomycin sulphate 0.35% and polymyxin B sulphate 6,000 u per ml | Not stated in the record |
+| 207381 | Maxitrol (valid) | Eye ointment 0.1% with neomycin sulphate 0.35% and polymyxin B sulphate 6,000 u per g | Not stated in the record |
+| 207454 | Maxitrol (valid) | Eye drops 0.1% with neomycin sulphate 0.35% and polymyxin B sulphate 6,000 u per ml | Not stated in the record |
 
-Both licenses are cancelled and there are no valid single-ingredient or combination licenses. Both products are ophthalmic, so no inhaled or systemic route is currently available in New Zealand.
+Both products are ophthalmic, so no inhaled or systemic route is currently available in New Zealand.
 
 ---
 
@@ -130,9 +130,8 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a high model score, without any registered clinical trial. The literature is small, old, and largely preclinical or safety-focused, and it raises a bronchoconstriction concern with inhaled use. No valid New Zealand license exists, and the previous products were ophthalmic only.
+The prediction rests on a high model score, without any registered clinical trial. The literature is small, old, and largely preclinical or safety-focused, and it raises a bronchoconstriction concern with inhaled use.
 
-Among the other predictions for this drug, **conjunctivitis** has much stronger support. It has several randomized comparisons of polymyxin B/trimethoprim ophthalmic solution versus moxifloxacin or chloramphenicol. However, these studies test a fixed combination, so they do not isolate polymyxin B alone. This looks more like an established topical use than a true repurposing signal. It is worth evaluating separately as a research question.
 
 **To proceed, the following is needed:**
 - Mechanism of action data

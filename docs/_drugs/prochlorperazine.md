@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prochlorperazine: From Schizophrenia to Retinal Dystrophy (Top TxGNN Prediction)
+## Prochlorperazine: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies (Top TxGNN Prediction)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,21 +47,21 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 |------|------|
 | Original Indication | Schizophrenia |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 3 (1 valid, 2 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, prochlorperazine is a phenothiazine dopamine D2 receptor antagonist, and its efficacy in schizophrenia is established.
 
-For the top prediction, retinal dystrophy, no plausible mechanistic link was identified. This is a group of genetic retinal degenerations, and a symptomatic D2 antagonist has no known disease-modifying role. The very high score (99.998%) is most likely an artifact of the knowledge graph rather than evidence of a real pharmacological connection.
+For the top prediction, retinal dystrophy with or without extraocular anomalies, no plausible mechanistic link was identified. This is a group of genetic retinal degenerations, and a symptomatic D2 antagonist has no known disease-modifying role. The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions show the same pattern. They are mostly rare congenital or metabolic conditions (hydranencephaly, congenital disorder of glycosylation, polymicrogyria, atypical glycine encephalopathy, Charcot-Marie-Tooth type 1G) and several forms of myopia. For myopia, dopamine signalling is implicated in eye growth, but the literature generally suggests dopamine agonism is protective, so D2 antagonism is of doubtful benefit.
 
-The one biologically plausible candidate is **manic bipolar affective disorder** (rank 10, score 99.979%). Dopamine antagonism is how antipsychotics control mania and agitation, which is consistent with the original schizophrenia indication. However, newer and better-evidenced antipsychotics are available, so the incremental value of prochlorperazine is uncertain.
+The one biologically plausible candidate is **manic bipolar affective disorder** (rank 10, score 0.9998). Dopamine antagonism is how antipsychotics control mania and agitation, which is consistent with the original schizophrenia indication. However, newer and better-evidenced antipsychotics are available, so the incremental value of prochlorperazine is uncertain.
 
 ## Clinical Trial Evidence
 
@@ -88,8 +88,8 @@ None of these is a controlled efficacy study. Two are safety-focused, and the re
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 2700131 | Prochlorperazine maleate (Brown & Burk) | Tab 3 mg buccal | Valid; indication text not available |
-| 255335 | Stemetil | Inj 12.5 mg per ml, 1 ml | Cancelled; indication text not available |
-| 2528886 | Nausafix | Tab 5 mg | Cancelled; indication text not available |
+| 255335 | Stemetil | Inj 12.5 mg per ml, 1 ml | Valid; indication text not available |
+| 2528886 | Nausafix | Tab 5 mg | Valid; indication text not available |
 
 ## Safety Considerations
 
@@ -104,7 +104,7 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (retinal dystrophy) is supported only by a model score, with no trials, no literature and no plausible mechanism, so it is likely a graph artifact. Manic bipolar affective disorder is biologically plausible but has only historical, low-quality evidence, and better-established alternatives exist, so it should be treated as a research question rather than a repurposing candidate.
+The top prediction (retinal dystrophy with or without extraocular anomalies) is supported only by a TxGNN model (deep learning) score, with no trials, no literature and no plausible mechanism, so it may reflect similarities the model learned between related diseases, not biological evidence. Manic bipolar affective disorder is biologically plausible but has only historical, low-quality evidence, and better-established alternatives exist, so it should be treated as a research question rather than a repurposing candidate.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)

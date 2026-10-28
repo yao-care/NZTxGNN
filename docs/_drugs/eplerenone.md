@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eplerenone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 182
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Eplerenone: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L4). Approved use: Hypertension (hypertensive disorder). No approved indication text i…"
 monitor_inn: "EPLERENONE"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Eplerenone: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Eplerenone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Eplerenone: From Hypertension to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
+## Eplerenone: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are **no registered clinical trials** and the **13 publications** retr
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). No approved indication text is available from the New Zealand licence records, so this is taken from the knowledge-graph indication data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9950 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,8 +95,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2619512 | Inspra (cancelled) | Tab 25 mg | Not available |
-| 2619520 | Inspra (cancelled) | Tab 50 mg | Not available |
+| 2619512 | Inspra (valid) | Tab 25 mg | Not available |
+| 2619520 | Inspra (valid) | Tab 50 mg | Not available |
 
 ---
 
@@ -120,7 +120,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a very high TxGNN score and on preclinical or indirect evidence. No clinical trials target pulmonary hypertension, and no human data address pulmonary pressures. Eplerenone also has no currently valid New Zealand licence, which adds a regulatory barrier.
+The prediction rests on a very high TxGNN score and on preclinical or indirect evidence. No clinical trials target pulmonary hypertension, and no human data address pulmonary pressures.
 
 **To proceed, the following is needed:**
 - Direct clinical evidence in pulmonary hypertension, such as a pilot or Phase 2 study with haemodynamic endpoints

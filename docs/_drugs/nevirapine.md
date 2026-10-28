@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nevirapine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 319
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Nevirapine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Nevirapine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nevirapine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Nevirapine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Nevirapine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (from the knowledge graph, as no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,8 +75,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2640023 | Nevirapine Viatris (cancelled) | Tab 200 mg | Not available |
-| 2014947 | Viramune Suspension (cancelled) | Oral suspension 10 mg per ml | Not available |
+| 2640023 | Nevirapine Viatris (valid) | Tab 200 mg | Not available |
+| 2014947 | Viramune Suspension (valid) | Oral suspension 10 mg per ml | Not available |
 
 ## Safety Considerations
 

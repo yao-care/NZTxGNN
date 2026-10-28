@@ -8,6 +8,7 @@ nav_order: 130
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Dabigatran
@@ -51,8 +52,8 @@ At this stage, a complete repurposing evaluation **cannot be generated**; a "Hol
 | Predicted New Indication | None — TxGNN prediction data unavailable |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (Model prediction only — not yet reached) |
-| New Zealand Market Status | Not marketed (per Evidence Pack) |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
 > **⚠️ Data Quality Notice:** DB14726 may correspond to the active metabolite form of dabigatran rather than the clinically prescribed prodrug dabigatran etexilate (DB06695). The "Not marketed" (not marketed) status and absence of indications may reflect this distinction rather than a true absence from the market. Before proceeding, verify which DrugBank entry is the intended target.

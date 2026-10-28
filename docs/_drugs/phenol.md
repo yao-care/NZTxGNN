@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 Phenol is an active ingredient in a topical combination product (Egopsoryl TA), originally associated with the treatment of dermatitis.
 The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**,
-but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It rests on a graph-based score alone.
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -48,15 +48,15 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Dermatitis |
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 2 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, phenol is part of a topical combination product (with sulphur, menthol and allantoin), and its association with dermatitis comes from the knowledge graph rather than from label text. Mechanistically, there is no established basis for use in the predicted indication.
+Currently, detailed mechanism of action data is not available. Based on known information, phenol is part of a topical combination product (with sulphur, menthol and allantoin), and the score for the predicted indication comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Mechanistically, there is no established basis for use in the predicted indication.
 
 Acrodermatitis chronica atrophicans is the late cutaneous stage of Lyme borreliosis and is treated with antibiotics. Phenol has no known antimicrobial role in this setting. The high score most likely reflects network proximity to other skin diseases, not a pharmacological rationale. The prediction should be treated as a hypothesis only.
 

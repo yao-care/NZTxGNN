@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etanercept
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 184
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Etanercept: predicted new indication Rheumatoid vasculitis (evidence level L4). Approved use: Psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis…"
 monitor_inn: "ETANERCEPT"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Etanercept
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Etanercept: From Inflammatory Arthritis to Rheumatoid Vasculitis
+## Etanercept: Hypermobility of coccyx
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Etanercept is a TNF-blocking fusion protein originally used for inflammatory arthritis, including rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis and juvenile idiopathic arthritis.
-The TxGNN model predicts it may be effective for **rheumatoid vasculitis**, but only **1 clinical trial** (which does not test etanercept for this condition) and a small body of **low-quality literature** relate to this direction.
 Some of that literature actually reports etanercept-associated vasculitis, so the evidence is weak and partly cautionary.
 
 ---
@@ -48,12 +47,12 @@ Some of that literature actually reports etanercept-associated vasculitis, so th
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis, juvenile idiopathic arthritis (taken from the knowledge-graph indication list; the New Zealand licence records contain no indication text) |
-| Predicted New Indication | Rheumatoid vasculitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypermobility of coccyx |
+| TxGNN Prediction Score | 0.9963 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -97,14 +96,13 @@ Other predictions in the list include inflammatory spondylopathy and polyarticul
 
 ## New Zealand Market Information
 
-All four licences are cancelled, and no approved indication text is recorded for them.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2510456 | Enbrel | Inj 50 mg autoinjector | Not recorded (cancelled) |
-| 2382113 | Enbrel | Inj 50 mg prefilled syringe | Not recorded (cancelled) |
-| 2006561 | Enbrel | Inj 25 mg | Not recorded (cancelled) |
-| 2602113 | Enbrel | Inj 25 mg autoinjector | Not recorded (cancelled) |
+| 2510456 | Enbrel | Inj 50 mg autoinjector | Not recorded (valid) |
+| 2382113 | Enbrel | Inj 50 mg prefilled syringe | Not recorded (valid) |
+| 2006561 | Enbrel | Inj 25 mg | Not recorded (valid) |
+| 2602113 | Enbrel | Inj 25 mg autoinjector | Not recorded (valid) |
 
 ---
 
@@ -122,13 +120,12 @@ Please refer to the package insert for formal warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there is no direct efficacy trial for etanercept in rheumatoid vasculitis. The available literature is low-quality and includes reports of etanercept-associated vasculitis, which suggests a paradoxical risk. All New Zealand licences are also cancelled.
+The available literature is low-quality and includes reports of etanercept-associated vasculitis, which suggests a paradoxical risk.
 
 **To proceed, the following is needed:**
 - Direct clinical evidence (trial or well-designed cohort) of etanercept in rheumatoid vasculitis, weighed against the vasculitis risk signal
 - Detailed mechanism of action data
 - Package insert warnings and contraindications for formal safety screening
-- Clarification of New Zealand regulatory status, since no licence is currently valid
 
 **Other predicted indications (for reference):**
 - Inflammatory spondylopathy (L1, Proceed with Guardrails) and polyarticular juvenile rheumatoid arthritis (L1, Proceed with Guardrails) largely overlap with approved indications, so label scope should be confirmed before treating them as new uses.

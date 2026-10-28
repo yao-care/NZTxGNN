@@ -6,9 +6,9 @@ nav_order: 231
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). Approved use: Systemic mastocytosis, gastrointestinal stromal tumour…"
 monitor_inn: "imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
+description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imatinib
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Imatinib: From Systemic Mastocytosis and Chronic Myeloid Leukaemia to Heart Fibrosarcoma
+## Imatinib: Heart fibrosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Among the other top-10 predictions, the best-supported are fibroblastic neoplasm
 
 | Item | Content |
 |------|------|
-| Original Indication | Systemic mastocytosis, gastrointestinal stromal tumour, BCR-ABL1-positive chronic myeloid leukaemia, chronic eosinophilic leukaemia, dermatofibrosarcoma protuberans, hypereosinophilic syndrome (from the knowledge graph; no approved-indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Heart fibrosarcoma |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -108,10 +108,9 @@ The only publication linked to heart fibrosarcoma is a general review. The remai
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2594315 | Imatinib-Rex | Cap 100 mg | Not available (status: cancelled) |
-| 2594323 | Imatinib-Rex | Cap 400 mg | Not available (status: cancelled) |
+| 2594315 | Imatinib-Rex | Cap 100 mg | Not available (status: valid) |
+| 2594323 | Imatinib-Rex | Cap 400 mg | Not available (status: valid) |
 
-Both licences are single-ingredient products and are cancelled, so there is no currently valid imatinib licence in the data compiled for this report.
 
 ---
 
@@ -120,7 +119,6 @@ Both licences are single-ingredient products and are cancelled, so there is no c
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor), not a conventional cytotoxic |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions. The knowledge graph flags neutropenia, thrombocytopenia, agranulocytosis and anaemia as related conditions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Complete blood count, liver function, renal function, fluid status and cardiac status, based on the knowledge-graph contraindication signals |
 | Handling Protection | Please refer to the package insert warnings and precautions |

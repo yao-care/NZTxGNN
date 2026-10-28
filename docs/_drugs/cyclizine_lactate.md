@@ -8,6 +8,7 @@ nav_order: 122
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cyclizine Lactate
@@ -51,8 +52,8 @@ Due to the absence of predictions, regulatory records, and safety data, a full r
 | Predicted New Indication | None — TxGNN returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (insufficient — no predictions, no supporting studies retrieved) |
-| New Zealand Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | **Hold** |
 
 ---

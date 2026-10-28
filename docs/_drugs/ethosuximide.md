@@ -6,9 +6,9 @@ nav_order: 187
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Ethosuximide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Absence epilepsy"
 monitor_inn: "ETHOSUXIMIDE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Ethosuximide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ethosuximide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Ethosuximide: From Absence Epilepsy to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Ethosuximide: Nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Absence epilepsy (the New Zealand licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 NSIAD is a different kind of condition. It is caused by gain-of-function mutations in the vasopressin V2 receptor gene (*AVPR2*), or in some cases *GNAS*. These mutations cause the receptor to signal constantly, so the kidney retains water even when vasopressin is low. No link between T-type calcium channel blockade and this renal mechanism has been established in the available data.
 
-A possible effect of calcium-channel or downstream signalling changes on water handling in the renal collecting duct is purely speculative. The very high TxGNN score (99.91%) is a model output only, with no clinical trial or literature support. It should be treated as a hypothesis to investigate, not as evidence of efficacy.
+A possible effect of calcium-channel or downstream signalling changes on water handling in the renal collecting duct is purely speculative. The very high TxGNN score (0.9991) is a model output only, with no clinical trial or literature support. It should be treated as a hypothesis to investigate, not as evidence of efficacy.
 
 ## New Zealand Market Information
 
@@ -92,7 +92,7 @@ Please refer to the package insert for warnings and contraindications. The label
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score. There are no clinical trials or publications, no documented mechanistic link to NSIAD, and no currently valid New Zealand authorization. The safety data also raise renal and haematological concerns.
+The prediction is supported only by the TxGNN model score. The safety data also raise renal and haematological concerns.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) and a plausible biological link between T-type calcium channel blockade and *AVPR2*/*GNAS*-driven water retention

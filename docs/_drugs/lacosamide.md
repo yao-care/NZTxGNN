@@ -6,9 +6,9 @@ nav_order: 254
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Lacosamide: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the licence data (lacosamide is known as an antiseizu…"
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
+description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lacosamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lacosamide: From Epilepsy (Original Indication Not Recorded in Licence Data) to Migraine Disorder
+## Lacosamide: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Trial results were not available in the data compiled for this report, so effica
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the licence data (lacosamide is known as an antiseizure drug for focal seizures) |
-| Predicted New Indication | Migraine disorder (the top-ranked prediction, manic bipolar affective disorder, has weaker evidence; migraine has the strongest evidence of the 10 predictions reviewed) |
-| TxGNN Prediction Score | 99.87% (for migraine disorder; the top-ranked prediction, manic bipolar affective disorder, scored 99.96%) |
-| Evidence Level | L1 (based on trial design and phase; results not verified) |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 6 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Manic bipolar affective disorder |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 (based on trial design and phase; results not verified) |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -87,13 +87,13 @@ The manic bipolar affective disorder prediction also has a plausible link (share
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2378426 | Vimpat | Tab 150 mg | Not recorded (cancelled) |
-| 2378418 | Vimpat | Tab 150 mg | Not recorded (cancelled) |
-| 2378353 | Vimpat | Tab 50 mg | Not recorded (cancelled) |
-| 2378396 | Vimpat | Tab 100 mg | Not recorded (cancelled) |
-| 2378442 | Vimpat | Tab 200 mg | Not recorded (cancelled) |
+| 2378426 | Vimpat | Tab 150 mg | Not recorded (valid) |
+| 2378418 | Vimpat | Tab 150 mg | Not recorded (valid) |
+| 2378353 | Vimpat | Tab 50 mg | Not recorded (valid) |
+| 2378396 | Vimpat | Tab 100 mg | Not recorded (valid) |
+| 2378442 | Vimpat | Tab 200 mg | Not recorded (valid) |
 
-A sixth licence (2378388, Vimpat Tab 100 mg) is also cancelled. No valid licence currently exists.
+A sixth licence (2378388, Vimpat Tab 100 mg) is also valid. All 6 licences are currently valid.
 
 ## Safety Considerations
 
@@ -108,14 +108,14 @@ For full warnings and contraindications, please refer to the package insert.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Migraine is the only prediction with multiple completed Phase 2/3 randomized trials, a 2026 randomized double-blind publication and a plausible mechanism shared with approved antiseizure migraine preventives. However, no efficacy results or effect sizes were available, and lacosamide currently has no valid New Zealand licence. The other nine predictions (including manic bipolar affective disorder, myofascial pain syndrome and Tourette syndrome) have weak or no supporting evidence and should be held or treated as research questions.
+Migraine is the only prediction with multiple completed Phase 2/3 randomized trials, a 2026 randomized double-blind publication and a plausible mechanism shared with approved antiseizure migraine preventives. The other nine predictions (including manic bipolar affective disorder, myofascial pain syndrome and Tourette syndrome) have weak or no supporting evidence and should be held or treated as research questions.
 
 **To proceed, the following is needed:**
 - Full results from NCT05851781, NCT00440518 and PMID 41863672 (primary outcomes, effect sizes, tolerability)
 - Status clarification for NCT06243692
 - Package insert warnings and contraindications from Medsafe, plus detailed mechanism-of-action data
 - A cardiac safety plan (ECG screening and monitoring for conduction disorders, and review of interacting medicines)
-- Confirmation of regulatory and supply pathway, since all licences are cancelled
+- Confirmation of regulatory and supply pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

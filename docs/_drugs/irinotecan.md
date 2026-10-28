@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Irinotecan
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 242
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L3). Approved use: Metastatic colon cancer and pancreatic adenocarcinoma"
 monitor_inn: "Irinotecan"
 predicted_indications: ["female breast carcinoma"]
+description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Irinotecan
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-## Irinotecan: From Metastatic Colon Cancer and Pancreatic Adenocarcinoma to Female Breast Carcinoma
+## Irinotecan: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**, bu
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic colon cancer and pancreatic adenocarcinoma (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L3 |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 5 (all cancelled) |
+| TxGNN Prediction Score | 0.9908 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -92,7 +92,7 @@ Earlier literature describes irinotecan as having only marginal activity in brea
 
 ## New Zealand Market Information
 
-All five authorizations are cancelled, and no approved indication text is available.
+All five authorizations are valid, and no approved indication text is available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -124,13 +124,12 @@ Package insert warnings and contraindications could not be retrieved, so please 
 **Decision: Hold**
 
 **Rationale:**
-The evidence consists of small Phase 1 studies and indirect data from SN-38 antibody-drug conjugates, with no Phase 3 results for irinotecan in breast cancer. Irinotecan has also been described as having only marginal activity in this disease. All New Zealand licences are cancelled, and package insert safety data are missing. At this stage it is a research question rather than an actionable repurposing candidate.
+The evidence consists of small Phase 1 studies and indirect data from SN-38 antibody-drug conjugates, with no Phase 3 results for irinotecan in breast cancer. Irinotecan has also been described as having only marginal activity in this disease. The drug is marketed in New Zealand, with all 5 licences valid, but package insert safety data are missing. At this stage it is a research question rather than an actionable repurposing candidate.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Results of the PHENOMENAL Phase 2 study and any randomised data on irinotecan or liposomal irinotecan in breast cancer
-- Clarification of the regulatory and supply route, since no valid New Zealand licence currently exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

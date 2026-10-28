@@ -6,9 +6,9 @@ nav_order: 429
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension, congestive heart failure…"
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Spironolactone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Spironolactone: From Hypertension and Heart Failure to Hypotrichosis Simplex of the Scalp
+## Spironolactone: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, congestive heart failure, hyperaldosteronism and primary aldosteronism (from the knowledge graph; no approved-indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Detailed mechanism of action data is not currently available in the data compile
 
 The anti-androgenic action is used clinically in female pattern hair loss, so a general link to hair-follicle biology is plausible. However, hypotrichosis simplex of the scalp is a rare genetic hair-loss disorder (variants in genes such as CDSN, APCDD1 and RPL21) that is not androgen-driven. No direct mechanistic rationale for spironolactone has been established.
 
-The high score of 0.993 is a model prediction only. It likely reflects shared hair-phenotype associations in the knowledge graph rather than a validated mechanism, and it should be treated as a hypothesis.
+The high score of 0.9926 is a model prediction only. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and it should be treated as a hypothesis.
 
-A second prediction, **congenital hypotrichosis milia** (score 99.04%), has the same limitations. The link is indirect and speculative, and there is no clinical evidence for it either.
+A second prediction, **congenital hypotrichosis milia** (score 0.9904), has the same limitations. The link is indirect and speculative, and there is no clinical evidence for it either.
 
 ## Clinical Trial Evidence
 
@@ -76,11 +76,11 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2435179 | Spiractin | Tab 25 mg | Not available (cancelled) |
-| 344877 | Biomed | Oral liq 5 mg per ml | Not available (cancelled) |
-| 2435187 | Spiractin | Tab 100 mg | Not available (cancelled) |
+| 2435179 | Spiractin | Tab 25 mg | Not available (valid) |
+| 344877 | Biomed | Oral liq 5 mg per ml | Not available (valid) |
+| 2435187 | Spiractin | Tab 100 mg | Not available (valid) |
 
-All three licences are cancelled, so no spironolactone product is currently authorised in New Zealand according to the data compiled for this report.
+All three licences are valid, so spironolactone is currently marketed in New Zealand according to the data compiled for this report.
 
 ## Safety Considerations
 
@@ -97,7 +97,7 @@ Please refer to the package insert for formal warnings and contraindications, as
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (evidence level L5). The proposed mechanism is not established for this non-androgen-driven genetic condition. Spironolactone also has no valid New Zealand licence at present.
+The prediction has no supporting trials or literature (evidence level L5). The proposed mechanism is not established for this non-androgen-driven genetic condition.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, and a clear mechanistic rationale linking spironolactone to the genetic causes of hypotrichosis simplex of the scalp

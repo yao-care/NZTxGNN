@@ -6,9 +6,9 @@ nav_order: 288
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
+description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metformin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Metformin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+## Metformin: Focal stiff limb syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (from the knowledge graph; the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, metformin is a biguanide whose efficacy in type 2 diabetes is well established. Its commonly described actions include AMPK activation, reduced hepatic gluconeogenesis and possible anti-inflammatory effects.
 
-Focal stiff limb syndrome belongs to the stiff person spectrum and is characterised by impaired GABAergic inhibition, often with an autoimmune component. No established link connects metformin's known actions to this pathophysiology. The high score (0.994) is a knowledge-graph prediction only. The closely related prediction, classic stiff person syndrome, has an identical score. This suggests the model is propagating from a shared disease-ontology node rather than from independent evidence.
+Focal stiff limb syndrome belongs to the stiff person spectrum and is characterised by impaired GABAergic inhibition, often with an autoimmune component. No established link connects metformin's known actions to this pathophysiology. The high score (0.994) is a TxGNN model (deep learning) prediction only. The closely related prediction, classic stiff person syndrome, has an identical score. This suggests the model is propagating from a shared disease-ontology node rather than from independent evidence.
 
-Stiff person syndrome is also associated with autoimmune diabetes. This co-occurrence may confound the graph-based association.
+Stiff person syndrome is also associated with autoimmune diabetes. This co-occurrence may confound the TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -76,10 +76,10 @@ All four of the following predictions also have no trials or literature (Evidenc
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Classic stiff person syndrome | 99.45% | Same score as rank 1, likely driven by a shared ontology node. Anti-GAD65 autoimmunity is the typical driver. Any immunomodulatory role for metformin is speculative. |
-| 3 | Opsismodysplasia | 99.40% | A rare skeletal dysplasia caused by INPPL1 mutations. A theoretical link exists through insulin/PI3K-AKT signalling, but there is no clinical support and the paediatric population raises feasibility and safety concerns. |
-| 4 | Thiamine-responsive dysfunction syndrome | 99.40% | Treated with thiamine supplementation. The link is likely a graph artefact driven by the diabetes phenotype. |
-| 5 | Drug-induced localized lipodystrophy | 99.06% | Metformin improves insulin sensitivity in other lipodystrophy settings, but this is indirect and does not address local tissue reactions. |
+| 2 | Classic stiff person syndrome | 0.9945 | Same score as rank 1, likely driven by a shared ontology node. Anti-GAD65 autoimmunity is the typical driver. Any immunomodulatory role for metformin is speculative. |
+| 3 | Opsismodysplasia | 0.9940 | A rare skeletal dysplasia caused by INPPL1 mutations. A theoretical link exists through insulin/PI3K-AKT signalling, but there is no clinical support and the paediatric population raises feasibility and safety concerns. |
+| 4 | Thiamine-responsive dysfunction syndrome | 0.9940 | Treated with thiamine supplementation. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, possibly driven by the diabetes phenotype. |
+| 5 | Drug-induced localized lipodystrophy | 0.9906 | Metformin improves insulin sensitivity in other lipodystrophy settings, but this is indirect and does not address local tissue reactions. |
 
 ## New Zealand Market Information
 
@@ -87,8 +87,8 @@ Both authorisations are cancelled. No approved indication text is recorded for e
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2628031 | Metformin Viatris | Tablet, immediate-release 500 mg | Cancelled |
-| 2628058 | Metformin Viatris | Tablet, immediate-release 850 mg | Cancelled |
+| 2628031 | Metformin Viatris | Tablet, immediate-release 500 mg | Valid |
+| 2628058 | Metformin Viatris | Tablet, immediate-release 850 mg | Valid |
 
 ## Safety Considerations
 
@@ -115,7 +115,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a knowledge-graph score alone. There are no clinical trials or publications, no supported mechanistic link to focal stiff limb syndrome, and no currently valid New Zealand authorisation. The identical score for classic stiff person syndrome suggests a model artefact.
+The prediction rests on a TxGNN model (deep learning) score alone. The identical score for classic stiff person syndrome suggests a model artefact.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for metformin, to allow a proper mechanistic analysis

@@ -6,9 +6,9 @@ nav_order: 375
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Parkinson's disease…"
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
+description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Pramipexole
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Pramipexole: From Parkinson's Disease and Restless Legs Syndrome to Attention Deficit-Hyperactivity Disorder
+## Pramipexole: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease, restless legs syndrome (plus several rare hereditary parkinsonian syndromes) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,10 +91,9 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2450534 | Ramipex | Tab 0.25 mg | Cancelled |
-| 2450542 | Ramipex | Tab 1 mg | Cancelled |
+| 2450534 | Ramipex | Tab 0.25 mg | Valid |
+| 2450542 | Ramipex | Tab 1 mg | Valid |
 
-Both authorizations are cancelled, so there is currently no valid marketed pramipexole product in New Zealand according to the data compiled for this report.
 
 ---
 

@@ -4,17 +4,17 @@ title: Sotalol
 parent: Model Prediction Only (L5)
 nav_order: 428
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-15
-description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Atrial fibrillation"
+indication_count: 6
+last_modified_at: 2026-10-28
 monitor_inn: "SOTALOL"
-predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation", "obsolete susceptibility to ischemic stroke"]
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
+description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sotalol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Sotalol: From Atrial Fibrillation to Sick Sinus Syndrome 2 (Autosomal Dominant)
+## Sotalol: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **sick sinus syndrome 2, autoso
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no valid authorizations) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,11 +63,11 @@ Currently, detailed mechanism of action data is not available from the compiled 
 
 Sick sinus syndrome 2 is linked to loss of function of the HCN4 channel, which causes sinus bradycardia. Because sotalol slows the sinus rate and AV conduction, it would be expected to worsen sinus node dysfunction rather than treat it. The knowledge graph itself lists sick sinus syndrome and atrioventricular block as contraindications for sotalol.
 
-The high TxGNN score (0.998) is therefore most likely a graph-based artifact of the shared arrhythmia context, not a sign of therapeutic potential.
+The high TxGNN score (0.9976) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is most likely not a sign of therapeutic potential.
 
 Other predictions were also reviewed, and none has solid support:
-- **Stroke disorder** (score 99.44%, L4): Sotalol's link is only indirect, via rhythm control in AF. Stroke prevention in AF relies on anticoagulation, not rhythm control.
-- **Manic bipolar affective disorder** (99.43%, L4): The only literature concerns QT-prolongation interaction risks with antipsychotics, not efficacy.
+- **Stroke disorder** (score 0.9944, L4): Sotalol's link is only indirect, via rhythm control in AF. Stroke prevention in AF relies on anticoagulation, not rhythm control.
+- **Manic bipolar affective disorder** (0.9943, L4): The only literature concerns QT-prolongation interaction risks with antipsychotics, not efficacy.
 - **Wildervanck syndrome, sarcoglycanopathy, macrocephaly/dysmorphic facies/psychomotor retardation, obsolete susceptibility to ischemic stroke** (L5): Prediction only, with no plausible mechanistic link or any supporting studies.
 
 ---
@@ -94,8 +94,8 @@ Currently no related literature is available for the top predicted indication.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2127903 | Mylan | Tab 80 mg | Not available (cancelled) |
-| 2127911 | Mylan | Tab 160 mg | Not available (cancelled) |
+| 2127903 | Mylan | Tab 80 mg | Not available (valid) |
+| 2127911 | Mylan | Tab 160 mg | Not available (valid) |
 
 ---
 
@@ -116,13 +116,13 @@ Notably, the predicted indication (sick sinus syndrome) is itself on sotalol's c
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5). No trials or publications support it, and sotalol's pharmacology would be expected to worsen sinus node dysfunction. Sick sinus syndrome is also a listed contraindication. None of the other predicted indications has direct supporting evidence. Sotalol currently has no valid New Zealand authorization.
+The prediction rests on a model score alone (L5). No trials or publications support it, and sotalol's pharmacology would be expected to worsen sinus node dysfunction. Sick sinus syndrome is also a listed contraindication. None of the other predicted indications has direct supporting evidence.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (from the Medsafe documents)
 - Mechanism of action data from DrugBank
 - Preclinical or clinical evidence that sotalol benefits, or at least does not harm, patients with HCN4-related sick sinus syndrome
-- Clarification of regulatory pathway, since all New Zealand licences are cancelled
+- Clarification of regulatory pathway, since 2 of 2 New Zealand licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

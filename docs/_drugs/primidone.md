@@ -4,17 +4,17 @@ title: Primidone
 parent: Model Prediction Only (L5)
 nav_order: 383
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalized tonic-clonic seizures…"
 monitor_inn: "PRIMIDONE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Primidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Primidone: From Epilepsy to Trigeminal Nerve Neoplasm
+## Primidone: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ Among the other predicted indications, the reflex seizure types and trigeminal n
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (including generalized tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, primidone is an established anticonvulsant. It is metabolized to phenobarbital and PEMA, which act on voltage-gated sodium channels and GABAergic signalling.
 
-For the top-ranked prediction, trigeminal nerve neoplasm, there is no established link between this antiseizure activity and tumour biology. The very high score most likely reflects network proximity to trigeminal nerve-related conditions in the knowledge graph rather than a real antineoplastic effect. This prediction should be treated with caution.
+For the top-ranked prediction, trigeminal nerve neoplasm, there is no established link between this antiseizure activity and tumour biology. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than a real antineoplastic effect. This prediction should be treated with caution.
 
 The lower-ranked predictions are more biologically coherent. Several are rare reflex seizure types (orgasm-induced, audiogenic, startle, micturition-induced, eating, thinking and reading seizures). These fall within the drug's antiseizure scope. Trigeminal neuralgia is also treated with sodium channel-blocking anticonvulsants, with carbamazepine as first-line. The evidence for all of these is indirect, and none of it demonstrates a primidone-specific effect.
 
@@ -86,7 +86,7 @@ No literature was found for the top-ranked prediction, trigeminal nerve neoplasm
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2621746 | Primidone Clinect | Tab 250 mg | Not available (authorization cancelled) |
+| 2621746 | Primidone Clinect | Tab 250 mg | Not available (authorization valid) |
 
 ## Safety Considerations
 
@@ -108,7 +108,6 @@ The top predicted indication, trigeminal nerve neoplasm, has no clinical trials 
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Primidone-specific clinical evidence for the reflex seizure types or trigeminal neuralgia, and a comparison against established options such as carbamazepine
 - A safety review covering the extensive drug interactions and the knowledge-graph-flagged contraindications
-- Confirmation of the regulatory pathway, given that no valid New Zealand authorization currently exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Norfloxacin is a fluoroquinolone antibacterial originally used for infections such as urinary tract infection, typhoid fever, dysentery and bacterial pneumonia.
 The TxGNN model predicts it may be effective for **hyperamylasemia**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-It is a graph-based prediction only and has no supporting evidence.
+It is a prediction of the TxGNN model (deep learning) only. It may reflect similarities the model learned between related diseases, not biological evidence, and it has no supporting evidence.
 
 ---
 
@@ -50,10 +50,10 @@ It is a graph-based prediction only and has no supporting evidence.
 |------|------|
 | Original Indication | Bacterial infections, including urinary tract infection, typhoid fever, dysentery and bacterial pneumonia (the New Zealand licence has no approved indication text recorded) |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ It is a graph-based prediction only and has no supporting evidence.
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Norfloxacin is a fluoroquinolone antibacterial that is generally understood to inhibit bacterial DNA gyrase and topoisomerase IV. Its efficacy is established in bacterial infections, not in laboratory findings.
 
-The assessment found **no plausible mechanistic link** to hyperamylasemia. Hyperamylasemia is a laboratory finding with diverse causes, such as pancreatitis and renal impairment. It is not a primary infectious indication. The high TxGNN score reflects graph-based association only, with no supporting trial or literature evidence.
+The assessment found **no plausible mechanistic link** to hyperamylasemia. Hyperamylasemia is a laboratory finding with diverse causes, such as pancreatitis and renal impairment. It is not a primary infectious indication. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There is no supporting trial or literature evidence.
 
-Other predictions were also reviewed. Most have no mechanistic rationale (polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, diffuse scleroderma and others). The only biologically plausible one is **septicemic plague** (score 99.37%). Plague is caused by *Yersinia pestis*, a susceptible Gram-negative bacterium. However, the evidence is preclinical and indirect. Norfloxacin's low serum levels may not suit systemic infection, and other agents are better supported. This is a research question, not a recommendation.
+Other predictions were also reviewed. Most have no mechanistic rationale (polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, diffuse scleroderma and others). The only biologically plausible one is **septicemic plague** (score 0.9937). Plague is caused by *Yersinia pestis*, a susceptible Gram-negative bacterium. However, the evidence is preclinical and indirect. Norfloxacin's low serum levels may not suit systemic infection, and other agents are better supported. This is a research question, not a recommendation.
 
 ---
 

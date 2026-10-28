@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluorouracil: From Gastric and Colorectal Cancer to Rhabdomyosarcoma
+## Fluorouracil: From Gastric and Colorectal Cancer to botryoid-type embryonal rhabdomyosarcoma of the vagina
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ The related predicted indication "rhabdomyosarcoma (disease)" has 4 loosely rela
 |------|------|
 | Original Indication | Gastric cancer, pancreatic adenocarcinoma, colon cancer metastases, actinic keratosis, superficial basal cell carcinoma (no approved indication text is available for the New Zealand licences) |
 | Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The related predicted indication "rhabdomyosarcoma (disease)" has 4 loosely rela
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, fluorouracil is an antimetabolite that inhibits thymidylate synthase and is incorporated into RNA and DNA. This disrupts DNA synthesis in rapidly dividing cells. Its efficacy in gastrointestinal cancers is established.
 
-The predicted indications are mostly rhabdomyosarcoma subtypes (vaginal botryoid, parameningeal, prostate, and bile duct), plus liver sarcoma and three sickle cell–hemoglobin syndromes. For the sarcomas, the rationale is a generic antimetabolite effect on proliferative tumours. This is probably a subtype-level extrapolation from related knowledge-graph nodes rather than evidence of specific activity. Standard rhabdomyosarcoma regimens (e.g., vincristine, actinomycin D, cyclophosphamide) do not rely on fluorouracil. For the bile duct subtype, fluorouracil's role in biliary adenocarcinoma does not demonstrate activity in this rare embryonal sarcoma. For the sickle cell syndromes, the only theoretical link is fetal hemoglobin induction (as with hydroxyurea). This is unproven for fluorouracil, and its myelosuppressive toxicity is a concern in chronic non-malignant disease.
+The predicted indications are mostly rhabdomyosarcoma subtypes (vaginal botryoid, parameningeal, prostate, and bile duct), plus liver sarcoma and three sickle cell–hemoglobin syndromes. For the sarcomas, the rationale is a generic antimetabolite effect on proliferative tumours. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of specific activity. Standard rhabdomyosarcoma regimens (e.g., vincristine, actinomycin D, cyclophosphamide) do not rely on fluorouracil. For the bile duct subtype, fluorouracil's role in biliary adenocarcinoma does not demonstrate activity in this rare embryonal sarcoma. For the sickle cell syndromes, the only theoretical link is fetal hemoglobin induction (as with hydroxyurea). This is unproven for fluorouracil, and its myelosuppressive toxicity is a concern in chronic non-malignant disease.
 
 ---
 
@@ -89,15 +89,15 @@ The only paper reporting fluorouracil use in rhabdomyosarcoma shows disease prog
 
 ## New Zealand Market Information
 
-All five licences are cancelled, and approved indication text is not available.
+All five licences are valid, and approved indication text is not available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 253065 | Efudix | Cream 5% | Cancelled |
-| 2618435 | Fluorouracil Accord | Injection 50 mg/ml, 20 ml vial | Cancelled |
-| 2674092 | Fluorouracil Accord | Injection 50 mg/ml, 50 ml vial | Cancelled |
-| 2618427 | Fluorouracil Accord | Injection 50 mg/ml, 100 ml vial | Cancelled |
-| 2370123 | Baxter | Injection 1 mg for ECP | Cancelled |
+| 253065 | Efudix | Cream 5% | Valid |
+| 2618435 | Fluorouracil Accord | Injection 50 mg/ml, 20 ml vial | Valid |
+| 2674092 | Fluorouracil Accord | Injection 50 mg/ml, 50 ml vial | Valid |
+| 2618427 | Fluorouracil Accord | Injection 50 mg/ml, 100 ml vial | Valid |
+| 2370123 | Baxter | Injection 1 mg for ECP | Valid |
 
 ---
 
@@ -127,7 +127,7 @@ Please also refer to the package insert, as label warnings were not available.
 **Decision: Hold**
 
 **Rationale:**
-The predictions are supported only by a high model score (about 99.7%) with no registered trials and no direct controlled literature. The one case report involving fluorouracil in rhabdomyosarcoma showed progression. Standard rhabdomyosarcoma therapy does not use fluorouracil. In addition, all New Zealand licences are cancelled, and the drug carries significant myelosuppressive toxicity.
+The predictions are supported only by a high TxGNN model score (0.9975 for the main prediction) with no registered trials and no direct controlled literature. The one case report involving fluorouracil in rhabdomyosarcoma showed progression. Standard rhabdomyosarcoma therapy does not use fluorouracil. In addition, the drug is marketed in New Zealand (5 of 5 licences valid), and it carries significant myelosuppressive toxicity.
 
 **To proceed, the following is needed:**
 - Preclinical data (e.g., in vitro sensitivity of rhabdomyosarcoma cell lines) and a systematic literature search for fluorouracil in rhabdomyosarcoma

@@ -4,17 +4,17 @@ title: Tiotropium
 parent: High Evidence (L1-L2)
 nav_order: 452
 evidence_level: L1
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Bronchitis, asthma (including intrinsic and allergic asthma)…"
 monitor_inn: "Tiotropium"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis", "susceptibility to respiratory infections associated with CD8alpha chain mutation"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Tiotropium: From Bronchitis, Asthma and Emphysema to Obstructive Lung Disease
+## Tiotropium: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is supported by **38 clinical trials** (many Phase 3) and **20 pu
 
 | Item | Content |
 |------|------|
-| Original Indication | Bronchitis, asthma (including intrinsic and allergic asthma), pulmonary emphysema (the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Tiotropium is a long-acting muscarinic antagonist (LAMA). It blocks M3 receptors
 
 "Obstructive lung disease" is the parent category of tiotropium's established indications: COPD, emphysema, chronic bronchitis, and asthma. This is therefore not true repurposing. The prediction mostly confirms existing use, and Phase 3 trials directly support efficacy in COPD and asthma.
 
-The model also ranked nine further diseases. Only chronic obstructive pulmonary disease (score 99.87%, Level L1, on-label) and severe early-onset COPD (L3, observational evidence only) have meaningful support. Respiratory malformation (L4) is supported only by cystic fibrosis trials, which are indirect. The remaining seven (for example Rienhoff syndrome, tracheal stenosis, interstitial emphysema) have no clinical evidence and no plausible mechanism, and look like graph-based artifacts. All of these were rated Hold.
+The model also ranked nine further diseases. Respiratory malformation (L4) is supported only by cystic fibrosis trials, which are indirect. The remaining seven (for example Rienhoff syndrome, tracheal stenosis) have no clinical evidence and no plausible mechanism. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. All of these were rated Hold.
 
 ---
 
@@ -108,10 +108,9 @@ The most relevant of the 38 trials for obstructive lung disease (the compiled li
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2115468 | Spiriva (cancelled) | Powder for inhalation, 18 mcg per dose | Not recorded |
-| 2494019 | Spiriva Respimat (cancelled) | Solution for inhalation, 2.5 mcg per dose | Not recorded |
+| 2115468 | Spiriva (valid) | Powder for inhalation, 18 mcg per dose | Not recorded |
+| 2494019 | Spiriva Respimat (valid) | Solution for inhalation, 2.5 mcg per dose | Not recorded |
 
-Both licences are cancelled, so no tiotropium product currently holds a valid New Zealand licence.
 
 ---
 
@@ -130,7 +129,7 @@ Please refer to the package insert for full warnings and contraindications, as l
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Obstructive lung disease is the parent category of tiotropium's existing indications, and multiple completed Phase 3 RCTs plus meta-analyses support efficacy (Level L1). The "guardrails" are needed because no tiotropium product currently holds a valid New Zealand licence, label-based safety data is missing, and several other predictions (respiratory malformation, Rienhoff syndrome, tracheal stenosis, and others) lack support and should remain on Hold.
+Obstructive lung disease is the parent category of tiotropium's existing indications, and multiple completed Phase 3 RCTs plus meta-analyses support efficacy (Level L1).
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (label-based safety screening is currently blocked by this gap)

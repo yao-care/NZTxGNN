@@ -8,6 +8,7 @@ nav_order: 152
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Dihydrocodeine Tartrate
@@ -51,8 +52,8 @@ Without predicted indications, clinical trial linkage, or confirmed mechanism-of
 | Predicted New Indication | None — TxGNN returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction only — and none present) |
-| New Zealand Market Status | Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

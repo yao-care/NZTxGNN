@@ -6,9 +6,9 @@ nav_order: 175
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
+description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Empagliflozin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Empagliflozin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
+## Empagliflozin: Classic stiff person syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (from the knowledge graph; no approved indication text available in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Classic stiff person syndrome |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Stiff person syndrome is an autoimmune neurological disorder, typically associated with anti-GAD65 antibodies and impaired GABAergic signalling. A loose connection may exist through the overlap between GAD65 autoimmunity and autoimmune diabetes, but this is speculative and does not support a therapeutic effect of empagliflozin.
 
-The high score (0.991) is a graph-based prediction only. Notably, focal stiff limb syndrome (rank 2) received an identical score, suggesting the model treats these closely related conditions as near-duplicates rather than providing independent evidence. The third prediction, opsismodysplasia (score 0.990), also has no supporting mechanistic link: it is a rare skeletal dysplasia caused by INPPL1 (SHIP2) mutations, and SGLT2 inhibition does not act on that pathway. Bone-safety concerns reported for SGLT2 inhibitors would also need careful evaluation in a paediatric skeletal disorder.
+The high score (0.9906) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Notably, focal stiff limb syndrome (rank 2) received an identical score, suggesting the model treats these closely related conditions as near-duplicates rather than providing independent evidence. The third prediction, opsismodysplasia (score 0.9903), also has no supporting mechanistic link: it is a rare skeletal dysplasia caused by INPPL1 (SHIP2) mutations, and SGLT2 inhibition does not act on that pathway. Bone-safety concerns reported for SGLT2 inhibitors would also need careful evaluation in a paediatric skeletal disorder.
 
 ## Clinical Trial Evidence
 
@@ -73,8 +73,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2599708 | Jardiance | Tab 25 mg | Not available (licence cancelled) |
-| 2599694 | Jardiance | Tab 10 mg | Not available (licence cancelled) |
+| 2599708 | Jardiance | Tab 25 mg | Not available (licence valid) |
+| 2599694 | Jardiance | Tab 10 mg | Not available (licence valid) |
 
 ## Safety Considerations
 
@@ -89,7 +89,7 @@ Please refer to the package insert for warnings and contraindications, as this i
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a computational score, with no clinical trials, no literature, and no supported mechanistic link to stiff person syndrome. The drug also has no currently valid New Zealand licence.
+The prediction rests solely on a computational score, with no clinical trials, no literature, and no supported mechanistic link to stiff person syndrome.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, and a plausible biological rationale linking SGLT2 inhibition to GABAergic or autoimmune pathways in stiff person syndrome

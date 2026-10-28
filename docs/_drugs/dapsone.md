@@ -48,10 +48,10 @@ with **10 clinical trials** and **20 publications** currently supporting this di
 |------|------|
 | Original Indication | Dermatitis herpetiformis, acne, leprosy (the New Zealand licence records contain no indication text) |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L1 |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -96,8 +96,8 @@ Several trials directly compare dapsone with other PCP regimens. The data compil
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2212226 | Dapsone | Tab 25 mg | Not recorded (licence cancelled) |
-| 712914 | Dapsone | Tab 100 mg | Not recorded (licence cancelled) |
+| 2212226 | Dapsone | Tab 25 mg | Not recorded (licence valid) |
+| 712914 | Dapsone | Tab 100 mg | Not recorded (licence valid) |
 
 Both authorizations are cancelled, so product availability in New Zealand should be verified.
 

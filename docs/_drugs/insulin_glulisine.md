@@ -4,17 +4,17 @@ title: Insulin Glulisine
 parent: Model Prediction Only (L5)
 nav_order: 238
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Insulin Glulisine: predicted new indication Type 1 diabetes mellitus (evidence level L5). Approved use: Diabetes mellitus"
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Glulisine: predicted new indication Thiamine-responsive dysfunction syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Glulisine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Glulisine: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Glulisine: Thiamine-responsive dysfunction syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin glulisine is a rapid-acting insulin analogue, originally used for diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**, with **30 clinical trials** and **20 publications** currently supporting this direction.
 Type 1 diabetes already falls within the drug's original indication, so this is confirmation of established use rather than true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (the New Zealand licence records contain no indication text) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L1 (see note below) |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Thiamine-responsive dysfunction syndrome |
+| TxGNN Prediction Score | 0.9947 |
+| Evidence Level | L5 (see note below) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on evidence level:** The L1 grade is not fully supported by the trial data compiled for this report. L1 requires at least two completed Phase 3 RCTs. Several completed Phase 3 trials are listed (e.g. NCT00115570, NCT00290979, NCT00467376, NCT00135941), and two published RCTs are included. However, trial design details (randomisation, comparator and primary outcomes) have not been verified for each, so L1 should be confirmed before it is relied upon.
@@ -98,7 +97,6 @@ The data compiled for this report include 30 trials. The table lists the 10 most
 
 ## New Zealand Market Information
 
-All three authorisations are cancelled; there is currently no valid authorisation.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -122,16 +120,15 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Type 1 diabetes is within the established use of insulin glulisine, and multiple Phase 3 and Phase 4 trials plus randomised controlled literature support its efficacy and safety. However, this is confirmation of existing use, not a new indication, and the drug has no valid New Zealand authorisation.
+Type 1 diabetes is within the established use of insulin glulisine, and multiple Phase 3 and Phase 4 trials plus randomised controlled literature support its efficacy and safety.
 
 **To proceed, the following is needed:**
-- Confirm availability and regulatory status in New Zealand, since all licences are cancelled.
 - Obtain the Medsafe package insert for warnings and contraindications.
 - Obtain mechanism of action data.
 - Verify the L1 evidence grade by reviewing the design and outcomes of the Phase 3 trials.
 - Establish a hypoglycaemia monitoring plan, with attention to concomitant antidiabetic drugs.
 
-**Other predictions (not recommended at this time):** The other nine predicted indications have no supporting trials or literature and should remain on hold. Pancreatic agenesis is plausible by mechanism, since it causes insulin-deficient diabetes, but it is essentially the original indication. The three lipodystrophy-related predictions are likely artefacts of the knowledge graph, because lipodystrophy and lipoatrophy are known injection-site adverse effects of insulin.
+**Other predictions (not recommended at this time):** The other nine predicted indications have no supporting trials or literature and should remain on hold. Pancreatic agenesis is plausible by mechanism, since it causes insulin-deficient diabetes, but it is essentially the original indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

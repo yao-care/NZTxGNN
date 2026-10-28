@@ -4,17 +4,17 @@ title: Moxifloxacin
 parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (e.g.…"
 monitor_inn: "MOXIFLOXACIN"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm", "bubonic plague"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
+description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Moxifloxacin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Moxifloxacin: From Bacterial Infections to Hyperamylasemia
+## Moxifloxacin: Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Moxifloxacin is a fluoroquinolone antibiotic originally used for bacterial infections such as pneumonia, peritonitis, conjunctivitis and plague.
 The TxGNN model's top-ranked prediction is **Hyperamylasemia**, but there are **0 clinical trials** and **0 publications** supporting it, so it rests on model prediction alone.
-The only prediction with meaningful supporting evidence is **bubonic plague**, which is closely related to an existing indication and is not a true new use.
 
 ---
 
@@ -48,12 +47,12 @@ The only prediction with meaningful supporting evidence is **bubonic plague**, w
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (e.g., streptococcal and staphylococcal infections, bacterial pneumonia, peritonitis, conjunctivitis, plague). Based on the knowledge graph, because the approved indication text in the New Zealand licence record is empty. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (0 valid, 1 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +61,10 @@ The only prediction with meaningful supporting evidence is **bubonic plague**, w
 
 Moxifloxacin is an antibacterial fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV. Detailed mechanism-of-action data is not available in the data compiled for this report, but this class mechanism is well established.
 
-For the top-ranked prediction, **hyperamylasemia**, no plausible mechanism is evident. Moxifloxacin has no known effect on amylase metabolism, and the high score (about 99.98%) is a model output without trial or literature support. The same is true of the other high-scoring predictions: polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, premalignant haematological disease and haematopoietic and lymphoid neoplasm. None has a mechanistic link, and none has supporting trials.
+For the top-ranked prediction, **hyperamylasemia**, no plausible mechanism is evident. Moxifloxacin has no known effect on amylase metabolism, and the high score (about 0.9998) is a model output without trial or literature support. The same is true of the other high-scoring predictions: polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, premalignant haematological disease and haematopoietic and lymphoid neoplasm. None has a mechanistic link, and none has supporting trials.
 
 Some predictions point to safety concerns rather than benefits. Peripheral neuropathy is a known fluoroquinolone adverse effect, which makes the prediction of a haematological disease associated with acquired peripheral neuropathy a safety signal. Likewise, fluoroquinolone-associated dysglycaemia is relevant to the congenital analbuminemia case report on recurrent hypoglycaemia.
 
-The one biologically plausible prediction is **bubonic plague**. Moxifloxacin is active against *Yersinia pestis*, and pneumonic plague and plague are already among its original indications. This is an extension within existing uses rather than a new indication. The evidence is preclinical only (animal and in vitro models), with no human trials.
 
 ---
 
@@ -103,7 +101,7 @@ No literature is available for hyperamylasemia. The publications below relate to
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2022362 | Avelox | Tab 400 mg | Not recorded (status: cancelled) |
+| 2022362 | Avelox | Tab 400 mg | Not recorded (status: valid) |
 
 ---
 
@@ -130,7 +128,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, hyperamylasemia, has no mechanistic rationale, no trials, and no literature, so it rests on a model score alone. Moxifloxacin also has no valid New Zealand licence, since its only authorisation is cancelled. The sole plausible prediction, bubonic plague, is an extension of existing plague indications and is supported only by preclinical data (graded L4, research question).
+The top-ranked prediction, hyperamylasemia, has no mechanistic rationale, no trials, and no literature, so it rests on a model score alone. The sole plausible prediction, bubonic plague, is an extension of existing plague indications and is supported only by preclinical data (graded L4, research question).
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening

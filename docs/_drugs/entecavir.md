@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Entecavir
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 179
-evidence_level: L5
-indication_count: 10
+evidence_level: L3
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
+description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Entecavir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Entecavir: From Chronic Hepatitis B to Chronic Hepatitis C Virus Infection
+## Entecavir: Chronic hepatitis C virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ That evidence concerns managing HBV in patients co-infected with HCV, not treati
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Chronic hepatitis C virus infection |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L3 (observational and review-level evidence only; no completed Phase 3 RCTs for this indication) |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

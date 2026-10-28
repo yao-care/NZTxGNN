@@ -6,9 +6,9 @@ nav_order: 269
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Levocarnitine: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-c… (evidence level L5). Approved use: Not recorded in the New Zealand license data (all ind…"
 monitor_inn: "LEVOCARNITINE"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
+description: "Levocarnitine: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levocarnitine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Levocarnitine: From Carnitine Supplementation to Autosomal Dominant Familial Hematuria-Retinal Arteriolar Tortuosity-Contractures Syndrome
+## Levocarnitine: Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model's top-ranked prediction is **autosomal dominant familial hematur
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the New Zealand license data (all indication fields are empty) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licenses) |
-| Number of Authorizations | 6 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data are not available in the compiled data. Based on general pharmacology, levocarnitine transports long-chain fatty acids into mitochondria for beta-oxidation and supports cellular energy metabolism.
 
-The top-ranked predicted disease is a rare vascular basement membrane disorder caused by COL4A1 variants. It has no clear link to carnitine-mediated fatty acid transport or mitochondrial energy metabolism. The high score is likely a knowledge-graph artifact driven by shared gene or phenotype neighbors rather than a true pharmacological relationship. The second-ranked prediction, brain small vessel disease 1 (also COL4A1-related), has the same weakness. A mitochondrial-support or antioxidant rationale there is speculative.
+The top-ranked predicted disease is a rare vascular basement membrane disorder caused by COL4A1 variants. It has no clear link to carnitine-mediated fatty acid transport or mitochondrial energy metabolism. The high score is likely a TxGNN model (deep learning) artifact driven by shared gene or phenotype neighbors rather than a true pharmacological relationship. The second-ranked prediction, brain small vessel disease 1 (also COL4A1-related), has the same weakness. A mitochondrial-support or antioxidant rationale there is speculative.
 
 ## Clinical Trial Evidence
 
@@ -73,9 +73,9 @@ Because the top prediction has no supporting evidence, the compiled data were al
 
 | Rank | Indication | Score | Evidence Level | Data-Based Recommendation |
 |------|------|------|------|------|
-| 9 | Congestive heart failure | 99.47% | L2 | Proceed with Guardrails |
-| 4 | Rheumatoid arthritis | 99.87% | L2 | Research Question |
-| 3 | Diabetic nephropathy | 99.91% | L4 | Research Question |
+| 9 | Congestive heart failure | 0.9947 | L5 | Proceed with Guardrails |
+| 4 | Rheumatoid arthritis | 0.9987 | L5 | Research Question |
+| 3 | Diabetic nephropathy | 0.9991 | L4 | Research Question |
 
 The remaining predictions have no clinical or literature evidence (L5, Hold): brain small vessel disease 1, sclerosing cholangitis, gout, brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, and hypoalphalipoproteinemia.
 
@@ -111,15 +111,15 @@ Several other retrieved papers are off-topic: a stem-cell cardiomyopathy model a
 
 ## New Zealand Market Information
 
-All six licenses are cancelled, and none are currently valid.
+All six licenses are valid.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2609266 | Balance | Capsule 500 mg | Cancelled |
-| 2502151 | Solgar | Tablet 500 mg | Cancelled |
-| 2609274 | Solgar | Capsule 250 mg | Cancelled |
-| 2439816 | Balance | Oral liquid 500 mg per 10 ml | Cancelled |
-| 2711281 | Lacuna | Oral liquid 1 g per 10 ml | Cancelled |
+| 2609266 | Balance | Capsule 500 mg | Valid |
+| 2502151 | Solgar | Tablet 500 mg | Valid |
+| 2609274 | Solgar | Capsule 250 mg | Valid |
+| 2439816 | Balance | Oral liquid 500 mg per 10 ml | Valid |
+| 2711281 | Lacuna | Oral liquid 1 g per 10 ml | Valid |
 
 The sixth license is 2683059 (Metabolics, Capsule 500 mg, cancelled). Approved indication text is not recorded for any license. Available forms are oral only. The heart failure trial above used an injectable form, and no injectable product appears in the New Zealand license data.
 
@@ -135,7 +135,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no clinical or literature evidence (L5) and no plausible mechanistic link to carnitine metabolism, so it is most likely a knowledge-graph artifact. No New Zealand license is currently valid, and the package insert safety data are missing.
+The top-ranked prediction has no clinical or literature evidence (L5) and no plausible mechanistic link to carnitine metabolism, so it is most likely a TxGNN model (deep learning) artifact.
 
 Congestive heart failure is the most promising alternative direction (L2, Proceed with Guardrails on the data alone). It would still need verified trial results before any advance.
 

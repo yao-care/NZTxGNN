@@ -4,17 +4,17 @@ title: Pembrolizumab
 parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Pembrolizumab: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung carcinoma, lung cancer, metastatic melanoma"
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+description: "Pembrolizumab: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pembrolizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pembrolizumab: From Non-Small Cell Lung Cancer and Metastatic Melanoma to Fibromatosis, Gingival
+## Pembrolizumab: Fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pembrolizumab is a PD-1 immune checkpoint inhibitor, originally used to treat non-small cell lung cancer and metastatic melanoma.
-The TxGNN model predicts it may be effective for **gingival fibromatosis** (score 99.4%), but **no clinical trials and no publications** support this prediction.
+The TxGNN model predicts it may be effective for **gingival fibromatosis** (score 0.9940), but **no clinical trials and no publications** support this prediction.
 The result is a computational signal only, and it should not be treated as evidence of benefit.
 
 ---
@@ -48,12 +48,12 @@ The result is a computational signal only, and it should not be treated as evide
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung carcinoma, lung cancer, metastatic melanoma (from the knowledge graph; the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The result is a computational signal only, and it should not be treated as evide
 
 Detailed mechanism of action data is not available in the data compiled for this report. From the pharmacology data, pembrolizumab is an antibody that binds the PD-1 receptor (PDCD1, CD279) on T cells. Blocking PD-1 releases the "brake" on T cells so they can attack tumour cells. It is approved in many cancers, including melanoma, lung cancer, head and neck cancer, Hodgkin lymphoma and others.
 
-For gingival fibromatosis, no mechanistic link was identified. Gingival fibromatosis is a benign overgrowth of gum tissue, usually hereditary or drug-induced. It has no established relationship to the PD-1/PD-L1 pathway. The high model score most likely reflects network proximity in the knowledge graph rather than a biological rationale. Without trial or literature support, this prediction cannot be considered reasonable on current evidence.
+For gingival fibromatosis, no mechanistic link was identified. Gingival fibromatosis is a benign overgrowth of gum tissue, usually hereditary or drug-induced. It has no established relationship to the PD-1/PD-L1 pathway. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Without trial or literature support, this prediction cannot be considered reasonable on current evidence.
 
 ---
 
@@ -84,8 +84,8 @@ Both New Zealand licences for pembrolizumab are cancelled. Neither record contai
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2547996 | Keytruda | Inj 25 mg per ml, 4 ml vial | Cancelled |
-| 2508427 | Baxter | Inj 1 mg for ECP | Cancelled |
+| 2547996 | Keytruda | Inj 25 mg per ml, 4 ml vial | Valid |
+| 2508427 | Baxter | Inj 1 mg for ECP | Valid |
 
 ---
 
@@ -117,7 +117,7 @@ Please refer to the package insert for warnings and contraindications. The packa
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score. There are no trials, no publications and no mechanistic rationale for gingival fibromatosis. Pembrolizumab also has no valid New Zealand licence at present, and immune-related toxicity would be hard to justify in a benign condition.
+The prediction is supported only by a model score. There are no trials, no publications and no mechanistic rationale for gingival fibromatosis.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (currently a blocking gap)

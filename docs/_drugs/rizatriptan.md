@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rizatriptan
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 411
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Rizatriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder"
 monitor_inn: "RIZATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata"]
+description: "Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rizatriptan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,35 +33,34 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Rizatriptan: From Migraine Disorder to Migraine with Brainstem Aura
+## Rizatriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Rizatriptan is a triptan originally used to treat migraine, including migraine with or without aura.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**, but there are **no registered clinical trials** and the **18 publications** found are general migraine or triptan literature, so the evidence for this specific subtype is indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (the New Zealand licence record has no approved indication text, so this comes from the knowledge graph) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9919 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this drug. Rizatriptan belongs to the triptan class, which acts as 5-HT1B/1D receptor agonists. This action causes cranial vasoconstriction and reduces trigeminal release of CGRP and neurogenic inflammation. Its efficacy in acute migraine, with or without aura, is well established.
 
-Migraine with brainstem aura is a subtype of migraine with aura, so the pharmacological overlap with the approved indication is strong. The high TxGNN score (0.999) probably reflects this close relationship in the knowledge graph rather than independent evidence for this subtype.
+Migraine with brainstem aura is a subtype of migraine with aura, so the pharmacological overlap with the approved indication is strong.
 
 There is an important caution. Triptans have historically been cautioned against, or contraindicated, in hemiplegic and basilar-type/brainstem aura migraine because of the theoretical risk of vasoconstriction in the posterior circulation. The prediction is therefore mechanistically plausible but clinically contentious.
 
-A second predicted indication, atrophoderma vermiculata (score 99.19%), has no plausible mechanistic link, no trials and no literature. It is most likely an artifact of the knowledge graph and is not pursued here.
+A second predicted indication, atrophoderma vermiculata (score 0.9919), has no plausible mechanistic link, no trials and no literature.
 
 ## Clinical Trial Evidence
 
@@ -111,7 +110,6 @@ The prediction rests on model output and class pharmacology alone, with no trial
 - Mechanism of action data from DrugBank.
 - A focused review of safety data for triptans in brainstem aura and hemiplegic migraine, including current guideline positions.
 - Any prospective or registry data on rizatriptan in this subtype, followed by a decision on whether a clinical study is justified.
-- Confirmation of the regulatory pathway, since there is no currently valid rizatriptan authorization in New Zealand.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

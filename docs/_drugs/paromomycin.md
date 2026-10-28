@@ -6,9 +6,9 @@ nav_order: 350
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Paromomycin: predicted new indication Hepatoportal sclerosis (evidence level L5). Approved use: Hepatic coma / hepatic encephalopathy"
 monitor_inn: "PAROMOMYCIN"
 predicted_indications: ["hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
+description: "Paromomycin: predicted new indication Hepatoportal sclerosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paromomycin
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Paromomycin: From Hepatic Encephalopathy to Hepatoportal Sclerosis
+## Paromomycin: Hepatoportal sclerosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Paromomycin is a poorly absorbed aminoglycoside antibiotic, originally used for hepatic coma and hepatic encephalopathy.
-The TxGNN model predicts it may be effective for **hepatoportal sclerosis**, but **no clinical trials** and **no publications** currently support this specific prediction. It is a graph-based prediction only.
+The TxGNN model (deep learning) predicts it may be effective for **hepatoportal sclerosis**, but **no clinical trials** and **no publications** currently support this specific prediction. It is a model-based prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hepatic coma / hepatic encephalopathy (from the knowledge graph; no approved indication text is available from the New Zealand licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hepatoportal sclerosis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Hepatoportal sclerosis is a form of non-cirrhotic portal hypertension. A link to paromomycin is speculative and could only run through the gut-liver axis (for example, gut-derived bacteria or endotoxin affecting the liver). No data compiled for this report supports that idea.
 
-The same score (99.90%) was given to several unrelated liver and portal conditions, such as familial non-cirrhotic portal hypertension, hepatopulmonary syndrome, copper-associated cirrhosis and primitive portal vein thrombosis. This suggests the score reflects a shared position in the knowledge graph rather than a signal specific to hepatoportal sclerosis. It should be treated as a hypothesis only.
+The same score (0.9990) was given to several unrelated liver and portal conditions, such as early-onset familial noncirrhotic portal hypertension, hepatopulmonary syndrome, idiopathic copper-associated cirrhosis and primitive portal vein thrombosis. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -69,7 +69,7 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for hepatoportal sclerosis.
 
-For context, the second-ranked-by-literature prediction, peritonitis (score 99.03%), has 16 associated publications, but they are not about peritonitis treatment. The ten provided are mainly reviews, in vitro studies and formulation work on *Leishmania* and amoebiasis, plus one case report of amoebic colitis treated with metronidazole and paromomycin. They are indirect evidence at best.
+For context, the second-ranked-by-literature prediction, peritonitis (score 0.9903), has 16 associated publications, but they are not about peritonitis treatment. The ten provided are mainly reviews, in vitro studies and formulation work on *Leishmania* and amoebiasis, plus one case report of amoebic colitis treated with metronidazole and paromomycin. They are indirect evidence at best.
 
 ## New Zealand Market Information
 
@@ -98,7 +98,6 @@ The prediction rests on model score alone (Evidence Level L5). There are no clin
 - Mechanism of action data (for example, from DrugBank)
 - Package insert warnings and contraindications from Medsafe
 - Preclinical or clinical evidence linking gut decontamination to hepatoportal sclerosis or non-cirrhotic portal hypertension
-- Assessment of route and formulation, since no valid New Zealand product is currently available
 - A renal and hearing safety assessment given the knowledge-graph contraindication signals
 ## Disclaimer
 

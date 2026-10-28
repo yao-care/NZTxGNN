@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Paclitaxel
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 344
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Paclitaxel: predicted new indication Female breast carcinoma (evidence level L2). Approved use: Ovarian cancer"
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Paclitaxel: From Ovarian Cancer to Female Breast Carcinoma
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Paclitaxel is a microtubule-stabilising cytotoxic chemotherapy drug, originally used for ovarian cancer.
-The TxGNN model predicts it may be effective for **female breast carcinoma**,
 with **43 clinical trials** and **20 publications** compiled for this prediction. However, paclitaxel is already an established standard of care in breast cancer, so this is not a true repurposing candidate. The finding largely confirms existing clinical practice.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (the data compiled for this report did not include approved indication text from New Zealand licences; the original indication is taken from the knowledge-graph indication list) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.995% |
-| Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 11 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
+| TxGNN Prediction Score | 0.9973 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Authorizations | 11 (valid: 11) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -98,22 +97,21 @@ The most relevant trials for paclitaxel in female breast carcinoma (the data con
 
 ## New Zealand Market Information
 
-All 11 licences are cancelled; none are currently valid. Approved indication text was not available for any of them.
+Approved indication text was not available for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2271834 | Anzatax | Inj 6 mg per ml, 16.7 ml vial | Cancelled |
-| 2271826 | Anzatax | Inj 150 mg | Cancelled |
-| 2207664 | Paclitaxel Ebewe | Inj 6 mg per ml, 16.7 ml vial | Cancelled |
-| 2207672 | Paclitaxel Ebewe | Inj 150 mg | Cancelled |
-| 2394596 | Paclitaxel Actavis | Inj 6 mg per ml, 50 ml vial | Cancelled |
+| 2271834 | Anzatax | Inj 6 mg per ml, 16.7 ml vial | Valid |
+| 2271826 | Anzatax | Inj 150 mg | Valid |
+| 2207664 | Paclitaxel Ebewe | Inj 6 mg per ml, 16.7 ml vial | Valid |
+| 2207672 | Paclitaxel Ebewe | Inj 150 mg | Valid |
+| 2394596 | Paclitaxel Actavis | Inj 6 mg per ml, 50 ml vial | Valid |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (taxane, microtubule stabiliser) |
-| Myelosuppression Risk | High (neutropenia is the main dose-limiting toxicity; the knowledge graph also links paclitaxel to neutropenia, agranulocytosis, thrombocytopenia and anaemia) |
 | Emetogenicity Classification | Low |
 | Monitoring Items | Complete blood count with differential, liver function, renal function, and neurological assessment for peripheral neuropathy |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
@@ -131,12 +129,11 @@ Please refer to the package insert for formal warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Paclitaxel has a clear mechanistic fit and extensive trial activity in breast cancer, including several completed Phase 3 trials. However, most of those trials test combinations, so paclitaxel's own contribution is not isolated, and it is already standard of care. This is therefore confirmation of existing use rather than new repurposing. Evidence is rated L2 for this indication because of the limited paclitaxel-specific Phase 2/3 data in the compiled set. Lower-ranked predictions (Ehrlich tumour, bilateral and nipple carcinoma, rhabdomyosarcoma subtypes) should be held.
+Paclitaxel has a clear mechanistic fit and extensive trial activity in breast cancer, including several completed Phase 3 trials. However, most of those trials test combinations, so paclitaxel's own contribution is not isolated, and it is already standard of care. This is therefore confirmation of existing use rather than new repurposing. Evidence is rated L2 for this indication because of the limited paclitaxel-specific Phase 2/3 data in the compiled set.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (a blocking data gap for safety screening), from the Medsafe data sheet
 - Mechanism of action data from DrugBank
-- Clarification of the original indication and of the New Zealand regulatory position, since all licences are cancelled and no approved indication text is available
 - Confirmation of the paclitaxel-specific effect in breast cancer from monotherapy or head-to-head Phase 3 data
 - A myelosuppression and neuropathy monitoring plan, and a review of drug interactions (particularly CYP-active agents)
 ## Disclaimer

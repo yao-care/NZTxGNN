@@ -4,17 +4,17 @@ title: Labetalol
 parent: Model Prediction Only (L5)
 nav_order: 253
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-15
-description: "Labetalol: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertensive disorder / hypertension"
+indication_count: 3
+last_modified_at: 2026-10-28
 monitor_inn: "LABETALOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
+description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Labetalol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Labetalol: From Hypertensive Disorder to Malignant Renovascular Hypertension
+## Labetalol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Labetalol is an antihypertensive originally used to treat hypertensive disorders and hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but there are **no registered clinical trials** and only **1 publication** (a single case report) behind this prediction, so the evidence rests essentially on the model score.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder / hypertension (from the knowledge graph; no approved indication text is available from New Zealand licences) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.08% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 5 (1 valid, 4 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,9 +60,9 @@ Detailed mechanism of action data is not available in the data compiled for this
 The predicted indication is largely a severe subtype of the already established hypertension indication, so it is not a distinct repurposing opportunity. The only retrieved publication (PMID 7242419) describes a case of hallucinogen-induced vasculitis with malignant hypertension in which labetalol and minoxidil were used for initial blood pressure control. It does not evaluate renovascular hypertension directly.
 
 The other top predictions are weaker:
-- **Malignant hypertensive renal disease** (99.08%): strongly overlaps with the labelled indication, with no trials or literature.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.08%): no established pulmonary vasodilatory mechanism. Non-selective beta-blockade may worsen bronchospasm and hypoxia. The 10 retrieved papers concern systemic or pregnancy-related hypertension, and none evaluates pulmonary hypertension. The score likely reflects the shared term "hypertension".
-- **Pulmonary hypertension with unclear multifactorial mechanism** (99.08%): no mechanistic rationale, trials or literature. Beta-blockers are generally used cautiously because of the risk of reduced cardiac output.
+- **Malignant hypertensive renal disease** (0.9908): strongly overlaps with the labelled indication, with no trials or literature.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (0.9908): no established pulmonary vasodilatory mechanism. Non-selective beta-blockade may worsen bronchospasm and hypoxia. The 10 retrieved papers concern systemic or pregnancy-related hypertension, and none evaluates pulmonary hypertension. The score likely reflects the shared term "hypertension".
+- **Pulmonary hypertension with unclear multifactorial mechanism** (0.9908): no mechanistic rationale, trials or literature. Beta-blockers are generally used cautiously because of the risk of reduced cardiac output.
 
 ## Clinical Trial Evidence
 
@@ -80,10 +79,10 @@ Currently no related clinical trials registered.
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 2604116 | Trandate (valid) | Inj 5 mg per ml, 20 ml ampoule | Not available |
-| 2582163 | Trandate (cancelled) | Tab 200 mg | Not available |
-| 2582155 | Trandate (cancelled) | Tab 100 mg | Not available |
-| 2708809 | Biocon (cancelled) | Tab 100 mg | Not available |
-| 2565579 | Presolol (cancelled) | Tab 200 mg | Not available |
+| 2582163 | Trandate (valid) | Tab 200 mg | Not available |
+| 2582155 | Trandate (valid) | Tab 100 mg | Not available |
+| 2708809 | Biocon (valid) | Tab 100 mg | Not available |
+| 2565579 | Presolol (valid) | Tab 200 mg | Not available |
 
 ## Safety Considerations
 
@@ -100,7 +99,7 @@ The pulmonary-disease and bronchial-disease signals are particularly relevant to
 **Decision: Hold**
 
 **Rationale:**
-The 99.08% TxGNN score is a model prediction only. There are no clinical trials, and the single publication is a case report that does not directly address renovascular hypertension. The predicted indications are either subtypes of the already established hypertension indication or, for pulmonary hypertension, mechanistically doubtful and potentially unsafe.
+The 0.9908 TxGNN score is a model prediction only. There are no clinical trials, and the single publication is a case report that does not directly address renovascular hypertension. The predicted indications are either subtypes of the already established hypertension indication or, for pulmonary hypertension, mechanistically doubtful and potentially unsafe.
 
 **To proceed, the following is needed:**
 - The Medsafe package insert, with warnings and contraindications (currently a blocking gap), to enable safety screening

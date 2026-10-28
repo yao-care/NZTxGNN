@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tamsulosin is an antagonist of the alpha-1A, alpha-1B and alpha-1D adrenoceptors. Its efficacy in BPH is established, where it relaxes smooth muscle in the prostate and bladder neck to relieve urinary symptoms.
 
-For the predicted indication, the mechanistic link is weak. Ambras type hypertrichosis universalis congenita is a rare congenital condition caused by genomic rearrangements affecting regulation of the *TRPS1* gene. No known mechanism connects alpha-1 adrenergic blockade to this pathway. The very high score (0.99996) most likely reflects graph-neighbourhood similarity among hair-related disease nodes in the knowledge graph rather than biological rationale.
+For the predicted indication, the mechanistic link is weak. Ambras type hypertrichosis universalis congenita is a rare congenital condition caused by genomic rearrangements affecting regulation of the *TRPS1* gene. No known mechanism connects alpha-1 adrenergic blockade to this pathway. The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top-ranked predictions show the same pattern. They are mostly rare hair disorders (hypertrichosis, hypotrichosis, hair shaft abnormalities, alopecia areata) and developmental malformation syndromes, and none has supporting trials or literature. The rank 1 prediction is therefore best viewed as a hypothesis-generating output, not as evidence of a therapeutic opportunity.
 
@@ -90,7 +90,7 @@ For context, two papers were retrieved for the related prediction "alopecia" (ra
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2438526 | Tamsulosin-Rex (status: cancelled) | Cap 400 mcg | Not recorded |
+| 2438526 | Tamsulosin-Rex (status: valid) | Cap 400 mcg | Not recorded |
 
 ---
 

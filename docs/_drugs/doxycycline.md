@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Doxycycline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 168
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bacterial infections (bronchitis, acne, bacterial pneumonia, anthrax…"
 monitor_inn: "DOXYCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
+description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Doxycycline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Doxycycline: From Bacterial Infections (e.g., Bronchitis, Acne) to Punctate Epithelial Keratoconjunctivitis
+## Doxycycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Among the other predicted indications, **chronic gingivitis** has the most liter
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (bronchitis, acne, bacterial pneumonia, anthrax, gonorrhea, pharyngitis, actinomycosis, chancroid, leptospirosis, lymphogranuloma venereum, etc.). The New Zealand licence record has no approved-indication text, so this list comes from the knowledge graph. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -113,11 +113,11 @@ For reference, the strongest literature belongs to **chronic gingivitis** (mostl
 |---------|------|------|-----------|
 | 2545136 (cancelled) | Doxine | Tab 100 mg | Not recorded |
 
-Doxycycline has no currently valid licence in the New Zealand data compiled for this report.
+Doxycycline is marketed in New Zealand, with 1 valid licence out of 1 in the data compiled for this report.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, and dyskinesia of the oesophagus.
+- **Contraindications (TxGNN model (deep learning) associations, not label text; they may reflect similarities the model learned between related diseases, not biological evidence)**: *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, and dyskinesia of the oesophagus.
 - **Drug Interactions**: 100 interactions were identified; the 20 reviewed include these main ones:
   - **Major**: isotretinoin, acitretin, aminolevulinic acid (systemic).
   - **Moderate**: aluminium hydroxide, aminophylline, amobarbital, amoxicillin, ampicillin, anisindione, atracurium, attapulgite, balsalazide, bedaquiline, and others.
@@ -131,7 +131,7 @@ Package insert warnings and contraindications are not available in the data comp
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, punctate epithelial keratoconjunctivitis, is supported only by a single 1992 case report with no clinical trials (L4), and doxycycline has no currently valid New Zealand licence. The most promising alternative, chronic gingivitis (L2, "Proceed with Guardrails" in the underlying scoring), has a stronger evidence base, but it is mostly from periodontitis studies and needs confirmation for gingivitis itself.
+The most promising alternative, chronic gingivitis (L2, "Proceed with Guardrails" in the underlying scoring), has a stronger evidence base, but it is mostly from periodontitis studies and needs confirmation for gingivitis itself.
 
 **To proceed, the following is needed:**
 - Package insert warnings, contraindications and approved indications, which are blocking for safety screening.

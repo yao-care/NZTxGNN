@@ -6,9 +6,9 @@ nav_order: 213
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
+description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Folic Acid
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Folic Acid: From Vitamin Deficiency and Folate-Deficiency Anaemia to Biotin Metabolic Disease
+## Folic Acid: Biotin metabolic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This is a model-only prediction without direct clinical support.
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin deficiency disorder; folic acid deficiency anaemia; iron deficiency anaemia; hypochromic anaemia; microcytic anaemia (the New Zealand licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Biotin metabolic disease |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,7 +95,7 @@ The compiled literature is almost entirely narrative reviews or indirect studies
 
 ## New Zealand Market Information
 
-All three licences are cancelled; no folic acid single-ingredient product is currently valid. The records contain no approved indication text.
+All 3 licences are valid. The records contain no approved indication text.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -119,14 +119,14 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a high model score (Evidence Level L5). There are no clinical trials, the literature is indirect, and the mechanism does not support folate correcting biotin pathway defects. Standard care (biotin supplementation) already exists, and folic acid has no currently valid New Zealand licence.
+The prediction rests only on a high model score (Evidence Level L5). There are no clinical trials, the literature is indirect, and the mechanism does not support folate correcting biotin pathway defects.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for folic acid, and a clear mechanistic argument for benefit in biotinidase or holocarboxylase synthetase deficiency
 - Package insert warnings and contraindications from Medsafe, to complete safety screening
 - Direct preclinical or clinical evidence of folic acid in biotin metabolic disorders, which is currently absent
 - A clinical rationale for use beyond standard biotin therapy, such as an adjunctive role
-- Clarification of the regulatory position, since all New Zealand licences are cancelled
+- Clarification of the regulatory position, since all 3 New Zealand licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

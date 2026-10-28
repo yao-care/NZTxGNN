@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 314
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not available"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ with **4 clinical trials** (only 1 directly relevant, and it was withdrawn with 
 |------|------|
 | Original Indication | Not available (approved indication text is empty in the New Zealand licence records) |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -100,11 +100,11 @@ The main concern is that immunosuppression is a safety issue in people with HIV.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 350516 | Cellcept | Cap 250 mg | Not listed (cancelled) |
-| 2124912 | Cellcept | Powder for oral liq 1 g per 5 ml | Not listed (cancelled) |
-| 2093774 | Cellcept | Tab 500 mg | Not listed (cancelled) |
+| 350516 | Cellcept | Cap 250 mg | Not listed (valid) |
+| 2124912 | Cellcept | Powder for oral liq 1 g per 5 ml | Not listed (valid) |
+| 2093774 | Cellcept | Tab 500 mg | Not listed (valid) |
 
-All three authorizations are cancelled, so there is currently no valid marketed MMF product in the data compiled for this report.
+All three authorizations are valid, so there is currently a marketed MMF product in the data compiled for this report.
 
 ---
 
@@ -122,14 +122,14 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale (IMPDH inhibition, dGTP depletion, synergy with abacavir) is credible, and a few small human studies exist. However, there is no completed trial with direct efficacy data in HIV, the only directly relevant trial was withdrawn, and the immunosuppression risk is a real safety concern. All New Zealand authorizations are cancelled, and package insert safety data are missing, so the case cannot advance to safety screening yet.
+The mechanistic rationale (IMPDH inhibition, dGTP depletion, synergy with abacavir) is credible, and a few small human studies exist. However, there is no completed trial with direct efficacy data in HIV, the only directly relevant trial was withdrawn, and the immunosuppression risk is a real safety concern. All 3 New Zealand authorizations are valid, but package insert safety data are missing, so the case cannot advance to safety screening yet.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap)
 - Detailed mechanism of action data from DrugBank
 - A critical review of the RCT (PMID 15353978) and the smaller cohort data, in particular the effect on viral load and the latent reservoir
 - A safety assessment of immunosuppression in HIV-positive patients (opportunistic infections, CD4 counts, malignancy)
-- Clarification of the original approved indication and the New Zealand regulatory pathway, given that all authorizations are cancelled
+- Clarification of the original approved indication and the New Zealand regulatory pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

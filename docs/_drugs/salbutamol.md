@@ -4,17 +4,17 @@ title: Salbutamol
 parent: Model Prediction Only (L5)
 nav_order: 418
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Asthma, bronchial disease"
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
+description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Salbutamol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Salbutamol: From Asthma to Papillary Conjunctivitis
+## Salbutamol: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Other predicted indications have more evidence: **obstructive lung disease** (a 
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, bronchial disease (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 9 (1 valid, 8 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Authorizations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 For papillary conjunctivitis, the link is speculative. Beta-2 agonism could plausibly reduce mast-cell mediator release in ocular allergy. Preclinical work supports this idea for related conditions: topical salbutamol strongly suppressed immediate allergic conjunctivitis in guinea pigs, and beta-2 agonists showed topical anti-inflammatory activity in the conjunctiva. However, papillary conjunctivitis is often driven by contact lenses or mechanical irritation, so an allergy-based mechanism may not apply. No human data were retrieved.
 
-The prediction with the strongest support is **obstructive lung disease**, which overlaps directly with the original indications. This is better described as established bronchodilator use than as true repurposing.
 
 ---
 
@@ -72,7 +71,6 @@ The prediction with the strongest support is **obstructive lung disease**, which
 
 No clinical trials are registered for the top-ranked prediction, papillary conjunctivitis. Currently no related clinical trials registered.
 
-For context, the table below shows the most relevant trials for the best-supported predicted indication, **obstructive lung disease** (rank 10).
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|

@@ -4,17 +4,17 @@ title: Sirolimus
 parent: High Evidence (L1-L2)
 nav_order: 425
 evidence_level: L2
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma and lymphangioleiomyomatosis"
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
+description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Sirolimus: From Renal Cell Carcinoma and Lymphangioleiomyomatosis to Liposarcoma
+## Sirolimus: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but only **1 clinical trial** (a Phase 2 single-arm combination study) and a sma
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and lymphangioleiomyomatosis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -94,9 +94,9 @@ However, the evidence is thin. The single Phase 2 trial tested sirolimus in comb
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2109638 | Rapamune | Tab 1 mg | Not available (cancelled) |
-| 2059339 | Rapamune | Oral liq 1 mg per ml | Not available (cancelled) |
-| 2258218 | Rapamune | Tab 2 mg | Not available (cancelled) |
+| 2109638 | Rapamune | Tab 1 mg | Not available (valid) |
+| 2059339 | Rapamune | Oral liq 1 mg per ml | Not available (valid) |
+| 2258218 | Rapamune | Tab 2 mg | Not available (valid) |
 
 ---
 
@@ -132,10 +132,10 @@ Package insert warnings and contraindications were not available; please refer t
 
 | Predicted Indication | TxGNN Score | Evidence Level | Note |
 |------|------|------|------|
-| Lymphangiomyoma (LAM) | 99.79% | L1 | Phase 3 MILES trial (NCT00414648, n=89) and Phase 3 early-disease trial (NCT03150914, n=60). LAM is already an original indication, so this is confirmatory rather than true repurposing. Recommendation: Proceed with Guardrails |
-| Lung PEComa | 99.63% | L3 | Evidence is extrapolated from LAM; recommendation: Proceed with Guardrails |
-| Benign PEComa | 99.80% | L4 | Mostly case reports and retrospective series; mTORC1 rationale via TSC1/TSC2 loss |
-| Ovarian myxoid liposarcoma, uterine PEComa, renal cell carcinoma variants, vulva sarcoma | 99.6–99.8% | L5 | Prediction only, no supportive trials or relevant literature |
+| Lymphangiomyoma (LAM) | 0.9979 | L5 | Phase 3 MILES trial (NCT00414648, n=89) and Phase 3 early-disease trial (NCT03150914, n=60). LAM is already an original indication, so this is confirmatory rather than true repurposing. Recommendation: Proceed with Guardrails |
+| Lung PEComa | 0.9963 | L5 | Evidence is extrapolated from LAM; recommendation: Proceed with Guardrails |
+| Benign PEComa | 0.9980 | L5 | Mostly case reports and retrospective series; mTORC1 rationale via TSC1/TSC2 loss |
+| Ovarian myxoid liposarcoma, uterine PEComa, renal cell carcinoma variants, vulva sarcoma | 99.6–0.9980 | L5 | Prediction only, no supportive trials or relevant literature |
 
 ---
 
@@ -144,14 +144,14 @@ Package insert warnings and contraindications were not available; please refer t
 **Decision: Hold**
 
 **Rationale:**
-For liposarcoma, the evidence is limited to a single Phase 2 single-arm combination trial and indirect literature, so sirolimus's own effect cannot be established. In addition, all New Zealand licences are cancelled, and package insert safety data and mechanism of action data are missing.
+For liposarcoma, the evidence is limited to a single Phase 2 single-arm combination trial and indirect literature, so sirolimus's own effect cannot be established. In addition, the drug is marketed in New Zealand (3 of 3 licences valid), and package insert safety data and mechanism of action data are missing.
 
 **To proceed, the following is needed:**
 - Results of NCT02821507, including the liposarcoma-specific subset and the identity of the combination partner, to assess sirolimus's independent contribution
 - Randomized or at least controlled evidence of sirolimus in liposarcoma
 - Detailed mechanism of action data
 - Package insert warnings and contraindications for a formal safety review
-- Confirmation of current regulatory status in New Zealand, given that all licences are cancelled
+- Confirmation of current regulatory status in New Zealand (3 of 3 licences valid)
 - A review of the interaction profile (100 interactions, including several major) before any clinical use
 ## Disclaimer
 

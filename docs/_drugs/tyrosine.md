@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Tyrosine is an amino acid and precursor of catecholamines and thyroid hormones. Its only New Zealand authorization (a powder sachet product) has been cancelled, and no approved indication is recorded.
-The TxGNN model predicts it may be effective for **cauda equina syndrome**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting this specific indication.
+The TxGNN model (deep learning) predicts it may be effective for **cauda equina syndrome**, but this score comes from the model and may reflect similarities the model learned between related diseases, not biological evidence. There are **0 clinical trials** and **0 publications** supporting this specific indication.
 Evidence is very weak, so the recommendation is to hold.
 
 ## Quick Overview
@@ -48,17 +48,17 @@ Evidence is very weak, so the recommendation is to hold.
 |------|------|
 | Original Indication | Not recorded (the Medsafe license has no approved indication text) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, tyrosine is a catecholamine precursor (dopamine, norepinephrine) and a building block of thyroid hormones. No original indication is recorded in the New Zealand license data, so the link between an original use and the new indication cannot be assessed.
 
-For cauda equina syndrome, the data compiled for this report found no mechanistic link. The condition is a compressive injury to the lumbosacral nerve roots and is treated surgically. The high score (0.998) reflects a graph-based association only, and no study connects tyrosine to nerve-root injury.
+For cauda equina syndrome, the data compiled for this report found no mechanistic link. The condition is a compressive injury to the lumbosacral nerve roots and is treated surgically. The high score (0.9977) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and no study connects tyrosine to nerve-root injury.
 
 Several other predicted indications were also reviewed (see the table below). None has convincing support. Two noteworthy points:
 - **Hyperthyroidism**: tyrosine is a substrate for thyroid hormone synthesis, so supplying it would not be expected to treat hormone excess and could theoretically worsen it.
@@ -66,16 +66,16 @@ Several other predicted indications were also reviewed (see the table below). No
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Trials | Publications |
 |------|------|------|------|------|------|
-| 1 | Cauda equina syndrome | 99.77% | L5 | 0 | 0 |
-| 2 | Obsolete neurogenic bladder (disease) | 99.55% | L5 | 0 | 0 |
-| 3 | Angle-closure glaucoma | 99.54% | L5 | 0 | 4 |
-| 4 | Hyperthyroidism | 99.51% | L5 | 1 | 20 |
-| 5 | Postural orthostatic tachycardia syndrome | 99.46% | L4 | 0 | 1 |
-| 6 | Hyperthyroxinemia | 99.46% | L5 | 0 | 3 |
-| 7 | Resistance to thyroid hormone (TRβ mutation) | 99.40% | L5 | 0 | 4 |
-| 8 | Aqueous misdirection | 99.35% | L5 | 0 | 0 |
-| 9 | Traumatic glaucoma | 99.35% | L5 | 0 | 1 |
-| 10 | Neovascular glaucoma | 99.32% | L5 | 0 | 4 |
+| 1 | Cauda equina syndrome | 0.9977 | L5 | 0 | 0 |
+| 2 | Obsolete neurogenic bladder (disease) | 0.9955 | L5 | 0 | 0 |
+| 3 | Angle-closure glaucoma | 0.9954 | L5 | 0 | 4 |
+| 4 | Hyperthyroidism | 0.9951 | L5 | 1 | 20 |
+| 5 | Postural orthostatic tachycardia syndrome | 0.9946 | L5 | 0 | 1 |
+| 6 | Hyperthyroxinemia | 0.9946 | L5 | 0 | 3 |
+| 7 | Resistance to thyroid hormone (TRβ mutation) | 0.9940 | L5 | 0 | 4 |
+| 8 | Aqueous misdirection | 0.9935 | L5 | 0 | 0 |
+| 9 | Traumatic glaucoma | 0.9935 | L5 | 0 | 1 |
+| 10 | Neovascular glaucoma | 0.9932 | L5 | 0 | 4 |
 
 ## Clinical Trial Evidence
 
@@ -107,7 +107,7 @@ Selected publications retrieved for other predicted indications (all indirect; n
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2668742 | Tyrosine1000 | Powder, 4 g sachets | Not recorded (license status: cancelled) |
+| 2668742 | Tyrosine1000 | Powder, 4 g sachets | Not recorded (license status: valid) |
 
 ## Safety Considerations
 

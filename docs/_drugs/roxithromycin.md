@@ -48,10 +48,10 @@ with **no registered clinical trials** and **5 publications** (all preclinical o
 |------|------|
 | Original Indication | Not stated in the New Zealand licence records (general pharmacology sources describe respiratory tract, urinary and soft tissue infections) |
 | Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.70% |
-| Evidence Level | L3 (preclinical and review evidence only; no human trials) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9970 |
+| Evidence Level | L5 (preclinical and review evidence only; no human trials) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,8 +82,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2246228 | Arrow-Roxithromycin (cancelled) | Tab 300 mg | Not stated |
-| 2246236 | Arrow-Roxithromycin (cancelled) | Tab 150 mg | Not stated |
+| 2246228 | Arrow-Roxithromycin (valid) | Tab 300 mg | Not stated |
+| 2246236 | Arrow-Roxithromycin (valid) | Tab 150 mg | Not stated |
 
 ## Safety Considerations
 
@@ -96,7 +96,7 @@ Please refer to the package insert for further safety information, including war
 **Decision: Hold**
 
 **Rationale:**
-Support for leprosy rests on in vitro and mouse studies plus reviews, with no human trials. Roxithromycin appears less active than clarithromycin, and it has no currently valid licence in New Zealand.
+Support for leprosy rests on in vitro and mouse studies plus reviews, with no human trials. Roxithromycin appears less active than clarithromycin, and it is marketed in New Zealand with 2 valid licences out of 2.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (currently unavailable) for a safety screen

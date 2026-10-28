@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etoposide
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 188
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Etoposide: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Small cell lung carcinoma"
 monitor_inn: "ETOPOSIDE"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
+description: "Etoposide: predicted new indication Well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Etoposide
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Etoposide: From Small Cell Lung Carcinoma and Germ Cell Tumours to Ewing Sarcoma
+## Etoposide: Well-differentiated fetal adenocarcinoma of the lung
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This report uses Ewing sarcoma as the lead indication because the top-ranked pre
 
 | Item | Content |
 |------|------|
-| Original Indication | Small cell lung carcinoma; testicular germ cell tumours (no approved indication text is available from New Zealand licences) |
-| Predicted New Indication | Ewing sarcoma (best-supported of the top 10 predictions; the rank 1 prediction is well-differentiated fetal adenocarcinoma of the lung) |
-| TxGNN Prediction Score | 99.85% (Ewing sarcoma); 99.94% for the rank 1 prediction |
-| Evidence Level | L1 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
-| Number of Authorizations | 6 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Well-differentiated fetal adenocarcinoma of the lung |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -98,15 +98,15 @@ Several other registered trials are small, terminated or withdrawn. For rhabdomy
 
 ## New Zealand Market Information
 
-All six licences are cancelled, and no approved indication text is available.
+All six licences are valid, and no approved indication text is available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 332704 | Vepesid | Cap 100 mg | Not available (cancelled) |
-| 332690 | Vepesid | Cap 50 mg | Not available (cancelled) |
-| 2480913 | Rex Medical | Inj 20 mg per ml, 5 ml vial | Not available (cancelled) |
-| 493953 | Etopophos | Inj 100 mg (of etoposide base) | Not available (cancelled) |
-| 2204118 | Baxter | Inj 1 mg for ECP | Not available (cancelled) |
+| 332704 | Vepesid | Cap 100 mg | Not available (valid) |
+| 332690 | Vepesid | Cap 50 mg | Not available (valid) |
+| 2480913 | Rex Medical | Inj 20 mg per ml, 5 ml vial | Not available (valid) |
+| 493953 | Etopophos | Inj 100 mg (of etoposide base) | Not available (valid) |
+| 2204118 | Baxter | Inj 1 mg for ECP | Not available (valid) |
 
 A sixth licence (2207613, Baxter, Inj 1 mg of etoposide base for ECP) is also cancelled.
 
@@ -115,14 +115,13 @@ A sixth licence (2207613, Baxter, Inj 1 mg of etoposide base for ECP) is also ca
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (topoisomerase II inhibitor) |
-| Myelosuppression Risk | High (the knowledge graph links etoposide to neutropenia, thrombocytopenia, leukopenia and anaemia) |
 | Emetogenicity Classification | Low to moderate (general drug-class knowledge; please verify against the package insert) |
 | Monitoring Items | Complete blood count with differential, liver and renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-- **Contraindications / risk conditions (knowledge-graph associations, not label text)**: thrombocytopenia, neutropenia, agranulocytosis, anaemia (including macrocytic), leukopenia, interstitial lung disease, pulmonary fibrosis, impaired renal function, acidosis/metabolic acidosis and drug-induced liver injury.
+- **Contraindications / risk conditions (not label text)**: thrombocytopenia, neutropenia, agranulocytosis, anaemia (including macrocytic), leukopenia, interstitial lung disease, pulmonary fibrosis, impaired renal function, acidosis/metabolic acidosis and drug-induced liver injury.
 - **Drug Interactions**: 100 interactions were identified. Moderate-level examples include aprepitant, rolapitant, metronomidazole, tinidazole, eliglustat, rosuvastatin and simvastatin. Levofloxacin is minor. Others (e.g. cimetidine, pantoprazole, morphine, doxycycline) have an unknown severity level. A full interaction review is needed before use.
 - Guardrails noted for the Ewing sarcoma regimen: myelosuppression, secondary leukaemia risk, cumulative dose and DDI review.
 
@@ -135,12 +134,11 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 - Randomised phase 3 trials and consensus guidance support etoposide-containing regimens (IE alternating with VDC) in Ewing sarcoma. Because these are combination regimens, the independent contribution of etoposide is not isolated.
 - Etoposide is already established oncology practice, so this is largely a confirmation of existing use rather than a new finding.
-- No New Zealand licence is currently valid, which is a barrier to local use.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- Confirmation of local supply or licensing, since all New Zealand licences are cancelled
+- Confirmation of local supply or licensing, since all six New Zealand licences are valid
 - A myelosuppression and secondary malignancy monitoring plan, plus a full DDI review
 - For the lower-ranked predictions, disease-specific trial or cohort data before any further consideration
 ## Disclaimer

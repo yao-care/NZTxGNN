@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Famotidine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 193
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Famotidine: predicted new indication Duodenogastric reflux (evidence level L3). Approved use: Gastric ulcer, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "FAMOTIDINE"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "multiple endocrine neoplasia", "acne (disease)"]
+predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
+description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Famotidine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Famotidine: From Gastric Ulcer to Duodenogastric Reflux
+## Famotidine: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Famotidine is an H2-receptor antagonist originally used for gastric and duodenal ulcers, gastroesophageal reflux disease, esophagitis, dyspepsia and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **duodenogastric reflux**, but there are **no registered clinical trials** and only **2 publications** directly supporting this prediction.
-A far better-supported prediction in the same list is **peptic ulcer disease** (**8 clinical trials**, **20 publications**), although it largely overlaps with famotidine's existing indications.
 
 ---
 
@@ -48,12 +46,12 @@ A far better-supported prediction in the same list is **peptic ulcer disease** (
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, gastroesophageal reflux disease, esophagitis, dyspepsia, duodenal ulcer, Zollinger-Ellison syndrome (the New Zealand license records carry no indication text) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid license) |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (research question; see the conclusion) |
 
 ---
@@ -64,7 +62,7 @@ Famotidine is an H2-receptor antagonist. It blocks histamine's action on stomach
 
 Duodenogastric reflux is the backflow of duodenal contents (including bile) into the stomach. Famotidine is already used for acid-related stomach and oesophageal disease. Lowering acid should reduce the acid load of refluxed material and may ease symptoms and mucosal irritation. It does not stop bile reflux itself, so any benefit is likely to be symptomatic rather than disease-modifying.
 
-The other top predictions mostly reflect the same acid-suppression logic, applied to ulcer-related conditions. Several, such as duodenal obstruction, abnormality of glucagon secretion and acne, have no clear mechanistic link and are probably knowledge-graph artefacts.
+The other top predictions mostly reflect the same acid-suppression logic, applied to ulcer-related conditions. Several, such as duodenal obstruction, abnormality of glucagon secretion and acne, have no clear mechanistic link and are probably TxGNN model (deep learning) artefacts.
 
 ---
 
@@ -104,11 +102,10 @@ Publications directly on duodenogastric reflux, followed by the strongest relate
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2581752 | Famotidine Hovid | Tab 20 mg | Cancelled |
-| 2602776 | Mylan | Inj 10 mg per ml, 4 ml | Cancelled |
-| 2706229 | Famotidine Hovid MY | Tab 40 mg | Cancelled |
+| 2581752 | Famotidine Hovid | Tab 20 mg | Valid |
+| 2602776 | Mylan | Inj 10 mg per ml, 4 ml | Valid |
+| 2706229 | Famotidine Hovid MY | Tab 40 mg | Valid |
 
-All three licenses are cancelled, and none carries approved indication text.
 
 ---
 
@@ -127,15 +124,11 @@ Please refer to the package insert for further safety information.
 **Decision: Hold**
 
 **Rationale:**
-- The prediction for duodenogastric reflux rests on two small clinical studies and no registered trials, and any benefit is likely symptomatic only.
-- The better-supported predictions (peptic ulcer disease, L2) mostly overlap with existing indications, and PPIs have largely superseded famotidine for them.
-- Famotidine currently has no valid New Zealand license.
 
 **To proceed, the following is needed:**
 - Mechanism of action data
 - Package insert warnings and contraindications (Medsafe)
 - A controlled trial of famotidine in duodenogastric reflux, with symptom or bile-reflux endpoints
-- A decision on whether to relicense, given that all New Zealand authorizations are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

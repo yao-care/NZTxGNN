@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cytarabine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 129
-evidence_level: L4
+evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
-description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L4). Approved use: Acute lymphoblastic leukaemia and acute myeloid leukaemia (including…"
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
+last_modified_at: 2026-10-27
+description: "Cytarabine: predicted new indication small cell lung carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cytarabine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,52 +33,62 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-## Cytarabine: From Acute Leukaemia to Small Cell Lung Carcinoma
+## Cytarabine: pyrimidine nucleoside analogue (antimetabolite) → small cell lung carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Cytarabine is a pyrimidine nucleoside analogue chemotherapy, originally used for acute lymphoblastic and acute myeloid leukaemias.
-The TxGNN model predicts it may be effective for **small cell lung carcinoma**, but there are **no registered clinical trials** and **no SCLC-specific cytarabine clinical studies** among the 20 publications retrieved, so this is essentially a model prediction with indirect support.
+Cytarabine is a pyrimidine nucleoside analogue that blocks DNA synthesis in rapidly dividing cells and is used as a cytotoxic chemotherapy agent.
+The TxGNN model predicts it may be effective for **small cell lung carcinoma**, but **no clinical trials** and **no cytarabine-specific publications on this disease** are in the data compiled for this report.
+The score is high, yet the supporting evidence is indirect.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukaemia and acute myeloid leukaemia (including several subtypes). The New Zealand licence records contain no approved indication text. |
-| Predicted New Indication | Small cell lung carcinoma |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 6 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | small cell lung carcinoma |
+| TxGNN Prediction Score | 0.9978 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cytarabine is a pyrimidine nucleoside analogue that inhibits DNA synthesis in rapidly dividing cells. Its efficacy in acute leukaemia is well established, and mechanistically it could be applicable to a highly proliferative tumour such as small cell lung carcinoma.
+Detailed mechanism of action data is not available in the compiled data. Based on general knowledge, cytarabine is a pyrimidine nucleoside analogue. It interferes with DNA synthesis, which makes it plausible as an agent against highly proliferative tumours such as small cell lung carcinoma.
 
-However, the supporting evidence is weak. The retrieved literature mostly concerns non-small cell lung cancer (1990 phase II combinations of cytarabine with cisplatin, with a response rate of about 14% in one study and significant myelosuppression) and other antimetabolites such as gemcitabine and decitabine. Solid tumours are generally relatively insensitive to cytarabine. The only SCLC-specific item is a 1987 report on high-dose cytarabine in small cell lung cancer, which has no abstract available. The very high TxGNN score is therefore not backed by direct clinical evidence.
+However, the supporting literature does not study cytarabine in this disease. Most retrieved papers concern non-small cell lung cancer. These are 1990 phase II studies of cytarabine with cisplatin, in which the overall response rate was modest (14% in one study). Other papers cover related antimetabolites such as gemcitabine and decitabine, or topotecan.
+
+One 1987 report, "High-dose cytarabine in small cell lung cancer" (PMID 3030547), directly names the disease. No abstract is available, so no findings can be drawn from it. Because nothing in the data demonstrates efficacy in this disease, the evidence level is L5, and the high TxGNN score should be treated as a hypothesis, not as confirmation.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for small cell lung carcinoma.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3030547](https://pubmed.ncbi.nlm.nih.gov/3030547/) | 1987 | Clinical report | Cancer Treat Rep | High-dose cytarabine in small cell lung cancer; no abstract available, so findings cannot be summarised |
-| [2156598](https://pubmed.ncbi.nlm.nih.gov/2156598/) | 1990 | Phase II | Cancer | High-dose cytarabine plus cisplatin in untreated NSCLC (n=37): 14% response rate, grade IV myelosuppression in 32%, 4 deaths on study |
-| [2157307](https://pubmed.ncbi.nlm.nih.gov/2157307/) | 1990 | Phase II | Tumori | Cisplatin, vindesine and cytarabine in advanced NSCLC (n=32); modest activity |
-| [2158614](https://pubmed.ncbi.nlm.nih.gov/2158614/) | 1990 | Randomised phase II | Med Pediatr Oncol | Cisplatin-cytarabine vs cisplatin-vinblastine in 151 NSCLC patients (NSCLC, not SCLC) |
-| [2820740](https://pubmed.ncbi.nlm.nih.gov/2820740/) | 1987 | Pilot study | Eur J Cancer Clin Oncol | Cisplatin plus cytarabine in advanced NSCLC; no abstract available |
+| [3030547](https://pubmed.ncbi.nlm.nih.gov/3030547/) | 1987 | Clinical report (type not classified) | Cancer Treat Rep | High-dose cytarabine in small cell lung cancer; no abstract available, so findings cannot be summarised |
+| [2158614](https://pubmed.ncbi.nlm.nih.gov/2158614/) | 1990 | Randomized phase II | Med Pediatr Oncol | Cisplatin-cytarabine vs cisplatin-vinblastine in 151 patients with advanced NSCLC (not SCLC) |
+| [2156598](https://pubmed.ncbi.nlm.nih.gov/2156598/) | 1990 | Phase II | Cancer | High-dose cytarabine plus cisplatin in 37 untreated NSCLC patients; response rate 14%, Grade IV myelosuppression in 32% |
+| [2157307](https://pubmed.ncbi.nlm.nih.gov/2157307/) | 1990 | Phase II | Tumori | Cisplatin, vindesine and cytarabine in 32 patients with advanced NSCLC (not SCLC) |
 | [1332622](https://pubmed.ncbi.nlm.nih.gov/1332622/) | 1992 | Review | Gan To Kagaku Ryoho | Gemcitabine and DMDC are related to cytarabine; many solid tumours are insensitive to cytarabine |
-| [1360876](https://pubmed.ncbi.nlm.nih.gov/1360876/) | 1992 | In vitro | Cancer Chemother Pharmacol | Drug sensitivity patterns in SCLC cell lines (doxorubicin focus; not cytarabine-specific) |
-| [18600541](https://pubmed.ncbi.nlm.nih.gov/18600541/) | 2008 | Preclinical | Nucleosides Nucleotides Nucleic Acids | Nucleoside transporters hENT1 and hCNT1, which mediate cytarabine uptake, are highly expressed in NSCLC cell lines and samples |
+| [28223673](https://pubmed.ncbi.nlm.nih.gov/28223673/) | 2017 | Case report | Gan To Kagaku Ryoho | Meningeal carcinomatosis with small cell lung carcinoma treated with a multidisciplinary approach |
+| [1360876](https://pubmed.ncbi.nlm.nih.gov/1360876/) | 1992 | In vitro | Cancer Chemother Pharmacol | Drug sensitivity patterns in SCLC cell lines (doxorubicin, etoposide, vincristine, carmustine) |
+
+---
 
 ## New Zealand Market Information
-
-All six authorizations are cancelled; none is currently valid. The records contain no approved indication text.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -88,36 +98,40 @@ All six authorizations are cancelled; none is currently valid. The records conta
 | 2204231 | Baxter | Inj 100 mg intrathecal syringe for ECP | Not recorded |
 | 341711 | Cytarabine DBL | Inj 100 mg per ml, 20 ml vial | Not recorded |
 
+---
+
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (pyrimidine nucleoside antimetabolite) |
-| Myelosuppression Risk | High (grade IV myelosuppression in 32% of patients in a high-dose cytarabine plus cisplatin lung cancer study) |
-| Emetogenicity Classification | Nausea and vomiting reported in the lung cancer studies; please refer to the package insert for classification |
+| Cytotoxicity Classification | Conventional cytotoxic (pyrimidine antimetabolite) |
+| Myelosuppression Risk | High; a cited phase II study reported Grade IV myelosuppression in 32% of patients on high-dose cytarabine with cisplatin |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Complete blood count with differential, liver and renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
 
+---
+
 ## Safety Considerations
 
-- **Contraindication-related conditions (from a knowledge graph, not label text)**: kidney disease, liver disease, pancreatitis, gallbladder disease, thrombocytopenia, anaemia, leukopenia, neutropenia and agranulocytosis (including congenital neutropenia syndromes), peripheral neuropathy, pulmonary oedema, diarrhoeal disease, fungal infections, and necrotising enterocolitis.
-- **Drug Interactions**: 100 interactions were identified. Those with a graded severity are naltrexone (Moderate) and levofloxacin (Minor). Many others, including pantoprazole, omeprazole, metformin, morphine, vancomycin and prednisone, have an unknown severity level.
+- **Drug Interactions**: Interaction screening returned 100 records. Those listed include naltrexone (Moderate) and levofloxacin (Minor). Others, including mannitol, pantoprazole, metformin, morphine, omeprazole, vancomycin and prednisone, have an unknown severity level.
 
-Please refer to the package insert for the official warnings and contraindications.
+For label warnings and contraindications, please refer to the package insert.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output and indirect evidence only (L4). There are no clinical trials, no SCLC-specific data of substance, historical NSCLC studies showed low response rates with substantial haematologic toxicity, and the drug currently has no valid New Zealand authorization.
+No clinical trials are registered for this prediction, and the retrieved publications mostly address non-small cell lung cancer or other drugs. The very high TxGNN score is not backed by cytarabine-specific clinical data in small cell lung carcinoma.
 
 **To proceed, the following is needed:**
-- Review of the 1987 SCLC high-dose cytarabine report to establish actual activity
-- Detailed mechanism of action data
-- Package insert warnings and contraindications (Medsafe)
-- Preclinical or clinical data specific to cytarabine in SCLC
-- A regulatory plan, as all New Zealand licences are cancelled
+- Retrieve and review the full text of the 1987 high-dose cytarabine study in small cell lung cancer (PMID 3030547)
+- Mechanism of action data and a direct mechanistic rationale for small cell lung carcinoma
+- Package insert warnings and contraindications from Medsafe
+- Preclinical or early-phase clinical data of cytarabine in small cell lung carcinoma, including comparison with current standard therapy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

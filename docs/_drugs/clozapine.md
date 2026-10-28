@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **manic bipolar affective disor
 |------|------|
 | Original Indication | Not recorded in the licence data (clozapine is generally used for treatment-resistant schizophrenia) |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L2 (L1 for the related broader indication, bipolar disorder) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 15 (all cancelled) |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 (L1 for the related broader indication, bipolar disorder) |
+| New Zealand Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Authorizations | 15 (valid: 15) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -93,15 +93,15 @@ Related trials in the broader bipolar disorder indication:
 
 ## New Zealand Market Information
 
-All 15 licences are cancelled, so clozapine currently has no valid authorization in the data compiled. The main ones are listed below; approved indication text is not recorded for any of them.
+All 15 licences are valid, so clozapine is currently marketed in the data compiled. The main ones are listed below; approved indication text is not recorded for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2229161 | Clopine | Tab 100 mg | Cancelled |
-| 2633353 | Clozaril | Tab 25 mg | Cancelled |
-| 2633361 | Clozaril | Tab 100 mg | Cancelled |
-| 2604965 | Versacloz | Suspension 50 mg per ml | Cancelled |
-| 2229110 | Clopine | Tab 200 mg | Cancelled |
+| 2229161 | Clopine | Tab 100 mg | Valid |
+| 2633353 | Clozaril | Tab 25 mg | Valid |
+| 2633361 | Clozaril | Tab 100 mg | Valid |
+| 2604965 | Versacloz | Suspension 50 mg per ml | Valid |
+| 2229110 | Clopine | Tab 200 mg | Valid |
 
 ## Safety Considerations
 
@@ -123,7 +123,7 @@ A completed double-blind Phase 2 trial directly supports mania, and a systematic
 - Package insert warnings and contraindications from Medsafe, which is a blocking gap for safety screening
 - Published results of NCT00029458 and adult-population Phase 3 data
 - A monitoring plan covering neutropenia/agranulocytosis, myocarditis, seizures and metabolic risk
-- Clarification of regulatory status, since all New Zealand licences are cancelled and no valid product is currently available
+- Clarification of regulatory status, since all 15 New Zealand licences are valid and the drug is currently marketed
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

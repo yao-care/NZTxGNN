@@ -4,17 +4,17 @@ title: Verapamil
 parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-15
-description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Hypertension, atrial fibrillation, acute coronary syndrome…"
+indication_count: 6
+last_modified_at: 2026-10-28
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
+description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Verapamil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Verapamil: From Hypertension and Arrhythmia to Obsolete Bundle Branch Block
+## Verapamil: Obsolete bundle branch block
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,24 +45,24 @@ The TxGNN model predicts it may be effective for **obsolete bundle branch block*
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, atrial fibrillation, acute coronary syndrome, Prinzmetal angina, ventricular tachycardia (from the knowledge graph; no approved-indication text is available from the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obsolete bundle branch block |
-| TxGNN Prediction Score | 99.62% |
+| TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 6 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, verapamil is a calcium channel blocker, and its efficacy in hypertension and supraventricular and ventricular arrhythmias is established. Data compiled for this report show it acts on L-type calcium channels (Cav1.1–1.4) and also interacts with other ion channels and CYP3A4.
 
-The link to the predicted indication is weak. Verapamil slows atrioventricular nodal conduction. Bundle branch block is a conduction defect in the His-Purkinje system, so slowing conduction could worsen it rather than treat it. The very high score (99.62%) is a graph-based prediction only, and the disease term is marked obsolete, so there is no clear clinical target.
+The link to the predicted indication is weak. Verapamil slows atrioventricular nodal conduction. Bundle branch block is a conduction defect in the His-Purkinje system, so slowing conduction could worsen it rather than treat it. The very high score (0.9962) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The disease term is marked obsolete, so there is no clear clinical target.
 
 Other top-ranked predictions are closer to the original indication but also lack clinical data:
-- **Malignant hypertensive renal disease** (99.27%) and **malignant renovascular hypertension** (99.27%): plausible through vasodilation, but non-dihydropyridine calcium channel blockers are not first-line for malignant hypertension. The two publications retrieved for the latter are tangential (aldosterone/renin ratio confounders; a paediatric renal myofibromatosis case).
-- **Pulmonary hypertension** (two subtypes, 99.26%): calcium channel blockers may help vasoreactive subsets, but verapamil's negative inotropic effect carries a risk of right heart failure. In lung disease or hypoxia, blunting hypoxic vasoconstriction may impair gas exchange.
-- **Braddock syndrome** (99.15%) and **periodic paralysis with transient compartment-like syndrome** (99.08%): no clear mechanistic link or only a speculative one.
+- **Malignant hypertensive renal disease** (0.9927) and **malignant renovascular hypertension** (0.9927): plausible through vasodilation, but non-dihydropyridine calcium channel blockers are not first-line for malignant hypertension. The two publications retrieved for the latter are tangential (aldosterone/renin ratio confounders; a paediatric renal myofibromatosis case).
+- **Pulmonary hypertension** (two subtypes, 0.9926): calcium channel blockers may help vasoreactive subsets, but verapamil's negative inotropic effect carries a risk of right heart failure. In lung disease or hypoxia, blunting hypoxic vasoconstriction may impair gas exchange.
+- **Braddock syndrome** (0.9915) and **periodic paralysis with transient compartment-like syndrome** (0.9908): no clear mechanistic link or only a speculative one.
 
 ## Clinical Trial Evidence
 
@@ -82,7 +82,7 @@ Currently no related literature available for the top-ranked prediction. Literat
 | 2535351 | Isoptin | Inj 2.5 mg per ml, 2 ml ampoule | Not available |
 | 2535343 | Isoptin SR | Tab long-acting 240 mg | Not available |
 
-All six authorizations are cancelled; one further cancelled licence (2535335, Isoptin Tab 80 mg) is not listed above.
+All six licences are valid.
 
 ## Safety Considerations
 
@@ -96,14 +96,14 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score. There are no trials or relevant literature, the disease term is obsolete, and verapamil's conduction-slowing action could be harmful in bundle branch block. Verapamil also has no currently valid New Zealand authorization.
+The prediction is supported only by a model score. There are no trials or relevant literature, the disease term is obsolete, and verapamil's conduction-slowing action could be harmful in bundle branch block.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data
 - A current, non-obsolete disease definition and clinical rationale for the predicted indication
 - Consideration of better-supported candidates among the other predictions, such as hypertensive end-organ disease, with disease-specific clinical data
-- Clarification of the regulatory pathway, given all licences are cancelled
+- Clarification of the regulatory pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

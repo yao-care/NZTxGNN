@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fosfomycin
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 214
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Fosfomycin: predicted new indication Gonococcal urethritis (evidence level L2). Approved use: Urinary tract infection"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "FOSFOMYCIN"
-predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "pyelitis"]
+predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "pyelitis"]
+last_modified_at: 2026-10-23
+description: "Fosfomycin: predicted new indication Uterine inflammatory disease (evidence level L5). Approved use: Urinary tract infection"
 ---
 
 # Fosfomycin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,78 +33,76 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Fosfomycin: From Urinary Tract Infection to Gonococcal Urethritis
+## Fosfomycin: From Urinary Tract Infection to Uterine Inflammatory Disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Fosfomycin is an antibiotic originally used to treat urinary tract infections (UTI).
-The TxGNN model predicts it may be effective for **gonococcal urethritis**. Support is limited: **no registered clinical trials** and **6 publications**, including **1 randomized controlled trial** (2016) and two small 1977 clinical studies.
+Fosfomycin is an antibiotic. The TxGNN model (deep learning) predicts it may be useful for **uterine inflammatory disease** (score 0.9998). This score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The evidence is thin: **2 clinical trials** and **1 publication** were retrieved, and none of them directly studies this disease.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection |
-| Predicted New Indication | Gonococcal urethritis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| Original Indication | Urinary tract infection (relation recorded in the knowledge graph; the local licence record contains no indication text) |
+| Predicted New Indication | Uterine inflammatory disease |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Licences | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Fosfomycin inhibits MurA (UDP-N-acetylglucosamine enolpyruvyl transferase), which blocks the first committed step of bacterial peptidoglycan (cell wall) synthesis. This makes it bactericidal. The data compiled for this report contain no separate mechanism-of-action entry, so this description comes from the mechanistic analysis of the prediction.
+Detailed mechanism-of-action data for fosfomycin are not available in the data compiled for this report. It is generally described as a broad-spectrum bactericidal antibiotic that inhibits MurA, an enzyme in bacterial cell wall (peptidoglycan) synthesis. It is active against many Gram-negative and Gram-positive bacteria.
 
-Both UTI and gonococcal urethritis are bacterial infections of the urinary tract. *Neisseria gonorrhoeae* has a cell wall, so a MurA inhibitor is mechanistically plausible against it. Rising resistance to standard gonorrhoea therapies also increases interest in alternative agents.
-
-Older clinical and bacteriological studies from the 1970s, and a randomized trial of fosfomycin trometamol in men with uncomplicated gonorrhoea, point in the same direction. However, the 2016 trial's results were truncated in the compiled data, so its efficacy findings and phase cannot be confirmed here. The mechanism fits, but the efficacy evidence is not yet confirmed.
+Uterine inflammatory disease is often caused by mixed bacterial infection. An antibiotic with broad activity and a record in urinary tract infection could plausibly be considered for it. This link is only theoretical. No data on fosfomycin penetration into uterine tissue were found, and no study tested it in this condition. The high TxGNN score is a computational prediction and not clinical proof.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Both registered trials are broad paediatric pharmacokinetic studies. Neither tests efficacy in uterine inflammatory disease, and both were graded as having low relevance.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | Completed | 3,520 | Pharmacokinetics of understudied drugs given to children as standard of care. It does not address uterine inflammation. |
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | Recruiting | 5,000 | Pharmacokinetics, pharmacodynamics and safety of understudied drugs in children and young adults. It has no indication-specific efficacy data. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27064136](https://pubmed.ncbi.nlm.nih.gov/27064136/) | 2016 | RCT (open-label) | Clin Microbiol Infect | Fosfomycin trometamol 3 g orally on days 1, 3 and 5 in men with uncomplicated gonococcal urethritis. 152 men enrolled and 126 completed. The efficacy result was not available in the compiled data. |
-| [832528](https://pubmed.ncbi.nlm.nih.gov/832528/) | 1977 | Clinical study | Chemotherapy | 70 patients with acute or subacute gonococcal urethritis treated with intramuscular fosfomycin. A 4 g total dose gave 11 of 12 cures (92%). A single 4 g dose gave 37 of 43 cures (86%). |
-| [832523](https://pubmed.ncbi.nlm.nih.gov/832523/) | 1977 | Bacteriological evaluation | Chemotherapy | Controlled clinical study of 959 patients across Spanish hospitals with various infections, including gonococcal urethritis. It evaluated the broad-spectrum behaviour of fosfomycin. |
-| [19593988](https://pubmed.ncbi.nlm.nih.gov/19593988/) | 2009 | Review | Zhonghua Nan Ke Xue | Diagnosis and treatment of male genitourinary infection with non-gonococcal *Neisseria*. Indirect relevance. |
-| [35820778](https://pubmed.ncbi.nlm.nih.gov/35820778/) | 2023 | Secondary analysis | Sex Transm Infect | Spontaneous clearance of asymptomatic *N. gonorrhoeae* in the NABOGO trial. Not specific to fosfomycin. |
+| [35653789](https://pubmed.ncbi.nlm.nih.gov/35653789/) | 2022 | Cohort | Journal of Obstetrics and Gynaecology | Prospective study of 145 women after laparoscopic surgery for endometriosis. It compared acute cystitis symptoms and bacteriuria between dienogest and combined oral contraceptives. It does not test fosfomycin in uterine inflammatory disease. |
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2538210 (cancelled) | UroFos | Powder for oral solution, 3 g sachet | Not listed |
+| 2538210 | UroFos | Powder for oral solution, 3 g sachet | Not stated in the licence record |
+
+The only licence is a valid single-ingredient product. It is an oral formulation.
 
 ## Safety Considerations
 
-- **Conditions flagged as contraindications in the drug-disease knowledge graph** (not taken from package insert text): kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis.
-- **Drug Interactions** (3 identified):
-  - Balsalazide: moderate
-  - Picosulfuric acid: moderate
-  - Metoclopramide: minor
+- **Contraindication-type relations in the knowledge graph** (not taken from label text): kidney disease, pyoureter, *Clostridium difficile* colitis and perinatal necrotizing enterocolitis.
+- **Drug Interactions** (3 found):
+  - Balsalazide: Moderate
+  - Picosulfuric acid: Moderate
+  - Metoclopramide: Minor
 
-Please refer to the package insert for warnings and label contraindications.
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible, and one randomized trial and two small 1977 studies exist for gonococcal urethritis. However, no clinical trials are registered, the efficacy result of the 2016 RCT could not be confirmed from the compiled data, and the only New Zealand authorization is cancelled. This is best treated as a research question rather than an actionable repurposing candidate.
+The prediction score is high, but no retrieved trial or publication studies fosfomycin in uterine inflammatory disease. The evidence therefore stays at L5. The only trials are general paediatric pharmacokinetic studies, and the one publication concerns cystitis after endometriosis surgery.
 
 **To proceed, the following is needed:**
-- Full review of the 2016 RCT (PMID 27064136), covering cure rates, comparator and phase.
-- Current gonococcal susceptibility data to fosfomycin and alignment with local treatment guidelines.
-- Package insert warnings and contraindications (not yet reviewed), plus a safety plan for patients with kidney disease.
-- Confirmation of the formulation (oral trometamol versus IV) and of regulatory status, since the only New Zealand authorization is cancelled.
-
-**Note:** Among the other predicted indications, **pyelitis** (upper urinary tract infection) has the strongest support, including the ZEUS Phase 2/3 RCT of IV fosfomycin in complicated UTI and acute pyelonephritis. It is largely an extension of the existing UTI indication and could proceed with guardrails: confirm the formulation, local susceptibility, renal function and label status.
+- Clinical or microbiological data on fosfomycin use in uterine or pelvic infections, including tissue penetration
+- Package insert warnings and contraindications from the Medsafe record
+- Confirmed mechanism-of-action data
+- A check of whether the oral 3 g sachet formulation is suitable for this condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

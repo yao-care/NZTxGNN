@@ -6,9 +6,9 @@ nav_order: 463
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Trastuzumab Deruxtecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: No approved indication text is available in the New Zealand licence r…"
 monitor_inn: "TRASTUZUMAB DERUXTECAN"
 predicted_indications: ["drug-induced osteoporosis"]
+description: "Trastuzumab Deruxtecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trastuzumab Deruxtecan
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Trastuzumab Deruxtecan: From HER2-Expressing Cancers to Drug-Induced Osteoporosis
+## Trastuzumab Deruxtecan: Drug-induced osteoporosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,19 +44,19 @@ Trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate carrying a top
 
 | Item | Content |
 |------|------|
-| Original Indication | No approved indication text is available in the New Zealand licence records (the drug is used in HER2-expressing cancers) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.31% |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate. Its payload, deruxtecan (an exatecan derivative), inhibits topoisomerase I and is cytotoxic to HER2-expressing tumour cells.
 
-The link between the original use and the predicted indication is weak. Bone remodelling (osteoblast/osteoclast balance, RANKL/OPG, Wnt signalling) is not a recognised target of HER2 blockade or topoisomerase I inhibition. The high score of 0.993 (rank 5693) is a knowledge-graph prediction. It likely reflects network proximity or shared associations rather than a biological rationale.
+The link between the original use and the predicted indication is weak. Bone remodelling (osteoblast/osteoclast balance, RANKL/OPG, Wnt signalling) is not a recognised target of HER2 blockade or topoisomerase I inhibition. The high score of 0.9931 (rank 5693) is a TxGNN model (deep learning) prediction. It likely reflects network proximity or shared associations rather than a biological rationale.
 
 The predicted direction of effect is also questionable. Cytotoxic payloads and oncology therapies are more often associated with adverse bone effects than with bone protection. On current information, this prediction should be treated as a hypothesis only.
 
@@ -72,8 +72,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2678276 | Enhertu (cancelled) | Inj 100 mg per ml, 1 ml vial | Not recorded |
-| 2697610 | Baxter (cancelled) | Inj 1 mg for ECP | Not recorded |
+| 2678276 | Enhertu (valid) | Inj 100 mg per ml, 1 ml vial | Not recorded |
+| 2697610 | Baxter (valid) | Inj 1 mg for ECP | Not recorded |
 
 ## Cytotoxicity
 
@@ -106,7 +106,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (L5). There are no clinical trials or publications, no credible mechanistic link, and a plausible risk of adverse bone effects. The product also has no currently valid New Zealand licence.
+The prediction is supported only by the model score (L5). There are no clinical trials or publications, no credible mechanistic link, and a plausible risk of adverse bone effects.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)

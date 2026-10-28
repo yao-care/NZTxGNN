@@ -6,9 +6,9 @@ nav_order: 337
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis…"
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Olopatadine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Olopatadine: From Allergic Rhinitis and Allergic Conjunctivitis to Rosacea Conjunctivitis
+## Olopatadine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis (from the knowledge graph; the New Zealand licence record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Rosacea-associated conjunctivitis (ocular rosacea) is driven mainly by meibomian gland dysfunction, tear film instability and inflammation. The inflammation involves innate immune activation, MMP-9 and Demodex-related mechanisms, rather than classical IgE-mediated histamine release. A plausible but unproven overlap exists through mast cell involvement and ocular surface inflammation, which could give symptomatic benefit for itching or redness. It is unlikely to address the underlying causes.
 
-The very high TxGNN score (0.994) is a computational prediction. It is probably driven by network proximity to other conjunctivitis indications and is not backed by any clinical or published evidence in the data compiled for this report. Because the original mechanism data are missing, the mechanistic link also cannot be cross-checked against the source record.
+The very high TxGNN score (0.9941) is a computational prediction. It is probably driven by network proximity to other conjunctivitis indications and is not backed by any clinical or published evidence in the data compiled for this report. Because the original mechanism data are missing, the mechanistic link also cannot be cross-checked against the source record.
 
 ## Clinical Trial Evidence
 
@@ -73,9 +73,9 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2588048 | Olopatadine Teva (cancelled) | Eye drops 0.1% | Not stated in the licence record |
+| 2588048 | Olopatadine Teva (valid) | Eye drops 0.1% | Not stated in the licence record |
 
-The only New Zealand authorization is cancelled, so no valid olopatadine product is currently marketed. The only dosage form on record is an ophthalmic one (eye drops 0.1%), which fits an ocular indication.
+The only dosage form on record is an ophthalmic one (eye drops 0.1%), which fits an ocular indication.
 
 ## Safety Considerations
 

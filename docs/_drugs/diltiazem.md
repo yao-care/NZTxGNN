@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Diltiazem
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 153
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Diltiazem: predicted new indication Obsolete susceptibility to ischemic stroke (evidence level L5). Approved use: Hypertension"
-monitor_inn: "Diltiazem"
-predicted_indications: ["obsolete susceptibility to ischemic stroke"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Diltiazem: known uses and market status in New Zealand; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Diltiazem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +32,47 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Diltiazem: From Hypertension to Obsolete Susceptibility to Ischemic Stroke
+<!-- known-uses-page -->
+<!-- description: Diltiazem: known uses and market status in New Zealand; currently no new candidate indication -->
+## Diltiazem: Known uses and market status in New Zealand
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+All of the TxGNN model's candidates for Diltiazem (score ≥ 0.99) that can be traced to a source are already known uses. There is therefore currently no new predicted indication for this drug in New Zealand. The one known use found is supported by a licence in another country.
 
-Diltiazem is a calcium channel blocker originally used for hypertension, atrial fibrillation, Prinzmetal angina and ventricular tachycardia.
-The TxGNN model predicts it may be effective for **obsolete susceptibility to ischemic stroke**,
-but **no clinical trials and no publications** were found in the data compiled for this report, so the prediction rests on the model score alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (the New Zealand licence records contain no approved indication text; this is taken from the knowledge-graph indication list) |
-| Predicted New Indication | Obsolete susceptibility to ischemic stroke |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in New Zealand | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data is not available. Based on known information, diltiazem is a non-dihydropyridine calcium channel blocker. It lowers blood pressure and controls ventricular rate in atrial fibrillation, and its efficacy in these conditions is established.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| Prinzmetal angina | licence in another country (approved indication: angina) |
 
-Hypertension and atrial fibrillation are both major risk factors for ischemic stroke. If diltiazem has any benefit here, it would most likely come from reducing these risk factors rather than from a direct neuroprotective or antithrombotic effect. This link is a hypothesis only and is not supported by evidence in the data compiled for this report.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-There is also a concern about the disease term itself. It is labelled "obsolete", which suggests a deprecated ontology entry. The high score may be an artifact of a retired or merged concept. The term should be mapped to a current one (for example, ischemic stroke or cerebral infarction) before any further evaluation.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 254584 | Cardizem CD | Cap long-acting 180 mg | Not recorded (cancelled) |
-| 2648172 | Diltiazem CD Clinect | Cap long-acting 120 mg | Not recorded (cancelled) |
-| 254592 | Cardizem CD | Cap long-acting 240 mg | Not recorded (cancelled) |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 254584 | Diltiazem hydrochloride | Cap long-acting 180 mg | Valid |
+| 2648172 | Diltiazem hydrochloride | Cap long-acting 120 mg | Valid |
+| 254592 | Diltiazem hydrochloride | Cap long-acting 240 mg | Valid |
 
 ## Safety Considerations
 
@@ -91,19 +87,6 @@ Currently no related literature available.
 
 For label-based warnings and contraindications, please refer to the package insert.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The model score is very high, but there are no clinical trials or publications behind it. The predicted disease term is obsolete, and the drug has no currently valid New Zealand licence. The only mechanistic argument is indirect, through blood pressure and atrial fibrillation control.
-
-**To proceed, the following is needed:**
-- Map the obsolete disease term to a current one (for example, ischemic stroke or cerebral infarction) and re-run the prediction
-- Search for clinical and observational evidence of diltiazem in stroke prevention or outcomes
-- Obtain detailed mechanism of action data
-- Obtain the Medsafe package insert warnings and contraindications
-- Clarify why all New Zealand licences were cancelled, and whether any product is still available
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

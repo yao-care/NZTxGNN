@@ -6,9 +6,9 @@ nav_order: 173
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L3). Approved use: Autoimmune thrombocytopenia"
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
+description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Eltrombopag
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-## Eltrombopag: From Autoimmune Thrombocytopenia to HIV Infectious Disease
+## Eltrombopag: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Support is limited: **1 clinical trial** (terminated, and only indirectly relate
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune thrombocytopenia (the approved indication text is not available in the local licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,8 +85,8 @@ The high TxGNN score most likely reflects this shared thrombocytopenia biology, 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2391406 | Revolade | Tab 25 mg | Not available (licence cancelled) |
-| 2391414 | Revolade | Tab 50 mg | Not available (licence cancelled) |
+| 2391406 | Revolade | Tab 25 mg | Not available (licence valid) |
+| 2391414 | Revolade | Tab 50 mg | Not available (licence valid) |
 
 ## Safety Considerations
 
@@ -109,7 +109,6 @@ Evidence for HIV is limited to case reports, a small case series, reviews and an
 - Prospective controlled studies in HIV-associated thrombocytopenia
 - Assessment of liver-related risk in HIV patients, including those with HCV/HBV co-infection, given the liver-related contraindication signals
 - Review of the interaction with eluxadoline, and of cation-containing products, against antiretroviral regimens
-- Confirmation of the regulatory pathway, since there is no valid New Zealand licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

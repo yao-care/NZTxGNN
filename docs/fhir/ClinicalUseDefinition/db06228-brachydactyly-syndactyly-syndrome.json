@@ -10,7 +10,7 @@
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "text": "Brachydactyly-syndactyly syndrome"
+        "text": "brachydactyly-syndactyly syndrome"
       }
     }
   },
@@ -21,7 +21,7 @@
     },
     {
       "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
-      "valueDecimal": 0.5
+      "valueDecimal": 0.991
     }
   ]
 }

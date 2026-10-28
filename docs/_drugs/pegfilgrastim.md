@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **severe nonproliferative diabe
 |------|------|
 | Original Indication | Not stated in the available licence records |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available for this report. Pegfilgrasti
 
 A plausible but unverified link is that G-CSF-mobilized bone marrow-derived progenitor cells could support retinal vascular repair. However, the direction of effect is uncertain: neutrophil activation and inflammation are also implicated in diabetic retinal microvascular damage, and mobilized progenitor cells could promote pathological neovascularization. The effect could therefore be beneficial or harmful.
 
-The second predicted indication, diabetic retinopathy (score 99.73%), is a broader parent category that overlaps with the severe nonproliferative entry. The two should not be counted as independent signals. No clinical or preclinical data support either prediction.
+The second predicted indication, diabetic retinopathy (score 0.9973), is a broader parent category that overlaps with the severe nonproliferative entry. The two should not be counted as independent signals. No clinical or preclinical data support either prediction.
 
 ## Clinical Trial Evidence
 
@@ -100,7 +100,7 @@ The prediction rests only on a high model score, with no clinical trials or publ
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening
 - Preclinical or clinical evidence on G-CSF or pegfilgrastim in diabetic retinopathy, including a literature search to check for harm signals such as neovascularization
 - Assessment of route compatibility, since the available systemic injection form has not been compared with the routes needed for retinal disease
-- Clarification of the original approved indication and the regulatory pathway, given that all licences are cancelled
+- Clarification of the original approved indication and the regulatory pathway, given that the drug is marketed with 2 valid licences of 2
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

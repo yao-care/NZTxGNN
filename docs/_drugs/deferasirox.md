@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Deferasirox
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 138
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-15
-description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L5). Approved use: Beta-thalassemia and related haemoglobin disorders (hereditary persis…"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
+last_modified_at: 2026-10-27
+description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Deferasirox
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,90 +33,70 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Deferasirox: From Beta-Thalassemia and Related Haemoglobin Disorders to HIV Infectious Disease
+## Deferasirox: iron chelator → HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Deferasirox is an iron chelator, originally associated with beta-thalassemia and related haemoglobin disorders.
-The TxGNN model predicts it may be effective for **HIV infectious disease**,
-but there are currently **no registered clinical trials** and only **2 publications** (one review and one preclinical study), so the prediction rests mainly on the model and a preclinical mechanistic hint.
-
----
+Deferasirox is an oral iron chelator. The TxGNN model predicts it may be relevant for **HIV infectious disease**, but the supporting evidence is thin: **0 clinical trials** and **2 publications**, only one of which is a preclinical mechanistic study.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Beta-thalassemia and related haemoglobin disorders (hereditary persistence of fetal haemoglobin, beta-thalassemia intermedia, hemoglobinopathy). Taken from the knowledge graph, as no approved-indication text is available for the New Zealand licences |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L4 (preclinical/mechanistic evidence only) |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 3 (all cancelled) |
+| TxGNN Prediction Score | 0.9940 |
+| Evidence Level | L4 |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, deferasirox is an iron chelator, its use in iron-overload settings linked to beta-thalassemia is established, and mechanistically it may be relevant to HIV because iron status can influence viral biology.
+Detailed mechanism-of-action data for deferasirox is not available in the data compiled for this report. Based on known information, deferasirox is an iron chelator, so its pharmacology centres on binding and removing excess iron.
 
-A 2021 preclinical study (PMID 34550543) reported that iron in endolysosomes restricts HIV-1 Tat-mediated LTR transactivation by increasing Tat oligomerization and β-catenin expression. This suggests iron homeostasis can modulate HIV-1 transcription.
-
-However, this is only a mechanistic link. The direction of effect for chelation is not established: depleting iron could either help or hinder viral transcription. No clinical data exist for deferasirox in HIV.
-
-Other predictions in the list are weaker still. Chronic hepatitis C infection (score 99.39%) has a plausible biological rationale through hepatic iron accumulation but no direct evidence. The remaining three predictions (a rare neurodevelopmental disorder, an obsolete familial combined hyperlipidemia term, and dermatofibrosarcoma protuberans) have no supporting trials or literature, and the obsolete disease term likely reflects an ontology artifact.
-
----
+One preclinical paper (PMID 34550543, 2021) reports that iron held in endolysosomes restricts Tat-mediated HIV-1 LTR transactivation by increasing Tat oligomerization and β-catenin expression. This suggests iron homeostasis can influence HIV-1 transcription. However, the direction of effect for chelation is not established: removing iron could either help or hinder viral transcription. No clinical data for deferasirox in HIV were found, so this link is a hypothesis for laboratory investigation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
-
----
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Preclinical/In vitro mechanistic study | Journal of neurovirology | Endolysosomal iron restricts Tat-mediated HIV-1 LTR transactivation by increasing Tat oligomerization and β-catenin expression |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Review | Journal of the American Pharmacists Association | New-drug overview covering deferasirox among other agents; not specific to HIV |
-
----
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Review | Journal of the American Pharmacists Association | New-drug overview covering deferasirox among other agents; no HIV-specific findings are available |
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2234769 | Exjade (cancelled) | Tab 125 mg dispersible | Not available |
-| 2234777 | Exjade (cancelled) | Tab 250 mg dispersible | Not available |
-| 2234750 | Exjade (cancelled) | Tab 500 mg dispersible | Not available |
-
----
+| 2234769 | Exjade | Tab 125 mg dispersible | Not recorded in the local data |
+| 2234777 | Exjade | Tab 250 mg dispersible | Not recorded in the local data |
+| 2234750 | Exjade | Tab 500 mg dispersible | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Contraindication signals from the knowledge graph (not label text)**: liver failure, liver disease, cirrhosis, kidney disease, impaired renal function, gallbladder disease, thrombocytopenia, neutropenia and agranulocytosis (including several congenital neutropenia syndromes), anaemia (including macrocytic anaemia), hyperbilirubinemia and Gilbert syndrome, active peptic ulcer disease, ocular hypertension, multiple organ dysfunction syndrome, and cancer.
-- **Drug Interactions**: 100 interactions were found in the interaction database. Examples of those rated **Major** include corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone), amphotericin B (and its lipid, liposomal and cholesteryl sulfate formulations), acetylsalicylic acid, mesalazine and balsalazide. Examples rated **Moderate** include rabeprazole, pioglitazone, alosetron, aprepitant, clarithromycin, saxagliptin, aluminium hydroxide, cisapride and dexfenfluramine.
+- **Conditions flagged as contraindication-related in the data compiled for this report** (not label text): liver failure, liver disease, cirrhosis of liver, kidney disease, impaired renal function, thrombocytopenia, neutropenia, agranulocytosis, anemia, hyperbilirubinemia, Gilbert syndrome, gallbladder disease, active peptic ulcer disease, ocular hypertension, multiple organ dysfunction syndrome and cancer.
+- **Drug interactions:** 100 interactions were recorded. Major-level examples include hydrocortisone, dexamethasone, betamethasone, triamcinolone, acetylsalicylic acid, mesalazine, balsalazide and several amphotericin B formulations. Moderate-level examples include rabeprazole, pioglitazone, clarithromycin, aprepitant, saxagliptin and aluminum hydroxide.
 
-Package insert warnings and contraindications were not available for this report; please refer to the official package insert.
-
----
+Package insert warnings were not available; please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The HIV prediction has a high model score but is supported only by one preclinical study with an unclear direction of effect, and there are no clinical trials. In addition, all New Zealand licences are cancelled, and the knowledge graph flags several serious contraindications (hepatic, renal and haematological) that are relevant in people living with HIV.
+The prediction score is high, but there are no clinical trials and the only mechanistic paper is preclinical, with an unknown direction of effect for iron chelation. The safety profile (renal, hepatic and haematological concerns, plus many major interactions) calls for caution in a population that often takes multiple medicines.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications (from Medsafe), which are a blocking gap for safety screening
-- Mechanism of action data (from DrugBank)
-- Preclinical studies to determine whether iron chelation with deferasirox helps or hinders HIV-1 transcription and replication
-- A clear plan on regulatory and supply status, given that no valid New Zealand licence currently exists
-- A safety assessment for people with hepatic, renal or haematological comorbidities, and a review of the interaction profile with antiretroviral therapy
+- In vitro or cell-based studies testing deferasirox directly on HIV-1 replication and Tat activity
+- Clarification of whether iron chelation promotes or suppresses HIV-1 transcription
+- Package insert warnings and contraindications from Medsafe
+- Detailed mechanism-of-action data
+- A safety assessment covering renal, hepatic and blood-count risks and interactions with antiretroviral regimens
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

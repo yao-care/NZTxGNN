@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,7 +73,7 @@ Currently no related literature available for the top-ranked prediction. For ref
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2244098 | Emend Tri-Pack (cancelled) | Cap 2 x 80 mg and 1 x 125 mg | Not stated |
+| 2244098 | Emend Tri-Pack (valid) | Cap 2 x 80 mg and 1 x 125 mg | Not stated |
 
 ## Cytotoxicity
 

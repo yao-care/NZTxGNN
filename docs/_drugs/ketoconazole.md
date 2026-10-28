@@ -6,9 +6,9 @@ nav_order: 251
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Ketoconazole: predicted new indication Acne (evidence level L4). Approved use: Fungal skin infections (e.g., tinea pedis, tinea corporis…"
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
+description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Ketoconazole
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Ketoconazole: From Superficial and Systemic Fungal Infections to Acne
+## Ketoconazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **acne**, but the supporting ev
 
 | Item | Content |
 |------|------|
-| Original Indication | Fungal skin infections (e.g., tinea pedis, tinea corporis, pityriasis versicolor, cutaneous candidiasis), seborrheic dermatitis, and systemic mycoses (histoplasmosis, aspergillosis). Taken from the knowledge-graph indication list; the New Zealand licence records contain no approved indication text. |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.80% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,15 +92,15 @@ Several other retrieved publications (for example on polycystic ovary syndrome, 
 
 ## New Zealand Market Information
 
-All five licences are cancelled, and no approved indication text is recorded for them.
+All five licences are valid, and no approved indication text is recorded for them.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2168626 | Teva-Ketoconazole | Tab 200 mg | Cancelled |
-| 2592010 | Strides Shasun | Tab 200 mg | Cancelled |
-| 2652242 | Burel | Tab 200 mg | Cancelled |
-| 2650924 | Taro | Tab 200 mg | Cancelled |
-| 461504 | Sebizole | Shampoo 2% | Cancelled |
+| 2168626 | Teva-Ketoconazole | Tab 200 mg | Valid |
+| 2592010 | Strides Shasun | Tab 200 mg | Valid |
+| 2652242 | Burel | Tab 200 mg | Valid |
+| 2650924 | Taro | Tab 200 mg | Valid |
+| 461504 | Sebizole | Shampoo 2% | Valid |
 
 ---
 
@@ -119,14 +119,14 @@ The package insert warnings and contraindications could not be retrieved, so the
 **Decision: Hold**
 
 **Rationale:**
-The evidence is limited to model prediction, laboratory studies, reviews and one small ongoing topical trial without results (L4). There is no currently valid New Zealand licence, and systemic ketoconazole has serious safety concerns, so there is not yet enough support to advance.
+The evidence is limited to model prediction, laboratory studies, reviews and one small ongoing topical trial without results (L4).
 
 **To proceed, the following is needed:**
 - Results from NCT07237763 and any further randomized trials of topical ketoconazole in acne
 - Retrieval and review of the Medsafe package insert warnings and contraindications
 - Mechanism-of-action data from DrugBank to replace the inferred mechanism
 - A route and formulation strategy limited to topical use, given the systemic liver and adrenal risks
-- Confirmation of whether a topical product could be supplied in New Zealand, since all current licences are cancelled
+- Confirmation of whether a topical product could be supplied in New Zealand, since all five current licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

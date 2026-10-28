@@ -6,9 +6,9 @@ nav_order: 422
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Sertraline: predicted new indication Histrionic personality disorder (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "SERTRALINE"
 predicted_indications: ["histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sertraline
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Sertraline: From Anxiety Disorders to Histrionic Personality Disorder
+## Sertraline: Histrionic personality disorder (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **histrionic personality disord
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, post-traumatic stress disorder, social phobia, phobic disorder, obsessive-compulsive disorder (from the TxGNN knowledge graph, because the New Zealand licence records contain no indication text) |
-| Predicted New Indication | Histrionic personality disorder |
-| TxGNN Prediction Score | 99.93% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Histrionic personality disorder (disease) |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, sertraline belongs to the selective serotonin reuptake inhibitor (SSRI) class. Its efficacy in anxiety, obsessive-compulsive and mood-related disorders is established, and mechanistically it may be applicable to personality disorders that involve emotional instability and anxiety.
 
-The predicted condition lies in the psychiatric spectrum, close to the drug's known uses. The model gives the same score (99.93%) to several personality disorders (schizoid, schizotypal and paranoid). This suggests the score reflects a shared pattern in the knowledge graph rather than evidence specific to histrionic personality disorder. Any benefit would more plausibly come from treating comorbid anxiety or depression than from treating the personality disorder itself.
+The predicted condition lies in the psychiatric spectrum, close to the drug's known uses. The model gives the same score (0.9993) to several personality disorders (schizoid, schizotypal and paranoid). Any benefit would more plausibly come from treating comorbid anxiety or depression than from treating the personality disorder itself.
 
 ## Clinical Trial Evidence
 
@@ -71,8 +71,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Status | Approved Indication |
 |---------|------|------|------|-----------|
-| 2570858 | Setrona | Tab 100 mg | Cancelled | Not specified in the licence record |
-| 2570831 | Setrona | Tab 50 mg | Cancelled | Not specified in the licence record |
+| 2570858 | Setrona | Tab 100 mg | Valid | Not specified in the licence record |
+| 2570831 | Setrona | Tab 50 mg | Valid | Not specified in the licence record |
 
 ## Safety Considerations
 
@@ -88,7 +88,7 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for histrionic personality disorder has a very high model score but no supporting trials or literature (L5). Sertraline also has no currently valid New Zealand authorisation, so there is nothing to build on locally yet.
+The prediction for histrionic personality disorder has a very high model score but no supporting trials or literature (L5).
 
 Among the other predictions compiled for this drug, **agoraphobia** has far stronger support. It has randomized trials and network meta-analyses in panic disorder with or without agoraphobia, but this is largely an extension of sertraline's existing anxiety uses rather than a new repurposing. The personality-disorder predictions (schizoid, schizotypal, paranoid, dependent, narcissistic) have only indirect, low-quality evidence.
 

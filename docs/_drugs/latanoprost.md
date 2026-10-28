@@ -4,17 +4,17 @@ title: Latanoprost
 parent: Model Prediction Only (L5)
 nav_order: 261
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Latanoprost: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma, ocular hypertension"
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Latanoprost: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Latanoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Latanoprost is a prostaglandin F2-alpha analogue originally used to treat open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but **no clinical trials and no publications** were found in the data compiled for this report, so the prediction rests on model output and mechanistic plausibility alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma, ocular hypertension (from the knowledge graph; no approved indication text is available for the New Zealand licence) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.88% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Visceral calciphylaxis |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -67,15 +66,14 @@ The model also ranked the following conditions. None has any trial or literature
 
 | Rank | Predicted Indication | Score | Assessment |
 |------|------|------|------|
-| 2 | Visceral calciphylaxis | 99.83% | No clear mechanistic link; Hold |
-| 3 | Hypotrichosis simplex of the scalp | 99.81% | Plausible: prostaglandin analogues stimulate hair growth (eyelash hypertrichosis is a known effect of latanoprost); Research Question |
-| 4 | Arterial thoracic outlet syndrome | 99.78% | Mechanical compression disorder; Hold |
-| 5 | Venous thoracic outlet syndrome | 99.78% | Identical score to rank 4, suggesting a graph artefact; Hold |
-| 6 | Neurogenic thoracic outlet syndrome | 99.72% | No plausible mechanism; Hold |
-| 7 | Congenital hypotrichosis milia | 99.71% | Speculative hair-growth rationale; Research Question |
-| 8 | Angiodysplasia of stomach | 99.70% | No established role; minimal systemic exposure from eye drops; Hold |
-| 9 | Blue toe syndrome | 99.69% | Minimal systemic exposure; Hold |
-| 10 | Lymphangiectasis | 99.67% | No established role; Hold |
+| 2 | Visceral calciphylaxis | 0.9983 | No clear mechanistic link; Hold |
+| 3 | Hypotrichosis simplex of the scalp | 0.9981 | Plausible: prostaglandin analogues stimulate hair growth (eyelash hypertrichosis is a known effect of latanoprost); Research Question |
+| 4 | Arterial thoracic outlet syndrome | 0.9978 | Mechanical compression disorder; Hold |
+| 6 | Neurogenic thoracic outlet syndrome | 0.9972 | No plausible mechanism; Hold |
+| 7 | Congenital hypotrichosis milia | 0.9971 | Speculative hair-growth rationale; Research Question |
+| 8 | Angiodysplasia of stomach | 0.9970 | No established role; minimal systemic exposure from eye drops; Hold |
+| 9 | Blue toe syndrome | 0.9969 | Minimal systemic exposure; Hold |
+| 10 | Lymphangiectasis | 0.9967 | No established role; Hold |
 
 Among these, the hair-growth disorders (ranks 3 and 7) have the most mechanistic plausibility, but this comes from background pharmacology rather than evidence in the compiled data.
 
@@ -91,7 +89,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2553139 | Teva | Eye drops 0.005% | Not stated (licence status: cancelled) |
+| 2553139 | Teva | Eye drops 0.005% | Not stated (licence status: valid) |
 
 The only available licence is cancelled, so no latanoprost product is currently authorised in New Zealand according to the data compiled. All available dosage forms are ophthalmic.
 
@@ -107,7 +105,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction for primary hereditary glaucoma is supported only by model score and mechanistic plausibility (Evidence Level L5), with no trials or literature. The only New Zealand licence is cancelled, and congenital forms of glaucoma are often surgically managed, so medical efficacy is uncertain.
+The only New Zealand licence is cancelled, and congenital forms of glaucoma are often surgically managed, so medical efficacy is uncertain.
 
 **To proceed, the following is needed:**
 - Systematic literature and trial registry search specific to latanoprost in hereditary/congenital glaucoma, including paediatric data

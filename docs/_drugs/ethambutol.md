@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ethambutol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 185
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Ethambutol: predicted new indication Epiglottitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
+description: "Ethambutol: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ethambutol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Ethambutol: From Pulmonary Tuberculosis to Epiglottitis
+## Ethambutol: Epiglottitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **0 registered clinical trials** and only **1 publication** (a cas
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary tuberculosis |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Ethambutol is an anti-mycobacterial agent that inhibits arabinosyl transferase, 
 
 The only linked publication is a case series of laryngeal tuberculosis, in which the epiglottis was one of the affected sites and patients were treated with multi-drug anti-TB regimens that included ethambutol. This is tuberculosis at an adjacent anatomical site, not epiglottitis in the usual sense. Typical epiglottitis is caused by *Haemophilus influenzae* or other bacteria, which ethambutol does not cover.
 
-The high TxGNN score therefore most likely reflects proximity to tuberculosis in the knowledge graph rather than a true new indication. Any plausible link is limited to rare tuberculous involvement of the epiglottis or larynx, which is an extension of the original indication.
+The high TxGNN score therefore most likely comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than a true new indication. Any plausible link is limited to rare tuberculous involvement of the epiglottis or larynx, which is an extension of the original indication.
 
 ## Clinical Trial Evidence
 
@@ -76,8 +76,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2540746 | EMB Fatol | Tab 100 mg | Status: cancelled |
-| 2244969 | Myambutol | Tab 400 mg | Status: cancelled |
+| 2540746 | EMB Fatol | Tab 100 mg | Status: valid |
+| 2244969 | Myambutol | Tab 400 mg | Status: valid |
 
 ## Safety Considerations
 
@@ -91,13 +91,13 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-No clinical trials exist, and the only supporting publication describes tuberculosis involving the larynx, which is a manifestation of the original indication rather than a true repurposing. Ethambutol is not expected to be active against common bacterial epiglottitis, and there are currently no valid New Zealand authorizations for the drug.
+No clinical trials exist, and the only supporting publication describes tuberculosis involving the larynx, which is a manifestation of the original indication rather than a true repurposing.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data
 - Package insert warnings and contraindications, to allow safety screening
 - Evidence of benefit in non-tuberculous epiglottitis (none currently available), or a decision to treat tuberculous epiglottitis as part of the existing tuberculosis indication
-- Clarification of the regulatory pathway, since all existing New Zealand authorizations have been cancelled
+- Clarification of the regulatory pathway, since the drug is marketed in New Zealand with 2 valid licences of 2
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

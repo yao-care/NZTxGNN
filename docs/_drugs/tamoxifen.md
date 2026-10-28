@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tamoxifen
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 437
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L4). Approved use: Female breast carcinoma"
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tamoxifen
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Tamoxifen: From Female Breast Carcinoma to Mammary Paget Disease
+## Tamoxifen: Mammary Paget disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tamoxifen is an anti-estrogen drug originally used to treat breast carcinoma (including invasive ductal carcinoma).
 The TxGNN model predicts it may be effective for **Mammary Paget Disease**, but the supporting evidence is thin: **1 loosely related clinical trial** and **10 publications**, mostly case reports and case series.
-Among the model's top 10 predictions, the best-supported indication is **Breast Carcinoma in Situ** (see the note at the end of the Conclusion).
+Among the model's top 10 predictions, the best-supported indication is **mammary Paget disease** (see the note at the end of the Conclusion).
 
 ---
 
@@ -48,12 +48,12 @@ Among the model's top 10 predictions, the best-supported indication is **Breast 
 
 | Item | Content |
 |------|------|
-| Original Indication | Female breast carcinoma; invasive ductal breast carcinoma; breast ductal adenocarcinoma (no approved indication text is available from the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Mammary Paget disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9969 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,8 +95,8 @@ Mammary Paget disease is frequently associated with underlying ductal carcinoma 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2556952 | Tamoxifen Sandoz | Tab 20 mg | Not available (licence cancelled) |
-| 2556944 | Tamoxifen Sandoz | Tab 10 mg | Not available (licence cancelled) |
+| 2556952 | Tamoxifen Sandoz | Tab 20 mg | Not available (licence valid) |
+| 2556944 | Tamoxifen Sandoz | Tab 10 mg | Not available (licence valid) |
 
 ---
 
@@ -125,7 +125,7 @@ Mammary Paget disease is frequently associated with underlying ductal carcinoma 
 **Decision: Hold**
 
 **Rationale:**
-The Paget disease prediction rests on case reports and a plausible hormone-receptor mechanism, with no trial testing tamoxifen in this condition. In addition, tamoxifen has no currently valid New Zealand licence.
+The Paget disease prediction rests on case reports and a plausible hormone-receptor mechanism, with no trial testing tamoxifen in this condition.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (from Medsafe), which are a blocking gap for safety screening
@@ -133,7 +133,6 @@ The Paget disease prediction rests on case reports and a plausible hormone-recep
 - Prospective or at least well-designed retrospective data on tamoxifen in hormone-receptor-positive mammary Paget disease
 - Clarification of the regulatory pathway, given that both New Zealand licences are cancelled
 
-**Note on other predictions:** Of the other nine top predictions, **breast carcinoma in situ** has the strongest direct evidence (L1, "Proceed with Guardrails"). That evidence includes the TAM-01 placebo-controlled Phase 3 trial of low-dose tamoxifen (10-year follow-up, [PMID 36917758](https://pubmed.ncbi.nlm.nih.gov/36917758/)), and it falls within the breast-cancer spectrum of the original indication. Suggested guardrails are restricting use to hormone-receptor-positive disease, weighing the benefit against thromboembolic and endometrial risks, and considering low-dose regimens. **Estrogen-receptor-positive breast cancer** is also rated L1, but it overlaps with the original indication and is not true repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

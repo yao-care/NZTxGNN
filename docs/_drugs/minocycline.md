@@ -6,9 +6,9 @@ nav_order: 302
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection, bronchitis, acne, gonorrhoea, pharyngitis…"
 monitor_inn: "Minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
+description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Minocycline
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Minocycline: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
+## Minocycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection, bronchitis, acne, gonorrhoea, pharyngitis, periodontitis and other bacterial infections (from the knowledge graph; the approved indication text in the New Zealand licences is empty) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 2 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ A plausible but unverified rationale is that minocycline has anti-inflammatory a
 
 Whether this extends to punctate epithelial keratoconjunctivitis is not supported by the data compiled for this report. The condition may be viral (for example adenoviral) or inflammatory in origin, and an antibiotic would not be expected to help the viral form. The mechanistic link also cannot be checked against the drug's documented pharmacology, because the original mechanism of action is missing.
 
-A second prediction, **exposure keratitis** (score 99.20%), is also at the model-prediction-only stage. Its management centres on protecting the ocular surface (lubrication, lid closure, treating the underlying cause), and no data show that a tetracycline adds benefit.
+A second prediction, **exposure keratitis** (score 0.9920), is also at the model-prediction-only stage. Its management centres on protecting the ocular surface (lubrication, lid closure, treating the underlying cause), and no data show that a tetracycline adds benefit.
 
 ## Clinical Trial Evidence
 
@@ -94,7 +94,7 @@ Please refer to the package insert for the full warnings and contraindications, 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high TxGNN score (99.63%) but no supporting clinical trials or publications (Evidence Level L5). The mechanism of action data and package insert safety information are both missing, and the cause of the condition (viral versus inflammatory) may determine whether an antibiotic is relevant at all.
+The prediction has a high TxGNN score (0.9963) but no supporting clinical trials or publications (Evidence Level L5). The mechanism of action data and package insert safety information are both missing, and the cause of the condition (viral versus inflammatory) may determine whether an antibiotic is relevant at all.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for minocycline (for example from DrugBank)

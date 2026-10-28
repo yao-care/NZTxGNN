@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epirubicin
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 181
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-15
-description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L5). Approved use: Breast carcinoma / breast neoplasm"
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
+description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Epirubicin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Epirubicin: From Breast Cancer to Primary Pulmonary Lymphoma
+## Epirubicin: Primary pulmonary lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The best-supported prediction in the data is **small cell lung carcinoma** (5 cl
 
 | Item | Content |
 |------|------|
-| Original Indication | Breast carcinoma / breast neoplasm (from the knowledge graph; no approved-indication text in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary pulmonary lymphoma |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 (for primary pulmonary lymphoma); L1 for the alternative prediction, small cell lung carcinoma |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold for primary pulmonary lymphoma (research question only); Proceed with Guardrails for small cell lung carcinoma |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Anthracyclines are a core component of lymphoma regimens (CHOP-like regimens, including epirubicin variants), so a cytotoxic effect against pulmonary lymphoma is plausible. However, the supporting evidence is indirect: a general epirubicin review, case reports, and retrospective series of extranodal lymphoma. Doxorubicin is the established anthracycline in this setting, which weakens the case for epirubicin-specific use.
 
-Among the other predictions, **small cell lung carcinoma** (score 99.69%) has the strongest support. It is a highly proliferative, chemosensitive tumour, and epirubicin-containing regimens have been tested in prospective trials. The Phase 3 data suggest at best modest incremental benefit over the platinum-etoposide standard. The remaining predictions (well-differentiated fetal adenocarcinoma of the lung, pulmonary blastoma, mixed small cell and squamous cell lung carcinoma, myeloid leukaemia, upper aerodigestive tract neoplasm) have little or only indirect evidence.
+Among the other predictions, **small cell lung carcinoma** (score 0.9969) has the strongest support. It is a highly proliferative, chemosensitive tumour, and epirubicin-containing regimens have been tested in prospective trials. The Phase 3 data suggest at best modest incremental benefit over the platinum-etoposide standard. The remaining predictions (well-differentiated fetal adenocarcinoma of the lung, pulmonary blastoma, mixed small cell and squamous cell lung carcinoma, myeloid leukaemia, upper aerodigestive tract neoplasm) have little or only indirect evidence.
 
 ---
 
@@ -113,14 +113,14 @@ Among the other predictions, **small cell lung carcinoma** (score 99.69%) has th
 
 ## New Zealand Market Information
 
-All four licences are cancelled, and the licence records contain no approved-indication text.
+All four licences are valid, and the licence records contain no approved-indication text.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2224127 | Epirubicin Ebewe | Inj 2 mg per ml, 25 ml vial | Not recorded (cancelled) |
-| 2224119 | Epirubicin Ebewe | Inj 2 mg per ml, 5 ml vial | Not recorded (cancelled) |
-| 2224143 | Epirubicin Ebewe | Inj 2 mg per ml, 100 ml vial | Not recorded (cancelled) |
-| 2204177 | Baxter | Inj 1 mg for ECP | Not recorded (cancelled) |
+| 2224127 | Epirubicin Ebewe | Inj 2 mg per ml, 25 ml vial | Not recorded (valid) |
+| 2224119 | Epirubicin Ebewe | Inj 2 mg per ml, 5 ml vial | Not recorded (valid) |
+| 2224143 | Epirubicin Ebewe | Inj 2 mg per ml, 100 ml vial | Not recorded (valid) |
+| 2204177 | Baxter | Inj 1 mg for ECP | Not recorded (valid) |
 
 ---
 
@@ -152,7 +152,7 @@ The package insert warnings and contraindications could not be retrieved for thi
 
 **Rationale:**
 - For primary pulmonary lymphoma, there are no trials and only indirect literature, so this remains a research question. Doxorubicin is the established anthracycline for lymphoma.
-- Small cell lung carcinoma has Phase 3 evidence, but epirubicin offers at best modest benefit over the platinum-etoposide standard, and cardiotoxicity and myelosuppression are significant. In New Zealand all licences are cancelled, so any use would need a supply pathway.
+- Small cell lung carcinoma has Phase 3 evidence, but epirubicin offers at best modest benefit over the platinum-etoposide standard, and cardiotoxicity and myelosuppression are significant. In New Zealand the drug is marketed, with 4 valid licences of 4.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking data gap for safety screening)

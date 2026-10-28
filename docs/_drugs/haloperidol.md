@@ -6,9 +6,9 @@ nav_order: 222
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Psychotic disorder, schizophrenia, schizophreniform disorder…"
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Haloperidol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Haloperidol: From Psychotic Disorder to Congenital Disorder of Glycosylation with Defective Fucosylation
+## Haloperidol: Congenital disorder of glycosylation with defective fucosylation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are **0 clinical trials** and **0 publications** supporting it, so thi
 
 | Item | Content |
 |------|------|
-| Original Indication | Psychotic disorder, schizophrenia, schizophreniform disorder, schizoaffective disorder, Tourette syndrome (from the knowledge graph; no approved-indication text is listed on the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 6 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, haloperidol is a typical (first-generation) antipsychotic. Its efficacy in psychotic disorders and schizophrenia is established, and it is generally understood to act by blocking dopamine D2 receptors.
 
-The predicted new indication is a rare inherited metabolic disorder of protein glycosylation. It has no obvious pharmacological or clinical overlap with psychosis. The data compiled for this report show no mechanistic link between haloperidol and fucosylation defects. The very high TxGNN score (99.91%, rank 1222 overall) reflects patterns in the knowledge graph, not biological or clinical validation. At this stage the prediction cannot be considered mechanistically supported.
+The predicted new indication is a rare inherited metabolic disorder of protein glycosylation. It has no obvious pharmacological or clinical overlap with psychosis. The data compiled for this report show no mechanistic link between haloperidol and fucosylation defects. The very high TxGNN score (0.9991, rank 1222 overall) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At this stage the prediction cannot be considered mechanistically supported.
 
 ## Clinical Trial Evidence
 
@@ -90,15 +90,15 @@ Six licences were found; the five main ones are shown below. All six are cancell
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature and no plausible mechanistic rationale. In addition, haloperidol has no currently valid New Zealand licence, and its safety profile is substantial (QT risk, neutropenia, and a large interaction burden).
+The prediction rests only on a model score, with no clinical trials, no literature and no plausible mechanistic rationale.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to test whether any link to fucosylation or glycosylation pathways exists
 - Preclinical evidence (for example, cell or animal models of fucosylation defects) showing a plausible benefit
 - Package insert warnings and contraindications, which are currently missing and block formal safety screening
-- Confirmation of local product availability, since all New Zealand licences are cancelled
+- Confirmation of local product availability, since the drug is marketed in New Zealand with 6 valid licences out of 6
 
-**Note on other predictions:** Lower-ranked predictions for haloperidol include manic bipolar affective disorder (score 99.83%, rank 10 in the list). It has supporting Phase 3 trials and network meta-analyses and is rated "Proceed with Guardrails". However, the supplied trials mostly test other drugs, with haloperidol as a comparator in only one. It is an on-class extension of existing antipsychotic use rather than a true repurposing. If the team wants to advance a candidate, that indication would be the more evidence-supported one to review separately.
+**Note on other predictions:** Lower-ranked predictions for haloperidol include manic bipolar affective disorder (score 0.9983, rank 10 in the list). It has supporting Phase 3 trials and network meta-analyses and is rated "Proceed with Guardrails". However, the supplied trials mostly test other drugs, with haloperidol as a comparator in only one. It is an on-class extension of existing antipsychotic use rather than a true repurposing. If the team wants to advance a candidate, that indication would be the more evidence-supported one to review separately.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

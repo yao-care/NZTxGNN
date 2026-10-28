@@ -6,9 +6,9 @@ nav_order: 200
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Filgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Constitutional neutropenia, severe congenital neutropenia…"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
+description: "Filgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Filgrastim
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Filgrastim: From Severe Congenital Neutropenia to Primary Release Disorder of Platelets
+## Filgrastim: Primary release disorder of platelets
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This is a model-only prediction with no direct supporting evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Constitutional neutropenia, severe congenital neutropenia, cyclic hematopoiesis, chronic familial neutropenia (the approved indication text for the New Zealand licences is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This is a model-only prediction with no direct supporting evidence.
 
 Currently, detailed mechanism of action data is not available. Based on known information, filgrastim is a granulocyte colony-stimulating factor (G-CSF) that acts on the granulocytic lineage through the G-CSF receptor. Its efficacy in neutropenia conditions is established.
 
-The link to primary release disorder of platelets is weak. This is a platelet secretion defect, and there is no established mechanistic connection to G-CSF signalling. The high TxGNN score most likely reflects shared neighbours in the haematological disease network of the knowledge graph rather than a biological rationale.
+The link to primary release disorder of platelets is weak. This is a platelet secretion defect, and there is no established mechanistic connection to G-CSF signalling. The high score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence.
 
 The same pattern appears in the other top-ranked predictions, such as pseudo-von Willebrand disease, Glanzmann thrombasthenia and Scott syndrome. Each is a platelet-intrinsic or unrelated disorder with no plausible G-CSF mechanism. The prediction should be treated as a hypothesis only.
 
@@ -113,7 +113,7 @@ Please refer to the package insert for warnings and contraindications, as these 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5). There are no trials or publications for primary release disorder of platelets, and no plausible mechanism links G-CSF to a platelet secretion defect. Filgrastim also has no currently valid New Zealand licence.
+The prediction rests on a model score alone (L5). There are no trials or publications for primary release disorder of platelets, and no plausible mechanism links G-CSF to a platelet secretion defect.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for filgrastim, and a biological rationale connecting G-CSF signalling to platelet release function

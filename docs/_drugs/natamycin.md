@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Natamycin
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 318
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Natamycin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Mycotic corneal ulcer"
 monitor_inn: "natamycin"
 predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
+description: "Natamycin: predicted new indication Vulvovaginal candidiasis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Natamycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Natamycin: From Mycotic Corneal Ulcer to Vulvovaginal Candidiasis
+## Natamycin: Vulvovaginal candidiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **1 completed Phase 3 clinical trial** and **14 publications** currently su
 
 | Item | Content |
 |------|------|
-| Original Indication | Mycotic corneal ulcer |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvovaginal candidiasis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 (see note below) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Strictly, L1 requires two or more completed Phase 3 RCTs. Only one completed Phase 3 trial is available, and it tested a combination product. The evidence is therefore best viewed as sitting between L1 and L2.
@@ -99,9 +99,9 @@ The prediction is also supported by clinical history. Older studies, including a
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 260282 | Pimafucort | Ointment, natamycin 1% with neomycin sulphate 0.5% | Not recorded; licence status cancelled |
+| 260282 | Pimafucort | Ointment, natamycin 1% with neomycin sulphate 0.5% | Not recorded; licence status valid |
 
-The only New Zealand licence, a combination ointment with neomycin, is cancelled. There is currently no valid licence for natamycin in New Zealand.
+The drug is marketed in New Zealand: 1 of 1 licences is valid.
 
 ---
 
@@ -119,7 +119,7 @@ Please refer to the package insert for further safety information, including war
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-A completed Phase 3 RCT (n=218) and several older clinical studies support natamycin in vulvovaginal candidiasis, with a plausible antifungal mechanism. Because the Phase 3 trial used a combination product and natamycin currently has no valid New Zealand licence, the decision should be conditional.
+A completed Phase 3 RCT (n=218) and several older clinical studies support natamycin in vulvovaginal candidiasis, with a plausible antifungal mechanism.
 
 **To proceed, the following is needed:**
 - Trial results, to separate natamycin's effect from lactulose's

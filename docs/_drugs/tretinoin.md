@@ -4,17 +4,17 @@ title: Tretinoin
 parent: Model Prediction Only (L5)
 nav_order: 466
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Acne, acute promyelocytic leukaemia, acquired keratosis…"
 monitor_inn: "TRETINOIN"
-predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "spondyloarthropathy, susceptibility to", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
+predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
+description: "Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tretinoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tretinoin: From Acne and Acute Promyelocytic Leukaemia to Rheumatoid Nodulosis
+## Tretinoin: Rheumatoid nodulosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are **0 clinical trials** and **0 relevant publications** supporting t
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne, acute promyelocytic leukaemia, acquired keratosis, palmoplantar keratoderma (the approved indication text on the New Zealand licences is blank, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rheumatoid nodulosis |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, tretinoin is a retinoid (a vitamin A derivative) whose efficacy in acne, keratinisation disorders and acute promyelocytic leukaemia is established. Mechanistically, retinoids may modulate immune cell differentiation and inflammatory signalling, which could plausibly relate to rheumatoid-type inflammation.
 
-No data compiled for this report directly supports that link. The high score most likely reflects the drug's proximity to related autoimmune and arthritis nodes in the knowledge graph rather than demonstrated benefit. The other top predictions (juvenile idiopathic arthritis variants, spondyloarthropathy susceptibility, osteoarthritis, rare skeletal dysplasias, and folliculitis decalvans) all have the same evidence level (L5, model prediction only). Of these, folliculitis decalvans is the most biologically plausible, given tretinoin's established use in follicular and keratinisation disorders. It is still an unvalidated hypothesis.
+No data compiled for this report directly supports that link. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top predictions (juvenile idiopathic arthritis variants, osteoarthritis, rare skeletal dysplasias, and folliculitis decalvans) all have the same evidence level (L5, model prediction only). Of these, folliculitis decalvans is the most biologically plausible, given tretinoin's established use in follicular and keratinisation disorders. It is still an unvalidated hypothesis.
 
 ## Clinical Trial Evidence
 
@@ -72,8 +72,8 @@ Currently no related literature available for rheumatoid nodulosis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 235229 | Vesanoid (cancelled) | Capsule 10 mg | Not stated |
-| 2358751 | ReTrieve (cancelled) | Cream 0.5 mg per g | Not stated |
+| 235229 | Vesanoid (valid) | Capsule 10 mg | Not stated |
+| 2358751 | ReTrieve (valid) | Cream 0.5 mg per g | Not stated |
 
 ## Cytotoxicity
 
@@ -98,7 +98,7 @@ For labelled warnings and contraindications, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for rheumatoid nodulosis has a very high model score but no supporting trials or literature (L5). Tretinoin has no currently valid New Zealand licence, and its safety profile (teratogenicity, many knowledge-graph contraindications, and major drug interactions) argues against advancing without supporting evidence.
+The prediction for rheumatoid nodulosis has a very high model score but no supporting trials or literature (L5).
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a specific mechanistic link to rheumatoid nodulosis

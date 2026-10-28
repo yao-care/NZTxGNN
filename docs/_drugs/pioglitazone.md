@@ -6,9 +6,9 @@ nav_order: 368
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
-description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pioglitazone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Pioglitazone: From Type 2 Diabetes Mellitus to Opsismodysplasia
+## Pioglitazone: Opsismodysplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **0 clinical trials** and **0 publications** supporting this predi
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (from the knowledge graph; no approved indication text is available in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Opsismodysplasia |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,9 @@ Currently no related literature available for opsismodysplasia.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2479451 | Vexazone | Tab 45 mg | Not available (cancelled) |
-| 2479443 | Vexazone | Tab 30 mg | Not available (cancelled) |
-| 2479435 | Vexazone | Tab 15 mg | Not available (cancelled) |
+| 2479451 | Vexazone | Tab 45 mg | Not available (valid) |
+| 2479443 | Vexazone | Tab 30 mg | Not available (valid) |
+| 2479435 | Vexazone | Tab 15 mg | Not available (valid) |
 
 ## Safety Considerations
 
@@ -92,7 +92,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or publications (evidence level L5), the mechanistic link to opsismodysplasia is speculative, and all New Zealand licences for pioglitazone are cancelled.
+The prediction has no supporting clinical trials or publications (evidence level L5), the mechanistic link to opsismodysplasia is speculative, and pioglitazone is marketed in New Zealand with 3 valid licences of 3.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence linking PPAR-gamma or insulin/PI3K signalling to INPPL1-related skeletal dysplasia (preclinical or in vitro studies)

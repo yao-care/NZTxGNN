@@ -6,9 +6,9 @@ nav_order: 237
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Type 2 diabetes mellitus, type 1 diabetes mellitus…"
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
+description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Glargine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Glargine: From Diabetes Mellitus to Autoimmune Oophoritis
+## Insulin Glargine: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,33 +46,33 @@ It is a model-only signal and most likely reflects the association between autoi
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, insulin glargine is a long-acting basal insulin analogue, its efficacy in diabetes mellitus is well established, and its effect is glycaemic control through insulin replacement.
 
-Autoimmune oophoritis often occurs together with autoimmune polyendocrine syndromes, which can include type 1 diabetes. The high score therefore most likely reflects closeness to diabetes-related autoimmunity in the knowledge graph. There is no demonstrated mechanism by which insulin would treat ovarian autoimmunity itself. At best, insulin would manage a co-existing diabetes.
+Autoimmune oophoritis often occurs together with autoimmune polyendocrine syndromes, which can include type 1 diabetes. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There is no demonstrated mechanism by which insulin would treat ovarian autoimmunity itself. At best, insulin would manage a co-existing diabetes.
 
 **Other top-ranked predictions** show the same pattern. None has a clinical trial, and none has direct evidence for insulin glargine:
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Thiamine-responsive dysfunction syndrome | 99.61% | L5 | Insulin treats the diabetes component only |
-| 3 | Focal stiff limb syndrome | 99.60% | L5 | Linked through anti-GAD autoimmunity and type 1 diabetes; no mechanism for the neurological disorder |
-| 4 | Classic stiff person syndrome | 99.60% | L5 | Same as above |
-| 5 | Opsismodysplasia | 99.59% | L5 | Insulin/PI3K pathway proximity only |
-| 6 | Pancreatic agenesis | 99.43% | L4 | Insulin replacement is coherent, but this overlaps with the existing indication and is not a new mechanism. The four retrieved papers are indirect. |
-| 7 | Drug-induced localized lipodystrophy | 99.42% | L5 | Insulin injection is itself a known cause, so this is likely a confounded association and could worsen the condition |
-| 8 | Centrifugal lipodystrophy | 99.39% | L5 | Graph proximity only |
-| 9 | Pressure-induced localized lipoatrophy | 99.38% | L5 | Mechanical cause, not insulin deficiency |
-| 10 | Idiopathic localized lipodystrophy | 99.34% | L5 | Unsupported; injection-site lipodystrophy is a known adverse effect |
+| 2 | Thiamine-responsive dysfunction syndrome | 0.9961 | L5 | Insulin treats the diabetes component only |
+| 3 | Focal stiff limb syndrome | 0.9960 | L5 | Linked through anti-GAD autoimmunity and type 1 diabetes; no mechanism for the neurological disorder |
+| 4 | Classic stiff person syndrome | 0.9960 | L5 | Same as above |
+| 5 | Opsismodysplasia | 0.9959 | L5 | Insulin/PI3K pathway proximity only |
+| 6 | Pancreatic agenesis | 0.9943 | L5 | Insulin replacement is coherent, but this overlaps with the existing indication and is not a new mechanism. The four retrieved papers are indirect. |
+| 7 | Drug-induced localized lipodystrophy | 0.9942 | L5 | Insulin injection is itself a known cause, so this is likely a confounded association and could worsen the condition |
+| 8 | Centrifugal lipodystrophy | 0.9939 | L5 | TxGNN model score only |
+| 9 | Pressure-induced localized lipoatrophy | 0.9938 | L5 | Mechanical cause, not insulin deficiency |
+| 10 | Idiopathic localized lipodystrophy | 0.9934 | L5 | Unsupported; injection-site lipodystrophy is a known adverse effect |
 
 ## Clinical Trial Evidence
 
@@ -93,13 +93,13 @@ For reference, the only indication with retrieved publications is the rank 6 pre
 
 ## New Zealand Market Information
 
-All three licences are cancelled, so there is currently no valid marketed product in New Zealand.
+All three licences are valid, so the product is currently marketed in New Zealand.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2146746 | Lantus | Inj 100 u per ml, 10 ml | Not available (cancelled) |
-| 2146754 | Lantus | Inj 100 u per ml, 3 ml | Not available (cancelled) |
-| 2275406 | Lantus SoloStar | Inj 100 u per ml, 3 ml disposable pen | Not available (cancelled) |
+| 2146746 | Lantus | Inj 100 u per ml, 10 ml | Not available (valid) |
+| 2146754 | Lantus | Inj 100 u per ml, 3 ml | Not available (valid) |
+| 2275406 | Lantus SoloStar | Inj 100 u per ml, 3 ml disposable pen | Not available (valid) |
 
 ## Safety Considerations
 
@@ -119,13 +119,13 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is supported only by a model score, with no trials or publications (Evidence Level L5). The score most likely reflects an association with type 1 diabetes autoimmunity, not a therapeutic effect. In addition, all New Zealand licences are cancelled.
+The top prediction is supported only by a model score, with no trials or publications (Evidence Level L5). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The drug is marketed in New Zealand, with 3 valid licences of 3.
 
 **To proceed, the following is needed:**
 - Direct clinical or mechanistic evidence for insulin glargine in autoimmune oophoritis, or confirmation that the signal is only a diabetes-comorbidity artefact
 - Mechanism of action data (currently unavailable)
 - Package insert warnings and contraindications from Medsafe
-- Clarification of current New Zealand regulatory status, since all licences are cancelled
+- Confirmation of current New Zealand regulatory status (3 valid licences of 3)
 - If a repurposing direction is pursued, consider pancreatic agenesis first, but only as an extension of existing insulin replacement and not as a new mechanism
 ## Disclaimer
 

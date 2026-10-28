@@ -4,17 +4,17 @@ title: Phenytoin
 parent: Model Prediction Only (L5)
 nav_order: 364
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (generalized tonic-clonic, partial, status epilepticus…"
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenytoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenytoin: From Epilepsy to Trigeminal Nerve Neoplasm
+## Phenytoin: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (generalized tonic-clonic, partial, status epilepticus, Lennox-Gastaut syndrome). The approved indication text is not available in the New Zealand licence data, so this is taken from the knowledge-graph indication list. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not currently available in the data compile
 
 The link to a trigeminal nerve neoplasm is weak. The very high TxGNN score most likely reflects network proximity to trigeminal neuralgia and seizure-related nodes, not any antitumour activity. Phenytoin has no established antineoplastic mechanism in this setting. The retrieved literature covers trigeminal neuralgia treatment and Sturge-Weber syndrome, not tumours. This looks like a model artefact, not a real repurposing opportunity.
 
-The related condition **trigeminal neuralgia** (rank 9, score 99.97%) is much better supported mechanistically and clinically. It is covered under Conclusion and Next Steps.
+The related condition **trigeminal neuralgia** (rank 9, score 0.9997) is much better supported mechanistically and clinically. It is covered under Conclusion and Next Steps.
 
 ## Clinical Trial Evidence
 
@@ -76,13 +76,13 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2619466 | Dilantin Paediatric | Oral liquid 30 mg per 5 ml | Not available (cancelled) |
-| 2619431 | Dilantin | Capsule 100 mg | Not available (cancelled) |
-| 2619458 | Dilantin | Capsule 30 mg | Not available (cancelled) |
-| 2619474 | Dilantin Infatab | Tablet 50 mg | Not available (cancelled) |
-| 391646 | Hospira | Injection 50 mg per ml, 5 ml ampoule | Not available (cancelled) |
+| 2619466 | Dilantin Paediatric | Oral liquid 30 mg per 5 ml | Not available (valid) |
+| 2619431 | Dilantin | Capsule 100 mg | Not available (valid) |
+| 2619458 | Dilantin | Capsule 30 mg | Not available (valid) |
+| 2619474 | Dilantin Infatab | Tablet 50 mg | Not available (valid) |
+| 391646 | Hospira | Injection 50 mg per ml, 5 ml ampoule | Not available (valid) |
 
-All five authorizations are cancelled, so no phenytoin product currently holds a valid New Zealand licence.
+Phenytoin is currently marketed in New Zealand, and all 5 of the 5 licences are valid.
 
 ## Safety Considerations
 
@@ -111,7 +111,7 @@ The prediction for trigeminal nerve neoplasm rests on model score alone (L5). Th
 **Other predicted indications in the data (all Hold unless noted):**
 - **Trigeminal neuralgia (L3, "Research Question"):** The most plausible repurposing direction. Phenytoin shares the sodium channel mechanism of carbamazepine, the first-line therapy. Retrospective data support IV phenytoin for acute exacerbations (a 144-case cohort and another retrospective cohort), but guidelines treat it as non-first-line, and evidence for it is weak with no RCTs.
 - **Reflex and stimulus-induced seizures** (micturition-induced, thinking, audiogenic, eating, orgasm-induced, startle, reading): These are subtypes within the existing epilepsy indication, so they are not true repurposing. Support is mostly preclinical or case-report level.
-- **Beta-ketothiolase deficiency (L5):** No mechanistic link; likely a graph artefact.
+- **Beta-ketothiolase deficiency (L5):** No mechanistic link; the score of 0.9995 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - A package insert for phenytoin (Medsafe warnings and contraindications are missing, which blocks safety screening)

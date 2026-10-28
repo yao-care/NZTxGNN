@@ -4,17 +4,17 @@ title: Trastuzumab
 parent: Model Prediction Only (L5)
 nav_order: 462
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Trastuzumab: predicted new indication Top-ranked by score: normal breast-like subtype of breast carcinoma.… (evidence level L5). Approved use: HER2 positive breast carcinoma"
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Trastuzumab: From HER2-Positive Breast Carcinoma to Progesterone-Receptor Positive Breast Cancer
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Trastuzumab is a HER2-targeted antibody, originally used to treat HER2-positive breast carcinoma.
-The TxGNN model predicts it may be effective for several breast cancer subtypes. The top-scoring term is **normal breast-like subtype of breast carcinoma**, but the best-supported term is **progesterone-receptor positive breast cancer**, with **12 clinical trials** and **20 publications**. These predictions are mostly HER2-defined sub-populations of the existing indication rather than true new uses.
+The TxGNN model predicts it may be effective for several breast cancer subtypes. These predictions are mostly HER2-defined sub-populations of the existing indication rather than true new uses.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for several breast cancer subtypes.
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2 positive breast carcinoma (from the knowledge graph; no approved indication text is available in New Zealand licence records) |
-| Predicted New Indication | Top-ranked by score: normal breast-like subtype of breast carcinoma. Best supported: progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.90% (both terms) |
-| Evidence Level | L1 for progesterone-receptor positive breast cancer (L4 for the top-ranked normal breast-like subtype) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant cutaneous granular cell skin tumor |
+| TxGNN Prediction Score | 0.9948 |
+| Evidence Level | L5 for progesterone-receptor positive breast cancer (L4 for the top-ranked normal breast-like subtype) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails (for the progesterone-receptor positive term; Hold for the top-ranked normal breast-like subtype) |
 
 ---
@@ -113,11 +113,10 @@ Note: for the luminal A or B term, the key supporting paper is the pivotal adjuv
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2669994 | Baxter | Inj 1 mg for ECP | Not available (cancelled) |
-| 2670127 | Herzuma | Inj 150 mg vial | Not available (cancelled) |
-| 2670135 | Herzuma | Inj 440 mg vial | Not available (cancelled) |
+| 2669994 | Baxter | Inj 1 mg for ECP | Not available (valid) |
+| 2670127 | Herzuma | Inj 150 mg vial | Not available (valid) |
+| 2670135 | Herzuma | Inj 440 mg vial | Not available (valid) |
 
-All three authorizations are cancelled, so there is currently no valid marketed product in the records compiled for this report.
 
 ---
 
@@ -155,7 +154,6 @@ Package insert warnings and contraindications were not available, so please refe
 - Cardiac function monitoring (LVEF) plan.
 - Review of the 94 recorded drug interactions, especially the major ones.
 - Package insert warnings and contraindications (not yet obtained) and mechanism of action data.
-- Confirmation of product availability, since all New Zealand licences are cancelled.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

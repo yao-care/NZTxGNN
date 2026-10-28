@@ -6,9 +6,9 @@ nav_order: 446
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Tetrabenazine: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Huntington disease"
 monitor_inn: "TETRABENAZINE"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
+description: "Tetrabenazine: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tetrabenazine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tetrabenazine: From Huntington Disease to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
+## Tetrabenazine: Polycystic kidney disease 3 with or without polycystic liver disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but **no clinical trials and no relevant publications** currently support this p
 
 | Item | Content |
 |------|------|
-| Original Indication | Huntington disease (the New Zealand licence record has no approved indication text; the original indication comes from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (0 currently valid, 1 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Tetrabenazine is generally known as a reversible VMAT2 inhibitor that depletes presynaptic monoamines in the central nervous system. This is why it is used for hyperkinetic movement disorders such as Huntington disease.
 
-Polycystic kidney disease 3 (with or without polycystic liver disease) is a cyst-forming disorder linked to hepatocystin/PRKCSH-related pathways and cyst epithelial proliferation. No plausible mechanistic link between VMAT2 inhibition and this disease has been identified. The high TxGNN score most likely reflects proximity in the knowledge graph rather than a biological rationale.
+Polycystic kidney disease 3 with or without polycystic liver disease is a cyst-forming disorder linked to hepatocystin/PRKCSH-related pathways and cyst epithelial proliferation. No plausible mechanistic link between VMAT2 inhibition and this disease has been identified. The high score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions show the same pattern. They include renal-hepatic-pancreatic dysplasia, Joubert syndrome with renal defect, karyomegalic interstitial nephritis and acute intermittent porphyria. Most are ciliopathies, metabolic disorders or malformation syndromes with no known connection to monoamine transport. These predictions should be treated as hypotheses only.
 
@@ -76,7 +76,7 @@ Currently no related literature available for the top predicted indication.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2394383 | Motetis (cancelled) | Tab 25 mg | Not recorded |
+| 2394383 | Motetis (valid) | Tab 25 mg | Not recorded |
 
 ## Cytotoxicity
 

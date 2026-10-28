@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-15
-description: "Remdesivir: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not recorded"
+last_modified_at: 2026-10-28
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
+description: "Remdesivir: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Remdesivir
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Remdesivir: From Antiviral Use (No Indication Text Recorded) to Multiple Endocrine Neoplasia
+## Remdesivir: Multiple endocrine neoplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,24 +46,24 @@ The second-ranked prediction, **HIV infectious disease**, has **1 clinical trial
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded (the licence entry has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.50% |
+| TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the compiled data. From general pharmacology, remdesivir is a nucleotide analog prodrug that inhibits viral RNA-dependent RNA polymerase, giving it activity against several RNA viruses such as SARS-CoV-2 and Ebola.
 
-Multiple endocrine neoplasia is a hereditary tumour syndrome (for example, driven by MEN1 or RET mutations) and is not caused by viral replication. No credible mechanistic link to an antiviral polymerase inhibitor could be identified. The high score (0.995, rank 4483) appears to be a knowledge-graph artefact rather than a meaningful signal.
+Multiple endocrine neoplasia is a hereditary tumour syndrome (for example, driven by MEN1 or RET mutations) and is not caused by viral replication. No credible mechanistic link to an antiviral polymerase inhibitor could be identified. The high score (0.995, rank 4483) appears to be a TxGNN model (deep learning) artefact rather than a meaningful signal.
 
 For context, the other predictions show the same pattern:
-- **HIV infectious disease (score 99.32%)**: only an indirect link through the nucleotide-analog class. HIV relies on reverse transcriptase and integrase, not on RNA-dependent RNA polymerase.
-- **Simian immunodeficiency virus infection and feline AIDS (99.07% each)**: lentiviral, animal-model or veterinary indications. The identical scores suggest shared graph neighbours rather than independent evidence.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.03%)** and **homozygous familial hypercholesterolemia (99.03%)**: genetic disorders with no plausible antiviral-sensitive pathway.
+- **HIV infectious disease (score 0.9932)**: only an indirect link through the nucleotide-analog class. HIV relies on reverse transcriptase and integrase, not on RNA-dependent RNA polymerase.
+- **Simian immunodeficiency virus infection and feline AIDS (0.9907 each)**: lentiviral, animal-model or veterinary indications. The identical scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (0.9903)** and **homozygous familial hypercholesterolemia (0.9903)**: genetic disorders with no plausible antiviral-sensitive pathway.
 
 ## Clinical Trial Evidence
 
@@ -95,7 +95,7 @@ For the second-ranked prediction (HIV infectious disease), the retrieved publica
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2640139 | Veklury | Inj 100 mg vial | Not recorded (licence status: cancelled) |
+| 2640139 | Veklury | Inj 100 mg vial | Not recorded (licence status: valid) |
 
 ## Cytotoxicity
 
@@ -116,7 +116,7 @@ Please refer to the package insert for warnings and contraindications, as this i
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, multiple endocrine neoplasia, rests solely on a knowledge-graph score with no clinical trials, no literature, and no plausible mechanism. The only prediction with any retrieved evidence (HIV) is supported by material that concerns COVID-19, not HIV. Remdesivir's only New Zealand licence is cancelled, and label safety information could not be obtained.
+The top prediction, multiple endocrine neoplasia, rests solely on a TxGNN model (deep learning) score with no clinical trials, no literature, and no plausible mechanism. The only prediction with any retrieved evidence (HIV) is supported by material that concerns COVID-19, not HIV. Remdesivir's only New Zealand licence is cancelled, and label safety information could not be obtained.
 
 **To proceed, the following is needed:**
 - Medsafe package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening

@@ -6,9 +6,9 @@ nav_order: 474
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not recorded in the licence data"
 monitor_inn: "VALINE"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
+description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Valine
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Valine: From an Unspecified Original Indication to Sclerosing Cholangitis
+## Valine: Sclerosing cholangitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be useful for **sclerosing cholangitis**, but th
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the licence data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,7 +87,7 @@ Please refer to the package insert for safety information. No interaction record
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and indirect metabolic associations only. There are no trials, no demonstrated mechanism, and no valid New Zealand licence. The other nine predicted indications (glaucoma subtypes, hyperthyroidism, thyroid hormone resistance and others) have even weaker support. Much of their literature concerns "Val" as a residue in gene mutations, not valine as a drug.
+The prediction rests on a model score and indirect metabolic associations only. The other nine predicted indications (glaucoma subtypes, hyperthyroidism, thyroid hormone resistance and others) have even weaker support. Much of their literature concerns "Val" as a residue in gene mutations, not valine as a drug.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for valine

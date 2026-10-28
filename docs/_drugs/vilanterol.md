@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vilanterol
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 479
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Vilanterol: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease, asthma, bronchitis…"
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Vilanterol: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+## Vilanterol: Hyperlucent lung
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Vilanterol is a long-acting beta2-agonist (LABA) used in fixed-dose inhaler combinations, originally for chronic obstructive pulmonary disease (COPD) and asthma.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **28 clinical trials** and **20 publications** compiled for this direction.
 Because this prediction overlaps closely with the existing COPD and asthma uses, it is better seen as a near-label indication than as true repurposing.
 
 ---
@@ -48,12 +47,12 @@ Because this prediction overlaps closely with the existing COPD and asthma uses,
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic obstructive pulmonary disease, asthma, bronchitis, pulmonary emphysema (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hyperlucent lung |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -110,7 +109,7 @@ The compiled data contain 20 publications. The table lists the 10 most relevant,
 
 ## New Zealand Market Information
 
-All three licences are cancelled, so no currently valid authorisation was identified. The approved indication text is not available for any of them.
+The approved indication text is not available for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -135,14 +134,13 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several completed Phase 3 RCTs and large pivotal trials support vilanterol-containing combinations in COPD and asthma, which gives an evidence level of L1. However, this is essentially an on-label use rather than true repurposing. The evidence is for fixed-dose combinations, not vilanterol alone, and all New Zealand licences are cancelled.
+Several completed Phase 3 RCTs and large pivotal trials support vilanterol-containing combinations in COPD and asthma, which gives an evidence level of L1. However, this is essentially an on-label use rather than true repurposing.
 
 The other nine predicted indications (interstitial emphysema, compensatory emphysema, hyperlucent lung, tracheal stenosis, bronchial neoplasm, congenital lobar emphysema, respiratory malformation, tracheal calcification, laryngotracheitis) have little or no supporting evidence, with evidence levels of L4 to L5. They appear to be ontology-proximity artifacts and should be held.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe. The missing safety data is a blocking gap for safety screening.
 - Mechanism-of-action data from DrugBank.
-- Confirmation of the regulatory and market situation in New Zealand, since all three licences are cancelled and no approved indication text is available.
 - Verification of the registry phase label for NCT05062304 (IMPACT).
 - Evidence on the contribution of vilanterol alone, as the available trials test combinations.
 ## Disclaimer

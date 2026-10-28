@@ -4,7 +4,7 @@ title: Alglucosidase Alfa
 parent: Model Prediction Only (L5)
 nav_order: 27
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Alglucosidase Alfa: predicted new indication Adult polyglucosan body disease (evidence level L5). Approved use: Glycogen storage disease (Pompe disease). The New Zealand licence rec…"
 monitor_inn: "ALGLUCOSIDASE ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 # Alglucosidase Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The prediction rests on model output alone, and the biological rationale is weak
 |------|------|
 | Original Indication | Glycogen storage disease (Pompe disease). The New Zealand licence record contains no approved indication text. |
 | Predicted New Indication | Adult polyglucosan body disease |
-| TxGNN Prediction Score | 99.47% |
+| TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,8 +70,7 @@ The mechanistic link is nonetheless weak and speculative:
 - It does not readily reach polyglucosan stored in the cytosol.
 
 The other top-ranked predictions follow the same pattern:
-- **Glycogen branching enzyme deficiency (fatal perinatal and congenital neuromuscular forms)**: these are also GBE1 disorders, and the prediction likely reflects proximity to the original indication in the knowledge graph. GAA cannot replace branching enzyme activity.
-- **Eyelid and ocular conditions** (congenital entropion, congenital ectropion, epiblepharon, congenital Horner syndrome, ptosis-related syndromes, and others): no plausible mechanism links them to enzyme replacement for glycogen storage, so these predictions are probably knowledge-graph artifacts.
+- **Eyelid and ocular conditions** (congenital entropion, congenital ectropion, epiblepharon, congenital Horner syndrome, ptosis-related syndromes, and others): no plausible mechanism links them to enzyme replacement for glycogen storage, so these predictions are probably TxGNN model (deep learning) artifacts.
 
 ---
 
@@ -91,7 +90,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2500701 | Myozyme (status: cancelled) | Inj 50 mg vial | Not recorded |
+| 2500701 | Myozyme (status: valid) | Inj 50 mg vial | Not recorded |
 
 ---
 

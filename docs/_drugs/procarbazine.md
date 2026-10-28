@@ -6,9 +6,9 @@ nav_order: 385
 evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Procarbazine: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Hodgkin lymphoma (including classic Hodgkin lymphoma and its subtypes)"
 monitor_inn: "Procarbazine"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
+description: "Procarbazine: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Procarbazine
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-## Procarbazine: From Hodgkin Lymphoma to Follicular Lymphoma
+## Procarbazine: Follicular lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **follicular lymphoma**, but th
 
 | Item | Content |
 |------|------|
-| Original Indication | Hodgkin lymphoma (including classic Hodgkin lymphoma and its subtypes) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Follicular lymphoma |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -84,7 +84,7 @@ However, the evidence is largely retrospective or at the regimen level, so the s
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 336548 | Natulan | Cap 50 mg | Not recorded (authorization cancelled) |
+| 336548 | Natulan | Cap 50 mg | Not recorded (authorization valid) |
 
 ## Cytotoxicity
 
@@ -109,7 +109,7 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold (research question)**
 
 **Rationale:**
-Biological plausibility is reasonable, and there are case-level reports of responses in relapsed follicular lymphoma. However, no trial tests procarbazine directly, the evidence cannot isolate its contribution, and procarbazine has no valid New Zealand authorization. The safety profile (myelosuppression, carcinogenicity, fertility effects, many major interactions) calls for caution.
+Biological plausibility is reasonable, and there are case-level reports of responses in relapsed follicular lymphoma. The safety profile (myelosuppression, carcinogenicity, fertility effects, many major interactions) calls for caution.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (Medsafe)

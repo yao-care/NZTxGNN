@@ -4,17 +4,17 @@ title: Rosuvastatin
 parent: Model Prediction Only (L5)
 nav_order: 413
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
 description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, stroke, cerebrovascular disorder…"
 monitor_inn: "ROSUVASTATIN"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "ABri amyloidosis"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The better-supported predictions are **familial hypercholesterolaemia** (13 tria
 |------|------|
 | Original Indication | Hypertriglyceridaemia, stroke, cerebrovascular disorder, cerebral infarction, atherosclerosis, familial combined hyperlipidaemia, hyperlipoproteinaemia, homozygous familial hypercholesterolaemia (the New Zealand licence records contain no approved-indication text) |
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency (top-ranked prediction) |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (top prediction); L1 for familial hypercholesterolaemia and hyperlipidaemia |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 8 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Authorizations | 8 (valid: 8) |
 | Recommended Decision | Hold (top prediction); Proceed with Guardrails for familial hypercholesterolaemia and hyperlipidaemia |
 
 ---
@@ -113,7 +113,7 @@ For **hyperlipidaemia (rank 10)**, key sources include the STELLAR trial ([12860
 
 ## New Zealand Market Information
 
-All eight authorisations are cancelled. No approved-indication text is recorded for any of them.
+All eight authorisations are valid. No approved-indication text is recorded for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -146,13 +146,13 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold** (for the top-ranked prediction, CETP deficiency); **Proceed with Guardrails** for familial hypercholesterolaemia and hyperlipidaemia.
 
 **Rationale:**
-- The top prediction (CETP deficiency, score 99.54%) is supported only by the model. It has no trials or publications, and the condition rarely needs treatment.
+- The top prediction (CETP deficiency, score 0.9954) is supported only by the model. It has no trials or publications, and the condition rarely needs treatment.
 - Familial hypercholesterolaemia and hyperlipidaemia have strong evidence (Level L1: multiple completed Phase 3 trials, including paediatric RCTs), but they overlap with the drug's established uses rather than representing new repurposing. HIV-related cardiovascular risk reduction is a reasonable research question (L2), with mixed results.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking data gap for safety screening).
 - Mechanism-of-action data from DrugBank.
-- Verification of product availability in New Zealand, since all eight authorisations are cancelled.
+- Verification of product availability in New Zealand (8 of 8 licences valid).
 - Safety guardrails: myopathy and CK monitoring, renal and hepatic function checks, paediatric dosing and growth monitoring, consideration of Asian-ancestry dosing, and a review of drug interactions.
 - Before any evaluation of CETP deficiency, a clinical rationale showing that treatment is needed and a mechanistic assessment.
 ## Disclaimer

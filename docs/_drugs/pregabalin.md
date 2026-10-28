@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-15
-description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Anxiety disorder, fibromyalgia, myofascial pain syndrome…"
+last_modified_at: 2026-10-28
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
+description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pregabalin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Pregabalin: From Neuropathic Pain and Anxiety to Tendinitis
+## Pregabalin: Tendinitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The best-supported alternative among the predictions is **migraine disorder** (2
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, fibromyalgia, myofascial pain syndrome, postherpetic neuralgia (from the knowledge graph; approved indication text is not available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Tendinitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 (for tendinitis; mechanistic rationale only, no direct studies) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 8 (all cancelled) |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 (for tendinitis; mechanistic rationale only, no direct studies) |
+| New Zealand Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Authorizations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,10 +61,10 @@ Detailed mechanism-of-action data is not available in the data compiled for this
 The original indications (fibromyalgia, myofascial pain syndrome) are musculoskeletal and neuropathic pain conditions. Tendinitis is a painful musculoskeletal condition, so the model likely links them through shared pain-related features. This is a computational inference only. The retrieved literature does not show that pregabalin treats tendinitis. Two perioperative studies concern postoperative pain after shoulder (rotator cuff) surgery, which is not tendinitis treatment. The remaining papers are case reports, a commentary, or unrelated work.
 
 Other predictions follow the same pattern:
-- **Myositis fibrosa** and **idiopathic granulomatous myositis** (score 99.71%): no trials and no literature (L5). Pregabalin has no known effect on the underlying inflammation, so any benefit would be symptomatic.
-- **Inclusion body myositis** (99.52%): L5. The one retrieved paper is an unrelated case report.
-- **Migraine with brainstem aura** (99.43%): L4. Animal studies show pregabalin inhibits cortical spreading depression, the basis of migraine aura, but there are no clinical trials in this subtype.
-- **Migraine disorder** (99.47%): L2, the strongest of the predictions (see below).
+- **Myositis fibrosa** and **idiopathic granulomatous myositis** (score 0.9971): no trials and no literature (L5). Pregabalin has no known effect on the underlying inflammation, so any benefit would be symptomatic.
+- **Inclusion body myositis** (0.9952): L5. The one retrieved paper is an unrelated case report.
+- **Migraine with brainstem aura** (0.9943): L4. Animal studies show pregabalin inhibits cortical spreading depression, the basis of migraine aura, but there are no clinical trials in this subtype.
+- **Migraine disorder** (0.9947): L2, the strongest of the predictions (see below).
 
 ## Clinical Trial Evidence
 
@@ -101,15 +101,15 @@ For migraine disorder (selected):
 
 ## New Zealand Market Information
 
-All eight licences are cancelled, so pregabalin currently has no valid marketed product in New Zealand. Approved indication text is not available for these licences.
+All 8 licences are valid, so this drug is currently marketed in this country. Approved indication text is not available for these licences.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2534096 | Pregabalin Pfizer | Cap 150 mg | Cancelled |
-| 2534118 | Pregabalin Pfizer | Cap 300 mg | Cancelled |
-| 2704536 | Lyrica | Cap 300 mg | Cancelled |
-| 2704501 | Lyrica | Cap 75 mg | Cancelled |
-| 2534088 | Pregabalin Pfizer | Cap 75 mg | Cancelled |
+| 2534096 | Pregabalin Pfizer | Cap 150 mg | Valid |
+| 2534118 | Pregabalin Pfizer | Cap 300 mg | Valid |
+| 2704536 | Lyrica | Cap 300 mg | Valid |
+| 2704501 | Lyrica | Cap 75 mg | Valid |
+| 2534088 | Pregabalin Pfizer | Cap 75 mg | Valid |
 
 Three further cancelled licences (Lyrica 150 mg and 25 mg, Pregabalin Pfizer 25 mg) are not listed here.
 
@@ -131,14 +131,14 @@ Package insert warnings and contraindications were not available and should be r
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (tendinitis) rests on a computational score alone. No trials exist, and the literature does not show that pregabalin treats tendinitis. Pregabalin also has no currently valid New Zealand licence, and label safety data is missing. Migraine disorder (L2) is the only prediction with some clinical support and could be considered separately as a research question.
+The top prediction (tendinitis) rests on a computational score alone. No trials exist, and the literature does not show that pregabalin treats tendinitis. Migraine disorder (L2) is the only prediction with some clinical support and could be considered separately as a research question.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, to enable safety screening
 - Detailed mechanism-of-action data from DrugBank
 - For tendinitis: controlled clinical studies directly testing pregabalin
 - For migraine: adult, placebo-controlled confirmatory trials
-- Clarification of the regulatory pathway given that all New Zealand licences are cancelled
+- Clarification of the regulatory pathway, given that this drug is marketed with 8 valid licences of 8
 - Review of the knowledge-graph contraindications (especially myopathy, renal impairment, angioedema) against the label
 ## Disclaimer
 

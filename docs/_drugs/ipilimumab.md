@@ -4,17 +4,17 @@ title: Ipilimumab
 parent: Model Prediction Only (L5)
 nav_order: 240
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
+description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Ipilimumab: From Metastatic Melanoma to Choroideremia
+## Ipilimumab: Choroideremia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ipilimumab is an anti-CTLA-4 antibody (immune checkpoint inhibitor) originally used to treat metastatic melanoma.
-The TxGNN model predicts it may be effective for **choroideremia**, an inherited retinal degeneration, but this prediction currently has **0 clinical trials** and **0 publications** behind it. The high score is most likely a knowledge-graph artifact rather than a real therapeutic signal.
+The TxGNN model predicts it may be effective for **choroideremia**, an inherited retinal degeneration, but this prediction currently has **0 clinical trials** and **0 publications** behind it. The high score is most likely a TxGNN model (deep learning) artifact rather than a real therapeutic signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic melanoma (from knowledge-graph indication data; the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Choroideremia |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Ipilimumab blocks CTLA-4 on T cells, which enhances T-cell priming and anti-tumo
 
 On review, there is no credible mechanistic link to choroideremia. This condition is a monogenic, X-linked inherited retinal degeneration. Loss of function of the *CHM* gene (REP1 protein) causes progressive chorioretinal atrophy. The disease is not driven by CTLA-4-mediated T-cell checkpoint inhibition, so ipilimumab has no plausible therapeutic target here.
 
-Immune checkpoint blockade could also add risk. Ocular immune-related adverse events such as uveitis could harm a retina that is already vulnerable. The high TxGNN score most likely reflects a knowledge-graph artifact, because no clinical or literature evidence supports it.
+Immune checkpoint blockade could also add risk. Ocular immune-related adverse events such as uveitis could harm a retina that is already vulnerable. The high TxGNN score most likely reflects a TxGNN model (deep learning) artifact, because no clinical or literature evidence supports it.
 
 ## Clinical Trial Evidence
 
@@ -73,9 +73,9 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Status | Approved Indication |
 |---------|------|------|------|-----------|
-| 2703246 | Yervoy | Inj 5 mg per ml, 40 ml vial | Cancelled | — |
-| 2703238 | Yervoy | Inj 5 mg per ml, 10 ml vial | Cancelled | — |
-| 2701782 | Baxter | Inj 1 mg for ECP | Cancelled | — |
+| 2703246 | Yervoy | Inj 5 mg per ml, 40 ml vial | Valid | — |
+| 2703238 | Yervoy | Inj 5 mg per ml, 10 ml vial | Valid | — |
+| 2701782 | Baxter | Inj 1 mg for ECP | Valid | — |
 
 ## Cytotoxicity
 
@@ -103,14 +103,13 @@ Please refer to the package insert for other safety information.
 **Rationale:**
 The prediction has no supporting trials or publications, and the disease biology has no plausible link to CTLA-4 blockade. Immune-related ocular toxicity is a further concern. The high TxGNN score alone does not justify further investment.
 
-For context, the model's second-ranked prediction, non-cutaneous melanoma, is biologically much closer to the approved use. It has a completed Phase 2 trial of nivolumab plus ipilimumab in uveal melanoma (NCT02626962) and retrospective data, and it is a more sensible direction to evaluate. Its Phase 3 evidence needs verification, because the listed Phase 3 trial appears to be a cell-therapy study with ipilimumab only as a comparator.
 
 **To proceed, the following is needed:**
 - Any preclinical or mechanistic evidence linking CTLA-4 pathways to choroideremia pathology
 - The Medsafe package insert, to confirm warnings and contraindications (currently unavailable)
 - Detailed mechanism-of-action data
 - An ocular safety assessment of checkpoint inhibition in inherited retinal disease
-- Confirmation of current New Zealand availability, since all three licences are cancelled
+- Confirmation of current New Zealand availability, noting that the drug is marketed and all three licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

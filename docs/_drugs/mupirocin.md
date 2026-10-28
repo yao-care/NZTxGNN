@@ -6,9 +6,9 @@ nav_order: 313
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Mupirocin: predicted new indication Pleural empyema (evidence level L5). Approved use: Impetigo, bullous impetigo"
 monitor_inn: "MUPIROCIN"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mupirocin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Mupirocin: From Impetigo to Pleural Empyema
+## Mupirocin: Pleural empyema (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,21 +45,21 @@ The TxGNN model predicts it may be effective for **pleural empyema**, but there 
 
 | Item | Content |
 |------|------|
-| Original Indication | Impetigo, bullous impetigo (from the TxGNN knowledge graph; no approved indication text is available for the New Zealand licence) |
-| Predicted New Indication | Pleural empyema |
-| TxGNN Prediction Score | 99.49% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pleural empyema (disease) |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available in the data compiled for this report. From general pharmacological knowledge, mupirocin inhibits bacterial isoleucyl-tRNA synthetase. It is active mainly against *Staphylococcus aureus* (including MRSA) and some streptococci. Its efficacy in skin infections such as impetigo is established.
 
-These organisms are also among the pathogens found in pleural empyema, which is the plausible link behind the prediction. However, mupirocin is a topical agent with no meaningful systemic exposure. It is not suited to treating a deep-seated infection of the pleural space. The high TxGNN score (99.49%) is a computational output only. It should not be read as evidence of clinical benefit.
+These organisms are also among the pathogens found in pleural empyema, which is the plausible link behind the prediction. However, mupirocin is a topical agent with no meaningful systemic exposure. It is not suited to treating a deep-seated infection of the pleural space. The high TxGNN score (0.9949) is a computational output only. It should not be read as evidence of clinical benefit.
 
-A second prediction, **punctate epithelial keratoconjunctivitis** (score 99.10%), also has no supporting trials or literature. This condition is often viral (e.g. adenovirus), so an antibacterial would have limited relevance. The marketed product is for skin or nasal use, and ocular safety and tolerability are not established.
+A second prediction, **punctate epithelial keratoconjunctivitis** (score 0.9910), also has no supporting trials or literature. This condition is often viral (e.g. adenovirus), so an antibacterial would have limited relevance. The marketed product is for skin or nasal use, and ocular safety and tolerability are not established.
 
 ## New Zealand Market Information
 

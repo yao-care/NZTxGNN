@@ -48,10 +48,10 @@ but there are currently **0 registered clinical trials** and only **3 loosely re
 |------|------|
 | Original Indication | Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis |
 | Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.18% |
+| TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 (the Evidence Pack's own scoring lists L4, but without clinical trials or mechanistic studies specific to urticaria, the criteria support only L5) |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ The original indications (allergic conjunctivitis) and urticaria are both histam
 
 The high TxGNN score reflects similarity to other H1 antagonists at the class level, not drug-specific evidence.
 
-A second prediction, rosacea conjunctivitis (score 99.17%), has no trials or literature. Ocular rosacea is driven mainly by meibomian gland dysfunction, lid-margin inflammation, microbial and Demodex factors, and vascular dysregulation, so any benefit would likely be limited to symptomatic relief of itch or redness.
+A second prediction, rosacea conjunctivitis (score 0.9917), has no trials or literature. Ocular rosacea is driven mainly by meibomian gland dysfunction, lid-margin inflammation, microbial and Demodex factors, and vascular dysregulation, so any benefit would likely be limited to symptomatic relief of itch or redness.
 
 ## Clinical Trial Evidence
 

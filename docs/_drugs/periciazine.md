@@ -4,17 +4,17 @@ title: Periciazine
 parent: Model Prediction Only (L5)
 nav_order: 357
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the New Zealand licence data (the approved indication…"
 monitor_inn: "periciazine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "migraine with or without aura, susceptibility to", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]
 ---
 
 # Periciazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but this
 |------|------|
 | Original Indication | Not recorded in the New Zealand licence data (the approved indication text is empty). Pharmacology reference data describes schizophrenia and other psychoses, and short-term adjunctive management of severe anxiety, psychomotor agitation and violent or dangerously impulsive behaviour |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,11 +67,10 @@ Other phenothiazines, such as chlorpromazine and prochlorperazine, are used for 
 
 | Rank | Predicted Indication | Score | Comment |
 |------|------|------|------|
-| 2 | Migraine with brainstem aura | 99.84% | A subtype of migraine. The score likely reflects ontology proximity to the parent term, not independent evidence |
-| 3 | Atrophoderma vermiculata | 99.36% | No plausible mechanistic link. Likely a knowledge-graph artifact |
-| 4 | Dysthymic disorder | 99.25% | Speculative. Periciazine has no established antidepressant role, and older antipsychotics carry a tolerability burden in chronic mood disorders |
-| 5 | Migraine with or without aura, susceptibility to | 99.22% | Describes a genetic susceptibility, not a treatable condition, so it is not directly actionable |
-| 6 | Ulerythema ophryogenesis | 99.16% | No pharmacological rationale. Likely driven by similarity to other follicular skin disorders |
+| 2 | Migraine with brainstem aura | 0.9984 | A subtype of migraine. The score likely reflects ontology proximity to the parent term, not independent evidence |
+| 3 | Atrophoderma vermiculata | 0.9936 | No plausible mechanistic link. Likely a TxGNN model (deep learning) artifact |
+| 4 | Dysthymic disorder | 0.9925 | Speculative. Periciazine has no established antidepressant role, and older antipsychotics carry a tolerability burden in chronic mood disorders |
+| 6 | Ulerythema ophryogenesis | 0.9916 | No pharmacological rationale. Likely driven by similarity to other follicular skin disorders |
 
 ---
 
@@ -91,8 +90,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 254665 | Neulactil | Tab 2.5 mg | Not recorded (licence cancelled) |
-| 254673 | Neulactil | Tab 10 mg | Not recorded (licence cancelled) |
+| 254665 | Neulactil | Tab 2.5 mg | Not recorded (licence valid) |
+| 254673 | Neulactil | Tab 10 mg | Not recorded (licence valid) |
 
 ---
 

@@ -48,10 +48,10 @@ It is a computational prediction only and is not backed by any real-world eviden
 |------|------|
 | Original Indication | Open-angle glaucoma; ocular hypertension |
 | Predicted New Indication | Visceral calciphylaxis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

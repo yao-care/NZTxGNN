@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Propylene Glycol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 391
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Propylene Glycol: predicted new indication Bronchitis (evidence level L4). Approved use: Dry eye syndrome, xerophthalmia"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopa
 # Propylene Glycol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 Propylene glycol was originally used for dry eye syndrome (xerophthalmia), mainly as a lubricant component in eye products.
 The TxGNN model predicts it may be effective for **bronchitis**, but there are **0 clinical trials** and only **3 publications** for this prediction, none showing a therapeutic benefit.
-The literature actually describes propylene glycol as a possible airway irritant, so this prediction is likely a knowledge-graph artifact.
+The literature actually describes propylene glycol as a possible airway irritant, so this prediction is likely a TxGNN model (deep learning) artifact.
 
 ---
 
@@ -50,10 +50,10 @@ The literature actually describes propylene glycol as a possible airway irritant
 |------|------|
 | Original Indication | Dry eye syndrome, xerophthalmia (the regulatory record contains no approved indication text) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 There is no credible therapeutic link between dry eye and bronchitis. The retrieved literature describes propylene glycol as a constituent of e-cigarette liquids that may irritate the airways and contribute to lung disease risk, which is the opposite of a therapeutic effect. One mouse study (quercetin in an elastase/LPS COPD model) is unrelated to propylene glycol treatment. The very high TxGNN score is not supported by clinical or mechanistic evidence.
 
-Other top-ranked predictions are similarly weak. Diabetic retinopathy has only indirect evidence, and the various cataract types and severe non-proliferative diabetic retinopathy have no supporting studies. Their scores most likely reflect proximity to other eye-disease terms in the knowledge graph.
+Other top-ranked predictions are similarly weak. Diabetic retinopathy has only indirect evidence, and the various cataract types and severe non-proliferative diabetic retinopathy have no supporting studies. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -88,7 +88,7 @@ Currently no related clinical trials registered for bronchitis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2177447 | Midwest | Liquid | Not recorded (authorization cancelled) |
+| 2177447 | Midwest | Liquid | Not recorded (authorization valid) |
 
 ---
 

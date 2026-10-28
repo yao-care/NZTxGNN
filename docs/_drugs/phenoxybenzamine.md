@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Adrenal gland pheochromocytoma / phaeochromocytoma (the New Zealand licence has no approved indication text on record) |
 | Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.55% |
+| TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 1 (0 valid, 1 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The link to glaucoma is only theoretical. Alpha-blockade could alter ocular vascular tone, aqueous humour production or uveoscleral outflow, and adrenergic pathways are an established target class in glaucoma therapy (for example, alpha-2 agonists). However, primary hereditary (congenital/juvenile) glaucoma is mainly caused by developmental anomalies of the trabecular meshwork and anterior chamber angle (for example, CYP1B1 and MYOC variants). Pharmacological alpha-blockade is not expected to correct this structural pathology.
 
-The second prediction, open-angle glaucoma (score 99.48%), faces similar problems. Phenoxybenzamine's effect on intraocular pressure is not established, and systemic hypotension could worsen optic nerve head perfusion. Well-established, safer topical alternatives already exist. The very high TxGNN scores are therefore computational signals only and should not be read as evidence of efficacy.
+The second prediction, open-angle glaucoma (score 0.9948), faces similar problems. Phenoxybenzamine's effect on intraocular pressure is not established, and systemic hypotension could worsen optic nerve head perfusion. Well-established, safer topical alternatives already exist. The very high TxGNN scores are therefore computational signals only and should not be read as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
@@ -74,7 +74,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2457636 | BNM | Cap 10 mg | Not recorded (status: cancelled) |
+| 2457636 | BNM | Cap 10 mg | Not recorded (status: valid) |
 
 ## Cytotoxicity
 
@@ -82,7 +82,7 @@ Phenoxybenzamine is not a cytotoxic anticancer agent. It is an alpha-blocker use
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: kidney disease, pyoureter, hypotensive disorder, coronary artery disease.
+- **Contraindications (associations in the data, not label text)**: kidney disease, pyoureter, hypotensive disorder, coronary artery disease.
 - **Receptor interactions**: Phenoxybenzamine antagonises the α1D-adrenoceptor (ADRA1D) and α2B-adrenoceptor (ADRA2B). It is not a selective antagonist and acts at other alpha-adrenoceptors too. No drug-drug interaction severity levels were available.
 - **Expected systemic effects (from the mechanistic assessment)**: orthostatic hypotension, reflex tachycardia and nasal congestion. Hypotension is of particular concern in glaucoma because of the risk of reduced optic nerve perfusion.
 

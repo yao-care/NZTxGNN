@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lenalidomide
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 264
-evidence_level: L5
-indication_count: 6
+evidence_level: L2
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm…"
 monitor_inn: "LENALIDOMIDE"
-predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
+description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Lenalidomide: From Plasma Cell Myeloma to Myeloid Leukemia
+## Lenalidomide: Myeloid leukemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **44 registered clinical trials** and **20 publications** compiled for this
 
 | Item | Content |
 |------|------|
-| Original Indication | Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm, lymphosarcoma, myelodysplastic syndrome (from the knowledge-graph indication list; no approved-indication text is available from local licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L2 (no completed Phase 3 RCT; Phase 2 evidence only) |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 6 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -110,15 +110,15 @@ No randomized controlled trial publication specific to lenalidomide in myeloid l
 
 ## New Zealand Market Information
 
-All six licences are cancelled, so lenalidomide is not currently marketed in New Zealand under these authorizations. Approved-indication text is not available for any of them.
+All six licences are valid, so lenalidomide is currently marketed in New Zealand under these authorizations. Approved-indication text is not available for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2707543 | Lenalidomide Viatris | Capsule 15 mg | Cancelled |
-| 2707527 | Lenalidomide Viatris | Capsule 5 mg | Cancelled |
-| 2673568 | Lenalidomide Viatris | Capsule 25 mg | Cancelled |
-| 2707551 | Lenalidomide Viatris | Capsule 25 mg | Cancelled |
-| 2673541 | Lenalidomide Viatris | Capsule 15 mg | Cancelled |
+| 2707543 | Lenalidomide Viatris | Capsule 15 mg | Valid |
+| 2707527 | Lenalidomide Viatris | Capsule 5 mg | Valid |
+| 2673568 | Lenalidomide Viatris | Capsule 25 mg | Valid |
+| 2707551 | Lenalidomide Viatris | Capsule 25 mg | Valid |
+| 2673541 | Lenalidomide Viatris | Capsule 15 mg | Valid |
 
 A sixth licence (2707535, Capsule 10 mg) is also cancelled.
 
@@ -150,14 +150,14 @@ Please refer to the package insert for authoritative warnings and contraindicati
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.49%) and the mechanism is plausible, but the evidence for myeloid leukemia consists mostly of small Phase 1 and Phase 2 studies, many single-arm, with no completed Phase 3 RCT. In addition, no licence is currently valid in New Zealand and safety label data are missing. The package-insert data gap blocks safety screening.
+The TxGNN score is very high (0.9949) and the mechanism is plausible, but the evidence for myeloid leukemia consists mostly of small Phase 1 and Phase 2 studies, many single-arm, with no completed Phase 3 RCT. The package-insert data gap blocks safety screening.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (blocking gap)
 - Formal mechanism-of-action data from DrugBank
 - Published results and outcomes of the larger randomized trials (NCT01358734, NCT01522976)
 - Subgroup analysis, particularly del(5q) and chromosome 5 abnormalities, where benefit is most plausible
-- A haematological and thromboembolic monitoring plan, and a regulatory pathway given that all New Zealand licences are cancelled
+- A haematological and thromboembolic monitoring plan, and a regulatory pathway given that all 6 New Zealand licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

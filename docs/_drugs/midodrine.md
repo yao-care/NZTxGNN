@@ -6,9 +6,9 @@ nav_order: 301
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Orthostatic hypotension, POTS, multiple system atrophy"
 monitor_inn: "MIDODRINE"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
+description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Midodrine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Midodrine: From Orthostatic Hypotension to Hypotensive Disorder
+## Midodrine: Variably protease-sensitive prionopathy (TxGNN rank 1); the best-evidenced candidate is hypotensive disorder (variably protease-sensitive prionopathy)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model's top-ranked prediction is variably protease-sensitive prionopat
 
 | Item | Content |
 |------|------|
-| Original Indication | Orthostatic hypotension, POTS, multiple system atrophy (from the knowledge graph; no approved indication text in the New Zealand licence records) |
-| Predicted New Indication | Variably protease-sensitive prionopathy (TxGNN rank 1); the best-evidenced candidate is hypotensive disorder (rank 4) |
-| TxGNN Prediction Score | 99.99% (prionopathy); 99.90% (hypotensive disorder) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Variably protease-sensitive prionopathy (TxGNN rank 1); the best-evidenced candidate is hypotensive disorder (variably protease-sensitive prionopathy) |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (prionopathy); L2 (hypotensive disorder) |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold (prionopathy); Proceed with Guardrails (hypotensive disorder) |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, midodrine is a prodrug whose active metabolite, desglymidodrine, is a peripheral alpha-1 adrenergic agonist. It raises vascular tone and blood pressure.
 
-**Top-ranked prediction (variably protease-sensitive prionopathy):** No plausible mechanistic link was identified. Nothing connects peripheral vasoconstriction to prion protein pathology. The very high score (99.99%) is a graph-based result with no supporting trials or literature, so it probably reflects network artefacts rather than biology. The same applies to most other top-10 predictions, such as faciodigitogenital syndrome, monogenic obesity, developmental disorders and hypertelorism.
+**Top-ranked prediction (variably protease-sensitive prionopathy):** No plausible mechanistic link was identified. Nothing connects peripheral vasoconstriction to prion protein pathology. The very high score (0.9999) comes from the TxGNN model (deep learning), with no supporting trials or literature, so it may reflect similarities the model learned between related diseases, not biological evidence. The same applies to most other top-10 predictions, such as faciodigitogenital syndrome, monogenic obesity, developmental disorders and hypertelorism.
 
 **Best-supported prediction (hypotensive disorder):** There is a strong mechanistic fit. Raising vascular tone directly addresses low blood pressure, consistent with midodrine's original indications. Because of this overlap, the prediction mainly confirms existing use rather than opening a new therapeutic area.
 
@@ -96,8 +96,8 @@ For the other predictions, only two papers were retrieved: one on orthostatic dy
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2632071 | Midodrine Medsurge | Tab 5 mg | Not recorded (status: cancelled) |
-| 2632063 | Midodrine Medsurge | Tab 2.5 mg | Not recorded (status: cancelled) |
+| 2632071 | Midodrine Medsurge | Tab 5 mg | Not recorded (status: valid) |
+| 2632063 | Midodrine Medsurge | Tab 2.5 mg | Not recorded (status: valid) |
 
 Both authorizations are cancelled, so availability in New Zealand may be a practical constraint.
 
@@ -116,7 +116,7 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold (for the top-ranked prediction, variably protease-sensitive prionopathy); Proceed with Guardrails (for hypotensive disorder)**
 
 **Rationale:**
-- The highest TxGNN scores (including 99.99% for prionopathy) are not backed by any trials, literature or plausible mechanism, so they should not drive decisions.
+- The highest TxGNN scores (including 0.9999 for prionopathy) are not backed by any trials, literature or plausible mechanism, so they should not drive decisions.
 - Hypotensive disorder has a sound mechanism, one completed Phase 2 trial and multiple reviews and guidance documents (L2). It is essentially an on-label use rather than new repurposing.
 
 **To proceed, the following is needed:**

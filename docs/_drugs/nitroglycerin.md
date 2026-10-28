@@ -4,7 +4,7 @@ title: Nitroglycerin
 parent: Moderate Evidence (L3-L4)
 nav_order: 326
 evidence_level: L3
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the available licence records"
 monitor_inn: "nitroglycerin"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 # Nitroglycerin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L3** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, wit
 |------|------|
 | Original Indication | Not stated in the available licence records |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,10 +88,10 @@ The evidence level of L3 reflects the mix of reviews, haemodynamic studies and s
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2120313 | Rectogesic | Ointment 0.2% | Not stated (cancelled) |
-| 716790 | Nitroderm TTS | Patch 25 mg, 5 mg per day | Not stated (cancelled) |
-| 2017962 | Nitrolingual Pump Spray | Oral pump spray, 400 mcg per dose | Not stated (cancelled) |
-| 750247 | Nitroderm TTS | Patch 50 mg, 10 mg per day | Not stated (cancelled) |
+| 2120313 | Rectogesic | Ointment 0.2% | Not stated (valid) |
+| 716790 | Nitroderm TTS | Patch 25 mg, 5 mg per day | Not stated (valid) |
+| 2017962 | Nitrolingual Pump Spray | Oral pump spray, 400 mcg per dose | Not stated (valid) |
+| 750247 | Nitroderm TTS | Patch 50 mg, 10 mg per day | Not stated (valid) |
 
 ## Safety Considerations
 
@@ -106,7 +106,7 @@ Please refer to the package insert for further safety information.
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and acute haemodynamic benefit is shown in small studies, including one neonatal RCT. However, there are no completed Phase 2/3 trials, the registered trials are small or unverified, and all New Zealand licences are cancelled, so there is no marketed product or approved route for this use.
+The mechanism is plausible and acute haemodynamic benefit is shown in small studies, including one neonatal RCT. However, there are no completed Phase 2/3 trials, the registered trials are small or unverified, and although the drug is marketed in New Zealand (4 valid licences of 4), there is no approved route for this use.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

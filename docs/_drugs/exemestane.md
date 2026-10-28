@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 ## One-Sentence Summary
 
 Exemestane is a steroidal, irreversible aromatase inhibitor that lowers estrogen levels. It is used in hormone-sensitive breast cancer, although the New Zealand licence data compiled for this report contain no indication text.
-The TxGNN model's top prediction is **antithrombin deficiency type 2** (score 99.83%), but there are **0 clinical trials** and **0 publications** supporting it. This is a computational prediction only.
+The TxGNN model's top prediction is **antithrombin deficiency type 2** (score 0.9983), but there are **0 clinical trials** and **0 publications** supporting it. This is a computational prediction only.
 
 ## Quick Overview
 
@@ -47,28 +47,28 @@ The TxGNN model's top prediction is **antithrombin deficiency type 2** (score 99
 |------|------|
 | Original Indication | Not stated in the available licence data |
 | Predicted New Indication | Antithrombin deficiency type 2 |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general knowledge, exemestane irreversibly inhibits aromatase and so lowers circulating estrogen. This is the basis of its use in estrogen-dependent breast cancer.
 
-Antithrombin deficiency type 2 is a hereditary thrombophilia caused by a functional defect in the SERPINC1 protein. No plausible mechanistic link to estrogen lowering was identified. Estrogen-containing therapies raise thrombotic risk, but that does not show that exemestane would correct antithrombin function. The high score likely reflects network proximity in the knowledge graph rather than a biological rationale.
+Antithrombin deficiency type 2 is a hereditary thrombophilia caused by a functional defect in the SERPINC1 protein. No plausible mechanistic link to estrogen lowering was identified. Estrogen-containing therapies raise thrombotic risk, but that does not show that exemestane would correct antithrombin function. The high score (0.9983) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other predictions follow the same pattern:
 
 | Predicted Indication | Score | Assessment |
 |------|------|------|
-| Amenorrhea | 99.82% | The literature describes amenorrhea as a treatment effect in breast cancer patients, not a condition exemestane treats. Exemestane could worsen estrogen deficiency. |
-| Factor 5 excess with spontaneous thrombosis | 99.82% | No mechanistic link. No trials or literature. |
-| Heparin cofactor 2 deficiency | 99.82% | No mechanistic link. No trials or literature. |
-| Thrombophilia | 99.67% | No direct link. Aromatase inhibitors have been associated with thromboembolic events in some settings, so a safety concern may exist. |
-| Migraine disorder | 99.02% | A weak, speculative estrogen-related link. Estrogen deprivation and headaches are reported adverse effects of aromatase inhibitors. |
-| Migraine with brainstem aura | 99.01% | Speculative, mirrors the general migraine entry. Symptoms could plausibly worsen. |
+| Amenorrhea | 0.9982 | The literature describes amenorrhea as a treatment effect in breast cancer patients, not a condition exemestane treats. Exemestane could worsen estrogen deficiency. |
+| Factor 5 excess with spontaneous thrombosis | 0.9982 | No mechanistic link. No trials or literature. |
+| Heparin cofactor 2 deficiency | 0.9982 | No mechanistic link. No trials or literature. |
+| Thrombophilia | 0.9967 | No direct link. Aromatase inhibitors have been associated with thromboembolic events in some settings, so a safety concern may exist. |
+| Migraine disorder | 0.9902 | A weak, speculative estrogen-related link. Estrogen deprivation and headaches are reported adverse effects of aromatase inhibitors. |
+| Migraine with brainstem aura | 0.9901 | Speculative, mirrors the general migraine entry. Symptoms could plausibly worsen. |
 
 ## Clinical Trial Evidence
 

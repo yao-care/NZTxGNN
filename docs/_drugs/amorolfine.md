@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 |------|------|
 | Original Indication | Onychomycosis (fungal nail infection), based on pharmacology reference data; the New Zealand licence record has no indication text |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, amorolfine is a morpholine antifungal that inhibits fungal sterol delta-14 reductase and delta-7,8 isomerase, which blocks ergosterol biosynthesis. Its efficacy is established for topical treatment of nail fungal infections.
 
-No plausible mechanistic link to bone metabolism has been identified. The very high TxGNN score (0.99998) comes from knowledge-graph patterns alone and is not backed by clinical or literature data. Such scores can reflect network-topology artifacts rather than real biological relevance. Amorolfine is also a topical product with minimal systemic exposure, which makes a systemic bone indication even less plausible. Route compatibility has not yet been assessed.
+No plausible mechanistic link to bone metabolism has been identified. The very high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by clinical or literature data. Amorolfine is also a topical product with minimal systemic exposure, which makes a systemic bone indication even less plausible. Route compatibility has not yet been assessed.
 
 Other top-ranked predictions (disease of retroperitoneum, disease of uterine broad ligament, lumbar spinal stenosis, celiac trunk compression syndrome, abdominal cystic lymphangioma, abdominal ectopic pregnancy, sacrum chordoma, lymph node palisaded myofibroblastoma, urethral disease) share the same weakness: no trials, no literature and no mechanistic rationale. All are rated L5 and Hold.
 
@@ -73,7 +73,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2461633 | MycoNail (cancelled) | Nail solution 5% | Not stated in the licence record |
+| 2461633 | MycoNail (valid) | Nail solution 5% | Not stated in the licence record |
 
 ## Safety Considerations
 
@@ -86,7 +86,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score. There are no clinical trials, no literature and no plausible mechanistic link between a topical ergosterol-synthesis inhibitor and drug-induced osteoporosis. The only New Zealand licence is cancelled, so there is no active local product either. The same applies to all other predicted indications reviewed.
+The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, no literature and no plausible mechanistic link between a topical ergosterol-synthesis inhibitor and drug-induced osteoporosis. The drug is marketed in New Zealand, and its only licence is valid. The same applies to all other predicted indications reviewed.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (currently a blocking gap for safety screening)

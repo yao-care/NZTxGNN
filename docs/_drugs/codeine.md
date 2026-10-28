@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Codeine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 116
-evidence_level: L4
-indication_count: 4
-last_modified_at: 2026-10-15
-description: "Codeine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "Codeine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+last_modified_at: 2026-10-27
+description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Codeine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-## Codeine: From Allergic Rhinitis and Headache Disorders to Nasal Cavity Disease
+## Codeine: opioid μ-receptor agonist → nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Codeine is an opioid analgesic and cough suppressant, listed in the knowledge graph for conditions such as allergic rhinitis, pharyngitis, common cold and headache disorder.
-The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are **0 clinical trials** and only **1 publication** (a case report describing a possible adverse-event association, not therapeutic evidence).
-The prediction is best regarded as a model signal with very weak supporting evidence.
+Codeine is an opioid analgesic that acts on the μ-opioid receptor and is used for pain, cough and diarrhoea.
+The TxGNN model predicts it may be relevant to **nasal cavity disease**, but the data compiled for this report contain **no clinical trials** and only **1 publication**, a case report that describes an adverse-event association rather than a benefit.
 
 ---
 
@@ -48,23 +47,23 @@ The prediction is best regarded as a model signal with very weak supporting evid
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (from the knowledge graph; no approved indication text is available from the New Zealand licences) |
-| Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | nasal cavity disease |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Codeine is known to be an opioid agonist at the mu-opioid receptor (OPRM1), with analgesic and antitussive effects. It is also used as a cough suppressant and for pain, and has been linked to the upper respiratory and headache indications above.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Codeine is known as an opioid agonist at the μ-opioid receptor (OPRM1), with pain-relieving, cough-suppressing and mild secretion-drying effects.
 
-The very high TxGNN score (0.999) most likely reflects network proximity to the original rhinitis and common cold indications rather than a distinct mechanism. Codeine's antitussive and mild secretion-drying effects offer only a weak rationale for structural nasal disease.
+The high TxGNN score (0.9993) most likely reflects closeness in the network to upper-airway conditions such as rhinitis and the common cold, not a distinct mechanism for nasal cavity disease. Codeine's pharmacology offers only a weak rationale for structural or inflammatory disease inside the nose.
 
-The only publication is a case report of rhinolithiasis formed around a hardened codeine and opium mixture (an "opioma"). This points to a possible adverse-event association, not a therapeutic benefit.
+The one retrieved publication reports a rhinolith (a nasal stone) that formed around a hardened codeine–opium mixture lodged in the nose. This is a possible adverse-event or misuse association, not evidence of therapeutic benefit. The prediction should therefore be treated as a model signal only.
 
 ---
 
@@ -78,26 +77,23 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Case report | Ear, Nose & Throat Journal | Unusual unilateral rhinolith formed around a foreign body that was a hardened codeine and opium mixture ("opioma") in a 21-year-old man; not evidence of efficacy |
+| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Case report | Ear, Nose & Throat Journal | A 21-year-old man with nasal obstruction and foul-smelling discharge had a rhinolith formed around a foreign body made of hardened codeine and opium ("opioma"); removed under local anaesthesia. No therapeutic effect described. |
 
 ---
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2643200 | Noumed | Tab 15 mg | Not available (cancelled) |
-| 2643219 | Noumed | Tab 30 mg | Not available (cancelled) |
-| 2643227 | Noumed | Tab 60 mg | Not available (cancelled) |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| 2643200 | Noumed | Tab 15 mg |
+| 2643219 | Noumed | Tab 30 mg |
+| 2643227 | Noumed | Tab 60 mg |
 
 ---
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (from the knowledge graph, not package insert text)**: hypertension, liver failure and liver disease, epilepsy, insomnia, chronic obstructive pulmonary disease, anxiety disorder, dysthymic disorder, psychotic and other mental disorders, inherited porphyria, kidney disease, pancreatitis, gallbladder disease, thrombocytopenia, hypothyroidism/myxedema, peptic ulcer disease, inflammatory bowel disease, gastritis, dermatitis herpetiformis.
-- **Pharmacological interaction**: Codeine acts as a ligand at the mu-opioid receptor (OPRM1). No drug-drug interaction details are available beyond this.
-
-Please refer to the package insert for full warnings and contraindications.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -106,17 +102,13 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but it appears to be driven by network proximity to related respiratory indications. There are no clinical trials, and the only publication is a case report suggesting an adverse association. All New Zealand licences are cancelled, which further limits practical feasibility.
+No clinical trial or study directly tests codeine as a treatment for nasal cavity disease. The only publication is a case report of an adverse-event association. The high model score is therefore not supported by any direct evidence.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and a plausible mechanistic rationale for nasal cavity disease
-- Package insert warnings and contraindications (a blocking gap for safety screening)
-- Controlled clinical evidence showing therapeutic benefit in nasal disease
-- Confirmation of whether any valid New Zealand product or route of administration would be available
-
----
-
-*Note on other predictions:* Lower-ranked predictions (acute laryngopharyngitis, trigeminal autonomic cephalalgia, allergic urticaria) were also reviewed. They carry no supportive therapeutic evidence. Codeine is a known mast-cell histamine releaser and a cause of urticaria, so the allergic urticaria prediction is likely a false-positive signal. Opioids are also not recommended for cluster headache-type conditions.
+- Mechanism-of-action data and a clear biological rationale for nasal cavity disease
+- Package insert warnings and contraindications from the regulator
+- Controlled clinical evidence showing therapeutic benefit, not only case reports
+- A review of the opioid dependence and misuse risks if any use were considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

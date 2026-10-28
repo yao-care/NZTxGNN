@@ -50,10 +50,10 @@ The score is a computational prediction only, so this candidate is best treated 
 |------|------|
 | Original Indication | Streptococcal infection, bacterial pneumonia, staphylococcal infection, Mycoplasma pneumoniae pneumonia, conjunctivitis and others (no approved-indication text is available from the New Zealand licences) |
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,16 +62,16 @@ The score is a computational prediction only, so this candidate is best treated 
 
 Currently, detailed mechanism of action data is not available. Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial respiratory, ocular and sexually transmitted infections is established, and it also has recognised immunomodulatory and anti-inflammatory effects.
 
-For polyclonal hyperviscosity syndrome, however, the data compiled for this report supports no mechanistic rationale. The high TxGNN score (0.998) is not corroborated by any trial or publication. An antibiotic is not expected to directly address the raised serum viscosity caused by excess immunoglobulins.
+For polyclonal hyperviscosity syndrome, however, the data compiled for this report supports no mechanistic rationale. The high TxGNN score (0.9981) is not corroborated by any trial or publication. An antibiotic is not expected to directly address the raised serum viscosity caused by excess immunoglobulins.
 
 Other candidates in the ranked list have somewhat more plausible signals, and they are worth noting for follow-up:
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |------|------|------|------|------|
-| 4 | Punctate epithelial keratoconjunctivitis | 99.78% | L4 | Azithromycin is already used in ocular infections and has ocular surface anti-inflammatory activity. The only paper retrieved is an unrelated case report. |
-| 7 | Monoclonal gammopathy | 99.61% | L4 | Preclinical work suggests macrolides block autophagy flux and sensitise myeloma cells to bortezomib. This is hypothesis-generating only. |
-| 9 | Septicemic plague | 99.52% | L4 | In vitro data show poor azithromycin activity against *Yersinia pestis*, which argues against this prediction. |
-| 10 | Congenital hematological disorder | 99.40% | L4 | Two sickle cell disease trials of macrolide therapy were withdrawn with zero enrollment. This is the only area with directly relevant registered trials. |
+| 4 | Punctate epithelial keratoconjunctivitis | 0.9978 | L5 | Azithromycin is already used in ocular infections and has ocular surface anti-inflammatory activity. The only paper retrieved is an unrelated case report. |
+| 7 | Monoclonal gammopathy | 0.9961 | L5 | Preclinical work suggests macrolides block autophagy flux and sensitise myeloma cells to bortezomib. This is hypothesis-generating only. |
+| 9 | Septicemic plague | 0.9952 | L5 | In vitro data show poor azithromycin activity against *Yersinia pestis*, which argues against this prediction. |
+| 10 | Congenital hematological disorder | 0.9940 | L5 | Two sickle cell disease trials of macrolide therapy were withdrawn with zero enrollment. This is the only area with directly relevant registered trials. |
 
 ---
 
@@ -108,13 +108,13 @@ The most relevant publications for the other predicted indications are listed be
 
 ## New Zealand Market Information
 
-All three licences are cancelled, and no approved-indication text is available for them.
+All three licences are valid, and no approved-indication text is available for them.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 204218 | Zithromax | Tab 500 mg | Cancelled |
-| 2405296 | Apo-Azithromycin | Tab 250 mg | Cancelled |
-| 2144042 | Zithromax | Grans for oral liq 200 mg per 5 ml (40 mg per ml) | Cancelled |
+| 204218 | Zithromax | Tab 500 mg | Valid |
+| 2405296 | Apo-Azithromycin | Tab 250 mg | Valid |
+| 2144042 | Zithromax | Grans for oral liq 200 mg per 5 ml (40 mg per ml) | Valid |
 
 ---
 
@@ -135,7 +135,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The prediction for polyclonal hyperviscosity syndrome rests solely on a model score, with no trials, no literature and no plausible mechanism. In addition, all New Zealand azithromycin licences are currently cancelled.
+The prediction for polyclonal hyperviscosity syndrome rests solely on a model score, with no trials, no literature and no plausible mechanism. In addition, all three New Zealand azithromycin licences are currently valid.
 
 **To proceed, the following is needed:**
 - Retrieve the Medsafe package insert to complete the safety review. This gap is currently blocking.

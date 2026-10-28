@@ -50,10 +50,10 @@ Among the other predicted indications, **injury** has the most support (16 clini
 |------|------|
 | Original Indication | Ascorbic acid deficiency, scurvy (the New Zealand licence record has no approved indication text) |
 | Predicted New Indication | Non-syndromic esophageal malformation |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no valid authorisation) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 The top-ranked prediction has no supporting evidence. The best-supported predicted indication is "injury" (L2), covered below.
@@ -64,7 +64,7 @@ The top-ranked prediction has no supporting evidence. The best-supported predict
 
 Currently, detailed mechanism of action data is not available. Based on known information, ascorbic acid is an essential vitamin whose efficacy in scurvy is well established. It acts as an antioxidant and as a cofactor for collagen synthesis.
 
-**Top-ranked prediction (non-syndromic esophageal malformation):** This is a structural congenital malformation. Ascorbic acid has no plausible mechanism for correcting it, and there are no trials or publications. The high score likely reflects proximity in the knowledge graph rather than real biology, so the prediction is not considered credible.
+**Top-ranked prediction (non-syndromic esophageal malformation):** This is a structural congenital malformation. Ascorbic acid has no plausible mechanism for correcting it, and there are no trials or publications. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction is not considered credible.
 
 **Better-supported predictions:**
 - **Injury (L2):** Antioxidant and collagen-supporting actions are plausible for oxidative-stress-driven tissue damage (sepsis-induced lung injury, burns, trauma, surgical injury, wound healing). Evidence is mixed, and the sepsis trial literature includes notable failures.
@@ -118,7 +118,7 @@ For reference, selected publications for **injury**:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2642255 | Cvite | Tab 100 mg | Not recorded (authorisation cancelled) |
+| 2642255 | Cvite | Tab 100 mg | Not recorded (authorisation valid) |
 
 ---
 
@@ -137,7 +137,7 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (non-syndromic esophageal malformation) has no trials, no literature and no plausible mechanism, so it appears to be a graph artifact. Of the other predictions, "injury" (L2) is worth following as a research question, but it is a heterogeneous category with mixed evidence. The only New Zealand authorisation is cancelled, and no label safety data were available, which blocks safety screening.
+The top-ranked prediction (non-syndromic esophageal malformation) has no trials, no literature and no plausible mechanism. Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Of the other predictions, "injury" (L2) is worth following as a research question, but it is a heterogeneous category with mixed evidence. The drug is marketed in New Zealand, where its only authorisation (1 of 1) is valid, but no label safety data were available, which blocks safety screening.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

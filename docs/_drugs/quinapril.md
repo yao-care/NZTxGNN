@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Quinapril
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 396
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Quinapril: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension / hypertensive disorder"
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Quinapril
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Quinapril: From Hypertension to Malignant Renovascular Hypertension
+## Quinapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Quinapril is an ACE inhibitor originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. The evidence is model prediction plus indirect class-level reasoning only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension / hypertensive disorder (from the knowledge graph; no approved indication text is available from New Zealand licences) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,10 +63,10 @@ Other predicted indications are weaker or similar in nature:
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |------|------|------|------|------|
-| 2 | Malignant hypertensive renal disease | 99.86% | L4 | RAS blockade is plausible (class-level, indirect); close to the approved indication |
-| 3 | Pulmonary hypertension, unclear multifactorial mechanism | 99.85% | L5 | Prediction only; ACE inhibitors have not shown reliable clinical benefit |
-| 4 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.85% | L4 | One animal study; flagged as a research question |
-| 5 | Braddock syndrome | 99.79% | L5 | No mechanistic rationale or evidence identified |
+| 2 | Malignant hypertensive renal disease | 0.9986 | L5 | RAS blockade is plausible (class-level, indirect); close to the approved indication |
+| 3 | Pulmonary hypertension, unclear multifactorial mechanism | 0.9985 | L5 | Prediction only; ACE inhibitors have not shown reliable clinical benefit |
+| 4 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9985 | L5 | One animal study; flagged as a research question |
+| 5 | Braddock syndrome | 0.9979 | L5 | No mechanistic rationale or evidence identified |
 
 For rank 4, a 1996 animal study (PMID 8873672) reported that quinapril reduced hypoxic pulmonary hypertension and vascular remodeling. It is preclinical only, and vasodilators can worsen gas exchange in hypoxic lung disease.
 
@@ -77,7 +76,6 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for the top predicted indication (malignant renovascular hypertension).
 
 For the rank 4 indication (pulmonary hypertension owing to lung disease and/or hypoxia), the following preclinical publications were found:
 
@@ -88,13 +86,12 @@ For the rank 4 indication (pulmonary hypertension owing to lung disease and/or h
 
 ## New Zealand Market Information
 
-All three licences are cancelled; no approved indication text is recorded.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2427877 | Arrow-Quinapril 5 | Tab 5 mg | Not recorded (cancelled) |
-| 2427893 | Arrow-Quinapril 20 | Tab 20 mg | Not recorded (cancelled) |
-| 2427885 | Arrow-Quinapril 10 | Tab 10 mg | Not recorded (cancelled) |
+| 2427877 | Arrow-Quinapril 5 | Tab 5 mg | Not recorded (valid) |
+| 2427893 | Arrow-Quinapril 20 | Tab 20 mg | Not recorded (valid) |
+| 2427885 | Arrow-Quinapril 10 | Tab 10 mg | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -109,7 +106,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is a closely related extension of the approved hypertension use, with no trials or publications for quinapril in this indication, and the high score likely reflects ontology proximity. All New Zealand licences are cancelled, and label safety data are missing, so a safety screen cannot proceed.
+The top prediction is a closely related extension of the approved hypertension use, with no trials or publications for quinapril in this indication, and the high score likely reflects ontology proximity.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking data gap)

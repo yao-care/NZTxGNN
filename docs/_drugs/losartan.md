@@ -4,17 +4,17 @@ title: Losartan
 parent: Moderate Evidence (L3-L4)
 nav_order: 279
 evidence_level: L4
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Losartan: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension, hypertensive disorder, diabetic nephropathy"
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Losartan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-## Losartan: From Hypertension to Malignant Renovascular Hypertension
+## Losartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Losartan is an angiotensin II receptor blocker originally used to treat hypertension and diabetic nephropathy.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but there are **0 registered clinical trials** and only **2 publications** (one case report and one preclinical methods review) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, hypertensive disorder, diabetic nephropathy (from the knowledge graph; no approved indication text in the New Zealand licence records) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.73% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,10 +76,10 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2466856 | Losartan Actavis | Tab 12.5 mg | Not recorded (cancelled) |
-| 2466864 | Losartan Actavis | Tab 25 mg | Not recorded (cancelled) |
-| 2466872 | Losartan Actavis | Tab 50 mg | Not recorded (cancelled) |
-| 2466880 | Losartan Actavis | Tab 100 mg | Not recorded (cancelled) |
+| 2466856 | Losartan Actavis | Tab 12.5 mg | Not recorded (valid) |
+| 2466864 | Losartan Actavis | Tab 25 mg | Not recorded (valid) |
+| 2466872 | Losartan Actavis | Tab 50 mg | Not recorded (valid) |
+| 2466880 | Losartan Actavis | Tab 100 mg | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -95,13 +94,12 @@ The package insert warnings could not be retrieved, so please refer to the packa
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.73%), but the supporting evidence is one case report and one animal-model methods paper, with no registered trials. Losartan has no currently valid New Zealand licence, and the target population carries a recognised renal safety risk.
+The prediction score is high (0.9973), but the supporting evidence is one case report and one animal-model methods paper, with no registered trials.
 
 **To proceed, the following is needed:**
 - Mechanism of action data confirmed from DrugBank
 - Package insert warnings and contraindications from Medsafe, for safety screening
 - Clinical studies in renovascular hypertension patients, with attention to renal function monitoring in renal artery stenosis
-- Clarification of the New Zealand regulatory pathway, since all four licences are cancelled
 - An assessment of the incremental value over the existing hypertension indication
 ## Disclaimer
 

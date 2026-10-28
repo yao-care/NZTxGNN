@@ -4,17 +4,17 @@ title: Pravastatin
 parent: Moderate Evidence (L3-L4)
 nav_order: 376
 evidence_level: L4
-indication_count: 9
-last_modified_at: 2026-10-15
-description: "Pravastatin: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L4). Approved use: Hypertriglyceridaemia, stroke, cerebrovascular disorder…"
+indication_count: 6
+last_modified_at: 2026-10-28
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **9** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-## Pravastatin: From Hyperlipidaemia and Atherosclerotic Disease to Homozygous Familial Hypercholesterolaemia
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but the data compiled for this report contain **1 clinical trial** (which tests 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridaemia, stroke, cerebrovascular disorder, cerebral infarction, atherosclerosis, familial combined hyperlipidaemia, hyperlipoproteinaemia (from the knowledge graph; no approved indication text is available from New Zealand licences) |
-| Predicted New Indication | Homozygous familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | HIV infectious disease |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Detailed mechanism of action data is not currently available from the compiled d
 
 The relationship to the predicted indication is mechanistically plausible but has an important limit. In homozygous familial hypercholesterolaemia, LDL receptor function is severely reduced or absent, so a drug that works largely by upregulating LDL receptors is expected to have limited effect. One review in the compiled literature states that statins are not very effective in the homozygous form.
 
-The more credible fit is heterozygous familial hypercholesterolaemia (also predicted, score 99.34%). Pravastatin has paediatric data there, including a 12-week randomised placebo-controlled study in 72 children, a PK/PD study, and a 20-year follow-up of statins in children. That is largely an extension of existing lipid indications rather than true repurposing.
+Pravastatin has paediatric data there, including a 12-week randomised placebo-controlled study in 72 children, a PK/PD study, and a 20-year follow-up of statins in children. That is largely an extension of existing lipid indications rather than true repurposing.
 
-Other predictions in the data are weaker. HIV infection (99.74%) reflects management of HIV- and antiretroviral-associated dyslipidaemia, not antiviral activity. The other predictions have no trials or literature, or only general reviews: a rare neurodevelopmental disorder, simian immunodeficiency virus infection, feline AIDS, hypoalphalipoproteinaemia, cholesterol 7α-hydroxylase deficiency and CETP deficiency.
+Other predictions in the data are weaker. HIV infection (0.9974) reflects management of HIV- and antiretroviral-associated dyslipidaemia, not antiviral activity. The other predictions have no trials or literature, or only general reviews: a rare neurodevelopmental disorder, simian immunodeficiency virus infection, feline AIDS, hypoalphalipoproteinaemia, cholesterol 7α-hydroxylase deficiency and CETP deficiency.
 
 ## Clinical Trial Evidence
 
@@ -89,12 +89,12 @@ Other predictions in the data are weaker. HIV infection (99.74%) reflects manage
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2665212 | Clinect | Tab 40 mg | Not available (cancelled) |
-| 2665204 | Clinect | Tab 20 mg | Not available (cancelled) |
+| 2665212 | Clinect | Tab 40 mg | Not available (valid) |
+| 2665204 | Clinect | Tab 20 mg | Not available (valid) |
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph associations, not label text)**: kidney disease, liver disease, gallbladder disease, thrombocytopenia, peptic ulcer disease, myopathy and other muscle diseases, rhabdomyolysis, gout, hypercalcaemia, nephrolithiasis, anaemia, hypotensive disorder, hemophilia, diarrhoeal disease and substance abuse/dependence, among others. These should be verified against the product label.
+- These should be verified against the product label.
 - **Drug Interactions**: 100 interactions were recorded. Moderate-level ones include metronidazole, clarithromycin, eluxadoline, naltrexone, pectin, rosuvastatin, simvastatin and tinidazole. Combining pravastatin with other statins is a notable concern. In HIV patients, pravastatin has relatively few CYP3A4-related interactions, but pharmacokinetic studies with protease inhibitors (e.g. darunavir/ritonavir) show raised pravastatin levels.
 
 Package insert warnings were not available for this report; please refer to the package insert for full safety information.
@@ -104,7 +104,7 @@ Package insert warnings were not available for this report; please refer to the 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but no trial tests pravastatin in homozygous FH, and the literature consists mostly of reviews on other lipid-lowering agents. Mechanistically, pravastatin depends on LDL receptor function, which is largely absent in this condition, so efficacy is expected to be limited. Pravastatin also has no valid New Zealand authorisation at present (both licences cancelled).
+The prediction score is high, but no trial tests pravastatin in homozygous FH, and the literature consists mostly of reviews on other lipid-lowering agents. Mechanistically, pravastatin depends on LDL receptor function, which is largely absent in this condition, so efficacy is expected to be limited.
 
 **To proceed, the following is needed:**
 - Direct pravastatin efficacy data in homozygous FH (or a focus on heterozygous FH, where paediatric evidence is stronger)

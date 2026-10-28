@@ -4,17 +4,17 @@ title: Risperidone
 parent: Model Prediction Only (L5)
 nav_order: 407
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Risperidone: From Schizophrenia and Bipolar Disorder to Familial Horizontal Gaze Palsy with Progressive Scoliosis
+## Risperidone: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia; bipolar disorder (including mania); autism spectrum disorder (the New Zealand licence records contain no indication text, so these come from the drug-disease knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
-| Number of Authorizations | 11 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Authorizations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Risperidone is generally understood to act as a dopamine D2 and serotonin 5-HT2A receptor antagonist. Its efficacy in schizophrenia and bipolar mania is well established.
 
-**For the top-ranked prediction, no plausible mechanistic link was found.** Familial horizontal gaze palsy with progressive scoliosis is an ultra-rare disorder linked to *ROBO3*, with neurodevelopmental and structural causes. Nothing in dopamine/serotonin receptor antagonism explains a benefit in this condition. The very high score (rank 2,631 among all predictions) reflects the knowledge-graph model's pattern matching, not biological or clinical evidence. It should not be read as a treatment signal.
+**For the top-ranked prediction, no plausible mechanistic link was found.** Familial horizontal gaze palsy with progressive scoliosis is an ultra-rare disorder linked to *ROBO3*, with neurodevelopmental and structural causes. Nothing in dopamine/serotonin receptor antagonism explains a benefit in this condition. The very high score (rank 2,631 among all predictions) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. It should not be read as a treatment signal.
 
 ---
 
@@ -84,11 +84,10 @@ The top-ranked prediction has no support, but other predictions for this drug ha
 
 | Rank | Predicted Indication | Score | Evidence Level | Evidence Found | Recommendation |
 |------|------|------|------|------|------|
-| 2 | Asperger syndrome, susceptibility to | 99.74% | L5 | None. It falls within the autism spectrum, which is already an approved use, so this is not a novel signal. | Hold |
-| 3 | Amelocerebrohypohidrotic syndrome | 99.69% | L5 | None. Antipsychotics can lower the seizure threshold, which is a concern in a population with epilepsy. | Hold |
-| 4 | Phelan-McDermid syndrome | 99.59% | L4 | 2 publications: a clinical management review and a zebrafish *shank3* study. No human efficacy data for risperidone. | Research Question |
-| 5 | Trichotillomania | 99.51% | L4 | 9 publications, mostly case reports and small case series of risperidone added to SSRIs. No RCT or registered trial. | Research Question |
-| 6 | Major affective disorder | 99.11% | L1 | 11 trials and 19 publications. Two completed Phase 3 RCTs of risperidone augmentation in treatment-resistant depression: [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) (n=630) and [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) (n=258). Supported by meta-analyses ([PMID 34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/), [PMID 35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/), [PMID 34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/)). | Proceed with Guardrails |
+| 3 | Amelocerebrohypohidrotic syndrome | 0.9969 | L5 | None. Antipsychotics can lower the seizure threshold, which is a concern in a population with epilepsy. | Hold |
+| 4 | Phelan-McDermid syndrome | 0.9959 | L4 | 2 publications: a clinical management review and a zebrafish *shank3* study. No human efficacy data for risperidone. | Research Question |
+| 5 | Trichotillomania | 0.9951 | L4 | 9 publications, mostly case reports and small case series of risperidone added to SSRIs. No RCT or registered trial. | Research Question |
+| 6 | Major affective disorder | 0.9911 | L1 | 11 trials and 19 publications. Two completed Phase 3 RCTs of risperidone augmentation in treatment-resistant depression: [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) (n=630) and [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) (n=258). Supported by meta-analyses ([PMID 34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/), [PMID 35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/), [PMID 34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/)). | Proceed with Guardrails |
 
 The disease node for "major affective disorder" mixes unipolar depression and bipolar disorder. The bipolar trials largely reflect existing on-label use, so the repurposing-relevant signal is the depression augmentation data. It is also unclear whether every Phase 3 trial met its primary endpoint.
 
@@ -96,15 +95,15 @@ The disease node for "major affective disorder" mixes unipolar depression and bi
 
 ## New Zealand Market Information
 
-All 11 licences are cancelled. Five representative entries:
+All 11 licences are valid. Five representative entries:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2347652 | Risperdal Consta | Inj 25 mg vial | Not stated (cancelled) |
-| 2347660 | Risperdal Consta | Inj 50 mg vial | Not stated (cancelled) |
-| 245402 | Risperdal | Tab 4 mg | Not stated (cancelled) |
-| 2466910 | Risperidone (Teva) | Tab 2 mg | Not stated (cancelled) |
-| 2662396 | Risperon | Oral liq 1 mg per ml | Not stated (cancelled) |
+| 2347652 | Risperdal Consta | Inj 25 mg vial | Not stated (valid) |
+| 2347660 | Risperdal Consta | Inj 50 mg vial | Not stated (valid) |
+| 245402 | Risperdal | Tab 4 mg | Not stated (valid) |
+| 2466910 | Risperidone (Teva) | Tab 2 mg | Not stated (valid) |
+| 2662396 | Risperon | Oral liq 1 mg per ml | Not stated (valid) |
 
 ---
 
@@ -130,7 +129,7 @@ All 11 licences are cancelled. Five representative entries:
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction rests only on a knowledge-graph score. There are no trials or publications and no plausible mechanism for an ultra-rare genetic gaze disorder. Risperidone also has no valid New Zealand licence at present.
+The top-ranked prediction rests only on a TxGNN model (deep learning) score. There are no trials or publications and no plausible mechanism for an ultra-rare genetic gaze disorder.
 
 **To proceed, the following is needed:**
 - The Medsafe package insert, to complete safety screening (a blocking gap)

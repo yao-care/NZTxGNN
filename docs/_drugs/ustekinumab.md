@@ -6,9 +6,9 @@ nav_order: 473
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). Approved use: Psoriatic arthritis, psoriasis, parapsoriasis"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
+description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Ustekinumab
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Ustekinumab: From Psoriasis to Dermatitis
+## Ustekinumab: Dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **dermatitis**, with **6 clinic
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriatic arthritis, psoriasis, parapsoriasis (from the knowledge graph; no approved indication text is available from the New Zealand licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dermatitis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -99,7 +99,7 @@ Atopic dermatitis and other inflammatory skin diseases are mainly Th2-driven, bu
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2455544 | Stelara (cancelled) | Inj 90 mg per ml, 1 ml pre-filled syringe | Not available |
+| 2455544 | Stelara (valid) | Inj 90 mg per ml, 1 ml pre-filled syringe | Not available |
 
 ---
 

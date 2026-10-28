@@ -6,9 +6,9 @@ nav_order: 330
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Nystatin: predicted new indication Vulvovaginitis (evidence level L3). Approved use: Cutaneous, oral, vulvovaginal candidiasis"
 monitor_inn: "NYSTATIN"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+description: "Nystatin: predicted new indication Vulvovaginitis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Nystatin
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Nystatin: From Candidiasis to Vulvovaginitis
+## Nystatin: Vulvovaginitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Support comes from **0 clinical trials** and **20 publications**, mostly reviews
 
 | Item | Content |
 |------|------|
-| Original Indication | Cutaneous, oral, vulvovaginal candidiasis (the approved indication text in the New Zealand licence records is blank) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 4 (2 valid, 2 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -89,10 +89,9 @@ The compiled literature is 20 publications. The most relevant are listed below, 
 |---------|------|------|-----------|
 | 648345 | Nilstat | Capsule 500,000 u (valid) | Not recorded |
 | 770752 | Nilstat | Tablet 500,000 u (valid) | Not recorded |
-| 254851 | Nilstat | Oral liquid 100,000 u per ml (cancelled) | Not recorded |
-| 254908 | Nilstat | Vaginal cream 100,000 u per 5 g with applicator(s) (cancelled) | Not recorded |
+| 254851 | Nilstat | Oral liquid 100,000 u per ml (valid) | Not recorded |
+| 254908 | Nilstat | Vaginal cream 100,000 u per 5 g with applicator(s) (valid) | Not recorded |
 
-The vaginal cream authorization has been cancelled, so no valid vaginal product appears in the New Zealand records.
 
 ## Safety Considerations
 

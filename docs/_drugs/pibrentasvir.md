@@ -48,17 +48,17 @@ The prediction is a model output only, and the available evidence points to a ne
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection (the license record in the data compiled for this report has no approved indication text) |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, pibrentasvir is an HCV NS5A inhibitor, used as a partner drug in the glecaprevir/pibrentasvir combination (Maviret). Its efficacy in hepatitis C is well established.
 
-The mechanistic case for hepatitis B is weak. HBV is a DNA virus that replicates through reverse transcription and has no NS5A homolog, so an NS5A inhibitor has no plausible direct target. The very high TxGNN score most likely reflects the closeness of "hepatitis B" to "hepatitis C" in the knowledge graph rather than a true pharmacological link. All the literature retrieved concerns HCV, not HBV. HBV reactivation is a known safety concern during HCV direct-acting antiviral therapy in coinfected patients, which is the opposite of an efficacy signal.
+The mechanistic case for hepatitis B is weak. HBV is a DNA virus that replicates through reverse transcription and has no NS5A homolog, so an NS5A inhibitor has no plausible direct target. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases such as "hepatitis B" and "hepatitis C", not biological evidence. All the literature retrieved concerns HCV, not HBV. HBV reactivation is a known safety concern during HCV direct-acting antiviral therapy in coinfected patients, which is the opposite of an efficacy signal.
 
 The other nine predictions (for example HIV, hepatitis E, hepatitis A, Omsk hemorrhagic fever, Kyasanur forest disease) share the same problem: no supporting mechanism and no disease-specific evidence. The HIV-related trials are HCV studies in HIV/HCV-coinfected people and do not test any anti-HIV effect.
 
@@ -85,7 +85,7 @@ The publications linked to this prediction all address HCV or general viral hepa
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2552019 | Maviret | Tab 100 mg with pibrentasvir 40 mg | Not recorded (authorization cancelled) |
+| 2552019 | Maviret | Tab 100 mg with pibrentasvir 40 mg | Not recorded (authorization valid) |
 
 ## Safety Considerations
 

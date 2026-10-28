@@ -6,9 +6,9 @@ nav_order: 378
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Prednisolone Acetate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). Approved use: Uveitis"
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
+description: "Prednisolone Acetate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prednisolone Acetate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prednisolone Acetate: From Uveitis to Chronic Follicular Conjunctivitis
+## Prednisolone Acetate: Chronic follicular conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Among the other predicted conditions, papillary conjunctivitis and vernal conjun
 
 | Item | Content |
 |------|------|
-| Original Indication | Uveitis (other original indications include iris disease, ciliary body disease, panuveitis, conjunctivitis, iridocyclitis and blepharoconjunctivitis; the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Chronic follicular conjunctivitis |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,16 +70,16 @@ Several other predictions need caution because corticosteroids may be harmful in
 
 | Rank | Predicted Disease | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 1 | Chronic follicular conjunctivitis | 99.74% | L5 | Hold |
-| 2 | Parasitic conjunctivitis | 99.74% | L5 | Hold |
-| 3 | Conjunctival folliculosis | 99.74% | L5 | Hold |
-| 4 | Serous conjunctivitis except viral | 99.74% | L5 | Hold |
-| 5 | Papillary conjunctivitis | 99.72% | L4 | Research Question |
-| 6 | Angelucci syndrome | 99.72% | L5 | Hold |
-| 7 | Pseudomembranous conjunctivitis | 99.71% | L4 | Research Question |
-| 8 | Acute hemorrhagic conjunctivitis | 99.70% | L5 | Hold |
-| 9 | Vernal conjunctivitis | 99.58% | L4 | Research Question |
-| 10 | Postinfectious vasculitis | 99.44% | L5 | Hold |
+| 1 | Chronic follicular conjunctivitis | 0.9974 | L5 | Hold |
+| 2 | Parasitic conjunctivitis | 0.9974 | L5 | Hold |
+| 3 | Conjunctival folliculosis | 0.9974 | L5 | Hold |
+| 4 | Serous conjunctivitis except viral | 0.9974 | L5 | Hold |
+| 5 | Papillary conjunctivitis | 0.9972 | L4 | Research Question |
+| 6 | Angelucci syndrome | 0.9972 | L5 | Hold |
+| 7 | Pseudomembranous conjunctivitis | 0.9971 | L5 | Research Question |
+| 8 | Acute hemorrhagic conjunctivitis | 0.9970 | L5 | Hold |
+| 9 | Vernal conjunctivitis | 0.9958 | L4 | Research Question |
+| 10 | Postinfectious vasculitis | 0.9944 | L5 | Hold |
 
 ## Clinical Trial Evidence
 
@@ -115,10 +115,10 @@ Most of these publications concern other corticosteroids (loteprednol) or other 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2501511 | Prednisolone-AFT | Eye drops 1% | Not recorded (status: cancelled) |
-| 260533 | Pred Forte | Eye drops 1% | Not recorded (status: cancelled) |
+| 2501511 | Prednisolone-AFT | Eye drops 1% | Not recorded (status: valid) |
+| 260533 | Pred Forte | Eye drops 1% | Not recorded (status: valid) |
 
-Both licences are cancelled, so no prednisolone acetate product is currently valid in New Zealand. Only the ophthalmic route (eye drops 1%) is on record.
+Only the ophthalmic route (eye drops 1%) is on record.
 
 ## Safety Considerations
 
@@ -136,7 +136,7 @@ Package insert warnings and contraindications could not be retrieved for this re
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, chronic follicular conjunctivitis, rests on the model score alone (L5), with no trials or literature. The only partial support, for papillary and vernal conjunctivitis, comes from studies of other drugs. Prednisolone acetate also has no currently valid New Zealand licence, and the safety data are incomplete.
+The top prediction, chronic follicular conjunctivitis, rests on the model score alone (L5), with no trials or literature. The only partial support, for papillary and vernal conjunctivitis, comes from studies of other drugs.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which is a blocking gap for safety screening

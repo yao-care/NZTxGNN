@@ -6,9 +6,9 @@ nav_order: 201
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Finasteride
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Finasteride: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+## Finasteride: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (from the TxGNN knowledge graph; the New Zealand licence record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (0 currently valid) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, finasteride is a 5-alpha-reductase type II inhibitor that lowers dihydrotestosterone (DHT). This is the basis for its efficacy in BPH and its established use in androgenetic alopecia.
 
-The link to Ambras syndrome is weak. Ambras syndrome is a congenital, genetically driven hypertrichosis (a chromosome 8q22 rearrangement affecting TRPS1 regulation), and its hair overgrowth is not known to depend on DHT. The high score likely reflects proximity in the knowledge graph rather than a demonstrated biological pathway, so the mechanistic rationale is speculative.
+The link to Ambras syndrome is weak. Ambras syndrome is a congenital, genetically driven hypertrichosis (a chromosome 8q22 rearrangement affecting TRPS1 regulation), and its hair overgrowth is not known to depend on DHT. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the mechanistic rationale is speculative.
 
 Five other predictions were also generated, all with scores above 99%: hypertrichosis, a malformation syndrome with dental/periodontal involvement, a Dandy-Walker malformation syndrome, isolated genetic hair shaft abnormality, and familial isolated trichomegaly. None has clinical trial support. Only hypertrichosis has any retrieved literature, and that literature is indirect (see below). The mechanistic links for all of them are weak.
 
@@ -81,7 +81,7 @@ No literature was retrieved for Ambras syndrome itself. For the second-ranked pr
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2522756 | Ricit (status: cancelled) | Tab 5 mg | Not recorded |
+| 2522756 | Ricit (status: valid) | Tab 5 mg | Not recorded |
 
 ## Safety Considerations
 

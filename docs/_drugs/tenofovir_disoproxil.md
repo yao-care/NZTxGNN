@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 441
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-## Tenofovir Disoproxil: From Chronic Hepatitis B and HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Tenofovir Disoproxil: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection; HIV infectious disease; AIDS (from the knowledge graph, as the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,12 +84,12 @@ The table below lists the most relevant publications. The sole publication for t
 
 ## New Zealand Market Information
 
-Both authorisations are cancelled, and no valid authorisation currently exists. The data compiled for this report contain no approved indication text for either product.
+Both licences are currently valid (2 valid licences of 2). The data compiled for this report contain no approved indication text for either product.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2703122 | Ricovir (cancelled) | Tab 245 mg (300 mg as a fumarate) | Not available |
-| 2638061 | Tenofovir Disoproxil Viatris (cancelled) | Tab 245 mg (300 mg as a maleate) | Not available |
+| 2703122 | Ricovir (valid) | Tab 245 mg (300 mg as a fumarate) | Not available |
+| 2638061 | Tenofovir Disoproxil Viatris (valid) | Tab 245 mg (300 mg as a maleate) | Not available |
 
 ## Safety Considerations
 
@@ -106,7 +106,7 @@ The knowledge graph does list the following conditions as contraindication-relat
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is a veterinary condition supported by only one indirect, preclinical combination-therapy study, with no clinical trials. The TxGNN score is high, but it is not matched by independent evidence of a new human use. Tenofovir disoproxil also has no currently valid New Zealand authorisation. The lower-ranked predictions (a rare neurodevelopmental disorder and an obsolete familial combined hyperlipidaemia term) have no literature and no plausible mechanism.
+The predicted indication is a veterinary condition supported by only one indirect, preclinical combination-therapy study, with no clinical trials. The TxGNN score is high, but it is not matched by independent evidence of a new human use. The lower-ranked predictions (a rare neurodevelopmental disorder and an obsolete familial combined hyperlipidaemia term) have no literature and no plausible mechanism.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (currently a blocking gap for safety screening)

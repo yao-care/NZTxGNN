@@ -6,9 +6,9 @@ nav_order: 309
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Modafinil: predicted new indication Insomnia (evidence level L4). Approved use: Narcolepsy"
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
+description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Modafinil
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Modafinil: From Narcolepsy to Insomnia
+## Modafinil: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The mechanistic rationale is weak, so this prediction should be treated with cau
 
 | Item | Content |
 |------|------|
-| Original Indication | Narcolepsy (also narcolepsy-cataplexy syndrome, Balo concentric sclerosis, X-linked adrenoleukodystrophy, per the knowledge graph; no approved indication text is available from New Zealand licensing) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.85% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -116,7 +116,7 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-Evidence for insomnia is minimal: one terminated trial with 2 participants and one small completed trial without reported results. The mechanism of a wake-promoting drug runs contrary to treating insomnia, and the high TxGNN score probably reflects proximity to modafinil's original sleep-wake indications. Modafinil also has no currently valid New Zealand authorization.
+Evidence for insomnia is minimal: one terminated trial with 2 participants and one small completed trial without reported results. The mechanism of a wake-promoting drug runs contrary to treating insomnia, and the high TxGNN score probably reflects proximity to modafinil's original sleep-wake indications.
 
 **To proceed, the following is needed:**
 - Results from NCT00124384 and any controlled trials in primary insomnia

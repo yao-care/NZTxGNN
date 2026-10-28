@@ -6,9 +6,9 @@ nav_order: 327
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Norethisterone: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis, primary ovarian failure, postmenopausal osteoporosis…"
 monitor_inn: "NORETHISTERONE"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Norethisterone: predicted new indication Amenorrhea (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Norethisterone
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Norethisterone: From Endometriosis and Primary Ovarian Failure to Amenorrhea
+## Norethisterone: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be useful for **amenorrhea**, but there are **no
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis, primary ovarian failure, postmenopausal osteoporosis, postmenopausal atrophic vaginitis (from the knowledge graph; New Zealand licence text is not available) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.60% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L4 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,9 +96,9 @@ The most relevant publications are listed below. Many older entries have no abst
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 398322 | Noriday 28 (cancelled) | Tab 350 mcg | Not available |
-| 2695618 | Noriday (cancelled) | Tab 350 mcg | Not available |
-| 2607441 | Primolut N (cancelled) | Tab 5 mg | Not available |
+| 398322 | Noriday 28 (valid) | Tab 350 mcg | Not available |
+| 2695618 | Noriday (valid) | Tab 350 mcg | Not available |
+| 2607441 | Primolut N (valid) | Tab 5 mg | Not available |
 
 ---
 
@@ -116,13 +116,12 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and a plausible but unverified mechanism. No clinical trials exist, and the literature mostly treats amenorrhea as a contraceptive side effect. All three New Zealand licences are cancelled, and package insert safety data are missing.
+The prediction rests on a model score and a plausible but unverified mechanism. No clinical trials exist, and the literature mostly treats amenorrhea as a contraceptive side effect. The drug is marketed in New Zealand, with all three licences valid, and package insert safety data are missing.
 
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank
 - Medsafe package insert warnings and contraindications for a safety screen
 - A targeted literature search on progestin withdrawal for secondary amenorrhea, including guideline sources and trials
-- Confirmation of current product availability in New Zealand, since no licence is currently valid
 - Clarification of the indication, such as secondary amenorrhea versus primary amenorrhea, and the dose regimen
 ## Disclaimer
 

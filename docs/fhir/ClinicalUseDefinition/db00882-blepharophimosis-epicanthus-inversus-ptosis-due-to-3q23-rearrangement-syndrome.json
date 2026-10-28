@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00882-blepharophimosis-epicanthus-inversus-ptosis-due-to-3q23-rearrangement-syndrome",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00882"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9958
+    }
+  ]
+}

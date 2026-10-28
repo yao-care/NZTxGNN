@@ -6,9 +6,9 @@ nav_order: 164
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Donepezil: predicted new indication Top-ranked prediction: psychogenic movement disorders. Best-supported… (evidence level L5). Approved use: Alzheimer disease"
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
+description: "Donepezil: predicted new indication Top-ranked prediction: psychogenic movement disorders. Best-supported candidate: chronic tic disorder (psychogenic move… (evidence level L5). Approved use: Not rec…"
 ---
 
 # Donepezil
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Donepezil: From Alzheimer Disease to Chronic Tic Disorder
+## Donepezil: Top-ranked prediction: psychogenic movement disorders. Best-supported candidate: chronic tic disorder (psychogenic movement disorders)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **0 registered clinical trials** and **5 publications** currently supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer disease (from the knowledge graph; no approved indication text is available from the New Zealand licences) |
-| Predicted New Indication | Top-ranked prediction: psychogenic movement disorders. Best-supported candidate: chronic tic disorder |
-| TxGNN Prediction Score | 99.23% (psychogenic movement disorders); 99.19% (chronic tic disorder) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Top-ranked prediction: psychogenic movement disorders. Best-supported candidate: chronic tic disorder (psychogenic movement disorders) |
+| TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 for the top-ranked prediction; L3 for chronic tic disorder |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold (top-ranked prediction); Proceed with Guardrails as a research question for chronic tic disorder |
 
 ## Why is This Prediction Reasonable?
@@ -103,8 +103,8 @@ No literature was found for psychogenic movement disorders, primary orthostatic 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2666898 | Ipca-Donepezil | Tab 10 mg | Not available (cancelled) |
-| 2666871 | Ipca-Donepezil | Tab 5 mg | Not available (cancelled) |
+| 2666898 | Ipca-Donepezil | Tab 10 mg | Not available (valid) |
+| 2666871 | Ipca-Donepezil | Tab 5 mg | Not available (valid) |
 
 ## Safety Considerations
 

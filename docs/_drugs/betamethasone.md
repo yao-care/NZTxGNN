@@ -4,7 +4,7 @@ title: Betamethasone
 parent: High Evidence (L1-L2)
 nav_order: 63
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Betamethasone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease…"
 monitor_inn: "Betamethasone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Betamethasone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **6 clinical trials** (1 completed Phase 2) and **20 publications** current
 |------|------|
 | Original Indication | Autoimmune disease, inflammatory bowel disease (including Crohn disease), adrenocortical insufficiency, tinea pedis, exanthem (the New Zealand licence records contain no approved indication text) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 9 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Authorizations | 9 (valid: 9) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Alopecia areata is a T-cell-mediated autoimmune disease in which the immune privilege of the hair follicle collapses, causing non-scarring hair loss. Corticosteroids suppress the inflammatory infiltrate around the follicle, so the mechanism is biologically plausible. Autoimmune disease is already among betamethasone's original indications. In practice, topical, intralesional and oral mini-pulse routes are all used.
 
-Caveats: relapse after withdrawal is common, and long-term systemic steroid use carries a risk of adverse effects. Because all New Zealand licences are cancelled, formulation and availability need to be checked.
+Caveats: relapse after withdrawal is common, and long-term systemic steroid use carries a risk of adverse effects. The drug is marketed in New Zealand (9 of 9 licences valid), but formulation and availability still need to be checked.
 
 ## Clinical Trial Evidence
 
@@ -90,15 +90,15 @@ Caveats: relapse after withdrawal is common, and long-term systemic steroid use 
 
 ## New Zealand Market Information
 
-All 9 authorizations are cancelled and none are currently valid. No approved indication text is recorded. The main products are listed below.
+All 9 authorizations are valid (9 of 9). No approved indication text is recorded. The main products are listed below.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 210870 | Diprosone | Cream 0.05% | Not recorded (cancelled) |
-| 210897 | Diprosone | Ointment 0.05% | Not recorded (cancelled) |
-| 2188759 | Beta Ointment | Ointment 0.1% | Not recorded (cancelled) |
-| 512877 | Beta Scalp | Scalp application 0.1% | Not recorded (cancelled) |
-| 2188740 | Beta Cream | Cream 0.1% | Not recorded (cancelled) |
+| 210870 | Diprosone | Cream 0.05% | Not recorded (valid) |
+| 210897 | Diprosone | Ointment 0.05% | Not recorded (valid) |
+| 2188759 | Beta Ointment | Ointment 0.1% | Not recorded (valid) |
+| 512877 | Beta Scalp | Scalp application 0.1% | Not recorded (valid) |
+| 2188740 | Beta Cream | Cream 0.1% | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -113,7 +113,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-One completed Phase 2 trial and several randomized studies (topical, intralesional and oral mini-pulse routes) support betamethasone in alopecia areata, and the mechanism is plausible for an autoimmune disease. However, the trials are small, mostly use betamethasone as a comparator, and no Phase 3 evidence is available. Also, all New Zealand licences are cancelled.
+One completed Phase 2 trial and several randomized studies (topical, intralesional and oral mini-pulse routes) support betamethasone in alopecia areata, and the mechanism is plausible for an autoimmune disease. However, the trials are small, mostly use betamethasone as a comparator, and no Phase 3 evidence is available. Also, the drug is marketed in New Zealand with 9 of 9 licences valid.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

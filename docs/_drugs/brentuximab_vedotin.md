@@ -50,10 +50,10 @@ Among the other predicted indications, **B-cell neoplasm** (especially diffuse l
 |------|------|
 | Original Indication | Hodgkin lymphoma (including classic Hodgkin lymphoma) |
 | Predicted New Indication | Follicular lymphoma |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Among the other predicted indications, **B-cell neoplasm** (especially diffuse l
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, brentuximab vedotin is an antibody-drug conjugate: an anti-CD30 antibody linked to the cytotoxic agent MMAE. CD30 is strongly expressed on Hodgkin/Reed-Sternberg cells, which is why the drug works in Hodgkin lymphoma.
 
-Follicular lymphoma is a B-cell lymphoma that generally has low CD30 expression. The mechanistic rationale is therefore limited to CD30-positive subsets or possible bystander effects, where MMAE released near target cells kills neighbouring tumour cells. The high TxGNN score reflects knowledge-graph similarity between lymphoid diseases and should not be read as evidence of efficacy.
+Follicular lymphoma is a B-cell lymphoma that generally has low CD30 expression. The mechanistic rationale is therefore limited to CD30-positive subsets or possible bystander effects, where MMAE released near target cells kills neighbouring tumour cells. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should not be read as evidence of efficacy.
 
 ---
 
@@ -98,7 +98,7 @@ None of these publications evaluates brentuximab vedotin for follicular lymphoma
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2649152 | Adcetris | Inj 50 mg vial | Not available (authorization cancelled) |
+| 2649152 | Adcetris | Inj 50 mg vial | Not available (authorization valid) |
 
 ---
 

@@ -4,17 +4,17 @@ title: Paliperidone
 parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Psychotic disorder, schizophreniform disorder, mental disorder…"
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
+description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Paliperidone: From Schizophrenia to Retinal Dystrophy (Top-Ranked Prediction; Best-Supported Alternative: Treatment-Refractory Schizophrenia)
+## Paliperidone: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Paliperidone is an antipsychotic originally used for schizophrenia and related psychotic disorders.
 The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but it has **0 clinical trials** and **0 publications** behind it, so it is a computational prediction only.
-The only prediction with any supporting activity is **treatment-refractory schizophrenia** (rank 10), with **3 Phase 4 trials** and **2 reviews**. That is largely an extension of the existing indication, not true repurposing.
 
 ---
 
@@ -48,12 +47,12 @@ The only prediction with any supporting activity is **treatment-refractory schiz
 
 | Item | Content |
 |------|------|
-| Original Indication | Psychotic disorder, schizophreniform disorder, mental disorder, schizoaffective disorder, schizophrenia (from the knowledge graph; no approved indication text is available from New Zealand licences) |
-| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies (rank 1) |
-| TxGNN Prediction Score | 99.92% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (rank 1). The best-supported alternative, treatment-refractory schizophrenia, is L3 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,15 +61,14 @@ The only prediction with any supporting activity is **treatment-refractory schiz
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, paliperidone is a dopamine D2 and serotonin 5-HT2A receptor antagonist, and this mechanism underlies its efficacy in schizophrenia.
 
-**Rank 1 (retinal dystrophy):** No mechanistic link is established. The score of 0.999 is a purely computational output, and no known pathway connects D2/5-HT2A antagonism to inherited retinal dystrophy. The other top-ranked predictions are similar: several X-linked or syndromic myopias, hydranencephaly, a congenital glycosylation disorder, a polymicrogyria syndrome, Charcot-Marie-Tooth type 1G and atypical glycine encephalopathy. All have no trials or literature and no plausible pharmacological rationale. The high scores likely reflect network similarity in the knowledge graph rather than biology.
+**Rank 1 (retinal dystrophy):** No mechanistic link is established. The score of 0.9992 is a purely computational output, and no known pathway connects D2/5-HT2A antagonism to inherited retinal dystrophy. The other top-ranked predictions are similar: several X-linked or syndromic myopias, hydranencephaly, a congenital glycosylation disorder, a polymicrogyria syndrome, Charcot-Marie-Tooth type 1G and atypical glycine encephalopathy. All have no trials or literature and no plausible pharmacological rationale. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-**Rank 10 (treatment-refractory schizophrenia):** This has strong biological plausibility, because the same receptor antagonism is the established mechanism in schizophrenia. However, it extends the approved indication to a refractory subgroup. Clozapine remains the standard for treatment resistance, and paliperidone's evidence in this subgroup is limited to Phase 4 comparative or combination studies, with no demonstrated efficacy signal.
 
 ---
 
 ## Clinical Trial Evidence
 
-No trials are registered for the rank 1 prediction (retinal dystrophy). The following trials relate to treatment-refractory schizophrenia (rank 10):
+No trials are registered for the rank 1 prediction (retinal dystrophy).
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -82,7 +80,7 @@ No trials are registered for the rank 1 prediction (retinal dystrophy). The foll
 
 ## Literature Evidence
 
-No literature is available for the rank 1 prediction. The following publications relate to treatment-refractory schizophrenia (rank 10):
+No literature is available for the rank 1 prediction.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -93,15 +91,15 @@ No literature is available for the rank 1 prediction. The following publications
 
 ## New Zealand Market Information
 
-All five licences are cancelled, and no approved indication text is available for them.
+All five licences are valid, and no approved indication text is available for them.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2426935 | Invega Sustenna | Inj 75 mg syringe | Not available (cancelled) |
-| 2426951 | Invega Sustenna | Inj 150 mg syringe | Not available (cancelled) |
-| 2426927 | Invega Sustenna | Inj 50 mg syringe | Not available (cancelled) |
-| 2426919 | Invega Sustenna | Inj 25 mg syringe | Not available (cancelled) |
-| 2426943 | Invega Sustenna | Inj 100 mg syringe | Not available (cancelled) |
+| 2426935 | Invega Sustenna | Inj 75 mg syringe | Not available (valid) |
+| 2426951 | Invega Sustenna | Inj 150 mg syringe | Not available (valid) |
+| 2426927 | Invega Sustenna | Inj 50 mg syringe | Not available (valid) |
+| 2426919 | Invega Sustenna | Inj 25 mg syringe | Not available (valid) |
+| 2426943 | Invega Sustenna | Inj 100 mg syringe | Not available (valid) |
 
 ---
 
@@ -127,14 +125,14 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The rank 1 prediction (retinal dystrophy) rests only on a computational score, with no trials, no literature and no plausible mechanism. Treatment-refractory schizophrenia has some Phase 4 activity but is an extension of the existing indication, and the evidence shows no efficacy signal. New Zealand licences are all cancelled, and the safety data has important gaps.
+The rank 1 prediction (retinal dystrophy) rests only on a computational score, with no trials, no literature and no plausible mechanism. All five New Zealand licences are valid, and the safety data has important gaps.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Preclinical or mechanistic evidence linking paliperidone to retinal dystrophy, if that prediction is to be pursued
 - Results from the Phase 4 trials, and comparative data against clozapine, for the treatment-refractory schizophrenia question
-- Clarification of why all New Zealand licences were cancelled, and of route compatibility for any new indication
+- Clarification of route compatibility for any new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

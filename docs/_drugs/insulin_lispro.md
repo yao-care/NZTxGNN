@@ -6,9 +6,9 @@ nav_order: 239
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
-description: "Insulin Lispro: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Type 2 diabetes mellitus, type 1 diabetes mellitus…"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Lispro: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Lispro
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Insulin Lispro: From Diabetes Mellitus to Autoimmune Oophoritis
+## Insulin Lispro: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ It is a computational signal only and should be treated as hypothesis-generating
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis (the New Zealand licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,20 +60,20 @@ Detailed mechanism of action data is not available. Based on known information, 
 
 The only plausible link to autoimmune oophoritis is indirect. Autoimmune polyendocrine syndromes can occur together with insulin-dependent autoimmune diabetes. This is a co-occurrence of diseases, not a treatment rationale. Insulin would not be expected to modify ovarian autoimmunity.
 
-The very high score (0.998) therefore most likely reflects relationships in the knowledge graph rather than genuine therapeutic potential. Other top predictions show similar patterns (shared diabetic phenotype, shared anti-GAD autoimmunity, or insulin-injection adverse effects).
+The very high score (0.9978) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than genuine therapeutic potential. Other top predictions show similar patterns (shared diabetic phenotype, shared anti-GAD autoimmunity, or insulin-injection adverse effects).
 
 ## Other Predicted Indications Reviewed
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Thiamine-responsive dysfunction syndrome | 99.37% | L5 | Insulin would only manage the diabetes component, not the underlying transporter defect |
-| 3 | Focal stiff limb syndrome | 99.36% | L5 | Link is shared anti-GAD autoimmunity; no therapeutic rationale |
-| 4 | Classic stiff person syndrome | 99.36% | L5 | Insulin would only treat comorbid diabetes |
-| 5 | Opsismodysplasia | 99.34% | L5 | Pathway-level link (INPPL1/SHIP2) only; hypothesis |
-| 6 | Drug-induced localized lipodystrophy | 99.09% | L5 | Insulin is more likely a cause than a treatment (safety signal) |
-| 7 | Pancreatic agenesis | 99.09% | L4 | Insulin replacement is rational but overlaps with existing diabetes use; evidence indirect |
-| 8 | Centrifugal lipodystrophy | 99.04% | L5 | No rationale for benefit |
-| 9 | Pressure-induced localized lipoatrophy | 99.03% | L5 | Likely adverse-effect association; insulin may contribute |
+| 2 | Thiamine-responsive dysfunction syndrome | 0.9937 | L5 | Insulin would only manage the diabetes component, not the underlying transporter defect |
+| 3 | Focal stiff limb syndrome | 0.9936 | L5 | Link is shared anti-GAD autoimmunity; no therapeutic rationale |
+| 4 | Classic stiff person syndrome | 0.9936 | L5 | Insulin would only treat comorbid diabetes |
+| 5 | Opsismodysplasia | 0.9934 | L5 | Pathway-level link (INPPL1/SHIP2) only; hypothesis |
+| 6 | Drug-induced localized lipodystrophy | 0.9909 | L5 | Insulin is more likely a cause than a treatment (safety signal) |
+| 7 | Pancreatic agenesis | 0.9909 | L5 | Insulin replacement is rational but overlaps with existing diabetes use; evidence indirect |
+| 8 | Centrifugal lipodystrophy | 0.9904 | L5 | No rationale for benefit |
+| 9 | Pressure-induced localized lipoatrophy | 0.9903 | L5 | Likely adverse-effect association; insulin may contribute |
 
 Pancreatic agenesis is the only prediction with a mechanistically sound rationale, but it is essentially standard insulin replacement rather than true repurposing.
 
@@ -95,8 +95,8 @@ The only publication found across the predictions relates to pancreatic agenesis
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 490865 | Humalog (cancelled) | Inj 100 u per ml, 3 ml | Not recorded |
-| 2702983 | Humalog (cancelled) | Inj 100 u per ml, 10 ml vial | Not recorded |
+| 490865 | Humalog (valid) | Inj 100 u per ml, 3 ml | Not recorded |
+| 2702983 | Humalog (valid) | Inj 100 u per ml, 10 ml vial | Not recorded |
 
 ## Safety Considerations
 
@@ -116,7 +116,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, autoimmune oophoritis, rests only on a computational score, with no trials or literature and no plausible mechanism by which insulin lispro would treat it. Insulin lispro has no currently valid New Zealand licence. Several other predictions reflect adverse-effect associations or comorbid diabetes rather than genuine repurposing potential.
+The top prediction, autoimmune oophoritis, rests only on a computational score, with no trials or literature and no plausible mechanism by which insulin lispro would treat it. Several other predictions reflect adverse-effect associations or comorbid diabetes rather than genuine repurposing potential.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for insulin lispro

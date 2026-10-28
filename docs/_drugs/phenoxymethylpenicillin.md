@@ -6,9 +6,9 @@ nav_order: 362
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Streptococcal infection, pharyngitis, otitis media…"
 monitor_inn: "PHENOXYMETHYLPENICILLIN"
 predicted_indications: ["epiglottitis", "laryngitis"]
+description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenoxymethylpenicillin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Phenoxymethylpenicillin: From Streptococcal and Upper Respiratory Tract Infections to Epiglottitis
+## Phenoxymethylpenicillin: Epiglottitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 
 | Item | Content |
 |------|------|
-| Original Indication | Streptococcal infection, pharyngitis, otitis media, respiratory tract infections, scarlet fever, erysipelas (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,7 +71,7 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for epiglottitis.
 
-For reference, the second-ranked prediction, laryngitis (score 99.85%, evidence level L4), has one linked publication. It is only indirect evidence:
+For reference, the second-ranked prediction, laryngitis (score 0.9985, evidence level L4), has one linked publication. It is only indirect evidence:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -79,14 +79,14 @@ For reference, the second-ranked prediction, laryngitis (score 99.85%, evidence 
 
 ## New Zealand Market Information
 
-All four licences are cancelled and none is currently valid. No approved indication text is available.
+All four licences are valid. No approved indication text is available.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2029219 | AFT | Granules for oral liquid, 125 mg per 5 ml | Cancelled |
-| 2029227 | AFT | Granules for oral liquid, 250 mg per 5 ml | Cancelled |
-| 2602873 | Cilicaine VK | Capsule, 500 mg | Cancelled |
-| 2602865 | Cilicaine VK | Capsule, 250 mg | Cancelled |
+| 2029219 | AFT | Granules for oral liquid, 125 mg per 5 ml | Valid |
+| 2029227 | AFT | Granules for oral liquid, 250 mg per 5 ml | Valid |
+| 2602873 | Cilicaine VK | Capsule, 500 mg | Valid |
+| 2602865 | Cilicaine VK | Capsule, 250 mg | Valid |
 
 ## Safety Considerations
 
@@ -103,14 +103,14 @@ For package insert warnings and contraindications, please refer to the package i
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone, with no clinical trials or literature for epiglottitis. Clinically, an oral, beta-lactamase-labile penicillin is unsuitable for an airway emergency whose major pathogens it does not cover. No licence is currently valid in New Zealand.
+The prediction rests on a model score alone, with no clinical trials or literature for epiglottitis. Clinically, an oral, beta-lactamase-labile penicillin is unsuitable for an airway emergency whose major pathogens it does not cover.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (currently a blocking data gap)
 - Detailed mechanism of action data
 - Clinical or microbiological evidence supporting use in streptococcal epiglottitis, and a defined role relative to standard parenteral therapy
 - Route compatibility assessment (oral drug versus parenteral requirement)
-- Clarification of regulatory status, since all New Zealand licences are cancelled
+- Clarification of regulatory status, since all 4 New Zealand licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

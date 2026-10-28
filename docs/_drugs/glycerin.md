@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Constipation"
+last_modified_at: 2026-10-28
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
+description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Glycerin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Glycerin: From Constipation to Cauda Equina Syndrome
+## Glycerin: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,24 +48,24 @@ Among the other top-10 predictions, **open-angle glaucoma** has the most plausib
 
 | Item | Content |
 |------|------|
-| Original Indication | Constipation (from the knowledge graph; no approved indication text is recorded in the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.60% |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, glycerin is an osmotic agent. Its efficacy in constipation is established, since it draws water into the bowel lumen. For the top-ranked prediction, however, no mechanistic link could be identified. Compressive or inflammatory radiculopathy of the cauda equina is managed surgically, and glycerin's osmotic activity has no established relevance to it. The high score is a graph-based prediction only.
+Currently, detailed mechanism of action data is not available. Based on known information, glycerin is an osmotic agent. Its efficacy in constipation is established, since it draws water into the bowel lumen. For the top-ranked prediction, however, no mechanistic link could be identified. Compressive or inflammatory radiculopathy of the cauda equina is managed surgically, and glycerin's osmotic activity has no established relevance to it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions in the top 10 differ in plausibility:
 
-- **Open-angle glaucoma (rank 2, 99.59%)** is the most pharmacologically coherent. Oral glycerin raises plasma osmolality and dehydrates the vitreous, which lowers intraocular pressure. Historically, though, it has been used mainly for acute angle-closure episodes and perioperative pressure control, not chronic open-angle glaucoma.
-- **Irritable bowel syndrome (rank 6, 99.49%)** is indirectly related, because glycerin is used as a laxative and this may overlap with constipation-predominant IBS. Symptom relief has not been established.
+- **Open-angle glaucoma (rank 2, 0.9959)** is the most pharmacologically coherent. Oral glycerin raises plasma osmolality and dehydrates the vitreous, which lowers intraocular pressure. Historically, though, it has been used mainly for acute angle-closure episodes and perioperative pressure control, not chronic open-angle glaucoma.
+- **Irritable bowel syndrome (rank 6, 0.9949)** is indirectly related, because glycerin is used as a laxative and this may overlap with constipation-predominant IBS. Symptom relief has not been established.
 - **Hair and scalp conditions (alopecia, hypotrichosis, alopecia areata) and migraine disorders** have no credible mechanism. Glycerin appears in this literature only as an excipient or control substance, and oral or intravenous glycerin is known to cause headache.
 
 ---
@@ -95,10 +95,10 @@ No literature was retrieved for cauda equina syndrome. The table below covers th
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2377241 | Ora-Sweet | Suspension | Not recorded (cancelled) |
-| 2377268 | Ora-Sweet SF | Suspension | Not recorded (cancelled) |
-| 2377217 | Ora-Blend | Suspension | Not recorded (cancelled) |
-| 2377225 | Ora-Blend SF | Suspension | Not recorded (cancelled) |
+| 2377241 | Ora-Sweet | Suspension | Not recorded (valid) |
+| 2377268 | Ora-Sweet SF | Suspension | Not recorded (valid) |
+| 2377217 | Ora-Blend | Suspension | Not recorded (valid) |
+| 2377225 | Ora-Blend SF | Suspension | Not recorded (valid) |
 
 ---
 
@@ -116,7 +116,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-All 10 predictions are at evidence level L4 or L5, with no registered clinical trials and no direct clinical literature. The top-ranked prediction, cauda equina syndrome, has no identifiable mechanism. All four New Zealand authorizations are cancelled, so there is no currently marketed product to build on.
+All 10 predictions are at evidence level L4 or L5, with no registered clinical trials and no direct clinical literature. The top-ranked prediction, cauda equina syndrome, has no identifiable mechanism. All four New Zealand authorizations are valid, and the drug is marketed.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications, which are currently missing and block safety screening

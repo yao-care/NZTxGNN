@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Diazepam
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 146
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Diazepam: predicted new indication Insomnia (evidence level L3). Approved use: Epilepsy, status epilepticus, alcohol withdrawal, anxiety, tetanus"
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
+last_modified_at: 2026-10-27
+description: "Diazepam: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Diazepam
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,104 +33,80 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Diazepam: From Epilepsy and Anxiety to Insomnia
+## Diazepam: GABA-A positive allosteric modulator → insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Diazepam is a benzodiazepine originally used for epilepsy, status epilepticus, alcohol withdrawal, anxiety and tetanus.
-The TxGNN model predicts it may be effective for **insomnia**, with **0 registered clinical trials** and **18 publications** (mostly class-level reviews or tangential reports) currently supporting this direction.
-Evidence is limited to indirect, class-level literature, so this should be treated as a research question rather than an established new use.
-
----
+Diazepam is a benzodiazepine that enhances GABA-A receptor activity and has long been used for conditions such as seizures and anxiety.
+The TxGNN model predicts it may be effective for **insomnia (disease)**, but there are **no registered clinical trials** and the **literature is mostly class-level or indirect**, so the evidence is limited.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy, status epilepticus, alcohol withdrawal, anxiety, tetanus (the New Zealand licence records contain no approved indication text) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 4 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | insomnia (disease) |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, diazepam is a benzodiazepine that acts as a positive allosteric modulator of GABA-A receptors. This enhances inhibitory signalling in the brain, which underlies its anticonvulsant, anxiolytic and sedative effects.
+Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, diazepam is a positive allosteric modulator of GABA-A receptors. Enhancing inhibitory GABA signalling produces sedation, which is the basis for the sedative-hypnotic effect of benzodiazepines, so the link to insomnia is mechanistically plausible.
 
-Insomnia is closely related to the anxiety and withdrawal states diazepam is already used for. Enhanced GABAergic inhibition promotes sleep initiation and maintenance, and other benzodiazepines such as triazolam are documented hypnotics. This makes the prediction mechanistically plausible.
+Other benzodiazepines (for example triazolam) have documented hypnotic use. Diazepam, however, has a long half-life and an active metabolite (nordiazepam). This raises concerns about next-day sedation, rebound insomnia after withdrawal, tolerance and dependence.
 
-There are important caveats. Diazepam has a long half-life and active metabolites (such as nordiazepam), raising concerns about next-day sedation, tolerance, dependence and rebound insomnia on withdrawal. The supplied literature contains no diazepam-specific randomized trial for insomnia, and newer agents (orexin antagonists, Z-drugs) are generally preferred.
-
----
+Note that the model score is very high (the rounded value is 1.0000; the unrounded value is 0.99999750), but a score is a model output and not clinical proof.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Most items are class-level, historical or tangential. The most relevant are listed below.
+None of the publications below is a diazepam-specific randomized trial in insomnia. Two small, older studies include diazepam directly.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | Double-blind comparison (100 outpatients) | J Int Med Res | Lormetazepam 1 mg was significantly better than diazepam 5 mg at reducing time to fall asleep in 7-day treatment |
-| [430730](https://pubmed.ncbi.nlm.nih.gov/430730/) | 1979 | Sleep laboratory studies | JAMA | Rebound insomnia followed withdrawal of shorter-acting benzodiazepines; diazepam and flurazepam, with longer half-lives, behaved differently |
-| [6114852](https://pubmed.ncbi.nlm.nih.gov/6114852/) | 1981 | Review | Drugs | Review of triazolam (a different benzodiazepine) as a hypnotic in insomnia |
-| [39581171](https://pubmed.ncbi.nlm.nih.gov/39581171/) | 2024 | Review | Bioorg Chem | GABA-A receptor modulators, including diazepam, used in epilepsy, anxiety and insomnia, with sedation-type side effects |
-| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Pharmacokinetics of anxiolytic drugs |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analysis | Acta Pharm | Tranquilizer therapy in elderly patients with chronic non-communicable diseases |
-| [40583063](https://pubmed.ncbi.nlm.nih.gov/40583063/) | 2025 | Clinical and mechanistic study | Cell Mol Biol Lett | Long-term benzodiazepine and Z-drug use associated with increased breast cancer risk |
-| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Predictive model study | Value Health Reg Issues | Long-term benzodiazepine use linked to memory loss, dependence, falls and traffic accidents |
-
----
+| [430730](https://pubmed.ncbi.nlm.nih.gov/430730/) | 1979 | Clinical (sleep laboratory) | JAMA | Five benzodiazepines were tested in 15 sleep-lab studies. Rebound insomnia followed withdrawal of triazolam, nitrazepam and flunitrazepam. Diazepam and flurazepam, which have longer half-lives, behaved differently. |
+| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | Double-blind comparison | J Int Med Res | In 100 outpatients with sleep disorders, lormetazepam 1 mg was significantly better than diazepam 5 mg on sleep onset and sleep continuity over 7 days. |
+| [6114852](https://pubmed.ncbi.nlm.nih.gov/6114852/) | 1981 | Review | Drugs | Review of triazolam (a different benzodiazepine) for insomnia; a short half-life is considered more suitable for hypnotic use than longer-acting drugs. |
+| [39581171](https://pubmed.ncbi.nlm.nih.gov/39581171/) | 2024 | Review | Bioorg Chem | Overview of GABA-A receptor modulators, including diazepam, in epilepsy, anxiety, insomnia and depression. |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analysis | Acta Pharm | Tranquilizer use in elderly patients with chronic diseases, assessed by dose, outcomes and adverse effects. |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Pharmacokinetics of anxiolytic drugs. |
+| [40583063](https://pubmed.ncbi.nlm.nih.gov/40583063/) | 2025 | Clinical and mechanistic | Cell Mol Biol Lett | Long-term use of benzodiazepines and Z-drugs for insomnia and anxiety was linked to increased breast cancer risk. |
 
 ## New Zealand Market Information
 
-All four authorizations are cancelled, and no approved indication text is recorded for them.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 425877 | Stesolid | Rectal tubes 5 mg | Not recorded (cancelled) |
-| 2328003 | Arrow-Diazepam | Tab 5 mg | Not recorded (cancelled) |
-| 2327996 | Arrow-Diazepam | Tab 2 mg | Not recorded (cancelled) |
-| 399019 | Hospira | Inj 5 mg per ml, 2 ml ampoule | Not recorded (cancelled) |
-
----
+| 425877 | Stesolid | Rectal tubes 5 mg | Not recorded |
+| 2328003 | Arrow-Diazepam | Tab 5 mg | Not recorded |
+| 2327996 | Arrow-Diazepam | Tab 2 mg | Not recorded |
+| 399019 | Hospira | Inj 5 mg per ml, 2 ml ampoule | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph disease associations, not label text):** liver failure and liver disease, gallbladder disease, open-angle and angle-closure glaucoma, obstructive sleep apnoea and other sleep apnoea syndromes, congenital central hypoventilation syndrome, respiratory failure and lung disease, myasthenia gravis and neuromuscular junction disease, and substance-related disorders and dependence. Anxiety disorder, neurotic disorder and dysthymic disorder are also listed.
-- **Drug Interactions:** 100 interactions were identified; the 20 shown in the data include the following.
-  - **Major:** morphine (additive central nervous system and respiratory depression).
-  - **Moderate:** bupropion, aprepitant, omeprazole, esomeprazole, cimetidine, clarithromycin, cisapride, clotrimazole, miconazole, dronabinol, metoclopramide.
-  - **Minor:** dexamethasone, betamethasone, and antacids (magnesium oxide, aluminium hydroxide, calcium carbonate, magaldrate, magnesium carbonate, magnesium hydroxide).
-- **Class-level concerns from the literature:** rebound insomnia on withdrawal, tolerance, dependence, cognitive decline and falls in older adults, and possible associations with suicide-attempt risk and breast cancer with long-term use.
+- **Disease associations flagged in the data:** liver failure and liver disease, gallbladder disease, glaucoma (open-angle and angle-closure), sleep apnoea syndromes, respiratory failure and other lung disease, myasthenia gravis and related neuromuscular junction disease, and substance-related disorders. These are not taken from label text and should be checked against the package insert.
+- **Drug interactions:** 100 interactions were found. Major: morphine. Moderate examples: bupropion, aprepitant, omeprazole, esomeprazole, cimetidine, clarithromycin, cisapride, clotrimazole, miconazole, dronabinol, metoclopramide.
+- **Class concerns from the literature:** rebound insomnia on withdrawal, dependence, abuse potential, and next-day sedation, especially with long-acting agents.
 
-Please refer to the package insert for full safety information, as label warnings were not available.
-
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and the TxGNN score is high, but there are no registered trials and no diazepam-specific randomized evidence for insomnia. The literature is largely class-level and focused on withdrawal, rebound and safety. All New Zealand authorizations are cancelled, and effective alternatives with better-suited profiles already exist.
+The mechanism is plausible, but no registered trial or cited study directly demonstrates diazepam's efficacy in insomnia, so evidence is at model-prediction level only. Dependence, rebound and sedation concerns also weigh against it, and newer hypnotics are generally preferred.
 
 **To proceed, the following is needed:**
-- Diazepam-specific randomized evidence in insomnia compared with current standard hypnotics
-- Detailed mechanism of action data and label warnings/contraindications from the package insert
-- A risk assessment for dependence, next-day sedation and rebound insomnia, especially in older adults
-- Clarification of regulatory status in New Zealand, since no valid authorization currently exists
-
-**Other predicted indications (for reference):** the second-ranked prediction, sleep disorder (initiating and maintaining sleep), is essentially the same entity as insomnia, with similar class-level evidence (L3). The remaining predictions (cauda equina syndrome, ADHD, substance abuse categories, specific developmental disorder and obsolete neurogenic bladder) have little or no direct supporting evidence and are not recommended for further investigation at this stage.
+- Diazepam-specific randomized trials in insomnia, compared with current hypnotics
+- Mechanism of action data and the full New Zealand package insert warnings and contraindications
+- A risk assessment for dependence, next-day sedation and use in older adults
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

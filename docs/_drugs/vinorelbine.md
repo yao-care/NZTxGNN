@@ -4,17 +4,17 @@ title: Vinorelbine
 parent: High Evidence (L1-L2)
 nav_order: 483
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Non-small cell lung cancer"
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
+description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Vinorelbine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Vinorelbine: From Non-Small Cell Lung Cancer to Ewing Sarcoma
+## Vinorelbine: Ewing sarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **3 clinical trials** (one completed Phase 2 trial, one Phase 2 trial of un
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung cancer; lung cancer (from the knowledge graph, since no approved indication text is available in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
-| Number of Authorizations | 7 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Authorizations | 7 (valid: 7) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -83,7 +83,7 @@ Preclinical work adds support. Microtubule-interfering drugs, including vinorelb
 
 ## New Zealand Market Information
 
-All seven licences are cancelled and no approved indication text is recorded.
+All seven licences are valid and no approved indication text is recorded.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -115,13 +115,12 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Ewing sarcoma has the strongest support among the predicted indications. It is backed by completed and ongoing Phase 2 studies and a recent review on the vinorelbine and cyclophosphamide regimen, but the evidence is indirect, mostly from mixed paediatric populations. All New Zealand licences are cancelled, so any use would require re-supply or special access.
+Ewing sarcoma has the strongest support among the predicted indications. It is backed by completed and ongoing Phase 2 studies and a recent review on the vinorelbine and cyclophosphamide regimen, but the evidence is indirect, mostly from mixed paediatric populations. The drug is marketed in New Zealand, with all 7 licences valid.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data
 - Ewing sarcoma-specific efficacy results, such as the outcome of NCT00180947 and the INTER-EWING-1 trial
-- A plan for supply and regulatory pathway in New Zealand, given that no licence is currently valid
 - A myelosuppression monitoring plan and review of the clarithromycin interaction for paediatric and young adult patients
 ## Disclaimer
 

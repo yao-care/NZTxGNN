@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ipratropium
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 241
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ipratropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease (COPD), allergic rhinitis…"
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
+description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ipratropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Ipratropium: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+## Ipratropium: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ipratropium is an inhaled and intranasal anticholinergic (muscarinic antagonist) originally used for chronic obstructive pulmonary disease (COPD), rhinitis, bronchitis and emphysema.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **25 clinical trials** and **20 publications** retrieved. This prediction largely confirms an existing use rather than a true new indication.
+This prediction largely confirms an existing use rather than a true new indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic obstructive pulmonary disease (COPD), allergic rhinitis, vasomotor rhinitis, bronchitis, emphysema (from the knowledge graph; no approved indication text is available from New Zealand licences) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -99,15 +99,14 @@ The literature is dominated by reviews. No randomised trial publications were id
 
 ## New Zealand Market Information
 
-All five licences are cancelled, and no approved indication text is available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2643154 | Accord | Nebuliser solution, 250 mcg/ml, 2 ml ampoule | Not available (cancelled) |
-| 2145782 | Atrovent | Aerosol inhaler, 20 mcg per dose, CFC-free | Not available (cancelled) |
-| 2154307 | Univent | Nebuliser solution, 250 mcg/ml, 2 ml ampoule | Not available (cancelled) |
-| 2372908 | Univent | Aqueous nasal spray, 0.03% | Not available (cancelled) |
-| 2724863 | Ipratropium Viatris | Nebuliser solution, 250 mcg/ml, 2 ml ampoule | Not available (cancelled) |
+| 2643154 | Accord | Nebuliser solution, 250 mcg/ml, 2 ml ampoule | Not available (valid) |
+| 2145782 | Atrovent | Aerosol inhaler, 20 mcg per dose, CFC-free | Not available (valid) |
+| 2154307 | Univent | Nebuliser solution, 250 mcg/ml, 2 ml ampoule | Not available (valid) |
+| 2372908 | Univent | Aqueous nasal spray, 0.03% | Not available (valid) |
+| 2724863 | Ipratropium Viatris | Nebuliser solution, 250 mcg/ml, 2 ml ampoule | Not available (valid) |
 
 ## Safety Considerations
 
@@ -123,13 +122,11 @@ Package insert warnings and contraindications could not be retrieved, so please 
 
 **Rationale:**
 - Obstructive lung disease is essentially an established use of ipratropium. A large completed Phase 3 trial and extensive review literature support it, but the indication is not new.
-- There are no valid New Zealand licences at present, and package insert safety data are missing, so any reintroduction needs regulatory and safety work first.
 - The other predicted indications are not recommended to advance. Nasal cavity disease and respiratory malformation are research questions at most. Pharyngitis, acute laryngopharyngitis, papillary conjunctivitis, Rienhoff syndrome, tracheal disease, anaphylaxis and food-dependent exercise-induced anaphylaxis are on Hold.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications, which block safety screening
 - Detailed mechanism of action data from DrugBank
-- Clarification of why all New Zealand licences were cancelled, and whether a new application or a different product is required
 - A review of the knowledge-graph contraindications (cardiovascular, glaucoma, urinary retention and others) against label text
 - Confirmation of which formulation (nebulised, inhaler or nasal) is intended for any new use
 ## Disclaimer

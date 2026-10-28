@@ -6,9 +6,9 @@ nav_order: 304
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
+description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mirtazapine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Mirtazapine: From Depression to Ohdo Syndrome and Variants
+## Mirtazapine: Ohdo syndrome and variants
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,23 +46,23 @@ but **no clinical trials and no publications** currently support this direction,
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on general knowledge, mirtazapine is an antidepressant whose efficacy in depression and anxiety is established. However, the data compiled for this report do not show a mechanistic link to Ohdo syndrome.
 
-Ohdo syndrome is a rare genetic disorder (KAT6B-related) with neurodevelopmental features. No plausible pharmacological rationale linking mirtazapine to its underlying pathology is evident from the available data. The very high TxGNN score (99.42%) reflects a model prediction without clinical corroboration.
+Ohdo syndrome is a rare genetic disorder (KAT6B-related) with neurodevelopmental features. No plausible pharmacological rationale linking mirtazapine to its underlying pathology is evident from the available data. The very high TxGNN score (0.9942) reflects a model prediction without clinical corroboration.
 
 Two other predictions show the same pattern:
-- **Blepharophimosis - intellectual disability syndrome, Ohdo type** (score 99.11%): likely driven by overlap with the Ohdo syndrome entry, so it is not an independent signal. Any symptomatic benefit (for example for sleep or mood) would be speculative and would not address the underlying disease.
-- **Benign paroxysmal torticollis of infancy** (score 99.11%): a self-limiting episodic movement disorder of infancy. Mirtazapine is not established for paediatric use, which is a further concern.
+- **Blepharophimosis - intellectual disability syndrome, Ohdo type** (score 0.9911): likely driven by overlap with the Ohdo syndrome entry, so it is not an independent signal. Any symptomatic benefit (for example for sleep or mood) would be speculative and would not address the underlying disease.
+- **Benign paroxysmal torticollis of infancy** (score 0.9911): a self-limiting episodic movement disorder of infancy. Mirtazapine is not established for paediatric use, which is a further concern.
 
 ## Clinical Trial Evidence
 
@@ -76,8 +76,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2678802 | Noumed | Tab 30 mg | Not available (licence cancelled) |
-| 2678810 | Noumed | Tab 45 mg | Not available (licence cancelled) |
+| 2678802 | Noumed | Tab 30 mg | Not available (licence valid) |
+| 2678810 | Noumed | Tab 45 mg | Not available (licence valid) |
 
 ## Safety Considerations
 
@@ -103,7 +103,7 @@ Package insert warnings were not available for this report. Please refer to the 
 **Decision: Hold**
 
 **Rationale:**
-All three predicted indications rest on model scores alone (Evidence Level L5), with no clinical trials or literature. No mechanistic link to a rare genetic neurodevelopmental disorder is apparent, and mirtazapine currently has no valid New Zealand licence.
+All three predicted indications rest on model scores alone (Evidence Level L5), with no clinical trials or literature.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for mirtazapine, and a pharmacological rationale linking it to the predicted disease

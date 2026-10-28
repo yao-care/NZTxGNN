@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oxaliplatin
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 342
-evidence_level: L5
+evidence_level: L2
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L5). Approved use: Metastasis from malignant tumour of colon"
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
+description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Oxaliplatin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Oxaliplatin: From Colon Cancer Metastasis to Malignant Pleural Mesothelioma
+## Oxaliplatin: Malignant pleural mesothelioma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **3 clinical trials** (2 directly relevant Phase 2 studies) and **20 public
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastasis from malignant tumour of colon (from the knowledge graph; no approved indication text is available from Medsafe) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant pleural mesothelioma |
-| TxGNN Prediction Score | 99.68% |
+| TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L2 (one completed Phase 2 trial plus several published Phase 2 studies; no Phase 3 RCT) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,9 +63,9 @@ Platinum agents such as cisplatin and carboplatin are already backbone therapy i
 Results are mixed. Several Phase 2 studies report activity for oxaliplatin combinations (with gemcitabine, raltitrexed or vinorelbine), while one small second-line study of raltitrexed plus oxaliplatin (14 patients) produced no objective responses.
 
 Other mesothelioma-related predictions have weaker support:
-- **Malignant epithelioid mesothelioma** (score 99.49%): no registered trials. The literature is indirect (peritoneal disease and HIPEC/PIPAC). Evidence level L3.
-- **Sarcomatoid mesothelioma** (score 99.44%): no registered trials. This is the least chemosensitive subtype, and the only oxaliplatin-specific report is a surgery-plus-HIPEC series in peritoneal disease. Evidence level L4, Hold.
-- **Malignant visceral pleura tumour** (score 99.26%): no registered trials. Most retrieved literature is not relevant to oxaliplatin efficacy. Evidence level L4, Hold.
+- **Malignant epithelioid mesothelioma** (score 0.9949): no registered trials. The literature is indirect (peritoneal disease and HIPEC/PIPAC). Evidence level L3.
+- **Sarcomatoid mesothelioma** (score 0.9944): no registered trials. This is the least chemosensitive subtype, and the only oxaliplatin-specific report is a surgery-plus-HIPEC series in peritoneal disease. Evidence level L4, Hold.
+- **Malignant visceral pleura tumour** (score 0.9926): no registered trials. Most retrieved literature is not relevant to oxaliplatin efficacy. Evidence level L4, Hold.
 
 ## Clinical Trial Evidence
 
@@ -92,15 +92,15 @@ Other mesothelioma-related predictions have weaker support:
 
 ## New Zealand Market Information
 
-All five licences are cancelled, and no approved indication text is available.
+5 of 5 licences are valid in this country, and no approved indication text is available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2400553 | Oxaliplatin Actavis 100 | Inj 100 mg vial | Not available (cancelled) |
-| 2339013 | Oxaliplatin Ebewe | Inj 100 mg vial | Not available (cancelled) |
-| 2571242 | Oxaliplatin Accord | Inj 5 mg per ml, 20 ml vial | Not available (cancelled) |
-| 2207621 | Baxter | Inj 1 mg for ECP | Not available (cancelled) |
-| 2654830 | Alchemy Oxaliplatin | Inj 5 mg per ml, 20 ml vial | Not available (cancelled) |
+| 2400553 | Oxaliplatin Actavis 100 | Inj 100 mg vial | Not available (valid) |
+| 2339013 | Oxaliplatin Ebewe | Inj 100 mg vial | Not available (valid) |
+| 2571242 | Oxaliplatin Accord | Inj 5 mg per ml, 20 ml vial | Not available (valid) |
+| 2207621 | Baxter | Inj 1 mg for ECP | Not available (valid) |
+| 2654830 | Alchemy Oxaliplatin | Inj 5 mg per ml, 20 ml vial | Not available (valid) |
 
 ## Cytotoxicity
 
@@ -124,14 +124,13 @@ Label warnings and contraindications were not available. Please refer to the pac
 **Decision: Hold**
 
 **Rationale:**
-Evidence for pleural mesothelioma is limited to small, single-arm Phase 2 studies with mixed results, and there is no Phase 3 RCT. In New Zealand, all oxaliplatin licences are cancelled, and the package insert safety review is blocked. The other predicted indications (epithelioid, sarcomatoid, visceral pleura) have no direct clinical evidence.
+Evidence for pleural mesothelioma is limited to small, single-arm Phase 2 studies with mixed results, and there is no Phase 3 RCT. In New Zealand, all 5 oxaliplatin licences are valid, and the package insert safety review is blocked. The other predicted indications (epithelioid, sarcomatoid, visceral pleura) have no direct clinical evidence.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications, to complete safety screening
 - Mechanism of action data from DrugBank
 - Comparison against current standard-of-care regimens for mesothelioma, ideally with randomised data
 - Review of the 2003 to 2005 Phase 2 results for consistency, given the negative second-line study
-- Confirmation of product availability in New Zealand, since no licences are currently valid
 - Safety monitoring plan, particularly for patients with kidney, liver, lung or peripheral nerve disease
 ## Disclaimer
 

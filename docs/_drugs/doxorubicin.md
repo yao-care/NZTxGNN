@@ -4,17 +4,17 @@ title: Doxorubicin
 parent: High Evidence (L1-L2)
 nav_order: 167
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Doxorubicin"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "ganglioneuroblastoma (disease)"]
+predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
 ---
 
 # Doxorubicin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **29 clinical trials** and **20 publications** currently supporting this di
 |------|------|
 | Original Indication | Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma, mantle cell lymphoma, Langerhans cell histiocytosis (no approved indication text is available from New Zealand licences) |
 | Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 7 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Authorizations | 7 (valid: 7) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -102,11 +102,11 @@ All 7 New Zealand licences for single-agent doxorubicin have been cancelled, so 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2224097 | Doxorubicin Ebewe | Inj 2 mg per ml, 50 ml vial | Not available (cancelled) |
-| 2224070 | Doxorubicin Ebewe | Inj 2 mg per ml, 5 ml vial | Not available (cancelled) |
-| 2224089 | Doxorubicin Ebewe | Inj 2 mg per ml, 25 ml vial | Not available (cancelled) |
-| 2427214 | Arrow-Doxorubicin | Inj 2 mg per ml, 100 ml vial | Not available (cancelled) |
-| 2204185 | Baxter | Inj 1 mg for ECP | Not available (cancelled) |
+| 2224097 | Doxorubicin Ebewe | Inj 2 mg per ml, 50 ml vial | Not available (valid) |
+| 2224070 | Doxorubicin Ebewe | Inj 2 mg per ml, 5 ml vial | Not available (valid) |
+| 2224089 | Doxorubicin Ebewe | Inj 2 mg per ml, 25 ml vial | Not available (valid) |
+| 2427214 | Arrow-Doxorubicin | Inj 2 mg per ml, 100 ml vial | Not available (valid) |
+| 2204185 | Baxter | Inj 1 mg for ECP | Not available (valid) |
 
 ## Cytotoxicity
 
@@ -137,7 +137,7 @@ Multiple completed Phase 3 randomised trials and several RCT publications place 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking data gap for safety screening)
 - Detailed mechanism of action data from the drug database
-- Confirmation of access to a licensed or unapproved-medicine supply route in New Zealand, since all licences are cancelled
+- Confirmation of access to a licensed or unapproved-medicine supply route in New Zealand, although the drug is marketed, with 7 valid licences of 7
 - A cardiac monitoring plan covering cumulative anthracycline dose and cardioprotection (such as dexrazoxane)
 - Clarification of doxorubicin's own contribution within the VDC/IE regimen
 
@@ -147,15 +147,14 @@ The other predicted indications are weaker or less directly supported.
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|------|
-| 2 | Well-differentiated fetal adenocarcinoma of the lung | 99.86% | L5 | Hold |
-| 3 | Primary pulmonary lymphoma | 99.85% | L4 | Hold |
-| 4 | Pulmonary blastoma | 99.85% | L3 | Research Question |
-| 5 | Chronic myelogenous leukaemia, BCR-ABL1 positive | 99.77% | L3 | Hold |
-| 6 | Monocytic leukaemia | 99.74% | L4 | Hold |
-| 7 | Botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.72% | L4 | Hold |
-| 8 | Parameningeal embryonal rhabdomyosarcoma | 99.71% | L4 | Hold |
-| 9 | Rhabdomyosarcoma | 99.70% | L1 | Research Question |
-| 10 | Ganglioneuroblastoma | 99.70% | L4 | Hold |
+| 2 | Well-differentiated fetal adenocarcinoma of the lung | 0.9986 | L5 | Hold |
+| 3 | Primary pulmonary lymphoma | 0.9985 | L4 | Hold |
+| 4 | Pulmonary blastoma | 0.9985 | L3 | Research Question |
+| 6 | Monocytic leukaemia | 0.9974 | L4 | Hold |
+| 7 | Botryoid-type embryonal rhabdomyosarcoma of the vagina | 0.9972 | L5 | Hold |
+| 8 | Parameningeal embryonal rhabdomyosarcoma | 0.9971 | L5 | Hold |
+| 9 | Rhabdomyosarcoma | 0.9970 | L1 | Research Question |
+| 10 | Ganglioneuroblastoma | 0.9970 | L4 | Hold |
 
 Rhabdomyosarcoma has large Phase 3 trials in soft tissue sarcoma, but these are mostly adult or non-rhabdomyosarcoma populations, so direct evidence is less certain. Pleuropulmonary blastoma has an ongoing Phase 3 trial (NCT06647953) without results yet.
 ## Disclaimer

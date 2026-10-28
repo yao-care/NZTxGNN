@@ -6,9 +6,9 @@ nav_order: 219
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Glecaprevir: predicted new indication HIV infectious disease (evidence level L4). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Glecaprevir: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Glecaprevir
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Glecaprevir: From Chronic Hepatitis C to HIV Infectious Disease
+## Glecaprevir: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is best regarded as an unsupported model signal.
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection (from the knowledge graph; no approved indication text is available in the New Zealand licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -109,7 +109,7 @@ All of this literature concerns HCV; none shows anti-HIV activity.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2552019 | Maviret | Tab 100 mg with pibrentasvir 40 mg | Not recorded (licence status: cancelled) |
+| 2552019 | Maviret | Tab 100 mg with pibrentasvir 40 mg | Not recorded (licence status: valid) |
 
 ---
 

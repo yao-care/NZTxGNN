@@ -6,9 +6,9 @@ nav_order: 460
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Endometriosis / endometriosis of uterus"
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tranexamic Acid
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Tranexamic Acid: From Endometriosis to Amenorrhea
+## Tranexamic Acid: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Tranexamic acid is an antifibrinolytic drug. The knowledge graph lists endometriosis as its original indication, although the New Zealand licence records contain no approved indication text.
+Tranexamic acid is an antifibrinolytic drug. The TxGNN model (deep learning) predicts amenorrhea, although the New Zealand licence records contain no approved indication text.
 The TxGNN model predicts it may be useful for **amenorrhea (disease)**, but there are currently **0 clinical trials** and **2 publications** (both reviews), so the evidence is **model prediction with indirect literature support only**.
 
 ---
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be useful for **amenorrhea (disease)**, but ther
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis / endometriosis of uterus (from the knowledge graph; no approved indication text in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Amenorrhea (disease) |
-| TxGNN Prediction Score | 99.19% |
-| Evidence Level | L4 (no trials; only indirect review literature and a mechanistic rationale) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled; 0 currently valid) |
+| TxGNN Prediction Score | 0.9919 |
+| Evidence Level | L5 (no trials; only indirect review literature and a mechanistic rationale) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not currently available in the data compile
 
 The link to "amenorrhea" is **indirect**. Tranexamic acid does not act on the hormonal or endometrial pathways that would cause true amenorrhea, so any benefit would be a reduction in bleeding volume rather than correction of an underlying cause. The label "amenorrhea" is also ambiguous. It can mean the condition itself, or a desired therapeutic state of menses suppression, for example prophylaxis in premenopausal haematology patients at risk of heavy bleeding. The second reading is the more plausible one for this drug.
 
-The high TxGNN score (0.99) is a model prediction only and should not be treated as clinical evidence.
+The high TxGNN score (0.9919) is a model prediction only and should not be treated as clinical evidence.
 
 ---
 
@@ -88,8 +88,8 @@ Both publications are reviews on bleeding management. Neither directly tests tra
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2574020 | Mercury Pharma | Tab 500 mg | Not recorded (status: cancelled) |
-| 2497174 | Tranexamic-AFT | Inj 100 mg per ml, 10 ml ampoule | Not recorded (status: cancelled) |
+| 2574020 | Mercury Pharma | Tab 500 mg | Not recorded (status: valid) |
+| 2497174 | Tranexamic-AFT | Inj 100 mg per ml, 10 ml ampoule | Not recorded (status: valid) |
 
 ---
 
@@ -118,7 +118,7 @@ Please refer to the package insert for warnings and official contraindications. 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and an indirect mechanistic argument. There are no registered trials, and the only literature is two general reviews on bleeding management. All New Zealand licences are cancelled, and the dominant concern is thrombotic risk, particularly with concurrent hormonal therapy.
+The prediction rests on a model score and an indirect mechanistic argument. There are no registered trials, and the only literature is two general reviews on bleeding management. The drug is marketed in New Zealand, with 2 valid licences of 2, and the dominant concern is thrombotic risk, particularly with concurrent hormonal therapy.
 
 **To proceed, the following is needed:**
 - Clarify the target indication. Decide whether it is true amenorrhea or menses suppression/prophylaxis (for example in haematology patients), and define the outcome measure.
@@ -126,7 +126,7 @@ The prediction rests on a model score and an indirect mechanistic argument. Ther
 - Obtain mechanism of action data from DrugBank.
 - Search for trials or studies of tranexamic acid for menses suppression.
 - Review the thrombotic risk, especially in patients on hormonal therapy.
-- Confirm the regulatory pathway, because all current New Zealand licences are cancelled.
+- Confirm the regulatory pathway for this indication; the drug is marketed in New Zealand with 2 valid licences of 2.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

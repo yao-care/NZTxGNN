@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ribociclib
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 401
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Ribociclib: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Not stated in the New Zealand license data compiled for this report (…"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocyt
 # Ribociclib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Ribociclib is a CDK4/6 inhibitor, known for use in hormone receptor-positive, HE
 |------|------|
 | Original Indication | Not stated in the New Zealand license data compiled for this report (the literature describes use in HR+/HER2- breast cancer) |
 | Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 99.35% |
+| TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L4 (preclinical/mechanistic evidence only) |
-| New Zealand Market Status | Cancelled only (no currently valid licenses) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Myeloid leukemia cells may depend on CDK4/6 signalling for proliferation, which gives a plausible mechanistic rationale. A 2020 preclinical study (PMID 32560251) suggests CDK4/6 inhibitors can target pharmacokinetic drug resistance in acute myeloid leukemia cells, for example by affecting the ABCB1 and ABCG2 efflux transporters. This points to a possible role in combination with standard induction therapy.
 
-The high TxGNN score is a graph-based prediction only. No clinical trial has tested this drug–disease pair, so the link should be treated as a hypothesis.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No clinical trial has tested this drug–disease pair, so the link should be treated as a hypothesis.
 
 ## Clinical Trial Evidence
 
@@ -76,9 +76,9 @@ Only one publication relates directly to the predicted indication. The second pa
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2701367 | Kisqali | Tab 200 mg | Not available (cancelled) |
-| 2701359 | Kisqali | Tab 200 mg | Not available (cancelled) |
-| 2701340 | Kisqali | Tab 200 mg | Not available (cancelled) |
+| 2701367 | Kisqali | Tab 200 mg | Not available (valid) |
+| 2701359 | Kisqali | Tab 200 mg | Not available (valid) |
+| 2701340 | Kisqali | Tab 200 mg | Not available (valid) |
 
 ## Cytotoxicity
 
@@ -102,22 +102,22 @@ Please refer to the package insert for warnings and contraindications.
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Thrombocytopenia | 99.27% | L4 | Hold. The literature describes thrombocytopenia as an adverse effect of ribociclib, not a therapeutic target. Use for this condition is mechanistically implausible and could worsen it |
-| Macrothrombocytopenia with mitral valve insufficiency | 99.08% | L5 | Hold. No evidence; likely a graph artefact and a safety concern |
-| Hereditary thrombocytopenia with normal platelets | 99.07% | L5 | Hold. No evidence; the ontology entry itself looks inconsistent and should be checked |
+| Thrombocytopenia | 0.9927 | L4 | Hold. The literature describes thrombocytopenia as an adverse effect of ribociclib, not a therapeutic target. Use for this condition is mechanistically implausible and could worsen it |
+| Macrothrombocytopenia with mitral valve insufficiency | 0.9908 | L5 | Hold. No evidence; likely a graph artefact and a safety concern |
+| Hereditary thrombocytopenia with normal platelets | 0.9907 | L5 | Hold. No evidence; the ontology entry itself looks inconsistent and should be checked |
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support for myeloid leukemia is one preclinical study and a plausible mechanism, with no registered clinical trials. In addition, ribociclib's marrow-suppressing profile is a concern in a haematological malignancy, and all New Zealand licenses are cancelled.
+The only support for myeloid leukemia is one preclinical study and a plausible mechanism, with no registered clinical trials. In addition, ribociclib's marrow-suppressing profile is a concern in a haematological malignancy. The drug is marketed in New Zealand, with 3 of 3 licenses valid.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data
 - Package insert warnings and contraindications (not yet retrieved)
 - Further preclinical work in myeloid leukemia models, including combination with standard AML therapy and assessment of marrow toxicity
-- Review of whether a currently valid New Zealand supply route exists, given that all three licenses are cancelled
+- Review of the New Zealand supply situation, given that the drug is marketed and all 3 of 3 licenses are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

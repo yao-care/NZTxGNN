@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tetracycline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 447
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Urinary tract infection, bronchitis, acne, anthrax infection…"
 monitor_inn: "TETRACYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tetracycline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-## Tetracycline: From Bacterial Infections (Urinary Tract Infection, Bronchitis, Acne and Others) to Punctate Epithelial Keratoconjunctivitis
+## Tetracycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials** and only **1 publication** (a case report) support th
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection, bronchitis, acne, anthrax infection, gonorrhea, pharyngitis, conjunctivitis, pneumonia and others (from the knowledge graph; no approved indication text is available from New Zealand licensing) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9958 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,9 +66,9 @@ Other predicted indications from the same analysis (for context):
 
 | Predicted Indication | TxGNN Score | Evidence Level | Literature | Recommendation |
 |------|------|------|------|------|
-| Chronic ethmoidal sinusitis | 99.15% | L4 | 1 antibiotic susceptibility study (indirect) | Hold |
-| Chronic rhinosinusitis | 99.15% | L4 | 7 publications, including a Cochrane review (2016) and a doxycycline meta-analysis (2023); mostly doxycycline, not tetracycline | Research Question |
-| Paranasal sinus neoplasm | 99.10% | L5 | None | Hold |
+| Chronic ethmoidal sinusitis | 0.9915 | L5 | 1 antibiotic susceptibility study (indirect) | Hold |
+| Chronic rhinosinusitis | 0.9915 | L5 | 7 publications, including a Cochrane review (2016) and a doxycycline meta-analysis (2023); mostly doxycycline, not tetracycline | Research Question |
+| Paranasal sinus neoplasm | 0.9910 | L5 | None | Hold |
 
 ## Clinical Trial Evidence
 

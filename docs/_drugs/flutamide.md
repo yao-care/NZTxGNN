@@ -4,17 +4,17 @@ title: Flutamide
 parent: Model Prediction Only (L5)
 nav_order: 210
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Flutamide: predicted new indication Prostate cancer/brain cancer susceptibility (evidence level L5). Approved use: Prostate cancer"
 monitor_inn: "FLUTAMIDE"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
+description: "Flutamide: predicted new indication Fibroma of prostate (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Flutamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Flutamide: From Prostate Cancer to Prostate Cancer/Brain Cancer Susceptibility
+## Flutamide: Fibroma of prostate
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Flutamide is a nonsteroidal androgen receptor antagonist, originally used to treat prostate cancer.
-The TxGNN model's top-ranked prediction is **prostate cancer/brain cancer susceptibility**, a genetic susceptibility category rather than a treatable disease, and it has **no clinical trials and no publications** supporting it.
-The more informative signal comes from the broader prediction "male reproductive organ cancer", which has **40 registered trials** and **20 publications**, but this largely overlaps with flutamide's original indication.
 
 ---
 
@@ -48,12 +46,12 @@ The more informative signal comes from the broader prediction "male reproductive
 
 | Item | Content |
 |------|------|
-| Original Indication | Prostate cancer (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
-| Predicted New Indication | Prostate cancer/brain cancer susceptibility |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Fibroma of prostate |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (for the top-ranked prediction) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,20 +60,19 @@ The more informative signal comes from the broader prediction "male reproductive
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, flutamide is a nonsteroidal androgen receptor antagonist. It blocks the effect of androgens on target tissues and has long been used in prostate cancer, often together with LHRH agonists.
 
-The top-ranked prediction, "prostate cancer/brain cancer susceptibility", describes a genetic susceptibility category, not a disease that can be treated. Its very high score most likely reflects the strong link between flutamide and prostate cancer in the knowledge graph. No trial or publication supports it as a distinct repurposing indication.
+No trial or publication supports it as a distinct repurposing indication.
 
 Other predictions in the top 10 fall into three groups:
 - **Prostate-related tissue disorders** (fibroma of prostate, prostate leiomyoma, benign prostate phyllodes tumor): androgen blockade could plausibly act on hormone-dependent prostatic tissue, but there is no clinical or literature evidence.
-- **Unrelated diseases** (Brenner tumor, HIV infectious disease, feline acquired immunodeficiency syndrome, simian immunodeficiency virus infection): there is no plausible mechanistic link, and these appear to be knowledge-graph artefacts.
+- **Unrelated diseases** (Brenner tumor, HIV infectious disease, feline acquired immunodeficiency syndrome, simian immunodeficiency virus infection): there is no plausible mechanistic link, and these appear to be TxGNN model (deep learning) artefacts.
 - **Broader categories** ("benign reproductive system neoplasm" and "male reproductive organ cancer"): these are the only predictions with any evidence. They are summarised below because they are the most informative for decision-making.
 
 ---
 
 ## Clinical Trial Evidence
 
-There are no clinical trials registered for the top-ranked prediction (prostate cancer/brain cancer susceptibility).
 
-The broader category "male reproductive organ cancer" (rank 6) has 40 registered trials. The table lists the most relevant ones. Many of these are androgen-deprivation trials in prostate cancer in which flutamide's specific role is not confirmed in the data compiled for this report.
+The table lists the most relevant ones. Many of these are androgen-deprivation trials in prostate cancer in which flutamide's specific role is not confirmed in the data compiled for this report.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -113,12 +110,12 @@ There is no literature for the top-ranked prediction. The table below draws on t
 
 ## New Zealand Market Information
 
-Both licences are cancelled; none is currently valid. Approved indication text is not available for either product.
+Approved indication text is not available for either product.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2612232 | Prostacur | Tab 250 mg | Not available (cancelled) |
-| 259985 | Flutamin | Tab 250 mg | Not available (cancelled) |
+| 2612232 | Prostacur | Tab 250 mg | Not available (valid) |
+| 259985 | Flutamin | Tab 250 mg | Not available (valid) |
 
 ---
 
@@ -149,7 +146,7 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, prostate cancer/brain cancer susceptibility, is a genetic susceptibility category, not a treatable disease, and has no trial or literature support (L5). The apparent evidence for broader categories mostly reflects flutamide's original prostate cancer use, not a new indication. In addition, flutamide carries hepatotoxicity concerns, has no valid New Zealand licence, and has been largely superseded by newer antiandrogens.
+The apparent evidence for broader categories mostly reflects flutamide's original prostate cancer use, not a new indication.
 
 **To proceed, the following is needed:**
 - A better-defined candidate indication. The most plausible are benign prostatic conditions (supported by small, older human BPH studies, PMIDs 1722793 and 1989458) and prostatic intraepithelial neoplasia chemoprevention (NCT00006214).

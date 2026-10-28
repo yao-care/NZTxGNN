@@ -4,17 +4,17 @@ title: Salicylic Acid
 parent: Model Prediction Only (L5)
 nav_order: 419
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Acne, seborrheic dermatitis, tinea infections, rheumatoid arthritis…"
 monitor_inn: "SALICYLIC ACID"
-predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to"]
+predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
+description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Salicylic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Salicylic Acid: From Topical Dermatological and Inflammatory Conditions to Papillary Conjunctivitis
+## Salicylic Acid: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,23 +46,23 @@ It is a computational prediction only (evidence level L5).
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne, seborrheic dermatitis, tinea infections, rheumatoid arthritis, allergic rhinitis and others (from the knowledge graph; no approved indication text is available for the New Zealand licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Salicylic acid is generally proposed to act through inhibition of COX enzymes, which reduces prostaglandin synthesis, but no public bioactivity data were found to confirm this at a specific molecular target. It also has keratolytic activity, which explains its use on the skin.
 
-The knowledge graph links salicylic acid to several inflammatory and allergic conditions, including allergic rhinitis, rheumatoid arthritis and synovitis. Papillary conjunctivitis is an allergic or inflammatory disease of the ocular surface, so an anti-inflammatory effect could in theory be relevant. This is speculative.
+The TxGNN model (deep learning) predicts papillary conjunctivitis for salicylic acid. This score may reflect similarities the model learned between related diseases, such as inflammatory and allergic conditions including allergic rhinitis, rheumatoid arthritis and synovitis, not biological evidence. Papillary conjunctivitis is an allergic or inflammatory disease of the ocular surface, so an anti-inflammatory effect could in theory be relevant. This is speculative.
 
-There is also a practical concern. Topical salicylic acid is irritating and is generally unsuitable for application to the eye. The high score probably reflects proximity in the knowledge graph rather than demonstrated therapeutic benefit.
+There is also a practical concern. Topical salicylic acid is irritating and is generally unsuitable for application to the eye. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other top-ranked predictions are weaker still. Most are rare genetic skeletal or developmental syndromes (for example brachyolmia, pseudoachondroplasia and acromesomelic dysplasia) with no plausible mechanism. The most biologically plausible alternative is susceptibility to spondyloarthropathy (score 99.34%), because of the overlap with the drug's rheumatoid arthritis and synovitis indications. It is also unsupported by trials or literature, and other NSAIDs are the usual standard of care.
+Other top-ranked predictions are weaker still. Most are rare genetic skeletal or developmental syndromes (for example brachyolmia, pseudoachondroplasia and acromesomelic dysplasia) with no plausible mechanism.
 
 ## Clinical Trial Evidence
 

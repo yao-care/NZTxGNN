@@ -8,6 +8,7 @@ nav_order: 149
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-10-12
+predicted_indications: []
 ---
 
 # Diclofenac Sodium
@@ -51,8 +52,8 @@ Without a repurposing target, clinical trial evidence, or literature linkage, a 
 | Predicted New Indication | Not available — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — Model prediction not generated; no supporting studies |
-| New Zealand Market Status | Not marketed (0 authorisations on record) |
-| Number of Authorisations | 0 |
+| New Zealand Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Authorisations | 11 (valid: 11) |
 | Recommended Decision | **Hold** |
 
 ---

@@ -6,9 +6,9 @@ nav_order: 274
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Bipolar disorder, major affective disorder…"
 monitor_inn: "LITHIUM CARBONATE"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
+description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lithium Carbonate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lithium Carbonate: From Bipolar Disorder to Pseudoachondroplasia
+## Lithium Carbonate: Pseudoachondroplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ Lithium carbonate is a mood stabiliser originally used for bipolar disorder and 
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder, major affective disorder, manic bipolar affective disorder (the approved-indication text in New Zealand licences is blank; these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pseudoachondroplasia |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on known information, lithium is an established mood stabiliser, and its efficacy in bipolar disorder is well recognised. Its knowledge-graph indications also include several joint and musculoskeletal conditions (such as rheumatoid arthritis, osteoarthritis and juvenile idiopathic arthritis), which probably contributes to the model linking it to skeletal disorders.
+Detailed mechanism of action data is not available for this drug. Based on known information, lithium is an established mood stabiliser, and its efficacy in bipolar disorder is well recognised. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 A speculative mechanistic link is lithium's inhibition of GSK-3β and modulation of Wnt signalling, which may affect chondrocyte function. Pseudoachondroplasia is caused by COMP gene mutations that lead to endoplasmic reticulum stress and chondrocyte death. No direct evidence connects lithium to this mechanism, so the prediction should be read as a hypothesis only.
 
@@ -82,8 +82,8 @@ Currently no related literature available for pseudoachondroplasia.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 733393 | Douglas | Cap 250 mg | Not stated (licence cancelled) |
-| 260851 | Priadel | Tab long-acting 400 mg | Not stated (licence cancelled) |
+| 733393 | Douglas | Cap 250 mg | Not stated (licence valid) |
+| 260851 | Priadel | Tab long-acting 400 mg | Not stated (licence valid) |
 
 ---
 
@@ -104,7 +104,7 @@ Package insert warnings were not available. Please refer to the package insert f
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (99.98%), with no clinical trials or literature for pseudoachondroplasia and only a speculative mechanistic link. Lithium also has no currently valid licence in New Zealand, and the available safety data are incomplete.
+The prediction is supported only by a model score (0.9998), with no clinical trials or literature for pseudoachondroplasia and only a speculative mechanistic link. Lithium is marketed in New Zealand, with 2 valid licences of 2, and the available safety data are incomplete.
 
 **To proceed, the following is needed:**
 - Preclinical evidence that lithium or GSK-3β/Wnt modulation affects COMP-related chondrocyte ER stress or growth plate function

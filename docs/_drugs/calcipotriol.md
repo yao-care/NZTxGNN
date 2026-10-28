@@ -5,10 +5,10 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 79
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not available in the New Zealand licence record"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
+last_modified_at: 2026-10-27
+description: "Calcipotriol: predicted new indication seborrheic keratosis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Calcipotriol
@@ -33,33 +33,31 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Calcipotriol: From Psoriasis (Topical Vitamin D3 Analogue) to Seborrheic Keratosis
+## Calcipotriol: vitamin D3 analogue (VDR agonist) → seborrheic keratosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Calcipotriol is a topical vitamin D3 analogue, marketed in New Zealand as an ointment (Daivonex). Its original approved indication text is not available in the data compiled for this report.
-The TxGNN model predicts it may be effective for **seborrheic keratosis**, with **no registered clinical trials** and **4 publications** (mostly small clinical studies and case reports) currently supporting this direction.
+Calcipotriol is a topical vitamin D3 analogue that acts on the vitamin D receptor in skin cells.
+The TxGNN model predicts it may be useful for **seborrheic keratosis**, with **no registered clinical trials** and **4 publications** (small clinical studies and case reports) currently pointing in this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the New Zealand licence record |
-| Predicted New Indication | Seborrheic keratosis |
-| TxGNN Prediction Score | 99.96% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | seborrheic keratosis |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Based on known pharmacology, calcipotriol is a vitamin D3 analogue that binds the vitamin D receptor in keratinocytes. This inhibits proliferation, promotes differentiation and induces apoptosis. Topical vitamin D analogues are widely used for inflammatory keratotic skin disease such as psoriasis.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, calcipotriol is a vitamin D3 analogue that binds the vitamin D receptor in keratinocytes. This slows cell proliferation, promotes differentiation and can induce apoptosis.
 
-Seborrheic keratosis is a common, benign, slow-growing epidermal tumour of keratinocytes, often seen in older adults. Because calcipotriol acts on keratinocyte growth and differentiation, it is plausible that it could cause regression of these lesions. Published reports are consistent with this: a case series of facial flat seborrheic keratosis showed complete regression, and a larger series of senile warts (seborrheic keratosis) showed responses to topical vitamin D3 analogues.
-
-The evidence is at the clinical-study and case-series level. No registered trials and no confirmed Phase 2/3 randomised controlled trial were found in the data compiled for this report. The very high TxGNN score is consistent with the literature signal but is not proof of efficacy.
+Seborrheic keratosis is a benign overgrowth of epidermal cells that is common in older adults. Because calcipotriol acts on exactly this kind of keratinocyte behaviour, it is mechanistically plausible that it could make these lesions regress. The published reports below are consistent with this idea, and the very high model score agrees with the literature signal. The studies are small and uncontrolled, so they suggest the direction but do not prove efficacy.
 
 ## Clinical Trial Evidence
 
@@ -69,36 +67,36 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Case series (12 patients) | Australas J Dermatol | 0.005% calcipotriol ointment for solitary facial flat seborrheic keratosis; 3–8 months of treatment gave complete regression, with remission lasting 6–10 years |
-| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Clinical/mechanistic study | J Dermatol | Topical vitamin D3 analogues (tacalcitol, calcipotriol, maxacalcitol) in 116 senile wart cases treated for 3–12 months; 35 (30.2%) showed a response, with apoptosis induction proposed as the mechanism |
-| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Clinical report | Clin Calcium | Topical active vitamin D3 ointments applied to senile warts (seborrheic keratosis) as an alternative to surgery, freezing or laser |
-| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Case report | J Dermatol | Marked response of keratosis lichenoides chronica (a related but different keratotic condition) to calcipotriol ointment |
+| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Case series (12 patients) | Australas J Dermatol | 0.005% calcipotriol ointment on solitary flat seborrheic keratosis of the face for 3–8 months; complete regression in the reported patients, with remission lasting 6–10 years |
+| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Clinical study | J Dermatol | Topical vitamin D3 analogues (tacalcitol, calcipotriol, maxacalcitol) for senile warts (seborrheic keratosis) in 116 cases over 3–12 months; 35 (30.2%) responded, with apoptosis induction proposed as the mechanism |
+| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Clinical report | Clin Calcium | Active vitamin D3 ointments applied once or twice daily to senile warts (seborrheic keratosis) as an alternative to freezing, surgery or laser |
+| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Case report | J Dermatol | Marked response of keratosis lichenoides chronica (a different keratotic skin disease) to calcipotriol ointment; indirect support only |
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2592673 (cancelled) | Daivonex | Ointment 50 mcg per g | Not available |
+| 2592673 | Daivonex | Ointment 50 mcg per g | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindications (from the drug-disease knowledge graph, not label text):** The knowledge graph links calcipotriol to contraindications in conditions of calcium and vitamin D handling, including hypercalcemia, hypervitaminosis, nephrocalcinosis, calciphylaxis, calcinosis, and disorders of phosphorus and calcium metabolism. It also lists adrenocortical insufficiency/Addison disease, skin atrophy, several vascular conditions (telangiectasis, hereditary hemorrhagic telangiectasia, peripheral vascular and arterial disease), and several skin disorders (ichthyoses, Darier disease, pseudoxanthoma elasticum, guttate psoriasis, Mongolian spot).
-- **Drug Interactions:** 84 potential interactions were identified, all with an unclassified severity level. Examples include corticosteroids (prednisone, prednisolone, hydrocortisone, triamcinolone), proton pump inhibitors (omeprazole, pantoprazole, lansoprazole, rabeprazole), metformin, simvastatin, doxycycline, clarithromycin and vancomycin.
-- Package insert warnings were not available, so please refer to the package insert for full safety information.
+- **Conditions flagged as contraindication-type relations in the drug-disease data** (not taken from label text): adrenocortical insufficiency, hypercalcemia and other calcium or phosphorus metabolism disorders, nephrocalcinosis, calcinosis and calciphylaxis, hypervitaminosis, skin atrophy, telangiectasia, peripheral vascular disease, and several inherited skin conditions such as ichthyosis, Darier disease and pseudoxanthoma elasticum, as well as guttate psoriasis.
+- **Drug Interactions**: 84 potential interactions were identified, all with unclassified severity. Examples include corticosteroids (prednisone, prednisolone, hydrocortisone, triamcinolone), doxycycline, clarithromycin, metformin and several proton pump inhibitors. Their clinical significance for a topical product has not been assessed.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The seborrheic keratosis signal is supported only by small case series and clinical reports, with no registered trials or randomised evidence. In addition, calcipotriol currently has no valid New Zealand licence, and the package insert safety information is missing. Other predicted indications (for example vulvar conditions, vulvar neoplasms, Paget disease of bone) have no or only indirect evidence and are not supported at present.
+Only small, uncontrolled studies and case reports directly address seborrheic keratosis, and there are no registered trials. The mechanism is plausible and the model score is very high, but the package-insert safety information has not yet been reviewed. Evidence is not yet enough to move forward.
 
 **To proceed, the following is needed:**
-- Medsafe package insert (warnings, contraindications, original approved indications) to complete safety screening
-- Mechanism of action data from DrugBank
-- A controlled study (ideally a randomised trial) of topical calcipotriol in seborrheic keratosis
-- Confirmation of regulatory pathway, since the only New Zealand licence is cancelled
-- Review of the knowledge-graph contraindications (particularly hypercalcemia and skin atrophy) against label text, and assessment of local tolerability on facial skin
+- Review of the Medsafe package insert for warnings and contraindications
+- Controlled trials (ideally randomised) of calcipotriol in seborrheic keratosis, with comparison against standard treatments such as cryotherapy
+- Detailed mechanism of action data
+- Assessment of the clinical relevance of the listed drug interactions and of local skin tolerability on facial skin
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **obstructive lung disease**, w
 |------|------|
 | Original Indication | Asthma (other listed uses: intrinsic and allergic asthma, bronchitis, pulmonary emphysema; the regulatory record contains no approved indication text) |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L1 |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -113,7 +113,7 @@ Four further trials were retrieved but contribute little: NCT04973345 (withdrawn
 
 ## Safety Considerations
 
-- **Contraindications / cautions (knowledge-graph associations, not label text)**: hypertension, epilepsy, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, sudden cardiac arrest, heart conduction disease, myocardial ischaemia, coronary artery disease, respiratory failure, pulmonary oedema, hyperthyroidism (Graves disease, thyrotoxicosis) and placental abruption.
+- **Contraindications / cautions (not label text)**: hypertension, epilepsy, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, sudden cardiac arrest, heart conduction disease, myocardial ischaemia, coronary artery disease, respiratory failure, pulmonary oedema, hyperthyroidism (Graves disease, thyrotoxicosis) and placental abruption.
 - **Drug Interactions**: 407 interactions were identified. Examples:
   - Moderate: epinephrine, antidiabetic agents (acarbose, alogliptin, pioglitazone, canagliflozin, chlorpropamide, albiglutide), clarithromycin, famotidine, loperamide, isometheptene, and laxatives or bowel preparations (bisacodyl, picosulfuric acid, polyethylene glycol).
   - Minor: corticosteroids (hydrocortisone, dexamethasone, budesonide, beclomethasone, betamethasone, triamcinolone).
@@ -140,8 +140,8 @@ Several large completed Phase 3 trials in asthma include terbutaline as an activ
 
 ## Other Predicted Indications (Not Recommended)
 
-- **Respiratory malformation (score 99.52%, L4, Hold)**: The retrieved evidence concerns asthma, bronchitis and unrelated topics, and none of it shows an effect on structural malformation. The high score probably reflects network proximity to respiratory disease terms.
-- **Rienhoff syndrome (score 99.38%, L5, Hold)**: No trials or literature were found and no plausible mechanistic link can be established. The prediction should not be acted on without independent validation.
+- **Respiratory malformation (score 0.9952, L4, Hold)**: The retrieved evidence concerns asthma, bronchitis and unrelated topics, and none of it shows an effect on structural malformation. The high score probably reflects network proximity to respiratory disease terms.
+- **Rienhoff syndrome (score 0.9938, L5, Hold)**: No trials or literature were found and no plausible mechanistic link can be established. The prediction should not be acted on without independent validation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

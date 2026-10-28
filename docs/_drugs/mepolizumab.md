@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mepolizumab
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 285
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Mepolizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L4). Approved use: Eosinophilic pneumonia"
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
+description: "Mepolizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mepolizumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Mepolizumab: From Eosinophilic Pneumonia to Thrombocytopenia Due to Immune Destruction
+## Mepolizumab: Thrombocytopenia due to immune destruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Mepolizumab is an anti-IL-5 antibody, with eosinophilic pneumonia and pulmonary eosinophilia as its original indications in the knowledge graph.
+Mepolizumab is an anti-IL-5 antibody, with eosinophilic pneumonia and pulmonary eosinophilia as its original indications.
 The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**,
 but support is thin: **0 clinical trials** and **1 publication** (a case report) have been compiled.
 
@@ -46,12 +46,12 @@ but support is thin: **0 clinical trials** and **1 publication** (a case report)
 
 | Item | Content |
 |------|------|
-| Original Indication | Eosinophilic pneumonia; pulmonary eosinophilia (from the knowledge graph, as no approved indication text is available in the New Zealand licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thrombocytopenia due to immune destruction |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| TxGNN Prediction Score | 0.9966 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,7 +76,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2606836 | Nucala (cancelled) | Inj 100 mg prefilled pen | Not available |
+| 2606836 | Nucala (valid) | Inj 100 mg prefilled pen | Not available |
 
 ## Safety Considerations
 
@@ -86,10 +86,10 @@ Please refer to the package insert for safety information. No drug interaction r
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 2 | Primary release disorder of platelets | 99.61% | L4 | Only a review of hypereosinophilic syndrome is linked; no plausible IL-5 pathway to platelet secretion defects |
-| 3 | Pseudo-von Willebrand disease | 99.44% | L5 | Caused by GP1BA gain-of-function variants; no mechanistic link, no literature |
-| 4 | Autoimmune thrombocytopenic | 99.33% | L5 | Overlaps with the top-ranked entry; should be consolidated with it |
-| 5 | Glanzmann thrombasthenia | 99.28% | L5 | Integrin αIIbβ3 defect; likely a false positive from network proximity |
+| 2 | Primary release disorder of platelets | 0.9961 | L5 | Only a review of hypereosinophilic syndrome is linked; no plausible IL-5 pathway to platelet secretion defects |
+| 3 | Pseudo-von Willebrand disease | 0.9944 | L5 | Caused by GP1BA gain-of-function variants; no mechanistic link, no literature |
+| 4 | Autoimmune thrombocytopenic | 0.9933 | L5 | Overlaps with the top-ranked entry; should be consolidated with it |
+| 5 | Glanzmann thrombasthenia | 0.9928 | L5 | Integrin αIIbβ3 defect; likely a false positive from network proximity |
 
 ## Conclusion and Next Steps
 

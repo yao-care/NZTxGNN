@@ -6,7 +6,7 @@ nav_order: 417
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Sacubitril: predicted new indication Top-ranked: brain small vessel disease 1 with or without ocular anoma… (evidence level L5). Approved use: Not stated in the New Zealand licence data (the combinat…"
+description: "Sacubitril: predicted new indication Top-ranked: brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not stated in the New Zealand licence data (the combinat…"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Sacubitril: From Heart Failure to Diabetic Nephropathy
+## Sacubitril: From Heart Failure to brain small vessel disease 1 with or without ocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,21 +48,21 @@ Overall evidence for the top-ranked prediction is only model-based, so this repo
 |------|------|
 | Original Indication | Not stated in the New Zealand licence data (the combination is generally used for heart failure) |
 | Predicted New Indication | Top-ranked: brain small vessel disease 1 with or without ocular anomalies (best-supported: diabetic nephropathy) |
-| TxGNN Prediction Score | 99.58% (top-ranked); 99.50% (diabetic nephropathy) |
+| TxGNN Prediction Score | 0.9958 (top-ranked); 0.9950 (diabetic nephropathy) |
 | Evidence Level | L5 (top-ranked); L3 (diabetic nephropathy) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (top-ranked); diabetic nephropathy is a research question |
 
 **Other predictions, for context**
 
 | Rank | Predicted Indication | Score | Evidence Level | Data Available |
 |------|------|------|------|------|
-| 1 | Brain small vessel disease 1 with or without ocular anomalies | 99.58% | L5 | 1 unrelated paper (systemic right ventricular failure) |
-| 2 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 99.57% | L5 | None |
-| 3 | Diabetic nephropathy | 99.50% | L3 | 1 trial, 15 publications |
-| 4 | Rheumatoid arthritis | 99.35% | L5 | 1 unrelated case report |
-| 5 | Hemoglobinopathy | 99.18% | L5 | None |
+| 1 | Brain small vessel disease 1 with or without ocular anomalies | 0.9958 | L5 | 1 unrelated paper (systemic right ventricular failure) |
+| 2 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 0.9957 | L5 | None |
+| 3 | Diabetic nephropathy | 0.9950 | L3 | 1 trial, 15 publications |
+| 4 | Rheumatoid arthritis | 0.9935 | L5 | 1 unrelated case report |
+| 5 | Hemoglobinopathy | 0.9918 | L5 | None |
 
 ## Why is This Prediction Reasonable?
 
@@ -101,7 +101,7 @@ For the other predictions, the only literature retrieved was PMID 37169551 (rank
 
 ## New Zealand Market Information
 
-All three authorisations are cancelled, and no approved indication text is recorded.
+All three authorisations are valid, and no approved indication text is recorded.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -120,14 +120,14 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction and the other low-evidence predictions (ranks 2, 4 and 5) rest on model scores alone, with no supporting evidence. Diabetic nephropathy has a plausible mechanism and a Phase 4 trial, but that trial has unknown status and no results, and the human renal evidence is limited. Also, no product is currently marketed in New Zealand, since all licences are cancelled.
+- The top-ranked prediction and the other low-evidence predictions (ranks 2, 4 and 5) rest on model scores alone, with no supporting evidence. Diabetic nephropathy has a plausible mechanism and a Phase 4 trial, but that trial has unknown status and no results, and the human renal evidence is limited. Also, the drug is marketed in New Zealand, with 3 valid licences of 3.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Detailed mechanism of action data
 - Results or status confirmation for NCT06501651, and a completed randomised trial with renal outcomes
 - Evidence separating the contribution of sacubitril from that of valsartan in diabetic nephropathy
-- Clarification of the regulatory pathway, given that all New Zealand licences are cancelled
+- Clarification of the regulatory pathway, given that the drug is marketed in New Zealand with 3 valid licences of 3
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

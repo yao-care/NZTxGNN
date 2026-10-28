@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **Hurler syndrome**, but there 
 |------|------|
 | Original Indication | Gaucher disease |
 | Predicted New Indication | Hurler syndrome |
-| TxGNN Prediction Score | 99.52% |
+| TxGNN Prediction Score | 0.9952 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the source database. Based on known information, taliglucerase alfa is a recombinant glucocerebrosidase (beta-glucosidase) that hydrolyses glucosylceramide, and its efficacy in Gaucher disease is established.
 
-Hurler syndrome (MPS I) is caused by a deficiency of alpha-L-iduronidase, which leads to accumulation of glycosaminoglycans (dermatan sulfate and heparan sulfate). Both Gaucher disease and Hurler syndrome are lysosomal storage disorders, so the high score most likely reflects shared lysosomal pathway annotations in the knowledge graph.
+Hurler syndrome (MPS I) is caused by a deficiency of alpha-L-iduronidase, which leads to accumulation of glycosaminoglycans (dermatan sulfate and heparan sulfate). Both Gaucher disease and Hurler syndrome are lysosomal storage disorders, so the high score most likely reflects similarities the TxGNN model (deep learning) learned between related diseases, not biological evidence.
 
 However, glucocerebrosidase does not break down the substrates that accumulate in MPS I, so there is no direct enzymatic rationale. Secondary glycolipid accumulation does occur in MPS, but this does not justify treatment with this enzyme. The link is a network-based prediction only.
 
@@ -65,10 +65,10 @@ Other predictions from the same model show a similar pattern:
 
 | Predicted Indication | Score | Assessment |
 |------|------|------|
-| Scheie syndrome | 99.29% | Attenuated MPS I; same substrate mismatch as Hurler syndrome |
-| Benign neoplasm of adrenal gland | 99.28% | No plausible mechanistic link; likely a knowledge-graph artefact |
-| Autosomal ichthyosis syndrome with fatal disease course | 99.24% | Tenuous link through glucosylceramide metabolism in the skin barrier; IV enzyme does not reach the epidermis or cross the blood-brain barrier effectively |
-| Cholesteryl ester storage disease | 99.12% | Different enzyme deficiency (lysosomal acid lipase); a specific enzyme replacement is already the approved approach |
+| Scheie syndrome | 0.9929 | Attenuated MPS I; same substrate mismatch as Hurler syndrome |
+| Benign neoplasm of adrenal gland | 0.9928 | No plausible mechanistic link; likely a TxGNN model (deep learning) artefact |
+| Autosomal ichthyosis syndrome with fatal disease course | 0.9924 | Tenuous link through glucosylceramide metabolism in the skin barrier; IV enzyme does not reach the epidermis or cross the blood-brain barrier effectively |
+| Cholesteryl ester storage disease | 0.9912 | Different enzyme deficiency (lysosomal acid lipase); a specific enzyme replacement is already the approved approach |
 
 ## Clinical Trial Evidence
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omeprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 340
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Omeprazole: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Omeprazole: From Gastric Ulcer and Acid-Related Disease to Duodenogastric Reflux
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Omeprazole is a proton pump inhibitor originally used for acid-related upper gastrointestinal conditions such as gastric and duodenal ulcer, gastroesophageal reflux disease, esophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the supporting evidence is weak: **1 related clinical trial** (a non-treatment diagnostic imaging study) and **15 publications**, most of them animal studies, small clinical studies or background articles.
 
 ---
 
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome (from the knowledge graph; no approved-indication text is available from the New Zealand licences) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 9 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9964 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Authorizations | 9 (valid: 9) |
 | Recommended Decision | Hold (treat as a research question only) |
 
 ---
@@ -65,7 +64,7 @@ Duodenogastric reflux is closely related to the conditions omeprazole already tr
 
 Mechanistically the fit is only partial. Omeprazole reduces the acid component of mucosal injury, but it does not stop bile and duodenal contents from refluxing into the stomach. Several animal studies (PMIDs 10389684, 8943968, 33027361) suggest that acid blockade combined with duodenogastric reflux may promote foregut mucosal growth and gastric carcinogenesis in rats. Small human studies in Barrett's oesophagus and a paediatric study of oesophageal bile reflux have looked at omeprazole's effect on bile reflux, but they are limited in size and quality.
 
-A second prediction, **duodenal obstruction** (score 99.64%), was also reviewed. It is a mainly mechanical condition that needs dilation or surgery. Omeprazole can only treat an underlying ulcer or H. pylori-related inflammation, so the link is indirect. The retrieved literature consists of case reports with no omeprazole-specific efficacy data, and the assessment for that indication is Hold.
+A second prediction, **duodenal obstruction** (score 0.9964), was also reviewed. It is a mainly mechanical condition that needs dilation or surgery. Omeprazole can only treat an underlying ulcer or H. pylori-related inflammation, so the link is indirect. The retrieved literature consists of case reports with no omeprazole-specific efficacy data, and the assessment for that indication is Hold.
 
 ---
 
@@ -99,15 +98,14 @@ None of these is a randomised controlled trial. The human studies are small, and
 
 ## New Zealand Market Information
 
-All nine licences found are cancelled, and no approved-indication text is available for them.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2692163 | Omeprazole Teva | Capsule 20 mg | Cancelled |
-| 2604949 | Omeprazole actavis 20 | Capsule 20 mg | Cancelled |
-| 2586908 | Ocicure | Injection 40 mg ampoule with diluent | Cancelled |
-| 2604957 | Omeprazole actavis 40 | Capsule 40 mg | Cancelled |
-| 2604930 | Omeprazole actavis 10 | Capsule 10 mg | Cancelled |
+| 2692163 | Omeprazole Teva | Capsule 20 mg | Valid |
+| 2604949 | Omeprazole actavis 20 | Capsule 20 mg | Valid |
+| 2586908 | Ocicure | Injection 40 mg ampoule with diluent | Valid |
+| 2604957 | Omeprazole actavis 40 | Capsule 40 mg | Valid |
+| 2604930 | Omeprazole actavis 10 | Capsule 10 mg | Valid |
 
 Four further cancelled licences exist (Midwest powder, Omeprazole Teva 10 mg and 40 mg capsules, and Dr Reddy's Omeprazole injection).
 
@@ -131,7 +129,7 @@ Please refer to the package insert for the full warnings and precautions.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model similarity to approved acid-related indications rather than direct evidence. There is no relevant treatment trial, the human data are small, and animal studies raise a possible carcinogenesis concern. Omeprazole acts on acid, not on bile reflux. In addition, no New Zealand licence is currently valid.
+The prediction rests on model similarity to approved acid-related indications rather than direct evidence. There is no relevant treatment trial, the human data are small, and animal studies raise a possible carcinogenesis concern. Omeprazole acts on acid, not on bile reflux.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data (MOA)

@@ -4,17 +4,17 @@ title: Ketoprofen
 parent: Model Prediction Only (L5)
 nav_order: 252
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, arthropathy"
 monitor_inn: "KETOPROFEN"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+description: "Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ketoprofen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ketoprofen: From Rheumatoid Arthritis and Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Ketoprofen: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (from the knowledge graph; no approved indication text is available for the New Zealand licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available for ketoprofen. It is a member of the non-selective cyclooxygenase (COX) inhibitor class of NSAIDs. These drugs reduce prostaglandin synthesis, which relieves pain and inflammation in arthritis.
 
-For this predicted indication, **no credible mechanistic link was identified**. Hunter-Thompson type acromesomelic dysplasia is a rare skeletal dysplasia caused by loss-of-function variants in *CDMP1/GDF5*, which affects BMP signalling. Ketoprofen has no known action on the GDF5/BMP pathway. The high score most likely reflects proximity in the knowledge graph, such as shared skeletal and joint phenotype terms with ketoprofen's arthritis indications, rather than a biological rationale. Symptomatic relief of joint pain is conceivable, but it would not modify the disease.
+For this predicted indication, **no credible mechanistic link was identified**. Hunter-Thompson type acromesomelic dysplasia is a rare skeletal dysplasia caused by loss-of-function variants in *CDMP1/GDF5*, which affects BMP signalling. Ketoprofen has no known action on the GDF5/BMP pathway. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as shared skeletal and joint phenotype terms with ketoprofen's arthritis indications, not biological evidence. Symptomatic relief of joint pain is conceivable, but it would not modify the disease.
 
 ### Other Predictions Reviewed
 
@@ -65,16 +65,15 @@ Among the top 10 predictions, only two have a plausible, class-level rationale. 
 
 | Rank | Predicted Indication | Score | Assessment |
 |---|---|---|---|
-| 1 | Acromesomelic dysplasia, Hunter-Thompson type | 99.98% | No mechanistic link |
-| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 99.98% | No mechanistic link |
-| 3 | Myosclerosis | 99.98% | No direct link; at most symptomatic analgesia |
-| 4 | Brachyolmia | 99.98% | No mechanistic link |
-| 5 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.98% | No mechanistic link |
-| 6 | Brachydactyly-syndactyly syndrome | 99.97% | No mechanistic link |
-| 7 | Pseudoachondroplasia | 99.95% | Weak and indirect; symptomatic only |
-| 8 | Spondyloarthropathy, susceptibility to | 99.86% | Biologically plausible (NSAIDs are first-line therapy for axial spondyloarthritis); research question (L4) |
-| 9 | WHIM syndrome | 99.86% | No mechanistic link |
-| 10 | Juvenile arthritis due to defect in LACC1 | 99.74% | Indirect; symptomatic adjunct only; research question (L4) |
+| 1 | Acromesomelic dysplasia, Hunter-Thompson type | 0.9998 | No mechanistic link |
+| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 0.9998 | No mechanistic link |
+| 3 | Myosclerosis | 0.9998 | No direct link; at most symptomatic analgesia |
+| 4 | Brachyolmia | 0.9998 | No mechanistic link |
+| 5 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9998 | No mechanistic link |
+| 6 | Brachydactyly-syndactyly syndrome | 0.9997 | No mechanistic link |
+| 7 | Pseudoachondroplasia | 0.9995 | Weak and indirect; symptomatic only |
+| 9 | WHIM syndrome | 0.9986 | No mechanistic link |
+| 10 | Juvenile arthritis due to defect in LACC1 | 0.9974 | Indirect; symptomatic adjunct only; research question (L4) |
 
 **Spondyloarthropathy** is the most credible candidate, but it is essentially an extension of ketoprofen's existing anti-inflammatory use and not novel repurposing.
 

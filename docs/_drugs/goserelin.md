@@ -6,9 +6,9 @@ nav_order: 221
 evidence_level: L2
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Goserelin: predicted new indication Amenorrhea (evidence level L2). Approved use: Endometriosis"
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
+description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Goserelin
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **3**
 
 </div>
 
-## Goserelin: From Endometriosis to Amenorrhea
+## Goserelin: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Note that amenorrhea is largely an expected pharmacological effect of goserelin,
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (the approved indication text is not available in the New Zealand licence records; this comes from the knowledge graph) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisations) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ This is the intended pharmacological effect, and it is the same effect that unde
 
 The caveat is that amenorrhea here is a treatment effect or a fertility-protection endpoint, not a distinct disease being cured. Whether it counts as a therapeutic indication depends on the intended use, such as menstrual suppression or protecting the ovaries during chemotherapy.
 
-The other two predictions (renal hypoplasia, unilateral and bilateral) have high model scores (about 99%) but no trials or literature and no plausible mechanistic link. They are likely graph-based artefacts and are not pursued here.
+The other two predictions (renal hypoplasia and renal hypoplasia, bilateral) have high scores from the TxGNN model (deep learning), 0.9906 each, but no trials or literature and no plausible mechanistic link. These scores may reflect similarities the model learned between related diseases, not biological evidence, and are not pursued here.
 
 ---
 
@@ -99,8 +99,8 @@ The other two predictions (renal hypoplasia, unilateral and bilateral) have high
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 678066 | Zoladex | Implant 3.6 mg, syringe | Not available (cancelled) |
-| 362107 | Zoladex | Implant 10.8 mg, syringe | Not available (cancelled) |
+| 678066 | Zoladex | Implant 3.6 mg, syringe | Not available (valid) |
+| 362107 | Zoladex | Implant 10.8 mg, syringe | Not available (valid) |
 
 ---
 

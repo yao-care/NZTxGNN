@@ -4,17 +4,17 @@ title: Felodipine
 parent: Model Prediction Only (L5)
 nav_order: 195
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Felodipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Felodipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Felodipine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Felodipine: From Hypertension to Pulmonary Hypertension (Multifactorial)
+## Felodipine: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model's top-ranked prediction is **pulmonary hypertension with unclear
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder); the New Zealand licence records contain no approved indication text |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 3 (all cancelled, 0 currently valid) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Based on known information, felodipine is a dihydropyridine L-type calcium channel blocker. It relaxes vascular smooth muscle, and its efficacy in hypertension is established.
 
-Pulmonary hypertension also involves increased vascular tone, so vasodilation is biologically plausible. However, calcium channel blockers help only a small vasoreactive subset of pulmonary arterial hypertension patients. The multifactorial group is heterogeneous, so the high score (99.91%) is a knowledge-graph prediction and not proof of benefit.
+Pulmonary hypertension also involves increased vascular tone, so vasodilation is biologically plausible. However, calcium channel blockers help only a small vasoreactive subset of pulmonary arterial hypertension patients. The multifactorial group is heterogeneous, so the high score (0.9991) is a TxGNN model (deep learning) prediction and not proof of benefit.
 
 Other predictions for this drug fall into three groups:
 - **Extensions of the existing indication:** malignant hypertensive renal disease and malignant renovascular hypertension. Blood pressure lowering is relevant, but both are largely extensions of the original indication, and their management usually relies on rapid-acting parenteral agents.
@@ -75,7 +75,6 @@ For the top-ranked indication (pulmonary hypertension, multifactorial) and for m
 
 The two predictions with literature are summarised below.
 
-**Prinzmetal angina (score 99.07%, evidence level L2)**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -86,7 +85,7 @@ The two predictions with literature are summarised below.
 | [14689111](https://pubmed.ncbi.nlm.nih.gov/14689111/) | 2003 | Review | Herz | Overview of differential use of calcium antagonists |
 | [7728649](https://pubmed.ncbi.nlm.nih.gov/7728649/) | 1995 | Review | Can J Cardiol | Role of calcium channel blockers in angina, focusing on felodipine; first-choice drugs in Prinzmetal's angina |
 
-**Chronic pulmonary heart disease (score 99.19%, evidence level L3)**
+**Chronic pulmonary heart disease (score 0.9919, evidence level L3)**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -100,11 +99,11 @@ For pulmonary hypertension owing to lung disease/hypoxia, nine retrieved publica
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2041510 | Felo 5 ER | Tab long-acting 5 mg | Not recorded (cancelled) |
-| 353760 | Plendil ER | Tab long-acting 2.5 mg | Not recorded (cancelled) |
-| 2041499 | Felo 10 ER | Tab long-acting 10 mg | Not recorded (cancelled) |
+| 2041510 | Felo 5 ER | Tab long-acting 5 mg | Not recorded (valid) |
+| 353760 | Plendil ER | Tab long-acting 2.5 mg | Not recorded (valid) |
+| 2041499 | Felo 10 ER | Tab long-acting 10 mg | Not recorded (valid) |
 
-All three authorizations are cancelled, so felodipine currently has no valid marketed product in New Zealand.
+All three authorizations are valid, so felodipine is currently marketed in New Zealand.
 
 ## Safety Considerations
 
@@ -119,14 +118,13 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked pulmonary hypertension prediction rests on model score alone (L5), with no trials or literature. Felodipine's market authorizations in New Zealand are all cancelled. The best-supported option, Prinzmetal angina (L2), relies on small, old studies and is a class effect of calcium channel blockers rather than a new repurposing finding.
+The top-ranked pulmonary hypertension prediction rests on model score alone (L5), with no trials or literature. Felodipine's market authorizations in New Zealand are all valid (3 of 3).
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - A targeted literature review of calcium channel blockers in vasoreactive pulmonary arterial hypertension
 - A decision on whether Prinzmetal angina warrants further work, given the cancelled market status and the availability of other calcium channel blockers
-- Evaluation of regulatory and commercial feasibility, since there is currently no valid New Zealand licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

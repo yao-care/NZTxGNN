@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 62
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
-description: "Benzbromarone: predicted new indication Renal hypouricaemia (evidence level L5). Approved use: Gout"
 monitor_inn: "BENZBROMARONE"
 predicted_indications: ["hypouricemia, renal"]
+last_modified_at: 2026-10-27
+description: "Benzbromarone: predicted new indication Renal hypouricemia (hypouricemia, renal) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Benzbromarone
@@ -33,33 +33,33 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Benzbromarone: From Gout and Hyperuricaemia to Renal Hypouricaemia
+## Benzbromarone: URAT1 inhibitor uricosuric → Renal hypouricemia (hypouricemia, renal)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Benzbromarone is a uricosuric drug originally used to treat gout and hyperuricaemia.
-The TxGNN model predicts it may be effective for **renal hypouricaemia**, but there are **no registered clinical trials** and **18 publications**, none of which show a therapeutic benefit. The drug's mechanism points in the opposite direction to the disease, so this prediction is most likely a false positive.
+Benzbromarone is a uricosuric drug that lowers serum uric acid by blocking renal urate reabsorption.
+The TxGNN model predicts it for **renal hypouricemia (hypouricemia, renal)**, but **no clinical trials** and **18 publications** were found, and none of them studies benzbromarone as a treatment for this condition. The prediction is most likely a false positive.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gout; hyperuricaemia (from the knowledge graph; no approved indication text is available from the New Zealand licence) |
-| Predicted New Indication | Renal hypouricaemia |
-| TxGNN Prediction Score | 99.07% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Renal hypouricemia (hypouricemia, renal) |
+| TxGNN Prediction Score | 0.9907 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, benzbromarone is a potent uricosuric that inhibits the urate transporter URAT1 (SLC22A12), reducing renal urate reabsorption and lowering serum uric acid. Its efficacy in gout and hyperuricaemia comes from this action.
+Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, benzbromarone is a potent uricosuric that inhibits URAT1 (SLC22A12), reducing renal urate reabsorption and lowering serum uric acid.
 
-Renal hypouricaemia is the opposite problem: excessive urate loss through the kidneys, typically caused by loss-of-function variants in URAT1 (SLC22A12) or GLUT9 (SLC2A9). Benzbromarone would therefore reproduce or worsen the underlying defect rather than correct it. The disease is effectively a genetic version of URAT1 inhibition. It also carries risks of exercise-induced acute renal failure and nephrolithiasis, which a uricosuric could aggravate.
+Renal hypouricemia is characterised by excessive urinary urate loss, most often caused by loss-of-function variants in URAT1 (SLC22A12) or GLUT9 (SLC2A9). Benzbromarone's pharmacology would therefore reproduce or worsen the underlying defect rather than correct it. The high score of 0.9907 most likely reflects a close association between the drug and the urate transport pathway, not a therapeutic relationship.
 
-The high TxGNN score most likely reflects a network association between benzbromarone and the URAT1/uric acid transport axis, not a therapeutic relationship. In the literature, benzbromarone appears as a **diagnostic probe** (together with pyrazinamide) used to classify the type of tubular urate transport defect, not as a treatment.
+In the publications, benzbromarone appears as a **diagnostic probe**. It is used in urate clearance tests, together with pyrazinamide, to classify the type of tubular defect. It is not used as a treatment. The disease also carries risks such as exercise-induced acute renal failure and kidney stones, which a uricosuric could aggravate.
 
 ## Clinical Trial Evidence
 
@@ -67,51 +67,44 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The publications retrieved are mostly reviews, case reports and case series. None is a controlled study of benzbromarone as a treatment for renal hypouricaemia. The 10 most relevant are listed below.
+None of the publications tests benzbromarone as therapy for renal hypouricemia. The selection below covers the most relevant ones, with review articles prioritised.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical Rheumatology | Narrative update on the causes, diagnosis and clinical handling of hypouricaemia (serum urate < 2 mg/dL) |
-| [14694169](https://pubmed.ncbi.nlm.nih.gov/14694169/) | 2004 | Cohort/Genetic analysis | J Am Soc Nephrol | In 32 patients with renal hypouricaemia, SLC22A12 (URAT1) mutations were linked to increased urate clearance |
-| [8976099](https://pubmed.ncbi.nlm.nih.gov/8976099/) | 1996 | Review | Nihon Rinsho | Concept and classification of urate metabolism abnormalities (hyperuricaemia vs hypouricaemia) |
-| [14655203](https://pubmed.ncbi.nlm.nih.gov/14655203/) | 2003 | Case report | Am J Kidney Dis | Two brothers with hereditary renal hypouricaemia and exercise-induced acute renal failure; full recovery with conservative care |
-| [8863890](https://pubmed.ncbi.nlm.nih.gov/8863890/) | 1996 | Case report | Acta Paediatr | Recurrent exercise-induced acute renal failure; a benzbromarone/pyrazinamide test suggested a presecretory reabsorption defect |
-| [4009341](https://pubmed.ncbi.nlm.nih.gov/4009341/) | 1985 | Case series | J Pediatr | In children with hereditary renal hypouricaemia, benzbromarone did not change urate clearance ratios |
-| [8893184](https://pubmed.ncbi.nlm.nih.gov/8893184/) | 1996 | Case report/Physiological study | Nephron | Benzbromarone and pyrazinamide used to analyse urate transport in Fanconi syndrome with renal hypouricaemia |
-| [3380222](https://pubmed.ncbi.nlm.nih.gov/3380222/) | 1988 | Case report/Physiological study | Nephron | Urate clearance increased further after benzbromarone in a patient with an isolated renal urate transport defect |
-| [8302413](https://pubmed.ncbi.nlm.nih.gov/8302413/) | 1993 | Case report | Nephron | Benzbromarone markedly increased urate clearance in renal hypouricaemia with urolithiasis; the urolithiasis was treated by urine alkalisation |
-| [9144014](https://pubmed.ncbi.nlm.nih.gov/9144014/) | 1997 | Case report | Intern Med | Benzbromarone suppression test used to classify urate transport defects in two cases with nephrolithiasis |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical Rheumatology | Narrative update on hypouricemia (serum urate < 2 mg/dL), its causes and clinical relevance |
+| [8976099](https://pubmed.ncbi.nlm.nih.gov/8976099/) | 1996 | Review | Nihon Rinsho | Concept and classification of urate metabolism abnormalities |
+| [14694169](https://pubmed.ncbi.nlm.nih.gov/14694169/) | 2004 | Cohort/Genetic analysis | J Am Soc Nephrol | Renal hypouricemia in 32 Japanese patients, linked to SLC22A12 (URAT1) mutations |
+| [10879667](https://pubmed.ncbi.nlm.nih.gov/10879667/) | 2000 | Case series | Clin Nephrol | Renal hypouricemia with exercise-induced acute renal failure and chronic renal dysfunction |
+| [4009341](https://pubmed.ncbi.nlm.nih.gov/4009341/) | 1985 | Case series | J Pediatr | In four children with hereditary renal hypouricemia, benzbromarone did not change urate clearance ratios |
+| [14655203](https://pubmed.ncbi.nlm.nih.gov/14655203/) | 2003 | Case report | Am J Kidney Dis | Two brothers with hereditary renal hypouricemia and exercise-induced acute renal failure |
+| [8863890](https://pubmed.ncbi.nlm.nih.gov/8863890/) | 1996 | Case report | Acta Paediatr | Recurrent exercise-induced renal failure; a benzbromarone/pyrazinamide test used to locate the defect |
+| [3380222](https://pubmed.ncbi.nlm.nih.gov/3380222/) | 1988 | Case report | Nephron | Isolated renal urate transport defect; urate clearance rose further after benzbromarone |
+| [9144014](https://pubmed.ncbi.nlm.nih.gov/9144014/) | 1997 | Case report | Intern Med | Two cases with kidney stones; benzbromarone suppression test used for classification |
+| [8893184](https://pubmed.ncbi.nlm.nih.gov/8893184/) | 1996 | Case report | Nephron | Uric acid transport in Fanconi syndrome with renal hypouricemia, analysed with pyrazinamide and benzbromarone |
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2583194 (cancelled) | Narcaricin mite | Tab 50 mg | Not recorded |
-
-## Cytotoxicity
-
-Not applicable. Benzbromarone is not an antineoplastic drug, so this section is omitted.
+| 2583194 | Narcaricin mite | Tab 50 mg | Not recorded in the local data |
 
 ## Safety Considerations
 
-No usable warning, contraindication or drug interaction data were available for this report. Please refer to the package insert for safety information.
+Please refer to the package insert for safety information.
 
-Pharmacological concerns specific to this prediction:
-- A uricosuric could further increase urinary urate excretion in a disease already defined by renal urate wasting.
-- Patients with renal hypouricaemia are already at risk of exercise-induced acute renal failure and nephrolithiasis.
+The publications do indicate that renal hypouricemia is associated with exercise-induced acute renal failure and kidney stones. A uricosuric such as benzbromarone could plausibly aggravate these risks.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.07%), but the evidence level is L5: there are no clinical trials and no published studies showing benefit. The mechanism (URAT1 inhibition) would mimic or worsen the disease rather than treat it, so the prediction is likely a false positive caused by the direction of effect. The drug also has no currently valid New Zealand licence.
+The evidence is at L5, with only a model prediction and no study showing a benefit of benzbromarone in this condition. The drug's mechanism, increasing urinary urate excretion, points in the opposite direction to what the disease would need, so the prediction is probably an artefact of the drug's link to the URAT1 pathway.
 
 **To proceed, the following is needed:**
-- A credible mechanistic rationale showing how URAT1 inhibition could benefit this condition (none is currently apparent)
 - Mechanism of action data confirmed from DrugBank
-- Package insert warnings and contraindications from Medsafe
-- Safety assessment in patients with renal hypouricaemia, especially for acute renal failure and nephrolithiasis
+- Safety information from the Medsafe package insert (warnings and contraindications)
+- Any new evidence showing a therapeutic rationale; without it, this direction should not be pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

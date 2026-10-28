@@ -6,9 +6,9 @@ nav_order: 324
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Tyrosinemia"
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
+description: "Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nitisinone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nitisinone: From Tyrosinemia to Renal Tubular Acidosis
+## Nitisinone: Renal tubular acidosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ The prediction is a computational signal only.
 
 | Item | Content |
 |------|------|
-| Original Indication | Tyrosinemia (from the knowledge graph; the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisations) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. From general knowledge, nitisinone inhibits 4-hydroxyphenylpyruvate dioxygenase (HPPD), an enzyme in tyrosine breakdown. Blocking it prevents the build-up of toxic downstream metabolites such as succinylacetone in hereditary tyrosinemia type 1.
 
-Renal tubular dysfunction (a Fanconi-type picture) is a feature of hereditary tyrosinemia type 1. This is probably why the model links the two conditions. However, that kidney involvement is caused by the toxic metabolites and is already covered by the original indication. No separate mechanistic rationale has been established for other forms of renal tubular acidosis, so the high score (0.9996) should be read as a graph-based association rather than evidence of therapeutic benefit.
+Renal tubular dysfunction (a Fanconi-type picture) is a feature of hereditary tyrosinemia type 1. This is probably why the model links the two conditions. However, that kidney involvement is caused by the toxic metabolites and is already covered by the original indication. No separate mechanistic rationale has been established for other forms of renal tubular acidosis, so the high score (0.9996) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of therapeutic benefit.
 
 ## Clinical Trial Evidence
 
@@ -74,9 +74,9 @@ For context, the second-ranked prediction (galactosemia) returned three narrativ
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2677687 | Nitisinone LogixX Pharma | Cap 2 mg | Not recorded (cancelled) |
-| 2677695 | Nitisinone LogixX Pharma | Cap 5 mg | Not recorded (cancelled) |
-| 2677709 | Nitisinone LogixX Pharma | Cap 10 mg | Not recorded (cancelled) |
+| 2677687 | Nitisinone LogixX Pharma | Cap 2 mg | Not recorded (valid) |
+| 2677695 | Nitisinone LogixX Pharma | Cap 5 mg | Not recorded (valid) |
+| 2677709 | Nitisinone LogixX Pharma | Cap 10 mg | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -90,13 +90,13 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no clinical trials or supporting publications, and no independent mechanistic basis beyond the kidney involvement already seen in tyrosinemia. The drug also has no currently valid New Zealand authorisation.
+The prediction rests on a model score alone. There are no clinical trials or supporting publications, and no independent mechanistic basis beyond the kidney involvement already seen in tyrosinemia.
 
 **To proceed, the following is needed:**
 - Mechanism-of-action data and a specific mechanistic hypothesis for renal tubular acidosis, distinguishing it from the tyrosinemia-related kidney effects
 - Targeted literature and trial searches (including case reports and preclinical studies) for nitisinone in renal tubular acidosis
 - The package insert warnings and contraindications, which are needed before any safety screening, with particular attention to kidney disease and blood-count effects
-- Clarification of the regulatory position, since all three New Zealand authorisations are cancelled
+- Clarification of the regulatory position, since all three New Zealand authorisations are valid
 - Route and formulation compatibility assessment (currently capsules only)
 ## Disclaimer
 

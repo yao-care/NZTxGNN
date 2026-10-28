@@ -4,17 +4,17 @@ title: Propylthiouracil
 parent: Moderate Evidence (L3-L4)
 nav_order: 392
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone re… (evidence level L4). Approved use: Hyperthyroidism, Graves disease, thyrotoxicosis, t…"
 monitor_inn: "PROPYLTHIOURACIL"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
+description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (THRB Mutation)
+## Propylthiouracil: Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **resistance to thyroid hormone
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperthyroidism, Graves disease, thyrotoxicosis, thyroid crisis (from the knowledge graph; no approved indication text on the New Zealand licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (0 valid, 1 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -107,7 +107,7 @@ The prediction rests on a model score alone (L4). No clinical trials exist, the 
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Clinical evidence that PTU benefits RTHβ patients, and an assessment of the TSH-rise risk
-- A review of the hepatotoxicity risk and of New Zealand supply options, since no valid licence is currently held
+- A review of the hepatotoxicity risk and of New Zealand supply options; the drug is marketed, with 1 valid licence of 1
 
 ---
 
@@ -115,8 +115,7 @@ The prediction rests on a model score alone (L4). No clinical trials exist, the 
 
 Two further predictions were also reviewed:
 
-- **Neonatal thyrotoxicosis** (TxGNN score 99.40%, L4, recommendation: Research Question). The mechanistic link is strong, but the evidence is indirect (reviews on managing maternal hyperthyroidism in pregnancy, plus one cohort study, PMID 25747892), with no registered trials. Hepatotoxicity concerns limit direct neonatal use, and methimazole is generally preferred outside early pregnancy.
-- **Hyperthyroxinemia** (TxGNN score 99.08%, L4, recommendation: Hold). This is a non-specific laboratory finding, and benefit depends on the cause. Lowering hormone would be inappropriate in familial dysalbuminemic hyperthyroxinemia, where patients are euthyroid. Evidence is limited to animal studies, case reports and observational reports, with no trials.
+- **Hyperthyroxinemia** (TxGNN score 0.9908, L4, recommendation: Hold). This is a non-specific laboratory finding, and benefit depends on the cause. Lowering hormone would be inappropriate in familial dysalbuminemic hyperthyroxinemia, where patients are euthyroid. Evidence is limited to animal studies, case reports and observational reports, with no trials.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

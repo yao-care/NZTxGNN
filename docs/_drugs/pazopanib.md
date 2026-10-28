@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pazopanib
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 352
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Pazopanib: predicted new indication Liposarcoma (evidence level L5). Approved use: Renal cell carcinoma, soft tissue sarcoma"
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+description: "Pazopanib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pazopanib: From Renal Cell Carcinoma and Soft Tissue Sarcoma to Liposarcoma
+## Pazopanib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **Liposarcoma**. This is the hi
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma, soft tissue sarcoma (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
-| Predicted New Indication | Liposarcoma (the top-ranked prediction, Xp11.2/TFE3-translocation renal cell carcinoma, has no trial or literature support) |
-| TxGNN Prediction Score | 99.59% (liposarcoma); 99.63% (top-ranked prediction) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Liposarcoma |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L2 (liposarcoma); L5 (top-ranked prediction) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold (overall); liposarcoma is a Research Question |
 
 **Note on the top-ranked prediction:** The first-ranked prediction (Xp11.2/TFE3-translocation renal cell carcinoma) has no trials or literature. This report therefore focuses on liposarcoma, the first prediction with clinical trial data. Other predictions are summarised in the conclusion.
@@ -91,8 +91,8 @@ Liposarcoma is an adipocytic soft tissue sarcoma. Adipocytic histology was exclu
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2695340 | Pazopanib Teva | Tab 400 mg | Not available (cancelled) |
-| 2695332 | Pazopanib Teva | Tab 200 mg | Not available (cancelled) |
+| 2695340 | Pazopanib Teva | Tab 400 mg | Not available (valid) |
+| 2695332 | Pazopanib Teva | Tab 200 mg | Not available (valid) |
 
 ## Cytotoxicity
 
@@ -101,7 +101,6 @@ Liposarcoma is an adipocytic soft tissue sarcoma. Adipocytic histology was exclu
 | Cytotoxicity Classification | Targeted therapy (multi-target tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert; the knowledge graph flags liver, cardiac (QT), blood pressure and thyroid concerns, so liver function, ECG, blood pressure and thyroid function would be reasonable to consider |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations

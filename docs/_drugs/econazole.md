@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Econazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 171
-evidence_level: L4
-indication_count: 7
-last_modified_at: 2026-10-15
-description: "Econazole: predicted new indication Majocchi granuloma (evidence level L4). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "Econazole"
-predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease"]
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
+last_modified_at: 2026-10-23
+description: "Econazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 ---
 
 # Econazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,95 +33,75 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Econazole: From Tinea Infections to Majocchi Granuloma
+## Econazole: From Dermatophyte Skin Infections to Ectothrix Infectious Disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Econazole is a topical imidazole antifungal, originally used for tinea pedis, tinea corporis, cutaneous candidiasis and pityriasis versicolor.
-The TxGNN model predicts it may be effective for **Majocchi granuloma**, but there are **0 registered clinical trials** and only **1 publication** (a case report that is not confirmed to involve econazole), so the evidence is limited to model prediction and indirect literature.
-
----
+Econazole is an imidazole antifungal. It is used for skin fungal infections such as tinea pedis, tinea corporis and cutaneous candidiasis.
+The TxGNN model predicts it may be useful for **ectothrix infectious disease** (a dermatophyte infection of the hair), but the data compiled for this report contain **0 clinical trials** and **0 publications** directly supporting this prediction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis, pityriasis versicolor, dermatophytosis of groin and perianal area (from the knowledge graph; the New Zealand licence records contain no indication text) |
-| Predicted New Indication | Majocchi granuloma |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| New Zealand Market Status | ✓ Marketed |
-| Number of Authorizations | 2 (1 valid, 1 cancelled) |
+| Original Indication | Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis, pityriasis versicolor, dermatophytosis of groin and perianal area (relations recorded in the knowledge graph; the local licence records contain no indication text) |
+| Predicted New Indication | Ectothrix infectious disease |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
+| Number of approvals | 2 (both single-ingredient licences) |
 | Recommended Decision | Hold |
 
----
+A second prediction, **endothrix infectious disease** (score 0.9997), is also in the data. It has the same evidence status (L5, no trials or literature) and the same Hold recommendation.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, econazole is an imidazole antifungal that inhibits fungal lanosterol 14-alpha-demethylase (ergosterol synthesis). Its efficacy in superficial dermatophyte infections such as tinea corporis is established, and mechanistically it may be applicable to Majocchi granuloma.
+Detailed mechanism-of-action data for econazole are not available in the data compiled for this report. From general pharmacology, econazole is an imidazole antifungal that inhibits fungal lanosterol 14-alpha-demethylase (CYP51). This blocks ergosterol synthesis and damages the fungal cell membrane. This explanation comes from general knowledge, not from the supplied data.
 
-Majocchi granuloma is a deep follicular and perifollicular dermatophyte infection, typically caused by *Trichophyton rubrum*. The causative organisms are the same kind that econazole already targets in tinea, so the mechanistic fit is plausible.
+In ectothrix infection, fungal spores form a sheath on the outside of the hair shaft. The usual causes are *Microsporum* and *Trichophyton* species. These dermatophytes belong to the same group as the organisms in econazole's recorded skin indications (tinea pedis, tinea corporis). The prediction is therefore best seen as an extension of an existing dermatophyte use, not a novel repurposing.
 
-The main caveat is drug delivery. Deep dermal and follicular involvement usually requires systemic therapy because topical agents penetrate poorly. The same limitation applies to the other high-scoring predictions (ectothrix and endothrix infections, tinea profunda, and scalp or beard dermatophytosis).
-
----
+There are practical limits. Topical econazole penetrates the hair follicle poorly, and hair and scalp infections generally need oral antifungal therapy. The same limits apply to endothrix infection, where the fungus grows inside the hair shaft. The high TxGNN score is a computational prediction and not clinical evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-For Majocchi granuloma, the only publication found is a single case report. It is not confirmed to involve econazole.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [37899944](https://pubmed.ncbi.nlm.nih.gov/37899944/) | 2023 | Case report | Case Reports in Dermatology | Majocchi granuloma as a "great mimicker" that can be mistaken for eczema or psoriasis and worsened by topical corticosteroids (tinea incognita); no econazole-specific efficacy data |
-
-**Other predicted indications (for context):**
-
-| Predicted Indication | TxGNN Score | Evidence Level | Literature Summary |
-|------|------|------|------|
-| Superficial mycosis | 99.97% | L4 | 17 items, mostly reviews of other azoles; largely a restatement of existing indications |
-| Vulvovaginal candidiasis | 99.50% | L3 | Includes randomized comparisons of econazole against clotrimazole (1994) and butoconazole (1990), and a 996-patient multicentre study (1976) |
-| Dermatophytosis of scalp or beard | 99.97% | L4 | Reviews, surveys and case reports; no controlled efficacy data |
-| Ectothrix infection, endothrix infection, tinea profunda | 99.96–99.97% | L5 | No trials and no literature |
-
----
+Currently no related literature available.
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 383872 (valid) | Pevaryl | Foaming solution 1%, 10 ml sachets | Not recorded |
-| 2165953 (cancelled) | Pevaryl | Cream 1% | Not recorded |
+| 2165953 | Pevaryl | Cream 1% | Not stated in the licence records |
+| 383872 | Pevaryl | Foaming solution 1%, 10 ml sachets | Not stated in the licence records |
 
----
+Both licences are valid single-ingredient products. Neither carries an indication in the available records, so the uses listed above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are not confirmed as approved indications.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+The pharmacology data list three recorded target interactions for econazole. They are molecular targets, not drug-drug interactions:
+- **TRPM2** (human)
+- **TRPV5** (human)
+- **CYP8B1** (human): econazole binds to and inhibits this enzyme.
 
-Pharmacology data compiled for this report lists econazole binding to TRPM2, TRPV5 and CYP8B1 (inhibition of CYP8B1 is reported). These are target interactions, not clinically graded drug-drug interactions, and no interaction severity levels are available.
-
----
+No contraindication relations are recorded in the knowledge graph. For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible, but the only supporting literature is one case report, there are no registered trials, and topical econazole is unlikely to reach deep follicular lesions at adequate concentrations. Of the predicted indications, vulvovaginal candidiasis has the strongest evidence (L3, with randomized comparisons). It is probably a regional labelling difference rather than a true new indication, and its older data should be checked against current susceptibility data.
+The prediction has a very high model score and a plausible link to econazole's known dermatophyte activity. However, no clinical trial or publication directly studies this disease (hence L5). Topical econazole is also unlikely to work alone on hair-shaft infections, and the package insert safety review is still outstanding.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from Medsafe, which are currently missing and block safety screening
-- Detailed mechanism of action data (MOA)
-- Evidence that topical econazole achieves adequate penetration in deep or follicular dermatophyte infection, or a rationale for a systemic route
-- Econazole-specific clinical data for Majocchi granuloma
-- A review of current local Candida susceptibility data if vulvovaginal candidiasis is pursued
+- The Medsafe package insert, to confirm approved indications, warnings and contraindications
+- Mechanism-of-action data from DrugBank
+- Evidence on hair-follicle penetration and efficacy of topical econazole in ectothrix and endothrix infection
+- Comparison with standard oral antifungal therapy for scalp and hair dermatophytosis, to decide whether a topical-only use is worthwhile, or whether it would only serve as an adjunct
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Isoniazid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 245
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "ISONIAZID"
 predicted_indications: ["conjunctivitis"]
+description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Isoniazid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Isoniazid: From Pulmonary Tuberculosis to Conjunctivitis
+## Isoniazid: Conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary tuberculosis (from the knowledge graph; no approved indication text is available in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9936 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available for this report. From general
 
 The link to conjunctivitis is indirect. It applies only to forms associated with mycobacterial infection or tubercular hypersensitivity, such as primary conjunctival tuberculosis and phlyctenular keratoconjunctivitis. It may also apply to conjunctivitis occurring with reactive arthritis after intravesical BCG therapy. There is no evidence of activity against common bacterial, viral or allergic conjunctivitis.
 
-The high TxGNN score probably reflects the tuberculosis-related connections in the knowledge graph rather than clinical data for conjunctivitis in general. Isoniazid also appears in ocular side-effect literature, so it may cause as well as treat eye findings. The prediction is therefore plausible only for a narrow, tuberculosis-related subset of conjunctivitis.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as tuberculosis-related conditions, not biological evidence or clinical data for conjunctivitis in general. Isoniazid also appears in ocular side-effect literature, so it may cause as well as treat eye findings. The prediction is therefore plausible only for a narrow, tuberculosis-related subset of conjunctivitis.
 
 ---
 
@@ -98,8 +98,8 @@ Both New Zealand authorisations are cancelled, and no approved indication text i
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2689294 | Isoniazid Teva | Tab 100 mg | Not recorded (cancelled) |
-| 2695901 | Noumed Isoniazid | Tab 100 mg | Not recorded (cancelled) |
+| 2689294 | Isoniazid Teva | Tab 100 mg | Not recorded (valid) |
+| 2695901 | Noumed Isoniazid | Tab 100 mg | Not recorded (valid) |
 
 ---
 
@@ -120,7 +120,7 @@ The package insert was not available, so its warnings and contraindications coul
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not backed by clinical data for general conjunctivitis. The literature is limited to old or small reports on tuberculosis-related eye disease, and there are no clinical trials. Isoniazid has no currently valid New Zealand authorisation, and its hepatotoxicity and neuropathy risks do not justify systemic use for a usually self-limiting condition.
+The high TxGNN score is not backed by clinical data for general conjunctivitis. The literature is limited to old or small reports on tuberculosis-related eye disease, and there are no clinical trials.
 
 **To proceed, the following is needed:**
 - Narrow the indication to tuberculosis-associated conjunctivitis or phlyctenular keratoconjunctivitis, rather than conjunctivitis in general

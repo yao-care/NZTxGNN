@@ -6,9 +6,9 @@ nav_order: 481
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Vinblastine: predicted new indication Rhabdomyosarcoma (evidence level L3). Approved use: Lymphomas (Hodgkin, non-Hodgkin, mantle cell…"
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
+description: "Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Vinblastine
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Vinblastine: From Hodgkin Lymphoma and Other Lymphomas to Rhabdomyosarcoma
+## Vinblastine: Rhabdomyosarcoma (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but no clinical trials are registered, and the **7 publications** compiled for t
 
 | Item | Content |
 |------|------|
-| Original Indication | Lymphomas (Hodgkin, non-Hodgkin, mantle cell, cutaneous T-cell lymphoma/mycosis fungoides) and Langerhans cell histiocytosis (from the knowledge graph; no approved-indication text is available from New Zealand licences) |
-| Predicted New Indication | Rhabdomyosarcoma |
-| TxGNN Prediction Score | 99.86% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Rhabdomyosarcoma (disease) |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -94,8 +94,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 779989 | Hospira | Inj 1 mg per ml, 10 ml vial | Not available (cancelled) |
-| 2204061 | Baxter | Inj 1 mg for ECP | Not available (cancelled) |
+| 779989 | Hospira | Inj 1 mg per ml, 10 ml vial | Not available (valid) |
+| 2204061 | Baxter | Inj 1 mg for ECP | Not available (valid) |
 
 ---
 
@@ -104,7 +104,6 @@ Currently no related clinical trials registered.
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (vinca alkaloid, antimitotic) |
-| Myelosuppression Risk | High (neutropenia is the main dose-limiting toxicity; the knowledge graph also flags thrombocytopenia, neutropenia and agranulocytosis) |
 | Emetogenicity Classification | Low to moderate (please refer to the package insert warnings and precautions) |
 | Monitoring Items | CBC with differential, liver function (hepatic impairment is flagged), renal function, neurological assessment for peripheral neuropathy |
 | Handling Protection | Must follow cytotoxic drug handling regulations; intravenous use only |
@@ -130,7 +129,7 @@ Package insert warnings and contraindications were not available and should be o
 **Decision: Hold**
 
 **Rationale:**
-The antimitotic mechanism makes rhabdomyosarcoma biologically plausible and vinca alkaloids are already used in this disease. However, no clinical trials exist, the clinical evidence is limited to case reports and indirect studies in combination regimens, and vinblastine currently has no valid New Zealand licence. The evidence supports a research question (L3), not a development decision.
+The antimitotic mechanism makes rhabdomyosarcoma biologically plausible and vinca alkaloids are already used in this disease. The evidence supports a research question (L3), not a development decision.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

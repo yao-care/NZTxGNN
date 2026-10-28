@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Laronidase
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 260
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Laronidase: predicted new indication Lysosomal storage disease with skeletal involvement (evidence level L4). Approved use: Mucopolysaccharidosis I (Hurler, Hurler-Scheie, Scheie syndromes)"
 monitor_inn: "LARONIDASE"
 predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
+description: "Laronidase: predicted new indication Lysosomal storage disease with skeletal involvement (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Laronidase: From Mucopolysaccharidosis I (Hurler, Hurler-Scheie and Scheie Syndromes) to Lysosomal Storage Disease with Skeletal Involvement
+## Laronidase: Lysosomal storage disease with skeletal involvement
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Support is limited: **0 clinical trials** and **4 publications** (reviews, one i
 
 | Item | Content |
 |------|------|
-| Original Indication | Mucopolysaccharidosis I (Hurler, Hurler-Scheie, Scheie syndromes); the New Zealand licence text is blank, so this comes from the knowledge graph |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Lysosomal storage disease with skeletal involvement |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| TxGNN Prediction Score | 0.9931 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +62,11 @@ Support is limited: **0 clinical trials** and **4 publications** (reviews, one i
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, laronidase is a recombinant alpha-L-iduronidase that breaks down the glycosaminoglycans (dermatan sulfate and heparan sulfate) that build up in MPS I. Its efficacy in MPS I is established, and mechanistically it may be applicable to skeletal disease that arises from this storage.
 
-Skeletal involvement (dysostosis multiplex) is a recognised manifestation of MPS I, so the predicted indication overlaps heavily with the approved use. The high score (0.993) most likely reflects this overlap. An in vitro study showed that cultured fibroblasts and osteoblasts take up laronidase, mainly through mannose 6-phosphate receptors, which suggests a plausible cellular route to bone tissue.
+Skeletal involvement (dysostosis multiplex) is a recognised manifestation of MPS I, so the predicted indication overlaps heavily with the approved use. The high score (0.9931) most likely reflects this overlap. An in vitro study showed that cultured fibroblasts and osteoblasts take up laronidase, mainly through mannose 6-phosphate receptors, which suggests a plausible cellular route to bone tissue.
 
 There are important limits. Intravenous enzyme penetrates avascular cartilage and bone poorly, and the clinical skeletal response is known to be limited. A 6.5-year follow-up of a boy with Scheie syndrome also reported a decline in overall status and disease progression despite therapy.
 
-*Other predicted candidate (Sanfilippo syndrome, MPS III):* The score is high (0.992), but it is most likely a network-proximity artifact within the MPS family. MPS III involves different enzyme deficiencies (e.g., SGSH, NAGLU, HGSNAT, GNS), so laronidase cannot replace the missing activity. It is also mainly a central nervous system disease, and intravenous laronidase does not meaningfully cross the blood-brain barrier. The retrieved literature concerns MPS I, not MPS III, so it does not support efficacy there.
+*Other predicted candidate (Sanfilippo syndrome, MPS III):* The score is high (0.9922), but it is most likely a network-proximity artifact within the MPS family. MPS III involves different enzyme deficiencies (e.g., SGSH, NAGLU, HGSNAT, GNS), so laronidase cannot replace the missing activity. It is also mainly a central nervous system disease, and intravenous laronidase does not meaningfully cross the blood-brain barrier. The retrieved literature concerns MPS I, not MPS III, so it does not support efficacy there.
 
 ---
 

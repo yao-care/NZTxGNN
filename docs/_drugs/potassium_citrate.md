@@ -4,17 +4,17 @@ title: Potassium Citrate
 parent: Model Prediction Only (L5)
 nav_order: 374
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Potassium deficiency disease, renal tubular acidosis…"
 monitor_inn: "POTASSIUM CITRATE"
-predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "nephrolithiasis susceptibility caused by SLC26A1", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
+predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
 ---
 
 # Potassium Citrate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **familial visceral myopathy**, but i
 |------|------|
 | Original Indication | Potassium deficiency disease, renal tubular acidosis, acute urate nephropathy (the New Zealand licence record has no approved indication text) |
 | Predicted New Indication | Familial visceral myopathy (top-ranked); nephrolithiasis (best-supported, rank 4) |
-| TxGNN Prediction Score | 99.95% (familial visceral myopathy); 99.75% (nephrolithiasis) |
+| TxGNN Prediction Score | 0.9995 (familial visceral myopathy); 0.9975 (nephrolithiasis) |
 | Evidence Level | L5 (familial visceral myopathy); L2 (nephrolithiasis) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (0 valid, 1 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold (familial visceral myopathy); Proceed with Guardrails (nephrolithiasis) |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **familial visceral myopathy**, but i
 
 Detailed mechanism of action data is not available. Based on known information, potassium citrate is an alkalinizing agent and potassium source. Its efficacy in potassium deficiency and renal tubular acidosis is established, and it may be applicable to some of the predicted conditions.
 
-**Familial visceral myopathy (top prediction).** The high score (99.95%) is a computational output only. No plausible mechanistic link between potassium citrate and visceral smooth muscle myopathy is established. Hypokalemia could in theory affect gut motility, but this is speculative.
+**Familial visceral myopathy (top prediction).** The high score (0.9995) is a computational output only. No plausible mechanistic link between potassium citrate and visceral smooth muscle myopathy is established. Hypokalemia could in theory affect gut motility, but this is speculative.
 
 **Nephrolithiasis (best-supported prediction).** The rationale is strong. Potassium citrate raises urinary pH and urinary citrate. Citrate chelates calcium and inhibits calcium salt crystallization and uric acid stone formation. This fits the original indications of renal tubular acidosis and acute urate nephropathy, which are linked to stone risk.
 
@@ -113,7 +113,7 @@ No publications were found for familial visceral myopathy. The table below cover
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2378728 | Biomed | Oral liq 3 mmol per ml | Not specified (licence cancelled) |
+| 2378728 | Biomed | Oral liq 3 mmol per ml | Not specified (licence valid) |
 
 The only licence on record is cancelled, so current product availability in New Zealand needs verification.
 
@@ -121,7 +121,7 @@ The only licence on record is cancelled, so current product availability in New 
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge graph associations, not label text):** hypertension, kidney disease and impaired renal function, anuria, adrenal insufficiency including Addison disease, peptic ulcer disease, hypercalcemia, nephrocalcinosis, coronary artery disease and myocardial infarction, metabolic acidosis, rhabdomyolysis, diarrheal disease, benign prostatic hyperplasia, hemoglobinopathy, and others.
+- **Contraindications (from the TxGNN model (deep learning), not label text; these may reflect similarities the model learned between related diseases, not biological evidence):** hypertension, kidney disease and impaired renal function, anuria, adrenal insufficiency including Addison disease, peptic ulcer disease, hypercalcemia, nephrocalcinosis, coronary artery disease and myocardial infarction, metabolic acidosis, rhabdomyolysis, diarrheal disease, benign prostatic hyperplasia, hemoglobinopathy, and others.
 - **Drug Interactions:** 100 interactions were identified. Major ones include:
   - Potassium-raising drugs: amiloride, benazepril, olmesartan and valsartan.
   - Anticholinergic and antihistamine agents: atropine, hyoscyamine, homatropine, methscopolamine, chlorpheniramine, acrivastine and phenyltoloxamine.

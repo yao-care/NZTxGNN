@@ -4,17 +4,17 @@ title: Pimecrolimus
 parent: High Evidence (L1-L2)
 nav_order: 367
 evidence_level: L2
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
+description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Pimecrolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-## Pimecrolimus: From Atopic Eczema to Seborrheic Dermatitis
+## Pimecrolimus: Seborrheic dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **1 completed Phase 2 clinical trial** and **19 publications** (including 2
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic eczema / atopic dermatitis (the approved indication text in the New Zealand licence record is blank, so this comes from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -62,7 +62,7 @@ with **1 completed Phase 2 clinical trial** and **19 publications** (including 2
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pimecrolimus is a topical calcineurin inhibitor. It blocks T-cell activation and the release of inflammatory cytokines. Its efficacy in atopic dermatitis is established, and mechanistically it may be applicable to seborrheic dermatitis.
 
-Seborrheic dermatitis is a chronic, relapsing inflammatory skin condition. It involves an inflammatory response to *Malassezia* yeast in areas rich in sebaceous glands. Both atopic and seborrheic dermatitis involve T-cell-driven skin inflammation, so the same anti-inflammatory mechanism is plausible. The very high TxGNN score (0.997) is consistent with this.
+Seborrheic dermatitis is a chronic, relapsing inflammatory skin condition. It involves an inflammatory response to *Malassezia* yeast in areas rich in sebaceous glands. Both atopic and seborrheic dermatitis involve T-cell-driven skin inflammation, so the same anti-inflammatory mechanism is plausible. The very high TxGNN score (0.9973) is consistent with this.
 
 The literature supports the link. Two systematic reviews of randomized controlled trials (2012 and 2022) report that pimecrolimus 1% cream is effective and well tolerated in facial seborrheic dermatitis, with efficacy comparable to the comparators evaluated. Open-label studies (for example in Korean patients and in resistant facial disease) point the same way. The main direct randomized evidence in the trial registry is a single Phase 2 study, so the overall level is L2 rather than L1.
 
@@ -122,9 +122,8 @@ Package insert warnings and contraindications could not be obtained for this rep
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Dermatitis | 99.37% | L1 | Dominated by atopic dermatitis, the already-approved indication, so it is not a true repurposing finding. Also includes Phase 3 trials in chronic hand dermatitis (NCT00226707, n=652) and perioral dermatitis (NCT00232115, n=124) |
-| Exanthem (disease) | 99.32% | L2 | Heterogeneous conditions (oral lichen planus, vulvar lichen sclerosus, EGFR-inhibitor rash). Trials are small, one terminated at 13 participants, so this remains a research question |
-| Acrodermatitis chronica atrophicans | 99.01% | L5 | Model prediction only. This is a late Lyme borreliosis skin manifestation treated with antibiotics, and immunosuppression has no clear rationale |
+| Exanthem (disease) | 0.9932 | L5 | Heterogeneous conditions (oral lichen planus, vulvar lichen sclerosus, EGFR-inhibitor rash). Trials are small, one terminated at 13 participants, so this remains a research question |
+| Acrodermatitis chronica atrophicans | 0.9901 | L5 | Model prediction only. This is a late Lyme borreliosis skin manifestation treated with antibiotics, and immunosuppression has no clear rationale |
 
 ---
 

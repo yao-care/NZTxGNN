@@ -4,17 +4,17 @@ title: Pemetrexed
 parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Pemetrexed: predicted new indication Malignant peritoneal mesothelioma (evidence level L5). Approved use: Non-small cell lung carcinoma, lung cancer…"
 monitor_inn: "PEMETREXED"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,15 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pemetrexed: From Non-Small Cell Lung Cancer and Pleural Mesothelioma to Malignant Peritoneal Mesothelioma
+## Pemetrexed: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pemetrexed is an antifolate chemotherapy drug, originally used for non-small cell lung cancer and malignant pleural mesothelioma.
-The TxGNN model predicts it may be effective for **malignant peritoneal mesothelioma**,
 with **7 clinical trials** (1 completed Phase 2 trial that includes the peritoneal site) and **20 publications** currently supporting this direction.
-Most of the evidence is indirect and borrowed from pleural mesothelioma, and the drug currently has no valid marketing authorization in New Zealand.
 
 ---
 
@@ -49,12 +47,12 @@ Most of the evidence is indirect and borrowed from pleural mesothelioma, and the
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung carcinoma, lung cancer, malignant pleural mesothelioma, malignant mesothelioma (from the knowledge graph; no approved indication text in the New Zealand licence records) |
-| Predicted New Indication | Malignant peritoneal mesothelioma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 (one completed Phase 2 trial including peritoneal disease; the other trials are early-phase, ongoing or test delivery strategies) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pleural adenomatoid tumor |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 (one completed Phase 2 trial including peritoneal disease; the other trials are early-phase, ongoing or test delivery strategies) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -102,15 +100,14 @@ Peritoneal mesothelioma is rare, and prospective trials specific to it are scarc
 
 ## New Zealand Market Information
 
-All five licences are cancelled, and the licence records contain no approved indication text.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2693925 | Pemetrexed-AFT | Inj 500 mg vial | Not recorded (cancelled) |
-| 2524627 | Juno Pemetrexed | Inj 500 mg vial | Not recorded (cancelled) |
-| 2532387 | Baxter | Inj 1 mg for ECP | Not recorded (cancelled) |
-| 2524619 | Juno Pemetrexed | Inj 100 mg vial | Not recorded (cancelled) |
-| 2693917 | Pemetrexed-AFT | Inj 100 mg vial | Not recorded (cancelled) |
+| 2693925 | Pemetrexed-AFT | Inj 500 mg vial | Not recorded (valid) |
+| 2524627 | Juno Pemetrexed | Inj 500 mg vial | Not recorded (valid) |
+| 2532387 | Baxter | Inj 1 mg for ECP | Not recorded (valid) |
+| 2524619 | Juno Pemetrexed | Inj 100 mg vial | Not recorded (valid) |
+| 2693917 | Pemetrexed-AFT | Inj 100 mg vial | Not recorded (valid) |
 
 ---
 
@@ -119,7 +116,6 @@ All five licences are cancelled, and the licence records contain no approved ind
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (antifolate antimetabolite) |
-| Myelosuppression Risk | Medium to high; the knowledge graph links the drug to neutropenia, thrombocytopenia, anaemia and agranulocytosis |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Complete blood count with differential, renal function and liver function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
@@ -144,19 +140,18 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Pemetrexed has an established benefit in pleural mesothelioma, and peritoneal mesothelioma is a closely related disease with a plausible shared mechanism. Retrospective series, one completed Phase 2 trial that includes the peritoneal site, and several ongoing randomized or single-arm trials support its use, but no completed peritoneal-specific randomized trial exists. Pemetrexed has no valid New Zealand licence, and the safety data are incomplete.
+Pemetrexed has an established benefit in pleural mesothelioma, and peritoneal mesothelioma is a closely related disease with a plausible shared mechanism. Retrospective series, one completed Phase 2 trial that includes the peritoneal site, and several ongoing randomized or single-arm trials support its use, but no completed peritoneal-specific randomized trial exists.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications, which are currently missing and block safety screening.
 - Detailed mechanism of action data to confirm the mechanistic link.
 - Results from the ongoing peritoneal mesothelioma trials (NCT05001880, NCT06543069, NCT03875144, NCT06057935).
-- A supply and regulatory pathway in New Zealand, since all licences are cancelled.
 - Monitoring plan for myelosuppression and renal function, including review of the interacting medicines listed above.
 
 **Other predicted indications, for context:**
 - Pleural mesothelioma, pleural epithelioid mesothelioma, pleural sarcomatoid mesothelioma and pleural biphasic mesothelioma are subtypes of the existing indication rather than true repurposing, though the evidence is strongest for the pleural and epithelioid forms.
 - Pericardium cancer is a research question only, supported by case reports and a pooled review.
-- Pleural adenomatoid tumor, well differentiated papillary mesothelioma, lymphohistiocytoid mesothelioma and iminoglycinuria should be on hold. They rest on graph proximity or have a weak or absent cytotoxic rationale.
+- Pleural adenomatoid tumor, well differentiated papillary mesothelioma, lymphohistiocytoid mesothelioma and iminoglycinuria should be on hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

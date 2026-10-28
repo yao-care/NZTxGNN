@@ -6,9 +6,9 @@ nav_order: 469
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Cycloplegia"
 monitor_inn: "TROPICAMIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
+description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tropicamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Tropicamide: From Cycloplegia to Cauda Equina Syndrome
+## Tropicamide: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Cycloplegia (the New Zealand licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.53% |
+| TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,8 +63,8 @@ Cauda equina syndrome causes neurogenic bladder and bowel dysfunction, so antimu
 - The high score most likely reflects a shared antimuscarinic class association with bladder drugs rather than a validated therapeutic link.
 
 Other predictions with the same weakness were also generated for this drug:
-- **Neurogenic bladder (obsolete ontology term)**, score 99.13%: antimuscarinics such as oxybutynin and tolterodine are established for this use, but approved alternatives already exist and the obsolete term weakens the mapping.
-- **Irritable bowel syndrome**, score 99.12%: antispasmodics such as hyoscine and dicyclomine are used for it, but tropicamide has no oral or systemic formulation.
+- **Neurogenic bladder (obsolete ontology term)**, score 0.9913: antimuscarinics such as oxybutynin and tolterodine are established for this use, but approved alternatives already exist and the obsolete term weakens the mapping.
+- **Irritable bowel syndrome**, score 0.9912: antispasmodics such as hyoscine and dicyclomine are used for it, but tropicamide has no oral or systemic formulation.
 
 All three predictions are L5 (model prediction only).
 
@@ -80,10 +80,9 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 254002 | Mydriacyl (cancelled) | Eye drops 1% | Not recorded |
-| 253995 | Mydriacyl (cancelled) | Eye drops 0.5% | Not recorded |
+| 254002 | Mydriacyl (valid) | Eye drops 1% | Not recorded |
+| 253995 | Mydriacyl (valid) | Eye drops 0.5% | Not recorded |
 
-Both authorizations are cancelled, so there is currently no valid marketed tropicamide product in New Zealand according to the data compiled.
 
 ## Safety Considerations
 
@@ -101,7 +100,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model scores and class-level plausibility only, with no trials or publications. Tropicamide is an ophthalmic-only agent with minimal systemic exposure, has no valid New Zealand licence, and cauda equina syndrome requires surgical rather than pharmacological treatment.
+The prediction rests on model scores and class-level plausibility only, with no trials or publications.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (a blocking gap for safety screening)

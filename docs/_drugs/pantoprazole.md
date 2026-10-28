@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pantoprazole
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 348
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Pantoprazole: predicted new indication Active peptic ulcer disease (evidence level L1). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-## Pantoprazole: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pantoprazole is a proton pump inhibitor, originally used for peptic ulcer disease, gastroesophageal reflux disease, esophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, with **1 directly relevant Phase 3 trial** and **20 publications** for this prediction.
 This is essentially an on-label use rather than true repurposing, so the prediction mostly confirms known pharmacology.
 
 ---
@@ -48,12 +47,12 @@ This is essentially an on-label use rather than true repurposing, so the predict
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, Zollinger-Ellison syndrome (the New Zealand licence records contain no approved indication text) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9921 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -62,7 +61,7 @@ This is essentially an on-label use rather than true repurposing, so the predict
 
 Detailed mechanism of action data is not available in the data compiled for this report. The mechanism is well established in the literature, however. Pantoprazole irreversibly inhibits the H+/K+ ATPase (proton pump) in gastric parietal cells. This suppresses gastric acid secretion, which is the key driver of ulcer formation and persistence.
 
-The original indications (peptic ulcer disease, reflux disease, esophagitis) are all acid-related disorders. Active peptic ulcer disease falls within this same group, so the prediction is not a true repurposing leap. The TxGNN score mainly reflects that the drug already belongs to this disease area.
+The original indications (peptic ulcer disease, reflux disease, esophagitis) are all acid-related disorders. The TxGNN score mainly reflects that the drug already belongs to this disease area.
 
 Other predicted indications are weaker:
 - **Gastrojejunal (marginal) ulcer and peptic ulcer perforation:** acid suppression is plausible, but the evidence is extrapolated from general ulcer data. No trials are registered, so these remain research questions.
@@ -101,8 +100,8 @@ Other predicted indications are weaker:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2637154 | Panzop Relief | Tab EC 40 mg | Not recorded (cancelled) |
-| 2637146 | Panzop Relief | Tab EC 20 mg | Not recorded (cancelled) |
+| 2637154 | Panzop Relief | Tab EC 40 mg | Not recorded (valid) |
+| 2637146 | Panzop Relief | Tab EC 20 mg | Not recorded (valid) |
 
 ---
 
@@ -124,11 +123,10 @@ Please refer to the package insert for warnings and formal contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Active peptic ulcer disease is an established, on-label use of pantoprazole. It is supported by a completed Phase 3 randomised trial and by older double-blind comparative trials in duodenal ulcer. The decision carries guardrails because all New Zealand licences are cancelled and the package insert safety data have not been obtained.
+Active peptic ulcer disease is an established, on-label use of pantoprazole. It is supported by a completed Phase 3 randomised trial and by older double-blind comparative trials in duodenal ulcer.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications, which are currently missing and are a blocking gap for safety screening
-- Confirmation of the current New Zealand regulatory pathway, since no valid licence exists
 - Detailed mechanism of action data from DrugBank
 - A review of the major DDIs (acalabrutinib, atazanavir) and of the bone-health and vitamin B12/pernicious anaemia concerns for long-term use
 - A manual check of the trial title and comparator details for NCT02084420

@@ -6,9 +6,9 @@ nav_order: 381
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Prilocaine: predicted new indication Papillary conjunctivitis . Neuralgia is the best-supported candidate… (evidence level L5). Approved use: Premature ejaculation"
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
+description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prilocaine
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prilocaine: From Premature Ejaculation to Neuralgia
+## Prilocaine: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Prilocaine is an amide local anaesthetic, sold as part of the lidocaine-prilocaine cream EMLA. The knowledge graph lists its original indications as premature ejaculation and psychologic dyspareunia.
+Prilocaine is an amide local anaesthetic, sold as part of the lidocaine-prilocaine cream EMLA.
 The TxGNN model's top-ranked prediction is papillary conjunctivitis, but that prediction has no supporting evidence. The best-supported prediction in this dataset is **neuralgia** (mainly postherpetic neuralgia), with **2 clinical trials** (1 directly relevant) and **14 publications**. The evidence is small, mostly old, and based on the combination product.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Premature ejaculation; psychologic dyspareunia (from the knowledge graph; no approved indication text is available from New Zealand licences) |
-| Predicted New Indication | Papillary conjunctivitis (rank 1, no evidence). Neuralgia (rank 5) is the best-supported candidate and is the focus of this report. |
-| TxGNN Prediction Score | Papillary conjunctivitis 99.78%; neuralgia 99.34% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Papillary conjunctivitis |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 for papillary conjunctivitis; L3 for neuralgia |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold for papillary conjunctivitis; Proceed with Guardrails (as a research question) for neuralgia |
 
 ## Why is This Prediction Reasonable?
@@ -108,8 +108,8 @@ No literature was found for papillary conjunctivitis, manic bipolar disorder, br
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 719757 | EMLA | Cream 2.5% with prilocaine 2.5% | Not available (cancelled) |
-| 657697 | EMLA | Cream 2.5% with prilocaine 2.5% (5 g tubes) | Not available (cancelled) |
+| 719757 | EMLA | Cream 2.5% with prilocaine 2.5% | Not available (valid) |
+| 657697 | EMLA | Cream 2.5% with prilocaine 2.5% (5 g tubes) | Not available (valid) |
 
 ## Safety Considerations
 

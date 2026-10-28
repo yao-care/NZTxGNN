@@ -4,17 +4,17 @@ title: Trimethoprim
 parent: Model Prediction Only (L5)
 nav_order: 468
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection"
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
+description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trimethoprim
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Trimethoprim: From Urinary Tract Infection to Punctate Epithelial Keratoconjunctivitis
+## Trimethoprim: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The second-ranked prediction, conjunctivitis, is already an original indication 
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection (the approved indication text of the New Zealand licence is not recorded; original indications are taken from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (0 currently valid) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,7 +87,7 @@ No literature was found for the top predicted indication, punctate epithelial ke
 |---------|------|------|-----------|
 | 648507 (cancelled) | TMP | Tab 300 mg | Not recorded |
 
-No currently valid licence exists. The only record is a cancelled 300 mg oral tablet.
+The drug is marketed in this country, and the 1 licence on record (1 of 1) is valid. The record is a 300 mg oral tablet.
 
 ## Safety Considerations
 
@@ -103,7 +103,7 @@ Please refer to the package insert for confirmed warnings.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for punctate epithelial keratoconjunctivitis has a high model score but no trials or literature (L5). The condition is often viral, which an antibacterial would not treat. The drug has no currently valid New Zealand licence. The conjunctivitis literature supports existing use, not this new indication.
+The prediction for punctate epithelial keratoconjunctivitis has a high model score but no trials or literature (L5). The condition is often viral, which an antibacterial would not treat. The conjunctivitis literature supports existing use, not this new indication.
 
 **To proceed, the following is needed:**
 - Evidence on the causes of punctate epithelial keratoconjunctivitis and whether a bacterial subset would respond to trimethoprim

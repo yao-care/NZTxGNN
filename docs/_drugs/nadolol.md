@@ -4,17 +4,17 @@ title: Nadolol
 parent: Model Prediction Only (L5)
 nav_order: 315
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Nadolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder). The New Zealand licence records…"
+indication_count: 4
+last_modified_at: 2026-10-28
 monitor_inn: "NADOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Nadolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nadolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Nadolol: From Hypertension to Malignant Hypertensive Renal Disease
+## Nadolol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials** and **no directly relevant publications** currently s
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The New Zealand licence records contain no approved indication text, so this comes from the knowledge-graph indication data. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,10 +62,9 @@ Malignant hypertensive renal disease is a severe kidney complication of very hig
 
 Other predictions with the same model score level, in ranked order, are:
 
-- **Malignant renovascular hypertension** (score 99.59%): renin release driven by renovascular disease can be reduced by beta-1 blockade, which gives a plausible rationale. However, this severe subtype usually needs revascularization or therapy that targets the renin-angiotensin system.
-- **Pulmonary hypertension with unclear multifactorial mechanism** (99.53%): beta-blockers are generally cautioned against in pulmonary arterial hypertension because they can reduce cardiac output and right ventricular function. Any rationale is speculative, and the safety concern is substantial.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.53%): the retrieved literature is preclinical (see below), and nadolol's non-selective action carries a bronchospasm risk.
-- **Braddock syndrome** (99.43%): a very rare condition for which no mechanistic rationale could be verified from the available data.
+- **Pulmonary hypertension with unclear multifactorial mechanism** (0.9953): beta-blockers are generally cautioned against in pulmonary arterial hypertension because they can reduce cardiac output and right ventricular function. Any rationale is speculative, and the safety concern is substantial.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (0.9953): the retrieved literature is preclinical (see below), and nadolol's non-selective action carries a bronchospasm risk.
+- **Braddock syndrome** (0.9943): a very rare condition for which no mechanistic rationale could be verified from the available data.
 
 ## Clinical Trial Evidence
 
@@ -90,14 +89,14 @@ No literature was retrieved for the top-ranked prediction. Twelve records were r
 
 ## New Zealand Market Information
 
-All four authorizations are cancelled. The records contain no approved indication text.
+All four authorizations are valid (4 valid licences of 4). The records contain no approved indication text.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2647540 | Nadolol BNM | Tab 40 mg | Not recorded (cancelled) |
-| 2647559 | Nadolol BNM | Tab 80 mg | Not recorded (cancelled) |
-| 2621118 | Nadolol BNM | Tab 40 mg | Not recorded (cancelled) |
-| 2621126 | Nadolol BNM | Tab 80 mg | Not recorded (cancelled) |
+| 2647540 | Nadolol BNM | Tab 40 mg | Not recorded (valid) |
+| 2647559 | Nadolol BNM | Tab 80 mg | Not recorded (valid) |
+| 2621118 | Nadolol BNM | Tab 40 mg | Not recorded (valid) |
+| 2621126 | Nadolol BNM | Tab 80 mg | Not recorded (valid) |
 
 ## Safety Considerations
 
@@ -122,13 +121,13 @@ The package insert warnings and contraindications were not available, so please 
 **Decision: Hold**
 
 **Rationale:**
-All five predictions rest on model scores alone (evidence level L5). The only literature retrieved is preclinical and does not address nadolol's clinical efficacy. The top two predictions largely restate the original hypertension indication in a severe form. Nadolol currently has no valid New Zealand authorization, and package insert safety data are unavailable.
+All five predictions rest on model scores alone (evidence level L5). The only literature retrieved is preclinical and does not address nadolol's clinical efficacy. The top two predictions largely restate the original hypertension indication in a severe form.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which is a blocking gap for safety screening
 - Mechanism of action data, for example from DrugBank
 - A targeted literature search for human studies of nadolol or beta-blockers in malignant hypertensive renal disease and renovascular hypertension
-- Clarification of the regulatory pathway, since all New Zealand authorizations are cancelled
+- Clarification of the regulatory pathway, since the drug is marketed and all four New Zealand authorizations are valid
 - A safety assessment for the pulmonary hypertension predictions, given the cautions against beta-blockers in that setting
 ## Disclaimer
 

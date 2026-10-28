@@ -6,9 +6,9 @@ nav_order: 406
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Risdiplam: predicted new indication Acne (evidence level L5). Approved use: Not stated in the New Zealand licence data (the drug's known use is s…"
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
+description: "Risdiplam: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Risdiplam
@@ -33,32 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Risdiplam: From Spinal Muscular Atrophy to Acne
+## Risdiplam: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Risdiplam is an oral SMN2 splicing modifier, a drug class used for spinal muscular atrophy (SMA).
 The TxGNN model predicts it may be effective for **acne**, but **no clinical trials and no publications** currently support this direction.
-The prediction rests only on a knowledge-graph score.
+The prediction rests only on a TxGNN model (deep learning) score.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the New Zealand licence data (the drug's known use is spinal muscular atrophy) |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.45% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, risdiplam is an SMN2 splicing modifier developed for spinal muscular atrophy, where it increases production of functional SMN protein.
 
-No documented biological link connects SMN2 splicing modulation to the processes that drive acne: sebum production, follicular hyperkeratinization, *C. acnes* colonization and inflammation. The high TxGNN score may reflect knowledge-graph topology artifacts, such as shared neighbours through off-target splicing or retinoid-related pathways, rather than a true pharmacological relationship.
+No documented biological link connects SMN2 splicing modulation to the processes that drive acne: sebum production, follicular hyperkeratinization, *C. acnes* colonization and inflammation. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The prediction should therefore be treated as a hypothesis only. Its mechanistic plausibility is currently low and unproven.
 
@@ -74,9 +74,9 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2649403 | Evrysdi (cancelled) | Powder for oral solution, 750 mcg per mL, 60 mg per bottle | Not recorded |
+| 2649403 | Evrysdi (valid) | Powder for oral solution, 750 mcg per mL, 60 mg per bottle | Not recorded |
 
-The only New Zealand authorization has been cancelled, so no valid product is currently marketed. The available formulation is oral only.
+The available formulation is oral only.
 
 ## Safety Considerations
 

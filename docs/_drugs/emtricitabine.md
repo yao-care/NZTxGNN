@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 176
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease, AIDS"
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Emtricitabine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Emtricitabine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This is a veterinary indication with very limited relevance to human drug repurp
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease, AIDS (the New Zealand licence record contains no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,8 +63,8 @@ Feline immunodeficiency virus (FIV) is a lentivirus whose reverse transcriptase 
 The only supporting publication (PMID 37112803, 2023) evaluated a combination antiretroviral regimen (dolutegravir, tenofovir and emtricitabine) in FIV-infected cats. Only part of the abstract was available, so the specific contribution of emtricitabine and the clinical outcomes cannot be confirmed. Because this is a veterinary disease, it offers little value as a human repurposing opportunity.
 
 The other predictions are weaker or not true repurposing:
-- **Simian immunodeficiency virus infection** (score 99.92%, L4): The literature consists of macaque studies of emtricitabine with tenofovir for pre-exposure prophylaxis (PrEP) and of resistance mutations. These support the mechanism and the preclinical basis of human PrEP, but SIV is an animal model of HIV and is essentially the same therapeutic area as the approved indication.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.92%, L5): No mechanistic link, trials or literature were identified. This should be treated as a computational artifact.
+- **Simian immunodeficiency virus infection** (score 0.9992, L4): The literature consists of macaque studies of emtricitabine with tenofovir for pre-exposure prophylaxis (PrEP) and of resistance mutations. These support the mechanism and the preclinical basis of human PrEP, but SIV is an animal model of HIV and is essentially the same therapeutic area as the approved indication.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9992, L5): No mechanistic link, trials or literature were identified. This should be treated as a computational artifact.
 
 ## Clinical Trial Evidence
 
@@ -96,7 +96,7 @@ Currently no related clinical trials registered.
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is a veterinary disease with no clinical trials and a single animal study of a multi-drug regimen. Emtricitabine's contribution to the outcome cannot be isolated. Emtricitabine has no currently valid New Zealand authorization, and the package insert safety data are unavailable.
+The predicted indication is a veterinary disease with no clinical trials and a single animal study of a multi-drug regimen. Emtricitabine's contribution to the outcome cannot be isolated.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for emtricitabine

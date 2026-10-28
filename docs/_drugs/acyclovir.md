@@ -48,10 +48,10 @@ The best-supported repurposing direction in the data is **common wart** (4 clini
 |------|------|
 | Original Indication | Herpes simplex infection, herpes zoster, chickenpox, herpes labialis, herpes simplex encephalitis, genital herpes (the New Zealand licence records contain no indication text) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis (top-ranked); common wart (best evidence, rank 2) |
-| TxGNN Prediction Score | 99.67% (punctate epithelial keratoconjunctivitis); 99.46% (common wart) |
+| TxGNN Prediction Score | 0.9967 (punctate epithelial keratoconjunctivitis); 0.9946 (common wart) |
 | Evidence Level | L5 for punctate epithelial keratoconjunctivitis; L2 for common wart |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold for punctate epithelial keratoconjunctivitis; Proceed with Guardrails (research question) for common wart |
 
 ## Why is This Prediction Reasonable?
@@ -93,14 +93,14 @@ The two publications for punctate epithelial keratoconjunctivitis (PMIDs 2193422
 
 ## New Zealand Market Information
 
-All four licences are cancelled, and no indication text is recorded.
+All 4 licences are valid (4 of 4), and no indication text is recorded.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 471690 | Lovir | Dispersible tablet 400 mg | Cancelled |
-| 471704 | Lovir | Dispersible tablet 200 mg | Cancelled |
-| 471712 | Lovir | Dispersible tablet 800 mg | Cancelled |
-| 2490803 | ViruPOS | Eye ointment 3% | Cancelled |
+| 471690 | Lovir | Dispersible tablet 400 mg | Valid |
+| 471704 | Lovir | Dispersible tablet 200 mg | Valid |
+| 471712 | Lovir | Dispersible tablet 800 mg | Valid |
+| 2490803 | ViruPOS | Eye ointment 3% | Valid |
 
 ## Safety Considerations
 
@@ -115,7 +115,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 
 **Rationale:**
 - The top-ranked prediction, punctate epithelial keratoconjunctivitis, rests only on a model score (L5), with no trials and no supportive literature. Common wart is the best-supported direction (L2): one Phase 2/3 trial and several randomized comparisons, but the trials are small, mostly single-centre, use active comparators rather than placebo, and the mechanism is uncertain.
-- All New Zealand licences are cancelled, so any use would require re-establishing a marketed product.
+- The drug is marketed in this country, with 4 valid licences out of 4.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

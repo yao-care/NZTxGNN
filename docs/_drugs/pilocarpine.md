@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Pilocarpine
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 366
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Pilocarpine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma, ocular hypertension"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Pilocarpine: known uses and market status in New Zealand; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Pilocarpine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,51 +32,48 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Pilocarpine: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+<!-- known-uses-page -->
+<!-- description: Pilocarpine: known uses and market status in New Zealand; currently no new candidate indication -->
+## Pilocarpine: Known uses and market status in New Zealand
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The model's candidates for Pilocarpine are all known uses, so there is currently no new predicted indication. The one candidate that can be traced to a source matches an indication already supported by a licence in another country. This page lists that known use and the market status in New Zealand.
 
-Pilocarpine was originally used to treat open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
-but **no clinical trials and no publications** are currently available to support this prediction.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma, ocular hypertension (from the knowledge graph; no approved indication text is available in the New Zealand licence records) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 4 (all cancelled) |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in New Zealand | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, pilocarpine is a muscarinic agonist that acts on M1–M5 receptors, with M3 activity being the most relevant to the eye. It contracts the ciliary muscle and increases trabecular outflow of aqueous humour, which lowers intraocular pressure.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| primary hereditary glaucoma | licence in another country (approved indication: glaucoma) |
 
-Primary hereditary glaucoma (for example, primary congenital glaucoma, often linked to CYP1B1 or MYOC variants and to trabecular meshwork or angle dysgenesis) is also a disease of impaired aqueous outflow. This makes a mechanistic link plausible. However, it is only a prediction. The very high TxGNN score is probably driven by pilocarpine's existing glaucoma indications, so it should not be treated as independent evidence.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Hereditary glaucomas may also respond differently to miotics than adult open-angle glaucoma. Whether pilocarpine helps at all would depend on the anatomy of the drainage angle.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 252514 | Isopto Carpine | Eye drops 1% | Not stated (cancelled) |
-| 252522 | Isopto Carpine | Eye drops 2% | Not stated (cancelled) |
-| 252549 | Isopto Carpine | Eye drops 4% | Not stated (cancelled) |
-| 307335 | Minims Pilocarpine | Eye drops 2% single dose | Not stated (cancelled) |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 252514 | Pilocarpine hydrochloride | Eye drops 1% | Valid |
+| 252522 | Pilocarpine hydrochloride | Eye drops 2% | Valid |
+| 252549 | Pilocarpine hydrochloride | Eye drops 4% | Valid |
+| 307335 | Pilocarpine nitrate | Eye drops 2% single dose | Valid |
 
 ## Safety Considerations
 
@@ -88,19 +86,6 @@ Currently no related literature available.
 
 Package insert warnings and contraindications were not available, so please refer to the package insert for full safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is based on the model alone (evidence level L5). There are no registered trials or publications, and the high score probably reflects the existing glaucoma indications. In addition, all four New Zealand licences are cancelled and no label safety data are available.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications (Medsafe), which are required before safety screening
-- Confirmed mechanism of action data (for example, from DrugBank)
-- A literature and trial search for pilocarpine in primary congenital and other hereditary glaucomas, including angle anatomy and response to miotics
-- Clarification of the regulatory pathway, since there are currently no valid New Zealand licences
-- Route compatibility assessment (ophthalmic formulations exist, but compatibility with the new indication has not been assessed)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

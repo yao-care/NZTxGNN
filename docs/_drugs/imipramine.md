@@ -6,9 +6,9 @@ nav_order: 232
 evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-15
-description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
+description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Imipramine
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-## Imipramine: From Anxiety Disorder to Attention Deficit-Hyperactivity Disorder
+## Imipramine: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **no registered clinical trials** and only **20 publications**, mo
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, nocturnal enuresis (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,10 +87,10 @@ The most relevant publications for ADHD are listed below.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2015250 | Tofranil | Tab 25 mg | Not available (cancelled) |
-| 2015269 | Tofranil | Tab 10 mg | Not available (cancelled) |
-| 2452804 | Tofranil | Tab 10 mg | Not available (cancelled) |
-| 2669692 | Imipramine Crescent | Tab 25 mg | Not available (cancelled) |
+| 2015250 | Tofranil | Tab 25 mg | Not available (valid) |
+| 2015269 | Tofranil | Tab 10 mg | Not available (valid) |
+| 2452804 | Tofranil | Tab 10 mg | Not available (valid) |
+| 2669692 | Imipramine Crescent | Tab 25 mg | Not available (valid) |
 
 ## Safety Considerations
 
@@ -120,7 +120,7 @@ The mechanistic rationale is plausible and older literature includes imipramine 
 - Confirmation of whether any imipramine product could be re-registered in New Zealand
 
 **Other predicted indications (for reference):**
-- Obsessive-compulsive disorder (score 99.01%, L3, Research Question): imipramine is not an established OCD therapy. A 1985 comparison found clomipramine generally superior, and the standard of care is SSRIs, clomipramine and CBT.
+- Obsessive-compulsive disorder (score 0.9901, L3, Research Question): imipramine is not an established OCD therapy. A 1985 comparison found clomipramine generally superior, and the standard of care is SSRIs, clomipramine and CBT.
 - ADHD inattentive type, faciodigitogenital syndrome, specific developmental disorder, chondromyxoid fibroma and benign paroxysmal torticollis of infancy: Hold, with no direct supporting evidence or only indirect literature.
 ## Disclaimer
 

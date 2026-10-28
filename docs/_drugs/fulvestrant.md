@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fulvestrant
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 216
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the licence data"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Fulvestrant
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fulvestrant: From Breast Cancer Endocrine Therapy to HIV Infectious Disease
+## Fulvestrant: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The original indication is not recorded in the New Zealand licence data compiled
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the licence data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 (preclinical/mechanistic only) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,8 +79,8 @@ Currently no related clinical trials registered for HIV infectious disease.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2586371 | Faslodex | Inj 50 mg per ml, 5 ml prefilled syringe | Not recorded (cancelled) |
-| 2663139 | Fulvestrant EVER Pharma | Inj 50 mg per ml, 5 ml prefilled syringe | Not recorded (cancelled) |
+| 2586371 | Faslodex | Inj 50 mg per ml, 5 ml prefilled syringe | Not recorded (valid) |
+| 2663139 | Fulvestrant EVER Pharma | Inj 50 mg per ml, 5 ml prefilled syringe | Not recorded (valid) |
 
 ## Cytotoxicity
 
@@ -105,7 +105,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The HIV prediction has a high model score but only preclinical, indirect support and no clinical trials. The direction of effect on HIV latency is unknown. Fulvestrant has no currently valid New Zealand licence, which further limits near-term feasibility.
+The HIV prediction has a high model score but only preclinical, indirect support and no clinical trials. The direction of effect on HIV latency is unknown.
 
 **To proceed, the following is needed:**
 - Mechanistic data on whether ER degradation reverses or reinforces HIV latency (in vitro and ex vivo CD4+ T-cell work)

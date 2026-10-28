@@ -4,17 +4,17 @@ title: Teriparatide
 parent: Model Prediction Only (L5)
 nav_order: 445
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Teriparatide: predicted new indication Duodenal ulcer (evidence level L5). Approved use: Postmenopausal osteoporosis / osteoporosis"
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
+description: "Teriparatide: predicted new indication Duodenal ulcer (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Teriparatide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Teriparatide: From Postmenopausal Osteoporosis to Duodenal Ulcer
+## Teriparatide: Duodenal ulcer (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ It is a model-only signal with no plausible mechanistic link, so we recommend **
 
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis / osteoporosis (from the knowledge graph; the New Zealand licence records contain no indication text) |
-| Predicted New Indication | Duodenal ulcer |
-| TxGNN Prediction Score | 99.86% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal ulcer (disease) |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ It is a model-only signal with no plausible mechanistic link, so we recommend **
 
 Detailed mechanism-of-action text is not available. Pharmacology data show that teriparatide is a peptide agonist of the **PTH1 receptor (PTH1R)** and also binds the PTH2 receptor. By activating PTH1R it stimulates osteoblast-mediated bone formation, which is why it is used for osteoporosis in patients at high fracture risk.
 
-The prediction is **not well supported**. Bone formation through PTH1R has no known role in healing the gastroduodenal mucosa. The high TxGNN score (99.86%) is a graph-based association with no clinical or literature backing. It most likely reflects shared network annotations in the knowledge graph rather than a true pharmacological connection. Osteoporosis and duodenal ulcer are unrelated diseases, so the original indication gives no mechanistic reason to expect efficacy here.
+The prediction is **not well supported**. Bone formation through PTH1R has no known role in healing the gastroduodenal mucosa. The high TxGNN score (0.9986) comes from the TxGNN model (deep learning), with no clinical or literature backing. It may reflect similarities the model learned between related diseases, not biological evidence. Osteoporosis and duodenal ulcer are unrelated diseases, so the original indication gives no mechanistic reason to expect efficacy here.
 
 ---
 
@@ -82,8 +82,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Status | Approved Indication |
 |---------|------|------|------|-----------|
-| 2724324 | Forteo | Injection 250 mcg per ml, 2.4 ml | Cancelled | Not stated in the data compiled |
-| 2670399 | Teriparatide - Teva | Injection 250 mcg per ml, 2.4 ml | Cancelled | Not stated in the data compiled |
+| 2724324 | Forteo | Injection 250 mcg per ml, 2.4 ml | Valid | Not stated in the data compiled |
+| 2670399 | Teriparatide - Teva | Injection 250 mcg per ml, 2.4 ml | Valid | Not stated in the data compiled |
 
 Both licences are for single-ingredient injectable products, and neither is currently valid. Any future use would therefore depend on obtaining a product through other channels.
 
@@ -105,7 +105,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The duodenal ulcer prediction is supported only by a model score. It has no clinical trials, no literature, and no plausible mechanism, and teriparatide is not currently marketed in New Zealand. It should not be pursued further.
+The duodenal ulcer prediction is supported only by a model score. It should not be pursued further.
 
 **Other predicted indications (for context):**
 - **Pregnancy-associated osteoporosis (rank 8, evidence level L3, Proceed with Guardrails):** This is the best-supported lead. It extends the approved bone-formation mechanism and has about 20 publications, including systematic reviews and teriparatide cohort studies. The evidence is observational, with no RCTs.

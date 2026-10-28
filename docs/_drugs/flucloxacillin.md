@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Flucloxacillin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 203
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not available"
 monitor_inn: "FLUCLOXACILLIN"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Flucloxacillin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Flucloxacillin: From Staphylococcal Infections to Conjunctivitis
+## Flucloxacillin: Conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This is a model-driven hypothesis, not an evidence-backed candidate.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no approved indication text in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 7 (all cancelled) |
+| TxGNN Prediction Score | 0.9984 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Authorizations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,15 +74,15 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-All seven licences are cancelled. No licence records include approved indication text.
+All seven licences are valid. No licence records include approved indication text.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2139006 | Staphlex | Cap 250 mg | Not available (cancelled) |
-| 2139014 | Staphlex | Cap 500 mg | Not available (cancelled) |
-| 331856 | Flucloxin | Inj 500 mg vial | Not available (cancelled) |
-| 331848 | Flucloxin | Inj 250 mg vial | Not available (cancelled) |
-| 2523108 | Flucil | Inj 1 g vial | Not available (cancelled) |
+| 2139006 | Staphlex | Cap 250 mg | Not available (valid) |
+| 2139014 | Staphlex | Cap 500 mg | Not available (valid) |
+| 331856 | Flucloxin | Inj 500 mg vial | Not available (valid) |
+| 331848 | Flucloxin | Inj 250 mg vial | Not available (valid) |
+| 2523108 | Flucil | Inj 1 g vial | Not available (valid) |
 
 Two further cancelled AFT oral granule licences (2431432 at 50 mg per ml and 2431424 at 25 mg per ml) are also on record.
 
@@ -100,7 +100,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and one indirect case report involving a pathogen flucloxacillin does not cover. There are no clinical trials, no ocular formulation, and no currently valid New Zealand licence. The evidence does not justify moving forward at this stage.
+The prediction rests on a model score and one indirect case report involving a pathogen flucloxacillin does not cover. The evidence does not justify moving forward at this stage.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which are required before safety screening
@@ -108,7 +108,7 @@ The prediction rests on a model score and one indirect case report involving a p
 - Microbiological evidence of flucloxacillin activity against common conjunctivitis pathogens
 - Evidence on an ophthalmic formulation or route, since only oral and injectable forms were previously licensed
 - Comparison against current standard topical treatments for bacterial conjunctivitis
-- Clarification of the regulatory pathway, given that all licences are cancelled
+- Clarification of the regulatory pathway, given that all seven licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

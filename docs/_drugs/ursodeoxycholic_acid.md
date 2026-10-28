@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis, primary biliary cholangitis, Reynolds syndrome (no approved indication text is available from the New Zealand licence record) |
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,7 +87,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (99.86%), with no clinical trials or publications. The mechanism is also biologically questionable in HoFH, where LDL receptor function is largely absent. In addition, the only New Zealand authorization has been cancelled.
+The prediction is supported only by a model score (0.9986), with no clinical trials or publications. The mechanism is also biologically questionable in HoFH, where LDL receptor function is largely absent. In addition, the only New Zealand authorization has been cancelled.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for UDCA, and a critical assessment of whether any LDL-receptor-independent effect could matter in HoFH

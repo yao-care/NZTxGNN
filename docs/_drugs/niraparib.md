@@ -6,9 +6,9 @@ nav_order: 323
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Niraparib: predicted new indication Cystic neoplasm (evidence level L5). Approved use: Peritoneal cancer, primary peritoneal carcinoma…"
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
+description: "Niraparib: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Niraparib
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Niraparib: From Ovarian and Peritoneal Cancers to Cystic Neoplasm
+## Niraparib: Epiglottis neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The evidence relates mainly to serous carcinomas (notably endometrial serous car
 
 | Item | Content |
 |------|------|
-| Original Indication | Peritoneal cancer, primary peritoneal carcinoma, primary peritoneal serous/papillary carcinoma, desmoplastic small round cell tumour, malignant epithelial tumour of the ovary (licence indication text is not available) |
-| Predicted New Indication | Cystic neoplasm |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 (weak: the only substantive study is an ongoing Phase 2 trial with no results) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Epiglottis neoplasm |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 (weak: the only substantive study is an ongoing Phase 2 trial with no results) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (research question) |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The link to "cystic neoplasm" is probably an ontology-mapping artefact arising from serous and ovarian disease terms. Ovarian cancer is already within the original indication scope, so it is not a true repurposing signal. The genuinely new angle in the retrieved evidence is **endometrial/uterine serous carcinoma**, which shares molecular features with high-grade serous ovarian carcinoma (chromosomal instability, copy number changes, similar mutations) and is treated using the same model. Extrapolating to cystic neoplasms in general is not supported by the data.
 
-The scores across the top-ranked predictions are nearly identical (about 0.9998 to 0.9999), which suggests a saturated, poorly discriminating model output. The score alone should not be treated as strong evidence.
+The score alone should not be treated as strong evidence.
 
 ---
 
@@ -99,9 +99,9 @@ The scores across the top-ranked predictions are nearly identical (about 0.9998 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2690691 | Zejula | Tab 100 mg | Not available (cancelled) |
-| 2690683 | Zejula | Tab 100 mg | Not available (cancelled) |
-| 2635232 | Zejula | Cap 100 mg | Not available (cancelled) |
+| 2690691 | Zejula | Tab 100 mg | Not available (valid) |
+| 2690683 | Zejula | Tab 100 mg | Not available (valid) |
+| 2635232 | Zejula | Cap 100 mg | Not available (valid) |
 
 ---
 
@@ -133,7 +133,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The "cystic neoplasm" prediction rests on a model score that is nearly identical across candidates, and the retrieved evidence concerns serous carcinomas rather than cystic neoplasms. The only meaningful signal is a recruiting Phase 2 trial in endometrial serous carcinoma with no results. In addition, all New Zealand licences are cancelled, so there is currently no marketed product.
+The "cystic neoplasm" prediction rests on a model score that is nearly identical across candidates, and the retrieved evidence concerns serous carcinomas rather than cystic neoplasms. The only meaningful signal is a recruiting Phase 2 trial in endometrial serous carcinoma with no results.
 
 **To proceed, the following is needed:**
 - Results from NCT04716686 and the uterine serous carcinoma Phase 2 study (PMID 40473279)
@@ -141,7 +141,6 @@ The "cystic neoplasm" prediction rests on a model score that is nearly identical
 - Mechanism of action data from DrugBank
 - Package insert warnings and contraindications from Medsafe, needed before any safety screening
 - A decision on whether to pursue endometrial serous carcinoma as a more clearly defined repurposing target
-- Clarification of New Zealand supply or licensing status, since all current licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

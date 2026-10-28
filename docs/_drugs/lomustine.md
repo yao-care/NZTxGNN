@@ -6,9 +6,9 @@ nav_order: 275
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L2). Approved use: Hodgkin lymphoma (including classic Hodgkin lymphoma) and brain cance…"
 monitor_inn: "LOMUSTINE"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer", "cerebral neuroblastoma", "pediatric cerebral ependymoblastoma", "pediatric infratentorial ependymoblastoma", "childhood brain germinoma", "cerebellopontine angle embryonal tumor", "lymph node cancer", "cerebral sarcoma"]
+description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Lomustine
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Lomustine: From Hodgkin Lymphoma and Brain Tumours to Lymphosarcoma
+## Lomustine: Lymphosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **lymphosarcoma** (the top-rank
 
 | Item | Content |
 |------|------|
-| Original Indication | Hodgkin lymphoma (including classic Hodgkin lymphoma) and brain cancer / brain neoplasm (from the knowledge graph; no approved indication text is available from the New Zealand licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Lymphosarcoma |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -109,7 +109,7 @@ Several other publications are veterinary reports or a mouse model and are not l
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2681137 | Medac | Cap 40 mg (cancelled) | Not available |
+| 2681137 | Medac | Cap 40 mg (valid) | Not available |
 
 ---
 
@@ -144,7 +144,6 @@ Lomustine has long-standing use in lymphoma regimens and a plausible mechanism, 
 **To proceed, the following is needed:**
 - Mechanism of action data
 - The package insert warnings and contraindications, and the approved indication text for the cancelled licence
-- Confirmation of product availability in New Zealand, since no authorisation is currently valid
 - Evidence that isolates lomustine's contribution in lymphoma, as opposed to multi-drug combinations, and human rather than veterinary data
 - A plan for monitoring blood counts, liver and kidney function, and lung toxicity, plus a review of the major drug interactions
 ## Disclaimer

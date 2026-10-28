@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db01182-arrhythmogenic-right-ventricular-cardiomyopathy",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db01182"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "arrhythmogenic right ventricular cardiomyopathy"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9942
+    }
+  ]
+}

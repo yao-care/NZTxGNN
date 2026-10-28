@@ -8,6 +8,7 @@ nav_order: 158
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Disopyramide Phosphate
@@ -51,8 +52,8 @@ A complete repurposing evaluation cannot proceed until these gaps are addressed.
 | Predicted New Indication | No predictions available |
 | TxGNN Prediction Score | — |
 | Evidence Level | — |
-| New Zealand Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

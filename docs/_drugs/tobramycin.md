@@ -6,9 +6,9 @@ nav_order: 453
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Bacterial infections, mainly of the eye (e.g. conjunctivitis…"
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
+description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Tobramycin
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Tobramycin: From Bacterial Eye and Meningeal Infections to Exposure Keratitis
+## Tobramycin: Exposure keratitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are **no registered clinical trials** and only **8 publications**, non
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections, mainly of the eye (e.g. conjunctivitis, uveitis), plus staphylococcal infection and bacterial meningitis (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Exposure keratitis |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,12 +95,12 @@ None of these studies tests tobramycin in exposure keratitis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2635690 | Tobramycin (Viatris) | Inj 40 mg per ml, 2 ml vial | Not available (cancelled) |
-| 331767 | Tobrex | Eye oint 0.3% | Not available (cancelled) |
-| 308390 | Tobrex | Eye drops 0.3% | Not available (cancelled) |
-| 2601648 | Tobramycin BNM | Solution for inhalation 60 mg per ml, 5 ml | Not available (cancelled) |
+| 2635690 | Tobramycin (Viatris) | Inj 40 mg per ml, 2 ml vial | Not available (valid) |
+| 331767 | Tobrex | Eye oint 0.3% | Not available (valid) |
+| 308390 | Tobrex | Eye drops 0.3% | Not available (valid) |
+| 2601648 | Tobramycin BNM | Solution for inhalation 60 mg per ml, 5 ml | Not available (valid) |
 
-All four authorizations are cancelled, so no tobramycin product is currently marketed in New Zealand through these licences.
+All four authorizations are valid, so tobramycin products are currently marketed in New Zealand under these licences.
 
 ---
 
@@ -121,7 +121,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but no clinical trials exist and none of the retrieved literature addresses exposure keratitis. There is also an in vitro corneal toxicity signal. In addition, all New Zealand authorizations are cancelled, so no local product is currently available.
+The prediction score is very high, but no clinical trials exist and none of the retrieved literature addresses exposure keratitis. There is also an in vitro corneal toxicity signal. In addition, all four New Zealand authorizations are valid, so the drug is currently marketed locally.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (needed for safety screening)
@@ -134,7 +134,7 @@ The prediction score is very high, but no clinical trials exist and none of the 
 
 ### Other Predicted Indications (Brief Notes)
 
-Other predictions from the model are weaker or equally indirect. Otitis externa (score 99.81%) is the only other one with notable supporting literature: tobramycin is active against *Pseudomonas aeruginosa* and *Staphylococcus aureus*, and there are case-level reports in malignant external otitis. However, there are no trials, much of the literature is veterinary, and ototoxicity is a concern if the eardrum is perforated. It is rated L4 and classed as a Research Question. The remaining predictions have little or no usable evidence and are not supported:
+Other predictions from the model are weaker or equally indirect. Otitis externa (score 0.9981) is the only other one with notable supporting literature: tobramycin is active against *Pseudomonas aeruginosa* and *Staphylococcus aureus*, and there are case-level reports in malignant external otitis. However, there are no trials, much of the literature is veterinary, and ototoxicity is a concern if the eardrum is perforated. It is rated L4 and classed as a Research Question. The remaining predictions have little or no usable evidence and are not supported:
 - Non-human animal disease: not a human indication.
 - Postinfectious vasculitis, post-infectious syndrome and Chagas cardiomyopathy: no evidence.
 - Infection-related haemolytic uraemic syndrome: no evidence, and antibiotics and aminoglycosides carry risks in this condition.

@@ -6,9 +6,9 @@ nav_order: 276
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Diarrheal disease, dysentery"
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "conjunctival folliculosis", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "Angelucci syndrome"]
+description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Loperamide
@@ -33,37 +33,37 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Loperamide: From Diarrheal Disease to Acute Contagious Conjunctivitis
+## Loperamide: Acute contagious conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Loperamide is a peripheral opioid-receptor drug originally used to treat diarrheal disease and dysentery.
 The TxGNN model predicts it may be effective for **acute contagious conjunctivitis**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-The prediction rests on a knowledge-graph score alone and should be treated as a computational hypothesis, not as evidence of benefit.
+The prediction rests on a TxGNN model (deep learning) score alone and should be treated as a computational hypothesis, not as evidence of benefit.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diarrheal disease, dysentery (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acute contagious conjunctivitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that loperamide acts on the mu (μ) opioid receptor (OPRM1), and it is used to treat diarrhea. It acts mainly on the gut, where it slows motility.
 
-The link to conjunctivitis is weak. Conjunctivitis is an infectious or inflammatory eye condition, and loperamide has no known anti-infective or anti-inflammatory action. A topical eye formulation of a gut-restricted opioid has no plausible rationale. The high score most likely reflects similarity patterns in the knowledge graph, not a real therapeutic effect.
+The link to conjunctivitis is weak. Conjunctivitis is an infectious or inflammatory eye condition, and loperamide has no known anti-infective or anti-inflammatory action. A topical eye formulation of a gut-restricted opioid has no plausible rationale. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions are mostly other conjunctivitis subtypes (pseudomembranous, serous, parasitic, chronic follicular, conjunctival folliculosis, and Angelucci syndrome), and none has trial or literature support. The two predictions with some literature are:
 
-- **Amebic dysentery (rank 2, score 99.95%, L4):** Loperamide relieves diarrhea symptoms but does not treat the amoebic infection. A case report describes fulminant amoebic colitis after heavy loperamide use, which is a safety concern, not efficacy evidence.
-- **Gastroduodenitis (rank 4, score 99.77%, L4):** Loperamide has no known anti-inflammatory action. The only publication is a case report of loperamide-induced respiratory depression in severe gastrointestinal inflammation, which is also a safety signal.
+- **Amebic dysentery (rank 2, score 0.9995, L4):** Loperamide relieves diarrhea symptoms but does not treat the amoebic infection. A case report describes fulminant amoebic colitis after heavy loperamide use, which is a safety concern, not efficacy evidence.
+- **Gastroduodenitis (rank 4, score 0.9977, L4):** Loperamide has no known anti-inflammatory action. The only publication is a case report of loperamide-induced respiratory depression in severe gastrointestinal inflammation, which is also a safety signal.
 
 A cationic amphiphilic drug profile has been linked to anti-SARS-CoV-2 activity in drug repurposing screens (a preprint). This is not relevant to conjunctivitis and does not support the prediction.
 
@@ -105,7 +105,7 @@ Please refer to the package insert for full safety information, as label warning
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no clinical trials, no literature, and no plausible mechanism. Loperamide has no New Zealand licence currently valid. The literature found for other predicted indications points to safety concerns, not benefit.
+The top prediction has no clinical trials, no literature, and no plausible mechanism. The literature found for other predicted indications points to safety concerns, not benefit.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to assess any biological link to conjunctivitis

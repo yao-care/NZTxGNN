@@ -4,17 +4,17 @@ title: Tranylcypromine
 parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "tranylcypromine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "dysthymic disorder", "agoraphobia", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
+description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tranylcypromine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tranylcypromine: From Depression to Benign Paroxysmal Torticollis of Infancy
+## Tranylcypromine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tranylcypromine (brand name Parnate) is an irreversible monoamine oxidase inhibitor (MAOI) originally used to treat depression and anxiety disorders.
 The TxGNN model predicts it may be effective for **benign paroxysmal torticollis of infancy**, but **no clinical trials and no publications** currently support this prediction.
-The prediction comes from the graph model alone and has no mechanistic or clinical backing.
+The prediction comes from the TxGNN model (deep learning) alone and has no mechanistic or clinical backing.
 
 ---
 
@@ -48,12 +48,12 @@ The prediction comes from the graph model alone and has no mechanistic or clinic
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (the New Zealand licence record does not state an indication, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction comes from the graph model alone and has no mechanistic or clinic
 
 Detailed mechanism-of-action data are not available in the data compiled for this report. Tranylcypromine is known as an irreversible, non-selective MAOI. It raises brain levels of serotonin, noradrenaline and dopamine, and its efficacy in depression and anxiety is well established. It also inhibits LSD1 (KDM1A), an epigenetic enzyme, which is relevant to some of the other predicted conditions but not to this one.
 
-Benign paroxysmal torticollis of infancy is a self-limiting movement disorder of infants. It is related to the migraine spectrum and to channelopathies (for example CACNA1A variants). The review found no plausible mechanistic link between MAO inhibition and this condition. The high score of 0.997 reflects network proximity in the knowledge graph, not biological or clinical evidence.
+Benign paroxysmal torticollis of infancy is a self-limiting movement disorder of infants. It is related to the migraine spectrum and to channelopathies (for example CACNA1A variants). The review found no plausible mechanistic link between MAO inhibition and this condition. The high score of 0.9967 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence.
 
 Giving an irreversible MAOI to infants is also hard to justify. The drug carries serious dietary (tyramine) and drug-interaction risks, with 151 interactions recorded. Without supporting evidence, this prediction is not credible as a repurposing opportunity.
 
@@ -84,7 +84,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2315076 | Parnate | Tab 10 mg (oral tablet) | Not stated in the licence record (status: cancelled) |
+| 2315076 | Parnate | Tab 10 mg (oral tablet) | Not stated in the licence record (status: valid) |
 
 ---
 
@@ -103,7 +103,7 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score, with no trials, no publications and no mechanistic link. The target population is infants, and an irreversible MAOI with major dietary and interaction hazards is a poor fit for them. The product is also not currently authorised in New Zealand.
+The prediction rests only on a score from the TxGNN model (deep learning), with no trials, no publications and no mechanistic link. The target population is infants, and an irreversible MAOI with major dietary and interaction hazards is a poor fit for them. The product is currently marketed in New Zealand, with 1 valid licence of 1.
 
 **To proceed, the following is needed:**
 - Any mechanistic or clinical evidence linking MAO or LSD1 inhibition to this condition

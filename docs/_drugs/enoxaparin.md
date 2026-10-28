@@ -6,9 +6,9 @@ nav_order: 177
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
+description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Enoxaparin
@@ -33,8 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Enoxaparin: From Pulmonary Embolism and Related Coagulation Disorders to Protein C Deficiency Thrombophilia
-{: .text-alpha }
+Enoxaparin: thrombophilia due to protein C deficiency, autosomal recessive
 
 ## One-Sentence Summary
 
@@ -46,19 +45,19 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (all licences cancelled) |
-| Number of Authorizations | 7 (0 currently valid) |
+| New Zealand Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Authorizations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, enoxaparin is a low-molecular-weight heparin that potentiates antithrombin and mainly inhibits factor Xa (and, to a lesser degree, thrombin). Its target interaction recorded here is with antithrombin (SERPINC1).
 
-Severe congenital protein C deficiency causes uncontrolled thrombin generation, leading to thrombosis and purpura fulminans. Enoxaparin's existing graph-based indications (purpura fulminans and disseminated intravascular coagulation) share this pathophysiology, so anticoagulation is biologically plausible.
+Severe congenital protein C deficiency causes uncontrolled thrombin generation, leading to thrombosis and purpura fulminans. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 This link is inferred only from mechanism and the model prediction. Standard care for this condition is generally protein C replacement (concentrate or plasma) plus anticoagulation. Any role for enoxaparin would therefore likely be adjunctive or for long-term prophylaxis, which the available data cannot confirm.
 
@@ -72,15 +71,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All seven licences are cancelled; none is currently valid. Approved indication text is not available for any of them.
+All seven licences are valid. Approved indication text is not available for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2581922 | Clexane Forte | Inj 150 mg in 1 ml syringe | Cancelled |
-| 2581892 | Clexane | Inj 80 mg in 0.8 ml syringe | Cancelled |
-| 2581906 | Clexane | Inj 100 mg in 1 ml syringe | Cancelled |
-| 2581876 | Clexane | Inj 40 mg in 0.4 ml syringe | Cancelled |
-| 2581884 | Clexane | Inj 60 mg in 0.6 ml syringe | Cancelled |
+| 2581922 | Clexane Forte | Inj 150 mg in 1 ml syringe | Valid |
+| 2581892 | Clexane | Inj 80 mg in 0.8 ml syringe | Valid |
+| 2581906 | Clexane | Inj 100 mg in 1 ml syringe | Valid |
+| 2581876 | Clexane | Inj 40 mg in 0.4 ml syringe | Valid |
+| 2581884 | Clexane | Inj 60 mg in 0.6 ml syringe | Valid |
 
 Two further cancelled licences (Clexane 20 mg in 0.2 ml, 2581868; Clexane Forte 120 mg in 0.8 ml, 2581914) are not listed above.
 
@@ -101,7 +100,7 @@ Please refer to the package insert for authoritative warnings and contraindicati
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.58%) and the mechanism is plausible, but there are no clinical trials or literature for this indication (Evidence Level L5). Standard care is protein C replacement, and all New Zealand licences are cancelled, which limits feasibility.
+The prediction score is high (0.9958) and the mechanism is plausible, but there are no clinical trials or literature for this indication (Evidence Level L5). Standard care is protein C replacement, and enoxaparin is marketed in New Zealand with 7 valid licences of 7.
 
 **To proceed, the following is needed:**
 - Literature and trial searches specific to enoxaparin in congenital protein C deficiency (case series, registries, guidelines)

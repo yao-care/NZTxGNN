@@ -6,9 +6,9 @@ nav_order: 194
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Hyperuricemia"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
+description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Febuxostat
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Febuxostat: From Hyperuricemia to Renal Hypouricemia
+## Febuxostat: Hypouricemia, renal
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The mechanism also points in the opposite direction, because febuxostat lowers u
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperuricemia (from the knowledge graph; no approved indication text is available in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypouricemia, renal |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,8 +91,8 @@ Two other predicted indications were also reviewed: partial HPRT deficiency (ran
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2670356 | Febuxostat (Teva) | Tab 80 mg | Not available (cancelled) |
-| 2670364 | Febuxostat (Teva) | Tab 120 mg | Not available (cancelled) |
+| 2670356 | Febuxostat (Teva) | Tab 80 mg | Not available (valid) |
+| 2670364 | Febuxostat (Teva) | Tab 120 mg | Not available (valid) |
 
 ---
 
@@ -111,7 +111,7 @@ Please refer to the package insert for further safety information, as label warn
 **Decision: Hold**
 
 **Rationale:**
-The evidence is limited to a model prediction, one trial of unconfirmed relevance, and a narrative review plus a single case report. The mechanism (further urate lowering in a condition of already low urate) runs against the proposed use. Febuxostat currently has no valid New Zealand licence.
+The evidence is limited to a model prediction, one trial of unconfirmed relevance, and a narrative review plus a single case report. The mechanism (further urate lowering in a condition of already low urate) runs against the proposed use.
 
 **To proceed, the following is needed:**
 - Review of the direction of effect to determine whether febuxostat would help or harm in renal hypouricemia

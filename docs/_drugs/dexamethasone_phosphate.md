@@ -8,6 +8,7 @@ nav_order: 145
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-10-12
+predicted_indications: []
 ---
 
 # Dexamethasone Phosphate

@@ -6,9 +6,9 @@ nav_order: 234
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Indacaterol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Asthma and COPD"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
+description: "Indacaterol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Indacaterol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Indacaterol: From Obstructive Airway Disease (Asthma/COPD) to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Indacaterol: Nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma and COPD (bronchodilator use, based on the literature; the approved indication text is not stated in the local licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data for indacaterol is not available in the data compiled for this report. Based on its known drug class, indacaterol is a beta2-adrenergic agonist. It raises cAMP in airway smooth muscle, which produces sustained bronchodilation.
 
-NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2), a Gs/cAMP-coupled receptor. Beta2 agonism also raises cAMP, which may explain why the graph model links the two. However, raising cAMP does not correct the underlying receptor defect and could plausibly be unhelpful.
+NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2), a Gs/cAMP-coupled receptor. Beta2 agonism also raises cAMP, but the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. However, raising cAMP does not correct the underlying receptor defect and could plausibly be unhelpful.
 
 The mechanistic link is therefore weak and speculative. No supporting trials or literature were found, so this remains a computational prediction only.
 
@@ -74,8 +74,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication | Status |
 |---------|------|------|-----------|------|
-| 2465930 | Onbrez Breezhaler | Powder for inhalation 300 mcg | Not specified | Cancelled |
-| 2465922 | Onbrez Breezhaler | Powder for inhalation 150 mcg | Not specified | Cancelled |
+| 2465930 | Onbrez Breezhaler | Powder for inhalation 300 mcg | Not specified | Valid |
+| 2465922 | Onbrez Breezhaler | Powder for inhalation 150 mcg | Not specified | Valid |
 
 ## Safety Considerations
 
@@ -98,7 +98,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The NSIAD prediction has a high model score but no trials, no literature, and a mechanistic link that is weak and possibly counterproductive. In addition, the product is no longer marketed in New Zealand (both licences cancelled).
+The NSIAD prediction has a high model score but no trials, no literature, and a mechanistic link that is weak and possibly counterproductive.
 
 **To proceed, the following is needed:**
 - Detailed mechanism-of-action data and a mechanistic assessment of beta2 agonism in AVPR2 gain-of-function disease

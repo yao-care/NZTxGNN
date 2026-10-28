@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Warfarin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 484
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
-description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L4). Approved use: Pulmonary embolism, thrombotic disease, intracranial embolism"
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Warfarin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Warfarin: From Thrombotic Disease to Heparin Cofactor 2 Deficiency
+## Warfarin: Heparin cofactor 2 deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This is essentially an extension of warfarin's existing use in thrombosis, not a
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary embolism, thrombotic disease, intracranial embolism (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Heparin cofactor 2 deficiency |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (all licences cancelled) |
-| Number of Authorizations | 6 (0 currently valid) |
+| TxGNN Prediction Score | 0.9987 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,18 +60,18 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Heparin cofactor II deficiency is an inherited thrombophilia that predisposes patients to thrombosis. Long-term anticoagulation is therefore a plausible way to prevent clots, which is why the model links it to warfarin's existing thrombotic-disease indications.
 
-The graph score likely reflects proximity to thrombotic disease. The available publications are case reports of thrombosis in affected patients, some of whom received warfarin. They do not show that warfarin changes outcomes in this condition.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The available publications are case reports of thrombosis in affected patients, some of whom received warfarin. They do not show that warfarin changes outcomes in this condition.
 
 **Other predictions reviewed (none stronger):**
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Factor 5 excess with spontaneous thrombosis | 99.84% | L5 | No trials or literature; prediction only |
-| Antithrombin deficiency type 2 | 99.84% | L4 | One case report; overlaps with existing thrombotic use |
-| Thrombophilia | 99.75% | L3 | One Phase 3 trial (status unknown) plus mostly reviews; already standard use, not true repurposing |
-| Rheumatoid arthritis | 99.21% | L4 | Trials use warfarin only as an interaction probe; no efficacy rationale |
-| Breast fibrocystic disease | 99.20% | L5 | Score appears to be a danazol-interaction artifact |
-| Benign mammary dysplasia | 99.10% | L5 | Prediction only; no plausible mechanism |
+| Factor 5 excess with spontaneous thrombosis | 0.9984 | L5 | No trials or literature; prediction only |
+| Antithrombin deficiency type 2 | 0.9984 | L5 | One case report; overlaps with existing thrombotic use |
+| Thrombophilia | 0.9975 | L3 | One Phase 3 trial (status unknown) plus mostly reviews; already standard use, not true repurposing |
+| Rheumatoid arthritis | 0.9921 | L4 | Trials use warfarin only as an interaction probe; no efficacy rationale |
+| Breast fibrocystic disease | 0.9920 | L5 | Score appears to be a danazol-interaction artifact |
+| Benign mammary dysplasia | 0.9910 | L5 | Prediction only; no plausible mechanism |
 
 ## Clinical Trial Evidence
 
@@ -93,15 +93,15 @@ For the closest related prediction, thrombophilia, one trial exists:
 
 ## New Zealand Market Information
 
-All six licences are cancelled, and no approved indication text is available.
+The drug is marketed, with 6 valid licences out of 6, and no approved indication text is available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2586967 | Coumadin | Tab 1 mg | Not available (cancelled) |
-| 2586975 | Coumadin | Tab 2 mg | Not available (cancelled) |
-| 2586983 | Coumadin | Tab 5 mg | Not available (cancelled) |
-| 210587 | Marevan | Tab 1 mg | Not available (cancelled) |
-| 210595 | Marevan | Tab 3 mg | Not available (cancelled) |
+| 2586967 | Coumadin | Tab 1 mg | Not available (valid) |
+| 2586975 | Coumadin | Tab 2 mg | Not available (valid) |
+| 2586983 | Coumadin | Tab 5 mg | Not available (valid) |
+| 210587 | Marevan | Tab 1 mg | Not available (valid) |
+| 210595 | Marevan | Tab 3 mg | Not available (valid) |
 
 A sixth licence (210609, Marevan Tab 5 mg) is also cancelled.
 
@@ -123,13 +123,13 @@ The following comes from drug-disease contraindication links in the knowledge gr
 **Decision: Hold**
 
 **Rationale:**
-Evidence for heparin cofactor 2 deficiency is limited to three old case reports, with no trials. Warfarin is already used for thrombotic disease, so this is not a distinct repurposing opportunity. Warfarin has no currently valid New Zealand licence, and safety label data are missing.
+Evidence for heparin cofactor 2 deficiency is limited to three old case reports, with no trials. Warfarin is already used for thrombotic disease, so this is not a distinct repurposing opportunity.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications
 - Mechanism of action data from DrugBank
 - Controlled or cohort data on warfarin in inherited thrombophilias such as heparin cofactor II deficiency
-- Clarification of why all New Zealand licences were cancelled and whether any warfarin product is currently supplied
+- Confirmation of which warfarin products are currently supplied in New Zealand, where all 6 licences are valid
 - Consideration of newer anticoagulants (DOACs) as comparators, as discussed in the 2024 ISTH communication
 ## Disclaimer
 

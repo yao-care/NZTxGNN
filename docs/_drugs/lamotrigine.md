@@ -4,7 +4,7 @@ title: Lamotrigine
 parent: Model Prediction Only (L5)
 nav_order: 257
 evidence_level: L5
-indication_count: 9
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (partial epilepsy, Lennox-Gastaut syndrome)"
 monitor_inn: "LAMOTRIGINE"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 # Lamotrigine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 ## One-Sentence Summary
 
 Lamotrigine is an antiseizure medicine originally used for epilepsy, including partial epilepsy and Lennox-Gastaut syndrome.
-The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but this appears to be a graph-proximity artefact: there are **0 clinical trials** and only **2 publications**, both about trigeminal neuralgia rather than a tumour.
+The TxGNN model's (deep learning) top-ranked prediction is **trigeminal nerve neoplasm**, but its score may reflect similarities the model learned between related diseases, not biological evidence: there are **0 clinical trials** and only **2 publications**, both about trigeminal neuralgia rather than a tumour.
 The best-supported direction in the data compiled for this report is the second-ranked prediction, **trigeminal neuralgia**, with **2 completed small clinical trials** and **18 publications**.
 
 ---
@@ -50,10 +50,10 @@ The best-supported direction in the data compiled for this report is the second-
 |------|------|
 | Original Indication | Epilepsy (partial epilepsy, Lennox-Gastaut syndrome); no approved indication text is available from the New Zealand licences |
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1); trigeminal neuralgia (rank 2) is the better-supported alternative |
-| TxGNN Prediction Score | 99.97% (trigeminal nerve neoplasm); 99.89% (trigeminal neuralgia) |
+| TxGNN Prediction Score | 0.9997 (trigeminal nerve neoplasm); 0.9989 (trigeminal neuralgia) |
 | Evidence Level | L5 for trigeminal nerve neoplasm; L2 for trigeminal neuralgia |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold for trigeminal nerve neoplasm; Proceed with Guardrails for trigeminal neuralgia |
 
 ---
@@ -62,11 +62,10 @@ The best-supported direction in the data compiled for this report is the second-
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lamotrigine is an antiseizure drug whose efficacy in epilepsy is established. Its anticonvulsant effect is generally attributed to blockade of voltage-gated sodium channels and reduced glutamate release, and this could plausibly apply to other conditions driven by abnormal neuronal firing.
 
-**Trigeminal nerve neoplasm (rank 1).** The high score is most likely driven by the close graph association between trigeminal nerve disorders and trigeminal neuralgia, a condition for which lamotrigine is used. The two retrieved papers (a review and a Gamma Knife case report on a cavernous malformation) concern trigeminal neuralgia, not a tumour. There is no evidence that lamotrigine treats the neoplasm itself. At most, it might relieve secondary neuropathic pain.
+**Trigeminal nerve neoplasm (rank 1).** The high score from the TxGNN model (deep learning) most likely reflects similarities the model learned between related diseases, such as trigeminal neuralgia, a condition for which lamotrigine is used, and is not biological evidence. The two retrieved papers (a review and a Gamma Knife case report on a cavernous malformation) concern trigeminal neuralgia, not a tumour. There is no evidence that lamotrigine treats the neoplasm itself. At most, it might relieve secondary neuropathic pain.
 
 **Trigeminal neuralgia (rank 2).** Sodium channel blockade plausibly dampens the ectopic, paroxysmal firing of demyelinated trigeminal afferents. Guidelines such as the 2019 European Academy of Neurology guideline position lamotrigine as an add-on or alternative when carbamazepine or oxcarbazepine is not tolerated or is ineffective. This is mechanistically coherent with its antiseizure action, and the trial data below point the same way.
 
-**Other predictions.** Several other predicted indications are reflex seizure types (audiogenic, eating, thinking, orgasm-induced, startle, micturition-induced and reading seizures). They mostly rest on lamotrigine's general antiseizure activity. The exception is startle epilepsy, which has small case series (see below).
 
 ---
 
@@ -98,21 +97,20 @@ For the top-ranked prediction (trigeminal nerve neoplasm), the two publications 
 | [26876275](https://pubmed.ncbi.nlm.nih.gov/26876275/) | 2017 | Preclinical | Epilepsy Behav | Acute and chronic lamotrigine effects in a genetic audiogenic seizure hamster model |
 | [8734483](https://pubmed.ncbi.nlm.nih.gov/8734483/) | 1996 | Preclinical | Neuropharmacology | Lamotrigine antagonised audiogenic seizures in DBA/2 mice and potentiated other anticonvulsants |
 
-Evidence for the other reflex-seizure predictions is indirect or absent (no literature at all for orgasm-induced seizures).
 
 ---
 
 ## New Zealand Market Information
 
-All five licences are cancelled, and no approved indication text is available.
+All five licences are valid, and no approved indication text is available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2040034 | Lamictal | Tab dispersible 2 mg | Cancelled |
-| 2056143 | Lamictal | Tab dispersible 5 mg | Cancelled |
-| 2553376 | Logem | Tab dispersible 25 mg | Cancelled |
-| 2553384 | Logem | Tab dispersible 50 mg | Cancelled |
-| 2553392 | Logem | Tab dispersible 100 mg | Cancelled |
+| 2040034 | Lamictal | Tab dispersible 2 mg | Valid |
+| 2056143 | Lamictal | Tab dispersible 5 mg | Valid |
+| 2553376 | Logem | Tab dispersible 25 mg | Valid |
+| 2553384 | Logem | Tab dispersible 50 mg | Valid |
+| 2553392 | Logem | Tab dispersible 100 mg | Valid |
 
 ---
 
@@ -131,16 +129,15 @@ Please refer to the package insert for complete safety information; label warnin
 **Decision: Hold for trigeminal nerve neoplasm (rank 1); Proceed with Guardrails for trigeminal neuralgia (rank 2)**
 
 **Rationale:**
-- The top-ranked prediction, trigeminal nerve neoplasm, has no trial evidence and appears to be a graph artefact linked to trigeminal neuralgia (L5), so it should not be pursued.
+- The top-ranked prediction, trigeminal nerve neoplasm, has no trial evidence, and its score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, such as trigeminal neuralgia, not biological evidence (L5), so it should not be pursued.
 - Trigeminal neuralgia has two completed but very small trials (n=20 and n=21), consistent guideline support as an add-on or alternative to carbamazepine/oxcarbazepine, and a plausible mechanism (L2). There is no confirmatory Phase 3 evidence.
-- Startle epilepsy has only small case series (L3) and is a research question rather than a decision candidate. The remaining reflex-seizure predictions have only indirect or preclinical support (L4-L5) and should be held.
 
 **To proceed, the following is needed:**
 - Redefine the target indication from trigeminal nerve neoplasm to trigeminal neuralgia in any further evaluation.
 - Larger, adequately powered controlled trials of lamotrigine in trigeminal neuralgia, ideally Phase 3.
 - Prospective evaluation of startle-induced seizures if that direction is pursued.
 - Detailed mechanism of action data and the package insert warnings and contraindications.
-- Regulatory pathway clarification, since all New Zealand licences are cancelled and there is currently no marketed product.
+- Regulatory pathway clarification, noting that the drug is marketed in New Zealand with 5 valid licences out of 5.
 - A titration and rash-monitoring plan, plus a DDI management plan, especially for patients taking carbamazepine, valproate or opioids.
 ## Disclaimer
 

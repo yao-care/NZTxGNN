@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Acitretin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 19
-evidence_level: L3
+evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
-description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not available"
 monitor_inn: "ACITRETIN"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
+last_modified_at: 2026-10-27
+description: "Acitretin: predicted new indication acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Acitretin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,94 +33,80 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 </div>
 
-## Acitretin: From an Unspecified Original Indication to Acne
+## Acitretin: Systemic retinoid → acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Acitretin is a second-generation oral retinoid. The data compiled for this report do not list an approved indication for it in New Zealand, although in practice it is best known for severe psoriasis and other keratinisation disorders.
-The TxGNN model predicts it may be effective for **acne (disease)**, with **1 clinical trial** and **18 publications** currently associated with this prediction.
-The clinical signal comes mainly from hidradenitis suppurativa (acne inversa), not acne vulgaris, so the evidence is indirect.
+Acitretin is an oral second-generation retinoid that modulates skin cell growth and differentiation. The TxGNN model predicts it may be useful for **acne (disease)**, but the evidence is indirect: **1 clinical trial** and **20 publications** were compiled, and they mostly concern hidradenitis suppurativa (acne inversa), a related but different condition, rather than acne itself.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the Medsafe licence records contain no indication text) |
-| Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 2 (both cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | acne (disease) |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, acitretin is a systemic retinoid that influences keratinocyte differentiation and proliferation. It also reduces sebaceous gland activity and follicular hyperkeratinisation, both of which are plausible mechanisms in acne-type disease.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general pharmacology, acitretin is a systemic retinoid that influences keratinocyte differentiation and proliferation. It may also reduce sebaceous gland activity and follicular hyperkeratinisation, both of which are plausible mechanisms in acne-type disease.
 
-The available clinical signal comes from hidradenitis suppurativa (acne inversa), a related follicular occlusion disorder, and not from acne vulgaris. Isotretinoin remains the preferred retinoid for acne vulgaris. The high TxGNN score therefore reflects a biologically plausible but indirect link.
+The clinical signal comes mainly from hidradenitis suppurativa (also called acne inversa), a follicular occlusion disorder. This is not acne vulgaris. Isotretinoin remains the preferred retinoid for acne vulgaris. Acitretin is teratogenic and has a very long effective washout period, because it can convert to etretinate in the presence of alcohol. This is a major constraint, especially for women of childbearing potential.
 
-A major constraint is safety. Acitretin is teratogenic and has a very long effective washout period, because it can be converted to etretinate in the presence of alcohol. This is especially important for women of childbearing potential.
+Because none of the cited studies directly examines acne as the target disease, the evidence level is capped at L5 (model prediction with no direct study).
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07708480](https://clinicaltrials.gov/study/NCT07708480) | Phase 4 | Completed | 70 | Randomised comparison of apremilast (30 mg twice daily) and acitretin (25 mg twice daily) for 12 weeks in moderate-to-severe hidradenitis suppurativa. The primary outcome was the IHS4 severity score. No results were provided, and this is not an acne vulgaris trial. |
+| [NCT07708480](https://clinicaltrials.gov/study/NCT07708480) | Phase 4 | Completed | 70 | Randomised comparison of apremilast and acitretin for 12 weeks in moderate-to-severe hidradenitis suppurativa; the primary outcome was the IHS4 severity score. No results were provided, and the condition is not acne vulgaris. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25640693](https://pubmed.ncbi.nlm.nih.gov/25640693/) | 2015 | Guideline | J Eur Acad Dermatol Venereol | European guideline for treating hidradenitis suppurativa/acne inversa |
-| [29234829](https://pubmed.ncbi.nlm.nih.gov/29234829/) | 2018 | Review | Der Hautarzt | Drug therapy of acne inversa: antibiotics, clindamycin plus rifampicin, and TNF-α inhibitors |
-| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | Review | Clin Dermatol | Vitamin A and retinoids in dermatology, including oral acitretin |
-| [9074840](https://pubmed.ncbi.nlm.nih.gov/9074840/) | 1997 | Review | Drugs | Current and potential uses of retinoids, including severe acne and acne-related dermatoses |
-| [1617858](https://pubmed.ncbi.nlm.nih.gov/1617858/) | 1992 | Review | Clin Pharmacokinet | Pharmacokinetics and efficacy of retinoids; isotretinoin helps severe acne, while acitretin is mainly used in psoriasis |
-| [8573927](https://pubmed.ncbi.nlm.nih.gov/8573927/) | 1995 | Review | Dermatology | Retinoids and sebaceous gland activity; whether new oral retinoids have an anti-acne effect |
-| [20874789](https://pubmed.ncbi.nlm.nih.gov/20874789/) | 2011 | Clinical study | Br J Dermatol | Long-term results of acitretin in hidradenitis suppurativa |
-| [12080949](https://pubmed.ncbi.nlm.nih.gov/12080949/) | 2002 | Case report | Cutis | Nodulocystic acne and hidradenitis suppurativa treated with acitretin |
+| [25640693](https://pubmed.ncbi.nlm.nih.gov/25640693/) | 2015 | Guideline | J Eur Acad Dermatol Venereol | European guideline for hidradenitis suppurativa/acne inversa |
+| [29234829](https://pubmed.ncbi.nlm.nih.gov/29234829/) | 2018 | Review | Hautarzt | Drug therapy of acne inversa: antibiotics and TNF-α inhibitors are the main options |
+| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | Review | Clin Dermatol | Vitamin A and retinoids in dermatology, including acitretin |
+| [1617858](https://pubmed.ncbi.nlm.nih.gov/1617858/) | 1992 | Review | Clin Pharmacokinet | Isotretinoin helps severe acne; acitretin has mainly succeeded in psoriasis |
+| [9074840](https://pubmed.ncbi.nlm.nih.gov/9074840/) | 1997 | Review | Drugs | Overview of retinoid use in skin disorders, including severe acne |
+| [8573927](https://pubmed.ncbi.nlm.nih.gov/8573927/) | 1995 | Review | Dermatology | Retinoids and sebaceous gland activity |
+| [12080949](https://pubmed.ncbi.nlm.nih.gov/12080949/) | 2002 | Case report | Cutis | Nodulocystic acne with hidradenitis suppurativa treated with acitretin |
+| [20874789](https://pubmed.ncbi.nlm.nih.gov/20874789/) | 2011 | Other | Br J Dermatol | Long-term results of acitretin in hidradenitis suppurativa |
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2384175 | Novatretin | Cap 25 mg | Not recorded (cancelled) |
-| 2384167 | Novatretin | Cap 10 mg | Not recorded (cancelled) |
+| 2384175 | Novatretin | Cap 25 mg | Not recorded |
+| 2384167 | Novatretin | Cap 10 mg | Not recorded |
 
 ## Safety Considerations
 
-- **Known contraindication signals (from the TxGNN knowledge graph, not label text):** liver failure, drug-induced liver injury, pancreatitis, hypertriglyceridemia, diabetes mellitus and diabetic ketoacidosis, obesity disorders, anxiety and dysthymic disorders, substance abuse/dependence, pseudotumor cerebri/intracranial hypertension, vision disorders including night blindness and blindness, hypoalphalipoproteinemia, and hyperostosis.
-- **Drug Interactions (100 interactions found; main ones listed):**
-  - **Major:** doxycycline, minocycline, tetracycline (risk of raised intracranial pressure) and vitamin A (additive toxicity).
-  - **Moderate:** sulfonylureas (acetohexamide, chlorpropamide, glimepiride, glipizide, glyburide, tolazamide, tolbutamide) and naltrexone.
-- **Teratogenicity:** acitretin is a known human teratogen with a very long washout period, which is the most serious constraint on use.
+- **Contraindication-type relations in the model data** (not label text): liver failure, drug-induced liver injury, pancreatitis, diabetes mellitus, diabetic ketoacidosis, hypertriglyceridemia, pseudotumor cerebri, intracranial hypertension, vision disorders including night blindness, hyperostosis, and others.
+- **Drug Interactions**: 100 interactions were found. The **major** ones are with doxycycline, minocycline, tetracycline and vitamin A. Several sulfonylureas (glipizide, glyburide, glimepiride, chlorpropamide, tolbutamide and others) and naltrexone are **moderate**.
+- **Teratogenicity**: acitretin is a known human teratogen with a very long washout period, so pregnancy must be strictly avoided.
 
-Please also refer to the package insert, since no label warnings were available in the compiled data.
+Please also refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only clinical signal is indirect, coming from hidradenitis suppurativa rather than acne vulgaris. Isotretinoin is already the preferred retinoid for acne, and acitretin carries serious teratogenicity and long-washout risks. No New Zealand authorization is currently valid, and package-insert safety data are missing. At present this is a research question, not an actionable repurposing candidate.
+No study directly examines acitretin in acne. The only trial and most of the literature concern hidradenitis suppurativa, and isotretinoin is already the preferred retinoid for acne. Teratogenicity and the long washout period weigh heavily against the benefit.
 
 **To proceed, the following is needed:**
-- The Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Controlled trial data in acne vulgaris, or at least a clear comparison with isotretinoin
-- A pregnancy prevention and risk management plan for women of childbearing potential
-- Clarification of the New Zealand regulatory status, since all licences are cancelled
-
----
-
-**Other predicted indications (all Hold, evidence level L5, no trials or literature):**
-
-| Predicted Indication | TxGNN Score | Comment |
-|------|------|------|
-| Pediatric systemic lupus erythematosus | 99.35% | Computational prediction only. Acitretin has some use in cutaneous lupus, but paediatric bone and growth effects and hepatotoxicity make the risk-benefit poor. |
-| Fetal erythroblastosis | 99.28% | No plausible mechanism, and acitretin is contraindicated in pregnancy, so the score is likely a model artefact. |
-| Familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome | 99.10% | Only a speculative link through retinoid chemoprevention, with no supporting evidence. |
+- Controlled studies of acitretin in acne vulgaris itself
+- Comparison with isotretinoin on efficacy and risk-benefit
+- Package insert warnings and contraindications from Medsafe
+- Detailed mechanism-of-action data
+- A pregnancy-prevention plan for women of childbearing potential
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

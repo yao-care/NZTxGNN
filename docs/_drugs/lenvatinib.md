@@ -4,17 +4,17 @@ title: Lenvatinib
 parent: High Evidence (L1-L2)
 nav_order: 265
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma and thyroid carcinoma"
 monitor_inn: "LENVATINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
+description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Lenvatinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Lenvatinib: From Renal Cell and Thyroid Carcinoma to Liposarcoma
+## Lenvatinib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **1 completed Phase Ib/II trial** and **1 matching single-arm publication**
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and thyroid carcinoma (knowledge-graph indications; the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.51% |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?
@@ -81,8 +81,8 @@ A completed single-arm Phase Ib/II study (LEADER) of lenvatinib plus eribulin in
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2607166 | Lenvima | Cap 10 mg | Not recorded (licence cancelled) |
-| 2607158 | Lenvima | Cap 4 mg | Not recorded (licence cancelled) |
+| 2607166 | Lenvima | Cap 10 mg | Not recorded (licence valid) |
+| 2607158 | Lenvima | Cap 4 mg | Not recorded (licence valid) |
 
 ## Cytotoxicity
 
@@ -110,7 +110,7 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold (research question only)**
 
 **Rationale:**
-The only direct support is one completed, non-randomised Phase Ib/II study of a lenvatinib plus eribulin combination (n=30). Lenvatinib has no currently valid New Zealand licence. Package insert safety data are also missing.
+The only direct support is one completed, non-randomised Phase Ib/II study of a lenvatinib plus eribulin combination (n=30). Package insert safety data are also missing.
 
 **To proceed, the following is needed:**
 - Randomised or larger comparative data in liposarcoma, ideally separating lenvatinib's contribution from eribulin's
@@ -121,8 +121,6 @@ The only direct support is one completed, non-randomised Phase Ib/II study of a 
 
 ### Other Predictions Worth Noting
 
-- **Unclassified renal cell carcinoma** (score 99.49%, L2): Proceed with Guardrails. A Phase 2 trial in non-clear cell RCC and CLEAR biomarker data support it, and lenvatinib is already established in RCC.
-- **Renal carcinoma** (score 99.37%, L1): Proceed with Guardrails. The Phase 3 CLEAR trial supports it, but this is validation of an existing indication, not true repurposing.
 - **TFE3-fusion RCC** (L4): The only trial is a not-yet-recruiting Phase 2 triplet study. Research question.
 - **Renal cell carcinoma associated with neuroblastoma, ovarian myxoid liposarcoma, childhood kidney cell carcinoma, angiolipoma, familial spontaneous pneumothorax, endocrine-cerebro-osteodysplasia syndrome** (all L5): Hold. These predictions are computational only, with no trials or literature.
 ## Disclaimer

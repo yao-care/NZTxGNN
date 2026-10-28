@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Misoprostol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 305
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Misoprostol: predicted new indication Amenorrhea (evidence level L4). Approved use: Not stated in the licence data"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
 # Misoprostol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but there are *
 |------|------|
 | Original Indication | Not stated in the licence data |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9964 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,7 +65,7 @@ The retrieved literature is about pregnancy termination and pregnancy-related co
 
 Amenorrhea is a symptom with many possible causes (pregnancy, hypothalamic, pituitary, ovarian or uterine), and there is no established mechanism by which a prostaglandin agonist would restore menstrual cycles. The high TxGNN score most likely reflects network proximity to reproductive and pregnancy-related terms rather than a true therapeutic link. The mechanistic rationale is therefore weak.
 
-A second prediction, atypical coarctation of the aorta (score 99.30%), has no trials or literature. It is a structural congenital anomaly treated by surgical or endovascular repair, and misoprostol's vasodilatory activity is not expected to correct it. It is not considered further.
+A second prediction, atypical coarctation of the aorta (score 0.9930), has no trials or literature. It is a structural congenital anomaly treated by surgical or endovascular repair, and misoprostol's vasodilatory activity is not expected to correct it. It is not considered further.
 
 ---
 

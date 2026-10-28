@@ -6,9 +6,9 @@ nav_order: 209
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
-description: "Flupentixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Flupentixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Flupentixol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Flupentixol: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
+## Flupentixol: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this report. Based on known pharmacology, flupentixol is a thioxanthene antipsychotic that binds dopamine receptors (D1, D2, D3 and D5). Its efficacy in schizophrenia is established, and it is also described as being used for depression.
 
-No plausible mechanistic link to inherited retinal degeneration is supported by the data compiled for this report. The very high TxGNN score (0.9999) comes from a graph-based prediction alone. Retinal dystrophies are typically driven by genetic defects in photoreceptor or retinal pigment epithelium function, and nothing here suggests that dopamine receptor antagonism would address them. The prediction should therefore be regarded as a hypothesis-generating signal and not as evidence of benefit.
+No plausible mechanistic link to inherited retinal degeneration is supported by the data compiled for this report. The very high TxGNN score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Retinal dystrophies are typically driven by genetic defects in photoreceptor or retinal pigment epithelium function, and nothing here suggests that dopamine receptor antagonism would address them. The prediction should therefore be regarded as a hypothesis-generating signal and not as evidence of benefit.
 
 Other high-scoring predictions for this drug show the same pattern. They include Charcot-Marie-Tooth disease type 1G, congenital disorder of glycosylation with defective fucosylation, perisylvian polymicrogyria, hydranencephaly, several forms of myopia and atypical glycine encephalopathy. All are at evidence level L5, with no trials or literature. The myopia forms have only a speculative, indirect link through retinal dopamine in eye growth, and the direction of effect for an antagonist is unclear.
 
@@ -66,11 +66,10 @@ Other high-scoring predictions for this drug show the same pattern. They include
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 437301 | Fluanxol | Inj 20 mg per ml, 2 ml | Not available (cancelled) |
-| 437298 | Fluanxol | Inj 20 mg per ml, 1 ml | Not available (cancelled) |
-| 437271 | Fluanxol | Inj 100 mg per ml, 1 ml | Not available (cancelled) |
+| 437301 | Fluanxol | Inj 20 mg per ml, 2 ml | Not available (valid) |
+| 437298 | Fluanxol | Inj 20 mg per ml, 1 ml | Not available (valid) |
+| 437271 | Fluanxol | Inj 100 mg per ml, 1 ml | Not available (valid) |
 
-All three authorizations are for injectable products and all have been cancelled, so no valid single-ingredient or combination product is currently registered.
 
 ## Safety Considerations
 
@@ -85,7 +84,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no clinical trials, no publications and no plausible mechanistic link to retinal dystrophy. The drug also has no currently valid New Zealand authorization.
+The prediction has a very high model score but no clinical trials, no publications and no plausible mechanistic link to retinal dystrophy.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) from DrugBank, to allow a proper mechanistic analysis

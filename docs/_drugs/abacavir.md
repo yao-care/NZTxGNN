@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 11
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Abacavir: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "abacavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Abacavir: predicted new indication simian immunodeficiency virus infection (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Abacavir
@@ -33,36 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Abacavir: From HIV Infection / AIDS to Simian Immunodeficiency Virus Infection
+## Abacavir: Nucleoside reverse transcriptase inhibitor → simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Abacavir is a nucleoside reverse transcriptase inhibitor originally used to treat HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, a non-human primate disease model.
-Support is limited to **0 clinical trials** and **1 in vitro publication**, so this is largely a knowledge-graph extension of the original HIV use rather than a true human repurposing opportunity.
+Abacavir is a nucleoside reverse transcriptase inhibitor (NRTI) used against HIV.
+The TxGNN model predicts it may be active against **simian immunodeficiency virus infection**, a non-human primate lentiviral infection.
+Support is thin: **0 clinical trials** and **1 publication**, an in vitro susceptibility study.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (from the knowledge graph, because no approved indication text is available in the New Zealand licence records) |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L4 (preclinical / in vitro evidence only) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | simian immunodeficiency virus infection |
+| TxGNN Prediction Score | 0.9979 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known pharmacology, abacavir is a nucleoside reverse transcriptase inhibitor. It is phosphorylated inside cells to carbovir triphosphate, which terminates proviral DNA chain elongation.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, abacavir is an NRTI. It is phosphorylated intracellularly to carbovir triphosphate, which terminates proviral DNA chain elongation by blocking reverse transcriptase.
 
-SIV is a lentivirus closely related to HIV and has a homologous reverse transcriptase, so mechanistic plausibility is high. The high TxGNN score most likely reflects this viral similarity to HIV rather than a genuinely new therapeutic opportunity. SIV infection is a non-human primate model, not a human clinical indication.
+Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV, and its reverse transcriptase is homologous. Mechanistically, an NRTI active against HIV could therefore be expected to act on SIV as well.
 
-Two other predictions were also generated:
-- **Feline acquired immunodeficiency syndrome** (score 99.79%, L4): FIV is also a lentivirus whose reverse transcriptase can be inhibited by NRTIs. Evidence is a 2002 in vitro study of zidovudine, lamivudine and abacavir against FIV. This is a veterinary condition with limited relevance to human medicine.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.78%, L5): No mechanistic link, clinical trials or literature were identified. This is a rare genetic disorder with no established relevance to abacavir's mechanism, so the prediction is speculative.
+SIV infection is mainly a non-human primate research model, not an established human clinical indication. The high score therefore reflects viral similarity to HIV rather than a true new therapeutic opportunity for patients.
 
 ## Clinical Trial Evidence
 
@@ -72,36 +70,34 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility study | Antiviral Therapy | Tested 16 approved anti-HIV drugs and one experimental drug against HIV-2, SIV and SHIV strains to inform treatment and post-exposure prophylaxis |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility study | Antiviral Therapy | Evaluated 16 approved anti-HIV drugs and one experimental drug against HIV-2, SIV (mac251, B670) and SHIV strains, to inform treatment and post-exposure prophylaxis |
+
+This is indirect preclinical evidence. It shows how SIV responds to anti-HIV compounds in cell culture, with no human or in vivo efficacy data.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 378038 | Ziagen (cancelled) | Tab 300 mg | Not available |
-| 2632365 | Abacavir/Lamivudine Viatris (cancelled) | Tab 600 mg with lamivudine 300 mg | Not available |
+Abacavir is listed as marketed in New Zealand. Licence-level details are provided separately by the site.
 
 ## Safety Considerations
 
-- **Knowledge-graph contraindications** (from drug-disease contraindication links, not package insert text): liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, pyoureter, lactic acidosis, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), hypertriglyceridaemia, obesity disorders, myopathy and other muscle diseases (including myositis, dermatomyositis, familial periodic paralysis).
-- **Drug Interactions**: 93 interactions are recorded in total. The two rated Moderate are **naltrexone** and **orlistat**. Many others (for example metformin, morphine, omeprazole, pantoprazole, prednisone, vancomycin, amphotericin B) have no severity rating.
-- **Additional consideration**: abacavir carries a recognised risk of HLA-B*57:01-associated hypersensitivity.
+- **Drug Interactions**: 93 interactions are recorded. Those with a stated severity are Moderate: naltrexone and orlistat. Other recorded interacting drugs, with severity not classified, include metformin, morphine, omeprazole, pantoprazole, lansoprazole, prednisone, hydrocortisone, vancomycin and amphotericin B.
+- **Conditions flagged for caution** (from compiled relationship data, not label text): liver failure, liver disease, fatty liver disease, kidney disease, pancreatitis, lactic acidosis, neutropenia, agranulocytosis, anaemia, myopathy and myositis, hypertriglyceridaemia, and obesity-related disorders.
+- Abacavir is also known to carry an HLA-B*57:01-associated hypersensitivity risk.
 
-Please refer to the package insert for full warnings and contraindications; the New Zealand package insert data could not be retrieved for this report.
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is indirect in vitro evidence for a non-human primate model, with no clinical trials. The prediction mostly restates abacavir's existing anti-HIV activity, and the product is no longer actively licensed in New Zealand.
+The only supporting study is an in vitro susceptibility paper. SIV infection is an animal-model condition without a human clinical pathway, so the high score offers little actionable repurposing value for patients.
 
 **To proceed, the following is needed:**
-- Retrieval and review of the Medsafe package insert (warnings and contraindications), which is a blocking gap for safety screening
-- Mechanism of action data from DrugBank
-- A clear human clinical rationale, since SIV and FIV are animal conditions
-- Mechanistic validation if the neurodevelopmental disorder prediction is to be pursued
-- Confirmation of current regulatory and supply status in New Zealand, since both licences are cancelled
+- Confirmation that abacavir-specific activity against SIV is reported in the cited study, plus any in vivo primate data
+- A defined human clinical rationale, if any exists, for pursuing this indication
+- Detailed mechanism-of-action data
+- Package insert warnings and contraindications from Medsafe for the safety review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

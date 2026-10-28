@@ -6,9 +6,9 @@ nav_order: 403
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "RIFAMPICIN"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Rifampicin
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Rifampicin: From Pulmonary Tuberculosis to Conjunctivitis
+## Rifampicin: Conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ No clinical trials are registered for this indication; the support is **about 19
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary tuberculosis (from the knowledge graph; the approved-indication text in the New Zealand licence records is empty) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisations) |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,10 +89,10 @@ Currently no related clinical trials registered for conjunctivitis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 251186 | Rifadin | Cap 150 mg | Not available (cancelled) |
-| 2669838 | Rifadin Sanofi | Cap 300 mg | Not available (cancelled) |
-| 251208 | Rifadin | Oral liq 100 mg per 5 ml | Not available (cancelled) |
-| 251194 | Rifadin | Cap 300 mg | Not available (cancelled) |
+| 251186 | Rifadin | Cap 150 mg | Not available (valid) |
+| 2669838 | Rifadin Sanofi | Cap 300 mg | Not available (valid) |
+| 251208 | Rifadin | Oral liq 100 mg per 5 ml | Not available (valid) |
+| 251194 | Rifadin | Cap 300 mg | Not available (valid) |
 
 ## Safety Considerations
 

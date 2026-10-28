@@ -4,17 +4,17 @@ title: Isotretinoin
 parent: Model Prediction Only (L5)
 nav_order: 247
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Isotretinoin: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertensive disorder / hypertension"
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
+description: "Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Isotretinoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Isotretinoin: From Hypertensive Disorder to Malignant Renovascular Hypertension
+## Isotretinoin: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 According to the source record, isotretinoin is listed as originally used for hypertensive disorders. That listing conflicts with its well-known clinical use, which is severe recalcitrant acne, so it is probably a data-mapping error.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are **0 clinical trials** and **0 publications** supporting this direction.
 The prediction rests only on a model score.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder / hypertension (per the knowledge graph; no approved indication text is available from the regulatory licences, and the mapping appears questionable) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.01% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Isotretinoin (13-
 
 The listed original indications (hypertensive disorder, hypertension) do not match the known clinical use of isotretinoin, which is severe acne. This suggests a data-mapping problem in the source record. Until it is resolved, the apparent link between the "original" and the predicted indication cannot be relied on.
 
-The high score (0.99) is the only support. A second prediction, **malignant hypertensive renal disease**, has an identical score and probably comes from the same part of the knowledge graph. The two predictions are therefore not independent signals. Retinoic acid signalling has been studied preclinically in renal injury and fibrosis, but no direct link to malignant hypertensive nephropathy has been established.
+The high score (0.9901) is the only support. The two predictions are therefore not independent signals. Retinoic acid signalling has been studied preclinically in renal injury and fibrosis, but no direct link to malignant hypertensive nephropathy has been established.
 
 ## Clinical Trial Evidence
 
@@ -74,9 +73,9 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2400278 | Oratane | Cap 20 mg | Not available (cancelled) |
-| 2400286 | Oratane | Cap 10 mg | Not available (cancelled) |
-| 2339161 | Oratane | Cap 5 mg | Not available (cancelled) |
+| 2400278 | Oratane | Cap 20 mg | Not available (valid) |
+| 2400286 | Oratane | Cap 10 mg | Not available (valid) |
+| 2339161 | Oratane | Cap 5 mg | Not available (valid) |
 
 ## Safety Considerations
 
@@ -103,7 +102,7 @@ Currently no related literature available.
 **Decision: Hold**
 
 **Rationale:**
-The only support is a model score, with no clinical trials, no literature, and no mechanistic annotation. The original-indication record conflicts with the drug's known use, and the safety profile is unfavourable for a chronic cardiovascular indication. All three New Zealand licences have been cancelled.
+The only support is a model score, with no clinical trials, no literature, and no mechanistic annotation. The original-indication record conflicts with the drug's known use, and the safety profile is unfavourable for a chronic cardiovascular indication.
 
 **To proceed, the following is needed:**
 - Resolve the original-indication mapping error in the source record.

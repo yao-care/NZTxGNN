@@ -6,9 +6,9 @@ nav_order: 226
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Hydroxocobalamin: predicted new indication Esophageal varices without bleeding (evidence level L5). Approved use: Vitamin B12 deficiency, cyanide poisoning, pernicious anemia"
 monitor_inn: "HYDROXOCOBALAMIN"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
+description: "Hydroxocobalamin: predicted new indication Esophageal varices without bleeding (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydroxocobalamin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Hydroxocobalamin: From Vitamin B12 Deficiency to Esophageal Varices Without Bleeding
+## Hydroxocobalamin: Esophageal varices without bleeding
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **esophageal varices without bl
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin B12 deficiency, cyanide poisoning, pernicious anemia (from the knowledge graph; no approved indication text is available for the New Zealand licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Esophageal varices without bleeding |
-| TxGNN Prediction Score | 99.23% |
+| TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (0 valid, 1 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 No established mechanistic link to esophageal varices has been identified. One speculative pathway is nitric oxide (NO) scavenging. Hydroxocobalamin binds NO and can raise blood pressure, while excess NO contributes to splanchnic vasodilation and portal hypertension in cirrhosis. This hypothesis is not supported by any data compiled for this report.
 
-The very high score (99.23%) should be interpreted cautiously. It may reflect graph-proximity artifacts, such as shared links with liver disease or B12 deficiency, rather than true therapeutic potential. The same score was given to the related indication "esophageal varices with bleeding," which suggests the model is predicting at the disease-class level rather than from indication-specific evidence.
+The very high score (0.9923) comes from the TxGNN model (deep learning) and should be interpreted cautiously. It may reflect similarities the model learned between related diseases, not biological evidence. The same score was given to the related indication "esophageal varices with bleeding" (0.9923), which suggests the model is predicting at the disease-class level rather than from indication-specific evidence.
 
 ## Clinical Trial Evidence
 

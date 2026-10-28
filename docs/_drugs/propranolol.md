@@ -4,17 +4,17 @@ title: Propranolol
 parent: Model Prediction Only (L5)
 nav_order: 390
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Hypertension, atrial fibrillation, hypertrophic cardiomyopathy…"
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
+description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Propranolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Propranolol: From Hypertension and Cardiac Conditions to Distal Myopathy, Tateyama Type
+## Propranolol: Distal myopathy, Tateyama type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,24 +48,23 @@ The data compiled for this report contain more supportive literature for two oth
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, atrial fibrillation, hypertrophic cardiomyopathy, hemangioma (the approved indication text for the New Zealand licences is not available, so these come from the knowledge-graph indication list) |
-| Predicted New Indication | Distal myopathy, Tateyama type (top-ranked prediction) |
-| TxGNN Prediction Score | 99.40% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Distal myopathy, Tateyama type |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 5 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 **Other predictions in the top 6 (for context):**
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 1 | Distal myopathy, Tateyama type | 99.40% | L5 | Hold |
-| 2 | Congenital myopathy with excess of thin filaments | 99.30% | L5 | Hold |
-| 3 | Hypertrophic cardiomyopathy due to intensive athletic training | 99.17% | L5 | Hold |
-| 4 | Chondroma | 99.14% | L5 | Hold |
-| 5 | Cirrhotic cardiomyopathy | 99.12% | L4 | Research Question |
-| 6 | Cardiomyopathy | 99.12% | L4 | Research Question |
+| 1 | Distal myopathy, Tateyama type | 0.9940 | L5 | Hold |
+| 2 | Congenital myopathy with excess of thin filaments | 0.9930 | L5 | Hold |
+| 4 | Chondroma | 0.9914 | L5 | Hold |
+| 5 | Cirrhotic cardiomyopathy | 0.9912 | L5 | Research Question |
+| 6 | Cardiomyopathy | 0.9912 | L5 | Research Question |
 
 ---
 
@@ -73,7 +72,7 @@ The data compiled for this report contain more supportive literature for two oth
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, propranolol is a non-selective beta-adrenergic blocker. Its efficacy in hypertension and hypertrophic cardiomyopathy is established, but a mechanistic link to a rare distal myopathy is not supported.
 
-For the top-ranked prediction, **distal myopathy, Tateyama type**, no plausible link between beta-adrenergic blockade and this rare condition can be drawn from the supplied data. The high score most likely reflects patterns in the knowledge graph rather than a biological rationale. Note also that the knowledge graph lists myopathy and muscular disease among propranolol's contraindication-type associations, which points in the opposite direction. The same applies to the second-ranked prediction, congenital myopathy with excess of thin filaments.
+For the top-ranked prediction, **distal myopathy, Tateyama type** (score 0.9940), no plausible link between beta-adrenergic blockade and this rare condition can be drawn from the supplied data. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Note also that the knowledge graph lists myopathy and muscular disease among propranolol's contraindication-type associations, which points in the opposite direction. The same applies to the second-ranked prediction, congenital myopathy with excess of thin filaments (score 0.9930).
 
 The cardiac predictions are more plausible. Hypertrophic cardiomyopathy is already an original indication, so the broader **cardiomyopathy** prediction is mechanistically consistent (lower heart rate and contractility, reduced arrhythmia burden, improved diastolic filling). It adds limited repurposing novelty beyond that subtype. **Cirrhotic cardiomyopathy** has a possible link through the effect of beta-blockade on QT prolongation, but other studies raise safety concerns for non-selective beta-blockers in advanced cirrhosis.
 
@@ -114,15 +113,15 @@ Other retrieved entries (for example SarcTrack and the RIα subunit paper) are i
 
 ## New Zealand Market Information
 
-All five licences are cancelled; there is no currently valid propranolol product in the data compiled for this report. Approved indication text is not available for these licences.
+All five licences are valid; propranolol is marketed in this country with 5 valid licences of 5. Approved indication text is not available for these licences.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2681080 | Hikma-Propranolol | Oral liquid 4 mg per ml | Cancelled |
-| 2618664 | IPCA-Propranolol | Tablet 40 mg | Cancelled |
-| 2611414 | Drofate | Tablet 10 mg | Cancelled |
-| 2401894 | Roxane-Propranolol | Oral liquid 4 mg per ml | Cancelled |
-| 326070 | Cardinol LA | Long-acting capsule 160 mg | Cancelled |
+| 2681080 | Hikma-Propranolol | Oral liquid 4 mg per ml | Valid |
+| 2618664 | IPCA-Propranolol | Tablet 40 mg | Valid |
+| 2611414 | Drofate | Tablet 10 mg | Valid |
+| 2401894 | Roxane-Propranolol | Oral liquid 4 mg per ml | Valid |
+| 326070 | Cardinol LA | Long-acting capsule 160 mg | Valid |
 
 ---
 
@@ -144,14 +143,14 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (distal myopathy, Tateyama type) rests on a model score alone (L5), with no trials, no literature and no plausible mechanism. The knowledge graph also associates propranolol with myopathy contraindications. Propranolol currently has no valid New Zealand licence. The only predictions with some supporting literature, cirrhotic cardiomyopathy and cardiomyopathy (both L4), are best treated as research questions. The latter largely overlaps with an existing indication.
+The top-ranked prediction (distal myopathy, Tateyama type) rests on a model score alone (L5), with no trials, no literature and no plausible mechanism. The knowledge graph also associates propranolol with myopathy contraindications. The only predictions with some supporting literature, cirrhotic cardiomyopathy and cardiomyopathy (both L4), are best treated as research questions. The latter largely overlaps with an existing indication.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data (for example from DrugBank)
 - For cirrhotic cardiomyopathy: verification of the study designs for PMIDs 38738176, 35763518 and 32446716, and a safety assessment in advanced cirrhosis
 - For the myopathy predictions: any biological rationale or case evidence, and review of the muscle-disease contraindication associations
-- Clarification of the regulatory pathway, since all New Zealand licences are cancelled
+- Clarification of the regulatory pathway, since propranolol is marketed in New Zealand with 5 valid licences of 5
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

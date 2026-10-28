@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Levetiracetam
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 267
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Levetiracetam: predicted new indication Status epilepticus (evidence level L1). Approved use: Partial epilepsy"
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Levetiracetam: From Partial Epilepsy to Status Epilepticus
+## Levetiracetam: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Levetiracetam is an antiseizure medication, originally used to treat partial epilepsy.
-The TxGNN model's highest-ranked prediction with substantive evidence is **Status Epilepticus** (the top-ranked prediction by score is visual epilepsy, which has no supporting trials). It is backed by **16 clinical trials** (including 2 completed Phase 3 trials) and **20 publications**, including landmark randomised trials.
+It is backed by **16 clinical trials** (including 2 completed Phase 3 trials) and **20 publications**, including landmark randomised trials.
 Levetiracetam is already an established second-line therapy here, so this is better viewed as validation of the prediction than as a novel repurposing.
 
 ---
@@ -48,12 +48,12 @@ Levetiracetam is already an established second-line therapy here, so this is bet
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy (source: knowledge graph; no approved-indication text available from the New Zealand licences) |
-| Predicted New Indication | Status epilepticus (rank 9 by TxGNN score; the top-ranked prediction, visual epilepsy, has no trials and only indirect literature, so the best-supported prediction is reported here) |
-| TxGNN Prediction Score | 99.91% (visual epilepsy, the top-ranked prediction: 99.98%) |
-| Evidence Level | L1 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 6 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Beta-ketothiolase deficiency |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism-of-action data was not available in the data compiled for thi
 
 Status epilepticus is a prolonged, self-sustaining seizure state, so it is closely related to the original indication: both involve excessive neuronal firing. Intravenous levetiracetam is used as a second-line agent after benzodiazepines, and its SV2A-mediated mechanism is plausible for terminating prolonged seizure activity.
 
-The very high scores for the other predictions (visual, eating, thinking, micturition-induced, audiogenic, orgasm-induced, startle and reading seizures) mostly reflect the drug's general antiseizure class effect. Only startle epilepsy and audiogenic seizures have limited direct supporting data (see below). Beta-ketothiolase deficiency (rank 10) has no evident mechanistic rationale and is likely a graph artefact.
+Only startle epilepsy and audiogenic seizures have limited direct supporting data (see below).
 
 ---
 
@@ -109,7 +109,6 @@ Supportive evidence for other predicted indications, all limited:
 
 ## New Zealand Market Information
 
-All six licences are cancelled; no approved-indication text was available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -144,7 +143,6 @@ Please refer to the package insert for label warnings and contraindications, whi
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening).
 - Mechanism of action data from DrugBank.
-- Resolution of the market situation, since all New Zealand licences are cancelled and no marketed product is currently available.
 - Renal dose adjustment guidance, behavioural adverse effect monitoring, and a review of clinically significant interactions, especially with opioids and other CNS depressants.
 - Confirmation of the original-indication listing for status epilepticus.
 ## Disclaimer

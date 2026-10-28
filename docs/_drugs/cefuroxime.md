@@ -4,17 +4,17 @@ title: Cefuroxime
 parent: Model Prediction Only (L5)
 nav_order: 90
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Infectious otitis media, bacterial pneumonia, bacterial meningitis…"
 monitor_inn: "cefuroxime"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "suppurative otitis media", "hematological disease associated with an acquired peripheral neuropathy"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 ---
 
 # Cefuroxime
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Cefuroxime: From Bacterial Infections to Urinary Tract Infection
+## Cefuroxime: From Bacterial Infections to Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ The rank 1 prediction, **hyperamylasemia**, has no supporting evidence.
 |------|------|
 | Original Indication | Infectious otitis media, bacterial pneumonia, bacterial meningitis, gonorrhoea, Lyme disease and other bacterial infections (approved indication text is not available for the New Zealand licence) |
 | Predicted New Indication | Hyperamylasemia (rank 1); the best-supported prediction is urinary tract infection (rank 6) |
-| TxGNN Prediction Score | 99.76% (hyperamylasemia); 99.62% (urinary tract infection) |
+| TxGNN Prediction Score | 0.9976 (hyperamylasemia); 0.9962 (urinary tract infection) |
 | Evidence Level | L5 (hyperamylasemia); L3 (urinary tract infection) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (0 currently valid, 1 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold (hyperamylasemia); Proceed with Guardrails is not warranted, and UTI is better treated as a research question |
 
 ---
@@ -62,11 +62,11 @@ The rank 1 prediction, **hyperamylasemia**, has no supporting evidence.
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cefuroxime is a beta-lactam antibiotic that inhibits bacterial cell-wall synthesis. It is active against common respiratory and urinary pathogens.
 
-**Hyperamylasemia (rank 1):** There is no plausible mechanistic link. Hyperamylasemia is a biochemical finding with no bacterial target, and the high score is most likely an artifact of the knowledge graph. Several other top-ranked predictions are in the same position: polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant haematological disease, and haematological disease with acquired peripheral neuropathy. None has clinical or literature support.
+**Hyperamylasemia (rank 1):** There is no plausible mechanistic link. Hyperamylasemia is a biochemical finding with no bacterial target, and the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Several other top-ranked predictions are in the same position: polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant haematological disease, and haematological disease with acquired peripheral neuropathy. None has clinical or literature support.
 
 **Urinary tract infection (rank 6):** This is a strong mechanistic fit. Cefuroxime covers common uropathogens such as *E. coli*, and UTI is a natural extension of the antibacterial class. However, no Phase 3 RCT directly evaluating cefuroxime for UTI was identified. The evidence is mostly observational.
 
-**Other infection-related predictions:** Suppurative otitis media is biologically plausible, but it largely overlaps with the existing otitis media indication. *Peptostreptococcus* infection is plausible, but cefuroxime's anaerobic coverage is limited and the only evidence is a 1981 in-vitro study.
+**Other infection-related predictions:** *Peptostreptococcus* infection is plausible, but cefuroxime's anaerobic coverage is limited and the only evidence is a 1981 in-vitro study.
 
 ---
 
@@ -103,7 +103,7 @@ Trials below are for the best-supported prediction, urinary tract infection. The
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2658445 | Ascend-Cefuroxime | Tab 250 mg | Not available (licence cancelled) |
+| 2658445 | Ascend-Cefuroxime | Tab 250 mg | Not available (licence valid) |
 
 ---
 
@@ -128,7 +128,7 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 **Decision: Hold**
 
 **Rationale:**
-- The rank 1 prediction (hyperamylasemia) and most other top-ranked predictions have no mechanistic rationale, no trials and no literature, so they are likely knowledge-graph artifacts (evidence level L5).
+- The rank 1 prediction (hyperamylasemia) and most other top-ranked predictions have no mechanistic rationale, no trials and no literature, so they are likely TxGNN model (deep learning) artifacts (evidence level L5).
 - Urinary tract infection has observational support (L3) but is probably already within cefuroxime's existing antibacterial use, so it is a research question rather than a true repurposing opportunity. Suppurative otitis media is similar (L4).
 - The only New Zealand licence is cancelled, and the safety review cannot proceed without label data.
 

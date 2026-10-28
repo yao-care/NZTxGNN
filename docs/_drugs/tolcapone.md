@@ -48,21 +48,21 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Parkinson disease (and related parkinsonian syndromes) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Tolcapone is a catechol-O-methyltransferase (COMT) inhibitor. Detailed mechanism of action data are not available in the data compiled for this report, so this is based on its known drug class only. Its established role is in Parkinson disease, where blocking COMT prolongs the effect of levodopa-based dopaminergic therapy.
 
-Rasmussen encephalitis is an immune-mediated, inflammatory epilepsy that affects one brain hemisphere. It has no obvious connection to COMT inhibition or dopaminergic pathways. The high score (0.9993) is a computational prediction, and it probably reflects network proximity to neurological indications in the knowledge graph rather than a demonstrated biological link. No mechanistic rationale is supported by the available data.
+Rasmussen encephalitis is an immune-mediated, inflammatory epilepsy that affects one brain hemisphere. It has no obvious connection to COMT inhibition or dopaminergic pathways. The high score (0.9993) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No mechanistic rationale is supported by the available data.
 
 Other top-ranked predictions are also unsupported by trials or literature. Two are worth noting:
-- **Lewy body dementia** (score 99.64%) is an alpha-synucleinopathy closely related to Parkinson disease, so a dopaminergic rationale is plausible. The only supplied publication is a preclinical iPSC organoid study that did not test tolcapone.
-- **Paralysis agitans, juvenile, of Hunt** (score 99.52%) is a historical term for juvenile-onset parkinsonism. It is likely an overlap with the existing label rather than a true new indication.
+- **Lewy body dementia** (score 0.9964) is an alpha-synucleinopathy closely related to Parkinson disease, so a dopaminergic rationale is plausible. The only supplied publication is a preclinical iPSC organoid study that did not test tolcapone.
+- **Paralysis agitans, juvenile, of Hunt** (score 0.9952) is a historical term for juvenile-onset parkinsonism. It is likely an overlap with the existing label rather than a true new indication.
 
 ## Clinical Trial Evidence
 
@@ -76,7 +76,7 @@ Currently no related literature available for Rasmussen subacute encephalitis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 487236 | Tasmar (cancelled) | Tab 100 mg | Not available |
+| 487236 | Tasmar (valid) | Tab 100 mg | Not available |
 
 ## Safety Considerations
 

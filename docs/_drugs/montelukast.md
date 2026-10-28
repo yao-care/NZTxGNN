@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Montelukast
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 310
-evidence_level: L5
-indication_count: 5
+evidence_level: L1
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Montelukast: predicted new indication Bronchitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, intrinsic asthma…"
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+description: "Montelukast: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L1** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Montelukast: From Allergic Rhinitis and Asthma to Bronchitis
+## Montelukast: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Most of this evidence is small, early-phase, or indirect, and it is not conclusi
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, intrinsic asthma, allergic asthma (the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L1 (see note below) |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 *Evidence level note: one Phase 3 RCT (NCT00076973, n=1125, RSV bronchiolitis) is completed. No second Phase 3 trial is listed for bronchitis. Strictly, this falls between L2 and L1. The trial's results are not described in the data compiled for this report. Treat the L1 label as provisional.*
@@ -112,11 +112,11 @@ The results of these publications are not summarised in the compiled data beyond
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2643618 | Montelukast Viatris | Tab 4 mg | Not recorded (cancelled) |
-| 2643626 | Montelukast Viatris | Tab 5 mg | Not recorded (cancelled) |
-| 2643634 | Montelukast Viatris | Tab 10 mg | Not recorded (cancelled) |
+| 2643618 | Montelukast Viatris | Tab 4 mg | Not recorded (valid) |
+| 2643626 | Montelukast Viatris | Tab 5 mg | Not recorded (valid) |
+| 2643634 | Montelukast Viatris | Tab 10 mg | Not recorded (valid) |
 
-All three licences are cancelled, so no valid montelukast product is currently recorded in New Zealand.
+All three licences are valid, so valid montelukast products are currently recorded in New Zealand and the drug is marketed.
 
 ---
 
@@ -135,7 +135,7 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.95%) and the mechanism is plausible. However, the evidence for "bronchitis" is fragmented across different conditions, mostly small or early-phase, and no result data are available in the compiled material. The drug also has no currently valid New Zealand licence and carries a neuropsychiatric safety signal, especially in children. Together these do not support moving forward yet.
+The TxGNN score is high (0.9995) and the mechanism is plausible. However, the evidence for "bronchitis" is fragmented across different conditions, mostly small or early-phase, and no result data are available in the compiled material. Together these do not support moving forward yet.
 
 **To proceed, the following is needed:**
 - Results of NCT00076973 and the other bronchiolitis RCTs, and a review of the Cochrane assessment (PMID 25773054), to decide whether any bronchitis subtype shows real benefit
@@ -150,10 +150,8 @@ The TxGNN score is high (99.95%) and the mechanism is plausible. However, the ev
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |------|------|------|------|------|
-| 2 | Atopic eczema | 99.81% | L1 | Three Phase 4 trials, but the Cochrane review found limited or no clear benefit; keep as a research question |
-| 3 | Asthma | 99.54% | L1 | On-label use rather than true repurposing; Proceed with Guardrails, with neuropsychiatric monitoring |
-| 4 | Obstructive lung disease | 99.34% | L1 | Evidence is dominated by asthma; no direct COPD evidence in the data |
-| 5 | Asthma-related traits, susceptibility to | 99.22% | L5 | Genetic trait rather than a treatable indication; no trials or literature; Hold |
+| 2 | Atopic eczema | 0.9981 | L1 | Three Phase 4 trials, but the Cochrane review found limited or no clear benefit; keep as a research question |
+| 4 | Obstructive lung disease | 0.9934 | L5 | Evidence is dominated by asthma; no direct COPD evidence in the data |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

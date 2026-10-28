@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Olodaterol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 336
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Olodaterol: predicted new indication Bronchitis (evidence level L4). Approved use: Chronic obstructive pulmonary disease (COPD)"
 monitor_inn: "olodaterol"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis"]
 # Olodaterol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **bronchitis**, but this is sup
 |------|------|
 | Original Indication | Chronic obstructive pulmonary disease (COPD) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 |
+| TxGNN Prediction Score | 0.9984 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **bronchitis**, but this is sup
 
 Detailed mechanism of action data is not available in the compiled data. Based on the established pharmacology of the drug class, olodaterol is a long-acting β2-agonist. It activates β2-adrenoceptors, raises intracellular cAMP and relaxes airway smooth muscle, producing sustained bronchodilation.
 
-Chronic bronchitis is a recognised phenotype of COPD, the drug's original indication. The very high TxGNN score (0.998) therefore largely reflects overlap with the existing COPD indication rather than a novel repurposing signal. Acute bronchitis would not be expected to benefit from a LABA in the same way, because bronchodilation is not the main treatment goal there.
+Chronic bronchitis is a recognised phenotype of COPD, the drug's original indication. The very high TxGNN score (0.9984) therefore largely reflects overlap with the existing COPD indication rather than a novel repurposing signal. Acute bronchitis would not be expected to benefit from a LABA in the same way, because bronchodilation is not the main treatment goal there.
 
 In short, the prediction is plausible for chronic bronchitis within COPD. It is not a strong signal for a genuinely new use.
 
@@ -90,7 +90,7 @@ Neither publication directly evaluates olodaterol in bronchitis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2494027 | Spiolto Respimat | Solution for inhalation, 2.5 mcg with olodaterol 2.5 mcg | Not stated (authorization status: cancelled) |
+| 2494027 | Spiolto Respimat | Solution for inhalation, 2.5 mcg with olodaterol 2.5 mcg | Not stated (authorization status: valid) |
 
 ---
 

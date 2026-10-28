@@ -4,17 +4,17 @@ title: Metolazone
 parent: Model Prediction Only (L5)
 nav_order: 295
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Metolazone: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension / hypertensive disorder"
+indication_count: 4
+last_modified_at: 2026-10-28
 monitor_inn: "METOLAZONE"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Metolazone: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metolazone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Metolazone: From Hypertension to Malignant Hypertensive Renal Disease
+## Metolazone: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,24 +45,24 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension / hypertensive disorder (from the knowledge graph; no approved indication text is available in the New Zealand licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on known information, metolazone is a thiazide-like diuretic. It is understood to lower blood pressure by inhibiting sodium-chloride reabsorption in the kidney, which reduces fluid volume. Its efficacy in hypertension is established, and mechanistically it could be applicable to hypertension-related kidney disease.
 
-The predicted indication is closely related to the original one, which probably explains the high score. Malignant hypertensive renal disease is, however, a hypertensive emergency. It is usually managed with intravenous antihypertensives, and thiazide-type diuretics are not a standard therapy. The score is a graph-based prediction and most likely reflects proximity to the original hypertension indication rather than independent evidence.
+The predicted indication is closely related to the original one, which probably explains the high score. Malignant hypertensive renal disease is, however, a hypertensive emergency. It is usually managed with intravenous antihypertensives, and thiazide-type diuretics are not a standard therapy. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other high-scoring predictions follow the same pattern:
-- **Malignant renovascular hypertension** (99.84%): the rationale is weak. This condition is driven mainly by renin-angiotensin activation, and diuretic-induced volume depletion may worsen it.
-- **Pulmonary hypertension** (two subtypes, 99.83%): metolazone is sometimes added to loop diuretics for refractory fluid overload. This relieves symptoms and does not treat the pulmonary vascular disease.
-- **Braddock syndrome** (99.78%): no mechanistic rationale can be established from the available data.
+- **Malignant renovascular hypertension** (0.9984): the rationale is weak. This condition is driven mainly by renin-angiotensin activation, and diuretic-induced volume depletion may worsen it.
+- **Pulmonary hypertension** (two subtypes, 0.9983): metolazone is sometimes added to loop diuretics for refractory fluid overload. This relieves symptoms and does not treat the pulmonary vascular disease.
+- **Braddock syndrome** (0.9978): no mechanistic rationale can be established from the available data.
 
 ## Clinical Trial Evidence
 

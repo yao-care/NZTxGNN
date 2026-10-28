@@ -50,10 +50,10 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 |------|------|
 | Original Indication | Osteoporosis (including postmenopausal and drug-induced osteoporosis) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only (no currently valid authorizations) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 RANKL/RANK signalling has been proposed to play roles in vascular calcification, inflammation and metabolic regulation, which could plausibly relate to diabetic microvascular disease. However, the data compiled for this report contain no direct evidence linking RANKL inhibition to retinal vascular pathology.
 
-The model score is very high, but it reflects a computational prediction only. The related prediction, diabetic retinopathy (score 99.23%), has two publications. One observational study suggests denosumab given for osteoporosis may be associated with a lower incidence of type 2 diabetes and less foot ulceration. This is indirect support only and does not test retinopathy outcomes.
+The model score is very high, but it reflects a computational prediction only. The related prediction, diabetic retinopathy (score 0.9923), has two publications. One observational study suggests denosumab given for osteoporosis may be associated with a lower incidence of type 2 diabetes and less foot ulceration. This is indirect support only and does not test retinopathy outcomes.
 
 ---
 
@@ -89,8 +89,8 @@ No literature is available for severe nonproliferative diabetic retinopathy. For
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2406047 | Prolia (cancelled) | Inj 60 mg per 1 ml prefilled syringe | Not available |
-| 2594870 | Xgeva (cancelled) | Inj 120 mg per 1.7 ml vial | Not available |
+| 2406047 | Prolia (valid) | Inj 60 mg per 1 ml prefilled syringe | Not available |
+| 2594870 | Xgeva (valid) | Inj 120 mg per 1.7 ml vial | Not available |
 
 ---
 

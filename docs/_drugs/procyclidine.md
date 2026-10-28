@@ -6,9 +6,9 @@ nav_order: 387
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Procyclidine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian and dystonic disorders"
 monitor_inn: "Procyclidine"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "transaldolase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "fructose-1,6-bisphosphatase deficiency"]
+description: "Procyclidine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Procyclidine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Procyclidine: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Procyclidine: Rasmussen subacute encephalitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease and related parkinsonian and dystonic disorders (the New Zealand licence record has no indication text, so this comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 1 (0 currently valid, 1 cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, procyclidine is a centrally acting muscarinic antagonist. Its efficacy in parkinsonism and dystonia is established, but it has no documented mechanistic link to Rasmussen encephalitis.
 
-Rasmussen encephalitis is an immune-mediated, T-cell-driven neuroinflammatory disease. It causes unilateral cortical atrophy and refractory focal seizures. Anticholinergic action is not expected to modify this immune pathology. The very high TxGNN score (99.74%) most likely reflects knowledge-graph proximity to neurological and basal ganglia disease nodes rather than a validated biological rationale.
+Rasmussen encephalitis is an immune-mediated, T-cell-driven neuroinflammatory disease. It causes unilateral cortical atrophy and refractory focal seizures. Anticholinergic action is not expected to modify this immune pathology. The very high TxGNN score (0.9974) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top-ranked predictions were also reviewed. Most (for example myelitis, ADHD and several metabolic or developmental syndromes) have no plausible mechanistic link.
 - **PLA2G6-associated neurodegeneration** is the most biologically plausible for symptomatic use, because dystonia and parkinsonism overlap with procyclidine's original uses.

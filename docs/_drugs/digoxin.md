@@ -4,17 +4,17 @@ title: Digoxin
 parent: Model Prediction Only (L5)
 nav_order: 150
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-15
-description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Atrial fibrillation"
+indication_count: 5
 monitor_inn: "DIGOXIN"
-predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "obsolete susceptibility to ischemic stroke", "hypoalphalipoproteinemia"]
+predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
+last_modified_at: 2026-10-27
+description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Digoxin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Digoxin: From Atrial Fibrillation to Prinzmetal Angina
+## Digoxin: Cardiac glycoside (Na⁺/K⁺-ATPase inhibitor) → Prinzmetal angina
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Digoxin is a cardiac glycoside, originally used for atrial fibrillation and digitalis poisoning (as recorded in the knowledge graph).
-The TxGNN model predicts it may be effective for **Prinzmetal angina**, but there are **0 clinical trials** and only **1 loosely related publication**, so the prediction is not supported by real-world evidence.
+Digoxin is a cardiac glycoside that inhibits the Na⁺/K⁺-ATPase pump and is used as a heart-rate and heart-function medicine.
+The TxGNN model predicts it may be relevant for **Prinzmetal angina**, but this is a model prediction only, with **0 clinical trials** and **1 loosely related publication** that does not study digoxin in this condition.
 
 ---
 
@@ -47,23 +47,21 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but ther
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation; digitalis poisoning (from the knowledge graph; no approved indication text is available in the New Zealand licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 4 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Digoxin is generally known as a Na+/K+-ATPase inhibitor with positive inotropic and vagomimetic effects, which is why it is used for rate control in atrial fibrillation.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Digoxin is generally understood as a Na⁺/K⁺-ATPase inhibitor with positive inotropic and vagomimetic (slowing of conduction) effects.
 
-The assessment found no credible mechanistic link between this action and Prinzmetal (vasospastic) angina. Digoxin has no known role in preventing coronary vasospasm, and cardiac glycosides may even raise vascular tone, which could theoretically aggravate vasospasm. The high score (0.998) is a graph-based prediction only.
-
-The same applies to the other top-ranked predictions (duodenal obstruction, duodenal ulcer, duodenogastric reflux, an obsolete ischaemic stroke susceptibility term, and hypoalphalipoproteinaemia). None has clinical trials, and none has a plausible mechanistic rationale. Some are also unfavourable: digoxin commonly causes nausea, vomiting and anorexia, which would be undesirable in gastrointestinal conditions.
+On the available information, no credible mechanistic link to Prinzmetal angina can be established. Prinzmetal angina is driven by coronary vasospasm, and digoxin has no known role in preventing it. Cardiac glycosides may even raise vascular tone, which could theoretically aggravate vasospasm. The high score of 0.9981 reflects a model-based prediction pattern only and should not be read as clinical support.
 
 ---
 
@@ -77,7 +75,7 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Review | Acta Physiol Pharmacol Bulg | Chronopharmacology and its impact on antihypertensive treatment. It does not address digoxin in vasospastic angina, so it provides no support for this prediction. |
+| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Review | Acta Physiol Pharmacol Bulg | General review of chronopharmacology in antihypertensive treatment; it does not address digoxin or vasospastic angina |
 
 ---
 
@@ -85,23 +83,18 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2527197 | Lanoxin S29 | Oral liquid 50 mcg/ml | Not available (cancelled) |
-| 2378078 | Lanoxin | Tablet 250 mcg | Not available (cancelled) |
-| 2377012 | Lanoxin PG | Tablet 62.5 mcg | Not available (cancelled) |
-| 426490 | Lanoxin | Oral liquid 50 mcg/ml | Not available (cancelled) |
+| 2527197 | Lanoxin S29 | Oral liq 50 mcg per ml | Not recorded |
+| 2378078 | Lanoxin | Tab 250 mcg | Not recorded |
+| 2377012 | Lanoxin PG | Tab 62.5 mcg | Not recorded |
+| 426490 | Lanoxin | Oral liq 50 mcg per ml | Not recorded |
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications suggested by the knowledge graph** (graph-derived associations, not package insert text):
-  - Cardiac: myocardial infarction, coronary thrombosis, cor pulmonale, Wolff-Parkinson-White syndrome, sick sinus syndrome (including familial), ventricular fibrillation, hypertrophic cardiomyopathy (including familial), atrioventricular block, myocarditis, constrictive pericarditis, restrictive cardiomyopathy
-  - Metabolic and electrolyte: potassium deficiency, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease
-  - Thyroid: myxedema, hypothyroidism, congenital hypothyroidism
-  - Other: kidney disease, pyoureter, hemoglobinopathy
-- **Drug Interactions**: The interaction screen returned 100 interactions. Of the 20 listed, most are Moderate and a few are Minor. Moderate examples include acarbose, rabeprazole, doxycycline, tetracycline, epinephrine, corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone), cholecalciferol, calcium phosphate, metformin, amphotericin B (including the lipid complex), bupropion and acetylsalicylic acid. Minor examples include albiglutide, hyoscyamine, atropine and glycopyrronium.
+- **Drug Interactions**: 100 interactions were found in the interaction screening. Examples at moderate level include acarbose, rabeprazole, doxycycline, epinephrine, hydrocortisone, metformin, amphotericin B, bupropion, acetylsalicylic acid, dexamethasone and tetracycline. Minor-level examples include albiglutide, hyoscyamine, atropine and glycopyrronium.
 
-Digoxin has a narrow therapeutic index. Please refer to the package insert for full warnings and precautions.
+Please refer to the package insert for warnings and contraindications, which were not available in the data compiled for this report.
 
 ---
 
@@ -110,13 +103,12 @@ Digoxin has a narrow therapeutic index. Please refer to the package insert for f
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score. There are no clinical trials, the single linked publication is unrelated, and there is no credible mechanistic link between digoxin and vasospastic angina. All four New Zealand licences are cancelled, and several knowledge-graph contraindications involve cardiac conditions.
+The prediction rests on a model score alone. No clinical trials exist, the only linked publication does not study digoxin in this condition, and there is no plausible mechanism. Digoxin may theoretically worsen vasospasm.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (for example from DrugBank) and a mechanistic analysis of digoxin in coronary vasospasm
-- Package insert warnings and contraindications from Medsafe, which are required before safety screening can start
-- Relevant preclinical or clinical studies of digoxin in Prinzmetal angina
-- Confirmation of whether any digoxin product is currently marketed in New Zealand
+- Mechanism of action data and a credible pharmacological rationale for coronary vasospasm
+- Direct clinical or preclinical studies of digoxin in Prinzmetal angina
+- Package insert warnings and contraindications from Medsafe for safety screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

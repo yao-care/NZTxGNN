@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nintedanib
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 322
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Idiopathic pulmonary fibrosis, non-small cell lung cancer"
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
+description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Nintedanib: From Idiopathic Pulmonary Fibrosis and Lung Cancer to Dermatofibrosarcoma Protuberans
+## Nintedanib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **no registered clinical trials** and only **1 publicati
 
 | Item | Content |
 |------|------|
-| Original Indication | Idiopathic pulmonary fibrosis, non-small cell lung cancer (from the knowledge graph; no approved indication text is available for the New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| TxGNN Prediction Score | 0.9915 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ DFSP is driven by the COL1A1-PDGFB fusion, which causes constitutive PDGFR-beta 
 
 Imatinib is the established PDGFR-directed therapy for DFSP, so nintedanib would need to show a rationale beyond it, such as activity after imatinib resistance.
 
-Two other predictions, liposarcoma (score 99.13%) and ovarian myxoid liposarcoma (score 99.12%), have no trials or literature behind them. They are computational predictions only, and the second likely reflects proximity to the liposarcoma node in the knowledge graph. Both are at evidence level L5 with a recommendation of Hold.
+Two other predictions, liposarcoma (score 0.9913) and ovarian myxoid liposarcoma (score 0.9912), have no trials or literature behind them. They are computational predictions only. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Both are at evidence level L5 with a recommendation of Hold.
 
 ---
 
@@ -88,8 +88,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2553708 | Ofev | Cap 150 mg | Not available (licence cancelled) |
-| 2553694 | Ofev | Cap 100 mg | Not available (licence cancelled) |
+| 2553708 | Ofev | Cap 150 mg | Not available (licence valid) |
+| 2553694 | Ofev | Cap 100 mg | Not available (licence valid) |
 
 ---
 
@@ -121,13 +121,13 @@ For other safety information (warnings and contraindications), please refer to t
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, and PDGFR-beta activation in DFSP gives a plausible mechanism. However, there are no clinical trials and no nintedanib-specific publications, and imatinib is already the established targeted therapy. In addition, all New Zealand licences for nintedanib are cancelled.
+The prediction score is high, and PDGFR-beta activation in DFSP gives a plausible mechanism. However, there are no clinical trials and no nintedanib-specific publications, and imatinib is already the established targeted therapy. In addition, nintedanib is marketed in New Zealand, with 2 valid licences of 2.
 
 **To proceed, the following is needed:**
 - Nintedanib-specific preclinical or clinical data in DFSP, especially in imatinib-resistant disease
 - Verified mechanism of action data from DrugBank
 - The Medsafe package insert (warnings and contraindications), which is required before safety screening
-- Clarification of the New Zealand supply and regulatory pathway, since there are no valid licences
+- Clarification of the New Zealand supply and regulatory pathway for this use, since the drug is marketed with 2 valid licences of 2
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

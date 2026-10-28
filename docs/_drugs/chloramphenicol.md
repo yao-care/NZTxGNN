@@ -48,10 +48,10 @@ Topical use in bacterial conjunctivitis is already well established, so this is 
 |------|------|
 | Original Indication | Typhoid fever, salmonellosis, paratyphoid fever, meningococcal infection, streptococcal meningitis, and other infections (the licence records provided carry no approved-indication text) |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,8 +85,8 @@ Currently no related clinical trials registered for conjunctivitis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2368137 | Chlorafast | Eye drops 0.5% | Not recorded (cancelled) |
-| 2576902 | Devatis | Eye ointment 1% | Not recorded (cancelled) |
+| 2368137 | Chlorafast | Eye drops 0.5% | Not recorded (valid) |
+| 2576902 | Devatis | Eye ointment 1% | Not recorded (valid) |
 
 ## Cytotoxicity
 

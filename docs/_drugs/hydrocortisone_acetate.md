@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydrocortisone Acetate
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 225
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L5). Approved use: Autoimmune disease, inflammatory bowel disease and Crohn disease…"
 monitor_inn: "HYDROCORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
+description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Hydrocortisone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Hydrocortisone Acetate: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+## Hydrocortisone Acetate: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **1 clinical trial** (in which hydrocortisone was the comparator) and **2 p
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease, inflammatory bowel disease and Crohn disease, adrenocortical insufficiency, congenital adrenal hyperplasia (from the knowledge graph; the New Zealand licence has no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L1 (as assigned in the compiled data; see the note below) |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 > **Note on the evidence level:** The L1 label would normally require two or more completed Phase 3 RCTs. Only one such trial was found, and hydrocortisone was the low-potency comparator rather than the test drug. In my judgement the real strength of evidence is closer to L2–L3 at best. This is why the recommendation below is more cautious than the label suggests.

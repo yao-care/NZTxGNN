@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lansoprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 259
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Lansoprazole: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lansoprazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Lansoprazole: From Gastric Ulcer and Reflux Disease to Duodenogastric Reflux
+## Lansoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lansoprazole is a proton pump inhibitor originally used to treat gastric and duodenal ulcers, gastroesophageal reflux disease, esophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **duodenogastric reflux**, but there are currently **no registered clinical trials** and only **1 general review article** that touches on this direction indirectly.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome (from the knowledge graph; New Zealand licence indication text is not available) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9968 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +60,7 @@ Duodenogastric (bile) reflux is pathophysiologically related to these conditions
 
 The link is, however, only partial and indirect. Proton pump inhibitors do not address the bile component or the underlying motility and pyloric dysfunction. The very high TxGNN score most likely reflects network proximity to existing gastrointestinal indications rather than independent evidence of benefit.
 
-A second predicted indication, duodenal obstruction (score 99.68%), has no trials or literature. It is mainly a mechanical condition needing endoscopic or surgical management, and lansoprazole is unlikely to treat the obstruction itself. It is not evaluated further here.
+A second predicted indication, duodenal obstruction (score 0.9968), has no trials or literature. It is mainly a mechanical condition needing endoscopic or surgical management, and lansoprazole is unlikely to treat the obstruction itself. It is not evaluated further here.
 
 ## Clinical Trial Evidence
 
@@ -77,9 +76,9 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2482541 | Lanzol Relief | Capsule 30 mg | Not available (cancelled) |
-| 2726017 | Lanzol Relief | Capsule 15 mg | Not available (cancelled) |
-| 2482533 | Lanzol Relief | Capsule 15 mg | Not available (cancelled) |
+| 2482541 | Lanzol Relief | Capsule 30 mg | Not available (valid) |
+| 2726017 | Lanzol Relief | Capsule 15 mg | Not available (valid) |
+| 2482533 | Lanzol Relief | Capsule 15 mg | Not available (valid) |
 
 ## Safety Considerations
 
@@ -96,13 +95,12 @@ Package insert warnings and contraindications were not available and should be r
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone, with no registered trials and only a general review that does not address duodenogastric reflux specifically. The mechanistic link is partial, since acid suppression does not target bile reflux. In New Zealand, all three lansoprazole licences are cancelled, and safety label data is missing.
+The mechanistic link is partial, since acid suppression does not target bile reflux.
 
 **To proceed, the following is needed:**
 - Obtain and review the Medsafe package insert for warnings and contraindications (a blocking gap for safety screening)
 - Obtain detailed mechanism of action data
 - Search for clinical studies of PPIs in bile reflux or duodenogastric reflux
-- Clarify the regulatory pathway given that no valid New Zealand licence currently exists
 - Review the interaction list against the likely target population
 ## Disclaimer
 

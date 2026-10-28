@@ -6,9 +6,9 @@ nav_order: 308
 evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Moclobemide
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **2**
 
 </div>
 
-## Moclobemide: From Anxiety Disorder to Agoraphobia
+## Moclobemide: Agoraphobia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **no registered clinical trials** but **10 publications** (including 2 rand
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (from the knowledge graph; no approved indication text is available from New Zealand licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Agoraphobia |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Cancelled only (no currently valid authorisation) |
-| Number of Authorizations | 2 (both cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,8 +85,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2602393 | Aurorix | Tab 300 mg | Not available (cancelled) |
-| 2602385 | Aurorix | Tab 150 mg | Not available (cancelled) |
+| 2602393 | Aurorix | Tab 300 mg | Not available (valid) |
+| 2602385 | Aurorix | Tab 150 mg | Not available (valid) |
 
 ## Safety Considerations
 
@@ -99,16 +99,15 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The evidence is moderate (L2), with two randomised trials in panic disorder with agoraphobia and a plausible mechanism. However, there are no registered clinical trials for agoraphobia itself. Moclobemide currently has no valid New Zealand authorisation (both licences are cancelled). Package insert safety information has not been obtained, so safety screening cannot proceed.
+The evidence is moderate (L2), with two randomised trials in panic disorder with agoraphobia and a plausible mechanism. However, there are no registered clinical trials for agoraphobia itself. Package insert safety information has not been obtained, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
-- Confirmation of the regulatory pathway, since there is no currently valid New Zealand authorisation
 - Review of the two RCTs to confirm effect sizes specific to agoraphobia symptoms
 - Safety and interaction assessment, particularly with serotonergic agents
 
-*Note: The second predicted indication, benign paroxysmal torticollis of infancy (TxGNN score 99.30%), has no supporting trials or literature and no supported mechanistic link. It is not recommended for further evaluation at this time (Hold).*
+*Note: The second predicted indication, benign paroxysmal torticollis of infancy (TxGNN score 0.9930), has no supporting trials or literature and no supported mechanistic link. It is not recommended for further evaluation at this time (Hold).*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

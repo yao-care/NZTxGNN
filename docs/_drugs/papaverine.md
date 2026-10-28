@@ -6,9 +6,9 @@ nav_order: 349
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Papaverine: predicted new indication Ischemic disease (evidence level L4). Approved use: Peripheral vascular disease, intermittent claudication…"
 monitor_inn: "Papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
+description: "Papaverine: predicted new indication Ischemic disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Papaverine
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Papaverine: From Peripheral Vascular Disease to Ischemic Disease
+## Papaverine: Ischemic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but the supporting evidence is thin: **1 registered clinical trial** (an observa
 
 | Item | Content |
 |------|------|
-| Original Indication | Peripheral vascular disease, intermittent claudication, peripheral arterial disease, brain ischemia, transient ischemic attack (from the knowledge graph; no approved indication text is available for the New Zealand licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ischemic disease |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid authorization) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -102,7 +102,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.91%), and the vasodilator mechanism is plausible. However, there is no randomized evidence for treating ischemic disease, the only registered trial is an observational diagnostic registry, and the product's New Zealand licence has been cancelled. The knowledge graph also lists coronary artery disease and myocardial infarction as contraindication-related conditions. The idea is a research question, not a ready-to-use new indication.
+The TxGNN score is very high (0.9991), and the vasodilator mechanism is plausible. However, there is no randomized evidence for treating ischemic disease, the only registered trial is an observational diagnostic registry, and the product's New Zealand licence has been cancelled. The knowledge graph also lists coronary artery disease and myocardial infarction as contraindication-related conditions. The idea is a research question, not a ready-to-use new indication.
 
 **To proceed, the following is needed:**
 - The Medsafe package insert, to confirm warnings and contraindications (a blocking gap for safety screening)

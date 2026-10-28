@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Acetaminophen
-parent: Moderate Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 14
-evidence_level: L4
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Acetaminophen: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder, headache disorder, allergic rhinitis…"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Acetaminophen: known uses and market status in New Zealand; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Acetaminophen
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,66 +32,51 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Acetaminophen: From Allergic Rhinitis, Migraine and Common Cold to Migraine with Brainstem Aura
+<!-- known-uses-page -->
+<!-- description: Acetaminophen: known uses and market status in New Zealand; currently no new candidate indication -->
+## Acetaminophen: Known uses and market status in New Zealand
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetaminophen, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. This page lists the market status in New Zealand and the grouping of the model's candidates.
 
-Acetaminophen (paracetamol) is a widely used analgesic and antipyretic. In the data compiled for this report its original indications cover headache and migraine disorders, allergic and vasomotor rhinitis, and the common cold.
-The TxGNN model predicts it may be useful for **migraine with brainstem aura**, but there are **no registered clinical trials** and only **general migraine literature (20 publications, mostly reviews)** behind this prediction, so the evidence is weak.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder, headache disorder, allergic rhinitis, vasomotor rhinitis, common cold (from the knowledge graph; no approved-indication text is available from New Zealand licences) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 7 (all cancelled) |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 0 |
+| Evidence level | Not applicable |
+| Market status in New Zealand | Marketed (valid licences: 7 of 7) |
+| Number of Authorizations | 7 (valid: 7) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data is not available in the data compiled for this report. Acetaminophen is known to be used for acute migraine and headache, and its analgesic effect is generally thought to involve central COX inhibition plus serotonergic and endocannabinoid modulation. The pharmacology data compiled lists TRPV4, COX-1 and COX-2 as targets.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Migraine with brainstem aura is a subtype of migraine with aura, so the existing migraine indication provides a plausible link: acetaminophen could relieve the headache pain of an attack.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-However, no evidence shows that acetaminophen affects the aura or brainstem-related neurological mechanisms specific to this subtype. The high TxGNN score (0.99) most likely reflects the network proximity of this subtype to already-established migraine indications rather than independent evidence.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-No literature specific to migraine with brainstem aura was found. The publications below concern migraine in general. Only study types classified in the data are labelled; others are marked as not classified.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10321417](https://pubmed.ncbi.nlm.nih.gov/10321417/) | 1999 | Randomized placebo-controlled trials (pooled retrospective analysis) | Clin Ther | Acetaminophen + aspirin + caffeine for menstruation-associated migraine, from 3 double-masked, placebo-controlled trials |
-| [11318886](https://pubmed.ncbi.nlm.nih.gov/11318886/) | 2001 | Comparative study | Headache | Isometheptene/dichloralphenazone/acetaminophen compared with sumatriptan in mild-to-moderate migraine, with or without aura |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies |
-| [30470274](https://pubmed.ncbi.nlm.nih.gov/30470274/) | 2019 | Review | Neurol Clin | Headache in pregnancy; acetaminophen is first-line symptomatic treatment |
-| [39493026](https://pubmed.ncbi.nlm.nih.gov/39493026/) | 2024 | Review | Cureus | Abortive and prophylactic migraine therapy in pregnancy |
-| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Review | Handb Clin Neurol | Status migrainosus as a complication of migraine with or without aura |
-| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | Not classified | Neurol Int | Ubrogepant for acute migraine; notes acetaminophen among non-prescription options for mild to moderate migraine |
-| [23203776](https://pubmed.ncbi.nlm.nih.gov/23203776/) | 2013 | Not classified | Curr Treat Options Neurol | Diagnosis and treatment of familial and sporadic hemiplegic migraine |
-| [16018227](https://pubmed.ncbi.nlm.nih.gov/16018227/) | 2005 | Review | Pediatr Ann | Treatment of pediatric migraine |
-| [14756851](https://pubmed.ncbi.nlm.nih.gov/14756851/) | 2004 | Randomized crossover study | Headache | Diclofenac softgel in migraine without aura (does not involve acetaminophen) |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## New Zealand Market Information
 
-All seven licences are cancelled, and no approved-indication text is available.
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2643650 | Pamol | Oral liquid 250 mg per 5 ml | Not available |
-| 2650665 | Paracetamol (Ethics) | Oral liquid 120 mg per 5 ml | Not available |
-| 2611430 | Noumed Paracetamol | Tablet 500 mg (bottle pack) | Not available |
-| 2552663 | Gacet | Suppository 500 mg | Not available |
-| 2482711 | Gacet | Suppository 125 mg | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 2643650 | Paracetamol | Oral liq 250 mg per 5 ml | Valid |
+| 2650665 | Paracetamol | Oral liq 120 mg per 5 ml | Valid |
+| 2611430 | Paracetamol | Tab 500 mg - bottle pack | Valid |
+| 2552663 | Paracetamol | Suppos 500 mg | Valid |
+| 2482711 | Paracetamol | Suppos 125 mg | Valid |
+| 2482738 | Paracetamol | Suppos 250 mg | Valid |
+| 2612712 | Paracetamol | Tab 500 mg - blister pack | Valid |
 
 ## Safety Considerations
 
@@ -99,19 +85,6 @@ All seven licences are cancelled, and no approved-indication text is available.
 
 Please refer to the package insert for full warnings and contraindications, as label-based safety data were not available.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on proximity to existing migraine indications. There are no trials, no subtype-specific literature, and no mechanistic evidence for aura or brainstem involvement. Acetaminophen has no currently valid New Zealand licence, and label safety data are missing, so the case is a research question rather than a candidate ready to advance.
-
-**To proceed, the following is needed:**
-- Medsafe package insert warnings and contraindications (safety screening cannot proceed without them)
-- Mechanism of action data (e.g. from DrugBank)
-- Subtype-specific clinical evidence for migraine with brainstem aura
-- Clarification of regulatory status, since all New Zealand licences are cancelled
-- Confirmation of hepatic risk management given the knowledge-graph liver-related contraindications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

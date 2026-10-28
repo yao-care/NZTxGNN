@@ -6,9 +6,9 @@ nav_order: 169
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Droperidol: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not available in the licence data"
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
+description: "Droperidol: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Droperidol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Droperidol: From an Unspecified Original Indication to Tourette Syndrome
+## Droperidol: Tourette syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,20 +46,20 @@ The best-supported direction among the top 10 predictions is **headache disorder
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the licence data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 (for Tourette syndrome) |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 For context, the other top-10 predictions with the strongest evidence are:
 
 | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|
-| Headache disorder (migraine) | 99.47% | L3 | Research Question |
-| Manic bipolar affective disorder | 99.82% | L3 | Research Question |
+| Headache disorder (migraine) | 0.9947 | L3 | Research Question |
+| Manic bipolar affective disorder | 0.9982 | L5 | Research Question |
 
 ## Why is This Prediction Reasonable?
 
@@ -124,14 +124,13 @@ Label warnings and contraindications from the Medsafe package insert were not av
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, Tourette syndrome, has no trials or literature and is only mechanistically plausible by class analogy. Droperidol has no currently valid New Zealand licence, is injection-only, and carries QT-prolongation risk, which makes chronic use for a tic disorder impractical. Migraine/headache has the most supporting literature (including two randomised trials) and could be pursued as a separate research question with ECG guardrails.
+The top prediction, Tourette syndrome, has no trials or literature and is only mechanistically plausible by class analogy. Migraine/headache has the most supporting literature (including two randomised trials) and could be pursued as a separate research question with ECG guardrails.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - The original approved indication text for the cancelled licence
 - For migraine: a full review of the randomised trials and systematic reviews, plus a QT/ECG monitoring plan
-- Clarification of the regulatory pathway, since there is currently no valid New Zealand licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

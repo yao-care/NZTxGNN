@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 224
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L5). Approved use: Not stated in the New Zealand licence records"
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Hydrocortisone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Hydrocortisone: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+## Hydrocortisone: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **1 clinical trial** (where hydrocortisone served only as the low-potency c
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the New Zealand licence records (the knowledge graph lists, for example, adrenocortical insufficiency, Addison disease, Crohn disease, inflammatory bowel disease, and acute lymphoblastic leukemia) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 on paper (see note below); effectively weak |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 6 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 *Note: The L1 label is assigned because a completed Phase 3 randomized trial exists. However, only one such trial was found (L1 formally requires at least two), and hydrocortisone was the comparator rather than the tested treatment. The evidence for hydrocortisone's own efficacy is therefore much weaker than the label suggests.*
@@ -97,16 +97,16 @@ There are important caveats. Hydrocortisone is a weak-potency steroid and is exp
 
 ## New Zealand Market Information
 
-All six licences are cancelled, and no approved indication text is recorded for any of them.
+All 6 licences are valid, and no approved indication text is recorded for any of them.
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2645580 | Noumed | Cream 1% | Cancelled |
-| 205648 | Douglas | Tablet 20 mg | Cancelled |
-| 2646587 | Ethics | Cream 1% | Cancelled |
-| 265284 | Solu-Cortef | Injection 100 mg vial | Cancelled |
-| 2322420 | ABM | Powder | Cancelled |
-| 205621 | Douglas | Tablet 5 mg | Cancelled |
+| 2645580 | Noumed | Cream 1% | Valid |
+| 205648 | Douglas | Tablet 20 mg | Valid |
+| 2646587 | Ethics | Cream 1% | Valid |
+| 265284 | Solu-Cortef | Injection 100 mg vial | Valid |
+| 2322420 | ABM | Powder | Valid |
+| 205621 | Douglas | Tablet 5 mg | Valid |
 
 ---
 
@@ -124,13 +124,12 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The only Phase 3 trial used hydrocortisone as the weaker comparator, so it does not show that hydrocortisone is effective for alopecia areata. The remaining literature is mostly historical or low-quality case reports. In addition, all New Zealand licences are cancelled, and package insert safety data are missing, so safety screening cannot proceed.
+The only Phase 3 trial used hydrocortisone as the weaker comparator, so it does not show that hydrocortisone is effective for alopecia areata. The remaining literature is mostly historical or low-quality case reports. In addition, the drug is marketed in New Zealand with 6 valid licences out of 6, but package insert safety data are missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications for a safety review
 - Detailed mechanism of action data
 - Direct comparative evidence of hydrocortisone against placebo or a vehicle control in alopecia areata
-- Clarification of the regulatory pathway, since no valid New Zealand licence currently exists
 - Confirmation of the intended route and formulation (topical or intralesional), which has not yet been assessed
 ## Disclaimer
 

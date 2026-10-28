@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dolutegravir
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 162
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Dolutegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Dolutegravir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dolutegravir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,36 +33,33 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Dolutegravir: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Dolutegravir: HIV integrase strand transfer inhibitor → feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Dolutegravir is an HIV-1 integrase strand transfer inhibitor, originally used to treat HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**,
-but there are **no registered clinical trials** and only **1 publication** (a veterinary study) supporting this direction, so the evidence is limited to preclinical work.
+Dolutegravir is an HIV integrase strand transfer inhibitor used against human immunodeficiency virus infection.
+The TxGNN model predicts it may be relevant to **feline acquired immunodeficiency syndrome**, but there are **0 registered clinical trials** and only **1 publication** (a 2023 veterinary study of combination antiretroviral therapy in cats), so the evidence is very limited.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (from the knowledge graph; no approved indication text in the New Zealand licence record) |
-| Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, dolutegravir is an HIV-1 integrase strand transfer inhibitor, and its efficacy in HIV infection and AIDS is established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dolutegravir blocks the integrase enzyme that HIV-1 uses to insert its genetic material into host cells. Feline immunodeficiency virus (FIV) is a lentivirus, in the same family as HIV, and carries an integrase enzyme related to that of HIV-1. This gives a plausible mechanistic rationale.
 
-Feline immunodeficiency virus (FIV) is a lentivirus, like HIV, and carries an integrase enzyme related to that of HIV-1. This gives a plausible mechanistic rationale. The very high TxGNN score most likely reflects how closely this disease resembles HIV/AIDS in the knowledge graph, rather than independent evidence of efficacy.
+The high TxGNN score most likely reflects how closely this disease resembles human HIV/AIDS in the model's data. It should be read as a similarity signal, not as a measure of proven benefit.
 
-This would be veterinary repurposing, not a new human indication. The single publication found evaluated a combination antiretroviral regimen (dolutegravir, tenofovir, emtricitabine) in FIV-infected cats. Based on the title and available abstract, it is not clear what the clinical outcomes were, and the effect of dolutegravir alone cannot be separated from the combination.
-
-The second-ranked prediction, **simian immunodeficiency virus (SIV) infection** (same score, 99.85%), has stronger preclinical support. Dolutegravir monotherapy in SIV-infected macaques and resistance modelling in SIV and simian-tropic HIV have been published. These support dolutegravir as a research tool and HIV model, not as a human therapeutic indication.
+The only publication retrieved (PMID 37112803) examined a combination of dolutegravir, tenofovir and emtricitabine in FIV-infected cats. However, it is a veterinary study of a combination regimen, and the available text does not show what the outcome was for dolutegravir specifically. This would also be veterinary rather than human repurposing. Because no cited study clearly evaluates dolutegravir alone for this disease, the evidence level is capped at L5.
 
 ## Clinical Trial Evidence
 
@@ -72,38 +69,35 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Preclinical/Veterinary study | Viruses | Evaluated pharmacokinetics and clinical outcomes of combination ART (dolutegravir, tenofovir, emtricitabine) in FIV-infected domestic cats; full results not available in the data compiled |
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Preclinical/veterinary study | Viruses | Evaluated pharmacokinetics and clinical outcomes of a combination of dolutegravir, tenofovir and emtricitabine in FIV-infected domestic cats, along with immunophenotype. Results for dolutegravir alone are not available. |
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2510979 | Tivicay | Tab 50 mg | Not recorded (licence status: cancelled) |
-
-## Cytotoxicity
-
-Not applicable. Dolutegravir is an antiretroviral, not an antineoplastic drug, so this section is omitted.
+| 2510979 | Tivicay | Tab 50 mg | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Drug Interactions**: 62 interactions were identified; 20 are listed in the data compiled for this report. Most flagged as **Major** involve polyvalent cation products that can reduce dolutegravir absorption, including aluminium hydroxide, magaldrate, attapulgite, kaolin, iron, and calcium salts (acetate, carbonate, citrate, gluconate, lactate, phosphate, glubionate) and magnesium salts (carbonate, chloride, citrate). **Minor** interactions include aprepitant, cimetidine, clarithromycin, clotrimazole, and dexamethasone.
+The 62 drug interactions recorded include these main ones:
 
-Please refer to the package insert for warnings and contraindications, as these were not available in the data compiled for this report.
+- **Major interactions (polyvalent cations and antacids)**: aluminium hydroxide, attapulgite, kaolin, magaldrate, calcium salts (acetate, carbonate, citrate, glubionate, gluconate, lactate, phosphate), iron, and magnesium salts (carbonate, chloride, citrate). These products can reduce absorption of dolutegravir.
+- **Minor interactions**: aprepitant, cimetidine, clarithromycin, clotrimazole and dexamethasone.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is biologically plausible, since FIV is a lentivirus with an integrase related to HIV-1's. However, the evidence is a single veterinary study of a combination regimen, with no clinical trials. The Tivicay licence in New Zealand is cancelled, and a veterinary indication would fall under a different regulatory pathway.
+The prediction score is high and the mechanism is plausible, since FIV is a lentivirus related to HIV. However, there are no registered trials, and the single publication tests a combination regimen in cats without clear results for dolutegravir. The prediction would also be a veterinary use, not a human one.
 
 **To proceed, the following is needed:**
-- Full text of PMID 37112803 to determine the outcomes and the contribution of dolutegravir within the combination
-- Controlled veterinary efficacy and safety data for dolutegravir in FIV
-- Mechanism of action data and package insert warnings and contraindications
-- Confirmation of whether a veterinary indication is of interest, since the human-use licence is cancelled
-- Consideration of the SIV prediction only as a research model, not as a therapeutic indication
-- The third prediction (a rare neurodevelopmental disorder, score 99.80%) has no trials, no literature, and no identifiable mechanistic link, and should not be pursued without target- or pathway-level evidence
+- The full text of PMID 37112803, to establish what role dolutegravir played and what the outcomes were
+- Detailed mechanism of action data
+- Package insert warnings and contraindications from Medsafe
+- A clear decision on whether veterinary use is within the scope of this repurposing programme
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

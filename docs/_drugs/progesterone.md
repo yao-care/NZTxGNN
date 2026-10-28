@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Progesterone
-parent: Moderate Evidence (L3-L4)
+parent: High Evidence (L1-L2)
 nav_order: 388
-evidence_level: L4
-indication_count: 10
+evidence_level: L2
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Progesterone: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis"
 monitor_inn: "PROGESTERONE"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "cervix endometriosis", "renal hypoplasia (disease)", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Progesterone: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Progesterone: From Endometriosis to Amenorrhea
+## Progesterone: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **4 related clinical trials** (all indirect, as hormone therapy was studied
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (the New Zealand licence record has no approved indication text; the original indications come from the knowledge graph) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
-| New Zealand Market Status | Cancelled only (no currently valid licence) |
-| Number of Authorizations | 1 (cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -116,7 +116,7 @@ Please refer to the package insert for label-based warnings and contraindication
 | Predicted Indication | Evidence Level | Assessment |
 |------|------|------|
 | Breast fibrocystic disease | L4 | Research question: plausible E2/progesterone-ratio rationale, but no trials and mostly older reviews |
-| Benign mammary dysplasia | L4 | Research question: same clinical entity as fibrocystic disease; indirect evidence only |
+| Benign mammary dysplasia | L5 | Research question: same clinical entity as fibrocystic disease; indirect evidence only |
 | Cervix endometriosis | L4 | Research question: biologically plausible extension of the labelled endometriosis use; only a case report and reviews on antiprogestins |
 | Endometriosis of rectovaginal septum and vagina | L4 | Research question: one immunohistochemical case series, no treatment data |
 | Endometriosis in cutaneous scar | L4 | Research question: a single case report; surgery is standard |

@@ -6,9 +6,9 @@ nav_order: 339
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Omalizumab: predicted new indication Bronchitis (evidence level L3). Approved use: Asthma, intrinsic asthma, allergic asthma, idiopathic urticaria"
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+description: "Omalizumab: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Omalizumab
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Omalizumab: From Asthma to Bronchitis
+## Omalizumab: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The data compiled for this report show stronger support for other predicted indi
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, intrinsic asthma, allergic asthma, idiopathic urticaria (the approved-indication text for the New Zealand licences is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 3 (all cancelled) |
+| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (a research question only) |
 
 ---
@@ -62,7 +62,7 @@ The data compiled for this report show stronger support for other predicted indi
 
 Detailed mechanism-of-action data are not available in the compiled data. Omalizumab is known to be a humanized monoclonal antibody that binds free IgE and reduces FcεRI expression on mast cells and basophils, which dampens allergic airway inflammation. Its efficacy in allergic asthma is well established.
 
-The link to bronchitis is indirect. It runs through allergic asthma and asthma-COPD overlap, where chronic bronchitis features coexist. The one trial that comes closest (NCT02049294) enrolled patients with asthma and persistent eosinophilic bronchitis, but only 11 participants. No trial tests omalizumab in bronchitis as a standalone condition. The high TxGNN score probably reflects the proximity of bronchitis to asthma in the knowledge graph rather than independent evidence.
+The link to bronchitis is indirect. It runs through allergic asthma and asthma-COPD overlap, where chronic bronchitis features coexist. The one trial that comes closest (NCT02049294) enrolled patients with asthma and persistent eosinophilic bronchitis, but only 11 participants. No trial tests omalizumab in bronchitis as a standalone condition. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as bronchitis and asthma, not biological evidence.
 
 ---
 
@@ -91,13 +91,13 @@ The link to bronchitis is indirect. It runs through allergic asthma and asthma-C
 
 ## New Zealand Market Information
 
-All three licences are cancelled; the approved-indication text is not available.
+All three licences are valid; the approved-indication text is not available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2243369 | Xolair | Inj 150 mg vial | Not available (cancelled) |
-| 2687925 | Xolair AU | Inj 150 mg prefilled syringe | Not available (cancelled) |
-| 2555042 | Xolair | Inj 150 mg prefilled syringe | Not available (cancelled) |
+| 2243369 | Xolair | Inj 150 mg vial | Not available (valid) |
+| 2687925 | Xolair AU | Inj 150 mg prefilled syringe | Not available (valid) |
+| 2555042 | Xolair | Inj 150 mg prefilled syringe | Not available (valid) |
 
 ---
 
@@ -114,7 +114,7 @@ Please refer to the package insert for other safety information (warnings and co
 **Decision: Hold**
 
 **Rationale:**
-Bronchitis is supported only by an indirect link through asthma and by one very small trial (n=11) in eosinophilic bronchitis. Omalizumab currently has no valid New Zealand licence, and the safety label information is missing.
+Bronchitis is supported only by an indirect link through asthma and by one very small trial (n=11) in eosinophilic bronchitis.
 
 **Other predicted indications in the data (for context):**
 - **Obstructive lung disease** (Evidence Level L1, Proceed with Guardrails): many completed Phase 3 trials in allergic asthma, and a Phase 2 trial in allergen-sensitized COPD is recruiting (NCT07059091, n=334). Because asthma is already an established use, this largely confirms existing use rather than a new repurposing signal. The guardrail is that the support holds for allergic asthma, not for COPD.
@@ -124,7 +124,7 @@ Bronchitis is supported only by an indirect link through asthma and by one very 
 **To proceed, the following is needed:**
 - Mechanism-of-action data from DrugBank
 - Package insert warnings and contraindications from Medsafe
-- Clarification of the current regulatory status in New Zealand, since all licences are cancelled
+- Clarification of the current regulatory status in New Zealand, where all three licences are valid
 - A controlled trial in bronchitis or chronic bronchitis phenotypes, if this indication is pursued
 ## Disclaimer
 

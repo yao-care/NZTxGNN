@@ -4,17 +4,17 @@ title: Mitoxantrone
 parent: Model Prediction Only (L5)
 nav_order: 307
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Acute myeloid leukaemia and related subtypes"
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
+description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mitoxantrone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Mitoxantrone: From Acute Myeloid Leukaemia to Head and Neck Cancer
+## Mitoxantrone: Upper aerodigestive tract neoplasm (rank 1); head and neck cancer (rank 7) has the strongest evidence (upper aerodigestive tract neoplasm)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Evidence for the top-ranked prediction itself is limited to **19 publications** 
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute myeloid leukaemia and related subtypes (from the knowledge graph; no approved indication text is available in the New Zealand licence records) |
-| Predicted New Indication | Upper aerodigestive tract neoplasm (rank 1); head and neck cancer (rank 7) has the strongest evidence |
-| TxGNN Prediction Score | 99.78% (upper aerodigestive tract neoplasm) |
-| Evidence Level | L3 for the top prediction (observational and small phase II studies). Head and neck cancer is rated L1 in the compiled data, but this reflects a registered, not-yet-recruiting phase III trial rather than completed phase III results, so it should be read cautiously |
-| New Zealand Market Status | ✗ Cancelled only |
-| Number of Authorizations | 2 (both cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Upper aerodigestive tract neoplasm (rank 1); head and neck cancer (rank 7) has the strongest evidence (upper aerodigestive tract neoplasm) |
+| TxGNN Prediction Score | 0.9978 |
+| Evidence Level | L5 for the top prediction (observational and small phase II studies). Head and neck cancer is rated L1 in the compiled data, but this reflects a registered, not-yet-recruiting phase III trial rather than completed phase III results, so it should be read cautiously |
+| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails (head and neck cancer, as a research direction) |
 
 ---
@@ -108,8 +108,8 @@ Both New Zealand authorisations are cancelled, and no approved indication text i
 
 | Authorization Number | Product Name | Dosage Form | Status |
 |---------|------|------|-----------|
-| 2270463 | Mitozantrone Ebewe | Injection 2 mg/mL, 10 mL vial | Cancelled |
-| 2204096 | Baxter | Injection 1 mg for ECP | Cancelled |
+| 2270463 | Mitozantrone Ebewe | Injection 2 mg/mL, 10 mL vial | Valid |
+| 2204096 | Baxter | Injection 1 mg for ECP | Valid |
 
 ---
 
@@ -127,7 +127,7 @@ Both New Zealand authorisations are cancelled, and no approved indication text i
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: liver failure, liver disease, gallbladder disease, epilepsy, heart failure, thrombocytopenia, neutropenia, agranulocytosis, leukopenia, anaemia (including macrocytic anaemia), infectious disease, fungal infectious disease, dermatophytosis. These are drug-disease links from a knowledge graph and should be verified against the official package insert.
+- **Contraindications (model associations, not label text)**: liver failure, liver disease, gallbladder disease, epilepsy, heart failure, thrombocytopenia, neutropenia, agranulocytosis, leukopenia, anaemia (including macrocytic anaemia), infectious disease, fungal infectious disease, dermatophytosis. These drug-disease links come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They should be verified against the official package insert.
 - **Drug Interactions**: 355 interactions were identified in total. Major: dolasetron. Moderate: clarithromycin, eliglustat, rolapitant. Minor: levofloxacin. Many others (for example metformin, omeprazole, pantoprazole, morphine) have an unclassified severity.
 - **Cardiotoxicity**: the literature includes a review of mitoxantrone cardiotoxicity, so cardiac monitoring is relevant.
 

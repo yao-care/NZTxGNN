@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lactulose
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 255
-evidence_level: L3
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Lactulose: predicted new indication Obstructive jaundice (evidence level L3). Approved use: Hepatic encephalopathy, hepatic coma, constipation"
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
+description: "Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lactulose
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 </div>
 
-## Lactulose: From Hepatic Encephalopathy and Constipation to Obstructive Jaundice
+## Lactulose: Acute urate nephropathy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be useful in **obstructive jaundice** (mainly to
 
 | Item | Content |
 |------|------|
-| Original Indication | Hepatic encephalopathy, hepatic coma, constipation (from the knowledge graph; the New Zealand licence record has no indication text) |
-| Predicted New Indication | Obstructive jaundice (the top-ranked prediction, acute urate nephropathy, has no supporting evidence, so the best-supported candidate is reported here) |
-| TxGNN Prediction Score | 99.53% (obstructive jaundice); the top-ranked acute urate nephropathy scored 99.89% |
-| Evidence Level | L3 |
-| New Zealand Market Status | Cancelled only |
-| Number of Authorizations | 1 (0 currently valid) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acute urate nephropathy |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?

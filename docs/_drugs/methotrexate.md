@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methotrexate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 291
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Methotrexate: predicted new indication Primary pulmonary lymphoma (evidence level L4). Approved use: Acute lymphoblastic leukaemia, non-Hodgkin lymphoma…"
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methotrexate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Methotrexate: From Acute Lymphoblastic Leukaemia and Lymphoma to Primary Pulmonary Lymphoma
+## Methotrexate: Pulmonary blastoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -42,7 +42,7 @@ Methotrexate is an antifolate drug, originally used for acute lymphoblastic leuk
 The TxGNN model ranks **primary pulmonary lymphoma** as its second-highest prediction (the top-ranked prediction, pulmonary blastoma, has no supporting data at all). It has **no registered clinical trials** and only **indirect literature** (mainly case reports and CNS lymphoma studies) behind it.
 Of the predictions with some supporting data, Hodgkin lymphoma has the most trials (44 linked, mostly broad lymphoma or transplant studies), but none are Hodgkin-specific methotrexate efficacy trials.
 
-> Note: The top-ranked prediction (pulmonary blastoma, score 99.45%) has no trials or literature. This report features primary pulmonary lymphoma (rank 2), which has the most relevant supporting literature at the top of the ranking, and summarises the other predictions at the end.
+> Note: The top-ranked prediction (pulmonary blastoma, score 0.9945) has no trials or literature. This report features primary pulmonary lymphoma (rank 2), which has the most relevant supporting literature at the top of the ranking, and summarises the other predictions at the end.
 
 ---
 
@@ -50,12 +50,12 @@ Of the predictions with some supporting data, Hodgkin lymphoma has the most tria
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukaemia, non-Hodgkin lymphoma, mycosis fungoides, rheumatoid arthritis, psoriasis (from the knowledge graph; no approved indication text is available from New Zealand licences) |
-| Predicted New Indication | Primary pulmonary lymphoma (rank 2; rank 1 is pulmonary blastoma, with no evidence) |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L4 |
-| New Zealand Market Status | Cancelled only (no currently valid licences) |
-| Number of Authorizations | 15 (all cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary blastoma |
+| TxGNN Prediction Score | 0.9945 |
+| Evidence Level | L5 |
+| New Zealand Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Authorizations | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,15 +95,15 @@ Currently no related clinical trials registered for primary pulmonary lymphoma.
 
 ## New Zealand Market Information
 
-All 15 licences are cancelled, so methotrexate currently has no valid licensed product in New Zealand according to the data compiled. Approved indication text is not available. Main licences:
+All 15 licences are valid (15 of 15), so methotrexate is currently marketed in New Zealand according to the data compiled. Approved indication text is not available. Main licences:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2215675 | Methotrexate Ebewe | Inj 100 mg per ml, 10 ml | Not available (cancelled) |
-| 2445859 | Methotrexate Sandoz | Inj 15 mg prefilled syringe | Not available (cancelled) |
-| 2599678 | Methotrexate DBL | Inj 2.5 mg per ml, 2 ml | Not available (cancelled) |
-| 333263 | DBL Methotrexate Onco-Vial | Inj 25 mg per ml, 20 ml vial | Not available (cancelled) |
-| 2537060 | Trexate | Tab 2.5 mg | Not available (cancelled) |
+| 2215675 | Methotrexate Ebewe | Inj 100 mg per ml, 10 ml | Not available (valid) |
+| 2445859 | Methotrexate Sandoz | Inj 15 mg prefilled syringe | Not available (valid) |
+| 2599678 | Methotrexate DBL | Inj 2.5 mg per ml, 2 ml | Not available (valid) |
+| 333263 | DBL Methotrexate Onco-Vial | Inj 25 mg per ml, 20 ml vial | Not available (valid) |
+| 2537060 | Trexate | Tab 2.5 mg | Not available (valid) |
 
 ---
 
@@ -133,13 +133,11 @@ Please refer to the package insert for full warnings and contraindications.
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation | Comment |
 |---|---|---|---|---|---|
-| 1 | Pulmonary blastoma | 99.45% | L5 | Hold | No trials or literature |
-| 3 | Small cell lung carcinoma | 99.43% | L4 | Hold | Trials are in NSCLC or supportive care; SCLC literature is historical (1981-1992) |
-| 4 | Well-differentiated fetal adenocarcinoma of the lung | 99.42% | L5 | Hold | No data |
-| 5 | Hodgkin lymphoma | 99.32% | L2 | Research Question | Historical VBM regimen studies (PMID 14635074, 21592816); linked trials are mostly broad lymphoma, transplant or GVHD studies |
-| 6 | Rhabdomyosarcoma | 99.25% | L2 | Research Question | Phase 2 high-dose methotrexate in high-risk paediatric disease (PMID 9329466, 1997); not part of modern first-line therapy |
-| 7-8 | CLL/SLL subtypes | 99.23% | L5 | Hold | No data; identical scores suggest shared graph-based prediction |
-| 9-10 | Parameningeal embryonal RMS; botryoid RMS of the vagina | 99.21% | L5 | Hold | No data |
+| 1 | Pulmonary blastoma | 0.9945 | L5 | Hold | No trials or literature |
+| 4 | Well-differentiated fetal adenocarcinoma of the lung | 0.9942 | L5 | Hold | No data |
+| 5 | Hodgkin lymphoma | 0.9932 | L2 | Research Question | Historical VBM regimen studies (PMID 14635074, 21592816); linked trials are mostly broad lymphoma, transplant or GVHD studies |
+| 6 | Rhabdomyosarcoma | 0.9925 | L2 | Research Question | Phase 2 high-dose methotrexate in high-risk paediatric disease (PMID 9329466, 1997); not part of modern first-line therapy |
+| 9-10 | Parameningeal embryonal RMS; botryoid RMS of the vagina | 0.9921 | L5 | Hold | No data |
 
 ---
 
@@ -148,7 +146,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-Primary pulmonary lymphoma is supported only by indirect evidence (CNS lymphoma regimens, case reports) and has no registered trials. It also largely overlaps with methotrexate's existing non-Hodgkin lymphoma use. Methotrexate currently has no valid New Zealand licence, which adds a regulatory barrier.
+Primary pulmonary lymphoma is supported only by indirect evidence (CNS lymphoma regimens, case reports) and has no registered trials. It also largely overlaps with methotrexate's existing non-Hodgkin lymphoma use.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) and the package insert warnings and contraindications (a blocking gap for safety screening)
