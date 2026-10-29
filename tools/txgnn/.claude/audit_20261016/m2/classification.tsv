@@ -1,0 +1,461 @@
+site	page	bundle	class	regen_type	evidence_level	cites_nct_pmid	shown_n	kept_n	shown_main	kept_main	note	release	fallback_regen
+NZTxGNN	abacavir	abacavir	keep		L5	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+NZTxGNN	acarbose	acarbose	keep		L5	有	9	9	classic stiff person syndrome	classic stiff person syndrome		data-20261016	
+NZTxGNN	acetaminophen	acetaminophen	known_use		L4	有	0	0				data-20261016	
+NZTxGNN	acetazolamide	acetazolamide	keep		L5	有	10	10	exercise-induced malignant hyperthermia	exercise-induced malignant hyperthermia		data-20261016	
+NZTxGNN	acetic_acid	acetic_acid	keep		L5	有	9	9	post-bacterial disorder	post-bacterial disorder		data-20261016	
+NZTxGNN	acetylcysteine	acetylcysteine	keep		L5	有	10	10	thrombotic disease	thrombotic disease		data-20261016	
+NZTxGNN	acetylsalicylic_acid	acetylsalicylic_acid	keep		L3	有	8	8	atrophoderma vermiculata	atrophoderma vermiculata		data-20261016	
+NZTxGNN	acitretin	acitretin	keep		L3	有	4	4	acne (disease)	acne (disease)		data-20261016	
+NZTxGNN	acyclovir	acyclovir	keep		L5	有	10	10	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+NZTxGNN	adalimumab	adalimumab	regen	only_removed	L4	有	4	3	hypermobility of coccyx	hypermobility of coccyx		data-20261016	
+NZTxGNN	adapalene	adapalene	keep		L5	無	1	1	zinc, elevated plasma	zinc, elevated plasma		data-20261016	
+NZTxGNN	aflibercept	aflibercept	keep		L5	無	1	1	esotropia	esotropia		data-20261016	
+NZTxGNN	albendazole	albendazole	keep		L2	有	3	3	alveolar echinococcosis	alveolar echinococcosis		data-20261016	
+NZTxGNN	alectinib	alectinib	keep		L5	有	9	9	fibromatosis, gingival	fibromatosis, gingival		data-20261016	
+NZTxGNN	alfacalcidol	alfacalcidol	regen	main_changed	L5	無	5	3	familial isolated hypoparathyroidism due to impaired PTH secretion	craniofacial conodysplasia		data-20261016	
+NZTxGNN	alglucosidase_alfa	alglucosidase_alfa	keep		L5	無	8	8	adult polyglucosan body disease	adult polyglucosan body disease		data-20261016	
+NZTxGNN	allantoin	allantoin	keep		L5	無	8	8	severe nonproliferative diabetic retinopathy	severe nonproliferative diabetic retinopathy		data-20261016	
+NZTxGNN	allopurinol	allopurinol	keep		L4	有	10	10	hepatic porphyria	hepatic porphyria		data-20261016	
+NZTxGNN	amantadine	amantadine	keep		L5	有	4	4	Rasmussen subacute encephalitis	Rasmussen subacute encephalitis		data-20261016	
+NZTxGNN	ambrisentan	ambrisentan	keep		L2	有	5	5	pulmonary arteriovenous malformation (disease)	pulmonary arteriovenous malformation (disease)		data-20261016	
+NZTxGNN	amiloride	amiloride	keep		L5	有	5	5	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	aminophylline	aminophylline	regen	only_removed	L4	有	10	9	migraine disorder	migraine disorder		data-20261016	
+NZTxGNN	amiodarone	amiodarone	keep		L5	有	10	10	catecholaminergic polymorphic ventricular tachycardia	catecholaminergic polymorphic ventricular tachycardia		data-20261016	
+NZTxGNN	amlodipine	amlodipine	keep		L5	有	9	9	brain stem infarction	brain stem infarction		data-20261016	
+NZTxGNN	amorolfine	amorolfine	keep		L5	無	10	10	drug-induced osteoporosis	drug-induced osteoporosis		data-20261016	
+NZTxGNN	amoxicillin	amoxicillin	keep		L5	無	8	8	polyclonal hyperviscosity syndrome	polyclonal hyperviscosity syndrome		data-20261016	
+NZTxGNN	amsacrine	amsacrine	keep		L5	有	5	5	hyperthyroidism	hyperthyroidism		data-20261016	
+NZTxGNN	anagrelide	anagrelide	keep		L4	有	2	2	reactive thrombocytosis	reactive thrombocytosis		data-20261016	
+NZTxGNN	anastrozole	anastrozole	keep		L1	有	5	5	neuroblastoma	neuroblastoma		data-20261016	
+NZTxGNN	apomorphine	apomorphine	keep		L5	無	10	10	polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis	polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis		data-20261016	
+NZTxGNN	aprepitant	aprepitant	keep		L5	有	10	10	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+NZTxGNN	arginine	arginine	keep		L4	有	1	1	gastroparesis (disease)	gastroparesis (disease)		data-20261016	
+NZTxGNN	aripiprazole	aripiprazole	regen	only_removed	L1	有	10	9	major affective disorder	major affective disorder		data-20261016	
+NZTxGNN	arsenic_trioxide	arsenic_trioxide	keep		L5	有	10	10	unclassified myelodysplastic syndrome	unclassified myelodysplastic syndrome		data-20261016	
+NZTxGNN	ascorbic_acid	ascorbic_acid	keep		L5	有	10	10	non-syndromic esophageal malformation	non-syndromic esophageal malformation		data-20261016	
+NZTxGNN	atazanavir	atazanavir	keep		L5	有	4	4	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+NZTxGNN	atenolol	atenolol	regen	has_added	L4	有	4	5	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	atezolizumab	atezolizumab	regen	main_changed	L3	有	9	6	prostatic urethra urothelial carcinoma	uterine ligament adenocarcinoma		data-20261016	
+NZTxGNN	atomoxetine	atomoxetine	keep		L3	有	10	10	specific developmental disorder	specific developmental disorder		data-20261016	
+NZTxGNN	atorvastatin	atorvastatin	keep		L1	有	4	4	HIV infectious disease	HIV infectious disease		data-20261016	
+NZTxGNN	atropine	atropine	keep		L4	有	2	2	migraine disorder	migraine disorder		data-20261016	
+NZTxGNN	axitinib	axitinib	keep		L5	有	4	4	liposarcoma	liposarcoma		data-20261016	
+NZTxGNN	azathioprine	azathioprine	regen	only_removed	L5	有	8	7	colobomatous microphthalmia-rhizomelic dysplasia syndrome	colobomatous microphthalmia-rhizomelic dysplasia syndrome		data-20261016	
+NZTxGNN	azithromycin	azithromycin	keep		L5	有	10	10	polyclonal hyperviscosity syndrome	polyclonal hyperviscosity syndrome		data-20261016	
+NZTxGNN	baclofen	baclofen	keep		L5	有	2	2	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+NZTxGNN	beclomethasone_dipropionate	beclomethasone_dipropionate	keep		L3	有	1	1	atopic eczema	atopic eczema		data-20261016	
+NZTxGNN	bedaquiline	bedaquiline	keep		L5	有	4	4	vulvovaginal candidiasis	vulvovaginal candidiasis		data-20261016	
+NZTxGNN	bendamustine	bendamustine	keep		L1	有	10	10	mantle cell lymphoma	mantle cell lymphoma		data-20261016	
+NZTxGNN	benralizumab	benralizumab	keep		L5	有	5	5	thrombocytopenia due to immune destruction	thrombocytopenia due to immune destruction		data-20261016	
+NZTxGNN	benzatropine	benzatropine	keep		L5	無	2	2	PLA2G6-associated neurodegeneration	PLA2G6-associated neurodegeneration		data-20261016	
+NZTxGNN	benzbromarone	benzbromarone	keep		L5	有	1	1	hypouricemia, renal	hypouricemia, renal		data-20261016	
+NZTxGNN	betamethasone	betamethasone	keep		L2	有	8	8	alopecia areata	alopecia areata		data-20261016	
+NZTxGNN	bevacizumab	bevacizumab	keep		L5	無	10	10	epiglottis neoplasm	epiglottis neoplasm		data-20261016	
+NZTxGNN	bicalutamide	bicalutamide	keep		L5	有	10	10	hypertrichosis (disease)	hypertrichosis (disease)		data-20261016	
+NZTxGNN	bimatoprost	bimatoprost	keep		L2	有	10	10	malformation syndrome with odontal and/or periodontal component	malformation syndrome with odontal and/or periodontal component		data-20261016	
+NZTxGNN	bisoprolol	bisoprolol	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	bleomycin	bleomycin	keep		L5	有	6	6	cauda equina neoplasm	cauda equina neoplasm		data-20261016	
+NZTxGNN	bosentan	bosentan	keep		L4	有	8	8	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+NZTxGNN	brentuximab_vedotin	brentuximab_vedotin	keep		L3	有	10	10	follicular lymphoma	follicular lymphoma		data-20261016	
+NZTxGNN	brinzolamide	brinzolamide	known_use		L5	無	0	0				data-20261016	
+NZTxGNN	budesonide	budesonide	keep		L5	有	10	10	atopic eczema	atopic eczema		data-20261016	
+NZTxGNN	bumetanide	bumetanide	keep		L4	有	1	1	acute pulmonary heart disease	acute pulmonary heart disease		data-20261016	
+NZTxGNN	buprenorphine	buprenorphine	keep		L4	有	6	6	acute intermittent porphyria	acute intermittent porphyria		data-20261016	
+NZTxGNN	bupropion	bupropion	keep		L5	有	10	10	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+NZTxGNN	busulfan	busulfan	keep		L1	有	10	10	myelodysplastic syndrome	myelodysplastic syndrome		data-20261016	
+NZTxGNN	cabergoline	cabergoline	keep		L5	有	4	4	progeria-short stature-pigmented nevi syndrome	progeria-short stature-pigmented nevi syndrome		data-20261016	
+NZTxGNN	caffeine	caffeine	regen	only_removed	L4	有	9	8	nasal cavity disease	nasal cavity disease		data-20261016	
+NZTxGNN	calcipotriol	calcipotriol	keep		L3	有	10	10	seborrheic keratosis	seborrheic keratosis		data-20261016	
+NZTxGNN	calcitriol	calcitriol	regen	only_removed	L5	有	7	5	obsolete vitamin D deficiency	obsolete vitamin D deficiency		data-20261016	
+NZTxGNN	candesartan_cilexetil	candesartan_cilexetil	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	capecitabine	capecitabine	regen	main_changed	L5	有	0	1		gastric adenocarcinoma and proximal polyposis of the stomach		data-20261016	
+NZTxGNN	captopril	captopril	keep		L4	有	3	3	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	carbamazepine	carbamazepine	keep		L4	有	3	3	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+NZTxGNN	carbimazole	carbimazole	regen	only_removed	L5	有	3	2	resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta	resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta		data-20261016	
+NZTxGNN	carboplatin	carboplatin	keep		L2	有	9	9	rectum mucinous adenocarcinoma	rectum mucinous adenocarcinoma		data-20261016	
+NZTxGNN	carvedilol	carvedilol	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	cefazolin	cefazolin	keep		L4	有	8	8	infectious otitis media	infectious otitis media		data-20261016	
+NZTxGNN	ceftriaxone	ceftriaxone	keep		L5	有	7	7	hyperamylasemia	hyperamylasemia		data-20261016	
+NZTxGNN	cefuroxime	cefuroxime	regen	only_removed	L5	有	10	9	hyperamylasemia	hyperamylasemia		data-20261016	
+NZTxGNN	celecoxib	celecoxib	regen	only_removed	L5	有	8	7	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+NZTxGNN	cetirizine	cetirizine	regen	only_removed	L2	有	4	3	nasal cavity disease	nasal cavity disease		data-20261016	
+NZTxGNN	cetuximab	cetuximab	keep		L5	有	10	10	non-seminomatous lesion	non-seminomatous lesion		data-20261016	
+NZTxGNN	chlorambucil	chlorambucil	keep		L4	有	7	7	pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma	pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma		data-20261016	
+NZTxGNN	chloramphenicol	chloramphenicol	keep		L3	有	9	9	conjunctivitis	conjunctivitis		data-20261016	
+NZTxGNN	chlorpromazine	chlorpromazine	keep		L4	有	9	9	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+NZTxGNN	cholecalciferol	cholecalciferol	regen	main_changed	L5	有	7	4	familial isolated hypoparathyroidism due to impaired PTH secretion	acromesomelic dysplasia, Campailla Martinelli type		data-20261016	
+NZTxGNN	cinchocaine	cinchocaine	keep		L5	無	7	7	bronchitis	bronchitis		data-20261016	
+NZTxGNN	ciprofloxacin	ciprofloxacin	keep		L4	有	10	10	diffuse scleroderma	diffuse scleroderma		data-20261016	
+NZTxGNN	citalopram	citalopram	keep		L5	有	5	5	obsessive-compulsive disorder	obsessive-compulsive disorder		data-20261016	
+NZTxGNN	cladribine	cladribine	keep		L5	有	7	7	parameningeal embryonal rhabdomyosarcoma	parameningeal embryonal rhabdomyosarcoma		data-20261016	
+NZTxGNN	clarithromycin	clarithromycin	keep		L4	有	5	5	hyperamylasemia	hyperamylasemia		data-20261016	
+NZTxGNN	clavulanic_acid	clavulanic_acid	keep		L5	有	10	10	Ureaplasma urethritis	Ureaplasma urethritis		data-20261016	
+NZTxGNN	clindamycin	clindamycin	keep		L5	有	6	6	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+NZTxGNN	clobazam	clobazam	keep		L5	有	10	10	febrile infection-related epilepsy syndrome	febrile infection-related epilepsy syndrome		data-20261016	
+NZTxGNN	clobetasol_propionate	clobetasol_propionate	keep		L5	有	7	7	vulvar inverted follicular keratosis	vulvar inverted follicular keratosis		data-20261016	
+NZTxGNN	clofazimine	clofazimine	keep		L5	有	3	3	pneumocystosis	pneumocystosis		data-20261016	
+NZTxGNN	clomifene	clomifene	keep		L5	無	10	10	46,XY disorder of sex development due to testicular steroidogenesis defect	46,XY disorder of sex development due to testicular steroidogenesis defect		data-20261016	
+NZTxGNN	clomipramine	clomipramine	keep		L5	有	8	8	anxiety disorder	anxiety disorder		data-20261016	
+NZTxGNN	clonazepam	clonazepam	keep		L3	有	3	3	restless legs syndrome	restless legs syndrome		data-20261016	
+NZTxGNN	clonidine	clonidine	keep		L5	有	10	10	faciodigitogenital syndrome	faciodigitogenital syndrome		data-20261016	
+NZTxGNN	clopidogrel	clopidogrel	regen	only_removed	L2	有	8	7	migraine with brainstem aura	migraine with brainstem aura		data-20261016	
+NZTxGNN	clotrimazole	clotrimazole	keep		L1	有	3	3	acne (disease)	acne (disease)		data-20261016	
+NZTxGNN	clozapine	clozapine	keep		L5	有	10	10	manic bipolar affective disorder	manic bipolar affective disorder		data-20261016	
+NZTxGNN	codeine	codeine	regen	only_removed	L4	有	4	3	nasal cavity disease	nasal cavity disease		data-20261016	
+NZTxGNN	colchicine	colchicine	keep		L5	有	2	2	Plasmodium falciparum malaria	Plasmodium falciparum malaria		data-20261016	
+NZTxGNN	crizotinib	crizotinib	keep		L5	有	9	9	fibromatosis, gingival	fibromatosis, gingival		data-20261016	
+NZTxGNN	cyclizine	cyclizine	regen	only_removed	L5	有	8	7	allergic urticaria	allergic urticaria		data-20261016	
+NZTxGNN	cyclopentolate	cyclopentolate	keep		L5	無	3	3	cauda equina syndrome	cauda equina syndrome		data-20261016	
+NZTxGNN	cyclophosphamide	cyclophosphamide	regen	only_removed	L5	有	5	4	myeloid leukemia	myeloid leukemia		data-20261016	
+NZTxGNN	cycloserine	cycloserine	keep		L5	無	7	7	irritable bowel syndrome	irritable bowel syndrome		data-20261016	
+NZTxGNN	cyclosporine	cyclosporine	keep		L4	有	7	7	granulomatous disease, chronic, autosomal recessive	granulomatous disease, chronic, autosomal recessive		data-20261016	
+NZTxGNN	cyproterone_acetate	cyproterone_acetate	regen	only_removed	L4	有	10	9	migraine disorder	migraine disorder		data-20261016	
+NZTxGNN	cytarabine	cytarabine	keep		L4	有	9	9	small cell lung carcinoma	small cell lung carcinoma		data-20261016	
+NZTxGNN	dacarbazine	dacarbazine	keep		L4	有	1	1	upper aerodigestive tract neoplasm	upper aerodigestive tract neoplasm		data-20261016	
+NZTxGNN	dantrolene	dantrolene	regen	only_removed	L5	有	8	7	moderate multiminicore disease with hand involvement	moderate multiminicore disease with hand involvement		data-20261016	
+NZTxGNN	dapsone	dapsone	keep		L1	有	1	1	pneumocystosis	pneumocystosis		data-20261016	
+NZTxGNN	darunavir	darunavir	keep		L4	有	4	4	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+NZTxGNN	dasatinib	dasatinib	keep		L5	有	9	9	Ewing sarcoma	Ewing sarcoma		data-20261016	
+NZTxGNN	daunorubicin	daunorubicin	keep		L5	有	10	10	Hodgkins lymphoma	Hodgkins lymphoma		data-20261016	
+NZTxGNN	deferasirox	deferasirox	keep		L5	有	5	5	HIV infectious disease	HIV infectious disease		data-20261016	
+NZTxGNN	deferiprone	deferiprone	keep		L4	有	8	8	hepatic porphyria	hepatic porphyria		data-20261016	
+NZTxGNN	denosumab	denosumab	keep		L5	有	2	2	severe nonproliferative diabetic retinopathy	severe nonproliferative diabetic retinopathy		data-20261016	
+NZTxGNN	desmopressin	desmopressin	keep		L5	有	6	6	congenital prothrombin deficiency	congenital prothrombin deficiency		data-20261016	
+NZTxGNN	desogestrel	desogestrel	keep		L3	有	10	10	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+NZTxGNN	dexamethasone	dexamethasone	keep		L2	有	10	10	alopecia areata	alopecia areata		data-20261016	
+NZTxGNN	diazepam	diazepam	keep		L3	有	10	10	insomnia (disease)	insomnia (disease)		data-20261016	
+NZTxGNN	diazoxide	diazoxide	regen	only_removed	L5	有	10	9	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+NZTxGNN	diclofenac	diclofenac	keep		L3	有	10	10	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+NZTxGNN	digoxin	digoxin	regen	only_removed	L5	有	6	5	Prinzmetal angina	Prinzmetal angina		data-20261016	
+NZTxGNN	dihydrocodeine	dihydrocodeine	regen	only_removed	L5	無	9	8	nasal cavity disease	nasal cavity disease		data-20261016	
+NZTxGNN	diltiazem	diltiazem	known_use		L5	無	1	0	obsolete susceptibility to ischemic stroke			data-20261016	
+NZTxGNN	dipyridamole	dipyridamole	regen	main_changed	L5	有	9	8	stroke disorder	thrombotic disease		data-20261016	
+NZTxGNN	docetaxel	docetaxel	regen	only_removed	L5	有	8	7	Ewing sarcoma	Ewing sarcoma		data-20261016	
+NZTxGNN	docusate	docusate	keep		L5	無	2	2	Plummer-Vinson syndrome	Plummer-Vinson syndrome		data-20261016	
+NZTxGNN	dolutegravir	dolutegravir	keep		L4	有	3	3	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+NZTxGNN	domperidone	domperidone	keep		L5	無	1	1	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+NZTxGNN	donepezil	donepezil	keep		L5	有	8	8	psychogenic movement disorders	psychogenic movement disorders		data-20261016	
+NZTxGNN	dorzolamide	dorzolamide	keep		L5	無	7	7	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+NZTxGNN	doxazosin	doxazosin	keep		L4	有	2	2	migraine disorder	migraine disorder		data-20261016	
+NZTxGNN	doxorubicin	doxorubicin	regen	only_removed	L1	有	9	8	Ewing sarcoma	Ewing sarcoma		data-20261016	
+NZTxGNN	doxycycline	doxycycline	keep		L4	有	10	10	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+NZTxGNN	droperidol	droperidol	keep		L5	有	10	10	Tourette syndrome	Tourette syndrome		data-20261016	
+NZTxGNN	durvalumab	durvalumab	regen	main_changed	L5	有	9	6	prostatic urethra urothelial carcinoma	uterine ligament adenocarcinoma		data-20261016	
+NZTxGNN	econazole	econazole	regen	main_changed	L4	有	3	2	Majocchi granuloma	ectothrix infectious disease		data-20261016	
+NZTxGNN	efavirenz	efavirenz	keep		L4	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+NZTxGNN	eltrombopag	eltrombopag	keep		L3	有	1	1	HIV infectious disease	HIV infectious disease		data-20261016	
+NZTxGNN	emicizumab	emicizumab	keep		L5	有	10	10	pseudo-von Willebrand disease	pseudo-von Willebrand disease		data-20261016	
+NZTxGNN	empagliflozin	empagliflozin	keep		L5	無	3	3	classic stiff person syndrome	classic stiff person syndrome		data-20261016	
+NZTxGNN	emtricitabine	emtricitabine	keep		L4	有	3	3	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+NZTxGNN	enoxaparin	enoxaparin	keep		L5	無	1	1	thrombophilia due to protein C deficiency, autosomal recessive	thrombophilia due to protein C deficiency, autosomal recessive		data-20261016	
+NZTxGNN	entacapone	entacapone	keep		L5	有	10	10	PLA2G6-associated neurodegeneration	PLA2G6-associated neurodegeneration		data-20261016	
+NZTxGNN	entecavir	entecavir	keep		L5	有	9	9	chronic hepatitis C virus infection	chronic hepatitis C virus infection		data-20261016	
+NZTxGNN	epinephrine	epinephrine	regen	only_removed	L1	有	4	3	obstructive lung disease	obstructive lung disease		data-20261016	
+NZTxGNN	epirubicin	epirubicin	keep		L5	有	7	7	primary pulmonary lymphoma	primary pulmonary lymphoma		data-20261016	
+NZTxGNN	eplerenone	eplerenone	keep		L4	有	4	4	pulmonary hypertension owing to lung disease and/or hypoxia	pulmonary hypertension owing to lung disease and/or hypoxia		data-20261016	
+NZTxGNN	erythromycin	erythromycin	keep		L4	有	5	5	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+NZTxGNN	etanercept	etanercept	regen	only_removed	L4	有	4	3	hypermobility of coccyx	hypermobility of coccyx		data-20261016	
+NZTxGNN	ethambutol	ethambutol	keep		L4	有	5	5	epiglottitis	epiglottitis		data-20261016	
+NZTxGNN	ethinylestradiol	ethinylestradiol	keep		L5	無	1	1	zinc, elevated plasma	zinc, elevated plasma		data-20261016	
+NZTxGNN	ethosuximide	ethosuximide	keep		L5	無	1	1	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+NZTxGNN	etoposide	etoposide	keep		L1	有	10	10	well-differentiated fetal adenocarcinoma of the lung	well-differentiated fetal adenocarcinoma of the lung		data-20261016	
+NZTxGNN	etravirine	etravirine	keep		L5	有	8	8	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+NZTxGNN	everolimus	everolimus	keep		L2	有	8	8	liposarcoma	liposarcoma		data-20261016	
+NZTxGNN	exemestane	exemestane	keep		L5	有	7	7	antithrombin deficiency type 2	antithrombin deficiency type 2		data-20261016	
+NZTxGNN	ezetimibe	ezetimibe	regen	main_changed	L1	有	2	1	hyperlipoproteinemia	cholesterol-ester transfer protein deficiency		data-20261016	
+NZTxGNN	famotidine	famotidine	regen	only_removed	L3	有	5	4	duodenal obstruction	duodenal obstruction		data-20261016	
+NZTxGNN	febuxostat	febuxostat	keep		L4	有	3	3	hypouricemia, renal	hypouricemia, renal		data-20261016	
+NZTxGNN	felodipine	felodipine	keep		L5	有	5	5	pulmonary hypertension with unclear multifactorial mechanism	pulmonary hypertension with unclear multifactorial mechanism		data-20261016	
+NZTxGNN	fentanyl	fentanyl	keep		L5	無	2	2	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+NZTxGNN	ferrous_fumarate	ferrous_fumarate	keep		L5	無	1	1	non-syndromic esophageal malformation	non-syndromic esophageal malformation		data-20261016	
+NZTxGNN	ferrous_sulfate_anhydrous	ferrous_sulfate_anhydrous	keep		L5	無	4	4	vitamin B12- and folate-independent constitutional megaloblastic anemia	vitamin B12- and folate-independent constitutional megaloblastic anemia		data-20261016	
+NZTxGNN	fexofenadine	fexofenadine	keep		L5	無	1	1	rosacea conjunctivitis	rosacea conjunctivitis		data-20261016	
+NZTxGNN	filgrastim	filgrastim	keep		L5	有	10	10	primary release disorder of platelets	primary release disorder of platelets		data-20261016	
+NZTxGNN	finasteride	finasteride	keep		L5	有	6	6	Ambras type hypertrichosis universalis congenita	Ambras type hypertrichosis universalis congenita		data-20261016	
+NZTxGNN	flecainide	flecainide	regen	only_removed	L3	有	10	9	stroke disorder	stroke disorder		data-20261016	
+NZTxGNN	flucloxacillin	flucloxacillin	keep		L4	有	10	10	conjunctivitis	conjunctivitis		data-20261016	
+NZTxGNN	fluconazole	fluconazole	keep		L5	無	1	1	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+NZTxGNN	fluorescein	fluorescein	keep		L5	無	10	10	Prinzmetal angina	Prinzmetal angina		data-20261016	
+NZTxGNN	fluorometholone	fluorometholone	regen	only_removed	L5	有	10	9	postinfectious vasculitis	postinfectious vasculitis		data-20261016	
+NZTxGNN	fluorouracil	fluorouracil	keep		L5	有	10	10	botryoid-type embryonal rhabdomyosarcoma of the vagina	botryoid-type embryonal rhabdomyosarcoma of the vagina		data-20261016	
+NZTxGNN	fluoxetine	fluoxetine	regen	has_added	L4	有	9	9	schizoid personality disorder	schizoid personality disorder		data-20261016	
+NZTxGNN	flupentixol	flupentixol	keep		L5	無	9	9	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+NZTxGNN	flutamide	flutamide	keep		L5	有	8	8	fibroma of prostate	fibroma of prostate		data-20261016	
+NZTxGNN	fluticasone	fluticasone	keep		L5	有	3	3	migraine disorder	migraine disorder		data-20261016	
+NZTxGNN	fluticasone_furoate	fluticasone_furoate	keep		L5	有	7	7	atopic eczema	atopic eczema		data-20261016	
+NZTxGNN	folic_acid	folic_acid	keep		L5	有	1	1	biotin metabolic disease	biotin metabolic disease		data-20261016	
+NZTxGNN	fosfomycin	fosfomycin	regen	main_changed	L2	有	10	8	gonococcal urethritis	uterine inflammatory disease		data-20261016	
+NZTxGNN	framycetin	framycetin	keep		L5	無	7	7	sclerosing cholangitis	sclerosing cholangitis		data-20261016	
+NZTxGNN	fulvestrant	fulvestrant	keep		L5	有	10	10	HIV infectious disease	HIV infectious disease		data-20261016	
+NZTxGNN	gefitinib	gefitinib	keep		L5	有	9	9	fibromatosis, gingival	fibromatosis, gingival		data-20261016	
+NZTxGNN	gemcitabine	gemcitabine	keep		L5	有	8	8	rectum mucinous adenocarcinoma	rectum mucinous adenocarcinoma		data-20261016	
+NZTxGNN	glecaprevir	glecaprevir	keep		L4	有	10	10	HIV infectious disease	HIV infectious disease		data-20261016	
+NZTxGNN	glycerin	glycerin	keep		L5	有	10	10	cauda equina syndrome	cauda equina syndrome		data-20261016	
+NZTxGNN	goserelin	goserelin	keep		L2	有	3	3	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+NZTxGNN	haloperidol	haloperidol	keep		L5	無	10	10	congenital disorder of glycosylation with defective fucosylation	congenital disorder of glycosylation with defective fucosylation		data-20261016	
+NZTxGNN	heparin	heparin	keep		L5	無	2	2	thrombophilia due to protein C deficiency, autosomal recessive	thrombophilia due to protein C deficiency, autosomal recessive		data-20261016	
+NZTxGNN	hydrocortisone	hydrocortisone	keep		L5	有	9	9	alopecia areata	alopecia areata		data-20261016	
+NZTxGNN	hydrocortisone_acetate	hydrocortisone_acetate	keep		L5	有	9	9	alopecia areata	alopecia areata		data-20261016	
+NZTxGNN	hydroxocobalamin	hydroxocobalamin	keep		L5	無	2	2	esophageal varices without bleeding	esophageal varices without bleeding		data-20261016	
+NZTxGNN	ibuprofen	ibuprofen	keep		L5	無	7	7	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+NZTxGNN	icatibant	icatibant	keep		L1	有	7	7	C1 inhibitor deficiency	C1 inhibitor deficiency		data-20261016	
+NZTxGNN	ifosfamide	ifosfamide	keep		L5	有	10	10	female breast carcinoma	female breast carcinoma		data-20261016	
+NZTxGNN	iloprost	iloprost	keep		L3	有	4	4	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+NZTxGNN	imatinib	imatinib	keep		L5	有	10	10	heart fibrosarcoma	heart fibrosarcoma		data-20261016	
+NZTxGNN	imipramine	imipramine	keep		L3	有	7	7	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+NZTxGNN	imiquimod	imiquimod	keep		L5	有	10	10	pre-malignant neoplasm	pre-malignant neoplasm		data-20261016	
+NZTxGNN	indacaterol	indacaterol	keep		L5	無	10	10	nephrogenic syndrome of inappropriate antidiuresis	nephrogenic syndrome of inappropriate antidiuresis		data-20261016	
+NZTxGNN	insulin_aspart	insulin_aspart	keep		L1	有	8	8	autoimmune oophoritis	autoimmune oophoritis		data-20261016	
+NZTxGNN	insulin_degludec	insulin_degludec	keep		L1	有	5	5	autoimmune oophoritis	autoimmune oophoritis		data-20261016	
+NZTxGNN	insulin_glargine	insulin_glargine	keep		L5	有	10	10	autoimmune oophoritis	autoimmune oophoritis		data-20261016	
+NZTxGNN	insulin_glulisine	insulin_glulisine	keep		L5	有	9	9	thiamine-responsive dysfunction syndrome	thiamine-responsive dysfunction syndrome		data-20261016	
+NZTxGNN	insulin_lispro	insulin_lispro	keep		L5	有	9	9	autoimmune oophoritis	autoimmune oophoritis		data-20261016	
+NZTxGNN	ipilimumab	ipilimumab	keep		L5	有	1	1	choroideremia	choroideremia		data-20261016	
+NZTxGNN	ipratropium	ipratropium	keep		L1	有	9	9	nasal cavity disease	nasal cavity disease		data-20261016	
+NZTxGNN	irinotecan	irinotecan	keep		L3	有	1	1	female breast carcinoma	female breast carcinoma		data-20261016	
+NZTxGNN	iron	iron	keep		L5	有	6	6	vitamin B12- and folate-independent constitutional megaloblastic anemia	vitamin B12- and folate-independent constitutional megaloblastic anemia		data-20261016	
+NZTxGNN	isoleucine	isoleucine	keep		L5	無	1	1	gastroparesis (disease)	gastroparesis (disease)		data-20261016	
+NZTxGNN	isoniazid	isoniazid	keep		L4	有	1	1	conjunctivitis	conjunctivitis		data-20261016	
+NZTxGNN	isosorbide_mononitrate	isosorbide_mononitrate	keep		L5	有	10	10	hypertrichosis (disease)	hypertrichosis (disease)		data-20261016	
+NZTxGNN	isotretinoin	isotretinoin	keep		L5	無	1	1	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	itraconazole	itraconazole	keep		L5	有	1	1	pneumocystosis	pneumocystosis		data-20261016	
+NZTxGNN	ivermectin	ivermectin	keep		L5	有	9	9	vulvovaginal candidiasis	vulvovaginal candidiasis		data-20261016	
+NZTxGNN	ketamine	ketamine	keep		L5	有	1	1	headache disorder	headache disorder		data-20261016	
+NZTxGNN	ketoconazole	ketoconazole	keep		L4	有	1	1	acne (disease)	acne (disease)		data-20261016	
+NZTxGNN	ketoprofen	ketoprofen	regen	only_removed	L5	無	10	9	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+NZTxGNN	labetalol	labetalol	keep		L5	有	3	3	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	lacosamide	lacosamide	keep		L5	有	10	10	manic bipolar affective disorder	manic bipolar affective disorder		data-20261016	
+NZTxGNN	lactulose	lactulose	keep		L3	有	8	8	acute urate nephropathy	acute urate nephropathy		data-20261016	
+NZTxGNN	lamivudine	lamivudine	keep		L3	有	5	5	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+NZTxGNN	lamotrigine	lamotrigine	keep		L5	有	2	2	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+NZTxGNN	lanreotide	lanreotide	keep		L5	無	5	5	hypertrichosis (disease)	hypertrichosis (disease)		data-20261016	
+NZTxGNN	lansoprazole	lansoprazole	keep		L4	有	1	1	duodenal obstruction	duodenal obstruction		data-20261016	
+NZTxGNN	laronidase	laronidase	keep		L4	有	2	2	lysosomal storage disease with skeletal involvement	lysosomal storage disease with skeletal involvement		data-20261016	
+NZTxGNN	latanoprost	latanoprost	keep		L5	無	9	9	visceral calciphylaxis	visceral calciphylaxis		data-20261016	
+NZTxGNN	ledipasvir	ledipasvir	keep		L2	有	10	10	hepatitis B virus infection	hepatitis B virus infection		data-20261016	
+NZTxGNN	leflunomide	leflunomide	keep		L5	無	2	2	brachydactyly-syndactyly syndrome	brachydactyly-syndactyly syndrome		data-20261016	
+NZTxGNN	lenalidomide	lenalidomide	regen	only_removed	L5	有	5	4	myeloid leukemia	myeloid leukemia		data-20261016	
+NZTxGNN	lenvatinib	lenvatinib	keep		L2	有	5	5	liposarcoma	liposarcoma		data-20261016	
+NZTxGNN	letrozole	letrozole	keep		L1	有	4	4	nipple carcinoma	nipple carcinoma		data-20261016	
+NZTxGNN	levetiracetam	levetiracetam	keep		L1	有	1	1	beta-ketothiolase deficiency	beta-ketothiolase deficiency		data-20261016	
+NZTxGNN	levocabastine	levocabastine	keep		L5	有	2	2	allergic urticaria	allergic urticaria		data-20261016	
+NZTxGNN	levocarnitine	levocarnitine	keep		L5	有	10	10	autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome	autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome		data-20261016	
+NZTxGNN	levodopa	levodopa	keep		L5	無	1	1	Rasmussen subacute encephalitis	Rasmussen subacute encephalitis		data-20261016	
+NZTxGNN	levonorgestrel	levonorgestrel	keep		L4	有	5	5	acne (disease)	acne (disease)		data-20261016	
+NZTxGNN	levothyroxine	levothyroxine	regen	main_changed	L5	有	10	4	endemic goiter	renal hypodysplasia/aplasia		data-20261016	
+NZTxGNN	lisinopril	lisinopril	keep		L5	有	6	6	pulmonary hypertension owing to lung disease and/or hypoxia	pulmonary hypertension owing to lung disease and/or hypoxia		data-20261016	
+NZTxGNN	lithium_carbonate	lithium_carbonate	keep		L5	無	10	10	pseudoachondroplasia	pseudoachondroplasia		data-20261016	
+NZTxGNN	lomustine	lomustine	keep		L2	有	10	10	lymphosarcoma	lymphosarcoma		data-20261016	
+NZTxGNN	loperamide	loperamide	keep		L5	有	10	10	acute contagious conjunctivitis	acute contagious conjunctivitis		data-20261016	
+NZTxGNN	lopinavir	lopinavir	keep		L4	有	3	3	simian immunodeficiency virus infection	simian immunodeficiency virus infection		data-20261016	
+NZTxGNN	lorazepam	lorazepam	keep		L5	有	1	1	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+NZTxGNN	losartan	losartan	keep		L4	有	7	7	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	magnesium_hydroxide	magnesium_hydroxide	regen	main_changed	L3	有	2	1	gastroduodenitis	stomach disease		data-20261016	
+NZTxGNN	mebendazole	mebendazole	keep		L5	有	1	1	acne (disease)	acne (disease)		data-20261016	
+NZTxGNN	medroxyprogesterone_acetate	medroxyprogesterone_acetate	regen	only_removed	L4	有	10	7	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+NZTxGNN	mefenamic_acid	mefenamic_acid	regen	only_removed	L2	有	8	7	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+NZTxGNN	melphalan	melphalan	keep		L2	有	6	6	female breast carcinoma	female breast carcinoma		data-20261016	
+NZTxGNN	mepolizumab	mepolizumab	keep		L4	有	5	5	thrombocytopenia due to immune destruction	thrombocytopenia due to immune destruction		data-20261016	
+NZTxGNN	mercaptopurine	mercaptopurine	keep		L2	有	8	8	myeloid leukemia	myeloid leukemia		data-20261016	
+NZTxGNN	mesalazine	mesalazine	regen	only_removed	L5	有	7	6	congenital hypotrichosis with juvenile macular dystrophy	congenital hypotrichosis with juvenile macular dystrophy		data-20261016	
+NZTxGNN	metformin	metformin	keep		L5	無	5	5	focal stiff limb syndrome	focal stiff limb syndrome		data-20261016	
+NZTxGNN	methenamine	methenamine	keep		L5	有	4	4	Ureaplasma urethritis	Ureaplasma urethritis		data-20261016	
+NZTxGNN	methionine	methionine	regen	has_added	L5	有	9	10	acne (disease)	acne (disease)		data-20261016	
+NZTxGNN	methotrexate	methotrexate	keep		L4	有	7	7	pulmonary blastoma	pulmonary blastoma		data-20261016	
+NZTxGNN	methylphenidate	methylphenidate	keep		L5	無	4	4	faciodigitogenital syndrome	faciodigitogenital syndrome		data-20261016	
+NZTxGNN	methylprednisolone	methylprednisolone	keep		L3	有	9	9	alopecia areata	alopecia areata		data-20261016	
+NZTxGNN	metoclopramide	metoclopramide	keep		L4	有	2	2	gastroduodenitis	gastroduodenitis		data-20261016	
+NZTxGNN	metolazone	metolazone	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	metoprolol	metoprolol	regen	has_added	L5	有	5	6	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	metronidazole	metronidazole	keep		L5	有	10	10	pneumocystosis	pneumocystosis		data-20261016	
+NZTxGNN	metyrapone	metyrapone	regen	only_removed	L5	有	10	9	exercise-induced malignant hyperthermia	exercise-induced malignant hyperthermia		data-20261016	
+NZTxGNN	miconazole	miconazole	keep		L4	有	1	1	acne (disease)	acne (disease)		data-20261016	
+NZTxGNN	midazolam	midazolam	keep		L3	有	1	1	insomnia (disease)	insomnia (disease)		data-20261016	
+NZTxGNN	midodrine	midodrine	keep		L5	有	10	10	variably protease-sensitive prionopathy	variably protease-sensitive prionopathy		data-20261016	
+NZTxGNN	minocycline	minocycline	keep		L5	無	2	2	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+NZTxGNN	minoxidil	minoxidil	keep		L3	有	10	10	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+NZTxGNN	mirtazapine	mirtazapine	keep		L5	無	3	3	Ohdo syndrome and variants	Ohdo syndrome and variants		data-20261016	
+NZTxGNN	misoprostol	misoprostol	keep		L4	有	2	2	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+NZTxGNN	mitomycin	mitomycin	keep		L5	有	10	10	solid pseudopapillary carcinoma of pancreas	solid pseudopapillary carcinoma of pancreas		data-20261016	
+NZTxGNN	mitoxantrone	mitoxantrone	keep		L5	有	7	7	upper aerodigestive tract neoplasm	upper aerodigestive tract neoplasm		data-20261016	
+NZTxGNN	moclobemide	moclobemide	keep		L2	有	2	2	agoraphobia	agoraphobia		data-20261016	
+NZTxGNN	modafinil	modafinil	keep		L4	有	1	1	insomnia (disease)	insomnia (disease)		data-20261016	
+NZTxGNN	montelukast	montelukast	keep		L5	有	3	3	bronchitis	bronchitis		data-20261016	
+NZTxGNN	morphine	morphine	keep		L4	有	10	10	myofascial pain syndrome	myofascial pain syndrome		data-20261016	
+NZTxGNN	moxifloxacin	moxifloxacin	regen	only_removed	L5	有	10	9	hyperamylasemia	hyperamylasemia		data-20261016	
+NZTxGNN	mupirocin	mupirocin	keep		L5	無	2	2	pleural empyema (disease)	pleural empyema (disease)		data-20261016	
+NZTxGNN	mycophenolate_mofetil	mycophenolate_mofetil	keep		L5	有	10	10	HIV infectious disease	HIV infectious disease		data-20261016	
+NZTxGNN	nadolol	nadolol	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	naproxen	naproxen	keep		L5	無	4	4	brachydactyly-syndactyly syndrome	brachydactyly-syndactyly syndrome		data-20261016	
+NZTxGNN	natalizumab	natalizumab	keep		L5	有	5	5	bronchitis	bronchitis		data-20261016	
+NZTxGNN	natamycin	natamycin	keep		L5	有	10	10	vulvovaginal candidiasis	vulvovaginal candidiasis		data-20261016	
+NZTxGNN	nevirapine	nevirapine	keep		L4	有	3	3	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+NZTxGNN	nicorandil	nicorandil	regen	only_removed	L4	有	7	6	benign prostatic hyperplasia (disease)	benign prostatic hyperplasia (disease)		data-20261016	
+NZTxGNN	nilotinib	nilotinib	keep		L4	有	1	1	dermatofibrosarcoma protuberans	dermatofibrosarcoma protuberans		data-20261016	
+NZTxGNN	nintedanib	nintedanib	keep		L4	有	3	3	dermatofibrosarcoma protuberans	dermatofibrosarcoma protuberans		data-20261016	
+NZTxGNN	niraparib	niraparib	keep		L5	有	10	10	epiglottis neoplasm	epiglottis neoplasm		data-20261016	
+NZTxGNN	nitisinone	nitisinone	keep		L5	無	10	10	renal tubular acidosis	renal tubular acidosis		data-20261016	
+NZTxGNN	nitrofurantoin	nitrofurantoin	keep		L5	有	10	10	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+NZTxGNN	nitroglycerin	nitroglycerin	keep		L3	有	4	4	pulmonary hypertension	pulmonary hypertension		data-20261016	
+NZTxGNN	norethisterone	norethisterone	keep		L4	有	1	1	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+NZTxGNN	norfloxacin	norfloxacin	keep		L5	無	10	10	hyperamylasemia	hyperamylasemia		data-20261016	
+NZTxGNN	nortriptyline	nortriptyline	keep		L2	有	2	2	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+NZTxGNN	nystatin	nystatin	keep		L3	有	10	10	vulvovaginitis	vulvovaginitis		data-20261016	
+NZTxGNN	obinutuzumab	obinutuzumab	known_use		L1	有	0	0				data-20261016	
+NZTxGNN	ocrelizumab	ocrelizumab	keep		L5	無	5	5	HER2 positive breast carcinoma	HER2 positive breast carcinoma		data-20261016	
+NZTxGNN	octreotide	octreotide	keep		L5	無	2	2	vulvar inverted follicular keratosis	vulvar inverted follicular keratosis		data-20261016	
+NZTxGNN	olanzapine	olanzapine	regen	only_removed	L5	有	3	2	benign paroxysmal torticollis of infancy	benign paroxysmal torticollis of infancy		data-20261016	
+NZTxGNN	olaparib	olaparib	known_use		L1	有	0	0				data-20261016	
+NZTxGNN	olodaterol	olodaterol	keep		L4	有	1	1	bronchitis	bronchitis		data-20261016	
+NZTxGNN	olopatadine	olopatadine	keep		L5	無	1	1	rosacea conjunctivitis	rosacea conjunctivitis		data-20261016	
+NZTxGNN	olsalazine	olsalazine	keep		L5	無	10	10	myelodysplastic syndrome	myelodysplastic syndrome		data-20261016	
+NZTxGNN	omalizumab	omalizumab	keep		L3	有	10	10	bronchitis	bronchitis		data-20261016	
+NZTxGNN	omeprazole	omeprazole	keep		L4	有	1	1	duodenal obstruction	duodenal obstruction		data-20261016	
+NZTxGNN	orphenadrine	orphenadrine	keep		L5	有	7	7	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+NZTxGNN	oxaliplatin	oxaliplatin	keep		L5	有	4	4	malignant pleural mesothelioma	malignant pleural mesothelioma		data-20261016	
+NZTxGNN	oxybutynin	oxybutynin	keep		L5	有	3	3	restless legs syndrome	restless legs syndrome		data-20261016	
+NZTxGNN	paclitaxel	paclitaxel	keep		L2	有	2	2	parameningeal embryonal rhabdomyosarcoma	parameningeal embryonal rhabdomyosarcoma		data-20261016	
+NZTxGNN	palbociclib	palbociclib	keep		L5	有	4	4	hyperthyroidism	hyperthyroidism		data-20261016	
+NZTxGNN	paliperidone	paliperidone	keep		L5	有	9	9	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+NZTxGNN	palivizumab	palivizumab	keep		L5	無	10	10	benign neoplasm of tongue	benign neoplasm of tongue		data-20261016	
+NZTxGNN	pantoprazole	pantoprazole	keep		L1	有	1	1	duodenal obstruction	duodenal obstruction		data-20261016	
+NZTxGNN	papaverine	papaverine	keep		L4	有	10	10	ischemic disease	ischemic disease		data-20261016	
+NZTxGNN	paromomycin	paromomycin	keep		L5	無	8	8	hepatoportal sclerosis	hepatoportal sclerosis		data-20261016	
+NZTxGNN	paroxetine	paroxetine	keep		L5	無	1	1	Ohdo syndrome and variants	Ohdo syndrome and variants		data-20261016	
+NZTxGNN	pazopanib	pazopanib	keep		L5	有	6	6	liposarcoma	liposarcoma		data-20261016	
+NZTxGNN	pegaspargase	pegaspargase	keep		L1	有	7	7	pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma	pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma		data-20261016	
+NZTxGNN	pegfilgrastim	pegfilgrastim	keep		L5	無	2	2	severe nonproliferative diabetic retinopathy	severe nonproliferative diabetic retinopathy		data-20261016	
+NZTxGNN	pembrolizumab	pembrolizumab	keep		L5	無	9	9	fibromatosis, gingival	fibromatosis, gingival		data-20261016	
+NZTxGNN	pemetrexed	pemetrexed	regen	only_removed	L5	有	6	3	pleural adenomatoid tumor	pleural adenomatoid tumor		data-20261016	
+NZTxGNN	periciazine	periciazine	regen	only_removed	L5	無	6	5	migraine disorder	migraine disorder		data-20261016	
+NZTxGNN	perindopril	perindopril	keep		L5	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	pertuzumab	pertuzumab	keep		L1	有	6	6	ectomesenchymoma	ectomesenchymoma		data-20261016	
+NZTxGNN	phenol	phenol	keep		L5	有	8	8	acrodermatitis chronica atrophicans	acrodermatitis chronica atrophicans		data-20261016	
+NZTxGNN	phenoxybenzamine	phenoxybenzamine	keep		L5	無	2	2	primary hereditary glaucoma	primary hereditary glaucoma		data-20261016	
+NZTxGNN	phenoxymethylpenicillin	phenoxymethylpenicillin	keep		L5	有	2	2	epiglottitis	epiglottitis		data-20261016	
+NZTxGNN	phenylalanine	phenylalanine	keep		L4	有	2	2	sclerosing cholangitis	sclerosing cholangitis		data-20261016	
+NZTxGNN	phenytoin	phenytoin	keep		L5	有	3	3	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+NZTxGNN	pibrentasvir	pibrentasvir	keep		L5	有	10	10	hepatitis B virus infection	hepatitis B virus infection		data-20261016	
+NZTxGNN	pilocarpine	pilocarpine	known_use		L5	無	0	0				data-20261016	
+NZTxGNN	pimecrolimus	pimecrolimus	keep		L2	有	3	3	seborrheic dermatitis	seborrheic dermatitis		data-20261016	
+NZTxGNN	pioglitazone	pioglitazone	keep		L5	無	9	9	opsismodysplasia	opsismodysplasia		data-20261016	
+NZTxGNN	pirfenidone	pirfenidone	keep		L5	有	10	10	extracutaneous mastocytoma	extracutaneous mastocytoma		data-20261016	
+NZTxGNN	polyethylene_glycol	polyethylene_glycol	keep		L5	無	1	1	congenital ichthyosiform erythroderma	congenital ichthyosiform erythroderma		data-20261016	
+NZTxGNN	polymyxin_b	polymyxin_b	keep		L4	有	2	2	bronchitis	bronchitis		data-20261016	
+NZTxGNN	posaconazole	posaconazole	keep		L5	有	1	1	pneumocystosis	pneumocystosis		data-20261016	
+NZTxGNN	potassium_chloride	potassium_chloride	keep		L4	有	1	1	renal tubular acidosis	renal tubular acidosis		data-20261016	
+NZTxGNN	potassium_citrate	potassium_citrate	regen	only_removed	L5	有	10	9	familial visceral myopathy	familial visceral myopathy		data-20261016	
+NZTxGNN	pramipexole	pramipexole	keep		L4	有	10	10	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+NZTxGNN	pravastatin	pravastatin	keep		L4	有	6	6	HIV infectious disease	HIV infectious disease		data-20261016	
+NZTxGNN	prednisolone	prednisolone	keep		L2	有	9	9	alopecia areata	alopecia areata		data-20261016	
+NZTxGNN	prednisolone_acetate	prednisolone_acetate	keep		L5	有	10	10	chronic follicular conjunctivitis	chronic follicular conjunctivitis		data-20261016	
+NZTxGNN	prednisone	prednisone	keep		L3	有	10	10	alopecia areata	alopecia areata		data-20261016	
+NZTxGNN	pregabalin	pregabalin	keep		L5	有	6	6	tendinitis	tendinitis		data-20261016	
+NZTxGNN	prilocaine	prilocaine	keep		L5	有	10	10	papillary conjunctivitis	papillary conjunctivitis		data-20261016	
+NZTxGNN	primaquine	primaquine	keep		L5	無	7	7	myiasis	myiasis		data-20261016	
+NZTxGNN	primidone	primidone	keep		L5	有	3	3	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+NZTxGNN	probenecid	probenecid	keep		L4	有	3	3	hypouricemia, renal	hypouricemia, renal		data-20261016	
+NZTxGNN	procarbazine	procarbazine	keep		L3	有	5	5	follicular lymphoma	follicular lymphoma		data-20261016	
+NZTxGNN	prochlorperazine	prochlorperazine	keep		L5	有	10	10	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+NZTxGNN	procyclidine	procyclidine	keep		L5	無	10	10	Rasmussen subacute encephalitis	Rasmussen subacute encephalitis		data-20261016	
+NZTxGNN	progesterone	progesterone	regen	only_removed	L4	有	10	7	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+NZTxGNN	propafenone	propafenone	keep		L5	有	6	6	manic bipolar affective disorder	manic bipolar affective disorder		data-20261016	
+NZTxGNN	propranolol	propranolol	keep		L5	有	4	4	distal myopathy, Tateyama type	distal myopathy, Tateyama type		data-20261016	
+NZTxGNN	propylene_glycol	propylene_glycol	keep		L4	有	10	10	bronchitis	bronchitis		data-20261016	
+NZTxGNN	propylthiouracil	propylthiouracil	regen	only_removed	L4	有	3	2	resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta	resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta		data-20261016	
+NZTxGNN	pyrazinamide	pyrazinamide	keep		L5	有	10	10	infectious otitis media	infectious otitis media		data-20261016	
+NZTxGNN	pyridostigmine	pyridostigmine	keep		L3	有	4	4	autoimmune disease of peripheral nervous system	autoimmune disease of peripheral nervous system		data-20261016	
+NZTxGNN	quetiapine	quetiapine	keep		L5	有	10	10	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
+NZTxGNN	quinapril	quinapril	keep		L4	有	4	4	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	raltegravir	raltegravir	keep		L5	有	3	3	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+NZTxGNN	ramipril	ramipril	keep		L5	有	9	9	pulmonary hypertension with unclear multifactorial mechanism	pulmonary hypertension with unclear multifactorial mechanism		data-20261016	
+NZTxGNN	rasagiline	rasagiline	keep		L5	無	6	6	PLA2G6-associated neurodegeneration	PLA2G6-associated neurodegeneration		data-20261016	
+NZTxGNN	remdesivir	remdesivir	keep		L5	有	6	6	multiple endocrine neoplasia	multiple endocrine neoplasia		data-20261016	
+NZTxGNN	ribociclib	ribociclib	keep		L5	有	4	4	myeloid leukemia	myeloid leukemia		data-20261016	
+NZTxGNN	rifabutin	rifabutin	keep		L5	有	10	10	HIV infectious disease	HIV infectious disease		data-20261016	
+NZTxGNN	rifampicin	rifampicin	keep		L4	有	10	10	conjunctivitis	conjunctivitis		data-20261016	
+NZTxGNN	rifaximin	rifaximin	keep		L4	有	6	6	oral candidiasis	oral candidiasis		data-20261016	
+NZTxGNN	riluzole	riluzole	keep		L5	有	9	9	bilateral parasagittal parieto-occipital polymicrogyria	bilateral parasagittal parieto-occipital polymicrogyria		data-20261016	
+NZTxGNN	risdiplam	risdiplam	keep		L5	無	1	1	acne (disease)	acne (disease)		data-20261016	
+NZTxGNN	risperidone	risperidone	regen	only_removed	L5	有	6	5	gaze palsy, familial horizontal, with progressive scoliosis	gaze palsy, familial horizontal, with progressive scoliosis		data-20261016	
+NZTxGNN	ritonavir	ritonavir	keep		L5	有	3	3	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+NZTxGNN	rivaroxaban	rivaroxaban	keep		L5	有	4	4	rheumatoid arthritis	rheumatoid arthritis		data-20261016	
+NZTxGNN	rivastigmine	rivastigmine	keep		L4	有	1	1	glaucoma	glaucoma		data-20261016	
+NZTxGNN	rizatriptan	rizatriptan	keep		L4	有	1	1	atrophoderma vermiculata	atrophoderma vermiculata		data-20261016	
+NZTxGNN	ropinirole	ropinirole	keep		L3	有	10	10	attention deficit-hyperactivity disorder	attention deficit-hyperactivity disorder		data-20261016	
+NZTxGNN	rosuvastatin	rosuvastatin	regen	only_removed	L5	有	7	6	cholesterol-ester transfer protein deficiency	cholesterol-ester transfer protein deficiency		data-20261016	
+NZTxGNN	roxithromycin	roxithromycin	keep		L5	有	8	8	leprosy	leprosy		data-20261016	
+NZTxGNN	ruxolitinib	ruxolitinib	keep		L5	有	10	10	uterine corpus perivascular epithelioid cell tumor	uterine corpus perivascular epithelioid cell tumor		data-20261016	
+NZTxGNN	saccharin	saccharin	keep		L5	無	2	2	obsolete bundle branch block	obsolete bundle branch block		data-20261016	
+NZTxGNN	sacubitril	sacubitril	keep		L5	有	5	5	brain small vessel disease 1 with or without ocular anomalies	brain small vessel disease 1 with or without ocular anomalies		data-20261016	
+NZTxGNN	salbutamol	salbutamol	keep		L5	有	9	9	papillary conjunctivitis	papillary conjunctivitis		data-20261016	
+NZTxGNN	salicylic_acid	salicylic_acid	regen	only_removed	L5	無	10	9	papillary conjunctivitis	papillary conjunctivitis		data-20261016	
+NZTxGNN	salmeterol	salmeterol	keep		L1	有	5	5	bronchitis	bronchitis		data-20261016	
+NZTxGNN	sennosides	sennosides	keep		L5	無	6	6	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+NZTxGNN	sertraline	sertraline	keep		L5	無	8	8	histrionic personality disorder (disease)	histrionic personality disorder (disease)		data-20261016	
+NZTxGNN	siltuximab	siltuximab	keep		L5	無	8	8	extracutaneous mastocytoma	extracutaneous mastocytoma		data-20261016	
+NZTxGNN	simvastatin	simvastatin	keep		L1	有	5	5	brain stem infarction	brain stem infarction		data-20261016	
+NZTxGNN	sirolimus	sirolimus	keep		L2	有	7	7	liposarcoma	liposarcoma		data-20261016	
+NZTxGNN	sodium_citrate	sodium_citrate	regen	only_removed	L5	有	9	8	papillary conjunctivitis	papillary conjunctivitis		data-20261016	
+NZTxGNN	sofosbuvir	sofosbuvir	keep		L3	有	8	8	hepatitis B virus infection	hepatitis B virus infection		data-20261016	
+NZTxGNN	sotalol	sotalol	regen	only_removed	L5	有	7	6	sick sinus syndrome 2, autosomal dominant	sick sinus syndrome 2, autosomal dominant		data-20261016	
+NZTxGNN	spironolactone	spironolactone	keep		L5	無	2	2	hypotrichosis simplex of the scalp	hypotrichosis simplex of the scalp		data-20261016	
+NZTxGNN	sucralfate	sucralfate	keep		L2	有	2	2	duodenogastric reflux	duodenogastric reflux		data-20261016	
+NZTxGNN	sulfadiazine	sulfadiazine	keep		L4	有	2	2	pneumocystosis	pneumocystosis		data-20261016	
+NZTxGNN	sulfasalazine	sulfasalazine	regen	only_removed	L5	有	10	8	brachydactyly-syndactyly syndrome	brachydactyly-syndactyly syndrome		data-20261016	
+NZTxGNN	sumatriptan	sumatriptan	known_use		L4	有	0	0				data-20261016	
+NZTxGNN	sunitinib	sunitinib	keep		L2	有	5	5	liposarcoma	liposarcoma		data-20261016	
+NZTxGNN	tacrolimus	tacrolimus	keep		L1	有	2	2	seborrheic dermatitis	seborrheic dermatitis		data-20261016	
+NZTxGNN	taliglucerase_alfa	taliglucerase_alfa	keep		L5	無	5	5	Hurler syndrome	Hurler syndrome		data-20261016	
+NZTxGNN	tamoxifen	tamoxifen	keep		L4	有	3	3	mammary Paget disease	mammary Paget disease		data-20261016	
+NZTxGNN	tamsulosin	tamsulosin	keep		L5	有	10	10	Ambras type hypertrichosis universalis congenita	Ambras type hypertrichosis universalis congenita		data-20261016	
+NZTxGNN	temazepam	temazepam	known_use		L5	有	0	0				data-20261016	
+NZTxGNN	temozolomide	temozolomide	regen	main_changed	L1	有	2	1	adult astrocytic tumour	cauda equina neoplasm		data-20261016	
+NZTxGNN	tenofovir_disoproxil	tenofovir_disoproxil	keep		L4	有	4	4	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+NZTxGNN	tenoxicam	tenoxicam	regen	main_changed	L3	有	10	8	rheumatoid arthritis	brachydactyly-syndactyly syndrome		data-20261016	
+NZTxGNN	terbutaline	terbutaline	keep		L1	有	3	3	obstructive lung disease	obstructive lung disease		data-20261016	
+NZTxGNN	teriflunomide	teriflunomide	known_use		L1	有	0	0				data-20261016	
+NZTxGNN	teriparatide	teriparatide	keep		L5	無	9	9	duodenal ulcer (disease)	duodenal ulcer (disease)		data-20261016	
+NZTxGNN	tetrabenazine	tetrabenazine	keep		L5	有	10	10	polycystic kidney disease 3 with or without polycystic liver disease	polycystic kidney disease 3 with or without polycystic liver disease		data-20261016	
+NZTxGNN	tetracycline	tetracycline	keep		L4	有	4	4	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+NZTxGNN	tezacaftor	tezacaftor	keep		L5	無	3	3	HIV infectious disease	HIV infectious disease		data-20261016	
+NZTxGNN	theophylline	theophylline	regen	has_added	L1	有	5	6	thrombotic disease	thrombotic disease		data-20261016	
+NZTxGNN	threonine	threonine	keep		L5	無	1	1	gastroparesis (disease)	gastroparesis (disease)		data-20261016	
+NZTxGNN	ticagrelor	ticagrelor	keep		L2	有	9	9	intracranial arteriosclerosis	intracranial arteriosclerosis		data-20261016	
+NZTxGNN	tiotropium	tiotropium	regen	only_removed	L1	有	6	5	obstructive lung disease	obstructive lung disease		data-20261016	
+NZTxGNN	tobramycin	tobramycin	keep		L4	有	10	10	exposure keratitis	exposure keratitis		data-20261016	
+NZTxGNN	tocilizumab	tocilizumab	regen	only_removed	L2	有	7	5	ankylosing spondylitis	ankylosing spondylitis		data-20261016	
+NZTxGNN	tolcapone	tolcapone	keep		L5	無	10	10	Rasmussen subacute encephalitis	Rasmussen subacute encephalitis		data-20261016	
+NZTxGNN	tolvaptan	tolvaptan	keep		L5	有	9	9	renal-hepatic-pancreatic dysplasia	renal-hepatic-pancreatic dysplasia		data-20261016	
+NZTxGNN	topiramate	topiramate	keep		L5	有	1	1	trigeminal nerve neoplasm	trigeminal nerve neoplasm		data-20261016	
+NZTxGNN	tramadol	tramadol	regen	only_removed	L5	有	10	9	acromesomelic dysplasia, Hunter-Thompson type	acromesomelic dysplasia, Hunter-Thompson type		data-20261016	
+NZTxGNN	trametinib	trametinib	keep		L5	有	1	1	choroideremia	choroideremia		data-20261016	
+NZTxGNN	tranexamic_acid	tranexamic_acid	keep		L5	有	1	1	amenorrhea (disease)	amenorrhea (disease)		data-20261016	
+NZTxGNN	tranylcypromine	tranylcypromine	regen	only_removed	L5	無	9	7	benign paroxysmal torticollis of infancy	benign paroxysmal torticollis of infancy		data-20261016	
+NZTxGNN	trastuzumab	trastuzumab	keep		L5	有	6	6	malignant cutaneous granular cell skin tumor	malignant cutaneous granular cell skin tumor		data-20261016	
+NZTxGNN	trastuzumab_deruxtecan	trastuzumab_deruxtecan	keep		L5	無	1	1	drug-induced osteoporosis	drug-induced osteoporosis		data-20261016	
+NZTxGNN	trastuzumab_emtansine	trastuzumab_emtansine	known_use		L4	有	0	0				data-20261016	
+NZTxGNN	travoprost	travoprost	keep		L5	有	10	10	visceral calciphylaxis	visceral calciphylaxis		data-20261016	
+NZTxGNN	tretinoin	tretinoin	regen	only_removed	L5	無	10	9	rheumatoid nodulosis	rheumatoid nodulosis		data-20261016	
+NZTxGNN	triamcinolone	triamcinolone	keep		L4	有	8	8	alopecia mucinosa	alopecia mucinosa		data-20261016	
+NZTxGNN	trimethoprim	trimethoprim	keep		L5	有	1	1	punctate epithelial keratoconjunctivitis	punctate epithelial keratoconjunctivitis		data-20261016	
+NZTxGNN	tropicamide	tropicamide	keep		L5	無	3	3	cauda equina syndrome	cauda equina syndrome		data-20261016	
+NZTxGNN	tyrosine	tyrosine	keep		L5	有	10	10	cauda equina syndrome	cauda equina syndrome		data-20261016	
+NZTxGNN	upadacitinib	upadacitinib	keep		L5	無	2	2	colobomatous microphthalmia-rhizomelic dysplasia syndrome	colobomatous microphthalmia-rhizomelic dysplasia syndrome		data-20261016	
+NZTxGNN	ursodeoxycholic_acid	ursodeoxycholic_acid	keep		L5	無	1	1	homozygous familial hypercholesterolemia	homozygous familial hypercholesterolemia		data-20261016	
+NZTxGNN	ustekinumab	ustekinumab	keep		L2	有	10	10	dermatitis	dermatitis		data-20261016	
+NZTxGNN	valine	valine	keep		L4	有	10	10	sclerosing cholangitis	sclerosing cholangitis		data-20261016	
+NZTxGNN	valsartan	valsartan	keep		L4	有	6	6	malignant hypertensive renal disease	malignant hypertensive renal disease		data-20261016	
+NZTxGNN	vancomycin	vancomycin	keep		L5	有	10	10	diffuse scleroderma	diffuse scleroderma		data-20261016	
+NZTxGNN	venetoclax	venetoclax	keep		L5	無	6	6	Hodgkins lymphoma	Hodgkins lymphoma		data-20261016	
+NZTxGNN	verapamil	verapamil	keep		L5	無	6	6	obsolete bundle branch block	obsolete bundle branch block		data-20261016	
+NZTxGNN	vilanterol	vilanterol	keep		L1	有	6	6	hyperlucent lung	hyperlucent lung		data-20261016	
+NZTxGNN	vildagliptin	vildagliptin	keep		L5	無	9	9	classic stiff person syndrome	classic stiff person syndrome		data-20261016	
+NZTxGNN	vinblastine	vinblastine	keep		L3	有	10	10	rhabdomyosarcoma (disease)	rhabdomyosarcoma (disease)		data-20261016	
+NZTxGNN	vincristine	vincristine	regen	main_changed	L3	有	3	2	ganglioneuroblastoma (disease)	vertebral anomalies and variable endocrine and T-cell dysfunction		data-20261016	
+NZTxGNN	vinorelbine	vinorelbine	keep		L2	有	8	8	Ewing sarcoma	Ewing sarcoma		data-20261016	
+NZTxGNN	warfarin	warfarin	keep		L4	有	7	7	heparin cofactor 2 deficiency	heparin cofactor 2 deficiency		data-20261016	
+NZTxGNN	zidovudine	zidovudine	keep		L5	有	4	4	feline acquired immunodeficiency syndrome	feline acquired immunodeficiency syndrome		data-20261016	
+NZTxGNN	ziprasidone	ziprasidone	keep		L2	有	10	10	trichotillomania	trichotillomania		data-20261016	
+NZTxGNN	zuclopenthixol	zuclopenthixol	keep		L5	無	9	9	retinal dystrophy with or without extraocular anomalies	retinal dystrophy with or without extraocular anomalies		data-20261016	
