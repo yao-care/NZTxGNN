@@ -14,6 +14,36 @@ This project uses the TxGNN graph neural network to predict potential new therap
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## New Zealand: what this site covers
+
+This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [Medsafe](https://www.medsafe.govt.nz/) (New Zealand).
+
+Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### Highest evidence levels on this site
+
+| Medicine | Evidence level |
+|---|---|
+| [Acetylcysteine](/drugs/acetylcysteine/) | L1 |
+| [Bendamustine](/drugs/bendamustine/) | L1 |
+| [Bupropion](/drugs/bupropion/) | L1 |
+| [Busulfan](/drugs/busulfan/) | L1 |
+| [Natamycin](/drugs/natamycin/) | L1 |
+| [Rifabutin](/drugs/rifabutin/) | L1 |
+| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
+| [Hydrocortisone Acetate](/drugs/hydrocortisone-acetate/) | L1 |
+| [Doxorubicin](/drugs/doxorubicin/) | L1 |
+| [Icatibant](/drugs/icatibant/) | L1 |
+
+### Medicines covered only by this site among the 30 TxGNN sites
+
+| Medicine | Evidence level |
+|---|---|
+| [Saccharin](/drugs/saccharin/) | L5 |
+
+<!-- local-home:end -->
+
 ## About the Developer
 
 This platform is developed and operated by **藥提醒科技有限公司** (yao.care, company registration
