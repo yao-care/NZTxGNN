@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **seborrheic dermatitis**, with
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 5 (valid: 5) |
+| Number of Pharmac Schedule Items | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

@@ -49,7 +49,7 @@ Bendamustine is a bifunctional alkylating chemotherapy agent used in B-cell mali
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L1 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 5 (valid: 5) |
+| Number of Pharmac Schedule Items | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

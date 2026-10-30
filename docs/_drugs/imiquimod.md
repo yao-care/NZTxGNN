@@ -53,7 +53,7 @@ Part of this evidence (actinic keratosis) overlaps with an existing indication, 
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (see note below) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 2 (valid: 2) |
+| Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note:* The two registered trials are small (n=20 and n=9), and one was terminated early. Only one is completed, and it is an open-label study in actinic keratosis, an already established use. No criteria for L1 or L2 are met, so the evidence is graded L3, based on systematic reviews and observational reports. This is more conservative than the L1 shown in the underlying scoring.

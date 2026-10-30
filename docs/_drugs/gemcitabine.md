@@ -50,7 +50,7 @@ with **33 clinical trials** and **20 publications** currently supporting this di
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (see note below) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 3 (valid: 3) |
+| Number of Pharmac Schedule Items | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level: the compiled data assign L1. The completed Phase 3 trial NCT00006459 (gemcitabine plus paclitaxel versus paclitaxel) and the large Phase 3 trial NCT00093795 (4,894 participants) both completed. However, no published results were retrieved for either, so L1 should be confirmed once the results are reviewed.*

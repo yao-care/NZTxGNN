@@ -52,7 +52,7 @@ This is an established use in hormone-receptor-positive breast cancer, not a new
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L1 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 2 (valid: 2) |
+| Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

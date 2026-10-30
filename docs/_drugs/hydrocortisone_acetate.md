@@ -51,7 +51,7 @@ with **1 clinical trial** (in which hydrocortisone was the comparator) and **2 p
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L1 (as assigned in the compiled data; see the note below) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 > **Note on the evidence level:** The L1 label would normally require two or more completed Phase 3 RCTs. Only one such trial was found, and hydrocortisone was the low-potency comparator rather than the test drug. In my judgement the real strength of evidence is closer to L2–L3 at best. This is why the recommendation below is more cautious than the label suggests.

@@ -53,7 +53,7 @@ with **1 clinical trial** (where hydrocortisone served only as the low-potency c
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 on paper (see note below); effectively weak |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 6 (valid: 6) |
+| Number of Pharmac Schedule Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 *Note: The L1 label is assigned because a completed Phase 3 randomized trial exists. However, only one such trial was found (L1 formally requires at least two), and hydrocortisone was the comparator rather than the tested treatment. The evidence for hydrocortisone's own efficacy is therefore much weaker than the label suggests.*

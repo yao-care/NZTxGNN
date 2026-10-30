@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **Major Affective Disorder** (a
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 4 (valid: 4) |
+| Number of Pharmac Schedule Items | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 Note: the top-ranked TxGNN prediction is trichotillomania (0.9983), followed by hydranencephaly (0.9967). This report focuses on major affective disorder, the highest-ranked prediction with substantial clinical evidence. Tourette syndrome (0.9963) is a secondary candidate with some literature (L3).

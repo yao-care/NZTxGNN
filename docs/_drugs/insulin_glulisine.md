@@ -50,7 +50,7 @@ Type 1 diabetes already falls within the drug's original indication, so this is 
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 (see note below) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 3 (valid: 3) |
+| Number of Pharmac Schedule Items | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on evidence level:** The L1 grade is not fully supported by the trial data compiled for this report. L1 requires at least two completed Phase 3 RCTs. Several completed Phase 3 trials are listed (e.g. NCT00115570, NCT00290979, NCT00467376, NCT00135941), and two published RCTs are included. However, trial design details (randomisation, comparator and primary outcomes) have not been verified for each, so L1 should be confirmed before it is relied upon.

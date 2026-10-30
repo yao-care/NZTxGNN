@@ -53,7 +53,7 @@ Among the other predicted indications, **injury** has the most support (16 clini
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 The top-ranked prediction has no supporting evidence. The best-supported predicted indication is "injury" (L2), covered below.

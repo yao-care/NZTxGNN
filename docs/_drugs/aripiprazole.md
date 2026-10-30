@@ -53,7 +53,7 @@ The data compiled for this report include **39 clinical trials** and **20 public
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 9 (valid: 9) |
+| Number of Pharmac Schedule Items | 9 (valid: 9) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

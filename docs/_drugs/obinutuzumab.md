@@ -46,8 +46,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Obinutuzu
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| Market status in New Zealand | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 (valid: 2) |
 
 ## Known uses among the model's candidates
 

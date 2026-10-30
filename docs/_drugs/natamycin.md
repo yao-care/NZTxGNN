@@ -53,7 +53,7 @@ with **1 completed Phase 3 clinical trial** and **14 publications** currently su
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 (see note below) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Strictly, L1 requires two or more completed Phase 3 RCTs. Only one completed Phase 3 trial is available, and it tested a combination product. The evidence is therefore best viewed as sitting between L1 and L2.

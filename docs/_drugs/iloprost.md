@@ -52,7 +52,7 @@ The top-ranked prediction by score is **hypotrichosis simplex of the scalp**, wh
 | TxGNN Prediction Score | 0.9945 (rank 1 prediction) |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 2 (valid: 2) |
+| Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 **Note on selection:** The highest-scoring prediction, hypotrichosis simplex of the scalp (0.9945), is graded L5 (model prediction only) with no trials or publications. The best-supported prediction in the data is PAH associated with congenital heart disease, so this report presents it as the primary candidate. It is largely a subtype of the original PAH indication, so it is not a true repurposing case.

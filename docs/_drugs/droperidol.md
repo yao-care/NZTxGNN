@@ -51,7 +51,7 @@ The best-supported direction among the top 10 predictions is **headache disorder
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 (for Tourette syndrome) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 For context, the other top-10 predictions with the strongest evidence are:

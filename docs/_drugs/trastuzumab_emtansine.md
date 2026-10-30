@@ -46,8 +46,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 4 |
 | Evidence level | Not applicable |
-| Market status in New Zealand | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 (valid: 3) |
 
 ## Known uses among the model's candidates
 

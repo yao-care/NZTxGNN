@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 (model prediction only) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

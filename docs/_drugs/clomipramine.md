@@ -49,7 +49,7 @@ Clomipramine is a tricyclic antidepressant that strongly blocks serotonin reupta
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L3 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

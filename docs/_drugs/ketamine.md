@@ -51,7 +51,7 @@ Several of the trials are completed randomised studies, but most are small, and 
 | TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 criterion is two or more completed Phase 3 RCTs. Only one Phase 3 trial (NCT03081416) is completed; the other (NCT05306899) is still recruiting. Strictly applied, the evidence is closer to L2. The L1 rating is carried over from the compiled scoring, and I recommend it be re-checked.

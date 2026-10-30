@@ -51,7 +51,7 @@ with **3 clinical trials** (one completed Phase 2 trial, one Phase 2 trial of un
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 7 (valid: 7) |
+| Number of Pharmac Schedule Items | 7 (valid: 7) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

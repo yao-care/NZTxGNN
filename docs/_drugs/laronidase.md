@@ -53,7 +53,7 @@ Support is limited: **0 clinical trials** and **4 publications** (reviews, one i
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

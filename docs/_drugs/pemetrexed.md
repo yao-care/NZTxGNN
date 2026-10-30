@@ -52,7 +52,7 @@ with **7 clinical trials** (1 completed Phase 2 trial that includes the peritone
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (one completed Phase 2 trial including peritoneal disease; the other trials are early-phase, ongoing or test delivery strategies) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 5 (valid: 5) |
+| Number of Pharmac Schedule Items | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

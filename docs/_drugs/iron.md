@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is **vitamin B12- and folate-independent
 | TxGNN Prediction Score | 0.9989 (rank 1 prediction); 0.9989 (Plummer-Vinson syndrome) |
 | Evidence Level | L5 for the rank 1 prediction; L4 for Plummer-Vinson syndrome |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1 prediction); Plummer-Vinson syndrome is a research question |
 
 ---

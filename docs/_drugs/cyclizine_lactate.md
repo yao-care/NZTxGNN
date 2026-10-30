@@ -53,7 +53,7 @@ Due to the absence of predictions, regulatory records, and safety data, a full r
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (insufficient — no predictions, no supporting studies retrieved) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 2 (valid: 2) |
+| Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | **Hold** |
 
 ---

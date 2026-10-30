@@ -53,7 +53,7 @@ Secondary amenorrhea is already a labelled use of oral MPA, so this may not be t
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 7 (valid: 7) |
+| Number of Pharmac Schedule Items | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---

@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 (model prediction only) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (14 of 14 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 14 (valid: 14) |
+| Number of Pharmac Schedule Items | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---

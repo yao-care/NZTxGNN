@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **gastric ulcer**, but the supp
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 2 (valid: 2) |
+| Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

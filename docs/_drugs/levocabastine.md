@@ -51,7 +51,7 @@ but there are currently **0 registered clinical trials** and only **3 loosely re
 | TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 (the Evidence Pack's own scoring lists L4, but without clinical trials or mechanistic studies specific to urticaria, the criteria support only L5) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

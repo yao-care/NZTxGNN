@@ -53,7 +53,7 @@ Evidence is indirect, and the same approach cannot be applied to the other highl
 | TxGNN Prediction Score | 0.9996 (hypotrichosis simplex of the scalp); 0.9991 (alopecia) |
 | Evidence Level | L5 for the top-ranked prediction; L4 for alopecia |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 3 (valid: 3) |
+| Number of Pharmac Schedule Items | 3 (valid: 3) |
 | Recommended Decision | Hold (alopecia is a research question only) |
 
 ---

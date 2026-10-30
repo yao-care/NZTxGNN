@@ -46,8 +46,8 @@ The model's candidates for Pilocarpine are all known uses, so there is currently
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in New Zealand | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 (valid: 4) |
 
 ## Known uses among the model's candidates
 

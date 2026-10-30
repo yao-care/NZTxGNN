@@ -51,7 +51,7 @@ The best-supported repurposing direction in the data is **common wart** (4 clini
 | TxGNN Prediction Score | 0.9967 (punctate epithelial keratoconjunctivitis); 0.9946 (common wart) |
 | Evidence Level | L5 for punctate epithelial keratoconjunctivitis; L2 for common wart |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 4 (valid: 4) |
+| Number of Pharmac Schedule Items | 4 (valid: 4) |
 | Recommended Decision | Hold for punctate epithelial keratoconjunctivitis; Proceed with Guardrails (research question) for common wart |
 
 ## Why is This Prediction Reasonable?

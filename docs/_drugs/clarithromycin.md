@@ -50,7 +50,7 @@ The TxGNN model predicts it may be relevant to **hyperamylasemia**, but there ar
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 4 (valid: 4) |
+| Number of Pharmac Schedule Items | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

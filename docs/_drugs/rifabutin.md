@@ -51,7 +51,7 @@ Support comes from **33 listed clinical trials** and **20 publications** compile
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L1 (see note below) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 rating follows the data compiled for this report. Three completed Phase 3 trials (NCT00001047, NCT00002101, NCT00001030) were run in HIV-positive patients with MAC. They all concern HIV-associated mycobacterial disease and do not show anti-HIV efficacy. Only NCT00001047 and NCT00002101 are directly relevant treatment trials, and in both rifabutin is part of the regimen rather than the sole variable.

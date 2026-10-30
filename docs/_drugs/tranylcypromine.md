@@ -53,7 +53,7 @@ The prediction comes from the TxGNN model (deep learning) alone and has no mecha
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

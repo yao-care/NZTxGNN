@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **follicular lymphoma**, but th
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L3 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?

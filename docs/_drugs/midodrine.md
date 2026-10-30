@@ -50,7 +50,7 @@ The TxGNN model's top-ranked prediction is variably protease-sensitive prionopat
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (prionopathy); L2 (hypotensive disorder) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 2 (valid: 2) |
+| Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Hold (prionopathy); Proceed with Guardrails (hypotensive disorder) |
 
 ## Why is This Prediction Reasonable?

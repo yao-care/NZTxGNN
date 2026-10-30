@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **acne**, but the supporting ev
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 5 (valid: 5) |
+| Number of Pharmac Schedule Items | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

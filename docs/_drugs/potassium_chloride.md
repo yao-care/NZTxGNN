@@ -50,7 +50,7 @@ The TxGNN model predicts it may be useful for **renal tubular acidosis**, but th
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 6 (valid: 6) |
+| Number of Pharmac Schedule Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

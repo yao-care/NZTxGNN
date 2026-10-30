@@ -51,7 +51,7 @@ Trial results were not available in the data compiled for this report, so effica
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (based on trial design and phase; results not verified) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 6 (valid: 6) |
+| Number of Pharmac Schedule Items | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

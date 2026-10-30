@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **manic bipolar affective disor
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 (L1 for the related broader indication, bipolar disorder) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (15 of 15 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 15 (valid: 15) |
+| Number of Pharmac Schedule Items | 15 (valid: 15) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

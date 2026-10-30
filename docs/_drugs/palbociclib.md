@@ -51,7 +51,7 @@ Palbociclib is a CDK4/6 inhibitor used in oncology. The top TxGNN prediction (hy
 | TxGNN Prediction Score | 0.9936 (rheumatoid arthritis); 0.9944 for hyperthyroidism |
 | Evidence Level | L5 (rheumatoid arthritis); L5 (hyperthyroidism) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 3 (valid: 3) |
+| Number of Pharmac Schedule Items | 3 (valid: 3) |
 | Recommended Decision | Hold (rheumatoid arthritis is a research question only) |
 
 ### All Predicted Indications

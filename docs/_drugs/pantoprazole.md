@@ -52,7 +52,7 @@ This is essentially an on-label use rather than true repurposing, so the predict
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 2 (valid: 2) |
+| Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

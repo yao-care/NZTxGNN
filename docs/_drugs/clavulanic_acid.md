@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is **Ureaplasma urethritis**, but this h
 | TxGNN Prediction Score | 0.9993 (Ureaplasma urethritis); 0.9993 (gonococcal urethritis) |
 | Evidence Level | L5 (Ureaplasma urethritis); L3 (gonococcal urethritis) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 3 (valid: 3) |
+| Number of Pharmac Schedule Items | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

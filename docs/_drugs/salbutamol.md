@@ -53,7 +53,7 @@ Other predicted indications have more evidence: **obstructive lung disease** (a 
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 9 (valid: 9) |
+| Number of Pharmac Schedule Items | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---

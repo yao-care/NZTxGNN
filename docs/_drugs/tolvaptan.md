@@ -50,7 +50,7 @@ There are **no registered clinical trials** for this specific disease, but **20 
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (as assigned in the compiled data; derived from ADPKD-class RCTs, not PKD3-specific trials) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 5 (valid: 5) |
+| Number of Pharmac Schedule Items | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

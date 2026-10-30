@@ -51,7 +51,7 @@ This is a model-only prediction (evidence level L5) and the recommendation is **
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 7 (valid: 7) |
+| Number of Pharmac Schedule Items | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

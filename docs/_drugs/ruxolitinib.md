@@ -51,7 +51,7 @@ The best-supported alternative direction is **hemophagocytic lymphohistiocytosis
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 (for the top-ranked prediction) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 4 (valid: 4) |
+| Number of Pharmac Schedule Items | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

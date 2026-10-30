@@ -49,7 +49,7 @@ Candesartan cilexetil is an angiotensin II type 1 (AT1) receptor blocker. The Tx
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 8 (valid: 8) |
+| Number of Pharmac Schedule Items | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

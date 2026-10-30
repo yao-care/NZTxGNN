@@ -53,7 +53,7 @@ The best-supported prediction in the data is **small cell lung carcinoma** (5 cl
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 (for primary pulmonary lymphoma); L1 for the alternative prediction, small cell lung carcinoma |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 4 (valid: 4) |
+| Number of Pharmac Schedule Items | 4 (valid: 4) |
 | Recommended Decision | Hold for primary pulmonary lymphoma (research question only); Proceed with Guardrails for small cell lung carcinoma |
 
 ---

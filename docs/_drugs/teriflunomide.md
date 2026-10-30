@@ -46,8 +46,8 @@ The TxGNN deep-learning model produced candidate indications for Teriflunomide, 
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in New Zealand | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 
 ## Known uses among the model's candidates
 

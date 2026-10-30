@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **Liposarcoma**. This is the hi
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L2 (liposarcoma); L5 (top-ranked prediction) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 2 (valid: 2) |
+| Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Hold (overall); liposarcoma is a Research Question |
 
 **Note on the top-ranked prediction:** The first-ranked prediction (Xp11.2/TFE3-translocation renal cell carcinoma) has no trials or literature. This report therefore focuses on liposarcoma, the first prediction with clinical trial data. Other predictions are summarised in the conclusion.

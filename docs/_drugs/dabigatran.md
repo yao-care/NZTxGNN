@@ -42,7 +42,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 |------|---------|
 | Original Indication | Not recorded in the local data |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 3 (valid: 3) |
+| Number of Pharmac Schedule Items | 3 (valid: 3) |
 
 > **⚠️ Data Quality Notice:** DB14726 may correspond to the active metabolite form of dabigatran rather than the clinically prescribed prodrug dabigatran etexilate (DB06695). Before proceeding, verify which DrugBank entry is the intended target.
 

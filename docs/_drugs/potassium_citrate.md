@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is **familial visceral myopathy**, but i
 | TxGNN Prediction Score | 0.9995 (familial visceral myopathy); 0.9975 (nephrolithiasis) |
 | Evidence Level | L5 (familial visceral myopathy); L2 (nephrolithiasis) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold (familial visceral myopathy); Proceed with Guardrails (nephrolithiasis) |
 
 ---

@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is a retinal dystrophy with no supportin
 | TxGNN Prediction Score | 0.9913 (schizophrenia); the rank 1 prediction scores 0.9929 |
 | Evidence Level | L5 (schizophrenia); L5 for rank 1 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

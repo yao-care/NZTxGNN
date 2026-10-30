@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (rank 1). The best-supported alternative, treatment-refractory schizophrenia, is L3 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 5 (valid: 5) |
+| Number of Pharmac Schedule Items | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

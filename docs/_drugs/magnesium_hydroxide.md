@@ -51,7 +51,7 @@ This prediction largely overlaps with its known acid-related uses and is not a d
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Number of Approvals | 1 licence (single-ingredient product) |
 | Recommended Decision | Hold |
 

@@ -44,7 +44,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Original Indication | Not recorded in the local data |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
 | Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 5 (valid: 5) |
+| Number of Pharmac Schedule Items | 5 (valid: 5) |
 
 ---
 

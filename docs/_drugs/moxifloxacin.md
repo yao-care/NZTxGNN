@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is **Hyperamylasemia**, but there are **
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -54,7 +54,7 @@ The top-ranked TxGNN prediction (manic bipolar affective disorder) is shown firs
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 | L3 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data | Cancelled only |
-| Number of Authorizations | 1 (valid: 1) | 1 |
+| Number of Pharmac Schedule Items | 1 (valid: 1) | 1 |
 | Recommended Decision | Hold | Proceed with Guardrails (research question only) |
 
 The New Zealand product record contains no approved indication text.

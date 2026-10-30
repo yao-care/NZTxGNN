@@ -53,7 +53,7 @@ Evidence for the top-ranked prediction itself is limited to **19 publications** 
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 for the top prediction (observational and small phase II studies). Head and neck cancer is rated L1 in the compiled data, but this reflects a registered, not-yet-recruiting phase III trial rather than completed phase III results, so it should be read cautiously |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 2 (valid: 2) |
+| Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails (head and neck cancer, as a research direction) |
 
 ---

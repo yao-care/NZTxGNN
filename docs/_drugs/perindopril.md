@@ -51,7 +51,7 @@ but there are currently **0 clinical trials** and only **1 publication** (not dr
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (by the pre-assigned rating; no clinical trials, and the only publication is not about perindopril) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 3 (valid: 3) |
+| Number of Pharmac Schedule Items | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

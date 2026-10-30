@@ -52,7 +52,7 @@ Because this prediction overlaps closely with the existing COPD and asthma uses,
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 3 (valid: 3) |
+| Number of Pharmac Schedule Items | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

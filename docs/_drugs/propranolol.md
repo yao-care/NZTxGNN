@@ -53,7 +53,7 @@ The data compiled for this report contain more supportive literature for two oth
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 (model prediction only) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 5 (valid: 5) |
+| Number of Pharmac Schedule Items | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 **Other predictions in the top 6 (for context):**

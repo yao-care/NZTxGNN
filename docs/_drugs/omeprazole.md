@@ -51,7 +51,7 @@ Omeprazole is a proton pump inhibitor originally used for acid-related upper gas
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 9 (valid: 9) |
+| Number of Pharmac Schedule Items | 9 (valid: 9) |
 | Recommended Decision | Hold (treat as a research question only) |
 
 ---

@@ -49,7 +49,7 @@ Carbamazepine is a sodium channel–blocking anticonvulsant. The TxGNN model pre
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 6 (valid: 6) |
+| Number of Pharmac Schedule Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

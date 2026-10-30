@@ -50,7 +50,7 @@ The TxGNN model predicts it may be useful for **stroke disorder**, but the link 
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L3 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 6 (valid: 6) |
+| Number of Pharmac Schedule Items | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -51,7 +51,7 @@ The strongest evidence in the model's top ten predictions is for **rhabdomyosarc
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 (as graded in the data compiled for this report; the breast trials are Phase 1/2, with no completed Phase 3 RCT) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 3 (valid: 3) |
+| Number of Pharmac Schedule Items | 3 (valid: 3) |
 | Recommended Decision | Hold (Research Question) for breast carcinoma; Proceed with Guardrails for rhabdomyosarcoma |
 
 ## Why is This Prediction Reasonable?

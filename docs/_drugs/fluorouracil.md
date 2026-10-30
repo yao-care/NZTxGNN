@@ -53,7 +53,7 @@ The related predicted indication "rhabdomyosarcoma (disease)" has 4 loosely rela
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 5 (valid: 5) |
+| Number of Pharmac Schedule Items | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

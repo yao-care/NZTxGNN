@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is retinal dystrophy, which has no suppo
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 for retinal dystrophy; L4 for trichotillomania |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 6 (valid: 6) |
+| Number of Pharmac Schedule Items | 6 (valid: 6) |
 | Recommended Decision | Hold (retinal dystrophy and the other no-evidence predictions); trichotillomania is a research question |
 
 ---

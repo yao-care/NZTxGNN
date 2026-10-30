@@ -53,7 +53,7 @@ This is a computational prediction without supporting clinical data.
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 The evidence level is L5. The two retrieved papers do not directly study methionine as a treatment for acne (one links homocysteine to isotretinoin therapy, the other is an unrelated MTHFR mutation case report), so the L4 label in the source data is not supported.

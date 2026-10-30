@@ -53,7 +53,7 @@ The rank 1 prediction, **hyperamylasemia**, has no supporting evidence.
 | TxGNN Prediction Score | 0.9976 (hyperamylasemia); 0.9962 (urinary tract infection) |
 | Evidence Level | L5 (hyperamylasemia); L3 (urinary tract infection) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold (hyperamylasemia); Proceed with Guardrails is not warranted, and UTI is better treated as a research question |
 
 ---

@@ -55,7 +55,7 @@ Of the predictions with some supporting data, Hodgkin lymphoma has the most tria
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (15 of 15 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 15 (valid: 15) |
+| Number of Pharmac Schedule Items | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---

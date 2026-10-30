@@ -53,7 +53,7 @@ The mechanism also points the wrong way: probenecid would likely worsen this con
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Authorizations | 1 (valid: 1) |
+| Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note: the New Zealand license record has no approved indication text, so the original indications above are not taken from approved labelling.*
