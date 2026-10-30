@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 484
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ This is essentially an extension of warfarin's existing use in thrombosis, not a
 | Predicted New Indication | Heparin cofactor 2 deficiency |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 

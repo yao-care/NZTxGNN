@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clomipramine: predicted new indication anxiety disorder (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Clomipramine is a tricyclic antidepressant that strongly blocks serotonin reupta
 | Predicted New Indication | anxiety disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

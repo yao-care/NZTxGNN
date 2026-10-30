@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ATOMOXETINE"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Atomoxetine: predicted new indication specific developmental disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Atomoxetine is a selective norepinephrine reuptake inhibitor. The TxGNN model pr
 | Predicted New Indication | specific developmental disorder |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 7 of 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 

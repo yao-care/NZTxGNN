@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -52,7 +52,7 @@ This report documents the data gaps and recommends remediation steps before furt
 | Predicted New Indication | — (No TxGNN predictions available) |
 | TxGNN Prediction Score | — |
 | Evidence Level | L5 (Model prediction unavailable — no supporting studies in this pack) |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 

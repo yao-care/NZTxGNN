@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 262
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Ledipasvir: predicted new indication Hepatitis B virus infection (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ with **5 clinical trials** and **20 publications** matched to this prediction. O
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

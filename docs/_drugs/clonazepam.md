@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 3
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clonazepam: predicted new indication restless legs syndrome (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -52,7 +52,7 @@ Most of the publications are reviews, guidelines or small and older studies, so 
 | Predicted New Indication | restless legs syndrome |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 

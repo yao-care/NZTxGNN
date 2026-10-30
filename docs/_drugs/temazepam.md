@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 439
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Temazepam: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN deep-learning model produced candidates for Temazepam, but every candi
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| Market status in New Zealand | Marketed (valid licences: 1 of 1) |
+| Market status in New Zealand | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 
 ## Known uses among the model's candidates

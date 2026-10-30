@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 250
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "KETAMINE"
 predicted_indications: ["headache disorder"]
 description: "Ketamine: predicted new indication Headache disorder (evidence level L1). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ Several of the trials are completed randomised studies, but most are small, and 
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

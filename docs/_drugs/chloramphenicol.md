@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 95
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chloramphenicol: predicted new indication Conjunctivitis (evidence level L3). Approved use: Typhoid fever, salmonellosis, paratyphoid fever…"
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
@@ -50,7 +50,7 @@ Topical use in bacterial conjunctivitis is already well established, so this is 
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

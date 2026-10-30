@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Potassium deficiency disease, renal tubular acidosis…"
 monitor_inn: "POTASSIUM CITRATE"
 predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
@@ -51,7 +51,7 @@ The TxGNN model's top-ranked prediction is **familial visceral myopathy**, but i
 | Predicted New Indication | Familial visceral myopathy (top-ranked); nephrolithiasis (best-supported, rank 4) |
 | TxGNN Prediction Score | 0.9995 (familial visceral myopathy); 0.9975 (nephrolithiasis) |
 | Evidence Level | L5 (familial visceral myopathy); L2 (nephrolithiasis) |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold (familial visceral myopathy); Proceed with Guardrails (nephrolithiasis) |
 

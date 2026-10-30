@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 457
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Marketed (valid licences: 14 of 14) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (14 of 14 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 

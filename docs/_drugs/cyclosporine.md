@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cyclosporine: predicted new indication Chronic granulomatous disease, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **autosomal recessive chronic g
 | Predicted New Indication | Chronic granulomatous disease, autosomal recessive |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 

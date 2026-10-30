@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 425
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ but only **1 clinical trial** (a Phase 2 single-arm combination study) and a sma
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 

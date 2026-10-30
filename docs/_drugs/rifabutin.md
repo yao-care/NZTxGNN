@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 402
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rifabutin: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not stated in the licence record (the Medsafe indication text is empt…"
 monitor_inn: "RIFABUTIN"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
@@ -50,7 +50,7 @@ Support comes from **33 listed clinical trials** and **20 publications** compile
 | Predicted New Indication | HIV infectious disease (best framed as HIV-associated mycobacterial disease) |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L1 (see note below) |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

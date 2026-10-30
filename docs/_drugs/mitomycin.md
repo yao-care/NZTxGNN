@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "mitomycin"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
 description: "Mitomycin: predicted new indication Solid pseudopapillary carcinoma of pancreas (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ but there are currently **no clinical trials** and **no publications** directly 
 | Predicted New Indication | Solid pseudopapillary carcinoma of pancreas |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 

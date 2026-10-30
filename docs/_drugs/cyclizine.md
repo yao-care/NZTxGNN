@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclizine"
 predicted_indications: ["allergic urticaria", "nasal cavity disease", "cold urticaria", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cyclizine: predicted new indication allergic urticaria (過敏性蕁麻疹) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Cyclizine is a first-generation H1 antihistamine with antiemetic use. The TxGNN 
 | Predicted New Indication | allergic urticaria (過敏性蕁麻疹) |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

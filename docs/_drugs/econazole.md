@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Econazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be useful for **ectothrix infectious disease** (
 | Predicted New Indication | Ectothrix infectious disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Number of approvals | 2 (both single-ingredient licences) |
 | Recommended Decision | Hold |

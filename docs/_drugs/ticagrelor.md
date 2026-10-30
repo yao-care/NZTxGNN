@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ with **2 clinical trials** (neither with results yet) and **2 publications** (a 
 | Predicted New Indication | Intracranial arteriosclerosis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (research question) |
 

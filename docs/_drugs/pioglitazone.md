@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ but there are **0 clinical trials** and **0 publications** supporting this predi
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 

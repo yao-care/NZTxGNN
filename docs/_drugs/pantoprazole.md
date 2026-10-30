@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ This is essentially an on-label use rather than true repurposing, so the predict
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 

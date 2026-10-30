@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 63
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Betamethasone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease…"
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
@@ -50,7 +50,7 @@ with **6 clinical trials** (1 completed Phase 2) and **20 publications** current
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 9 of 9) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 9 (valid: 9) |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ with **7 clinical trials** (1 completed Phase 2 trial that includes the peritone
 | Predicted New Indication | Pleural adenomatoid tumor |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (one completed Phase 2 trial including peritoneal disease; the other trials are early-phase, ongoing or test delivery strategies) |
-| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 134
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dapsone: predicted new indication Pneumocystosis (evidence level L1). Approved use: Dermatitis herpetiformis, acne, leprosy"
 monitor_inn: "DAPSONE"
 predicted_indications: ["pneumocystosis"]
@@ -50,7 +50,7 @@ with **10 clinical trials** and **20 publications** currently supporting this di
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 

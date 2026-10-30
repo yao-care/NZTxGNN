@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 308
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ with **no registered clinical trials** but **10 publications** (including 2 rand
 | Predicted New Indication | Agoraphobia |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

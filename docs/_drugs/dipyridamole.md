@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DIPYRIDAMOLE"
 predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dipyridamole: predicted new indication Thrombotic disease (evidence level L5). Approved use: Atrial fibrillation"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **thrombotic disease**, a broad
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Number of Approvals | 1 (single-ingredient product) |
 | Recommended Decision | Hold |

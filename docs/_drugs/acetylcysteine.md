@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "ACETYLCYSTEINE"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Acetylcysteine: predicted new indication thrombotic disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ Most of the evidence concerns thrombotic microangiopathies (TTP and transplant-a
 | Predicted New Indication | thrombotic disease |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 

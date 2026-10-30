@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 483
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ with **3 clinical trials** (one completed Phase 2 trial, one Phase 2 trial of un
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 7 of 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 7 (valid: 7) |
 | Recommended Decision | Proceed with Guardrails |
 

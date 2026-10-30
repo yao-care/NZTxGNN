@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 320
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nicorandil: predicted new indication benign prostatic hyperplasia (disease) (evidence level L4). Approved use: Chronic stable angina pectoris"
 monitor_inn: "NICORANDIL"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
@@ -50,7 +50,7 @@ Nicorandil is a potassium channel opener and nitric oxide donor, used in several
 | Predicted New Indication | Benign prostatic hyperplasia |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold (treat as a research question) |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Iron: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Iron deficiency anemia (also folic acid deficiency anemia…"
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
@@ -51,7 +51,7 @@ The TxGNN model's top-ranked prediction is **vitamin B12- and folate-independent
 | Predicted New Indication | Top-ranked: vitamin B12- and folate-independent constitutional megaloblastic anemia. Best-supported: Plummer-Vinson syndrome (rank 2) |
 | TxGNN Prediction Score | 0.9989 (rank 1 prediction); 0.9989 (Plummer-Vinson syndrome) |
 | Evidence Level | L5 for the rank 1 prediction; L4 for Plummer-Vinson syndrome |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1 prediction); Plummer-Vinson syndrome is a research question |
 

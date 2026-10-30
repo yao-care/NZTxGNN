@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 453
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ but there are **no registered clinical trials** and only **8 publications**, non
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 

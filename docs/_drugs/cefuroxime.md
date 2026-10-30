@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Infectious otitis media, bacterial pneumonia, bacterial meningitis…"
 monitor_inn: "cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
@@ -52,7 +52,7 @@ The rank 1 prediction, **hyperamylasemia**, has no supporting evidence.
 | Predicted New Indication | Hyperamylasemia (rank 1); the best-supported prediction is urinary tract infection (rank 6) |
 | TxGNN Prediction Score | 0.9976 (hyperamylasemia); 0.9962 (urinary tract infection) |
 | Evidence Level | L5 (hyperamylasemia); L3 (urinary tract infection) |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold (hyperamylasemia); Proceed with Guardrails is not warranted, and UTI is better treated as a research question |
 

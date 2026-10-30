@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 366
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pilocarpine: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The model's candidates for Pilocarpine are all known uses, so there is currently
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in New Zealand | Marketed (valid licences: 4 of 4) |
+| Market status in New Zealand | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 4 (valid: 4) |
 
 ## Known uses among the model's candidates

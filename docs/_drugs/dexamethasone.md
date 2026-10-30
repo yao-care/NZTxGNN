@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dexamethasone: predicted new indication alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ The literature mainly supports oral mini-pulse dexamethasone as a rescue or alte
 | Predicted New Indication | alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 8 of 8) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 8 (valid: 8) |
 | Recommended Decision | Proceed with Guardrails |
 

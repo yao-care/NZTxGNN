@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 342
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ with **3 clinical trials** (2 directly relevant Phase 2 studies) and **20 public
 | Predicted New Indication | Malignant pleural mesothelioma |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L2 (one completed Phase 2 trial plus several published Phase 2 studies; no Phase 3 RCT) |
-| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 

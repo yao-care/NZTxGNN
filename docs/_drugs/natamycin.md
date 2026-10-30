@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 318
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "natamycin"
 predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
 description: "Natamycin: predicted new indication Vulvovaginal candidiasis (evidence level L1). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ with **1 completed Phase 3 clinical trial** and **14 publications** currently su
 | Predicted New Indication | Vulvovaginal candidiasis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 (see note below) |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

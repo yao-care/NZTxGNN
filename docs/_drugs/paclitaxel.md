@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ with **43 clinical trials** and **20 publications** compiled for this prediction
 | Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 11 of 11) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 of 11 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 11 (valid: 11) |
 | Recommended Decision | Proceed with Guardrails |
 

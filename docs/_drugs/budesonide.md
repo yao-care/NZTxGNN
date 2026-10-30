@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Budesonide: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ Evidence is thin: **no clinical trials** were found and the **20 retrieved publi
 | Predicted New Indication | atopic eczema |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 

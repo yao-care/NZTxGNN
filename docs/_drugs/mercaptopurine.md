@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 286
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mercaptopurine: predicted new indication myeloid leukemia (evidence level L2). Approved use: Acute lymphoblastic leukaemia"
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
@@ -50,7 +50,7 @@ with **15 clinical trials** and **20 publications** compiled for this direction.
 | Predicted New Indication | Myeloid leukaemia |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (research question) |
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 52
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Atropine: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -50,7 +50,7 @@ but there are currently **0 clinical trials** and only **indirect, mostly precli
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 

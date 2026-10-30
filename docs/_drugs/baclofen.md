@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Baclofen: predicted new indication attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Baclofen is a GABA-B receptor agonist. The TxGNN model predicts it may be useful
 | Predicted New Indication | attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 

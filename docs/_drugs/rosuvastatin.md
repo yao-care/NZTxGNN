@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, stroke, cerebrovascular disorder…"
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
@@ -52,7 +52,7 @@ The better-supported predictions are **familial hypercholesterolaemia** (13 tria
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency (top-ranked prediction) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (top prediction); L1 for familial hypercholesterolaemia and hyperlipidaemia |
-| New Zealand Market Status | Marketed (valid licences: 8 of 8) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 8 (valid: 8) |
 | Recommended Decision | Hold (top prediction); Proceed with Guardrails for familial hypercholesterolaemia and hyperlipidaemia |
 

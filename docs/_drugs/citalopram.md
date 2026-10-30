@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "Citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Citalopram: predicted new indication obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ The data compiled for this report include **4 clinical trials** and **16 publica
 | Predicted New Indication | obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

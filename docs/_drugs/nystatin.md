@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 330
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "NYSTATIN"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: predicted new indication Vulvovaginitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ Support comes from **0 clinical trials** and **20 publications**, mostly reviews
 | Predicted New Indication | Vulvovaginitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 

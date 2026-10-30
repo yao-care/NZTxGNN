@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Roxithromycin: predicted new indication Leprosy (evidence level L5). Approved use: Not stated in the New Zealand licence records (general pharmacology s…"
 monitor_inn: "ROXITHROMYCIN"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
@@ -50,7 +50,7 @@ with **no registered clinical trials** and **5 publications** (all preclinical o
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 (preclinical and review evidence only; no human trials) |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

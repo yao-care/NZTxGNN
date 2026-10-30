@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 275
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "LOMUSTINE"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer", "cerebral neuroblastoma", "pediatric cerebral ependymoblastoma", "pediatric infratentorial ependymoblastoma", "childhood brain germinoma", "cerebellopontine angle embryonal tumor", "lymph node cancer", "cerebral sarcoma"]
 description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **lymphosarcoma** (the top-rank
 | Predicted New Indication | Lymphosarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

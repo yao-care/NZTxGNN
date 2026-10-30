@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ The TxGNN model's top-ranked prediction is papillary conjunctivitis, but that pr
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 for papillary conjunctivitis; L3 for neuralgia |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold for papillary conjunctivitis; Proceed with Guardrails (as a research question) for neuralgia |
 

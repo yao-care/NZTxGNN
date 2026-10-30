@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 202
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Flecainide: predicted new indication Stroke disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be useful for **stroke disorder**, but the link 
 | Predicted New Indication | Stroke disorder |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ layout: default
 title: Dabigatran
 parent: Known Uses Only (No New Predictions)
 nav_order: 130
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,7 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 
 > **⚠️ Data Quality Notice:** DB14726 may correspond to the active metabolite form of dabigatran rather than the clinically prescribed prodrug dabigatran etexilate (DB06695). Before proceeding, verify which DrugBank entry is the intended target.

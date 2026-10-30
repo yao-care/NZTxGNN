@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Taliglucerase Alfa: predicted new indication Hurler syndrome (evidence level L5). Approved use: Gaucher disease"
 monitor_inn: "TALIGLUCERASE ALFA"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **Hurler syndrome**, but there 
 | Predicted New Indication | Hurler syndrome |
 | TxGNN Prediction Score | 0.9952 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

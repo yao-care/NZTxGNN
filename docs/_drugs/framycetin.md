@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not specified in the licence data compiled for this report (marketed…"
 monitor_inn: "framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -50,7 +50,7 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 311
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The best-supported candidate among the ten predictions is **restless legs syndro
 | Predicted New Indication | Myofascial pain syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 

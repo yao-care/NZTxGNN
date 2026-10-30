@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
 description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **choroideremia**, an inherited
 | Predicted New Indication | Choroideremia |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 

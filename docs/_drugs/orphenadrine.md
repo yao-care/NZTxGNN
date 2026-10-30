@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Orphenadrine: predicted new indication Schizophrenia (evidence level L5). Approved use: Parkinsonian disorder / Parkinson disease"
 monitor_inn: "Orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
@@ -51,7 +51,7 @@ The TxGNN model's top-ranked prediction is a retinal dystrophy with no supportin
 | Predicted New Indication | Schizophrenia (the top-ranked prediction, retinal dystrophy with or without extraocular anomalies, has no evidence and is not pursued here) |
 | TxGNN Prediction Score | 0.9913 (schizophrenia); the rank 1 prediction scores 0.9929 |
 | Evidence Level | L5 (schizophrenia); L5 for rank 1 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

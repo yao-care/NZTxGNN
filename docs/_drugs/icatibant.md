@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 228
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Icatibant: predicted new indication C1 inhibitor deficiency (evidence level L1). Approved use: Hereditary angioedema"
 monitor_inn: "ICATIBANT"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
@@ -50,7 +50,7 @@ This is largely on-label use rather than true repurposing, so the evidence is st
 | Predicted New Indication | C1 inhibitor deficiency |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

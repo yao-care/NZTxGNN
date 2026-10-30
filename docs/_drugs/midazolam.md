@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 300
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ with **2 clinical trials** (both only indirectly related) and **10 publications*
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Marketed (valid licences: 5 of 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 

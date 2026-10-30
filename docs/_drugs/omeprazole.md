@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ Omeprazole is a proton pump inhibitor originally used for acid-related upper gas
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 9 of 9) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 9 (valid: 9) |
 | Recommended Decision | Hold (treat as a research question only) |
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 173
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ Support is limited: **1 clinical trial** (terminated, and only indirectly relate
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

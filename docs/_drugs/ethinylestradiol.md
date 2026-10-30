@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The prediction is model-derived only.
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 7 of 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 

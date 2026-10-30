@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 225
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "HYDROCORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L1). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ with **1 clinical trial** (in which hydrocortisone was the comparator) and **2 p
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L1 (as assigned in the compiled data; see the note below) |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

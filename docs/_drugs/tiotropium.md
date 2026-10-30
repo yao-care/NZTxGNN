@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 452
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Tiotropium"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The prediction is supported by **38 clinical trials** (many Phase 3) and **20 pu
 | Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 

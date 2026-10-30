@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 420
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "SALMETEROL"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ This is largely an extension within the same obstructive airway disease spectrum
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 

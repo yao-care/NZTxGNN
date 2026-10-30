@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 266
 evidence_level: L1
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L1). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ This is an established use in hormone-receptor-positive breast cancer, not a new
 | Predicted New Indication | Nipple carcinoma |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 

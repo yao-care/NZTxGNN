@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 7 of 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 

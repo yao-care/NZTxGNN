@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Threonine: predicted new indication gastroparesis (evidence level L5). Approved use: No approved indication text available"
 monitor_inn: "threonine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **gastroparesis**, but there ar
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 

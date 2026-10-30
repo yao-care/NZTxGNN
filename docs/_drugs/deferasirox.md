@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 5
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Deferasirox is an oral iron chelator. The TxGNN model predicts it may be relevan
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 

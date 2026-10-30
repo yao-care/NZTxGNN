@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sacubitril: predicted new indication Top-ranked: brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not stated in the New Zealand licence data (the combinat…"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
@@ -50,7 +50,7 @@ Overall evidence for the top-ranked prediction is only model-based, so this repo
 | Predicted New Indication | Top-ranked: brain small vessel disease 1 with or without ocular anomalies (best-supported: diabetic nephropathy) |
 | TxGNN Prediction Score | 0.9958 (top-ranked); 0.9950 (diabetic nephropathy) |
 | Evidence Level | L5 (top-ranked); L3 (diabetic nephropathy) |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (top-ranked); diabetic nephropathy is a research question |
 

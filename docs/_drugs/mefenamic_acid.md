@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 283
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not stated in the available New Zealand licence data"
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
@@ -50,7 +50,7 @@ with **no registered clinical trials** but **20 publications** (several older do
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 

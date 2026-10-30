@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 3
 monitor_inn: "ALBENDAZOLE"
 predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Albendazole: predicted new indication alveolar echinococcosis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Albendazole is a benzimidazole anthelmintic that acts on parasite tubulin. The T
 | Predicted New Indication | alveolar echinococcosis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: predicted new indication Top-ranked prediction: psychogenic movement disorders. Best-supported candidate: chronic tic disorder (psychogenic move… (evidence level L5). Approved use: Not rec…"
@@ -50,7 +50,7 @@ with **0 registered clinical trials** and **5 publications** currently supportin
 | Predicted New Indication | Top-ranked prediction: psychogenic movement disorders. Best-supported candidate: chronic tic disorder (psychogenic movement disorders) |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 for the top-ranked prediction; L3 for chronic tic disorder |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold (top-ranked prediction); Proceed with Guardrails as a research question for chronic tic disorder |
 

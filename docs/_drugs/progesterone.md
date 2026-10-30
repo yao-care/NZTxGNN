@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 388
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Progesterone: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ with **4 related clinical trials** (all indirect, as hormone therapy was studied
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

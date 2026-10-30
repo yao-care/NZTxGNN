@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Iloprost: predicted new indication hypotrichosis simplex of the scalp (evidence level L3). Approved use: Pulmonary arterial hypertension"
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
@@ -51,7 +51,7 @@ The top-ranked prediction by score is **hypotrichosis simplex of the scalp**, wh
 | Predicted New Indication | PAH associated with congenital heart disease (the rank 1 prediction, hypotrichosis simplex of the scalp, has no evidence; see note below) |
 | TxGNN Prediction Score | 0.9945 (rank 1 prediction) |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

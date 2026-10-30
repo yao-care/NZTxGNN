@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 181
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The best-supported prediction in the data is **small cell lung carcinoma** (5 cl
 | Predicted New Indication | Primary pulmonary lymphoma |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 (for primary pulmonary lymphoma); L1 for the alternative prediction, small cell lung carcinoma |
-| New Zealand Market Status | Marketed (valid licences: 4 of 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 4 (valid: 4) |
 | Recommended Decision | Hold for primary pulmonary lymphoma (research question only); Proceed with Guardrails for small cell lung carcinoma |
 

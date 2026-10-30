@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence record"
 ---
 
@@ -52,7 +52,7 @@ This is a computational prediction without supporting clinical data.
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

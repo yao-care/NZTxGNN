@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ The score is a model output only, and the evidence is at the prediction level.
 | Predicted New Indication | Faciodigitogenital syndrome |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 13 of 13) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (13 of 13 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 

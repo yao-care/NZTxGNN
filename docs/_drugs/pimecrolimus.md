@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 367
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ with **1 completed Phase 2 clinical trial** and **19 publications** (including 2
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

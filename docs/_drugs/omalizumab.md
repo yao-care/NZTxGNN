@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 339
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The data compiled for this report show stronger support for other predicted indi
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold (a research question only) |
 

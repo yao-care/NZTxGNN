@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Levocabastine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis"
 monitor_inn: "LEVOCABASTINE"
 predicted_indications: ["allergic urticaria", "rosacea conjunctivitis"]
@@ -50,7 +50,7 @@ but there are currently **0 registered clinical trials** and only **3 loosely re
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 (the Evidence Pack's own scoring lists L4, but without clinical trials or mechanistic studies specific to urticaria, the criteria support only L5) |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

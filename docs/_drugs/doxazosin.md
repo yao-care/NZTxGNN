@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 2
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Doxazosin: predicted new indication migraine disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Doxazosin is an alpha-1 adrenergic blocker. The TxGNN model predicts it may be u
 | Predicted New Indication | migraine disorder |
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 327
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "NORETHISTERONE"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Norethisterone: predicted new indication Amenorrhea (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be useful for **amenorrhea**, but there are **no
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 

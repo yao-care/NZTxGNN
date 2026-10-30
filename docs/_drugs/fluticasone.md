@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fluticasone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "FLUTICASONE"
 predicted_indications: ["migraine disorder", "Prinzmetal angina", "migraine with brainstem aura"]
@@ -50,7 +50,7 @@ This prediction rests on the model alone and is not yet backed by clinical evide
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 

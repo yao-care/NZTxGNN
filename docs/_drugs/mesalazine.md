@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "MESALAZINE"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **congenital hypotrichosis with
 | Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 13 of 13) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (13 of 13 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clopidogrel: predicted new indication Migraine disorder (evidence level L2). Approved use: Acute coronary syndrome"
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
@@ -52,7 +52,7 @@ So far, **6 clinical trials** (2 directly relevant to clopidogrel) and **more th
 | Predicted New Indication | Migraine disorder (TxGNN rank 2; the rank 1 prediction is migraine with brainstem aura) |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 

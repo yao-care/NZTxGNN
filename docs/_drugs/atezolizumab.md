@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ATEZOLIZUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Atezolizumab: predicted new indication Endocervical carcinoma (evidence level L5). Approved use: Transitional cell carcinoma"
 ---
 
@@ -50,7 +50,7 @@ No efficacy results are available in the data compiled for this report, so the p
 | Predicted New Indication | Endocervical carcinoma (the highest-ranked prediction, uterine ligament adenocarcinoma, has no supporting studies, so this report focuses on the best-supported prediction, ranked second) |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 2 of 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 2 (valid: 2) |
 | Number of Approvals | 2 licences (both single-ingredient, both valid) |
 | Recommended Decision | Hold |

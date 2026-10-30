@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 115
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the licence data (clozapine is generally used for tre…"
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **manic bipolar affective disor
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 (L1 for the related broader indication, bipolar disorder) |
-| New Zealand Market Status | Marketed (valid licences: 15 of 15) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (15 of 15 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 15 (valid: 15) |
 | Recommended Decision | Proceed with Guardrails |
 

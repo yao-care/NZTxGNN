@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Aripiprazole: predicted new indication major affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,7 +52,7 @@ The data compiled for this report include **39 clinical trials** and **20 public
 | Predicted New Indication | major affective disorder |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Marketed (valid licences: 9 of 9) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 9 (valid: 9) |
 | Recommended Decision | Proceed with Guardrails |
 

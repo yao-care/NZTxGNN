@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ The best-supported alternative among the predictions is **migraine disorder** (2
 | Predicted New Indication | Tendinitis |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (for tendinitis; mechanistic rationale only, no direct studies) |
-| New Zealand Market Status | Marketed (valid licences: 8 of 8) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cyclophosphamide: predicted new indication myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -52,7 +52,7 @@ The data compiled for this report include **more than 30 clinical trials** and *
 | Predicted New Indication | myeloid leukemia |
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Marketed (valid licences: 6 of 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 

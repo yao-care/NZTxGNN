@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 309
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The mechanistic rationale is weak, so this prediction should be treated with cau
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Marketed (valid licences: 1 of 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

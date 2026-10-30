@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -50,7 +50,7 @@ Diltiazem Hydrochloride is a widely used cardiovascular agent, but the current E
 | Predicted New Indication | Not available — TxGNN output not retrieved |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Cannot be determined |
-| New Zealand Market Status | Marketed (valid licences: 3 of 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Authorizations | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
