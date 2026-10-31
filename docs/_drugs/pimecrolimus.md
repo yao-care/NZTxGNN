@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 367
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -138,7 +138,6 @@ Seborrheic dermatitis has a direct randomized Phase 2 trial plus two systematic 
 - The package insert warnings and contraindications (Medsafe), which are currently missing, so formal safety screening cannot be completed
 - Detailed mechanism of action data (for example from DrugBank)
 - Published results and outcomes for NCT00403559
-- Confirmation of a regulatory pathway and product availability in New Zealand, since the only licence is cancelled
 - A long-term safety plan addressing the theoretical malignancy concern, plus guidance on use around viral skin infections and with other topical agents
 ## Disclaimer
 

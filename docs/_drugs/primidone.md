@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "PRIMIDONE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -101,7 +101,7 @@ For label warnings and precautions, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-The top predicted indication, trigeminal nerve neoplasm, has no clinical trials or literature, and no plausible mechanism connects primidone to tumour biology, so it rests on a computational score alone (L5). The seizure-related predictions are mechanistically more coherent but are supported only by indirect, mostly older evidence (L4, research questions at best). In New Zealand, the only authorization is cancelled.
+The top predicted indication, trigeminal nerve neoplasm, has no clinical trials or literature, and no plausible mechanism connects primidone to tumour biology, so it rests on a computational score alone (L5). The seizure-related predictions are mechanistically more coherent but are supported only by indirect, mostly older evidence (L4, research questions at best).
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data

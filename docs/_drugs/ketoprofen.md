@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "KETOPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 description: "Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -113,7 +113,7 @@ The package insert warnings and contraindications were not available for this re
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is supported only by a model score. There are no clinical trials or publications, no plausible mechanistic link to the GDF5/BMP pathway, and the only New Zealand licence has been cancelled. The data compiled for this report do not support further investment in this indication.
+The top prediction is supported only by a model score. The data compiled for this report do not support further investment in this indication.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for ketoprofen

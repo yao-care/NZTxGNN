@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "sodium citrate"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -102,7 +102,7 @@ Package insert warnings were not available, so please refer to the package inser
 **Decision: Hold**
 
 **Rationale:**
-The prediction for papillary conjunctivitis rests on a model score alone, with no clinical trials, no literature, and no plausible mechanism. The product's only New Zealand licence is cancelled, and the licensed form was an enema, which is not compatible with ocular use.
+The prediction for papillary conjunctivitis rests on a model score alone, with no clinical trials, no literature, and no plausible mechanism.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible rationale linking sodium citrate to ocular inflammation

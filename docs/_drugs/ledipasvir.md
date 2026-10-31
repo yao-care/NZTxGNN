@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 262
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Ledipasvir: predicted new indication Hepatitis B virus infection (evidence level L2). Approved use: Not recorded in the local data"
@@ -121,7 +121,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-Only one small, completed open-label Phase 2 study (n=21) tests ledipasvir/sofosbuvir in HBV directly. There is no plausible HBV-specific target for an NS5A inhibitor, and the broader literature emphasises HBV reactivation rather than suppression. The only New Zealand licence is cancelled, and the package insert safety data are not available. These factors outweigh the high model score.
+Only one small, completed open-label Phase 2 study (n=21) tests ledipasvir/sofosbuvir in HBV directly. There is no plausible HBV-specific target for an NS5A inhibitor, and the broader literature emphasises HBV reactivation rather than suppression. These factors outweigh the high model score.
 
 **To proceed, the following is needed:**
 - Full results of the Phase 2 HBV study (PMID 36045503/NCT03312023): size and durability of HBsAg and HBV DNA reduction

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 25
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Alectinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer / lung cancer"
 monitor_inn: "ALECTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
@@ -128,7 +128,6 @@ The predicted indication, gingival fibromatosis, has no trials, no literature an
 **To proceed, the following is needed:**
 - Detailed mechanism of action data and a biological rationale linking ALK (or related kinase) signalling to gingival fibromatosis
 - Package insert warnings and contraindications from Medsafe to allow safety screening
-- Clarification of the current New Zealand regulatory status of alectinib, since the only licence is cancelled
 - Consideration of whether a biomarker-driven (ALK fusion) approach in rare tumours, such as the lung germ cell tumour signal, is a more promising direction than the top-ranked prediction
 ## Disclaimer
 

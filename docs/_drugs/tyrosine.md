@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded"
 monitor_inn: "TYROSINE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma"]
@@ -120,7 +120,7 @@ One theoretical concern is worth noting: because tyrosine is a thyroid hormone p
 **Decision: Hold**
 
 **Rationale:**
-All predicted indications are supported only by the model score (L4 at best, mostly L5). No trial or study shows tyrosine benefits cauda equina syndrome, and the plausible mechanisms are either absent or point the wrong way (hyperthyroidism, POTS). The only New Zealand authorization is cancelled.
+All predicted indications are supported only by the model score (L4 at best, mostly L5). No trial or study shows tyrosine benefits cauda equina syndrome, and the plausible mechanisms are either absent or point the wrong way (hyperthyroidism, POTS).
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)

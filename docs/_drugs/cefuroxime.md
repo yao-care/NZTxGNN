@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Infectious otitis media, bacterial pneumonia, bacterial meningitis…"
 monitor_inn: "cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
@@ -130,7 +130,6 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 **Rationale:**
 - The rank 1 prediction (hyperamylasemia) and most other top-ranked predictions have no mechanistic rationale, no trials and no literature, so they are likely TxGNN model (deep learning) artifacts (evidence level L5).
 - Urinary tract infection has observational support (L3) but is probably already within cefuroxime's existing antibacterial use, so it is a research question rather than a true repurposing opportunity. Suppurative otitis media is similar (L4).
-- The only New Zealand licence is cancelled, and the safety review cannot proceed without label data.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

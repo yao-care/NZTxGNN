@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -127,7 +127,6 @@ Package insert warnings and contraindications were not available for this report
 
 **Rationale:**
 - The top-ranked prediction is unsupported and the literature suggests harm. CPVT has a credible mechanism (RyR2 inhibition) and a long-term case report, but there are no registered trials, the clinical evidence is limited to case reports and non-specific cohorts, and flecainide is the established comparator.
-- The only New Zealand authorization is cancelled, so no product is currently marketed.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)

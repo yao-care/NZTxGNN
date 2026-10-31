@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 314
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not available"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -122,7 +122,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale (IMPDH inhibition, dGTP depletion, synergy with abacavir) is credible, and a few small human studies exist. However, there is no completed trial with direct efficacy data in HIV, the only directly relevant trial was withdrawn, and the immunosuppression risk is a real safety concern. All 3 New Zealand authorizations are valid, but package insert safety data are missing, so the case cannot advance to safety screening yet.
+The mechanistic rationale (IMPDH inhibition, dGTP depletion, synergy with abacavir) is credible, and a few small human studies exist. All 3 New Zealand authorizations are valid, but package insert safety data are missing, so the case cannot advance to safety screening yet.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap)

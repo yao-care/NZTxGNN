@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
 description: "Remdesivir: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -116,7 +116,7 @@ Please refer to the package insert for warnings and contraindications, as this i
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, multiple endocrine neoplasia, rests solely on a TxGNN model (deep learning) score with no clinical trials, no literature, and no plausible mechanism. The only prediction with any retrieved evidence (HIV) is supported by material that concerns COVID-19, not HIV. Remdesivir's only New Zealand licence is cancelled, and label safety information could not be obtained.
+The top prediction, multiple endocrine neoplasia, rests solely on a TxGNN model (deep learning) score with no clinical trials, no literature, and no plausible mechanism. The only prediction with any retrieved evidence (HIV) is supported by material that concerns COVID-19, not HIV.
 
 **To proceed, the following is needed:**
 - Medsafe package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening

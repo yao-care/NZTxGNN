@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "tranylcypromine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -110,7 +110,6 @@ The prediction rests only on a score from the TxGNN model (deep learning), with 
 - Detailed mechanism-of-action data
 - The package insert (warnings and contraindications), which was not available for review
 - A paediatric safety assessment, including dietary and drug-interaction risk
-- A route to supply, since the only New Zealand licence is cancelled
 
 **Note on other candidates in the same analysis:** Several other predicted indications have much stronger support. Neurotic depression (evidence level L2) and melancholia (L3) both fall within tranylcypromine's existing depressive-disorder scope and were rated "Proceed with Guardrails". Agoraphobia, dysthymic disorder and neurotic disorder were rated "Research Question". Any further evaluation effort would be better spent on these than on the rank 1 prediction.
 ## Disclaimer

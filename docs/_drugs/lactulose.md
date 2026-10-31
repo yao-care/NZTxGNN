@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -102,12 +102,11 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold (research question only)**
 
 **Rationale:**
-There is a plausible gut-endotoxin mechanism and some small clinical and animal studies in obstructive jaundice. However, no clinical trials are registered, the clinical results are mixed, and the only New Zealand licence has been cancelled. The remaining predictions have little or no supporting evidence.
+There is a plausible gut-endotoxin mechanism and some small clinical and animal studies in obstructive jaundice. The remaining predictions have little or no supporting evidence.
 
 **To proceed, the following is needed:**
 - Full-text review of the 1986 and 1991 clinical studies to confirm design and results
 - Mechanism-of-action data and the Medsafe package insert (warnings and contraindications)
-- A current New Zealand market or supply pathway, since the only licence is cancelled
 - A focused trial or systematic review of preoperative lactulose in obstructive jaundice, with renal outcomes and endotoxaemia as endpoints
 - Review of the knowledge-graph contraindications (especially diabetes and galactosemia) for any proposed patient population
 ## Disclaimer

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 388
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Progesterone: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -130,7 +130,7 @@ Please refer to the package insert for label-based warnings and contraindication
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Progesterone has a coherent, well-established mechanism for secondary amenorrhea and is already used in the progestin challenge. However, the registered trials only study hormone replacement in hypoestrogenic women, and none tests progesterone alone, so direct evidence is limited. Its only New Zealand licence is cancelled.
+Progesterone has a coherent, well-established mechanism for secondary amenorrhea and is already used in the progestin challenge. However, the registered trials only study hormone replacement in hypoestrogenic women, and none tests progesterone alone, so direct evidence is limited.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which are missing and are a blocking gap for safety screening

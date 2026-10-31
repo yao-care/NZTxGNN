@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 219
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Glecaprevir: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -128,7 +128,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not backed by any evidence of anti-HIV activity. Every linked trial and publication addresses HCV, including in people with HIV co-infection. There is no plausible mechanistic link between an HCV NS3/4A protease inhibitor and HIV protease. The only New Zealand licence is cancelled, and the other nine predictions are L5 or weaker, with no supporting evidence.
+The high TxGNN score is not backed by any evidence of anti-HIV activity. Every linked trial and publication addresses HCV, including in people with HIV co-infection. There is no plausible mechanistic link between an HCV NS3/4A protease inhibitor and HIV protease.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for glecaprevir

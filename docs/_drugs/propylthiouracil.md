@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 392
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "PROPYLTHIOURACIL"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
@@ -101,7 +101,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L4). No clinical trials exist, the literature consists of mouse models and case reports that do not test PTU, and the mechanism suggests a risk of raising TSH and worsening goitre. The only New Zealand licence is cancelled, and the package insert safety data have not been obtained.
+The prediction rests on a model score alone (L4). No clinical trials exist, the literature consists of mouse models and case reports that do not test PTU, and the mechanism suggests a risk of raising TSH and worsening goitre.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

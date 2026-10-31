@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 443
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma"
 monitor_inn: "terbutaline"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
@@ -128,7 +128,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several large completed Phase 3 trials in asthma include terbutaline as an active or reliever arm, and COPD studies support its bronchodilator effect. However, the evidence is mostly indirect, the use overlaps the existing indications, and the only New Zealand authorization is cancelled.
+Several large completed Phase 3 trials in asthma include terbutaline as an active or reliever arm, and COPD studies support its bronchodilator effect.
 
 **To proceed, the following is needed:**
 - Confirmation of current product availability and regulatory status in New Zealand

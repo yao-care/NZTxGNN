@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 277
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Lopinavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
@@ -95,7 +95,7 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-The only supporting evidence is three preclinical macaque studies, with no registered clinical trials. SIV infection is an animal-model indication rather than a human therapeutic use, so the prediction extends the original antiretroviral indication rather than opening a new treatment opportunity. The product's only New Zealand licence is cancelled.
+The only supporting evidence is three preclinical macaque studies, with no registered clinical trials. SIV infection is an animal-model indication rather than a human therapeutic use, so the prediction extends the original antiretroviral indication rather than opening a new treatment opportunity.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

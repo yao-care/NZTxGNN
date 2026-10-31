@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Orphenadrine: predicted new indication Schizophrenia (evidence level L5). Approved use: Parkinsonian disorder / Parkinson disease"
 monitor_inn: "Orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
@@ -116,7 +116,7 @@ Please refer to the package insert for warnings, as label data were not availabl
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predictions rest on computational scores alone, with no trials, no literature and no plausible mechanism. For schizophrenia, the literature supports orphenadrine only for managing antipsychotic side effects, and anticholinergics may worsen cognition and tardive dyskinesia. Orphenadrine's only New Zealand licence has been cancelled.
+The top-ranked predictions rest on computational scores alone, with no trials, no literature and no plausible mechanism. For schizophrenia, the literature supports orphenadrine only for managing antipsychotic side effects, and anticholinergics may worsen cognition and tardive dyskinesia.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (from DrugBank)

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Alglucosidase Alfa: predicted new indication Adult polyglucosan body disease (evidence level L5). Approved use: Glycogen storage disease (Pompe disease). The New Zealand licence rec…"
 monitor_inn: "ALGLUCOSIDASE ALFA"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
@@ -107,13 +107,12 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score, with no clinical trials or literature. The mechanistic link is weak because lysosomal GAA does not address the GBE1 defect or reach cytosolic polyglucosan. The only New Zealand licence has been cancelled, so there is no current local supply pathway.
+The prediction is supported only by the model score, with no clinical trials or literature. The mechanistic link is weak because lysosomal GAA does not address the GBE1 defect or reach cytosolic polyglucosan.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, as safety screening cannot proceed without them
 - Detailed mechanism-of-action data from DrugBank
 - Preclinical evidence on whether GAA can reach and degrade polyglucosan in relevant cells or models
-- A review of current supply and regulatory status in New Zealand, since the only licence is cancelled
 - Evaluation of whether a clinical question exists for adult polyglucosan body disease, since the other nine predictions lack credible biological support
 ## Disclaimer
 

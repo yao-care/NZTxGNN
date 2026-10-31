@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the New Zealand licence record (the clinical-use descri…"
 monitor_inn: "DOMPERIDONE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -80,7 +80,7 @@ Please refer to the package insert for full safety information, as label warning
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only a model score behind it: no clinical trials, no literature and no documented mechanistic link between D2/D3 antagonism and NSIAD. The only New Zealand licence is cancelled, and the knowledge graph flags QT-related contraindications that would matter in a patient group with electrolyte disturbance.
+The prediction has only a model score behind it: no clinical trials, no literature and no documented mechanistic link between D2/D3 antagonism and NSIAD.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence linking dopamine D2/D3 antagonism to vasopressin V2 receptor signalling or renal water handling
@@ -88,7 +88,6 @@ The prediction has only a model score behind it: no clinical trials, no literatu
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Assessment of QT-prolongation risk and electrolyte monitoring in the target population
-- Confirmation of product availability and route compatibility in New Zealand, since the only licence is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

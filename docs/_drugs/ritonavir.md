@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -112,7 +112,7 @@ Please refer to the package insert for formal warnings and contraindications, as
 **Decision: Hold**
 
 **Rationale:**
-The prediction for feline acquired immunodeficiency syndrome has a high model score and a plausible lentiviral protease rationale, but there is no trial or literature support (evidence level L5). Ritonavir's only New Zealand licence is cancelled, and its interaction burden is heavy. Feline immunodeficiency is also a veterinary condition, so it falls outside human drug repurposing and would need veterinary regulatory review.
+The prediction for feline acquired immunodeficiency syndrome has a high model score and a plausible lentiviral protease rationale, but there is no trial or literature support (evidence level L5). Feline immunodeficiency is also a veterinary condition, so it falls outside human drug repurposing and would need veterinary regulatory review.
 
 **To proceed, the following is needed:**
 - Mechanism-of-action data for ritonavir (for example from DrugBank)

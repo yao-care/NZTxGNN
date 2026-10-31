@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
@@ -95,13 +95,12 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (Evidence Level L5). There are no clinical trials or publications, no verifiable mechanistic link, and the only New Zealand authorization is cancelled. The knowledge-graph contraindication list is also substantial.
+The prediction is supported only by a model score (Evidence Level L5). The knowledge-graph contraindication list is also substantial.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (DrugBank) and a plausible biological rationale linking serotonin reuptake inhibition to Ohdo syndrome or KAT6B-related pathology
 - Package insert warnings and contraindications from Medsafe
 - Preclinical or case-level evidence, and a literature and trial registry search specific to Ohdo syndrome
-- Clarification of the regulatory pathway, since the only New Zealand licence is cancelled
 - Evaluation of route and formulation compatibility, and of the benefit-risk balance in a paediatric neurodevelopmental population
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,7 +91,7 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | 2553139 | Teva | Eye drops 0.005% | Not stated (licence status: valid) |
 
-The only available licence is cancelled, so no latanoprost product is currently authorised in New Zealand according to the data compiled. All available dosage forms are ophthalmic.
+All available dosage forms are ophthalmic.
 
 ## Safety Considerations
 
@@ -105,7 +105,6 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The only New Zealand licence is cancelled, and congenital forms of glaucoma are often surgically managed, so medical efficacy is uncertain.
 
 **To proceed, the following is needed:**
 - Systematic literature and trial registry search specific to latanoprost in hereditary/congenital glaucoma, including paediatric data

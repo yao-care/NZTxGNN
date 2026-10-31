@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
 description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,7 +96,7 @@ No drug interaction records were found.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-based only (L5), with no clinical trials or publications. The proposed mechanism is speculative and does not explain specificity for congenital ichthyosiform erythroderma. The only New Zealand licence is cancelled, and safety data are incomplete.
+The prediction is model-based only (L5), with no clinical trials or publications. The proposed mechanism is speculative and does not explain specificity for congenital ichthyosiform erythroderma.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for PEG

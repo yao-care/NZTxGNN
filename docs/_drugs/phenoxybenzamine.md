@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Phenoxybenzamine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Adrenal gland pheochromocytoma / phaeochromocytoma"
 monitor_inn: "Phenoxybenzamine"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma"]
@@ -93,7 +93,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The predictions rest on model scores alone, with no clinical trials or literature. The mechanism does not address the structural cause of hereditary glaucoma, and systemic adverse effects are a concern. The only New Zealand licence is cancelled, and safer topical alternatives exist.
+The predictions rest on model scores alone, with no clinical trials or literature. The mechanism does not address the structural cause of hereditary glaucoma, and systemic adverse effects are a concern.
 
 **To proceed, the following is needed:**
 - A targeted literature search on alpha-blockers and intraocular pressure, beyond the data compiled here

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Taliglucerase Alfa: predicted new indication Hurler syndrome (evidence level L5). Approved use: Gaucher disease"
 monitor_inn: "TALIGLUCERASE ALFA"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
@@ -93,7 +93,7 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical or literature evidence (L5), and the proposed mechanism does not hold up: glucocerebrosidase does not act on the glycosaminoglycans that accumulate in Hurler syndrome. The only New Zealand licence is cancelled, and safety data are missing.
+The prediction has no supporting clinical or literature evidence (L5), and the proposed mechanism does not hold up: glucocerebrosidase does not act on the glycosaminoglycans that accumulate in Hurler syndrome.
 
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank

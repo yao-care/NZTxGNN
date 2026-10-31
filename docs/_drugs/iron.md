@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Iron: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Iron deficiency anemia (also folic acid deficiency anemia…"
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
@@ -132,7 +132,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold** (for the rank 1 prediction and the other predictions). Plummer-Vinson syndrome is a research question rather than a Go.
 
 **Rationale:**
-- The top-scoring prediction has no trials, no literature and no plausible mechanism. Plummer-Vinson syndrome is supported only by reviews, case reports and one retrospective study, and iron there treats the underlying iron deficiency, which is essentially the existing indication. The only licence in New Zealand is cancelled.
+- The top-scoring prediction has no trials, no literature and no plausible mechanism. Plummer-Vinson syndrome is supported only by reviews, case reports and one retrospective study, and iron there treats the underlying iron deficiency, which is essentially the existing indication.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe.

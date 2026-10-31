@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -105,7 +105,6 @@ The prediction has a very high model score but no trials, no literature and no i
 - Mechanism of action data and a plausible biological rationale linking DPP-4 inhibition to stiff person syndrome
 - Any preclinical or clinical evidence in stiff person syndrome
 - Package insert warnings and contraindications for safety screening
-- Clarification of the regulatory position, since the only New Zealand licence is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

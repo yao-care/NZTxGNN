@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Clopidogrel: predicted new indication Migraine disorder (evidence level L2). Approved use: Acute coronary syndrome"
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
@@ -115,7 +115,7 @@ Please refer to the package insert for full safety information.
 **Decision: Hold (research question)**
 
 **Rationale:**
-There are randomised data for clopidogrel in migraine, but they are a small pilot RCT and a post-ASD-closure trial (CANOA) rather than confirmatory trials in general migraine. The Phase 3 trials listed test PFO closure, not clopidogrel. Benefit appears confined to PFO-associated or post-closure migraine. In New Zealand, the only licence is cancelled and the package insert data are unavailable, so a safety screen cannot yet be completed. The other predictions are weaker: osteoarthritis, tendinitis, myositis and rheumatoid arthritis rest on model scores alone, and the rheumatoid arthritis literature includes possible harm signals.
+There are randomised data for clopidogrel in migraine, but they are a small pilot RCT and a post-ASD-closure trial (CANOA) rather than confirmatory trials in general migraine. The Phase 3 trials listed test PFO closure, not clopidogrel. Benefit appears confined to PFO-associated or post-closure migraine. The other predictions are weaker: osteoarthritis, tendinitis, myositis and rheumatoid arthritis rest on model scores alone, and the rheumatoid arthritis literature includes possible harm signals.
 
 **To proceed, the following is needed:**
 - Review the results of COMPETE (NCT05546320) and the 2026 BMJ trial (PMID 42526943)
@@ -123,7 +123,6 @@ There are randomised data for clopidogrel in migraine, but they are a small pilo
 - Mechanism of action data from DrugBank
 - A bleeding-risk assessment for a non-cardiovascular population, including the interactions listed above (notably with proton pump inhibitors and NSAIDs)
 - A decision on whether to target only migraine patients with a confirmed PFO or right-to-left shunt
-- Confirmation of the availability of a clopidogrel product in New Zealand, since the only licence is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

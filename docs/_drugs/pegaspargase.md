@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: predicted new indication Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -99,7 +99,6 @@ The table lists the 10 most relevant trials (the data contain 33 in total). In a
 |---------|------|------|-----------|
 | 2578158 | Oncaspar LYO | Inj 750 iu per ml, 5 ml vial | Not stated in the available record (licence valid) |
 
-The only New Zealand licence has been cancelled, so product availability would need to be verified before any use.
 
 ## Cytotoxicity
 
@@ -128,7 +127,6 @@ The predicted indication is effectively the drug's original use, and it is backe
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (currently unavailable, so formal safety screening cannot be completed)
 - Detailed mechanism-of-action data from DrugBank
-- Confirmation of product availability in New Zealand, since only a cancelled licence exists
 - A toxicity monitoring plan (liver, pancreas, lipids, glucose, coagulation, hypersensitivity), with extra caution in patients aged 55 or older
 
 **Note on other predictions:** Lymphoid neoplasm (L1 for the ALL component only; non-randomised data for other subtypes) could also proceed with guardrails, limited to ALL. Hodgkin lymphoma and blast-phase CML have only indirect evidence (L4) and should be held. CLL/SLL (including its subtypes), follicular lymphoma and methylcobalamin deficiency cblE have no trials or literature (L5) and no plausible asparagine-dependency rationale, so they should be held.

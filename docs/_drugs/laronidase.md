@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "LARONIDASE"
 predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
 description: "Laronidase: predicted new indication Lysosomal storage disease with skeletal involvement (evidence level L5). Approved use: Not recorded in the local data"
@@ -108,7 +108,7 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication mostly restates the established MPS I use rather than a new target, and no clinical trials specifically address skeletal outcomes. The available literature is limited to reviews, an in vitro study and a single case report, and the only licence in New Zealand is cancelled.
+The predicted indication mostly restates the established MPS I use rather than a new target, and no clinical trials specifically address skeletal outcomes.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

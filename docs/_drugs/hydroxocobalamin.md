@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "HYDROXOCOBALAMIN"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
 description: "Hydroxocobalamin: predicted new indication Esophageal varices without bleeding (evidence level L5). Approved use: Not recorded in the local data"
@@ -95,7 +95,6 @@ The prediction rests on a model score alone (L5), with no clinical trials, no li
 - Package insert warnings and contraindications from Medsafe, which are required for safety screening
 - Preclinical or mechanistic studies testing whether NO scavenging affects portal pressure
 - Systematic literature and trial searches specific to hydroxocobalamin and portal hypertension or varices
-- Confirmation of a currently available formulation and route in New Zealand, since the only licence is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "ISOLEUCINE"
 predicted_indications: ["gastroparesis (disease)"]
 description: "Isoleucine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -64,7 +64,6 @@ Currently, detailed mechanism of action data is not available. Isoleucine is an 
 
 The high score (0.9932) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. One speculative hypothesis is that amino acid nutrient sensing could influence gastric emptying or enteroendocrine signalling. This has not been tested here and would need independent validation.
 
-The drug has no established clinical-use context in New Zealand: the only licence is cancelled, and no known drug interactions are recorded.
 
 ---
 
@@ -114,7 +113,6 @@ The only support is a high model prediction score.
 - Mechanism of action data for isoleucine, and a testable rationale linking it to gastric motility
 - Preclinical or clinical evidence in gastroparesis (literature search and trial registry review)
 - The Medsafe package insert, to confirm warnings and contraindications and to check the signals from the TxGNN model (deep learning) (especially kidney, cardiac and phenylalanine-metabolism conditions)
-- Assessment of route and formulation suitability for a gastroparesis use, since the only licence was a cancelled oral powder
 - A safety screening once the package insert is available
 ## Disclaimer
 

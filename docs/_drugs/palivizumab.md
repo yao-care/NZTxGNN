@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
 description: "Palivizumab: predicted new indication Benign neoplasm of tongue (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,7 +86,7 @@ No drug-drug interaction records were found, and no contraindicated diseases wer
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only a model score behind it (Evidence Level L5). The product's only licence has been cancelled.
+The prediction has only a model score behind it (Evidence Level L5).
 
 **To proceed, the following is needed:**
 - A credible biological rationale linking RSV F protein neutralization to the proposed tumour type, or preclinical data supporting one

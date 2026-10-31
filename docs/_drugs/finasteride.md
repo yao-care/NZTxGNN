@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,7 +96,7 @@ Please refer to the package insert for further safety information. The insert's 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials. The only retrieved literature is general, indirect hypertrichosis material. The proposed mechanism is also biologically weak, since the target conditions are not DHT-driven. In addition, the only New Zealand licence is cancelled.
+The prediction rests only on a model score, with no clinical trials. The only retrieved literature is general, indirect hypertrichosis material. The proposed mechanism is also biologically weak, since the target conditions are not DHT-driven.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) to assess the pathway link

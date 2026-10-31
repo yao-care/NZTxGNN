@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "TETRABENAZINE"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
 description: "Tetrabenazine: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -104,7 +104,7 @@ Please refer to the package insert for official warnings and contraindications, 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (L5). There are no clinical trials, no relevant literature and no plausible mechanistic link between VMAT2 inhibition and polycystic kidney disease. The only New Zealand licence is cancelled, and the safety profile is not fully characterized.
+The prediction is supported only by a model score (L5). There are no clinical trials, no relevant literature and no plausible mechanistic link between VMAT2 inhibition and polycystic kidney disease.
 
 **To proceed, the following is needed:**
 - Mechanism of action data confirmed from DrugBank

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,7 +88,7 @@ The package insert warnings and contraindications could not be retrieved, so ple
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score and a plausible IOP-lowering mechanism, but no trial or literature evidence supports it (L5). The only New Zealand licence is cancelled, so there is currently no marketed product.
+The prediction has a very high model score and a plausible IOP-lowering mechanism, but no trial or literature evidence supports it (L5).
 
 **To proceed, the following is needed:**
 - Clinical or literature evidence of dorzolamide in primary hereditary (including congenital or juvenile) glaucoma, such as paediatric or genetic-subtype studies

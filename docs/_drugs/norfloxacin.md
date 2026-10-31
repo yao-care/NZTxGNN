@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Norfloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections, including urinary tract infection…"
 monitor_inn: "NORFLOXACIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
@@ -109,7 +109,7 @@ Currently no related literature available for hyperamylasemia.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for hyperamylasemia rests on a model score alone, with no clinical trials, no literature and no plausible mechanism (Evidence Level L5). The product also has only a cancelled licence in New Zealand. The safety profile raises concerns, including QT prolongation, tendon and neurological effects, and major interactions with corticosteroids.
+The prediction for hyperamylasemia rests on a model score alone, with no clinical trials, no literature and no plausible mechanism (Evidence Level L5). The safety profile raises concerns, including QT prolongation, tendon and neurological effects, and major interactions with corticosteroids.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a rationale linking the drug to the proposed indication

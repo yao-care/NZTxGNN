@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Misoprostol: predicted new indication Amenorrhea (evidence level L4). Approved use: Not stated in the licence data"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -121,7 +121,7 @@ Please refer to the package insert for label warnings and contraindications, bec
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no registered trials, and the published studies concern pregnancy termination rather than treatment of amenorrhea. No plausible mechanism links a prostaglandin E1 analogue to restoring menstrual cycles. The only New Zealand licence is cancelled, and the label safety data could not be retrieved.
+The prediction has no registered trials, and the published studies concern pregnancy termination rather than treatment of amenorrhea. No plausible mechanism links a prostaglandin E1 analogue to restoring menstrual cycles.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

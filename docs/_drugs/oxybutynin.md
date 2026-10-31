@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "OXYBUTYNIN"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -102,13 +102,12 @@ Please refer to the package insert for official warnings, as label-based safety 
 **Decision: Hold**
 
 **Rationale:**
-The predictions rest on model scores alone (L5 for restless legs syndrome and gastroduodenitis, L4 for peptic ulcer disease), with no trials and no supporting modern literature. The mechanistic link is weak or unverifiable, there is a documented reflux safety signal for upper GI use, and the only New Zealand licence is cancelled.
+The predictions rest on model scores alone (L5 for restless legs syndrome and gastroduodenitis, L4 for peptic ulcer disease), with no trials and no supporting modern literature.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - A literature search for anticholinergic or antimuscarinic effects in restless legs syndrome, including sleep-related adverse effects
-- Confirmation of current regulatory and supply status in New Zealand, since the only licence is cancelled
 - Route and formulation compatibility assessment
 ## Disclaimer
 

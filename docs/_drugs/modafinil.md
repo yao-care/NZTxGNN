@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 309
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -123,7 +123,6 @@ Evidence for insomnia is minimal: one terminated trial with 2 participants and o
 - Mechanism of action data, to assess whether any pathway supports a benefit in insomnia
 - Medsafe package insert warnings and contraindications for safety screening
 - A narrower, better-justified target, such as residual daytime sleepiness or fatigue in shift work disorder or Parkinson's disease
-- Clarification of the regulatory path, given that the only New Zealand authorization is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

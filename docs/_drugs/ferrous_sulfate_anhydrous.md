@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Ferrous Sulfate Anhydrous: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Iron deficiency anemia, folic acid defici…"
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
@@ -101,13 +101,12 @@ Package insert warnings and contraindications have not been obtained. Please ref
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is supported only by a model score, with no trials or literature, and has no plausible iron-dependent mechanism. The product's only New Zealand licence is cancelled. The one biologically credible candidate, Plummer-Vinson syndrome (rank 2), is essentially an extension of the existing iron deficiency anemia use and is better handled as a research question than as a repurposing decision.
+The top prediction is supported only by a model score, with no trials or literature, and has no plausible iron-dependent mechanism. The one biologically credible candidate, Plummer-Vinson syndrome (rank 2), is essentially an extension of the existing iron deficiency anemia use and is better handled as a research question than as a repurposing decision.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data (for example from DrugBank)
 - Literature and trial searches for Plummer-Vinson syndrome, and for constitutional megaloblastic anemia if it is to be pursued
-- Clarification of current New Zealand availability, since the only licence is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

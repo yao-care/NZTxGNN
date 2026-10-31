@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
@@ -104,7 +104,6 @@ The prediction is mechanistically sound, but it largely restates the existing in
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (currently a blocking gap)
 - Detailed mechanism of action data
-- Clarification of the regulatory position, since the only New Zealand authorization is cancelled and its approved indication text is not recorded
 - Evidence on pyridostigmine response in the thymic hyperplasia subtype, including separation of AChR-positive from MuSK-positive patients
 - Dedicated evaluation of neonatal dosing and safety if neonatal MG is pursued
 - Mapping of broad predictions (peripheral autoimmune disease, receptor activity disease) to specific diseases before further assessment

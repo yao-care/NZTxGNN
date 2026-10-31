@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Pibrentasvir: predicted new indication Hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -96,12 +96,11 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a high model score. There is no plausible mechanism, no HBV trials, no HBV literature, and the only New Zealand authorization is cancelled. HBV reactivation during HCV antiviral therapy is a safety concern, not a sign of benefit.
+The prediction rests only on a high model score. HBV reactivation during HCV antiviral therapy is a safety concern, not a sign of benefit.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and any in vitro evidence of pibrentasvir activity against HBV
 - Package insert warnings and contraindications, in particular the HBV reactivation warning
-- Evidence of an active New Zealand regulatory pathway, since the only authorization is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

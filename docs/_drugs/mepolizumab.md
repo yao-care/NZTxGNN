@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 description: "Mepolizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,7 +96,7 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a single case report in a hypereosinophilic setting and a computational score. There are no registered trials, and the mechanism does not fit classic immune thrombocytopenia. The only New Zealand licence is cancelled, so there is no marketed product to build on.
+The prediction rests on a single case report in a hypereosinophilic setting and a computational score. There are no registered trials, and the mechanism does not fit classic immune thrombocytopenia.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which are currently missing and block safety screening

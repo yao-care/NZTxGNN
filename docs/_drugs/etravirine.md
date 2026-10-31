@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "ETRAVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
 description: "Etravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -104,7 +104,6 @@ The top prediction rests on a TxGNN model (deep learning) score alone, which may
 - In vitro activity data of etravirine against FIV reverse transcriptase, followed by veterinary pharmacology and safety studies if activity is shown
 - Mechanism of action data for etravirine
 - Package insert warnings and contraindications, obtained from Medsafe
-- Clarification of the regulatory position, since the only New Zealand licence is cancelled
 - Review of the interaction profile and the hepatitis B/C and neuropathy signals before any use in a new population
 ## Disclaimer
 

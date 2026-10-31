@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
 description: "Sulfadiazine: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -112,7 +112,6 @@ The prediction score is high (0.9939), and the folate-pathway mechanism is plaus
 - Mechanism of action data from DrugBank to confirm the mechanistic link
 - Direct comparative evidence for sulfadiazine versus established regimens (e.g., TMP-SMX) in Pneumocystis infection
 - Assessment of the sulfa-resistance risk (DHPS mutations)
-- Clarification of the New Zealand supply and licensing pathway, since the only licence is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

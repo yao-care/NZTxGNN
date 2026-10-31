@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Exemestane: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not stated in the available licence data"
 monitor_inn: "EXEMESTANE"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
@@ -114,7 +114,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-All predictions are supported only by the model score, with no clinical trials. The one set of literature, for amenorrhea, is indirect and reverses the repurposing logic. No plausible mechanistic link was found for the leading thrombophilia predictions, and estrogen deprivation could even be harmful. The only New Zealand licence is cancelled.
+All predictions are supported only by the model score, with no clinical trials. The one set of literature, for amenorrhea, is indirect and reverses the repurposing logic. No plausible mechanistic link was found for the leading thrombophilia predictions, and estrogen deprivation could even be harmful.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications

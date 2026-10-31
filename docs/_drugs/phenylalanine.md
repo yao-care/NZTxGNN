@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 363
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not documented"
 monitor_inn: "PHENYLALANINE"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -38,7 +38,7 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Phenylalanine is an essential amino acid. The data compiled for this report contain no approved indication for it in New Zealand, and its only license has been cancelled.
+Phenylalanine is an essential amino acid.
 The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are **0 clinical trials** and only **3 loosely related publications**, none of which show that phenylalanine treats the condition.
 
 ## Quick Overview
@@ -96,7 +96,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests almost entirely on a model score. No clinical trials exist, the literature shows only associations with disease symptoms, and no mechanism has been established. The only New Zealand license is cancelled and has no documented indication. The knowledge graph also flags contraindications in kidney, cardiac, and calcium-related conditions, which are common in patients with chronic liver disease.
+The prediction rests almost entirely on a model score. No clinical trials exist, the literature shows only associations with disease symptoms, and no mechanism has been established. The knowledge graph also flags contraindications in kidney, cardiac, and calcium-related conditions, which are common in patients with chronic liver disease.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which are needed before any safety screening

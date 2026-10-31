@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 473
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -118,13 +118,12 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-Two completed Phase 2 randomised trials and several reviews test ustekinumab in atopic dermatitis, but efficacy has been limited and inconsistent, and no Phase 3 evidence exists. The only New Zealand licence is cancelled, and the safety data needed for screening are missing.
+Two completed Phase 2 randomised trials and several reviews test ustekinumab in atopic dermatitis, but efficacy has been limited and inconsistent, and no Phase 3 evidence exists.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - A full review of the Phase 2 results (NCT01945086, NCT01806662) to identify any responsive patient subgroups, such as Asian, paediatric or chronic-lesion phenotypes
-- Clarification of the New Zealand regulatory and supply status, since the only licence is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
