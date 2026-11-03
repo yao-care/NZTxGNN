@@ -38,10 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Potassium citrate is an oral alkalinizing and potassium-replacement agent, originally used for potassium deficiency, renal tubular acidosis and acute urate nephropathy.
-The TxGNN model's top-ranked prediction is **familial visceral myopathy**, but it has **no clinical trials and no publications** behind it. The best-supported direction among the predictions is **nephrolithiasis** (rank 4), with **15 clinical trials** and **16 publications**, so this report covers that indication in detail as well.
-
----
+Potassium citrate is an oral alkalinising potassium salt used to replace potassium and reduce urinary acidity.
+The TxGNN model predicts it may be relevant to **familial visceral myopathy**, but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
@@ -50,64 +48,24 @@ The TxGNN model's top-ranked prediction is **familial visceral myopathy**, but i
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Familial visceral myopathy |
 | TxGNN Prediction Score | 0.9995 |
-| Evidence Level | L5 (familial visceral myopathy); L2 (nephrolithiasis) |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |
-| Recommended Decision | Hold (familial visceral myopathy); Proceed with Guardrails (nephrolithiasis) |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, potassium citrate is an alkalinizing agent and potassium source. Its efficacy in potassium deficiency and renal tubular acidosis is established, and it may be applicable to some of the predicted conditions.
+Currently, detailed mechanism of action data is not available. Based on known information, potassium citrate supplies potassium and is metabolised to bicarbonate, which makes it an alkalinising agent and a potassium replacement.
 
-**Familial visceral myopathy (top prediction).** The high score (0.9995) is a computational output only. No plausible mechanistic link between potassium citrate and visceral smooth muscle myopathy is established. Hypokalemia could in theory affect gut motility, but this is speculative.
-
-Potassium citrate raises urinary pH and urinary citrate. Citrate chelates calcium and inhibits calcium salt crystallization and uric acid stone formation. This fits the original indications of renal tubular acidosis and acute urate nephropathy, which are linked to stone risk.
-
-**Other predictions.** Several others are supportive-care ideas rather than disease-modifying ones. Examples are cystinosis, adult Fanconi syndrome (bicarbonate and potassium wasting) and exocrine pancreatic insufficiency (urinary oxalate and citrate complications). Others, such as mitochondrial disorders, Pendred syndrome, nonsyndromic deafness and leukocyte adhesion deficiency, have no credible mechanistic link in the data.
-
----
+A link to familial visceral myopathy, a disorder of the smooth muscle of the gut, is speculative. Low potassium can affect gut motility in theory, but nothing in the data compiled for this report shows that potassium citrate changes the course of an inherited visceral muscle disease. The high score is a computational output only and is not supported by any study of this disease.
 
 ## Clinical Trial Evidence
 
-No clinical trials are registered for familial visceral myopathy. The table below covers nephrolithiasis, the best-supported prediction.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00004284](https://clinicaltrials.gov/study/NCT00004284) | Phase 3 | Completed | 300 | Potassium phosphate vs potassium citrate for absorptive hypercalciuria and recurrent stones |
-| [NCT01754779](https://clinicaltrials.gov/study/NCT01754779) | Phase 2 | Completed | 13 | Citric acid or potassium citrate to reduce calcium phosphate saturation in urine of stone formers |
-| [NCT06819553](https://clinicaltrials.gov/study/NCT06819553) | Phase 2/3 | Unknown | 48 | Oral potassium citrate to reduce ureteral stent encrustation after ureteroscopy for uric acid stones |
-| [NCT02373384](https://clinicaltrials.gov/study/NCT02373384) | Phase 4 | Completed | 182 | Predictors of success of oral dissolution therapy in radiolucent renal stones |
-| [NCT06966635](https://clinicaltrials.gov/study/NCT06966635) | Phase 4 | Recruiting | 312 | Potassium citrate sustained-release vs sodium bicarbonate for urate lowering and stone prevention in gout |
-| [NCT03836144](https://clinicaltrials.gov/study/NCT03836144) | N/A | Completed | 63 | Urine alkalinization and urinary inflammatory markers in cystinuria |
-| [NCT03984409](https://clinicaltrials.gov/study/NCT03984409) | N/A | Completed | 22 | Dietary potassium citrate source (orange juice) for hypocitraturia and aciduria in stone formers |
-| [NCT03281928](https://clinicaltrials.gov/study/NCT03281928) | N/A | Terminated | 30 | Effect of dietary sodium and potassium citrate on renal mineral handling |
-| [NCT01980004](https://clinicaltrials.gov/study/NCT01980004) | Phase 2 | Withdrawn | 0 | Potassium citrate for stone recurrence in calcium phosphate stone formers; no data |
-| [NCT06819111](https://clinicaltrials.gov/study/NCT06819111) | Phase 1 | Not yet recruiting | 20 | Kinetics of urinary alkalinization with different potassium citrate forms |
-
-The evidence is dominated by small, early-phase, terminated or withdrawn studies, and mostly measures surrogate urine outcomes. Only one completed Phase 3 trial (NCT00004284) is present, and it compares potassium phosphate against potassium citrate. L1 therefore cannot be assigned from this dataset.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No publications were found for familial visceral myopathy. The table below covers nephrolithiasis.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40978115](https://pubmed.ncbi.nlm.nih.gov/40978115/) | 2025 | Review | Clin Kidney J | Citrate as a urinary base equivalent and inhibitor of calcium stone formation; hypocitraturia as a continuum |
-| [40583613](https://pubmed.ncbi.nlm.nih.gov/40583613/) | 2025 | Review | Arch Ital Urol Androl | Expert recommendations on urinary stone management |
-| [30531474](https://pubmed.ncbi.nlm.nih.gov/30531474/) | 2019 | Review | Curr Opin Nephrol Hypertens | Citrate therapy for calcium phosphate stones; strategies raising citrate excretion have not consistently reduced stone recurrence |
-| [30478476](https://pubmed.ncbi.nlm.nih.gov/30478476/) | 2019 | Review | Urolithiasis | Empiric therapy for kidney stones |
-| [24682397](https://pubmed.ncbi.nlm.nih.gov/24682397/) | 2014 | Review | Rheumatol Int | Distal renal tubular acidosis, with nephrolithiasis as its key consequence |
-| [23924538](https://pubmed.ncbi.nlm.nih.gov/23924538/) | 2013 | Review | Medicina | Citrate as an inhibitor of calcium salt crystallization; causes of hypocitraturia |
-| [11944733](https://pubmed.ncbi.nlm.nih.gov/11944733/) | 2001 | Randomized study | Southeast Asian J Trop Med Public Health | Herbal tea vs sodium potassium citrate in 48 stone formers, followed up to 18 months |
-| [11475849](https://pubmed.ncbi.nlm.nih.gov/11475849/) | 2001 | Review | Przegl Lek | Therapeutic uses of potassium citrate, including stone disease and distal RTA |
-| [26977089](https://pubmed.ncbi.nlm.nih.gov/26977089/) | 2016 | Review | BMJ | Medical management of renal stones |
-| [32343997](https://pubmed.ncbi.nlm.nih.gov/32343997/) | 2020 | Cohort | Urology | Predictive factors for stone recurrence in type 2 diabetes |
-
----
+Currently no related literature available.
 
 ## New Zealand Market Information
 
@@ -115,38 +73,29 @@ No publications were found for familial visceral myopathy. The table below cover
 |---------|------|------|-----------|
 | 2378728 | Biomed | Oral liq 3 mmol per ml | Not specified (licence valid) |
 
-
----
-
 ## Safety Considerations
 
-- **Contraindications (from the TxGNN model (deep learning), not label text; these may reflect similarities the model learned between related diseases, not biological evidence):** hypertension, kidney disease and impaired renal function, anuria, adrenal insufficiency including Addison disease, peptic ulcer disease, hypercalcemia, nephrocalcinosis, coronary artery disease and myocardial infarction, metabolic acidosis, rhabdomyolysis, diarrheal disease, benign prostatic hyperplasia, hemoglobinopathy, and others.
-- **Drug Interactions:** 100 interactions were identified. Major ones include:
-  - Potassium-raising drugs: amiloride, benazepril, olmesartan and valsartan.
-  - Anticholinergic and antihistamine agents: atropine, hyoscyamine, homatropine, methscopolamine, chlorpheniramine, acrivastine and phenyltoloxamine.
-  - Amitriptyline.
-  - Moderate interactions include NSAIDs (ibuprofen, ketorolac), aspirin, aliskiren, doxycycline, pseudoephedrine and amphetamines.
-- **Clinical guardrails:** Monitor serum potassium and renal function, and avoid use in hyperkalemia or severe CKD. Monitor urinary pH, particularly in calcium phosphate stone formers, to avoid over-alkalinization.
+- **Drug Interactions**: 100 interactions were recorded in the interaction database. Those listed as Major include:
+  - Potassium-sparing diuretics and renin–angiotensin agents: amiloride, benazepril, olmesartan, valsartan (risk of raised potassium)
+  - Anticholinergic and antihistamine agents: atropine, hyoscyamine, homatropine, methscopolamine, chlorpheniramine, acrivastine, phenyltoloxamine
+  - Amitriptyline
+- Moderate interactions include aliskiren, NSAIDs (ibuprofen, ketorolac), aspirin, doxycycline, and the stimulants amphetamine, dextroamphetamine and pseudoephedrine.
 
-Package insert warnings and contraindications were not available for this report. Please refer to the package insert for label safety information.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (familial visceral myopathy); Proceed with Guardrails (nephrolithiasis)**
+**Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction, familial visceral myopathy, rests on a model score alone, with no trials, no literature and no credible mechanism (L5).
-- Nephrolithiasis has a strong mechanistic basis and a broad body of trials and reviews (L2). However, the trials are mostly small, early-phase or surrogate-outcome studies, and the only registered product in New Zealand is cancelled.
+The prediction has a very high model score but no trials, no literature and no established mechanistic link to familial visceral myopathy, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Medsafe package insert warnings and contraindications (a blocking gap for safety screening).
-- Detailed mechanism of action data from DrugBank.
-- Adequately powered randomized trials with stone recurrence as the outcome.
-- Verification of current product availability, or a new authorization, in New Zealand.
-- A safety monitoring plan covering potassium, renal function, urinary pH and potassium-raising drug interactions.
-- For familial visceral myopathy, any preclinical or mechanistic rationale before further consideration.
+- Any preclinical or clinical evidence that links potassium citrate to visceral myopathy
+- Detailed mechanism of action data
+- Package insert warnings and contraindications from Medsafe
+- A safety review for patients on potassium-raising medicines, including potassium-sparing diuretics and renin–angiotensin agents
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

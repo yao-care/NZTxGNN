@@ -38,8 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Aripiprazole is an atypical antipsychotic that acts as a partial agonist at dopamine and serotonin receptors.
-The data compiled for this report include **39 clinical trials** and **20 publications** on this direction, including several completed Phase 3 placebo-controlled trials of adjunctive use in depression.
+Aripiprazole is an atypical antipsychotic that is marketed in New Zealand in oral tablet and long-acting injectable forms.
+The TxGNN model predicts it may be useful for **gaze palsy, familial horizontal, with progressive scoliosis**, a rare inherited neuro-ophthalmic and skeletal disorder.
+The data compiled for this report contain **0 clinical trials** and **0 publications** for this prediction, so it rests on the model score alone.
 
 ---
 
@@ -53,57 +54,33 @@ The data compiled for this report include **39 clinical trials** and **20 public
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 9 (valid: 9) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacological knowledge, aripiprazole is a partial agonist at dopamine D2/D3 and serotonin 5-HT1A receptors and an antagonist at 5-HT2A receptors. This profile may strengthen the effect of serotonergic antidepressants by adjusting dopamine and serotonin signalling in mood-related brain circuits.
+Detailed mechanism of action data for aripiprazole is not available in the data compiled for this report. In general, the drug acts on dopamine and serotonin receptors as a partial agonist.
 
-The drug has long been studied in mood-related conditions such as bipolar disorder, so a role in the wider group of affective disorders is biologically plausible. The clinical trials and reviews listed below mostly test aripiprazole as an add-on to an antidepressant in major depressive disorder that has not responded adequately to the antidepressant alone.
+The predicted disease is a rare genetic condition (ROBO3-related) affecting eye movement and spine development. It arises from abnormal development of brainstem nerve pathways. No plausible link to dopamine or serotonin partial agonism has been identified. The very high score is therefore likely a model artifact rather than a pharmacological signal, and the prediction should be treated as a hypothesis only.
 
 ---
 
 ## Clinical Trial Evidence
 
-The data include 39 registered trials; the most relevant are listed below.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00095823](https://clinicaltrials.gov/study/NCT00095823) | Phase 3 | Completed | 1200 | 14-week double-blind, placebo-controlled study of aripiprazole added to ongoing antidepressant therapy in major depressive disorder |
-| [NCT00095758](https://clinicaltrials.gov/study/NCT00095758) | Phase 3 | Completed | 1151 | 14-week double-blind, placebo-controlled adjunctive aripiprazole study in major depressive disorder |
-| [NCT00105196](https://clinicaltrials.gov/study/NCT00105196) | Phase 3 | Completed | 349 | 14-week double-blind, placebo-controlled adjunctive study after incomplete response to an antidepressant |
-| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Phase 3 | Completed | 586 | Aripiprazole vs placebo added to an SSRI or SNRI in major depressive disorder |
-| [NCT00683852](https://clinicaltrials.gov/study/NCT00683852) | Phase 3 | Completed | 225 | Double-blind, placebo-controlled study of a reduced aripiprazole dose added to antidepressant therapy |
-| [NCT01421342](https://clinicaltrials.gov/study/NCT01421342) | Phase 3 | Completed | 1522 | VAST-D: aripiprazole augmentation vs bupropion augmentation vs switching to bupropion in veterans with major depressive disorder |
-| [NCT00095745](https://clinicaltrials.gov/study/NCT00095745) | Phase 3 | Completed | 1002 | 52-week open-label safety and tolerability study of adjunctive aripiprazole |
-| [NCT00882362](https://clinicaltrials.gov/study/NCT00882362) | Phase 3 | Completed | 155 | Long-term safety and efficacy of adjunctive aripiprazole with an SSRI or SNRI |
-| [NCT01111539](https://clinicaltrials.gov/study/NCT01111539) | Phase 3 | Terminated | 211 | Aripiprazole/escitalopram combination in major depressive disorder; stopped early |
-| [NCT01488266](https://clinicaltrials.gov/study/NCT01488266) | NA | Unknown | 90 | Aripiprazole augmentation vs switching antidepressant class in partial responders |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [42090141](https://pubmed.ncbi.nlm.nih.gov/42090141/) | 2026 | Systematic review / network meta-analysis | JAMA Psychiatry | Adjunctive atypical antipsychotics in major depressive disorder; five agents approved by the US FDA on the basis of efficacy and safety evidence |
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematic review / network meta-analysis | J Affect Disord | Efficacy and discontinuation of augmentation agents in treatment-resistant depression |
-| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | Systematic review / meta-analysis | J Psychopharmacol | Augmentation and combination treatments in early-stage treatment-resistant depression |
-| [39739012](https://pubmed.ncbi.nlm.nih.gov/39739012/) | 2025 | Systematic review / network meta-analysis | Neuropsychopharmacology | Relative effectiveness of antidepressant treatments in treatment-resistant depression |
-| [38454079](https://pubmed.ncbi.nlm.nih.gov/38454079/) | 2024 | RCT | Mol Psychiatry | ASCERTAIN-TRD: aripiprazole or rTMS augmentation vs switching to venlafaxine |
-| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | Review | Psychiatr Clin North Am | Antidepressants and atypical antipsychotics, including aripiprazole, in treatment-resistant depression |
-| [36855876](https://pubmed.ncbi.nlm.nih.gov/36855876/) | 2023 | Review | Am J Psychiatry | Role of antipsychotics among therapies for treatment-resistant depression |
-| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Systematic review / meta-analysis | J Psychopharmacol | Antidepressants plus second-generation antipsychotics vs esketamine vs lithium |
-| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Review | Asia Pac Psychiatry | Aripiprazole, quetiapine and olanzapine as adjuncts in major depressive disorder at sub-antipsychotic doses |
-| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Review | JAMA | Diagnosis and treatment of bipolar disorder |
-
-One meta-analysis on aripiprazole or bupropion augmentation (PMID 38669232) was retracted and is not relied on here.
+Currently no related literature available.
 
 ---
 
 ## New Zealand Market Information
+
+Aripiprazole is marketed in New Zealand as oral tablets and long-acting injectables. The table below shows 5 of the 9 valid licences.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -113,31 +90,31 @@ One meta-analysis on aripiprazole or bupropion augmentation (PMID 38669232) was 
 | 2544563 | Aripiprazole Sandoz | Tab 30 mg | – |
 | 2544539 | Aripiprazole Sandoz | Tab 10 mg | – |
 
-The local data list 9 licences in total; only the first 5 are shown.
-
 ---
 
 ## Safety Considerations
 
-Warnings and contraindications from the package insert are not available in the data compiled for this report. Please refer to the package insert for safety information.
+Drug interaction screening was completed (100 interactions recorded). Selected examples:
 
-- **Drug Interactions**: 100 interactions were found. One is rated Major (bupropion), and many are rated Moderate, for example metformin, pioglitazone, acarbose, alogliptin, albiglutide, canagliflozin, epinephrine, famotidine, cimetidine, clarithromycin, cisapride, aprepitant, atropine, hyoscyamine and loperamide.
-- Conditions that may call for particular caution (for example diabetes and high blood sugar, low white blood cell counts, orthostatic hypotension, epilepsy, cardiovascular disease and neuroleptic malignant syndrome) appear in the compiled records but are not taken from label text. They should be confirmed against the package insert.
+- **Major:** Bupropion
+- **Moderate:** Acarbose, Famotidine, Epinephrine, Albiglutide, Alogliptin, Metformin, Pioglitazone, Hyoscyamine, Loperamide, Aprepitant, Atropine, Canagliflozin, Cimetidine, Cisapride, Clarithromycin
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Several large, completed Phase 3 placebo-controlled trials and network meta-analyses directly study adjunctive aripiprazole in major depressive disorder, so the evidence for this prediction is strong. However, label safety information and mechanism data are missing, and the term "major affective disorder" is broader than the depression populations actually studied.
+The prediction has a high model score (0.9960) but no supporting clinical trials or publications. No mechanistic rationale links aripiprazole's pharmacology to this disease, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Review of the package insert warnings and contraindications
-- Mechanism of action data from a primary source
-- A clear definition of the target population (for example, adjunctive use in depression with inadequate antidepressant response)
-- A monitoring plan covering metabolic effects, white blood cell counts, and the Major-rated bupropion interaction
+- Any disease-specific preclinical or clinical evidence supporting a role for dopamine or serotonin modulation in this condition
+- Mechanism of action data for aripiprazole to allow a proper mechanistic analysis
+- Package insert warnings and contraindications from Medsafe for safety screening
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

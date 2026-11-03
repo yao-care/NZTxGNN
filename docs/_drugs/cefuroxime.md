@@ -38,11 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Cefuroxime is a second-generation cephalosporin antibiotic, originally used for infections such as otitis media, pneumonia, meningitis, gonorrhoea and Lyme disease.
-The TxGNN model's top-ranked predictions are mostly unrelated to infection. The only well-supported one is **urinary tract infection (UTI)**, with **5 clinical trials** and **20 publications** retrieved. UTI is plausibly already within the drug's existing antibacterial use, so this is not a true repurposing finding.
-The rank 1 prediction, **hyperamylasemia**, has no supporting evidence.
-
----
+Cefuroxime is a beta-lactam cephalosporin antibiotic that blocks bacterial cell-wall synthesis.
+The TxGNN model predicts it may be relevant to **hyperamylasemia**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model output only.
 
 ## Quick Overview
 
@@ -51,53 +48,24 @@ The rank 1 prediction, **hyperamylasemia**, has no supporting evidence.
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9976 |
-| Evidence Level | L5 (hyperamylasemia); L3 (urinary tract infection) |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |
-| Recommended Decision | Hold (hyperamylasemia); Proceed with Guardrails is not warranted, and UTI is better treated as a research question |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cefuroxime is a beta-lactam antibiotic that inhibits bacterial cell-wall synthesis. It is active against common respiratory and urinary pathogens.
+Detailed mechanism of action data is not available in the data compiled for this report. Cefuroxime belongs to the cephalosporin class of beta-lactam antibiotics, which act by inhibiting bacterial cell-wall synthesis.
 
-**Hyperamylasemia (rank 1):** There is no plausible mechanistic link. Hyperamylasemia is a biochemical finding with no bacterial target, and the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Several other top-ranked predictions are in the same position: polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant haematological disease, and haematological disease with acquired peripheral neuropathy. None has clinical or literature support.
-
-**Urinary tract infection (rank 6):** This is a strong mechanistic fit. Cefuroxime covers common uropathogens such as *E. coli*, and UTI is a natural extension of the antibacterial class. However, no Phase 3 RCT directly evaluating cefuroxime for UTI was identified. The evidence is mostly observational.
-
-**Other infection-related predictions:** *Peptostreptococcus* infection is plausible, but cefuroxime's anaerobic coverage is limited and the only evidence is a 1981 in-vitro study.
-
----
+Hyperamylasemia is a biochemical finding (raised serum amylase) and has no bacterial target. No plausible mechanistic link between cefuroxime and this condition could be identified. The high TxGNN score most likely reflects a pattern in the underlying network data rather than a true therapeutic effect, and it should not be read as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
-Trials below are for the best-supported prediction, urinary tract infection. The rank 1 prediction (hyperamylasemia) has no registered trials.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04616352](https://clinicaltrials.gov/study/NCT04616352) | N/A | Completed | 973 | Effect of inappropriate cefuroxime therapy in adults hospitalised with pyelonephritis; observational data and the most directly relevant trial |
-| [NCT01507974](https://clinicaltrials.gov/study/NCT01507974) | N/A | Completed | 220 | Preventive antibiotics during the puerperium in women with recurrent UTI; cefuroxime-specific role not confirmed |
-| [NCT05577273](https://clinicaltrials.gov/study/NCT05577273) | N/A | Unknown | 1000 | Antibiotic prophylaxis at urinary catheter removal; cefuroxime not clearly the tested agent |
-| [NCT02789579](https://clinicaltrials.gov/study/NCT02789579) | Early Phase 1 | Unknown | 150 | One-week antimicrobial solutions to prevent UTI before minimally invasive upper tract lithotomy; cefuroxime's role unclear |
-| [NCT02009098](https://clinicaltrials.gov/study/NCT02009098) | Phase 4 | Withdrawn | 0 | Antibiotic prophylaxis for postpartum infections after caesarean section; withdrawn with no participants |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [2689345](https://pubmed.ncbi.nlm.nih.gov/2689345/) | 1989 | Randomised comparison | Infection | Aztreonam vs cefuroxime in gram-negative upper UTI in hospitalised patients |
-| [38215770](https://pubmed.ncbi.nlm.nih.gov/38215770/) | 2024 | Randomised trial | Lancet Infect Dis | SIMPLIFY: de-escalation from antipseudomonal β-lactams in Enterobacterales bloodstream infection |
-| [41693075](https://pubmed.ncbi.nlm.nih.gov/41693075/) | 2026 | Systematic review | Pharmacotherapy | Oral β-lactams vs trimethoprim/sulfamethoxazole and fluoroquinolones for complicated UTI |
-| [8799689](https://pubmed.ncbi.nlm.nih.gov/8799689/) | 1996 | Review | Drugs | Cefuroxime axetil: antibacterial activity, pharmacokinetics and therapeutic efficacy |
-| [6349019](https://pubmed.ncbi.nlm.nih.gov/6349019/) | 1983 | Review | Ther Drug Monit | Cefuroxime antimicrobial activity, pharmacology and clinical efficacy |
-| [6344037](https://pubmed.ncbi.nlm.nih.gov/6344037/) | 1983 | Review | Pharmacotherapy | Cefuroxime mechanisms, activity, pharmacokinetics, adverse reactions and indications |
-| [18611587](https://pubmed.ncbi.nlm.nih.gov/18611587/) | 1994 | Review | Int J Antimicrob Agents | Cefuroxime axetil; high susceptibility of common respiratory pathogens |
-| [39005695](https://pubmed.ncbi.nlm.nih.gov/39005695/) | 2024 | Cohort/observational | Infect Dis Clin Microbiol | Pathogens and ESBL risk factors in community-acquired UTI |
-
----
+Currently no related literature available.
 
 ## New Zealand Market Information
 
@@ -105,38 +73,29 @@ Trials below are for the best-supported prediction, urinary tract infection. The
 |---------|------|------|-----------|
 | 2658445 | Ascend-Cefuroxime | Tab 250 mg | Not available (licence valid) |
 
----
-
 ## Safety Considerations
 
-The following are knowledge-graph contraindication associations, not label text. They are listed as flags for review:
-
-- **Contraindication-related conditions:** kidney disease, pyoureter, liver disease, gallbladder disease, blood coagulation disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, congenital prothrombin deficiency.
-- **Drug Interactions:** 143 interactions were recorded; the 20 listed are all of Moderate severity. They include:
-  - H2 blockers: famotidine, ranitidine, cimetidine, nizatidine
-  - Proton pump inhibitors: omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole, rabeprazole
-  - Antacids: aluminium hydroxide, calcium carbonate, magnesium hydroxide, magnesium carbonate, magnesium oxide, magaldrate
+- **Drug Interactions**: 143 interactions were recorded. The ones listed here are all of moderate level and include:
+  - Acid-reducing agents: famotidine, ranitidine, cimetidine, nizatidine, omeprazole, esomeprazole, lansoprazole, dexlansoprazole, rabeprazole, pantoprazole
+  - Antacids: aluminium hydroxide, calcium carbonate, magaldrate, magnesium carbonate, magnesium hydroxide, magnesium oxide
   - Aminoglycosides: kanamycin, neomycin
   - Others: balsalazide
 
-Package insert warnings and contraindications could not be retrieved. Please refer to the package insert for full safety information.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The rank 1 prediction (hyperamylasemia) and most other top-ranked predictions have no mechanistic rationale, no trials and no literature, so they are likely TxGNN model (deep learning) artifacts (evidence level L5).
-- Urinary tract infection has observational support (L3) but is probably already within cefuroxime's existing antibacterial use, so it is a research question rather than a true repurposing opportunity. Suppurative otitis media is similar (L4).
+The prediction has no supporting clinical trials or literature, and there is no plausible mechanism linking a cell-wall-targeting antibiotic to a raised serum amylase level. The high score is likely an artifact of the model.
 
 **To proceed, the following is needed:**
-- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A cefuroxime-specific randomised comparative trial in UTI, if that direction is pursued
-- Confirmation of whether UTI is already within the approved or historical labelled indications
-- Clarification of the market situation in New Zealand, given the cancelled licence and the absence of an approved indication text
+- A credible mechanistic hypothesis connecting cefuroxime to hyperamylasemia
+- Any clinical or preclinical study that directly examines this condition
+- Package insert warnings and contraindications for the marketed product
+- Detailed mechanism of action data
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

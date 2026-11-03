@@ -38,8 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Dexamethasone is a potent glucocorticoid that suppresses immune and inflammatory activity.
-The literature mainly supports oral mini-pulse dexamethasone as a rescue or alternative option rather than a first-line treatment.
+Dexamethasone is a synthetic glucocorticoid with strong anti-inflammatory and immunosuppressive activity. The TxGNN model predicts it may be useful for **alopecia mucinosa**, but there are **0 clinical trials** and **0 publications** on this disease, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
@@ -51,15 +50,13 @@ The literature mainly supports oral mini-pulse dexamethasone as a rescue or alte
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 8 (valid: 8) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for dexamethasone are not available in the data compiled for this report. Based on its known pharmacology, dexamethasone is a potent glucocorticoid that reduces pro-inflammatory cytokines and lymphocyte infiltration.
+Detailed mechanism-of-action data for dexamethasone is not available in the data compiled for this report. Dexamethasone is a systemic and local corticosteroid, and glucocorticoids as a class suppress inflammatory signalling and immune-cell activity.
 
-Alopecia areata is an autoimmune, T-cell-mediated attack on hair follicles, in which the follicle's immune privilege collapses. A drug that dampens T-cell-driven inflammation is therefore mechanistically plausible. Oral mini-pulse dosing (for example 5 mg on two consecutive days each week) is an established regimen for moderate-to-severe disease.
-
-Relapse after stopping treatment and steroid-related adverse effects limit long-term use. JAK inhibitors appear to be preferred where available, and dexamethasone serves as a rescue or alternative option, for example when JAK inhibitors are unavailable or not suitable.
+Alopecia mucinosa is an inflammatory follicular skin disorder. The model's high score is likely driven by shared features with other alopecia and inflammatory skin diseases. Systemic corticosteroids are plausible for inflammatory follicular disorders, but no study of dexamethasone in this condition was found. This rationale is therefore a hypothesis, not supported evidence.
 
 ## Clinical Trial Evidence
 
@@ -67,22 +64,11 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | RCT | Dermatologic Therapy | Open-label randomized study in 30 children with severe non-progressive alopecia areata comparing low-dose oral mini-pulse dexamethasone with DPCP contact sensitisation |
-| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Review | Archives of Dermatological Research | Systematic review and network meta-analysis comparing systemic steroids, oral JAK inhibitors and contact immunotherapy in severe alopecia areata |
-| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Cohort | Journal of Clinical Medicine | Prospective real-world cohort assessing effectiveness, safety and response factors of oral mini-pulse dexamethasone |
-| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | Cohort | Dermatologic Therapy | Multicentre study of oral dexamethasone mini-pulse in moderate-to-severe alopecia areata |
-| [41872082](https://pubmed.ncbi.nlm.nih.gov/41872082/) | 2026 | Cohort | European Journal of Dermatology | Retrospective review of 19 patients with severe disease: topical corticosteroids plus baricitinib, then pulse dexamethasone rescue in non-responders |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatric Dermatology | Review of pulse-dose corticosteroid regimens and side effects in children with alopecia areata |
-| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Cohort | Journal of Dermatology | 30 patients with extensive disease given 5 mg dexamethasone oral pulses twice weekly |
-| [41243342](https://pubmed.ncbi.nlm.nih.gov/41243342/) | 2025 | Case report | Journal of Dermatological Treatment | Durable remission of severe disease with oral mini-pulse dexamethasone in a patient for whom JAK inhibitors were not an option |
-| [31579982](https://pubmed.ncbi.nlm.nih.gov/31579982/) | 2019 | Prospective study | Dermatologic Therapy | 73 children with severe disease: 1-day versus 3-day intravenous dexamethasone pulses plus topical clobetasol |
-| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Long-term follow-up | Dermatologic Therapy | Combined oral dexamethasone pulse and topical corticosteroid therapy in 65 children, median follow-up 96 months |
+Currently no related literature available.
 
 ## New Zealand Market Information
 
-Local records list eight single-ingredient dexamethasone products across oral, injectable and ophthalmic forms. The approved-indication text is not recorded for these products.
+Dexamethasone is marketed in New Zealand. All 8 licences in the local data are valid. The table lists 5 of them. The local data does not record approved indication text for these licences.
 
 | Authorization Number | Product Name | Dosage Form |
 |---------|------|------|
@@ -92,27 +78,31 @@ Local records list eight single-ingredient dexamethasone products across oral, i
 | 207446 | Maxidex | Eye drops 0.1% |
 | 2690535 | Dexamethasone Medsurge | Inj 4 mg per ml, 2 ml ampoule |
 
+The remaining licences cover Maxidex eye ointment 0.1%, Dexamethasone Medsurge injection 4 mg per ml (1 ml ampoule) and Ozurdex ocular implant 700 mcg.
+
 ## Safety Considerations
 
-- **Drug Interactions**: Screening returned 100 recorded interactions. Major-level interactions include **fentanyl** and **adalimumab**. Moderate-level interactions include zidovudine, paclitaxel, abemaciclib, acalabrutinib, isotretinoin, nifedipine, ibuprofen, ketorolac, acetazolamide, acarbose, acebutolol, codeine and dihydrocodeine.
-- **Conditions requiring caution**: The data compiled for this report flag hypertension, congestive heart failure, hyperglycemia, epilepsy, herpes simplex keratitis, measles and pituitary hormone deficiencies. These are not label text, so the package insert should be checked.
-- **Treatment-related concerns**: The literature notes relapse after discontinuation and steroid-related adverse effects, particularly with long-term or repeated pulse use in children.
+Package insert warnings and contraindications are not available in the compiled data. Please refer to the package insert for safety information.
 
-Please refer to the package insert for full warnings and contraindications.
+**Drug Interactions:** The interaction check returned 100 recorded interactions. The main ones among those retrieved are:
+- **Major:** fentanyl, adalimumab
+- **Moderate:** zidovudine, paclitaxel, abemaciclib, acalabrutinib, isotretinoin, nifedipine, ibuprofen, ketorolac, acetazolamide, acarbose, codeine, dihydrocodeine, acebutolol, tetanus toxoid vaccine
+- **Minor:** dolutegravir, lidocaine, formoterol
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-One randomized trial, several cohort studies and a network meta-analysis directly address dexamethasone mini-pulse therapy in alopecia areata, with a clear immunological rationale. However, there are no registered clinical trials or Phase 3 evidence, and relapse and steroid toxicity limit long-term use, with JAK inhibitors generally preferred where available.
+The prediction score is very high (0.9999), but there are no clinical trials or publications on alopecia mucinosa. Evidence is limited to the model prediction (L5), so there is not enough basis to advance the candidate.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications for the marketed products
-- Mechanism-of-action data
-- A defined dosing, monitoring and relapse-management protocol (including paediatric use)
-- A comparison against JAK inhibitors and other current options in the New Zealand setting
-- Review of the major and moderate interactions (such as adalimumab and fentanyl) before use
+- Targeted literature review, including case reports and case series of corticosteroid use in alopecia mucinosa
+- Mechanism-of-action data for dexamethasone to support the mechanistic link
+- Package insert warnings and contraindications to complete the safety screen
+- Assessment of which route of administration (topical, intralesional or systemic) would be appropriate, and whether the marketed forms are suitable
+- Evidence from an early-phase or pilot study before any reconsideration
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

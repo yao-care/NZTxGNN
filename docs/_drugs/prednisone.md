@@ -38,8 +38,11 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Prednisone is a systemic glucocorticoid originally used for autoimmune and inflammatory conditions (such as Crohn disease and adrenocortical insufficiency), as well as for certain leukaemias.
-The TxGNN model predicts it may be effective for **alopecia areata**, with **no registered clinical trials** but **20 publications** (including 1 randomised trial of prednisone with or without topical minoxidil, 1 randomised trial of methotrexate with or without low-dose prednisone, and several case series) currently supporting this direction.
+Prednisone is a systemic glucocorticoid that suppresses T-cell activation and inflammatory cytokine production.
+The TxGNN model predicts it may be effective for **alopecia areata**.
+The data compiled for this report include **no registered clinical trials** and **20 publications**, among them two randomised trials in alopecia areata.
+
+---
 
 ## Quick Overview
 
@@ -53,32 +56,40 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **no 
 | Number of Pharmac Schedule Items | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, prednisone is a systemic glucocorticoid that suppresses T-cell activation and the production of pro-inflammatory cytokines. Its efficacy in autoimmune and inflammatory diseases is well established.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, prednisone is a systemic glucocorticoid with broad anti-inflammatory and immunosuppressive activity.
 
-Alopecia areata is a T-cell-mediated autoimmune attack on hair follicles, with collapse of the follicle's immune privilege. Suppressing this immune activity is mechanistically consistent with reducing follicular inflammation, which links the drug's original autoimmune indications to the predicted one.
+Alopecia areata is a T-cell-mediated autoimmune attack on hair follicles, with collapse of the follicle's immune privilege. Glucocorticoids suppress T-cell activation and pro-inflammatory cytokine production, which fits the aim of reducing follicular inflammation.
 
-Clinical benefit has been documented, but relapse after withdrawal and cumulative steroid toxicity limit long-term use. Recent work positions low-dose prednisone as an adjunct to methotrexate or baricitinib rather than a stand-alone long-term therapy.
+Clinical benefit has been described, but relapse after withdrawal and cumulative steroid toxicity limit long-term use. Recent work positions low-dose prednisone as an add-on to methotrexate or baricitinib rather than a stand-alone long-term therapy.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36884234](https://pubmed.ncbi.nlm.nih.gov/36884234/) | 2023 | Double-blind randomised trial (design inferred from title) | JAMA Dermatology | Methotrexate alone vs methotrexate plus low-dose prednisone in alopecia areata totalis or universalis |
-| [1444500](https://pubmed.ncbi.nlm.nih.gov/1444500/) | 1992 | RCT (design inferred from title) | Archives of Dermatology | 32 patients; 6-week prednisone taper followed by 2% topical minoxidil or vehicle |
-| [41958306](https://pubmed.ncbi.nlm.nih.gov/41958306/) | 2026 | Retrospective case series | J Eur Acad Dermatol Venereol | Baricitinib plus low-dose prednisone in very severe alopecia areata |
-| [37467740](https://pubmed.ncbi.nlm.nih.gov/37467740/) | 2023 | Case series | Clin Exp Dermatol | Eight patients with very severe disease showed major improvement with baricitinib plus low-dose corticosteroids |
-| [1444509](https://pubmed.ncbi.nlm.nih.gov/1444509/) | 1992 | Review | Archives of Dermatology | Review of therapy, efficacy, safety and mechanism; the studies were too heterogeneous to compare |
-| [791152](https://pubmed.ncbi.nlm.nih.gov/791152/) | 1976 | Cohort follow-up | Archives of Dermatology | 18 patients on alternate-day prednisone; initial response, but long-term benefit not substantial and many side effects |
-| [20804894](https://pubmed.ncbi.nlm.nih.gov/20804894/) | 2010 | Cohort | Ann Dermatol Venereol | Once-monthly oral prednisone pulse evaluated for efficacy and safety |
-| [8996277](https://pubmed.ncbi.nlm.nih.gov/8996277/) | 1997 | Clinical study | J Am Acad Dermatol | Cyclosporine plus low-dose prednisone in chronic severe alopecia areata |
-| [24326561](https://pubmed.ncbi.nlm.nih.gov/24326561/) | 2013 | Case report | J Investig Dermatol Symp Proc | Severe alopecia areata treated with combined cyclosporine and prednisone |
-| [4571041](https://pubmed.ncbi.nlm.nih.gov/4571041/) | 1973 | Cohort / immunologic study | Archives of Dermatology | Immunologic studies and prednisone treatment |
+| [36884234](https://pubmed.ncbi.nlm.nih.gov/36884234/) | 2023 | Double-blind randomised trial (design inferred from title) | JAMA Dermatol | Methotrexate alone vs methotrexate plus low-dose prednisone in alopecia areata totalis or universalis |
+| [1444500](https://pubmed.ncbi.nlm.nih.gov/1444500/) | 1992 | RCT (design inferred from title) | Arch Dermatol | 32 patients with mild to extensive disease received a 6-week prednisone taper, then topical minoxidil or vehicle. An open trial of 48 patients was used for comparison. |
+| [1444509](https://pubmed.ncbi.nlm.nih.gov/1444509/) | 1992 | Review | Arch Dermatol | Review of therapy, efficacy, safety and mechanism. Some drugs are efficacious to a degree, but studies are too heterogeneous to compare. |
+| [41958306](https://pubmed.ncbi.nlm.nih.gov/41958306/) | 2026 | Retrospective case series | J Eur Acad Dermatol Venereol | Baricitinib plus low-dose prednisone in very severe disease |
+| [37467740](https://pubmed.ncbi.nlm.nih.gov/37467740/) | 2023 | Case series (8 cases) | Clin Exp Dermatol | Baricitinib plus low-dose corticosteroids; major improvement reported in very severe disease |
+| [20804894](https://pubmed.ncbi.nlm.nih.gov/20804894/) | 2010 | Cohort | Ann Dermatol Venereol | Efficacy and safety of once-monthly oral prednisone pulses |
+| [791152](https://pubmed.ncbi.nlm.nih.gov/791152/) | 1976 | Cohort follow-up | Arch Dermatol | 18 patients on alternate-day prednisone. Initial response, but long-term benefit was not substantial. Side effects included acne, obesity, lens opacities and mild hypertension. |
+| [8996277](https://pubmed.ncbi.nlm.nih.gov/8996277/) | 1997 | Clinical and immunopathologic evaluation | J Am Acad Dermatol | Systemic cyclosporine with low-dose prednisone in chronic severe disease |
+| [24326561](https://pubmed.ncbi.nlm.nih.gov/24326561/) | 2013 | Case report | J Investig Dermatol Symp Proc | Combined cyclosporine and prednisone in a patient with severe disease |
+| [4684625](https://pubmed.ncbi.nlm.nih.gov/4684625/) | 1973 | Case report | Can Med Assoc J | Short courses of systemic corticosteroids may suffice in alopecia totalis |
+
+---
 
 ## New Zealand Market Information
 
@@ -89,29 +100,36 @@ Currently no related clinical trials registered.
 | 2608723 | Prednisone Clinect | Tab 2.5 mg | Not available (valid) |
 | 2608715 | Prednisone Clinect | Tab 1 mg | Not available (valid) |
 
+All four licences are valid single-ingredient products.
+
+---
+
 ## Safety Considerations
 
-- **Contraindications flagged by the knowledge graph (not label text)**: hypertension, epilepsy, hyperglycaemia, congestive heart failure, herpes simplex keratitis, measles, several urea cycle disorders (e.g. citrullinemia, hyperargininemia), and various pituitary hormone deficiency conditions.
-- **Drug Interactions**: 100 interactions were found in the database. Examples include adalimumab (**Major**), and Moderate interactions with zidovudine, isotretinoin, acarbose, acebutolol, acetazolamide, ketorolac, nifedipine, ibuprofen, ethinylestradiol, butalbital, albiglutide, aldesleukin, alemtuzumab and aliskiren. Formoterol and salbutamol are Minor.
-- **Evidence-based safety signals**: an older follow-up study of prednisone for alopecia areata reported acne, obesity, lens opacities and mild hypertension.
+- **Drug Interactions**: The interaction query returned 100 interacting drugs. The first 20 reviewed include:
+  - **Major**: adalimumab.
+  - **Moderate**: zidovudine, isotretinoin, acarbose, acebutolol, acetazolamide, ketorolac, ibuprofen, nifedipine, ethinylestradiol, butalbital, albiglutide, aldesleukin, alefacept, alemtuzumab, aliskiren, tetanus toxoid vaccine, abametapir (topical).
+  - **Minor**: formoterol, salbutamol.
+- **Reported adverse effects in alopecia areata**: Older follow-up data describe acne, obesity, lens opacities and mild hypertension. Relapse after stopping is also reported.
 
-Please refer to the package insert for further safety information, as label warnings and contraindications are not available.
+Please refer to the package insert for the full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is consistent and the literature includes randomised trials and case series. However, those are mostly small or older studies, prednisone is used mainly as an adjunct to methotrexate or baricitinib, and relapse after withdrawal and steroid toxicity limit long-term use.
+The evidence includes two randomised trials and several cohort and case series in alopecia areata, and the mechanism is plausible. However, there are no registered trials, and benefit often fades after withdrawal. Cumulative steroid toxicity also argues against long-term stand-alone use.
 
 **To proceed, the following is needed:**
-- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism of action data
-- Confirmation of the design of the randomised studies, which was inferred from titles
-- A plan to limit long-term steroid exposure, such as short courses or use as an adjunct
-- Clarification of the regulatory pathway, since the drug is marketed in New Zealand with all four licences valid (4 valid licences of 4)
+- Review of the Medsafe package insert for warnings and contraindications
+- Mechanism of action data
+- Confirmation of the design and results of the randomised trials
+- A defined role for low-dose prednisone, for example as an add-on to methotrexate or baricitinib, with a limited treatment duration
+- A relapse and steroid-toxicity monitoring plan, including blood pressure, glucose, eye and bone health
 
-**Other predicted indications (for reference):** Tenosynovitis has indirect, heterogeneous evidence and is a research question. Alopecia mucinosis has only case reports and is on Hold, pending differentiation of benign from lymphoma-associated disease. The remaining predictions (telogen effluvium, folliculitis decalvans, and several rare genetic or ill-defined conditions) have no supporting evidence and are on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

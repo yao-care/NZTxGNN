@@ -38,9 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Erythromycin is a macrolide antibiotic originally used for a range of bacterial infections, including pneumonia, pertussis, gonorrhoea, acne and conjunctivitis.
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
-but there are **no registered clinical trials** and only **1 publication** (a clinical management review) for this indication, so evidence is limited to model prediction and indirect literature.
+Erythromycin is a macrolide antibiotic that is marketed in New Zealand as an intravenous injection.
+The TxGNN model predicts it may be useful for **punctate epithelial keratoconjunctivitis** (score 0.9989),
+but there are **no registered clinical trials** and only **1 publication**, a general clinical review, linked to this prediction.
 
 ## Quick Overview
 
@@ -56,13 +56,9 @@ but there are **no registered clinical trials** and only **1 publication** (a cl
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Erythromycin is a macrolide antibiotic (a class that inhibits bacterial protein synthesis) with activity against Gram-positive organisms such as *Staphylococcus*. It is also reported to have anti-inflammatory and meibomian gland-modulating effects.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, erythromycin is a macrolide that blocks bacterial protein synthesis by binding the 50S ribosomal subunit. It is active against Gram-positive bacteria such as Staphylococcus, and macrolides are also described as having anti-inflammatory effects and effects on meibomian glands.
 
-Punctate epithelial keratoconjunctivitis is closely related to blepharokeratoconjunctivitis, where staphylococcal blepharitis can drive punctate corneal epithelial disease. Erythromycin's antibacterial and anti-inflammatory properties could plausibly address both components. Erythromycin is also already used for bacterial conjunctivitis, which supports ocular applicability.
-
-The link is nonetheless indirect. The single supporting publication is a general clinical management review in children, not a study of erythromycin in this condition. The very high TxGNN score is a computational prediction only.
-
-Other predicted indications in the data (lower ranked) include acute contagious conjunctivitis (largely overlapping with the existing label), exposure keratitis, lymphogranuloma venereum (biologically strong, as a chlamydial infection, but doxycycline is first-line) and necrotizing ulcerative gingivitis (dated evidence, not a preferred option today).
+Staphylococcal blepharitis is a recognised driver of punctate corneal epithelial disease, so an antibacterial and anti-inflammatory agent is mechanistically plausible. This link is indirect. The only publication retrieved is a review of the diagnosis and management of chronic blepharokeratoconjunctivitis in children, and it is not a study of erythromycin for this condition. The very high score is a computational prediction and not proof of benefit. Because no cited study directly examines erythromycin in punctate epithelial keratoconjunctivitis, the evidence level is L5.
 
 ## Clinical Trial Evidence
 
@@ -78,31 +74,28 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2270234 (cancelled) | Erythrocin IV | Inj 1 g vial | Not recorded |
+| 2270234 | Erythrocin IV | Inj 1 g vial | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindications / disease associations (from a knowledge graph, not label text)**: long QT syndrome (including familial), torsades de pointes, porphyria, kidney disease, liver disease, gallbladder disease, haematologic disease, *Clostridium difficile* colitis, myasthenia gravis and other neuromuscular junction disease, hearing disorders, exfoliative dermatitis and other dermatitis, folic acid deficiency anaemia, perinatal necrotizing enterocolitis and pyoureter.
-- **Drug Interactions**: 100 interactions were identified. Examples among those shown:
-  - **Major**: loperamide, clarithromycin
-  - **Moderate**: corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), famotidine, cimetidine, pioglitazone, chlorpropamide, aprepitant, alosetron, balsalazide, bisacodyl, picosulfuric acid, polyethylene glycol with electrolytes
-  - **Minor**: amoxicillin
+- **Drug Interactions**: 100 interactions were found in the interaction database. Examples include major-level interactions with **clarithromycin** and **loperamide**. Moderate-level interactions include famotidine, hydrocortisone, dexamethasone, pioglitazone, aprepitant, cimetidine and chlorpropamide.
+- **Conditions of concern recorded for this drug** (not label text): long QT syndrome, torsades de pointes, porphyria, kidney disease, liver disease, myasthenia gravis, hearing disorders and Clostridium difficile colitis, among others.
 
-Please refer to the package insert for full warnings and contraindications, as label-based data are not available.
+Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but there are no registered trials and only one indirect review for this indication. The product's New Zealand licence is cancelled and no label-based safety information is available.
+The prediction score is very high, but there are no clinical trials, the single publication is a general paediatric review that does not study erythromycin, and the mechanistic link is indirect. The only New Zealand product is an intravenous injection, which is not a natural fit for an eye surface condition.
 
 **To proceed, the following is needed:**
-- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (e.g. from DrugBank)
-- Direct clinical evidence of erythromycin (likely topical ophthalmic) in punctate epithelial keratoconjunctivitis
-- Assessment of route compatibility, since the only New Zealand product was an intravenous injection, not an ophthalmic formulation
-- Review of QT-prolongation risk and the major drug interactions
+- Studies that directly test erythromycin (ideally an ophthalmic formulation) in punctate epithelial keratoconjunctivitis
+- Mechanism of action data and package insert warnings and contraindications
+- Assessment of route and formulation compatibility, since the local product is injectable only
+- A safety review of the QT-prolongation risk and the major drug interactions
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

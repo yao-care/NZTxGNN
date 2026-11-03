@@ -38,10 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Cyclophosphamide is a DNA-alkylating cytotoxic drug used in cancer treatment and in stem cell transplant regimens.
-The data compiled for this report include **more than 30 clinical trials** and **20 publications** on this direction. Most of this evidence tests cyclophosphamide inside transplant or combination regimens, not on its own.
-
----
+Cyclophosphamide is an alkylating cytotoxic and immunosuppressive drug used in oncology.
+The TxGNN model predicts it may be effective for **vertebral anomalies and variable endocrine and T-cell dysfunction**, with a score of 0.9938.
+The data compiled for this report contain **no clinical trials and no publications** for this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
@@ -53,100 +52,63 @@ The data compiled for this report include **more than 30 clinical trials** and *
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 6 (valid: 6) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Cyclophosphamide is known to be an alkylating agent. Its active metabolites crosslink DNA, which gives direct cytotoxicity against rapidly dividing leukemic cells.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Cyclophosphamide belongs to the alkylating agent class. These drugs damage DNA and are cytotoxic to rapidly dividing cells, including lymphocytes.
 
-The drug also has a well-established role in transplant medicine. It is a component of conditioning regimens such as busulfan-cyclophosphamide before allogeneic stem cell transplantation. It is also used as post-transplant cyclophosphamide (PTCy) to prevent graft-versus-host disease (GVHD). PTCy selectively depletes alloreactive T cells while sparing regulatory T cells and stem cells. Both uses are relevant to myeloid leukemia, where transplantation is often the only curative option.
+The predicted condition is a rare syndrome that includes vertebral anomalies, endocrine abnormalities and T-cell dysfunction. No credible mechanistic rationale for benefit could be established from the available data. A cytotoxic, immunosuppressive drug acting on an already impaired T-cell compartment would plausibly cause harm rather than benefit. The score reflects a statistical association from the model, not a demonstrated biological link.
 
-The evidence is consistent across many trials and published cohorts. It is largely regimen-level, however. The one Phase 2/3 trial (NCT00003187) covers mixed hematologic malignancies, so it supports the transplant context rather than a leukemia-specific efficacy claim for cyclophosphamide.
+## Clinical and Literature Evidence
 
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00003187](https://clinicaltrials.gov/study/NCT00003187) | Phase 2/3 | Completed | 19 | Randomized unrelated-donor marrow transplant trial (conventional vs T cell-depleted) in hematologic malignancies including myeloid leukemia; small and mixed population |
-| [NCT04473911](https://clinicaltrials.gov/study/NCT04473911) | Phase 1 | Completed | 25 | Haploidentical stem cell transplant with post-transplant cyclophosphamide and RGI-2001 for GVHD prevention in AML and other blood cancers |
-| [NCT00315705](https://clinicaltrials.gov/study/NCT00315705) | Phase 1/2 | Completed | 50 | Clofarabine with etoposide and cyclophosphamide in pediatric relapsed/refractory acute leukemias |
-| [NCT00390793](https://clinicaltrials.gov/study/NCT00390793) | Phase 2 | Completed | 107 | Hyper-CVAD (contains cyclophosphamide) plus dasatinib in Ph-positive leukemia; mainly lymphoid, so only partly relevant |
-| [NCT01350245](https://clinicaltrials.gov/study/NCT01350245) | Phase 2 | Completed | 28 | Two-step haploidentical transplant approach for hematologic malignancies in remission |
-| [NCT02441803](https://clinicaltrials.gov/study/NCT02441803) | Phase 2 | Completed | 11 | Allogeneic transplant as salvage therapy for primary induction failure AML; very small |
-| [NCT00309842](https://clinicaltrials.gov/study/NCT00309842) | Phase 2 | Completed | 213 | Cord blood transplant after cyclophosphamide/fludarabine/total body irradiation conditioning for hematologic diseases |
-| [NCT04904588](https://clinicaltrials.gov/study/NCT04904588) | Phase 2 | Active, not recruiting | 300 | HLA-mismatched unrelated donor transplant with PTCy, tacrolimus and mycophenolate in hematologic malignancies |
-| [NCT05515029](https://clinicaltrials.gov/study/NCT05515029) | Phase 3 | Active, not recruiting | 56 | PTCy combined with abatacept, vedolizumab and a calcineurin inhibitor for GVHD prevention in children and young adults with blood cancers |
-| [NCT02724163](https://clinicaltrials.gov/study/NCT02724163) | Phase 3 | Active, not recruiting | 700 | International pediatric AML induction trial built around gemtuzumab ozogamicin dosing; the registry summary does not state cyclophosphamide's role |
-
----
-
-## Literature Evidence
-
-No randomized controlled trials were identified among the publications. The listing below is ordered by study type and recency.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36357773](https://pubmed.ncbi.nlm.nih.gov/36357773/) | 2023 | Systematic review / network meta-analysis | Bone Marrow Transplant | Compared myeloablative conditioning regimens, including busulfan-cyclophosphamide, in adult AML in complete remission |
-| [14662323](https://pubmed.ncbi.nlm.nih.gov/14662323/) | 2003 | Review | Exp Hematol | Reviewed busulfan-cyclophosphamide vs total body irradiation-cyclophosphamide conditioning in AML, with conflicting results |
-| [40905088](https://pubmed.ncbi.nlm.nih.gov/40905088/) | 2026 | Cohort | Haematologica | 217 AML patients in remission given transplant with PTCy: 2-year overall survival 77%, event-free survival 72% |
-| [38758817](https://pubmed.ncbi.nlm.nih.gov/38758817/) | 2024 | Registry study | Cancer | PTCy vs anti-thymocyte globulin vs the combination for GVHD prevention in haploidentical transplant for adult AML |
-| [40434956](https://pubmed.ncbi.nlm.nih.gov/40434956/) | 2025 | Cohort | Future Oncol | Busulfan-cyclophosphamide vs fludarabine-busulfan conditioning in AML |
-| [41046309](https://pubmed.ncbi.nlm.nih.gov/41046309/) | 2026 | Registry cohort | Bone Marrow Transplant | Single-unit cord blood vs haploidentical transplant with PTCy in AML in first remission |
-| [38466265](https://pubmed.ncbi.nlm.nih.gov/38466265/) | 2024 | Cohort | Cytotherapy | Prognostic factors in haploidentical transplant with PTCy for AML |
-| [25345651](https://pubmed.ncbi.nlm.nih.gov/25345651/) | 2015 | Cohort | Am J Hematol | Cyclophosphamide/fludarabine nonmyeloablative vs myeloablative transplant in 165 AML patients; survival outcomes were not different in the univariate analysis |
-| [35955881](https://pubmed.ncbi.nlm.nih.gov/35955881/) | 2022 | Cohort | Int J Mol Sci | PTCy after matched sibling and unrelated donor transplant in pediatric AML |
-| [38499049](https://pubmed.ncbi.nlm.nih.gov/38499049/) | 2024 | Cohort | Transplant Immunol | Cladribine plus busulfan and cyclophosphamide conditioning in relapsed/refractory AML |
-
----
+Currently no related clinical trials are registered and no related literature is available for this prediction.
 
 ## New Zealand Market Information
 
-Cyclophosphamide is marketed in New Zealand as injection (1 g and 2 g vials, plus a 1 mg ECP injection presentation) and as 50 mg tablets. The local licence records do not carry approved-indication text.
+Six valid licences are recorded for single-ingredient cyclophosphamide products. Approved indication text is not recorded in the local data.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| 2725614 | Cyclophosphamide Seacross | Inj 2 g vial |
+| 2034220 | Endoxan | Inj 2 g vial |
+| 2611597 | Cyclonex | Tab 50 mg |
+| 785318 | Cytoxan | Inj 1 g vial |
+| 2034212 | Endoxan | Inj 1 g vial |
+| 2204266 | Baxter | Inj 1 mg for ECP |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent) |
-| Myelosuppression Risk | High; neutropenia and other cytopenias are expected, particularly at transplant-conditioning doses |
+| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent, nitrogen mustard class) |
+| Myelosuppression Risk | High (leucopenia and neutropenia are expected; please refer to the package insert) |
 | Emetogenicity Classification | Moderate to high, depending on dose |
-| Monitoring Items | Complete blood count with differential, liver and renal function, electrolytes, urinary symptoms |
+| Monitoring Items | CBC with differential, liver and renal function, electrolytes, urinalysis (haemorrhagic cystitis) |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
-
-Please also refer to the package insert warnings and precautions.
-
----
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction check returned 100 recorded interactions. The entries shown were mostly Moderate-level, and none were rated Major.
-  - Antifungals: amphotericin B, including the lipid complex, cholesteryl sulfate and liposomal forms.
-  - Antidiabetic drugs: sulfonylureas and related agents (chlorpropamide, acetohexamide, glimepiride, glipizide, glyburide, tolazamide, tolbutamide), plus nateglinide, repaglinide and troglitazone.
-  - Others: bupropion, aprepitant, metronidazole and nitisinone.
-  - Minor-level: levofloxacin and ondansetron.
+- **Drug Interactions**: The interaction screen was completed with 100 interactions in total. The 20 listed are mostly Moderate, with two Minor.
+  - Antifungals: amphotericin B, including its lipid complex, cholesteryl sulfate and liposomal forms (Moderate).
+  - Antidiabetic agents: sulfonylureas (chlorpropamide, acetohexamide, glimepiride, glipizide, glyburide, tolazamide, tolbutamide), nateglinide, repaglinide and troglitazone (Moderate).
+  - Other Moderate interactions: bupropion, aprepitant, metronidazole and nitisinone.
+  - Minor interactions: levofloxacin and ondansetron.
 
-Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for these.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The evidence is substantial and consistent for cyclophosphamide-containing transplant and combination regimens in myeloid leukemia. It is almost entirely regimen-level, however, and the only completed Phase 2/3 randomized trial was small and covered mixed malignancies. The evidence therefore supports further evaluation, not a stand-alone efficacy claim.
+The prediction rests only on a high model score (0.9938), with no trials or publications. The drug's cytotoxic and immunosuppressive action is biologically at odds with a condition involving T-cell dysfunction.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from Medsafe
-- Mechanism of action data to complete the mechanistic analysis
-- Trials or analyses that isolate cyclophosphamide's contribution in myeloid leukemia, for example PTCy compared with other GVHD prophylaxis in AML
-- A myelosuppression, infection and organ-toxicity monitoring plan, along with a review of the interactions listed above
+- Any direct clinical or preclinical evidence in this condition
+- A defined mechanistic rationale, including mechanism-of-action data
+- Review of the package insert warnings and contraindications for this patient population
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

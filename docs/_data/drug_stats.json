@@ -3,10 +3,10 @@
   "total_drugs": 460,
   "level_counts": {
     "L1": 13,
-    "L2": 25,
+    "L2": 23,
     "L3": 18,
-    "L4": 32,
-    "L5": 360
+    "L4": 33,
+    "L5": 361
   },
   "all_drugs": [
     {
@@ -144,7 +144,7 @@
     {
       "name": "Amiodarone",
       "slug": "amiodarone",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -318,7 +318,7 @@
     {
       "name": "Betamethasone",
       "slug": "betamethasone",
-      "level": "L2",
+      "level": "L4",
       "indication_count": 7
     },
     {
@@ -1536,7 +1536,7 @@
     {
       "name": "Medroxyprogesterone Acetate",
       "slug": "medroxyprogesterone_acetate",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 6
     },
     {
@@ -1878,7 +1878,7 @@
     {
       "name": "Omalizumab",
       "slug": "omalizumab",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -2172,7 +2172,7 @@
     {
       "name": "Progesterone",
       "slug": "progesterone",
-      "level": "L2",
+      "level": "L4",
       "indication_count": 6
     },
     {

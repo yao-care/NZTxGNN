@@ -38,11 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Risperidone is an atypical antipsychotic originally used for schizophrenia, manic episodes in bipolar disorder and autism-related irritability.
-The TxGNN model's top-ranked prediction is **familial horizontal gaze palsy with progressive scoliosis**, an ultra-rare genetic disorder.
-This prediction has **0 clinical trials** and **0 publications** behind it, so it is a computational signal only.
-
----
+Risperidone is an atypical antipsychotic that blocks dopamine and serotonin receptors. The TxGNN model predicts it may be relevant to **gaze palsy, familial horizontal, with progressive scoliosis**, with a score of 0.9976. However, **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
@@ -56,45 +52,21 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 | Number of Pharmac Schedule Items | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Risperidone is generally understood to act as a dopamine D2 and serotonin 5-HT2A receptor antagonist. Its efficacy in schizophrenia and bipolar mania is well established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Risperidone is generally understood as a dopamine D2 and serotonin 5-HT2A receptor antagonist.
 
-**For the top-ranked prediction, no plausible mechanistic link was found.** Familial horizontal gaze palsy with progressive scoliosis is an ultra-rare disorder linked to *ROBO3*, with neurodevelopmental and structural causes. Nothing in dopamine/serotonin receptor antagonism explains a benefit in this condition. The very high score (rank 2,631 among all predictions) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. It should not be read as a treatment signal.
-
----
+The predicted disease is an ultra-rare inherited disorder (ROBO3-related) affecting eye movement control and spine development, with neurodevelopmental and structural causes. No plausible mechanistic link to dopamine or serotonin receptor antagonism has been identified. The high score reflects a computational prediction only, and it should be treated as a hypothesis with no supporting biological or clinical rationale at this time.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
-## Other Predicted Indications Worth Noting
-
-The top-ranked prediction has no support, but other predictions for this drug have more evidence:
-
-| Rank | Predicted Indication | Score | Evidence Level | Evidence Found | Recommendation |
-|------|------|------|------|------|------|
-| 3 | Amelocerebrohypohidrotic syndrome | 0.9969 | L5 | None. Antipsychotics can lower the seizure threshold, which is a concern in a population with epilepsy. | Hold |
-| 4 | Phelan-McDermid syndrome | 0.9959 | L4 | 2 publications: a clinical management review and a zebrafish *shank3* study. No human efficacy data for risperidone. | Research Question |
-| 5 | Trichotillomania | 0.9951 | L4 | 9 publications, mostly case reports and small case series of risperidone added to SSRIs. No RCT or registered trial. | Research Question |
-
-The disease node for "major affective disorder" mixes unipolar depression and bipolar disorder. The bipolar trials largely reflect existing on-label use, so the repurposing-relevant signal is the depression augmentation data. It is also unclear whether every Phase 3 trial met its primary endpoint.
-
----
-
 ## New Zealand Market Information
-
-All 11 licences are valid. Five representative entries:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -104,37 +76,26 @@ All 11 licences are valid. Five representative entries:
 | 2466910 | Risperidone (Teva) | Tab 2 mg | Not stated (valid) |
 | 2662396 | Risperon | Oral liq 1 mg per ml | Not stated (valid) |
 
----
+All 11 licences recorded are valid; the table shows the first five.
 
 ## Safety Considerations
 
-- **Conditions flagged in the drug-disease knowledge graph** (from knowledge-graph contraindication links, not package insert text), grouped as follows:
-  - Cardiovascular and cerebrovascular: stroke, cerebrovascular disorder, cerebral infarction, myocardial infarction, sudden cardiac arrest, heart conduction disease, cardiovascular disease, heart disease
-  - Blood pressure: orthostatic hypotension, hypotensive disorder, multiple system atrophy, postural orthostatic tachycardia syndrome
-  - Metabolic: diabetes mellitus, hyperglycemia, diabetic ketoacidosis, hyperlipidemia, familial hyperlipidemia, obesity
-  - Haematological: neutropenia, agranulocytosis, hemoglobinopathy
-  - Hepatic and biliary: liver failure, liver disease, gallbladder disease
-  - Other: epilepsy, female breast carcinoma
-- **Drug Interactions**: 100 interactions were identified. The main ones from the list reviewed are:
-  - **Major**: bupropion, morphine
-  - **Moderate**: metformin, acarbose, alogliptin, albiglutide, canagliflozin (glucose-lowering agents); atropine, hyoscyamine, glycopyrronium, clidinium (anticholinergics); epinephrine, hydrocortisone, amphotericin B, famotidine, loperamide, lorcaserin, bisacodyl
-  - **Minor**: ranitidine
-- For wording of warnings and contraindications, please refer to the package insert.
+- **Drug Interactions**: 100 interactions were found in the interaction screening. Major-level examples include **bupropion** and **morphine**. Moderate-level examples include acarbose, famotidine, epinephrine, hydrocortisone, metformin, atropine, loperamide, and canagliflozin. Ranitidine is rated minor.
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction rests only on a TxGNN model (deep learning) score. There are no trials or publications and no plausible mechanism for an ultra-rare genetic gaze disorder.
+The prediction has a very high model score but no trials, no literature, and no identifiable mechanistic link to risperidone's pharmacology. Evidence is at level L5.
 
 **To proceed, the following is needed:**
-- The Medsafe package insert, to complete safety screening (a blocking gap)
-- Detailed mechanism of action data
-- That review should include confirmation of Phase 3 primary endpoint outcomes, a metabolic, prolactin, extrapyramidal and somnolence monitoring plan, and verification of the cancelled market status before any regulatory pathway is considered.
-- Trichotillomania and Phelan-McDermid syndrome could be handled as research questions only, pending controlled studies.
+- Any mechanistic or preclinical evidence linking risperidone to the biology of this disorder
+- Mechanism of action data compiled for the drug
+- Package insert warnings and contraindications for safety review
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

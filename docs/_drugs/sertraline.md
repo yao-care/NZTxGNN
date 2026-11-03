@@ -38,8 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Sertraline was originally used for anxiety-related and mood-related conditions, including obsessive-compulsive disorder, post-traumatic stress disorder and social phobia.
-The TxGNN model predicts it may be effective for **histrionic personality disorder**, but **no clinical trials and no publications** currently support this specific prediction, so it rests on the computational score alone.
+Sertraline is an SSRI antidepressant that is marketed in New Zealand.
+The TxGNN model predicts it may be relevant to **histrionic personality disorder (disease)**, but **no clinical trials and no publications** were found for this condition, so the prediction rests on the model alone.
 
 ## Quick Overview
 
@@ -48,16 +48,16 @@ The TxGNN model predicts it may be effective for **histrionic personality disord
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Histrionic personality disorder (disease) |
 | TxGNN Prediction Score | 0.9993 |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, sertraline belongs to the selective serotonin reuptake inhibitor (SSRI) class. Its efficacy in anxiety, obsessive-compulsive and mood-related disorders is established, and mechanistically it may be applicable to personality disorders that involve emotional instability and anxiety.
+Currently, detailed mechanism of action data is not available. Sertraline belongs to the SSRI class, which raises serotonin availability in the brain. SSRIs are widely used for anxiety, obsessive-compulsive and mood-related conditions.
 
-The predicted condition lies in the psychiatric spectrum, close to the drug's known uses. The model gives the same score (0.9993) to several personality disorders (schizoid, schizotypal and paranoid). Any benefit would more plausibly come from treating comorbid anxiety or depression than from treating the personality disorder itself.
+Histrionic personality disorder is characterised by emotional instability and attention-seeking behaviour, and it often co-occurs with mood and anxiety problems. A possible link is that an SSRI could ease such co-occurring symptoms. This is a hypothesis only. The data compiled for this report contain no study of sertraline in histrionic personality disorder, and the high TxGNN score is a computational prediction rather than evidence of benefit.
 
 ## Clinical Trial Evidence
 
@@ -74,30 +74,27 @@ Currently no related literature available.
 | 2570858 | Setrona | Tab 100 mg | Valid | Not specified in the licence record |
 | 2570831 | Setrona | Tab 50 mg | Valid | Not specified in the licence record |
 
+Both authorisations are currently valid, and both are single-ingredient products.
+
 ## Safety Considerations
 
-- **Disease associations from the knowledge graph (not label text)**: The TxGNN knowledge graph links sertraline to contraindication-type relationships with epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis, and serotonin syndrome. These need verification against the official package insert.
-- **Drug Interactions**: The interaction query returned 100 records; the 20 reviewed include the following.
-  - **Major**: bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron, phentermine.
-  - **Moderate** (examples): acetylsalicylic acid, morphine, clarithromycin, famotidine, loperamide, glimepiride, chlorpropamide, insulin aspart.
+- **Drug Interactions**: 100 interactions were recorded. Examples classed as **Major** include bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron and phentermine. Examples classed as **Moderate** include famotidine, loperamide, morphine, acetylsalicylic acid, clarithromycin, glimepiride and insulin aspart.
+- **Conditions of concern**: The data list epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis and serotonin syndrome as conditions where caution is warranted. These come from drug-disease contraindication records, not from label text.
 
-Please refer to the package insert for the full warnings and contraindications.
+Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for histrionic personality disorder has a very high model score but no supporting trials or literature (L5).
-
-It has randomized trials and network meta-analyses in panic disorder with or without agoraphobia, but this is largely an extension of sertraline's existing anxiety uses rather than a new repurposing. The personality-disorder predictions (schizoid, schizotypal, paranoid, dependent, narcissistic) have only indirect, low-quality evidence.
+The prediction has no supporting trials or publications, so the evidence level is L5 and the score alone cannot justify moving forward. A plausible mechanistic rationale is also lacking.
 
 **To proceed, the following is needed:**
-- Targeted literature and trial searches specific to histrionic personality disorder
-- Detailed mechanism of action data
-- The Medsafe package insert, to confirm warnings and contraindications
-- Clarification of the regulatory position, since both New Zealand licences are cancelled
-- A safety review of the major drug interactions for the target psychiatric population
+- Clinical or observational studies of sertraline that directly address histrionic personality disorder
+- Mechanism of action data and the full package insert warnings and contraindications
+- A safety review for people with bipolar disorder, bleeding tendency or liver disease, and for relevant drug interactions
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

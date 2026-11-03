@@ -38,11 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Salbutamol is a short-acting beta-2 agonist bronchodilator, originally used to treat asthma and bronchial disease.
-The TxGNN model's top-ranked prediction is **papillary conjunctivitis**, but no clinical trials or publications currently support it (evidence level L5, model prediction only).
-Other predicted indications have more evidence: **obstructive lung disease** (a 1,118-patient completed Phase 3 trial, though this is close to the existing use), **bronchitis** (9 trials, 20 publications) and **anaphylaxis** (1 Phase 3 trial, terminated early).
-
----
+Salbutamol is a short-acting beta-2 adrenergic agonist that is marketed in New Zealand in inhaled, oral, nebulised and injectable forms.
+The TxGNN model predicts it may be useful for **papillary conjunctivitis**, with a score of **0.9999**.
+However, **no clinical trials and no publications** were found for this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
@@ -56,97 +54,52 @@ Other predicted indications have more evidence: **obstructive lung disease** (a 
 | Number of Pharmac Schedule Items | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Salbutamol is known as a beta-2 adrenergic agonist. Its efficacy in asthma and bronchial disease is established, and it works by relaxing airway smooth muscle.
+Detailed mechanism of action data is not currently available for this drug. Salbutamol is generally known as a beta-2 adrenergic agonist. Beta-2 stimulation can reduce the release of inflammatory mediators from mast cells, which is the main reason this prediction is conceivable in an allergic eye condition.
 
-For papillary conjunctivitis, the link is speculative. Beta-2 agonism could plausibly reduce mast-cell mediator release in ocular allergy. Preclinical work supports this idea for related conditions: topical salbutamol strongly suppressed immediate allergic conjunctivitis in guinea pigs, and beta-2 agonists showed topical anti-inflammatory activity in the conjunctiva. However, papillary conjunctivitis is often driven by contact lenses or mechanical irritation, so an allergy-based mechanism may not apply. No human data were retrieved.
-
-
----
+This link is speculative. Papillary conjunctivitis is often driven by contact lenses or mechanical irritation rather than by classic allergic mechanisms, so mast-cell stabilisation may not address the main cause. No studies were retrieved that test salbutamol in this condition, and the model's score alone cannot establish benefit.
 
 ## Clinical Trial Evidence
 
-No clinical trials are registered for the top-ranked prediction, papillary conjunctivitis. Currently no related clinical trials registered.
-
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02177253](https://clinicaltrials.gov/study/NCT02177253) | Phase 3 | Completed | 1118 | 12-week trial of ipratropium/salbutamol via Respimat vs COMBIVENT, ipratropium alone and placebo in COPD |
-| [NCT01721291](https://clinicaltrials.gov/study/NCT01721291) | Phase 4 | Completed | 64 | Inhaler treatment and small-airways assessment in COPD |
-| [NCT05987371](https://clinicaltrials.gov/study/NCT05987371) | Phase 2 | Completed | 75 | Placebo-controlled dose exploration of TQC3721 inhalation suspension in COPD (link to salbutamol uncertain) |
-| [NCT04446637](https://clinicaltrials.gov/study/NCT04446637) | Phase 3 | Withdrawn | 0 | Ipratropium/levosalbutamol vs salbutamol plus ipratropium in COPD; no participants enrolled |
-| [NCT02235428](https://clinicaltrials.gov/study/NCT02235428) | Phase 4 | Terminated | 3 | Ipratropium added to high-dose salbutamol in childhood asthma attacks; uninformative |
-| [NCT02686086](https://clinicaltrials.gov/study/NCT02686086) | N/A | Completed | 60 | Bronchodilator delivery by vibrating mesh vs jet nebuliser in COPD |
-| [NCT01521572](https://clinicaltrials.gov/study/NCT01521572) | N/A | Unknown | 200 | Effect of salbutamol on respiratory mechanics in healthy people, smokers and COPD patients |
-
-Other predictions with trials:
-- **Bronchitis**: [NCT00114478](https://clinicaltrials.gov/study/NCT00114478) (n=600, epinephrine vs albuterol in bronchiolitis) and [NCT00696540](https://clinicaltrials.gov/study/NCT00696540) (Phase 2, hypertonic vs normal saline as salbutamol diluent) are the most relevant. The disease label is ambiguous between bronchitis and bronchiolitis.
-- **Anaphylaxis**: [NCT05653024](https://clinicaltrials.gov/study/NCT05653024) is a Phase 3 double-blind trial of inhaled salbutamol vs placebo for food-allergy abdominal pain. It was terminated with only 24 participants, so it is underpowered.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature was retrieved for papillary conjunctivitis. Currently no related literature available.
-
-The most relevant publications for the other predictions are:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [24937099](https://pubmed.ncbi.nlm.nih.gov/24937099/) | 2014 | Cochrane review | Cochrane Database Syst Rev | Bronchodilators for bronchiolitis in infants |
-| [33893229](https://pubmed.ncbi.nlm.nih.gov/33893229/) | 2021 | Network meta-analysis | Pediatrics | Comparative efficacy of bronchiolitis interventions in acute care |
-| [36765418](https://pubmed.ncbi.nlm.nih.gov/36765418/) | 2023 | Guideline | Ital J Pediatr | 2022 Italian guidelines on bronchiolitis in infants; management is largely supportive |
-| [35383741](https://pubmed.ncbi.nlm.nih.gov/35383741/) | 2022 | RCT | Mymensingh Med J | Nebulized 3% hypertonic saline vs normal saline and salbutamol in acute bronchiolitis |
-| [34366098](https://pubmed.ncbi.nlm.nih.gov/34366098/) | 2021 | Case report/Review | J Allergy Clin Immunol Pract | Use of salbutamol for gastrointestinal anaphylaxis |
-| [33831623](https://pubmed.ncbi.nlm.nih.gov/33831623/) | 2021 | Clinical study | J Allergy Clin Immunol Pract | Potential efficacy of high-dose inhaled salbutamol for abdominal pain during oral food challenge |
-| [26859020](https://pubmed.ncbi.nlm.nih.gov/26859020/) | 2014 | RCT | East Afr Med J | Honey vs salbutamol vs placebo for cough in children with common cold |
-| [3666475](https://pubmed.ncbi.nlm.nih.gov/3666475/) | 1987 | Preclinical | Graefes Arch Clin Exp Ophthalmol | Topical salbutamol suppressed immediate allergic conjunctivitis in guinea pigs |
-| [1729064](https://pubmed.ncbi.nlm.nih.gov/1729064/) | 1992 | RCT (crossover) | Chest | Theophylline and salbutamol improved pulmonary function in irreversible COPD |
-| [18447148](https://pubmed.ncbi.nlm.nih.gov/18447148/) | 2008 | Case report | J Investig Allergol Clin Immunol | Anaphylaxis to salbutamol (safety) |
-
----
+Currently no related literature available.
 
 ## New Zealand Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 2026414 (valid) | Ventolin | Aerosol inhaler, 100 mcg per dose CFC free | Not available |
-| 2140543 (cancelled) | Ventolin | Oral liquid 400 mcg per ml | Not available |
-| 2710811 (cancelled) | UK Cipla | Nebuliser solution, 1 mg per ml, 2.5 ml ampoule | Not available |
-| 2154315 (cancelled) | Asthalin | Nebuliser solution, 1 mg per ml, 2.5 ml ampoule | Not available |
-| 2404516 (cancelled) | SalAir | Aerosol inhaler, 100 mcg per dose CFC free | Not available |
+| 2140543 | Ventolin | Oral liquid 400 mcg per ml | Not available |
+| 2710811 | UK Cipla | Nebuliser solution, 1 mg per ml, 2.5 ml ampoule | Not available |
+| 2154315 | Asthalin | Nebuliser solution, 1 mg per ml, 2.5 ml ampoule | Not available |
+| 2404516 | SalAir | Aerosol inhaler, 100 mcg per dose CFC free | Not available |
 
-Only the Ventolin CFC-free inhaler is currently valid. The other eight licences (oral liquid, nebuliser solutions, infusion and injection forms) are cancelled.
-
----
+These are 5 of the 9 valid licences. Other forms include an infusion (1 mg per ml, 5 ml) and an injection (500 mcg per ml, 1 ml).
 
 ## Safety Considerations
 
-- **Conditions flagged in the knowledge graph as contraindications or cautions** (from drug-disease edges, not label text): hypertension, long QT syndrome, epilepsy, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, metabolic acidosis, benign prostatic hyperplasia and bladder neck obstruction, ocular hypertension, angle-closure glaucoma, hyperthyroidism and thyrotoxicosis, sudden cardiac arrest, heart conduction disease, myocardial ischemia and coronary artery disease.
-- **Drug Interactions**: 100 interactions are recorded. Moderate-level examples include acarbose, famotidine, epinephrine, clarithromycin, cisapride, and several antidiabetic agents (alogliptin, canagliflozin, dapagliflozin, chlorpropamide). Minor-level examples include corticosteroids such as hydrocortisone, budesonide and dexamethasone.
-- **Hypersensitivity**: anaphylaxis to salbutamol itself has been reported in the literature.
+- **Drug Interactions:** 100 interactions are recorded. Moderate-level examples include epinephrine, clarithromycin, cisapride, and several antidiabetic drugs (acarbose, alogliptin, canagliflozin, dapagliflozin, chlorpropamide). Minor-level examples include corticosteroids such as hydrocortisone, budesonide, and dexamethasone.
+- **Conditions requiring caution:** The data compiled for this report flag the following conditions as contraindication-related: hypertension, long QT syndrome, epilepsy, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, metabolic acidosis, benign prostatic hyperplasia, bladder neck obstruction, angle-closure glaucoma and ocular hypertension, hyperthyroidism, myocardial ischaemia and coronary artery disease, sudden cardiac arrest, and heart conduction disease. These are not taken from the product label, so the package insert should be checked.
 
-For full warnings and contraindications, please refer to the package insert.
-
----
+Package insert warnings and contraindications for the New Zealand products have not yet been reviewed.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for the top-ranked prediction, papillary conjunctivitis)
+**Decision: Hold**
 
 **Rationale:**
-- Papillary conjunctivitis has no supporting trials or literature, only a high model score and a speculative mast-cell mechanism. Preclinical evidence exists only for allergic conjunctivitis in animals.
-- Among the other predictions, obstructive lung disease reaches L1 (a completed Phase 3 trial, n=1118) and could proceed with guardrails, but it is essentially established bronchodilator use rather than new repurposing. Bronchitis (L2) and anaphylaxis (L3) remain research questions.
+The prediction score is very high, but there are no trials or publications on salbutamol in papillary conjunctivitis, and the proposed mechanism is speculative for a condition often caused by lens wear or mechanical irritation. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and package insert warnings and contraindications (both currently missing)
-- For papillary conjunctivitis: human studies, a decision on whether a topical ocular formulation is feasible (none is marketed in New Zealand), and clarification of whether the cause is allergic or mechanical
-- For obstructive lung disease: confirmation of label coverage, plus monitoring of cardiovascular effects and hypokalaemia, and review of drug interactions
-- For bronchitis: clarification of whether bronchitis or bronchiolitis is intended, since evidence in infants shows inconsistent benefit
-- For anaphylaxis: an adequately powered trial to replace the terminated Phase 3 study
+- Mechanism of action data and a clearer rationale for use in papillary conjunctivitis
+- Preclinical or early human data in this condition, ideally with a topical ocular formulation (no ocular product is currently licensed in New Zealand)
+- Review of the Medsafe package insert for warnings and contraindications
+- Assessment of ocular safety, given that angle-closure glaucoma and ocular hypertension appear among the flagged conditions
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

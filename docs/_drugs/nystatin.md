@@ -38,8 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Nystatin is a polyene antifungal originally used to treat cutaneous, oral and vulvovaginal candidiasis.
-Support comes from **0 clinical trials** and **20 publications**, mostly reviews and guidelines on vulvovaginal candidiasis.
+Nystatin is a polyene antifungal that is marketed in New Zealand in several oral and vaginal forms.
+The TxGNN model predicts it may be relevant to **disease of orbital region**, but there are **0 directly relevant clinical trials** and **0 publications** supporting this prediction.
+This is a model-only signal with no direct supporting studies.
 
 ## Quick Overview
 
@@ -51,36 +52,25 @@ Support comes from **0 clinical trials** and **20 publications**, mostly reviews
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 4 (valid: 4) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nystatin is a polyene antifungal that binds ergosterol in fungal cell membranes, forming pores and causing leakage of cell contents.
+Detailed mechanism of action data is not available in the data compiled for this report. Nystatin is generally understood to bind ergosterol in fungal cell membranes, which disrupts the membrane and kills the fungus. This mechanism is specific to fungal pathogens.
 
-Candida species are the main cause of infectious vulvovaginitis, and nystatin's efficacy against candidiasis is established. The predicted indication is therefore mostly an extension or restatement of the existing vulvovaginal candidiasis use, not true repurposing.
-
-The rationale does not extend to non-fungal vulvovaginitis (bacterial, atrophic, allergic), where antifungal activity would not address the underlying cause.
+No plausible mechanistic link between this antifungal action and disease of orbital region was identified. The orbital region covers a broad group of conditions (inflammatory, structural, neoplastic and others), and none is shown to involve a fungal target that nystatin could address. The high TxGNN score (0.9990) is a computational association only. It is not supported by any trial or publication on this disease.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for vulvovaginitis.
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03178149](https://clinicaltrials.gov/study/NCT03178149) | Phase 1 | Recruiting | 42 | Tests a different investigational agent (ASP7317) in geographic atrophy secondary to age-related macular degeneration. It does not involve nystatin and does not study an orbital disease, so it is not relevant evidence. |
+
+No registered trial directly tests nystatin in disease of orbital region.
 
 ## Literature Evidence
 
-The compiled literature is 20 publications. The most relevant are listed below, prioritising RCTs, guidelines and reviews.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [30792037](https://pubmed.ncbi.nlm.nih.gov/30792037/) | 2019 | RCT | Medecine et maladies infectieuses | PRISM study: nystatin-neomycin-polymyxin B combination compared with miconazole for empirical treatment of infectious vaginitis |
-| [25711406](https://pubmed.ncbi.nlm.nih.gov/25711406/) | 2015 | Guideline | Mycoses | German S2k guideline on vulvovaginal candidosis |
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Review | BMJ Clinical Evidence | Vulvovaginal candidiasis is the second most common cause of vaginitis; C. albicans accounts for 85–90% of cases |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | Journal of Women's Health | Boric acid for recurrent vulvovaginal candidiasis, where non-albicans species resist azoles |
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Review | Pharmaceutics | Management of fluconazole-resistant vulvovaginal candidiasis, with nystatin among the alternatives |
-| [18729533](https://pubmed.ncbi.nlm.nih.gov/18729533/) | 2008 | Review | Drugs | Local versus oral treatment of vulvovaginal candidosis; both considered equally effective in uncomplicated cases |
-| [10796183](https://pubmed.ncbi.nlm.nih.gov/10796183/) | 2000 | Systematic review | Cochrane Database Syst Rev | Topical treatment for vaginal candidiasis in pregnancy |
-| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Review | Obstet Gynecol Clin North Am | Nystatin, introduced in the 1950s, has been surpassed by imidazoles and triazoles as first choice |
-| [25416649](https://pubmed.ncbi.nlm.nih.gov/25416649/) | 2015 | Comparative study | Mycopathologia | Vaginal nystatin (14 days monthly) versus oral fluconazole in recurrent vulvovaginal candidiasis (n=293); mycological cure rates were 78.3% and 73.8% after initial therapy |
-| [41745294](https://pubmed.ncbi.nlm.nih.gov/41745294/) | 2026 | Review | Journal of Fungi | Current and emerging antifungal agents for vulvovaginal candidiasis |
+Currently no related literature available.
 
 ## New Zealand Market Information
 
@@ -91,27 +81,27 @@ The compiled literature is 20 publications. The most relevant are listed below, 
 | 254851 | Nilstat | Oral liquid 100,000 u per ml (valid) | Not recorded |
 | 254908 | Nilstat | Vaginal cream 100,000 u per 5 g with applicator(s) (valid) | Not recorded |
 
+All four single-ingredient licences are currently valid. The available forms are oral and vaginal only. No ophthalmic or periocular formulation is listed.
 
 ## Safety Considerations
 
-- **Disease associations from the knowledge graph (not label text)**: adrenocortical insufficiency, Addison disease, skin atrophy, telangiectasis, capillary disease, hereditary hemorrhagic telangiectasia
-- **Drug Interactions**: 100 interactions were found in the database search, all with an unclassified severity level. Examples include cyclosporine, fluconazole, erythromycin, azithromycin, tramadol, lorazepam, bortezomib and sildenafil. Clinical significance needs verification.
+- **Drug Interactions:** The interaction screen returned 100 potential interacting drugs, all with an unclassified severity level. Examples include cyclosporine, fluconazole, erythromycin, azithromycin, tramadol, lorazepam, bortezomib, sildenafil, pravastatin, valsartan and ramipril. Clinical significance has not been graded, so each combination needs individual pharmacist review.
 
-Please refer to the package insert for warnings and contraindications.
+Please refer to the package insert for warnings and contraindications, as this label information is not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Vulvovaginitis of Candida origin is already within nystatin's established use, and the literature supports it, including an RCT of a nystatin-containing combination. Evidence for non-infectious vulvovaginitis is absent. The other nine predictions (for example orbital disease, cystic teratoma, biotin metabolic disease) have no mechanistic or clinical support and should be on Hold.
+The prediction rests on a model score alone. No trial or publication studies nystatin in disease of orbital region, the only trial retrieved concerns an unrelated drug and condition, and no plausible antifungal mechanism applies. The available New Zealand formulations are also not designed for orbital or ocular use.
 
 **To proceed, the following is needed:**
-- Medsafe package insert warnings and contraindications, which are a blocking gap for safety screening
-- Detailed mechanism of action data from DrugBank
-- Confirmation of the approved indications and current availability of a vaginal formulation in New Zealand
-- Clarification of the severity of the listed drug interactions
-- Restriction of the scope to Candida-confirmed vulvovaginitis, with no extension to atrophic, bacterial or allergic types
+- A clear definition of which orbital condition is targeted, and whether a fungal component exists
+- Preclinical or clinical evidence that nystatin has activity in that condition
+- Mechanism of action data and package insert warnings and contraindications
+- Assessment of a suitable formulation and route for orbital or periocular use
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

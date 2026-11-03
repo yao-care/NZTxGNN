@@ -38,9 +38,11 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Ferrous sulfate anhydrous is an oral iron supplement, originally used to treat iron deficiency anemia and related nutritional anemias.
-The TxGNN model predicts it may be effective for **vitamin B12- and folate-independent constitutional megaloblastic anemia**,
-but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+Ferrous sulfate anhydrous is an oral iron supplement used to correct iron deficiency.
+The TxGNN model predicts it may be relevant to **vitamin B12- and folate-independent constitutional megaloblastic anemia**, with a score of 0.9978.
+However, **no clinical trials and no publications** were compiled to support this prediction, so it rests on the model alone.
+
+---
 
 ## Quick Overview
 
@@ -54,26 +56,27 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ferrous sulfate is an iron replacement salt, its efficacy in iron deficiency anemia is well established, and the model links it to other anemias through network proximity.
+Detailed mechanism of action data is not available for this drug. Ferrous sulfate supplies iron, which the body uses to make haemoglobin, so it corrects anaemia caused by a lack of iron.
 
-The link to the predicted indication is weak. Megaloblastic anemia is classically driven by impaired DNA synthesis from vitamin B12 or folate deficiency. The constitutional form predicted here is, by definition, independent of both, and no iron-dependent mechanism is established. The high score of 0.9978 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (such as folic acid deficiency anemia and microcytic anemia), not biological evidence. Iron would not be expected to correct a B12/folate-independent defect.
+Megaloblastic anaemia is classically caused by impaired DNA synthesis from vitamin B12 or folate deficiency. The predicted condition is a constitutional form that does not depend on B12 or folate, and no iron-dependent mechanism is established for it. The high score most likely reflects the drug's closeness to other anaemia conditions in the model's network rather than a genuine pharmacological link. Iron would not be expected to correct a B12- and folate-independent defect, so the rationale is weak.
 
-**Other predictions reviewed**
-
-| Rank | Predicted Indication | Score | Evidence Level | Assessment |
-|------|------|------|------|------|
-| 3 | Biotin metabolic disease | 0.9951 | L5 | No established role for iron; these disorders are treated with biotin. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Recommendation: Hold |
-| 4 | Non-syndromic esophageal malformation | 0.9949 | L5 | — |
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## New Zealand Market Information
 
@@ -81,31 +84,32 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | 2664429 | Ferro-Liquid (valid) | Oral liquid 30 mg (6 mg elemental iron) per 1 ml | Not recorded |
 
+---
+
 ## Safety Considerations
 
-- **Contraindications suggested by the knowledge graph** (not taken from label text): peptic ulcer disease, sickle cell anemia, hereditary persistence of fetal hemoglobin, primary hyperoxaluria, hereditary hemochromatosis, hemosiderosis, iron metabolism disease, Wilson disease, ulcerative colitis, inflammatory bowel disease, hemolytic anemia, dyskinesia of esophagus, gastroenteritis.
-- **Drug Interactions**: 37 interactions were identified. The 20 listed in the data compiled for this report are mostly moderate:
-  - Proton pump inhibitors: rabeprazole, omeprazole, lansoprazole, dexlansoprazole, pantoprazole, esomeprazole (moderate)
-  - Tetracyclines: doxycycline, tetracycline, minocycline (moderate)
-  - Quinolone: levofloxacin (moderate)
-  - Antacids and minerals: magnesium oxide, calcium carbonate, aluminum hydroxide, magaldrate (moderate)
-  - Others: pancrelipase, sodium sulfate, triethylenetetramine (moderate)
-  - Minor: cimetidine, zinc sulfate, zinc acetate
-- Oral iron is also noted in the analysis as having GI tolerability issues.
+- **Conditions where iron is flagged as a concern (relations recorded in the data compiled for this report, not label text):** peptic ulcer disease, sickle cell anemia, hereditary persistence of fetal hemoglobin, primary hyperoxaluria, hereditary hemochromatosis, hemosiderosis, iron metabolism disease, Wilson disease, ulcerative colitis, inflammatory bowel disease, hemolytic anemia, dyskinesia of esophagus, gastroenteritis.
+- **Drug Interactions:** 37 interactions were identified. Examples include:
+  - Moderate: proton pump inhibitors (omeprazole, rabeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole), tetracyclines (doxycycline, tetracycline, minocycline), levofloxacin, antacids and minerals (magnesium oxide, calcium carbonate, aluminum hydroxide, magaldrate), pancrelipase, sodium sulfate, triethylenetetramine.
+  - Minor: cimetidine, zinc sulfate, zinc acetate.
 
-Package insert warnings and contraindications have not been obtained. Please refer to the package insert for full safety information.
+Please refer to the package insert for warnings and contraindications, which were not available in the data compiled for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is supported only by a model score, with no trials or literature, and has no plausible iron-dependent mechanism.
+The prediction has no supporting trials or publications (evidence level L5), and there is no plausible iron-dependent mechanism for a B12- and folate-independent megaloblastic defect. The high score alone is not enough to proceed.
 
 **To proceed, the following is needed:**
-- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (for example from DrugBank)
-- Literature and trial searches for Plummer-Vinson syndrome, and for constitutional megaloblastic anemia if it is to be pursued
+- Evidence of a mechanistic link between iron and this condition, or studies directly examining it
+- Mechanism of action data
+- Package insert warnings and contraindications
+- Route and dose compatibility assessment
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Albendazole is a benzimidazole anthelmintic that acts on parasite tubulin.
+Albendazole is an anthelmintic medicine marketed in New Zealand. The TxGNN model predicts it may be useful for **coenurosis**, a rare infection caused by tapeworm larvae. No study in the compiled data looks at coenurosis directly: the 9 clinical trials and 20 publications are about neurocysticercosis, a related tapeworm larval infection.
 
 ## Quick Overview
 
@@ -50,61 +50,74 @@ Albendazole is a benzimidazole anthelmintic that acts on parasite tubulin.
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Albendazole binds parasite beta-tubulin and inhibits microtubule polymerisation and glucose uptake. Detailed mechanism-of-action data are not otherwise available in the data compiled for this report, so this description reflects the known pharmacology of the benzimidazole class.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Albendazole belongs to the benzimidazole anthelmintic class, which is generally understood to act by blocking beta-tubulin in parasites. This is plausibly active against tapeworm larvae.
 
-Alveolar echinococcosis is caused by *Echinococcus multilocularis*, which is closely related to *Echinococcus granulosus*, the cause of cystic echinococcosis. Because both parasites share the same target biology, the mechanism is plausibly applicable. Albendazole is already the guideline-recommended parasitostatic therapy for alveolar echinococcosis (WHO-IWGE expert consensus), so this is better described as an established extended use than as novel repurposing.
+Coenurosis is caused by the larval stage (coenurus) of *Taenia multiceps* and related Taenia species. It is biologically close to cysticercosis, which is caused by the larvae of *Taenia solium*. The trials and reviews in the data concern neurocysticercosis, so they show how albendazole behaves in a related larval tapeworm disease, not in coenurosis.
 
-An important caveat: albendazole is generally parasitostatic rather than parasiticidal. When complete surgical resection is not possible, long-term or even lifelong therapy is often needed.
+The high TxGNN score probably reflects this closeness between the two diseases. Human coenurosis is rare, and none of the supplied studies addresses it. The prediction is therefore a hypothesis, not a demonstrated benefit.
 
 ## Clinical Trial Evidence
 
+None of these trials studies coenurosis. All concern neurocysticercosis and are indirect evidence only.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07182305](https://clinicaltrials.gov/study/NCT07182305) | Phase 2 | Completed | 194 | Albendazole in early-stage alveolar echinococcosis, found by ultrasound screening in Kyrgyzstan; directly matches drug and indication. Randomisation and control arm are not stated in the data provided |
-| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | Not applicable | Completed | 50 | Parasite viability and follow-up markers in hepatic alveolar echinococcosis patients treated with albendazole, to guide decisions on stopping treatment; not an efficacy trial |
-| [NCT06483880](https://clinicaltrials.gov/study/NCT06483880) | Not applicable | Unknown | 24 | Randomised trial of adjuvant albendazole versus placebo after pulmonary hydatid cyst resection; hydatid cyst is cystic, not alveolar, disease, so only indirectly relevant |
+| [NCT02243644](https://clinicaltrials.gov/study/NCT02243644) | Phase 3 | Completed | 97 | Two durations of albendazole in neurocysticercosis with ≤5 brain lesions, assessed at 6 months |
+| [NCT00441285](https://clinicaltrials.gov/study/NCT00441285) | Phase 2/3 | Completed | 156 | Praziquantel plus albendazole combination in neurocysticercosis: safety and efficacy |
+| [NCT02947581](https://clinicaltrials.gov/study/NCT02947581) | Phase 3 | Terminated | 107 | Albendazole plus praziquantel versus albendazole alone in subarachnoid cysticercosis |
+| [NCT00283699](https://clinicaltrials.gov/study/NCT00283699) | Phase 3 | Completed | 178 | Albendazole versus symptomatic treatment in neurocysticercosis |
+| [NCT00004403](https://clinicaltrials.gov/study/NCT00004403) | N/A | Completed | 120 | Albendazole in epilepsy due to neurocysticercosis |
+| [NCT00290823](https://clinicaltrials.gov/study/NCT00290823) | Phase 3 | Completed | 110 | Corticosteroid dosing in intraparenchymal neurocysticercosis (the steroid dose was the variable studied) |
+| [NCT00133458](https://clinicaltrials.gov/study/NCT00133458) | Phase 3 | Withdrawn | 0 | One versus two months of albendazole in subarachnoid cysticercosis; withdrawn, no data |
+| [NCT06376396](https://clinicaltrials.gov/study/NCT06376396) | Phase 4 | Not yet recruiting | 300 | Praziquantel plus albendazole versus albendazole alone in parenchymal neurocysticercosis |
+| [NCT06565507](https://clinicaltrials.gov/study/NCT06565507) | Phase 2/3 | Not yet recruiting | 544 | Oxfendazole regimens in mild parenchymal brain cysticercosis (a different drug) |
 
 ## Literature Evidence
 
+The literature is mainly reviews of neurocysticercosis. None addresses coenurosis.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [19931502](https://pubmed.ncbi.nlm.nih.gov/19931502/) | 2010 | Review | Acta Tropica | Expert consensus on diagnosis, treatment and follow-up of cystic and alveolar echinococcosis |
-| [30760475](https://pubmed.ncbi.nlm.nih.gov/30760475/) | 2019 | Review | Clinical Microbiology Reviews | Advances in the 21st century in echinococcosis diagnosis and treatment |
-| [34161992](https://pubmed.ncbi.nlm.nih.gov/34161992/) | 2021 | Review | Seminars in Liver Disease | Overview of hepatic alveolar echinococcosis and its management |
-| [39254012](https://pubmed.ncbi.nlm.nih.gov/39254012/) | 2024 | Review | Tidsskrift for Den Norske Legeforening | Surgery combined with prolonged antiparasitic therapy |
-| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | Review | World Journal of Gastroenterology | Management of liver echinococcosis; surgery is the cornerstone |
-| [25526545](https://pubmed.ncbi.nlm.nih.gov/25526545/) | 2014 | Review | Parasite | Albendazole and mebendazole, and the search for other options |
-| [10980173](https://pubmed.ncbi.nlm.nih.gov/10980173/) | 2000 | Observational study | Journal of Antimicrobial Chemotherapy | Long-term benzimidazole treatment of 35 patients, followed for an average of 39 months |
-| [36974024](https://pubmed.ncbi.nlm.nih.gov/36974024/) | 2022 | Review | Chinese Journal of Schistosomiasis Control | Albendazole can delay disease progression in patients who cannot have surgery |
-| [39508157](https://pubmed.ncbi.nlm.nih.gov/39508157/) | 2024 | Review | Parasitology | Albendazole is not parasiticidal and can cause severe adverse effects; repurposing alternatives are explored |
-| [38501660](https://pubmed.ncbi.nlm.nih.gov/38501660/) | 2024 | Preclinical | Antimicrobial Agents and Chemotherapy | Solubilising formulations of albendazole in a rat model of hepatic alveolar echinococcosis |
+| [30366559](https://pubmed.ncbi.nlm.nih.gov/30366559/) | 2018 | Review | Neurologic Clinics | Neurocysticercosis presentations, diagnosis and treatment by lesion type |
+| [24365429](https://pubmed.ncbi.nlm.nih.gov/24365429/) | 2014 | Review | Handbook of Clinical Neurology | Neurocysticercosis as a leading cause of acquired epilepsy worldwide |
+| [23829921](https://pubmed.ncbi.nlm.nih.gov/23829921/) | 2013 | Review | Handbook of Clinical Neurology | Cysticercosis epidemiology and nervous-system involvement |
+| [32129220](https://pubmed.ncbi.nlm.nih.gov/32129220/) | 2020 | Review | Saudi J Kidney Dis Transpl | Neurocysticercosis overview: sources, manifestations and diagnosis |
+| [15853623](https://pubmed.ncbi.nlm.nih.gov/15853623/) | 2004 | Review | Expert Rev Neurother | Albendazole is the medicine of choice for neurocysticercosis; may help in subarachnoid racemose forms |
+| [28233725](https://pubmed.ncbi.nlm.nih.gov/28233725/) | 2017 | Case report/Review | J Infect Public Health | Racemose neurocysticercosis in a 12-year-old boy |
+| [22702323](https://pubmed.ncbi.nlm.nih.gov/22702323/) | 2012 | Review | Expert Rev Anti Infect Ther | Solitary cysticercus granuloma, the commonest form in India and south-east Asia |
+| [1894783](https://pubmed.ncbi.nlm.nih.gov/1894783/) | 1991 | Case report/Review | J Am Acad Dermatol | Subcutaneous cysticercosis; treatment options include surgery, praziquantel and albendazole |
+| [29884714](https://pubmed.ncbi.nlm.nih.gov/29884714/) | 2018 | Case report | BMJ Case Reports | Orbital cysticercosis case |
+| [28929415](https://pubmed.ncbi.nlm.nih.gov/28929415/) | 2019 | Review | Indian J Pediatr | Neurocysticercosis in children |
 
 ## New Zealand Market Information
 
-The local data record one licence for the single-ingredient product Eskazole (Tab 400 mg). Its indication text is not recorded in the local data.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2429977 | Eskazole | Tab 400 mg | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Contraindications and warnings:** Package insert warnings and contraindications are not available in the data compiled for this report. Please refer to the package insert for safety information.
-- **Drug Interactions:** 96 interactions were recorded. Examples include aprepitant, cobicistat, deferasirox, alemtuzumab, amprenavir, bendamustine, bexarotene and bosentan (all moderate), and cimetidine, dexamethasone, lidocaine and armodafinil (all minor).
-- **Conditions of concern:** Liver disease, gallbladder disease and blood disorders (neutropenia, agranulocytosis, anaemia, pancytopenia, aplastic anaemia) are recorded as conditions where the drug is a concern. Liver function and blood counts should be monitored during long-term therapy.
+- **Drug Interactions**: 96 interactions were recorded. Examples at moderate level include aprepitant, cobicistat, deferasirox, fostamatinib, alemtuzumab, amprenavir, anagrelide, apalutamide, bendamustine, bexarotene, binimetinib, boceprevir and bosentan. Minor-level examples include cimetidine, dexamethasone, lidocaine and armodafinil.
+
+Please refer to the package insert for warnings and contraindications, which were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A completed Phase 2 trial directly studies albendazole in alveolar echinococcosis, and expert consensus already recommends it as parasitostatic therapy. The remaining uncertainties are the lack of randomised comparative data, the fact that the drug suppresses rather than kills the parasite, and missing label safety information.
+No trial or publication in the data studies coenurosis itself. All evidence is for neurocysticercosis, so the high TxGNN score (0.9983) is not backed by direct evidence and the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from Medsafe
-- Results and design details (randomisation, control arm) of NCT07182305
-- A monitoring plan for liver function and blood counts during long-term use
-- A review of interacting co-medications before prescribing
+- Studies or case series of albendazole specifically in coenurosis
+- Mechanism-of-action data for albendazole
+- Medsafe package insert warnings and contraindications
+- A safety review that takes the interaction list into account
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

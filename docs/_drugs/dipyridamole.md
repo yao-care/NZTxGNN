@@ -38,7 +38,11 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Dipyridamole is an antiplatelet and vasodilator drug. Atrial fibrillation is not a label-supported approved indication.
+Dipyridamole is an antiplatelet agent that raises adenosine levels, and it is marketed in New Zealand as a modified-release capsule.
+The TxGNN model predicts it may be effective for **sick sinus syndrome 2, autosomal dominant**, with a score of **0.9989**.
+No clinical trials or publications were found for this disease, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
@@ -50,39 +54,31 @@ Dipyridamole is an antiplatelet and vasodilator drug. Atrial fibrillation is not
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |
-| Number of Approvals | 1 (single-ingredient product) |
 | Recommended Decision | Hold |
 
-*Evidence level note:* the cited literature is general antiplatelet reviews, a few case-level reports in thrombotic thrombocytopenic purpura, and off-topic items. None directly studies "thrombotic disease" as a defined disease with dipyridamole. Under the evidence rules this is capped at L5, although the data compiled for this report had suggested L4.
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Published reviews describe dipyridamole as a phosphodiesterase inhibitor that also blocks adenosine reuptake. This raises cAMP and cGMP in platelets and vascular cells and reversibly inhibits platelet aggregation (Kim & Liao, 2008).
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Dipyridamole is generally known to inhibit platelet aggregation and to raise adenosine levels by blocking its reuptake.
 
-Because platelet aggregation is central to thrombosis, a link to thrombotic disease is plausible. Dipyridamole is also already used as an adjunct antithrombotic, for example with aspirin. The prediction therefore overlaps with known pharmacology rather than describing a new mechanism.
+The link to this predicted disease is weak. Sick sinus syndrome 2 is an inherited disorder of the heart's natural pacemaker (the sinoatrial node), of the channelopathy type. A speculative connection could involve adenosine signalling in sinus node function. However, higher adenosine can slow sinus node activity and may worsen slow heart rhythms, so this is a potential safety concern, not a therapeutic rationale. Dipyridamole has no plausible disease-modifying role in a genetic channel disorder.
 
-The link between atrial fibrillation and the predicted indication is thromboembolic risk. This connection is inferred and has not been shown by the supplied evidence.
+The high score (0.9989, model rank 1440) is a model output only. It should not be read as evidence of benefit.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for thrombotic disease.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [18174451](https://pubmed.ncbi.nlm.nih.gov/18174451/) | 2008 | Review | Arterioscler Thromb Vasc Biol | Dipyridamole raises cAMP/cGMP, reversibly inhibits platelet aggregation and may enhance nitric oxide-mediated vascular protection |
-| [382146](https://pubmed.ncbi.nlm.nih.gov/382146/) | 1979 | Review | Postgrad Med | Aspirin, dipyridamole and sulfinpyrazone show antithrombotic effects in humans |
-| [12765506](https://pubmed.ncbi.nlm.nih.gov/12765506/) | 2003 | Review | Med J Aust | Antiplatelet drugs protect against myocardial infarction, stroke and other vascular events in high-risk patients |
-| [15494585](https://pubmed.ncbi.nlm.nih.gov/15494585/) | 2004 | Review | JAMA | Antiplatelet agents are effective in preventing recurrent vascular events in established vascular disease |
-| [2182246](https://pubmed.ncbi.nlm.nih.gov/2182246/) | 1990 | Review | Clin Cardiol | Aspirin plus dipyridamole in coronary thrombosis: aspirin is partially effective, with limitations |
-| [2440111](https://pubmed.ncbi.nlm.nih.gov/2440111/) | 1987 | Review | Semin Hematol | Antiplatelet agents reported to improve thrombotic thrombocytopenic purpura in many cases |
-| [559478](https://pubmed.ncbi.nlm.nih.gov/559478/) | 1977 | Case report | Arch Intern Med | Two thrombotic thrombocytopenic purpura patients; one remitted on dipyridamole with aspirin and sulfinpyrazone |
-| [25697566](https://pubmed.ncbi.nlm.nih.gov/25697566/) | 2015 | Review | Curr Top Med Chem | Dipyridamole has unrecognised antioxidant activity alongside antithrombotic and vasodilator use |
-| [20484211](https://pubmed.ncbi.nlm.nih.gov/20484211/) | 2010 | Review | Am J Health Syst Pharm | Antiplatelet and anticoagulant drugs in sickle cell disease complications |
-| [11945125](https://pubmed.ncbi.nlm.nih.gov/11945125/) | 2002 | Review | Curr Med Chem | Overview of antiplatelet agents in thromboembolic disease |
+Currently no related literature available.
 
-Several other retrieved items were off-topic and are not listed, for example the bevacizumab mesothelioma trial (PMID 26719230).
+---
 
 ## New Zealand Market Information
 
@@ -90,27 +86,33 @@ Several other retrieved items were off-topic and are not listed, for example the
 |---------|------|------|-----------|
 | 2710919 | Dipyridamole - Strides | Modified-release capsule 200 mg | Not stated in the licence record |
 
+One licence is valid, for a single-ingredient product.
+
+---
+
 ## Safety Considerations
 
-- **Contraindications recorded in the knowledge graph (not label text):** the knowledge graph lists drug-disease contraindication relations including peptic ulcer disease, hypotensive disorder, thrombocytopenia, hemophilia, acute coronary syndrome, myocardial infarction, kidney disease, liver disease and gout. These need to be checked against the New Zealand package insert.
-- **Drug Interactions:** 100 interactions are recorded. Those classed as Moderate are dexfenfluramine, sibutramine and fenfluramine. Others, such as acetylsalicylic acid, cimetidine, omeprazole, metformin and simvastatin, have an unclassified severity level.
-- **Pharmacology-based caution:** dipyridamole raises adenosine levels, which is a potential concern in sinus node disease and coronary artery disease.
+- **Conditions listed as contraindications in the underlying relationship data (not label text):** kidney disease, liver disease, gallbladder disease, thrombocytopenia, peptic ulcer disease (including active), hypotensive disorder, gout, hemophilia, acute coronary syndrome, myocardial infarction, coronary thrombosis, anaemia, hemoglobinopathy, thrombocytopenic purpura, gastritis, Reye syndrome, Alzheimer disease, Pick disease, and others. These should be verified against the official package insert.
+- **Drug Interactions:** 100 interactions were found in total. The ones graded Moderate are dexfenfluramine, sibutramine and fenfluramine. Others, such as acetylsalicylic acid, cimetidine, omeprazole, pantoprazole, metformin, morphine and simvastatin, are listed with an unknown severity grade.
+- **Disease-specific concern:** Because dipyridamole raises adenosine, it may slow sinus node activity and worsen bradyarrhythmia, which is directly relevant to sick sinus syndrome.
 
-The package insert warnings and contraindications could not be retrieved, so please refer to the package insert for authoritative safety information.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is biologically plausible and overlaps with dipyridamole's known antiplatelet pharmacology. However, "thrombotic disease" is very broad, no trials are registered for it, and the supplied literature is indirect. Evidence is therefore at L5. Among the other predictions, only transient ischemic attack has strong direct support (the ESPRIT randomised trial, n=4500, and meta-analyses), and that could be evaluated as a separate, more specific candidate.
+The prediction is supported only by a model score, with no trials or publications for this disease. The adenosine-related effect on the sinus node raises a safety concern rather than a benefit.
 
 **To proceed, the following is needed:**
-- A specific thrombotic indication (for example secondary stroke prevention) with directly relevant randomised trials or meta-analyses
-- Mechanism of action data confirmed from DrugBank
-- Medsafe package insert warnings and contraindications, which are currently missing and block safety screening
-- The approved indication text for the New Zealand licence, which is currently blank
-- A review of high-risk drug interactions, especially with anticoagulants and other antiplatelets
+- Any clinical or preclinical evidence directly studying dipyridamole in sick sinus syndrome 2
+- Mechanism of action data
+- Package insert warnings and contraindications from Medsafe
+- A cardiac safety assessment, focused on bradyarrhythmia, before any further consideration
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

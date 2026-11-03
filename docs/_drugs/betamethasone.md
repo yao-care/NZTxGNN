@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Betamethasone
-parent: High Evidence (L1-L2)
+parent: Moderate Evidence (L3-L4)
 nav_order: 63
-evidence_level: L2
+evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-11-03
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L2). Approved use: Not recorded in the local data"
+description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,9 @@ Evidence Level: **L2** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Betamethasone is a synthetic glucocorticoid originally used for inflammatory and autoimmune conditions such as autoimmune disease, Crohn disease, adrenocortical insufficiency and skin disorders.
+Betamethasone is a synthetic glucocorticoid with anti-inflammatory, antipruritic and vasoconstrictive activity, marketed in New Zealand as topical products.
+The TxGNN model predicts it may be useful for **alopecia mucinosa**, with a score of **0.9997**.
+Current support is thin: **0 clinical trials** and **1 publication**, a 1964 case series.
 
 ## Quick Overview
 
@@ -47,45 +49,35 @@ Betamethasone is a synthetic glucocorticoid originally used for inflammatory and
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
-| Evidence Level | L2 |
+| Evidence Level | L4 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 9 (valid: 9) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Betamethasone is known to be a potent synthetic glucocorticoid receptor agonist with anti-inflammatory, antipruritic and vasoconstrictive activity. Its efficacy in inflammatory and autoimmune conditions is established.
+Betamethasone is a synthetic agonist of the glucocorticoid receptor (NR3C1). Activating this receptor suppresses inflammatory signalling, which explains its use in inflammatory skin conditions.
 
-Alopecia areata is a T-cell-mediated autoimmune disease in which the immune privilege of the hair follicle collapses, causing non-scarring hair loss. Corticosteroids suppress the inflammatory infiltrate around the follicle, so the mechanism is biologically plausible. Autoimmune disease is already among betamethasone's original indications. In practice, topical, intralesional and oral mini-pulse routes are all used.
+Alopecia mucinosa (follicular mucinosis) involves mucin deposition in the follicular epithelium with an inflammatory infiltrate. A corticosteroid could reasonably reduce that inflammation. This is a general mechanistic argument, not a demonstrated effect.
 
-Caveats: relapse after withdrawal is common, and long-term systemic steroid use carries a risk of adverse effects. The drug is marketed in New Zealand (9 of 9 licences valid), but formulation and availability still need to be checked.
+There are important caveats:
+- The condition is heterogeneous, and some cases are linked to cutaneous lymphoma.
+- No trials exist.
+- The only publication is a 1964 report of three cases with a review of therapy.
+
+The high score should be read as a hypothesis for further review, not as proof of benefit.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Phase 2 | Completed | 60 | Weekly azathioprine pulse vs oral betamethasone mini-pulse in moderate to severe alopecia areata |
-| [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Phase 4 | Completed | 50 | Topical latanoprost vs topical corticosteroid (betamethasone) in localized alopecia areata |
-| [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Phase 4 | Recruiting | 250 | Treatment outcomes in central centrifugal cicatricial alopecia; a different disease, so only indirect relevance |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39393548](https://pubmed.ncbi.nlm.nih.gov/39393548/) | 2025 | RCT | J Am Acad Dermatol | Microneedle transdermal delivery of compound betamethasone in alopecia areata, aiming to reduce the pain of intralesional injection |
-| [40510104](https://pubmed.ncbi.nlm.nih.gov/40510104/) | 2025 | RCT | Cureus | Oral cyclosporine vs oral betamethasone mini-pulse (n=60) |
-| [34400956](https://pubmed.ncbi.nlm.nih.gov/34400956/) | 2021 | RCT | Iran J Pharm Res | Oral pulse betamethasone, methotrexate and their combination in severe alopecia areata (double-blind, placebo-controlled, n=36) |
-| [36257912](https://pubmed.ncbi.nlm.nih.gov/36257912/) | 2022 | RCT | Dermatol Ther | Latanoprost vs minoxidil, betamethasone and combinations in alopecia areata |
-| [32594786](https://pubmed.ncbi.nlm.nih.gov/32594786/) | 2022 | RCT | J Dermatol Treat | Intralesional betamethasone vs triamcinolone acetonide in localized alopecia areata (within-patient design) |
-| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | Meta-analysis | Cochrane Database Syst Rev | Network meta-analysis of treatments for alopecia areata |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Efficacy, relapse and adverse effects of corticosteroid pulse therapy in alopecia areata |
-| [38623137](https://pubmed.ncbi.nlm.nih.gov/38623137/) | 2024 | Comparative study | Cureus | Topical betamethasone dipropionate vs topical minoxidil in alopecia areata |
-| [40519428](https://pubmed.ncbi.nlm.nih.gov/40519428/) | 2025 | Clinical study | Cureus | Efficacy and safety of oral betamethasone mini-pulses in moderate to severe alopecia areata |
-| [17642661](https://pubmed.ncbi.nlm.nih.gov/17642661/) | 2004 | Open uncontrolled study | Indian J Dermatol Venereol Leprol | Oral betamethasone mini-pulse therapy in extensive alopecia areata |
+| [14164963](https://pubmed.ncbi.nlm.nih.gov/14164963/) | 1964 | Case series | Archives of Dermatology | Report of three cases of follicular mucinosis (alopecia mucinosa) with a review of therapy. No abstract is available, so treatment outcomes cannot be confirmed. |
 
 ## New Zealand Market Information
-
-All 9 authorizations are valid (9 of 9). No approved indication text is recorded. The main products are listed below.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -95,29 +87,26 @@ All 9 authorizations are valid (9 of 9). No approved indication text is recorded
 | 512877 | Beta Scalp | Scalp application 0.1% | Not recorded (valid) |
 | 2188740 | Beta Cream | Cream 0.1% | Not recorded (valid) |
 
+Four further valid licences are not listed (Betnovate lotion 0.1%, Diprosone OV ointment, and two additional Diprosone products). All marketed forms are topical.
+
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph (not label text)**: hypertension, congestive heart failure, hyperglycemia, epilepsy, herpes simplex virus keratitis, measles, urea cycle disorders (carbamoyl phosphate synthetase I deficiency, hyperargininemia, citrullinemia), and pituitary hormone deficiency conditions (e.g., hypopituitarism, Sheehan syndrome, Kallmann syndrome). These should be verified against the product label.
-- **Pharmacology**: betamethasone acts as an agonist at the glucocorticoid receptor (NR3C1). No other drug interactions are recorded.
-- **Clinical caveats**: long-term systemic steroid use carries a risk of adverse effects, and relapse after withdrawal is common.
-
-Package insert warnings and contraindications were not available for this report, so please refer to the package insert for full safety information.
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-One completed Phase 2 trial and several randomized studies (topical, intralesional and oral mini-pulse routes) support betamethasone in alopecia areata, and the mechanism is plausible for an autoimmune disease. However, the trials are small, mostly use betamethasone as a comparator, and no Phase 3 evidence is available. Also, the drug is marketed in New Zealand with 9 of 9 licences valid.
+The only evidence for alopecia mucinosa is a single 1964 case series, with no clinical trials. The mechanistic argument (anti-inflammatory action) is plausible but unproven, and some cases may be associated with lymphoma, which complicates any treatment assessment.
 
 **To proceed, the following is needed:**
-- Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
+- Review of the 1964 case series to confirm which treatments were used and what outcomes were seen
+- A broader literature search for studies of topical or intralesional corticosteroids in follicular mucinosis
+- Clinical input on distinguishing benign from lymphoma-associated disease
+- Package insert warnings and contraindications for the marketed topical products
 - Detailed mechanism of action data
-- Confirmation of currently available betamethasone formulations and routes in New Zealand
-- Comparison with established alopecia areata options, and a plan for relapse and long-term steroid risk
-- Verification of the knowledge-graph contraindications against the label
 
-**Other predictions:** The remaining predicted indications are not recommended at this time. Alopecia mucinosa, telogen effluvium and folliculitis decalvans rest on case-level evidence only (Hold). Alopecia antibody deficiency, the genetic hair disorders and steroid-resistant nephrotic syndrome rest on model prediction alone (Hold). Idiopathic steroid-sensitive nephrotic syndrome has strong class-level support, but betamethasone evidence is limited to a 1981 pediatric report and prednisone or prednisolone remain the standard agents (research question only).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
