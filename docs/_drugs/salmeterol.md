@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salmeterol
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 420
-evidence_level: L1
-indication_count: 5
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-11-03
 monitor_inn: "SALMETEROL"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **5**
 
 </div>
 
-## Salmeterol: Bronchitis
+## Salmeterol: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Salmeterol is a long-acting beta2-adrenoceptor agonist inhaled for pulmonary emphysema and asthma (intrinsic and allergic).
-The TxGNN model predicts it may be effective for **bronchitis**, with **9 clinical trials** and **20 publications** compiled in this direction.
 This is largely an extension within the same obstructive airway disease spectrum, not a novel repurposing.
 
 ---
@@ -49,9 +48,9 @@ This is largely an extension within the same obstructive airway disease spectrum
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 0.9992 |
-| Evidence Level | L1 |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 0.9991 |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |

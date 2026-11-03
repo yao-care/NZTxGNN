@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methylprednisolone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 293
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-30
-description: "Methylprednisolone: predicted new indication Alopecia areata (evidence level L3). Approved use: Autoimmune disease (other listed indications include adrenocortical i…"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "METHYLPREDNISOLONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-## Methylprednisolone: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+## Methylprednisolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Methylprednisolone is a glucocorticoid originally used for autoimmune and inflammatory diseases, adrenal insufficiency, Crohn disease and certain leukaemias.
-The TxGNN model predicts it may be effective for **alopecia areata**,
-with **1 clinical trial** and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease (other listed indications include adrenocortical insufficiency, Crohn disease and acute lymphoblastic leukaemia) |
-| Predicted New Indication | Alopecia areata |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L3 |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 7 (valid: 7) |
 | Recommended Decision | Proceed with Guardrails |

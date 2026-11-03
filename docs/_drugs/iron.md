@@ -4,17 +4,17 @@ title: Iron
 parent: Model Prediction Only (L5)
 nav_order: 243
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-31
-description: "Iron: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Iron deficiency anemia (also folic acid deficiency anemia…"
+indication_count: 5
+last_modified_at: 2026-11-03
 monitor_inn: "IRON"
-predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
+description: "Iron: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Iron
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Iron: From Iron Deficiency Anemia to vitamin B12- and folate-independent constitutional megaloblastic anemia
+## Iron: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,9 +47,9 @@ The TxGNN model's top-ranked prediction is **vitamin B12- and folate-independent
 
 | Item | Content |
 |------|------|
-| Original Indication | Iron deficiency anemia (also folic acid deficiency anemia, anemia of prematurity, hypochromic, microcytic and deficiency anemias). No approved indication text is available for the New Zealand licence. |
-| Predicted New Indication | Top-ranked: vitamin B12- and folate-independent constitutional megaloblastic anemia. Best-supported: Plummer-Vinson syndrome (rank 2) |
-| TxGNN Prediction Score | 0.9989 (rank 1 prediction); 0.9989 (Plummer-Vinson syndrome) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 for the rank 1 prediction; L4 for Plummer-Vinson syndrome |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available. Based on known information, 
 
 **Rank 1 (megaloblastic anemia):** This prediction is not mechanistically plausible. Megaloblastic anemia arises from impaired DNA synthesis (B12/folate pathways or inherited defects), not iron deficiency. With no trials or literature, the high score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence.
 
-**Rank 2 (Plummer-Vinson syndrome):** This is the most credible prediction. The syndrome is defined by iron deficiency anemia, dysphagia and esophageal webs. Case reports and reviews describe dysphagia improving, and webs regressing, once iron is replaced. This is partly on-label use (treating the iron deficiency) rather than true repurposing, and benefit for the esophageal manifestations rests on observational and case-level sources only.
+The syndrome is defined by iron deficiency anemia, dysphagia and esophageal webs. Case reports and reviews describe dysphagia improving, and webs regressing, once iron is replaced. This is partly on-label use (treating the iron deficiency) rather than true repurposing, and benefit for the esophageal manifestations rests on observational and case-level sources only.
 
 **Other predictions:** Non-syndromic esophageal malformation (structural defect), biotin metabolic disease (treated with biotin), vitamin deficiency disorder (iron does not treat vitamin deficiencies) and esophageal disease (too broad and indirect) lack a plausible mechanism or direct evidence.
 
@@ -88,7 +88,6 @@ For reference, trials were retrieved for other predicted indications. None provi
 
 ## Literature Evidence
 
-Plummer-Vinson syndrome (rank 2):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

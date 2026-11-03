@@ -4,17 +4,17 @@ title: Risperidone
 parent: Model Prediction Only (L5)
 nav_order: 407
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-30
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -87,7 +87,6 @@ The top-ranked prediction has no support, but other predictions for this drug ha
 | 3 | Amelocerebrohypohidrotic syndrome | 0.9969 | L5 | None. Antipsychotics can lower the seizure threshold, which is a concern in a population with epilepsy. | Hold |
 | 4 | Phelan-McDermid syndrome | 0.9959 | L4 | 2 publications: a clinical management review and a zebrafish *shank3* study. No human efficacy data for risperidone. | Research Question |
 | 5 | Trichotillomania | 0.9951 | L4 | 9 publications, mostly case reports and small case series of risperidone added to SSRIs. No RCT or registered trial. | Research Question |
-| 6 | Major affective disorder | 0.9911 | L1 | 11 trials and 19 publications. Two completed Phase 3 RCTs of risperidone augmentation in treatment-resistant depression: [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) (n=630) and [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) (n=258). Supported by meta-analyses ([PMID 34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/), [PMID 35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/), [PMID 34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/)). | Proceed with Guardrails |
 
 The disease node for "major affective disorder" mixes unipolar depression and bipolar disorder. The bipolar trials largely reflect existing on-label use, so the repurposing-relevant signal is the depression augmentation data. It is also unclear whether every Phase 3 trial met its primary endpoint.
 
@@ -134,7 +133,7 @@ The top-ranked prediction rests only on a TxGNN model (deep learning) score. The
 **To proceed, the following is needed:**
 - The Medsafe package insert, to complete safety screening (a blocking gap)
 - Detailed mechanism of action data
-- If the aim is productive repurposing, redirect review to the better-supported candidate, major affective disorder (treatment-resistant depression augmentation). That review should include confirmation of Phase 3 primary endpoint outcomes, a metabolic, prolactin, extrapyramidal and somnolence monitoring plan, and verification of the cancelled market status before any regulatory pathway is considered.
+- That review should include confirmation of Phase 3 primary endpoint outcomes, a metabolic, prolactin, extrapyramidal and somnolence monitoring plan, and verification of the cancelled market status before any regulatory pathway is considered.
 - Trichotillomania and Phelan-McDermid syndrome could be handled as research questions only, pending controlled studies.
 ## Disclaimer
 

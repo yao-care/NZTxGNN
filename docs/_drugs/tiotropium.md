@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tiotropium
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 452
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-30
+evidence_level: L5
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "Tiotropium"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **5**
 
 </div>
 
-## Tiotropium: Obstructive lung disease
+## Tiotropium: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tiotropium is an inhaled long-acting bronchodilator originally used for bronchitis, asthma, and pulmonary emphysema.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, but this is effectively an on-label use, because the predicted disease is the parent category of the drug's existing indications.
 The prediction is supported by **38 clinical trials** (many Phase 3) and **20 publications** compiled for this report, including RCTs and meta-analyses.
 
 ---
@@ -49,9 +48,9 @@ The prediction is supported by **38 clinical trials** (many Phase 3) and **20 pu
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L1 |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |

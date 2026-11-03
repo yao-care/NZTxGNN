@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cyclophosphamide
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 125
-evidence_level: L2
-indication_count: 4
+evidence_level: L5
+indication_count: 2
 monitor_inn: "CYCLOPHOSPHAMIDE"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
-last_modified_at: 2026-10-30
-description: "Cyclophosphamide: predicted new indication myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+last_modified_at: 2026-11-03
+description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-## Cyclophosphamide: alkylating agent → myeloid leukemia
+## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Cyclophosphamide is a DNA-alkylating cytotoxic drug used in cancer treatment and in stem cell transplant regimens.
-The TxGNN model predicts it may be useful for **myeloid leukemia**.
 The data compiled for this report include **more than 30 clinical trials** and **20 publications** on this direction. Most of this evidence tests cyclophosphamide inside transplant or combination regimens, not on its own.
 
 ---
@@ -49,9 +48,9 @@ The data compiled for this report include **more than 30 clinical trials** and *
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | myeloid leukemia |
-| TxGNN Prediction Score | 0.9947 |
-| Evidence Level | L2 |
+| Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| TxGNN Prediction Score | 0.9938 |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |

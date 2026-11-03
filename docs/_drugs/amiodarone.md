@@ -4,17 +4,17 @@ title: Amiodarone
 parent: Moderate Evidence (L3-L4)
 nav_order: 34
 evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Ventricular fibrillation"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Amiodarone"
-predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
+predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
+description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Amiodarone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Amiodarone: From Ventricular Fibrillation to Catecholaminergic Polymorphic Ventricular Tachycardia
+## Amiodarone: Catecholaminergic polymorphic ventricular tachycardia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Amiodarone is an antiarrhythmic drug, originally used to treat ventricular fibrillation.
 The TxGNN model's top-ranked prediction is **catecholaminergic polymorphic ventricular tachycardia (CPVT)**, but only **9 publications** (mostly case reports and cohort descriptions, none showing amiodarone efficacy) and **no clinical trials** support it.
-Among the other predictions, **ventricular tachycardia** is far better supported, with **18 clinical trials** and **20 publications**, although this is largely an established use rather than true repurposing.
 
 ---
 
@@ -48,9 +47,9 @@ Among the other predictions, **ventricular tachycardia** is far better supported
 
 | Item | Content |
 |------|------|
-| Original Indication | Ventricular fibrillation (the approved indication text is not recorded in the New Zealand licence data) |
-| Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia (top-ranked); ventricular tachycardia and incessant infant ventricular tachycardia are the better-supported predictions |
-| TxGNN Prediction Score | 0.9978 (CPVT) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 for CPVT (L1 for ventricular tachycardia; L2 for incessant infant ventricular tachycardia) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 3 (valid: 3) |
@@ -64,7 +63,7 @@ Detailed mechanism of action data are not available for this report. Based on kn
 
 **CPVT (rank 1):** CPVT is caused by RYR2 or CASQ2 dysfunction, which leaks calcium during diastole and triggers delayed afterdepolarisations. Amiodarone's calcium-channel and beta-blocking actions offer a plausible but weak link. Guideline-preferred therapy is beta-blockers, with flecainide as an add-on, and amiodarone is generally considered ineffective for CPVT. The retrieved literature contains no direct evidence of amiodarone efficacy in CPVT, so this prediction is best treated as a research question.
 
-**Ventricular tachycardia (rank 3):** This is mechanistically adjacent to the original indication, since ventricular tachycardia can degenerate into ventricular fibrillation. Amiodarone directly suppresses re-entrant ventricular arrhythmias.
+Amiodarone directly suppresses re-entrant ventricular arrhythmias.
 
 **Incessant infant ventricular tachycardia (rank 2):** Paediatric data support amiodarone in refractory incessant tachycardias, but most evidence comes from mixed tachyarrhythmia populations rather than ventricular tachycardia alone.
 
@@ -74,7 +73,7 @@ Detailed mechanism of action data are not available for this report. Based on kn
 
 ## Clinical Trial Evidence
 
-There are currently no clinical trials registered for CPVT. The table below lists the most relevant trials for the better-supported prediction, **ventricular tachycardia**.
+There are currently no clinical trials registered for CPVT.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|

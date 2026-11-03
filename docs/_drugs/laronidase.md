@@ -4,17 +4,17 @@ title: Laronidase
 parent: Model Prediction Only (L5)
 nav_order: 260
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-31
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "LARONIDASE"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
-description: "Laronidase: predicted new indication Lysosomal storage disease with skeletal involvement (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["Sanfilippo syndrome"]
+description: "Laronidase: predicted new indication Sanfilippo syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Laronidase: Lysosomal storage disease with skeletal involvement
+## Laronidase: Sanfilippo syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Laronidase is a recombinant enzyme (alpha-L-iduronidase) originally used as enzyme replacement therapy for mucopolysaccharidosis type I (MPS I), including Hurler, Hurler-Scheie and Scheie syndromes.
-The TxGNN model predicts it may be effective for **lysosomal storage disease with skeletal involvement**, but this largely overlaps with the existing MPS I indication rather than being a true new use.
 Support is limited: **0 clinical trials** and **4 publications** (reviews, one in vitro study and one case report).
 
 ---
@@ -49,8 +48,8 @@ Support is limited: **0 clinical trials** and **4 publications** (reviews, one i
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Lysosomal storage disease with skeletal involvement |
-| TxGNN Prediction Score | 0.9931 |
+| Predicted New Indication | Sanfilippo syndrome |
+| TxGNN Prediction Score | 0.9922 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |
@@ -62,7 +61,7 @@ Support is limited: **0 clinical trials** and **4 publications** (reviews, one i
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, laronidase is a recombinant alpha-L-iduronidase that breaks down the glycosaminoglycans (dermatan sulfate and heparan sulfate) that build up in MPS I. Its efficacy in MPS I is established, and mechanistically it may be applicable to skeletal disease that arises from this storage.
 
-Skeletal involvement (dysostosis multiplex) is a recognised manifestation of MPS I, so the predicted indication overlaps heavily with the approved use. The high score (0.9931) most likely reflects this overlap. An in vitro study showed that cultured fibroblasts and osteoblasts take up laronidase, mainly through mannose 6-phosphate receptors, which suggests a plausible cellular route to bone tissue.
+Skeletal involvement (dysostosis multiplex) is a recognised manifestation of MPS I, so the predicted indication overlaps heavily with the approved use. An in vitro study showed that cultured fibroblasts and osteoblasts take up laronidase, mainly through mannose 6-phosphate receptors, which suggests a plausible cellular route to bone tissue.
 
 There are important limits. Intravenous enzyme penetrates avascular cartilage and bone poorly, and the clinical skeletal response is known to be limited. A 6.5-year follow-up of a boy with Scheie syndrome also reported a decline in overall status and disease progression despite therapy.
 

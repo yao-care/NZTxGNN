@@ -4,17 +4,17 @@ title: Erythromycin
 parent: Model Prediction Only (L5)
 nav_order: 183
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-30
-description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bacterial infections, including acne, otitis media…"
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "ERYTHROMYCIN"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
+description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Erythromycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Erythromycin: From Bacterial Infections (Including Conjunctivitis) to Punctate Epithelial Keratoconjunctivitis
+## Erythromycin: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ but there are **no registered clinical trials** and only **1 publication** (a cl
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections, including acne, otitis media, streptococcal and staphylococcal infections, pneumonia, gonorrhoea, pertussis, urethritis and conjunctivitis (the New Zealand licence record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chloramphenicol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 95
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-30
-description: "Chloramphenicol: predicted new indication Conjunctivitis (evidence level L3). Approved use: Typhoid fever, salmonellosis, paratyphoid fever…"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "CHLORAMPHENICOL"
-predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+description: "Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-## Chloramphenicol: From Typhoid Fever and Other Systemic Infections to Conjunctivitis
+## Chloramphenicol: Diffuse scleroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Chloramphenicol is a broad-spectrum antibiotic originally used for systemic bacterial and rickettsial infections such as typhoid fever, salmonellosis, meningococcal infection and typhus.
-The TxGNN model predicts it may be effective for **conjunctivitis**, with **0 registered clinical trials** and **19 publications** (including 2 comparative studies against other eye antibiotics) currently supporting this direction.
 Topical use in bacterial conjunctivitis is already well established, so this is closer to an existing use than to true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Typhoid fever, salmonellosis, paratyphoid fever, meningococcal infection, streptococcal meningitis, and other infections (the licence records provided carry no approved-indication text) |
-| Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 0.9966 |
-| Evidence Level | L3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Diffuse scleroderma |
+| TxGNN Prediction Score | 0.9965 |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Hold |
@@ -70,16 +69,13 @@ Currently no related clinical trials registered for conjunctivitis.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8353434](https://pubmed.ncbi.nlm.nih.gov/8353434/) | 1993 | RCT | Eur J Ophthalmol | Ciprofloxacin 0.3% eye drops were as safe and effective as chloramphenicol 0.5% in bacterial conjunctivitis and blepharitis; over 90% microbiological improvement in both arms at 1 week |
 | [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Systematic review | Cochrane Database Syst Rev | Interventions for preventing ophthalmia neonatorum (neonatal conjunctivitis) |
 | [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative clinical study | Curr Ther Res | Moxifloxacin compared with chloramphenicol for bacterial eye infections |
-| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | Randomized comparison (single-blind) | Acta Ophthalmol | Fusidic acid 1% vs chloramphenicol 0.5% in acute purulent conjunctivitis: clinical success 84% vs 81%; more trivial side effects with chloramphenicol (14% vs 5%) |
 | [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | Randomized comparison (open) | Acta Ophthalmol | In Tanzania, fusidic acid had higher clinical success (93%) than chloramphenicol (48%) and framycetin (74%), with higher in vitro resistance to chloramphenicol |
 | [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Comparative review of 16 topical ophthalmic antibacterial preparations |
 | [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Safety review | Drug Saf | Debated link between topical ocular chloramphenicol and aplastic anaemia |
 | [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Review/commentary | Eye (Lond) | Use and possible overuse of topical chloramphenicol |
 | [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Commentary | Clin Exp Ophthalmol | Over-the-counter chloramphenicol |
-| [22186318](https://pubmed.ncbi.nlm.nih.gov/22186318/) | 2012 | Preclinical (animal) | Pak J Pharm Sci | Chloramphenicol niosomes compared with 0.5% eye drops in experimental conjunctivitis in rabbits |
 
 ## New Zealand Market Information
 
@@ -109,7 +105,7 @@ Chloramphenicol is not an antineoplastic drug, so cytotoxic-drug classification 
 **Decision: Hold**
 
 **Rationale:**
-Chloramphenicol is already a long-standing topical treatment for bacterial conjunctivitis, with comparative trials showing efficacy similar to other eye antibiotics, so the main prediction is plausible. However, there are no registered trials, both New Zealand licences are cancelled, and the haematological safety concerns are significant. The other predicted indications are unsupported and should not be pursued.
+However, there are no registered trials, both New Zealand licences are cancelled, and the haematological safety concerns are significant. The other predicted indications are unsupported and should not be pursued.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

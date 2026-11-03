@@ -4,17 +4,17 @@ title: Sirolimus
 parent: High Evidence (L1-L2)
 nav_order: 425
 evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-30
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "SIROLIMUS"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -132,7 +132,6 @@ Package insert warnings and contraindications were not available; please refer t
 
 | Predicted Indication | TxGNN Score | Evidence Level | Note |
 |------|------|------|------|
-| Lymphangiomyoma (LAM) | 0.9979 | L5 | Phase 3 MILES trial (NCT00414648, n=89) and Phase 3 early-disease trial (NCT03150914, n=60). LAM is already an original indication, so this is confirmatory rather than true repurposing. Recommendation: Proceed with Guardrails |
 | Lung PEComa | 0.9963 | L5 | Evidence is extrapolated from LAM; recommendation: Proceed with Guardrails |
 | Benign PEComa | 0.9980 | L5 | Mostly case reports and retrospective series; mTORC1 rationale via TSC1/TSC2 loss |
 | Ovarian myxoid liposarcoma, uterine PEComa, renal cell carcinoma variants, vulva sarcoma | 99.6–0.9980 | L5 | Prediction only, no supportive trials or relevant literature |

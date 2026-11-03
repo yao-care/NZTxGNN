@@ -4,17 +4,17 @@ title: Lomustine
 parent: High Evidence (L1-L2)
 nav_order: 275
 evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "LOMUSTINE"
-predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer", "cerebral neuroblastoma", "pediatric cerebral ependymoblastoma", "pediatric infratentorial ependymoblastoma", "childhood brain germinoma", "cerebellopontine angle embryonal tumor", "lymph node cancer", "cerebral sarcoma"]
+predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
 description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Lomustine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---

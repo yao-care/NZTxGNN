@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Terbutaline
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 443
-evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-31
-description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "terbutaline"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Terbutaline
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-## Terbutaline: From Asthma to Obstructive Lung Disease
+## Terbutaline: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Terbutaline is a short-acting bronchodilator originally used for asthma, bronchitis and pulmonary emphysema.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **14 clinical trials** and **20 publications** currently supporting this direction. Most of the trials use terbutaline as a comparator or reliever, so this is better read as confirmation of an existing use than as true repurposing.
+Most of the trials use terbutaline as a comparator or reliever, so this is better read as confirmation of an existing use than as true repurposing.
 
 ---
 
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **obstructive lung disease**, w
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma (other listed uses: intrinsic and allergic asthma, bronchitis, pulmonary emphysema; the regulatory record contains no approved indication text) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 0.9996 |
-| Evidence Level | L1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 0.9952 |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |

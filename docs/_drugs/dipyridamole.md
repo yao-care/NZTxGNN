@@ -4,17 +4,17 @@ title: Dipyridamole
 parent: Model Prediction Only (L5)
 nav_order: 157
 evidence_level: L5
-indication_count: 8
+indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
-predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-10-30
-description: "Dipyridamole: predicted new indication Thrombotic disease (evidence level L5). Approved use: Atrial fibrillation"
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
+last_modified_at: 2026-11-03
+description: "Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,20 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Dipyridamole: Thrombotic Disease
+## Dipyridamole: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Dipyridamole is an antiplatelet and vasodilator drug. Atrial fibrillation is not a label-supported approved indication.
-The TxGNN model predicts it may be effective for **thrombotic disease**, a broad indication that has **no registered clinical trials** and **20 publications**, mostly reviews of antiplatelet drugs that are indirect evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation (a relation recorded in the knowledge graph; no approved indication text in the New Zealand licence) |
-| Predicted New Indication | Thrombotic disease |
-| TxGNN Prediction Score | 0.9994 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |

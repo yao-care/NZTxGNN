@@ -4,17 +4,17 @@ title: Ferrous Sulfate Anhydrous
 parent: Model Prediction Only (L5)
 nav_order: 198
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-31
-description: "Ferrous Sulfate Anhydrous: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Iron deficiency anemia, folic acid defici…"
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "Ferrous sulfate anhydrous"
-predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
+description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ferrous Sulfate Anhydrous
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Ferrous Sulfate Anhydrous: From Iron Deficiency Anemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
+## Ferrous Sulfate Anhydrous: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Iron deficiency anemia, folic acid deficiency anemia, microcytic anemia, hypochromic anemia, anemia of prematurity, vitamin deficiency disorder (no approved indication text in the New Zealand licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
@@ -64,9 +64,8 @@ The link to the predicted indication is weak. Megaloblastic anemia is classicall
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Plummer-Vinson syndrome | 0.9977 | L5 | Biologically plausible: the syndrome combines iron deficiency anemia, dysphagia and upper esophageal webs, and iron repletion is the established standard of care, with case-series reports of improved dysphagia and anemia. Evidence is limited to case reports and small series, with no RCTs. This is effectively an extension of the existing iron deficiency anemia indication, not a novel repurposing. Recommendation: Research Question |
 | 3 | Biotin metabolic disease | 0.9951 | L5 | No established role for iron; these disorders are treated with biotin. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Recommendation: Hold |
-| 4 | Non-syndromic esophageal malformation | 0.9949 | L5 | Structural malformations need surgical or endoscopic management; iron cannot correct them. Likely spurious association via Plummer-Vinson syndrome. Recommendation: Hold |
+| 4 | Non-syndromic esophageal malformation | 0.9949 | L5 | — |
 
 ## Clinical Trial Evidence
 
@@ -101,7 +100,7 @@ Package insert warnings and contraindications have not been obtained. Please ref
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is supported only by a model score, with no trials or literature, and has no plausible iron-dependent mechanism. The one biologically credible candidate, Plummer-Vinson syndrome (rank 2), is essentially an extension of the existing iron deficiency anemia use and is better handled as a research question than as a repurposing decision.
+The top prediction is supported only by a model score, with no trials or literature, and has no plausible iron-dependent mechanism.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

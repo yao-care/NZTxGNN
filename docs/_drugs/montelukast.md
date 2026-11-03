@@ -4,17 +4,17 @@ title: Montelukast
 parent: High Evidence (L1-L2)
 nav_order: 310
 evidence_level: L1
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "MONTELUKAST"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **3** 
+Evidence Level: **L1** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -151,7 +151,6 @@ The TxGNN score is high (0.9995) and the mechanism is plausible. However, the ev
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |------|------|------|------|------|
 | 2 | Atopic eczema | 0.9981 | L1 | Three Phase 4 trials, but the Cochrane review found limited or no clear benefit; keep as a research question |
-| 4 | Obstructive lung disease | 0.9934 | L5 | — |
 
 ## Disclaimer
 

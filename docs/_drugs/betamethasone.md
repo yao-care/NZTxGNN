@@ -4,17 +4,17 @@ title: Betamethasone
 parent: High Evidence (L1-L2)
 nav_order: 63
 evidence_level: L2
-indication_count: 8
-last_modified_at: 2026-10-30
-description: "Betamethasone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease…"
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "Betamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **8** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,19 @@ Evidence Level: **L2** | Predicted Indications: **8**
 
 </div>
 
-## Betamethasone: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+## Betamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Betamethasone is a synthetic glucocorticoid originally used for inflammatory and autoimmune conditions such as autoimmune disease, Crohn disease, adrenocortical insufficiency and skin disorders.
-The TxGNN model predicts it may be effective for **Alopecia Areata**,
-with **6 clinical trials** (1 completed Phase 2) and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease, inflammatory bowel disease (including Crohn disease), adrenocortical insufficiency, tinea pedis, exanthem (the New Zealand licence records contain no approved indication text) |
-| Predicted New Indication | Alopecia areata |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
@@ -68,9 +66,6 @@ Caveats: relapse after withdrawal is common, and long-term systemic steroid use 
 |---------|------|------|------|---------|
 | [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Phase 2 | Completed | 60 | Weekly azathioprine pulse vs oral betamethasone mini-pulse in moderate to severe alopecia areata |
 | [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Phase 4 | Completed | 50 | Topical latanoprost vs topical corticosteroid (betamethasone) in localized alopecia areata |
-| [NCT05803070](https://clinicaltrials.gov/study/NCT05803070) | N/A | Unknown | 59 | Topical cetirizine 1% vs topical betamethasone valerate 0.1% in localized alopecia areata |
-| [NCT06087796](https://clinicaltrials.gov/study/NCT06087796) | Phase 1 | Unknown | 60 | Topical pentoxifylline and metformin vs betamethasone valerate 0.1% cream in patchy alopecia areata |
-| [NCT07696585](https://clinicaltrials.gov/study/NCT07696585) | N/A | Not yet recruiting | 60 | Topical metformin 30%, simvastatin 2% and betamethasone valerate 0.1% in patchy alopecia areata; no results yet |
 | [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Phase 4 | Recruiting | 250 | Treatment outcomes in central centrifugal cicatricial alopecia; a different disease, so only indirect relevance |
 
 ## Literature Evidence

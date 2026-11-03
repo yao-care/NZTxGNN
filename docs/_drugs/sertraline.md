@@ -4,17 +4,17 @@ title: Sertraline
 parent: Model Prediction Only (L5)
 nav_order: 422
 evidence_level: L5
-indication_count: 8
-last_modified_at: 2026-10-30
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "SERTRALINE"
-predicted_indications: ["histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+predicted_indications: ["histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -90,7 +90,7 @@ Please refer to the package insert for the full warnings and contraindications.
 **Rationale:**
 The prediction for histrionic personality disorder has a very high model score but no supporting trials or literature (L5).
 
-Among the other predictions compiled for this drug, **agoraphobia** has far stronger support. It has randomized trials and network meta-analyses in panic disorder with or without agoraphobia, but this is largely an extension of sertraline's existing anxiety uses rather than a new repurposing. The personality-disorder predictions (schizoid, schizotypal, paranoid, dependent, narcissistic) have only indirect, low-quality evidence.
+It has randomized trials and network meta-analyses in panic disorder with or without agoraphobia, but this is largely an extension of sertraline's existing anxiety uses rather than a new repurposing. The personality-disorder predictions (schizoid, schizotypal, paranoid, dependent, narcissistic) have only indirect, low-quality evidence.
 
 **To proceed, the following is needed:**
 - Targeted literature and trial searches specific to histrionic personality disorder

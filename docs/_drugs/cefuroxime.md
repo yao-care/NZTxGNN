@@ -4,17 +4,17 @@ title: Cefuroxime
 parent: Model Prediction Only (L5)
 nav_order: 90
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-31
-description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Infectious otitis media, bacterial pneumonia, bacterial meningitis…"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "cefuroxime"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cefuroxime
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Cefuroxime: From Bacterial Infections to Hyperamylasemia
+## Cefuroxime: Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,9 +48,9 @@ The rank 1 prediction, **hyperamylasemia**, has no supporting evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Infectious otitis media, bacterial pneumonia, bacterial meningitis, gonorrhoea, Lyme disease and other bacterial infections (approved indication text is not available for the New Zealand licence) |
-| Predicted New Indication | Hyperamylasemia (rank 1); the best-supported prediction is urinary tract infection (rank 6) |
-| TxGNN Prediction Score | 0.9976 (hyperamylasemia); 0.9962 (urinary tract infection) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hyperamylasemia |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 (hyperamylasemia); L3 (urinary tract infection) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |

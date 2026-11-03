@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Icatibant
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 228
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-30
-description: "Icatibant: predicted new indication C1 inhibitor deficiency (evidence level L1). Approved use: Hereditary angioedema"
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "ICATIBANT"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+description: "Icatibant: predicted new indication Serpinopathy with toxic serpin polymerization (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Icatibant
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-## Icatibant: From Hereditary Angioedema to C1 Inhibitor Deficiency
+## Icatibant: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Icatibant is a bradykinin B2 receptor antagonist, originally used to treat acute attacks of hereditary angioedema (HAE), including HAE with C1 inhibitor deficiency.
-The TxGNN model predicts it may be effective for **C1 inhibitor deficiency**, with **12 clinical trials** (several of them Phase 3) and **20 publications** supporting this direction.
 This is largely on-label use rather than true repurposing, so the evidence is strong.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hereditary angioedema; hereditary angioedema with C1 inhibitor deficiency |
-| Predicted New Indication | C1 inhibitor deficiency |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Serpinopathy with toxic serpin polymerization |
 | TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L1 |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
@@ -60,7 +59,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 In C1 inhibitor deficiency, whether hereditary or acquired, kallikrein activity is not properly controlled and too much bradykinin is produced. Bradykinin drives the swelling attacks. By blocking its receptor, icatibant acts on the final step of this pathway.
 
-The predicted indication corresponds closely to the original one: hereditary angioedema with C1 inhibitor deficiency is already an established use. The trial evidence is mainly in hereditary disease. Acquired C1 inhibitor deficiency shares the same bradykinin-driven mechanism, and a small real-world study (8 patients) reported icatibant use in it, but controlled evidence there is lacking.
+The trial evidence is mainly in hereditary disease. Acquired C1 inhibitor deficiency shares the same bradykinin-driven mechanism, and a small real-world study (8 patients) reported icatibant use in it, but controlled evidence there is lacking.
 
 Six other predictions (serpinopathy with toxic serpin polymerization, pseudo-von Willebrand disease, primary release disorder of platelets, immune-mediated necrotizing myopathy, antisynthetase syndrome, Glanzmann thrombasthenia) have high model scores but no trials or literature. They have no plausible bradykinin-mediated mechanism and are rated Hold (L5, model prediction only).
 

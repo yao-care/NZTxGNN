@@ -4,17 +4,17 @@ title: Ascorbic Acid
 parent: Model Prediction Only (L5)
 nav_order: 46
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 9
+last_modified_at: 2026-11-03
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "ASCORBIC ACID"
-predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "vitamin deficiency disorder"]
+predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected"]
 ---
 
 # Ascorbic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -70,7 +70,6 @@ Currently, detailed mechanism of action data is not available. Based on known in
 - **Injury (L2):** Antioxidant and collagen-supporting actions are plausible for oxidative-stress-driven tissue damage (sepsis-induced lung injury, burns, trauma, surgical injury, wound healing). Evidence is mixed, and the sepsis trial literature includes notable failures.
 - **Esophageal disease (L4):** Ascorbic acid inhibits N-nitrosamine formation, which is relevant to esophageal cancer epidemiology. However, a rat acid-reflux model showed *enhanced* esophageal carcinogenesis when ascorbic acid was combined with sodium nitrite, which is a safety signal.
 - **Perinatal disease (L4):** There is a biological rationale in neonatal hypoxic-ischaemic injury, but the evidence is one small trial of a combination therapy plus preclinical work.
-- **Vitamin deficiency disorder (L3):** This is essentially the drug's original use, so it is not true repurposing.
 
 ---
 

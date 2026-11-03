@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: High Evidence (L1-L2)
 nav_order: 283
 evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-30
-description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not stated in the available New Zealand licence data"
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "MEFENAMIC ACID"
-predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ Evidence Level: **L2** | Predicted Indications: **7**
 
 </div>
 
-## Mefenamic Acid: From Pain and Inflammation (NSAID) to Rheumatoid Arthritis
+## Mefenamic Acid: Headache disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mefenamic acid is a nonsteroidal anti-inflammatory drug (NSAID) that is marketed in New Zealand as Ponstan capsules.
-The TxGNN model predicts it may be effective for **rheumatoid arthritis**,
-with **no registered clinical trials** but **20 publications** (several older double-blind comparative trials) supporting symptomatic benefit.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the available New Zealand licence data |
-| Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 0.9973 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Headache disorder |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L2 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 2 (valid: 2) |

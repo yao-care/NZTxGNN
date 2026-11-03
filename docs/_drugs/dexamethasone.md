@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexamethasone
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 144
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 monitor_inn: "DEXAMETHASONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-last_modified_at: 2026-10-30
-description: "Dexamethasone: predicted new indication alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+last_modified_at: 2026-11-03
+description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Dexamethasone: Systemic corticosteroid (glucocorticoid) → alopecia areata
+## Dexamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Dexamethasone is a potent glucocorticoid that suppresses immune and inflammatory activity.
-The TxGNN model predicts it may be effective for **alopecia areata**, with **0 registered clinical trials** and **20 publications** retrieved, including one randomized controlled trial in children, several cohort studies and a network meta-analysis.
 The literature mainly supports oral mini-pulse dexamethasone as a rescue or alternative option rather than a first-line treatment.
 
 ## Quick Overview
@@ -47,9 +46,9 @@ The literature mainly supports oral mini-pulse dexamethasone as a rescue or alte
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | alopecia areata |
+| Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L2 |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 8 (valid: 8) |
 | Recommended Decision | Proceed with Guardrails |

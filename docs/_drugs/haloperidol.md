@@ -4,17 +4,17 @@ title: Haloperidol
 parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "HALOPERIDOL"
-predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -98,7 +98,7 @@ The prediction rests only on a model score, with no clinical trials, no literatu
 - Package insert warnings and contraindications, which are currently missing and block formal safety screening
 - Confirmation of local product availability, since the drug is marketed in New Zealand with 6 valid licences out of 6
 
-**Note on other predictions:** Lower-ranked predictions for haloperidol include manic bipolar affective disorder (score 0.9983, rank 10 in the list). It has supporting Phase 3 trials and network meta-analyses and is rated "Proceed with Guardrails". However, the supplied trials mostly test other drugs, with haloperidol as a comparator in only one. It is an on-class extension of existing antipsychotic use rather than a true repurposing. If the team wants to advance a candidate, that indication would be the more evidence-supported one to review separately.
+It has supporting Phase 3 trials and network meta-analyses and is rated "Proceed with Guardrails". However, the supplied trials mostly test other drugs, with haloperidol as a comparator in only one. It is an on-class extension of existing antipsychotic use rather than a true repurposing. If the team wants to advance a candidate, that indication would be the more evidence-supported one to review separately.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

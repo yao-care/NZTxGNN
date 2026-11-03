@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Albendazole
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 24
-evidence_level: L2
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 monitor_inn: "ALBENDAZOLE"
-predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
-last_modified_at: 2026-10-30
-description: "Albendazole: predicted new indication alveolar echinococcosis (evidence level L2). Approved use: Not recorded in the local data"
+predicted_indications: ["coenurosis"]
+last_modified_at: 2026-11-03
+description: "Albendazole: predicted new indication Coenurosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Albendazole
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,21 @@ Evidence Level: **L2** | Predicted Indications: **3**
 
 </div>
 
-## Albendazole: benzimidazole anthelmintic (β-tubulin inhibitor) → alveolar echinococcosis
+## Albendazole: Coenurosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Albendazole is a benzimidazole anthelmintic that acts on parasite tubulin. The TxGNN model predicts it may be effective for **alveolar echinococcosis**, and the data compiled for this report include **3 clinical trials** (one completed Phase 2 trial in early-stage alveolar echinococcosis) and **20 publications**, mostly reviews, that point in this direction.
+Albendazole is a benzimidazole anthelmintic that acts on parasite tubulin.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | alveolar echinococcosis |
-| TxGNN Prediction Score | 0.9997 |
-| Evidence Level | L2 |
+| Predicted New Indication | Coenurosis |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |

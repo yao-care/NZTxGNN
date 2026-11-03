@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nystatin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 330
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-30
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "NYSTATIN"
-predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-description: "Nystatin: predicted new indication Vulvovaginitis (evidence level L3). Approved use: Not recorded in the local data"
+predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+description: "Nystatin: predicted new indication Disease of orbital region (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nystatin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Nystatin: Vulvovaginitis
+## Nystatin: Disease of orbital region
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nystatin is a polyene antifungal originally used to treat cutaneous, oral and vulvovaginal candidiasis.
-The TxGNN model predicts it may be effective for **vulvovaginitis**, but this is largely a restatement of its existing candidiasis use.
 Support comes from **0 clinical trials** and **20 publications**, mostly reviews and guidelines on vulvovaginal candidiasis.
 
 ## Quick Overview
@@ -47,9 +46,9 @@ Support comes from **0 clinical trials** and **20 publications**, mostly reviews
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 0.9992 |
-| Evidence Level | L3 |
+| Predicted New Indication | Disease of orbital region |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |

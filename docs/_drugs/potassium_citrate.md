@@ -4,17 +4,17 @@ title: Potassium Citrate
 parent: Model Prediction Only (L5)
 nav_order: 374
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-31
-description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Potassium deficiency disease, renal tubular acidosis…"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "POTASSIUM CITRATE"
-predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
+predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
+description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Potassium Citrate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Potassium Citrate: From Potassium Deficiency and Renal Tubular Acidosis to Familial Visceral Myopathy
+## Potassium Citrate: Familial visceral myopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,9 +47,9 @@ The TxGNN model's top-ranked prediction is **familial visceral myopathy**, but i
 
 | Item | Content |
 |------|------|
-| Original Indication | Potassium deficiency disease, renal tubular acidosis, acute urate nephropathy (the New Zealand licence record has no approved indication text) |
-| Predicted New Indication | Familial visceral myopathy (top-ranked); nephrolithiasis (best-supported, rank 4) |
-| TxGNN Prediction Score | 0.9995 (familial visceral myopathy); 0.9975 (nephrolithiasis) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Familial visceral myopathy |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 (familial visceral myopathy); L2 (nephrolithiasis) |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 1 (valid: 1) |
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available. Based on known information, 
 
 **Familial visceral myopathy (top prediction).** The high score (0.9995) is a computational output only. No plausible mechanistic link between potassium citrate and visceral smooth muscle myopathy is established. Hypokalemia could in theory affect gut motility, but this is speculative.
 
-**Nephrolithiasis (best-supported prediction).** The rationale is strong. Potassium citrate raises urinary pH and urinary citrate. Citrate chelates calcium and inhibits calcium salt crystallization and uric acid stone formation. This fits the original indications of renal tubular acidosis and acute urate nephropathy, which are linked to stone risk.
+Potassium citrate raises urinary pH and urinary citrate. Citrate chelates calcium and inhibits calcium salt crystallization and uric acid stone formation. This fits the original indications of renal tubular acidosis and acute urate nephropathy, which are linked to stone risk.
 
 **Other predictions.** Several others are supportive-care ideas rather than disease-modifying ones. Examples are cystinosis, adult Fanconi syndrome (bicarbonate and potassium wasting) and exocrine pancreatic insufficiency (urinary oxalate and citrate complications). Others, such as mitochondrial disorders, Pendred syndrome, nonsyndromic deafness and leukocyte adhesion deficiency, have no credible mechanistic link in the data.
 
