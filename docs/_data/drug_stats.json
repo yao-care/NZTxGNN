@@ -2,11 +2,11 @@
   "generated": "2026-11-03",
   "total_drugs": 460,
   "level_counts": {
-    "L1": 13,
+    "L1": 10,
     "L2": 23,
     "L3": 18,
-    "L4": 33,
-    "L5": 361
+    "L4": 34,
+    "L5": 363
   },
   "all_drugs": [
     {
@@ -1440,7 +1440,7 @@
     {
       "name": "Letrozole",
       "slug": "letrozole",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 4
     },
     {
@@ -1494,7 +1494,7 @@
     {
       "name": "Lomustine",
       "slug": "lomustine",
-      "level": "L2",
+      "level": "L4",
       "indication_count": 3
     },
     {
@@ -1704,7 +1704,7 @@
     {
       "name": "Montelukast",
       "slug": "montelukast",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 2
     },
     {
@@ -2256,7 +2256,7 @@
     {
       "name": "Rifabutin",
       "slug": "rifabutin",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 10
     },
     {
