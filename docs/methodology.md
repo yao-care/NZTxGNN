@@ -24,7 +24,7 @@ the evidence is graded from L1 to L5, and finally a decision recommendation is i
 
 <ol class="actionable-steps">
 <li><strong>TxGNN prediction</strong>: drug&ndash;disease relationships predicted by a graph neural network trained on a knowledge graph.</li>
-<li><strong>Evidence collection</strong>: for each predicted pair, evidence is gathered from ClinicalTrials.gov, PubMed, DrugBank and Medsafe.</li>
+<li><strong>Evidence collection</strong>: for each predicted pair, evidence is gathered from ClinicalTrials.gov, PubMed, DrugBank and the Pharmac Community Pharmaceutical Schedule.</li>
 <li><strong>Evidence grading</strong>: graded L1 to L5, where L1 is strongest (multiple Phase 3 RCTs) and L5 is model prediction only.</li>
 <li><strong>Decision recommendation</strong>: Go, Proceed, Consider, Explore or Hold, based on the evidence level.</li>
 </ol>
@@ -60,9 +60,9 @@ TxGNN's deep learning (DL) model scores drug–disease pairs. Indications and co
 
 ---
 
-## Regulatory data integration
+## Local drug data integration
 
-Drug approval data for New Zealand comes from Medsafe. Ingredient names are mapped to the
+Drug data for New Zealand comes from the Pharmac Community Pharmaceutical Schedule. Ingredient names are mapped to the
 DrugBank vocabulary; ingredients that cannot be mapped — herbal extracts, vaccines, excipients
 and others not catalogued by DrugBank — are excluded from prediction.
 
