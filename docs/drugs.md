@@ -36,6 +36,8 @@ This list is based on the [Pharmac Community Pharmaceutical Schedule](https://sc
 
 <!-- local-home:end -->
 
+Shortlist: [New Zealand medicines with clinical-trial evidence for a new indication]({{ '/clinical-trial-evidence/' | relative_url }}) (L1–L2, with the predicted indication and the number of registered trials cited).
+
 ## Evidence level breakdown
 
 | Evidence level | Drugs | Description |
