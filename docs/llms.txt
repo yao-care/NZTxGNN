@@ -5,7 +5,7 @@
 ## Purpose
 
 - Built on the TxGNN method published by Harvard's Zitnik Lab, exploring possible links between existing drugs and new indications.
-- Model predictions are combined with ClinicalTrials.gov, PubMed, DrugBank, Medsafe data and DDInter into traceable reports.
+- Model predictions are combined with ClinicalTrials.gov, PubMed, DrugBank, Pharmac Schedule data and DDInter into traceable reports.
 - Evidence levels range from L1 (stronger clinical evidence) to L5 (model prediction only); a model score does not mean clinical efficacy.
 - Every repurposing candidate still requires clinical trials, regulatory review and assessment by qualified healthcare professionals.
 
