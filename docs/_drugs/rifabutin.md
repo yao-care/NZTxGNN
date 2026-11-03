@@ -38,8 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Rifabutin is a rifamycin antibacterial that inhibits bacterial DNA-dependent RNA polymerase (rpoB).
-The TxGNN model predicts it for **HIV infectious disease**, but the evidence level is **L5**: the 33 clinical trials and 20 publications compiled for this report study tuberculosis, *Mycobacterium avium* complex (MAC) or drug interactions in people with HIV, and none treats HIV infection itself.
+Rifabutin is a rifamycin antibiotic that inhibits bacterial DNA-dependent RNA polymerase. The TxGNN model predicts it may be useful for **HIV infectious disease**, with a score of 0.9988. The data compiled for this report include **35 registered clinical trials** and **20 publications** linked to HIV, but none of them tests rifabutin as a treatment for HIV infection itself. They cover mycobacterial infections in people with HIV, and drug-interaction and pharmacokinetic work with antiretrovirals. The evidence level for this prediction is therefore **L5**.
 
 ## Quick Overview
 
@@ -55,43 +54,43 @@ The TxGNN model predicts it for **HIV infectious disease**, but the evidence lev
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, rifabutin inhibits bacterial RNA polymerase and has **no direct anti-HIV activity**.
+Detailed mechanism-of-action data were not available in the data compiled for this report. Rifabutin belongs to the rifamycin class and is known to inhibit bacterial DNA-dependent RNA polymerase (rpoB). It has **no direct anti-HIV activity**.
 
-Its value in people with HIV is indirect: it treats and prevents HIV-associated mycobacterial opportunistic infections such as disseminated MAC and tuberculosis. It is a weaker CYP3A4 inducer than rifampin, so it is often preferred for patients taking protease inhibitors, with dose adjustment.
+The link to HIV is indirect. People with advanced HIV are prone to mycobacterial opportunistic infections, such as disseminated *Mycobacterium avium* complex and tuberculosis. Rifabutin is a weaker inducer of the liver enzyme CYP3A4 than rifampicin. That makes it a practical rifamycin for patients taking protease inhibitors and some other antiretrovirals, usually with dose adjustment.
 
-The prediction is therefore best read as "HIV-associated mycobacterial disease" rather than treatment of HIV itself. Because no cited study addresses HIV infection as the disease being treated, the evidence level is capped at L5.
+The high prediction score is probably capturing this frequent co-occurrence of rifabutin and HIV care. It does not show that rifabutin treats HIV infection. If the idea is pursued, it is better framed as **HIV-associated mycobacterial disease and its co-treatment with antiretrovirals** than as treatment of HIV itself.
 
 ## Clinical Trial Evidence
 
-The trials below involve people with HIV, but they address MAC, tuberculosis or drug interactions, not HIV infection itself. Up to 10 of the most relevant are listed.
+No listed trial tests rifabutin as an anti-HIV treatment. The trials below are the most relevant ones. They address mycobacterial disease in people with HIV, or the pharmacokinetics and interactions of rifabutin with antiretroviral therapy.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00002101](https://clinicaltrials.gov/study/NCT00002101) | Phase 3 | Completed | 450 | Clarithromycin/ethambutol with rifabutin (two doses) or placebo for MAC bacteremia in AIDS |
-| [NCT00001047](https://clinicaltrials.gov/study/NCT00001047) | Phase 3 | Completed | 400 | Four regimens including rifabutin or clofazimine for disseminated MAC in AIDS |
+| [NCT00002101](https://clinicaltrials.gov/study/NCT00002101) | Phase 3 | Completed | 450 | Three-arm comparison of clarithromycin/ethambutol with placebo or rifabutin (two doses) for MAC bacteremia in AIDS |
+| [NCT00001047](https://clinicaltrials.gov/study/NCT00001047) | Phase 3 | Completed | 400 | Four regimens containing clarithromycin, ethambutol and either rifabutin or clofazimine for disseminated MAC in AIDS |
 | [NCT00001995](https://clinicaltrials.gov/study/NCT00001995) | Not labelled | Completed | 200 | Double-blind trial of a rifabutin regimen for MAC bacteremia in AIDS |
-| [NCT00001058](https://clinicaltrials.gov/study/NCT00001058) | Phase 2 | Completed | 246 | Clarithromycin combined with rifabutin, ethambutol, or both for disseminated MAC |
-| [NCT00001030](https://clinicaltrials.gov/study/NCT00001030) | Phase 3 | Completed | 1100 | Clarithromycin vs rifabutin vs combination to prevent MAC in HIV-infected patients |
-| [NCT00002122](https://clinicaltrials.gov/study/NCT00002122) | Phase 3 | Completed | 720 | Azithromycin and rifabutin, alone and combined, to prevent disseminated MAC |
-| [NCT00640887](https://clinicaltrials.gov/study/NCT00640887) | Phase 2 | Completed | 48 | Rifabutin pharmacokinetics with antiretroviral therapy in TB/HIV (South Africa) |
-| [NCT00651066](https://clinicaltrials.gov/study/NCT00651066) | Phase 2 | Completed | 47 | Rifabutin pharmacokinetics with antiretroviral therapy in TB/HIV (Vietnam) |
-| [NCT00023361](https://clinicaltrials.gov/study/NCT00023361) | Not labelled | Completed | 215 | Intermittent rifabutin-based regimen for HIV-related tuberculosis |
-| [NCT00001023](https://clinicaltrials.gov/study/NCT00001023) | Not labelled | Completed | 91 | Safety and pharmacokinetics of rifabutin with clarithromycin or azithromycin in HIV patients |
+| [NCT00023361](https://clinicaltrials.gov/study/NCT00023361) | Not applicable | Completed | 215 | Intermittent rifabutin-based regimen for HIV-related tuberculosis (failure and relapse rates) |
+| [NCT00651066](https://clinicaltrials.gov/study/NCT00651066) | Phase 2 | Completed | 47 | Rifabutin pharmacokinetics with antiretroviral therapy in TB/HIV patients in Vietnam |
+| [NCT00640887](https://clinicaltrials.gov/study/NCT00640887) | Phase 2 | Completed | 48 | Rifabutin pharmacokinetics with antiretroviral therapy in TB/HIV patients in South Africa |
+| [NCT01601626](https://clinicaltrials.gov/study/NCT01601626) | Phase 2 | Terminated | 71 | Lopinavir/ritonavir with rifabutin versus a rifampin-based approach in HIV-related TB |
+| [NCT03478033](https://clinicaltrials.gov/study/NCT03478033) | Not applicable | Unknown | 230 | Rifampicin versus rifabutin in standard TB treatment for HIV/AIDS patients with pulmonary TB |
+| [NCT00000877](https://clinicaltrials.gov/study/NCT00000877) | Phase 1 | Completed | 31 | Steady-state interaction of indinavir and rifabutin |
+| [NCT00023400](https://clinicaltrials.gov/study/NCT00023400) | Phase 4 | Completed | 20 | Nelfinavir–rifabutin pharmacokinetic interaction in HIV-related TB |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23828580](https://pubmed.ncbi.nlm.nih.gov/23828580/) | 2013 | Systematic review | Cochrane Database Syst Rev | Rifamycins vs isoniazid for preventing TB in HIV-negative people at risk |
-| [31139825](https://pubmed.ncbi.nlm.nih.gov/31139825/) | 2019 | Cohort | J Antimicrob Chemother | Safety and efficacy of rifabutin in HIV/TB-coinfected children on lopinavir/ritonavir |
-| [33294914](https://pubmed.ncbi.nlm.nih.gov/33294914/) | 2021 | Cohort | J Antimicrob Chemother | Rifabutin pharmacokinetics and safety in TB/HIV children; earlier work stopped for severe neutropenia |
-| [21819645](https://pubmed.ncbi.nlm.nih.gov/21819645/) | 2012 | Review | Int J Tuberc Lung Dis | Rifabutin as an alternative to rifampicin with protease-inhibitor-based ART |
-| [17181373](https://pubmed.ncbi.nlm.nih.gov/17181373/) | 2006 | Review | Drugs | Practical approach to TB/HIV co-infection treatment |
-| [10456381](https://pubmed.ncbi.nlm.nih.gov/10456381/) | 1999 | Review | Drug Saf | Risk-benefit of therapies for MAC infections, including rifabutin |
-| [8785257](https://pubmed.ncbi.nlm.nih.gov/8785257/) | 1996 | Review | Clin Infect Dis | Rifabutin in pulmonary TB, including HIV-infected patients |
-| [36385424](https://pubmed.ncbi.nlm.nih.gov/36385424/) | 2023 | Pharmacokinetic model | Br J Clin Pharmacol | Rifabutin–dolutegravir interaction model |
+| [33294914](https://pubmed.ncbi.nlm.nih.gov/33294914/) | 2021 | Cohort | J Antimicrob Chemother | Rifabutin pharmacokinetics and safety in TB/HIV-coinfected children on lopinavir/ritonavir; an earlier paediatric study was stopped early because of severe neutropenia |
+| [31139825](https://pubmed.ncbi.nlm.nih.gov/31139825/) | 2019 | Cohort | J Antimicrob Chemother | Safety and efficacy of rifabutin in HIV/TB-coinfected children on lopinavir/ritonavir-based ART |
+| [39037240](https://pubmed.ncbi.nlm.nih.gov/39037240/) | 2024 | Pharmacokinetic model | Antimicrob Agents Chemother | Population pharmacokinetics and dose optimisation of rifabutin in children on lopinavir/ritonavir |
+| [21819645](https://pubmed.ncbi.nlm.nih.gov/21819645/) | 2012 | Review | Int J Tuberc Lung Dis | Whether rifabutin can replace rifampicin alongside protease-inhibitor ART |
+| [36385424](https://pubmed.ncbi.nlm.nih.gov/36385424/) | 2023 | Pharmacokinetic model | Br J Clin Pharmacol | Interaction between rifabutin and dolutegravir |
 | [36377436](https://pubmed.ncbi.nlm.nih.gov/36377436/) | 2023 | Modelling study | Clin Infect Dis | Managing interactions between long-acting cabotegravir/rilpivirine and inducers such as rifabutin |
-| [39037240](https://pubmed.ncbi.nlm.nih.gov/39037240/) | 2024 | Pharmacokinetic study | Antimicrob Agents Chemother | Population pharmacokinetics and dosing of rifabutin in HIV/TB children on lopinavir/ritonavir |
+| [8785257](https://pubmed.ncbi.nlm.nih.gov/8785257/) | 1996 | Review | Clin Infect Dis | Rifabutin in pulmonary TB, including HIV-infected patients |
+| [17181373](https://pubmed.ncbi.nlm.nih.gov/17181373/) | 2006 | Review | Drugs | Practical approach to treating TB and HIV co-infection |
+| [10456381](https://pubmed.ncbi.nlm.nih.gov/10456381/) | 1999 | Review | Drug Saf | Risk–benefit of therapies for MAC infection, including rifabutin |
+| [9016372](https://pubmed.ncbi.nlm.nih.gov/9016372/) | 1996 | Review | Clin Chest Med | Mycobacterial complications of HIV infection |
 
 ## New Zealand Market Information
 
@@ -99,25 +98,35 @@ The trials below involve people with HIV, but they address MAC, tuberculosis or 
 |---------|------|------|-----------|
 | 219924 | Mycobutin | Cap 150 mg | Not recorded (licence valid) |
 
+The market status is marketed. One licence is on record and it is valid.
+
 ## Safety Considerations
 
-- **Drug Interactions**: 100 interactions were found. Notable examples include **Major**: eliglustat; **Moderate**: clarithromycin, doxycycline, metronidazole, dexamethasone, hydrocortisone, pioglitazone, aprepitant, morphine and several others.
-- **Reported cautions from the compiled evidence**: rifabutin can cause neutropenia (treatment-limiting in some HIV/TB children on protease inhibitors), uveitis and hepatotoxicity. Dose adjustment and therapeutic drug monitoring are needed with protease inhibitors, cabotegravir/rilpivirine and other antiretrovirals.
+Package-insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
 
-Please refer to the package insert for full safety information.
+**Safety signals from the literature:**
+- Neutropenia was reported in children given rifabutin with protease-inhibitor-based ART (PMIDs 33294914, 31139825).
+- Uveitis and hepatotoxicity are recognised concerns and should be monitored.
+
+**Drug interactions** (100 interactions were recorded; the main ones are listed):
+- **Major:** eliglustat.
+- **Moderate:** clarithromycin, doxycycline, metronidazole, aprepitant, morphine, and corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone). Also pioglitazone, saxagliptin, linagliptin, chlorpropamide, acetohexamide, and vitamin D forms (cholecalciferol, calcifediol, calcitriol).
+- **Minor:** dolasetron.
+- Trial and modelling data show that rifabutin interacts with several antiretrovirals, including protease inhibitors, cabotegravir/rilpivirine and dolutegravir. Dose adjustment and drug-level monitoring are usually needed.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Rifabutin has no antiviral mechanism, and no cited study treats HIV infection itself; the evidence concerns HIV-associated mycobacterial infections and drug interactions, so the evidence level is L5. The high model score alone does not support a new HIV indication.
+- No cited study tests rifabutin as a treatment for HIV infection itself. The evidence concerns mycobacterial infections in people with HIV and antiretroviral interactions, so the evidence level for this prediction is L5.
+- Rifabutin has no antiviral mechanism. The high score is best read as an association with HIV-associated mycobacterial disease, not as support for anti-HIV efficacy.
 
 **To proceed, the following is needed:**
-- A clearer definition of the target, such as HIV-associated MAC or tuberculosis, with studies that directly test that question
-- Mechanism of action data
-- Package insert warnings and contraindications for the New Zealand product
-- A dosing and monitoring plan for interactions with antiretrovirals, and for neutropenia and uveitis
+- A clear scientific rationale and a direct study of rifabutin's effect on HIV disease, if anti-HIV use is to be pursued. Otherwise, reframe the question around HIV-associated mycobacterial disease.
+- Package-insert warnings and contraindications from Medsafe.
+- Mechanism-of-action data from DrugBank.
+- A drug-interaction management plan (dose adjustment and drug-level monitoring) for protease inhibitors, cabotegravir/rilpivirine and other antiretrovirals, with monitoring for neutropenia, uveitis and hepatotoxicity.
 
 ## Disclaimer
 
