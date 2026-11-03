@@ -6,7 +6,7 @@
 [![Website](https://img.shields.io/badge/Website-nztxgnn.yao.care-blue)](https://nztxgnn.yao.care)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Drug repurposing predictions for New Zealand Medsafe-approved drugs using the TxGNN model.
+Drug repurposing predictions for medicines on the New Zealand Pharmac Community Pharmaceutical Schedule using the TxGNN model.
 
 ## Disclaimer
 
@@ -73,7 +73,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Metric | Value |
 |------|------|
-| Medsafe Total Drugs | 2,419 |
+| Pharmac Schedule Total Drugs | 2,419 |
 | Mapped to DrugBank | 1,547 (64.0%) |
 | Repurposing Candidates | 3,837 |
 
@@ -131,7 +131,7 @@ The TxGNN score represents the model's confidence in a drug-disease pair, rangin
 flowchart TD
     A["TxGNN Prediction Results"] --> B
     subgraph B["Step 1: DrugBundle Collector"]
-        B1["Drug-level: Medsafe, DDI, DrugBank"]
+        B1["Drug-level: Pharmac, DDI, DrugBank"]
         B2["Indication-level: ClinicalTrials, PubMed, ICTRP"]
     end
     B --> |"drug_bundle.json"| C
@@ -154,7 +154,7 @@ flowchart TD
 
 | File | Download |
 |------|------|
-| Medsafe Data | [PHARMAC Community Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/latest/CPSReporting.xlsx) |
+| Pharmac Data | [PHARMAC Community Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/latest/CPSReporting.xlsx) |
 | node.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144482) |
 | kg.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144484) |
 | edges.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144483) |
@@ -216,7 +216,7 @@ PYTHONPATH=src python -m nztxgnn.predict.txgnn_model
 
 | Category | Data | Source | Note |
 |------|------|------|------|
-| **Drug Data** | Medsafe | [PHARMAC Community Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/latest/CPSReporting.xlsx) | New Zealand |
+| **Drug Data** | Pharmac | [PHARMAC Community Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/latest/CPSReporting.xlsx) | New Zealand |
 | **Knowledge Graph** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Drug Database** | DrugBank | [DrugBank](https://go.drugbank.com/) | Drug ingredient mapping |
 | **Drug Interactions** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI pairs |
@@ -302,7 +302,7 @@ NZTxGNN/
 
 ```mermaid
 flowchart TD
-    FDA["Medsafe Data"] --> proc["process_fda_data.py"]
+    FDA["Pharmac Data"] --> proc["process_fda_data.py"]
     TxGNN["TxGNN Data"] --> prep["prepare_external_data.py"]
 
     proc --> json["nz_fda_drugs.json"]
