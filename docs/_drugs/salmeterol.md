@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 420
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "SALMETEROL"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
@@ -151,6 +151,7 @@ Multiple completed Phase 3 trials and randomized and observational studies suppo
 | Respiratory malformation | L5 | Hold | Weak link; trials were in cystic fibrosis and asthma in pregnancy |
 | Rienhoff syndrome | L5 | Hold | No trials or literature; computational prediction only |
 | Asthma-related traits, susceptibility to | L5 | Hold | Genetic trait category, not a treatable disease |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

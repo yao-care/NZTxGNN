@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 335
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Olaparib: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN model produced candidates for Olaparib with a score of 0.99 or higher. Every candidate that can be traced to a source is already a known use, so there is currently no new predicted indication. The one known use is female breast carcinoma, which falls in the same disease category as an approved indication.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (all traceable model candidates are known uses) |
@@ -52,16 +53,19 @@ The TxGNN model produced candidates for Olaparib with a score of 0.99 or higher.
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | female breast carcinoma | breast cancer |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |

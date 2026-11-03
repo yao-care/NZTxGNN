@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 433
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Sumatriptan: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN model produced candidates for Sumatriptan with a score of 0.99 or higher. Every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (all traceable model candidates are known uses) |
@@ -52,16 +53,19 @@ The TxGNN model produced candidates for Sumatriptan with a score of 0.99 or high
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | migraine with brainstem aura | licence in another country (approved indication: migraine) |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 71
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Brinzolamide: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 All of the TxGNN model's candidates for Brinzolamide (score ≥ 0.99) that can be traced to a source are already known uses, so there is currently no new predicted indication. The one known use is primary hereditary glaucoma, which is supported by a licence in another country. This page is for research reference only and is not medical advice.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (all traceable model candidates are known uses) |
@@ -52,16 +53,19 @@ All of the TxGNN model's candidates for Brinzolamide (score ≥ 0.99) that can b
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | primary hereditary glaucoma | licence in another country (approved indication: glaucoma) |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |

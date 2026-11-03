@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 331
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Obinutuzumab: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Obinutuzumab, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (all traceable model candidates are known uses) |
@@ -52,17 +53,20 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Obinutuzu
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation | cll |
 | pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma | cll |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |

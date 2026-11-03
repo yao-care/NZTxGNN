@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 271
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -123,6 +123,7 @@ The TxGNN score is very high, but no clinical trials exist, the only acne RCT te
 | Autosomal dominant neovascular inflammatory vitreoretinopathy | 0.9939 | L5 | No evidence; no plausible mechanism |
 | Blunt duct adenosis of breast | 0.9902 | L5 | Hormone-responsive lesion, but direction of effect uncertain |
 | Apocrine adenosis of breast | 0.9902 | L5 | Same as above; the identical score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
