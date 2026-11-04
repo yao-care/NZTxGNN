@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omalizumab
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 339
-evidence_level: L2
+evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-11-04
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-description: "Omalizumab: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
+description: "Omalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,8 @@ Evidence Level: **L2** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Omalizumab is an anti-IgE monoclonal antibody that is marketed in New Zealand. The TxGNN model predicts it may be useful for **bronchitis**. Support is thin: **1 directly relevant clinical trial** (a small randomized, placebo-controlled study in persistent eosinophilic bronchitis) and a few indirect publications, which gives an evidence level of **L2**.
+Omalizumab is an anti-IgE monoclonal antibody that reduces free IgE and is used in allergic airway and skin disease.
+The evidence level is **L5**: no published study directly supports omalizumab in bronchitis itself. The 2 registered trials and 7 publications linked to this prediction concern asthma, asthma-COPD overlap, urticaria, or are general reviews.
 
 ## Quick Overview
 
@@ -47,31 +48,39 @@ Omalizumab is an anti-IgE monoclonal antibody that is marketed in New Zealand. T
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 1.0000 |
-| Evidence Level | L2 |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Omalizumab binds free IgE and lowers FcεRI expression on mast cells and basophils. This dampens allergic airway inflammation. Detailed mechanism-of-action data are not otherwise available in the data compiled for this report.
+Detailed mechanism-of-action data are not available in the data compiled for this report. From general knowledge of the drug class, omalizumab binds free IgE and lowers FcεRI expression on mast cells and basophils, which dampens allergic airway inflammation.
 
-The link to bronchitis is indirect. It runs through eosinophilic bronchitis, a form of bronchitis with IgE and eosinophil-driven airway inflammation, so blocking IgE is biologically plausible. No trial has tested omalizumab in bronchitis more broadly, such as infectious or smoking-related chronic bronchitis. Any benefit is therefore most plausible in an allergic or eosinophilic subgroup.
+The link to bronchitis is indirect. It runs through allergic asthma and asthma-COPD overlap, where chronic bronchitis features can coexist with allergic airway inflammation. No trial has tested omalizumab in bronchitis as a distinct condition. The high model score therefore reflects a network-level association rather than direct clinical proof.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Completed | 11 | Double-blind, placebo-controlled, 3-centre trial testing whether omalizumab allows a lower prednisone dose in persistent eosinophilic bronchitis. Patients were randomized to placebo or omalizumab for 16 weeks after their minimum effective prednisone dose was established. The very small sample limits any conclusion. |
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Completed | 11 | Placebo-controlled test of whether omalizumab allows prednisone dose reduction in patients with asthma and persistent eosinophilic bronchitis. The population is asthma-focused, with severe asthma and persistent sputum eosinophilia; omalizumab appeared possibly inadequate. Very small sample. |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2 | Completed | 382 | Dose-finding study of QGE031 as add-on therapy in chronic spontaneous urticaria. Not a bronchitis study. |
+
+Neither trial provides direct support for bronchitis.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | Discusses managing smoking-induced airway diseases, including chronic bronchitis. Treatment of these patients is uncertain because they are excluded from most trials. |
-| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Review | Masui | Preoperative management of patients with bronchial asthma or chronic bronchitis. It notes that omalizumab is available for patients with severe allergic disease. |
-| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Case report | J Investig Allergol Clin Immunol | Rare case of plastic bronchitis after bronchial thermoplasty. No abstract is available. |
-| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Review | Clin Rev Allergy Immunol | Reviews omalizumab's anti-IgE mechanism and its effect on airway inflammation. Only indirectly relevant to bronchitis. |
+| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Cohort (pooled analysis) | Curr Med Res Opin | Safety and tolerability of omalizumab in children with allergic asthma |
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Cohort | Postepy Dermatol Alergol | Omalizumab in middle-aged or older patients with severe allergic asthma-COPD overlap |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Review | Clin Rev Allergy Immunol | Approval and postapproval experience of omalizumab in asthma |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | Management of asthma with smoking-induced airway diseases, including chronic bronchitis |
+| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Review | Masui | Preoperative management of patients with bronchial asthma or chronic bronchitis |
+| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Review | Allergol Immunopathol | Monoclonal antibodies in paediatrics, general overview |
+| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Case report | J Investig Allergol Clin Immunol | Plastic bronchitis after bronchial thermoplasty |
+
+None of these studies shows that omalizumab treats bronchitis.
 
 ## New Zealand Market Information
 
@@ -81,14 +90,11 @@ The link to bronchitis is indirect. It runs through eosinophilic bronchitis, a f
 | 2687925 | Xolair AU | Inj 150 mg prefilled syringe | Not available (valid) |
 | 2555042 | Xolair | Inj 150 mg prefilled syringe | Not available (valid) |
 
-All three licences are currently valid.
+All 3 licences are valid, and the drug is marketed in New Zealand.
 
 ## Safety Considerations
 
-- **Drug Interactions** (8 recorded):
-  - Moderate: omacetaxine mepesuccinate.
-  - Minor: zinc sulfate, zinc acetate, zinc gluconate, zinc chloride, echinacea, vitamin E.
-  - Target pharmacology: omalizumab binds immunoglobulin heavy constant epsilon (IgE).
+- **Drug Interactions:** 8 interaction records were found. One is rated Moderate (omacetaxine mepesuccinate). Six are rated Minor (zinc sulfate, zinc acetate, zinc gluconate, zinc chloride, Echinacea, vitamin E). The remaining record describes the drug's target, immunoglobulin heavy constant epsilon (IgE), and carries no severity rating.
 
 Please refer to the package insert for warnings and contraindications.
 
@@ -97,13 +103,12 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The only directly relevant study is a completed Phase 2/3 placebo-controlled trial in persistent eosinophilic bronchitis, with just 11 participants. The mechanistic link is plausible but applies mainly to an eosinophilic or allergic subgroup, and the remaining literature is indirect.
+No published study supports omalizumab in bronchitis. The registered trials and publications concern asthma, asthma-COPD overlap or other conditions, and the one trial closest to the topic (n=11) suggested omalizumab may be inadequate. The prediction is therefore a hypothesis only (L5).
 
 **To proceed, the following is needed:**
-- Published results from NCT02049294, or a larger confirmatory randomized trial in eosinophilic bronchitis
-- Clarification of which bronchitis phenotypes (eosinophilic or IgE-driven) could plausibly benefit
-- Review of the Medsafe package insert for warnings and contraindications
-- A dosing and monitoring plan for any use outside the labelled indications
+- A clinical study that defines bronchitis (for example, eosinophilic or chronic bronchitis) as the target condition and tests omalizumab in it directly
+- Mechanism-of-action data and package insert warnings and contraindications for a full safety review
+- Evidence that IgE-driven inflammation plays a role in the bronchitis phenotype of interest
 
 ## Disclaimer
 
