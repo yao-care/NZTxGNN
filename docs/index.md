@@ -17,9 +17,32 @@ This project uses the TxGNN graph neural network to predict potential new therap
 <!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
 ## New Zealand: what this site covers
 
-This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [Medsafe](https://www.medsafe.govt.nz/) (New Zealand).
+This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines on the [Pharmac Community Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) (New Zealand).
 
-Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+### New Zealand medicine data
+
+| Item | Detail |
+|------|--------|
+| Dataset | Pharmac Community Pharmaceutical Schedule (CPSReporting.xlsx, "Community Medicines" sheet) |
+| Publisher | Pharmac |
+| Download | <https://schedule.pharmac.govt.nz/latest/CPSReporting.xlsx> |
+| Nature of the data | A funding schedule, not a licence register: Medsafe licence status is not included |
+| Update | Downloaded again every Monday by an automated workflow; listing status in drug reports is updated from the new file |
+
+Details: [Data Sources]({{ '/sources/' | relative_url }}).
+
+Reports by evidence level:
+
+| Evidence level | Reports | Share |
+|---|---|---|
+| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+
+2 predicted drug–disease pairs on this site appear on no other of the 30 TxGNN sites.
 
 ### Highest evidence levels on this site
 
@@ -29,12 +52,12 @@ Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {
 | [Bendamustine](/drugs/bendamustine/) | L1 |
 | [Bupropion](/drugs/bupropion/) | L1 |
 | [Busulfan](/drugs/busulfan/) | L1 |
-| [Natamycin](/drugs/natamycin/) | L1 |
-| [Rifabutin](/drugs/rifabutin/) | L1 |
-| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
-| [Hydrocortisone Acetate](/drugs/hydrocortisone-acetate/) | L1 |
+| [Clomipramine](/drugs/clomipramine/) | L1 |
 | [Doxorubicin](/drugs/doxorubicin/) | L1 |
-| [Icatibant](/drugs/icatibant/) | L1 |
+| [Tacrolimus](/drugs/tacrolimus/) | L1 |
+| [Dapsone](/drugs/dapsone/) | L1 |
+| [Ketamine](/drugs/ketamine/) | L1 |
+| [Diazepam](/drugs/diazepam/) | L2 |
 
 ### Medicines covered only by this site among the 30 TxGNN sites
 
@@ -46,15 +69,5 @@ Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {
 
 ## About the Developer
 
-This platform is developed and operated by **藥提醒科技有限公司** (yao.care, company registration
-number 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-NZTxGNN is the New Zealand site of the company's "TxGNN Drug Repurposing" product line.
-The same system is deployed across 30 countries and regions, each named `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, and so on) at `{cc}txgnn.yao.care`.
-Product overview: <https://www.yao.care/medical/txgnn/>.
-
-The TxGNN model itself was developed by the Zitnik Lab at Harvard Medical School and published
-in *Nature Medicine*. This platform is the production system 藥提醒科技有限公司 built on top of that
-model, covering national drug-registration data integration, deep-learning prediction that excludes uses already recorded in the knowledge graph, PubMed / ClinicalTrials evidence grading, and SMART on FHIR
-electronic health record integration.
+This platform is developed and operated by **藥提醒科技有限公司** (yao.care). See the
+<a href="{{ '/about/' | relative_url }}">About</a> page for the full company and methodology background.
