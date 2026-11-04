@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epirubicin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 181
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-04
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
-description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L4). Approved use: Not recorded in the local data"
+description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Epirubicin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,11 +38,8 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Epirubicin is an anthracycline chemotherapy drug originally used to treat breast cancer.
-The TxGNN model predicts it may be effective for **primary pulmonary lymphoma** (the top-ranked prediction), with **no registered clinical trials** and **6 publications**, all indirect, supporting this direction.
-The best-supported prediction in the data is **small cell lung carcinoma** (5 clinical trials, 20 publications), which is covered in the sections below.
-
----
+Epirubicin is an anthracycline cytotoxic drug that damages DNA by intercalation and topoisomerase II inhibition.
+The TxGNN model predicts it may be relevant to **primary pulmonary lymphoma**, but no clinical trial and no study testing epirubicin in this disease was found, so the evidence level is **L5** (model prediction only).
 
 ## Quick Overview
 
@@ -51,69 +48,35 @@ The best-supported prediction in the data is **small cell lung carcinoma** (5 cl
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary pulmonary lymphoma |
 | TxGNN Prediction Score | 0.9971 |
-| Evidence Level | L4 (for primary pulmonary lymphoma); L1 for the alternative prediction, small cell lung carcinoma |
+| Evidence Level | L5 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 4 (valid: 4) |
-| Recommended Decision | Hold for primary pulmonary lymphoma (research question only); Proceed with Guardrails for small cell lung carcinoma |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, epirubicin is an anthracycline, a class that damages DNA and inhibits topoisomerase II. Its efficacy in breast cancer is established, and mechanistically it may be applicable to lymphoma.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, epirubicin is an anthracycline (a 4' epimer of doxorubicin) that interferes with DNA synthesis and function and inhibits topoisomerase II.
 
-Anthracyclines are a core component of lymphoma regimens (CHOP-like regimens, including epirubicin variants), so a cytotoxic effect against pulmonary lymphoma is plausible. However, the supporting evidence is indirect: a general epirubicin review, case reports, and retrospective series of extranodal lymphoma. Doxorubicin is the established anthracycline in this setting, which weakens the case for epirubicin-specific use.
-
-Among the other predictions, **small cell lung carcinoma** (score 0.9969) has the strongest support. It is a highly proliferative, chemosensitive tumour, and epirubicin-containing regimens have been tested in prospective trials. The Phase 3 data suggest at best modest incremental benefit over the platinum-etoposide standard. The remaining predictions (well-differentiated fetal adenocarcinoma of the lung, pulmonary blastoma, mixed small cell and squamous cell lung carcinoma, myeloid leukaemia, upper aerodigestive tract neoplasm) have little or only indirect evidence.
-
----
+Anthracyclines are a core component of many lymphoma regimens (CHOP-like regimens), so a topoisomerase II-targeting drug is mechanistically plausible against lymphoma arising in the lung. However, this reasoning is indirect. Doxorubicin is the established anthracycline in lymphoma, which weakens the case for epirubicin specifically, and no study found tests epirubicin in primary pulmonary lymphoma.
 
 ## Clinical Trial Evidence
 
-**Primary pulmonary lymphoma:** Currently no related clinical trials registered.
-
-**Small cell lung carcinoma (best-supported alternative prediction):**
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00003606](https://clinicaltrials.gov/study/NCT00003606) | Phase 3 | Completed | 216 | Cisplatin + etoposide with or without epirubicin and cyclophosphamide in extensive-stage SCLC; directly tests epirubicin's contribution |
-| [NCT00658580](https://clinicaltrials.gov/study/NCT00658580) | Phase 3 | Completed | 361 | Cisplatin-etoposide vs etoposide regimen without platinum in extensive SCLC; epirubicin involvement unclear |
-| [NCT00011921](https://clinicaltrials.gov/study/NCT00011921) | Phase 3 | Unknown | 430 | Sequential high-dose vs standard chemotherapy in SCLC; regimen likely contains epirubicin |
-| [NCT03755115](https://clinicaltrials.gov/study/NCT03755115) | Phase 2 | Unknown | 40 | PD-1 antibody SHR-1210 plus epirubicin in extensive SCLC after first-line failure |
-| [NCT00154739](https://clinicaltrials.gov/study/NCT00154739) | Phase 2 | Completed | 86 | Gemcitabine/cisplatin vs gemcitabine/epirubicin in stage IIIB/IV lung cancer (appears to be non-small cell, so limited relevance) |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-**Primary pulmonary lymphoma:**
+The only item directly mentioning epirubicin is a general review. The remaining items concern lymphoma without testing epirubicin. All were retrieved as related literature and none tests epirubicin in primary pulmonary lymphoma.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7686469](https://pubmed.ncbi.nlm.nih.gov/7686469/) | 1993 | Review | Drugs | Epirubicin has response rates and survival equivalent to doxorubicin regimens in several cancers |
-| [39192408](https://pubmed.ncbi.nlm.nih.gov/39192408/) | 2024 | Retrospective cohort | Zhongguo Shi Yan Xue Ye Xue Za Zhi | Clinical features and prognosis of primary extranodal DLBCL in the rituximab era (not epirubicin-specific) |
-| [40728626](https://pubmed.ncbi.nlm.nih.gov/40728626/) | 2025 | Subgroup analysis | Annals of Hematology | Pola-R-CHP in DLBCL (not epirubicin-specific) |
-| [10526668](https://pubmed.ncbi.nlm.nih.gov/10526668/) | 1999 | Clinical study | Cancer Journal | VEBEP plus radiotherapy in advanced Hodgkin's disease |
-| [36237246](https://pubmed.ncbi.nlm.nih.gov/36237246/) | 2022 | Case report | Translational Cancer Research | Misdiagnosed primary pleural MALT lymphoma |
-| [1866500](https://pubmed.ncbi.nlm.nih.gov/1866500/) | 1991 | Case report | Rev Invest Clin | Primary non-Hodgkin lymphoma of the lung |
-
-**Small cell lung carcinoma (selected from 20 publications):**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [12488411](https://pubmed.ncbi.nlm.nih.gov/12488411/) | 2002 | Phase 3 RCT | J Clin Oncol | Cisplatin-etoposide was superior to cyclophosphamide-epirubicin-vincristine in SCLC (5-year follow-up) |
-| [7812705](https://pubmed.ncbi.nlm.nih.gov/7812705/) | 1994 | Clinical trial | Lung Cancer | Cyclophosphamide, epirubicin and etoposide in 136 patients: 31% complete and 49% partial responses |
-| [36000584](https://pubmed.ncbi.nlm.nih.gov/36000584/) | 2023 | Retrospective cohort | Cancer Med | Real-world second-line epirubicin-paclitaxel in relapsed SCLC (EpiTax) |
-| [21831476](https://pubmed.ncbi.nlm.nih.gov/21831476/) | 2012 | Clinical study | Lung Cancer | Epirubicin plus ifosfamide in relapsed or refractory SCLC |
-| [1317199](https://pubmed.ncbi.nlm.nih.gov/1317199/) | 1992 | Clinical trial | Eur J Cancer | Vincristine-epirubicin-cyclophosphamide with epirubicin dose escalation in limited SCLC |
-| [2165738](https://pubmed.ncbi.nlm.nih.gov/2165738/) | 1990 | Phase 2 | Am J Clin Oncol | High-dose epirubicin in untreated SCLC: 33% overall response rate |
-| [22530708](https://pubmed.ncbi.nlm.nih.gov/22530708/) | 2012 | Meta-analysis | Intern Med J | Cisplatin plus etoposide vs other platinum-based regimens in extensive SCLC |
-
----
+| [7686469](https://pubmed.ncbi.nlm.nih.gov/7686469/) | 1993 | Review | Drugs | General review of epirubicin pharmacology and use in cancer chemotherapy; equivalent response and survival to doxorubicin regimens in several cancers |
+| [1866500](https://pubmed.ncbi.nlm.nih.gov/1866500/) | 1991 | Case report | Rev Invest Clin | Single case of primary lung non-Hodgkin lymphoma; no epirubicin-specific finding |
+| [36237246](https://pubmed.ncbi.nlm.nih.gov/36237246/) | 2022 | Case report and review | Transl Cancer Res | Pleural MALT lymphoma that was misdiagnosed; not an epirubicin study |
+| [39192408](https://pubmed.ncbi.nlm.nih.gov/39192408/) | 2024 | Retrospective cohort | Zhongguo Shi Yan Xue Ye Xue Za Zhi | Primary extranodal DLBCL in the rituximab era; not epirubicin-specific |
+| [10526668](https://pubmed.ncbi.nlm.nih.gov/10526668/) | 1999 | Clinical study | Cancer J Sci Am | VEBEP regimen plus radiotherapy in advanced Hodgkin disease |
+| [40728626](https://pubmed.ncbi.nlm.nih.gov/40728626/) | 2025 | Retrospective analysis | Ann Hematol | Pola-R-CHP in DLBCL subgroups; not epirubicin-specific |
 
 ## New Zealand Market Information
-
-All four licences are valid, and the licence records contain no approved-indication text.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -122,44 +85,36 @@ All four licences are valid, and the licence records contain no approved-indicat
 | 2224143 | Epirubicin Ebewe | Inj 2 mg per ml, 100 ml vial | Not recorded (valid) |
 | 2204177 | Baxter | Inj 1 mg for ECP | Not recorded (valid) |
 
----
-
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (anthracycline; topoisomerase II inhibitor) |
-| Myelosuppression Risk | High (knowledge-graph contraindication edges include neutropenia, thrombocytopenia and agranulocytosis; the literature also reports secondary AML/MDS after epirubicin-based therapy) |
-| Emetogenicity Classification | Moderate (based on drug class) |
-| Monitoring Items | CBC with differential, liver and renal function, cardiac function (cumulative anthracycline cardiotoxicity) |
+| Cytotoxicity Classification | Conventional cytotoxic (anthracycline class) |
+| Myelosuppression Risk | High (neutropenia and thrombocytopenia are expected with anthracyclines) |
+| Emetogenicity Classification | Moderate to high |
+| Monitoring Items | CBC with differential, liver and renal function, cardiac function (cumulative cardiotoxicity) |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
-
----
 
 ## Safety Considerations
 
-- **Contraindication signals (from the knowledge graph, not label text):** liver failure, liver disease, kidney disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, myocardial infarction, coronary thrombosis, cardiomyopathy (including hypertrophic), myocardial disorder, endomyocardial fibrosis, heart conduction disease, sudden cardiac arrest, hemoglobinopathy, pyoureter and stomatitis.
-- **Drug Interactions:** 100 interactions were identified in total. The two **Major** ones in the list reviewed are **cimetidine** and **dolasetron**. Most others are Moderate, including acarbose, famotidine, pioglitazone, loperamide, bupropion, clarithromycin, levofloxacin, minocycline, naltrexone and palonosetron.
-- **Other signals from the literature:** cumulative cardiotoxicity of anthracyclines, and an increased risk of secondary AML/MDS.
+- **Drug Interactions**: 100 interactions were found in the interaction screening. Examples include major-level interactions with cimetidine and dolasetron, and moderate-level interactions with, for example, clarithromycin, levofloxacin, bupropion and famotidine.
 
-The package insert warnings and contraindications could not be retrieved for this report. Please refer to the package insert for the full safety information.
-
----
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (primary pulmonary lymphoma); Proceed with Guardrails (small cell lung carcinoma only)**
+**Decision: Hold**
 
 **Rationale:**
-- For primary pulmonary lymphoma, there are no trials and only indirect literature, so this remains a research question. Doxorubicin is the established anthracycline for lymphoma.
-- Small cell lung carcinoma has Phase 3 evidence, but epirubicin offers at best modest benefit over the platinum-etoposide standard, and cardiotoxicity and myelosuppression are significant. In New Zealand the drug is marketed, with 4 valid licences of 4.
+The prediction score is high (0.9971), but no study tests epirubicin in primary pulmonary lymphoma, so the evidence level is L5. Doxorubicin is the established anthracycline in lymphoma, and epirubicin carries cumulative cardiotoxicity and myelosuppression risks.
 
 **To proceed, the following is needed:**
-- Medsafe package insert warnings and contraindications (a blocking data gap for safety screening)
-- Mechanism of action data (for example from DrugBank)
-- Dedicated epirubicin data in pulmonary lymphoma, or a head-to-head comparison against doxorubicin-based regimens
-- A cardiac monitoring plan with a cumulative dose limit
-- Clarification of the New Zealand supply and licensing situation
+- Clinical or preclinical data testing epirubicin specifically in primary pulmonary lymphoma
+- Comparison against standard anthracycline-containing lymphoma regimens
+- Package insert warnings and contraindications
+- Mechanism of action data
+- A cardiac and haematological safety monitoring plan
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -3,18 +3,18 @@ layout: default
 title: Minoxidil
 parent: Moderate Evidence (L3-L4)
 nav_order: 303
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
-description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L3). Approved use: Hypertension and alopecia"
+last_modified_at: 2026-11-04
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with schistosomiasis"]
+description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Minoxidil
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,73 +33,97 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Minoxidil: From Hypertension and Alopecia to Hypotrichosis Simplex of the Scalp
+## Minoxidil: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Minoxidil is a vasodilator originally used for severe hypertension and later established as a hair-growth agent for alopecia.
-The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**,
-but there are **no registered clinical trials** and only **3 publications** (case reports and small case series, all using combination regimens) supporting this direction.
+Minoxidil is a vasodilator that also stimulates hair growth, and it is currently marketed in New Zealand.
+The TxGNN model predicts it may be useful for **hypotrichosis simplex of the scalp**, a rare hereditary hair-thinning disorder.
+Evidence is at **Level L4**: **3 published case reports** (2022-2024), all of which combine minoxidil with other treatments, and **no registered clinical trials**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension and alopecia (the New Zealand licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 1.0000 |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
 | Number of Pharmac Schedule Items | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, minoxidil is a prodrug whose active metabolite, minoxidil sulfate, opens potassium channels. This relaxes vascular smooth muscle and, in the scalp, is thought to prolong the anagen (growth) phase of the hair cycle and improve follicular microcirculation.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Based on what is known about the drug, minoxidil is a potassium channel opener. Its active metabolite, minoxidil sulfate, is thought to prolong the anagen (growth) phase of the hair cycle and to dilate the small blood vessels around hair follicles.
 
-Hypotrichosis simplex of the scalp is a rare hereditary hair-thinning disorder (linked to variants in the CDSN gene) that looks clinically similar to androgenetic alopecia, a condition in which minoxidil is well established. The shared hair-loss phenotype makes the prediction mechanistically plausible.
+Hypotrichosis simplex of the scalp is a rare, inherited condition in which scalp hair is thin or sparse. It is linked to variants in the CDSN gene, which encodes corneodesmosin, a desmosome protein. The phenotype resembles other non-scarring hair-thinning conditions that respond to minoxidil, so the mechanism is plausible. Hair follicles are present but underperforming, which is the situation in which a growth-promoting agent might help.
 
-An important caveat: all three publications on this condition combine minoxidil with other treatments (growth factors, botanic extracts, or platelet-rich plasma). The effect of minoxidil alone therefore cannot be isolated.
+There is one important limitation. All three published reports use combination regimens: oral minoxidil with growth factors, topical or other minoxidil with botanic extracts, and topical minoxidil with platelet-rich plasma. The effect of minoxidil alone therefore cannot be separated from the other treatments.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Case report/series | Dermatologic Therapy | Hereditary hypotrichosis simplex of the scalp treated with oral minoxidil plus growth factors |
-| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Case report | Journal of Dermatological Treatment | A 14-year-old patient treated with platelet-rich plasma injections plus topical 2% minoxidil |
-| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Case report | Frontiers in Genetics | An 8-year-old boy with a CDSN mutation treated with botanic extracts plus minoxidil |
+| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Case report/series | Dermatologic Therapy | Hereditary hypotrichosis simplex of the scalp treated with oral minoxidil plus growth factors (abstract not available; summarised from the title) |
+| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Case report | Frontiers in Genetics | Familial case in an 8-year-old boy with a CDSN mutation, treated with a combination of botanic extracts and minoxidil |
+| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Case report | Journal of Dermatological Treatment | 14-year-old patient treated with platelet-rich plasma injections plus topical minoxidil 2%; reported as a successful treatment |
+
+---
 
 ## New Zealand Market Information
+
+Minoxidil is marketed in New Zealand with 2 valid licences, both for 10 mg tablets.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 2662981 | Minoxidil Roma | Tablet 10 mg | Not recorded (licence valid) |
 | 300438 | Loniten | Tablet 10 mg | Not recorded (licence valid) |
 
+Only tablet forms appear in the local records. The literature on this condition includes topical and oral low-dose use, so route and formulation suitability would need to be confirmed.
+
+---
+
 ## Safety Considerations
 
-- **Contraindication signals (from a knowledge graph, not label text)**: Disease associations linked to minoxidil include cardiovascular conditions (myocardial infarction, heart disease, pericarditis, pericardial effusion, cardiac tamponade), cerebrovascular conditions (stroke, cerebral infarction), orthostatic hypotension, kidney disease, phaeochromocytoma and related tumours, and scalp dermatosis.
-- **Drug Interactions**: 100 interactions were identified. The main ones rated Moderate include corticosteroids (hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, budesonide, triamcinolone), SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), opioids (morphine, opium), cannabinoids (dronabinol, nabilone), bupropion and sapropterin.
+**Drug Interactions:** The data compiled for this report list 100 recorded interactions. The main ones at Moderate level are:
+- Corticosteroids: hydrocortisone, prednisolone, prednisone, dexamethasone, betamethasone, triamcinolone, budesonide
+- SGLT2 inhibitors: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin
+- Central nervous system agents and opioids: bupropion, morphine, opium, dronabinol, nabilone
+- Sapropterin
 
-For full warnings and contraindications, please refer to the package insert.
+Calcitriol, clotrimazole and metformin are also listed, with an unclassified (Unknown) interaction level.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information. Oral minoxidil can lower blood pressure, so cardiovascular status needs to be considered in any patient, particularly children.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The model score is very high and the mechanism is plausible, with three recent case-level reports in this disease. However, all of them use combination therapy, there are no registered trials, and although minoxidil is marketed in New Zealand with 2 valid licences of 2, this does not establish use for this disease. The evidence supports further investigation, not routine use.
+The model score is very high, the mechanism is plausible, and the drug is already marketed in New Zealand. However, the evidence level is L4, resting only on three case reports that all combine minoxidil with other treatments, with no registered trials. This supports further investigation, not routine adoption.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for minoxidil from DrugBank
-- The Medsafe package insert, to confirm warnings and contraindications (a blocking gap for safety screening)
-- Evidence isolating the effect of minoxidil alone, such as a controlled or monotherapy study in hereditary hypotrichosis simplex
-- A cardiovascular safety plan, particularly for oral use (fluid retention, tachycardia, pericardial effusion), and a review of the product's licence status and available routes of administration in New Zealand
+- Package insert warnings and contraindications from Medsafe, as the safety review cannot be completed without them
+- Mechanism-of-action data from DrugBank
+- Studies or well-documented series that isolate the effect of minoxidil alone in this condition, including paediatric dosing and route (topical versus low-dose oral)
+- A cardiovascular monitoring plan, especially for children and for patients taking interacting medicines
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
