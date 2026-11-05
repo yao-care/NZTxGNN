@@ -32,7 +32,7 @@ policies:
 | Service | Purpose | Privacy policy |
 |---------|---------|----------------|
 | GitHub Pages | Site hosting | [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) |
-| d3js.org | Charting library | Static asset CDN |
+| cdn.jsdelivr.net | Charting library | Static asset CDN |
 | giscus | Comments (where enabled) | [giscus](https://giscus.app/) |
 
 When you actively launch the SMART on FHIR app, it requests medication data from your electronic
