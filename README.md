@@ -24,17 +24,18 @@ Drug repurposing predictions for medicines on the New Zealand Pharmac Community 
 | **Unique Drugs** | 542 |
 | **Unique Indications** | 17,041 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 447 MK / 3,837 CUD |
+| **FHIR Resources** | 545 MK / 3,162 CUD |
 
 ### Evidence Level Distribution
 
 | Evidence Level | Report Count | Description |
 |---------|-------|------|
-| **L1** | 0 | Multiple Phase 3 RCTs |
-| **L2** | 0 | Single RCT or multiple Phase 2 |
-| **L3** | 0 | Observational studies |
-| **L4** | 0 | Preclinical / mechanistic studies |
-| **L5** | 447 | Computational prediction only |
+| **L1** | 9 | Multiple Phase 3 RCTs |
+| **L2** | 25 | Single RCT or multiple Phase 2 |
+| **L3** | 18 | Observational studies |
+| **L4** | 32 | Preclinical / mechanistic studies |
+| **L5** | 364 | Computational prediction only |
+| **N/A** | 12 | Known uses only (no new prediction) |
 
 ### By Source
 
@@ -70,8 +71,8 @@ uv run python scripts/run_kg_prediction.py
 
 | Metric | Value |
 |------|------|
-| Pharmac Schedule Total Drugs | 2,419 |
-| Mapped to DrugBank | 1,547 (64.0%) |
+| Pharmac Schedule Total Drugs | 2,557 |
+| Mapped to DrugBank | 1,933 (75.6%) |
 | Repurposing Candidates | 3,837 |
 
 ### Deep Learning Method
@@ -83,7 +84,7 @@ PYTHONPATH=src python -m nztxgnn.predict.txgnn_model
 
 | Metric | Value |
 |------|------|
-| Total DL Predictions | 959,976 |
+| Total DL Predictions | 1,064,738 |
 | Unique Drugs | 542 |
 | Unique Indications | 17,041 |
 
