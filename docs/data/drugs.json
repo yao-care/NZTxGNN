@@ -288,7 +288,7 @@
       "name": "Anastrozole",
       "evidence_level": "L5",
       "indication_count": 5,
-      "original_indication": "he TxGNN model predicts it may be effective for **neuroblastoma**, with a score of 0.9953.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/anastrozole/"
@@ -408,7 +408,7 @@
       "name": "Atropine",
       "evidence_level": "L4",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **migraine disorder**,",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/atropine/"
@@ -1118,7 +1118,7 @@
       "name": "Cyproterone Acetate",
       "evidence_level": "L5",
       "indication_count": 9,
-      "original_indication": "he TxGNN model predicts it may be relevant to **migraine disorder**, but there are **no clinical trials** and only **3 publications**, none showing a therapeutic benefit for migraine.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/cyproterone-acetate/"
@@ -1418,7 +1418,7 @@
       "name": "Droperidol",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model's top prediction is **Tourette syndrome**, which has **no clinical trials and no publications** behind it, so it rests on model prediction alone.",
+      "original_indication": "",
       "predicted_indication": "Predicted Indication",
       "txgnn_score": "",
       "url": "/drugs/droperidol/"
@@ -2188,7 +2188,7 @@
       "name": "Isosorbide Mononitrate",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model's top-ranked prediction is **hypertrichosis (disease)**, but there are **0 clinical trials** and **0 publications** supporting it. The only prediction with any supporting literature is...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/isosorbide-mononitrate/"
@@ -2208,7 +2208,7 @@
       "name": "Itraconazole",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "The high score (0.9934) most likely reflects network proximity to approved antifungal indications such as histoplasmosis, aspergillosis and candidiasis, not a validated mechanism. The retrieved...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/itraconazole/"
@@ -2228,7 +2228,7 @@
       "name": "Ketamine",
       "evidence_level": "L1",
       "indication_count": 1,
-      "original_indication": "Evidence is strongest for acute headache or migraine in the emergency department and weaker for chronic headache. Mechanistic support rests on general pharmacology rather than drug-specific labelling.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ketamine/"
@@ -2418,7 +2418,7 @@
       "name": "Levocarnitine",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model's top-ranked prediction is **autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome**, a rare COL4A1-related disorder, but it has **0 clinical...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/levocarnitine/"
@@ -2448,7 +2448,7 @@
       "name": "Levothyroxine",
       "evidence_level": "L5",
       "indication_count": 4,
-      "original_indication": "The link to renal hypodysplasia/aplasia is weak. Thyroid hormone contributes to general fetal development, including the kidney, but this is a speculative connection. Renal hypodysplasia/aplasia is a...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/levothyroxine/"
@@ -2778,7 +2778,7 @@
       "name": "Misoprostol",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **amenorrhea**, but there are **no registered clinical trials** and only **7 publications**, none of which show that misoprostol treats amenorrhea. The...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/misoprostol/"
@@ -2868,7 +2868,7 @@
       "name": "Mycophenolate Mofetil",
       "evidence_level": "L2",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **HIV infectious disease**,",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/mycophenolate-mofetil/"
@@ -2978,7 +2978,7 @@
       "name": "Nitrofurantoin",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **0 clinical trials** and no publications showing therapeutic benefit.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/nitrofurantoin/"
@@ -3108,7 +3108,7 @@
       "name": "Olsalazine",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **myelodysplastic syndrome**, but there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction is based on model...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/olsalazine/"
@@ -3838,7 +3838,7 @@
       "name": "Rizatriptan",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "There is an important caution. Triptans have historically been cautioned against, or contraindicated, in hemiplegic and basilar-type/brainstem aura migraine because of the theoretical risk of...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/rizatriptan/"
@@ -4228,7 +4228,7 @@
       "name": "Threonine",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be effective for **gastroparesis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/threonine/"
