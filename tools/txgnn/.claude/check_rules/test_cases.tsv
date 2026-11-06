@@ -449,3 +449,18 @@ M3V	en	The drug is marketed in this country, with 3 valid licences of 3.	hit	sit
 M3V	en-us	In addition, the drug is marketed in the US with 11 valid licenses out of 11, and the safety data are incomplete.	hit	site=UsTxGNN;ms=Marketed;total=20;valid=15;cancelled=5
 M3V	en	The drug is marketed in this country, with 8 valid licences out of 8.	miss	site=EuTxGNN;ms=Marketed;total=8;valid=8;cancelled=0
 M3V	en	The authorization for Vaborem is valid (1 valid licence out of 1) and the drug is marketed.	miss	site=EuTxGNN;ms=Marketed;total=1;valid=1;cancelled=0
+M3V	en-us	The drug is marketed in the US, with 11 valid authorizations.	hit	site=UsTxGNN;ms=Marketed;total=116;valid=68;cancelled=48;note=2026-11-06 有效張數說少了（VALIDX，amlodipine）
+M3V	en-us	- Confirm the current US regulatory status, since the drug is marketed with 11 valid licenses.	hit	site=UsTxGNN;ms=Marketed;total=46;valid=31;cancelled=15
+M3V	en-us	Nine valid US licenses are on record, and the drug is marketed.	hit	site=UsTxGNN;ms=Marketed;total=26;valid=18;cancelled=8
+M3V	en-us	In the US, 13 authorizations are currently valid and the drug is marketed.	hit	site=UsTxGNN;ms=Marketed;total=30;valid=20;cancelled=10
+M3V	en-us	Twelve valid single-ingredient ANDA records were listed, and the list may be partial.	hit	site=UsTxGNN;ms=Marketed;total=80;valid=38;cancelled=42
+M3V	en-us	- Clarification of the licensing status (8 valid US licenses) and route compatibility assessment	hit	site=UsTxGNN;ms=Marketed;total=20;valid=12;cancelled=8
+M3V	en-us	The drug is marketed in the US, with 68 valid authorizations.	miss	site=UsTxGNN;ms=Marketed;total=116;valid=68;cancelled=48
+M3V	en-us	The drug is marketed in the US, with at least 11 valid authorizations.	miss	site=UsTxGNN;ms=Marketed;total=116;valid=68;cancelled=48
+M3V	en-us	The drug is marketed in the US, with 11 valid authorizations.	miss	site=UsTxGNN;ms=Marketed;valid=11;cancelled=0;partial=1
+M3V	en-us	All three listed authorizations are valid, and no approved indication text is recorded for them.	miss	site=UsTxGNN;ms=Marketed;total=7;valid=7;cancelled=0
+M3V	en	Two further licences are valid: MINIRIN Nasal Spray 10 mcg/dose (SIN03760P, spray) and MINIRIN Injection 4 mcg/ml (SIN04482P, injection).	miss	site=SgTxGNN;ms=Marketed;total=7;valid=7;cancelled=0
+M3V	en-us	Of the 5 licences listed, 3 are valid and 2 are cancelled.	miss	site=UsTxGNN;ms=Marketed;total=17;valid=6;cancelled=11
+M3V	en	All three licences are currently valid single-ingredient products.	miss	site=CaTxGNN;ms=Marketed;total=3;valid=2;not_marketed=1;cancelled=0
+M3V	en-us	The drug is marketed in the US, with 11 valid authorizations.	miss	site=DETxGNN;ms=Marketed;total=116;valid=68;cancelled=48
+M3V	en-us	The interaction screen returned 12 valid records.	miss	site=UsTxGNN;ms=Marketed;total=116;valid=68;cancelled=48

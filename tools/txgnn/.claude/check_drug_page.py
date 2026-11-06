@@ -27,6 +27,8 @@
      「The US licences are all cancelled」「the cancelled US market status」、另有 N 張註銷但 N 多於事實、點名的申請號其實有效（all_cancel_x）
      M3 英文「總數說法」跟事實不符（2026-11-06，TOTAL_X_SITES，同上 10 站）：In total／overall／Of N records／A of the N／all N／N valid … of N／N … in total 的
      總數、有效、註銷張數跟事實不符（total_x；表格子集合、至少 N、部分紀錄、交互作用筆數不算）
+     M3 英文「有效張數」說法跟事實不符（2026-11-06，VALIDX_SITES，同上 10 站）：「with N valid …」「N valid authorizations」「N licences are valid」寫的有效張數
+     不等於事實（valid_under；至少 N、部分紀錄、表外另有 N 張、表格列出的 N 張、單方張數不少於事實單方有效張數的不算）
      M3l 清單站（Uk、NZ、Ph）第四輪（2026-11-06）：說許可資料應去 MHRA／Medsafe／FDA PH 擷取、重跑擷取流程、許可資料／紀錄不完整或尚未載入（LIST_PIPE；仿單缺漏不算）
 D1 一頁只能有一份報告（2026-11-03 用戶決定）：報告標題＝H2 後一行是「{: .text-alpha }」；兩個以上就錯
    （過去產生時殘留的第二份舊報告、或模型自己「更正標題」留下的第二個標題；修法見 drop_duplicate_reports_20261103.py）
@@ -868,6 +870,43 @@ def total_x(site, s, fc):
         return f"總數說法跟事實不符（{'、'.join(bad)}；事實 {n} 張、有效 {v}、註銷 {c}）：{s[:60]}"
     return None
 
+# M3 擴充（2026-11-06，用戶決定）：正文的「有效張數」說法跟事實不符（多半是舊頁依當時的部分紀錄寫的，說少了；例 amlodipine
+# 「The drug is marketed in the US, with 11 valid authorizations」，事實有效 68 張）。認得 VALID_COUNT 的寫法（「with N valid …」
+# 「N valid authorizations」「N licences are (currently) valid」）；說「單方」時跟事實的單方有效張數（valid_single）比。
+# 不算：至少 N、部分紀錄的頁、表外「另有 N 張」（further／more／other／remaining／additional／another，張數不超過事實）、
+# 「Of the N listed／shown」這類表格子集合、「A of the N」（由 total_x 管）。只在 VALIDX_SITES 啟用（新規則上線前該站頁面要先清到 0）。
+VALIDX_SITES = {"UsTxGNN", "EuTxGNN", "NZTxGNN", "AuTxGNN", "InTxGNN", "SgTxGNN", "UkTxGNN", "CaTxGNN", "PhTxGNN", "ZaTxGNN"}
+_VX_LIC = re.compile(r"licen[cs]|authori[sz]|registration|approval|application|\b(A?NDA|BLA|DIN)s?\b|\brecords?\b|\bproducts?\b|\blistings?\b|\bentr(y|ies)\b", re.I)
+_VX_ADD = re.compile(r"\b(further|more|other|remaining|additional|another)\b", re.I)
+_VX_SUBSET = re.compile(r"^\W*(?:Of|Among)\s+(?:the\s+)?(?:" + _NUM + r"\s+)?[\w\s-]{0,30}?\b(listed|shown|displayed|above|below|in the table)\b", re.I)
+
+
+def valid_under(site, s, fc):
+    """有效張數說法跟事實不符（英文、VALIDX_SITES）：回傳說明或 None"""
+    if not fc or fc.get("partial") or fc.get("total") is None:
+        return None
+    s2 = s.replace("**", "").replace("U.S.", "US")
+    if TOTAL_NOTLIC.search(s2) or _VX_SUBSET.search(s2) or not _VX_LIC.search(s2):
+        return None
+    v = fc.get("valid") or 0
+    ok = {v, v + ((fc.get("not_marketed") or 0) if site in LEGAL_NM_VALID else 0)}
+    vs = fc.get("valid_single") if re.search(r"\bsingle[- ]ingredient\b|\bsingle[- ]agent\b|\bmono-?(component|substance)\b", s2, re.I) else None
+    for m in VALID_COUNT.finditer(s2):
+        k = _num(m.group(1) or m.group(5))
+        pre = s2[max(0, m.start() - 30):m.start()]
+        if k is None or k in ok or AT_LEAST.search(pre[-16:]) or re.search(r"\bof (the )?$", pre[-14:], re.I):
+            continue
+        if vs is not None and k >= vs:
+            continue  # 說「單方 N 張」：不少於事實的單方有效張數就不判（單方／複方的歸類不在這條規則管）
+        if re.search(r"\bof\s+(?:the\s+|its\s+)?" + _NUM + r"\b", s2[m.end():m.end() + 30], re.I):
+            continue  # 「3 valid licences of 3」由 total_x 管
+        if re.match(r"\s+listed\b", s2[m.end(1) if m.group(1) else m.end(5):]) or re.search(r"\b" + _NUM + r"\s+listed\s+" , m.group(0), re.I):
+            continue  # 「All three listed authorizations are valid」：講的是表格列出的那幾張
+        if _VX_ADD.search(pre[-25:] + " " + m.group(0)) and k <= v:
+            continue  # 表外另有 N 張有效（Two further licences are valid: …）
+        return f"有效張數說法跟事實不符（寫 {k} 張，事實有效 {v} 張{'（單方 ' + str(vs) + '）' if vs is not None else ''}）：{s[:60]}"
+    return None
+
 def m3_verdict(site, lang, s, fc):
     """正文一句跟事實矛盾時回傳 (子類, 說明)；checker 與刪句程式共用（2026-11-05）"""
     if site in EMPH_STRIP:
@@ -889,6 +928,10 @@ def m3_verdict(site, lang, s, fc):
             return "M3", h
     if site in TOTAL_X_SITES and lang in M3X_LANGS:
         h = total_x(site, s, fc)
+        if h:
+            return "M3", h
+    if site in VALIDX_SITES and lang in M3X_LANGS:
+        h = valid_under(site, s, fc)
         if h:
             return "M3", h
     if ms in ("Cancelled only", "Not marketed") and (marketed_word(lang) in s or MKT_CLAIM_EXTRA.search(s)) and not mv2.NEG.search(s):
