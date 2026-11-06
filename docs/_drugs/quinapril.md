@@ -112,7 +112,7 @@ The top prediction is a closely related extension of the approved hypertension u
 - Medsafe package insert warnings and contraindications (a blocking data gap)
 - Mechanism of action data (for example from DrugBank)
 - Quinapril-specific clinical evidence in renovascular hypertension, including renal safety in renal artery stenosis
-- Clarification of the market situation (reason for cancellation, availability of other ACE inhibitors) and whether a genuine unmet need exists
+- Clarification of the market situation (availability of other ACE inhibitors) and whether a genuine unmet need exists
 - For pulmonary hypertension, human data beyond the preclinical studies, with attention to gas exchange in hypoxic lung disease
 ## Disclaimer
 

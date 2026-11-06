@@ -145,7 +145,7 @@ The pneumocystosis prediction has no trials, no supporting literature and no pla
 - Consider **ulcerative proctosigmoiditis**, **myiasis** and **vulvar ulceration** only as secondary research questions, because metronidazole's independent effect is not isolated in the available evidence.
 - Obtain the Medsafe package insert to complete the safety review. This gap is blocking for safety screening.
 - Obtain mechanism-of-action data, for example from DrugBank.
-- Confirm the reason for cancellation of the New Zealand authorizations and the availability of any alternative metronidazole products.
+- Confirm the availability of any alternative metronidazole products.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

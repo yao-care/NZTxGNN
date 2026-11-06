@@ -70,6 +70,14 @@ The Evidence Pack for Diltiazem Hydrochloride is missing three critical inputs t
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2648172 | Diltiazem CD Clinect | Diltiazem hydrochloride | Cap long-acting 120 mg | Yes |
+| 254584 | Cardizem CD | Diltiazem hydrochloride | Cap long-acting 180 mg | Yes |
+| 254592 | Cardizem CD | Diltiazem hydrochloride | Cap long-acting 240 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
 No product names, dosage forms, or approved indications are on record.
 
 ---

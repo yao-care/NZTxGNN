@@ -7,7 +7,8 @@ NZ 站的本地資料是 Pharmac 的給付清單，不是 Medsafe 許可證：
 - 表後 known_use_pages 寫的「Only part of the licence list is held in the data; the list may be incomplete.」一併拿掉（重建後是完整清單）。
 - 概覽表有「New Zealand Market Status」列、卻沒有「Number of Pharmac Schedule Items」列的頁，在狀態列下面補一列（值＝清單筆數）。
 - 新資料沒有任何品項時拿掉表，改一句「Not listed on the Pharmac Pharmaceutical Schedule (Community Medicines) used for this report.」
-- 段落裡沒有表的頁不新增；表以外的文字不動（跟新事實矛盾的句子由 tools/txgnn/.claude/delete_license_sentences.py 處理）。
+- 段落裡沒有表的頁（舊頁只有文字、或矛盾句刪完只剩標題）：在標題下補程式產生的表與來源句（沒有紀錄時補「Not listed …」句，已有就不重複；2026-11-06 第三輪）；
+  表以外的文字不動（跟新事實矛盾的句子由 tools/txgnn/.claude/delete_license_sentences.py 處理）。
 scripts/license_adapter.py 的 sync_tables 在每週更新後用同一套程式重排有變動的藥的表。
 用法（repo 根目錄）：python3 scripts/sync_license_tables.py [--dry-run] [頁 ...]
 """
@@ -65,7 +66,11 @@ def process(text, recs, partial=False):
     b = next((k for k in range(a, len(lines)) if lines[k].startswith("## ")), len(lines))
     tb = [k for k in range(a, b) if lines[k].startswith("|")]
     if not tb:
-        t2 = "\n".join(lines)
+        rows = table_rows(recs)
+        if rows or not any(l.strip() == NONE_LINE for l in lines[a:b]):
+            block = (HEAD + rows[:MAX_ROWS] + [""] + ([SHOW.format(n=MAX_ROWS, m=len(rows)) + " " + SOURCE] if len(rows) > MAX_ROWS else [SOURCE])) if rows else [NONE_LINE]
+            lines = lines[:a] + [""] + block + [""] + lines[a:]
+        t2 = re.sub(r"\n{3,}", "\n\n", "\n".join(lines))
         return t2 if t2 != text else None
     x, y = tb[0], tb[0]
     while y + 1 < b and lines[y + 1].startswith("|"):

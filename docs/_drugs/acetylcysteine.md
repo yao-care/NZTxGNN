@@ -89,7 +89,7 @@ The "thrombotic disease" label is broad. The supporting evidence is concentrated
 
 ## New Zealand Market Information
 
-Both are recorded as cancelled, although the overall market status is recorded as Marketed. No approved indication text is recorded.
+No approved indication text is recorded.
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|

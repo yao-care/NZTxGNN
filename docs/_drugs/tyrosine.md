@@ -133,7 +133,7 @@ All predicted indications are supported only by the model score (L4 at best, mos
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Mechanism of action data for tyrosine
 - A credible mechanistic rationale for the top predicted indication, plus any preclinical or clinical studies testing tyrosine directly
-- Clarification of the original approved indication and the reason for license cancellation
+- Clarification of the original approved indication
 - Review of whether the "obsolete neurogenic bladder" term reflects an ontology mapping problem rather than a real target
 ## Disclaimer
 

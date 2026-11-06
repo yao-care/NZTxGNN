@@ -100,8 +100,6 @@ No listed trial tests rifabutin as an anti-HIV treatment. The trials below are t
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-The market status is marketed.
-
 ## Safety Considerations
 
 Package-insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.

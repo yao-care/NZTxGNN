@@ -121,7 +121,7 @@ The evidence is limited to a model prediction, one trial of unconfirmed relevanc
 - Full-text review of the 2023 case report for dosing and outcomes
 - Mechanism of action data
 - Package insert warnings and contraindications (a blocking gap for safety screening)
-- Clarification of the cancelled New Zealand regulatory status and route compatibility
+- Clarification of route compatibility
 - If a different candidate is preferred, a focused evaluation of partial HPRT deficiency or Lesch-Nyhan syndrome, where the mechanism fits better but evidence is limited to case reports
 ## Disclaimer
 

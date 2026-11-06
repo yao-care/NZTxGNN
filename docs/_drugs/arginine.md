@@ -83,6 +83,15 @@ All of these are animal or mechanistic studies; only the first two relate to the
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2609282 | Solgar | Arginine | Cap 500 mg | Yes |
+| 2393786 | Biomed | Arginine | Powder | Yes |
+| 2668750 | Arginine2000 | Arginine | Powder, 4 g sachets | Yes |
+| 2400588 | Clinicians | Arginine | Tab 1,000 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
 No approved indication text is recorded for any of them.
 
 ## Safety Considerations

@@ -99,7 +99,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model (deep learning) score. There are no trials or relevant literature, no plausible mechanism for treating the underlying disease, and the drug is marketed with 7 valid New Zealand licences out of 7.
+The prediction is supported only by the TxGNN model (deep learning) score. There are no trials or relevant literature, no plausible mechanism for treating the underlying disease.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (currently missing and blocking safety screening)

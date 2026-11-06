@@ -340,6 +340,11 @@
    "cut": "The New Zealand licence records compiled for this report do not state an approved indication, but ",
    "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
    "capitalize": true
+  },
+  {
+   "sentence": "although the drug is marketed in New Zealand (4 valid licences of 4), there is no approved route for this use.",
+   "cut": " (4 valid licences of 4)",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
   }
  ],
  "nortriptyline": [
@@ -552,6 +557,77 @@
   {
    "sentence": "In New Zealand it is currently licensed within sacubitril/valsartan combination products.",
    "reason": "本站資料是 Pharmac 給付清單，不含 Medsafe 許可狀態；整句是許可說法（清單品項已在程式產生的表裡），整句刪"
+  }
+ ],
+ "diazoxide": [
+  {
+   "sentence": "There are no human efficacy trials, the New Zealand licences are all cancelled, and the systemic side-effect burden argues against oral use.",
+   "cut": " the New Zealand licences are all cancelled,",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "febuxostat": [
+  {
+   "sentence": "- Clarification of the cancelled New Zealand regulatory status and route compatibility",
+   "cut": "the cancelled New Zealand regulatory status and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "metformin": [
+  {
+   "sentence": "- Clarification of the cancelled regulatory status, and of whether other metformin products are marketed in New Zealand",
+   "cut": "the cancelled regulatory status, and of ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "metronidazole": [
+  {
+   "sentence": "- Confirm the reason for cancellation of the New Zealand authorizations and the availability of any alternative metronidazole products.",
+   "cut": "the reason for cancellation of the New Zealand authorizations and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "papaverine": [
+  {
+   "sentence": "the only registered trial is an observational diagnostic registry, and the product's New Zealand licence has been cancelled.",
+   "cut": ", and the product's New Zealand licence has been cancelled",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "periciazine": [
+  {
+   "sentence": "There are no trials or publications for periciazine in migraine, and both New Zealand licences are cancelled, so no product is currently marketed.",
+   "cut": ", and both New Zealand licences are cancelled, so no product is currently marketed",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "propafenone": [
+  {
+   "sentence": "- Confirmation of an available product, since the market status is cancelled only",
+   "cut": ", since the market status is cancelled only",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "quinapril": [
+  {
+   "sentence": "- Clarification of the market situation (reason for cancellation, availability of other ACE inhibitors) and whether a genuine unmet need exists",
+   "cut": "reason for cancellation, ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "saccharin": [
+  {
+   "sentence": "Saccharin's products are also cancelled in New Zealand, and the predicted disease term is obsolete.",
+   "cut": "Saccharin's products are also cancelled in New Zealand, and ",
+   "capitalize": true,
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "tyrosine": [
+  {
+   "sentence": "- Clarification of the original approved indication and the reason for license cancellation",
+   "cut": " and the reason for license cancellation",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
   }
  ]
 }

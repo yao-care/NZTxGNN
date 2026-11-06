@@ -108,7 +108,7 @@ Please refer to the package insert for further safety information.
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and acute haemodynamic benefit is shown in small studies, including one neonatal RCT. However, there are no completed Phase 2/3 trials, the registered trials are small or unverified, and although the drug is marketed in New Zealand (4 valid licences of 4), there is no approved route for this use.
+The mechanism is plausible and acute haemodynamic benefit is shown in small studies, including one neonatal RCT. However, there are no completed Phase 2/3 trials, the registered trials are small or unverified, and although the drug is marketed in New Zealand, there is no approved route for this use.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

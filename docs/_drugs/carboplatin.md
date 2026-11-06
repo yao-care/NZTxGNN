@@ -70,6 +70,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2204282 | Baxter | Carboplatin | Inj 1 mg for ECP | Yes |
+| 2424835 | Carbaccord | Carboplatin | Inj 10 mg per ml, 45 ml vial | Yes |
+| 2482517 | DBL Carboplatin | Carboplatin | Inj 10 mg per ml, 45 ml vial | Yes |
+| 2678926 | Carboplatin Accord | Carboplatin | Inj 10 mg per ml, 45 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
 Carboplatin is currently marketed in New Zealand. The injectable products are supplied as 10 mg per ml, 45 ml vials and as a 1 mg injection for ECP. The data compiled for this report contain no approved-indication text for these products.
 
 ## Cytotoxicity

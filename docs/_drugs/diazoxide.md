@@ -129,7 +129,7 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
 **Decision: Hold**
 
 **Rationale:**
-All predictions rest on model scores alone (L5), except alopecia, which has L4 indirect support from animal data and adverse-effect observations. There are no human efficacy trials, the New Zealand licences are all cancelled, and the systemic side-effect burden argues against oral use.
+All predictions rest on model scores alone (L5), except alopecia, which has L4 indirect support from animal data and adverse-effect observations. There are no human efficacy trials, and the systemic side-effect burden argues against oral use.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and the Medsafe package insert warnings and contraindications (required for safety screening)

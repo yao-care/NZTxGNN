@@ -136,7 +136,7 @@ Package insert warnings and contraindications were not available for this report
 - A head-to-head comparison with flecainide in CPVT and controlled clinical data for propafenone
 - An assessment of proarrhythmia and structural-heart-disease risk in CPVT patients
 - Dedicated pediatric dosing and safety evaluation if the infant ventricular tachycardia indication is pursued
-- Confirmation of an available product, since the market status is cancelled only
+- Confirmation of an available product
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

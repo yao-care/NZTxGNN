@@ -129,7 +129,7 @@ The prediction rests on a TxGNN model (deep learning) score alone. The identical
 - Mechanism of action data for metformin, to allow a proper mechanistic analysis
 - Package insert warnings and contraindications from Medsafe, as safety screening cannot proceed without them
 - Literature and trial searches (including case reports and preclinical studies) for metformin in stiff person spectrum disorders
-- Clarification of the cancelled regulatory status, and of whether other metformin products are marketed in New Zealand
+- Clarification of whether other metformin products are marketed in New Zealand
 - Review of the other predicted indications, as none currently has supporting evidence
 ## Disclaimer
 

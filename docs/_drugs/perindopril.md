@@ -102,7 +102,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible but rests on a computational score alone. There are no clinical trials, the single retrieved publication is not about perindopril, and the drug is marketed in New Zealand with 3 valid licences of 3. Safety signals (renal function decline in renal artery stenosis, angioedema) add further caution.
+The prediction is mechanistically plausible but rests on a computational score alone. There are no clinical trials, the single retrieved publication is not about perindopril. Safety signals (renal function decline in renal artery stenosis, angioedema) add further caution.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (from Medsafe)

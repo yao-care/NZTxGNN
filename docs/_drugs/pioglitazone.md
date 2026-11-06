@@ -96,7 +96,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or publications (evidence level L5), the mechanistic link to opsismodysplasia is speculative, and pioglitazone is marketed in New Zealand with 3 valid licences of 3.
+The prediction has no supporting clinical trials or publications (evidence level L5), the mechanistic link to opsismodysplasia is speculative.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence linking PPAR-gamma or insulin/PI3K signalling to INPPL1-related skeletal dysplasia (preclinical or in vitro studies)

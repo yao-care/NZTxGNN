@@ -69,6 +69,17 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2631121 | Amgevita | Adalimumab (Amgevita) | Inj 20 mg per 0.4 ml prefilled syringe | Yes |
+| 2631105 | Amgevita | Adalimumab (Amgevita) | Inj 40 mg per 0.8 ml prefilled pen | Yes |
+| 2631113 | Amgevita | Adalimumab (Amgevita) | Inj 40 mg per 0.8 ml prefilled syringe | Yes |
+| 2635062 | Humira | Adalimumab (Humira - Alternative brand) | Inj 20 mg per 0.2 ml prefilled syringe | Yes |
+| 2635011 | HumiraPen | Adalimumab (Humira - Alternative brand) | Inj 40 mg per 0.4 ml prefilled pen | Yes |
+| 2635038 | Humira | Adalimumab (Humira - Alternative brand) | Inj 40 mg per 0.4 ml prefilled syringe | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
 They cover the Amgevita, Humira and HumiraPen products as prefilled syringes and pens (20 mg and 40 mg strengths).
 
 ## Safety Considerations

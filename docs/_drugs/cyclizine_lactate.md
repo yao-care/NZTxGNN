@@ -82,6 +82,14 @@ Currently no related literature available (no predicted indication available to 
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2231220 | Nausicalm | Cyclizine hydrochloride | Tab 50 mg | Yes |
+| 2595877 | Hameln | Cyclizine lactate | Inj 50 mg per ml, 1 ml ampoule | Yes |
+| 2696290 | Cyclizine lactate Medsurge | Cyclizine lactate | Inj 50 mg per ml, 1 ml ampoule | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
 ---
 
 ## Safety Considerations

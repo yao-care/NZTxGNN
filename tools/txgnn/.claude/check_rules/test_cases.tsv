@@ -329,3 +329,38 @@ M3V	en	Nystatin is a polyene antifungal that is registered and marketed in the P
 M3V	en	The drug's registration in the Philippines has also been cancelled.	hit	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
 M3V	en	- Clarification of the Philippines registration status (cancelled) and the dosage form	hit	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
 M3V	en	- Confirmation of whether any valid Philippines registration or ophthalmic formulation exists	miss	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en	Only one single-ingredient product is recorded, and it is currently valid.	hit	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	The record shows one valid single-ingredient product and no cancelled products.	hit	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Raltegravir is recorded as marketed in the UK, with one single-ingredient record.	hit	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Overall status: **Marketed**.	hit	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	The registry lists one valid single-ingredient authorisation.	hit	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	No TxGNN predictions have been generated, and the absence of a DrugBank ID, mechanism of action data, and valid UK regulatory records means none of the core evaluation criteria can be assessed at this time.	miss	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Aciclovir is an antiviral nucleoside analogue that is marketed in the UK in oral suspension and topical cream products.	miss	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	This is a single-ingredient product record.	miss	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	The only Phase 3 registration (NCT00447369) was withdrawn and provides no data.	miss	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	There are no clinical trials or relevant publications, the mechanistic link to NSIAD is speculative, and the only New Zealand authorization has been cancelled.	hit	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	There are no clinical trials, the single retrieved publication is not about perindopril, and the drug is marketed in New Zealand with 3 valid licences of 3.	hit	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	- Clarification of the cancelled New Zealand regulatory status and route compatibility	hit	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	- Confirm the reason for cancellation of the New Zealand authorizations and the availability of any alternative metronidazole products.	hit	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	The market status is marketed.	hit	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Local records show axitinib as marketed in New Zealand.	hit	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Aspirin products are marketed in New Zealand as plain tablets (a 300 mg dispersible tablet and a 100 mg tablet).	miss	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	- Confirmation of whether any product is currently marketed in New Zealand	miss	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	A 10-year paediatric registry (NCT00568997) is still active.	miss	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	The overall market status in the local data is "Marketed".	hit	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	However, both registered trials are indirect perioperative studies, the supporting data are decades old, and the Philippines registration is cancelled.	hit	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	- Clarification of the original approved indication and the reason for the registration cancellation	hit	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	This is a single-ingredient registration.	hit	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Cetirizine is an H1-receptor antagonist (antihistamine) with a local registration record in the Philippines.	hit	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	The Phase 3 trials that test potassium directly are small or lack reported results, although the drug is marketed in the Philippines with all three licenses valid.	hit	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	- An assessment of whether a valid marketed product and a suitable route of administration exist in the Philippines	miss	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Approved use: Not stated in the Philippines registration record	miss	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Nitrofurantoin is an antibacterial drug, but the Philippine registration record compiled for this report does not state its approved indication.	miss	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Detailed mechanism-of-action data are not available in the registration records.	miss	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.	miss	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Currently no related clinical trials registered.	miss	site=PhTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	This is almost certainly a search artefact.	hit	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	The absence of data here reflects a gap in the evidence pack rather than a true lack of UK market presence.	hit	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	However, in the absence of a UK marketing authorisation, any clinical use would require a Specials licence or named-patient basis application via the MHRA, and standard BNF/NICE guidance does not apply.	hit	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	The high score is likely a TxGNN model (deep learning) artefact and should not be read as evidence.	miss	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	The link to "cystic neoplasm" is probably an ontology-mapping artefact arising from serous and ovarian disease terms.	miss	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0

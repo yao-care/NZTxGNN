@@ -70,6 +70,22 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2694352 | Diclofenac Devatis | Diclofenac sodium | Eye drops 0.1%, single dose | Yes |
+| 2694360 | Diclofenac Devatis | Diclofenac sodium | Eye drops 0.1%, single dose | Yes |
+| 263486 | Voltaren | Diclofenac sodium | Inj 25 mg per ml, 3 ml ampoule | Yes |
+| 747750 | Voltaren | Diclofenac sodium | Suppos 100 mg | Yes |
+| 645931 | Voltaren | Diclofenac sodium | Suppos 12.5 mg | Yes |
+| 645958 | Voltaren | Diclofenac sodium | Suppos 25 mg | Yes |
+| 747742 | Voltaren | Diclofenac sodium | Suppos 50 mg | Yes |
+| 269905 | Voltaren D | Diclofenac sodium | Tab 50 mg dispersible | Yes |
+| 2355981 | Diclofenac Sandoz | Diclofenac sodium | Tab EC 25 mg | Yes |
+| 2356007 | Diclofenac Sandoz | Diclofenac sodium | Tab EC 50 mg | Yes |
+| 2140276 | Voltaren SR | Diclofenac sodium | Tab long-acting 75 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
 Brands and products include Voltaren, Voltaren D, Voltaren SR, Diclofenac Sandoz and Diclofenac Devatis. Approved indication text is not recorded in the local data.
 
 ## Safety Considerations

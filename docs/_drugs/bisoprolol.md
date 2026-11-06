@@ -72,7 +72,13 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Local regulatory data lists bisoprolol as marketed in New Zealand, in single-ingredient tablet strengths of 2.5 mg, 5 mg and 10 mg.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2660377 | Ipca-Bisoprolol | Bisoprolol fumarate | Tab 10 mg | Yes |
+| 2660350 | Ipca-Bisoprolol | Bisoprolol fumarate | Tab 2.5 mg | Yes |
+| 2660369 | Ipca-Bisoprolol | Bisoprolol fumarate | Tab 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

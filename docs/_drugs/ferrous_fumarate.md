@@ -94,7 +94,7 @@ For product-label warnings and contraindications, please refer to the package in
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score. There are no clinical trials or publications, no plausible mechanistic link, and the only New Zealand authorisation has been cancelled. Oral iron's known mucosal irritation also argues against use in an oesophageal condition.
+The prediction is supported only by a model score. There are no clinical trials or publications, no plausible mechanistic link. Oral iron's known mucosal irritation also argues against use in an oesophageal condition.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for ferrous fumarate

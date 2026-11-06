@@ -70,6 +70,16 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 344710 | Biomed | Amiloride hydrochloride | Oral liq 1 mg per ml | Yes |
+| 2643022 | Wockhardt | Amiloride hydrochloride | Tab 5 mg | Yes |
+| 2663120 | Padagis | Amiloride hydrochloride | Tab 5 mg | Yes |
+| 2125536 | Frumil | Amiloride hydrochloride with furosemide | Tab 5 mg with furosemide 40 mg | Yes |
+| 2364433 | Moduretic | Amiloride hydrochloride with hydrochlorothiazide | Tab 5 mg with hydrochlorothiazide 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
 The available forms are 5 mg tablets and a 1 mg/mL oral liquid.
 
 ## Safety Considerations

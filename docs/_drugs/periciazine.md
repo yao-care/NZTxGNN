@@ -110,7 +110,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score and a class-level argument from other phenothiazines. There are no trials or publications for periciazine in migraine, and both New Zealand licences are cancelled, so no product is currently marketed.
+The prediction is supported only by the TxGNN score and a class-level argument from other phenothiazines. There are no trials or publications for periciazine in migraine.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

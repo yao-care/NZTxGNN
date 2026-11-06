@@ -72,7 +72,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-Local records show axitinib as marketed in New Zealand.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2432692 | Inlyta | Axitinib | Tab 1 mg | Yes |
+| 2432706 | Inlyta | Axitinib | Tab 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

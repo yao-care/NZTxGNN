@@ -104,7 +104,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (0.9991), and the vasodilator mechanism is plausible. However, there is no randomized evidence for treating ischemic disease, the only registered trial is an observational diagnostic registry, and the product's New Zealand licence has been cancelled. The knowledge graph also lists coronary artery disease and myocardial infarction as contraindication-related conditions. The idea is a research question, not a ready-to-use new indication.
+The TxGNN score is very high (0.9991), and the vasodilator mechanism is plausible. However, there is no randomized evidence for treating ischemic disease, the only registered trial is an observational diagnostic registry. The knowledge graph also lists coronary artery disease and myocardial infarction as contraindication-related conditions. The idea is a research question, not a ready-to-use new indication.
 
 **To proceed, the following is needed:**
 - The Medsafe package insert, to confirm warnings and contraindications (a blocking gap for safety screening)

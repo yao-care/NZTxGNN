@@ -96,7 +96,7 @@ Please refer to the package insert for warnings and contraindications, which cou
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5). There are no clinical trials or relevant publications, the mechanistic link to NSIAD is speculative, and the only New Zealand authorization has been cancelled.
+The prediction is model-only (L5). There are no clinical trials or relevant publications, the mechanistic link to NSIAD is speculative.
 
 **To proceed, the following is needed:**
 - Retrieve the Medsafe package insert to complete warnings, contraindications, and original indication information (a blocking gap for safety screening)

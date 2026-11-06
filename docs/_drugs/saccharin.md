@@ -88,7 +88,7 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature, no known mechanism and no recorded safety data. Saccharin's products are also cancelled in New Zealand, and the predicted disease term is obsolete.
+The prediction rests only on a model score, with no clinical trials, no literature, no known mechanism and no recorded safety data. The predicted disease term is obsolete.
 
 **To proceed, the following is needed:**
 - Retrieve and review the Medsafe package insert for warnings and contraindications (a blocking gap for safety screening)

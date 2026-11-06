@@ -76,7 +76,14 @@ This is indirect preclinical evidence. It shows how SIV responds to anti-HIV com
 
 ## New Zealand Market Information
 
-Abacavir is listed as marketed in New Zealand. Licence-level details are provided separately by the site.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 378038 | Ziagen | Abacavir sulphate | Tab 300 mg | Yes |
+| 2632365 | Abacavir/Lamivudine Viatris | Abacavir sulphate with lamivudine | Tab 600 mg with lamivudine 300 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+Licence-level details are provided separately by the site.
 
 ## Safety Considerations
 

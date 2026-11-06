@@ -82,6 +82,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2523590 | Vit.D3 | Colecalciferol | Cap 1.25 mg (50,000 iu) | Yes |
+| 2658429 | Clinicians | Colecalciferol | Oral liq 188 mcg per ml (7,500 iu per ml) | Yes |
+| 2337053 | Fosamax Plus | Alendronate sodium with colecalciferol | Tab 70 mg with colecalciferol 5,600 iu | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
 Cholecalciferol is marketed in New Zealand. The available forms are an oral liquid (188 mcg per ml, 7,500 IU per ml) and a capsule (1.25 mg, 50,000 IU).
 
 ---

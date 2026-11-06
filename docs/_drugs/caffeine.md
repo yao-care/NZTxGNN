@@ -76,6 +76,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 461253 | Biomed | Caffeine citrate | Oral liq 20 mg per ml (10 mg base per ml) | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
 Caffeine is marketed in New Zealand. Its approved indication text is not recorded in the local data.
 
 ## Safety Considerations
