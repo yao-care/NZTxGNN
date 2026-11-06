@@ -215,6 +215,8 @@ M3X	en	> No registered products were found to tabulate.	hit	ms=Marketed;valid=53
 M3X	en	The absence of SAHPRA registration reflects the local regulatory status only.	hit	ms=Marketed;valid=37;cancelled=5
 M3X	en	The TxGNN pipeline returned zero predicted indications because the entry could not be resolved, which is a data matching failure.	miss	ms=Marketed;valid=5;cancelled=0
 M3X	en	A result of zero licences strongly suggests a data ingestion or mapping failure at source.	hit	ms=Marketed;valid=5;cancelled=0
+M3X	en	No oral arginine product was identified, so route compatibility has not been assessed.	miss	ms=Marketed;valid=35;cancelled=19
+M3X	en	It may be available as a supplement, but no scheduled pharmaceutical products were identified in the regulatory dataset.	hit	ms=Marketed;valid=39;cancelled=4
 M3V	en-us	Disopyramide is a class Ia antiarrhythmic drug that is marketed in Canada (as RYTHMODAN).	hit	site=CaTxGNN;ms=Approved, not marketed;valid=0;not_marketed=1
 M3V	en-us	Lurbinectedin was formerly marketed in Canada as ZEPZELCA but is now dormant.	miss	site=CaTxGNN;ms=Approved, not marketed;valid=0;not_marketed=1
 M3V	en-us	All three licences are currently valid single-ingredient products.	miss	site=CaTxGNN;ms=Marketed;valid=2;not_marketed=1;cancelled=0
