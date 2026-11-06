@@ -1,0 +1,326 @@
+{
+ "ascorbic_acid": [
+  {
+   "sentence": "The drug is marketed in New Zealand, where its only authorisation (1 of 1) is valid, but no label safety data were available",
+   "cut": ", where its only authorisation (1 of 1) is valid,",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "atropine": [
+  {
+   "sentence": "All three New Zealand licences are valid, and the anticholinergic side-effect and interaction burden is substantial for a chronic indication.",
+   "cut": "All three New Zealand licences are valid, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "crotamiton": [
+  {
+   "sentence": "no MOA data is available, the drug is not registered in New Zealand, and all safety fields are empty.",
+   "cut": " the drug is not registered in New Zealand,",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "dacarbazine": [
+  {
+   "sentence": "In addition, both New Zealand licences are cancelled and the package insert safety data have not been reviewed.",
+   "cut": " both New Zealand licences are cancelled and",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "dapsone": [
+  {
+   "sentence": "Both New Zealand licences are cancelled, and the haematological risks are significant.",
+   "cut": "Both New Zealand licences are cancelled, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "denosumab": [
+  {
+   "sentence": "Both New Zealand authorizations are cancelled, and mechanism and label safety data are missing.",
+   "cut": "Both New Zealand authorizations are cancelled, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "desogestrel": [
+  {
+   "sentence": "The sole New Zealand authorization is cancelled, and safety label data is missing.",
+   "cut": "The sole New Zealand authorization is cancelled, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "eltrombopag": [
+  {
+   "sentence": "In New Zealand, both eltrombopag licences are cancelled, and the label safety data",
+   "cut": "both eltrombopag licences are cancelled, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "eplerenone": [
+  {
+   "sentence": "- A regulatory pathway given the cancelled licences, including consideration of a new application or access route",
+   "cut": " given the cancelled licences",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "ethosuximide": [
+  {
+   "sentence": "A review of the regulatory pathway, since both New Zealand licences are cancelled and the route compatibility for the new indication has not been assessed",
+   "cut": ", since both New Zealand licences are cancelled and the route compatibility for the new indication has not been assessed",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "fentanyl": [
+  {
+   "sentence": "marketed in New Zealand as transdermal patches and an injectable, with 7 valid licences out of 7.",
+   "cut": ", with 7 valid licences out of 7",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "fluorouracil": [
+  {
+   "sentence": "In addition, the drug is marketed in New Zealand (5 of 5 licences valid), and it carries significant myelosuppressive toxicity.",
+   "cut": " the drug is marketed in New Zealand (5 of 5 licences valid), and",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "flupentixol": [
+  {
+   "sentence": "- A review of the cancelled New Zealand authorizations, and of the available routes of administration, if development is considered",
+   "cut": "the cancelled New Zealand authorizations, and of ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "flutamide": [
+  {
+   "sentence": "an assessment of whether any regulatory pathway exists given that both licences are cancelled.",
+   "cut": " given that both licences are cancelled",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "fluticasone": [
+  {
+   "sentence": "All 6 New Zealand licences are valid, but package insert safety data and mechanism data are missing.",
+   "cut": "All 6 New Zealand licences are valid, but ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "imatinib": [
+  {
+   "sentence": "The New Zealand licences are cancelled, and package insert safety data are missing",
+   "cut": "The New Zealand licences are cancelled, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "imiquimod": [
+  {
+   "sentence": "Evidence is supportive, not confirmatory, and the New Zealand licences are all cancelled.",
+   "cut": ", and the New Zealand licences are all cancelled",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "lamivudine": [
+  {
+   "sentence": "In New Zealand, all four lamivudine licences are valid, and the safety review is blocked",
+   "cut": " all four lamivudine licences are valid, and",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "lithium_carbonate": [
+  {
+   "sentence": "Lithium is marketed in New Zealand, with 2 valid licences of 2, and the available safety data are incomplete.",
+   "cut": ", with 2 valid licences of 2,",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "methylphenidate": [
+  {
+   "sentence": "In addition, all 13 New Zealand licences are valid (13 of 13), and package insert safety data is unavailable.",
+   "cut": " all 13 New Zealand licences are valid (13 of 13), and",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "metolazone": [
+  {
+   "sentence": "The only New Zealand authorisation has been cancelled, and the knowledge graph flags several contraindications, including renal-related ones such as anuria.",
+   "cut": "The only New Zealand authorisation has been cancelled, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "metyrapone": [
+  {
+   "sentence": "The drug is marketed in New Zealand (1 valid licence of 1), and the contraindications involve adrenal insufficiency.",
+   "cut": "The drug is marketed in New Zealand (1 valid licence of 1), and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "mitoxantrone": [
+  {
+   "sentence": "Both New Zealand authorisations are cancelled, and mitoxantrone carries significant myelosuppression and cardiotoxicity risks.",
+   "cut": "Both New Zealand authorisations are cancelled, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "moxifloxacin": [
+  {
+   "sentence": "A review of the New Zealand regulatory pathway, given the cancelled licence, and a safety assessment",
+   "cut": ", given the cancelled licence,",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "mycophenolate_mofetil": [
+  {
+   "sentence": "All 3 New Zealand authorizations are valid, but package insert safety data are missing, so the case cannot advance to safety screening yet.",
+   "cut": "All 3 New Zealand authorizations are valid, but ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "naproxen": [
+  {
+   "sentence": "The drug is marketed in New Zealand, with 5 of 5 licences valid, and naproxen carries",
+   "cut": ", with 5 of 5 licences valid,",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "natalizumab": [
+  {
+   "sentence": "Natalizumab's infection and PML risks, together with the cancelled New Zealand authorization, argue against",
+   "cut": ", together with the cancelled New Zealand authorization,",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "nilotinib": [
+  {
+   "sentence": "Both New Zealand licences are cancelled, and the package insert safety data needed for safety screening is missing.",
+   "cut": "Both New Zealand licences are cancelled, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "nitroglycerin": [
+  {
+   "sentence": "The New Zealand licence records compiled for this report do not state an approved indication, but the product forms (ointment, patches, sublingual spray) are consistent with cardiovascular and anal-fissure use.",
+   "cut": "The New Zealand licence records compiled for this report do not state an approved indication, but ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "nortriptyline": [
+  {
+   "sentence": "No nortriptyline product is currently authorized in New Zealand, and label safety data are missing.",
+   "cut": "No nortriptyline product is currently authorized in New Zealand, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "oxaliplatin": [
+  {
+   "sentence": "In New Zealand, all 5 oxaliplatin licences are valid, and the package insert safety review is blocked.",
+   "cut": " all 5 oxaliplatin licences are valid, and",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "paromomycin": [
+  {
+   "sentence": "The only New Zealand authorization has been cancelled, and label safety information is unavailable.",
+   "cut": "The only New Zealand authorization has been cancelled, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "pimecrolimus": [
+  {
+   "sentence": "However, there is no completed Phase 3 evidence, and the New Zealand licence is cancelled, so there is currently no marketed product in New Zealand.",
+   "cut": ", and the New Zealand licence is cancelled, so there is currently no marketed product in New Zealand",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "probenecid": [
+  {
+   "sentence": "*Note: the New Zealand license record has no approved indication text, so the original indications above are not taken from approved labelling.*",
+   "cut": "the New Zealand license record has no approved indication text, so ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "propylthiouracil": [
+  {
+   "sentence": "A review of the hepatotoxicity risk and of New Zealand supply options; the drug is marketed, with 1 valid licence of 1",
+   "cut": "; the drug is marketed, with 1 valid licence of 1",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "rifampicin": [
+  {
+   "sentence": "Effective topical alternatives exist, and no rifampicin product is currently authorised in New Zealand.",
+   "cut": ", and no rifampicin product is currently authorised in New Zealand",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "risdiplam": [
+  {
+   "sentence": "The drug's New Zealand licence is cancelled, and its preclinical retinal and epithelial toxicity signals",
+   "cut": "The drug's New Zealand licence is cancelled, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "rivaroxaban": [
+  {
+   "sentence": "The licence records compiled for this report do not list an approved indication text, and the drug's established use",
+   "cut": "The licence records compiled for this report do not list an approved indication text, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  },
+  {
+   "sentence": "The drug is marketed in New Zealand with all three licences valid, and bleeding-related interactions",
+   "cut": " with all three licences valid,",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "sacubitril": [
+  {
+   "sentence": "The licence records compiled for this report do not state an approved indication, but the combination is known as a heart failure treatment.",
+   "cut": "The licence records compiled for this report do not state an approved indication, but ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "sulfasalazine": [
+  {
+   "sentence": "Both New Zealand licences are cancelled, and label safety data are missing.",
+   "cut": "Both New Zealand licences are cancelled, and ",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "tamsulosin": [
+  {
+   "sentence": "In addition, the only New Zealand authorization has been cancelled, and the package insert safety data have not been retrieved.",
+   "cut": " the only New Zealand authorization has been cancelled, and",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "threonine": [
+  {
+   "sentence": "In addition, the drug is marketed in New Zealand, with 4 valid licences out of 4, and package insert safety information has not been reviewed.",
+   "cut": " the drug is marketed in New Zealand, with 4 valid licences out of 4, and",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "tranexamic_acid": [
+  {
+   "sentence": "The drug is marketed in New Zealand, with 2 valid licences of 2, and the dominant concern",
+   "cut": ", with 2 valid licences of 2,",
+   "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ]
+}
