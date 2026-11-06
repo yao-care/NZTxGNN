@@ -10,7 +10,7 @@ description: "For these drugs, every candidate from the TxGNN model is already a
 
 For these drugs, every candidate from the TxGNN model is already a known use (recorded in the knowledge graph or in a medicine licence), so there is no new predicted indication. Each page lists the known uses and the local market status.
 
-{% assign known_drugs = site.drugs | where: "evidence_level", "N/A" | sort: "title" %}
+{% assign known_drugs = site.drugs | where: "evidence_level", "N/A" | where_exp: "d", "d.noindex != true" | sort: "title" %}
 
 **{{ known_drugs.size }} drugs**
 
