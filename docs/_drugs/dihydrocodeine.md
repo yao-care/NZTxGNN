@@ -76,7 +76,7 @@ Currently no related literature available.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-The licence-level records and the market-level summary compiled for this report are not fully consistent, so current availability should be confirmed directly with Medsafe before any planning.
+Current availability should be confirmed directly with Medsafe before any planning.
 
 ## Safety Considerations
 

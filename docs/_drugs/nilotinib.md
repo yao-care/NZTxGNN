@@ -119,7 +119,7 @@ The only support is a high model score, a plausible PDGFR-based mechanism and on
 - Package insert warnings and contraindications from Medsafe, which block safety screening
 - Mechanism of action data from DrugBank
 - Targeted literature on nilotinib in DFSP, including case series or trials, and comparison with imatinib
-- Clarification of the reason for the licence cancellations and whether any nilotinib product is currently available in New Zealand
+- Clarification of whether any nilotinib product is currently available in New Zealand
 - A cardiac (QT) and metabolic safety monitoring plan, given the knowledge-graph contraindication signals and the Major drug interactions
 ## Disclaimer
 

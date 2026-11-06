@@ -42,6 +42,8 @@ CLAIM += list(getattr(ck, "CANC_NONE", {}).values())  # 全部有效時的「已
 # 處方／給付清單站（Uk、NZ、Ph）：清單品項寫成許可的說法只對該站生效（clause_cut 裡依站加上，Ph 的「FDA」不影響 Us 等站）
 CLAIM += list(getattr(ck, "SCOPE_NOMKT", {}).values())  # 只陳述資料範圍的站：「沒有上市」斷言（Sg、Eu）
 CLAIM += list(getattr(ck, "ALLC_X", []))  # 英文「全部（或唯一）許可已註銷」的寫法（Us，2026-11-06）
+if hasattr(ck, "TOTAL_SPAN"):
+    CLAIM.append(ck.TOTAL_SPAN)  # 英文總數說法的張數子句（「, with 6 of 6 licenses valid」，2026-11-06）
 if hasattr(ck, "VET_ONLY_CLAIM"):
     CLAIM.append(ck.VET_ONLY_CLAIM)  # 「唯一許可是獸用」（Dk）
 START = re.compile(r",\s|;\s|\s(?:that|which|with|and|but|y|con|que|aunque|pero|e|dan|serta|kerana|memandangkan|og|men|med)\s|\s\(", re.I)
@@ -61,7 +63,7 @@ _VERIFY = re.compile(r"\b(verify|verified|check|checked|confirm|consult|refer)\b
 
 def _site_claim(site):
     rx = getattr(ck, "LIST_CLAIM", {}).get(site)
-    return [rx] if rx else []
+    return ([rx] + ([ck.LIST_PIPE] if hasattr(ck, "LIST_PIPE") else [])) if rx else []  # LIST_PIPE：「去抓許可資料／重跑擷取」（2026-11-06）
 
 
 def list_cut_ok(cut, core=None):

@@ -277,7 +277,7 @@ M3V	en	Clarification of the cancelled EU authorization status and the available 
 M3V	en	Both EU authorizations are cancelled.	hit	site=EuTxGNN;ms=Marketed;valid=2;cancelled=0
 M3V	en	There are no cancelled authorizations.	miss	site=EuTxGNN;ms=Marketed;valid=4;cancelled=0
 M3V	en	Fenfluramine was historically withdrawn from the market as an appetite suppressant because of valvular heart disease.	miss	site=EuTxGNN;ms=Marketed;valid=1;cancelled=0
-M3V	en	Both EU authorizations are cancelled.	miss	site=EuTxGNN;ms=Marketed;valid=2;cancelled=1
+M3V	en	One EU authorization is cancelled.	miss	site=EuTxGNN;ms=Marketed;valid=2;cancelled=1
 ROW_STATUS	en	UsTxGNN|| NDA208743 (cancelled) | Tymlos (Radius Health, Inc.) | Injection, solution | Not listed in the license record |	hit	NDA208743=valid
 ROW_STATUS	en	UsTxGNN|| ANDA077449 (Ingenus), cancelled | Fentanyl | Injection | Not available |	hit	ANDA077449=valid
 ROW_STATUS	en	UsTxGNN|| NDA020764 | Lamictal | Tablet | Not specified (valid) |	hit	NDA020764=cancelled
@@ -392,7 +392,7 @@ M3V	en-us	Several of the records are valid, and at least one is cancelled.	miss	
 M3V	en-us	Of the licence records, 8 are valid and 1 (an injectable product) is cancelled.	miss	site=UsTxGNN;ms=Marketed;valid=20;cancelled=7
 M3V	en-us	- Clarification of the reason for the license cancellations and the current US availability	miss	site=UsTxGNN;ms=Marketed;valid=1;cancelled=3
 M3V	en-us	This is a veterinary indication, and the evidence further limits practical development.	miss	site=UsTxGNN;ms=Marketed;valid=2;cancelled=0
-M3V	en-us	All nine US listings for trastuzumab products are marked as cancelled.	miss	site=ZaTxGNN;ms=Marketed;valid=9;cancelled=0
+M3V	en-us	All nine US listings for trastuzumab products are marked as cancelled.	miss	site=DETxGNN;ms=Marketed;valid=9;cancelled=0
 M3V	en	At least one licence is valid in the local data (1 licence in total, 1 valid, 0 cancelled).	miss	site=UsTxGNN;ms=Marketed;valid=1;cancelled=0
 M3	pt	Além disso, todos os registros no Brasil estão cancelados.	hit	valid=2
 M3	pt	A previsão é apenas computacional (L5), e todos os registros no Brasil estão cancelados.	hit	valid=3
@@ -401,3 +401,47 @@ M3	ar	جميع التراخيص الاثنا عشر ملغاة، ولا يتوف
 M3	en	All 4 registrations are valid, and none is cancelled.	miss	valid=4
 M3	es	Hay 20 autorizaciones vigentes en total, todas de monofármaco, sin autorizaciones canceladas.	miss	valid=20
 M3	en	All six are single-ingredient licences and none has been cancelled.	miss	valid=6
+M3V	en	Both EU authorizations are cancelled.	hit	site=EuTxGNN;ms=Marketed;valid=2;cancelled=1;note=2026-11-06 ALLC_X 對 Eu 啟用後：有有效許可時「兩張都註銷」與事實矛盾
+M3V	en	All nine SAHPRA registrations for trastuzumab products are marked as cancelled.	hit	site=ZaTxGNN;ms=Marketed;valid=9;cancelled=0
+M3V	en	There are no human rheumatoid arthritis trials, and the EU authorizations are currently cancelled.	hit	site=EuTxGNN;ms=Marketed;valid=2;cancelled=0
+M3V	en	However, no trials or efficacy studies exist specifically for this subtype, and the EU authorisation is recorded as cancelled.	hit	site=EuTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en	The guardrails reflect that all three EU centrally authorized products are cancelled, that the Phase 3 trial is a comparison.	hit	site=EuTxGNN;ms=Marketed;valid=3;cancelled=2
+M3V	en	- Clarification of the reason for the licence cancellations and whether any nilotinib product is currently available in New Zealand	hit	site=NZTxGNN;ms=Marketed;valid=2;cancelled=0
+M3V	en	- Clarification of whether any nilotinib product is currently available in New Zealand	miss	site=NZTxGNN;ms=Marketed;valid=2;cancelled=0
+M3V	en	The drug is marketed in the EU, and two older authorizations have been withdrawn.	miss	site=EuTxGNN;ms=Marketed;valid=9;cancelled=2
+M3V	en-us	In total, 10 licences are valid and 1 is cancelled.	hit	site=UsTxGNN;ms=Marketed;total=48;valid=21;cancelled=27;note=2026-11-06 總數說法（TOTAL_X）
+M3V	en-us	Of 7 US licence records, 5 are valid and 2 are cancelled.	hit	site=UsTxGNN;ms=Marketed;total=10;valid=6;cancelled=4
+M3V	en-us	Of the licence records compiled for this report, 8 are valid and 1 is cancelled.	hit	site=UsTxGNN;ms=Marketed;total=292;valid=72;cancelled=220
+M3V	en-us	Five of the six licences are currently valid, and one is cancelled.	hit	site=UsTxGNN;ms=Marketed;total=15;valid=6;cancelled=9
+M3V	en-us	The drug is marketed in the US, with 6 of 6 licenses valid.	hit	site=UsTxGNN;ms=Marketed;total=17;valid=12;cancelled=5
+M3V	en-us	- Clarification of the regulatory and supply situation (6 of 6 US licenses are valid)	hit	site=UsTxGNN;ms=Marketed;total=17;valid=12;cancelled=5
+M3V	en-us	All 16 US licenses are recorded as valid, and the records contain no approved indication text.	hit	site=UsTxGNN;ms=Marketed;total=52;valid=35;cancelled=17
+M3V	en-us	The local data hold 6 licence records in total, and the list above shows 5 of them.	hit	site=UsTxGNN;ms=Marketed;total=15;valid=5;cancelled=10
+M3V	en-us	All seven licenses are oral tablets.	hit	site=UsTxGNN;ms=Marketed;total=39;valid=26;cancelled=13
+M3V	en	The drug is marketed in this country: 9 of 9 licences are valid.	hit	site=EuTxGNN;ms=Marketed;total=11;valid=9;cancelled=2
+M3V	en	The list shows 5 of 18 valid licences.	hit	site=SgTxGNN;ms=Marketed;total=17;valid=17;cancelled=0
+M3V	en	- The SAHPRA package insert (warnings, contraindications, approved indications) for all three registrations	hit	site=ZaTxGNN;ms=Marketed;total=46;valid=35;cancelled=11
+M3V	en-us	In total, 21 licences are valid and 27 are cancelled.	miss	site=UsTxGNN;ms=Marketed;total=48;valid=21;cancelled=27
+M3V	en-us	Of 34 FDA applications, 20 are active and 14 are cancelled.	miss	site=UsTxGNN;ms=Marketed;total=34;valid=20;cancelled=14
+M3V	en-us	Of the 5 licences listed, 3 are valid and 2 are cancelled.	miss	site=UsTxGNN;ms=Marketed;total=17;valid=6;cancelled=11
+M3V	en-us	Showing 5 of 337 entries (FDA applications first, active before discontinued; NDC listings without an FDA application last).	miss	site=UsTxGNN;ms=Marketed;total=70;valid=6;cancelled=64;listed=267
+M3V	en-us	The interaction screen returned 100 entries in total; only a sample is shown here.	miss	site=UsTxGNN;ms=Marketed;total=11;valid=2;cancelled=9
+M3V	en-us	A total of 100 interactions were recorded.	miss	site=UsTxGNN;ms=Marketed;total=11;valid=11;cancelled=0
+M3V	en-us	All 20 entries reviewed are rated Moderate.	miss	site=UsTxGNN;ms=Marketed;total=2;valid=2;cancelled=0
+M3V	en-us	Of 15 recorded licences, 14 are valid and 1 is cancelled.	miss	site=UsTxGNN;ms=Marketed;valid=14;cancelled=1;partial=1
+M3V	en-us	At least 8 of the 12 licences are valid.	miss	site=UsTxGNN;ms=Marketed;total=20;valid=14;cancelled=6
+M3V	en-us	The drug is marketed in the US, with 6 of 6 licenses valid.	miss	site=DETxGNN;ms=Marketed;total=17;valid=12;cancelled=5
+M3V	en	The drug is marketed in this country, and all 7 of 7 licences are valid; none is cancelled.	miss	site=SgTxGNN;ms=Marketed;total=7;valid=7;cancelled=0
+M3V	en	> **Action required**: Verify MHRA product licence data for Alendronic acid via the MHRA Product Licence Search and re-run the data ingestion pipeline.	hit	site=UkTxGNN;ms=Marketed;total=16;valid=16;cancelled=0;note=2026-11-06 清單站「去抓許可資料、重跑擷取」（LIST_PIPE）
+M3V	en	- **[Critical]** Re-run the MHRA product licence ingestion pipeline and confirm PL records are correctly retrieved	hit	site=UkTxGNN;ms=Marketed;total=16;valid=16;cancelled=0
+M3V	en	MHRA licence data should be retrieved and loaded before any regulatory assessment is undertaken.	hit	site=UkTxGNN;ms=Marketed;total=34;valid=34;cancelled=0
+M3V	en	- **Verify UK market status:** Cross-check against the MHRA Product Licence register to confirm whether existing authorisations were missed in the current data pull	hit	site=UkTxGNN;ms=Marketed;total=5;valid=5;cancelled=0
+M3V	en	However, the trials are small and old, no trials are registered, and the UK licence record is incomplete.	hit	site=UkTxGNN;ms=Marketed;total=5;valid=5;cancelled=0
+M3V	en	The licence-level records and the market-level summary compiled for this report are not fully consistent, so current availability should be confirmed directly with Medsafe before any planning.	hit	site=NZTxGNN;ms=Marketed;total=3;valid=3;cancelled=0
+M3V	en	The original approved indications field is also empty, which may indicate that a regulatory data pull (e.g., from FDA Philippines or equivalent) was not completed before this pack was assembled.	hit	site=PhTxGNN;ms=Marketed;total=2;valid=2;cancelled=0
+M3V	en	- **Re-run TxGNN prediction pipeline** — Once the DrugBank ID and regulatory data are resolved, re-run the TxGNN model to generate repurposing candidates.	miss	site=UkTxGNN;ms=Marketed;total=48;valid=48;cancelled=0
+M3V	en	- **Retrieve SmPC safety data** — Download and parse the current MHRA SmPC to populate key warnings, contraindications, and drug interactions.	miss	site=UkTxGNN;ms=Marketed;total=48;valid=48;cancelled=0
+M3V	en	- Retrieve the Medsafe package insert to complete warnings, contraindications, and original indication information (a blocking gap for safety screening)	miss	site=NZTxGNN;ms=Marketed;total=2;valid=2;cancelled=0
+M3V	en	The identifier appears to be a BNF-style code rather than an MHRA PL number, so the authorisation details should be checked against MHRA records.	miss	site=UkTxGNN;ms=Marketed;total=3;valid=3;cancelled=0
+M3V	en	- Confirm Philippines FDA registration status via the online product verification portal; if unregistered, assess importation or registration pathway.	miss	site=PhTxGNN;ms=Marketed;total=1;valid=1;cancelled=0
+M3V	en	MHRA licence data should be retrieved and loaded before any regulatory assessment is undertaken.	miss	site=CaTxGNN;ms=Marketed;total=34;valid=34;cancelled=0

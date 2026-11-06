@@ -332,6 +332,11 @@
    "cut": "Both New Zealand licences are cancelled, and ",
    "reason": "本站資料是 Pharmac 給付清單（依成分重建），不是 Medsafe 許可證（舊頁把 Fully subsidised 空白誤讀成註銷）；只刪說許可有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
    "capitalize": true
+  },
+  {
+   "sentence": "Clarification of the reason for the licence cancellations and whether any nilotinib product is currently available in New Zealand",
+   "cut": "the reason for the licence cancellations and ",
+   "reason": "本站資料是 Pharmac 處方／給付清單（本藥 2 筆，均在列），不含許可狀態，也沒有任何註銷紀錄；只刪「註銷的理由」片段，下一步條目其餘部分保留（2026-11-06 逐句核對）"
   }
  ],
  "nitroglycerin": [
@@ -628,6 +633,14 @@
    "sentence": "- Clarification of the original approved indication and the reason for license cancellation",
    "cut": " and the reason for license cancellation",
    "reason": "本站資料是 Pharmac 給付清單（依成分重建），不含 Medsafe 許可狀態；只刪說許可有效／註銷／張數的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "dihydrocodeine": [
+  {
+   "sentence": "The licence-level records and the market-level summary compiled for this report are not fully consistent, so current availability should be confirmed directly with Medsafe before any planning.",
+   "cut": "The licence-level records and the market-level summary compiled for this report are not fully consistent, so ",
+   "capitalize": true,
+   "reason": "本站資料是 Pharmac 處方／給付清單，依設計不含 Medsafe 許可紀錄；「許可層級紀錄與市場摘要不一致」把清單紀錄說成許可紀錄，與事實不符；只刪該子句，「向 Medsafe 確認供應狀況」的下一步保留（2026-11-06）"
   }
  ]
 }
