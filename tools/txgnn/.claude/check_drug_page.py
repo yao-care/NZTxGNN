@@ -29,6 +29,8 @@
      總數、有效、註銷張數跟事實不符（total_x；表格子集合、至少 N、部分紀錄、交互作用筆數不算）
      M3 英文「有效張數」說法跟事實不符（2026-11-06，VALIDX_SITES，同上 10 站）：「with N valid …」「N valid authorizations」「N licences are valid」寫的有效張數
      不等於事實（valid_under；至少 N、部分紀錄、表外另有 N 張、表格列出的 N 張、單方張數不少於事實單方有效張數的不算）
+     M3 英文「單方／複方」說法跟事實不符（2026-11-06，COMBO_X_SITES：Sg、Za、Uk、NZ、Eu、Ph；事實層 kind 分不出複方的 Us、Au、In、Ca 不啟用）：
+     寫全部單方／沒有複方但有效許可有複方、寫只有複方但有單方、單方張數多於事實（combo_x）
      M3l 清單站（Uk、NZ、Ph）第四輪（2026-11-06）：說許可資料應去 MHRA／Medsafe／FDA PH 擷取、重跑擷取流程、許可資料／紀錄不完整或尚未載入（LIST_PIPE；仿單缺漏不算）
 D1 一頁只能有一份報告（2026-11-03 用戶決定）：報告標題＝H2 後一行是「{: .text-alpha }」；兩個以上就錯
    （過去產生時殘留的第二份舊報告、或模型自己「更正標題」留下的第二個標題；修法見 drop_duplicate_reports_20261103.py）
@@ -907,6 +909,42 @@ def valid_under(site, s, fc):
         return f"有效張數說法跟事實不符（寫 {k} 張，事實有效 {v} 張{'（單方 ' + str(vs) + '）' if vs is not None else ''}）：{s[:60]}"
     return None
 
+# M3 擴充（2026-11-06，用戶決定）：正文的「單方／複方」說法跟事實不符。事實層 valid_single／single_total 是該站 reviewer
+# 依許可成分數判定的單方張數（kind＝single／combo）。判定（部分紀錄的頁不判、事實沒有 kind 的頁不判）：
+#   全部單方（All five registrations are valid single-ingredient products、all single-ingredient、no combination products）：有效許可裡有複方就矛盾；
+#   全部複方（only available as a combination、no single-ingredient …）：有單方有效許可就矛盾；
+#   單方張數（N valid single-ingredient …）多於事實的單方張數就矛盾（少於事實由 valid_under 管）。
+# 「All 5 single-ingredient licences are valid」（主詞是單方那幾張）不算。只在 COMBO_X_SITES 啟用（新規則上線前該站頁面要先清到 0）。
+# 啟用站＝事實層 kind 能分出複方的站（Us、Au、In 的證據包 kind 一律是 single；Ca 的 DPD 複方也標成 single，例 butalbital 的 FIORINAL），
+# 這 4 站不啟用（2026-11-06）
+COMBO_X_SITES = {"SgTxGNN", "ZaTxGNN", "UkTxGNN", "NZTxGNN", "EuTxGNN", "PhTxGNN"}
+_SI = r"single[- ](?:ingredient|agent|substance|component)s?|mono-?(?:component|substance)"
+_CX_ALL_SINGLE = re.compile(r"\b(?:all|both|each|every)\b(?!\s+(?:the\s+)?(?:\w+\s+)?(?:" + _SI + r")\s+\w+\s+(?:are|is|were)\b)[^.;]{0,70}?\b(?:" + _SI + r")\b|"
+                            r"\b(?:entirely|exclusively)\s+(?:of\s+)?(?:" + _SI + r")\b|"
+                            r"\bno\s+(?:combination|fixed-dose|multi-ingredient)\b|\bnone\s+(?:is|are)\s+(?:a\s+)?(?:combination|fixed-dose)\b|\bnot\s+(?:a\s+)?combination\s+product", re.I)
+_CX_ALL_COMBO = re.compile(r"\bonly\s+(?:(?:available|marketed|registered|authori[sz]ed|licensed)\s+)?(?:as|in)\s+(?:a\s+|an?\s+)?(?:fixed-dose\s+)?combination|"
+                           r"\bno\s+(?:" + _SI + r")\b|\b(?:all|both)\b[^.;]{0,50}\b(?:are|is)\s+(?:\w+\s+)?(?:combination|fixed-dose|multi-ingredient)\s+(?:products?|preparations?|registrations?|licen[cs]es?|authori[sz]ations?)", re.I)
+_CX_COUNT = re.compile(r"\b" + _NUM + r"\s+(valid\s+)?(?:" + _SI + r")\b", re.I)
+
+
+def combo_x(site, s, fc):
+    """單方／複方說法跟事實不符（英文、COMBO_X_SITES）：回傳說明或 None"""
+    if not fc or fc.get("partial") or fc.get("valid_single") is None:
+        return None
+    s2 = s.replace("**", "").replace("U.S.", "US")
+    if TOTAL_NOTLIC.search(s2) or not _VX_LIC.search(s2) or re.search(r"\btrials?\b|\bNCT\d|\bregimens?\b|\bcombination (?:with|of|therapy)\b|\bin combination\b|\bwhich\b[^.;]{0,30}\b(?:single|combination)", s2, re.I):
+        return None
+    v, vs, st = fc.get("valid") or 0, fc.get("valid_single") or 0, fc.get("single_total") or 0
+    if _CX_ALL_SINGLE.search(s2) and vs < v:
+        return f"單方說法跟事實不符（寫全部單方／沒有複方，事實有效 {v} 張中單方 {vs} 張）：{s[:60]}"
+    if _CX_ALL_COMBO.search(s2) and vs > 0:
+        return f"複方說法跟事實不符（寫只有複方／沒有單方，事實單方有效 {vs} 張）：{s[:60]}"
+    for m in _CX_COUNT.finditer(s2):
+        k = _num(m.group(1))
+        if k is not None and not AT_LEAST.search(s2[max(0, m.start() - 14):m.start()]) and k > (vs if m.group(2) else max(vs, st)):
+            return f"單方張數說法跟事實不符（寫 {k} 張，事實單方有效 {vs} 張、單方共 {st} 張）：{s[:60]}"
+    return None
+
 def m3_verdict(site, lang, s, fc):
     """正文一句跟事實矛盾時回傳 (子類, 說明)；checker 與刪句程式共用（2026-11-05）"""
     if site in EMPH_STRIP:
@@ -932,6 +970,10 @@ def m3_verdict(site, lang, s, fc):
             return "M3", h
     if site in VALIDX_SITES and lang in M3X_LANGS:
         h = valid_under(site, s, fc)
+        if h:
+            return "M3", h
+    if site in COMBO_X_SITES and lang in M3X_LANGS:
+        h = combo_x(site, s, fc)
         if h:
             return "M3", h
     if ms in ("Cancelled only", "Not marketed") and (marketed_word(lang) in s or MKT_CLAIM_EXTRA.search(s)) and not mv2.NEG.search(s):
@@ -1922,6 +1964,7 @@ def selftest():
             fcv = {"market_status": kv.get("ms"), "valid": int(kv.get("valid", 0)), "not_marketed": int(kv.get("not_marketed", 0)),
                    "cancelled": int(kv.get("cancelled", 0)), "partial": kv.get("partial") == "1",
                    **({"total": int(kv["total"])} if "total" in kv else {}), **({"listed": int(kv["listed"])} if "listed" in kv else {}),
+                   **({"valid_single": int(kv["vs"]), "single_total": int(kv.get("st", kv["vs"]))} if "vs" in kv else {}),
                    "licenses": dict(x.split(":", 1) for x in kv.get("lic", "").split(",") if ":" in x)}  # lic=NDA123456:valid,ANDA…:cancelled
             M3X_SITES.add(kv.get("site"))  # 測試案例的站一律啟用
             got = bool(m3_verdict(kv.get("site"), lang, text, fcv))

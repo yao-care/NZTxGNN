@@ -642,5 +642,11 @@
    "capitalize": true,
    "reason": "本站資料是 Pharmac 處方／給付清單，依設計不含 Medsafe 許可紀錄；「許可層級紀錄與市場摘要不一致」把清單紀錄說成許可紀錄，與事實不符；只刪該子句，「向 Medsafe 確認供應狀況」的下一步保留（2026-11-06）"
   }
+ ],
+ "miconazole": [
+  {
+   "sentence": "All products listed are single-ingredient miconazole.",
+   "reason": "本站資料是 Pharmac 處方／給付清單（本藥 6 筆，其中單方 5 筆，依清單成分）；表列 6 筆中 Micreme H 是 hydrocortisone＋miconazole 複方；「列出的產品全部是單方」與事實不符，句子只有這個說法，整句刪（2026-11-06 用戶決定：單方／複方說法跟事實不符只刪錯的詞或子句）"
+  }
  ]
 }

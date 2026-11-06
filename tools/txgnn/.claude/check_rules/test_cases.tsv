@@ -464,3 +464,15 @@ M3V	en-us	Of the 5 licences listed, 3 are valid and 2 are cancelled.	miss	site=U
 M3V	en	All three licences are currently valid single-ingredient products.	miss	site=CaTxGNN;ms=Marketed;total=3;valid=2;not_marketed=1;cancelled=0
 M3V	en-us	The drug is marketed in the US, with 11 valid authorizations.	miss	site=DETxGNN;ms=Marketed;total=116;valid=68;cancelled=48
 M3V	en-us	The interaction screen returned 12 valid records.	miss	site=UsTxGNN;ms=Marketed;total=116;valid=68;cancelled=48
+M3V	en	All five registrations are valid single-ingredient products.	hit	site=SgTxGNN;ms=Marketed;total=5;valid=5;cancelled=0;vs=0;st=0;note=2026-11-06 單方／複方（COMBO_X，Sg articaine）
+M3V	en	Both licences are valid, single-ingredient oral products from Kowa Company, Ltd.	hit	site=SgTxGNN;ms=Marketed;total=4;valid=4;cancelled=0;vs=2;st=2
+M3V	en	All are combination products and none is cancelled.	hit	site=SgTxGNN;ms=Marketed;total=23;valid=23;cancelled=0;vs=5;st=5
+M3V	en	Ethinylestradiol is widely used, and it is registered in South Africa in 20 single-ingredient products.	hit	site=ZaTxGNN;ms=Marketed;total=78;valid=65;cancelled=13;vs=2;st=2
+M3V	en	All products listed are single-ingredient miconazole.	hit	site=NZTxGNN;ms=Marketed;total=6;valid=6;cancelled=0;vs=5;st=5
+M3V	en	All five registrations are valid products.	miss	site=SgTxGNN;ms=Marketed;total=5;valid=5;cancelled=0;vs=0;st=0
+M3V	en	All 18 licences are valid single-ingredient registrations, with none cancelled.	miss	site=SgTxGNN;ms=Marketed;total=18;valid=18;cancelled=0;vs=18;st=18
+M3V	en	Five single-ingredient licences are valid; the rest are combinations.	miss	site=SgTxGNN;ms=Marketed;total=18;valid=18;cancelled=0;vs=5;st=5
+M3V	en	- Approved indication text for each registration, to clarify which products are single-agent and which are combinations.	miss	site=ZaTxGNN;ms=Marketed;total=70;valid=70;cancelled=0;vs=2;st=2
+M3V	en	Butalbital is marketed only in fixed-dose combination products.	miss	site=CaTxGNN;ms=Marketed;total=11;valid=11;cancelled=0;vs=11;st=11
+M3V	en	All five registrations are valid single-ingredient products.	miss	site=SgTxGNN;ms=Marketed;valid=5;cancelled=0;vs=0;st=0;partial=1
+M3V	en	Pemetrexed in combination with cisplatin is the standard regimen, and all products are single-agent vials.	miss	site=SgTxGNN;ms=Marketed;total=5;valid=5;cancelled=0;vs=3;st=3

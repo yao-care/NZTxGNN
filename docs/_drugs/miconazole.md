@@ -89,7 +89,7 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-Indication text is not available for these authorizations. All products listed are single-ingredient miconazole.
+Indication text is not available for these authorizations.
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
