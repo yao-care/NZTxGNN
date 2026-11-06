@@ -112,7 +112,7 @@ The prediction is supported only by a model score (L5). There are no clinical tr
 - Mechanism of action data confirmed from DrugBank
 - The Medsafe package insert, to establish official warnings and contraindications (safety screening cannot proceed without it)
 - Preclinical or mechanistic evidence linking VMAT2 inhibition to cyst formation or ciliopathy pathways
-- Clarification of the cancelled New Zealand licence and available routes of administration
+- Clarification of available routes of administration
 - A review of the cardiac (QT) and other contraindication signals against the intended patient population
 ## Disclaimer
 

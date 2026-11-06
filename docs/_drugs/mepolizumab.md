@@ -105,7 +105,7 @@ The prediction rests on a single case report in a hypereosinophilic setting and 
 - Mechanism of action data from DrugBank
 - Targeted literature review on anti-IL-5 therapy in eosinophil-associated immune cytopenias
 - Clarification of whether any eosinophil-driven subset of immune thrombocytopenia exists to justify a trial
-- Confirmation of current New Zealand availability, given the cancelled licence
+- Confirmation of current New Zealand availability
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

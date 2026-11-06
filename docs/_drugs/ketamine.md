@@ -120,7 +120,7 @@ Multiple randomised trials, including one completed Phase 3 trial, and several r
 - Obtain and review the Medsafe package insert for warnings and contraindications (a blocking gap for safety screening)
 - Obtain DrugBank mechanism of action data
 - Results from the ongoing Phase 3 KetHead trial (NCT05306899) and a re-check of the evidence level
-- Clarify the regulatory pathway given the cancelled licence, and the route of administration (intranasal vs intravenous), since the only recorded product is an injection
+- Clarify the regulatory pathway and the route of administration (intranasal vs intravenous), since the only recorded product is an injection
 - A patient-selection and monitoring plan that excludes or closely monitors patients with cardiovascular, cerebrovascular, intracranial pressure and substance-use risk
 ## Disclaimer
 

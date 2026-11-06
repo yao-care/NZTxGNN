@@ -119,7 +119,7 @@ The prediction score is high, but no ADHD trial exists and the literature is ind
 - Detailed mechanism-of-action data
 - ADHD-specific preclinical or clinical evidence for pramipexole, such as a pilot trial
 - Review of whether the dopaminergic safety profile (impulse-control problems, sleepiness, orthostatic hypotension) is acceptable in an ADHD population
-- Clarification of the regulatory pathway, since both New Zealand authorizations are cancelled
+- Clarification of the regulatory pathway
 
 Among the other predicted indications for this drug, **schizophrenia** has considerably stronger evidence than ADHD: a Phase 3 add-on trial (NCT01320982, status unknown) and a published add-on RCT from 2022. It may deserve a separate evaluation.
 ## Disclaimer

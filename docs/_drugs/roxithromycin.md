@@ -104,7 +104,6 @@ Support for leprosy rests on in vitro and mouse studies plus reviews, with no hu
 - Package insert warnings and contraindications (currently unavailable) for a safety screen
 - Detailed mechanism of action data
 - Head-to-head comparison with clarithromycin, or human clinical data, to justify choosing roxithromycin
-- Clarification of the regulatory pathway, given that both New Zealand licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

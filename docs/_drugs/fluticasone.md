@@ -119,8 +119,7 @@ The prediction is supported only by the model score (L5). There are no clinical 
 - Package insert warnings and contraindications from Medsafe, which is a blocking gap for safety screening
 - Preclinical or clinical evidence of benefit in migraine
 - An assessment of the neuropsychiatric safety signal
-- An assessment of route compatibility, since only inhaled forms were licensed
-- A decision on whether any product would be re-registered, given the cancelled market status
+- An assessment of route compatibility
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

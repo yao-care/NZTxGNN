@@ -141,7 +141,7 @@ Multiple completed Phase 3 randomised trials and several RCT publications place 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking data gap for safety screening)
 - Detailed mechanism of action data from the drug database
-- Confirmation of access to a licensed or unapproved-medicine supply route in New Zealand, although the drug is marketed, with 7 valid licences of 7
+- Confirmation of access to a licensed or unapproved-medicine supply route in New Zealand
 - A cardiac monitoring plan covering cumulative anthracycline dose and cardioprotection (such as dexrazoxane)
 - Clarification of doxorubicin's own contribution within the VDC/IE regimen
 

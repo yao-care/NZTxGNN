@@ -115,7 +115,6 @@ The mechanism is plausible and acute haemodynamic benefit is shown in small stud
 - Detailed mechanism of action data from DrugBank
 - Adequately powered controlled trials of nebulised or inhaled nitroglycerin with durable clinical outcomes
 - A decision on formulation and route
-- Clarification of the original approved indications of the cancelled licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

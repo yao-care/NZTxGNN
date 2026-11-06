@@ -120,7 +120,7 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-Liposarcoma has the most developed evidence (L2: completed Phase 2 trials), but the data show limited, histology-dependent activity and no randomized evidence of benefit. Pazopanib's New Zealand licences are both cancelled, and the package insert safety review has not been done, which is a blocking gap. The liposarcoma prediction is best treated as a research question.
+Liposarcoma has the most developed evidence (L2: completed Phase 2 trials), but the data show limited, histology-dependent activity and no randomized evidence of benefit. The package insert safety review has not been done, which is a blocking gap. The liposarcoma prediction is best treated as a research question.
 
 **Other predictions in the dataset:**
 - **Dermatofibrosarcoma protuberans** (L2, Research Question): strong mechanistic rationale through COL1A1-PDGFB and PDGFR, with a multicenter Phase 2 study (PMID 32956651) and a terminated Phase 2a trial ([NCT01059656](https://clinicaltrials.gov/study/NCT01059656), n=23). Imatinib remains the established therapy, so pazopanib is a second-line consideration.
@@ -132,7 +132,7 @@ Liposarcoma has the most developed evidence (L2: completed Phase 2 trials), but 
 - Download and review the Medsafe package insert (warnings and contraindications), the blocking gap.
 - Detailed mechanism of action data from DrugBank.
 - Published results and outcomes of the liposarcoma trials (NCT01506596, NCT01692496) to quantify efficacy.
-- Clarification of New Zealand supply and regulatory status, since both licences are cancelled.
+- Clarification of New Zealand supply and regulatory status.
 - A safety monitoring plan covering cardiovascular, hepatic and thyroid risks and interactions with acid-suppressing drugs.
 ## Disclaimer
 

@@ -148,7 +148,7 @@ The package insert warnings and contraindications could not be obtained for this
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Results from the liposomal mitoxantrone phase II and III trials, noting that these use a different formulation from the conventional injection previously marketed in New Zealand
-- Clarification of whether a product would be reintroduced, given the cancelled licences, and a cardiac and haematological monitoring plan
+- Clarification of whether a product would be reintroduced and a cardiac and haematological monitoring plan
 - A comparison of mitoxantrone with current standard therapy (for example, platinum-based regimens and immunotherapy) in head and neck cancer
 ## Disclaimer
 

@@ -111,7 +111,7 @@ The evidence is limited to older oral-midazolam hypnotic studies from the 1980sâ
 - Mechanism of action data from DrugBank
 - Review of whether an oral formulation is available or would need to be registered
 - Comparison with current insomnia treatments, including a riskâ€“benefit assessment of dependence, next-day impairment and interactions
-- Confirmation of the original (approved) indication, as no approved indication text is recorded for the cancelled licences
+- Confirmation of the original (approved) indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

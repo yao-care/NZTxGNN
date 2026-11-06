@@ -112,7 +112,6 @@ The prediction score is high, but no trial tests pravastatin in homozygous FH, a
 - Direct pravastatin efficacy data in homozygous FH (or a focus on heterozygous FH, where paediatric evidence is stronger)
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Medsafe
-- Clarification of the regulatory status given the cancelled licences
 - A comparison against established therapies for homozygous FH (e.g. PCSK9 inhibitors such as alirocumab)
 
 **Other predictions:** HIV-associated dyslipidaemia (L3, Research Question) is the most evidence-supported alternative direction. It has several pravastatin trials (including randomised placebo-controlled studies and a Phase 3 comparison with fenofibrate, n=630), but this is comorbidity management, not antiviral treatment.

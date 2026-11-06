@@ -126,7 +126,7 @@ The only related trial is indirect, and the literature consists mostly of older 
 - Obtain the Medsafe package insert to complete warnings and contraindications review
 - Obtain detailed mechanism of action data (e.g., from DrugBank)
 - Run a targeted search for trials or studies directly testing desogestrel (alone or combined) in amenorrhea, especially hypothalamic amenorrhea
-- Clarify the original approved indication and current regulatory pathway, since the existing authorization is cancelled
+- Clarify the original approved indication and current regulatory pathway
 - Assess the knowledge-graph contraindication signals (cardiovascular, hepatic, metabolic) against the label before any further evaluation
 ## Disclaimer
 

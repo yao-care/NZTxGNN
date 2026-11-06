@@ -91,8 +91,6 @@ No clinical trials are currently registered for this drug and indication.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-Both authorizations are combination inhalers and both are cancelled.
-
 ## Safety Considerations
 
 - **Contraindications (TxGNN model associations, not label text)**: The TxGNN model (deep learning) links the drug to the following conditions as contraindications. These associations may reflect similarities the model learned between related diseases, not biological evidence: measles, herpes simplex virus keratitis, adrenocortical insufficiency, Addison disease, varicella zoster infection, fungal infectious disease, dermatophytosis, pulmonary tuberculosis, ocular hypertension, glaucoma, parasitic infection, infectious disease, lower respiratory tract disease, paranasal sinus disease, nasal cavity disease, upper respiratory tract disease, adrenal gland hyperfunction and Cushing syndrome.

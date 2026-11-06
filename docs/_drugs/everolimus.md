@@ -132,7 +132,7 @@ Package insert warnings and contraindications were not available in the compiled
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data
 - Randomized or everolimus-specific evidence in liposarcoma
-- Review of the cancelled New Zealand authorizations, and a regulatory pathway for any use
+- Review of a regulatory pathway for any use
 
 **Other predicted indications (for reference):**
 - **Rhabdomyosarcoma** has L2 evidence from early-phase pediatric trials only (NCT00187174 Phase 1, NCT03245151 Phase 1/2), in mixed solid tumour populations.

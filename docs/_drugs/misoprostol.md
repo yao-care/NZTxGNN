@@ -129,7 +129,7 @@ The prediction has no registered trials, and the published studies concern pregn
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Evidence that misoprostol can treat a specific cause of amenorrhea, such as preclinical or clinical studies
-- Clarification of the original approved indication and the regulatory status of the cancelled licence
+- Clarification of the original approved indication
 - A review of the pregnancy-related teratogenic risk against any proposed use in women of reproductive age
 ## Disclaimer
 

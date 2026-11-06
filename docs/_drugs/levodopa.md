@@ -72,7 +72,7 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-The approved indication text is not available for any of them. The five main authorizations are listed below.
+The approved indication text is not available for any of them.
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -123,7 +123,7 @@ The prediction has no supporting clinical trials or literature (evidence level L
 - A systematic search for clinical or preclinical evidence of levodopa in Rasmussen encephalitis
 - A mechanistic rationale connecting dopaminergic therapy to neuroinflammation or seizure control in this disease
 - Assessment of seizure risk in patients with refractory epilepsy
-- Clarification of route and formulation requirements, and of whether any valid New Zealand licence exists, given that all 12 are cancelled
+- Clarification of route and formulation requirements
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

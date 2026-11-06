@@ -129,14 +129,14 @@ Package insert warnings and contraindications were not available; please refer t
 **Decision: Hold**
 
 **Rationale:**
-For follicular lymphoma, the evidence is limited to one small recruiting Phase 2 trial without results, while several related trials were withdrawn or terminated. Follicular lymphoma generally has low CD30 expression, and the New Zealand authorization has been cancelled. Within the same predicted set, B-cell neoplasm (rank 4, Level L2, completed Phase 2 in relapsed/refractory NHL with n=176, and a Phase 3 trial in relapsed/refractory DLBCL with a published report) is the more supported direction.
+For follicular lymphoma, the evidence is limited to one small recruiting Phase 2 trial without results, while several related trials were withdrawn or terminated. Follicular lymphoma generally has low CD30 expression. Within the same predicted set, B-cell neoplasm (rank 4, Level L2, completed Phase 2 in relapsed/refractory NHL with n=176, and a Phase 3 trial in relapsed/refractory DLBCL with a published report) is the more supported direction.
 
 **To proceed, the following is needed:**
 - Results from NCT04587687 (brentuximab vedotin + bendamustine in relapsed/refractory follicular lymphoma)
 - CD30 expression data in follicular lymphoma, to define a responsive subgroup
 - Package insert warnings and contraindications (Medsafe)
 - Mechanism of action data from DrugBank
-- Clarification of the cancelled New Zealand authorization and current supply options
+- Clarification of current supply options
 - Consideration of re-prioritising the B-cell neoplasm/DLBCL indication for further evaluation
 ## Disclaimer
 

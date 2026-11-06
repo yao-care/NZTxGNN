@@ -124,7 +124,6 @@ Sofosbuvir has no plausible mechanism against HBV, and the available evidence (L
 **To proceed, the following is needed:**
 - Mechanism of action data and package insert warnings and contraindications (not yet available in the data compiled for this report)
 - A controlled study of anti-HBV efficacy in HBV mono-infection, with HBsAg and HBV DNA endpoints
-- Clarification of the status of the cancelled New Zealand authorization
 - If the programme is to be pursued at all, consider redirecting to **hepatitis E virus infection**, where a plausible RNA polymerase mechanism and in vitro and early clinical data exist (the pilot Phase 2 trial, NCT03282474, n=10, did not achieve sustained virologic response)
 ## Disclaimer
 

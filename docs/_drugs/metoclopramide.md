@@ -128,7 +128,6 @@ The prediction rests on a high model score, but no study shows that metocloprami
 - Mechanism of action data (for example from DrugBank)
 - Clinical evidence of benefit in gastric ulcer, for example a controlled trial of symptoms or healing, or a clear rationale for an adjunctive role
 - Clarification of the knowledge graph contraindication for active peptic ulcer disease
-- Confirmation of whether any metoclopramide product is currently marketed in New Zealand, since both licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

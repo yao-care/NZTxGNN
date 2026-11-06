@@ -103,7 +103,6 @@ No trial or publication studies docusate in Plummer-Vinson syndrome. Docusate ha
 - Mechanism of action data for docusate
 - Any clinical or literature evidence that directly studies Plummer-Vinson syndrome
 - Package insert warnings and contraindications from Medsafe
-- Clarification of the local licence status, since the data compiled for this report show conflicting counts of valid and cancelled licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

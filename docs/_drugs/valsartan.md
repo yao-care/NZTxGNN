@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Valsartan is an angiotensin II receptor blocker. In New Zealand it is currently licensed within sacubitril/valsartan combination products.
+Valsartan is an angiotensin II receptor blocker.
 The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**, with a score of 0.9997.
 No clinical trials directly study this use, and the only publication retrieved examines a different drug in a preclinical model, so evidence is at the model-prediction level.
 

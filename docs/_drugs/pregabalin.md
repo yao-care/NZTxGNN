@@ -141,7 +141,6 @@ The top prediction (tendinitis) rests on a computational score alone. No trials 
 - Detailed mechanism-of-action data from DrugBank
 - For tendinitis: controlled clinical studies directly testing pregabalin
 - For migraine: adult, placebo-controlled confirmatory trials
-- Clarification of the regulatory pathway, given that this drug is marketed with 8 valid licences of 8
 - Review of the knowledge-graph contraindications (especially myopathy, renal impairment, angioedema) against the label
 ## Disclaimer
 

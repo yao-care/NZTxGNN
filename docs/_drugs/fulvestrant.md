@@ -113,7 +113,7 @@ The HIV prediction has a high model score but only preclinical, indirect support
 - Mechanism of action data and the original approved indication
 - The package insert warnings and contraindications from Medsafe, so safety screening can proceed
 - Review of the interaction severity levels and of interactions with antiretroviral agents
-- Clarification of the regulatory status in New Zealand, since both licences are cancelled
+- Clarification of the regulatory status in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

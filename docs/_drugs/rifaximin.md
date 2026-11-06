@@ -92,14 +92,14 @@ Package insert warnings and contraindications could not be obtained. Please refe
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests almost entirely on a model score. There are no clinical trials, the single publication suggests harm rather than benefit, and no plausible antifungal mechanism exists. The product is also no longer licensed in New Zealand.
+The prediction rests almost entirely on a model score. There are no clinical trials, the single publication suggests harm rather than benefit, and no plausible antifungal mechanism exists.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening
 - Mechanism of action data from DrugBank
 - Any prospective evidence of antifungal or oral-cavity benefit, which is currently absent
 - Further evaluation of the Candida risk signal, accounting for confounding by indication in patients with cirrhosis and transplant recipients
-- Clarification of the cancelled licence status and the original approved indication in New Zealand
+- Clarification of the original approved indication in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

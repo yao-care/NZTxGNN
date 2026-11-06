@@ -99,8 +99,6 @@ At least the following authorisations are listed, all single-ingredient products
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-Four further licences (Myloc CR long-acting tablets at 23.75, 47.5, 95 and 190 mg) are also valid, bringing the total to 9.
-
 ## Safety Considerations
 
 - **Relations recorded in the knowledge graph as contraindications** (not label text): anxiety disorder, pancreatitis, liver disease, gallbladder disease, systemic lupus erythematosus, psoriasis, diabetes mellitus, diabetic ketoacidosis, hypotensive disorder, gout, hepatic encephalopathy, anuria, myasthenia gravis and phaeochromocytoma, among others.

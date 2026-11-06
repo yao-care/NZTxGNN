@@ -126,7 +126,6 @@ The evidence is limited to model prediction, laboratory studies, reviews and one
 - Retrieval and review of the Medsafe package insert warnings and contraindications
 - Mechanism-of-action data from DrugBank to replace the inferred mechanism
 - A route and formulation strategy limited to topical use, given the systemic liver and adrenal risks
-- Confirmation of whether a topical product could be supplied in New Zealand, since all five current licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

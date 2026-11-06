@@ -77,8 +77,6 @@ Currently no related literature available.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-The data show a mixed picture on licence validity, so no firm statement on how many are currently valid is made here.
-
 ## Safety Considerations
 
 - **Drug Interactions**: The interaction screen returned 100 records. Those graded Moderate include balsalazide, clarithromycin, picosulfuric acid, attapulgite and kaolin. Other listed interactions, such as amphotericin B, amoxicillin, doxycycline, vancomycin, metformin and omeprazole, have no severity grade.

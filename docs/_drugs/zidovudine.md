@@ -166,7 +166,7 @@ Package insert warnings and contraindications are not available in the data comp
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (from Medsafe) to complete safety screening
 - Detailed mechanism of action data (from DrugBank)
-- Verification of current availability in New Zealand, given the cancelled licences
+- Verification of current availability in New Zealand
 - For any HIV-related use: a monitoring plan for haematologic toxicity, myopathy and lactic acidosis, and a review of the 100 recorded interactions
 - For a veterinary pathway, if pursued: a separate veterinary regulatory and toxicity assessment
 ## Disclaimer

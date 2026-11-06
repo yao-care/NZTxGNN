@@ -92,7 +92,6 @@ The prediction is supported only by the model score, with no clinical trials or 
 - Mechanistic evidence for IL-6 involvement in mast cell neoplasms, and any preclinical or case-level data
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data
-- Clarification of availability, since both New Zealand licences are cancelled
 - Review of the other predicted indications. Kaposi's sarcoma has indirect support (shared HHV-8 biology with HHV-8-associated Castleman disease, L4, "Research Question"), and may be a better candidate to prioritise than the top-ranked prediction.
 ## Disclaimer
 

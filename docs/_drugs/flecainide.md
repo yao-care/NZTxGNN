@@ -117,7 +117,6 @@ The only Phase 3 trial targets post-PFO-closure arrhythmia, not stroke, and the 
 - Mechanism of action data
 - Package insert warnings and contraindications for a formal safety screen
 - A defined patient population in whom flecainide is safe (without structural heart disease or conduction disease)
-- Confirmation of New Zealand availability: the drug is marketed, with 6 valid licences of 6
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

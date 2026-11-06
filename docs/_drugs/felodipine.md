@@ -123,7 +123,7 @@ The top-ranked pulmonary hypertension prediction rests on model score alone (L5)
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - A targeted literature review of calcium channel blockers in vasoreactive pulmonary arterial hypertension
-- A decision on whether Prinzmetal angina warrants further work, given the cancelled market status and the availability of other calcium channel blockers
+- A decision on whether Prinzmetal angina warrants further work, given the availability of other calcium channel blockers
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

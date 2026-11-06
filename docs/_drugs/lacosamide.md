@@ -96,8 +96,6 @@ The manic bipolar affective disorder prediction also has a plausible link (share
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-A sixth licence (2378388, Vimpat Tab 100 mg) is also valid.
-
 ## Safety Considerations
 
 - **Drug Interactions**: 25 interactions were identified. Major interactions include dolasetron, ceritinib and siponimod. Moderate interactions include clarithromycin, ethanol, cobicistat, chloroquine, hydroxychloroquine, mefloquine, lidocaine, ketoconazole, pasireotide, alectinib, brigatinib, crizotinib, fingolimod, idelalisib, imatinib, ozanimod and sunitinib. Many of these relate to cardiac conduction effects.

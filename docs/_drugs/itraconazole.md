@@ -111,7 +111,7 @@ The prediction has no registered clinical trials and no literature directly supp
 - Preclinical or in vitro evidence of itraconazole activity against *P. jirovecii*
 - Package insert warnings and contraindications from Medsafe, to allow safety screening
 - Review of the cardiac, hepatic and renal safety signals and the major drug interactions
-- Clarification of regulatory status, since 3 of 3 New Zealand licences are valid
+- Clarification of regulatory status
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

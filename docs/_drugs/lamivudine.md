@@ -126,7 +126,6 @@ The top prediction is supported only by small veterinary cohort studies and in v
 - Detailed mechanism of action data from DrugBank
 - A decision on whether the veterinary use of an NRTI is in scope, since the evidence does not support a new human indication
 - Controlled veterinary trials in FIV-infected cats if the veterinary direction is pursued
-- Confirmation of the licensing status; all four New Zealand licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

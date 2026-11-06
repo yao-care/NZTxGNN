@@ -99,7 +99,7 @@ No clinical trials exist, and the only supporting publication describes tubercul
 - Detailed mechanism of action data
 - Package insert warnings and contraindications, to allow safety screening
 - Evidence of benefit in non-tuberculous epiglottitis (none currently available), or a decision to treat tuberculous epiglottitis as part of the existing tuberculosis indication
-- Clarification of the regulatory pathway, since the drug is marketed in New Zealand with 2 valid licences of 2
+- Clarification of the regulatory pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -99,7 +99,7 @@ The prediction rests only on a model score. There are no clinical trials or publ
 - Medsafe package insert warnings and contraindications (a blocking gap that prevents safety screening)
 - Mechanism of action data from DrugBank
 - Any preclinical or clinical evidence of a therapeutic effect in the predicted disease
-- Clarification of the original approved indication and the status of the cancelled licence
+- Clarification of the original approved indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

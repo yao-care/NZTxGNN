@@ -129,7 +129,7 @@ The top-ranked prediction (uterine PEComa) is supported only by a model score, w
 **To proceed, the following is needed:**
 - Mechanism-of-action data for ruxolitinib to support the mechanistic-link analysis
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening
-- Clarification of why the licences were cancelled, and the current New Zealand supply route
+- Clarification of the current New Zealand supply route
 - For HLH: full-text verification of study designs, and ideally a prospective or randomised trial before any decision beyond a research question
 - For uterine PEComa: preclinical or clinical evidence of JAK-STAT dependence, compared against mTOR-targeted therapy
 ## Disclaimer

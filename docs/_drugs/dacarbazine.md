@@ -123,7 +123,6 @@ The prediction rests on a model score alone (L4). There are no registered trials
 - Direct clinical evidence of dacarbazine in upper aerodigestive tract neoplasms (for example, trials or well-designed cohort studies)
 - Confirmed mechanism of action data from DrugBank
 - Medsafe package insert warnings and contraindications, to allow safety screening
-- Clarification of the New Zealand supply situation; the drug is marketed, with 2 valid licences out of 2
 - Comparison against current standard therapies for the target indication
 ## Disclaimer
 

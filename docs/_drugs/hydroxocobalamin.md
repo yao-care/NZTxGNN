@@ -90,7 +90,7 @@ Please refer to the package insert for further warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no clinical trials, no literature and no established mechanistic link. The only plausible hypothesis (NO scavenging) is speculative and raises a safety concern in patients with hypertension. The New Zealand authorization has also been cancelled.
+The prediction rests on a model score alone (L5), with no clinical trials, no literature and no established mechanistic link. The only plausible hypothesis (NO scavenging) is speculative and raises a safety concern in patients with hypertension.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (e.g., from DrugBank) to support a mechanistic link analysis

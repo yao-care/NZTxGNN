@@ -97,7 +97,7 @@ The prediction is supported only by a model score, with no trials or literature 
 - Systematic literature and trial searches specific to polymicrogyria and riluzole, including preclinical epilepsy or cortical-excitability models
 - Detailed mechanism of action data
 - Medsafe package insert warnings and contraindications for a formal safety review
-- Clarification of the cancelled New Zealand licence status and the availability of any current supply route
+- Clarification of the availability of any current supply route
 - Consideration of the closer motor neuron disease candidates (such as Mills syndrome and lower motor neuron syndrome), which have a more plausible rationale but also lack direct evidence
 ## Disclaimer
 

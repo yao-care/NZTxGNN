@@ -122,8 +122,6 @@ Approved-indication text is not available for any of them.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-A sixth licence (2707535, Capsule 10 mg) is also cancelled.
-
 ---
 
 ## Cytotoxicity

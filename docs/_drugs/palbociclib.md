@@ -137,7 +137,6 @@ Rheumatoid arthritis has biologically plausible but indirect support (one case r
 - Detailed mechanism of action data
 - Review of the full text of the 2025 cohort study (PMID 40504547) on immune-mediated diseases in CDK4/6 inhibitor patients
 - Controlled clinical evidence, starting with an exploratory trial in rheumatoid arthritis, with myelosuppression and infection risk weighed against benefit
-- Clarification of the New Zealand regulatory pathway given the three valid licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

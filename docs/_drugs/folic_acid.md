@@ -129,7 +129,7 @@ The prediction rests only on a high model score (Evidence Level L5). There are n
 - Package insert warnings and contraindications from Medsafe, to complete safety screening
 - Direct preclinical or clinical evidence of folic acid in biotin metabolic disorders, which is currently absent
 - A clinical rationale for use beyond standard biotin therapy, such as an adjunctive role
-- Clarification of the regulatory position, since all 3 New Zealand licences are valid
+- Clarification of the regulatory position
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

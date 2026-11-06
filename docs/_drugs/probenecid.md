@@ -125,7 +125,7 @@ Please refer to the package insert for authoritative warnings and contraindicati
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but there are no clinical trials and no literature showing a therapeutic benefit. The mechanism argues against benefit in renal hypouricemia, because probenecid would add to the urate loss that already defines the disease. The product is also no longer authorized in New Zealand. The other two predictions (Lesch-Nyhan syndrome and partial HPRT deficiency) are no better supported, and xanthine oxidase inhibitors are the preferred treatment for both.
+The TxGNN score is high, but there are no clinical trials and no literature showing a therapeutic benefit. The mechanism argues against benefit in renal hypouricemia, because probenecid would add to the urate loss that already defines the disease. The other two predictions (Lesch-Nyhan syndrome and partial HPRT deficiency) are no better supported, and xanthine oxidase inhibitors are the preferred treatment for both.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications, which are the blocking data gap for safety screening

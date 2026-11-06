@@ -140,7 +140,7 @@ Multiple completed Phase 3 randomised trials and several systematic reviews supp
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data, for example from DrugBank
-- Confirmation of the current New Zealand regulatory pathway, since the Ryzodeg licence is cancelled
+- Confirmation of the current New Zealand regulatory pathway
 - Verification of the comparator in NCT05463744 against the registry record
 - A glucose-monitoring and hypoglycaemia plan, with attention to the moderate interactions listed above
 ## Disclaimer

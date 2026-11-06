@@ -124,7 +124,7 @@ Please refer to the package insert for warnings and formal contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The data compiled for this report show that the best-supported prediction, PAH associated with congenital heart disease, rests on small observational studies, one pilot crossover study and reviews, with no registered trials. It also largely falls within the original PAH indication. Iloprost's New Zealand authorizations are both cancelled, so there is no currently marketed product. The highest-scoring prediction (hypotrichosis simplex of the scalp) is a model prediction only.
+The data compiled for this report show that the best-supported prediction, PAH associated with congenital heart disease, rests on small observational studies, one pilot crossover study and reviews, with no registered trials. It also largely falls within the original PAH indication. The highest-scoring prediction (hypotrichosis simplex of the scalp) is a model prediction only.
 
 **To proceed, the following is needed:**
 - Mechanism of action data

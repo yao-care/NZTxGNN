@@ -100,7 +100,7 @@ The prediction is supported only by the TxGNN model score (L5), with no clinical
 - Mechanism of action data and a biologically plausible rationale linking CD20 B-cell depletion to HER2-positive breast cancer
 - Preclinical or other supporting studies in breast cancer models
 - Package insert warnings and contraindications (a blocking gap for safety screening)
-- Clarification of the New Zealand regulatory status, since both licences are cancelled
+- Clarification of the New Zealand regulatory status
 - Assessment of route and formulation compatibility for an oncology setting
 ## Disclaimer
 

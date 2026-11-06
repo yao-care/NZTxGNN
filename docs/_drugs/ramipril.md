@@ -120,7 +120,6 @@ Other predictions in the list were also reviewed. None has trial support:
 - Mechanism of action data for ramipril (from DrugBank)
 - Confirmation of the 1996 rat findings in modern pulmonary hypertension models
 - A systematic literature search for human studies of ACE inhibitors in pulmonary hypertension
-- Clarification of the licensing situation, since all four New Zealand licences are valid
 - A safety plan for patients with renal impairment, renal artery stenosis, hypotension or angioedema risk
 ## Disclaimer
 

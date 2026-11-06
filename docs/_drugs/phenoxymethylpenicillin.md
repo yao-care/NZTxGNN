@@ -112,7 +112,7 @@ The prediction rests on a model score alone, with no clinical trials or literatu
 - Detailed mechanism of action data
 - Clinical or microbiological evidence supporting use in streptococcal epiglottitis, and a defined role relative to standard parenteral therapy
 - Route compatibility assessment (oral drug versus parenteral requirement)
-- Clarification of regulatory status, since all 4 New Zealand licences are valid
+- Clarification of regulatory status
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

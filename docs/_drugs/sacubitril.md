@@ -127,7 +127,6 @@ Please refer to the package insert for warnings and contraindications.
 - Detailed mechanism of action data
 - Results or status confirmation for NCT06501651, and a completed randomised trial with renal outcomes
 - Evidence separating the contribution of sacubitril from that of valsartan in diabetic nephropathy
-- Clarification of the regulatory pathway, given that the drug is marketed in New Zealand with 3 valid licences of 3
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

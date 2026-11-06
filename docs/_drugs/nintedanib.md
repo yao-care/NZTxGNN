@@ -129,7 +129,7 @@ The prediction score is high, and PDGFR-beta activation in DFSP gives a plausibl
 - Nintedanib-specific preclinical or clinical data in DFSP, especially in imatinib-resistant disease
 - Verified mechanism of action data from DrugBank
 - The Medsafe package insert (warnings and contraindications), which is required before safety screening
-- Clarification of the New Zealand supply and regulatory pathway for this use, since the drug is marketed with 2 valid licences of 2
+- Clarification of the New Zealand supply and regulatory pathway for this use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

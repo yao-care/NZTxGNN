@@ -120,7 +120,7 @@ Please also refer to the package insert for label warnings and contraindications
 Four completed Phase 3 trials (700, 400, 290 and 600 participants) evaluate dapsone-containing regimens for PCP prophylaxis or treatment, and network meta-analyses include dapsone-based regimens. This supports Evidence Level L1. TMP-SMX remains the first-line agent, so dapsone is best viewed as an alternative for patients who cannot tolerate it. The haematological risks are significant.
 
 **To proceed, the following is needed:**
-- Confirm product availability in New Zealand, since both licences are cancelled
+- Confirm product availability in New Zealand
 - Obtain the Medsafe package insert warnings and contraindications
 - Confirm the arms of NCT00000991 and NCT00000640, whose titles are truncated
 - Mechanism of action data from DrugBank

@@ -153,7 +153,7 @@ The top-ranked prediction (distal myopathy, Tateyama type) rests on a model scor
 - Mechanism of action data (for example from DrugBank)
 - For cirrhotic cardiomyopathy: verification of the study designs for PMIDs 38738176, 35763518 and 32446716, and a safety assessment in advanced cirrhosis
 - For the myopathy predictions: any biological rationale or case evidence, and review of the muscle-disease contraindication associations
-- Clarification of the regulatory pathway, since propranolol is marketed in New Zealand with 5 valid licences of 5
+- Clarification of the regulatory pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

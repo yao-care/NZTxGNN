@@ -102,7 +102,7 @@ The only support for this indication is a model prediction (L5) with no trials o
 - Clinical evidence for heparin in protein C deficiency (case series, guidelines, or trials), and its role relative to protein C concentrate
 - Mechanism of action data (e.g., from DrugBank)
 - Medsafe package insert warnings and contraindications
-- Clarification of the regulatory pathway, since all 6 New Zealand licences are valid
+- Clarification of the regulatory pathway
 - A bleeding-risk and monitoring plan for use in this population
 ## Disclaimer
 

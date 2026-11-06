@@ -115,7 +115,6 @@ The prediction rests on a model score alone (L5), with no clinical trials or lit
 - Detailed mechanism of action data (for example from DrugBank)
 - Preclinical evidence (for example mast cell or KIT-driven models) showing a biological effect in this disease
 - Review of the sarcoma and dermatofibroma case reports as a safety signal
-- Clarification of the New Zealand licence status, given that both licences are cancelled
 - Consideration of other predictions with a more plausible mechanism, such as dermatofibrosarcoma protuberans, though these also lack direct evidence
 ## Disclaimer
 

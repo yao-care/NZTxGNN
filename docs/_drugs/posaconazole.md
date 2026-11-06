@@ -106,7 +106,7 @@ The prediction rests on the model score alone (L5). The only trial found tests a
 - Direct preclinical or clinical evidence of posaconazole activity against *Pneumocystis*
 - Mechanism of action data and confirmation of a plausible target
 - Package insert warnings and contraindications (a blocking gap for safety screening)
-- Clarification of New Zealand availability, since both authorizations are cancelled
+- Clarification of New Zealand availability
 - A review of the interaction profile for the intended patient population
 ## Disclaimer
 

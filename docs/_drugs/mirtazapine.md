@@ -112,7 +112,7 @@ All three predicted indications rest on model scores alone (Evidence Level L5), 
 - Package insert warnings and contraindications from Medsafe
 - Preclinical or clinical evidence (trials or literature) for the predicted indication
 - Paediatric safety assessment, particularly for the infant-onset condition
-- Clarification of the regulatory pathway, since both New Zealand licences are cancelled
+- Clarification of the regulatory pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

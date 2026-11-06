@@ -101,7 +101,7 @@ The only support for this prediction is a high TxGNN score, with no clinical tri
 - Package insert warnings and contraindications (for example from the Medsafe website)
 - Preclinical or early clinical evidence of benefit in acne
 - A benefit-risk assessment addressing retinal and epithelial toxicity
-- Clarification of the regulatory status of the cancelled licence and of route compatibility (oral versus the topical or systemic routes typically used for acne)
+- Clarification of route compatibility (oral versus the topical or systemic routes typically used for acne)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

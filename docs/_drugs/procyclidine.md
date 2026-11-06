@@ -101,14 +101,14 @@ Please refer to the package insert for label warnings, as these were not availab
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature and no plausible mechanistic link to the immune-driven pathology of Rasmussen encephalitis. The New Zealand licence is also cancelled, so there is no currently marketed product.
+The prediction rests only on a model score, with no clinical trials, no literature and no plausible mechanistic link to the immune-driven pathology of Rasmussen encephalitis.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a mechanistic rationale linking muscarinic blockade to the predicted indication
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - Any preclinical or clinical evidence for Rasmussen encephalitis
 - Consideration of PLA2G6-associated neurodegeneration as a more plausible symptomatic research question
-- Clarification of the availability of an anticholinergic product in New Zealand, given the cancelled licence
+- Clarification of the availability of an anticholinergic product in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

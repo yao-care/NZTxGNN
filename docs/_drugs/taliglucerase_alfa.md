@@ -102,7 +102,7 @@ The prediction has no supporting clinical or literature evidence (L5), and the p
 - Package insert warnings and contraindications from Medsafe (currently a blocking gap for safety screening)
 - Preclinical evidence showing that glucocerebrosidase has any effect on MPS I substrates or outcomes
 - Consideration of established alternatives, since approved enzyme replacement therapies already exist for MPS I and for cholesteryl ester storage disease
-- Clarification of the New Zealand supply status given the cancelled licence
+- Clarification of the New Zealand supply status
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

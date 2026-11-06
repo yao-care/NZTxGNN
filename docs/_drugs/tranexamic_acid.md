@@ -128,7 +128,7 @@ The prediction rests on a model score and an indirect mechanistic argument. Ther
 - Obtain mechanism of action data from DrugBank.
 - Search for trials or studies of tranexamic acid for menses suppression.
 - Review the thrombotic risk, especially in patients on hormonal therapy.
-- Confirm the regulatory pathway for this indication; the drug is marketed in New Zealand with 2 valid licences of 2.
+- Confirm the regulatory pathway for this indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

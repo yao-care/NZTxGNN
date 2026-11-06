@@ -128,7 +128,7 @@ Please refer to the package insert for full safety information.
 - Detailed mechanism of action data from DrugBank
 - Confirmation of the design and outcomes of the tic and ADHD studies (PMIDs 18343255, 10440471, 16986157)
 - A controlled trial design for chronic tic disorder, with a paediatric safety plan covering gastrointestinal, cardiac (bradycardia, conduction block) and extrapyramidal effects
-- Clarification of the regulatory pathway, since the existing licences are cancelled
+- Clarification of the regulatory pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

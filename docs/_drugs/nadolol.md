@@ -129,7 +129,7 @@ All five predictions rest on model scores alone (evidence level L5). The only li
 - Package insert warnings and contraindications from Medsafe, which is a blocking gap for safety screening
 - Mechanism of action data, for example from DrugBank
 - A targeted literature search for human studies of nadolol or beta-blockers in malignant hypertensive renal disease and renovascular hypertension
-- Clarification of the regulatory pathway, since the drug is marketed and all four New Zealand authorizations are valid
+- Clarification of the regulatory pathway
 - A safety assessment for the pulmonary hypertension predictions, given the cautions against beta-blockers in that setting
 ## Disclaimer
 

@@ -111,7 +111,6 @@ No trial or publication studies carbamazepine in trigeminal nerve neoplasm. The 
 - Evidence of antitumour or disease-modifying activity in preclinical or clinical studies
 - Mechanism of action data
 - Package insert warnings and contraindications for a safety review
-- Clarification of which New Zealand licences are currently valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

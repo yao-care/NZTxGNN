@@ -125,7 +125,7 @@ The top prediction is supported only by a model score, with no trials or publica
 - Direct clinical or mechanistic evidence for insulin glargine in autoimmune oophoritis, or confirmation that the signal is only a diabetes-comorbidity artefact
 - Mechanism of action data (currently unavailable)
 - Package insert warnings and contraindications from Medsafe
-- Confirmation of current New Zealand regulatory status (3 valid licences of 3)
+- Confirmation of current New Zealand regulatory status
 - If a repurposing direction is pursued, consider pancreatic agenesis first, but only as an extension of existing insulin replacement and not as a new mechanism
 ## Disclaimer
 

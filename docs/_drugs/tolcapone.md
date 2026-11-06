@@ -92,7 +92,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score only, with no clinical trials, no literature and no plausible mechanistic link between COMT inhibition and Rasmussen encephalitis. Tolcapone is also no longer actively authorized in New Zealand, and its hepatotoxicity profile raises the bar for any new use.
+The prediction rests on a model score only, with no clinical trials, no literature and no plausible mechanistic link between COMT inhibition and Rasmussen encephalitis. Its hepatotoxicity profile raises the bar for any new use.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (Medsafe) to enable safety screening

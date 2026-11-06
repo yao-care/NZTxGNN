@@ -124,7 +124,7 @@ The prediction rests on a model score alone (L5). No trials or publications supp
 - Package insert warnings and contraindications (from the Medsafe documents)
 - Mechanism of action data from DrugBank
 - Preclinical or clinical evidence that sotalol benefits, or at least does not harm, patients with HCN4-related sick sinus syndrome
-- Clarification of regulatory pathway, since 2 of 2 New Zealand licences are valid
+- Clarification of regulatory pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

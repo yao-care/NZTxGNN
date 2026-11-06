@@ -105,7 +105,6 @@ The prediction rests only on a model score, with no clinical trials. The only re
 - The Medsafe package insert, to complete warnings and contraindications and allow safety screening
 - Preclinical or case-level evidence of a DHT-dependent mechanism in the target condition
 - Route and formulation compatibility assessment for the new indication
-- Review of the cancelled licence status and its implications for local availability
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

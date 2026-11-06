@@ -77,7 +77,7 @@ Currently no related literature available for faciodigitogenital syndrome.
 
 ## New Zealand Market Information
 
-Five representative licences are listed below. The data contain no approved indication text.
+The data contain no approved indication text.
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|

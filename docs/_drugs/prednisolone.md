@@ -115,7 +115,6 @@ A placebo-controlled RCT, a Cochrane network meta-analysis and systematic review
 - Detailed mechanism of action data
 - A pulse dosing regimen and a monitoring plan covering growth, bone density, infection and glucose, particularly in children
 - A decision on how it positions against JAK inhibitors
-- Confirmation of a currently available product, since both licences are cancelled
 
 ### Other Predicted Indications (for reference)
 

@@ -121,7 +121,6 @@ The predicted indication is a veterinary condition supported by only one indirec
 - Detailed mechanism of action data from DrugBank
 - A decision on whether a veterinary indication falls within the scope of this repurposing programme
 - If pursued, FIV studies that test tenofovir alone, rather than within a combination regimen
-- Clarification of the regulatory pathway, given that both New Zealand licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

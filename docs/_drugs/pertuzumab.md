@@ -135,7 +135,7 @@ Pertuzumab has a strong evidence base in HER2-positive breast cancer, including 
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Confirmation of the mechanism of action from DrugBank
 - PR-positive subgroup efficacy data, such as PERTAIN and WSG-TP-II results
-- Clarification of the regulatory path in New Zealand, since both licences are cancelled
+- Clarification of the regulatory path in New Zealand
 - A cardiac monitoring plan for combination use
 
 **Other predictions (brief note):** The remaining predictions are weaker. "Breast tumor luminal A or B" (L2) is relevant only to the HER2-positive luminal B subset and has no linked trials. "Progesterone-receptor negative breast cancer" has supporting evidence (L1, Proceed with Guardrails), similar to the PR-positive entry. The other seven predictions, including normal breast-like subtype, ectomesenchymoma and the urothelial carcinomas, have no clinical or literature evidence and no clear HER2-dependent mechanism, so they are rated Hold.

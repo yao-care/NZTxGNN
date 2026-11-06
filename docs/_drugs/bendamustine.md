@@ -92,7 +92,7 @@ The table lists the most relevant trials of the compiled set. It includes five P
 
 ## New Zealand Market Information
 
-The data compiled for this report records five single-ingredient bendamustine licences, listed below. No indication text is recorded for them.
+No indication text is recorded for them.
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|

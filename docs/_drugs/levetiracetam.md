@@ -120,8 +120,6 @@ Supportive evidence for other predicted indications, all limited:
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-One further licence (2479567, Everet Tab 1,000 mg) is also cancelled.
-
 ---
 
 ## Safety Considerations

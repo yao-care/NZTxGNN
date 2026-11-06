@@ -82,8 +82,6 @@ Currently no related literature available (no predicted indication available to 
 
 ## New Zealand Market Information
 
-Cyclizine Lactate has **no registered authorizations** in New Zealand.
-
 ---
 
 ## Safety Considerations

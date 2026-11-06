@@ -103,7 +103,6 @@ The prediction is supported only by a model score. The evidence level is L5.
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening
 - A biological rationale or preclinical evidence linking JAK signalling to the predicted disease
 - Evidence from literature or trial registries for this condition
-- Clarification of the regulatory position, given that all three Rinvoq authorizations in New Zealand are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -109,8 +109,6 @@ Several other registered trials are small, terminated or withdrawn. For rhabdomy
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-A sixth licence (2207613, Baxter, Inj 1 mg of etoposide base for ECP) is also cancelled.
-
 ## Cytotoxicity
 
 | Item | Content |
@@ -139,7 +137,6 @@ Package insert warnings and contraindications were not available. Please refer t
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- Confirmation of local supply or licensing, since all six New Zealand licences are valid
 - A myelosuppression and secondary malignancy monitoring plan, plus a full DDI review
 - For the lower-ranked predictions, disease-specific trial or cohort data before any further consideration
 ## Disclaimer

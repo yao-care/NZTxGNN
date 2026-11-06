@@ -105,7 +105,7 @@ The prediction is supported only by the TxGNN model (deep learning) score. There
 - Package insert warnings and contraindications from Medsafe (currently missing and blocking safety screening)
 - Mechanism of action data from DrugBank
 - Evidence that tramadol affects the disease itself, or a clearly defined symptomatic pain-management objective with supporting studies
-- Review of the regulatory status; all 7 New Zealand licences are currently valid
+- Review of the regulatory status
 - For paediatric conditions, a dedicated paediatric safety assessment
 ## Disclaimer
 

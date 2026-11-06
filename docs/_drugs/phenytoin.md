@@ -106,7 +106,7 @@ For drug interactions, the only entry is pharmacological (target: Nav1.2 / SCN2A
 **Decision: Hold**
 
 **Rationale:**
-The prediction for trigeminal nerve neoplasm rests on model score alone (L5). There are no trials, the literature does not address tumours, and no antineoplastic mechanism is known. The product is also no longer licensed in New Zealand.
+The prediction for trigeminal nerve neoplasm rests on model score alone (L5). There are no trials, the literature does not address tumours, and no antineoplastic mechanism is known.
 
 **Other predicted indications in the data (all Hold unless noted):**
 - **Trigeminal neuralgia (L3, "Research Question"):** The most plausible repurposing direction. Phenytoin shares the sodium channel mechanism of carbamazepine, the first-line therapy. Retrospective data support IV phenytoin for acute exacerbations (a 144-case cohort and another retrospective cohort), but guidelines treat it as non-first-line, and evidence for it is weak with no RCTs.

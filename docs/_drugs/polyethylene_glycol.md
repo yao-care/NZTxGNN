@@ -108,7 +108,7 @@ The prediction is model-based only (L5), with no clinical trials or publications
 - Preclinical or clinical evidence in ichthyosis (literature and trial searches)
 - Assessment of route compatibility (a topical formulation would be needed, and none is currently identified)
 - Package insert warnings and contraindications from Medsafe
-- Clarification of the cancelled licence status and any currently marketed PEG products in New Zealand
+- Clarification of any currently marketed PEG products in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -98,7 +98,7 @@ The prediction rests on a model score alone. There are no clinical trials or sup
 - Mechanism-of-action data and a specific mechanistic hypothesis for renal tubular acidosis, distinguishing it from the tyrosinemia-related kidney effects
 - Targeted literature and trial searches (including case reports and preclinical studies) for nitisinone in renal tubular acidosis
 - The package insert warnings and contraindications, which are needed before any safety screening, with particular attention to kidney disease and blood-count effects
-- Clarification of the regulatory position, since all three New Zealand authorisations are valid
+- Clarification of the regulatory position
 - Route and formulation compatibility assessment (currently capsules only)
 ## Disclaimer
 

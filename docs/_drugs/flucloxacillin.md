@@ -106,7 +106,7 @@ The prediction rests on a model score and one indirect case report involving a p
 - Package insert warnings and contraindications from Medsafe, which are required before safety screening
 - Mechanism of action data from DrugBank
 - Microbiological evidence of flucloxacillin activity against common conjunctivitis pathogens
-- Evidence on an ophthalmic formulation or route, since only oral and injectable forms were previously licensed
+- Evidence on an ophthalmic formulation or route
 - Comparison against current standard topical treatments for bacterial conjunctivitis
 ## Disclaimer
 

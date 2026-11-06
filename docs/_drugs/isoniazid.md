@@ -129,7 +129,7 @@ The high TxGNN score is not backed by clinical data for general conjunctivitis. 
 - Narrow the indication to tuberculosis-associated conjunctivitis or phlyctenular keratoconjunctivitis, rather than conjunctivitis in general
 - Mechanism of action data and a review of the package insert warnings and contraindications
 - Controlled clinical evidence in the narrowed population
-- Clarification of the regulatory position, since both New Zealand licences are cancelled
+- Clarification of the regulatory position
 - A safety plan covering liver function, peripheral neuropathy and acetylator status
 ## Disclaimer
 

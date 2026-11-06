@@ -150,7 +150,7 @@ The top-ranked prediction, heart fibrosarcoma, has a very high model score but n
 - Mechanism of action data (for example from DrugBank).
 - Disease-specific outcome data for heart fibrosarcoma and conventional fibrosarcoma, or a decision to redirect effort to the DFSP/fibroblastic neoplasm group.
 - Subgroup results from the mixed-sarcoma trials (NCT00031915, NCT00006357, NCT00154388) for liposarcoma and fibrosarcoma.
-- Clarification of why the licences were cancelled and whether any imatinib product is currently supplied in New Zealand.
+- Clarification of whether any imatinib product is currently supplied in New Zealand.
 - A safety monitoring plan covering cardiac, hepatic, haematological and fluid-retention risks, plus a drug-interaction review.
 ## Disclaimer
 

@@ -125,7 +125,7 @@ The prediction is supported only by a model score. There are no trials, no publi
 - Medsafe package insert warnings and contraindications (currently a blocking gap)
 - Mechanism of action data from DrugBank
 - Any biological evidence linking PD-1 signalling to gingival fibromatosis
-- Clarification of regulatory status, since both New Zealand licences are cancelled
+- Clarification of regulatory status
 
 ---
 

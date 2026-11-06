@@ -133,7 +133,6 @@ The Paget disease prediction rests on case reports and a plausible hormone-recep
 - Package insert warnings and contraindications (from Medsafe), which are a blocking gap for safety screening
 - Detailed mechanism of action data
 - Prospective or at least well-designed retrospective data on tamoxifen in hormone-receptor-positive mammary Paget disease
-- Clarification of the regulatory pathway, given that both New Zealand licences are cancelled
 
 ## Disclaimer
 

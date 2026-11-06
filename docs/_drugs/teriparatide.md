@@ -88,7 +88,7 @@ Currently no related literature available.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-Both licences are for single-ingredient injectable products, and neither is currently valid. Any future use would therefore depend on obtaining a product through other channels.
+Any future use would therefore depend on obtaining a product through other channels.
 
 ---
 
@@ -118,7 +118,6 @@ The duodenal ulcer prediction is supported only by a model score. It should not 
 **To proceed, the following is needed:**
 - Evaluate pregnancy-associated osteoporosis as a separate candidate, with specialist guardrails (lactation stopped, postpartum use only, duration limits).
 - Obtain the Medsafe package insert to complete the safety screening, which is currently blocked.
-- Confirm product availability, since both New Zealand licences are cancelled.
 - Add detailed mechanism-of-action data from DrugBank.
 ## Disclaimer
 

@@ -123,7 +123,7 @@ The top prediction (gingival fibromatosis) is supported only by a model score, w
 - Package insert warnings and contraindications from Medsafe (a blocking data gap for safety screening)
 - Mechanism of action data for gefitinib (e.g. from DrugBank)
 - Preclinical or mechanistic evidence for EGFR/ErbB involvement in gingival fibroblast overgrowth
-- Clarification of the cancelled Iressa authorization and any current supply route
+- Clarification of any current supply route
 - A systematic literature search specific to gingival fibromatosis, as no publications were retrieved
 ## Disclaimer
 

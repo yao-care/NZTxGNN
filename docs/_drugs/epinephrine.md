@@ -107,8 +107,6 @@ Other predictions in this analysis are weaker:
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-A sixth licence (223972, Epipen, Inj 0.3 mg per 0.3 ml auto-injector) is also cancelled.
-
 ## Safety Considerations
 
 **Contraindications flagged in the knowledge graph** (drug-disease associations, not package insert text): hypertension, cardiovascular and heart disease, coronary artery disease, myocardial infarction, atrial fibrillation, heart conduction disease, sudden cardiac arrest, hyperthyroidism, diabetes mellitus and diabetic ketoacidosis, liver and kidney disease or failure, epilepsy, angle-closure glaucoma, benign prostatic hyperplasia, respiratory failure, myasthenia gravis and other neuromuscular junction disease, gallbladder disease, potassium deficiency, hemoglobinopathy, butyrylcholinesterase deficiency, and pyoureter.

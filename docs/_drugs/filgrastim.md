@@ -119,7 +119,7 @@ The prediction rests on a model score alone (L5). There are no trials or publica
 - Mechanism of action data for filgrastim, and a biological rationale connecting G-CSF signalling to platelet release function
 - Preclinical or clinical evidence in platelet release disorders
 - Medsafe package insert warnings and contraindications for a safety screen
-- Clarification of the market situation, since both licences are cancelled
+- Clarification of the market situation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

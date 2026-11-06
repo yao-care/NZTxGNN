@@ -39,7 +39,7 @@ for _R in ck.X_LOCAL.values():
     CLAIM += [_R["mkt"], _R["valid"], _R["none_cancel"], _R["noreg"]] + list(_R["count"])
 CLAIM += list(getattr(ck, "NOREG_EXTRA", {}).values())  # 站別補充寫法（CO）
 CLAIM += list(getattr(ck, "CANC_NONE", {}).values())  # 全部有效時的「已註銷」說法（Eu）
-CLAIM += list(getattr(ck, "LIST_CLAIM", {}).values())  # 處方／給付清單站：清單品項寫成許可（Uk、NZ、Ph）
+# 處方／給付清單站（Uk、NZ、Ph）：清單品項寫成許可的說法只對該站生效（clause_cut 裡依站加上，Ph 的「FDA」不影響 Us 等站）
 CLAIM += list(getattr(ck, "SCOPE_NOMKT", {}).values())  # 只陳述資料範圍的站：「沒有上市」斷言（Sg、Eu）
 if hasattr(ck, "VET_ONLY_CLAIM"):
     CLAIM.append(ck.VET_ONLY_CLAIM)  # 「唯一許可是獸用」（Dk）
@@ -58,12 +58,17 @@ _GARBLE = re.compile(r"\b(the|a|an|of|for|with|to|from|in|are|is|was|were|list|l
 _VERIFY = re.compile(r"\b(verify|verified|check|checked|confirm|consult|refer)\b", re.I)
 
 
+def _site_claim(site):
+    rx = getattr(ck, "LIST_CLAIM", {}).get(site)
+    return [rx] if rx else []
+
+
 def list_cut_ok(cut, core=None):
-    """處方／給付清單站（ck.LIST_CLAIM）的子句刪除：只接受刪掉句尾子句（留下的是原句開頭），留下的部分至少 6 個字、
+    """處方／給付清單站（ck.LIST_CLAIM）的子句刪除：只接受刪掉句尾子句（留下的是原句開頭），留下的部分至少 4 個字、不以連接詞／冠詞收尾（「…, since only oral」）、
     沒有語法殘缺，而且不再講紀錄／許可（「Verify … with MHRA」這類下一步除外）；句中挖掉一段常留下「Both New Zealand, and …」，改整句刪"""
     if core is not None and not re.sub(r"^\W+", "", core).startswith(re.sub(r"^\W+", "", cut).rstrip(" .;:")):
         return False
-    if len(re.findall(r"[A-Za-z]+", cut)) < 6 or _GARBLE.search(cut):
+    if len(re.findall(r"[A-Za-z]+", cut)) < 4 or _GARBLE.search(cut) or re.search(r"\b(since|as|because|given|although|while|with|and|or|but|only|the|a|an|of|that)\W*$", cut, re.I):
         return False
     return not _LISTISH.search(cut) or bool(_VERIFY.search(cut))
 
@@ -71,11 +76,11 @@ def list_cut_ok(cut, core=None):
 def clause_cut(site, lang, core, fc, rule):
     """只刪矛盾子句；回傳刪後的句子，做不到（子句就是整句、刪完仍矛盾、剩太短）回 None"""
     if lang == "ko" and rule != "MANUAL":
-        hits = [m for rx in CLAIM + [ck.TW_LEFTOVER] for m in rx.finditer(core)]
+        hits = [m for rx in (CLAIM + _site_claim(site)) + [ck.TW_LEFTOVER] for m in rx.finditer(core)]
         return clause_cut_ko(site, lang, core, fc, hits) if hits and rule != "DEPENDENT" else None
     if rule in ("M5", "MANUAL", "DEPENDENT"):
         return None
-    hits = [m for rx in CLAIM for m in rx.finditer(core)]
+    hits = [m for rx in (CLAIM + _site_claim(site)) for m in rx.finditer(core)]
     if not hits:
         return None
     if lang == "ko":

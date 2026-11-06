@@ -103,7 +103,7 @@ The prediction has no supporting trials or literature (evidence level L5). The p
 - Mechanism of action data, and a clear mechanistic rationale linking spironolactone to the genetic causes of hypotrichosis simplex of the scalp
 - A literature and trial search, including case reports and preclinical hair-follicle studies
 - The Medsafe package insert, to complete the warnings and contraindications review (a blocking gap for safety screening)
-- Clarification of the regulatory pathway and route of administration, given the cancelled licences and the unassessed route compatibility (for example, whether a topical formulation would be needed)
+- Clarification of the regulatory pathway and route of administration, given the unassessed route compatibility (for example, whether a topical formulation would be needed)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

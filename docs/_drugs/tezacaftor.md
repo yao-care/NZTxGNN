@@ -85,8 +85,6 @@ Approved indication text is not available for any of them.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-A sixth authorization, 2649748 (Trikafta tablet: elexacaftor 50 mg / tezacaftor 25 mg / ivacaftor 37.5 mg, plus ivacaftor 75 mg), is also cancelled.
-
 ## Safety Considerations
 
 - **Drug Interactions**: The interaction query completed with one record, which is a pharmacological target association (tezacaftor acting on CFTR) rather than an interaction with another drug.

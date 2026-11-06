@@ -99,7 +99,6 @@ The prediction rests on a model score and indirect metabolic associations only. 
 - Mechanism of action data for valine
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening
 - Evidence that valine supplementation affects the course of sclerosing cholangitis, such as preclinical or early-phase clinical studies
-- Clarification of the original approved indication and the reason the licence was cancelled
 - Assessment of route and formulation compatibility for the proposed use
 ## Disclaimer
 

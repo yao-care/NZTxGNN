@@ -132,7 +132,6 @@ The top prediction is a subtype of an indication lisinopril already covers, so t
 - Mechanism of action data (for example from DrugBank)
 - Confirmation of subtype-specific data for infarct location, such as post-MI trial subgroup analyses
 - For chronic pulmonary heart disease, full texts and design details of the Russian-language studies, and a search for controlled trials
-- Clarification of why the licences were cancelled and whether any re-registration is planned
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -102,8 +102,7 @@ The predictions rest on model scores alone, with no clinical trials or literatur
 - Preclinical ocular pharmacology data (IOP effect, ocular perfusion, local tolerability)
 - Mechanism of action data from DrugBank
 - Package insert warnings and contraindications from Medsafe
-- An assessment of whether a topical ocular formulation is feasible, given that only a 10 mg capsule has been licensed in New Zealand
-- A review of the regulatory pathway, given the cancelled market status
+- A review of the regulatory pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

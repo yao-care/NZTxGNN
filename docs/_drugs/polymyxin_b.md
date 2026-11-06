@@ -38,7 +38,7 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Polymyxin B is an antibiotic active against Gram-negative bacteria. In New Zealand it was licensed only in neomycin-containing eye ointment and eye drops (Maxitrol), and both licenses are now cancelled.
+Polymyxin B is an antibiotic active against Gram-negative bacteria.
 The TxGNN model predicts it may be effective for **bronchitis** with a very high score, but **no clinical trials** and only **12 publications** (mostly small, old, preclinical or safety-focused) are available.
 The evidence is weak, and some of it points to a safety concern with inhaled use.
 
@@ -138,7 +138,6 @@ The prediction rests on a high model score, without any registered clinical tria
 - Mechanism of action data
 - Package insert warnings and contraindications (not currently available)
 - Controlled clinical data on inhaled or systemic polymyxin B for bronchitis, including a bronchoconstriction safety assessment
-- Verification of whether a suitable product and route could be marketed in New Zealand, given that both licenses are cancelled
 - For conjunctivitis, confirmation of whether this is already a label use and a review of the contribution of polymyxin B alone
 ## Disclaimer
 

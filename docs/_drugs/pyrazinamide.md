@@ -116,13 +116,13 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction for infectious otitis media is model-based only, with no trials or literature, and pyrazinamide has no activity against the usual causative bacteria. The indirect evidence covers only rare tuberculous otitis media, which is already treated with standard anti-TB regimens. Its New Zealand licence is also cancelled.
+The prediction for infectious otitis media is model-based only, with no trials or literature, and pyrazinamide has no activity against the usual causative bacteria. The indirect evidence covers only rare tuberculous otitis media, which is already treated with standard anti-TB regimens.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications, since safety screening cannot proceed without them
 - Mechanism of action data
 - Evidence that the target population (tuberculous otitis media) differs from existing TB indications, or a clear mechanistic case for non-tuberculous disease
-- Confirmation of whether pyrazinamide is currently available in New Zealand, given the cancelled licence
+- Confirmation of whether pyrazinamide is currently available in New Zealand
 - Assessment of drug penetration into the middle and inner ear, and of hepatic and neuropathy risks
 ## Disclaimer
 

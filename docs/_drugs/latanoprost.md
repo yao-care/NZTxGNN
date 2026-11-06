@@ -113,7 +113,7 @@ Package insert warnings and contraindications were not available. Please refer t
 - Systematic literature and trial registry search specific to latanoprost in hereditary/congenital glaucoma, including paediatric data
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- Clarification of the regulatory pathway, given the cancelled licence
+- Clarification of the regulatory pathway
 - Paediatric-specific safety and dosing assessment
 - If hair-growth indications are of interest, a separate review of the prostaglandin analogue literature on hypotrichosis
 ## Disclaimer

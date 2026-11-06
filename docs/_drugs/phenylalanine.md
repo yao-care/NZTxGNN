@@ -106,7 +106,6 @@ The prediction rests almost entirely on a model score. No clinical trials exist,
 - Package insert warnings and contraindications from Medsafe, which are needed before any safety screening
 - Mechanism of action data (for example from DrugBank)
 - Preclinical or mechanistic studies testing whether phenylalanine or aromatic amino acid modulation affects cholestatic liver disease
-- Clarification of the original indication and the reason the license was cancelled
 - Route and formulation compatibility assessment
 ## Disclaimer
 

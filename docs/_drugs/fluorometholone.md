@@ -127,7 +127,7 @@ The prediction for postinfectious vasculitis is based on the model score alone (
 - Direct clinical or literature evidence for any candidate indication
 - An assessment of route and formulation compatibility, since only ophthalmic eye drops existed
 - For ocular candidates, a plan for monitoring intraocular pressure and infection risk
-- Clarification of why the licences were cancelled and whether any product could be re-supplied
+- Clarification of whether any product could be re-supplied
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

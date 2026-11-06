@@ -110,7 +110,7 @@ The TxGNN score is very high and a recent randomized trial exists, but there are
 - Independent replication in larger, multi-centre trials, ideally registered
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Medsafe
-- Review of the regulatory pathway; the drug is marketed, and all four New Zealand licences are valid
+- Review of the regulatory pathway
 - A safety plan covering impulse-control and gambling risk, psychiatric effects, orthostatic hypotension and paediatric use
 ## Disclaimer
 

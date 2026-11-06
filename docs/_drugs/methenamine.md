@@ -118,7 +118,7 @@ The prediction rests on a model score alone (L5), with no trials and no supporti
 - Detailed mechanism of action data (for example from DrugBank)
 - In vitro susceptibility data for Ureaplasma against formaldehyde or methenamine under urinary conditions
 - Evidence on urethral formaldehyde exposure and urine acidification
-- Clarification of why both New Zealand licences were cancelled and whether the product is currently available
+- Clarification of whether the product is currently available
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

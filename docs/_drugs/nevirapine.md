@@ -92,7 +92,7 @@ Please refer to the package insert for the full warnings and contraindications, 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a high model score and a single preclinical paper. NNRTIs are generally weak against FIV RT, and FIV infection is not a human indication. Nevirapine is also no longer actively marketed in New Zealand (both licences cancelled), and it carries notable liver and skin toxicity risks.
+The prediction rests on a high model score and a single preclinical paper. NNRTIs are generally weak against FIV RT, and FIV infection is not a human indication. It carries notable liver and skin toxicity risks.
 
 **To proceed, the following is needed:**
 - Full text of PMID 38031646 to confirm whether nevirapine showed activity against FIV RT

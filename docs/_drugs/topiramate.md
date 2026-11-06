@@ -91,7 +91,7 @@ For audiogenic seizures, preclinical studies include [10666508](https://pubmed.n
 
 ## New Zealand Market Information
 
-The approved indication text is not available for any of them. Five of the main authorizations are listed below.
+The approved indication text is not available for any of them.
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|

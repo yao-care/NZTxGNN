@@ -118,7 +118,7 @@ The prediction score is high (0.9958) and the mechanism is plausible, but there 
 - Literature and trial searches specific to enoxaparin in congenital protein C deficiency (case series, registries, guidelines)
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Medsafe, which are required for safety screening
-- Clarification of the cancelled licence status and whether a supply route exists in New Zealand
+- Clarification of whether a supply route exists in New Zealand
 - Assessment of enoxaparin's role relative to, or alongside, protein C replacement therapy
 ## Disclaimer
 

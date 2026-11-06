@@ -118,7 +118,7 @@ The prediction for PLA2G6-associated neurodegeneration is supported by model out
 - Mechanism of action data from DrugBank
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Case reports or preclinical data for entacapone in PLA2G6-related dystonia-parkinsonism
-- Clarification of the cancelled licence status and whether a supply route exists in New Zealand
+- Clarification of whether a supply route exists in New Zealand
 - If a nearby indication is prioritised, a focused review of juvenile parkinsonism or Lewy body dementia, which have more plausible rationales
 ## Disclaimer
 

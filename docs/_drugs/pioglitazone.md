@@ -103,7 +103,6 @@ The prediction has no supporting clinical trials or publications (evidence level
 - Detailed mechanism of action data
 - Package insert warnings and contraindications for a formal safety screen
 - Review of the knowledge-graph contraindications (heart failure, liver and kidney disease) against the likely paediatric target population
-- Clarification of the regulatory pathway given the cancelled New Zealand licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

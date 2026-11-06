@@ -94,14 +94,13 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a high model score, with no clinical trials or publications. The direction of effect is mechanistically uncertain, as progenitor mobilization could help or worsen retinal vascular disease. The product is also not currently licensed in New Zealand.
+The prediction rests only on a high model score, with no clinical trials or publications. The direction of effect is mechanistically uncertain, as progenitor mobilization could help or worsen retinal vascular disease.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (e.g. from DrugBank) to cross-check the proposed link
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening
 - Preclinical or clinical evidence on G-CSF or pegfilgrastim in diabetic retinopathy, including a literature search to check for harm signals such as neovascularization
 - Assessment of route compatibility, since the available systemic injection form has not been compared with the routes needed for retinal disease
-- Clarification of the original approved indication and the regulatory pathway, given that the drug is marketed with 2 valid licences of 2
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

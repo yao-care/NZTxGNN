@@ -126,7 +126,6 @@ The top prediction, autoimmune oophoritis, rests only on a computational score, 
 - Mechanism of action data for insulin lispro
 - Package insert warnings and contraindications (not available in the data compiled for this report)
 - Any clinical or preclinical evidence linking insulin to ovarian autoimmunity
-- Clarification of current New Zealand licensing, since both Humalog licences are cancelled
 - If pursued at all, a focused review of pancreatic agenesis, where insulin replacement is already standard care, rather than the high-scoring but unsupported predictions
 ## Disclaimer
 

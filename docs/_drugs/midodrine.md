@@ -122,7 +122,7 @@ Package insert warnings and contraindications were not available, so please refe
 **To proceed, the following is needed:**
 - Obtain the Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Obtain detailed mechanism of action data from DrugBank
-- Confirm product availability in New Zealand, since both licences are cancelled
+- Confirm product availability in New Zealand
 - Define a monitoring plan for supine hypertension, bradycardia and interacting drugs
 - Do not pursue the prionopathy, ADHD, sinoatrial or other low-evidence predictions without new supporting data
 ## Disclaimer

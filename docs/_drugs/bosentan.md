@@ -81,8 +81,6 @@ None of the retrieved studies tests bosentan in patients with rheumatoid arthrit
 
 ## New Zealand Market Information
 
-Two single-ingredient bosentan licences (Bosentan Dr Reddy's, 62.5 mg and 125 mg tablets) are recorded in the local data, and the market status is listed as marketed.
-
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2550075 | Bosentan Dr Reddy's | Bosentan | Tab 125 mg | Yes |

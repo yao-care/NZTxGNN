@@ -70,8 +70,6 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All six are cancelled, and none lists an approved-indication text.
-
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 254258 | Serenace | Haloperidol | Inj 5 mg per ml, 1 ml ampoule | Yes |
@@ -102,7 +100,6 @@ The prediction rests only on a model score, with no clinical trials, no literatu
 - Mechanism of action data, to test whether any link to fucosylation or glycosylation pathways exists
 - Preclinical evidence (for example, cell or animal models of fucosylation defects) showing a plausible benefit
 - Package insert warnings and contraindications, which are currently missing and block formal safety screening
-- Confirmation of local product availability, since the drug is marketed in New Zealand with 6 valid licences out of 6
 
 It has supporting Phase 3 trials and network meta-analyses and is rated "Proceed with Guardrails". However, the supplied trials mostly test other drugs, with haloperidol as a comparator in only one. It is an on-class extension of existing antipsychotic use rather than a true repurposing. If the team wants to advance a candidate, that indication would be the more evidence-supported one to review separately.
 ## Disclaimer

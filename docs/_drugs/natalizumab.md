@@ -106,7 +106,7 @@ The high TxGNN score (0.9946) for bronchitis is not backed by any clinical trial
 - Package insert warnings and contraindications (Medsafe) for safety screening
 - Detailed mechanism of action data (DrugBank)
 - A risk-benefit assessment addressing PML and respiratory infection risk
-- Clarification of the regulatory and supply status in New Zealand, given the cancelled authorization
+- Clarification of the regulatory and supply status in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

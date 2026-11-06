@@ -101,7 +101,6 @@ The prediction rests solely on a computational score, with no clinical trials, n
 - Mechanism of action data, and a plausible biological rationale linking SGLT2 inhibition to GABAergic or autoimmune pathways in stiff person syndrome
 - Preclinical or observational evidence supporting the prediction
 - Package insert warnings and contraindications from Medsafe
-- Clarification of the regulatory status of empagliflozin in New Zealand, given that both Jardiance licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

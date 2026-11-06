@@ -108,7 +108,7 @@ The 0.9908 TxGNN score is a model prediction only. There are no clinical trials,
 - Mechanism of action data from DrugBank
 - Clinical studies of labetalol in renovascular or malignant hypertension
 - Confirmation that the predicted indications are clinically distinct from the existing hypertension indication
-- Approved indication text for the valid injection licence (2604116)
+- Approved indication text
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -104,8 +104,6 @@ For the closest related prediction, thrombophilia, one trial exists:
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-A sixth licence (210609, Marevan Tab 5 mg) is also cancelled.
-
 ## Safety Considerations
 
 The package insert warnings and contraindications could not be retrieved, so please refer to the package insert for safety information.

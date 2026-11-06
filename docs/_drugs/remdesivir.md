@@ -124,7 +124,7 @@ The top prediction, multiple endocrine neoplasia, rests solely on a TxGNN model 
 - Medsafe package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening
 - Mechanism of action data from DrugBank
 - Any preclinical or clinical evidence specific to the predicted indication
-- Clarification of the cancelled licence status and the current availability of remdesivir in New Zealand
+- Clarification of the current availability of remdesivir in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

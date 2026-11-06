@@ -93,8 +93,6 @@ The publications retrieved concern related airway conditions, mostly asthma and 
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
-Both licences are single-ingredient products and both are currently valid.
-
 ## Safety Considerations
 
 Please refer to the package insert for safety information.

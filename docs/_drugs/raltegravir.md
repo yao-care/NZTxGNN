@@ -121,7 +121,7 @@ The top prediction is a veterinary indication with no trials or publications, an
 - Mechanism of action data
 - Package insert warnings and contraindications, to complete safety screening
 - Direct evidence of raltegravir activity against FIV, if the veterinary indication is to be pursued
-- Confirmation of regulatory status, since both New Zealand licences are cancelled
+- Confirmation of regulatory status
 - Verification of study types of the SIV publications against full records
 ## Disclaimer
 

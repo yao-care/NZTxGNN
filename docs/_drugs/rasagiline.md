@@ -100,7 +100,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests entirely on a computational score, with no clinical trials or publications. The mechanistic link to PLA2G6-associated neurodegeneration is only symptomatic and theoretical, and the New Zealand authorization has been cancelled.
+The prediction rests entirely on a computational score, with no clinical trials or publications. The mechanistic link to PLA2G6-associated neurodegeneration is only symptomatic and theoretical.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for rasagiline

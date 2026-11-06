@@ -137,7 +137,6 @@ Other predictions for trametinib have more support, though all of them stay with
 - Experimental or preclinical evidence that MEK/MAPK inhibition affects the choroideremia disease process (for example retinal pigment epithelium or photoreceptor models)
 - Package insert warnings and contraindications for trametinib
 - A review of ocular safety, since MEK inhibitors can cause retinal toxicity
-- Confirmation of the regulatory pathway, given that the New Zealand authorizations are cancelled
 - If prioritising by evidence, shift attention to the melanoma-related predictions above
 ## Disclaimer
 

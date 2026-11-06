@@ -96,7 +96,7 @@ The prediction has a very high model score and a plausible IOP-lowering mechanis
 - Clinical or literature evidence of dorzolamide in primary hereditary (including congenital or juvenile) glaucoma, such as paediatric or genetic-subtype studies
 - Mechanism of action data (MOA) to support the mechanistic-link analysis
 - The Medsafe package insert warnings and contraindications, to complete safety screening
-- Clarification of availability, since the licence is cancelled and the only product is a timolol fixed combination
+- Clarification of availability, since the only product is a timolol fixed combination
 - Route and formulation compatibility assessment for the proposed use
 ## Disclaimer
 

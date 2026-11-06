@@ -96,7 +96,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction for irritable bowel syndrome has a high model score but no clinical trials, no literature, and no documented mechanistic link. The drug's known neuropsychiatric toxicity and its cancelled status in New Zealand add further barriers.
+The prediction for irritable bowel syndrome has a high model score but no clinical trials, no literature, and no documented mechanistic link.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) and a plausible mechanistic rationale for irritable bowel syndrome

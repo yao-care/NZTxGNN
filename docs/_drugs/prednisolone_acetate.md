@@ -146,7 +146,7 @@ The top prediction, chronic follicular conjunctivitis, rests on the model score 
 - Package insert warnings and contraindications from Medsafe, which is a blocking gap for safety screening
 - Mechanism of action data from DrugBank
 - Direct clinical evidence for prednisolone acetate in chronic follicular conjunctivitis, or in papillary or vernal conjunctivitis
-- Clarification of the cancelled licence status and the approved indication text, to confirm that a marketed product is available
+- Clarification of the approved indication text, to confirm that a marketed product is available
 - A safety plan for steroid-induced IOP elevation and for ruling out infectious causes before use
 ## Disclaimer
 

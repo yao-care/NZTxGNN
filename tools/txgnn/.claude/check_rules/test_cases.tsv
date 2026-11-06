@@ -309,3 +309,23 @@ M3V	en	All three licences are valid, and no approved-indication text is availabl
 M3V	en	No pramipexole product is currently authorized in New Zealand.	hit	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
 M3V	en	Dapsone carries a significant risk of haemolysis and methaemoglobinaemia.	miss	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
 M3V	en	- Verification of the Medsafe licence status, which is not included in this data	miss	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	The licence is a single-ingredient product and is currently valid.	hit	site=UkTxGNN;ms=Marketed;valid=5;cancelled=0
+M3V	en	A sixth authorisation, Indolar SR Cap 75mg (1001010K0BGADAD), is also recorded as valid.	hit	site=UkTxGNN;ms=Marketed;valid=5;cancelled=0
+M3V	en	No MHRA-authorised products are listed.	hit	site=UkTxGNN;ms=Marketed;valid=5;cancelled=0
+M3V	en	- Clarification of the regulatory pathway, since both New Zealand licences are cancelled	hit	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Two single-ingredient bosentan licences (Bosentan Dr Reddy's, 62.5 mg and 125 mg tablets) are recorded in the local data.	hit	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Nevirapine is also no longer actively marketed in New Zealand (both licences cancelled), and it carries notable liver and skin toxicity risks.	hit	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Diltiazem Hydrochloride currently has zero registered authorizations in New Zealand based on data retrieved on 2026-03-29.	hit	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	- Clarification of the original approved indication and the regulatory pathway	miss	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	Both Phase 3 trials were completed, and the pooled analysis showed a reduction in relapse rate.	miss	site=NZTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en	- Complete UK authorisation details (indication text, dosage form, valid licence number)	miss	site=UkTxGNN;ms=Marketed;valid=5;cancelled=0
+M3V	en	Fluoxetine is a selective serotonin reuptake inhibitor, marketed in the Philippines under one valid licence.	hit	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en	The only Philippines registration has been cancelled, and no label-based safety data are available.	hit	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en	No product authorizations were found.	hit	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en	Amoxicillin is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis.	miss	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en	- Package insert warnings and contraindications from the Philippines FDA, and the approved indication text	miss	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en	The local records show this single-ingredient licence as valid, and the drug is marketed in the Philippines.	hit	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en	Nystatin is a polyene antifungal that is registered and marketed in the Philippines.	hit	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en	The drug's registration in the Philippines has also been cancelled.	hit	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en	- Clarification of the Philippines registration status (cancelled) and the dosage form	hit	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en	- Confirmation of whether any valid Philippines registration or ophthalmic formulation exists	miss	site=PhTxGNN;ms=Marketed;valid=1;cancelled=0
