@@ -41,6 +41,7 @@ CLAIM += list(getattr(ck, "NOREG_EXTRA", {}).values())  # 站別補充寫法（C
 CLAIM += list(getattr(ck, "CANC_NONE", {}).values())  # 全部有效時的「已註銷」說法（Eu）
 # 處方／給付清單站（Uk、NZ、Ph）：清單品項寫成許可的說法只對該站生效（clause_cut 裡依站加上，Ph 的「FDA」不影響 Us 等站）
 CLAIM += list(getattr(ck, "SCOPE_NOMKT", {}).values())  # 只陳述資料範圍的站：「沒有上市」斷言（Sg、Eu）
+CLAIM += list(getattr(ck, "ALLC_X", []))  # 英文「全部（或唯一）許可已註銷」的寫法（Us，2026-11-06）
 if hasattr(ck, "VET_ONLY_CLAIM"):
     CLAIM.append(ck.VET_ONLY_CLAIM)  # 「唯一許可是獸用」（Dk）
 START = re.compile(r",\s|;\s|\s(?:that|which|with|and|but|y|con|que|aunque|pero|e|dan|serta|kerana|memandangkan|og|men|med)\s|\s\(", re.I)
@@ -147,6 +148,8 @@ def clause_cut(site, lang, core, fc, rule):
     if lang.startswith("en") and (re.search(r"\b(given|noting|since|although|because|while|whereas|with)\W*$", body, re.I)
                                   or re.search(r"\b(given|noting)\s+and\b", cand, re.I) or re.match(r"\s*,?\s*(are|is|were|was)\b", core[a:b], re.I)):
         return None  # 英文：刪完留下懸空的 given／noting、或只剩主詞（「Both licences, and …」）：整句刪
+    if lang.startswith("en") and re.search(r"\b(the|a|an|of|for|to|with|and|or|regulatory|reasons?)\s*[,.;]", cand, re.I):
+        return None  # 英文：刪掉中間片段後留下「Clarification of the, to confirm …」「Clarification of regulatory.」這類殘句（Us 2026-11-06）：整句刪
     if cand.count("(") != cand.count(")") or (lang == "ms" and re.match(r"\W*(Menurut|Berdasarkan|Mengikut)\b[^,]*[.]?\W*$", cand)):
         return None  # 括號不成對、或只剩「Menurut data …」這類引導語：整句刪
     return cand

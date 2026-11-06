@@ -364,3 +364,40 @@ M3V	en	The absence of data here reflects a gap in the evidence pack rather than 
 M3V	en	However, in the absence of a UK marketing authorisation, any clinical use would require a Specials licence or named-patient basis application via the MHRA, and standard BNF/NICE guidance does not apply.	hit	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
 M3V	en	The high score is likely a TxGNN model (deep learning) artefact and should not be read as evidence.	miss	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
 M3V	en	The link to "cystic neoplasm" is probably an ontology-mapping artefact arising from serous and ovarian disease terms.	miss	site=UkTxGNN;ms=Marketed;valid=3;cancelled=0
+M3V	en-us	All nine US listings for trastuzumab products are marked as cancelled.	hit	site=UsTxGNN;ms=Marketed;valid=9;cancelled=0
+M3V	en-us	There are 9 authorizations in total, and all are cancelled.	hit	site=UsTxGNN;ms=Marketed;valid=27;cancelled=4
+M3V	en-us	In addition, all US authorizations for amoxicillin are currently cancelled.	hit	site=UsTxGNN;ms=Marketed;valid=62;cancelled=64
+M3V	en-us	The US licences are all cancelled, so the drug's regulatory position needs clarification.	hit	site=UsTxGNN;ms=Marketed;valid=45;cancelled=28
+M3V	en-us	Both US NDAs are currently listed as cancelled.	hit	site=UsTxGNN;ms=Marketed;valid=3;cancelled=3
+M3V	en-us	The US license is also listed as cancelled, and package insert safety data are missing.	hit	site=UsTxGNN;ms=Marketed;valid=1;cancelled=0
+M3V	en-us	Idelalisib's sole US license is cancelled, and it carries serious toxicity concerns.	hit	site=UsTxGNN;ms=Marketed;valid=2;cancelled=1
+M3V	en-us	The compiled data list 14 US authorizations, all with cancelled status and no indication text.	hit	site=UsTxGNN;ms=Marketed;valid=7;cancelled=2
+M3V	en-us	The three top-scoring predictions have no study evidence at all, and the product's US market status is "Cancelled only".	hit	site=UsTxGNN;ms=Marketed;valid=2;cancelled=0
+M3V	en-us	All 11 are listed as cancelled.	hit	site=UsTxGNN;ms=Marketed;valid=15;cancelled=11
+M3V	en-us	In addition, all U.S. authorizations for tetrabenazine are cancelled, and label safety data are missing.	hit	site=UsTxGNN;ms=Marketed;valid=9;cancelled=3
+M3V	en-us	Both authorizations are held by Genentech, Inc. and are recorded as cancelled.	hit	site=UsTxGNN;ms=Marketed;valid=2;cancelled=0
+M3V	en-us	Eight further ANDAs are on file, all cancelled.	hit	site=UsTxGNN;ms=Marketed;valid=21;cancelled=1
+M3V	en-us	Three more ANDAs (AvKARE, Aurobindo, Zydus) are also listed as cancelled.	hit	site=UsTxGNN;ms=Marketed;valid=13;cancelled=0
+M3V	en-us	Five further authorizations are also cancelled: XGEVA (BLA125320) and OSPOMYV (BLA761392).	hit	site=UsTxGNN;ms=Marketed;valid=13;cancelled=0;lic=BLA125320:valid,BLA761392:valid
+M3V	en-us	Three further cancelled licences are not shown: ANDA076126 (Carlsbad) and ANDA075939 (Amneal).	hit	site=UsTxGNN;ms=Marketed;valid=39;cancelled=32;lic=ANDA076126:valid,ANDA075939:cancelled
+M3V	en-us	Neither product is currently active, so availability would need to be verified.	hit	site=UsTxGNN;ms=Marketed;valid=2;cancelled=3
+M3V	en-us	- Clarification of the cancelled US market status and the current availability of the drug	hit	site=UsTxGNN;ms=Marketed;valid=19;cancelled=16
+M3V	en-us	- Clarification of the original approved indications and the reasons for the NDA cancellations	hit	site=UsTxGNN;ms=Marketed;valid=2;cancelled=0
+M3V	en-us	All four licences are valid, and none has been cancelled.	miss	site=UsTxGNN;ms=Marketed;valid=4;cancelled=0
+M3V	en-us	Six further generic tablet ANDAs are also listed as cancelled.	miss	site=UsTxGNN;ms=Marketed;valid=31;cancelled=15
+M3V	en-us	Of the 5 licences listed, 3 are valid and 2 are cancelled.	miss	site=UsTxGNN;ms=Marketed;valid=6;cancelled=11
+M3V	en-us	A sixth licence, ANDA088131 (Chartwell RX), is also cancelled.	miss	site=UsTxGNN;ms=Marketed;valid=1;cancelled=80;lic=ANDA088131:cancelled
+M3V	en-us	The US license is cancelled.	miss	site=UsTxGNN;ms=Cancelled only;valid=0;cancelled=1
+M3V	en-us	Several of the records are valid, and at least one is cancelled.	miss	site=UsTxGNN;ms=Marketed;valid=10;cancelled=6
+M3V	en-us	Of the licence records, 8 are valid and 1 (an injectable product) is cancelled.	miss	site=UsTxGNN;ms=Marketed;valid=20;cancelled=7
+M3V	en-us	- Clarification of the reason for the license cancellations and the current US availability	miss	site=UsTxGNN;ms=Marketed;valid=1;cancelled=3
+M3V	en-us	This is a veterinary indication, and the evidence further limits practical development.	miss	site=UsTxGNN;ms=Marketed;valid=2;cancelled=0
+M3V	en-us	All nine US listings for trastuzumab products are marked as cancelled.	miss	site=ZaTxGNN;ms=Marketed;valid=9;cancelled=0
+M3V	en	At least one licence is valid in the local data (1 licence in total, 1 valid, 0 cancelled).	miss	site=UsTxGNN;ms=Marketed;valid=1;cancelled=0
+M3	pt	Além disso, todos os registros no Brasil estão cancelados.	hit	valid=2
+M3	pt	A previsão é apenas computacional (L5), e todos os registros no Brasil estão cancelados.	hit	valid=3
+M3	ar	جميع التراخيص الثلاثة ملغاة ولا يوجد حالياً ترخيص ساري.	hit	valid=2
+M3	ar	جميع التراخيص الاثنا عشر ملغاة، ولا يتوفر نص مؤشرات معتمد أو شكل صيدلاني في البيانات المتاحة.	hit	valid=1
+M3	en	All 4 registrations are valid, and none is cancelled.	miss	valid=4
+M3	es	Hay 20 autorizaciones vigentes en total, todas de monofármaco, sin autorizaciones canceladas.	miss	valid=20
+M3	en	All six are single-ingredient licences and none has been cancelled.	miss	valid=6
