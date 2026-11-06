@@ -473,6 +473,13 @@ M3V	en	All five registrations are valid products.	miss	site=SgTxGNN;ms=Marketed;
 M3V	en	All 18 licences are valid single-ingredient registrations, with none cancelled.	miss	site=SgTxGNN;ms=Marketed;total=18;valid=18;cancelled=0;vs=18;st=18
 M3V	en	Five single-ingredient licences are valid; the rest are combinations.	miss	site=SgTxGNN;ms=Marketed;total=18;valid=18;cancelled=0;vs=5;st=5
 M3V	en	- Approved indication text for each registration, to clarify which products are single-agent and which are combinations.	miss	site=ZaTxGNN;ms=Marketed;total=70;valid=70;cancelled=0;vs=2;st=2
-M3V	en	Butalbital is marketed only in fixed-dose combination products.	miss	site=CaTxGNN;ms=Marketed;total=11;valid=11;cancelled=0;vs=11;st=11
+M3V	en	Butalbital is marketed only in fixed-dose combination products.	miss	site=CaTxGNN;ms=Marketed;total=11;valid=11;cancelled=0;vs=0;st=0;note=2026-11-06 Ca reviewer 修正後 FIORINAL 等都是複方
 M3V	en	All five registrations are valid single-ingredient products.	miss	site=SgTxGNN;ms=Marketed;valid=5;cancelled=0;vs=0;st=0;partial=1
 M3V	en	Pemetrexed in combination with cisplatin is the standard regimen, and all products are single-agent vials.	miss	site=SgTxGNN;ms=Marketed;total=5;valid=5;cancelled=0;vs=3;st=3
+M3V	en	Butalbital is marketed only in fixed-dose combination products.	hit	site=CaTxGNN;ms=Marketed;total=11;valid=11;cancelled=0;vs=3;st=3
+M3V	en	Twelve valid single-ingredient licenses exist in total; the five above are shown.	hit	site=CaTxGNN;ms=Marketed;total=12;valid=12;cancelled=0;vs=0;st=0
+M3V	en	Eight valid single-ingredient authorizations are listed.	miss	site=CaTxGNN;ms=Marketed;total=8;valid=6;not_marketed=2;cancelled=0;vs=6;st=8
+M3V	en-us	All are single-ingredient products.	hit	site=UsTxGNN;ms=Marketed;total=155;valid=93;cancelled=62;vs=76;st=155
+M3V	en	All 11 registrations are valid single-ingredient licences.	hit	site=InTxGNN;ms=Marketed;total=11;valid=11;cancelled=0;vs=0;st=0
+M3V	en	Both entries are valid single-ingredient products.	hit	site=AuTxGNN;ms=Marketed;total=2;valid=2;cancelled=0;vs=1;st=1
+M3V	en	All 11 registrations are valid licences.	miss	site=InTxGNN;ms=Marketed;total=11;valid=11;cancelled=0;vs=0;st=0

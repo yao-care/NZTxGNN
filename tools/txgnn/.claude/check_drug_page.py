@@ -29,7 +29,7 @@
      總數、有效、註銷張數跟事實不符（total_x；表格子集合、至少 N、部分紀錄、交互作用筆數不算）
      M3 英文「有效張數」說法跟事實不符（2026-11-06，VALIDX_SITES，同上 10 站）：「with N valid …」「N valid authorizations」「N licences are valid」寫的有效張數
      不等於事實（valid_under；至少 N、部分紀錄、表外另有 N 張、表格列出的 N 張、單方張數不少於事實單方有效張數的不算）
-     M3 英文「單方／複方」說法跟事實不符（2026-11-06，COMBO_X_SITES：Sg、Za、Uk、NZ、Eu、Ph；事實層 kind 分不出複方的 Us、Au、In、Ca 不啟用）：
+     M3 英文「單方／複方」說法跟事實不符（2026-11-06，COMBO_X_SITES：10 個英文站；Us、Au、In、Ca 修好各站 reviewer 的成分數判定後啟用）：
      寫全部單方／沒有複方但有效許可有複方、寫只有複方但有單方、單方張數多於事實（combo_x）
      M3l 清單站（Uk、NZ、Ph）第四輪（2026-11-06）：說許可資料應去 MHRA／Medsafe／FDA PH 擷取、重跑擷取流程、許可資料／紀錄不完整或尚未載入（LIST_PIPE；仿單缺漏不算）
 D1 一頁只能有一份報告（2026-11-03 用戶決定）：報告標題＝H2 後一行是「{: .text-alpha }」；兩個以上就錯
@@ -915,9 +915,9 @@ def valid_under(site, s, fc):
 #   全部複方（only available as a combination、no single-ingredient …）：有單方有效許可就矛盾；
 #   單方張數（N valid single-ingredient …）多於事實的單方張數就矛盾（少於事實由 valid_under 管）。
 # 「All 5 single-ingredient licences are valid」（主詞是單方那幾張）不算。只在 COMBO_X_SITES 啟用（新規則上線前該站頁面要先清到 0）。
-# 啟用站＝事實層 kind 能分出複方的站（Us、Au、In 的證據包 kind 一律是 single；Ca 的 DPD 複方也標成 single，例 butalbital 的 FIORINAL），
-# 這 4 站不啟用（2026-11-06）
-COMBO_X_SITES = {"SgTxGNN", "ZaTxGNN", "UkTxGNN", "NZTxGNN", "EuTxGNN", "PhTxGNN"}
+# 啟用站＝事實層 kind 能分出複方的站。Us、Au、In、Ca 原本一律算成單方（reviewer 只認「;;」分隔），2026-11-06 各站改 reviewer 依官方資料的
+# 成分數判定（Us Drugs@FDA／NDC、Ca DPD 的「; 」，Au PBS 品項的「 + 」，In 資料集的 short_composition2）後一併啟用
+COMBO_X_SITES = {"SgTxGNN", "ZaTxGNN", "UkTxGNN", "NZTxGNN", "EuTxGNN", "PhTxGNN", "UsTxGNN", "AuTxGNN", "InTxGNN", "CaTxGNN"}
 _SI = r"single[- ](?:ingredient|agent|substance|component)s?|mono-?(?:component|substance)"
 _CX_ALL_SINGLE = re.compile(r"\b(?:all|both|each|every)\b(?!\s+(?:the\s+)?(?:\w+\s+)?(?:" + _SI + r")\s+\w+\s+(?:are|is|were)\b)[^.;]{0,70}?\b(?:" + _SI + r")\b|"
                             r"\b(?:entirely|exclusively)\s+(?:of\s+)?(?:" + _SI + r")\b|"
@@ -941,7 +941,8 @@ def combo_x(site, s, fc):
         return f"複方說法跟事實不符（寫只有複方／沒有單方，事實單方有效 {vs} 張）：{s[:60]}"
     for m in _CX_COUNT.finditer(s2):
         k = _num(m.group(1))
-        if k is not None and not AT_LEAST.search(s2[max(0, m.start() - 14):m.start()]) and k > (vs if m.group(2) else max(vs, st)):
+        vsl = vs + ((fc.get("not_marketed") or 0) if site in LEGAL_NM_VALID else 0)  # Ca 等站的「有效」另含核准未上市
+        if k is not None and not AT_LEAST.search(s2[max(0, m.start() - 14):m.start()]) and k > (vsl if m.group(2) else max(vsl, st)):
             return f"單方張數說法跟事實不符（寫 {k} 張，事實單方有效 {vs} 張、單方共 {st} 張）：{s[:60]}"
     return None
 
