@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dihydrocodeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The evidence is model-based only and the recommendation is to hold.
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,13 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 772887 | DHC Continus | Tab long-acting 60 mg | Not recorded in the local data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 772887 | DHC Continus | Dihydrocodeine tartrate | Tab long-acting 60 mg | Yes |
 
-The local data list one licence (a single-ingredient product), and its status is recorded as cancelled. The licence-level records and the market-level summary compiled for this report are not fully consistent, so current availability should be confirmed directly with Medsafe before any planning.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+The licence-level records and the market-level summary compiled for this report are not fully consistent, so current availability should be confirmed directly with Medsafe before any planning.
 
 ## Safety Considerations
 

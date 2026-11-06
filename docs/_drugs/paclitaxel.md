@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ with **43 clinical trials** and **20 publications** compiled for this prediction
 | Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 of 11 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 11 (valid: 11) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 11 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -99,13 +99,21 @@ The most relevant trials for paclitaxel in female breast carcinoma (the data con
 
 Approved indication text was not available for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2271834 | Anzatax | Inj 6 mg per ml, 16.7 ml vial | Valid |
-| 2271826 | Anzatax | Inj 150 mg | Valid |
-| 2207664 | Paclitaxel Ebewe | Inj 6 mg per ml, 16.7 ml vial | Valid |
-| 2207672 | Paclitaxel Ebewe | Inj 150 mg | Valid |
-| 2394596 | Paclitaxel Actavis | Inj 6 mg per ml, 50 ml vial | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2204088 | Baxter | Paclitaxel | Inj 1 mg for ECP | Yes |
+| 2207672 | Paclitaxel Ebewe | Paclitaxel | Inj 150 mg | Yes |
+| 2271826 | Anzatax | Paclitaxel | Inj 150 mg | Yes |
+| 2394588 | Paclitaxel Actavis | Paclitaxel | Inj 150 mg | Yes |
+| 2316978 | Paclitaxel Ebewe | Paclitaxel | Inj 30 mg | Yes |
+| 2207664 | Paclitaxel Ebewe | Paclitaxel | Inj 6 mg per ml, 16.7 ml vial | Yes |
+| 2271834 | Anzatax | Paclitaxel | Inj 6 mg per ml, 16.7 ml vial | Yes |
+| 2394561 | Paclitaxel Actavis | Paclitaxel | Inj 6 mg per ml, 16.7 ml vial | Yes |
+| 2207680 | Paclitaxel Ebewe | Paclitaxel | Inj 6 mg per ml, 50 ml vial | Yes |
+| 2271818 | Anzatax | Paclitaxel | Inj 6 mg per ml, 50 ml vial | Yes |
+| 2394596 | Paclitaxel Actavis | Paclitaxel | Inj 6 mg per ml, 50 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

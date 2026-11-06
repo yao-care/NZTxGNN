@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Sacubitril: predicted new indication Top-ranked: brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not stated in the New Zealand licence data (the combinat…"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Sacubitril is the neprilysin-inhibitor component of the sacubitril/valsartan combination (Entresto). The licence records compiled for this report do not state an approved indication, but the combination is known as a heart failure treatment.
+Sacubitril is the neprilysin-inhibitor component of the sacubitril/valsartan combination (Entresto). The combination is known as a heart failure treatment.
 The TxGNN model ranks **brain small vessel disease 1 with or without ocular anomalies** first, but the best-supported prediction is **Diabetic Nephropathy** (rank 3), with **1 clinical trial** (Phase 4, status unknown) and **15 publications**.
 Overall evidence for the top-ranked prediction is only model-based, so this report focuses on the best-supported candidate and notes the others briefly.
 
@@ -50,8 +50,8 @@ Overall evidence for the top-ranked prediction is only model-based, so this repo
 | Predicted New Indication | Top-ranked: brain small vessel disease 1 with or without ocular anomalies (best-supported: diabetic nephropathy) |
 | TxGNN Prediction Score | 0.9958 (top-ranked); 0.9950 (diabetic nephropathy) |
 | Evidence Level | L5 (top-ranked); L3 (diabetic nephropathy) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold (top-ranked); diabetic nephropathy is a research question |
 
 **Other predictions, for context**
@@ -101,13 +101,13 @@ For the other predictions, the only literature retrieved was PMID 37169551 (rank
 
 ## New Zealand Market Information
 
-All three authorisations are valid, and no approved indication text is recorded.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2554720 | Entresto 24/26 | Sacubitril with valsartan | Tab 24.3 mg with valsartan 25.7 mg | Yes |
+| 2554739 | Entresto 49/51 | Sacubitril with valsartan | Tab 48.6 mg with valsartan 51.4 mg | Yes |
+| 2554747 | Entresto 97/103 | Sacubitril with valsartan | Tab 97.2 mg with valsartan 102.8 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2554720 | Entresto 24/26 | Tablet 24.3 mg with valsartan 25.7 mg | Not recorded |
-| 2554739 | Entresto 49/51 | Tablet 48.6 mg with valsartan 51.4 mg | Not recorded |
-| 2554747 | Entresto 97/103 | Tablet 97.2 mg with valsartan 102.8 mg | Not recorded |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -120,7 +120,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction and the other low-evidence predictions (ranks 2, 4 and 5) rest on model scores alone, with no supporting evidence. Diabetic nephropathy has a plausible mechanism and a Phase 4 trial, but that trial has unknown status and no results, and the human renal evidence is limited. Also, the drug is marketed in New Zealand, with 3 valid licences of 3.
+- The top-ranked prediction and the other low-evidence predictions (ranks 2, 4 and 5) rest on model scores alone, with no supporting evidence. Diabetic nephropathy has a plausible mechanism and a Phase 4 trial, but that trial has unknown status and no results, and the human renal evidence is limited.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)

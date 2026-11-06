@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 248
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but the dat
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,13 +84,13 @@ None of the retrieved papers shows itraconazole being tested for pneumocystosis.
 
 ## New Zealand Market Information
 
-All three licences are valid, and no approved indication text is recorded for them.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2354322 | Itrazole | Itraconazole | Cap 100 mg | Yes |
+| 2705109 | Itraconazole Crescent | Itraconazole | Cap 100 mg | Yes |
+| 2693364 | Itraconazole Kent | Itraconazole | Oral liq 10 mg per ml | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2354322 | Itrazole | Capsule 100 mg | Valid |
-| 2705109 | Itraconazole Cresent | Capsule 100 mg | Valid |
-| 2693364 | Itraconazole Kent | Oral liquid 10 mg/ml | Valid |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are **no clinical trials and no publications** supporting this prediction,
 | Predicted New Indication | hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 of 11 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 11 (valid: 11) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 11 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,7 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Local records show 11 licences for single-ingredient diclofenac products, in several dosage forms: suppositories (12.5, 25, 50 and 100 mg), dispersible tablets, enteric-coated tablets, long-acting tablets, injection and single-dose eye drops. Brands and products include Voltaren, Voltaren D, Voltaren SR, Diclofenac Sandoz and Diclofenac Devatis. Approved indication text is not recorded in the local data.
+Brands and products include Voltaren, Voltaren D, Voltaren SR, Diclofenac Sandoz and Diclofenac Devatis. Approved indication text is not recorded in the local data.
 
 ## Safety Considerations
 

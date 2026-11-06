@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The data compiled for this report contain more supportive literature for two oth
 | Predicted New Indication | Distal myopathy, Tateyama type |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 **Other predictions in the top 6 (for context):**
@@ -113,15 +113,18 @@ Other retrieved entries (for example SarcTrack and the RIα subunit paper) are i
 
 ## New Zealand Market Information
 
-All five licences are valid; propranolol is marketed in this country with 5 valid licences of 5. Approved indication text is not available for these licences.
+Approved indication text is not available for these licences.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2681080 | Hikma-Propranolol | Oral liquid 4 mg per ml | Valid |
-| 2618664 | IPCA-Propranolol | Tablet 40 mg | Valid |
-| 2611414 | Drofate | Tablet 10 mg | Valid |
-| 2401894 | Roxane-Propranolol | Oral liquid 4 mg per ml | Valid |
-| 326070 | Cardinol LA | Long-acting capsule 160 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2734214 | Propranolol LA Lupin | Propranolol | Cap long-acting 160 mg | Yes |
+| 326070 | Cardinol LA | Propranolol | Cap long-acting 160 mg | Yes |
+| 2401894 | Roxane-Propranolol | Propranolol | Oral liq 4 mg per ml | Yes |
+| 2681080 | Hikma-Propranolol | Propranolol | Oral liq 4 mg per ml | Yes |
+| 2611414 | Drofate | Propranolol | Tab 10 mg | Yes |
+| 2618664 | IPCA-Propranolol | Propranolol | Tab 40 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

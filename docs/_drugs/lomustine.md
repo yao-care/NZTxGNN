@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 275
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "LOMUSTINE"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
 description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L4). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Lomustine is an oral nitrosourea alkylating chemotherapy that crosses the blood-
 | Predicted New Indication | Lymphosarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,9 +90,11 @@ None of the trials below studies lymphosarcoma directly. They involve related ly
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2681137 | Medac | Cap 40 mg (valid) | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2681137 | Medac | Lomustine | Cap 40 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

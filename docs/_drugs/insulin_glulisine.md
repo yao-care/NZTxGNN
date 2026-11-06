@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Glulisine: predicted new indication Thiamine-responsive dysfunction syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ Type 1 diabetes already falls within the drug's original indication, so this is 
 | Predicted New Indication | Thiamine-responsive dysfunction syndrome |
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 (see note below) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on evidence level:** The L1 grade is not fully supported by the trial data compiled for this report. L1 requires at least two completed Phase 3 RCTs. Several completed Phase 3 trials are listed (e.g. NCT00115570, NCT00290979, NCT00467376, NCT00135941), and two published RCTs are included. However, trial design details (randomisation, comparator and primary outcomes) have not been verified for each, so L1 should be confirmed before it is relied upon.
@@ -97,12 +97,13 @@ The data compiled for this report include 30 trials. The table lists the 10 most
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2317109 | Apidra | Insulin glulisine | Inj 100 u per ml, 10 ml | Yes |
+| 2361620 | Apidra | Insulin glulisine | Inj 100 u per ml, 3 ml | Yes |
+| 2316870 | Apidra SoloStar | Insulin glulisine | Inj 100 u per ml, 3 ml disposable pen | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2316870 | Apidra SoloStar | Inj 100 u per ml, 3 ml disposable pen | Not recorded |
-| 2317109 | Apidra | Inj 100 u per ml, 10 ml | Not recorded |
-| 2361620 | Apidra | Inj 100 u per ml, 3 ml | Not recorded |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

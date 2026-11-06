@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "LITHIUM CARBONATE"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
 description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Lithium carbonate is a mood stabiliser originally used for bipolar disorder and 
 | Predicted New Indication | Pseudoachondroplasia |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,10 +80,12 @@ Currently no related literature available for pseudoachondroplasia.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 733393 | Douglas | Cap 250 mg | Not stated (licence valid) |
-| 260851 | Priadel | Tab long-acting 400 mg | Not stated (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 733393 | Douglas | Lithium carbonate | Cap 250 mg | Yes |
+| 260851 | Priadel | Lithium carbonate | Tab long-acting 400 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -104,13 +106,12 @@ Package insert warnings were not available. Please refer to the package insert f
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (0.9998), with no clinical trials or literature for pseudoachondroplasia and only a speculative mechanistic link. Lithium is marketed in New Zealand, with 2 valid licences of 2, and the available safety data are incomplete.
+The prediction is supported only by a model score (0.9998), with no clinical trials or literature for pseudoachondroplasia and only a speculative mechanistic link. Lithium is marketed in New Zealand and the available safety data are incomplete.
 
 **To proceed, the following is needed:**
 - Preclinical evidence that lithium or GSK-3β/Wnt modulation affects COMP-related chondrocyte ER stress or growth plate function
 - Detailed mechanism of action data
 - Package insert warnings and contraindications (a blocking gap for safety screening)
-- Assessment of the regulatory pathway, given that both New Zealand licences are cancelled
 - A risk-benefit assessment for a paediatric skeletal population, including renal, thyroid and serum-level monitoring
 ## Disclaimer
 

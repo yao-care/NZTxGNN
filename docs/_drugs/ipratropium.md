@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ This prediction largely confirms an existing use rather than a true new indicati
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 9 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -99,14 +99,19 @@ The literature is dominated by reviews. No randomised trial publications were id
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2145782 | Atrovent | Ipratropium bromide | Aerosol inhaler, 20 mcg per dose CFC-free | Yes |
+| 2372908 | Univent | Ipratropium bromide | Aqueous nasal spray, 0.03% | Yes |
+| 2154307 | Univent | Ipratropium bromide | Nebuliser soln, 250 mcg per ml, 2 ml ampoule | Yes |
+| 2643154 | Accord | Ipratropium bromide | Nebuliser soln, 250 mcg per ml, 2 ml ampoule | Yes |
+| 2724863 | Ipratropium Viatris | Ipratropium bromide | Nebuliser soln, 250 mcg per ml, 2 ml ampoule | Yes |
+| 2349337 | Duolin HFA | Salbutamol with ipratropium bromide | Aerosol inhaler, 100 mcg with ipratropium bromide… | Yes |
+| 2039281 | Duolin | Salbutamol with ipratropium bromide | Nebuliser soln, 2.5 mg with ipratropium bromide 0… | Yes |
+| 2729512 | Combiprasal | Salbutamol with ipratropium bromide | Nebuliser soln, 2.5 mg with ipratropium bromide 0… | Yes |
+| 2719959 | Cipla | Salbutamol with ipratropium bromide | Nebuliser soln, 2.5 mg with ipratropium bromide 0… | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2643154 | Accord | Nebuliser solution, 250 mcg/ml, 2 ml ampoule | Not available (valid) |
-| 2145782 | Atrovent | Aerosol inhaler, 20 mcg per dose, CFC-free | Not available (valid) |
-| 2154307 | Univent | Nebuliser solution, 250 mcg/ml, 2 ml ampoule | Not available (valid) |
-| 2372908 | Univent | Aqueous nasal spray, 0.03% | Not available (valid) |
-| 2724863 | Ipratropium Viatris | Nebuliser solution, 250 mcg/ml, 2 ml ampoule | Not available (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

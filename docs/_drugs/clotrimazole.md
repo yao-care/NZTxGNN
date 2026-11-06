@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Clotrimazole: predicted new indication acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The evidence is therefore thin and indirect.
 | Predicted New Indication | acne (disease) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,12 +72,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 202223 | Canesten | Soln 1% | Not recorded |
-| 2155656 | Clomazol | Vaginal crm 1% with applicators | Not recorded |
-| 2184362 | Clomazol | Crm 1% | Not recorded |
-| 2249634 | Clomazol | Vaginal crm 2% with applicators | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2184362 | Clomazol | Clotrimazole | Crm 1% | Yes |
+| 202223 | Canesten | Clotrimazole | Soln 1% | No |
+| 2155656 | Clomazol | Clotrimazole | Vaginal crm 1% with applicators | Yes |
+| 2249634 | Clomazol | Clotrimazole | Vaginal crm 2% with applicators | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

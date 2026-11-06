@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,13 +74,13 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2435179 | Spiractin | Tab 25 mg | Not available (valid) |
-| 344877 | Biomed | Oral liq 5 mg per ml | Not available (valid) |
-| 2435187 | Spiractin | Tab 100 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 344877 | Biomed | Spironolactone | Oral liq 5 mg per ml | Yes |
+| 2435187 | Spiractin | Spironolactone | Tab 100 mg | Yes |
+| 2435179 | Spiractin | Spironolactone | Tab 25 mg | Yes |
 
-All three licences are valid, so spironolactone is currently marketed in New Zealand according to the data compiled for this report.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

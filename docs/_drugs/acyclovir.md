@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Acyclovir: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -50,8 +50,8 @@ The best-supported repurposing direction in the data is **common wart** (4 clini
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis (top-ranked); common wart (best evidence, rank 2) |
 | TxGNN Prediction Score | 0.9967 (punctate epithelial keratoconjunctivitis); 0.9946 (common wart) |
 | Evidence Level | L5 for punctate epithelial keratoconjunctivitis; L2 for common wart |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold for punctate epithelial keratoconjunctivitis; Proceed with Guardrails (research question) for common wart |
 
 ## Why is This Prediction Reasonable?
@@ -93,14 +93,14 @@ The two publications for punctate epithelial keratoconjunctivitis (PMIDs 2193422
 
 ## New Zealand Market Information
 
-All 4 licences are valid (4 of 4), and no indication text is recorded.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2490803 | ViruPOS | Aciclovir | Eye oint 3% | Yes |
+| 471704 | Lovir | Aciclovir | Tab dispersible 200 mg | Yes |
+| 471690 | Lovir | Aciclovir | Tab dispersible 400 mg | Yes |
+| 471712 | Lovir | Aciclovir | Tab dispersible 800 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 471690 | Lovir | Dispersible tablet 400 mg | Valid |
-| 471704 | Lovir | Dispersible tablet 200 mg | Valid |
-| 471712 | Lovir | Dispersible tablet 800 mg | Valid |
-| 2490803 | ViruPOS | Eye ointment 3% | Valid |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -115,7 +115,6 @@ Please refer to the package insert for the official warnings and contraindicatio
 
 **Rationale:**
 - The top-ranked prediction, punctate epithelial keratoconjunctivitis, rests only on a model score (L5), with no trials and no supportive literature. Common wart is the best-supported direction (L2): one Phase 2/3 trial and several randomized comparisons, but the trials are small, mostly single-centre, use active comparators rather than placebo, and the mechanism is uncertain.
-- The drug is marketed in this country, with 4 valid licences out of 4.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

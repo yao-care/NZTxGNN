@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Caffeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ No clinical trials are registered for this prediction, and the 3 publications re
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,7 +76,7 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-Caffeine is marketed in New Zealand. The only licence on record is an oral liquid (20 mg per ml) product, Biomed (licence 461253). Its approved indication text is not recorded in the local data.
+Caffeine is marketed in New Zealand. Its approved indication text is not recorded in the local data.
 
 ## Safety Considerations
 

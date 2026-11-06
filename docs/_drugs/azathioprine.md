@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Azathioprine: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ No clinical trials and no publications in the data compiled for this report supp
 | Predicted New Indication | colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN Prediction Score | 1.0000 (rounded to 4 decimals from 0.99999428) |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -5,7 +5,7 @@ layout: default
 title: Desmopressin Acetate
 parent: Known Uses Only (No New Predictions)
 nav_order: 142
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -36,15 +36,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 ## Desmopressin Acetate
 {: .text-alpha }
 
-
 ## Quick Overview
 
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 
 ---
 

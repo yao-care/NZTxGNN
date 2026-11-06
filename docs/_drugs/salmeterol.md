@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Salmeterol is an inhaled long-acting beta2-adrenergic agonist used as a bronchod
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,10 +82,16 @@ The publications retrieved concern related airway conditions, mostly asthma and 
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 479489 | Serevent Accuhaler | Powder for inhalation, 50 mcg per dose, breath activated | Not available (valid) |
-| 2243903 | Serevent | Aerosol inhaler CFC-free, 25 mcg per dose | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2243903 | Serevent | Salmeterol | Aerosol inhaler CFC-free, 25 mcg per dose | Yes |
+| 479489 | Serevent Accuhaler | Salmeterol | Powder for inhalation, 50 mcg per dose, breath ac… | Yes |
+| 2120208 | Seretide | Fluticasone with salmeterol | Aerosol inhaler 125 mcg with salmeterol 25 mcg | Yes |
+| 2120194 | Seretide | Fluticasone with salmeterol | Aerosol inhaler 50 mcg with salmeterol 25 mcg | Yes |
+| 2120216 | Seretide Accuhaler | Fluticasone with salmeterol | Powder for inhalation 100 mcg with salmeterol 50… | Yes |
+| 2120224 | Seretide Accuhaler | Fluticasone with salmeterol | Powder for inhalation 250 mcg with salmeterol 50… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 Both licences are single-ingredient products and both are currently valid.
 

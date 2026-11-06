@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
 description: "Sulfadiazine: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but currently there are **0 registered clinical trials** and **19 publications**
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9939 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,9 +85,11 @@ The 19 publications compiled are mainly reviews and observational or case report
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2674912 | Sulfadiazin-Heyl (valid) | Tab 500 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2674912 | Sulfadiazin-Heyl | Sulfadiazine sodium | Tab 500 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

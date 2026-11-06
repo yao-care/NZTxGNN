@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 379
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The data compiled for this report include **no registered clinical trials** and 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -93,14 +93,14 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2608731 | Prednisone Clinect | Tab 5 mg | Not available (valid) |
-| 2608758 | Prednisone Clinect | Tab 20 mg | Not available (valid) |
-| 2608723 | Prednisone Clinect | Tab 2.5 mg | Not available (valid) |
-| 2608715 | Prednisone Clinect | Tab 1 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2608715 | Prednisone Clinect | Prednisone | Tab 1 mg | Yes |
+| 2608723 | Prednisone Clinect | Prednisone | Tab 2.5 mg | Yes |
+| 2608758 | Prednisone Clinect | Prednisone | Tab 20 mg | Yes |
+| 2608731 | Prednisone Clinect | Prednisone | Tab 5 mg | Yes |
 
-All four licences are valid single-ingredient products.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

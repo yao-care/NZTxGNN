@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
 description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Part of this evidence (actinic keratosis) overlaps with an existing indication, 
 | Predicted New Indication | Pre-malignant neoplasm |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (see note below) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note:* The two registered trials are small (n=20 and n=9), and one was terminated early. Only one is completed, and it is an open-label study in actinic keratosis, an already established use. No criteria for L1 or L2 are met, so the evidence is graded L3, based on systematic reviews and observational reports. This is more conservative than the L1 shown in the underlying scoring.
@@ -96,11 +96,13 @@ Caution: actinic keratosis is already an established use, so it should not be co
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2715775 | Padagis | Cream 5%, 250 mg sachet | Not recorded (valid) |
-| 2543907 | Perrigo | Cream 5%, 250 mg sachet | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2543907 | Perrigo | Imiquimod | Crm 5%, 250 mg sachet | Yes |
+| 2715775 | Padagis | Imiquimod | Crm 5%, 250 mg sachet | Yes |
+| 2728087 | Aldara | Imiquimod | Crm 5%, 250 mg sachet | Yes |
 
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -119,7 +121,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is plausible and there is a body of reviews and case reports for HPV-related intraepithelial neoplasias. However, the registered trials are very small, one was terminated, and the one completed trial concerns an established indication. Evidence is supportive, not confirmatory, and the New Zealand licences are all cancelled.
+The mechanism is plausible and there is a body of reviews and case reports for HPV-related intraepithelial neoplasias. However, the registered trials are very small, one was terminated, and the one completed trial concerns an established indication. Evidence is supportive, not confirmatory.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

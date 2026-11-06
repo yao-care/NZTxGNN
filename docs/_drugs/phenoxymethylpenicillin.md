@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PHENOXYMETHYLPENICILLIN"
 predicted_indications: ["epiglottitis", "laryngitis"]
 description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,14 +79,16 @@ For reference, the second-ranked prediction, laryngitis (score 0.9985, evidence 
 
 ## New Zealand Market Information
 
-All four licences are valid. No approved indication text is available.
+No approved indication text is available.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2029219 | AFT | Granules for oral liquid, 125 mg per 5 ml | Valid |
-| 2029227 | AFT | Granules for oral liquid, 250 mg per 5 ml | Valid |
-| 2602873 | Cilicaine VK | Capsule, 500 mg | Valid |
-| 2602865 | Cilicaine VK | Capsule, 250 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2602865 | Cilicaine VK | Phenoxymethylpenicillin (Penicillin V) | Cap 250 mg | Yes |
+| 2602873 | Cilicaine VK | Phenoxymethylpenicillin (Penicillin V) | Cap 500 mg | Yes |
+| 2029219 | AFT | Phenoxymethylpenicillin (Penicillin V) | Grans for oral liq 125 mg per 5 ml | Yes |
+| 2029227 | AFT | Phenoxymethylpenicillin (Penicillin V) | Grans for oral liq 250 mg per 5 ml | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

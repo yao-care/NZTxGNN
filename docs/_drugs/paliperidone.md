@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (rank 1). The best-supported alternative, treatment-refractory schizophrenia, is L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 9 |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,6 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, paliperidone is a dopamine D2 and serotonin 5-HT2A receptor antagonist, and this mechanism underlies its efficacy in schizophrenia.
 
 **Rank 1 (retinal dystrophy):** No mechanistic link is established. The score of 0.9992 is a purely computational output, and no known pathway connects D2/5-HT2A antagonism to inherited retinal dystrophy. The other top-ranked predictions are similar: several X-linked or syndromic myopias, hydranencephaly, a congenital glycosylation disorder, a polymicrogyria syndrome, Charcot-Marie-Tooth type 1G and atypical glycine encephalopathy. All have no trials or literature and no plausible pharmacological rationale. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
-
 
 ---
 
@@ -91,15 +90,19 @@ No literature is available for the rank 1 prediction.
 
 ## New Zealand Market Information
 
-All five licences are valid, and no approved indication text is available for them.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2426943 | Invega Sustenna | Paliperidone | Inj 100 mg syringe | Yes |
+| 2426951 | Invega Sustenna | Paliperidone | Inj 150 mg syringe | Yes |
+| 2426919 | Invega Sustenna | Paliperidone | Inj 25 mg syringe | Yes |
+| 2426927 | Invega Sustenna | Paliperidone | Inj 50 mg syringe | Yes |
+| 2426935 | Invega Sustenna | Paliperidone | Inj 75 mg syringe | Yes |
+| 2515202 | Invega Trinza | Paliperidone palmitate | Inj 175 mg syringe | Yes |
+| 2515210 | Invega Trinza | Paliperidone palmitate | Inj 263 mg syringe | Yes |
+| 2515229 | Invega Trinza | Paliperidone palmitate | Inj 350 mg syringe | Yes |
+| 2515237 | Invega Trinza | Paliperidone palmitate | Inj 525 mg syringe | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2426935 | Invega Sustenna | Inj 75 mg syringe | Not available (valid) |
-| 2426951 | Invega Sustenna | Inj 150 mg syringe | Not available (valid) |
-| 2426927 | Invega Sustenna | Inj 50 mg syringe | Not available (valid) |
-| 2426919 | Invega Sustenna | Inj 25 mg syringe | Not available (valid) |
-| 2426943 | Invega Sustenna | Inj 100 mg syringe | Not available (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -125,7 +128,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The rank 1 prediction (retinal dystrophy) rests only on a computational score, with no trials, no literature and no plausible mechanism. All five New Zealand licences are valid, and the safety data has important gaps.
+The rank 1 prediction (retinal dystrophy) rests only on a computational score, with no trials, no literature and no plausible mechanism.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)

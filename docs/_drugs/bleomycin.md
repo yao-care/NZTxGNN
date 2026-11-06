@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Bleomycin: predicted new indication cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ This prediction currently has **no clinical trials** and **one publication** (a 
 | Predicted New Indication | cauda equina neoplasm |
 | TxGNN Prediction Score | 0.9930 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,10 +72,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2204215 | Baxter | Inj 1,000 iu for ECP | Not recorded in the local data |
-| 2343207 | DBL Bleomycin Sulfate | Inj 15,000 iu, vial | Not recorded in the local data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2204215 | Baxter | Bleomycin sulphate | Inj 1,000 iu for ECP | Yes |
+| 2343207 | DBL Bleomycin Sulfate | Bleomycin sulphate | Inj 15,000 iu, vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

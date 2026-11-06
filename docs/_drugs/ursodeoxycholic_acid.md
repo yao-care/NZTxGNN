@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis…"
 monitor_inn: "URSODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,12 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2397528 (cancelled) | Ursosan | Cap 250 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2397528 | Ursosan | Ursodeoxycholic acid | Cap 250 mg | Yes |
+| 2729504 | APO-Ursodeoxycholic Acid | Ursodeoxycholic acid | Cap 250 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -87,13 +90,12 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (0.9986), with no clinical trials or publications. The mechanism is also biologically questionable in HoFH, where LDL receptor function is largely absent. In addition, the only New Zealand authorization has been cancelled.
+The prediction is supported only by a model score (0.9986), with no clinical trials or publications. The mechanism is also biologically questionable in HoFH, where LDL receptor function is largely absent.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for UDCA, and a critical assessment of whether any LDL-receptor-independent effect could matter in HoFH
 - Preclinical or early clinical evidence of lipid lowering in HoFH or receptor-deficient models
 - Package insert warnings and contraindications (currently blocking for safety screening)
-- Clarification of the regulatory status and available formulations in New Zealand, since the sole licence is cancelled
 - Review of the interaction profile, especially with bile acid-binding agents and cyclosporine
 ## Disclaimer
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Buprenorphine: predicted new indication acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **acute intermittent porphyria**,
 | Predicted New Indication | acute intermittent porphyria |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,10 +71,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2574012 | Buprenorphine Naloxone BNM | Sublingual tablet 8 mg with naloxone 2 mg | Not recorded |
-| 2574004 | Buprenorphine Naloxone BNM | Sublingual tablet 0.5 mg naloxone / 2 mg buprenorphine | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2574004 | Buprenorphine Naloxone BNM | Buprenorphine with naloxone | Tab sublingual 2 mg with naloxone 0.5 mg | Yes |
+| 2574012 | Buprenorphine Naloxone BNM | Buprenorphine with naloxone | Tab sublingual 8 mg with naloxone 2 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

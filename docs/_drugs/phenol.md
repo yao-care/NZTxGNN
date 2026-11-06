@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "phenol"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,10 +78,12 @@ For reference, the one relevant publication found for a lower-ranked prediction 
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 201863 | Egopsoryl TA | Soln 5% with sulphur 0.5%, menthol 0.75%, phenol 0.5% and allantoin crm 2.5% | Not specified |
-| 201855 | Egopsoryl TA | Soln 5% with sulphur 0.5%, menthol 0.75%, phenol 0.5% and allantoin crm 2.5% | Not specified |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 201855 | Egopsoryl TA | Coal tar with allantoin, menthol, phenol and sulphur | Soln 5% with sulphur 0.5%, menthol 0.75%, phenol… | No |
+| 201863 | Egopsoryl TA | Coal tar with allantoin, menthol, phenol and sulphur | Soln 5% with sulphur 0.5%, menthol 0.75%, phenol… | No |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

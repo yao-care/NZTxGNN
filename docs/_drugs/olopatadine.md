@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,11 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2588048 | Olopatadine Teva (valid) | Eye drops 0.1% | Not stated in the licence record |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2588048 | Olopatadine Teva | Olopatadine | Eye drops 0.1% | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 The only dosage form on record is an ophthalmic one (eye drops 0.1%), which fits an ocular indication.
 
@@ -89,7 +91,7 @@ Please refer to the package insert for warnings and further safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score but no supporting clinical trials or publications (Evidence Level L5). Ocular rosacea is driven mainly by non-allergic mechanisms, and the only New Zealand authorization has been cancelled.
+The prediction has a high model score but no supporting clinical trials or publications (Evidence Level L5). Ocular rosacea is driven mainly by non-allergic mechanisms.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which are currently missing and block safety screening

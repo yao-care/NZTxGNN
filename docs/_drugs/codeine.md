@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **nasal cavity disease**, but the
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,11 +83,14 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2643200 | Noumed | Tab 15 mg |
-| 2643219 | Noumed | Tab 30 mg |
-| 2643227 | Noumed | Tab 60 mg |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2643200 | Noumed | Codeine phosphate | Tab 15 mg | Yes |
+| 2643219 | Noumed | Codeine phosphate | Tab 30 mg | Yes |
+| 2643227 | Noumed | Codeine phosphate | Tab 60 mg | Yes |
+| 2461234 | Paracetamol + Codeine (Relieve) | Paracetamol with codeine | Tab paracetamol 500 mg with codeine phosphate 8 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

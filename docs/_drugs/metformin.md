@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,12 +83,20 @@ All four of the following predictions also have no trials or literature (Evidenc
 
 ## New Zealand Market Information
 
-Both authorisations are cancelled. No approved indication text is recorded for either.
+No approved indication text is recorded for either.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2628031 | Metformin Viatris | Tablet, immediate-release 500 mg | Valid |
-| 2628058 | Metformin Viatris | Tablet, immediate-release 850 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2628031 | Metformin Viatris | Metformin hydrochloride | Tab immediate-release 500 mg | Yes |
+| 2628058 | Metformin Viatris | Metformin hydrochloride | Tab immediate-release 850 mg | Yes |
+| 2599740 | Jardiamet | Empagliflozin with metformin hydrochloride | Tab 12.5 mg with 1,000 mg metformin hydrochloride | Yes |
+| 2599732 | Jardiamet | Empagliflozin with metformin hydrochloride | Tab 12.5 mg with 500 mg metformin hydrochloride | Yes |
+| 2599724 | Jardiamet | Empagliflozin with metformin hydrochloride | Tab 5 mg with 1,000 mg metformin hydrochloride | Yes |
+| 2599716 | Jardiamet | Empagliflozin with metformin hydrochloride | Tab 5 mg with 500 mg metformin hydrochloride | Yes |
+| 2554828 | Galvumet | Vildagliptin with metformin hydrochloride | Tab 50 mg with 1,000 mg metformin hydrochloride | Yes |
+| 2554801 | Galvumet | Vildagliptin with metformin hydrochloride | Tab 50 mg with 850 mg metformin hydrochloride | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 279
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are **0 registered clinical trials** and only **2 publications** (one 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,12 +74,15 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2466856 | Losartan Actavis | Tab 12.5 mg | Not recorded (valid) |
-| 2466864 | Losartan Actavis | Tab 25 mg | Not recorded (valid) |
-| 2466872 | Losartan Actavis | Tab 50 mg | Not recorded (valid) |
-| 2466880 | Losartan Actavis | Tab 100 mg | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2466880 | Losartan Actavis | Losartan potassium | Tab 100 mg | Yes |
+| 2466856 | Losartan Actavis | Losartan potassium | Tab 12.5 mg | Yes |
+| 2466864 | Losartan Actavis | Losartan potassium | Tab 25 mg | Yes |
+| 2466872 | Losartan Actavis | Losartan potassium | Tab 50 mg | Yes |
+| 2716828 | Losartan & Hydrochlorothiazide (Ipca) | Losartan potassium with hydrochlorothiazide | Tab 50 mg with hydrochlorothiazide 12.5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (14 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 14 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,17 +74,26 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All seven licences are valid. Approved indication text is not available for any of them.
+Approved indication text is not available for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2581922 | Clexane Forte | Inj 150 mg in 1 ml syringe | Valid |
-| 2581892 | Clexane | Inj 80 mg in 0.8 ml syringe | Valid |
-| 2581906 | Clexane | Inj 100 mg in 1 ml syringe | Valid |
-| 2581876 | Clexane | Inj 40 mg in 0.4 ml syringe | Valid |
-| 2581884 | Clexane | Inj 60 mg in 0.6 ml syringe | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2581906 | Clexane | Enoxaparin sodium | Inj 100 mg in 1 ml syringe | Yes |
+| 2733005 | Clexane | Enoxaparin sodium | Inj 100 mg in 1 ml syringe | Yes |
+| 2581914 | Clexane Forte | Enoxaparin sodium | Inj 120 mg in 0.8 ml syringe | Yes |
+| 2733013 | Clexane Forte | Enoxaparin sodium | Inj 120 mg in 0.8 ml syringe | Yes |
+| 2581922 | Clexane Forte | Enoxaparin sodium | Inj 150 mg in 1 ml syringe | Yes |
+| 2733021 | Clexane Forte | Enoxaparin sodium | Inj 150 mg in 1 ml syringe | Yes |
+| 2581868 | Clexane | Enoxaparin sodium | Inj 20 mg in 0.2 ml syringe | Yes |
+| 2732955 | Clexane | Enoxaparin sodium | Inj 20 mg in 0.2 ml syringe | Yes |
+| 2581876 | Clexane | Enoxaparin sodium | Inj 40 mg in 0.4 ml syringe | Yes |
+| 2732963 | Clexane | Enoxaparin sodium | Inj 40 mg in 0.4 ml syringe | Yes |
+| 2581884 | Clexane | Enoxaparin sodium | Inj 60 mg in 0.6 ml syringe | Yes |
+| 2732971 | Clexane | Enoxaparin sodium | Inj 60 mg in 0.6 ml syringe | Yes |
+| 2581892 | Clexane | Enoxaparin sodium | Inj 80 mg in 0.8 ml syringe | Yes |
+| 2732998 | Clexane | Enoxaparin sodium | Inj 80 mg in 0.8 ml syringe | Yes |
 
-Two further cancelled licences (Clexane 20 mg in 0.2 ml, 2581868; Clexane Forte 120 mg in 0.8 ml, 2581914) are not listed above.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -103,7 +112,7 @@ Please refer to the package insert for authoritative warnings and contraindicati
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (0.9958) and the mechanism is plausible, but there are no clinical trials or literature for this indication (Evidence Level L5). Standard care is protein C replacement, and enoxaparin is marketed in New Zealand with 7 valid licences of 7.
+The prediction score is high (0.9958) and the mechanism is plausible, but there are no clinical trials or literature for this indication (Evidence Level L5). Standard care is protein C replacement.
 
 **To proceed, the following is needed:**
 - Literature and trial searches specific to enoxaparin in congenital protein C deficiency (case series, registries, guidelines)

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 134
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dapsone: predicted new indication Pneumocystosis (evidence level L1). Approved use: Dermatitis herpetiformis, acne, leprosy"
 monitor_inn: "DAPSONE"
 predicted_indications: ["pneumocystosis"]
@@ -50,8 +50,8 @@ with **10 clinical trials** and **20 publications** currently supporting this di
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -94,12 +94,15 @@ Several trials directly compare dapsone with other PCP regimens. The data compil
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2212226 | Dapsone | Tab 25 mg | Not recorded (licence valid) |
-| 712914 | Dapsone | Tab 100 mg | Not recorded (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2736276 | Dapsomed | Dapsone | Tab 100 mg | Yes |
+| 712914 | Dapsone | Dapsone | Tab 100 mg | Yes |
+| 2212226 | Dapsone | Dapsone | Tab 25 mg | Yes |
+| 2736284 | Dapsone (Rising) | Dapsone | Tab 25 mg | Yes |
+| 2734621 | Dapsomed | Dapsone | Tab 50 mg | Yes |
 
-Both authorizations are cancelled, so product availability in New Zealand should be verified.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -114,7 +117,7 @@ Please also refer to the package insert for label warnings and contraindications
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Four completed Phase 3 trials (700, 400, 290 and 600 participants) evaluate dapsone-containing regimens for PCP prophylaxis or treatment, and network meta-analyses include dapsone-based regimens. This supports Evidence Level L1. TMP-SMX remains the first-line agent, so dapsone is best viewed as an alternative for patients who cannot tolerate it. Both New Zealand licences are cancelled, and the haematological risks are significant.
+Four completed Phase 3 trials (700, 400, 290 and 600 participants) evaluate dapsone-containing regimens for PCP prophylaxis or treatment, and network meta-analyses include dapsone-based regimens. This supports Evidence Level L1. TMP-SMX remains the first-line agent, so dapsone is best viewed as an alternative for patients who cannot tolerate it. The haematological risks are significant.
 
 **To proceed, the following is needed:**
 - Confirm product availability in New Zealand, since both licences are cancelled

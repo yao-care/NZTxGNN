@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 412
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **no registered clinical trials** but **8 publications** currently supporti
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,12 +81,14 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2310880 | Ropin | Tab 5 mg | Not recorded (valid) |
-| 2310872 | Ropin | Tab 2 mg | Not recorded (valid) |
-| 2310864 | Ropin | Tab 1 mg | Not recorded (valid) |
-| 2310856 | Ropin | Tab 0.25 mg | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2310856 | Ropin | Ropinirole hydrochloride | Tab 0.25 mg | Yes |
+| 2310864 | Ropin | Ropinirole hydrochloride | Tab 1 mg | Yes |
+| 2310872 | Ropin | Ropinirole hydrochloride | Tab 2 mg | Yes |
+| 2310880 | Ropin | Ropinirole hydrochloride | Tab 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

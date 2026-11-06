@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis, staphylococcal infections…"
 monitor_inn: "VANCOMYCIN"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
@@ -49,8 +49,8 @@ The TxGNN model (deep learning) predicts it may be effective for **diffuse scler
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,9 +73,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2696282 | Vancomycin Viatris (valid) | Inj 500 mg vial | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2696282 | Vancomycin Viatris | Vancomycin | Inj 500 mg vial | Yes |
+| 2706113 | Vancomycin Viatris | Vancomycin | Inj 500 mg vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -91,7 +94,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction for diffuse scleroderma rests on a model score alone. There are no clinical trials, the single paper is an unrelated case report, and there is no plausible mechanism. The only authorization in New Zealand has been cancelled.
+The prediction for diffuse scleroderma rests on a model score alone. There are no clinical trials, the single paper is an unrelated case report, and there is no plausible mechanism.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible rationale linking vancomycin to fibrotic or autoimmune pathways (none is currently apparent)

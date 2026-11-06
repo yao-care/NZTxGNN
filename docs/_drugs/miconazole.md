@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 299
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "MICONAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **acne**, but there are currently 
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,13 +91,16 @@ Currently no related clinical trials registered.
 
 Indication text is not available for these authorizations. All products listed are single-ingredient miconazole.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 253294 | Daktarin | Tincture 2% | Valid |
-| 253278 | Daktarin | Lotion 2% | Valid |
-| 697648 | Micreme | Vaginal cream 2% with applicator | Valid |
-| 2405008 | Decozol | Oral gel 20 mg per g | Valid |
-| 2184354 | Multichem | Cream 2% | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2405008 | Decozol | Miconazole | Oral gel 20 mg per g | Yes |
+| 2184354 | Multichem | Miconazole nitrate | Crm 2% | Yes |
+| 253278 | Daktarin | Miconazole nitrate | Lotn 2% | No |
+| 253294 | Daktarin | Miconazole nitrate | Tinct 2% | No |
+| 697648 | Micreme | Miconazole nitrate | Vaginal crm 2% with applicator | Yes |
+| 704733 | Micreme H | Hydrocortisone with miconazole | Crm 1% with miconazole nitrate 2% | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

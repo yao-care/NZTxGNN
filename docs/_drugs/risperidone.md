@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Risperidone is an atypical antipsychotic that blocks dopamine and serotonin rece
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 of 11 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 11 (valid: 11) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (15 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 15 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,15 +68,25 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2347652 | Risperdal Consta | Inj 25 mg vial | Not stated (valid) |
-| 2347660 | Risperdal Consta | Inj 50 mg vial | Not stated (valid) |
-| 245402 | Risperdal | Tab 4 mg | Not stated (valid) |
-| 2466910 | Risperidone (Teva) | Tab 2 mg | Not stated (valid) |
-| 2662396 | Risperon | Oral liq 1 mg per ml | Not stated (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2347652 | Risperdal Consta | Risperidone | Inj 25 mg vial | Yes |
+| 2347644 | Risperdal Consta | Risperidone | Inj 37.5 mg vial | Yes |
+| 2347660 | Risperdal Consta | Risperidone | Inj 50 mg vial | Yes |
+| 2325640 | Risperon | Risperidone | Oral liq 1 mg per ml | Yes |
+| 2662396 | Risperon | Risperidone | Oral liq 1 mg per ml | Yes |
+| 2466899 | Risperidone (Teva) | Risperidone | Tab 0.5 mg | Yes |
+| 2693143 | Risperidone Sandoz | Risperidone | Tab 0.5 mg | Yes |
+| 2466902 | Risperidone (Teva) | Risperidone | Tab 1 mg | Yes |
+| 2693151 | Risperidone Sandoz | Risperidone | Tab 1 mg | Yes |
+| 2466910 | Risperidone (Teva) | Risperidone | Tab 2 mg | Yes |
+| 2693178 | Risperidone Sandoz | Risperidone | Tab 2 mg | Yes |
+| 2466929 | Risperidone (Teva) | Risperidone | Tab 3 mg | Yes |
+| 2737868 | Relonchem | Risperidone | Tab 3 mg | Yes |
+| 245402 | Risperdal | Risperidone | Tab 4 mg | Yes |
+| 2466937 | Risperidone (Teva) | Risperidone | Tab 4 mg | Yes |
 
-All 11 licences recorded are valid; the table shows the first five.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

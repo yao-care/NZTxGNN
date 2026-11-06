@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -90,14 +90,18 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-All four licences are valid, and no approved indication text is available.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 474320 | 3TC | Lamivudine | Oral liq 10 mg per ml | Yes |
+| 307696 | Zeffix | Lamivudine | Oral liq 5 mg per ml | Yes |
+| 2399369 | Zetlam | Lamivudine | Tab 100 mg | Yes |
+| 2638045 | Lamivudine Viatris | Lamivudine | Tab 150 mg | Yes |
+| 2632365 | Abacavir/Lamivudine Viatris | Abacavir sulphate with lamivudine | Tab 600 mg with lamivudine 300 mg | Yes |
+| 2674335 | Dovato | Dolutegravir with lamivudine | Tab 50 mg with lamivudine 300 mg | Yes |
+| 2645300 | Lamivudine/Zidovudine Viatris | Zidovudine with lamivudine | Tab 300 mg with lamivudine 150 mg | Yes |
+| 2724952 | Lamivudine/Zidovudine Viatris | Zidovudine with lamivudine | Tab 300 mg with lamivudine 150 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 307696 | Zeffix | Oral liquid 5 mg/ml | Not available (valid) |
-| 2638045 | Lamivudine Viatris | Tablet 150 mg | Not available (valid) |
-| 474320 | 3TC | Oral liquid 10 mg/ml | Not available (valid) |
-| 2399369 | Zetlam | Tablet 100 mg | Not available (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -115,7 +119,7 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is supported only by small veterinary cohort studies and in vitro work, with no registered clinical trials. It does not represent a new human indication. In New Zealand, all four lamivudine licences are valid, and the safety review is blocked because package insert data are missing.
+The top prediction is supported only by small veterinary cohort studies and in vitro work, with no registered clinical trials. It does not represent a new human indication. In New Zealand, the safety review is blocked because package insert data are missing.
 
 **To proceed, the following is needed:**
 - Download and parse the Medsafe package insert for warnings and contraindications (a blocking gap)

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Bicalutamide: predicted new indication Hypertrichosis (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Bicalutamide is a non-steroidal androgen receptor antagonist. The TxGNN model pr
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,9 +70,11 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2523655 | Binarex | Tab 50 mg | Not recorded in the local data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2523655 | Binarex | Bicalutamide | Tab 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

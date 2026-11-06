@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 376
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but the data compiled for this report contain **1 clinical trial** (which tests 
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,10 +87,12 @@ Other predictions in the data are weaker. HIV infection (0.9974) reflects manage
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2665212 | Clinect | Tab 40 mg | Not available (valid) |
-| 2665204 | Clinect | Tab 20 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2665204 | Clinect | Pravastatin | Tab 20 mg | Yes |
+| 2665212 | Clinect | Pravastatin | Tab 40 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

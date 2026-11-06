@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Desogestrel: predicted new indication Amenorrhea (evidence level L3). Approved use: Not stated in the available authorization data (desogestrel is known…"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Desogestrel is a progestin, a hormone used in oral contraceptives, and its only New Zealand authorization (Cerazette 75 mcg tablets) is now cancelled.
+Desogestrel is a progestin, a hormone used in oral contraceptives.
 The TxGNN model predicts it may be useful for **amenorrhea**, with **1 clinical trial** (only indirectly relevant) and **11 publications** (mostly reviews and pharmacology or comparative studies) currently associated with this direction.
 The evidence is weak and mostly indirect, so this is a research question rather than a ready-to-use new indication.
 
@@ -52,8 +52,8 @@ The evidence is weak and mostly indirect, so this is a research question rather 
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -97,9 +97,12 @@ No randomized controlled trial directly testing desogestrel in amenorrhea was id
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2261286 | Cerazette | Tab 75 mcg | Not available (authorization valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2261286 | Cerazette | Desogestrel | Tab 75 mcg | Yes |
+| 682055 | Mercilon 28 | Ethinyloestradiol with desogestrel | Tab 20 mcg with desogestrel 150 mcg and 7 inert t… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -117,7 +120,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The only related trial is indirect, and the literature consists mostly of older reviews and combined-pill studies rather than desogestrel-specific data for amenorrhea. The mechanism is plausible as symptomatic hormonal management. The sole New Zealand authorization is cancelled, and safety label data is missing.
+The only related trial is indirect, and the literature consists mostly of older reviews and combined-pill studies rather than desogestrel-specific data for amenorrhea. The mechanism is plausible as symptomatic hormonal management. Safety label data is missing.
 
 **To proceed, the following is needed:**
 - Obtain the Medsafe package insert to complete warnings and contraindications review

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 262
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Ledipasvir: predicted new indication Hepatitis B virus infection (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **5 clinical trials** and **20 publications** matched to this prediction. O
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -99,9 +99,11 @@ The other predicted indications scored similarly (HEV, HAV, HIV, Omsk haemorrhag
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2504111 | Harvoni | Tab 90 mg with sofosbuvir 400 mg | Not recorded (status: valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2504111 | Harvoni | Ledipasvir with sofosbuvir | Tab 90 mg with sofosbuvir 400 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

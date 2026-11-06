@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 5
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Deferasirox is an oral iron chelator. The TxGNN model predicts it may be relevan
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,13 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2234769 | Exjade | Tab 125 mg dispersible | Not recorded in the local data |
-| 2234777 | Exjade | Tab 250 mg dispersible | Not recorded in the local data |
-| 2234750 | Exjade | Tab 500 mg dispersible | Not recorded in the local data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2234769 | Exjade | Deferasirox | Tab 125 mg dispersible | Yes |
+| 2234777 | Exjade | Deferasirox | Tab 250 mg dispersible | Yes |
+| 2234750 | Exjade | Deferasirox | Tab 500 mg dispersible | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

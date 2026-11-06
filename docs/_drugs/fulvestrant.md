@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 216
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The original indication is not recorded in the New Zealand licence data compiled
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 (preclinical/mechanistic only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,10 +77,11 @@ Currently no related clinical trials registered for HIV infectious disease.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2586371 | Faslodex | Inj 50 mg per ml, 5 ml prefilled syringe | Not recorded (valid) |
-| 2663139 | Fulvestrant EVER Pharma | Inj 50 mg per ml, 5 ml prefilled syringe | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2663139 | Fulvestrant EVER Pharma | Fulvestrant | Inj 50 mg per ml, 5 ml prefilled syringe | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

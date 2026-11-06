@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cycloserine: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "CYCLOSERINE"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **irritable bowel syndrome**, b
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,11 @@ Currently no related literature available for irritable bowel syndrome.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2566508 | Cyclorin | Cap 250 mg | Not stated (authorization valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2566508 | Cyclorin | Cycloserine | Cap 250 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -100,7 +102,7 @@ The prediction for irritable bowel syndrome has a high model score but no clinic
 - Mechanism of action data (for example from DrugBank) and a plausible mechanistic rationale for irritable bowel syndrome
 - Package insert warnings and contraindications from Medsafe for safety screening
 - Preclinical or early clinical evidence of benefit in irritable bowel syndrome
-- A review of whether any route and formulation could be made available in New Zealand, given the cancelled authorization
+- A review of whether any route and formulation could be made available in New Zealand
 - A risk assessment of neuropsychiatric adverse effects and of the interactions listed above
 ## Disclaimer
 

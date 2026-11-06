@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ARSENIC TRIOXIDE"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Arsenic Trioxide: predicted new indication unclassified myelodysplastic syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ However, **no clinical trials or publications** are currently linked to this spe
 | Predicted New Indication | unclassified myelodysplastic syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,10 +72,12 @@ Currently no related literature is available for unclassified myelodysplastic sy
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2568675 | Baxter | Inj 10 mg for ECP | Not recorded |
-| 2560518 | Phenasen | Inj 1 mg per ml, 10 ml vial | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2560518 | Phenasen | Arsenic trioxide | Inj 1 mg per ml, 10 ml vial | Yes |
+| 2568675 | Baxter | Arsenic trioxide | Inj 10 mg for ECP | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

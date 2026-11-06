@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
 description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Among the other top-10 predictions, **open-angle glaucoma** has the most plausib
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,12 +93,14 @@ No literature was retrieved for cauda equina syndrome. The table below covers th
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2377241 | Ora-Sweet | Suspension | Not recorded (valid) |
-| 2377268 | Ora-Sweet SF | Suspension | Not recorded (valid) |
-| 2377217 | Ora-Blend | Suspension | Not recorded (valid) |
-| 2377225 | Ora-Blend SF | Suspension | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2377268 | Ora-Sweet SF | Glycerin with sodium saccharin | Suspension | Yes |
+| 2377241 | Ora-Sweet | Glycerin with sucrose | Suspension | Yes |
+| 2377225 | Ora-Blend SF | Methylcellulose with glycerin and sodium saccharin | Suspension | Yes |
+| 2377217 | Ora-Blend | Methylcellulose with glycerin and sucrose | Suspension | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -116,7 +118,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-All 10 predictions are at evidence level L4 or L5, with no registered clinical trials and no direct clinical literature. The top-ranked prediction, cauda equina syndrome, has no identifiable mechanism. All four New Zealand authorizations are valid, and the drug is marketed.
+All 10 predictions are at evidence level L4 or L5, with no registered clinical trials and no direct clinical literature. The top-ranked prediction, cauda equina syndrome, has no identifiable mechanism.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications, which are currently missing and block safety screening

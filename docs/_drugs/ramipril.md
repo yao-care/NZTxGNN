@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **pulmonary hypertension owing to 
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 (preclinical evidence only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,14 +79,18 @@ Only the publications that bear on this indication are listed. The rest of the r
 
 ## New Zealand Market Information
 
-All four licences are valid, and the records contain no approved indication text.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2635747 | Tryzan | Ramipril | Cap 1.25 mg | Yes |
+| 2635771 | Tryzan | Ramipril | Cap 10 mg | Yes |
+| 2635755 | Tryzan | Ramipril | Cap 2.5 mg | Yes |
+| 2635763 | Tryzan | Ramipril | Cap 5 mg | Yes |
+| 2728192 | Ramipril Viatris | Ramipril | Tab 1.25 mg | Yes |
+| 2727862 | Ramipril Mylan Generics | Ramipril | Tab 10 mg | Yes |
+| 2728184 | Ramipril Viatris | Ramipril | Tab 2.5 mg | Yes |
+| 2727854 | Ramipril Mylan Generics | Ramipril | Tab 5 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2635747 | Tryzan | Capsule 1.25 mg | Not recorded (valid) |
-| 2635755 | Tryzan | Capsule 2.5 mg | Not recorded (valid) |
-| 2635763 | Tryzan | Capsule 5 mg | Not recorded (valid) |
-| 2635771 | Tryzan | Capsule 10 mg | Not recorded (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -103,7 +107,7 @@ The package insert warnings and contraindications could not be retrieved, so the
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (0.9993), but the support is limited to a single animal study from 1996, with no clinical trials and no human data. ACE inhibitors are not an established therapy for pulmonary hypertension. In addition, ramipril is marketed in New Zealand, with 4 valid licences out of 4.
+The prediction score is very high (0.9993), but the support is limited to a single animal study from 1996, with no clinical trials and no human data. ACE inhibitors are not an established therapy for pulmonary hypertension.
 
 Other predictions in the list were also reviewed. None has trial support:
 - Intracerebral haemorrhage (L4) has only indirect animal data.

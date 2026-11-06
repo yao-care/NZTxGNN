@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "SULFASALAZINE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine: predicted new indication Top-ranked: brachydactyly-syndactyly syndrome . Best-supported: osteoarthritis (brachydactyly-syndactyly syndrome) (evidence level L5). Approved use: Not recor…"
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **brachydactyly-syndactyly syndrome**
 | Predicted New Indication | Top-ranked: brachydactyly-syndactyly syndrome (no evidence). Best-supported: osteoarthritis (brachydactyly-syndactyly syndrome) |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 for the top-ranked prediction; L4 for osteoarthritis |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold (top-ranked prediction); osteoarthritis is a research question |
 
 ## Why is This Prediction Reasonable?
@@ -91,12 +91,12 @@ Several other retrieved papers cover general rheumatology topics (telemedicine, 
 
 ## New Zealand Market Information
 
-Both New Zealand licences are cancelled, and no approved indication text is recorded for either.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 251615 | Salazopyrin | Sulfasalazine | Tab 500 mg | Yes |
+| 251585 | Salazopyrin EN | Sulfasalazine | Tab EC 500 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 251615 | Salazopyrin | Tab 500 mg | Not recorded (valid) |
-| 251585 | Salazopyrin EN | Tab EC 500 mg | Not recorded (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -115,7 +115,7 @@ The package insert warnings and contraindications could not be retrieved, so ple
 **Rationale:**
 - The highest-scoring predictions are rare developmental disorders with no mechanistic, trial or literature support.
 - Osteoarthritis has a plausible anti-inflammatory and cartilage-protective rationale, but the evidence is entirely in vitro or animal.
-- Both New Zealand licences are cancelled, and label safety data are missing.
+- Label safety data are missing.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (currently a blocking gap).

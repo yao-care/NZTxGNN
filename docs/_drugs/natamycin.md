@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "natamycin"
 predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
 description: "Natamycin: predicted new indication Vulvitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Natamycin is a topical polyene antifungal. The TxGNN model predicts it may be us
 | Predicted New Indication | Vulvitis |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 (no cited study directly addresses vulvitis) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,11 +93,11 @@ The remaining seven publications in the data (surveys, older clinical reports an
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 260282 | Pimafucort | Ointment, natamycin 1% with neomycin sulphate 0.5% | Not recorded; licence status valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 260282 | Pimafucort | Hydrocortisone with natamycin and neomycin | Oint 1% with natamycin 1% and neomycin sulphate 0… | Yes |
 
-The only licence is valid. It covers a natamycin–neomycin combination ointment, so it does not describe the approval of single-ingredient natamycin.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

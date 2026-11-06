@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 ## One-Sentence Summary
 
 Insulin degludec (supplied in New Zealand as the degludec/insulin aspart 70/30 co-formulation, Ryzodeg) is an ultra-long-acting insulin analogue originally used for diabetes mellitus and diabetic ketoacidosis.
-This is essentially an established, on-label use of the drug rather than true repurposing, and the only New Zealand authorization on record is cancelled.
+This is essentially an established, on-label use of the drug rather than true repurposing.
 
 ---
 
@@ -51,8 +51,8 @@ This is essentially an established, on-label use of the drug rather than true re
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -107,9 +107,11 @@ Several additional Phase 1 pharmacodynamic studies and real-world surveillance s
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2704471 | Ryzodeg 70/30 Penfill | Injection: degludec 70 U with insulin aspart 30 U, 100 U per ml, 3 ml | Not recorded (status: valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2704471 | Ryzodeg 70/30 Penfill | Insulin degludec with insulin aspart | Inj degludec 70 u with insulin aspart 30 u, 100 u… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -133,7 +135,7 @@ Please refer to the package insert for warnings and contraindications. Package i
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 randomised trials and several systematic reviews support insulin degludec in type 1 diabetes, so the evidence level is L1. However, this is an established use rather than new repurposing, and the only New Zealand authorization for the Ryzodeg product is cancelled. Safety label information and mechanism of action data are also missing.
+Multiple completed Phase 3 randomised trials and several systematic reviews support insulin degludec in type 1 diabetes, so the evidence level is L1. However, this is an established use rather than new repurposing. Safety label information and mechanism of action data are also missing.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

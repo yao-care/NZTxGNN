@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 249
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "IVERMECTIN"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "congenital candidiasis", "neonatal candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
 description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Vulvovaginal candidiasis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,10 +77,12 @@ No literature directly supports the top predicted indication. The only publicati
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2087057 | Stromectol (valid) | Tab 3 mg | Not available |
-| 2726424 | Stromectol (valid) | Tab 3 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2087057 | Stromectol | Ivermectin | Tab 3 mg | Yes |
+| 2726424 | Stromectol | Ivermectin | Tab 3 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -114,7 +116,6 @@ The prediction is supported only by the TxGNN score. The few linked papers are f
 - Package insert warnings and contraindications from Medsafe, which are required for safety screening
 - Preclinical or clinical studies in the proposed indication
 - Assessment of route of administration and formulation suitability, since route compatibility has not been evaluated
-- A review of the licensing situation, since both New Zealand authorizations are cancelled
 - A comparison with existing effective antifungal therapies
 ## Disclaimer
 

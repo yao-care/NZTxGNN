@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CYPROTERONE ACETATE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cyproterone Acetate: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ This is a model-based prediction with very limited supporting evidence.
 | Predicted New Indication | migraine disorder |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -88,10 +88,13 @@ None of these studies directly examines cyproterone acetate as a treatment for m
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2220482 | Siterone | Tab 50 mg | Not recorded |
-| 2235862 | Siterone | Tab 100 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2235862 | Siterone | Cyproterone acetate | Tab 100 mg | Yes |
+| 2220482 | Siterone | Cyproterone acetate | Tab 50 mg | Yes |
+| 2455455 | Ginet | Cyproterone acetate with ethinyloestradiol | Tab 2 mg with ethinyloestradiol 35 mcg and 7 iner… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 310
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The data compiled for this report include **17 clinical trials** and **20 public
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -94,13 +94,15 @@ Bronchitis is a broad term, and the evidence differs by subtype. The data for in
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2643618 | Montelukast Viatris | Tab 4 mg | Not recorded (valid) |
-| 2643626 | Montelukast Viatris | Tab 5 mg | Not recorded (valid) |
-| 2643634 | Montelukast Viatris | Tab 10 mg | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2643634 | Montelukast Viatris | Montelukast | Tab 10 mg | Yes |
+| 2643618 | Montelukast Viatris | Montelukast | Tab 4 mg | Yes |
+| 2735954 | Montelukast (Sandoz) | Montelukast | Tab 4 mg | Yes |
+| 2643626 | Montelukast Viatris | Montelukast | Tab 5 mg | Yes |
+| 2728079 | Montelukast Paediatric (Relonchem) | Montelukast | Tab 5 mg | Yes |
 
-All three single-ingredient licences are currently valid.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

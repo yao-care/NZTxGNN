@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 description: "Teriparatide: predicted new indication Duodenal ulcer (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ It is a model-only signal with no plausible mechanistic link, so we recommend **
 | Predicted New Indication | Duodenal ulcer (disease) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,10 +80,13 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Status | Approved Indication |
-|---------|------|------|------|-----------|
-| 2724324 | Forteo | Injection 250 mcg per ml, 2.4 ml | Valid | Not stated in the data compiled |
-| 2670399 | Teriparatide - Teva | Injection 250 mcg per ml, 2.4 ml | Valid | Not stated in the data compiled |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2670399 | Teriparatide - Teva | Teriparatide | Inj 250 mcg per ml, 2.4 ml | Yes |
+| 2724324 | Forteo | Teriparatide | Inj 250 mcg per ml, 2.4 ml | Yes |
+| 2735768 | Teriparatide Teva | Teriparatide | Inj 250 mcg per ml, 2.4 ml | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 Both licences are for single-ingredient injectable products, and neither is currently valid. Any future use would therefore depend on obtaining a product through other channels.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclizine"
 predicted_indications: ["allergic urticaria", "nasal cavity disease", "cold urticaria", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cyclizine: predicted new indication allergic urticaria (過敏性蕁麻疹) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Cyclizine is a first-generation H1 antihistamine with antiemetic use. The TxGNN 
 | Predicted New Indication | allergic urticaria (過敏性蕁麻疹) |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,10 +68,13 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2231220 | Nausicalm | Tab 50 mg | Not recorded in the local data |
-| 2595877 | Hameln | Inj 50 mg per ml, 1 ml ampoule | Not recorded in the local data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2231220 | Nausicalm | Cyclizine hydrochloride | Tab 50 mg | Yes |
+| 2595877 | Hameln | Cyclizine lactate | Inj 50 mg per ml, 1 ml ampoule | Yes |
+| 2696290 | Cyclizine lactate Medsurge | Cyclizine lactate | Inj 50 mg per ml, 1 ml ampoule | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "ISOSORBIDE MONONITRATE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "alopecia", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pulmonary arterial hypertension"]
 description: "Isosorbide Mononitrate: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **hypertrichosis (disease)**, but the
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,11 +86,13 @@ No literature is available for the top-ranked prediction (hypertrichosis). The o
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2447355 | Ismo 40 Retard | Tab long-acting 40 mg | Not available (valid) |
-| 2202964 | Duride | Tab long-acting 60 mg | Not available (valid) |
-| 214833 | Ismo 20 | Tab 20 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 214833 | Ismo 20 | Isosorbide mononitrate | Tab 20 mg | Yes |
+| 2447355 | Ismo 40 Retard | Isosorbide mononitrate | Tab long-acting 40 mg | Yes |
+| 2202964 | Duride | Isosorbide mononitrate | Tab long-acting 60 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

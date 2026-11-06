@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 2
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Doxazosin: predicted new indication migraine disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Doxazosin is an alpha-1 adrenergic blocker. The TxGNN model predicts it may be u
 | Predicted New Indication | migraine disorder |
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,10 +72,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2608774 | Doxazosin Clinect | Tab 4 mg | Not recorded |
-| 2608766 | Doxazosin Clinect | Tab 2 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2608766 | Doxazosin Clinect | Doxazosin | Tab 2 mg | Yes |
+| 2608774 | Doxazosin Clinect | Doxazosin | Tab 4 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

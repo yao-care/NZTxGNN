@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,7 +76,6 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-
 For the rank 4 indication (pulmonary hypertension owing to lung disease and/or hypoxia), the following preclinical publications were found:
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -86,12 +85,13 @@ For the rank 4 indication (pulmonary hypertension owing to lung disease and/or h
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2427885 | Arrow-Quinapril 10 | Quinapril | Tab 10 mg | Yes |
+| 2427893 | Arrow-Quinapril 20 | Quinapril | Tab 20 mg | Yes |
+| 2427877 | Arrow-Quinapril 5 | Quinapril | Tab 5 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2427877 | Arrow-Quinapril 5 | Tab 5 mg | Not recorded (valid) |
-| 2427893 | Arrow-Quinapril 20 | Tab 20 mg | Not recorded (valid) |
-| 2427885 | Arrow-Quinapril 10 | Tab 10 mg | Not recorded (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

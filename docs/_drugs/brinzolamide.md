@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 71
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Brinzolamide: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All of the TxGNN model's candidates for Brinzolamide (score ≥ 0.99) that can b
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,11 @@ All of the TxGNN model's candidates for Brinzolamide (score ≥ 0.99) that can b
 
 ## New Zealand Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 2117061 | Brinzolamide | Eye drops 1% | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2117061 | Azopt | Brinzolamide | Eye drops 1% | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

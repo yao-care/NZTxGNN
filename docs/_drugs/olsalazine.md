@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "OLSALAZINE"
 predicted_indications: ["myelodysplastic syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "partial deletion of the long arm of chromosome 5", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Olsalazine: predicted new indication Myelodysplastic syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **myelodysplastic syndrome**, b
 | Predicted New Indication | Myelodysplastic syndrome |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,13 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 426342 | Dipentum (valid) | Tab 500 mg | Not recorded |
-| 588679 | Dipentum (valid) | Cap 250 mg | Not recorded |
-| 2641704 | Atnahs Olsalazine (valid) | Tab 500 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 588679 | Dipentum | Olsalazine | Cap 250 mg | Yes |
+| 2641704 | Atnahs Olsalazine | Olsalazine | Tab 500 mg | Yes |
+| 426342 | Dipentum | Olsalazine | Tab 500 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -97,7 +99,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a TxGNN model (deep learning) score, with no clinical trials, no literature and no mechanistic data. Olsalazine has minimal systemic absorption, and it is marketed in New Zealand, with 3 valid licences out of 3.
+The prediction is supported only by a TxGNN model (deep learning) score, with no clinical trials, no literature and no mechanistic data.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank)

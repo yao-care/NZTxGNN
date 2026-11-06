@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and **0 publications** supporting this predi
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,13 +72,17 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2654458 | Noflam 250 | Tab 250 mg | Valid; indication text not available |
-| 2654466 | Noflam 500 | Tab 500 mg | Valid; indication text not available |
-| 2518619 | Naprosyn SR 1000 | Tab long-acting 1 g | Valid; indication text not available |
-| 2725495 | Noflam 250 | Tab 250 mg | Valid; indication text not available |
-| 2518627 | Naprosyn SR 750 | Tab long-acting 750 mg | Valid; indication text not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2654458 | Noflam 250 | Naproxen | Tab 250 mg | Yes |
+| 2725495 | Noflam 250 | Naproxen | Tab 250 mg | Yes |
+| 2727927 | Inza | Naproxen | Tab 250 mg | Yes |
+| 2654466 | Noflam 500 | Naproxen | Tab 500 mg | Yes |
+| 2727919 | Inza | Naproxen | Tab 500 mg | Yes |
+| 2518619 | Naprosyn SR 1000 | Naproxen | Tab long-acting 1 g | Yes |
+| 2518627 | Naprosyn SR 750 | Naproxen | Tab long-acting 750 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -101,13 +105,12 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is based only on a TxGNN model (deep learning) score, with no clinical trials, no literature and no plausible mechanistic link. The target condition is a congenital structural disorder that COX inhibition would not be expected to change. The drug is marketed in New Zealand, with 5 of 5 licences valid, and naproxen carries a notable cardiovascular, renal and gastrointestinal risk profile.
+The prediction is based only on a TxGNN model (deep learning) score, with no clinical trials, no literature and no plausible mechanistic link. The target condition is a congenital structural disorder that COX inhibition would not be expected to change. The drug is marketed in New Zealand and naproxen carries a notable cardiovascular, renal and gastrointestinal risk profile.
 
 **To proceed, the following is needed:**
 - Mechanism of action data confirmed from DrugBank
 - Package insert warnings and contraindications from Medsafe, which are needed for safety screening
 - Any preclinical or clinical evidence linking naproxen to this condition
-- Confirmation of the current New Zealand regulatory and supply status, given that the drug is marketed with 5 of 5 licences valid
 - A pregnancy and paediatric safety assessment, given the congenital nature of the target disease
 ## Disclaimer
 

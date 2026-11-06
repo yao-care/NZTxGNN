@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 104
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection, bacterial pneumonia…"
 monitor_inn: "clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **Ureaplasma urethritis**, but this h
 | Predicted New Indication | Ureaplasma urethritis (rank 1); gonococcal urethritis is the best-supported prediction (rank 2) |
 | TxGNN Prediction Score | 0.9993 (Ureaplasma urethritis); 0.9993 (gonococcal urethritis) |
 | Evidence Level | L5 (Ureaplasma urethritis); L3 (gonococcal urethritis) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -108,13 +108,13 @@ Evidence for the other predictions is minimal. Uterine inflammatory disease has 
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2602121 | Curam Duo 500/125 | Tablet 500 mg (amoxicillin) with clavulanic acid 125 mg | Not available (valid) |
-| 2684748 | Amoxiclav Devatis Forte | Granules for oral liquid, amoxicillin 50 mg with clavulanic acid 12.5 mg per ml | Not available (valid) |
-| 319473 | Augmentin | Granules for oral liquid, amoxicillin 25 mg with clavulanic acid 6.25 mg per ml | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 319473 | Augmentin | Amoxicillin with clavulanic acid | Grans for oral liq amoxicillin 25 mg with clavula… | Yes |
+| 2684748 | Amoxiclav Devatis Forte | Amoxicillin with clavulanic acid | Grans for oral liq amoxicillin 50 mg with clavula… | Yes |
+| 2602121 | Curam Duo 500/125 | Amoxicillin with clavulanic acid | Tab 500 mg with clavulanic acid 125 mg | Yes |
 
-The drug is marketed, and all 3 of 3 licences are valid.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -135,7 +135,7 @@ Package insert warnings and contraindications have not been retrieved. Please re
 
 **Rationale:**
 - The top-ranked prediction, Ureaplasma urethritis, has no trials and a mechanistic argument against it, because Ureaplasma lacks a cell wall.
-- Ureaplasma urethritis is the main prediction (score 0.9993). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The drug is marketed, with 3 valid licences of 3.
+- Ureaplasma urethritis is the main prediction (score 0.9993). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - The remaining predictions are supported only by computation or indirect evidence.
 
 **To proceed, the following is needed:**

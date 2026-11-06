@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
@@ -50,8 +50,8 @@ It is a computational prediction only and is not backed by any real-world eviden
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,11 @@ Currently no related literature available for visceral calciphylaxis.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2550091 (cancelled) | Travatan | Eye drops 0.004% | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2550091 | Travatan | Travoprost | Eye drops 0.004% | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -91,7 +93,7 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (evidence level L5). There are no trials or publications for visceral calciphylaxis, and no plausible mechanism links a topical ocular prostaglandin analogue to this systemic condition. The only New Zealand authorization has been cancelled.
+The prediction rests on model output alone (evidence level L5). There are no trials or publications for visceral calciphylaxis, and no plausible mechanism links a topical ocular prostaglandin analogue to this systemic condition.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to test whether any link to calcification or vascular pathology exists

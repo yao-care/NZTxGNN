@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 3
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clonazepam: predicted new indication restless legs syndrome (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ Most of the publications are reviews, guidelines or small and older studies, so 
 | Predicted New Indication | restless legs syndrome |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -93,11 +93,13 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 204498 | Rivotril | Oral drops 2.5 mg per ml | Not recorded |
-| 2095491 | Paxam | Tab 2 mg | Not recorded |
-| 2095483 | Paxam | Tab 500 mcg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 204498 | Rivotril | Clonazepam | Oral drops 2.5 mg per ml | Yes |
+| 2095491 | Paxam | Clonazepam | Tab 2 mg | Yes |
+| 2095483 | Paxam | Clonazepam | Tab 500 mcg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

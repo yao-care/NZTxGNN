@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Clomipramine is a tricyclic antidepressant with strong serotonin reuptake inhibi
 | Predicted New Indication | Anxiety disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -90,9 +90,11 @@ One caveat applies. Most of the listed registered trials are in obsessive-compul
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2565773 | APO Clomipramine | Tab 25 mg |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2565773 | APO Clomipramine | Clomipramine hydrochloride | Tab 25 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

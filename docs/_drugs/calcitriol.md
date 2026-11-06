@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ However, there are **0 clinical trials** and **0 publications** for this specifi
 | Predicted New Indication | obsolete vitamin D deficiency |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,12 +70,16 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2691663 | Calcitriol XL | Cap 0.5 mcg |
-| 2091011 | Calcitriol-AFT | Cap 0.5 mcg |
-| 2091038 | Calcitriol-AFT | Cap 0.25 mcg |
-| 2695154 | Calcitriol XL | Cap 0.25 mcg |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2091038 | Calcitriol-AFT | Calcitriol | Cap 0.25 mcg | Yes |
+| 2695154 | Calcitriol XL | Calcitriol | Cap 0.25 mcg | Yes |
+| 2730537 | Calcitriol Devatis | Calcitriol | Cap 0.25 mcg | Yes |
+| 2091011 | Calcitriol-AFT | Calcitriol | Cap 0.5 mcg | Yes |
+| 2691663 | Calcitriol XL | Calcitriol | Cap 0.5 mcg | Yes |
+| 2730545 | Calcitriol Devatis | Calcitriol | Cap 0.5 mcg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

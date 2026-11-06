@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 251
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acne**, but the supporting ev
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,15 +92,15 @@ Several other retrieved publications (for example on polycystic ovary syndrome, 
 
 ## New Zealand Market Information
 
-All five licences are valid, and no approved indication text is recorded for them.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 461504 | Sebizole | Ketoconazole | Shampoo 2% | Yes |
+| 2168626 | Teva-Ketoconazole | Ketoconazole | Tab 200 mg | Yes |
+| 2592010 | Strides Shasun | Ketoconazole | Tab 200 mg | Yes |
+| 2650924 | Taro | Ketoconazole | Tab 200 mg | Yes |
+| 2652242 | Burel | Ketoconazole | Tab 200 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2168626 | Teva-Ketoconazole | Tab 200 mg | Valid |
-| 2592010 | Strides Shasun | Tab 200 mg | Valid |
-| 2652242 | Burel | Tab 200 mg | Valid |
-| 2650924 | Taro | Tab 200 mg | Valid |
-| 461504 | Sebizole | Shampoo 2% | Valid |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

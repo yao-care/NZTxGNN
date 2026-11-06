@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 327
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "NORETHISTERONE"
 description: "Norethisterone: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
@@ -41,18 +41,26 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 9 |
 
 ---
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 398322 | Noriday 28 (valid) | Tab 350 mcg | Not available |
-| 2695618 | Noriday (valid) | Tab 350 mcg | Not available |
-| 2607441 | Primolut N (valid) | Tab 5 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2695618 | Noriday | Norethisterone | Tab 350 mcg | Yes |
+| 398322 | Noriday 28 | Norethisterone | Tab 350 mcg | Yes |
+| 2607441 | Primolut N | Norethisterone | Tab 5 mg | Yes |
+| 303542 | Brevinor 1/28 | Ethinyloestradiol with norethisterone | Tab 35 mcg with norethisterone 1 mg and 7 inert t… | Yes |
+| 2636077 | Norimin | Ethinyloestradiol with norethisterone | Tab 35 mcg with norethisterone 500 mcg and 7 iner… | Yes |
+| 410691 | Norimin | Ethinyloestradiol with norethisterone | Tab 35 mcg with norethisterone 500 mcg and 7 iner… | Yes |
+| 259772 | Kliovance | Oestradiol with norethisterone | Tab 1 mg with 0.5 mg norethisterone acetate | No |
+| 780227 | Kliogest | Oestradiol with norethisterone | Tab 2 mg with 1 mg norethisterone acetate | No |
+| 767700 | Trisequens | Oestradiol with norethisterone | Tab 2 mg with 1 mg norethisterone acetate (10), a… | No |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 description: "Pembrolizumab: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The result is a computational signal only, and it should not be treated as evide
 | Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,12 +80,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Both New Zealand licences for pembrolizumab are cancelled. Neither record contains approved indication text.
+Neither record contains approved indication text.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2547996 | Keytruda | Inj 25 mg per ml, 4 ml vial | Valid |
-| 2508427 | Baxter | Inj 1 mg for ECP | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2508427 | Baxter | Pembrolizumab | Inj 1 mg for ECP | Yes |
+| 2547996 | Keytruda | Pembrolizumab | Inj 25 mg per ml, 4 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

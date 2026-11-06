@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The best-supported alternative among the predictions is **migraine disorder** (2
 | Predicted New Indication | Tendinitis |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (for tendinitis; mechanistic rationale only, no direct studies) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 8 (valid: 8) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -101,17 +101,20 @@ For migraine disorder (selected):
 
 ## New Zealand Market Information
 
-All 8 licences are valid, so this drug is currently marketed in this country. Approved indication text is not available for these licences.
+Approved indication text is not available for these licences.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2534096 | Pregabalin Pfizer | Cap 150 mg | Valid |
-| 2534118 | Pregabalin Pfizer | Cap 300 mg | Valid |
-| 2704536 | Lyrica | Cap 300 mg | Valid |
-| 2704501 | Lyrica | Cap 75 mg | Valid |
-| 2534088 | Pregabalin Pfizer | Cap 75 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2534096 | Pregabalin Pfizer | Pregabalin | Cap 150 mg | Yes |
+| 2704528 | Lyrica | Pregabalin | Cap 150 mg | Yes |
+| 2534053 | Pregabalin Pfizer | Pregabalin | Cap 25 mg | Yes |
+| 2704498 | Lyrica | Pregabalin | Cap 25 mg | Yes |
+| 2534118 | Pregabalin Pfizer | Pregabalin | Cap 300 mg | Yes |
+| 2704536 | Lyrica | Pregabalin | Cap 300 mg | Yes |
+| 2534088 | Pregabalin Pfizer | Pregabalin | Cap 75 mg | Yes |
+| 2704501 | Lyrica | Pregabalin | Cap 75 mg | Yes |
 
-Three further cancelled licences (Lyrica 150 mg and 25 mg, Pregabalin Pfizer 25 mg) are not listed here.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

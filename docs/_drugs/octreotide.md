@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "OCTREOTIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **vulvar inverted follicular ke
 | Predicted New Indication | Vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 of 11 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 11 (valid: 11) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 11 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,15 +71,23 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All 11 licences are valid, and no approved indication text is recorded. The table lists 5 of them.
+The table lists 5 of them.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2595885 | Octreotide GH | Inj 100 mcg per ml, 1 ml ampoule | Not recorded (valid) |
-| 2595893 | Octreotide GH | Inj 500 mcg per ml, 1 ml ampoule | Not recorded (valid) |
-| 2595907 | Octreotide GH | Inj 50 mcg per ml, 1 ml ampoule | Not recorded (valid) |
-| 2629534 | Max Health | Inj 50 mcg per ml, 1 ml ampoule | Not recorded (valid) |
-| 2669390 | Sun Pharma | Inj 500 mcg per ml, 1 ml ampoule | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2595885 | Octreotide GH | Octreotide | Inj 100 mcg per ml, 1 ml ampoule | Yes |
+| 2629518 | Max Health | Octreotide | Inj 100 mcg per ml, 1 ml ampoule | Yes |
+| 2669382 | Sun Pharma | Octreotide | Inj 100 mcg per ml, 1 ml ampoule | Yes |
+| 2687275 | Omega | Octreotide | Inj 100 mcg per ml, 1 ml vial | Yes |
+| 2595907 | Octreotide GH | Octreotide | Inj 50 mcg per ml, 1 ml ampoule | Yes |
+| 2629534 | Max Health | Octreotide | Inj 50 mcg per ml, 1 ml ampoule | Yes |
+| 2695375 | Omega | Octreotide | Inj 50 mcg per ml, 1 ml vial | Yes |
+| 2595893 | Octreotide GH | Octreotide | Inj 500 mcg per ml, 1 ml ampoule | Yes |
+| 2629526 | Max Health | Octreotide | Inj 500 mcg per ml, 1 ml ampoule | Yes |
+| 2669390 | Sun Pharma | Octreotide | Inj 500 mcg per ml, 1 ml ampoule | Yes |
+| 2694433 | Omega | Octreotide | Inj 500 mcg per ml, 1 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -105,13 +113,13 @@ Please refer to the package insert for warnings and formal contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The only support for either predicted indication is the model score. There are no clinical trials or publications, the mechanism of action is not available, and both indications are benign conditions with low-risk standard care. Octreotide is marketed in New Zealand, with 11 of 11 licences valid.
+The only support for either predicted indication is the model score. There are no clinical trials or publications, the mechanism of action is not available, and both indications are benign conditions with low-risk standard care.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) and an assessment of somatostatin receptor expression in vulvar or follicular epithelium
 - Package insert warnings and contraindications from Medsafe, which are required before safety screening
 - Preclinical or case-level evidence of benefit in inverted follicular keratosis or seborrheic keratosis
-- Confirmation of current New Zealand supply (11 of 11 licences are valid)
+- Confirmation of current New Zealand supply
 - Route and formulation compatibility assessment (for example, whether a topical approach is plausible instead of an injection)
 ## Disclaimer
 

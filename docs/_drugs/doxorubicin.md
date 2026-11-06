@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 167
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
@@ -50,8 +50,8 @@ with **29 clinical trials** and **20 publications** currently supporting this di
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -98,15 +98,19 @@ Several of these are regimen-level trials, so they show doxorubicin as part of a
 
 ## New Zealand Market Information
 
-All 7 New Zealand licences for single-agent doxorubicin have been cancelled, so there is currently no marketed doxorubicin product. No approved indication text is available for these licences.
+No approved indication text is available for these licences.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2224097 | Doxorubicin Ebewe | Inj 2 mg per ml, 50 ml vial | Not available (valid) |
-| 2224070 | Doxorubicin Ebewe | Inj 2 mg per ml, 5 ml vial | Not available (valid) |
-| 2224089 | Doxorubicin Ebewe | Inj 2 mg per ml, 25 ml vial | Not available (valid) |
-| 2427214 | Arrow-Doxorubicin | Inj 2 mg per ml, 100 ml vial | Not available (valid) |
-| 2204185 | Baxter | Inj 1 mg for ECP | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2204185 | Baxter | Doxorubicin hydrochloride | Inj 1 mg for ECP | Yes |
+| 2224100 | Doxorubicin Ebewe | Doxorubicin hydrochloride | Inj 2 mg per ml, 100 ml vial | Yes |
+| 2427214 | Arrow-Doxorubicin | Doxorubicin hydrochloride | Inj 2 mg per ml, 100 ml vial | Yes |
+| 2730138 | Adriamycin | Doxorubicin hydrochloride | Inj 2 mg per ml, 100 ml vial | Yes |
+| 2224089 | Doxorubicin Ebewe | Doxorubicin hydrochloride | Inj 2 mg per ml, 25 ml vial | Yes |
+| 2427222 | Arrow-Doxorubicin | Doxorubicin hydrochloride | Inj 2 mg per ml, 25 ml vial | Yes |
+| 2224070 | Doxorubicin Ebewe | Doxorubicin hydrochloride | Inj 2 mg per ml, 5 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -132,7 +136,7 @@ For label-based warnings and contraindications, please refer to the package inse
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 randomised trials and several RCT publications place doxorubicin within standard multi-agent therapy for Ewing sarcoma (evidence level L1). However, the evidence supports the combination regimen rather than doxorubicin alone, and no doxorubicin product is currently licensed in New Zealand.
+Multiple completed Phase 3 randomised trials and several RCT publications place doxorubicin within standard multi-agent therapy for Ewing sarcoma (evidence level L1). However, the evidence supports the combination regimen rather than doxorubicin alone.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking data gap for safety screening)

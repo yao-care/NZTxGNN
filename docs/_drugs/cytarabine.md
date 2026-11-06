@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ Evidence is thin: **0 registered clinical trials** and **1 small clinical study*
 | Predicted New Indication | Small cell lung carcinoma |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -90,15 +90,18 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-Cytarabine is marketed in New Zealand. All 6 licences are valid. No approved indication text is recorded in the local data.
+Cytarabine is marketed in New Zealand. No approved indication text is recorded in the local data.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 786365 | Pfizer | Inj 20 mg per ml, 5 ml vial | Not recorded |
-| 2359537 | Pfizer | Inj 100 mg per ml, 20 ml vial | Not recorded |
-| 2695758 | Pfizer | Inj 20 mg per ml, 5 ml vial | Not recorded |
-| 2204231 | Baxter | Inj 100 mg intrathecal syringe for ECP | Not recorded |
-| 341711 | Cytarabine DBL | Inj 100 mg per ml, 20 ml vial | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2359413 | Baxter | Cytarabine | Inj 1 mg for ECP | Yes |
+| 2204231 | Baxter | Cytarabine | Inj 100 mg intrathecal syringe for ECP | Yes |
+| 2359537 | Pfizer | Cytarabine | Inj 100 mg per ml, 20 ml vial | Yes |
+| 341711 | Cytarabine DBL | Cytarabine | Inj 100 mg per ml, 20 ml vial | Yes |
+| 2695758 | Pfizer | Cytarabine | Inj 20 mg per ml, 5 ml vial | Yes |
+| 786365 | Pfizer | Cytarabine | Inj 20 mg per ml, 5 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

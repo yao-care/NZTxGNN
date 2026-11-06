@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 433
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sumatriptan: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced candidates for Sumatriptan with a score of 0.99 or high
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 
 ## Known uses among the model's candidates
 
@@ -72,11 +72,15 @@ The TxGNN model produced candidates for Sumatriptan with a score of 0.99 or high
 
 ## New Zealand Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 2605856 | Sumatriptan | Tab 100 mg | Valid |
-| 2647958 | Sumatriptan | Inj 12 mg per ml, 0.5 ml prefilled pen | Valid |
-| 2605848 | Sumatriptan | Tab 50 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2647958 | Clustran | Sumatriptan | Inj 12 mg per ml, 0.5 ml prefilled pen | Yes |
+| 2605856 | Sumagran | Sumatriptan | Tab 100 mg | Yes |
+| 2733870 | Sumatriptan Viatris | Sumatriptan | Tab 100 mg | Yes |
+| 2605848 | Sumagran | Sumatriptan | Tab 50 mg | Yes |
+| 2733862 | Sumatriptan Viatris | Sumatriptan | Tab 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

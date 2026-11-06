@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Trial results were not available in the data compiled for this report, so effica
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (based on trial design and phase; results not verified) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -85,15 +85,18 @@ The manic bipolar affective disorder prediction also has a plausible link (share
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2378426 | Vimpat | Tab 150 mg | Not recorded (valid) |
-| 2378418 | Vimpat | Tab 150 mg | Not recorded (valid) |
-| 2378353 | Vimpat | Tab 50 mg | Not recorded (valid) |
-| 2378396 | Vimpat | Tab 100 mg | Not recorded (valid) |
-| 2378442 | Vimpat | Tab 200 mg | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2378388 | Vimpat | Lacosamide | Tab 100 mg | Yes |
+| 2378396 | Vimpat | Lacosamide | Tab 100 mg | Yes |
+| 2378418 | Vimpat | Lacosamide | Tab 150 mg | Yes |
+| 2378426 | Vimpat | Lacosamide | Tab 150 mg | Yes |
+| 2378442 | Vimpat | Lacosamide | Tab 200 mg | Yes |
+| 2378353 | Vimpat | Lacosamide | Tab 50 mg | Yes |
 
-A sixth licence (2378388, Vimpat Tab 100 mg) is also valid. All 6 licences are currently valid.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+A sixth licence (2378388, Vimpat Tab 100 mg) is also valid.
 
 ## Safety Considerations
 

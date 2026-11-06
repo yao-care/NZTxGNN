@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, stroke, cerebrovascular disorder…"
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
@@ -52,8 +52,8 @@ The better-supported predictions are **familial hypercholesterolaemia** (13 tria
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency (top-ranked prediction) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (top prediction); L1 for familial hypercholesterolaemia and hyperlipidaemia |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 8 (valid: 8) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (12 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 12 |
 | Recommended Decision | Hold (top prediction); Proceed with Guardrails for familial hypercholesterolaemia and hyperlipidaemia |
 
 ---
@@ -113,17 +113,24 @@ For **hyperlipidaemia (rank 10)**, key sources include the STELLAR trial ([12860
 
 ## New Zealand Market Information
 
-All eight authorisations are valid. No approved-indication text is recorded for any of them.
+No approved-indication text is recorded for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2716712 | Rosuvastatin - Sandoz | Tab 5 mg | Not recorded |
-| 2716720 | Rosuvastatin - Sandoz | Tab 10 mg | Not recorded |
-| 2716739 | Rosuvastatin - Sandoz | Tab 20 mg | Not recorded |
-| 2716747 | Rosuvastatin - Sandoz | Tab 40 mg | Not recorded |
-| 2651130 | Rosuvastatin Viatris | Tab 5 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2651149 | Rosuvastatin Viatris | Rosuvastatin | Tab 10 mg | Yes |
+| 2716720 | Rosuvastatin - Sandoz | Rosuvastatin | Tab 10 mg | Yes |
+| 2727889 | Rosuvastatin Mylan | Rosuvastatin | Tab 10 mg | Yes |
+| 2651157 | Rosuvastatin Viatris | Rosuvastatin | Tab 20 mg | Yes |
+| 2716739 | Rosuvastatin - Sandoz | Rosuvastatin | Tab 20 mg | Yes |
+| 2727897 | Rosuvastatin Mylan | Rosuvastatin | Tab 20 mg | Yes |
+| 2651165 | Rosuvastatin Viatris | Rosuvastatin | Tab 40 mg | Yes |
+| 2716747 | Rosuvastatin - Sandoz | Rosuvastatin | Tab 40 mg | Yes |
+| 2727900 | Rosuvastatin Mylan | Rosuvastatin | Tab 40 mg | Yes |
+| 2651130 | Rosuvastatin Viatris | Rosuvastatin | Tab 5 mg | Yes |
+| 2716712 | Rosuvastatin - Sandoz | Rosuvastatin | Tab 5 mg | Yes |
+| 2727870 | Rosuvastatin Mylan | Rosuvastatin | Tab 5 mg | Yes |
 
-The remaining three authorisations (Rosuvastatin Viatris 10 mg, 20 mg and 40 mg tablets) are also cancelled.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -152,7 +159,6 @@ Package insert warnings and contraindications were not available for this report
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking data gap for safety screening).
 - Mechanism-of-action data from DrugBank.
-- Verification of product availability in New Zealand (8 of 8 licences valid).
 - Safety guardrails: myopathy and CK monitoring, renal and hepatic function checks, paediatric dosing and growth monitoring, consideration of Asian-ancestry dosing, and a review of drug interactions.
 - Before any evaluation of CETP deficiency, a clinical rationale showing that treatment is needed and a mechanistic assessment.
 ## Disclaimer

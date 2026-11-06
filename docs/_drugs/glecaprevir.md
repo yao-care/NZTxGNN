@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Glecaprevir: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Glecaprevir is a viral protease inhibitor marketed in New Zealand as a fixed-dos
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -86,11 +86,13 @@ None of these publications reports anti-HIV efficacy.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2552019 | Maviret | Tab 100 mg with pibrentasvir 40 mg | Not recorded (licence status: valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2552019 | Maviret | Glecaprevir with pibrentasvir | Tab 100 mg with pibrentasvir 40 mg | Yes |
 
-This is a fixed-dose combination with pibrentasvir. The licence is currently valid.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+This is a fixed-dose combination with pibrentasvir.
 
 ## Safety Considerations
 

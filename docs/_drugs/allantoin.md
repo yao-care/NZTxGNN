@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "allantoin"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial", "exanthem (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Allantoin: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ No clinical trials or publications were found for this disease, so the predictio
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,10 +70,12 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 201863 | Egopsoryl TA | Solution 5% with sulphur 0.5%, menthol 0.75%, phenol 0.5% and allantoin cream 2.5% | Not recorded |
-| 201855 | Egopsoryl TA | Solution 5% with sulphur 0.5%, menthol 0.75%, phenol 0.5% and allantoin cream 2.5% | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 201855 | Egopsoryl TA | Coal tar with allantoin, menthol, phenol and sulphur | Soln 5% with sulphur 0.5%, menthol 0.75%, phenol… | No |
+| 201863 | Egopsoryl TA | Coal tar with allantoin, menthol, phenol and sulphur | Soln 5% with sulphur 0.5%, menthol 0.75%, phenol… | No |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cetirizine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Cetirizine is an H1 antihistamine that blocks histamine receptors. The TxGNN mod
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,10 +76,13 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2500728 | Zista | Tab 10 mg | Not recorded |
-| 2461625 | Histaclear | Oral liq 1 mg per ml | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2461625 | Histaclear | Cetirizine hydrochloride | Oral liq 1 mg per ml | Yes |
+| 2739933 | NoumedCetirizine Hayfever&Allergy Relief | Cetirizine hydrochloride | Oral liq 1 mg per ml | Yes |
+| 2500728 | Zista | Cetirizine hydrochloride | Tab 10 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

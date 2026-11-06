@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 description: "Insulin Aspart: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ with **31 clinical trials** and **20 publications** currently supporting this di
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -95,12 +95,15 @@ The compiled data lists 31 trials. The most relevant (graded A or B for relevanc
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2105101 | NovoRapid | Insulin aspart | Inj 100 u per ml, 10 ml | Yes |
+| 2105098 | NovoRapid Penfill | Insulin aspart | Inj 100 u per ml, 3 ml | Yes |
+| 2469952 | NovoRapid FlexPen | Insulin aspart | Inj 100 u per ml, 3 ml syringe | Yes |
+| 2404303 | NovoMix 30 FlexPen | Insulin aspart with insulin aspart protamine | Inj 100 iu per ml, 3 ml prefilled pen | Yes |
+| 2704471 | Ryzodeg 70/30 Penfill | Insulin degludec with insulin aspart | Inj degludec 70 u with insulin aspart 30 u, 100 u… | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2469952 | NovoRapid FlexPen | Inj 100 u per ml, 3 ml syringe | Not available (valid) |
-| 2105098 | NovoRapid Penfill | Inj 100 u per ml, 3 ml | Not available (valid) |
-| 2105101 | NovoRapid | Inj 100 u per ml, 10 ml | Not available (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ It is a computational prediction only, and the evidence base is very weak.
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,11 @@ Currently no related literature available for bronchitis.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2467062 | Tysabri | Inj 20 mg per ml, 15 ml vial | Not recorded (authorization valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2467062 | Tysabri | Natalizumab | Inj 20 mg per ml, 15 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -97,7 +99,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score (0.9946) for bronchitis is not backed by any clinical trial or publication. Natalizumab's infection and PML risks, together with the cancelled New Zealand authorization, argue against pursuing this indication now.
+The high TxGNN score (0.9946) for bronchitis is not backed by any clinical trial or publication. Natalizumab's infection and PML risks argue against pursuing this indication now.
 
 **To proceed, the following is needed:**
 - Preclinical or mechanistic evidence for alpha-4 integrin blockade in airway inflammation

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Tranexamic acid is an antifibrinolytic drug. The TxGNN model (deep learning) predicts amenorrhea, although the New Zealand licence records contain no approved indication text.
+Tranexamic acid is an antifibrinolytic drug. The TxGNN model (deep learning) predicts amenorrhea.
 The TxGNN model predicts it may be useful for **amenorrhea (disease)**, but there are currently **0 clinical trials** and **2 publications** (both reviews), so the evidence is **model prediction with indirect literature support only**.
 
 ---
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **amenorrhea (disease)**, but ther
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L5 (no trials; only indirect review literature and a mechanistic rationale) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,10 +86,12 @@ Both publications are reviews on bleeding management. Neither directly tests tra
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2574020 | Mercury Pharma | Tab 500 mg | Not recorded (status: valid) |
-| 2497174 | Tranexamic-AFT | Inj 100 mg per ml, 10 ml ampoule | Not recorded (status: valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2497174 | Tranexamic-AFT | Tranexamic acid | Inj 100 mg per ml, 10 ml ampoule | Yes |
+| 2574020 | Mercury Pharma | Tranexamic acid | Tab 500 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -118,7 +120,7 @@ Please refer to the package insert for warnings and official contraindications. 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and an indirect mechanistic argument. There are no registered trials, and the only literature is two general reviews on bleeding management. The drug is marketed in New Zealand, with 2 valid licences of 2, and the dominant concern is thrombotic risk, particularly with concurrent hormonal therapy.
+The prediction rests on a model score and an indirect mechanistic argument. There are no registered trials, and the only literature is two general reviews on bleeding management. The drug is marketed in New Zealand and the dominant concern is thrombotic risk, particularly with concurrent hormonal therapy.
 
 **To proceed, the following is needed:**
 - Clarify the target indication. Decide whether it is true amenorrhea or menses suppression/prophylaxis (for example in haematology patients), and define the outcome measure.

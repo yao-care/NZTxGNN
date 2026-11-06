@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,12 +84,20 @@ The table below lists the most relevant publications. The sole publication for t
 
 ## New Zealand Market Information
 
-Both licences are currently valid (2 valid licences of 2). The data compiled for this report contain no approved indication text for either product.
+The data compiled for this report contain no approved indication text for either product.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2703122 | Ricovir (valid) | Tab 245 mg (300 mg as a fumarate) | Not available |
-| 2638061 | Tenofovir Disoproxil Viatris (valid) | Tab 245 mg (300 mg as a maleate) | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2703122 | Ricovir | Tenofovir disoproxil | Tab 245 mg (300 mg as a fumarate) | Yes |
+| 2638061 | Tenofovir Disoproxil Viatris | Tenofovir disoproxil | Tab 245 mg (300 mg as a maleate) | Yes |
+| 2705508 | TEEVIR | Efavirenz with emtricitabine and tenofovir disoproxil | Tab 600 mg with emtricitabine 200 mg and tenofovi… | Yes |
+| 2727994 | TEEVIR (India) | Efavirenz with emtricitabine and tenofovir disoproxil | Tab 600 mg with emtricitabine 200 mg and tenofovi… | Yes |
+| 2732041 | Tenofovir Efavirenz Emtricitabine(Mylan) | Efavirenz with emtricitabine and tenofovir disoproxil | Tab 600 mg with emtricitabine 200 mg and tenofovi… | Yes |
+| 2644967 | Viatris | Efavirenz with emtricitabine and tenofovir disoproxil | Tab 600 mg with emtricitabine 200 mg and tenofovi… | Yes |
+| 2719495 | Tenofovir Disoproxil Emtricitabine Mylan | Emtricitabine with tenofovir disoproxil | Tab 200 mg with tenofovir disoproxil 245 mg (300… | Yes |
+| 2638088 | Tenofovir Disoproxil Emtricitabine Viatr | Emtricitabine with tenofovir disoproxil | Tab 200 mg with tenofovir disoproxil 245 mg (300… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

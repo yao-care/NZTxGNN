@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 484
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This is essentially an extension of warfarin's existing use in thrombosis, not a
 | Predicted New Indication | Heparin cofactor 2 deficiency |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -93,15 +93,16 @@ For the closest related prediction, thrombophilia, one trial exists:
 
 ## New Zealand Market Information
 
-The drug is marketed, with 6 valid licences out of 6, and no approved indication text is available.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 210587 | Marevan | Warfarin sodium | Tab 1 mg | Yes |
+| 2586967 | Coumadin | Warfarin sodium | Tab 1 mg | Yes |
+| 2586975 | Coumadin | Warfarin sodium | Tab 2 mg | Yes |
+| 210595 | Marevan | Warfarin sodium | Tab 3 mg | Yes |
+| 210609 | Marevan | Warfarin sodium | Tab 5 mg | Yes |
+| 2586983 | Coumadin | Warfarin sodium | Tab 5 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2586967 | Coumadin | Tab 1 mg | Not available (valid) |
-| 2586975 | Coumadin | Tab 2 mg | Not available (valid) |
-| 2586983 | Coumadin | Tab 5 mg | Not available (valid) |
-| 210587 | Marevan | Tab 1 mg | Not available (valid) |
-| 210595 | Marevan | Tab 3 mg | Not available (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 A sixth licence (210609, Marevan Tab 5 mg) is also cancelled.
 
@@ -129,7 +130,6 @@ Evidence for heparin cofactor 2 deficiency is limited to three old case reports,
 - Medsafe package insert warnings and contraindications
 - Mechanism of action data from DrugBank
 - Controlled or cohort data on warfarin in inherited thrombophilias such as heparin cofactor II deficiency
-- Confirmation of which warfarin products are currently supplied in New Zealand, where all 6 licences are valid
 - Consideration of newer anticoagulants (DOACs) as comparators, as discussed in the 2024 ISTH communication
 ## Disclaimer
 

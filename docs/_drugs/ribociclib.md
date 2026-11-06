@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 401
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ribociclib: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Not stated in the New Zealand license data compiled for this report (…"
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -48,8 +48,8 @@ Ribociclib is a CDK4/6 inhibitor, known for use in hormone receptor-positive, HE
 | Predicted New Indication | Myeloid leukemia |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L4 (preclinical/mechanistic evidence only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,16 @@ Only one publication relates directly to the predicted indication. The second pa
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2701367 | Kisqali | Tab 200 mg | Not available (valid) |
-| 2701359 | Kisqali | Tab 200 mg | Not available (valid) |
-| 2701340 | Kisqali | Tab 200 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2701340 | Kisqali | Ribociclib | Tab 200 mg | Yes |
+| 2701359 | Kisqali | Ribociclib | Tab 200 mg | Yes |
+| 2701367 | Kisqali | Ribociclib | Tab 200 mg | Yes |
+| 2728133 | Kisqali | Ribociclib | Tab 200 mg | Yes |
+| 2728141 | Kisqali | Ribociclib | Tab 200 mg | Yes |
+| 2728168 | Kisqali | Ribociclib | Tab 200 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -111,13 +116,12 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The only support for myeloid leukemia is one preclinical study and a plausible mechanism, with no registered clinical trials. In addition, ribociclib's marrow-suppressing profile is a concern in a haematological malignancy. The drug is marketed in New Zealand, with 3 of 3 licenses valid.
+The only support for myeloid leukemia is one preclinical study and a plausible mechanism, with no registered clinical trials. In addition, ribociclib's marrow-suppressing profile is a concern in a haematological malignancy.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data
 - Package insert warnings and contraindications (not yet retrieved)
 - Further preclinical work in myeloid leukemia models, including combination with standard AML therapy and assessment of marrow toxicity
-- Review of the New Zealand supply situation, given that the drug is marketed and all 3 of 3 licenses are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

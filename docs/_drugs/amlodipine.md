@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Amlodipine: predicted new indication brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Amlodipine is a calcium channel blocker that lowers blood pressure by relaxing b
 | Predicted New Indication | brain stem infarction |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,11 +68,13 @@ Currently no related literature available for this disease.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2592509 | Vasorex | Tab 2.5 mg | Not recorded |
-| 2592525 | Vasorex | Tab 10 mg | Not recorded |
-| 2592517 | Vasorex | Tab 5 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2592525 | Vasorex | Amlodipine | Tab 10 mg | Yes |
+| 2592509 | Vasorex | Amlodipine | Tab 2.5 mg | Yes |
+| 2592517 | Vasorex | Amlodipine | Tab 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

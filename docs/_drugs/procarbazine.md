@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 385
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Procarbazine"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 description: "Procarbazine: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **follicular lymphoma**, but th
 | Predicted New Indication | Follicular lymphoma |
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,11 @@ However, the evidence is largely retrospective or at the regimen level, so the s
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 336548 | Natulan | Cap 50 mg | Not recorded (authorization valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 336548 | Natulan | Procarbazine hydrochloride | Cap 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -115,7 +117,6 @@ Biological plausibility is reasonable, and there are case-level reports of respo
 - Package insert warnings and contraindications (Medsafe)
 - Mechanism of action data (DrugBank)
 - Prospective data on procarbazine-containing regimens in follicular lymphoma, compared with current standard therapy
-- A regulatory pathway, since the only New Zealand authorization has been cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Among the model's top 10 predictions, the best-supported indication is **mammary
 | Predicted New Indication | Mammary Paget disease |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,10 +93,12 @@ Mammary Paget disease is frequently associated with underlying ductal carcinoma 
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2556952 | Tamoxifen Sandoz | Tab 20 mg | Not available (licence valid) |
-| 2556944 | Tamoxifen Sandoz | Tab 10 mg | Not available (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2556944 | Tamoxifen Sandoz | Tamoxifen citrate | Tab 10 mg | Yes |
+| 2556952 | Tamoxifen Sandoz | Tamoxifen citrate | Tab 20 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

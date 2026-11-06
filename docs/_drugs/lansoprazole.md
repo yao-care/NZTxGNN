@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Lansoprazole is a proton pump inhibitor originally used to treat gastric and duo
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,14 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2482541 | Lanzol Relief | Capsule 30 mg | Not available (valid) |
-| 2726017 | Lanzol Relief | Capsule 15 mg | Not available (valid) |
-| 2482533 | Lanzol Relief | Capsule 15 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2482533 | Lanzol Relief | Lansoprazole | Cap 15 mg | Yes |
+| 2726017 | Lanzol Relief | Lansoprazole | Cap 15 mg | Yes |
+| 2482541 | Lanzol Relief | Lansoprazole | Cap 30 mg | Yes |
+| 2730200 | Lansoprazole (Viatris) | Lansoprazole | Tab orodispersible 30 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

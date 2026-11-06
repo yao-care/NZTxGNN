@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Benralizumab: predicted new indication thrombocytopenia due to immune destruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ However, **no clinical trials and no publications** currently support this speci
 | Predicted New Indication | thrombocytopenia due to immune destruction |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,12 @@ Currently no related literature available for thrombocytopenia due to immune des
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2638746 | Fasenra | Inj 30 mg per ml, 1 ml prefilled pen | Not recorded in the local data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2638746 | Fasenra | Benralizumab | Inj 30 mg per ml, 1 ml prefilled pen | Yes |
+| 2731843 | Fasenra | Benralizumab | Inj 30 mg per ml, 1 ml prefilled pen | Yes |
 
-The local data record market status as marketed and show this single authorization (single-ingredient product).
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

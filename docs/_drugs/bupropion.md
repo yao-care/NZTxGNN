@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 | Predicted New Indication | attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -99,9 +99,11 @@ Direct clinical studies exist: a completed Phase 3 placebo-controlled trial in a
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2439743 | Zyban | Tab modified-release 150 mg | Not recorded in the local data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2439743 | Zyban | Bupropion hydrochloride | Tab modified-release 150 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

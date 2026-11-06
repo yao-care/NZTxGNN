@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
 description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,15 +74,15 @@ Currently no related literature available for the leading predicted indication.
 
 ## New Zealand Market Information
 
-All 6 licences are valid, and no approved indication text is recorded.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2339897 | Pfizer | Heparin sodium | Inj 1,000 iu per ml, 5 ml ampoule | Yes |
+| 2717840 | Wockhardt | Heparin sodium | Inj 10 iu per ml, 5 ml ampoule (flushing solution) | Yes |
+| 333085 | Hospira | Heparin sodium | Inj 25,000 iu per ml, 0.2 ml | Yes |
+| 2034255 | Hospira | Heparin sodium | Inj 5,000 iu per ml, 1 ml | Yes |
+| 2339889 | Pfizer | Heparin sodium | Inj 5,000 iu per ml, 5 ml ampoule | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2339897 | Pfizer | Inj 1,000 iu per ml, 5 ml ampoule | Valid |
-| 333085 | Hospira | Inj 25,000 iu per ml, 0.2 ml | Valid |
-| 2034255 | Hospira | Inj 5,000 iu per ml, 1 ml | Valid |
-| 2717840 | Wockhardt | Inj 10 iu per ml, 5 ml ampoule (flushing solution) | Valid |
-| 2651815 | Heparin Sodium Panpharma | Inj 5,000 iu per ml, 5 ml vial | Valid |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

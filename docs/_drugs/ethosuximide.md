@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "ETHOSUXIMIDE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Ethosuximide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,10 +64,12 @@ A possible effect of calcium-channel or downstream signalling changes on water h
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2106019 (cancelled) | Zarontin | Oral liquid 250 mg per 5 ml | Not recorded |
-| 2705117 (cancelled) | Zarontin | Capsule 250 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2705117 | Zarontin | Ethosuximide | Cap 250 mg | Yes |
+| 2106019 | Zarontin | Ethosuximide | Oral liq 250 mg per 5 ml | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -98,7 +100,7 @@ The prediction is supported only by the TxGNN model score. The safety data also 
 - Mechanism of action data (MOA) and a plausible biological link between T-type calcium channel blockade and *AVPR2*/*GNAS*-driven water retention
 - A systematic literature search, and preclinical studies (for example cell or animal models of constitutive V2 receptor signalling)
 - Medsafe package insert warnings and contraindications, which are currently missing and block safety screening
-- A review of the regulatory pathway, since both New Zealand licences are cancelled and the route compatibility for the new indication has not been assessed
+- A review of the regulatory pathway
 - An assessment of the renal and haematological safety signals in the NSIAD patient population
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis (also vasomotor rhinitis, atopic…"
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this direction,
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 *Note: The approved indication text was not available in the licence records. The original indications above come from the TxGNN model (deep learning).*
@@ -74,13 +74,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2701405 | Telfast | Tab 60 mg | Not stated in the available records (valid) |
-| 2697092 | Fexaclear | Tab 180 mg | Not stated in the available records (valid) |
-| 2711222 | Fexaclear | Tab 120 mg | Not stated in the available records (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2711222 | Fexaclear | Fexofenadine hydrochloride | Tab 120 mg | Yes |
+| 2697092 | Fexaclear | Fexofenadine hydrochloride | Tab 180 mg | Yes |
+| 2701405 | Telfast | Fexofenadine hydrochloride | Tab 60 mg | No |
 
-Only the Telfast 60 mg licence is currently valid. All three products are oral tablets, and no topical or ophthalmic formulation is listed.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+All three products are oral tablets, and no topical or ophthalmic formulation is listed.
 
 ## Safety Considerations
 

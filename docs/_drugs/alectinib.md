@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 25
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Alectinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer / lung cancer"
 monitor_inn: "ALECTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
@@ -50,8 +50,8 @@ The strong evidence in the compiled data (phase 3 RCTs such as ALEX, J-ALEX and 
 | Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -97,9 +97,11 @@ The literature below relates to other predictions and mainly supports the origin
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2574152 | Alecensa (valid) | Cap 150 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2574152 | Alecensa | Alectinib | Cap 150 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -123,7 +125,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication, gingival fibromatosis, has no trials, no literature and no known mechanistic link to ALK inhibition, so the high TxGNN score alone is not sufficient. In addition, the only New Zealand licence for alectinib is cancelled, which limits near-term local access.
+The predicted indication, gingival fibromatosis, has no trials, no literature and no known mechanistic link to ALK inhibition, so the high TxGNN score alone is not sufficient.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data and a biological rationale linking ALK (or related kinase) signalling to gingival fibromatosis

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "METHENAMINE"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
 description: "Methenamine: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials and no supporting publications** were found, so this is
 | Predicted New Indication | Ureaplasma urethritis |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,10 +90,12 @@ Two articles were retrieved for lower-ranked predictions. Neither provides evide
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 209538 | Hiprex | Tab 1 g | Not recorded (valid) |
-| 2671077 | Hiprex | Tab 1 g | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 209538 | Hiprex | Methenamine (hexamine) hippurate | Tab 1 g | Yes |
+| 2671077 | Hiprex | Methenamine (hexamine) hippurate | Tab 1 g | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

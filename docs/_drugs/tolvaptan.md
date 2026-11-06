@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ There are **no registered clinical trials** for this specific disease, but **20 
 | Predicted New Indication | Renal-hepatic-pancreatic dysplasia |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (as assigned in the compiled data; derived from ADPKD-class RCTs, not PKD3-specific trials) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -82,13 +82,15 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2647508 | Jinarc (valid) | Tab 30 mg | Not available |
-| 2647494 | Jinarc (valid) | Tab 15 mg | Not available |
-| 2647451 | Jinarc (valid) | Tab 45 mg + 15 mg | Not available |
-| 2647478 | Jinarc (valid) | Tab 60 mg + 30 mg | Not available |
-| 2647486 | Jinarc (valid) | Tab 90 mg + 30 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2647494 | Jinarc | Tolvaptan | Tab 15 mg | Yes |
+| 2647508 | Jinarc | Tolvaptan | Tab 30 mg | Yes |
+| 2647451 | Jinarc | Tolvaptan | Tab 45 mg + 15 mg | Yes |
+| 2647478 | Jinarc | Tolvaptan | Tab 60 mg + 30 mg | Yes |
+| 2647486 | Jinarc | Tolvaptan | Tab 90 mg + 30 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "MAGNESIUM HYDROXIDE"
 predicted_indications: ["stomach disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Magnesium Hydroxide: predicted new indication Stomach disease (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 ---
 
@@ -50,8 +50,8 @@ This prediction largely overlaps with its known acid-related uses and is not a d
 | Predicted New Indication | Stomach disease |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Number of Approvals | 1 licence (single-ingredient product) |
 | Recommended Decision | Hold |
 
@@ -86,9 +86,11 @@ No cited study evaluates magnesium hydroxide alone against "stomach disease" as 
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2599953 | Phillips Milk of Magnesia | Suspension 8% | No indication text recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2599953 | Phillips Milk of Magnesia | Magnesium hydroxide | Suspension 8% | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

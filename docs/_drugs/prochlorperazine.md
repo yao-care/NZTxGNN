@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Prochlorperazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "PROCHLORPERAZINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,11 +85,13 @@ None of these is a controlled efficacy study. Two are safety-focused, and the re
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2700131 | Prochlorperazine maleate (Brown & Burk) | Tab 3 mg buccal | Valid; indication text not available |
-| 255335 | Stemetil | Inj 12.5 mg per ml, 1 ml | Valid; indication text not available |
-| 2528886 | Nausafix | Tab 5 mg | Valid; indication text not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 255335 | Stemetil | Prochlorperazine | Inj 12.5 mg per ml, 1 ml | Yes |
+| 2700131 | Prochlorperazine maleate (Brown & Burk) | Prochlorperazine | Tab 3 mg buccal | No |
+| 2528886 | Nausafix | Prochlorperazine | Tab 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

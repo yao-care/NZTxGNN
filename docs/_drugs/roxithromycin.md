@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Roxithromycin: predicted new indication Leprosy (evidence level L5). Approved use: Not stated in the New Zealand licence records (general pharmacology s…"
 monitor_inn: "ROXITHROMYCIN"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
@@ -50,8 +50,8 @@ with **no registered clinical trials** and **5 publications** (all preclinical o
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 (preclinical and review evidence only; no human trials) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,10 +80,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2246228 | Arrow-Roxithromycin (valid) | Tab 300 mg | Not stated |
-| 2246236 | Arrow-Roxithromycin (valid) | Tab 150 mg | Not stated |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2246236 | Arrow-Roxithromycin | Roxithromycin | Tab 150 mg | Yes |
+| 2246228 | Arrow-Roxithromycin | Roxithromycin | Tab 300 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -96,7 +98,7 @@ Please refer to the package insert for further safety information, including war
 **Decision: Hold**
 
 **Rationale:**
-Support for leprosy rests on in vitro and mouse studies plus reviews, with no human trials. Roxithromycin appears less active than clarithromycin, and it is marketed in New Zealand with 2 valid licences out of 2.
+Support for leprosy rests on in vitro and mouse studies plus reviews, with no human trials. Roxithromycin appears less active than clarithromycin.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (currently unavailable) for a safety screen

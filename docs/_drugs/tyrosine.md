@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded"
 monitor_inn: "TYROSINE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Tyrosine is an amino acid and precursor of catecholamines and thyroid hormones. Its only New Zealand authorization (a powder sachet product) has been cancelled, and no approved indication is recorded.
+Tyrosine is an amino acid and precursor of catecholamines and thyroid hormones.
 The TxGNN model (deep learning) predicts it may be effective for **cauda equina syndrome**, but this score comes from the model and may reflect similarities the model learned between related diseases, not biological evidence. There are **0 clinical trials** and **0 publications** supporting this specific indication.
 Evidence is very weak, so the recommendation is to hold.
 
@@ -50,8 +50,8 @@ Evidence is very weak, so the recommendation is to hold.
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -105,13 +105,20 @@ Selected publications retrieved for other predicted indications (all indirect; n
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2668742 | Tyrosine1000 | Powder, 4 g sachets | Not recorded (license status: valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2668742 | Tyrosine1000 | Tyrosine | Powder, 4 g sachets | Yes |
+| 2711443 | TYR Lophlex LQ 20 | Aminoacid formula without phenylalanine and tyrosine | Liquid (juicy berries) 125 ml pouches | Yes |
+| 2683024 | TYR Anamix Junior LQ | Aminoacid formula without phenylalanine and tyrosine | Liquid (orange) 125 ml bottle | Yes |
+| 2668696 | TYR Explore 5 | Aminoacid formula without phenylalanine and tyrosine | Powder (Neutral), 12.5 g sachets | Yes |
+| 2482444 | TYR Anamix Junior | Aminoacid formula without phenylalanine and tyrosine | Powder (neutral) 36 g sachets | Yes |
+| 2405342 | TYR Anamix Infant | Aminoacid formula without phenylalanine and tyrosine | Powder, can | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings or contraindications were available in the data compiled for this report, and no drug interaction records were found. Since the product license is cancelled, a current package insert may not be available from Medsafe.
+Please refer to the package insert for safety information. No warnings or contraindications were available in the data compiled for this report, and no drug interaction records were found.
 
 One theoretical concern is worth noting: because tyrosine is a thyroid hormone precursor, use in hyperthyroid or thyroid-related conditions would need careful consideration.
 

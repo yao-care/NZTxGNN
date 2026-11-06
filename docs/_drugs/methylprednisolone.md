@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The data compiled for this report contain **0 clinical trials** and **0 publicat
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,15 +70,19 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Methylprednisolone is marketed in New Zealand. All 7 licences are currently valid. The approved indication text is not recorded in the local data.
+Methylprednisolone is marketed in New Zealand. The approved indication text is not recorded in the local data.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 681776 | Medrol | Tab 100 mg | Valid; indication text not available |
-| 210692 | Medrol | Tab 4 mg | Valid; indication text not available |
-| 2454327 | Depo-Medrol | Inj 40 mg per ml, 1 ml vial | Valid; indication text not available |
-| 2394227 | Solu-Medrol-Act-O-Vial | Inj 40 mg vial | Valid; indication text not available |
-| 265357 | Solu-Medrol | Inj 1 g vial | Valid; indication text not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 681776 | Medrol | Methylprednisolone | Tab 100 mg | Yes |
+| 210692 | Medrol | Methylprednisolone | Tab 4 mg | Yes |
+| 265357 | Solu-Medrol | Methylprednisolone (as sodium succinate) | Inj 1 g vial | Yes |
+| 2394219 | Solu-Medrol-Act-O-Vial | Methylprednisolone (as sodium succinate) | Inj 125 mg vial | Yes |
+| 2394227 | Solu-Medrol-Act-O-Vial | Methylprednisolone (as sodium succinate) | Inj 40 mg vial | Yes |
+| 2394235 | Solu-Medrol-Act-O-Vial | Methylprednisolone (as sodium succinate) | Inj 500 mg vial | Yes |
+| 2454327 | Depo-Medrol | Methylprednisolone acetate | Inj 40 mg per ml, 1 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Vincristine: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 | Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,13 +72,13 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Licence Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2204053 | Baxter | Injection 1 mg for ECP |
-| 604593 | DBL Vincristine Sulfate | Injection 1 mg per ml, 2 ml vial |
-| 604585 | DBL Vincristine Sulfate | Injection 1 mg per ml, 1 ml vial |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2204053 | Baxter | Vincristine sulphate | Inj 1 mg for ECP | Yes |
+| 604585 | DBL Vincristine Sulfate | Vincristine sulphate | Inj 1 mg per ml, 1 ml vial | Yes |
+| 604593 | DBL Vincristine Sulfate | Vincristine sulphate | Inj 1 mg per ml, 2 ml vial | Yes |
 
-The licence records compiled for this report contain no approved indication text. All three licences are single-ingredient products and are currently valid.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

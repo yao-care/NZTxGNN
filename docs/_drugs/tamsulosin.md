@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -88,9 +88,11 @@ For context, two papers were retrieved for the related prediction "alopecia" (ra
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2438526 | Tamsulosin-Rex (status: valid) | Cap 400 mcg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2438526 | Tamsulosin-Rex | Tamsulosin hydrochloride | Cap 400 mcg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -108,7 +110,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score. There are no clinical trials or publications, and no plausible mechanistic link exists between alpha-1 blockade and a congenital hypertrichosis driven by *TRPS1* regulatory changes. In addition, the only New Zealand authorization has been cancelled, and the package insert safety data have not been retrieved.
+The prediction is supported only by the TxGNN score. There are no clinical trials or publications, and no plausible mechanistic link exists between alpha-1 blockade and a congenital hypertrichosis driven by *TRPS1* regulatory changes. In addition, the package insert safety data have not been retrieved.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to allow a proper mechanistic-link assessment

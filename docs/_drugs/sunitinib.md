@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 434
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **2 Phase 2 clinical trials** and **9 publications** currently supporting t
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold (research question only; see Conclusion) |
 
 ## Why is This Prediction Reasonable?
@@ -82,14 +82,13 @@ The very high TxGNN score supports the hypothesis. However, two completed Phase 
 
 ## New Zealand Market Information
 
-All four authorisations are valid, and no approved indication text is available for them.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2675463 | Sunitinib Rex | Sunitinib | Cap 12.5 mg | Yes |
+| 2675471 | Sunitinib Rex | Sunitinib | Cap 25 mg | Yes |
+| 2675498 | Sunitinib Rex | Sunitinib | Cap 50 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2675463 | Sunitinib Rex | Cap 12.5 mg | Not available (valid) |
-| 2630338 | Sunitinib Pfizer | Cap 50 mg | Not available (valid) |
-| 2675471 | Sunitinib Rex | Cap 25 mg | Not available (valid) |
-| 2675498 | Sunitinib Rex | Cap 50 mg | Not available (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -124,7 +123,6 @@ Package insert warnings and contraindications were not available for this report
 - Liposarcoma-specific efficacy data extracted from the completed Phase 2 trials (NCT00474994, NCT00400569, PMID 21154746)
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data
-- Clarification of whether supply is feasible in New Zealand, where the drug is marketed and all 4 licences are valid
 - A cardiac and hepatic safety monitoring plan
 
 ---

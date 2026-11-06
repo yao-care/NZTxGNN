@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Emicizumab: predicted new indication pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The TxGNN model predicts it may be relevant to **pseudo-von Willebrand disease**
 | Predicted New Indication | pseudo-von Willebrand disease |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,12 +82,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2553538 | Hemlibra | Inj 150 mg in 1 ml vial | Not recorded in the local data |
-| 2553554 | Hemlibra | Inj 105 mg in 0.7 ml vial | Not recorded in the local data |
-| 2553511 | Hemlibra | Inj 30 mg in 1 ml vial | Not recorded in the local data |
-| 2553546 | Hemlibra | Inj 60 mg in 0.4 ml vial | Not recorded in the local data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2553554 | Hemlibra | Emicizumab | Inj 105 mg in 0.7 ml vial | Yes |
+| 2553538 | Hemlibra | Emicizumab | Inj 150 mg in 1 ml vial | Yes |
+| 2553511 | Hemlibra | Emicizumab | Inj 30 mg in 1 ml vial | Yes |
+| 2553546 | Hemlibra | Emicizumab | Inj 60 mg in 0.4 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

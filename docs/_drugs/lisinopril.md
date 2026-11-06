@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ There are **0 clinical trials** and **0 publications** specific to this predicti
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -100,12 +100,13 @@ For reference, the most relevant literature among the other predictions (chronic
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2643677 | Teva Lisinopril | Lisinopril | Tab 10 mg | Yes |
+| 2643685 | Teva Lisinopril | Lisinopril | Tab 20 mg | Yes |
+| 2643669 | Teva Lisinopril | Lisinopril | Tab 5 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2643669 | Teva Lisinopril | Tab 5 mg | Valid; no indication text available |
-| 2643677 | Teva Lisinopril | Tab 10 mg | Valid; no indication text available |
-| 2643685 | Teva Lisinopril | Tab 20 mg | Valid; no indication text available |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

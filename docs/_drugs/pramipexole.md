@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 375
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -89,11 +89,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2450534 | Ramipex | Tab 0.25 mg | Valid |
-| 2450542 | Ramipex | Tab 1 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2450534 | Ramipex | Pramipexole hydrochloride | Tab 0.25 mg | Yes |
+| 2450542 | Ramipex | Pramipexole hydrochloride | Tab 1 mg | Yes |
 
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -111,7 +112,7 @@ Please refer to the package insert for authoritative warnings and contraindicati
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but no ADHD trial exists and the literature is indirect. The only pramipexole RCT in the set targets Tourette's syndrome. No pramipexole product is currently authorized in New Zealand. The mechanistic rationale is plausible but unproven.
+The prediction score is high, but no ADHD trial exists and the literature is indirect. The only pramipexole RCT in the set targets Tourette's syndrome. The mechanistic rationale is plausible but unproven.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (currently missing, and a blocker for safety screening)

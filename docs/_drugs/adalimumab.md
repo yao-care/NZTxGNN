@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **hypermobility of coccyx**, but t
 | Predicted New Indication | hypermobility of coccyx |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,7 +69,7 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Six licences are recorded in the local data, and all are currently valid. They cover the Amgevita, Humira and HumiraPen products as prefilled syringes and pens (20 mg and 40 mg strengths). The licence records carry no approved-indication text.
+They cover the Amgevita, Humira and HumiraPen products as prefilled syringes and pens (20 mg and 40 mg strengths).
 
 ## Safety Considerations
 

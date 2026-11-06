@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ATENOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Atenolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and myocardial infarction"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Number of Approvals | 3 (all single-ingredient products) |
 | Recommended Decision | Hold |
 
@@ -82,11 +82,13 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2627140 | Viatris | Tab 50 mg | Not stated in the licence records |
-| 2403366 | Atenolol AFT | Oral liq 25 mg per 5 ml | Not stated in the licence records |
-| 2627159 | Atenolol Viatris | Tab 100 mg | Not stated in the licence records |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2403366 | Atenolol AFT | Atenolol | Oral liq 25 mg per 5 ml | Yes |
+| 2627159 | Atenolol Viatris | Atenolol | Tab 100 mg | Yes |
+| 2627140 | Viatris | Atenolol | Tab 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

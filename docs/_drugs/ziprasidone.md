@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "ZIPRASIDONE"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Ziprasidone is an atypical antipsychotic that is already marketed in New Zealand
 | Predicted New Indication | Trichotillomania |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -78,14 +78,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2479575 | Zusdone | Cap 20 mg | Not available (valid) |
-| 2479583 | Zusdone | Cap 40 mg | Not available (valid) |
-| 2479591 | Zusdone | Cap 60 mg | Not available (valid) |
-| 2479605 | Zusdone | Cap 80 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2479575 | Zusdone | Ziprasidone | Cap 20 mg | Yes |
+| 2479583 | Zusdone | Ziprasidone | Cap 40 mg | Yes |
+| 2479591 | Zusdone | Ziprasidone | Cap 60 mg | Yes |
+| 2479605 | Zusdone | Ziprasidone | Cap 80 mg | Yes |
 
-All four licences are single-ingredient ziprasidone products and all are currently valid.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

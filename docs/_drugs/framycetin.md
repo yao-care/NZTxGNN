@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not specified in the licence data compiled for this report (marketed…"
 monitor_inn: "framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,12 +81,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 254894 | Soframycin | Ear/Eye drops 0.5% | Not specified in the data |
-| 208728 | Sofradex | Ear/Eye drops (dexamethasone 500 mcg, framycetin sulphate 5 mg and gramicidin 50 mcg per ml) | Not specified in the data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 254894 | Soframycin | Framycetin sulphate | Ear/Eye drops 0.5% | No |
+| 208728 | Sofradex | Dexamethasone with framycetin and gramicidin | Ear/Eye drops 500 mcg with framycetin sulphate 5… | No |
 
-Both authorizations are valid and cover ophthalmic/otic routes only. Route compatibility with the predicted indication has not been assessed. A topical ear/eye product is unlikely to reach the biliary tract.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+Route compatibility with the predicted indication has not been assessed. A topical ear/eye product is unlikely to reach the biliary tract.
 
 ## Cytotoxicity
 

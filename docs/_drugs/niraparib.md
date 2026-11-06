@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The evidence relates mainly to serous carcinomas (notably endometrial serous car
 | Predicted New Indication | Epiglottis neoplasm |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (weak: the only substantive study is an ongoing Phase 2 trial with no results) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold (research question) |
 
 ---
@@ -97,11 +97,12 @@ The score alone should not be treated as strong evidence.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2690691 | Zejula | Tab 100 mg | Not available (valid) |
-| 2690683 | Zejula | Tab 100 mg | Not available (valid) |
-| 2635232 | Zejula | Cap 100 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2690683 | Zejula | Niraparib | Tab 100 mg | Yes |
+| 2690691 | Zejula | Niraparib | Tab 100 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

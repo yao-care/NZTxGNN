@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "MESALAZINE"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **congenital hypotrichosis with
 | Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (13 of 13 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 13 (valid: 13) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (13 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 13 |
 | Recommended Decision | Hold |
 
 ---
@@ -98,15 +98,25 @@ For reference, the literature retrieved for the lower-ranked predictions is summ
 
 ## New Zealand Market Information
 
-All 13 licences are valid. No approved indication text is available. Five representative entries:
+No approved indication text is available. Five representative entries:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2470616 | Asacol | Tab 800 mg | Valid; indication text not available |
-| 2111985 | Pentasa | Suppos 1 g | Valid; indication text not available |
-| 2601354 | Pentasa | Modified release granules, 1 g | Valid; indication text not available |
-| 2714523 | Octasa | Tab 400 mg | Valid; indication text not available |
-| 715867 | Pentasa | Enema 1 g per 100 ml | Valid; indication text not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 715867 | Pentasa | Mesalazine | Enema 1 g per 100 ml | Yes |
+| 2601354 | Pentasa | Mesalazine | Modified release granules, 1 g | Yes |
+| 2111985 | Pentasa | Mesalazine | Suppos 1 g | Yes |
+| 2536560 | Asacol | Mesalazine | Suppos 500 mg | Yes |
+| 462543 | Asacol | Mesalazine | Suppos 500 mg | Yes |
+| 2709325 | Asacol | Mesalazine | Tab 1,600 mg | Yes |
+| 241113 | Asacol | Mesalazine | Tab 400 mg | Yes |
+| 2536544 | Asacol | Mesalazine | Tab 400 mg | Yes |
+| 2714523 | Octasa | Mesalazine | Tab 400 mg | Yes |
+| 2470616 | Asacol | Mesalazine | Tab 800 mg | Yes |
+| 2536552 | Asacol | Mesalazine | Tab 800 mg | Yes |
+| 2676982 | Asacol S29 | Mesalazine | Tab 800 mg | Yes |
+| 768618 | Pentasa | Mesalazine | Tab long-acting 500 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -131,7 +141,6 @@ The predicted indication has no clinical trials, no literature and no plausible 
 - Detailed mechanism of action data for mesalazine, plus any biological evidence connecting CDH3-related pathways to its pharmacology
 - Preclinical or mechanistic studies for the predicted indication
 - Medsafe package insert warnings and contraindications
-- Clarification of the regulatory status given that all 13 licences are valid
 - If a repurposing direction is pursued, consideration of better-supported candidates, such as rheumatoid arthritis, which would first require evidence specific to mesalazine rather than sulfasalazine
 ## Disclaimer
 

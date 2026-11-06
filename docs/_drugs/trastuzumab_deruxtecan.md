@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TRASTUZUMAB DERUXTECAN"
 predicted_indications: ["drug-induced osteoporosis"]
 description: "Trastuzumab Deruxtecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate carrying a top
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,10 +70,12 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2678276 | Enhertu (valid) | Inj 100 mg per ml, 1 ml vial | Not recorded |
-| 2697610 | Baxter (valid) | Inj 1 mg for ECP | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2697610 | Baxter | Trastuzumab deruxtecan | Inj 1 mg for ECP | Yes |
+| 2678276 | Enhertu | Trastuzumab deruxtecan | Inj 100 mg per ml, 1 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

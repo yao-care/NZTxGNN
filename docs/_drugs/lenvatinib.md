@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 265
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "LENVATINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Support comes from **1 completed single-arm Phase Ib/II trial** and **1 matching
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -77,10 +77,12 @@ Preclinical work suggests that eribulin, the partner drug used in the clinical s
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2607166 | Lenvima | Cap 10 mg | Not recorded (licence valid) |
-| 2607158 | Lenvima | Cap 4 mg | Not recorded (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2607166 | Lenvima | Lenvatinib | Cap 10 mg | Yes |
+| 2607158 | Lenvima | Lenvatinib | Cap 4 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

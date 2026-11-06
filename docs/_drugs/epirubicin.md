@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **primary pulmonary lymphoma**, b
 | Predicted New Indication | Primary pulmonary lymphoma |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,12 +78,13 @@ The only item directly mentioning epirubicin is a general review. The remaining 
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2224127 | Epirubicin Ebewe | Inj 2 mg per ml, 25 ml vial | Not recorded (valid) |
-| 2224119 | Epirubicin Ebewe | Inj 2 mg per ml, 5 ml vial | Not recorded (valid) |
-| 2224143 | Epirubicin Ebewe | Inj 2 mg per ml, 100 ml vial | Not recorded (valid) |
-| 2204177 | Baxter | Inj 1 mg for ECP | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2204177 | Baxter | Epirubicin hydrochloride | Inj 1 mg for ECP | Yes |
+| 2224143 | Epirubicin Ebewe | Epirubicin hydrochloride | Inj 2 mg per ml, 100 ml vial | Yes |
+| 2224127 | Epirubicin Ebewe | Epirubicin hydrochloride | Inj 2 mg per ml, 25 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

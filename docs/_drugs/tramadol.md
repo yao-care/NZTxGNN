@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **no clinical trials** and **no publications** supporting this pre
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,19 @@ Currently no related literature available for the top predicted indication.
 
 ## New Zealand Market Information
 
-All seven licences are valid. Approved indication text is not available for any of them.
+Approved indication text is not available for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2650975 | Tramal SR 200 | Sustained-release tablet 200 mg | Valid |
-| 2149524 | Tramal SR 200 | Sustained-release tablet 200 mg | Valid |
-| 2351889 | Arrow-Tramadol | Capsule 50 mg | Valid |
-| 2650959 | Tramal SR 100 | Sustained-release tablet 100 mg | Valid |
-| 2650967 | Tramal SR 150 | Sustained-release tablet 150 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2351889 | Arrow-Tramadol | Tramadol hydrochloride | Cap 50 mg | Yes |
+| 2149508 | Tramal SR 100 | Tramadol hydrochloride | Tab sustained-release 100 mg | Yes |
+| 2650959 | Tramal SR 100 | Tramadol hydrochloride | Tab sustained-release 100 mg | Yes |
+| 2149532 | Tramal SR 150 | Tramadol hydrochloride | Tab sustained-release 150 mg | Yes |
+| 2650967 | Tramal SR 150 | Tramadol hydrochloride | Tab sustained-release 150 mg | Yes |
+| 2149524 | Tramal SR 200 | Tramadol hydrochloride | Tab sustained-release 200 mg | Yes |
+| 2650975 | Tramal SR 200 | Tramadol hydrochloride | Tab sustained-release 200 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

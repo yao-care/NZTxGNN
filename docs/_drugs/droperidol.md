@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
 description: "Droperidol: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The best-supported direction among the top 10 predictions is **headache disorder
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 (for Tourette syndrome) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 For context, the other top-10 predictions with the strongest evidence are:
@@ -102,9 +102,12 @@ For the manic bipolar affective disorder prediction, the literature includes Coc
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2690543 (cancelled) | Droperidol Medsurge | Injection 2.5 mg per ml, 1 ml ampoule | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2527138 | Droperidol Panpharma | Droperidol | Inj 2.5 mg per ml, 1 ml ampoule | Yes |
+| 2690543 | Droperidol Medsurge | Droperidol | Inj 2.5 mg per ml, 1 ml ampoule | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -129,7 +132,6 @@ The top prediction, Tourette syndrome, has no trials or literature and is only m
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- The original approved indication text for the cancelled licence
 - For migraine: a full review of the randomised trials and systematic reviews, plus a QT/ECG monitoring plan
 ## Disclaimer
 

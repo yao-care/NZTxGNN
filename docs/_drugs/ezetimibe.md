@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidaemia, familial hypercholesterolaemia, sitosterolemia"
 ---
 
@@ -52,8 +52,8 @@ This is a model prediction only, and the supporting evidence is weak.
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 11 |
 | Number of Approvals | 1 (single-ingredient licence) |
 | Recommended Decision | Hold |
 
@@ -86,9 +86,21 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2545861 | Ezetimibe Sandoz | Tab 10 mg | Not stated in the licence record |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2545861 | Ezetimibe Sandoz | Ezetimibe | Tab 10 mg | Yes |
+| 2470683 | Zimybe | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 10 mg | Yes |
+| 2735539 | Vytorin | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 10 mg | Yes |
+| 2470691 | Zimybe | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 20 mg | Yes |
+| 2737205 | Ezetimibe Simvastatin Viatris | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 20 mg | Yes |
+| 2470705 | Zimybe | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 40 mg | Yes |
+| 2727722 | Vytorin | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 40 mg | Yes |
+| 2737884 | Ascend | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 40 mg | Yes |
+| 2470713 | Zimybe | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 80 mg | Yes |
+| 2725622 | Zimybe | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 80 mg | Yes |
+| 2727730 | Vytorin | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 80 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

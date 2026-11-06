@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The data compiled for this report contain **no clinical trials and no publicatio
 | Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,16 +66,18 @@ Currently no related clinical trials are registered and no related literature is
 
 ## New Zealand Market Information
 
-Six valid licences are recorded for single-ingredient cyclophosphamide products. Approved indication text is not recorded in the local data.
+Approved indication text is not recorded in the local data.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2725614 | Cyclophosphamide Seacross | Inj 2 g vial |
-| 2034220 | Endoxan | Inj 2 g vial |
-| 2611597 | Cyclonex | Tab 50 mg |
-| 785318 | Cytoxan | Inj 1 g vial |
-| 2034212 | Endoxan | Inj 1 g vial |
-| 2204266 | Baxter | Inj 1 mg for ECP |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2034212 | Endoxan | Cyclophosphamide | Inj 1 g vial | Yes |
+| 785318 | Cytoxan | Cyclophosphamide | Inj 1 g vial | Yes |
+| 2204266 | Baxter | Cyclophosphamide | Inj 1 mg for ECP | Yes |
+| 2034220 | Endoxan | Cyclophosphamide | Inj 2 g vial | Yes |
+| 2725614 | Cyclophosphamide Seacross | Cyclophosphamide | Inj 2 g vial | Yes |
+| 2611597 | Cyclonex | Cyclophosphamide | Tab 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Levetiracetam is already an established second-line therapy here, so this is bet
 | Predicted New Indication | Beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -109,14 +109,16 @@ Supportive evidence for other predicted indications, all limited:
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2472414 | Levetiracetam-AFT | Levetiracetam | Inj 100 mg per ml, 5 ml vial | Yes |
+| 2472406 | Levetiracetam-AFT | Levetiracetam | Oral liq 100 mg per ml | Yes |
+| 2479567 | Everet | Levetiracetam | Tab 1,000 mg | Yes |
+| 2479532 | Everet | Levetiracetam | Tab 250 mg | Yes |
+| 2479540 | Everet | Levetiracetam | Tab 500 mg | Yes |
+| 2479559 | Everet | Levetiracetam | Tab 750 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2472414 | Levetiracetam-AFT | Inj 100 mg per ml, 5 ml vial | Not available |
-| 2472406 | Levetiracetam-AFT | Oral liq 100 mg per ml | Not available |
-| 2479532 | Everet | Tab 250 mg | Not available |
-| 2479540 | Everet | Tab 500 mg | Not available |
-| 2479559 | Everet | Tab 750 mg | Not available |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 One further licence (2479567, Everet Tab 1,000 mg) is also cancelled.
 

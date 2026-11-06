@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Note that this prediction overlaps heavily with the existing labelled use, so it
 | Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (15 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 15 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -104,14 +104,25 @@ Only two trials (NCT00552097 and NCT00129402) directly evaluate simvastatin as p
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2520087 | Simvastatin Mylan | Simvastatin | Tab 10 mg | Yes |
+| 2643553 | Simvastatin Viatris | Simvastatin | Tab 10 mg | Yes |
+| 2643561 | Simvastatin Viatris | Simvastatin | Tab 20 mg | Yes |
+| 2643588 | Simvastatin Viatris | Simvastatin | Tab 40 mg | Yes |
+| 2643596 | Simvastatin Viatris | Simvastatin | Tab 80 mg | Yes |
+| 2470683 | Zimybe | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 10 mg | Yes |
+| 2735539 | Vytorin | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 10 mg | Yes |
+| 2470691 | Zimybe | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 20 mg | Yes |
+| 2737205 | Ezetimibe Simvastatin Viatris | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 20 mg | Yes |
+| 2470705 | Zimybe | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 40 mg | Yes |
+| 2727722 | Vytorin | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 40 mg | Yes |
+| 2737884 | Ascend | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 40 mg | Yes |
+| 2470713 | Zimybe | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 80 mg | Yes |
+| 2725622 | Zimybe | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 80 mg | Yes |
+| 2727730 | Vytorin | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 80 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2643596 | Simvastatin Viatris | Tab 80 mg | Not recorded (valid) |
-| 2520087 | Simvastatin Mylan | Tab 10 mg | Not recorded (valid) |
-| 2643588 | Simvastatin Viatris | Tab 40 mg | Not recorded (valid) |
-| 2643561 | Simvastatin Viatris | Tab 20 mg | Not recorded (valid) |
-| 2643553 | Simvastatin Viatris | Tab 10 mg | Not recorded (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

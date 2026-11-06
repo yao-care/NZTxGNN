@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 349
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
 description: "Papaverine: predicted new indication Ischemic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but the supporting evidence is thin: **1 registered clinical trial** (an observa
 | Predicted New Indication | Ischemic disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,9 +85,11 @@ However, these are mostly procedural or diagnostic uses, not randomized trial ev
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 333328 (cancelled) | Hospira | Injection 12 mg per ml, 10 ml ampoule | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 333328 | Hospira | Papaverine hydrochloride | Inj 12 mg per ml, 10 ml ampoule | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -109,7 +111,6 @@ The TxGNN score is very high (0.9991), and the vasodilator mechanism is plausibl
 - Mechanism-of-action data from DrugBank
 - A narrower, clinically defined target (for example, a specific vasospasm or perfusion setting) in place of the broad "ischemic disease" category
 - Controlled clinical evidence of efficacy in that target condition
-- A route and formulation plan, since the only New Zealand licence was for an injection and has been cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

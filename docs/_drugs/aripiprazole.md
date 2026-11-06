@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The data compiled for this report contain **0 clinical trials** and **0 publicat
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 9 (valid: 9) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,15 +80,19 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Aripiprazole is marketed in New Zealand as oral tablets and long-acting injectables. The table below shows 5 of the 9 valid licences.
+Aripiprazole is marketed in New Zealand as oral tablets and long-acting injectables.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2680408 | Abilify Maintena | Inj 400 mg vial | – |
-| 2680394 | Abilify Maintena | Inj 300 mg vial | – |
-| 2544555 | Aripiprazole Sandoz | Tab 20 mg | – |
-| 2544563 | Aripiprazole Sandoz | Tab 30 mg | – |
-| 2544539 | Aripiprazole Sandoz | Tab 10 mg | – |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2717271 | Abilify Maintena | Aripiprazole | Inj 300 mg vial | Yes |
+| 2717298 | Abilify Maintena | Aripiprazole | Inj 400 mg vial | Yes |
+| 2544539 | Aripiprazole Sandoz | Aripiprazole | Tab 10 mg | Yes |
+| 2544547 | Aripiprazole Sandoz | Aripiprazole | Tab 15 mg | Yes |
+| 2544555 | Aripiprazole Sandoz | Aripiprazole | Tab 20 mg | Yes |
+| 2544563 | Aripiprazole Sandoz | Aripiprazole | Tab 30 mg | Yes |
+| 2544520 | Aripiprazole Sandoz | Aripiprazole | Tab 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

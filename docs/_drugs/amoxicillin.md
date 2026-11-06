@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "AMOXICILLIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Amoxicillin: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **polyclonal hyperviscosity syndr
 | Predicted New Indication | polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 8 (valid: 8) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (10 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 10 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,13 +69,20 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2669617 | Miro-Amoxicillin | Cap 250 mg | Not recorded |
-| 2669625 | Miro-Amoxicillin | Cap 500 mg | Not recorded |
-| 2272628 | Ibiamox | Inj 250 mg vial | Not recorded |
-| 2503565 | Alphamox 250 | Grans for oral liq 250 mg per 5 ml | Not recorded |
-| 2712601 | Amoxycillin Sandoz | Cap 500 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2669617 | Miro-Amoxicillin | Amoxicillin | Cap 250 mg | Yes |
+| 2712601 | Amoxycillin Sandoz | Amoxicillin | Cap 500 mg | Yes |
+| 2503557 | Alphamox 125 | Amoxicillin | Grans for oral liq 125 mg per 5 ml | Yes |
+| 2503565 | Alphamox 250 | Amoxicillin | Grans for oral liq 250 mg per 5 ml | Yes |
+| 2272636 | Ibiamox | Amoxicillin | Inj 1 g vial | Yes |
+| 2272628 | Ibiamox | Amoxicillin | Inj 250 mg vial | Yes |
+| 2272601 | Ibiamox | Amoxicillin | Inj 500 mg vial | Yes |
+| 319473 | Augmentin | Amoxicillin with clavulanic acid | Grans for oral liq amoxicillin 25 mg with clavula… | Yes |
+| 2684748 | Amoxiclav Devatis Forte | Amoxicillin with clavulanic acid | Grans for oral liq amoxicillin 50 mg with clavula… | Yes |
+| 2602121 | Curam Duo 500/125 | Amoxicillin with clavulanic acid | Tab 500 mg with clavulanic acid 125 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

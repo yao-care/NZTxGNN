@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Axitinib: predicted new indication liposarcoma (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Axitinib is an oral targeted anticancer drug that blocks tumour blood-vessel gro
 | Predicted New Indication | liposarcoma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,7 +72,7 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-Local records show axitinib as marketed in New Zealand. The detailed licence table is generated separately by the site program.
+Local records show axitinib as marketed in New Zealand.
 
 ## Cytotoxicity
 

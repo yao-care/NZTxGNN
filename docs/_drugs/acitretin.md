@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "ACITRETIN"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Acitretin is an oral second-generation retinoid (a vitamin A derivative) that is
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,10 +83,12 @@ The mechanistic rationale is plausible, but the direct clinical evidence is very
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2384175 | Novatretin | Cap 25 mg | Not recorded |
-| 2384167 | Novatretin | Cap 10 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2384167 | Novatretin | Acitretin | Cap 10 mg | Yes |
+| 2384175 | Novatretin | Acitretin | Cap 25 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 The local records contain no approved-indication text for these licences.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bosentan: predicted new indication rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Bosentan is a dual endothelin receptor antagonist (blocking both ETA and ETB rec
 | Predicted New Indication | rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,12 +81,14 @@ None of the retrieved studies tests bosentan in patients with rheumatoid arthrit
 
 ## New Zealand Market Information
 
-Two single-ingredient bosentan licences (Bosentan Dr Reddy's, 62.5 mg and 125 mg tablets) are recorded in the local data, and the market status is listed as marketed. The licence records carry no approved-indication text.
+Two single-ingredient bosentan licences (Bosentan Dr Reddy's, 62.5 mg and 125 mg tablets) are recorded in the local data, and the market status is listed as marketed.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2550067 | Bosentan Dr Reddy's | Tab 62.5 mg |
-| 2550075 | Bosentan Dr Reddy's | Tab 125 mg |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2550075 | Bosentan Dr Reddy's | Bosentan | Tab 125 mg | Yes |
+| 2550067 | Bosentan Dr Reddy's | Bosentan | Tab 62.5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

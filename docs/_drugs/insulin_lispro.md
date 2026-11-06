@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Lispro: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ It is a computational signal only and should be treated as hypothesis-generating
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -93,10 +93,14 @@ The only publication found across the predictions relates to pancreatic agenesis
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 490865 | Humalog (valid) | Inj 100 u per ml, 3 ml | Not recorded |
-| 2702983 | Humalog (valid) | Inj 100 u per ml, 10 ml vial | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2702983 | Humalog | Insulin lispro | Inj 100 u per ml, 10 ml vial | Yes |
+| 490865 | Humalog | Insulin lispro | Inj 100 u per ml, 3 ml | Yes |
+| 2011050 | Humalog Mix 25 | Insulin lispro with insulin lispro protamine | Inj lispro 25% with insulin lispro protamine 75%… | Yes |
+| 2235854 | Humalog Mix 50 | Insulin lispro with insulin lispro protamine | Inj lispro 50% with insulin lispro protamine 50%… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

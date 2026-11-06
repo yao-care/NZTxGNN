@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Denosumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Osteoporosis (including postmenopausal and drug-induced osteoporosis)"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -52,8 +52,8 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -87,10 +87,12 @@ No literature is available for severe nonproliferative diabetic retinopathy. For
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2406047 | Prolia (valid) | Inj 60 mg per 1 ml prefilled syringe | Not available |
-| 2594870 | Xgeva (valid) | Inj 120 mg per 1.7 ml vial | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2594870 | Xgeva | Denosumab | Inj 120 mg per 1.7 ml vial | Yes |
+| 2406047 | Prolia | Denosumab | Inj 60 mg per 1 ml prefilled syringe | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -110,7 +112,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there are no registered clinical trials and no retinopathy-specific literature. The only related publications are indirect observational reports. Both New Zealand authorizations are cancelled, and mechanism and label safety data are missing.
+The prediction score is high, but there are no registered clinical trials and no retinopathy-specific literature. The only related publications are indirect observational reports. Mechanism and label safety data are missing.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA), and a clearer mechanistic link between RANKL inhibition and retinal vascular pathology

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 373
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **renal tubular acidosis**, but th
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,15 +84,19 @@ The publications are mostly case reports, reviews and cohort studies. No RCTs we
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 405663 (valid) | Chlorvescent | Effervescent tablet, 548 mg (14 mEq) with chloride 285 mg (8 mEq) | Not available |
-| 2717700 (cancelled) | Span-K | Long-acting tablet, 600 mg (8 mmol) | Not available |
-| 2144468 (cancelled) | Span-K | Long-acting tablet, 600 mg (8 mmol) | Not available |
-| 2593785 (cancelled) | Juno | Injection, 75 mg per mL, 10 mL | Not available |
-| 2679280 (cancelled) | Pfizer | Injection, 75 mg per mL, 10 mL | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2593785 | Juno | Potassium chloride | Inj 75 mg per ml, 10 ml | Yes |
+| 2678942 | LumaCina | Potassium chloride | Inj 75 mg per ml, 10 ml | Yes |
+| 2679280 | Pfizer | Potassium chloride | Inj 75 mg per ml, 10 ml | Yes |
+| 405663 | Chlorvescent | Potassium chloride | Tab eff 548 mg (14 m eq) with chloride 285 mg (8… | No |
+| 2144468 | Span-K | Potassium chloride | Tab long-acting 600 mg (8 mmol) | Yes |
+| 2717700 | Span-K | Potassium chloride | Tab long-acting 600 mg (8 mmol) | Yes |
+| 2194864 | Movicol | Macrogol 3350 with potassium chloride, sodium bicarbonate a… | Powder for oral soln 13.125 g with potassium chlo… | Yes |
+| 2519887 | Molaxole | Macrogol 3350 with potassium chloride, sodium bicarbonate a… | Powder for oral soln 13.125 g with potassium chlo… | Yes |
+| 2718332 | Molaxole | Macrogol 3350 with potassium chloride, sodium bicarbonate a… | Powder for oral soln 13.125 g with potassium chlo… | Yes |
 
-One further cancelled injection licence (2678942, LumaCina) is also on record.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
 description: "Remdesivir: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Remdesivir is a nucleotide analog antiviral. The New Zealand licence record compiled for this report does not state an approved indication.
+Remdesivir is a nucleotide analog antiviral.
 The TxGNN model's top prediction is **multiple endocrine neoplasia**, but there are **0 clinical trials** and **0 publications** supporting it, so this is a model-only prediction.
 The second-ranked prediction, **HIV infectious disease**, has **1 clinical trial** and **20 publications** in the compiled data, but these relate almost entirely to COVID-19 rather than HIV.
 
@@ -50,8 +50,8 @@ The second-ranked prediction, **HIV infectious disease**, has **1 clinical trial
 | Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -93,9 +93,11 @@ For the second-ranked prediction (HIV infectious disease), the retrieved publica
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2640139 | Veklury | Inj 100 mg vial | Not recorded (licence status: valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2640139 | Veklury | Remdesivir | Inj 100 mg vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

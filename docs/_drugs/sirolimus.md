@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Sirolimus is an mTOR inhibitor that is marketed in New Zealand as Rapamune. The 
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -88,11 +88,13 @@ None of these studies tests sirolimus in liposarcoma.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2109638 | Rapamune | Tab 1 mg | Not available (valid) |
-| 2059339 | Rapamune | Oral liq 1 mg per ml | Not available (valid) |
-| 2258218 | Rapamune | Tab 2 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2059339 | Rapamune | Sirolimus | Oral liq 1 mg per ml | Yes |
+| 2109638 | Rapamune | Sirolimus | Tab 1 mg | Yes |
+| 2258218 | Rapamune | Sirolimus | Tab 2 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

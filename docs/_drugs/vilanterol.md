@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Because this prediction overlaps closely with the existing COPD and asthma uses,
 | Predicted New Indication | Hyperlucent lung |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -111,11 +111,13 @@ The compiled data contain 20 publications. The table lists the 10 most relevant,
 
 The approved indication text is not available for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2494299 | Breo Ellipta | Powder for inhalation 100 mcg with vilanterol 25 mcg | Not available |
-| 2494272 | Anoro Ellipta | Powder for inhalation 62.5 mcg with vilanterol 25 mcg | Not available |
-| 2674904 | Trelegy Ellipta | Powder for inhalation, fluticasone furoate 100 mcg with umeclidinium 62.5 mcg and vilanterol 25 mcg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2674904 | Trelegy Ellipta | Fluticasone furoate with umeclidinium and vilanterol | Powder for inhalation fluticasone furoate 100 mcg… | Yes |
+| 2494299 | Breo Ellipta | Fluticasone furoate with vilanterol | Powder for inhalation 100 mcg with vilanterol 25… | Yes |
+| 2494272 | Anoro Ellipta | Umeclidinium with vilanterol | Powder for inhalation 62.5 mcg with vilanterol 25… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

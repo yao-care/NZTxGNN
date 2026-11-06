@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Saccharin: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded"
 monitor_inn: "saccharin"
 predicted_indications: ["obsolete bundle branch block", "ventricular tachycardia"]
@@ -50,8 +50,8 @@ This is a model-only prediction (a second prediction, ventricular tachycardia, i
 | Predicted New Indication | Obsolete bundle branch block |
 | TxGNN Prediction Score | 0.9939 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,10 +72,12 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2377268 | Ora-Sweet SF | Suspension | Not recorded (valid) |
-| 2377225 | Ora-Blend SF | Suspension | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2377268 | Ora-Sweet SF | Glycerin with sodium saccharin | Suspension | Yes |
+| 2377225 | Ora-Blend SF | Methylcellulose with glycerin and sodium saccharin | Suspension | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

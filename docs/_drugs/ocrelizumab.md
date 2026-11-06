@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | HER2 positive breast carcinoma |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,10 +74,12 @@ For the lower-ranked prediction "breast tumor luminal A or B", 18 publications w
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2717441 | Ocrevus SC (valid) | Inj 40 mg per ml, 23 ml vial | Not available |
-| 2540789 | Ocrevus (valid) | Inj 30 mg per ml, 10 ml vial | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2540789 | Ocrevus | Ocrelizumab | Inj 30 mg per ml, 10 ml vial | Yes |
+| 2717441 | Ocrevus SC | Ocrelizumab | Inj 40 mg per ml, 23 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -92,7 +94,7 @@ For other safety information (warnings and contraindications), please refer to t
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score (L5), with no clinical trials or relevant publications, and no mechanistic link between CD20 B-cell depletion and HER2-positive breast carcinoma is established. In addition, both New Zealand licences for the drug are cancelled.
+The prediction is supported only by the TxGNN model score (L5), with no clinical trials or relevant publications, and no mechanistic link between CD20 B-cell depletion and HER2-positive breast carcinoma is established.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a biologically plausible rationale linking CD20 B-cell depletion to HER2-positive breast cancer

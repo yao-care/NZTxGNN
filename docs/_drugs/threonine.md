@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Threonine: predicted new indication gastroparesis (evidence level L5). Approved use: No approved indication text available"
 monitor_inn: "threonine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **gastroparesis**, but there ar
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The high prediction score (0.9932) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. One speculative possibility is that threonine is abundant in intestinal mucins, so it might play a role in mucosal integrity or general nutritional support. This has not been verified and would need independent confirmation.
 
-The original indication is also not documented, because the authorization records contain no indication text. A direct comparison between the original and new indication is therefore not possible at this stage.
+The original indication is also not documented. A direct comparison between the original and new indication is therefore not possible at this stage.
 
 ## Clinical Trial Evidence
 
@@ -71,12 +71,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2668564 | MMA/PA Explore 5 | Powder, 12.5 g sachets | Not recorded (valid) |
-| 2498812 | MMA/PA Anamix Junior | Powder (neutral), 18 g sachets | Not recorded (valid) |
-| 2668572 | MMA/PA Express 15 | Powder, 25 g sachets | Not recorded (valid) |
-| 2386313 | MMA/PA Anamix Infant | Powder, can | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2386313 | MMA/PA Anamix Infant | Aminoacid formula without isoleucine, methionine, threonine… | Powder, can | Yes |
+| 2498812 | MMA/PA Anamix Junior | Aminoacid formula without methionine, threonine and valine | Powder (neutral), 18 g sachets | Yes |
+| 2668564 | MMA/PA Explore 5 | Aminoacid formula without methionine, threonine and valine | Powder, 12.5 g sachets | Yes |
+| 2668572 | MMA/PA Express 15 | Aminoacid formula without methionine, threonine and valine | Powder, 25 g sachets | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -89,7 +91,7 @@ No drug interaction records were found. For all other safety information, please
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature, and no documented mechanism linking threonine to gastroparesis. In addition, the drug is marketed in New Zealand, with 4 valid licences out of 4, and package insert safety information has not been reviewed.
+The prediction rests only on a model score, with no clinical trials, no literature, and no documented mechanism linking threonine to gastroparesis. In addition, package insert safety information has not been reviewed.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example, from DrugBank) and a plausible biological link to gastric motility

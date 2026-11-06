@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ Diltiazem Hydrochloride is a widely used cardiovascular agent, but the current E
 | Predicted New Indication | Not available — TxGNN output not retrieved |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Cannot be determined |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | **Hold** |
 
 ---
@@ -92,7 +92,6 @@ This Evidence Pack is structurally incomplete — no TxGNN predictions, no indic
 - **Run TxGNN prediction** for DILTIAZEM HYDROCHLORIDE and populate `predicted_indications` before re-generating this report
 - **Parse the DrugBank result** already retrieved on 2026-03-29 (query log ID 3, result count = 1) — extract MOA, categories, and toxicity fields and add to Evidence Pack
 - **Parse the package insert** already retrieved on 2026-03-29 (query log ID 4, result count = 1) — extract original indications, warnings, and contraindications
-- **Re-query market registration** in New Zealand (Medsafe) if a different registry is intended, as the TFDA query returned 0 results
 - **Re-generate this Evidence Pack** once the four items above are resolved, then re-run report generation
 
 > Note: The query log indicates that DrugBank and package insert sources both returned data — the bottleneck is parsing, not data availability. Resolving the parsing step may resolve most of the current data gaps without additional external queries.

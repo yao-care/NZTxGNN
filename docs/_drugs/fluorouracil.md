@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Gastric cancer, pancreatic adenocarcinoma, colon cancer metastases…"
 monitor_inn: "FLUOROURACIL"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome"]
@@ -52,8 +52,8 @@ The related predicted indication "rhabdomyosarcoma (disease)" has 4 loosely rela
 | Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -89,15 +89,15 @@ The only paper reporting fluorouracil use in rhabdomyosarcoma shows disease prog
 
 ## New Zealand Market Information
 
-All five licences are valid, and approved indication text is not available.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2370123 | Baxter | Fluorouracil | Inj 1 mg for ECP | Yes |
+| 2618427 | Fluorouracil Accord | Fluorouracil | Inj 50 mg per ml, 100 ml vial | Yes |
+| 2618435 | Fluorouracil Accord | Fluorouracil | Inj 50 mg per ml, 20 ml vial | Yes |
+| 2674092 | Fluorouracil Accord | Fluorouracil | Inj 50 mg per ml, 50 ml vial | Yes |
+| 253065 | Efudix | Fluorouracil sodium | Crm 5% | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 253065 | Efudix | Cream 5% | Valid |
-| 2618435 | Fluorouracil Accord | Injection 50 mg/ml, 20 ml vial | Valid |
-| 2674092 | Fluorouracil Accord | Injection 50 mg/ml, 50 ml vial | Valid |
-| 2618427 | Fluorouracil Accord | Injection 50 mg/ml, 100 ml vial | Valid |
-| 2370123 | Baxter | Injection 1 mg for ECP | Valid |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -127,7 +127,7 @@ Please also refer to the package insert, as label warnings were not available.
 **Decision: Hold**
 
 **Rationale:**
-The predictions are supported only by a high TxGNN model score (0.9975 for the main prediction) with no registered trials and no direct controlled literature. The one case report involving fluorouracil in rhabdomyosarcoma showed progression. Standard rhabdomyosarcoma therapy does not use fluorouracil. In addition, the drug is marketed in New Zealand (5 of 5 licences valid), and it carries significant myelosuppressive toxicity.
+The predictions are supported only by a high TxGNN model score (0.9975 for the main prediction) with no registered trials and no direct controlled literature. The one case report involving fluorouracil in rhabdomyosarcoma showed progression. Standard rhabdomyosarcoma therapy does not use fluorouracil. In addition, it carries significant myelosuppressive toxicity.
 
 **To proceed, the following is needed:**
 - Preclinical data (e.g., in vitro sensitivity of rhabdomyosarcoma cell lines) and a systematic literature search for fluorouracil in rhabdomyosarcoma

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DAUNORUBICIN"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Daunorubicin: predicted new indication Hodgkins lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Direct support is limited: **2 Phase 2 trials** (both multi-drug regimens, one i
 | Predicted New Indication | Hodgkins lymphoma |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,12 +84,14 @@ However, this is an indirect argument. The supporting trials are multi-agent reg
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2204193 | Baxter | Inj 20 mg for ECP | Not recorded |
-| 2710986 | Pfizer | Inj 18.7 mg vial | Not recorded |
-| 2720922 | Cerubidine | Inj 20 mg vial | Not recorded |
-| 2710978 | Baxter | Inj 18.7 mg for ECP | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2710978 | Baxter | Daunorubicin | Inj 18.7 mg for ECP | Yes |
+| 2710986 | Pfizer | Daunorubicin | Inj 18.7 mg vial | Yes |
+| 2204193 | Baxter | Daunorubicin | Inj 20 mg for ECP | Yes |
+| 2720922 | Cerubidine | Daunorubicin | Inj 20 mg vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

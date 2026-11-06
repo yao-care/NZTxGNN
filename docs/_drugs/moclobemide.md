@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 308
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **no registered clinical trials** but **10 publications** (including 2 rand
 | Predicted New Indication | Agoraphobia |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,10 +83,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2602393 | Aurorix | Tab 300 mg | Not available (valid) |
-| 2602385 | Aurorix | Tab 150 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2602385 | Aurorix | Moclobemide | Tab 150 mg | Yes |
+| 2602393 | Aurorix | Moclobemide | Tab 300 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

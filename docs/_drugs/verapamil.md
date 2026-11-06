@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **obsolete bundle branch block*
 | Predicted New Indication | Obsolete bundle branch block |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,15 +74,16 @@ Currently no related literature available for the top-ranked prediction. Literat
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2579391 | Isoptin Retard | Tab long-acting 120 mg | Not available |
-| 2571897 | Isoptin SR | Tab long-acting 120 mg | Not available |
-| 2535327 | Isoptin | Tab 40 mg | Not available |
-| 2535351 | Isoptin | Inj 2.5 mg per ml, 2 ml ampoule | Not available |
-| 2535343 | Isoptin SR | Tab long-acting 240 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2535351 | Isoptin | Verapamil hydrochloride | Inj 2.5 mg per ml, 2 ml ampoule | Yes |
+| 2535327 | Isoptin | Verapamil hydrochloride | Tab 40 mg | Yes |
+| 2535335 | Isoptin | Verapamil hydrochloride | Tab 80 mg | Yes |
+| 2571897 | Isoptin SR | Verapamil hydrochloride | Tab long-acting 120 mg | Yes |
+| 2579391 | Isoptin Retard | Verapamil hydrochloride | Tab long-acting 120 mg | Yes |
+| 2535343 | Isoptin SR | Verapamil hydrochloride | Tab long-acting 240 mg | Yes |
 
-All six licences are valid.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "fluticasone furoate"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
 description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The evidence is a model prediction only.
 | Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (13 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 13 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,10 +73,23 @@ No clinical trials are currently registered for this drug and indication.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2494299 (cancelled) | Breo Ellipta | Powder for inhalation 100 mcg with vilanterol 25 mcg | Not recorded |
-| 2674904 (cancelled) | Trelegy Ellipta | Powder for inhalation fluticasone furoate 100 mcg with umeclidinium 62.5 mcg and vilanterol 25 mcg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 472859 | Flixotide | Fluticasone | Aerosol inhaler, 125 mcg per dose | Yes |
+| 472867 | Flixotide | Fluticasone | Aerosol inhaler, 250 mcg per dose | Yes |
+| 2004887 | Flixotide | Fluticasone | Aerosol inhaler, 50 mcg per dose | Yes |
+| 402974 | Flixotide Accuhaler | Fluticasone | Powder for inhalation, 100 mcg per dose | Yes |
+| 402990 | Flixotide Accuhaler | Fluticasone | Powder for inhalation, 250 mcg per dose | Yes |
+| 402958 | Flixotide Accuhaler | Fluticasone | Powder for inhalation, 50 mcg per dose | Yes |
+| 2407000 | Flixonase Hayfever & Allergy | Fluticasone propionate | Metered aqueous nasal spray, 50 mcg per dose | Yes |
+| 2674904 | Trelegy Ellipta | Fluticasone furoate with umeclidinium and vilanterol | Powder for inhalation fluticasone furoate 100 mcg… | Yes |
+| 2494299 | Breo Ellipta | Fluticasone furoate with vilanterol | Powder for inhalation 100 mcg with vilanterol 25… | Yes |
+| 2120208 | Seretide | Fluticasone with salmeterol | Aerosol inhaler 125 mcg with salmeterol 25 mcg | Yes |
+| 2120194 | Seretide | Fluticasone with salmeterol | Aerosol inhaler 50 mcg with salmeterol 25 mcg | Yes |
+| 2120216 | Seretide Accuhaler | Fluticasone with salmeterol | Powder for inhalation 100 mcg with salmeterol 50… | Yes |
+| 2120224 | Seretide Accuhaler | Fluticasone with salmeterol | Powder for inhalation 250 mcg with salmeterol 50… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 Both authorizations are combination inhalers and both are cancelled.
 

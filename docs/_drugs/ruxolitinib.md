@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
 description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The best-supported alternative direction is **hemophagocytic lymphohistiocytosis
 | Predicted New Indication | Uterine corpus perivascular epithelioid cell tumor |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 (for the top-ranked prediction) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,12 +90,14 @@ For liposarcoma (rank 5), only two preclinical studies on JAK-STAT signalling in
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2554763 | Jakavi | Tab 5 mg | Valid; indication text not available |
-| 2627817 | Jakavi | Tab 10 mg | Valid; indication text not available |
-| 2554771 | Jakavi | Tab 15 mg | Valid; indication text not available |
-| 2554798 | Jakavi | Tab 20 mg | Valid; indication text not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2627817 | Jakavi | Ruxolitinib | Tab 10mg | Yes |
+| 2554771 | Jakavi | Ruxolitinib | Tab 15 mg | Yes |
+| 2554798 | Jakavi | Ruxolitinib | Tab 20 mg | Yes |
+| 2554763 | Jakavi | Ruxolitinib | Tab 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -122,7 +124,7 @@ Package insert warnings and contraindications could not be retrieved, so please 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (uterine PEComa) is supported only by a model score, with no trials or publications, and a mechanistic link that is speculative. Ruxolitinib is currently marketed in New Zealand (4 of 4 licences valid). HLH is the most credible repurposing direction (L3 evidence, mostly non-randomized), but it is a lower-ranked prediction and would need its own evaluation. Liposarcoma remains a preclinical research question.
+The top-ranked prediction (uterine PEComa) is supported only by a model score, with no trials or publications, and a mechanistic link that is speculative. HLH is the most credible repurposing direction (L3 evidence, mostly non-randomized), but it is a lower-ranked prediction and would need its own evaluation. Liposarcoma remains a preclinical research question.
 
 **To proceed, the following is needed:**
 - Mechanism-of-action data for ruxolitinib to support the mechanistic-link analysis

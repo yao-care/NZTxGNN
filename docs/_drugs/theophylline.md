@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "THEOPHYLLINE"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Asthma"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **thrombotic disease**, but the
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Number of Approvals | 2 (both single-ingredient licences; approval type not specified in the records) |
 | Recommended Decision | Hold |
 
@@ -81,10 +81,12 @@ None of the retrieved publications directly studies theophylline for thrombotic 
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 255092 | Nuelin | Oral liquid 80 mg per 15 ml | Not stated in the licence records |
-| 255149 | Nuelin-SR | Long-acting tablet 250 mg | Not stated in the licence records |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 255092 | Nuelin | Theophylline | Oral liq 80 mg per 15 ml | Yes |
+| 255149 | Nuelin-SR | Theophylline | Tab long-acting 250 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

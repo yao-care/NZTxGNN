@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ It is a model-only signal and most likely reflects the association between autoi
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -93,13 +93,13 @@ For reference, the only indication with retrieved publications is the rank 6 pre
 
 ## New Zealand Market Information
 
-All three licences are valid, so the product is currently marketed in New Zealand.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2146746 | Lantus | Insulin glargine | Inj 100 u per ml, 10 ml | Yes |
+| 2146754 | Lantus | Insulin glargine | Inj 100 u per ml, 3 ml | Yes |
+| 2275406 | Lantus SoloStar | Insulin glargine | Inj 100 u per ml, 3 ml disposable pen | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2146746 | Lantus | Inj 100 u per ml, 10 ml | Not available (valid) |
-| 2146754 | Lantus | Inj 100 u per ml, 3 ml | Not available (valid) |
-| 2275406 | Lantus SoloStar | Inj 100 u per ml, 3 ml disposable pen | Not available (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -119,7 +119,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is supported only by a model score, with no trials or publications (Evidence Level L5). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The drug is marketed in New Zealand, with 3 valid licences of 3.
+The top prediction is supported only by a model score, with no trials or publications (Evidence Level L5). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Direct clinical or mechanistic evidence for insulin glargine in autoimmune oophoritis, or confirmation that the signal is only a diabetes-comorbidity artefact

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are currently **no registered clinical trials** and only **1 publicati
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,10 +86,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2553708 | Ofev | Cap 150 mg | Not available (licence valid) |
-| 2553694 | Ofev | Cap 100 mg | Not available (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2553694 | Ofev | Nintedanib | Cap 100 mg | Yes |
+| 2553708 | Ofev | Nintedanib | Cap 150 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -121,7 +123,7 @@ For other safety information (warnings and contraindications), please refer to t
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, and PDGFR-beta activation in DFSP gives a plausible mechanism. However, there are no clinical trials and no nintedanib-specific publications, and imatinib is already the established targeted therapy. In addition, nintedanib is marketed in New Zealand, with 2 valid licences of 2.
+The prediction score is high, and PDGFR-beta activation in DFSP gives a plausible mechanism. However, there are no clinical trials and no nintedanib-specific publications, and imatinib is already the established targeted therapy.
 
 **To proceed, the following is needed:**
 - Nintedanib-specific preclinical or clinical data in DFSP, especially in imatinib-resistant disease

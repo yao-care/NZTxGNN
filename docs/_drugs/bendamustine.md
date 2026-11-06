@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bendamustine: predicted new indication mantle cell lymphoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Bendamustine is a bifunctional alkylating chemotherapy agent used in B-cell mali
 | Predicted New Indication | mantle cell lymphoma |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -94,13 +94,15 @@ The table lists the most relevant trials of the compiled set. It includes five P
 
 The data compiled for this report records five single-ingredient bendamustine licences, listed below. No indication text is recorded for them.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2524058 | Baxter | Inj 1 mg for ECP |
-| 2691434 | Bendamustine Sandoz | Inj 25 mg vial |
-| 2691442 | Bendamustine Sandoz | Inj 100 mg vial |
-| 2483807 | Ribomustin | Inj 25 mg vial |
-| 2483793 | Ribomustin | Inj 100 mg vial |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2524058 | Baxter | Bendamustine hydrochloride | Inj 1 mg for ECP | Yes |
+| 2483793 | Ribomustin | Bendamustine hydrochloride | Inj 100 mg vial | Yes |
+| 2691442 | Bendamustine Sandoz | Bendamustine hydrochloride | Inj 100 mg vial | Yes |
+| 2483807 | Ribomustin | Bendamustine hydrochloride | Inj 25 mg vial | Yes |
+| 2691434 | Bendamustine Sandoz | Bendamustine hydrochloride | Inj 25 mg vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

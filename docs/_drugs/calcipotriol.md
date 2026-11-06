@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Calcipotriol: predicted new indication seborrheic keratosis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **seborrheic keratosis**, with **n
 | Predicted New Indication | seborrheic keratosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,14 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2592673 | Daivonex | Ointment 50 mcg per g | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2592673 | Daivonex | Calcipotriol | Oint 50 mcg per g | Yes |
+| 2582236 | Enstilar | Betamethasone dipropionate with calcipotriol | Foam spray 500 mcg with calcipotriol 50 mcg per g | Yes |
+| 2553015 | Daivobet | Betamethasone dipropionate with calcipotriol | Gel 500 mcg with calcipotriol 50 mcg per g | Yes |
+| 2170914 | Daivobet | Betamethasone dipropionate with calcipotriol | Oint 500 mcg with calcipotriol 50 mcg per g | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

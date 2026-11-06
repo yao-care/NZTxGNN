@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fluoxetine: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Relations recorded in the knowledge graph: major depressive disorder…"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **schizoid personality disorder**,
 | Predicted New Indication | Schizoid personality disorder |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Number of Approvals | 2 (both single-ingredient products; list is complete) |
 | Recommended Decision | Hold |
 
@@ -85,12 +85,12 @@ Neither publication directly studies fluoxetine in schizoid personality disorder
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2618575 | Fluox | Dispersible tablet 20 mg, scored | No indication text in the data compiled |
-| 2450860 | Arrow-Fluoxetine | Capsule 20 mg | No indication text in the data compiled |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2450860 | Arrow-Fluoxetine | Fluoxetine hydrochloride | Cap 20 mg | Yes |
+| 2618575 | Fluox | Fluoxetine hydrochloride | Tab dispersible 20 mg, scored | Yes |
 
-Both licences are valid single-ingredient products.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

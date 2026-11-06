@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 377
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **no registered clinical trials** but **19 publications** (including a plac
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -83,10 +83,14 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 317659 | Redipred | Oral liquid 5 mg per ml | Not recorded (valid) |
-| 307475 | Minims Prednisolone | Eye drops 0.5%, single dose (preservative free) | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 317659 | Redipred | Prednisolone | Oral liq 5 mg per ml | Yes |
+| 2501511 | Prednisolone-AFT | Prednisolone acetate | Eye drops 1% | Yes |
+| 260533 | Pred Forte | Prednisolone acetate | Eye drops 1% | Yes |
+| 307475 | Minims Prednisolone | Prednisolone sodium phosphate | Eye drops 0.5%, single dose (preservative free) | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -104,7 +108,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-A placebo-controlled RCT, a Cochrane network meta-analysis and systematic reviews support oral pulse prednisolone in alopecia areata, but there are no registered trials. Relapse after withdrawal and steroid toxicity limit its use, and JAK inhibitors are preferred for severe disease. Neither New Zealand licence is currently valid.
+A placebo-controlled RCT, a Cochrane network meta-analysis and systematic reviews support oral pulse prednisolone in alopecia areata, but there are no registered trials. Relapse after withdrawal and steroid toxicity limit its use, and JAK inhibitors are preferred for severe disease.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

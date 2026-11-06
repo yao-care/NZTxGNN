@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Benzatropine"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Benzatropine: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ This is a model prediction only: **0 clinical trials** and **0 publications** we
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
 | TxGNN Prediction Score | 0.9917 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,10 +79,12 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2580454 | Phebra | Inj 1 mg per ml, 2 ml |
-| 2123169 | Benztrop | Tab 2 mg |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2580454 | Phebra | Benzatropine mesylate | Inj 1 mg per ml, 2 ml | Yes |
+| 2123169 | Benztrop | Benzatropine mesylate | Tab 2 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

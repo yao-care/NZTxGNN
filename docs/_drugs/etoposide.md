@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "ETOPOSIDE"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 description: "Etoposide: predicted new indication Well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This report uses Ewing sarcoma as the lead indication because the top-ranked pre
 | Predicted New Indication | Well-differentiated fetal adenocarcinoma of the lung |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -98,15 +98,16 @@ Several other registered trials are small, terminated or withdrawn. For rhabdomy
 
 ## New Zealand Market Information
 
-All six licences are valid, and no approved indication text is available.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 332704 | Vepesid | Etoposide | Cap 100 mg | Yes |
+| 332690 | Vepesid | Etoposide | Cap 50 mg | Yes |
+| 2204118 | Baxter | Etoposide | Inj 1 mg for ECP | Yes |
+| 2480913 | Rex Medical | Etoposide | Inj 20 mg per ml, 5 ml vial | Yes |
+| 2207613 | Baxter | Etoposide phosphate | Inj 1 mg (of etoposide base) for ECP | Yes |
+| 493953 | Etopophos | Etoposide phosphate | Inj 100 mg (of etoposide base) | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 332704 | Vepesid | Cap 100 mg | Not available (valid) |
-| 332690 | Vepesid | Cap 50 mg | Not available (valid) |
-| 2480913 | Rex Medical | Inj 20 mg per ml, 5 ml vial | Not available (valid) |
-| 493953 | Etopophos | Inj 100 mg (of etoposide base) | Not available (valid) |
-| 2204118 | Baxter | Inj 1 mg for ECP | Not available (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 A sixth licence (2207613, Baxter, Inj 1 mg of etoposide base for ECP) is also cancelled.
 

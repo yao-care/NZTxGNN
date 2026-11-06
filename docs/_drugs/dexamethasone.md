@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Dexamethasone is a synthetic glucocorticoid with strong anti-inflammatory and im
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 8 (valid: 8) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 11 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,15 +68,23 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Dexamethasone is marketed in New Zealand. All 8 licences in the local data are valid. The table lists 5 of them. The local data does not record approved indication text for these licences.
+Dexamethasone is marketed in New Zealand. The table lists 5 of them. The local data does not record approved indication text for these licences.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2490218 | Dexmethsone | Tab 0.5 mg |
-| 2490226 | Dexmethsone | Tab 4 mg |
-| 344842 | Biomed | Oral liq 1 mg per ml |
-| 207446 | Maxidex | Eye drops 0.1% |
-| 2690535 | Dexamethasone Medsurge | Inj 4 mg per ml, 2 ml ampoule |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 207446 | Maxidex | Dexamethasone | Eye drops 0.1% | Yes |
+| 207373 | Maxidex | Dexamethasone | Eye oint 0.1% | Yes |
+| 2529610 | Ozurdex | Dexamethasone | Ocular implant 700 mcg | Yes |
+| 344842 | Biomed | Dexamethasone | Oral liq 1 mg per ml | Yes |
+| 2490218 | Dexmethsone | Dexamethasone | Tab 0.5 mg | Yes |
+| 2490226 | Dexmethsone | Dexamethasone | Tab 4 mg | Yes |
+| 2690527 | Dexamethasone Medsurge | Dexamethasone phosphate | Inj 4 mg per ml, 1 ml ampoule | Yes |
+| 2690535 | Dexamethasone Medsurge | Dexamethasone phosphate | Inj 4 mg per ml, 2 ml ampoule | Yes |
+| 208728 | Sofradex | Dexamethasone with framycetin and gramicidin | Ear/Eye drops 500 mcg with framycetin sulphate 5… | No |
+| 207454 | Maxitrol | Dexamethasone with neomycin sulphate and polymyxin B sulpha… | Eye drops 0.1% with neomycin sulphate 0.35% and p… | Yes |
+| 207381 | Maxitrol | Dexamethasone with neomycin sulphate and polymyxin B sulpha… | Eye oint 0.1% with neomycin sulphate 0.35% and po… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 The remaining licences cover Maxidex eye ointment 0.1%, Dexamethasone Medsurge injection 4 mg per ml (1 ml ampoule) and Ozurdex ocular implant 700 mcg.
 

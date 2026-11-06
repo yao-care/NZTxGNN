@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not stated in the licence data"
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
@@ -50,8 +50,8 @@ Palbociclib is a CDK4/6 inhibitor used in oncology. The top TxGNN prediction (hy
 | Predicted New Indication | Rheumatoid arthritis (the top-ranked prediction, hyperthyroidism, has no evidence; see below) |
 | TxGNN Prediction Score | 0.9936 (rheumatoid arthritis); 0.9944 for hyperthyroidism |
 | Evidence Level | L5 (rheumatoid arthritis); L5 (hyperthyroidism) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold (rheumatoid arthritis is a research question only) |
 
 ### All Predicted Indications
@@ -100,13 +100,13 @@ These describe thrombosis as a risk, not a therapeutic effect. No literature was
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2709074 | Palbociclib Pfizer | Tab 125 mg | Not available (valid) |
-| 2709066 | Palbociclib Pfizer | Tab 100 mg | Not available (valid) |
-| 2709058 | Palbociclib Pfizer | Tab 75 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2709066 | Palbociclib Pfizer | Palbociclib | Tab 100 mg | Yes |
+| 2709074 | Palbociclib Pfizer | Palbociclib | Tab 125 mg | Yes |
+| 2709058 | Palbociclib Pfizer | Palbociclib | Tab 75 mg | Yes |
 
-All three authorizations are valid; the drug is currently marketed, according to the data compiled for this report.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -130,7 +130,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-Rheumatoid arthritis has biologically plausible but indirect support (one case report, one cohort study, and preclinical studies) and no clinical trials, so it is a research question rather than an actionable repurposing candidate. Other predictions rest on model scores alone or are contradicted by safety signals. In addition, all three New Zealand authorizations are valid and the drug is marketed, but the package insert safety data are missing.
+Rheumatoid arthritis has biologically plausible but indirect support (one case report, one cohort study, and preclinical studies) and no clinical trials, so it is a research question rather than an actionable repurposing candidate. Other predictions rest on model scores alone or are contradicted by safety signals.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "METOLAZONE"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Metolazone: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,11 @@ No literature directly supports the top predicted indication. The only publicati
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2438232 (cancelled) | Zaroxolyn | Tab 5 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2438232 | Zaroxolyn | Metolazone | Tab 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -96,7 +98,7 @@ Please refer to the package insert for warnings and further safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no clinical trials and no supporting literature, so the evidence level is L5. Thiazide-type diuretics are not standard therapy for malignant hypertensive renal disease, which is a hypertensive emergency. The only New Zealand authorisation has been cancelled, and the knowledge graph flags several contraindications, including renal-related ones such as anuria.
+The prediction rests on a model score alone. There are no clinical trials and no supporting literature, so the evidence level is L5. Thiazide-type diuretics are not standard therapy for malignant hypertensive renal disease, which is a hypertensive emergency. The knowledge graph flags several contraindications, including renal-related ones such as anuria.
 
 **To proceed, the following is needed:**
 - Clinical or mechanistic evidence linking metolazone to malignant hypertensive renal disease

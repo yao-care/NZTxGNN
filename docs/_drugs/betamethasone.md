@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 63
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Current support is thin: **0 clinical trials** and **1 publication**, a 1964 cas
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 9 (valid: 9) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (14 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 14 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,15 +79,26 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 210870 | Diprosone | Cream 0.05% | Not recorded (valid) |
-| 210897 | Diprosone | Ointment 0.05% | Not recorded (valid) |
-| 2188759 | Beta Ointment | Ointment 0.1% | Not recorded (valid) |
-| 512877 | Beta Scalp | Scalp application 0.1% | Not recorded (valid) |
-| 2188740 | Beta Cream | Cream 0.1% | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 201839 | Diprosone | Betamethasone dipropionate | Crm 0.05% | Yes |
+| 210870 | Diprosone | Betamethasone dipropionate | Crm 0.05% | Yes |
+| 210889 | Diprosone | Betamethasone dipropionate | Oint 0.05% | Yes |
+| 210897 | Diprosone | Betamethasone dipropionate | Oint 0.05% | Yes |
+| 2062844 | Diprosone OV | Betamethasone dipropionate | Oint 0.05% in propylene glycol base | Yes |
+| 2188740 | Beta Cream | Betamethasone valerate | Crm 0.1% | Yes |
+| 210110 | Betnovate | Betamethasone valerate | Lotn 0.1% | Yes |
+| 2188759 | Beta Ointment | Betamethasone valerate | Oint 0.1% | Yes |
+| 512877 | Beta Scalp | Betamethasone valerate | Scalp app 0.1% | Yes |
+| 2582236 | Enstilar | Betamethasone dipropionate with calcipotriol | Foam spray 500 mcg with calcipotriol 50 mcg per g | Yes |
+| 2553015 | Daivobet | Betamethasone dipropionate with calcipotriol | Gel 500 mcg with calcipotriol 50 mcg per g | Yes |
+| 2170914 | Daivobet | Betamethasone dipropionate with calcipotriol | Oint 500 mcg with calcipotriol 50 mcg per g | Yes |
+| 733970 | Celestone Chronodose | Betamethasone sodium phosphate with betamethasone acetate | Inj 3.9 mg with betamethasone acetate 3 mg per ml… | No |
+| 629839 | Fucicort | Betamethasone valerate with sodium fusidate [fusidic acid] | Crm 0.1% with sodium fusidate (fusidic acid) 2% | No |
 
-Four further valid licences are not listed (Betnovate lotion 0.1%, Diprosone OV ointment, and two additional Diprosone products). All marketed forms are topical.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+All marketed forms are topical.
 
 ## Safety Considerations
 

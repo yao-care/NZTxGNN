@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PRIMAQUINE"
 predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
 description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **myiasis** (infestation by fly
 | Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,12 +81,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Both authorizations are cancelled, so no primaquine product is currently authorized in New Zealand. Any use would require an unapproved-medicine pathway or a new sponsor.
+Any use would require an unapproved-medicine pathway or a new sponsor.
 
-| Authorization Number | Product Name | Dosage Form | Status | Approved Indication |
-|---------|------|------|------|-----------|
-| 2587637 | Sanofi Primaquine | Tab 15 mg | Valid | Not recorded in the registry entry |
-| 2664062 | Bayshore | Tab 15 mg | Valid | Not recorded in the registry entry |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2587637 | Sanofi Primaquine | Primaquine | Tab 15 mg | Yes |
+| 2664062 | Bayshore | Primaquine | Tab 15 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -115,7 +117,6 @@ The prediction has no clinical trials, no literature and no plausible mechanism,
 - A systematic literature search beyond the model's retrieval, to confirm that no relevant reports exist.
 - Package insert warnings and contraindications, and the mechanism of action data, to support any safety assessment.
 - A benefit-risk comparison with the standard treatments for myiasis (such as wound care, larval removal and ivermectin), which are likely safer.
-- A plan for G6PD screening and a regulatory pathway, given that the drug is marketed with 2 valid New Zealand authorizations out of 2.
 
 Other predicted indications for primaquine, such as pneumocystosis (as a clindamycin combination) and malaria itself, have much stronger supporting evidence. They would be better candidates for evaluation.
 ## Disclaimer

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This is a model-only prediction without direct clinical support.
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,13 +95,16 @@ The compiled literature is almost entirely narrative reviews or indirect studies
 
 ## New Zealand Market Information
 
-All 3 licences are valid. The records contain no approved indication text.
+The records contain no approved indication text.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2610566 | Folic Acid multichem | Tab 0.8 mg | Not recorded |
-| 344850 | Biomed | Oral liq 50 mcg per ml | Not recorded |
-| 2633450 | Folic Acid Viatris | Tab 5 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 344850 | Biomed | Folic acid | Oral liq 50 mcg per ml | Yes |
+| 2610566 | Folic Acid multichem | Folic acid | Tab 0.8 mg | Yes |
+| 2633450 | Folic Acid Viatris | Folic acid | Tab 5 mg | Yes |
+| 2615584 | Ferro-F-Tabs | Ferrous fumarate with folic acid | Tab 310 mg (100 mg elemental) with folic acid 350… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

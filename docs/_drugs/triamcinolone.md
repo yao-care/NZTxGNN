@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 467
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa**, but **no
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,13 +74,17 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 253766 | Kenacort-A 40 | Injection 40 mg/ml, 1 ml ampoule | Not available (valid) |
-| 282499 | Kenacort-A 10 | Injection 10 mg/ml, 1 ml ampoule | Not available (valid) |
-| 250066 | Aristocort | Cream 0.02% | Not available (valid) |
-| 250082 | Aristocort | Ointment 0.02% | Not available (valid) |
-| 253790 | Kenalog in Orabase | Paste 0.1% | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 250066 | Aristocort | Triamcinolone acetonide | Crm 0.02% | Yes |
+| 282499 | Kenacort-A 10 | Triamcinolone acetonide | Inj 10 mg per ml, 1 ml ampoule | Yes |
+| 253766 | Kenacort-A 40 | Triamcinolone acetonide | Inj 40 mg per ml, 1 ml ampoule | Yes |
+| 250082 | Aristocort | Triamcinolone acetonide | Oint 0.02% | Yes |
+| 253790 | Kenalog in Orabase | Triamcinolone acetonide | Paste 0.1% | Yes |
+| 2083078 | Viaderm KC | Triamcinolone acetonide with gramicidin, neomycin and nysta… | Crm 1 mg with nystatin 100,000 u, neomycin sulpha… | No |
+| 253634 | Kenacomb | Triamcinolone acetonide with gramicidin, neomycin and nysta… | Ear drops 1 mg with nystatin 100,000 u, neomycin… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -95,7 +99,7 @@ Please refer to the package insert for full warnings and contraindications, as t
 **Decision: Hold**
 
 **Rationale:**
-The prediction for alopecia mucinosa has a very high model score but no clinical trials and no triamcinolone-specific literature (L4). All five New Zealand licences are valid, so the drug is marketed, and label safety information was not available.
+The prediction for alopecia mucinosa has a very high model score but no clinical trials and no triamcinolone-specific literature (L4).
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bevacizumab: predicted new indication epiglottis neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **epiglottis neoplasm**, but **no
 | Predicted New Indication | epiglottis neoplasm |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,11 +69,13 @@ Currently no related literature available for this predicted indication.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2700719 | Vegzelma | Inj 25 mg per ml, 16 ml vial | Not recorded |
-| 2700468 | Baxter | Inj 1 mg for ECP | Not recorded |
-| 2700700 | Vegzelma | Inj 25 mg per ml, 4 ml vial | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2700468 | Baxter | Bevacizumab | Inj 1 mg for ECP | Yes |
+| 2700719 | Vegzelma | Bevacizumab | Inj 25 mg per ml, 16 ml vial | Yes |
+| 2700700 | Vegzelma | Bevacizumab | Inj 25 mg per ml, 4 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

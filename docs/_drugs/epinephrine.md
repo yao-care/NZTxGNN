@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 180
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Supporting this are **15 registered clinical trials** (4 completed Phase 3 trial
 | Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -96,15 +96,18 @@ Other predictions in this analysis are weaker:
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2309823 | Aspen Adrenaline | Inj 1 in 1,000, 1 ml ampoule | Not recorded (valid) |
-| 603341 | DBL Adrenaline | Inj 1 in 1,000, 1 ml ampoule | Not recorded (valid) |
-| 534196 | Hospira | Inj 1 in 10,000, 10 ml ampoule | Not recorded (valid) |
-| 208191 | Epipen Jr | Inj 0.15 mg per 0.3 ml auto-injector | Not recorded (valid) |
-| 2390949 | Aspen Adrenaline | Inj 1 in 10,000, 10 ml ampoule | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 208191 | Epipen Jr | Adrenaline | Inj 0.15 mg per 0.3 ml auto-injector | Yes |
+| 223972 | Epipen | Adrenaline | Inj 0.3 mg per 0.3 ml auto-injector | Yes |
+| 2309823 | Aspen Adrenaline | Adrenaline | Inj 1 in 1,000, 1 ml ampoule | Yes |
+| 603341 | DBL Adrenaline | Adrenaline | Inj 1 in 1,000, 1 ml ampoule | Yes |
+| 2390949 | Aspen Adrenaline | Adrenaline | Inj 1 in 10,000, 10 ml ampoule | Yes |
+| 534196 | DBL Adrenaline | Adrenaline | Inj 1 in 10,000, 10 ml ampoule | Yes |
 
-A sixth licence (223972, Epipen, Inj 0.3 mg per 0.3 ml auto-injector) is also cancelled. All six licences are injectable forms; no inhaled epinephrine product is licensed in New Zealand.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+A sixth licence (223972, Epipen, Inj 0.3 mg per 0.3 ml auto-injector) is also cancelled.
 
 ## Safety Considerations
 

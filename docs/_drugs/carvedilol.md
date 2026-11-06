@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Carvedilol is a beta-blocker with additional alpha-1 blocking activity. The TxGN
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,13 +68,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2527324 | Carvedilol Sandoz | Tab 12.5 mg | Not recorded |
-| 2527316 | Carvedilol Sandoz | Tab 25 mg | Not recorded |
-| 2527332 | Carvedilol Sandoz | Tab 6.25 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2527324 | Carvedilol Sandoz | Carvedilol | Tab 12.5 mg | Yes |
+| 2527316 | Carvedilol Sandoz | Carvedilol | Tab 25 mg | Yes |
+| 2527332 | Carvedilol Sandoz | Carvedilol | Tab 6.25 mg | Yes |
 
-The local licence records list the three single-ingredient carvedilol tablet strengths above. The approved indication text is not recorded in the local data.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+The approved indication text is not recorded in the local data.
 
 ## Safety Considerations
 

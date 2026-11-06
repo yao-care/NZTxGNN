@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ALFACALCIDOL"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Alfacalcidol: predicted new indication Craniofacial conodysplasia (evidence level L5). Approved use: Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism…"
 ---
 
@@ -52,8 +52,8 @@ Currently **0 clinical trials** and **0 publications** support this specific pre
 | Predicted New Indication | Craniofacial conodysplasia |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,13 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 315761 | One-Alpha | Oral drops 2 mcg per ml | Not specified in licence record |
-| 203092 | One-Alpha | Capsule 1 mcg | Not specified in licence record |
-| 203084 | One-Alpha | Capsule 0.25 mcg | Not specified in licence record |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 203084 | One-Alpha | Alfacalcidol | Cap 0.25 mcg | Yes |
+| 203092 | One-Alpha | Alfacalcidol | Cap 1 mcg | Yes |
+| 315761 | One-Alpha | Alfacalcidol | Oral drops 2 mcg per ml | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 14
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Acetaminophen: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetamino
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 8 |
 
 ## Known uses among the model's candidates
 
@@ -72,15 +72,18 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetamino
 
 ## New Zealand Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 2643650 | Paracetamol | Oral liq 250 mg per 5 ml | Valid |
-| 2650665 | Paracetamol | Oral liq 120 mg per 5 ml | Valid |
-| 2611430 | Paracetamol | Tab 500 mg - bottle pack | Valid |
-| 2552663 | Paracetamol | Suppos 500 mg | Valid |
-| 2482711 | Paracetamol | Suppos 125 mg | Valid |
-| 2482738 | Paracetamol | Suppos 250 mg | Valid |
-| 2612712 | Paracetamol | Tab 500 mg - blister pack | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2721376 | Noumed | Paracetamol | Oral liq 120 mg per 5 ml | Yes |
+| 2643650 | Pamol | Paracetamol | Oral liq 250 mg per 5 ml | Yes |
+| 2482711 | Gacet | Paracetamol | Suppos 125 mg | Yes |
+| 2482738 | Gacet | Paracetamol | Suppos 250 mg | Yes |
+| 2552663 | Gacet | Paracetamol | Suppos 500 mg | Yes |
+| 2612712 | Pacimol | Paracetamol | Tab 500 mg - blister pack | Yes |
+| 2611430 | Noumed Paracetamol | Paracetamol | Tab 500 mg - bottle pack | Yes |
+| 2461234 | Paracetamol + Codeine (Relieve) | Paracetamol with codeine | Tab paracetamol 500 mg with codeine phosphate 8 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

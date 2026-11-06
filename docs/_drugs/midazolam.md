@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 300
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **2 clinical trials** (both only indirectly related) and **10 publications*
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,6 @@ with **2 clinical trials** (both only indirectly related) and **10 publications*
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known class pharmacology, midazolam is a benzodiazepine that enhances GABA-A receptor activity, producing sedative, hypnotic and anxiolytic effects. This mechanism is shared with approved benzodiazepine hypnotics such as flurazepam. This link rests on general knowledge of the drug class, not on the supplied data.
 
 Anxiety and insomnia are closely related conditions, and both respond to enhanced GABAergic inhibition. Oral midazolam was studied as a sleep medication in the 1980s and 1990s, including dose-finding studies and a multicentre comparison against flurazepam in chronic insomnia. These studies suggest clinical activity.
-
 
 ## Clinical Trial Evidence
 
@@ -83,15 +82,15 @@ Other retrieved publications (a lemborexant delirium pilot study, a rodent zolpi
 
 ## New Zealand Market Information
 
-All five licences are valid and no approved indication text is recorded.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2599279 | Midazolam-Baxter | Midazolam | Inj 1 mg per ml, 5 ml ampoule | Yes |
+| 2263076 | Midazolam-Pfizer | Midazolam | Inj 1 mg per ml, 5 ml plastic ampoule | Yes |
+| 2692406 | Midazolam-Pfizer | Midazolam | Inj 5 mg per ml, 1 ml plastic ampoule | Yes |
+| 2599260 | Midazolam-Baxter | Midazolam | Inj 5 mg per ml, 3 ml ampoule | Yes |
+| 2263068 | Midazolam-Pfizer | Midazolam | Inj 5 mg per ml, 3 ml plastic ampoule | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2263076 | Midazolam-Pfizer | Inj 1 mg per ml, 5 ml plastic ampoule | Not recorded (valid) |
-| 2599260 | Midazolam-Baxter | Inj 5 mg per ml, 3 ml ampoule | Not recorded (valid) |
-| 2692406 | Midazolam-Pfizer | Inj 5 mg per ml, 1 ml plastic ampoule | Not recorded (valid) |
-| 2599279 | Midazolam-Baxter | Inj 1 mg per ml, 5 ml ampoule | Not recorded (valid) |
-| 2263068 | Midazolam-Pfizer | Inj 5 mg per ml, 3 ml plastic ampoule | Not recorded (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The prediction is model-derived only.
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,17 +82,17 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All 7 licences are valid, and no approved indication text is recorded for them.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2455455 | Ginet | Cyproterone acetate with ethinyloestradiol | Tab 2 mg with ethinyloestradiol 35 mcg and 7 iner… | Yes |
+| 682055 | Mercilon 28 | Ethinyloestradiol with desogestrel | Tab 20 mcg with desogestrel 150 mcg and 7 inert t… | Yes |
+| 2637111 | Lo-Oralcon 20 ED | Ethinyloestradiol with levonorgestrel | Tab 20 mcg with levonorgestrel 100 mcg and 7 iner… | Yes |
+| 2637138 | Oralcon 30 ED | Ethinyloestradiol with levonorgestrel | Tab 30 mcg with levonorgestrel 150 mcg and 7 iner… | Yes |
+| 303542 | Brevinor 1/28 | Ethinyloestradiol with norethisterone | Tab 35 mcg with norethisterone 1 mg and 7 inert t… | Yes |
+| 2636077 | Norimin | Ethinyloestradiol with norethisterone | Tab 35 mcg with norethisterone 500 mcg and 7 iner… | Yes |
+| 410691 | Norimin | Ethinyloestradiol with norethisterone | Tab 35 mcg with norethisterone 500 mcg and 7 iner… | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 303542 | Brevinor 1/28 | Tab 35 mcg with norethisterone 1 mg and 7 inert tab | Valid |
-| 2636077 | Norimin | Tab 35 mcg with norethisterone 500 mcg and 7 inert tab | Valid |
-| 410691 | Norimin | Tab 35 mcg with norethisterone 500 mcg and 7 inert tab | Valid |
-| 2637138 | Oralcon 30 ED | Tab 30 mcg with levonorgestrel 150 mcg and 7 inert tablets | Valid |
-| 682055 | Mercilon 28 | Tab 20 mcg with desogestrel 150 mcg and 7 inert tab | Valid |
-
-Two further cancelled licences are not shown: Ginet (2455455) and Lo-Oralcon 20 ED (2637111).
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -115,7 +115,7 @@ Please refer to the package insert for authoritative warnings and contraindicati
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature and no established mechanistic link. Elevated plasma zinc is a laboratory finding rather than a disease with a therapeutic target. In addition, this drug is marketed in this country, with 7 valid licences out of 7.
+The prediction rests only on a model score, with no clinical trials, no literature and no established mechanistic link. Elevated plasma zinc is a laboratory finding rather than a disease with a therapeutic target.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for ethinylestradiol

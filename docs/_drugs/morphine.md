@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The evidence level is therefore **L5**.
 | Predicted New Indication | Myofascial pain syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (17 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 17 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,14 +83,29 @@ None of the publications below tests morphine as a treatment for myofascial pain
 
 ## New Zealand Market Information
 
-Morphine is marketed in New Zealand. All 4 licences on record are valid.
+Morphine is marketed in New Zealand.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 754293 | RA-Morph | Oral liquid 2 mg per ml | Not stated (valid) |
-| 754285 | RA-Morph | Oral liquid 1 mg per ml | Not stated (valid) |
-| 754307 | RA-Morph | Oral liquid 5 mg per ml | Not stated (valid) |
-| 754315 | RA-Morph | Oral liquid 10 mg per ml | Not stated (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 754285 | RA-Morph | Morphine hydrochloride | Oral liq 1 mg per ml | Yes |
+| 754315 | RA-Morph | Morphine hydrochloride | Oral liq 10 mg per ml | Yes |
+| 754293 | RA-Morph | Morphine hydrochloride | Oral liq 2 mg per ml | Yes |
+| 754307 | RA-Morph | Morphine hydrochloride | Oral liq 5 mg per ml | Yes |
+| 2106469 | m-Eslon | Morphine sulphate | Cap long-acting 10 mg | Yes |
+| 2106507 | m-Eslon | Morphine sulphate | Cap long-acting 100 mg | Yes |
+| 2106485 | m-Eslon | Morphine sulphate | Cap long-acting 30 mg | Yes |
+| 2106493 | m-Eslon | Morphine sulphate | Cap long-acting 60 mg | Yes |
+| 2602458 | Medsurge | Morphine sulphate | Inj 10 mg per ml, 1 ml ampoule | Yes |
+| 2602466 | Medsurge | Morphine sulphate | Inj 15 mg per ml, 1 ml ampoule | Yes |
+| 2602474 | Medsurge | Morphine sulphate | Inj 30 mg per ml, 1 ml ampoule | Yes |
+| 2602431 | Medsurge | Morphine sulphate | Inj 5 mg per ml, 1 ml ampoule | Yes |
+| 2670070 | Wockhardt | Morphine sulphate | Oral liq 2 mg per ml | Yes |
+| 2675048 | Oramorph | Morphine sulphate | Oral liq 2 mg per ml | Yes |
+| 2679361 | Oramorph CDC S29 | Morphine sulphate | Oral liq 2 mg per ml | Yes |
+| 2520990 | Sevredol | Morphine sulphate | Tab immediate-release 10 mg | Yes |
+| 2521008 | Sevredol | Morphine sulphate | Tab immediate-release 20 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

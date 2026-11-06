@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ARGININE"
 predicted_indications: ["gastroparesis (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Arginine: predicted new indication gastroparesis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and only **preclinical
 | Predicted New Indication | gastroparesis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,7 +83,7 @@ All of these are animal or mechanistic studies; only the first two relate to the
 
 ## New Zealand Market Information
 
-The licence records compiled for this report list four single-ingredient arginine products (Biomed powder, Solgar 500 mg capsule, Arginine2000 4 g sachet powder, Clinicians 1,000 mg tablet). No approved indication text is recorded for any of them.
+No approved indication text is recorded for any of them.
 
 ## Safety Considerations
 

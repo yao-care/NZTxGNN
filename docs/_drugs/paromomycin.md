@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PAROMOMYCIN"
 predicted_indications: ["hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
 description: "Paromomycin: predicted new indication Hepatoportal sclerosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model (deep learning) predicts it may be effective for **hepatoportal 
 | Predicted New Indication | Hepatoportal sclerosis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,9 +73,11 @@ For context, the second-ranked-by-literature prediction, peritonitis (score 0.99
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2434652 (cancelled) | Humatin | Cap 250 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2434652 | Humatin | Paromomycin | Cap 250 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -92,7 +94,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone (Evidence Level L5). There are no clinical trials or relevant publications, and the proposed mechanism is speculative. The only New Zealand authorization has been cancelled, and label safety information is unavailable.
+The prediction rests on model score alone (Evidence Level L5). There are no clinical trials or relevant publications, and the proposed mechanism is speculative. Label safety information is unavailable.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example, from DrugBank)

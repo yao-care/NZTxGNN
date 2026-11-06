@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Dorzolamide is a topical carbonic anhydrase inhibitor, originally used to lower 
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,13 @@ Currently no related literature available for primary hereditary glaucoma.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2398354 (cancelled) | Dortimopt | Eye drops 2% with timolol 0.5% | Not stated in the licence record |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2398354 | Dortimopt | Dorzolamide with timolol | Eye drops 2% with timolol 0.5% | Yes |
 
-The only New Zealand authorization is a fixed combination with timolol, and it is cancelled. The product is ophthalmic only.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+The product is ophthalmic only.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
 description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
 | TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2640120 | Systane Unit Dose | Eye drops 0.4% and propylene glycol 0.3%, 0.8 ml | Not stated (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2194864 | Movicol | Macrogol 3350 with potassium chloride, sodium bicarbonate a… | Powder for oral soln 13.125 g with potassium chlo… | Yes |
+| 2519887 | Molaxole | Macrogol 3350 with potassium chloride, sodium bicarbonate a… | Powder for oral soln 13.125 g with potassium chlo… | Yes |
+| 2718332 | Molaxole | Macrogol 3350 with potassium chloride, sodium bicarbonate a… | Powder for oral soln 13.125 g with potassium chlo… | Yes |
+| 2718634 | Systane Unit Dose | Polyethylene glycol 400 and propylene glycol | Eye drops 0.4% and propylene glycol 0.3%, 0.8 ml | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

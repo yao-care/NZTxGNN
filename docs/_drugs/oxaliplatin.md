@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 342
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **3 clinical trials** (2 directly relevant Phase 2 studies) and **20 public
 | Predicted New Indication | Malignant pleural mesothelioma |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L2 (one completed Phase 2 trial plus several published Phase 2 studies; no Phase 3 RCT) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -92,15 +92,15 @@ Other mesothelioma-related predictions have weaker support:
 
 ## New Zealand Market Information
 
-5 of 5 licences are valid in this country, and no approved indication text is available.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2207621 | Baxter | Oxaliplatin | Inj 1 mg for ECP | Yes |
+| 2339013 | Oxaliplatin Ebewe | Oxaliplatin | Inj 100 mg vial | Yes |
+| 2400553 | Oxaliplatin Actavis 100 | Oxaliplatin | Inj 100 mg vial | Yes |
+| 2571242 | Oxaliplatin Accord | Oxaliplatin | Inj 5 mg per ml, 20 ml vial | Yes |
+| 2654830 | Alchemy Oxaliplatin | Oxaliplatin | Inj 5 mg per ml, 20 ml vial | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2400553 | Oxaliplatin Actavis 100 | Inj 100 mg vial | Not available (valid) |
-| 2339013 | Oxaliplatin Ebewe | Inj 100 mg vial | Not available (valid) |
-| 2571242 | Oxaliplatin Accord | Inj 5 mg per ml, 20 ml vial | Not available (valid) |
-| 2207621 | Baxter | Inj 1 mg for ECP | Not available (valid) |
-| 2654830 | Alchemy Oxaliplatin | Inj 5 mg per ml, 20 ml vial | Not available (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -124,7 +124,7 @@ Label warnings and contraindications were not available. Please refer to the pac
 **Decision: Hold**
 
 **Rationale:**
-Evidence for pleural mesothelioma is limited to small, single-arm Phase 2 studies with mixed results, and there is no Phase 3 RCT. In New Zealand, all 5 oxaliplatin licences are valid, and the package insert safety review is blocked. The other predicted indications (epithelioid, sarcomatoid, visceral pleura) have no direct clinical evidence.
+Evidence for pleural mesothelioma is limited to small, single-arm Phase 2 studies with mixed results, and there is no Phase 3 RCT. In New Zealand, the package insert safety review is blocked. The other predicted indications (epithelioid, sarcomatoid, visceral pleura) have no direct clinical evidence.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications, to complete safety screening

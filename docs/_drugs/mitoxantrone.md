@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Evidence for the top-ranked prediction itself is limited to **19 publications** 
 | Predicted New Indication | Upper aerodigestive tract neoplasm (rank 1); head and neck cancer (rank 7) has the strongest evidence (upper aerodigestive tract neoplasm) |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 for the top prediction (observational and small phase II studies). Head and neck cancer is rated L1 in the compiled data, but this reflects a registered, not-yet-recruiting phase III trial rather than completed phase III results, so it should be read cautiously |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Proceed with Guardrails (head and neck cancer, as a research direction) |
 
 ---
@@ -104,12 +104,12 @@ Publications for the top-ranked prediction (upper aerodigestive tract neoplasm) 
 
 ## New Zealand Market Information
 
-Both New Zealand authorisations are cancelled, and no approved indication text is recorded for either.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2204096 | Baxter | Mitozantrone | Inj 1 mg for ECP | Yes |
+| 2270463 | Mitozantrone Ebewe | Mitozantrone | Inj 2 mg per ml, 10 ml vial | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2270463 | Mitozantrone Ebewe | Injection 2 mg/mL, 10 mL vial | Valid |
-| 2204096 | Baxter | Injection 1 mg for ECP | Valid |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -141,7 +141,7 @@ The package insert warnings and contraindications could not be obtained for this
 
 **Rationale:**
 - The top-ranked prediction (upper aerodigestive tract neoplasm) rests on small, mostly older phase II studies and has no registered trials, so it is at the research-question stage. Head and neck cancer, a closely related prediction, has the most active development, including a completed phase Ib study and a registered phase III trial in nasopharyngeal carcinoma. That phase III trial has not started recruiting, so efficacy is unconfirmed.
-- Both New Zealand authorisations are cancelled, and mitoxantrone carries significant myelosuppression and cardiotoxicity risks.
+- Mitoxantrone carries significant myelosuppression and cardiotoxicity risks.
 - Other predictions are weaker: small cell lung carcinoma (L4, Hold), well-differentiated fetal adenocarcinoma of the lung, pulmonary blastoma and bladder exstrophy complex (L5, Hold; bladder exstrophy is a congenital malformation with no plausible rationale and is likely a network artefact). Primary pulmonary lymphoma (L3) and BCR-ABL1-positive chronic myeloid leukaemia (L2, mainly blast-crisis phase II data in a field dominated by tyrosine kinase inhibitors) remain research questions.
 
 **To proceed, the following is needed:**

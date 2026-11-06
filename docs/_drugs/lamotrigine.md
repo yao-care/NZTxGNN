@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (partial epilepsy, Lennox-Gastaut syndrome)"
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -52,8 +52,8 @@ The best-supported direction in the data compiled for this report is the second-
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1); trigeminal neuralgia (rank 2) is the better-supported alternative |
 | TxGNN Prediction Score | 0.9997 (trigeminal nerve neoplasm); 0.9989 (trigeminal neuralgia) |
 | Evidence Level | L5 for trigeminal nerve neoplasm; L2 for trigeminal neuralgia |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold for trigeminal nerve neoplasm; Proceed with Guardrails for trigeminal neuralgia |
 
 ---
@@ -65,7 +65,6 @@ Currently, detailed mechanism of action data is not available in the data compil
 **Trigeminal nerve neoplasm (rank 1).** The high score from the TxGNN model (deep learning) most likely reflects similarities the model learned between related diseases, such as trigeminal neuralgia, a condition for which lamotrigine is used, and is not biological evidence. The two retrieved papers (a review and a Gamma Knife case report on a cavernous malformation) concern trigeminal neuralgia, not a tumour. There is no evidence that lamotrigine treats the neoplasm itself. At most, it might relieve secondary neuropathic pain.
 
 **Trigeminal neuralgia (rank 2).** Sodium channel blockade plausibly dampens the ectopic, paroxysmal firing of demyelinated trigeminal afferents. Guidelines such as the 2019 European Academy of Neurology guideline position lamotrigine as an add-on or alternative when carbamazepine or oxcarbazepine is not tolerated or is ineffective. This is mechanistically coherent with its antiseizure action, and the trial data below point the same way.
-
 
 ---
 
@@ -97,20 +96,19 @@ For the top-ranked prediction (trigeminal nerve neoplasm), the two publications 
 | [26876275](https://pubmed.ncbi.nlm.nih.gov/26876275/) | 2017 | Preclinical | Epilepsy Behav | Acute and chronic lamotrigine effects in a genetic audiogenic seizure hamster model |
 | [8734483](https://pubmed.ncbi.nlm.nih.gov/8734483/) | 1996 | Preclinical | Neuropharmacology | Lamotrigine antagonised audiogenic seizures in DBA/2 mice and potentiated other anticonvulsants |
 
-
 ---
 
 ## New Zealand Market Information
 
-All five licences are valid, and no approved indication text is available.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2553392 | Logem | Lamotrigine | Tab dispersible 100 mg | Yes |
+| 2040034 | Lamictal | Lamotrigine | Tab dispersible 2 mg | Yes |
+| 2553376 | Logem | Lamotrigine | Tab dispersible 25 mg | Yes |
+| 2056143 | Lamictal | Lamotrigine | Tab dispersible 5 mg | Yes |
+| 2553384 | Logem | Lamotrigine | Tab dispersible 50 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2040034 | Lamictal | Tab dispersible 2 mg | Valid |
-| 2056143 | Lamictal | Tab dispersible 5 mg | Valid |
-| 2553376 | Logem | Tab dispersible 25 mg | Valid |
-| 2553384 | Logem | Tab dispersible 50 mg | Valid |
-| 2553392 | Logem | Tab dispersible 100 mg | Valid |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -137,7 +135,6 @@ Please refer to the package insert for complete safety information; label warnin
 - Larger, adequately powered controlled trials of lamotrigine in trigeminal neuralgia, ideally Phase 3.
 - Prospective evaluation of startle-induced seizures if that direction is pursued.
 - Detailed mechanism of action data and the package insert warnings and contraindications.
-- Regulatory pathway clarification, noting that the drug is marketed in New Zealand with 5 valid licences out of 5.
 - A titration and rash-monitoring plan, plus a DDI management plan, especially for patients taking carbamazepine, valproate or opioids.
 ## Disclaimer
 

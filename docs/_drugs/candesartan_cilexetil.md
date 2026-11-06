@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CANDESARTAN CILEXETIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Candesartan cilexetil is an angiotensin II type 1 (AT1) receptor blocker. The Tx
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 8 (valid: 8) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (17 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 17 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,13 +68,27 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2380420 | Candestar | Tab 16 mg | Not recorded |
-| 2725371 | Candesartan Viatris Sante | Tab 16 mg | Not recorded |
-| 2725355 | Candesartan Viatris Sante | Tab 4 mg | Not recorded |
-| 2380404 | Candestar | Tab 4 mg | Not recorded |
-| 2380439 | Candestar | Tab 32 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2380420 | Candestar | Candesartan cilexetil | Tab 16 mg | Yes |
+| 2726467 | Candesartan Viatris | Candesartan cilexetil | Tab 16 mg | Yes |
+| 2733986 | Apo-Candesartan | Candesartan cilexetil | Tab 16 mg | Yes |
+| 2380439 | Candestar | Candesartan cilexetil | Tab 32 mg | Yes |
+| 2726475 | Candesartan Viatris | Candesartan cilexetil | Tab 32 mg | Yes |
+| 2733994 | Apo-Candesartan | Candesartan cilexetil | Tab 32 mg | Yes |
+| 2735164 | Candesartan Viatris | Candesartan cilexetil | Tab 32 mg | Yes |
+| 2380404 | Candestar | Candesartan cilexetil | Tab 4 mg | Yes |
+| 2725355 | Candesartan Viatris Sante | Candesartan cilexetil | Tab 4 mg | Yes |
+| 2726440 | Candesartan Viatris | Candesartan cilexetil | Tab 4 mg | Yes |
+| 2729539 | Candesartan Mylan | Candesartan cilexetil | Tab 4 mg | Yes |
+| 2734001 | Candesartan Sandoz S29 AU | Candesartan cilexetil | Tab 4 mg | Yes |
+| 2380412 | Candestar | Candesartan cilexetil | Tab 8 mg | Yes |
+| 2726459 | Candesartan Viatris | Candesartan cilexetil | Tab 8 mg | Yes |
+| 2733978 | Apo-Candesartan | Candesartan cilexetil | Tab 8 mg | Yes |
+| 2653893 | APO-Candesartan HCTZ 16/12.5 | Candesartan cilexetil with hydrochlorothiazide | Tab 16 mg with hydrochlorothiazide 12.5 mg | Yes |
+| 2653907 | APO-Candesartan HCTZ 32/12.5 | Candesartan cilexetil with hydrochlorothiazide | Tab 32 mg with hydrochlorothiazide 12.5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

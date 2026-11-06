@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: predicted new indication Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **precursor lymphoblastic lymph
 | Predicted New Indication | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -95,10 +95,11 @@ The table lists the 10 most relevant trials (the data contain 33 in total). In a
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2578158 | Oncaspar LYO | Inj 750 iu per ml, 5 ml vial | Not stated in the available record (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2578158 | Oncaspar | Pegaspargase | Inj 750 iu per ml, 5 ml vial | Yes |
 
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -122,7 +123,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The predicted indication is effectively the drug's original use, and it is backed by several large completed Phase 3 trials and RCTs in ALL where pegaspargase is part of the regimen. The main limits are that its individual contribution cannot be separated from the combinations, and that the New Zealand licence is cancelled.
+The predicted indication is effectively the drug's original use, and it is backed by several large completed Phase 3 trials and RCTs in ALL where pegaspargase is part of the regimen.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (currently unavailable, so formal safety screening cannot be completed)

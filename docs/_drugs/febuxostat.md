@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 194
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The mechanism also points in the opposite direction, because febuxostat lowers u
 | Predicted New Indication | Hypouricemia, renal |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -89,10 +89,12 @@ Two other predicted indications were also reviewed: partial HPRT deficiency (ran
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2670356 | Febuxostat (Teva) | Tab 80 mg | Not available (valid) |
-| 2670364 | Febuxostat (Teva) | Tab 120 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2670364 | Febuxostat (Teva) | Febuxostat | Tab 120 mg | Yes |
+| 2670356 | Febuxostat (Teva) | Febuxostat | Tab 80 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

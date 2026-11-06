@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Fluorescein: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not available"
 monitor_inn: "fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Fluorescein is a fluorescent dye used mainly as a diagnostic agent, for example in angiography and corneal staining. The only New Zealand licence on record for it is cancelled, and no approved indication text is available.
+Fluorescein is a fluorescent dye used mainly as a diagnostic agent, for example in angiography and corneal staining.
 The TxGNN model (deep learning) ranks **Prinzmetal angina** as its top prediction, but there are **0 clinical trials** and **0 publications** for that disease, so the prediction is **model-only (L5)**. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
@@ -49,8 +49,8 @@ The TxGNN model (deep learning) ranks **Prinzmetal angina** as its top predictio
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,11 @@ Literature was retrieved for lower-ranked predictions (rheumatoid arthritis, hem
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 307661 (cancelled) | Pinetarsol | Solution 2.3% with trolamine laurilsulfate and fluorescein sodium | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 307661 | Pinetarsol | Pine tar with trolamine laurilsulfate and fluorescein | Soln 2.3% with trolamine laurilsulfate and fluore… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and **0 publications** supporting this predi
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,15 @@ Currently no related literature available for opsismodysplasia.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2479451 | Vexazone | Tab 45 mg | Not available (valid) |
-| 2479443 | Vexazone | Tab 30 mg | Not available (valid) |
-| 2479435 | Vexazone | Tab 15 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2479435 | Vexazone | Pioglitazone | Tab 15 mg | Yes |
+| 2739917 | Rising | Pioglitazone | Tab 15 mg | Yes |
+| 2479443 | Vexazone | Pioglitazone | Tab 30 mg | Yes |
+| 2739925 | Rising | Pioglitazone | Tab 30 mg | Yes |
+| 2479451 | Vexazone | Pioglitazone | Tab 45 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

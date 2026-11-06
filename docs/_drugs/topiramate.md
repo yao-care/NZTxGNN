@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 457
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (14 of 14 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 14 (valid: 14) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (14 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 14 |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,6 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, topiramate acts through several mechanisms: blockade of voltage-gated sodium channels, enhancement of GABA-A activity, antagonism of AMPA/kainate glutamate receptors, and weak carbonic anhydrase inhibition. Its efficacy in epilepsy is well established.
 
 For the top-ranked prediction, **trigeminal nerve neoplasm**, no plausible mechanism links these actions to anti-tumour activity. The very high score (0.9970) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as trigeminal neuralgia, not biological evidence. Symptomatic relief of neuropathic pain is conceivable, but that would be a different indication.
-
 
 ---
 
@@ -92,15 +91,26 @@ For audiogenic seizures, preclinical studies include [10666508](https://pubmed.n
 
 ## New Zealand Market Information
 
-All 14 licences are currently valid. The approved indication text is not available for any of them. Five of the main authorizations are listed below.
+The approved indication text is not available for any of them. Five of the main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 437212 | Topamax | Sprinkle cap 15 mg | Valid |
-| 471011 | Topamax | Tab 200 mg | Valid |
-| 2350424 | Arrow-Topiramate | Tab 100 mg | Valid |
-| 2465841 | Topiramate Actavis | Tab 100 mg | Valid |
-| 470996 | Topamax | Tab 50 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 437212 | Topamax | Topiramate | Sprinkle cap 15 mg | Yes |
+| 437239 | Topamax | Topiramate | Sprinkle cap 25 mg | Yes |
+| 2350424 | Arrow-Topiramate | Topiramate | Tab 100 mg | Yes |
+| 2465841 | Topiramate Actavis | Topiramate | Tab 100 mg | Yes |
+| 471003 | Topamax | Topiramate | Tab 100 mg | Yes |
+| 2350432 | Arrow-Topiramate | Topiramate | Tab 200 mg | Yes |
+| 2465868 | Topiramate Actavis | Topiramate | Tab 200 mg | Yes |
+| 471011 | Topamax | Topiramate | Tab 200 mg | Yes |
+| 2350408 | Arrow-Topiramate | Topiramate | Tab 25 mg | Yes |
+| 2465825 | Topiramate Actavis | Topiramate | Tab 25 mg | Yes |
+| 470988 | Topamax | Topiramate | Tab 25 mg | Yes |
+| 2350416 | Arrow-Topiramate | Topiramate | Tab 50 mg | Yes |
+| 2465833 | Topiramate Actavis | Topiramate | Tab 50 mg | Yes |
+| 470996 | Topamax | Topiramate | Tab 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -120,13 +130,12 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (trigeminal nerve neoplasm) has a very high model score but no trials, no literature and no plausible anti-tumour mechanism, so it is not supported. The drug is marketed in New Zealand, with 14 of 14 licences valid.
+The top prediction (trigeminal nerve neoplasm) has a very high model score but no trials, no literature and no plausible anti-tumour mechanism, so it is not supported.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data
 - Disease-specific studies, such as case series or trials, for the reflex epilepsy indications
-- Clarification of the current availability of the product in New Zealand, where 14 of 14 licences are valid
 - Review of the knowledge-graph contraindications, especially renal, metabolic acidosis and cognitive effects, against the target population
 ## Disclaimer
 

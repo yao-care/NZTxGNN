@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 description: "Gemcitabine: predicted new indication Rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ with **33 clinical trials** and **20 publications** currently supporting this di
 | Predicted New Indication | Rectum mucinous adenocarcinoma |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (see note below) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level: the compiled data assign L1. The completed Phase 3 trial NCT00006459 (gemcitabine plus paclitaxel versus paclitaxel) and the large Phase 3 trial NCT00093795 (4,894 participants) both completed. However, no published results were retrieved for either, so L1 should be confirmed once the results are reviewed.*
@@ -98,12 +98,13 @@ No randomized controlled trial reports were retrieved. The literature consists m
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2320304 | Gemcitabine Ebewe | Gemcitabine hydrochloride | Inj 1 g | Yes |
+| 2207532 | Baxter | Gemcitabine hydrochloride | Inj 1 mg for ECP | Yes |
+| 2521423 | DBL Gemcitabine | Gemcitabine hydrochloride | Inj 43.3 mg per ml (equivalent to 38 mg per ml ge… | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2207532 | Baxter | Inj 1 mg for ECP | Not available |
-| 2320304 | Gemcitabine Ebewe | Inj 1 g | Not available |
-| 2521423 | DBL Gemcitabine | Inj 43.3 mg per ml (equivalent to 38 mg per ml gemcitabine), 26.3 ml vial | Not available |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

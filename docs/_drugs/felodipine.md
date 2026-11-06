@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 195
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Felodipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **pulmonary hypertension with unclear
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,7 +75,6 @@ For the top-ranked indication (pulmonary hypertension, multifactorial) and for m
 
 The two predictions with literature are summarised below.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [1746458](https://pubmed.ncbi.nlm.nih.gov/1746458/) | 1991 | Comparative clinical study | Am J Cardiol | Once-daily felodipine (10 and 20 mg) compared with nifedipine 20 mg four times daily in 30 patients with Prinzmetal's angina |
@@ -97,13 +96,13 @@ For pulmonary hypertension owing to lung disease/hypoxia, nine retrieved publica
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2041510 | Felo 5 ER | Tab long-acting 5 mg | Not recorded (valid) |
-| 353760 | Plendil ER | Tab long-acting 2.5 mg | Not recorded (valid) |
-| 2041499 | Felo 10 ER | Tab long-acting 10 mg | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2041499 | Felo 10 ER | Felodipine | Tab long-acting 10 mg | Yes |
+| 353760 | Plendil ER | Felodipine | Tab long-acting 2.5 mg | Yes |
+| 2041510 | Felo 5 ER | Felodipine | Tab long-acting 5 mg | Yes |
 
-All three authorizations are valid, so felodipine is currently marketed in New Zealand.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -118,7 +117,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked pulmonary hypertension prediction rests on model score alone (L5), with no trials or literature. Felodipine's market authorizations in New Zealand are all valid (3 of 3).
+The top-ranked pulmonary hypertension prediction rests on model score alone (L5), with no trials or literature.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

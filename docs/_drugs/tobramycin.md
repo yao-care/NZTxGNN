@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 453
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are **no registered clinical trials** and only **8 publications**, non
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,14 +93,14 @@ None of these studies tests tobramycin in exposure keratitis.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2635690 | Tobramycin (Viatris) | Inj 40 mg per ml, 2 ml vial | Not available (valid) |
-| 331767 | Tobrex | Eye oint 0.3% | Not available (valid) |
-| 308390 | Tobrex | Eye drops 0.3% | Not available (valid) |
-| 2601648 | Tobramycin BNM | Solution for inhalation 60 mg per ml, 5 ml | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 308390 | Tobrex | Tobramycin | Eye drops 0.3% | Yes |
+| 331767 | Tobrex | Tobramycin | Eye oint 0.3% | Yes |
+| 2635690 | Tobramycin (Viatris) | Tobramycin | Inj 40 mg per ml, 2 ml vial | Yes |
+| 2601648 | Tobramycin BNM | Tobramycin | Solution for inhalation 60 mg per ml, 5 ml | Yes |
 
-All four authorizations are valid, so tobramycin products are currently marketed in New Zealand under these licences.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -121,7 +121,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but no clinical trials exist and none of the retrieved literature addresses exposure keratitis. There is also an in vitro corneal toxicity signal. In addition, all four New Zealand authorizations are valid, so the drug is currently marketed locally.
+The prediction score is very high, but no clinical trials exist and none of the retrieved literature addresses exposure keratitis. There is also an in vitro corneal toxicity signal.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (needed for safety screening)

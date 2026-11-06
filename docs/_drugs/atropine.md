@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 52
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Atropine: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and only **indirect, mostly precli
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,13 +81,13 @@ Of the retrieved publications, only some are relevant. None tests atropine as a 
 
 ## New Zealand Market Information
 
-Three licences are valid (3 of 3), but no approved indication text is recorded for any of them.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 200905 | Atropt | Atropine sulphate | Eye drops 1% | Yes |
+| 2528754 | Martindale | Atropine sulphate | Inj 600 mcg per ml, 1 ml ampoule | Yes |
+| 2693976 | Hikma | Atropine sulphate | Inj 600 mcg per ml, 1 ml ampoule | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2528754 | Martindale | Inj 600 mcg per ml, 1 ml ampoule | Not recorded (valid) |
-| 2693976 | Hikma | Inj 600 mcg per ml, 1 ml ampoule | Not recorded (valid) |
-| 200905 | Atropt | Eye drops 1% | Not recorded (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -104,7 +104,7 @@ Three licences are valid (3 of 3), but no approved indication text is recorded f
 **Decision: Hold**
 
 **Rationale:**
-The only support for atropine in migraine is a computational prediction plus indirect, mostly preclinical literature, and no clinical trial has tested it. All three New Zealand licences are valid, and the anticholinergic side-effect and interaction burden is substantial for a chronic indication.
+The only support for atropine in migraine is a computational prediction plus indirect, mostly preclinical literature, and no clinical trial has tested it. The anticholinergic side-effect and interaction burden is substantial for a chronic indication.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "NADOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Nadolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials** and **no directly relevant publications** currently s
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,14 +89,16 @@ No literature was retrieved for the top-ranked prediction. Twelve records were r
 
 ## New Zealand Market Information
 
-All four authorizations are valid (4 valid licences of 4). The records contain no approved indication text.
+The records contain no approved indication text.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2647540 | Nadolol BNM | Tab 40 mg | Not recorded (valid) |
-| 2647559 | Nadolol BNM | Tab 80 mg | Not recorded (valid) |
-| 2621118 | Nadolol BNM | Tab 40 mg | Not recorded (valid) |
-| 2621126 | Nadolol BNM | Tab 80 mg | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2621118 | Nadolol BNM | Nadolol | Tab 40 mg | Yes |
+| 2647540 | Nadolol BNM | Nadolol | Tab 40 mg | Yes |
+| 2621126 | Nadolol BNM | Nadolol | Tab 80 mg | Yes |
+| 2647559 | Nadolol BNM | Nadolol | Tab 80 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

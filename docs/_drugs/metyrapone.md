@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Metyrapone: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not stated in the New Zealand license record (clinical use: diagnosti…"
 monitor_inn: "METYRAPONE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -86,9 +86,11 @@ The only related publication across the top 10 predictions concerns a different 
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 388130 | Metopirone (valid) | Cap 250 mg | Not stated |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 388130 | Metopirone | Metyrapone | Cap 250 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -106,7 +108,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score (L5). There are no clinical trials or publications for the top prediction, and no plausible mechanistic link between 11-beta-hydroxylase inhibition and RYR1-mediated calcium dysregulation. The drug is marketed in New Zealand (1 valid licence of 1), and the contraindications involve adrenal insufficiency.
+The prediction is supported only by the TxGNN model score (L5). There are no clinical trials or publications for the top prediction, and no plausible mechanistic link between 11-beta-hydroxylase inhibition and RYR1-mediated calcium dysregulation. The contraindications involve adrenal insufficiency.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence connecting steroidogenesis inhibition to malignant hyperthermia pathophysiology, or preclinical studies in a relevant model

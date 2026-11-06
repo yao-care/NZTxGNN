@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
 description: "Risdiplam: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction rests only on a TxGNN model (deep learning) score.
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,11 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2649403 | Evrysdi (valid) | Powder for oral solution, 750 mcg per mL, 60 mg per bottle | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2649403 | Evrysdi | Risdiplam | Powder for oral soln 750 mcg per ml, 60 mg per bo… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 The available formulation is oral only.
 
@@ -92,7 +94,7 @@ Please refer to the package insert for warnings and contraindications, as this i
 **Decision: Hold**
 
 **Rationale:**
-The only support for this prediction is a high TxGNN score, with no clinical trials, no literature and no plausible mechanism (Evidence Level L5). The drug's New Zealand licence is cancelled, and its preclinical retinal and epithelial toxicity signals are difficult to justify for acne.
+The only support for this prediction is a high TxGNN score, with no clinical trials, no literature and no plausible mechanism (Evidence Level L5). Its preclinical retinal and epithelial toxicity signals are difficult to justify for acne.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological link between SMN2 splicing modulation and acne pathogenesis

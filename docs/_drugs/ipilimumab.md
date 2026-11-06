@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
 description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **choroideremia**, an inherited
 | Predicted New Indication | Choroideremia |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,13 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Status | Approved Indication |
-|---------|------|------|------|-----------|
-| 2703246 | Yervoy | Inj 5 mg per ml, 40 ml vial | Valid | — |
-| 2703238 | Yervoy | Inj 5 mg per ml, 10 ml vial | Valid | — |
-| 2701782 | Baxter | Inj 1 mg for ECP | Valid | — |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2701782 | Baxter | Ipilimumab | Inj 1 mg for ECP | Yes |
+| 2703238 | Yervoy | Ipilimumab | Inj 5 mg per ml, 10 ml vial | Yes |
+| 2703246 | Yervoy | Ipilimumab | Inj 5 mg per ml, 40 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -103,13 +105,11 @@ Please refer to the package insert for other safety information.
 **Rationale:**
 The prediction has no supporting trials or publications, and the disease biology has no plausible link to CTLA-4 blockade. Immune-related ocular toxicity is a further concern. The high TxGNN score alone does not justify further investment.
 
-
 **To proceed, the following is needed:**
 - Any preclinical or mechanistic evidence linking CTLA-4 pathways to choroideremia pathology
 - The Medsafe package insert, to confirm warnings and contraindications (currently unavailable)
 - Detailed mechanism-of-action data
 - An ocular safety assessment of checkpoint inhibition in inherited retinal disease
-- Confirmation of current New Zealand availability, noting that the drug is marketed and all three licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

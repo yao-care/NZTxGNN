@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "mitomycin"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
 description: "Mitomycin: predicted new indication Solid pseudopapillary carcinoma of pancreas (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** directly 
 | Predicted New Indication | Solid pseudopapillary carcinoma of pancreas |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,14 +77,15 @@ There is no literature for the top-ranked prediction. The table below lists the 
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2207605 | Baxter | Mitomycin C | Inj 1 mg for ECP | Yes |
+| 2601761 | Teva | Mitomycin C | Inj 20 mg vial | Yes |
+| 2137844 | Accord | Mitomycin C | Inj 5 mg vial | Yes |
+| 2677016 | Mitomycin (Fresenius Kabi) | Mitomycin C | Inj 5 mg vial | Yes |
+| 2686937 | Mitomycin (Sagent) | Mitomycin C | Inj 5 mg vial | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2601761 | Teva | Inj 20 mg vial | Valid |
-| 2677016 | Mitomycin (Fresenius Kabi) | Inj 5 mg vial | Valid |
-| 2137844 | Accord | Inj 5 mg vial | Valid |
-| 2686937 | Mitomycin (Sagent) | Inj 5 mg vial | Valid |
-| 2207605 | Baxter | Inj 1 mg for ECP | Valid |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

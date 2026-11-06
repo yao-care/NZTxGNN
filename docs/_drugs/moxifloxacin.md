@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "MOXIFLOXACIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
 description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **Hyperamylasemia**, but there are **
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,6 @@ Moxifloxacin is an antibacterial fluoroquinolone that inhibits bacterial DNA gyr
 For the top-ranked prediction, **hyperamylasemia**, no plausible mechanism is evident. Moxifloxacin has no known effect on amylase metabolism, and the high score (about 0.9998) is a model output without trial or literature support. The same is true of the other high-scoring predictions: polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, premalignant haematological disease and haematopoietic and lymphoid neoplasm. None has a mechanistic link, and none has supporting trials.
 
 Some predictions point to safety concerns rather than benefits. Peripheral neuropathy is a known fluoroquinolone adverse effect, which makes the prediction of a haematological disease associated with acquired peripheral neuropathy a safety signal. Likewise, fluoroquinolone-associated dysglycaemia is relevant to the congenital analbuminemia case report on recurrent hypoglycaemia.
-
 
 ---
 
@@ -99,9 +98,12 @@ No literature is available for hyperamylasemia. The publications below relate to
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2022362 | Avelox | Tab 400 mg | Not recorded (status: valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2022362 | Avelox | Moxifloxacin | Tab 400 mg | Yes |
+| 2717913 | Moximed | Moxifloxacin | Tab 400 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -135,7 +137,7 @@ The top-ranked prediction, hyperamylasemia, has no mechanistic rationale, no tri
 - Detailed mechanism-of-action data from DrugBank
 - For bubonic plague: human clinical data, and confirmation of whether it is already covered by existing plague indications
 - For the other predictions: a plausible mechanism and at least preliminary clinical evidence before any further evaluation
-- A review of the New Zealand regulatory pathway, given the cancelled licence, and a safety assessment of the QT, tendon, neuropathy and dysglycaemia risks
+- A review of the New Zealand regulatory pathway and a safety assessment of the QT, tendon, neuropathy and dysglycaemia risks
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

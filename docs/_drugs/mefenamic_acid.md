@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 283
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ No clinical trials are registered for this prediction, but **19 publications** e
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L2 (supported by older, small trials in migraine only; no registered trials) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,12 +81,15 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-Both New Zealand licences are valid, single-ingredient products. The approved indication text is not recorded in the local data.
+The approved indication text is not recorded in the local data.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 616168 | Ponstan | Cap 250 mg | Not available in the licence data |
-| 2469499 | Ponstan | Cap 250 mg | Not available in the licence data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2469499 | Ponstan | Mefenamic acid | Cap 250 mg | No |
+| 2720523 | Ponstan | Mefenamic acid | Cap 250 mg | No |
+| 616168 | Ponstan | Mefenamic acid | Cap 250 mg | No |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

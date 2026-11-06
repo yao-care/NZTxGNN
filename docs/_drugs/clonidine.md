@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CLONIDINE"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clonidine: predicted new indication faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Currently there are **no clinical trials** and **no publications** supporting th
 | Predicted New Indication | faciodigitogenital syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,13 +70,16 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2523078 | Mylan | Patch 2.5 mg, 100 mcg per day | Not recorded |
-| 2630249 | Clonidine Teva | Tab 25 mcg | Not recorded |
-| 202274 | Catapres | Tab 150 mcg | Not recorded |
-| 202266 | Catapres | Inj 150 mcg per ml, 1 ml ampoule | Not recorded |
-| 2523094 | Mylan | Patch 7.5 mg, 300 mcg per day | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2523078 | Mylan | Clonidine | Patch 2.5 mg, 100 mcg per day | Yes |
+| 2523086 | Mylan | Clonidine | Patch 5 mg, 200 mcg per day | Yes |
+| 2523094 | Mylan | Clonidine | Patch 7.5 mg, 300 mcg per day | Yes |
+| 202266 | Catapres | Clonidine hydrochloride | Inj 150 mcg per ml, 1 ml ampoule | Yes |
+| 202274 | Catapres | Clonidine hydrochloride | Tab 150 mcg | Yes |
+| 2630249 | Clonidine Teva | Clonidine hydrochloride | Tab 25 mcg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

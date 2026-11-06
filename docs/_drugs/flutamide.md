@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 210
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "FLUTAMIDE"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Flutamide: predicted new indication Fibroma of prostate (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Flutamide is a nonsteroidal androgen receptor antagonist, originally used to tre
 | Predicted New Indication | Fibroma of prostate |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (for the top-ranked prediction) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -70,7 +70,6 @@ Other predictions in the top 10 fall into three groups:
 ---
 
 ## Clinical Trial Evidence
-
 
 The table lists the most relevant ones. Many of these are androgen-deprivation trials in prostate cancer in which flutamide's specific role is not confirmed in the data compiled for this report.
 
@@ -112,10 +111,12 @@ There is no literature for the top-ranked prediction. The table below draws on t
 
 Approved indication text is not available for either product.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2612232 | Prostacur | Tab 250 mg | Not available (valid) |
-| 259985 | Flutamin | Tab 250 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 259985 | Flutamin | Flutamide | Tab 250 mg | Yes |
+| 2612232 | Prostacur | Flutamide | Tab 250 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -153,7 +154,7 @@ The apparent evidence for broader categories mostly reflects flutamide's origina
 - Confirmation of flutamide's specific role in each prostate cancer trial before relying on the grading, since many trials matched through the broad condition category.
 - Medsafe package insert warnings and contraindications (currently a blocking data gap).
 - Mechanism of action data from DrugBank.
-- A hepatotoxicity monitoring and risk-benefit plan, and an assessment of whether any regulatory pathway exists given that both licences are cancelled.
+- A hepatotoxicity monitoring and risk-benefit plan, and an assessment of whether any regulatory pathway exists.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

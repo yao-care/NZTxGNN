@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ATOMOXETINE"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Atomoxetine: predicted new indication specific developmental disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Atomoxetine is a selective norepinephrine reuptake inhibitor. The TxGNN model pr
 | Predicted New Indication | specific developmental disorder |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,15 +79,19 @@ None of these publications directly studies specific developmental disorder as a
 
 ## New Zealand Market Information
 
-Five of the seven licences recorded are shown below. All are single-ingredient products.
+All are single-ingredient products.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2637081 | APO-Atomoxetine | Cap 40 mg |
-| 2637065 | APO-Atomoxetine | Cap 18 mg |
-| 2637073 | APO-Atomoxetine | Cap 25 mg |
-| 2638525 | APO-Atomoxetine | Cap 60 mg |
-| 2638517 | APO-Atomoxetine | Cap 10 mg |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2638517 | APO-Atomoxetine | Atomoxetine | Cap 10 mg | Yes |
+| 2638541 | APO-Atomoxetine | Atomoxetine | Cap 100 mg | Yes |
+| 2637065 | APO-Atomoxetine | Atomoxetine | Cap 18 mg | Yes |
+| 2637073 | APO-Atomoxetine | Atomoxetine | Cap 25 mg | Yes |
+| 2637081 | APO-Atomoxetine | Atomoxetine | Cap 40 mg | Yes |
+| 2638525 | APO-Atomoxetine | Atomoxetine | Cap 60 mg | Yes |
+| 2638533 | APO-Atomoxetine | Atomoxetine | Cap 80 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

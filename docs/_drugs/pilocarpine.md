@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 366
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Pilocarpine: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The model's candidates for Pilocarpine are all known uses, so there is currently
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 
 ## Known uses among the model's candidates
 
@@ -72,12 +72,14 @@ The model's candidates for Pilocarpine are all known uses, so there is currently
 
 ## New Zealand Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 252514 | Pilocarpine hydrochloride | Eye drops 1% | Valid |
-| 252522 | Pilocarpine hydrochloride | Eye drops 2% | Valid |
-| 252549 | Pilocarpine hydrochloride | Eye drops 4% | Valid |
-| 307335 | Pilocarpine nitrate | Eye drops 2% single dose | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 252514 | Isopto Carpine | Pilocarpine hydrochloride | Eye drops 1% | Yes |
+| 252522 | Isopto Carpine | Pilocarpine hydrochloride | Eye drops 2% | Yes |
+| 252549 | Isopto Carpine | Pilocarpine hydrochloride | Eye drops 4% | Yes |
+| 307335 | Minims Pilocarpine | Pilocarpine nitrate | Eye drops 2% single dose | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

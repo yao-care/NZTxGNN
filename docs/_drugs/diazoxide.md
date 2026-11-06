@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Diazoxide: predicted new indication Hypotrichosis simplex of the scalp . Alopecia is the best-supported p… (evidence level L5). Approved use: Hyperinsulinaemic hypoglycaemia…"
 monitor_inn: "DIAZOXIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
@@ -52,8 +52,8 @@ Evidence is indirect, and the same approach cannot be applied to the other highl
 | Predicted New Indication | Hypotrichosis simplex of the scalp (rank 1 by TxGNN). Alopecia (rank 4) is the best-supported prediction and is the focus of this report |
 | TxGNN Prediction Score | 0.9996 (hypotrichosis simplex of the scalp); 0.9991 (alopecia) |
 | Evidence Level | L5 for the top-ranked prediction; L4 for alopecia |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold (alopecia is a research question only) |
 
 ---
@@ -103,13 +103,13 @@ Related literature on hypertrichosis and the original indication:
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2434628 | Proglicem | Capsule 25 mg | Not available (valid) |
-| 2635674 | e5 Pharma | Oral liquid 50 mg per ml | Not available (valid) |
-| 2434601 | Proglicem | Capsule 100 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2434601 | Proglicem | Diazoxide | Cap 100 mg | Yes |
+| 2434628 | Proglicem | Diazoxide | Cap 25 mg | Yes |
+| 2635674 | e5 Pharma | Diazoxide | Oral liq 50 mg per ml | Yes |
 
-All three authorisations are valid, so diazoxide is currently marketed in New Zealand.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

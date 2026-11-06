@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 331
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Obinutuzumab: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Obinutuzu
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 
 ## Known uses among the model's candidates
 
@@ -73,10 +73,12 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Obinutuzu
 
 ## New Zealand Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 2514184 | Obinutuzumab | Inj 1 mg for ECP | Valid |
-| 2471981 | Obinutuzumab | Inj 25 mg per ml, 40 ml vial | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2514184 | Baxter | Obinutuzumab | Inj 1 mg for ECP | Yes |
+| 2471981 | Gazyva | Obinutuzumab | Inj 25 mg per ml, 40 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

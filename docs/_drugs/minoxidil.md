@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 303
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with schistosomiasis"]
 description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Evidence is at **Level L4**: **3 published case reports** (2022-2024), all of wh
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -86,12 +86,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-Minoxidil is marketed in New Zealand with 2 valid licences, both for 10 mg tablets.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2662981 | Minoxidil Roma | Minoxidil | Tab 10 mg | Yes |
+| 300438 | Loniten | Minoxidil | Tab 10 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2662981 | Minoxidil Roma | Tablet 10 mg | Not recorded (licence valid) |
-| 300438 | Loniten | Tablet 10 mg | Not recorded (licence valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 Only tablet forms appear in the local records. The literature on this condition includes topical and oral low-dose use, so route and formulation suitability would need to be confirmed.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Orphenadrine: predicted new indication Schizophrenia (evidence level L5). Approved use: Parkinsonian disorder / Parkinson disease"
 monitor_inn: "Orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is a retinal dystrophy with no supportin
 | Predicted New Indication | Schizophrenia (the top-ranked prediction, retinal dystrophy with or without extraocular anomalies, has no evidence and is not pursued here) |
 | TxGNN Prediction Score | 0.9913 (schizophrenia); the rank 1 prediction scores 0.9929 |
 | Evidence Level | L5 (schizophrenia); L5 for rank 1 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -94,9 +94,11 @@ The table lists the most relevant publications for schizophrenia. Study types ar
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2645564 (cancelled) | Norflex | Tab 100 mg | Not specified |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2645564 | Norflex | Orphenadrine citrate | Tab 100 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -122,7 +124,6 @@ The top-ranked predictions rest on computational scores alone, with no trials, n
 - Mechanism of action data (from DrugBank)
 - Medsafe package insert warnings and contraindications, which is a blocking gap for safety screening
 - For schizophrenia, a well-designed study of any antipsychotic or cognitive benefit separate from the control of extrapyramidal side effects, with attention to the cognitive and tardive dyskinesia risks of anticholinergics
-- A decision on whether the cancelled New Zealand licence matters for the intended use, since no current product is marketed
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

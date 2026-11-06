@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and only **1 publication** (not dr
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (by the pre-assigned rating; no clinical trials, and the only publication is not about perindopril) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,11 +78,16 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2643316 | Coversyl | Tab 8 mg | Not available (valid) |
-| 2603950 | Coversyl | Tab 4 mg | Not available (valid) |
-| 2603942 | Coversyl | Tab 2 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2726513 | Coversyl 10 | Perindopril | Tab 10 mg | Yes |
+| 2603942 | Coversyl | Perindopril | Tab 2 mg | Yes |
+| 2726491 | Coversyl 2.5 | Perindopril | Tab 2.5 mg | Yes |
+| 2603950 | Coversyl | Perindopril | Tab 4 mg | Yes |
+| 2726505 | Coversyl 5 | Perindopril | Tab 5 mg | Yes |
+| 2643316 | Coversyl | Perindopril | Tab 8 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

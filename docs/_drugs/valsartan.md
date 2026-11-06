@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ No clinical trials directly study this use, and the only publication retrieved e
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,13 +74,13 @@ Currently no related clinical trials registered.
 
 The licences below are for sacubitril/valsartan combination products. They do not describe the approval of valsartan as a single ingredient.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2554720 | Entresto 24/26 | Tablet (sacubitril 24.3 mg / valsartan 25.7 mg) | Not available (valid) |
-| 2554747 | Entresto 97/103 | Tablet (sacubitril 97.2 mg / valsartan 102.8 mg) | Not available (valid) |
-| 2554739 | Entresto 49/51 | Tablet (sacubitril 48.6 mg / valsartan 51.4 mg) | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2554720 | Entresto 24/26 | Sacubitril with valsartan | Tab 24.3 mg with valsartan 25.7 mg | Yes |
+| 2554739 | Entresto 49/51 | Sacubitril with valsartan | Tab 48.6 mg with valsartan 51.4 mg | Yes |
+| 2554747 | Entresto 97/103 | Sacubitril with valsartan | Tab 97.2 mg with valsartan 102.8 mg | Yes |
 
-All three licences are currently valid.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

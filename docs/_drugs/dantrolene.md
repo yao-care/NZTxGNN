@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DANTROLENE"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dantrolene: predicted new indication moderate multiminicore disease with hand involvement (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Dantrolene is a skeletal muscle relaxant that is marketed in New Zealand. The Tx
 | Predicted New Indication | moderate multiminicore disease with hand involvement |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,10 +68,12 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 252417 | Dantrium | Cap 50 mg |
-| 2648946 | Dantrium S29 | Cap 25 mg |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2648946 | Dantrium S29 | Dantrolene | Cap 25 mg | Yes |
+| 252417 | Dantrium | Dantrolene | Cap 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 Both are single-ingredient products. The local data record no indication text for them.
 

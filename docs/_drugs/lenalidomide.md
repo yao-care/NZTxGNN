@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 264
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **44 registered clinical trials** and **20 publications** compiled for this
 | Predicted New Indication | Myeloid leukemia |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L2 (no completed Phase 3 RCT; Phase 2 evidence only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -110,15 +110,17 @@ No randomized controlled trial publication specific to lenalidomide in myeloid l
 
 ## New Zealand Market Information
 
-All six licences are valid, so lenalidomide is currently marketed in New Zealand under these authorizations. Approved-indication text is not available for any of them.
+Approved-indication text is not available for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2707543 | Lenalidomide Viatris | Capsule 15 mg | Valid |
-| 2707527 | Lenalidomide Viatris | Capsule 5 mg | Valid |
-| 2673568 | Lenalidomide Viatris | Capsule 25 mg | Valid |
-| 2707551 | Lenalidomide Viatris | Capsule 25 mg | Valid |
-| 2673541 | Lenalidomide Viatris | Capsule 15 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2707535 | Lenalidomide Viatris | Lenalidomide (Viatris) | Cap 10 mg | Yes |
+| 2707543 | Lenalidomide Viatris | Lenalidomide (Viatris) | Cap 15 mg | Yes |
+| 2673568 | Lenalidomide Viatris | Lenalidomide (Viatris) | Cap 25 mg | Yes |
+| 2707551 | Lenalidomide Viatris | Lenalidomide (Viatris) | Cap 25 mg | Yes |
+| 2707527 | Lenalidomide Viatris | Lenalidomide (Viatris) | Cap 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 A sixth licence (2707535, Capsule 10 mg) is also cancelled.
 
@@ -157,7 +159,6 @@ The TxGNN score is very high (0.9949) and the mechanism is plausible, but the ev
 - Formal mechanism-of-action data from DrugBank
 - Published results and outcomes of the larger randomized trials (NCT01358734, NCT01522976)
 - Subgroup analysis, particularly del(5q) and chromosome 5 abnormalities, where benefit is most plausible
-- A haematological and thromboembolic monitoring plan, and a regulatory pathway given that all 6 New Zealand licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

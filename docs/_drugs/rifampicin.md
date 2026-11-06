@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 403
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "RIFAMPICIN"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ No clinical trials are registered for this indication; the support is **about 19
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,12 +87,17 @@ Currently no related clinical trials registered for conjunctivitis.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 251186 | Rifadin | Cap 150 mg | Not available (valid) |
-| 2669838 | Rifadin Sanofi | Cap 300 mg | Not available (valid) |
-| 251208 | Rifadin | Oral liq 100 mg per 5 ml | Not available (valid) |
-| 251194 | Rifadin | Cap 300 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 251186 | Rifadin | Rifampicin | Cap 150 mg | Yes |
+| 251194 | Rifadin | Rifampicin | Cap 300 mg | Yes |
+| 2669838 | Rifadin Sanofi | Rifampicin | Cap 300 mg | Yes |
+| 251208 | Rifadin | Rifampicin | Oral liq 100 mg per 5 ml | Yes |
+| 2718243 | Rifamazid | Isoniazid with rifampicin | Cap 100 mg with rifampicin 150 mg | Yes |
+| 251232 | Rifinah | Isoniazid with rifampicin | Tab 100 mg with rifampicin 150 mg | Yes |
+| 251240 | Rifinah | Isoniazid with rifampicin | Tab 150 mg with rifampicin 300 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -107,7 +112,7 @@ For other warnings and contraindications, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-The antibacterial rationale for conjunctivitis is plausible, but evidence is limited to old small studies, case reports and susceptibility surveys, with no registered trials. Effective topical alternatives exist, and no rifampicin product is currently authorised in New Zealand.
+The antibacterial rationale for conjunctivitis is plausible, but evidence is limited to old small studies, case reports and susceptibility surveys, with no registered trials. Effective topical alternatives exist.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

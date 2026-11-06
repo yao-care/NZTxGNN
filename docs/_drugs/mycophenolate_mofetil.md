@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 314
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not available"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -52,8 +52,8 @@ with **4 clinical trials** (only 1 directly relevant, and it was withdrawn with 
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -98,13 +98,13 @@ The main concern is that immunosuppression is a safety issue in people with HIV.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 350516 | Cellcept | Cap 250 mg | Not listed (valid) |
-| 2124912 | Cellcept | Powder for oral liq 1 g per 5 ml | Not listed (valid) |
-| 2093774 | Cellcept | Tab 500 mg | Not listed (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 350516 | Cellcept | Mycophenolate mofetil | Cap 250 mg | Yes |
+| 2124912 | Cellcept | Mycophenolate mofetil | Powder for oral liq 1 g per 5 ml | Yes |
+| 2093774 | Cellcept | Mycophenolate mofetil | Tab 500 mg | Yes |
 
-All three authorizations are valid, so there is currently a marketed MMF product in the data compiled for this report.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -122,7 +122,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale (IMPDH inhibition, dGTP depletion, synergy with abacavir) is credible, and a few small human studies exist. All 3 New Zealand authorizations are valid, but package insert safety data are missing, so the case cannot advance to safety screening yet.
+The mechanistic rationale (IMPDH inhibition, dGTP depletion, synergy with abacavir) is credible, and a few small human studies exist. Package insert safety data are missing, so the case cannot advance to safety screening yet.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap)

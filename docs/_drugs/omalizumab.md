@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The evidence level is **L5**: no published study directly supports omalizumab in
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,13 +84,13 @@ None of these studies shows that omalizumab treats bronchitis.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2243369 | Xolair | Inj 150 mg vial | Not available (valid) |
-| 2687925 | Xolair AU | Inj 150 mg prefilled syringe | Not available (valid) |
-| 2555042 | Xolair | Inj 150 mg prefilled syringe | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2555042 | Xolair | Omalizumab | Inj 150 mg prefilled syringe | Yes |
+| 2687925 | Xolair AU | Omalizumab | Inj 150 mg prefilled syringe | Yes |
+| 2243369 | Xolair | Omalizumab | Inj 150 mg vial | Yes |
 
-All 3 licences are valid, and the drug is marketed in New Zealand.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

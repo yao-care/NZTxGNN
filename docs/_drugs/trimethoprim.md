@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 468
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The second-ranked prediction, conjunctivitis, is already an original indication 
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,11 +83,14 @@ No literature was found for the top predicted indication, punctate epithelial ke
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 648507 (cancelled) | TMP | Tab 300 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 648507 | TMP | Trimethoprim | Tab 300 mg | Yes |
+| 2309718 | Deprim | Trimethoprim with sulphamethoxazole [Co-trimoxazole] | Oral liq 8 mg sulphamethoxazole 40 mg per ml | Yes |
+| 2730847 | Deprim | Trimethoprim with sulphamethoxazole [Co-trimoxazole] | Oral liq 8 mg sulphamethoxazole 40 mg per ml | Yes |
+| 283363 | Trisul | Trimethoprim with sulphamethoxazole [Co-trimoxazole] | Tab trimethoprim 80 mg and sulphamethoxazole 400… | Yes |
 
-The drug is marketed in this country, and the 1 licence on record (1 of 1) is valid. The record is a 300 mg oral tablet.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

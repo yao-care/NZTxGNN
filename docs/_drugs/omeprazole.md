@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Omeprazole is a proton pump inhibitor originally used for acid-related upper gas
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 9 (valid: 9) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 9 |
 | Recommended Decision | Hold (treat as a research question only) |
 
 ---
@@ -98,16 +98,19 @@ None of these is a randomised controlled trial. The human studies are small, and
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2604930 | Omeprazole actavis 10 | Omeprazole | Cap 10 mg | Yes |
+| 2692155 | Omeprazole Teva | Omeprazole | Cap 10 mg | Yes |
+| 2604949 | Omeprazole actavis 20 | Omeprazole | Cap 20 mg | Yes |
+| 2692163 | Omeprazole Teva | Omeprazole | Cap 20 mg | Yes |
+| 2604957 | Omeprazole actavis 40 | Omeprazole | Cap 40 mg | Yes |
+| 2692171 | Omeprazole Teva | Omeprazole | Cap 40 mg | Yes |
+| 2310201 | Dr Reddy's Omeprazole | Omeprazole | Inj 40 mg ampoule with diluent | Yes |
+| 2586908 | Ocicure | Omeprazole | Inj 40 mg ampoule with diluent | Yes |
+| 2387085 | Midwest | Omeprazole | Powder | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2692163 | Omeprazole Teva | Capsule 20 mg | Valid |
-| 2604949 | Omeprazole actavis 20 | Capsule 20 mg | Valid |
-| 2586908 | Ocicure | Injection 40 mg ampoule with diluent | Valid |
-| 2604957 | Omeprazole actavis 40 | Capsule 40 mg | Valid |
-| 2604930 | Omeprazole actavis 10 | Capsule 10 mg | Valid |
-
-Four further cancelled licences exist (Midwest powder, Omeprazole Teva 10 mg and 40 mg capsules, and Dr Reddy's Omeprazole injection).
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

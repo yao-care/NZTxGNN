@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Amiloride: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Amiloride is a potassium-sparing diuretic that blocks epithelial sodium channels
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,7 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Amiloride is marketed in New Zealand, with 3 valid licences. The available forms are 5 mg tablets and a 1 mg/mL oral liquid. The licence records carry no indication text.
+The available forms are 5 mg tablets and a 1 mg/mL oral liquid.
 
 ## Safety Considerations
 

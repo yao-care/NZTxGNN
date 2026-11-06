@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "FLUCLOXACILLIN"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This is a model-driven hypothesis, not an evidence-backed candidate.
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,17 +74,17 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-All seven licences are valid. No licence records include approved indication text.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2139006 | Staphlex | Flucloxacillin | Cap 250 mg | Yes |
+| 2139014 | Staphlex | Flucloxacillin | Cap 500 mg | Yes |
+| 2431424 | AFT | Flucloxacillin | Grans for oral liq 25 mg per ml | Yes |
+| 2431432 | AFT | Flucloxacillin | Grans for oral liq 50 mg per ml | Yes |
+| 2523108 | Flucil | Flucloxacillin | Inj 1 g vial | Yes |
+| 331848 | Flucloxin | Flucloxacillin | Inj 250 mg vial | Yes |
+| 331856 | Flucloxin | Flucloxacillin | Inj 500 mg vial | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2139006 | Staphlex | Cap 250 mg | Not available (valid) |
-| 2139014 | Staphlex | Cap 500 mg | Not available (valid) |
-| 331856 | Flucloxin | Inj 500 mg vial | Not available (valid) |
-| 331848 | Flucloxin | Inj 250 mg vial | Not available (valid) |
-| 2523108 | Flucil | Inj 1 g vial | Not available (valid) |
-
-Two further cancelled AFT oral granule licences (2431432 at 50 mg per ml and 2431424 at 25 mg per ml) are also on record.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -108,7 +108,6 @@ The prediction rests on a model score and one indirect case report involving a p
 - Microbiological evidence of flucloxacillin activity against common conjunctivitis pathogens
 - Evidence on an ophthalmic formulation or route, since only oral and injectable forms were previously licensed
 - Comparison against current standard topical treatments for bacterial conjunctivitis
-- Clarification of the regulatory pathway, given that all seven licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

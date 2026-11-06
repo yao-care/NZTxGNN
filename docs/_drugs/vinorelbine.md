@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 483
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **3 clinical trials** (one completed Phase 2 trial, one Phase 2 trial of un
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -83,15 +83,16 @@ Preclinical work adds support. Microtubule-interfering drugs, including vinorelb
 
 ## New Zealand Market Information
 
-All seven licences are valid and no approved indication text is recorded.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2651912 | Vinorelbine Te Arai | Vinorelbine | Cap 20 mg | Yes |
+| 2547880 | Vinorelbine Te Arai | Vinorelbine | Cap 30 mg | Yes |
+| 2651920 | Vinorelbine Te Arai | Vinorelbine | Cap 80 mg | Yes |
+| 2204045 | Baxter | Vinorelbine | Inj 1 mg for ECP | Yes |
+| 2236605 | Vinorelbine Ebewe | Vinorelbine | Inj 10 mg per ml, 5 ml vial | Yes |
+| 2663260 | Navelbine S29 | Vinorelbine | Inj 10 mg per ml, 5 ml vial | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2651920 | Vinorelbine Te Arai | Capsule 80 mg | Not recorded |
-| 2651912 | Vinorelbine Te Arai | Capsule 20 mg | Not recorded |
-| 2547880 | Vinorelbine Te Arai | Capsule 30 mg | Not recorded |
-| 2236605 | Vinorelbine Ebewe | Injection 10 mg/mL, 5 mL vial | Not recorded |
-| 2236613 | Vinorelbine Ebewe | Injection 10 mg/mL, 1 mL vial | Not recorded |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -115,7 +116,7 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Ewing sarcoma has the strongest support among the predicted indications. It is backed by completed and ongoing Phase 2 studies and a recent review on the vinorelbine and cyclophosphamide regimen, but the evidence is indirect, mostly from mixed paediatric populations. The drug is marketed in New Zealand, with all 7 licences valid.
+Ewing sarcoma has the strongest support among the predicted indications. It is backed by completed and ongoing Phase 2 studies and a recent review on the vinorelbine and cyclophosphamide regimen, but the evidence is indirect, mostly from mixed paediatric populations.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (a blocking gap for safety screening)

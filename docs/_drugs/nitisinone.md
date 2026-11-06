@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
 description: "Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction is a computational signal only.
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,13 @@ For context, the second-ranked prediction (galactosemia) returned three narrativ
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2677687 | Nitisinone LogixX Pharma | Cap 2 mg | Not recorded (valid) |
-| 2677695 | Nitisinone LogixX Pharma | Cap 5 mg | Not recorded (valid) |
-| 2677709 | Nitisinone LogixX Pharma | Cap 10 mg | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2677709 | Nitisinone LogixX Pharma | Nitisinone | Cap 10 mg | Yes |
+| 2677687 | Nitisinone LogixX Pharma | Nitisinone | Cap 2 mg | Yes |
+| 2677695 | Nitisinone LogixX Pharma | Nitisinone | Cap 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

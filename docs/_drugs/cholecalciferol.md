@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cholecalciferol: predicted new indication acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The data compiled for this report contain **no clinical trials and no publicatio
 | Predicted New Indication | acromesomelic dysplasia, Campailla Martinelli type |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,7 +82,7 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Cholecalciferol is marketed in New Zealand. Both licences on record are valid, single-ingredient products. The available forms are an oral liquid (188 mcg per ml, 7,500 IU per ml) and a capsule (1.25 mg, 50,000 IU).
+Cholecalciferol is marketed in New Zealand. The available forms are an oral liquid (188 mcg per ml, 7,500 IU per ml) and a capsule (1.25 mg, 50,000 IU).
 
 ---
 

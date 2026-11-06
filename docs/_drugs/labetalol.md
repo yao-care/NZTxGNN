@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "LABETALOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are **no registered clinical trials** and only **1 publication** (a si
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,13 +76,15 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2604116 | Trandate (valid) | Inj 5 mg per ml, 20 ml ampoule | Not available |
-| 2582163 | Trandate (valid) | Tab 200 mg | Not available |
-| 2582155 | Trandate (valid) | Tab 100 mg | Not available |
-| 2708809 | Biocon (valid) | Tab 100 mg | Not available |
-| 2565579 | Presolol (valid) | Tab 200 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2604116 | Trandate | Labetalol | Inj 5 mg per ml, 20 ml ampoule | No |
+| 2582155 | Trandate | Labetalol | Tab 100 mg | Yes |
+| 2708809 | Biocon | Labetalol | Tab 100 mg | Yes |
+| 2565579 | Presolol | Labetalol | Tab 200 mg | Yes |
+| 2582163 | Trandate | Labetalol | Tab 200 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

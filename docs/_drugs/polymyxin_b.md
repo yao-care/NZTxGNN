@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 371
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The evidence is weak, and some of it points to a safety concern with inhaled use
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,10 +93,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 207381 | Maxitrol (valid) | Eye ointment 0.1% with neomycin sulphate 0.35% and polymyxin B sulphate 6,000 u per g | Not stated in the record |
-| 207454 | Maxitrol (valid) | Eye drops 0.1% with neomycin sulphate 0.35% and polymyxin B sulphate 6,000 u per ml | Not stated in the record |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 207454 | Maxitrol | Dexamethasone with neomycin sulphate and polymyxin B sulpha… | Eye drops 0.1% with neomycin sulphate 0.35% and p… | Yes |
+| 207381 | Maxitrol | Dexamethasone with neomycin sulphate and polymyxin B sulpha… | Eye oint 0.1% with neomycin sulphate 0.35% and po… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 Both products are ophthalmic, so no inhaled or systemic route is currently available in New Zealand.
 
@@ -131,7 +133,6 @@ Please refer to the package insert for label warnings and contraindications.
 
 **Rationale:**
 The prediction rests on a high model score, without any registered clinical trial. The literature is small, old, and largely preclinical or safety-focused, and it raises a bronchoconstriction concern with inhaled use.
-
 
 **To proceed, the following is needed:**
 - Mechanism of action data

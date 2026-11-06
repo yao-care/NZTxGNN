@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "LEVOTHYROXINE"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and **0 publications** supporting this direc
 | Predicted New Indication | Renal hypodysplasia/aplasia |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 9 (valid: 9) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,21 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2534800 | Synthroid | Tab 100 mcg | Not stated in the records |
-| 250287 | Eltroxin | Tab 50 mcg | Not stated in the records |
-| 2534797 | Synthroid | Tab 50 mcg | Not stated in the records |
-| 2534789 | Synthroid | Tab 25 mcg | Not stated in the records |
-| 250295 | Eltroxin | Tab 100 mcg | Not stated in the records |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2307758 | Mercury Pharma | Levothyroxine | Tab 100 mcg | Yes |
+| 250295 | Eltroxin | Levothyroxine | Tab 100 mcg | Yes |
+| 2534800 | Synthroid | Levothyroxine | Tab 100 mcg | Yes |
+| 2534789 | Synthroid | Levothyroxine | Tab 25 mcg | Yes |
+| 2307766 | Mercury Pharma | Levothyroxine | Tab 50 mcg | Yes |
+| 250287 | Eltroxin | Levothyroxine | Tab 50 mcg | Yes |
+| 2534797 | Synthroid | Levothyroxine | Tab 50 mcg | Yes |
+| 2676788 | Eltroxin | Levothyroxine | Tablet 100 mcg | Yes |
+| 2676761 | Eltroxin | Levothyroxine | Tablet 50 mcg | Yes |
 
-Showing 5 of 9 valid single-ingredient authorizations. Others include Eltroxin and Mercury Pharma products in 50 mcg and 100 mcg strengths.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+Others include Eltroxin and Mercury Pharma products in 50 mcg and 100 mcg strengths.
 
 ## Safety Considerations
 

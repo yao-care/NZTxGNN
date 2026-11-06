@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 282
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Medroxyprogesterone acetate is a synthetic progestin hormone marketed in New Zea
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ---
@@ -90,15 +90,19 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-Seven licences are currently valid. The five main ones are listed below.
+The five main ones are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 274135 | Provera | Tab 10 mg | Not available (valid) |
-| 274186 | Provera | Tab 2.5 mg | Not available (valid) |
-| 261130 | Provera | Tab 5 mg | Not available (valid) |
-| 261149 | Provera HD | Tab 100 mg | Not available (valid) |
-| 271691 | Depo-Provera | Inj 150 mg per ml, 1 ml syringe | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 271691 | Depo-Provera | Medroxyprogesterone acetate | Inj 150 mg per ml, 1 ml syringe | Yes |
+| 274135 | Provera | Medroxyprogesterone acetate | Tab 10 mg | Yes |
+| 261149 | Provera HD | Medroxyprogesterone acetate | Tab 100 mg | Yes |
+| 2643979 | Provera | Medroxyprogesterone acetate | Tab 2.5 mg | Yes |
+| 274186 | Provera | Medroxyprogesterone acetate | Tab 2.5 mg | Yes |
+| 261130 | Provera | Medroxyprogesterone acetate | Tab 5 mg | Yes |
+| 2643987 | Provera | Medroxyprogesterone acetate | Tab 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

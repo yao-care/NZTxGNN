@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Budesonide: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Evidence is thin: **no clinical trials** were found and the **20 retrieved publi
 | Predicted New Indication | atopic eczema |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (15 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 15 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,13 +83,25 @@ Most of the remaining retrieved papers concern contact sensitization or other co
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 674273 | Pulmicort Turbuhaler | Powder for inhalation, 200 mcg per dose | Not recorded |
-| 2541149 | SteroClear | Metered aqueous nasal spray, 50 mcg per dose | Not recorded |
-| 674281 | Pulmicort Turbuhaler | Powder for inhalation, 400 mcg per dose | Not recorded |
-| 2661454 | Budesonide Te Arai | Cap modified-release 3 mg | Not recorded |
-| 2541068 | SteroClear | Metered aqueous nasal spray, 100 mcg per dose | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2661454 | Budesonide Te Arai | Budesonide | Cap modified-release 3 mg | Yes |
+| 2541068 | SteroClear | Budesonide | Metered aqueous nasal spray, 100 mcg per dose | Yes |
+| 2541149 | SteroClear | Budesonide | Metered aqueous nasal spray, 50 mcg per dose | Yes |
+| 682128 | Pulmicort Turbuhaler | Budesonide | Powder for inhalation, 100 mcg per dose | Yes |
+| 674273 | Pulmicort Turbuhaler | Budesonide | Powder for inhalation, 200 mcg per dose | Yes |
+| 674281 | Pulmicort Turbuhaler | Budesonide | Powder for inhalation, 400 mcg per dose | Yes |
+| 2288966 | Vannair | Budesonide with eformoterol | Aerosol inhaler 100 mcg with eformoterol fumarate… | Yes |
+| 2288974 | Vannair | Budesonide with eformoterol | Aerosol inhaler 200 mcg with eformoterol fumarate… | Yes |
+| 2035952 | Symbicort Turbuhaler 100/6 | Budesonide with eformoterol | Powder for inhalation 100 mcg with eformoterol fu… | Yes |
+| 2576031 | DuoResp Spiromax | Budesonide with eformoterol | Powder for inhalation 160 mcg with 4.5 mcg eformo… | Yes |
+| 2035960 | Symbicort Turbuhaler 200/6 | Budesonide with eformoterol | Powder for inhalation 200 mcg with eformoterol fu… | Yes |
+| 2576058 | DuoResp Spiromax | Budesonide with eformoterol | Powder for inhalation 320 mcg with 9 mcg eformote… | Yes |
+| 2228009 | Symbicort Turbuhaler 400/12 | Budesonide with eformoterol | Powder for inhalation 400 mcg with eformoterol fu… | Yes |
+| 2656841 | Breztri Aerosphere | Budesonide with glycopyrronium and eformoterol | Aerosol inhaler budesonide 160 mcg with glycopyrr… | Yes |
+| 2730936 | Breztri Aerosphere | Budesonide with glycopyrronium and eformoterol | Aerosol inhaler budesonide 160 mcg with glycopyrr… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

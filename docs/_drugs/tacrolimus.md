@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 435
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **seborrheic dermatitis**, with
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -88,17 +88,19 @@ Only one completed Phase 3 trial is registered for this indication. Results are 
 
 ## New Zealand Market Information
 
-All 5 authorisations are valid (5 of 5). No approved-indication text is recorded for any of them.
+No approved-indication text is recorded for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2573938 | Tacrolimus Sandoz | Capsule 0.75 mg | Not recorded |
-| 2431246 | Tacrolimus Sandoz | Capsule 1 mg | Not recorded |
-| 2607646 | Zematop | Ointment 0.1% | Not recorded |
-| 2431238 | Tacrolimus Sandoz | Capsule 0.5 mg | Not recorded |
-| 2431254 | Tacrolimus Sandoz | Capsule 5 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2431238 | Tacrolimus Sandoz | Tacrolimus | Cap 0.5 mg | Yes |
+| 2573938 | Tacrolimus Sandoz | Tacrolimus | Cap 0.75 mg | Yes |
+| 2431246 | Tacrolimus Sandoz | Tacrolimus | Cap 1 mg | Yes |
+| 2431254 | Tacrolimus Sandoz | Tacrolimus | Cap 5 mg | Yes |
+| 2607646 | Zematop | Tacrolimus | Oint 0.1% | Yes |
 
-Only Zematop is a topical product, and it is the relevant one for seborrheic dermatitis. Its authorisation is cancelled.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+Only Zematop is a topical product, and it is the relevant one for seborrheic dermatitis.
 
 ## Safety Considerations
 
@@ -129,7 +131,7 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-One completed Phase 3 trial (n=120), one completed Phase 4 trial (n=104) and a published maintenance-therapy study support topical tacrolimus in facial seborrheic dermatitis. The mechanism is plausible. However, only a single Phase 3 trial is registered, and no results were available for this report. The product is marketed in New Zealand, with 5 valid authorisations out of 5.
+One completed Phase 3 trial (n=120), one completed Phase 4 trial (n=104) and a published maintenance-therapy study support topical tacrolimus in facial seborrheic dermatitis. The mechanism is plausible. However, only a single Phase 3 trial is registered, and no results were available for this report.
 
 **To proceed, the following is needed:**
 - Results of NCT02004860 and NCT01591070, to confirm efficacy and relapse reduction

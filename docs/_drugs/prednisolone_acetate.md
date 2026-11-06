@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
 description: "Prednisolone Acetate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Among the other predicted conditions, papillary conjunctivitis and vernal conjun
 | Predicted New Indication | Chronic follicular conjunctivitis |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -113,10 +113,14 @@ Most of these publications concern other corticosteroids (loteprednol) or other 
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2501511 | Prednisolone-AFT | Eye drops 1% | Not recorded (status: valid) |
-| 260533 | Pred Forte | Eye drops 1% | Not recorded (status: valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 317659 | Redipred | Prednisolone | Oral liq 5 mg per ml | Yes |
+| 2501511 | Prednisolone-AFT | Prednisolone acetate | Eye drops 1% | Yes |
+| 260533 | Pred Forte | Prednisolone acetate | Eye drops 1% | Yes |
+| 307475 | Minims Prednisolone | Prednisolone sodium phosphate | Eye drops 0.5%, single dose (preservative free) | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 Only the ophthalmic route (eye drops 1%) is on record.
 

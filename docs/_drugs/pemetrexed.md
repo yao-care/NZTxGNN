@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ with **7 clinical trials** (1 completed Phase 2 trial that includes the peritone
 | Predicted New Indication | Pleural adenomatoid tumor |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (one completed Phase 2 trial including peritoneal disease; the other trials are early-phase, ongoing or test delivery strategies) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -100,14 +100,15 @@ Peritoneal mesothelioma is rare, and prospective trials specific to it are scarc
 
 ## New Zealand Market Information
 
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2532387 | Baxter | Pemetrexed | Inj 1 mg for ECP | Yes |
+| 2524619 | Juno Pemetrexed | Pemetrexed | Inj 100 mg vial | Yes |
+| 2693917 | Pemetrexed-AFT | Pemetrexed | Inj 100 mg vial | Yes |
+| 2524627 | Juno Pemetrexed | Pemetrexed | Inj 500 mg vial | Yes |
+| 2693925 | Pemetrexed-AFT | Pemetrexed | Inj 500 mg vial | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2693925 | Pemetrexed-AFT | Inj 500 mg vial | Not recorded (valid) |
-| 2524627 | Juno Pemetrexed | Inj 500 mg vial | Not recorded (valid) |
-| 2532387 | Baxter | Inj 1 mg for ECP | Not recorded (valid) |
-| 2524619 | Juno Pemetrexed | Inj 100 mg vial | Not recorded (valid) |
-| 2693917 | Pemetrexed-AFT | Inj 100 mg vial | Not recorded (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

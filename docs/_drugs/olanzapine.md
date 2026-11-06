@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Two other predictions (agoraphobia and dysthymic disorder) have some indirect li
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 of 11 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 11 (valid: 11) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (19 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 19 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,7 +85,6 @@ For the second-ranked prediction, **agoraphobia**, the following literature is a
 | [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Case report | Am J Psychiatry | Short report on olanzapine and panic attacks |
 | [25012437](https://pubmed.ncbi.nlm.nih.gov/25012437/) | 2014 | Cohort | J Affect Disord | Impact of comorbid anxiety disorders, including agoraphobia, on 24-month outcomes in bipolar I disorder |
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [21154393](https://pubmed.ncbi.nlm.nih.gov/21154393/) | 2010 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Second-generation antipsychotics in major depressive disorder and dysthymia |
@@ -96,15 +95,31 @@ For the second-ranked prediction, **agoraphobia**, the following literature is a
 
 ## New Zealand Market Information
 
-All 11 licences are valid. The main ones are listed below; approved indication text is not available for any of them.
+The main ones are listed below; approved indication text is not available for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2439832 | Zypine ODT | Orodispersible tablet 5 mg | Not available |
-| 2439840 | Zypine ODT | Orodispersible tablet 10 mg | Not available |
-| 2651084 | Zypine | Tablet 5 mg | Not available |
-| 2337339 | Zyprexa Relprevv | Injection 210 mg vial | Not available |
-| 2724235 | Olanzapina Mylan | Orodispersible tablet 10 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2337339 | Zyprexa Relprevv | Olanzapine | Inj 210 mg vial | Yes |
+| 2337347 | Zyprexa Relprevv | Olanzapine | Inj 300 mg vial | Yes |
+| 2337355 | Zyprexa Relprevv | Olanzapine | Inj 405 mg vial | Yes |
+| 2439875 | Zypine | Olanzapine | Tab 10 mg | Yes |
+| 2651092 | Zypine | Olanzapine | Tab 10 mg | Yes |
+| 2736179 | APO-Olanzapine | Olanzapine | Tab 10 mg | Yes |
+| 2651076 | Zypine | Olanzapine | Tab 2.5 mg | Yes |
+| 2736152 | APO-Olanzapine | Olanzapine | Tab 2.5 mg | Yes |
+| 2651084 | Zypine | Olanzapine | Tab 5 mg | Yes |
+| 2736160 | APO-Olanzapine | Olanzapine | Tab 5 mg | Yes |
+| 2439840 | Zypine ODT | Olanzapine | Tab orodispersible 10 mg | Yes |
+| 2724227 | Olanzapina Mylan Pharma | Olanzapine | Tab orodispersible 10 mg | Yes |
+| 2724235 | Olanzapina Mylan | Olanzapine | Tab orodispersible 10 mg | Yes |
+| 2726327 | Olanzapine ODT Viatris | Olanzapine | Tab orodispersible 10 mg | Yes |
+| 2729644 | APO-Olanzapine | Olanzapine | Tab orodispersible 10 mg | Yes |
+| 2439832 | Zypine ODT | Olanzapine | Tab orodispersible 5 mg | Yes |
+| 2726335 | Olanzapine ODT Viatris | Olanzapine | Tab orodispersible 5 mg | Yes |
+| 2729636 | APO-Olanzapine | Olanzapine | Tab orodispersible 5 mg | Yes |
+| 2737736 | Zyprexa Zydis | Olanzapine | Tab orodispersible 5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -124,7 +139,7 @@ Please refer to the package insert for full label warnings and contraindications
 **Decision: Hold**
 
 **Rationale:**
-The top prediction for benign paroxysmal torticollis of infancy rests on a TxGNN model (deep learning) score alone. It has no trials or literature, a speculative mechanism, a self-limiting condition and a serious paediatric safety concern. In addition, no New Zealand licence for olanzapine is currently valid. The agoraphobia and dysthymia predictions are better supported, but only by indirect or low-level evidence, so they are best treated as research questions.
+The top prediction for benign paroxysmal torticollis of infancy rests on a TxGNN model (deep learning) score alone. It has no trials or literature, a speculative mechanism, a self-limiting condition and a serious paediatric safety concern. The agoraphobia and dysthymia predictions are better supported, but only by indirect or low-level evidence, so they are best treated as research questions.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for olanzapine
@@ -132,7 +147,7 @@ The top prediction for benign paroxysmal torticollis of infancy rests on a TxGNN
 - Any clinical or case-level evidence for olanzapine in benign paroxysmal torticollis of infancy, plus a paediatric risk-benefit assessment
 - For agoraphobia: a controlled trial of olanzapine augmentation, with the effect on agoraphobia assessed separately from panic symptoms
 - For dysthymic disorder: dysthymia-specific olanzapine data, and clarification of whether this is a new use or an extension of existing depression indications
-- Clarification of the regulatory position in New Zealand, where all 11 licences are valid
+- Clarification of the regulatory position in New Zealand
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

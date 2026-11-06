@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "IFOSFAMIDE"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Ifosfamide: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ifosfamide is an alkylating chemotherapy drug used in cancer treatment. Its New Zealand licences are all cancelled, and the licence records compiled for this report contain no approved-indication text.
+Ifosfamide is an alkylating chemotherapy drug used in cancer treatment.
 The TxGNN model predicts it may be effective for **female breast carcinoma**, with **6 clinical trials** (all Phase 1/2, mostly multi-agent regimens) and **20 publications** currently supporting this direction.
 The strongest evidence in the model's top ten predictions is for **rhabdomyosarcoma (rank 7)**, which has several Phase 3 trials, although most of them are in soft tissue sarcoma generally.
 
@@ -50,8 +50,8 @@ The strongest evidence in the model's top ten predictions is for **rhabdomyosarc
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 (as graded in the data compiled for this report; the breast trials are Phase 1/2, with no completed Phase 3 RCT) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold (Research Question) for breast carcinoma; Proceed with Guardrails for rhabdomyosarcoma |
 
 ## Why is This Prediction Reasonable?
@@ -106,13 +106,14 @@ Most of this literature consists of older Phase 2 studies and reviews. No random
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 712760 | Holoxan | Inj 2 g | Not available (licence valid) |
-| 712736 | Holoxan | Inj 1 g | Not available (licence valid) |
-| 2204223 | Baxter | Inj 1 mg for ECP | Not available (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 712736 | Holoxan | Ifosfamide | Inj 1 g | Yes |
+| 2204223 | Baxter | Ifosfamide | Inj 1 mg for ECP | Yes |
+| 712760 | Holoxan | Ifosfamide | Inj 2 g | Yes |
+| 2734753 | Ifomid - M | Ifosfamide with Mesna | Inj 2 g vial with mesna 3 x 100 mg per ml, 4 ml a… | Yes |
 
-All three licences are valid, so ifosfamide is currently marketed with valid New Zealand authorization.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

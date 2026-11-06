@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **glaucoma**, but there are cur
 | Predicted New Indication | Glaucoma |
 | TxGNN Prediction Score | 0.9927 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,12 +75,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-Both licences are cancelled, and no approved indication text is recorded for them.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2611570 | Rivastigmine Patch BNM 5 | Rivastigmine | Patch 4.6 mg per 24 hour | Yes |
+| 2611589 | Rivastigmine Patch BNM 10 | Rivastigmine | Patch 9.5 mg per 24 hour | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2611570 | Rivastigmine Patch BNM 5 | Patch 4.6 mg per 24 hour | Not recorded (valid) |
-| 2611589 | Rivastigmine Patch BNM 10 | Patch 9.5 mg per 24 hour | Not recorded (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -109,7 +109,7 @@ The glaucoma prediction is supported only by a high model score, one rabbit stud
 - Detailed mechanism of action data from DrugBank
 - Further preclinical work on ocular formulations, including tolerability and systemic absorption, followed by early-phase human studies
 - Assessment of the cardiac, respiratory and other contraindication signals for any ocular route
-- A regulatory pathway for a new ocular formulation, since the existing licences are for patches and are cancelled
+- A regulatory pathway for a new ocular formulation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

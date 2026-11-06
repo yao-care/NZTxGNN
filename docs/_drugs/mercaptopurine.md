@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 286
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Mercaptopurine is a purine antimetabolite used in leukaemia chemotherapy. The Tx
 | Predicted New Indication | Myeloid leukemia |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -90,11 +90,14 @@ No trial listed below is a completed randomised trial testing mercaptopurine alo
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 261270 | Puri-nethol | Tablet 50 mg | Not recorded (valid) |
-| 2682257 | Xaluprine | Oral suspension 20 mg/ml | Not recorded (valid) |
-| 2545551 | Allmercap | Oral suspension 20 mg/ml | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2545551 | Allmercap | Mercaptopurine | Oral suspension 20 mg per ml | Yes |
+| 2682257 | Xaluprine | Mercaptopurine | Oral suspension 20 mg per ml | Yes |
+| 261270 | Puri-nethol | Mercaptopurine | Tab 50 mg | Yes |
+| 2737310 | Mercaptopurine (Sterimax) | Mercaptopurine | Tab 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

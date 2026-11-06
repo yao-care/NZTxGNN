@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 173
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Support is limited: **1 clinical trial** (terminated, and only indirectly relate
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,10 +83,12 @@ The high TxGNN score most likely reflects this shared thrombocytopenia biology, 
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2391406 | Revolade | Tab 25 mg | Not available (licence valid) |
-| 2391414 | Revolade | Tab 50 mg | Not available (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2391406 | Revolade | Eltrombopag | Tab 25 mg | Yes |
+| 2391414 | Revolade | Eltrombopag | Tab 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -100,7 +102,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-Evidence for HIV is limited to case reports, a small case series, reviews and an in vitro screening study. The single Phase 3 trial was terminated and is not HIV-specific. The plausible benefit is treating HIV-associated thrombocytopenia, not HIV itself. In New Zealand, both eltrombopag licences are cancelled, and the label safety data needed for screening are missing.
+Evidence for HIV is limited to case reports, a small case series, reviews and an in vitro screening study. The single Phase 3 trial was terminated and is not HIV-specific. The plausible benefit is treating HIV-associated thrombocytopenia, not HIV itself. In New Zealand, the label safety data needed for screening are missing.
 
 **To proceed, the following is needed:**
 - The Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

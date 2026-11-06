@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 182
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "EPLERENONE"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Eplerenone: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are **no registered clinical trials** and the **13 publications** retr
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,10 +93,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2619512 | Inspra (valid) | Tab 25 mg | Not available |
-| 2619520 | Inspra (valid) | Tab 50 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2619512 | Inspra | Eplerenone | Tab 25 mg | Yes |
+| 2619520 | Inspra | Eplerenone | Tab 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -126,7 +128,7 @@ The prediction rests on a very high TxGNN score and on preclinical or indirect e
 - Direct clinical evidence in pulmonary hypertension, such as a pilot or Phase 2 study with haemodynamic endpoints
 - Detailed mechanism of action data
 - Medsafe package insert warnings and contraindications, which are required for safety screening
-- A regulatory pathway given the cancelled licences, including consideration of a new application or access route
+- A regulatory pathway, including consideration of a new application or access route
 - A safety plan for hyperkalaemia and renal impairment, given the interaction and contraindication signals
 ## Disclaimer
 

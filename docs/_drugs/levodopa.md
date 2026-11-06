@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (12 of 12 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 12 (valid: 12) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (12 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,24 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All 12 licences are valid. The approved indication text is not available for any of them. The five main authorizations are listed below.
+The approved indication text is not available for any of them. The five main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 635960 | Madopar Rapid | Dispersible tablet, levodopa 50 mg with benserazide 12.5 mg | Not available |
-| 2429985 | Sinemet | Tablet, levodopa 100 mg with carbidopa 25 mg | Not available |
-| 2429993 | Sinemet | Tablet, levodopa 250 mg with carbidopa 25 mg | Not available |
-| 2430002 | Sinemet CR | Long-acting tablet, levodopa 200 mg with carbidopa 50 mg | Not available |
-| 201413 | Madopar 62.5 | Capsule, levodopa 50 mg with benserazide 12.5 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 201421 | Madopar 125 | Levodopa with benserazide | Cap 100 mg with benserazide 25 mg | Yes |
+| 201448 | Madopar 250 | Levodopa with benserazide | Cap 200 mg with benserazide 50 mg | Yes |
+| 201413 | Madopar 62.5 | Levodopa with benserazide | Cap 50 mg with benserazide 12.5 mg | Yes |
+| 693960 | Madopar HBS | Levodopa with benserazide | Cap long-acting 100 mg with benserazide 25 mg | Yes |
+| 635960 | Madopar Rapid | Levodopa with benserazide | Tab dispersible 50 mg with benserazide 12.5 mg | Yes |
+| 2429985 | Sinemet | Levodopa with carbidopa | Tab 100 mg with carbidopa 25 mg | Yes |
+| 2429993 | Sinemet | Levodopa with carbidopa | Tab 250 mg with carbidopa 25 mg | Yes |
+| 2430002 | Sinemet CR | Levodopa with carbidopa | Tab long-acting 200 mg with carbidopa 50 mg | Yes |
+| 2696541 | Stalevo | Levodopa with carbidopa and entacapone | Tab 100 mg with carbidopa 25 mg and entacapone 20… | Yes |
+| 2696568 | Stalevo | Levodopa with carbidopa and entacapone | Tab 150 mg with carbidopa 37.5 mg and entacapone… | Yes |
+| 2696576 | Stalevo | Levodopa with carbidopa and entacapone | Tab 200 mg with carbidopa 50 mg and entacapone 20… | Yes |
+| 2696533 | Stalevo | Levodopa with carbidopa and entacapone | Tab 50 mg with carbidopa 12.5 mg and entacapone 2… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 209
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Flupentixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,12 +64,13 @@ Other high-scoring predictions for this drug show the same pattern. They include
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 437301 | Fluanxol | Inj 20 mg per ml, 2 ml | Not available (valid) |
-| 437298 | Fluanxol | Inj 20 mg per ml, 1 ml | Not available (valid) |
-| 437271 | Fluanxol | Inj 100 mg per ml, 1 ml | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 437271 | Fluanxol | Flupenthixol decanoate | Inj 100 mg per ml, 1 ml | Yes |
+| 437298 | Fluanxol | Flupenthixol decanoate | Inj 20 mg per ml, 1 ml | Yes |
+| 437301 | Fluanxol | Flupenthixol decanoate | Inj 20 mg per ml, 2 ml | Yes |
 
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -90,7 +91,7 @@ The prediction has a very high model score but no clinical trials, no publicatio
 - Mechanism of action data (MOA) from DrugBank, to allow a proper mechanistic analysis
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening
 - Preclinical or mechanistic evidence linking dopamine receptor antagonism to the retinal dystrophy phenotype
-- A review of the cancelled New Zealand authorizations, and of the available routes of administration, if development is considered
+- A review of the available routes of administration, if development is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

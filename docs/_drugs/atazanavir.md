@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "atazanavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Atazanavir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Atazanavir is an HIV-1 protease inhibitor antiviral. The TxGNN model predicts it
 | Predicted New Indication | feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,10 +68,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2660024 | Atazanavir Viatris | Cap 200 mg | Not recorded |
-| 2660016 | Atazanavir Viatris | Cap 150 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2660016 | Atazanavir Viatris | Atazanavir sulphate | Cap 150 mg | Yes |
+| 2736306 | Atazanavir Viatris | Atazanavir sulphate | Cap 150 mg | Yes |
+| 2660024 | Atazanavir Viatris | Atazanavir sulphate | Cap 200 mg | Yes |
+| 2736314 | Atazanavir Viatris | Atazanavir sulphate | Cap 200 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

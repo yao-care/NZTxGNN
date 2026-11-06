@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
 description: "Trametinib: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This prediction currently has **0 clinical trials** and **0 publications** suppo
 | Predicted New Indication | Choroideremia |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,12 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2483262 | Mekinist | Tab 2 mg | Valid |
-| 2483254 | Mekinist | Tab 0.5 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2483254 | Mekinist | Trametinib | Tab 0.5 mg | Yes |
+| 2483262 | Mekinist | Trametinib | Tab 2 mg | Yes |
 
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -128,7 +129,7 @@ For other safety information, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-The only support for choroideremia is a model score. There are no trials or publications, and the disease biology (defective Rab prenylation caused by *CHM* loss) has no recognised link to MEK inhibition. In addition, trametinib is marketed in New Zealand, with 2 of 2 authorizations valid.
+The only support for choroideremia is a model score. There are no trials or publications, and the disease biology (defective Rab prenylation caused by *CHM* loss) has no recognised link to MEK inhibition.
 
 Other predictions for trametinib have more support, though all of them stay within melanoma, close to the original indication. The most advanced is non-cutaneous melanoma, with a Phase 2 trial in BRAF non-V600-mutant melanoma (NCT02296112) and several dabrafenib/trametinib combination studies, for an evidence level of L2. Nodular malignant melanoma has observational literature (L3). Choroideremia was ranked first by TxGNN score only.
 

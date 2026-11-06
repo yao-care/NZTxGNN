@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["non-seminomatous lesion", "chondroid hamartoma", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cetuximab: predicted new indication non-seminomatous lesion (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ No clinical trials or publications in the compiled data support this prediction,
 | Predicted New Indication | non-seminomatous lesion |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,13 +70,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-The local records list three authorisations for single-ingredient cetuximab injection. They carry no indication text.
+They carry no indication text.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2304457 | Erbitux | Inj 5 mg per ml, 20 ml vial |
-| 2304465 | Erbitux | Inj 5 mg per ml, 100 ml vial |
-| 2537958 | Baxter | Inj 1 mg for ECP |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2537958 | Baxter | Cetuximab | Inj 1 mg for ECP | Yes |
+| 2304465 | Erbitux | Cetuximab | Inj 5 mg per ml, 100 ml vial | Yes |
+| 2304457 | Erbitux | Cetuximab | Inj 5 mg per ml, 20 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

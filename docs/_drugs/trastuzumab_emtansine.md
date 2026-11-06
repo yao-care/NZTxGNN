@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 464
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Trastuzumab Emtansine: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 4 |
 | Evidence level | Not applicable |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 
 ## Known uses among the model's candidates
 
@@ -75,11 +75,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 
 ## New Zealand Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 2444186 | Trastuzumab emtansine | Inj 100 mg vial | Valid |
-| 2444194 | Trastuzumab emtansine | Inj 160 mg vial | Valid |
-| 2579111 | Trastuzumab emtansine | Inj 1 mg for ECP | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2579111 | Baxter | Trastuzumab emtansine | Inj 1 mg for ECP | Yes |
+| 2444186 | Kadcyla | Trastuzumab emtansine | Inj 100 mg vial | Yes |
+| 2444194 | Kadcyla | Trastuzumab emtansine | Inj 160 mg vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

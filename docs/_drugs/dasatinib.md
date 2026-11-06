@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The evidence level is **L3**: there is no randomized trial, and the support come
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,13 +83,13 @@ Clinical results are less encouraging. A review notes that single-agent dasatini
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2679620 | Dasatinib-Teva | Tab 50 mg | Not recorded in the local data |
-| 2679612 | Dasatinib-Teva | Tab 20 mg | Not recorded in the local data |
-| 2679639 | Dasatinib-Teva | Tab 70 mg | Not recorded in the local data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2679612 | Dasatinib-Teva | Dasatinib | Tab 20 mg | Yes |
+| 2679620 | Dasatinib-Teva | Dasatinib | Tab 50 mg | Yes |
+| 2679639 | Dasatinib-Teva | Dasatinib | Tab 70 mg | Yes |
 
-All three licences are currently valid.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

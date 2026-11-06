@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Fentanyl is a potent opioid (mu-opioid receptor agonist) that is marketed in New Zealand as transdermal patches and an injectable, with 7 valid licences out of 7.
+Fentanyl is a potent opioid (mu-opioid receptor agonist) that is marketed in New Zealand as transdermal patches and an injectable.
 The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but there are **0 clinical trials** and **0 publications** supporting this direction.
 This is a model-only prediction (evidence level L5) and the recommendation is **Hold**.
 
@@ -50,8 +50,8 @@ This is a model-only prediction (evidence level L5) and the recommendation is **
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,17 +74,17 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All 7 authorizations below are valid. The license records contain no approved indication text.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2381168 | Boucher and Muir | Fentanyl | Inj 50 mcg per ml, 10 ml ampoule | Yes |
+| 2381176 | Boucher and Muir | Fentanyl | Inj 50 mcg per ml, 2 ml ampoule | Yes |
+| 2472910 | Fentanyl Sandoz | Fentanyl | Patch 100 mcg per hour | Yes |
+| 2688824 | Fentanyl Sandoz | Fentanyl | Patch 12 mcg per hour | Yes |
+| 2472880 | Fentanyl Sandoz | Fentanyl | Patch 25 mcg per hour | Yes |
+| 2472899 | Fentanyl Sandoz | Fentanyl | Patch 50 mcg per hour | Yes |
+| 2472902 | Fentanyl Sandoz | Fentanyl | Patch 75 mcg per hour | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2472899 | Fentanyl Sandoz | Patch 50 mcg per hour | Valid |
-| 2472902 | Fentanyl Sandoz | Patch 75 mcg per hour | Valid |
-| 2472880 | Fentanyl Sandoz | Patch 25 mcg per hour | Valid |
-| 2472910 | Fentanyl Sandoz | Patch 100 mcg per hour | Valid |
-| 2688824 | Fentanyl Sandoz | Patch 12 mcg per hour | Valid |
-
-Two further cancelled authorizations (Boucher and Muir injection, 50 mcg per ml, 2 ml and 10 ml ampoules; 2381176 and 2381168) are not shown in the table above.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

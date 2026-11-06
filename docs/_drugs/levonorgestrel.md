@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 271
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Evidence is limited: **no registered clinical trials** and **1 randomized placeb
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,13 +92,17 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2712164 | Levonorgestrel -1 (Lupin) | Tab 1.5 mg | Not available (valid) |
-| 2013908 | Mirena | Intra-uterine device 52 mg | Not available (valid) |
-| 2703068 | Jadelle | Subdermal implant (2 x 75 mg rods) | Not available (valid) |
-| 2591839 | Microlut | Tab 30 mcg | Not available (valid) |
-| 2474891 | Jaydess | Intra-uterine device 13.5 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2474891 | Jaydess | Levonorgestrel | Intra-uterine device 13.5 mg | Yes |
+| 2013908 | Mirena | Levonorgestrel | Intra-uterine device 52 mg | Yes |
+| 2703068 | Jadelle | Levonorgestrel | Subdermal implant (2 x 75 mg rods) | Yes |
+| 2712164 | Levonorgestrel -1 (Lupin) | Levonorgestrel | Tab 1.5 mg | Yes |
+| 2591839 | Microlut | Levonorgestrel | Tab 30 mcg | Yes |
+| 2637111 | Lo-Oralcon 20 ED | Ethinyloestradiol with levonorgestrel | Tab 20 mcg with levonorgestrel 100 mcg and 7 iner… | Yes |
+| 2637138 | Oralcon 30 ED | Ethinyloestradiol with levonorgestrel | Tab 30 mcg with levonorgestrel 150 mcg and 7 iner… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

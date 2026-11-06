@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Econazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **ectothrix infectious disease** (
 | Predicted New Indication | Ectothrix infectious disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Number of approvals | 2 (both single-ingredient licences) |
 | Recommended Decision | Hold |
 
@@ -74,12 +74,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2165953 | Pevaryl | Cream 1% | Not stated in the licence records |
-| 383872 | Pevaryl | Foaming solution 1%, 10 ml sachets | Not stated in the licence records |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2165953 | Pevaryl | Econazole nitrate | Crm 1% | Yes |
+| 383872 | Pevaryl | Econazole nitrate | Foaming soln 1%, 10 ml sachets | No |
 
-Both licences are valid single-ingredient products. Neither carries an indication in the available records, so the uses listed above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are not confirmed as approved indications.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+Neither carries an indication in the available records, so the uses listed above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are not confirmed as approved indications.
 
 ## Safety Considerations
 

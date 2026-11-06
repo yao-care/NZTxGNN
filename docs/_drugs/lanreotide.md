@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "LANREOTIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 description: "Lanreotide: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but **no cl
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 of 7 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 7 (valid: 7) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ---
@@ -88,17 +88,17 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All seven licences are valid, and approved indication text is not available for any of them.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2659131 | Somatuline Autogel | Lanreotide | Inj 120 mg per 0.5 ml, 0.5 ml syringe | Yes |
+| 2698161 | Mytolac | Lanreotide | Inj 120 mg per 0.5 ml, 0.5 ml syringe | Yes |
+| 2698145 | Mytolac | Lanreotide | Inj 60 mg per 0.5 ml, 0.5 ml syringe | Yes |
+| 2709597 | Mytolac S29 | Lanreotide | Inj 60 mg per 0.5 ml, 0.5 ml syringe | Yes |
+| 2720264 | Somatuline Autogel | Lanreotide | Inj 60 mg per 0.5 ml, 0.5 ml syringe | Yes |
+| 2698153 | Mytolac | Lanreotide | Inj 90 mg per 0.5 ml, 0.5 ml syringe | Yes |
+| 2720272 | Somatuline Autogel | Lanreotide | Inj 90 mg per 0.5 ml, 0.5 ml syringe | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2709597 | Mytolac S29 | Inj 60 mg per 0.5 ml, 0.5 ml syringe | Valid |
-| 2720264 | Somatuline Autogel | Inj 60 mg per 0.5 ml, 0.5 ml syringe | Valid |
-| 2698153 | Mytolac | Inj 90 mg per 0.5 ml, 0.5 ml syringe | Valid |
-| 2698161 | Mytolac | Inj 120 mg per 0.5 ml, 0.5 ml syringe | Valid |
-| 2720272 | Somatuline Autogel | Inj 90 mg per 0.5 ml, 0.5 ml syringe | Valid |
-
-Two further cancelled licences (2659131 and 2698145) are also on record.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -127,7 +127,6 @@ The prediction rests solely on a TxGNN model (deep learning) score (L5), with no
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank to allow a proper mechanistic analysis
 - Preclinical or observational evidence linking somatostatin or GH/IGF-1 signalling to hypertrichosis
-- A review of the current registration and supply situation, since all seven licences are valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

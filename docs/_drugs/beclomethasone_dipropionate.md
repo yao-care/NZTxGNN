@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BECLOMETHASONE DIPROPIONATE"
 predicted_indications: ["atopic eczema"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Beclomethasone Dipropionate: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but the supp
 | Predicted New Indication | atopic eczema |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,13 +91,15 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2023857 | Qvar | Aerosol inhaler, 100 mcg per dose | Not recorded |
-| 2326175 | Beclazone 250 | Aerosol inhaler, 250 mcg per dose CFC-free | Not recorded |
-| 2023873 | Qvar | Aerosol inhaler, 50 mcg per dose | Not recorded |
-| 2326159 | Beclazone 50 | Aerosol inhaler, 50 mcg per dose CFC-free | Not recorded |
-| 2326167 | Beclazone 100 | Aerosol inhaler, 100 mcg per dose CFC-free | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2023857 | Qvar | Beclomethasone dipropionate | Aerosol inhaler, 100 mcg per dose | Yes |
+| 2326167 | Beclazone 100 | Beclomethasone dipropionate | Aerosol inhaler, 100 mcg per dose CFC-free | Yes |
+| 2326175 | Beclazone 250 | Beclomethasone dipropionate | Aerosol inhaler, 250 mcg per dose CFC-free | Yes |
+| 2023873 | Qvar | Beclomethasone dipropionate | Aerosol inhaler, 50 mcg per dose | Yes |
+| 2326159 | Beclazone 50 | Beclomethasone dipropionate | Aerosol inhaler, 50 mcg per dose CFC-free | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 All locally listed products are inhaled aerosols; no topical skin formulation appears in the local data.
 

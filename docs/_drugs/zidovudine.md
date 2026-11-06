@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 485
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency sy
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (animal and veterinary studies only; no human trials for this indication) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold (rank 1 is a veterinary research question; see the Conclusion for the human-relevant predictions) |
 
 ---
@@ -99,7 +99,6 @@ The top-ranked prediction (feline AIDS) has no registered clinical trials.
 | [2163339](https://pubmed.ncbi.nlm.nih.gov/2163339/) | 1990 | Animal toxicity study | Fundam Appl Toxicol | Dose-dependent zidovudine toxicity in FeLV-infected cats |
 | [8820595](https://pubmed.ncbi.nlm.nih.gov/8820595/) | 1995 | Review | Semin Vet Med Surg (Small Anim) | Management of retrovirus-infected cats, including zidovudine |
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [2677429](https://pubmed.ncbi.nlm.nih.gov/2677429/) | 1989 | Clinical study | JAMA | Prolonged zidovudine therapy in 229 AIDS/ARC patients; 12-month survival 84.5% in the original treatment group |
@@ -120,11 +119,14 @@ The top-ranked prediction (feline AIDS) has no registered clinical trials.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 818682 | Retrovir | Oral liquid 10 mg per ml | Not recorded (valid) |
-| 552666 | Retrovir | Capsule 100 mg | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 552666 | Retrovir | Zidovudine | Cap 100 mg | Yes |
+| 818682 | Retrovir | Zidovudine | Oral liq 10 mg per ml | Yes |
+| 2645300 | Lamivudine/Zidovudine Viatris | Zidovudine with lamivudine | Tab 300 mg with lamivudine 150 mg | Yes |
+| 2724952 | Lamivudine/Zidovudine Viatris | Zidovudine with lamivudine | Tab 300 mg with lamivudine 150 mg | Yes |
 
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -159,7 +161,7 @@ Package insert warnings and contraindications are not available in the data comp
 
 **Rationale:**
 - The top prediction is a veterinary indication with animal evidence only, so it does not support human repurposing. The neurodevelopmental disorder and the obsolete hyperlipidaemia term have no evidence and no plausible mechanism, and zidovudine is more often linked to dyslipidaemia than to its treatment.
-- Zidovudine is now used within combination regimens, and it is marketed in New Zealand with 2 valid licences out of 2.
+- Zidovudine is now used within combination regimens.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (from Medsafe) to complete safety screening

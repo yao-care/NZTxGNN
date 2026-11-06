@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CLARITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clarithromycin: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **hyperamylasemia**, but there ar
 | Predicted New Indication | hyperamylasemia |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,12 +71,14 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2606038 | Klacid | Tab 250 mg | Not recorded in local data |
-| 2605295 | Klacid | Tab 500 mg | Not recorded in local data |
-| 2535378 | Klacid | Grans for oral liq 250 mg per 5 ml | Not recorded in local data |
-| 2698056 | Klaricid | Tab 250 mg | Not recorded in local data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2535378 | Klacid | Clarithromycin | Grans for oral liq 250 mg per 5 ml | Yes |
+| 2606038 | Klacid | Clarithromycin | Tab 250 mg | Yes |
+| 2698056 | Klaricid | Clarithromycin | Tab 250 mg | Yes |
+| 2605295 | Klacid | Clarithromycin | Tab 500 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

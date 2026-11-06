@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 202
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Flecainide: predicted new indication Stroke disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **stroke disorder**, but the link 
 | Predicted New Indication | Stroke disorder |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,15 +84,16 @@ The very high TxGNN score comes from the TxGNN model (deep learning) and may ref
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2694956 | Almarytm | Inj 10 mg per ml, 15 ml ampoule | Valid |
-| 2696967 | Tambocor German | Inj 10 mg per ml, 15 ml ampoule | Valid |
-| 2567121 | Flecainide Controlled Release Teva | Cap long-acting 200 mg | Valid |
-| 2447363 | Tambocor | Inj 10 mg per ml, 15 ml ampoule | Valid |
-| 2567695 | Flecainide BNM | Tab 50 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2567113 | Flecainide Controlled Release Teva | Flecainide acetate | Cap long-acting 100 mg | Yes |
+| 2567121 | Flecainide Controlled Release Teva | Flecainide acetate | Cap long-acting 200 mg | Yes |
+| 2447363 | Tambocor | Flecainide acetate | Inj 10 mg per ml, 15 ml ampoule | Yes |
+| 2567695 | Flecainide BNM | Flecainide acetate | Tab 50 mg | Yes |
 
-One further cancelled authorization (2567113, Flecainide Controlled Release Teva, long-acting capsule 100 mg) is not shown. Approved indication text was not available for any of these products.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+Approved indication text was not available for any of these products.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 359
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: predicted new indication Ectomesenchymoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ This is best understood as a receptor-subtype refinement of the existing HER2-po
 | Predicted New Indication | Ectomesenchymoma |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -92,11 +92,14 @@ Roughly half of HER2-positive breast cancers also express oestrogen and/or proge
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2444208 | Perjeta (valid) | Inj 30 mg per ml, 14 ml vial | Not recorded |
-| 2555328 | Baxter (valid) | Inj 420 mg for ECP | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2444208 | Perjeta | Pertuzumab | Inj 30 mg per ml, 14 ml vial | Yes |
+| 2555328 | Baxter | Pertuzumab | Inj 420 mg for ECP | Yes |
+| 2649381 | Phesgo | Pertuzumab with trastuzumab | Inj 1,200 mg with trastuzumab 600 mg, 15 ml vial | Yes |
+| 2649373 | Phesgo | Pertuzumab with trastuzumab | Inj 600 mg with trastuzumab 600 mg, 10 ml vial | Yes |
 
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

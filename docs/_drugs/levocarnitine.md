@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "LEVOCARNITINE"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
 description: "Levocarnitine: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **autosomal dominant familial hematur
 | Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -111,15 +111,16 @@ Several other retrieved papers are off-topic: a stem-cell cardiomyopathy model a
 
 ## New Zealand Market Information
 
-All six licenses are valid.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2609274 | Solgar | Levocarnitine | Cap 250 mg | Yes |
+| 2609266 | Balance | Levocarnitine | Cap 500 mg | Yes |
+| 2683059 | Metabolics | Levocarnitine | Cap 500 mg | Yes |
+| 2711281 | Lacuna | Levocarnitine | Oral liq 1 g per 10 ml | Yes |
+| 2439816 | Balance | Levocarnitine | Oral liq 500 mg per 10 ml | Yes |
+| 2502151 | Solgar | Levocarnitine | Tab 500 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2609266 | Balance | Capsule 500 mg | Valid |
-| 2502151 | Solgar | Tablet 500 mg | Valid |
-| 2609274 | Solgar | Capsule 250 mg | Valid |
-| 2439816 | Balance | Oral liquid 500 mg per 10 ml | Valid |
-| 2711281 | Lacuna | Oral liquid 1 g per 10 ml | Valid |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 The sixth license is 2683059 (Metabolics, Capsule 500 mg, cancelled). Approved indication text is not recorded for any license. Available forms are oral only. The heart failure trial above used an injectable form, and no injectable product appears in the New Zealand license data.
 

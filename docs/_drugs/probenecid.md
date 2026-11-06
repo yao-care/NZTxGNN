@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 384
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Probenecid: predicted new indication hypouricemia, renal (evidence level L4). Approved use: Gout"
 monitor_inn: "PROBENECID"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
@@ -52,11 +52,11 @@ The mechanism also points the wrong way: probenecid would likely worsen this con
 | Predicted New Indication | Renal hypouricemia |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
-*Note: the New Zealand license record has no approved indication text, so the original indications above are not taken from approved labelling.*
+*Note: the original indications above are not taken from approved labelling.*
 
 ---
 
@@ -99,9 +99,11 @@ Of the 20 publications retrieved, the following are the most relevant. All are r
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2012499 | Probenecid-AFT | Tab 500 mg | Not recorded (authorization valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2012499 | Probenecid-AFT | Probenecid | Tab 500 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

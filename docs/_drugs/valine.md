@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 474
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "VALINE"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
 description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -38,7 +38,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Valine is an essential branched-chain amino acid. Its only New Zealand licence (a 4 g sachet powder) is cancelled, and no approved indication is recorded.
+Valine is an essential branched-chain amino acid.
 The TxGNN model predicts it may be useful for **sclerosing cholangitis**, but there are **0 clinical trials** and only **2 indirect publications** (a cohort study and a Mendelian randomization study), and neither tests valine as a treatment.
 
 ## Quick Overview
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **sclerosing cholangitis**, but th
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,15 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2514079 (cancelled) | Valine50 | Powder, 4 g sachets | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2514079 | Valine50 | Valine | Powder, 4 g sachets | Yes |
+| 2386313 | MMA/PA Anamix Infant | Aminoacid formula without isoleucine, methionine, threonine… | Powder, can | Yes |
+| 2498812 | MMA/PA Anamix Junior | Aminoacid formula without methionine, threonine and valine | Powder (neutral), 18 g sachets | Yes |
+| 2668564 | MMA/PA Explore 5 | Aminoacid formula without methionine, threonine and valine | Powder, 12.5 g sachets | Yes |
+| 2668572 | MMA/PA Express 15 | Aminoacid formula without methionine, threonine and valine | Powder, 25 g sachets | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Azithromycin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia…"
 monitor_inn: "AZITHROMYCIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -52,8 +52,8 @@ The score is a computational prediction only, so this candidate is best treated 
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -108,13 +108,13 @@ The most relevant publications for the other predicted indications are listed be
 
 ## New Zealand Market Information
 
-All three licences are valid, and no approved-indication text is available for them.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2144042 | Zithromax | Azithromycin | Grans for oral liq 200 mg per 5 ml (40 mg per ml) | Yes |
+| 2405296 | Apo-Azithromycin | Azithromycin | Tab 250 mg | Yes |
+| 204218 | Zithromax | Azithromycin | Tab 500 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 204218 | Zithromax | Tab 500 mg | Valid |
-| 2405296 | Apo-Azithromycin | Tab 250 mg | Valid |
-| 2144042 | Zithromax | Grans for oral liq 200 mg per 5 ml (40 mg per ml) | Valid |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -135,7 +135,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The prediction for polyclonal hyperviscosity syndrome rests solely on a model score, with no trials, no literature and no plausible mechanism. In addition, all three New Zealand azithromycin licences are currently valid.
+The prediction for polyclonal hyperviscosity syndrome rests solely on a model score, with no trials, no literature and no plausible mechanism.
 
 **To proceed, the following is needed:**
 - Retrieve the Medsafe package insert to complete the safety review. This gap is currently blocking.

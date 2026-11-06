@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L4). Approved use: Metastatic melanoma"
 monitor_inn: "DACARBAZINE"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
@@ -50,8 +50,8 @@ but **no clinical trials** are registered for this indication and the **20 publi
 | Predicted New Indication | Upper aerodigestive tract neoplasm |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,10 +85,12 @@ No randomized trial in upper aerodigestive tract neoplasm was found. The most re
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 299308 | DBL Dacarbazine | Inj 200 mg vial | Not available (valid) |
-| 2204207 | Baxter | Inj 200 mg for ECP | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2204207 | Baxter | Dacarbazine | Inj 200 mg for ECP | Yes |
+| 299308 | DBL Dacarbazine | Dacarbazine | Inj 200 mg vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -115,7 +117,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L4). There are no registered trials, and the literature covers only related conditions such as mucosal melanoma and medullary thyroid carcinoma. In addition, both New Zealand licences are cancelled and the package insert safety data have not been reviewed.
+The prediction rests on a model score alone (L4). There are no registered trials, and the literature covers only related conditions such as mucosal melanoma and medullary thyroid carcinoma. In addition, the package insert safety data have not been reviewed.
 
 **To proceed, the following is needed:**
 - Direct clinical evidence of dacarbazine in upper aerodigestive tract neoplasms (for example, trials or well-designed cohort studies)

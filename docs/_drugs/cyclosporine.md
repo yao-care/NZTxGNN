@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cyclosporine: predicted new indication Chronic granulomatous disease, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **autosomal recessive chronic g
 | Predicted New Indication | Chronic granulomatous disease, autosomal recessive |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,12 +81,14 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 455598 | Neoral | Cap 100 mg | Not recorded |
-| 455571 | Neoral | Cap 25 mg | Not recorded |
-| 2011344 | Neoral | Cap 50 mg | Not recorded |
-| 455563 | Neoral | Oral liq 100 mg per ml | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 455598 | Neoral | Ciclosporin | Cap 100 mg | Yes |
+| 455571 | Neoral | Ciclosporin | Cap 25 mg | Yes |
+| 2011344 | Neoral | Ciclosporin | Cap 50 mg | Yes |
+| 455563 | Neoral | Ciclosporin | Oral liq 100 mg per ml | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

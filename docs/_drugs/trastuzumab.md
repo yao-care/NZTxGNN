@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for several breast cancer subtypes.
 | Predicted New Indication | Malignant cutaneous granular cell skin tumor |
 | TxGNN Prediction Score | 0.9948 |
 | Evidence Level | L5 for progesterone-receptor positive breast cancer (L4 for the top-ranked normal breast-like subtype) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Proceed with Guardrails (for the progesterone-receptor positive term; Hold for the top-ranked normal breast-like subtype) |
 
 ---
@@ -111,12 +111,15 @@ Note: for the luminal A or B term, the key supporting paper is the pivotal adjuv
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2669994 | Baxter | Inj 1 mg for ECP | Not available (valid) |
-| 2670127 | Herzuma | Inj 150 mg vial | Not available (valid) |
-| 2670135 | Herzuma | Inj 440 mg vial | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2669994 | Baxter | Trastuzumab (Herzuma) | Inj 1 mg for ECP | Yes |
+| 2670127 | Herzuma | Trastuzumab (Herzuma) | Inj 150 mg vial | Yes |
+| 2670135 | Herzuma | Trastuzumab (Herzuma) | Inj 440 mg vial | Yes |
+| 2649381 | Phesgo | Pertuzumab with trastuzumab | Inj 1,200 mg with trastuzumab 600 mg, 15 ml vial | Yes |
+| 2649373 | Phesgo | Pertuzumab with trastuzumab | Inj 600 mg with trastuzumab 600 mg, 10 ml vial | Yes |
 
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

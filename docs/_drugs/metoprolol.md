@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, acute coronary syndrome, myocardial infarction"
 ---
 
@@ -50,8 +50,8 @@ However, **no clinical trials and no publications** directly study this disease,
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 9 (valid: 9) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 9 |
 | Number of Approvals | 9 (single-ingredient licences) |
 | Recommended Decision | Hold |
 
@@ -85,13 +85,19 @@ Currently no related literature available for malignant hypertensive renal disea
 
 At least the following authorisations are listed, all single-ingredient products. Approved indication text is not included in the licence records.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| 2550369 | Metoprolol IV Mylan | Injection 1 mg per ml, 5 ml vial |
-| 2639777 | Metoprolol IV Viatris | Injection 1 mg per ml, 5 ml vial |
-| 2618680 | IPCA-Metoprolol | Tablet 100 mg |
-| 2618672 | IPCA-Metoprolol | Tablet 50 mg |
-| 2108682 | Slow-Lopresor | Long-acting tablet 200 mg |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2650738 | Myloc CR | Metoprolol succinate | Tab long-acting 190 mg | Yes |
+| 2650681 | Myloc CR | Metoprolol succinate | Tab long-acting 23.75 mg | Yes |
+| 2650703 | Myloc CR | Metoprolol succinate | Tab long-acting 47.5 mg | Yes |
+| 2650711 | Myloc CR | Metoprolol succinate | Tab long-acting 95 mg | Yes |
+| 2550369 | Metoprolol IV Mylan | Metoprolol tartrate | Inj 1 mg per ml, 5 ml vial | Yes |
+| 2639777 | Metoprolol IV Viatris | Metoprolol tartrate | Inj 1 mg per ml, 5 ml vial | Yes |
+| 2618680 | IPCA-Metoprolol | Metoprolol tartrate | Tab 100 mg | Yes |
+| 2618672 | IPCA-Metoprolol | Metoprolol tartrate | Tab 50 mg | Yes |
+| 2108682 | Slow-Lopresor | Metoprolol tartrate | Tab long-acting 200 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 Four further licences (Myloc CR long-acting tablets at 23.75, 47.5, 95 and 190 mg) are also valid, bringing the total to 9.
 

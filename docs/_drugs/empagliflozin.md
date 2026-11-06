@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
 description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,10 +71,16 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2599708 | Jardiance | Tab 25 mg | Not available (licence valid) |
-| 2599694 | Jardiance | Tab 10 mg | Not available (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2599694 | Jardiance | Empagliflozin | Tab 10 mg | Yes |
+| 2599708 | Jardiance | Empagliflozin | Tab 25 mg | Yes |
+| 2599740 | Jardiamet | Empagliflozin with metformin hydrochloride | Tab 12.5 mg with 1,000 mg metformin hydrochloride | Yes |
+| 2599732 | Jardiamet | Empagliflozin with metformin hydrochloride | Tab 12.5 mg with 500 mg metformin hydrochloride | Yes |
+| 2599724 | Jardiamet | Empagliflozin with metformin hydrochloride | Tab 5 mg with 1,000 mg metformin hydrochloride | Yes |
+| 2599716 | Jardiamet | Empagliflozin with metformin hydrochloride | Tab 5 mg with 500 mg metformin hydrochloride | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

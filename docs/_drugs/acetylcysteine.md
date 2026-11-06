@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "ACETYLCYSTEINE"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Acetylcysteine: predicted new indication thrombotic disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Most of the evidence concerns thrombotic microangiopathies (TTP and transplant-a
 | Predicted New Indication | thrombotic disease |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L1 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -91,10 +91,12 @@ The "thrombotic disease" label is broad. The supporting evidence is concentrated
 
 Local records list two single-ingredient injectable licences. Both are recorded as cancelled, although the overall market status is recorded as Marketed. No approved indication text is recorded.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2260794 | DBL Acetylcysteine | Inj 200 mg per ml, 10 ml ampoule | Not recorded |
-| 2701928 | Hikma Acetylcysteine | Inj 200 mg per ml, 10 ml vial | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2260794 | DBL Acetylcysteine | Acetylcysteine | Inj 200 mg per ml, 10 ml ampoule | Yes |
+| 2701928 | Hikma Acetylcysteine | Acetylcysteine | Inj 200 mg per ml, 10 ml vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

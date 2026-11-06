@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Tiotropium"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The 3 clinical trials and 5 publications compiled for this report address other 
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,12 +81,13 @@ The retrieved publications do not test tiotropium in respiratory malformation. T
 
 ## New Zealand Market Information
 
-Both licences are currently valid.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2115468 | Spiriva | Tiotropium bromide | Powder for inhalation, 18 mcg per dose | Yes |
+| 2494019 | Spiriva Respimat | Tiotropium bromide | Soln for inhalation 2.5 mcg per dose | Yes |
+| 2494027 | Spiolto Respimat | Tiotropium bromide with olodaterol | Soln for inhalation 2.5 mcg with olodaterol 2.5 m… | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2115468 | Spiriva (valid) | Powder for inhalation, 18 mcg per dose | Not recorded |
-| 2494019 | Spiriva Respimat (valid) | Solution for inhalation, 2.5 mcg per dose | Not recorded |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

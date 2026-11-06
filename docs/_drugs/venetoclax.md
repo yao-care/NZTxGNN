@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: predicted new indication Hodgkins lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ There are currently **0 clinical trials** and **0 publications** specific to thi
 | Predicted New Indication | Hodgkins lymphoma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,14 +82,17 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All four licences for the single-ingredient product Venclexta are cancelled. No approved indication text is recorded for any of them.
+No approved indication text is recorded for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|------|
-| 2555654 | Venclexta | Tab 50 mg | Valid |
-| 2555638 | Venclexta | Tab 14 x 10 mg, 7 x 50 mg, 21 x 100 mg | Valid |
-| 2555662 | Venclexta | Tab 100 mg | Valid |
-| 2635054 | Venclexta | Tab 10 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2635054 | Venclexta | Venetoclax | Tab 10 mg | Yes |
+| 2555662 | Venclexta | Venetoclax | Tab 100 mg | Yes |
+| 2555638 | Venclexta | Venetoclax | Tab 14 x 10 mg, 7 x 50 mg, 21 x 100 mg | Yes |
+| 2555654 | Venclexta | Venetoclax | Tab 50 mg | Yes |
+| 2696754 | Venclexta | Venetoclax | Tab 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

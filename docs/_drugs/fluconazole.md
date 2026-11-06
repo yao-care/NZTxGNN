@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "FLUCONAZOLE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (7 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,19 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-All five licences below are valid. Approved indication text was not available.
+Approved indication text was not available.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2149052 | Mylan | Capsule 200 mg | Valid |
-| 2149079 | Mylan | Capsule 150 mg | Valid |
-| 2173824 | Flucazole | Capsule 150 mg | Valid |
-| 950289 | Diflucan | Powder for oral suspension 10 mg/ml | Valid |
-| 2149060 | Mylan | Capsule 50 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2149079 | Mylan | Fluconazole | Cap 150 mg | Yes |
+| 2173824 | Flucazole | Fluconazole | Cap 150 mg | Yes |
+| 2735016 | APO Health Fluconazole One | Fluconazole | Cap 150 mg | Yes |
+| 2149052 | Mylan | Fluconazole | Cap 200 mg | Yes |
+| 2735024 | APO Fluconazole | Fluconazole | Cap 200 mg | Yes |
+| 2149060 | Mylan | Fluconazole | Cap 50 mg | Yes |
+| 950289 | Diflucan | Fluconazole | Powder for oral suspension 10 mg per ml | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

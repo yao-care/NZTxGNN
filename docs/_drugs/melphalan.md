@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ with **7 clinical trials** and **1 publication** currently linked to this predic
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,11 +80,13 @@ An important caveat: in the available trials melphalan is given within multi-dru
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 783781 | Alkeran (valid) | Inj 50 mg | Not available |
-| 200271 | Alkeran (valid) | Tab 2 mg | Not available |
-| 2647699 | Melpha (valid) | Inj 50 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2647699 | Melpha | Melphalan | Inj 50 mg | Yes |
+| 783781 | Alkeran | Melphalan | Inj 50 mg | Yes |
+| 200271 | Alkeran | Melphalan | Tab 2 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -115,7 +117,6 @@ The prediction score is high and one completed Phase 2 trial is directly on-indi
 - Results and subgroup data from NCT00936936, ideally separating melphalan's contribution
 - Retrieval of the package insert warnings and contraindications (a blocking data gap for safety screening)
 - Mechanism-of-action data from DrugBank
-- A review of why the New Zealand licences were cancelled and whether any product is available for import or special access
 - A safety and monitoring plan for high-dose use, including stem cell support and management of marrow suppression
 ## Disclaimer
 

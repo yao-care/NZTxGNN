@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 221
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Note that amenorrhea is largely an expected pharmacological effect of goserelin,
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -97,10 +97,12 @@ The other two predictions (renal hypoplasia and renal hypoplasia, bilateral) hav
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 678066 | Zoladex | Implant 3.6 mg, syringe | Not available (valid) |
-| 362107 | Zoladex | Implant 10.8 mg, syringe | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 362107 | Zoladex | Goserelin | Implant 10.8 mg, syringe | Yes |
+| 678066 | Zoladex | Goserelin | Implant 3.6 mg, syringe | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -120,7 +122,7 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link is strong, but amenorrhea is an expected effect of goserelin rather than a separate disease. The only registered trial has an oncologic primary endpoint, and its status is unknown. In New Zealand, both goserelin licences are cancelled, so there is no currently marketed product.
+The mechanistic link is strong, but amenorrhea is an expected effect of goserelin rather than a separate disease. The only registered trial has an oncologic primary endpoint, and its status is unknown.
 
 **To proceed, the following is needed:**
 - A clear definition of the intended use (menstrual suppression or ovarian protection during chemotherapy) and its clinical endpoints

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
 description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but at present there are **no registered clinical trials** and only **1 review a
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,10 +74,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2439360 | Tasigna (valid) | Cap 200 mg | Not recorded |
-| 2468115 | Tasigna (valid) | Cap 150 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2468115 | Tasigna | Nilotinib | Cap 150 mg | Yes |
+| 2439360 | Tasigna | Nilotinib | Cap 200 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -111,7 +113,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The only support is a high model score, a plausible PDGFR-based mechanism and one general review, with no clinical trials. Both New Zealand licences are cancelled, and the package insert safety data needed for safety screening is missing.
+The only support is a high model score, a plausible PDGFR-based mechanism and one general review, with no clinical trials. The package insert safety data needed for safety screening is missing.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which block safety screening

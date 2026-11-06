@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 363
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not documented"
 monitor_inn: "PHENYLALANINE"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,13 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2474557 (cancelled) | Phenylalanine50 | Powder, 4 g sachets | Not stated |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2474557 | Phenylalanine50 | Phenylalanine | Powder, 4 g sachets | Yes |
+| 2668726 | TYR Sphere 20 | Glycomacropeptide and amino acid contains some tyrosine and… | Powder (Red Berry), 35 g sachets | Yes |
+| 2668734 | TYR Sphere 20 | Glycomacropeptide and amino acid contains some tyrosine and… | Powder (Vanilla), 35 g sachets | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

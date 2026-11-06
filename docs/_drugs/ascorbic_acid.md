@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected"]
@@ -52,8 +52,8 @@ Among the other predicted indications, **injury** has the most support (16 clini
 | Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 The top-ranked prediction has no supporting evidence. The best-supported predicted indication is "injury" (L2), covered below.
@@ -115,9 +115,11 @@ For reference, selected publications for **injury**:
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2642255 | Cvite | Tab 100 mg | Not recorded (authorisation valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2642255 | Cvite | Ascorbic acid | Tab 100 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -136,7 +138,7 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (non-syndromic esophageal malformation) has no trials, no literature and no plausible mechanism. Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Of the other predictions, "injury" (L2) is worth following as a research question, but it is a heterogeneous category with mixed evidence. The drug is marketed in New Zealand, where its only authorisation (1 of 1) is valid, but no label safety data were available, which blocks safety screening.
+The top-ranked prediction (non-syndromic esophageal malformation) has no trials, no literature and no plausible mechanism. Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Of the other predictions, "injury" (L2) is worth following as a research question, but it is a heterogeneous category with mixed evidence. The drug is marketed in New Zealand but no label safety data were available, which blocks safety screening.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 352
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Liposarcoma**. This is the hi
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L2 (liposarcoma); L5 (top-ranked prediction) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold (overall); liposarcoma is a Research Question |
 
 **Note on the top-ranked prediction:** The first-ranked prediction (Xp11.2/TFE3-translocation renal cell carcinoma) has no trials or literature. This report therefore focuses on liposarcoma, the first prediction with clinical trial data. Other predictions are summarised in the conclusion.
@@ -89,10 +89,13 @@ Liposarcoma is an adipocytic soft tissue sarcoma. Adipocytic histology was exclu
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2695340 | Pazopanib Teva | Tab 400 mg | Not available (valid) |
-| 2695332 | Pazopanib Teva | Tab 200 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2695332 | Pazopanib Teva | Pazopanib | Tab 200 mg | Yes |
+| 2726645 | Pazopanib ADVZ | Pazopanib | Tab 200 mg | Yes |
+| 2695340 | Pazopanib Teva | Pazopanib | Tab 400 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

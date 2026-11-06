@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "tranylcypromine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The prediction comes from the TxGNN model (deep learning) alone and has no mecha
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,9 +82,11 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2315076 | Parnate | Tab 10 mg (oral tablet) | Not stated in the licence record (status: valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2315076 | Parnate | Tranylcypromine sulphate | Tab 10 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -103,7 +105,7 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a score from the TxGNN model (deep learning), with no trials, no publications and no mechanistic link. The target population is infants, and an irreversible MAOI with major dietary and interaction hazards is a poor fit for them. The product is currently marketed in New Zealand, with 1 valid licence of 1.
+The prediction rests only on a score from the TxGNN model (deep learning), with no trials, no publications and no mechanistic link. The target population is infants, and an irreversible MAOI with major dietary and interaction hazards is a poor fit for them.
 
 **To proceed, the following is needed:**
 - Any mechanistic or clinical evidence linking MAO or LSD1 inhibition to this condition

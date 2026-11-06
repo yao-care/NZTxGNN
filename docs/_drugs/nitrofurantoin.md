@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "NITROFURANTOIN"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
 description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The literature retrieved mostly describes harms, so the prediction is probably a
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,11 +93,12 @@ None of these papers shows a therapeutic benefit of nitrofurantoin in rheumatoid
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 254738 | Nifuran | Tab 50 mg | Not recorded (valid) |
-| 254754 | Nifuran | Tab 100 mg | Not recorded (valid) |
-| 2493624 | Macrobid | Cap modified-release 100 mg | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2493624 | Macrobid | Nitrofurantoin | Cap modified-release 100 mg | Yes |
+| 2723670 | Nitrofurantoin Clinect | Nitrofurantoin | Tab 50 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -125,7 +126,7 @@ Please also refer to the package insert for label warnings and contraindications
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials and no literature showing benefit, and the mechanism has no plausible link to rheumatoid arthritis. The available evidence instead raises safety concerns, especially pulmonary and hepatic toxicity and the methotrexate interaction. The drug is marketed in New Zealand, with 3 of 3 authorisations valid.
+The prediction rests only on a model score. There are no clinical trials and no literature showing benefit, and the mechanism has no plausible link to rheumatoid arthritis. The available evidence instead raises safety concerns, especially pulmonary and hepatic toxicity and the methotrexate interaction.
 
 **To proceed, the following is needed:**
 - A plausible mechanistic rationale for anti-rheumatic activity, supported by preclinical data

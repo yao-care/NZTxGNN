@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 122
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Due to the absence of predictions, regulatory records, and safety data, a full r
 | Predicted New Indication | None — TxGNN returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (insufficient — no predictions, no supporting studies retrieved) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | **Hold** |
 
 ---
@@ -82,7 +82,7 @@ Currently no related literature available (no predicted indication available to 
 
 ## New Zealand Market Information
 
-Cyclizine Lactate has **no registered authorizations** in New Zealand. No license records, dosage forms, or approved indication texts were returned by the TFDA/Medsafe query.
+Cyclizine Lactate has **no registered authorizations** in New Zealand.
 
 ---
 
@@ -90,7 +90,7 @@ Cyclizine Lactate has **no registered authorizations** in New Zealand. No licens
 
 Please refer to the package insert for safety information.
 
-> All safety fields (key warnings, contraindications, drug–drug interactions) returned no data or were flagged as data gaps. The DDI query returned `not_found`. The TFDA package insert query reported 1 result but content was not parsed into the evidence pack — remediation is required before any safety assessment can proceed.
+> All safety fields (key warnings, contraindications, drug–drug interactions) returned no data or were flagged as data gaps. The DDI query returned `not_found`.
 
 ---
 
@@ -103,7 +103,6 @@ The evidence pack is critically incomplete — there are no TxGNN-predicted indi
 
 **To proceed, the following is needed:**
 
-- **[Blocking — DG001]** Retrieve and parse the TFDA/Medsafe package insert PDF to extract warnings, contraindications, and approved indications; this is required before any safety screening can occur.
 - **[High — DG002]** Resolve the DrugBank ID for Cyclizine Lactate and retrieve the confirmed mechanism of action (MOA); required for mechanistic plausibility analysis.
 - **[Pipeline]** Re-run the TxGNN prediction pipeline for this drug to obtain disease scores; the current `predicted_indications` array is empty, which may indicate a data ingestion or mapping failure rather than a true absence of signal.
 - **[Verification]** Confirm whether the 1 result returned by the `tfda_package_insert` query (query log ID 4) contains usable content, and ingest it into the evidence pack fields before re-evaluation.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ However, **no clinical trials and no publications** were found for this disease,
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 of 9 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 9 (valid: 9) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (13 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 13 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,15 +70,25 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2026414 (valid) | Ventolin | Aerosol inhaler, 100 mcg per dose CFC free | Not available |
-| 2140543 | Ventolin | Oral liquid 400 mcg per ml | Not available |
-| 2710811 | UK Cipla | Nebuliser solution, 1 mg per ml, 2.5 ml ampoule | Not available |
-| 2154315 | Asthalin | Nebuliser solution, 1 mg per ml, 2.5 ml ampoule | Not available |
-| 2404516 | SalAir | Aerosol inhaler, 100 mcg per dose CFC free | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2026414 | Ventolin | Salbutamol | Aerosol inhaler, 100 mcg per dose CFC free | No |
+| 2404516 | SalAir | Salbutamol | Aerosol inhaler, 100 mcg per dose CFC free | Yes |
+| 257923 | Ventolin | Salbutamol | Infusion 1 mg per ml, 5 ml | Yes |
+| 257915 | Ventolin | Salbutamol | Inj 500 mcg per ml, 1 ml | Yes |
+| 2154315 | Asthalin | Salbutamol | Nebuliser soln, 1 mg per ml, 2.5 ml ampoule | Yes |
+| 2710811 | UK Cipla | Salbutamol | Nebuliser soln, 1 mg per ml, 2.5 ml ampoule | Yes |
+| 2154323 | Asthalin | Salbutamol | Nebuliser soln, 2 mg per ml, 2.5 ml ampoule | Yes |
+| 2712199 | UK Cipla | Salbutamol | Nebuliser soln, 2 mg per ml, 2.5 ml ampoule | Yes |
+| 2140543 | Ventolin | Salbutamol | Oral liq 400 mcg per ml | Yes |
+| 2349337 | Duolin HFA | Salbutamol with ipratropium bromide | Aerosol inhaler, 100 mcg with ipratropium bromide… | Yes |
+| 2039281 | Duolin | Salbutamol with ipratropium bromide | Nebuliser soln, 2.5 mg with ipratropium bromide 0… | Yes |
+| 2729512 | Combiprasal | Salbutamol with ipratropium bromide | Nebuliser soln, 2.5 mg with ipratropium bromide 0… | Yes |
+| 2719959 | Cipla | Salbutamol with ipratropium bromide | Nebuliser soln, 2.5 mg with ipratropium bromide 0… | Yes |
 
-These are 5 of the 9 valid licences. Other forms include an infusion (1 mg per ml, 5 ml) and an injection (500 mcg per ml, 1 ml).
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+Other forms include an infusion (1 mg per ml, 5 ml) and an injection (500 mcg per ml, 1 ml).
 
 ## Safety Considerations
 
@@ -96,7 +106,7 @@ The prediction score is very high, but there are no trials or publications on sa
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a clearer rationale for use in papillary conjunctivitis
-- Preclinical or early human data in this condition, ideally with a topical ocular formulation (no ocular product is currently licensed in New Zealand)
+- Preclinical or early human data in this condition, ideally with a topical ocular formulation
 - Review of the Medsafe package insert for warnings and contraindications
 - Assessment of ocular safety, given that angle-closure glaucoma and ocular hypertension appear among the flagged conditions
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "DIGOXIN"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant for **Prinzmetal angina**, but this 
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,12 +81,14 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2527197 | Lanoxin S29 | Oral liq 50 mcg per ml | Not recorded |
-| 2378078 | Lanoxin | Tab 250 mcg | Not recorded |
-| 2377012 | Lanoxin PG | Tab 62.5 mcg | Not recorded |
-| 426490 | Lanoxin | Oral liq 50 mcg per ml | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2527197 | Lanoxin S29 | Digoxin | Oral liq 50 mcg per ml | Yes |
+| 426490 | Lanoxin | Digoxin | Oral liq 50 mcg per ml | Yes |
+| 2378078 | Lanoxin | Digoxin | Tab 250 mcg | Yes |
+| 2377012 | Lanoxin PG | Digoxin | Tab 62.5 mcg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

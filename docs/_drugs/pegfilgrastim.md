@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pegfilgrastim: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not stated in the available licence records"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Pegfilgrastim is a long-acting (PEGylated) G-CSF that stimulates neutrophil production. The licence records compiled for this report do not state an approved indication.
+Pegfilgrastim is a long-acting (PEGylated) G-CSF that stimulates neutrophil production.
 The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy** (and the broader category, diabetic retinopathy), but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model prediction only.
 
 ## Quick Overview
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **severe nonproliferative diabe
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,12 +71,13 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2724251 (cancelled) | Ziextenzo | Inj 6 mg per 0.6 ml syringe | Not stated |
-| 2643340 (cancelled) | Ziextenzo | Inj 6 mg per 0.6 ml syringe | Not stated |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2724251 | Ziextenzo | Pegfilgrastim | Inj 6 mg per 0.6 ml syringe | Yes |
 
-Both authorizations are cancelled, so no pegfilgrastim product is currently licensed in New Zealand according to the data compiled. The only dosage form listed is a prefilled injection syringe.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+The only dosage form listed is a prefilled injection syringe.
 
 ## Safety Considerations
 

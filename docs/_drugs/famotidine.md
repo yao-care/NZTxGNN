@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 193
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Famotidine is an H2-receptor antagonist originally used for gastric and duodenal
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold (research question; see the conclusion) |
 
 ---
@@ -100,12 +100,13 @@ Publications directly on duodenogastric reflux, followed by the strongest relate
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2581752 | Famotidine Hovid | Tab 20 mg | Valid |
-| 2602776 | Mylan | Inj 10 mg per ml, 4 ml | Valid |
-| 2706229 | Famotidine Hovid MY | Tab 40 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2602776 | Mylan | Famotidine | Inj 10 mg per ml, 4 ml | Yes |
+| 2581752 | Famotidine Hovid | Famotidine | Tab 20 mg | Yes |
+| 2706229 | Famotidine Hovid MY | Famotidine | Tab 40 mg | Yes |
 
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

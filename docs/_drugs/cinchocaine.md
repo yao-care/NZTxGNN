@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cinchocaine: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** supporting this p
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,12 +70,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 208388 | Proctosedyl | Ointment (5 mg with cinchocaine hydrochloride 5 mg per g) | Not recorded |
-| 208396 | Proctosedyl | Suppository (5 mg with cinchocaine hydrochloride 5 mg per g) | Not recorded |
-| 257451 | Ultraproct | Ointment (fluocortolone pivalate 920 mcg and cinchocaine hydrochloride 5 mg per g) | Not recorded |
-| 257478 | Ultraproct | Suppository (fluocortolone pivalate 610 mcg and cinchocaine hydrochloride 1 mg) | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 257451 | Ultraproct | Fluocortolone caproate with fluocortolone pivalate and cinc… | Oint 950 mcg, with fluocortolone pivalate 920 mcg… | Yes |
+| 257478 | Ultraproct | Fluocortolone caproate with fluocortolone pivalate and cinc… | Suppos 630 mcg, with fluocortolone pivalate 610 m… | Yes |
+| 208388 | Proctosedyl | Hydrocortisone with cinchocaine | Oint 5 mg with cinchocaine hydrochloride 5 mg per… | Yes |
+| 208396 | Proctosedyl | Hydrocortisone with cinchocaine | Suppos 5 mg with cinchocaine hydrochloride 5 mg p… | Yes |
+| 2725509 | Scheriproct | Prednisolone hexanoate with cinchocaine hydrochloride | Suppos 1.3 mg with cinchocaine hydrochloride 1 mg… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,15 +74,15 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2619466 | Dilantin Paediatric | Oral liquid 30 mg per 5 ml | Not available (valid) |
-| 2619431 | Dilantin | Capsule 100 mg | Not available (valid) |
-| 2619458 | Dilantin | Capsule 30 mg | Not available (valid) |
-| 2619474 | Dilantin Infatab | Tablet 50 mg | Not available (valid) |
-| 391646 | Hospira | Injection 50 mg per ml, 5 ml ampoule | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2619431 | Dilantin | Phenytoin sodium | Cap 100 mg | Yes |
+| 2619458 | Dilantin | Phenytoin sodium | Cap 30 mg | Yes |
+| 391646 | Hospira | Phenytoin sodium | Inj 50 mg per ml, 5 ml ampoule | Yes |
+| 2619466 | Dilantin Paediatric | Phenytoin sodium | Oral liq 30 mg per 5 ml | Yes |
+| 2619474 | Dilantin Infatab | Phenytoin sodium | Tab 50 mg | Yes |
 
-Phenytoin is currently marketed in New Zealand, and all 5 of the 5 licences are valid.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

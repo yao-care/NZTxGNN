@@ -3,7 +3,7 @@ layout: default
 title: Olodaterol
 parent: Known Uses Only (No New Predictions)
 nav_order: 336
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Olodaterol: known uses and market status in New Zealand; currently no new candidate indication"
 monitor_inn: "olodaterol"
 predicted_indications: []
@@ -41,16 +41,18 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 
 ---
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2494027 | Spiolto Respimat | Solution for inhalation, 2.5 mcg with olodaterol 2.5 mcg | Not stated (authorization status: valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2494027 | Spiolto Respimat | Tiotropium bromide with olodaterol | Soln for inhalation 2.5 mcg with olodaterol 2.5 m… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

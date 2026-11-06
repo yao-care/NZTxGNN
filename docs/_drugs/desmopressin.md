@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DESMOPRESSIN"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Desmopressin: predicted new indication congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The evidence is therefore very limited.
 | Predicted New Indication | congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,13 +72,15 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 492620 | Minirin | Tab 100 mcg | Not recorded |
-| 338192 | Minirin | Inj 4 mcg per ml, 1 ml | Not recorded |
-| 2702916 | Desmopressin-PH&T | Nasal spray 10 mcg per dose, 6 ml | Not recorded |
-| 2603268 | Minirin Melt | Wafer 120 mcg | Not recorded |
-| 492639 | Minirin | Tab 200 mcg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2603268 | Minirin Melt | Desmopressin | Wafer 120 mcg | Yes |
+| 338192 | Minirin | Desmopressin acetate | Inj 4 mcg per ml, 1 ml | Yes |
+| 2702916 | Desmopressin-PH&T | Desmopressin acetate | Nasal spray 10 mcg per dose, 6 ml | Yes |
+| 492620 | Minirin | Desmopressin acetate | Tab 100 mcg | Yes |
+| 492639 | Minirin | Desmopressin acetate | Tab 200 mcg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

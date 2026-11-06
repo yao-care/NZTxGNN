@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **2 clinical trials** (neither with results yet) and **2 publications** (a 
 | Predicted New Indication | Intracranial arteriosclerosis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -80,11 +80,13 @@ Ticagrelor is also not affected by CYP2C19 loss-of-function status, which may be
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2724820 | Ticagrelor Mylan | Tab 90 mg | Valid; no indication text recorded |
-| 2638770 | Ticagrelor Sandoz | Tab 90 mg | Valid; no indication text recorded |
-| 2724286 | Ticagrelor Sandoz S29 | Tab 90 mg | Valid; no indication text recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2638770 | Ticagrelor Sandoz | Ticagrelor | Tab 90 mg | Yes |
+| 2724286 | Ticagrelor Sandoz S29 | Ticagrelor | Tab 90 mg | Yes |
+| 2724820 | Ticagrelor Mylan | Ticagrelor | Tab 90 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -108,7 +110,6 @@ The prediction score is very high and the mechanism is plausible, but no complet
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data from DrugBank
 - A bleeding-risk plan, particularly for intracranial haemorrhage
-- Clarification of New Zealand supply and licensing, since 3 of 3 licences are valid and the drug is marketed
 
 ## Other Predicted Indications (Brief Note)
 

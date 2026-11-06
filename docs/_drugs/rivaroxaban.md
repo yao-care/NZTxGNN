@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the licence records compiled for this report (rivaroxab…"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Rivaroxaban is an oral Factor Xa inhibitor anticoagulant. The licence records compiled for this report do not list an approved indication text, and the drug's established use is in preventing and treating thromboembolic disease.
+Rivaroxaban is an oral Factor Xa inhibitor anticoagulant. The drug's established use is in preventing and treating thromboembolic disease.
 The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **0 clinical trials** and only **4 publications** (reviews, a cohort study and a case report), none showing disease-modifying benefit in this condition.
 The prediction rests on model output alone (**evidence level L5**).
 
@@ -50,8 +50,8 @@ The prediction rests on model output alone (**evidence level L5**).
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,11 +79,13 @@ Currently no related clinical trials registered for rheumatoid arthritis.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2545152 | Xarelto | Tab 10 mg | Not stated (licence valid) |
-| 2425947 | Xarelto | Tab 20 mg | Not stated (licence valid) |
-| 2425920 | Xarelto | Tab 15 mg | Not stated (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2545152 | Xarelto | Rivaroxaban | Tab 10 mg | Yes |
+| 2425920 | Xarelto | Rivaroxaban | Tab 15 mg | Yes |
+| 2425947 | Xarelto | Rivaroxaban | Tab 20 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -99,13 +101,13 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has the highest model score but no clinical trials and no literature showing disease-modifying benefit in RA (evidence level L5). Rivaroxaban would address only the thrombotic component, not RA activity. The drug is marketed in New Zealand with all three licences valid, and bleeding-related interactions with common RA co-medications add safety concerns.
+The prediction has the highest model score but no clinical trials and no literature showing disease-modifying benefit in RA (evidence level L5). Rivaroxaban would address only the thrombotic component, not RA activity. The drug is marketed in New Zealand and bleeding-related interactions with common RA co-medications add safety concerns.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a clearer mechanistic rationale for any effect on RA inflammation
 - Preclinical or early-phase clinical evidence in RA, for example thromboprophylaxis or thrombo-inflammatory biomarker studies
-- Package insert warnings and contraindications from Medsafe, and the approved indications from the licence records
-- A review of current New Zealand availability, where all 3 licences are valid
+- Package insert warnings and contraindications from Medsafe
+- A review of current New Zealand availability
 - A bleeding-risk assessment for RA patients using corticosteroids, NSAIDs or aspirin
 ## Disclaimer
 

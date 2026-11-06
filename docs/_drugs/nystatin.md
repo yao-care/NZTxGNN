@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "NYSTATIN"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: predicted new indication Disease of orbital region (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This is a model-only signal with no direct supporting studies.
 | Predicted New Indication | Disease of orbital region |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,14 +74,18 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 648345 | Nilstat | Capsule 500,000 u (valid) | Not recorded |
-| 770752 | Nilstat | Tablet 500,000 u (valid) | Not recorded |
-| 254851 | Nilstat | Oral liquid 100,000 u per ml (valid) | Not recorded |
-| 254908 | Nilstat | Vaginal cream 100,000 u per 5 g with applicator(s) (valid) | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 648345 | Nilstat | Nystatin | Cap 500,000 u | No |
+| 254851 | Nilstat | Nystatin | Oral liq 100,000 u per ml | Yes |
+| 770752 | Nilstat | Nystatin | Tab 500,000 u | No |
+| 254908 | Nilstat | Nystatin | Vaginal crm 100,000 u per 5 g with applicator(s) | Yes |
+| 2083078 | Viaderm KC | Triamcinolone acetonide with gramicidin, neomycin and nysta… | Crm 1 mg with nystatin 100,000 u, neomycin sulpha… | No |
+| 253634 | Kenacomb | Triamcinolone acetonide with gramicidin, neomycin and nysta… | Ear drops 1 mg with nystatin 100,000 u, neomycin… | Yes |
 
-All four single-ingredient licences are currently valid. The available forms are oral and vaginal only. No ophthalmic or periocular formulation is listed.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+The available forms are oral and vaginal only. No ophthalmic or periocular formulation is listed.
 
 ## Safety Considerations
 

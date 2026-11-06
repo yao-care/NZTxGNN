@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is retinal dystrophy, which has no suppo
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 for retinal dystrophy; L4 for trichotillomania |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold (retinal dystrophy and the other no-evidence predictions); trichotillomania is a research question |
 
 ---
@@ -92,15 +92,16 @@ No literature was available for the other nine top-ranked predictions.
 
 ## New Zealand Market Information
 
-All six licences are valid, and no approved indication text is recorded for them.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2252880 | Quetapel | Quetiapine | Tab 100 mg | Yes |
+| 2252902 | Quetapel | Quetiapine | Tab 200 mg | Yes |
+| 2476266 | Quetapel | Quetiapine | Tab 25 mg | Yes |
+| 2701162 | Quetiapine Viatris | Quetiapine | Tab 25 mg | Yes |
+| 2701170 | Quetiapine Viatris | Quetiapine | Tab 25 mg | Yes |
+| 2476274 | Quetapel | Quetiapine | Tab 300 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2252880 | Quetapel | Tab 100 mg | Valid |
-| 2252902 | Quetapel | Tab 200 mg | Valid |
-| 2476274 | Quetapel | Tab 300 mg | Valid |
-| 2476266 | Quetapel | Tab 25 mg | Valid |
-| 2701162 | Quetiapine Viatris | Tab 25 mg | Valid |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -118,7 +119,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, retinal dystrophy, and the other no-evidence predictions have high model scores but no trials, no literature, and no plausible mechanism. Trichotillomania has some case-level literature, but it is weak, mixed in direction, and contains no controlled data. It is best treated as a research question rather than a candidate for action. In New Zealand, quetiapine is marketed, with all six licences valid.
+The top-ranked prediction, retinal dystrophy, and the other no-evidence predictions have high model scores but no trials, no literature, and no plausible mechanism. Trichotillomania has some case-level literature, but it is weak, mixed in direction, and contains no controlled data. It is best treated as a research question rather than a candidate for action.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (blocking gap for safety screening)

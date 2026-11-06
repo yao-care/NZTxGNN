@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "METRONIDAZOLE"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The data compiled for this report show that the best-supported alternative signa
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -109,14 +109,14 @@ The ten publications retrieved for pneumocystosis are listed below. None provide
 
 ## New Zealand Market Information
 
-Four of the four authorizations are valid, and no indication text is recorded for any of them.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 729426 | Flagyl-S | Metronidazole | Oral liq benzoate 200 mg per 5 ml | Yes |
+| 250511 | Flagyl | Metronidazole | Suppos 500 mg | Yes |
+| 2684446 | Metronidamed | Metronidazole | Tab 200 mg | Yes |
+| 2684454 | Metronidamed | Metronidazole | Tab 400 mg | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2684446 | Metronidamed | Tab 200 mg | Not recorded |
-| 729426 | Flagyl-S | Oral liq benzoate 200 mg per 5 ml | Not recorded |
-| 2684454 | Metronidamed | Tab 400 mg | Not recorded |
-| 250511 | Flagyl | Suppos 500 mg | Not recorded |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

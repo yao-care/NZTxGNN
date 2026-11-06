@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "RIZATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Rizatriptan is a triptan originally used to treat migraine, including migraine w
 | Predicted New Indication | Atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,9 +87,13 @@ The hemiplegic migraine study (PMID 17718700) is the closest to this subtype, bu
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2394634 (cancelled) | Rizamelt | Orodispersible tablet 10 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2394634 | Rizamelt | Rizatriptan | Tab orodispersible 10 mg | Yes |
+| 2728311 | Rizatriptan Viatris | Rizatriptan | Tab orodispersible 10 mg | Yes |
+| 2733145 | Rizatriptan Rising | Rizatriptan | Tab orodispersible 10 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -103,7 +107,7 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output and class pharmacology alone, with no trials and no subtype-specific literature. Triptans carry a long-standing caution in brainstem aura and hemiplegic migraine because of posterior-circulation vasoconstriction. The only New Zealand authorization has been cancelled.
+The prediction rests on model output and class pharmacology alone, with no trials and no subtype-specific literature. Triptans carry a long-standing caution in brainstem aura and hemiplegic migraine because of posterior-circulation vasoconstriction.
 
 **To proceed, the following is needed:**
 - The Medsafe package insert, to review warnings and contraindications. This is currently a blocking gap.

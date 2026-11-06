@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 153
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Diltiazem: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All of the TxGNN model's candidates for Diltiazem (score ≥ 0.99) that can be t
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 
 ## Known uses among the model's candidates
 
@@ -72,11 +72,13 @@ All of the TxGNN model's candidates for Diltiazem (score ≥ 0.99) that can be t
 
 ## New Zealand Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 254584 | Diltiazem hydrochloride | Cap long-acting 180 mg | Valid |
-| 2648172 | Diltiazem hydrochloride | Cap long-acting 120 mg | Valid |
-| 254592 | Diltiazem hydrochloride | Cap long-acting 240 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2648172 | Diltiazem CD Clinect | Diltiazem hydrochloride | Cap long-acting 120 mg | Yes |
+| 254584 | Cardizem CD | Diltiazem hydrochloride | Cap long-acting 180 mg | Yes |
+| 254592 | Cardizem CD | Diltiazem hydrochloride | Cap long-acting 240 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

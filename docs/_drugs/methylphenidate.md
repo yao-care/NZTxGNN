@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The score is a model output only, and the evidence is at the prediction level.
 | Predicted New Indication | Faciodigitogenital syndrome |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (13 of 13 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 13 (valid: 13) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (18 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 18 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,15 +77,30 @@ Currently no related literature available for faciodigitogenital syndrome.
 
 ## New Zealand Market Information
 
-All 13 licences are currently valid. Five representative licences are listed below. The data contain no approved indication text.
+Five representative licences are listed below. The data contain no approved indication text.
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 437204 | Rubifen | Immediate-release tablet 10 mg | Valid |
-| 2349329 | Ritalin | Immediate-release tablet 10 mg | Valid |
-| 2116782 | Rubifen SR | Sustained-release tablet 20 mg | Valid |
-| 2562782 | Methylphenidate ER - Teva | Extended-release tablet 36 mg | Valid |
-| 2711176 | Methylphenidate Sandoz XR | Modified-release tablet 18 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2735075 | Rubifen LA | Methylphenidate hydrochloride | Cap modified-release 10 mg | Yes |
+| 2735083 | Rubifen LA | Methylphenidate hydrochloride | Cap modified-release 20 mg | Yes |
+| 2735091 | Rubifen LA | Methylphenidate hydrochloride | Cap modified-release 30 mg | Yes |
+| 2735105 | Rubifen LA | Methylphenidate hydrochloride | Cap modified-release 40 mg | Yes |
+| 2735113 | Rubifen LA | Methylphenidate hydrochloride | Cap modified-release 60 mg | Yes |
+| 2567091 | Methylphenidate ER - Teva | Methylphenidate hydrochloride | Tab extended-release 18 mg | Yes |
+| 2562774 | Methylphenidate ER - Teva | Methylphenidate hydrochloride | Tab extended-release 27 mg | Yes |
+| 2562782 | Methylphenidate ER - Teva | Methylphenidate hydrochloride | Tab extended-release 36 mg | Yes |
+| 2562790 | Methylphenidate ER - Teva | Methylphenidate hydrochloride | Tab extended-release 54 mg | Yes |
+| 2349329 | Ritalin | Methylphenidate hydrochloride | Tab immediate-release 10 mg | Yes |
+| 437204 | Rubifen | Methylphenidate hydrochloride | Tab immediate-release 10 mg | Yes |
+| 2227320 | Rubifen | Methylphenidate hydrochloride | Tab immediate-release 20 mg | Yes |
+| 2227371 | Rubifen | Methylphenidate hydrochloride | Tab immediate-release 5 mg | Yes |
+| 2711176 | Methylphenidate Sandoz XR | Methylphenidate hydrochloride | Tab modified-release 18 mg | Yes |
+| 2711184 | Methylphenidate Sandoz XR | Methylphenidate hydrochloride | Tab modified-release 27 mg | Yes |
+| 2711192 | Methylphenidate Sandoz XR | Methylphenidate hydrochloride | Tab modified-release 36 mg | Yes |
+| 2711206 | Methylphenidate Sandoz XR | Methylphenidate hydrochloride | Tab modified-release 54 mg | Yes |
+| 2116782 | Rubifen SR | Methylphenidate hydrochloride | Tab sustained-release 20 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -104,7 +119,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials or publications for faciodigitogenital syndrome, and no mechanistic link is supported. In addition, all 13 New Zealand licences are valid (13 of 13), and package insert safety data is unavailable.
+The prediction rests only on a model score. There are no clinical trials or publications for faciodigitogenital syndrome, and no mechanistic link is supported. In addition, package insert safety data is unavailable.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) from DrugBank

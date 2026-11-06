@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CARBAMAZEPINE"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Carbamazepine is a sodium channel–blocking anticonvulsant. The TxGNN model pre
 | Predicted New Indication | trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,13 +83,16 @@ None of the publications below tests carbamazepine as a treatment for trigeminal
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 680931 | Tegretol | Tab 400 mg | Not recorded |
-| 715840 | Tegretol CR | Tab long-acting 400 mg | Not recorded |
-| 503649 | Tegretol | Oral liq 20 mg per ml | Not recorded |
-| 2291657 | Tegretol | Tab 200 mg | Not recorded |
-| 715832 | Tegretol CR | Tab long-acting 200 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 503649 | Tegretol | Carbamazepine | Oral liq 20 mg per ml | Yes |
+| 2291657 | Tegretol | Carbamazepine | Tab 200 mg | Yes |
+| 680931 | Tegretol | Carbamazepine | Tab 400 mg | Yes |
+| 2649098 | Tegretol CR | Carbamazepine | Tab long-acting 200 mg | Yes |
+| 715832 | Tegretol CR | Carbamazepine | Tab long-acting 200 mg | Yes |
+| 715840 | Tegretol CR | Carbamazepine | Tab long-acting 400 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

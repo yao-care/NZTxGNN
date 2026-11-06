@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Terbutaline is an inhaled β2-adrenergic agonist bronchodilator. The TxGNN model
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9952 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,9 +83,11 @@ None of the publications below studies terbutaline in respiratory malformation. 
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2578417 | Bricanyl Turbuhaler | Powder for inhalation, 200 mcg per dose (equivalent to 250 mcg metered dose), breath activated | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2578417 | Bricanyl Turbuhaler | Terbutaline sulphate | Powder for inhalation, 200 mcg per dose (equivale… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

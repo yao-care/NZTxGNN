@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Propylene Glycol: predicted new indication Bronchitis (evidence level L4). Approved use: Dry eye syndrome, xerophthalmia"
 monitor_inn: "PROPYLENE GLYCOL"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "tetanic cataract", "immature cataract", "craniostenosis cataract"]
@@ -52,8 +52,8 @@ The literature actually describes propylene glycol as a possible airway irritant
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,9 +86,12 @@ Currently no related clinical trials registered for bronchitis.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2177447 | Midwest | Liquid | Not recorded (authorization valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2177447 | Midwest | Propylene glycol | Liq | Yes |
+| 2718634 | Systane Unit Dose | Polyethylene glycol 400 and propylene glycol | Eye drops 0.4% and propylene glycol 0.3%, 0.8 ml | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -103,7 +106,7 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The bronchitis prediction rests only on a high model score. No trials support it, and the available literature points to potential airway irritation rather than benefit. The only New Zealand authorization has been cancelled.
+The bronchitis prediction rests only on a high model score. No trials support it, and the available literature points to potential airway irritation rather than benefit.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible biological rationale for respiratory use

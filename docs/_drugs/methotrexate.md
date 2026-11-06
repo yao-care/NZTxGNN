@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 291
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,8 +54,8 @@ Of the predictions with some supporting data, Hodgkin lymphoma has the most tria
 | Predicted New Indication | Pulmonary blastoma |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (15 of 15 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 15 (valid: 15) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (16 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 16 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,15 +95,28 @@ Currently no related clinical trials registered for primary pulmonary lymphoma.
 
 ## New Zealand Market Information
 
-All 15 licences are valid (15 of 15), so methotrexate is currently marketed in New Zealand according to the data compiled. Approved indication text is not available. Main licences:
+Approved indication text is not available. Main licences:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2215675 | Methotrexate Ebewe | Inj 100 mg per ml, 10 ml | Not available (valid) |
-| 2445859 | Methotrexate Sandoz | Inj 15 mg prefilled syringe | Not available (valid) |
-| 2599678 | Methotrexate DBL | Inj 2.5 mg per ml, 2 ml | Not available (valid) |
-| 333263 | DBL Methotrexate Onco-Vial | Inj 25 mg per ml, 20 ml vial | Not available (valid) |
-| 2537060 | Trexate | Tab 2.5 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2204134 | Baxter | Methotrexate | Inj 1 mg for ECP | Yes |
+| 2445840 | Methotrexate Sandoz | Methotrexate | Inj 10 mg prefilled syringe | Yes |
+| 2215675 | Methotrexate Ebewe | Methotrexate | Inj 100 mg per ml, 10 ml | Yes |
+| 2215683 | Methotrexate Ebewe | Methotrexate | Inj 100 mg per ml, 50 ml vial | Yes |
+| 2445859 | Methotrexate Sandoz | Methotrexate | Inj 15 mg prefilled syringe | Yes |
+| 2599678 | Methotrexate DBL | Methotrexate | Inj 2.5 mg per ml, 2 ml | Yes |
+| 2445867 | Methotrexate Sandoz | Methotrexate | Inj 20 mg prefilled syringe | Yes |
+| 2599686 | Methotrexate DBL Onco-Vial | Methotrexate | Inj 25 mg per ml, 2 ml vial | Yes |
+| 333263 | DBL Methotrexate Onco-Vial | Methotrexate | Inj 25 mg per ml, 20 ml vial | Yes |
+| 2445875 | Methotrexate Sandoz | Methotrexate | Inj 25 mg prefilled syringe | Yes |
+| 2445883 | Methotrexate Sandoz | Methotrexate | Inj 30 mg prefilled syringe | Yes |
+| 2204126 | Baxter | Methotrexate | Inj 5 mg intrathecal syringe for ECP | Yes |
+| 2445832 | Methotrexate Sandoz | Methotrexate | Inj 7.5 mg prefilled syringe | Yes |
+| 2733102 | Methotrexate Pharmascience | Methotrexate | Inj 7.5 mg prefilled syringe | Yes |
+| 2537079 | Trexate | Methotrexate | Tab 10 mg | Yes |
+| 2537060 | Trexate | Methotrexate | Tab 2.5 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

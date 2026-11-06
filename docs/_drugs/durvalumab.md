@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Durvalumab: predicted new indication uterine ligament adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** that directly stu
 | Predicted New Indication | uterine ligament adenocarcinoma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,13 +72,13 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2578425 | Imfinzi | Inj 50 mg per ml, 2.4 ml vial | Not recorded |
-| 2578433 | Imfinzi | Inj 50 mg per ml, 10 ml vial | Not recorded |
-| 2642166 | Baxter | Inj 1 mg for ECP | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2642166 | Baxter | Durvalumab | Inj 1 mg for ECP | Yes |
+| 2578433 | Imfinzi | Durvalumab | Inj 50 mg per ml, 10 ml vial | Yes |
+| 2578425 | Imfinzi | Durvalumab | Inj 50 mg per ml, 2.4 ml vial | Yes |
 
-All three licences are valid.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

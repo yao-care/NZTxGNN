@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ This report documents the data gaps and recommends remediation steps before furt
 | Predicted New Indication | — (No TxGNN predictions available) |
 | TxGNN Prediction Score | — |
 | Evidence Level | L5 (Model prediction unavailable — no supporting studies in this pack) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 1 |
 | Recommended Decision | **Hold** |
 
 ---
@@ -71,7 +71,7 @@ No safety data was available in this Evidence Pack. All key warnings, contraindi
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack for Crotamiton (DB00265) is incomplete — no TxGNN-predicted indications were returned, no MOA data is available, the drug is not registered in New Zealand, and all safety fields are empty. There is currently insufficient evidence to evaluate any repurposing candidate.
+The Evidence Pack for Crotamiton (DB00265) is incomplete — no TxGNN-predicted indications were returned, no MOA data is available, and all safety fields are empty. There is currently insufficient evidence to evaluate any repurposing candidate.
 
 **To proceed, the following is needed:**
 

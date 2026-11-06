@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 115
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This direction is currently supported by **1 completed Phase 2 clinical trial** 
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (15 of 15 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 15 (valid: 15) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (15 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 15 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -83,17 +83,27 @@ Many patients with mania do not respond adequately to conventional treatment or 
 
 ## New Zealand Market Information
 
-Clozapine is marketed in New Zealand. All 15 licences in the local data are valid. Approved-indication text is not recorded in the local data. Main products:
+Clozapine is marketed in New Zealand. Approved-indication text is not recorded in the local data. Main products:
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2229161 | Clopine | Tab 100 mg | Valid |
-| 2633353 | Clozaril | Tab 25 mg | Valid |
-| 2633361 | Clozaril | Tab 100 mg | Valid |
-| 2604965 | Versacloz | Suspension 50 mg per ml | Valid |
-| 2229110 | Clopine | Tab 200 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2604965 | Versacloz | Clozapine | Suspension 50 mg per ml | Yes |
+| 2229161 | Clopine | Clozapine | Tab 100 mg | Yes |
+| 2229811 | Clopine | Clozapine | Tab 100 mg | Yes |
+| 2534878 | Clozaril | Clozapine | Tab 100 mg | Yes |
+| 2534886 | Clozaril | Clozapine | Tab 100 mg | Yes |
+| 2633361 | Clozaril | Clozapine | Tab 100 mg | Yes |
+| 2229110 | Clopine | Clozapine | Tab 200 mg | Yes |
+| 2229854 | Clopine | Clozapine | Tab 200 mg | Yes |
+| 2229153 | Clopine | Clozapine | Tab 25 mg | Yes |
+| 2229773 | Clopine | Clozapine | Tab 25 mg | Yes |
+| 2534843 | Clozaril | Clozapine | Tab 25 mg | Yes |
+| 2534851 | Clozaril | Clozapine | Tab 25 mg | Yes |
+| 2633353 | Clozaril | Clozapine | Tab 25 mg | Yes |
+| 2229137 | Clopine | Clozapine | Tab 50 mg | Yes |
+| 2229781 | Clopine | Clozapine | Tab 50 mg | Yes |
 
-The list is limited to five of the 15 licences.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

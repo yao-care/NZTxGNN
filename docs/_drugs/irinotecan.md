@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 242
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Irinotecan"
 predicted_indications: ["female breast carcinoma"]
 description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**, bu
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -92,15 +92,15 @@ Earlier literature describes irinotecan as having only marginal activity in brea
 
 ## New Zealand Market Information
 
-All five authorizations are valid, and no approved indication text is available.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2204142 | Baxter | Irinotecan hydrochloride | Inj 1 mg for ECP | Yes |
+| 2711036 | Accord | Irinotecan hydrochloride | Inj 20 mg per ml, 25 ml vial | Yes |
+| 2351013 | Irinotecan-Rex | Irinotecan hydrochloride | Inj 20 mg per ml, 5 ml vial | Yes |
+| 2401916 | Irinotecan Actavis 100 | Irinotecan hydrochloride | Inj 20 mg per ml, 5 ml vial | Yes |
+| 2621177 | Accord | Irinotecan hydrochloride | Inj 20 mg per ml, 5 ml vial | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2621177 | Accord | Inj 20 mg per ml, 5 ml vial | Not available |
-| 2351013 | Irinotecan-Rex | Inj 20 mg per ml, 5 ml vial | Not available |
-| 2711036 | Accord | Inj 20 mg per ml, 25 ml vial | Not available |
-| 2401916 | Irinotecan Actavis 100 | Inj 20 mg per ml, 5 ml vial | Not available |
-| 2204142 | Baxter | Inj 1 mg for ECP | Not available |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 
@@ -124,7 +124,7 @@ Package insert warnings and contraindications could not be retrieved, so please 
 **Decision: Hold**
 
 **Rationale:**
-The evidence consists of small Phase 1 studies and indirect data from SN-38 antibody-drug conjugates, with no Phase 3 results for irinotecan in breast cancer. Irinotecan has also been described as having only marginal activity in this disease. The drug is marketed in New Zealand, with all 5 licences valid, but package insert safety data are missing. At this stage it is a research question rather than an actionable repurposing candidate.
+The evidence consists of small Phase 1 studies and indirect data from SN-38 antibody-drug conjugates, with no Phase 3 results for irinotecan in breast cancer. Irinotecan has also been described as having only marginal activity in this disease. At this stage it is a research question rather than an actionable repurposing candidate.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (blocking gap for safety screening)

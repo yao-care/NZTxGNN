@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 224
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Hydrocortisone is a corticosteroid with anti-inflammatory and immunosuppressive 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (18 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 18 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,14 +87,28 @@ Historical reports from the 1950s to 1970s describe hair regrowth after intrales
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 2645580 | Noumed | Cream 1% | Valid |
-| 205648 | Douglas | Tablet 20 mg | Valid |
-| 2646587 | Ethics | Cream 1% | Valid |
-| 265284 | Solu-Cortef | Injection 100 mg vial | Valid |
-| 2322420 | ABM | Powder | Valid |
-| 205621 | Douglas | Tablet 5 mg | Valid |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2646587 | Ethics | Hydrocortisone | Crm 1% | Yes |
+| 2645580 | Noumed | Hydrocortisone | Crm 1%, 500 g | Yes |
+| 265284 | Solu-Cortef | Hydrocortisone | Inj 100 mg vial | Yes |
+| 2322420 | ABM | Hydrocortisone | Powder | Yes |
+| 205648 | Douglas | Hydrocortisone | Tab 20 mg | Yes |
+| 205621 | Douglas | Hydrocortisone | Tab 5 mg | Yes |
+| 2608707 | Cortifoam | Hydrocortisone acetate | Rectal foam 10%, CFC-Free (14 applications) | Yes |
+| 2611120 | Colifoam | Hydrocortisone acetate | Rectal foam 10%, CFC-Free (14 applications) | Yes |
+| 521957 | Locoid Lipocream | Hydrocortisone butyrate | Lipocream 0.1% | Yes |
+| 2017458 | Locoid Crelo | Hydrocortisone butyrate | Milky emul 0.1% | Yes |
+| 210382 | Locoid | Hydrocortisone butyrate | Oint 0.1% | Yes |
+| 210307 | Locoid | Hydrocortisone butyrate | Scalp lotn 0.1% | Yes |
+| 2572176 | Proctofoam | Hydrocortisone acetate with pramoxine hydrochloride | Topical aerosol foam, 1% with pramoxine hydrochlo… | Yes |
+| 716294 | DP Lotn HC | Hydrocortisone and paraffin liquid and lanolin | Lotn 1% with paraffin liquid 15.9% and lanolin 0.… | Yes |
+| 208388 | Proctosedyl | Hydrocortisone with cinchocaine | Oint 5 mg with cinchocaine hydrochloride 5 mg per… | Yes |
+| 208396 | Proctosedyl | Hydrocortisone with cinchocaine | Suppos 5 mg with cinchocaine hydrochloride 5 mg p… | Yes |
+| 704733 | Micreme H | Hydrocortisone with miconazole | Crm 1% with miconazole nitrate 2% | Yes |
+| 260282 | Pimafucort | Hydrocortisone with natamycin and neomycin | Oint 1% with natamycin 1% and neomycin sulphate 0… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

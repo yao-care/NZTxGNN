@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "conjunctival folliculosis", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "Angelucci syndrome"]
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction rests on a TxGNN model (deep learning) score alone and should be 
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,10 +85,12 @@ For context, the literature found for other predicted indications is listed belo
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2365545 (cancelled) | Diamide Relief | Cap 2 mg | Not available |
-| 2184427 (cancelled) | Nodia | Tab 2 mg | Not available |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2365545 | Diamide Relief | Loperamide hydrochloride | Cap 2 mg | Yes |
+| 2184427 | Nodia | Loperamide hydrochloride | Tab 2 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -112,7 +114,6 @@ The top prediction has no clinical trials, no literature, and no plausible mecha
 - Medsafe package insert warnings and contraindications, which are required for safety screening
 - Any preclinical or clinical evidence for an ocular effect, which does not currently exist
 - Assessment of route compatibility, since no ocular formulation is available
-- Current New Zealand regulatory status, since both licences are cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

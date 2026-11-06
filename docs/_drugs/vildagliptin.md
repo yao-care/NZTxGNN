@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 (model prediction only) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,9 +79,13 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Status | Approved Indication |
-|---------|------|------|------|-----------|
-| 2455161 | Galvus | Tab 50 mg | Valid | Not stated in the licence record |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2455161 | Galvus | Vildagliptin | Tab 50 mg | Yes |
+| 2554828 | Galvumet | Vildagliptin with metformin hydrochloride | Tab 50 mg with 1,000 mg metformin hydrochloride | Yes |
+| 2554801 | Galvumet | Vildagliptin with metformin hydrochloride | Tab 50 mg with 850 mg metformin hydrochloride | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -99,7 +103,6 @@ Please refer to the package insert for warnings and contraindications.
 
 **Rationale:**
 The prediction has a very high model score but no trials, no literature and no identifiable mechanistic link to stiff person syndrome. Evidence is L5, which does not justify further investment at this stage.
-
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological rationale linking DPP-4 inhibition to stiff person syndrome

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The data compiled for this report include **8 clinical trials** and **20 publica
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 of 5 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 5 (valid: 5) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (5 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 5 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -90,13 +90,15 @@ Several studies directly in Ewing sarcoma support this. They include a prospecti
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2571161 | Docetaxel Accord | Inj 20 mg per ml, 4 ml vial | Not recorded in local data |
-| 2440830 | DBL Docetaxel | Inj 10 mg per ml, 8 ml vial | Not recorded in local data |
-| 2207559 | Baxter | Inj 1 mg for ECP | Not recorded in local data |
-| 2428148 | Docetaxel Sandoz | Inj 20 mg | Not recorded in local data |
-| 2428156 | Docetaxel Sandoz | Inj 80 mg | Not recorded in local data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2207559 | Baxter | Docetaxel | Inj 1 mg for ECP | Yes |
+| 2440830 | DBL Docetaxel | Docetaxel | Inj 10 mg per ml, 8 ml vial | Yes |
+| 2428148 | Docetaxel Sandoz | Docetaxel | Inj 20 mg | Yes |
+| 2571161 | Docetaxel Accord | Docetaxel | Inj 20 mg per ml, 4 ml vial | Yes |
+| 2428156 | Docetaxel Sandoz | Docetaxel | Inj 80 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

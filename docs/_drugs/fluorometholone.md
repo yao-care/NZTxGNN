@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "FLUOROMETHOLONE"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
 description: "Fluorometholone: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Among the other top-ranked predictions, only **punctate epithelial keratoconjunc
 | Predicted New Indication | Postinfectious vasculitis |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -94,12 +94,12 @@ Two papers were retrieved for the rank 6 prediction, punctate epithelial keratoc
 
 ## New Zealand Market Information
 
-Both authorizations are cancelled, and the records contain no approved indication text.
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 264415 | FML | Fluorometholone | Eye drops 0.1% | Yes |
+| 284866 | Flucon | Fluorometholone | Eye drops 0.1% | Yes |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 264415 | FML | Eye drops 0.1% | Not recorded (valid) |
-| 284866 | Flucon | Eye drops 0.1% | Not recorded (valid) |
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -119,7 +119,7 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 **Decision: Hold**
 
 **Rationale:**
-The prediction for postinfectious vasculitis is based on the model score alone (L5), with no trials or literature. A topical ocular steroid is poorly matched to a systemic disease, and both New Zealand licences are cancelled. The anterior uveitis-type predictions (lens-induced iridocyclitis, glaucomatocyclitic crisis) and punctate epithelial keratoconjunctivitis are better-grounded research questions, but they too lack direct evidence.
+The prediction for postinfectious vasculitis is based on the model score alone (L5), with no trials or literature. A topical ocular steroid is poorly matched to a systemic disease. The anterior uveitis-type predictions (lens-induced iridocyclitis, glaucomatocyclitic crisis) and punctate epithelial keratoconjunctivitis are better-grounded research questions, but they too lack direct evidence.
 
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (currently a blocking gap for safety screening)

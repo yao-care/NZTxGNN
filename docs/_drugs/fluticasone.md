@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fluticasone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "FLUTICASONE"
 predicted_indications: ["migraine disorder", "Prinzmetal angina", "migraine with brainstem aura"]
@@ -38,7 +38,6 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Fluticasone is an inhaled glucocorticoid, marketed in New Zealand as Flixotide aerosol inhalers and Accuhaler powder inhalers, and all 6 of its New Zealand licences are valid.
 The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and only **1 publication**, and that publication addresses adverse events rather than benefit.
 This prediction rests on the model alone and is not yet backed by clinical evidence.
 
@@ -50,8 +49,8 @@ This prediction rests on the model alone and is not yet backed by clinical evide
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (6 of 6 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 6 (valid: 6) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (13 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 13 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,15 +77,23 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2004887 | Flixotide | Aerosol inhaler, 50 mcg per dose | Not stated (valid) |
-| 472867 | Flixotide | Aerosol inhaler, 250 mcg per dose | Not stated (valid) |
-| 402958 | Flixotide Accuhaler | Powder for inhalation, 50 mcg per dose | Not stated (valid) |
-| 402974 | Flixotide Accuhaler | Powder for inhalation, 100 mcg per dose | Not stated (valid) |
-| 402990 | Flixotide Accuhaler | Powder for inhalation, 250 mcg per dose | Not stated (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 472859 | Flixotide | Fluticasone | Aerosol inhaler, 125 mcg per dose | Yes |
+| 472867 | Flixotide | Fluticasone | Aerosol inhaler, 250 mcg per dose | Yes |
+| 2004887 | Flixotide | Fluticasone | Aerosol inhaler, 50 mcg per dose | Yes |
+| 402974 | Flixotide Accuhaler | Fluticasone | Powder for inhalation, 100 mcg per dose | Yes |
+| 402990 | Flixotide Accuhaler | Fluticasone | Powder for inhalation, 250 mcg per dose | Yes |
+| 402958 | Flixotide Accuhaler | Fluticasone | Powder for inhalation, 50 mcg per dose | Yes |
+| 2407000 | Flixonase Hayfever & Allergy | Fluticasone propionate | Metered aqueous nasal spray, 50 mcg per dose | Yes |
+| 2674904 | Trelegy Ellipta | Fluticasone furoate with umeclidinium and vilanterol | Powder for inhalation fluticasone furoate 100 mcg… | Yes |
+| 2494299 | Breo Ellipta | Fluticasone furoate with vilanterol | Powder for inhalation 100 mcg with vilanterol 25… | Yes |
+| 2120208 | Seretide | Fluticasone with salmeterol | Aerosol inhaler 125 mcg with salmeterol 25 mcg | Yes |
+| 2120194 | Seretide | Fluticasone with salmeterol | Aerosol inhaler 50 mcg with salmeterol 25 mcg | Yes |
+| 2120216 | Seretide Accuhaler | Fluticasone with salmeterol | Powder for inhalation 100 mcg with salmeterol 50… | Yes |
+| 2120224 | Seretide Accuhaler | Fluticasone with salmeterol | Powder for inhalation 250 mcg with salmeterol 50… | Yes |
 
-One further cancelled authorization (472859, Flixotide aerosol inhaler, 125 mcg per dose) is not shown. All 6 authorizations are single-ingredient products and are cancelled.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -105,7 +112,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (L5). There are no clinical trials, and the single publication concerns adverse events rather than benefit. All 6 New Zealand licences are valid, but package insert safety data and mechanism data are missing.
+The prediction is supported only by the model score (L5). There are no clinical trials, and the single publication concerns adverse events rather than benefit. Package insert safety data and mechanism data are missing.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to assess whether a link to migraine pathophysiology is credible

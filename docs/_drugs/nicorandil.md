@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 320
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nicorandil: predicted new indication benign prostatic hyperplasia (disease) (evidence level L4). Approved use: Chronic stable angina pectoris"
 monitor_inn: "NICORANDIL"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
@@ -50,8 +50,8 @@ Nicorandil is a potassium channel opener and nitric oxide donor, used in several
 | Predicted New Indication | Benign prostatic hyperplasia |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -86,10 +86,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2669250 | Max Health | Tab 20 mg | Not recorded (licence valid) |
-| 2669242 | Max Health | Tab 10 mg | Not recorded (licence valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2669242 | Max Health | Nicorandil | Tab 10 mg | Yes |
+| 2669250 | Max Health | Nicorandil | Tab 20 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
@@ -106,14 +108,13 @@ The interaction data contain only pharmacological target information (Kir6.1 and
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (0.9971), but the supporting evidence is limited to one animal study and two review articles from a single research group, with no human trials. Nicorandil is currently marketed in New Zealand, with 2 valid licences of 2. This should be treated as a research question rather than a candidate for immediate development.
+The TxGNN score is high (0.9971), but the supporting evidence is limited to one animal study and two review articles from a single research group, with no human trials. This should be treated as a research question rather than a candidate for immediate development.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Confirmation in human studies, such as a pilot trial measuring prostatic blood flow and LUTS scores
 - A review of the blood pressure effects of nicorandil in older men, who often take other antihypertensive or BPH medications
-- A regulatory pathway assessment, given that Nicorandil is marketed in New Zealand with 2 valid licences of 2
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

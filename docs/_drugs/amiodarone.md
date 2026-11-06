@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 34
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Amiodarone is an antiarrhythmic medicine used for serious heart rhythm disorders
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 of 3 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 (valid: 3) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,11 +80,13 @@ None of the retrieved publications evaluates amiodarone as a treatment for CPVT.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2565129 | Max Health | Inj 50 mg per ml, 3 ml ampoule | Not recorded (valid) |
-| 770639 | Aratac | Tab 200 mg | Not recorded (valid) |
-| 770620 | Aratac | Tab 100 mg | Not recorded (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2565129 | Max Health | Amiodarone hydrochloride | Inj 50 mg per ml, 3 ml ampoule | Yes |
+| 770620 | Aratac | Amiodarone hydrochloride | Tab 100 mg | Yes |
+| 770639 | Aratac | Amiodarone hydrochloride | Tab 200 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

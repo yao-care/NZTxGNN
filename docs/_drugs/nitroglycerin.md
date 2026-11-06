@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 326
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the available licence records"
 monitor_inn: "nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -38,7 +38,7 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Nitroglycerin is a nitric oxide (NO) donor and vasodilator. The New Zealand licence records compiled for this report do not state an approved indication, but the product forms (ointment, patches, sublingual spray) are consistent with cardiovascular and anal-fissure use.
+Nitroglycerin is a nitric oxide (NO) donor and vasodilator. The product forms (ointment, patches, sublingual spray) are consistent with cardiovascular and anal-fissure use.
 The TxGNN model predicts it may be effective for **pulmonary hypertension**, with **3 clinical trials** (1 completed, small, non-phased) and **20 publications** (mostly reviews and small haemodynamic studies, plus one randomised trial in newborns) supporting this direction.
 
 ## Quick Overview
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, wit
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -86,12 +86,14 @@ The evidence level of L3 reflects the mix of reviews, haemodynamic studies and s
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2120313 | Rectogesic | Ointment 0.2% | Not stated (valid) |
-| 716790 | Nitroderm TTS | Patch 25 mg, 5 mg per day | Not stated (valid) |
-| 2017962 | Nitrolingual Pump Spray | Oral pump spray, 400 mcg per dose | Not stated (valid) |
-| 750247 | Nitroderm TTS | Patch 50 mg, 10 mg per day | Not stated (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2120313 | Rectogesic | Glyceryl trinitrate | Oint 0.2% | Yes |
+| 2017962 | Nitrolingual Pump Spray | Glyceryl trinitrate | Oral pump spray, 400 mcg per dose | Yes |
+| 716790 | Nitroderm TTS | Glyceryl trinitrate | Patch 25 mg, 5 mg per day | Yes |
+| 750247 | Nitroderm TTS | Glyceryl trinitrate | Patch 50 mg, 10 mg per day | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -112,7 +114,7 @@ The mechanism is plausible and acute haemodynamic benefit is shown in small stud
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Adequately powered controlled trials of nebulised or inhaled nitroglycerin with durable clinical outcomes
-- A decision on formulation and route, since no inhaled product is currently licensed in New Zealand
+- A decision on formulation and route
 - Clarification of the original approved indications of the cancelled licences
 ## Disclaimer
 

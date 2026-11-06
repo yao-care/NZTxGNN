@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 301
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "MIDODRINE"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is variably protease-sensitive prionopat
 | Predicted New Indication | Variably protease-sensitive prionopathy (TxGNN rank 1); the best-evidenced candidate is hypotensive disorder (variably protease-sensitive prionopathy) |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (prionopathy); L2 (hypotensive disorder) |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold (prionopathy); Proceed with Guardrails (hypotensive disorder) |
 
 ## Why is This Prediction Reasonable?
@@ -94,12 +94,12 @@ For the other predictions, only two papers were retrieved: one on orthostatic dy
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2632071 | Midodrine Medsurge | Tab 5 mg | Not recorded (status: valid) |
-| 2632063 | Midodrine Medsurge | Tab 2.5 mg | Not recorded (status: valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2632063 | Midodrine Medsurge | Midodrine | Tab 2.5 mg | Yes |
+| 2632071 | Midodrine Medsurge | Midodrine | Tab 5 mg | Yes |
 
-Both authorizations are cancelled, so availability in New Zealand may be a practical constraint.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 

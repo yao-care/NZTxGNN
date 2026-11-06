@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **cauda equina neoplasm**, but 
 | Predicted New Indication | Cauda equina neoplasm |
 | TxGNN Prediction Score | 0.9930 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (8 of 8 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 8 (valid: 8) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (9 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 9 |
 | Number of Approvals | 8 licences (all single-ingredient products) |
 | Recommended Decision | Hold |
 
@@ -78,15 +78,19 @@ Only the first report is closely related to the predicted disease. It involves a
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2689413 | Temozolomide-Taro | Cap 5 mg | Not stated in the available records |
-| 2572311 | Apo-Temozolomide | Cap 20 mg | Not stated in the available records |
-| 2388243 | Temaccord | Cap 100 mg | Not stated in the available records |
-| 2566044 | Temaccord | Cap 140 mg | Not stated in the available records |
-| 2388278 | Temaccord | Cap 5 mg | Not stated in the available records |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2388243 | Temaccord | Temozolomide | Cap 100 mg | Yes |
+| 2572338 | Apo-Temozolomide | Temozolomide | Cap 100 mg | Yes |
+| 2566044 | Temaccord | Temozolomide | Cap 140 mg | Yes |
+| 2388251 | Temaccord | Temozolomide | Cap 20 mg | Yes |
+| 2572311 | Apo-Temozolomide | Temozolomide | Cap 20 mg | Yes |
+| 2388235 | Temaccord | Temozolomide | Cap 250 mg | Yes |
+| 2388278 | Temaccord | Temozolomide | Cap 5 mg | Yes |
+| 2689413 | Temozolomide-Taro | Temozolomide | Cap 5 mg | Yes |
+| 2733188 | Temozolomide (Devatis) | Temozolomide | Cap 5 mg | Yes |
 
-There are 8 valid single-ingredient licences in total; the table shows the first 5.
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Cytotoxicity
 

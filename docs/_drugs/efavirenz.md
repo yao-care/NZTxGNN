@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 172
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ There are **0 clinical trials** and **14 publications** (mostly macaque and labo
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (1 of 1 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 1 (valid: 1) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -99,9 +99,14 @@ No randomised controlled trials or human studies were identified.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2676915 | Efavirenz Milpharm (valid) | Tab 600 mg | Not recorded |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2705508 | TEEVIR | Efavirenz with emtricitabine and tenofovir disoproxil | Tab 600 mg with emtricitabine 200 mg and tenofovi… | Yes |
+| 2727994 | TEEVIR (India) | Efavirenz with emtricitabine and tenofovir disoproxil | Tab 600 mg with emtricitabine 200 mg and tenofovi… | Yes |
+| 2732041 | Tenofovir Efavirenz Emtricitabine(Mylan) | Efavirenz with emtricitabine and tenofovir disoproxil | Tab 600 mg with emtricitabine 200 mg and tenofovi… | Yes |
+| 2644967 | Viatris | Efavirenz with emtricitabine and tenofovir disoproxil | Tab 600 mg with emtricitabine 200 mg and tenofovi… | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 

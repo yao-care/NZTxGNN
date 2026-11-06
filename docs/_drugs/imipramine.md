@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 232
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **no registered clinical trials** and only **20 publications**, mo
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 of 4 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 (valid: 4) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,12 +85,14 @@ The most relevant publications for ADHD are listed below.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2015250 | Tofranil | Tab 25 mg | Not available (valid) |
-| 2015269 | Tofranil | Tab 10 mg | Not available (valid) |
-| 2452804 | Tofranil | Tab 10 mg | Not available (valid) |
-| 2669692 | Imipramine Crescent | Tab 25 mg | Not available (valid) |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2015269 | Tofranil | Imipramine hydrochloride | Tab 10 mg | Yes |
+| 2452804 | Tofranil | Imipramine hydrochloride | Tab 10 mg | Yes |
+| 2015250 | Tofranil | Imipramine hydrochloride | Tab 25 mg | Yes |
+| 2669692 | Imipramine Crescent | Imipramine hydrochloride | Tab 25 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -110,7 +112,7 @@ The most relevant publications for ADHD are listed below.
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale is plausible and older literature includes imipramine use in ADHD, but there are no registered trials and the evidence is mostly old, small or review-level. Cardiac safety concerns in children, newer alternatives with better safety profiles, and the cancelled status of all four New Zealand licences all argue against moving forward now.
+The mechanistic rationale is plausible and older literature includes imipramine use in ADHD, but there are no registered trials and the evidence is mostly old, small or review-level. Cardiac safety concerns in children, newer alternatives with better safety profiles.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (currently missing, which blocks safety screening)

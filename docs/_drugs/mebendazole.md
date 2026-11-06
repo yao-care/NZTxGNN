@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "MEBENDAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acne**, but there are **0 cli
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 of 2 items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 2 (valid: 2) |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,10 +81,12 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 239852 (valid) | Vermox | Oral liquid 100 mg per 5 ml | Not specified in the available data |
-| 258040 (cancelled) | Vermox | Tablet 100 mg | Not specified in the available data |
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 239852 | Vermox | Mebendazole | Oral liq 100 mg per 5 ml | No |
+| 258040 | Vermox | Mebendazole | Tab 100 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 ---
 
