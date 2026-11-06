@@ -445,3 +445,7 @@ M3V	en	- Retrieve the Medsafe package insert to complete warnings, contraindicat
 M3V	en	The identifier appears to be a BNF-style code rather than an MHRA PL number, so the authorisation details should be checked against MHRA records.	miss	site=UkTxGNN;ms=Marketed;total=3;valid=3;cancelled=0
 M3V	en	- Confirm Philippines FDA registration status via the online product verification portal; if unregistered, assess importation or registration pathway.	miss	site=PhTxGNN;ms=Marketed;total=1;valid=1;cancelled=0
 M3V	en	MHRA licence data should be retrieved and loaded before any regulatory assessment is undertaken.	miss	site=CaTxGNN;ms=Marketed;total=34;valid=34;cancelled=0
+M3V	en	The drug is marketed in this country, with 3 valid licences of 3.	hit	site=EuTxGNN;ms=Marketed;total=8;valid=8;cancelled=0;note=2026-11-06「N valid … of N」總數說法
+M3V	en-us	In addition, the drug is marketed in the US with 11 valid licenses out of 11, and the safety data are incomplete.	hit	site=UsTxGNN;ms=Marketed;total=20;valid=15;cancelled=5
+M3V	en	The drug is marketed in this country, with 8 valid licences out of 8.	miss	site=EuTxGNN;ms=Marketed;total=8;valid=8;cancelled=0
+M3V	en	The authorization for Vaborem is valid (1 valid licence out of 1) and the drug is marketed.	miss	site=EuTxGNN;ms=Marketed;total=1;valid=1;cancelled=0

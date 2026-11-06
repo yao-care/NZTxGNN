@@ -25,7 +25,7 @@
      M3 擴充（2026-11-05，英文站、M3X_SITES 啟用）：M3a 未上市卻寫有效、M3b 有效卻寫未註冊／查無註冊、M3c 有註銷卻寫全部有效／沒有註銷／有效張數過多
      M3 英文「全部註銷」漏網寫法（2026-11-06，ALLC_X_SITES 啟用：Us，同日加 Eu、NZ、Au、In、Sg、Uk、Ca、Ph、Za）：all／both／the／only／sole … listings／records／BLAs … cancelled、
      「The US licences are all cancelled」「the cancelled US market status」、另有 N 張註銷但 N 多於事實、點名的申請號其實有效（all_cancel_x）
-     M3 英文「總數說法」跟事實不符（2026-11-06，TOTAL_X_SITES，同上 10 站）：In total／overall／Of N records／A of the N／all N／N … in total 的
+     M3 英文「總數說法」跟事實不符（2026-11-06，TOTAL_X_SITES，同上 10 站）：In total／overall／Of N records／A of the N／all N／N valid … of N／N … in total 的
      總數、有效、註銷張數跟事實不符（total_x；表格子集合、至少 N、部分紀錄、交互作用筆數不算）
      M3l 清單站（Uk、NZ、Ph）第四輪（2026-11-06）：說許可資料應去 MHRA／Medsafe／FDA PH 擷取、重跑擷取流程、許可資料／紀錄不完整或尚未載入（LIST_PIPE；仿單缺漏不算）
 D1 一頁只能有一份報告（2026-11-03 用戶決定）：報告標題＝H2 後一行是「{: .text-alpha }」；兩個以上就錯
@@ -803,7 +803,8 @@ _TLIC = r"(?:(?:US|U\.S\.|FDA|EU|EMA|centrali[sz]ed|single-ingredient|generic|ma
 _TN = r"(\d+|" + "|".join(NUM_WORDS) + r")"
 TOTAL_CUE = re.compile(r"\b(in total|overall|altogether|in all|a total of|total of)\b|^\W*(?:Of|Among)\s+(?:the\s+)?(?:" + _TN + r"\s+)?" + _TLIC +
                        r"|\b" + _TN + r"\s+of\s+(?:the|these|its|all)?\s*" + _TN + r"\s+" + _TLIC +
-                       r"|\b(?:all|both)\s+" + _TN + r"\s+" + _TLIC, re.I)
+                       r"|\b(?:all|both)\s+" + _TN + r"\s+" + _TLIC +
+                       r"|\b" + _TN + r"\s+(?:valid|active)\s+" + _TLIC + r"\s+(?:out\s+)?of\s+" + _TN + r"\b", re.I)
 TOTAL_NOTLIC = re.compile(r"interact|\bDDIs?\b|\brated (Major|Moderate|Minor)\b|\bdrugs? (were )?identified\b|\binteracting\b", re.I)  # 交互作用筆數不是許可證
 TOTAL_SUBSET = re.compile(r"\b(listed|shown|displayed|in the table|in this table|above|below|on this page|in the list)\b(?!\s+in total)", re.I)
 _T_TOTAL = [re.compile(r"^\W*(?:Of|Among)\s+(?:the\s+)?" + _TN + r"\s+" + _TLIC, re.I),
@@ -811,7 +812,8 @@ _T_TOTAL = [re.compile(r"^\W*(?:Of|Among)\s+(?:the\s+)?" + _TN + r"\s+" + _TLIC,
             re.compile(r"\b(?:all|both)\s+" + _TN + r"\s+" + _TLIC, re.I),
             re.compile(r"\ba total of\s+" + _TN + r"\b", re.I),
             re.compile(r"\b" + _TN + r"\s+" + _TLIC + r"(?:\s+(?:are|were|is)\s+(?:listed|recorded|held|on record))?\s+in total\b", re.I),
-            re.compile(r"\bhold\s+" + _TN + r"\s+" + _TLIC + r"[^.;,]{0,20}\bin total\b", re.I)]
+            re.compile(r"\bhold\s+" + _TN + r"\s+" + _TLIC + r"[^.;,]{0,20}\bin total\b", re.I),
+            re.compile(r"\b" + _TN + r"\s+(?:valid|active)\s+" + _TLIC + r"\s+(?:out\s+)?of\s+" + _TN + r"\b", re.I)]  # 「3 valid licences of 3」：group(2)
 _T_VALID = [re.compile(r"\b" + _TN + r"\s+of\s+(?:the|these|its|all)?\s*" + _TN + r"\s+" + _TLIC + r"\s+(?:are|is)\s+(?:currently\s+|still\s+)?(?:valid|active)\b", re.I),
             re.compile(r"(?<!of )(?<!total of )\b" + _TN + r"\s+(?:(?:US|FDA)\s+)?(?:" + _TLIC + r"\s+)?(?:are|is)\s+(?:currently\s+|still\s+)?(?:valid|active)\b", re.I),
             re.compile(r"\b" + _TN + r"\s+(?:valid|active)\b(?!\s+(?:and|or)\s+\d)", re.I)]
@@ -819,7 +821,8 @@ _T_CANC = [re.compile(r"\b" + _TN + r"\s+(?:(?:US|FDA)\s+)?(?:" + _TLIC + r"\s+)
            re.compile(r"\b" + _TN + r"\s+cancel+ed\b", re.I)]
 # 刪句工具（delete_license_sentences.CLAIM）用來定位要刪的張數子句（「, with 6 of 6 licenses valid」「(3 of 3 licences are valid)」）
 TOTAL_SPAN = re.compile(r"\b(?:all\s+)?" + _TN + r"\s+of\s+(?:its\s+|the\s+)?" + _TN + r"\s+" + _TLIC + r"(?:\s+(?:are|is))?\s+(?:currently\s+)?(?:valid|active)\b|"
-                        r"\ball\s+" + _TN + r"\s+" + _TLIC + r"\s+(?:are|is)\s+(?:currently\s+)?(?:valid|active)\b", re.I)
+                        r"\ball\s+" + _TN + r"\s+" + _TLIC + r"\s+(?:are|is)\s+(?:currently\s+)?(?:valid|active)\b|"
+                        r"\(?\b" + _TN + r"\s+(?:valid|active)\s+" + _TLIC + r"\s+(?:out\s+)?of\s+" + _TN + r"\b\)?", re.I)
 _T_ALLV = re.compile(r"\b(?:all|both)\s+(?:" + _TN + r"\s+)?" + _TLIC + r"[^.;,]{0,40}?\b(?:are|is)\s+(?:currently\s+|still\s+)?(?:recorded\s+as\s+|listed\s+as\s+|counted\s+as\s+|marked\s+as\s+)?(?:valid|active)\b", re.I)
 
 
@@ -841,7 +844,7 @@ def total_x(site, s, fc):
     for i, rx in enumerate(_T_TOTAL):
         m = rx.search(s2)
         if m:
-            k = _num(m.group(2) if i == 1 else m.group(1))
+            k = _num(m.group(2) if i in (1, len(_T_TOTAL) - 1) else m.group(1))
             if k is not None and k not in ok_n:
                 bad.append(f"總數 {k}≠{n}")
             break
