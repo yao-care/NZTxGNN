@@ -6,7 +6,7 @@ nav_order: 391
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-06
-description: "Propylene Glycol: predicted new indication Bronchitis (evidence level L4). Approved use: Dry eye syndrome, xerophthalmia"
+description: "Propylene Glycol: predicted new indication Bronchitis (evidence level L5). Approved use: Dry eye syndrome, xerophthalmia"
 monitor_inn: "PROPYLENE GLYCOL"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "tetanic cataract", "immature cataract", "craniostenosis cataract"]
 ---

@@ -6,7 +6,7 @@ nav_order: 401
 evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-11-06
-description: "Ribociclib: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Not stated in the New Zealand license data compiled for this report (…"
+description: "Ribociclib: predicted new indication Myeloid leukemia (evidence level L4). Approved use: Not stated in the New Zealand license data compiled for this report (…"
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
 ---

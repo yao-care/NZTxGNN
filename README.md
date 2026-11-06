@@ -24,7 +24,7 @@ Drug repurposing predictions for medicines on the New Zealand Pharmac Community 
 | **Unique Drugs** | 542 |
 | **Unique Indications** | 17,041 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 545 MK / 3,162 CUD |
+| **FHIR Resources** | 541 MK / 3,162 CUD |
 
 ### Evidence Level Distribution
 

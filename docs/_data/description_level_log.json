@@ -1,0 +1,77 @@
+{
+  "_note": "藥物頁 front matter description 的證據等級字樣改成頁首等級的紀錄（母目錄 .claude/sync_description_levels.py 追加；只換等級字樣，其他文字不動）。還原：把 original_description 寫回該頁 description。",
+  "entries": [
+    {
+      "page": "docs/_drugs/clopidogrel.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Clopidogrel: predicted new indication Migraine disorder (evidence level L2). Approved use: Acute coronary syndrome\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dacarbazine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L4). Approved use: Metastatic melanoma\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/desogestrel.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Desogestrel: predicted new indication Amenorrhea (evidence level L3). Approved use: Not stated in the available authorization data (desogestrel is known…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/iloprost.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Iloprost: predicted new indication hypotrichosis simplex of the scalp (evidence level L3). Approved use: Pulmonary arterial hypertension\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/misoprostol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Misoprostol: predicted new indication Amenorrhea (evidence level L4). Approved use: Not stated in the licence data\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/mycophenolate_mofetil.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not available\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/propylene_glycol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Propylene Glycol: predicted new indication Bronchitis (evidence level L4). Approved use: Dry eye syndrome, xerophthalmia\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ribociclib.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L4",
+      "original_description": "\"Ribociclib: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Not stated in the New Zealand license data compiled for this report (…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rifaximin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rifaximin: predicted new indication Oral candidiasis (evidence level L4). Approved use: Hepatic encephalopathy, hepatic coma\"",
+      "tool": ".claude/sync_description_levels.py"
+    }
+  ]
+}
