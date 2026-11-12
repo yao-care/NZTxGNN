@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Saccharin: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded"
 monitor_inn: "saccharin"
 predicted_indications: ["obsolete bundle branch block", "ventricular tachycardia"]
@@ -72,12 +72,16 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2377268 | Ora-Sweet SF | Glycerin with sodium saccharin | Suspension | Yes |
 | 2377225 | Ora-Blend SF | Methylcellulose with glycerin and sodium saccharin | Suspension | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -90,12 +94,31 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Rationale:**
 The prediction rests only on a model score, with no clinical trials, no literature, no known mechanism and no recorded safety data. The predicted disease term is obsolete.
 
+<!-- review:begin nz-lic-20261106-saccharin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Saccharin's products are also cancelled in New Zealand, and the predicted disease term is obsolete." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-saccharin-1 -->
+
 **To proceed, the following is needed:**
 - Retrieve and review the Medsafe package insert for warnings and contraindications (a blocking gap for safety screening)
 - Obtain mechanism of action data (for example from DrugBank)
 - Any preclinical or clinical evidence linking saccharin to cardiac conduction or arrhythmia
 - Confirmation of a current, clinically valid disease target, since the predicted term is obsolete
 - Assessment of route and dosage-form compatibility with the proposed use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Saccharin's products are also cancelled in New Zealand, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

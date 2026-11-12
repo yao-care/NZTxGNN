@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 122
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -82,6 +82,14 @@ Currently no related literature available (no predicted indication available to 
 
 ## New Zealand Market Information
 
+<!-- review:begin nz-lic-20261106-cyclizine_lactate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Cyclizine Lactate has **no registered authorizations** in New Zealand. No license records, dosage forms, or approved indication texts were returned by the TFDA/Medsafe query." Removed: leftover template text about Taiwan's TFDA, which does not apply to this New Zealand page. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-cyclizine_lactate-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2231220 | Nausicalm | Cyclizine hydrochloride | Tab 50 mg | Yes |
@@ -90,6 +98,8 @@ Currently no related literature available (no predicted indication available to 
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
@@ -97,6 +107,12 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
 Please refer to the package insert for safety information.
 
 > All safety fields (key warnings, contraindications, drug–drug interactions) returned no data or were flagged as data gaps. The DDI query returned `not_found`.
+
+<!-- review:begin nz-lic-20261106-cyclizine_lactate-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The DDI query returned `not_found`. The TFDA package insert query reported 1 result but content was not parsed into the evidence pack — remediation is required before any safety assessment can proceed." Removed: leftover template text about Taiwan's TFDA, which does not apply to this New Zealand page. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-cyclizine_lactate-2 -->
 
 ---
 
@@ -112,6 +128,27 @@ The evidence pack is critically incomplete — there are no TxGNN-predicted indi
 - **[High — DG002]** Resolve the DrugBank ID for Cyclizine Lactate and retrieve the confirmed mechanism of action (MOA); required for mechanistic plausibility analysis.
 - **[Pipeline]** Re-run the TxGNN prediction pipeline for this drug to obtain disease scores; the current `predicted_indications` array is empty, which may indicate a data ingestion or mapping failure rather than a true absence of signal.
 - **[Verification]** Confirm whether the 1 result returned by the `tfda_package_insert` query (query log ID 4) contains usable content, and ingest it into the evidence pack fields before re-evaluation.
+
+<!-- review:begin nz-lic-20261106-cyclizine_lactate-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**[Blocking — DG001]** Retrieve and parse the TFDA/Medsafe package insert PDF to extract warnings, contraindications, and approved indications; this is required before any safety screening can occur. / **[High — DG002]** Resolve the DrugBank ID for Cyclizine Lactate and retrieve the confirmed mechanism of action (MOA); required for mechanistic plausibility analysis." Removed: leftover template text about Taiwan's TFDA, which does not apply to this New Zealand page. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-cyclizine_lactate-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Cyclizine Lactate has **no registered authorizations** in New Zealand. No license records, dosage forms, or approved indication texts were r" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The TFDA package insert query reported 1 result but content was not parsed into the evidence pack — remediation is required before any safet" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "**[Blocking — DG001]** Retrieve and parse the TFDA/Medsafe package insert PDF to extract warnings, contraindications, and approved indicatio" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

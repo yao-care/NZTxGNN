@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "TENOXICAM"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tenoxicam: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Arthritic joint disease and arthropathy"
 ---
 
@@ -99,6 +99,8 @@ For reference, literature for other candidates:
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2307022 | AFT | Tenoxicam | Inj 20 mg vial | Yes |
@@ -106,7 +108,15 @@ For reference, literature for other candidates:
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The injection and tablet forms are both available.
+
+<!-- review:begin nz-lic-20261106-tenoxicam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid, single-ingredient products. The injection and tablet forms are both available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tenoxicam-1 -->
 
 ## Safety Considerations
 
@@ -126,6 +136,19 @@ The top-ranked prediction, brachydactyly-syndactyly syndrome, is a congenital ge
 - Results from NCT06786650 to evaluate headache/migraine as a possible lead; it should be re-evaluated as its own candidate at that point.
 - Mechanism of action data and the Medsafe package insert (warnings and contraindications) to enable safety screening.
 - Approved indication text for the two New Zealand licences.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are valid, single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

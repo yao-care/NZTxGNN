@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 427
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). Approved use: Not recorded in the local data"
@@ -125,6 +125,25 @@ Sofosbuvir has no plausible mechanism against HBV, and the available evidence (L
 - Mechanism of action data and package insert warnings and contraindications (not yet available in the data compiled for this report)
 - A controlled study of anti-HBV efficacy in HBV mono-infection, with HBsAg and HBV DNA endpoints
 - If the programme is to be pursued at all, consider redirecting to **hepatitis E virus infection**, where a plausible RNA polymerase mechanism and in vitro and early clinical data exist (the pilot Phase 2 trial, NCT03282474, n=10, did not achieve sustained virologic response)
+
+<!-- review:begin nz-lic-20261106-sofosbuvir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A controlled study of anti-HBV efficacy in HBV mono-infection, with HBsAg and HBV DNA endpoints / Clarification of the status of the cancelled New Zealand authorization" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-sofosbuvir-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clarification of the status of the cancelled New Zealand authorization" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

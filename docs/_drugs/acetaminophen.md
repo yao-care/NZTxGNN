@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetamino
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2721376 | Noumed | Paracetamol | Oral liq 120 mg per 5 ml | Yes |
@@ -84,6 +86,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetamino
 | 2461234 | Paracetamol + Codeine (Relieve) | Paracetamol with codeine | Tab paracetamol 500 mg with codeine phosphate 8 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

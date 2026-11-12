@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
 description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,6 +90,8 @@ For Lewy body dementia, the only related publications are preclinical:
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2685299 | Entacapone Viatris | Entacapone | Tab 200 mg | Yes |
@@ -99,6 +101,8 @@ For Lewy body dementia, the only related publications are preclinical:
 | 2696533 | Stalevo | Levodopa with carbidopa and entacapone | Tab 50 mg with carbidopa 12.5 mg and entacapone 2… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,12 +118,38 @@ Package insert warnings and contraindications were not available in the data com
 **Rationale:**
 The prediction for PLA2G6-associated neurodegeneration is supported by model output only (L5). There are no trials or literature, and the mechanism could at most justify symptomatic parkinsonian benefit.
 
+<!-- review:begin nz-lic-20261031-entacapone-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "There are no trials or literature, and the mechanism could at most justify symptomatic parkinsonian benefit. In addition, the only New Zealand authorization is cancelled, and package insert safety data are missing." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-entacapone-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Case reports or preclinical data for entacapone in PLA2G6-related dystonia-parkinsonism
 - Clarification of whether a supply route exists in New Zealand
 - If a nearby indication is prioritised, a focused review of juvenile parkinsonism or Lewy body dementia, which have more plausible rationales
+
+<!-- review:begin nz-lic-20261106-entacapone-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled licence status and whether a supply route exists in New Zealand" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-entacapone-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "In addition, the only New Zealand authorization is cancelled, and package insert safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

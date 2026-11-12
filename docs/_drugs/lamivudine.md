@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,6 +90,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 474320 | 3TC | Lamivudine | Oral liq 10 mg per ml | Yes |
@@ -103,11 +105,19 @@ Currently no related clinical trials registered.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
 
 Package insert warnings and contraindications could not be retrieved. Please refer to the package insert for safety information.
+
+<!-- review:begin nz-lic-20261106-lamivudine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-lamivudine-1 -->
 
 - **Conditions flagged in the knowledge graph (not label text)**: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, lactic acidosis, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), myopathy, myositis, dermatomyositis, hypertriglyceridemia, and obesity-related disorders. These should be checked against the official label before any use.
 - **Drug Interactions**: 100 interactions were found in total. The moderate-level ones listed are lactitol, mannitol, naltrexone, orlistat and sorbitol. Other listed interactions (for example metformin, cimetidine, omeprazole, pantoprazole, morphine and vancomycin) have an unknown severity level.
@@ -121,11 +131,38 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 **Rationale:**
 The top prediction is supported only by small veterinary cohort studies and in vitro work, with no registered clinical trials. It does not represent a new human indication. In New Zealand, the safety review is blocked because package insert data are missing.
 
+<!-- review:begin nz-lic-20261106-lamivudine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "In New Zealand, all four lamivudine licences are valid, and the safety review is blocked because package insert data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-lamivudine-2 -->
+
 **To proceed, the following is needed:**
 - Download and parse the Medsafe package insert for warnings and contraindications (a blocking gap)
 - Detailed mechanism of action data from DrugBank
 - A decision on whether the veterinary use of an NRTI is in scope, since the evidence does not support a new human indication
 - Controlled veterinary trials in FIV-infected cats if the veterinary direction is pursued
+
+<!-- review:begin nz-lic-20261106-lamivudine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Controlled veterinary trials in FIV-infected cats if the veterinary direction is pursued / Confirmation of the licensing status; all four New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-lamivudine-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four licences are valid, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "all four lamivudine licences are valid, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of the licensing status; all four New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

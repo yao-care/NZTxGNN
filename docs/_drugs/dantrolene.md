@@ -68,12 +68,16 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2648946 | Dantrium S29 | Dantrolene | Cap 25 mg | Yes |
 | 252417 | Dantrium | Dantrolene | Cap 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Both are single-ingredient products. The local data record no indication text for them.
 

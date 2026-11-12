@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 371
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -41,6 +41,12 @@ Evidence Level: **L4** | Predicted Indications: **2**
 Polymyxin B is an antibiotic active against Gram-negative bacteria.
 The TxGNN model predicts it may be effective for **bronchitis** with a very high score, but **no clinical trials** and only **12 publications** (mostly small, old, preclinical or safety-focused) are available.
 The evidence is weak, and some of it points to a safety concern with inhaled use.
+
+<!-- review:begin nz-lic-20261106-polymyxin_b-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Polymyxin B is an antibiotic active against Gram-negative bacteria. In New Zealand it was licensed only in neomycin-containing eye ointment and eye drops (Maxitrol), and both licenses are now cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-polymyxin_b-1 -->
 
 ---
 
@@ -93,12 +99,16 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 207454 | Maxitrol | Dexamethasone with neomycin sulphate and polymyxin B sulpha… | Eye drops 0.1% with neomycin sulphate 0.35% and p… | Yes |
 | 207381 | Maxitrol | Dexamethasone with neomycin sulphate and polymyxin B sulpha… | Eye oint 0.1% with neomycin sulphate 0.35% and po… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Both products are ophthalmic, so no inhaled or systemic route is currently available in New Zealand.
 
@@ -139,6 +149,26 @@ The prediction rests on a high model score, without any registered clinical tria
 - Package insert warnings and contraindications (not currently available)
 - Controlled clinical data on inhaled or systemic polymyxin B for bronchitis, including a bronchoconstriction safety assessment
 - For conjunctivitis, confirmation of whether this is already a label use and a review of the contribution of polymyxin B alone
+
+<!-- review:begin nz-lic-20261106-polymyxin_b-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Controlled clinical data on inhaled or systemic polymyxin B for bronchitis, including a bronchoconstriction safety assessment / Verification of whether a suitable product and route could be marketed in New Zealand, given that both licenses are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-polymyxin_b-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "In New Zealand it was licensed only in neomycin-containing eye ointment and eye drops (Maxitrol), and both licenses are now cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Verification of whether a suitable product and route could be marketed in New Zealand, given that both licenses are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

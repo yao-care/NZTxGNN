@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "POTASSIUM CITRATE"
 predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
 description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,11 +69,21 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- review:begin nz-lic-20261031-potassium_citrate-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The only licence on record is cancelled, so current product availability in New Zealand needs verification." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-potassium_citrate-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2378728 | Biomed | Potassium citrate | Oral liq 3 mmol per ml | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -97,6 +107,18 @@ The prediction has a very high model score but no trials, no literature and no e
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Medsafe
 - A safety review for patients on potassium-raising medicines, including potassium-sparing diuretics and renin–angiotensin agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only licence on record is cancelled, so current product availability in New Zealand needs verification" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

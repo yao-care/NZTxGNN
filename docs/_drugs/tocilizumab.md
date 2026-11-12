@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 454
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -85,6 +85,8 @@ However, plausibility has not translated into demonstrated efficacy. The two Pha
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2478439 | Baxter | Tocilizumab | Inj 1 mg for ECP | Yes |
@@ -93,6 +95,8 @@ However, plausibility has not translated into demonstrated efficacy. The two Pha
 | 2337983 | Actemra | Tocilizumab | Inj 20 mg per ml, 4 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -113,6 +117,25 @@ The only controlled data in ankylosing spondylitis come from two terminated Phas
 - Mechanism of action data and the Medsafe package insert warnings and contraindications
 - Clarification of regulatory status in New Zealand
 - A comparison against established AS therapies to show a distinct clinical role
+
+<!-- review:begin nz-lic-20261106-tocilizumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of regulatory status in New Zealand, since all 4 authorizations are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tocilizumab-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "since all 4 authorizations are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

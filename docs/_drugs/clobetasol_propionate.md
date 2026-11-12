@@ -69,6 +69,8 @@ Currently no related literature available for vulvar inverted follicular keratos
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 229059 | Dermol | Clobetasol propionate | Crm 0.05% | Yes |
@@ -76,6 +78,8 @@ Currently no related literature available for vulvar inverted follicular keratos
 | 772755 | Dermol | Clobetasol propionate | Scalp app 0.05% | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

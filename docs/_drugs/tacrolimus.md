@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 435
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data"
@@ -90,6 +90,14 @@ Only one completed Phase 3 trial is registered for this indication. Results are 
 
 No approved-indication text is recorded for any of them.
 
+<!-- review:begin nz-lic-20261106-tacrolimus-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 5 authorisations are valid (5 of 5). No approved-indication text is recorded for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tacrolimus-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2431238 | Tacrolimus Sandoz | Tacrolimus | Cap 0.5 mg | Yes |
@@ -100,7 +108,15 @@ No approved-indication text is recorded for any of them.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Only Zematop is a topical product, and it is the relevant one for seborrheic dermatitis.
+
+<!-- review:begin nz-lic-20261106-tacrolimus-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only Zematop is a topical product, and it is the relevant one for seborrheic dermatitis. Its authorisation is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tacrolimus-2 -->
 
 ## Safety Considerations
 
@@ -133,12 +149,33 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 **Rationale:**
 One completed Phase 3 trial (n=120), one completed Phase 4 trial (n=104) and a published maintenance-therapy study support topical tacrolimus in facial seborrheic dermatitis. The mechanism is plausible. However, only a single Phase 3 trial is registered, and no results were available for this report.
 
+<!-- review:begin nz-lic-20261106-tacrolimus-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, only a single Phase 3 trial is registered, and no results were available for this report. The product is marketed in New Zealand, with 5 valid authorisations out of 5." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tacrolimus-3 -->
+
 **To proceed, the following is needed:**
 - Results of NCT02004860 and NCT01591070, to confirm efficacy and relapse reduction
 - Package insert warnings and contraindications, which could not be retrieved (a blocking gap for safety screening)
 - Detailed mechanism-of-action data
 - Clarification of product availability in New Zealand
 - A long-term safety plan covering malignancy and lymphoma risk and use in patients on interacting drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 5 authorisations are valid (5 of 5)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Its authorisation is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The product is marketed in New Zealand, with 5 valid authorisations out of 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -91,6 +91,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2023857 | Qvar | Beclomethasone dipropionate | Aerosol inhaler, 100 mcg per dose | Yes |
@@ -100,6 +102,8 @@ Currently no related clinical trials registered.
 | 2326159 | Beclazone 50 | Beclomethasone dipropionate | Aerosol inhaler, 50 mcg per dose CFC-free | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 All locally listed products are inhaled aerosols; no topical skin formulation appears in the local data.
 

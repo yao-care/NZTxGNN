@@ -84,6 +84,8 @@ However, this is an indirect argument. The supporting trials are multi-agent reg
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2710978 | Baxter | Daunorubicin | Inj 18.7 mg for ECP | Yes |
@@ -92,6 +94,8 @@ However, this is an indirect argument. The supporting trials are multi-agent reg
 | 2720922 | Cerubidine | Daunorubicin | Inj 20 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

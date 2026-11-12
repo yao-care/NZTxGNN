@@ -73,12 +73,16 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Obinutuzu
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2514184 | Baxter | Obinutuzumab | Inj 1 mg for ECP | Yes |
 | 2471981 | Gazyva | Obinutuzumab | Inj 25 mg per ml, 40 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

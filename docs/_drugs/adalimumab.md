@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,6 +69,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2631121 | Amgevita | Adalimumab (Amgevita) | Inj 20 mg per 0.4 ml prefilled syringe | Yes |
@@ -80,7 +82,15 @@ Currently no related literature available.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 They cover the Amgevita, Humira and HumiraPen products as prefilled syringes and pens (20 mg and 40 mg strengths).
+
+<!-- review:begin nz-lic-20261106-adalimumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Six licences are recorded in the local data, and all are currently valid. They cover the Amgevita, Humira and HumiraPen products as prefilled syringes and pens (20 mg and 40 mg strengths). The licence records carry no approved-indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-adalimumab-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +112,19 @@ The prediction rests on a model score alone (evidence level L5). No study addres
 - A plausible mechanistic rationale, supported by mechanism-of-action data
 - Review of the Medsafe package insert warnings and contraindications
 - Confirmation of route and formulation suitability for a local or injectable approach to this site
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Six licences are recorded in the local data, and all are currently valid. The licence records carry no approved-indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

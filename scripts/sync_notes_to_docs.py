@@ -15,7 +15,10 @@ Usage:
 import os
 import json
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 
 LANG_BY_PROJECT = {
@@ -364,6 +367,12 @@ indication_count: {indication_count}
 """
 
         full_content = front_matter + demote_body_h1(content) + disclaimer + "\n---\n\n"
+        # 2026-11-12 本站查核機制：舊頁的程式許可證區塊（<!-- licenses:begin/end -->）移植到新頁，
+        # notes 裡模型寫的許可證表不得蓋回（規則見 scripts/sync_license_tables.py carry_block）
+        _page = docs_drugs_dir / f"{drug_name}.md"
+        if _page.exists():
+            import sync_license_tables as _slt
+            full_content = _slt.carry_block(_page.read_text(encoding="utf-8"), full_content)
         full_content = finalize_front_matter(docs_drugs_dir / f"{drug_name}.md", full_content, base_dir)
         (docs_drugs_dir / f"{drug_name}.md").write_text(full_content, encoding="utf-8")
         synced += 1
@@ -384,6 +393,14 @@ indication_count: {indication_count}
             print("WARNING: factlayer 失敗：", r.stderr[-300:])
     elif synced_names:
         print("WARNING: 找不到 ../.claude/factlayer_20261028.py，頁面事實層未套用（不要在母目錄外單獨跑 sync）")
+    # 2026-11-12 本站查核機制：notes 是查核前的文字，寫完的頁一律重套 docs/_data/drug_reviews.json
+    # （被蓋回的錯句依紀錄再更正、查核框與 Review Log 補回；說明見 scripts/apply_drug_reviews.py）
+    if synced_names:
+        import apply_drug_reviews as _adr
+        _probs, _chg = _adr.run(only={f"{n}.md" for n in synced_names})
+        print(f"查核紀錄重套：{len(_chg)} 頁、問題 {len(_probs)} 項")
+        for _p in _probs[:20]:
+            print("  ✗", _p)
     print(f"Errors: {len(errors)}")
     if missing_parent:
         print(f"WARNING: no parent page for levels: {sorted(missing_parent)}")

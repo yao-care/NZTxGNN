@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "CLINDAMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,12 +70,22 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- review:begin nz-lic-20261106-clindamycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The local data list two licences, both of single-ingredient products. The data show a mixed picture on licence validity, so no firm statement on how many are currently valid is made here." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-clindamycin-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2576392 | Dalacin C | Clindamycin | Cap hydrochloride 150 mg | Yes |
 | 2387131 | Dalacin C | Clindamycin | Inj 150 mg per ml, 4 ml ampoule | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -94,6 +104,19 @@ The prediction has the highest model score but no clinical trials or publication
 - Studies directly examining clindamycin in punctate epithelial keratoconjunctivitis, for example whether bacterial superinfection is a meaningful target
 - Mechanism of action data and a check of whether an ocular route of administration is feasible
 - Package insert warnings and contraindications from Medsafe for a safety review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The local data list two licences, both of single-ingredient products. The data show a mixed picture on licence validity, so no firm statemen" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -87,6 +87,12 @@ No clinical trials are registered for the top-ranked prediction (upper aerodiges
 
 Publications for the top-ranked prediction (upper aerodigestive tract neoplasm) and for head and neck cancer:
 
+<!-- review:begin nz-lic-20261106-mitoxantrone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand authorisations are cancelled, and no approved indication text is recorded for either." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-mitoxantrone-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [39952083](https://pubmed.ncbi.nlm.nih.gov/39952083/) | 2025 | Phase 1b | Oral Oncology | Liposomal mitoxantrone in recurrent or metastatic head and neck squamous cell carcinoma; safety and efficacy |
@@ -104,12 +110,16 @@ Publications for the top-ranked prediction (upper aerodigestive tract neoplasm) 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2204096 | Baxter | Mitozantrone | Inj 1 mg for ECP | Yes |
 | 2270463 | Mitozantrone Ebewe | Mitozantrone | Inj 2 mg per ml, 10 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -144,12 +154,39 @@ The package insert warnings and contraindications could not be obtained for this
 - Mitoxantrone carries significant myelosuppression and cardiotoxicity risks.
 - Other predictions are weaker: small cell lung carcinoma (L4, Hold), well-differentiated fetal adenocarcinoma of the lung, pulmonary blastoma and bladder exstrophy complex (L5, Hold; bladder exstrophy is a congenital malformation with no plausible rationale and is likely a network artefact). Primary pulmonary lymphoma (L3) and BCR-ABL1-positive chronic myeloid leukaemia (L2, mainly blast-crisis phase II data in a field dominated by tyrosine kinase inhibitors) remain research questions.
 
+<!-- review:begin nz-lic-20261106-mitoxantrone-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand authorisations are cancelled, and mitoxantrone carries significant myelosuppression and cardiotoxicity risks." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-mitoxantrone-2 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Results from the liposomal mitoxantrone phase II and III trials, noting that these use a different formulation from the conventional injection previously marketed in New Zealand
 - Clarification of whether a product would be reintroduced and a cardiac and haematological monitoring plan
 - A comparison of mitoxantrone with current standard therapy (for example, platinum-based regimens and immunotherapy) in head and neck cancer
+
+<!-- review:begin nz-lic-20261106-mitoxantrone-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of whether a product would be reintroduced, given the cancelled licences, and a cardiac and haematological monitoring plan" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-mitoxantrone-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both New Zealand authorisations are cancelled, and no approved indication text is recorded for either" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both New Zealand authorisations are cancelled, and m" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "given the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

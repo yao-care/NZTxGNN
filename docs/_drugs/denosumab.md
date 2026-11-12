@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Denosumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Osteoporosis (including postmenopausal and drug-induced osteoporosis)"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -87,12 +87,16 @@ No literature is available for severe nonproliferative diabetic retinopathy. For
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2594870 | Xgeva | Denosumab | Inj 120 mg per 1.7 ml vial | Yes |
 | 2406047 | Prolia | Denosumab | Inj 60 mg per 1 ml prefilled syringe | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -114,11 +118,30 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 The prediction score is high, but there are no registered clinical trials and no retinopathy-specific literature. The only related publications are indirect observational reports. Mechanism and label safety data are missing.
 
+<!-- review:begin nz-lic-20261106-denosumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand authorizations are cancelled, and mechanism and label safety data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-denosumab-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA), and a clearer mechanistic link between RANKL inhibition and retinal vascular pathology
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Preclinical or clinical studies testing denosumab on retinopathy outcomes
 - Clarification of the regulatory status in New Zealand and the route of administration (injection) in the context of an ophthalmic indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both New Zealand authorizations are cancelled, and m" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

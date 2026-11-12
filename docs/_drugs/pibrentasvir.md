@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pibrentasvir: predicted new indication Hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -83,11 +83,15 @@ The publications linked to this prediction all address HCV or general viral hepa
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2552019 | Maviret | Glecaprevir with pibrentasvir | Tab 100 mg with pibrentasvir 40 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -100,9 +104,35 @@ Please refer to the package insert for safety information. No drug interaction r
 **Rationale:**
 The prediction rests only on a high model score. HBV reactivation during HCV antiviral therapy is a safety concern, not a sign of benefit.
 
+<!-- review:begin nz-lic-20261031-pibrentasvir-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The prediction rests only on a high model score. There is no plausible mechanism, no HBV trials, no HBV literature, and the only New Zealand authorization is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-pibrentasvir-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and any in vitro evidence of pibrentasvir activity against HBV
 - Package insert warnings and contraindications, in particular the HBV reactivation warning
+
+<!-- review:begin nz-lic-20261031-pibrentasvir-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Package insert warnings and contraindications, in particular the HBV reactivation warning / Evidence of an active New Zealand regulatory pathway, since the only authorization is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-pibrentasvir-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "There is no plausible mechanism, no HBV trials, no HBV literature, and the only New Zealand authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Evidence of an active New Zealand regulatory pathway, since the only authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

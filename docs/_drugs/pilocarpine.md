@@ -72,6 +72,8 @@ The model's candidates for Pilocarpine are all known uses, so there is currently
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 252514 | Isopto Carpine | Pilocarpine hydrochloride | Eye drops 1% | Yes |
@@ -80,6 +82,8 @@ The model's candidates for Pilocarpine are all known uses, so there is currently
 | 307335 | Minims Pilocarpine | Pilocarpine nitrate | Eye drops 2% single dose | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

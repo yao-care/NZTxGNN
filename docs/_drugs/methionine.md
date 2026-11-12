@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence record"
 ---
 
@@ -42,6 +42,12 @@ Methionine is an essential sulfur-containing amino acid.
 The TxGNN model predicts it may be effective for **acne (disease)**, with **no clinical trials** and **2 publications** that are only indirectly related.
 This is a computational prediction without supporting clinical data.
 
+<!-- review:begin nz-lic-20261106-methionine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Methionine is an essential sulfur-containing amino acid. In New Zealand it is licensed as a single-ingredient component of the product MMA/PA Anamix Infant, but the licence record contains no approved indication text." Removed: it described the products as single-ingredient or combination products in a way that did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-methionine-1 -->
+
 ---
 
 ## Quick Overview
@@ -63,6 +69,12 @@ The evidence level is L5. The two retrieved papers do not directly study methion
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Methionine is an essential amino acid involved in the methionine cycle, which produces homocysteine, and in methylation and transsulfuration pathways.
+
+<!-- review:begin nz-lic-20261106-methionine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Methionine is an essential amino acid involved in the methionine cycle, which produces homocysteine, and in methylation and transsulfuration pathways. The licence record does not state an approved indication, so the relationship between an original use and acne cannot be assessed." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-methionine-2 -->
 
 The retrieved literature does not establish a mechanistic link. One cohort study found elevated plasma homocysteine (a methionine-cycle metabolite) in patients on isotretinoin for cystic acne. That is an association with a drug effect, not with the disease itself. The other paper is a case report of an MTHFR mutation with neonatal encephalopathy, which happened to mention neonatal acne among its skin findings.
 
@@ -87,13 +99,23 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2386313 | MMA/PA Anamix Infant | Aminoacid formula without isoleucine, methionine, threonine… | Powder, can | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Any score on this page comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is not an approved indication, and none is claimed here.
+
+<!-- review:begin nz-lic-20261106-methionine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show 1 valid single-ingredient licence. Any score on this page comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is not an approved indication, and none is claimed here." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-methionine-3 -->
 
 ---
 
@@ -121,6 +143,21 @@ The acne prediction rests on a model score alone. No trials exist, and the two p
 - Literature or trial data that directly examine methionine, or the methionine-homocysteine pathway, in acne
 - Clarification of the approved indication for the licensed product
 - A review of the other predicted indications. Diabetic cataract has the most relevant indirect mechanistic literature (methionine sulfoxide reductase studies in lens cells) but is still preclinical and does not test methionine administration.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "In New Zealand it is licensed as a single-ingredient component of the product MMA/PA Anamix Infant, but the licence record contains no appro" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The licence record does not state an approved indication, so the relationship between an original use and acne cannot be assessed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The data compiled for this report show 1 valid single-ingredient licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

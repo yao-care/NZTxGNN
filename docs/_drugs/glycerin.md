@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
 description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -93,6 +93,8 @@ No literature was retrieved for cauda equina syndrome. The table below covers th
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2377268 | Ora-Sweet SF | Glycerin with sodium saccharin | Suspension | Yes |
@@ -101,6 +103,8 @@ No literature was retrieved for cauda equina syndrome. The table below covers th
 | 2377217 | Ora-Blend | Methylcellulose with glycerin and sucrose | Suspension | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,11 +124,30 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 All 10 predictions are at evidence level L4 or L5, with no registered clinical trials and no direct clinical literature. The top-ranked prediction, cauda equina syndrome, has no identifiable mechanism.
 
+<!-- review:begin nz-lic-20261106-glycerin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The top-ranked prediction, cauda equina syndrome, has no identifiable mechanism. All four New Zealand authorizations are valid, and the drug is marketed." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-glycerin-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications, which are currently missing and block safety screening
 - Mechanism of action data for glycerin
 - If a lead indication is wanted, a focused evidence review of oral glycerin for intraocular pressure lowering, the most plausible direction (open-angle glaucoma)
 - A route and formulation compatibility assessment against the target indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four New Zealand authorizations are valid, and the drug is marketed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

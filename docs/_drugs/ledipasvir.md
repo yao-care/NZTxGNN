@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 262
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Ledipasvir: predicted new indication Hepatitis B virus infection (evidence level L2). Approved use: Not recorded in the local data"
@@ -99,11 +99,15 @@ The other predicted indications scored similarly (HEV, HAV, HIV, Omsk haemorrhag
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2504111 | Harvoni | Ledipasvir with sofosbuvir | Tab 90 mg with sofosbuvir 400 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,12 +129,31 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 Only one small, completed open-label Phase 2 study (n=21) tests ledipasvir/sofosbuvir in HBV directly. There is no plausible HBV-specific target for an NS5A inhibitor, and the broader literature emphasises HBV reactivation rather than suppression. These factors outweigh the high model score.
 
+<!-- review:begin nz-lic-20261031-ledipasvir-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "There is no plausible HBV-specific target for an NS5A inhibitor, and the broader literature emphasises HBV reactivation rather than suppression. The only New Zealand licence is cancelled, and the package insert safety data are not available." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-ledipasvir-1 -->
+
 **To proceed, the following is needed:**
 - Full results of the Phase 2 HBV study (PMID 36045503/NCT03312023): size and durability of HBsAg and HBV DNA reduction
 - A larger controlled trial in HBV mono-infection, with comparison against standard nucleos(t)ide therapy
 - Mechanistic data explaining any anti-HBV activity, including whether it comes from ledipasvir or from sofosbuvir
 - Package insert warnings and contraindications (Medsafe), plus a current New Zealand supply and licensing pathway
 - An HBV reactivation monitoring and risk-mitigation plan, including HBV screening before treatment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the package insert safety data are not available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

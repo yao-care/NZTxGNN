@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ISOLEUCINE"
 predicted_indications: ["gastroparesis (disease)"]
 description: "Isoleucine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -42,6 +42,12 @@ Isoleucine is a branched-chain amino acid.
 The TxGNN model predicts it may be effective for **gastroparesis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
 The prediction rests on the model score alone.
 
+<!-- review:begin nz-lic-20261106-isoleucine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Isoleucine is a branched-chain amino acid. Its only New Zealand licence on record is a cancelled powder product, and no approved indication is recorded." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-isoleucine-3 -->
+
 ---
 
 ## Quick Overview
@@ -64,6 +70,12 @@ Currently, detailed mechanism of action data is not available. Isoleucine is an 
 
 The high score (0.9932) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. One speculative hypothesis is that amino acid nutrient sensing could influence gastric emptying or enteroendocrine signalling. This has not been tested here and would need independent validation.
 
+<!-- review:begin nz-lic-20261031-isoleucine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The drug has no established clinical-use context in New Zealand: the only licence is cancelled, and no known drug interactions are recorded." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-isoleucine-1 -->
+
 ---
 
 ## Clinical Trial Evidence
@@ -80,6 +92,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2514060 | Isoleucine50 | Isoleucine | Powder, 4 g sachets | Yes |
@@ -93,6 +107,8 @@ Currently no related literature available.
 | 2668599 | MSUD Express 15 | Aminoacid formula without valine, leucine and isoleucine | Powder, 25 g sachets | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,6 +139,27 @@ The only support is a high model prediction score.
 - Preclinical or clinical evidence in gastroparesis (literature search and trial registry review)
 - The Medsafe package insert, to confirm warnings and contraindications and to check the signals from the TxGNN model (deep learning) (especially kidney, cardiac and phenylalanine-metabolism conditions)
 - A safety screening once the package insert is available
+
+<!-- review:begin nz-lic-20261031-isoleucine-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The Medsafe package insert, to confirm warnings and contraindications and to check the signals from the TxGNN model (deep learning) (especially kidney, cardiac and phenylalanine-metabolism conditions) / Assessment of route and formulation suitability for a gastroparesis use, since the only licence was a cancelled oral powder" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-isoleucine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The drug has no established clinical-use context in New Zealand: the only licence is cancelled, and no known drug interactions are recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Assessment of route and formulation suitability for a gastroparesis use, since the only licence was a cancelled oral powder" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Its only New Zealand licence on record is a cancelled powder product, and no approved indication is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

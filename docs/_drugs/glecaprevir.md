@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Glecaprevir: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,13 +86,23 @@ None of these publications reports anti-HIV efficacy.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2552019 | Maviret | Glecaprevir with pibrentasvir | Tab 100 mg with pibrentasvir 40 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 This is a fixed-dose combination with pibrentasvir.
+
+<!-- review:begin nz-lic-20261106-glecaprevir-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a fixed-dose combination with pibrentasvir. The licence is currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-glecaprevir-2 -->
 
 ## Safety Considerations
 
@@ -116,6 +126,19 @@ No study tests glecaprevir against HIV, and no mechanistic basis for anti-HIV ac
 - Detailed mechanism of action data
 - A drug interaction assessment with antiretroviral regimens
 - Package insert warnings and contraindications from the regulator
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the other nine predictions are L5 or weaker, with no supporting evidence" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The licence is currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

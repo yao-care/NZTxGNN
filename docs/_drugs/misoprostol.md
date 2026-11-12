@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Misoprostol: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the licence data"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -93,11 +93,15 @@ None of these studies tests misoprostol as a treatment for amenorrhea.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 561630 | Cytotec | Misoprostol | Tab 200 mcg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,12 +129,38 @@ Please refer to the package insert for label warnings and contraindications, bec
 **Rationale:**
 The prediction has no registered trials, and the published studies concern pregnancy termination rather than treatment of amenorrhea. No plausible mechanism links a prostaglandin E1 analogue to restoring menstrual cycles.
 
+<!-- review:begin nz-lic-20261031-misoprostol-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "No plausible mechanism links a prostaglandin E1 analogue to restoring menstrual cycles. The only New Zealand licence is cancelled, and the label safety data could not be retrieved." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-misoprostol-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Evidence that misoprostol can treat a specific cause of amenorrhea, such as preclinical or clinical studies
 - Clarification of the original approved indication
 - A review of the pregnancy-related teratogenic risk against any proposed use in women of reproductive age
+
+<!-- review:begin nz-lic-20261106-misoprostol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original approved indication and the regulatory status of the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-misoprostol-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the label safety data could not be retrieved" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the regulatory status of the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

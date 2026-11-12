@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,6 +86,14 @@ The table below lists the most relevant publications. The sole publication for t
 
 The data compiled for this report contain no approved indication text for either product.
 
+<!-- review:begin nz-lic-20261106-tenofovir_disoproxil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are currently valid (2 valid licences of 2). The data compiled for this report contain no approved indication text for either product." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tenofovir_disoproxil-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2703122 | Ricovir | Tenofovir disoproxil | Tab 245 mg (300 mg as a fumarate) | Yes |
@@ -98,6 +106,8 @@ The data compiled for this report contain no approved indication text for either
 | 2638088 | Tenofovir Disoproxil Emtricitabine Viatr | Emtricitabine with tenofovir disoproxil | Tab 200 mg with tenofovir disoproxil 245 mg (300… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -121,6 +131,26 @@ The predicted indication is a veterinary condition supported by only one indirec
 - Detailed mechanism of action data from DrugBank
 - A decision on whether a veterinary indication falls within the scope of this repurposing programme
 - If pursued, FIV studies that test tenofovir alone, rather than within a combination regimen
+
+<!-- review:begin nz-lic-20261106-tenofovir_disoproxil-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "If pursued, FIV studies that test tenofovir alone, rather than within a combination regimen / Clarification of the regulatory pathway, given that both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tenofovir_disoproxil-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are currently valid (2 valid licences of 2)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

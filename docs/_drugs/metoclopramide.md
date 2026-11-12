@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,12 +91,16 @@ Most of the remaining retrieved literature consists of general reviews on prokin
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2690497 | Medsurge | Metoclopramide hydrochloride | Inj 5 mg per ml, 2 ml ampoule | Yes |
 | 2528878 | Metoclopramide Actavis 10 | Metoclopramide hydrochloride | Tab 10 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -128,6 +132,25 @@ The prediction rests on a high model score, but no study shows that metocloprami
 - Mechanism of action data (for example from DrugBank)
 - Clinical evidence of benefit in gastric ulcer, for example a controlled trial of symptoms or healing, or a clear rationale for an adjunctive role
 - Clarification of the knowledge graph contraindication for active peptic ulcer disease
+
+<!-- review:begin nz-lic-20261106-metoclopramide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the knowledge graph contraindication for active peptic ulcer disease / Confirmation of whether any metoclopramide product is currently marketed in New Zealand, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-metoclopramide-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Confirmation of whether any metoclopramide product is currently marketed in New Zealand, since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

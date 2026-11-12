@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2523078 | Mylan | Clonidine | Patch 2.5 mg, 100 mcg per day | Yes |
@@ -80,6 +82,8 @@ Currently no related literature available.
 | 2630249 | Clonidine Teva | Clonidine hydrochloride | Tab 25 mcg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -78,12 +78,16 @@ The link to cervical cancer is plausible but unproven here. Both are solid tumou
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2655233 | Baxter | Atezolizumab | Inj 1 mg for ECP | Yes |
 | 2524953 | Tecentriq | Atezolizumab | Inj 60 mg per ml, 20 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ An important caveat: in the available trials melphalan is given within multi-dru
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2647699 | Melpha | Melphalan | Inj 50 mg | Yes |
@@ -87,6 +89,8 @@ An important caveat: in the available trials melphalan is given within multi-dru
 | 200271 | Alkeran | Melphalan | Tab 2 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -118,6 +122,25 @@ The prediction score is high and one completed Phase 2 trial is directly on-indi
 - Retrieval of the package insert warnings and contraindications (a blocking data gap for safety screening)
 - Mechanism-of-action data from DrugBank
 - A safety and monitoring plan for high-dose use, including stem cell support and management of marrow suppression
+
+<!-- review:begin nz-lic-20261106-melphalan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Mechanism-of-action data from DrugBank / A review of why the New Zealand licences were cancelled and whether any product is available for import or special access" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-melphalan-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A review of why the New Zealand licences were cancelled and whether any product is available for import or special access" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

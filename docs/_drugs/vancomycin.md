@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis, staphylococcal infections…"
 monitor_inn: "VANCOMYCIN"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
@@ -73,12 +73,16 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2696282 | Vancomycin Viatris | Vancomycin | Inj 500 mg vial | Yes |
 | 2706113 | Vancomycin Viatris | Vancomycin | Inj 500 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -96,11 +100,30 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 The prediction for diffuse scleroderma rests on a model score alone. There are no clinical trials, the single paper is an unrelated case report, and there is no plausible mechanism.
 
+<!-- review:begin nz-lic-20261106-vancomycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials, the single paper is an unrelated case report, and there is no plausible mechanism. The only authorization in New Zealand has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-vancomycin-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible rationale linking vancomycin to fibrotic or autoimmune pathways (none is currently apparent)
 - Package insert warnings and contraindications from Medsafe
 - Any preclinical or clinical evidence in scleroderma
 - If an infection-related use is of interest, evaluate **streptococcal pneumonia** as a separate, more plausible research question. It is closer to an existing use, and the current market status would need to be addressed.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The only authorization in New Zealand has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

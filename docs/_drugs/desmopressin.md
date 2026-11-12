@@ -72,6 +72,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2603268 | Minirin Melt | Desmopressin | Wafer 120 mcg | Yes |
@@ -81,6 +83,8 @@ Currently no related clinical trials registered.
 | 492639 | Minirin | Desmopressin acetate | Tab 200 mcg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

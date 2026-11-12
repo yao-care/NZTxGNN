@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dihydrocodeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,13 +70,23 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 772887 | DHC Continus | Dihydrocodeine tartrate | Tab long-acting 60 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Current availability should be confirmed directly with Medsafe before any planning.
+
+<!-- review:begin nz-lic-20261106-dihydrocodeine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The local data list one licence (a single-ingredient product), and its status is recorded as cancelled. The licence-level records and the market-level summary compiled for this report are not fully consistent, so current availability should be confirmed directly with Medsafe before any planning." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-dihydrocodeine-1 -->
 
 ## Safety Considerations
 
@@ -97,6 +107,19 @@ The TxGNN score is very high, but there are no clinical trials or publications o
 - Confirmation of the current licence status in New Zealand
 - Any clinical or observational study that directly addresses nasal cavity disease
 - A benefit–risk assessment that accounts for opioid dependence, respiratory depression and the interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The local data list one licence (a single-ingredient product), and its status is recorded as cancelled. The licence-level records and the ma" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

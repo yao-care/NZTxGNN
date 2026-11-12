@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
 description: "Palivizumab: predicted new indication Benign neoplasm of tongue (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,11 +71,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2621835 | Synagis | Palivizumab | Inj 100 mg per ml, 1 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -90,12 +94,31 @@ No drug-drug interaction records were found, and no contraindicated diseases wer
 **Rationale:**
 The prediction has only a model score behind it (Evidence Level L5).
 
+<!-- review:begin nz-lic-20261031-palivizumab-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The prediction has only a model score behind it (Evidence Level L5). The product's only licence has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-palivizumab-1 -->
+
 **To proceed, the following is needed:**
 - A credible biological rationale linking RSV F protein neutralization to the proposed tumour type, or preclinical data supporting one
 - Mechanism of action data for palivizumab
 - The Medsafe package insert, to review warnings and contraindications
 - Confirmation of whether any palivizumab product is currently supplied in New Zealand
 - Comparison with other predicted indications to check whether the model output is systematically biased toward head-and-neck tumours
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The product's only licence has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ETHOSUXIMIDE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Ethosuximide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -64,12 +64,16 @@ A possible effect of calcium-channel or downstream signalling changes on water h
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2705117 | Zarontin | Ethosuximide | Cap 250 mg | Yes |
 | 2106019 | Zarontin | Ethosuximide | Oral liq 250 mg per 5 ml | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -102,6 +106,25 @@ The prediction is supported only by the TxGNN model score. The safety data also 
 - Medsafe package insert warnings and contraindications, which are currently missing and block safety screening
 - A review of the regulatory pathway
 - An assessment of the renal and haematological safety signals in the NSIAD patient population
+
+<!-- review:begin nz-lic-20261106-ethosuximide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A review of the regulatory pathway, since both New Zealand licences are cancelled and the route compatibility for the new indication has not been assessed" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ethosuximide-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "since both New Zealand licences are cancelled and the route compatibility for the new indication has not been assessed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

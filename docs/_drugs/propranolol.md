@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
@@ -115,6 +115,14 @@ Other retrieved entries (for example SarcTrack and the RIα subunit paper) are i
 
 Approved indication text is not available for these licences.
 
+<!-- review:begin nz-lic-20261106-propranolol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid; propranolol is marketed in this country with 5 valid licences of 5. Approved indication text is not available for these licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-propranolol-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2734214 | Propranolol LA Lupin | Propranolol | Cap long-acting 160 mg | Yes |
@@ -125,6 +133,8 @@ Approved indication text is not available for these licences.
 | 2618664 | IPCA-Propranolol | Propranolol | Tab 40 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -154,6 +164,26 @@ The top-ranked prediction (distal myopathy, Tateyama type) rests on a model scor
 - For cirrhotic cardiomyopathy: verification of the study designs for PMIDs 38738176, 35763518 and 32446716, and a safety assessment in advanced cirrhosis
 - For the myopathy predictions: any biological rationale or case evidence, and review of the muscle-disease contraindication associations
 - Clarification of the regulatory pathway
+
+<!-- review:begin nz-lic-20261106-propranolol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since propranolol is marketed in New Zealand with 5 valid licences of 5" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-propranolol-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five licences are valid; propranolol is marketed in this country with 5 valid licences of 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since propranolol is marketed in New Zealand with 5 valid licences of 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

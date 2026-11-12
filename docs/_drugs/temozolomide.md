@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -76,7 +76,15 @@ Currently no related clinical trials registered.
 
 Only the first report is closely related to the predicted disease. It involves a spinal myxopapillary ependymoma, a tumour type related to, but not the same as, the predicted disease. No cited study directly addresses cauda equina neoplasm itself.
 
+<!-- review:begin nz-lic-20261106-temozolomide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 8 valid single-ingredient licences in total; the table shows the first 5." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-temozolomide-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -91,6 +99,8 @@ Only the first report is closely related to the predicted disease. It involves a
 | 2733188 | Temozolomide (Devatis) | Temozolomide | Cap 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -120,6 +130,19 @@ No clinical trials are registered, and the only directly relevant publication is
 - Detailed mechanism of action data
 - Medsafe package insert warnings and contraindications, to complete safety screening
 - A myelosuppression monitoring plan and review of the interacting drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 8 valid single-ingredient licences in total; the table shows the first 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

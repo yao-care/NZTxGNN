@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not stated in the licence data"
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
@@ -98,7 +98,15 @@ Thrombotic disease (safety-related literature; most relevant items):
 
 These describe thrombosis as a risk, not a therapeutic effect. No literature was available for hyperthyroidism or thyroid hormone resistance.
 
+<!-- review:begin nz-lic-20261106-palbociclib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are valid; the drug is currently marketed, according to the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-palbociclib-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -107,6 +115,8 @@ These describe thrombosis as a risk, not a therapeutic effect. No literature was
 | 2709058 | Palbociclib Pfizer | Palbociclib | Tab 75 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -132,11 +142,38 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 Rheumatoid arthritis has biologically plausible but indirect support (one case report, one cohort study, and preclinical studies) and no clinical trials, so it is a research question rather than an actionable repurposing candidate. Other predictions rest on model scores alone or are contradicted by safety signals.
 
+<!-- review:begin nz-lic-20261106-palbociclib-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Other predictions rest on model scores alone or are contradicted by safety signals. In addition, all three New Zealand authorizations are valid and the drug is marketed, but the package insert safety data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-palbociclib-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data
 - Review of the full text of the 2025 cohort study (PMID 40504547) on immune-mediated diseases in CDK4/6 inhibitor patients
 - Controlled clinical evidence, starting with an exploratory trial in rheumatoid arthritis, with myelosuppression and infection risk weighed against benefit
+
+<!-- review:begin nz-lic-20261106-palbociclib-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Controlled clinical evidence, starting with an exploratory trial in rheumatoid arthritis, with myelosuppression and infection risk weighed against benefit / Clarification of the New Zealand regulatory pathway given the three valid licences" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-palbociclib-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three authorizations are valid; the drug is currently marketed, according to the data compiled for this report" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, all three New Zealand authorizations are valid and the drug is marketed, but the package insert safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the New Zealand regulatory pathway given the three valid licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

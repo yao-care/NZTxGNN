@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,12 +86,16 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2553694 | Ofev | Nintedanib | Cap 100 mg | Yes |
 | 2553708 | Ofev | Nintedanib | Cap 150 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,11 +129,37 @@ For other safety information (warnings and contraindications), please refer to t
 **Rationale:**
 The prediction score is high, and PDGFR-beta activation in DFSP gives a plausible mechanism. However, there are no clinical trials and no nintedanib-specific publications, and imatinib is already the established targeted therapy.
 
+<!-- review:begin nz-lic-20261106-nintedanib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, there are no clinical trials and no nintedanib-specific publications, and imatinib is already the established targeted therapy. In addition, nintedanib is marketed in New Zealand, with 2 valid licences of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nintedanib-1 -->
+
 **To proceed, the following is needed:**
 - Nintedanib-specific preclinical or clinical data in DFSP, especially in imatinib-resistant disease
 - Verified mechanism of action data from DrugBank
 - The Medsafe package insert (warnings and contraindications), which is required before safety screening
 - Clarification of the New Zealand supply and regulatory pathway for this use
+
+<!-- review:begin nz-lic-20261106-nintedanib-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the New Zealand supply and regulatory pathway for this use, since the drug is marketed with 2 valid licences of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nintedanib-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "In addition, nintedanib is marketed in New Zealand, with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since the drug is marketed with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -88,11 +88,15 @@ For context, two papers were retrieved for the related prediction "alopecia" (ra
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2438526 | Tamsulosin-Rex | Tamsulosin hydrochloride | Cap 400 mcg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -112,12 +116,31 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The prediction is supported only by the TxGNN score. There are no clinical trials or publications, and no plausible mechanistic link exists between alpha-1 blockade and a congenital hypertrichosis driven by *TRPS1* regulatory changes. In addition, the package insert safety data have not been retrieved.
 
+<!-- review:begin nz-lic-20261106-tamsulosin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "In addition, the only New Zealand authorization has been cancelled, and the package insert safety data have not been retrieved." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tamsulosin-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data, to allow a proper mechanistic-link assessment
 - Package insert warnings and contraindications from Medsafe, to enable safety screening
 - Any preclinical or biological evidence connecting alpha-1 adrenergic signalling to hair follicle regulation or *TRPS1* pathways
 - Review of the other top-ranked predictions, none of which currently has supporting evidence either
 - Assessment of route compatibility and similarity to the original indication, both still pending
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the only New Zealand authorization has been cancelled, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

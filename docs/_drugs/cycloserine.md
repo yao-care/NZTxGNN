@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cycloserine: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "CYCLOSERINE"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
@@ -71,11 +71,15 @@ Currently no related literature available for irritable bowel syndrome.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2566508 | Cyclorin | Cycloserine | Cap 250 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -98,12 +102,38 @@ Package insert warnings and contraindications were not available for this report
 **Rationale:**
 The prediction for irritable bowel syndrome has a high model score but no clinical trials, no literature, and no documented mechanistic link.
 
+<!-- review:begin nz-lic-20261106-cycloserine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The prediction for irritable bowel syndrome has a high model score but no clinical trials, no literature, and no documented mechanistic link. The drug's known neuropsychiatric toxicity and its cancelled status in New Zealand add further barriers." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-cycloserine-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) and a plausible mechanistic rationale for irritable bowel syndrome
 - Package insert warnings and contraindications from Medsafe for safety screening
 - Preclinical or early clinical evidence of benefit in irritable bowel syndrome
 - A review of whether any route and formulation could be made available in New Zealand
 - A risk assessment of neuropsychiatric adverse effects and of the interactions listed above
+
+<!-- review:begin nz-lic-20261106-cycloserine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A review of whether any route and formulation could be made available in New Zealand, given the cancelled authorization" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-cycloserine-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "given the cancelled authorization" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug's known neuropsychiatric toxicity and its cancelled status in New Zealand add further barriers" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -85,6 +85,8 @@ None of these is a controlled efficacy study. Two are safety-focused, and the re
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 255335 | Stemetil | Prochlorperazine | Inj 12.5 mg per ml, 1 ml | Yes |
@@ -92,6 +94,8 @@ None of these is a controlled efficacy study. Two are safety-focused, and the re
 | 2528886 | Nausafix | Prochlorperazine | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
 description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2701782 | Baxter | Ipilimumab | Inj 1 mg for ECP | Yes |
@@ -78,6 +80,8 @@ Currently no related literature available.
 | 2703246 | Yervoy | Ipilimumab | Inj 5 mg per ml, 40 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -110,6 +114,25 @@ The prediction has no supporting trials or publications, and the disease biology
 - The Medsafe package insert, to confirm warnings and contraindications (currently unavailable)
 - Detailed mechanism-of-action data
 - An ocular safety assessment of checkpoint inhibition in inherited retinal disease
+
+<!-- review:begin nz-lic-20261106-ipilimumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "An ocular safety assessment of checkpoint inhibition in inherited retinal disease / Confirmation of current New Zealand availability, noting that the drug is marketed and all three licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ipilimumab-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Confirmation of current New Zealand availability, noting that the drug is marketed and all three licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

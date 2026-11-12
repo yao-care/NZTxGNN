@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 42
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Aprepitant: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "APREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 Aprepitant is a neurokinin-1 (NK1) receptor antagonist.
 The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but this is a computational prediction only, with **0 clinical trials** and **0 relevant publications** supporting it.
 
+<!-- review:begin nz-lic-20261106-aprepitant-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Aprepitant is a neurokinin-1 (NK1) receptor antagonist. The only New Zealand authorization on record is the Emend Tri-Pack, and no approved indication text is available for it." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-aprepitant-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -71,11 +77,15 @@ Currently no related literature available for the top-ranked prediction. For ref
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2244098 | Emend Tri-Pack | Aprepitant | Cap 2 x 80 mg and 1 x 125 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -98,12 +108,32 @@ Please refer to the package insert for warnings and contraindications, which cou
 **Rationale:**
 The prediction is model-only (L5). There are no clinical trials or relevant publications, the mechanistic link to NSIAD is speculative.
 
+<!-- review:begin nz-lic-20261106-aprepitant-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials or relevant publications, the mechanistic link to NSIAD is speculative, and the only New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-aprepitant-2 -->
+
 **To proceed, the following is needed:**
 - Retrieve the Medsafe package insert to complete warnings, contraindications, and original indication information (a blocking gap for safety screening)
 - Obtain detailed mechanism of action data from DrugBank
 - Conduct a mechanistic and preclinical assessment of NK1 antagonism in V2 receptor-mediated antidiuresis
 - Search for relevant case reports or studies in NSIAD or other predicted indications
 - Review the drug interaction profile (especially major interactions) and the liver failure signal before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The only New Zealand authorization on record is the Emend Tri-Pack, and no approved indication text is available for it" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diazoxide: predicted new indication Hypotrichosis simplex of the scalp . Alopecia is the best-supported p… (evidence level L5). Approved use: Hyperinsulinaemic hypoglycaemia…"
 monitor_inn: "DIAZOXIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
@@ -92,6 +92,12 @@ Publications most relevant to the alopecia and hair-growth direction:
 
 Related literature on hypertrichosis and the original indication:
 
+<!-- review:begin nz-lic-20261106-diazoxide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three authorisations are valid, so diazoxide is currently marketed in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-diazoxide-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [30083030](https://pubmed.ncbi.nlm.nih.gov/30083030/) | 2018 | Post-marketing survey | Clin Pediatr Endocrinol | Japanese all-case survey of 384 children with hyperinsulinaemic hypoglycaemia: 30.5% had an adverse drug reaction; hypertrichosis was the most common (8.6%), with water retention (8.3%) and cardiac failure (3.4%) |
@@ -103,6 +109,8 @@ Related literature on hypertrichosis and the original indication:
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2434601 | Proglicem | Diazoxide | Cap 100 mg | Yes |
@@ -110,6 +118,8 @@ Related literature on hypertrichosis and the original indication:
 | 2635674 | e5 Pharma | Diazoxide | Oral liq 50 mg per ml | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,11 +141,31 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
 **Rationale:**
 All predictions rest on model scores alone (L5), except alopecia, which has L4 indirect support from animal data and adverse-effect observations. There are no human efficacy trials, and the systemic side-effect burden argues against oral use.
 
+<!-- review:begin nz-lic-20261106-diazoxide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are no human efficacy trials, the New Zealand licences are all cancelled, and the systemic side-effect burden argues against oral use." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-diazoxide-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and the Medsafe package insert warnings and contraindications (required for safety screening)
 - Human efficacy data for topical diazoxide in alopecia, or a rationale for choosing it over minoxidil
 - Topical formulation feasibility and route compatibility assessment, including systemic absorption and safety
 - Rejection of the hypertrichosis and Ambras-type predictions as therapeutic candidates, since diazoxide causes these conditions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three authorisations are valid, so diazoxide is currently marketed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the New Zealand licences are all cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

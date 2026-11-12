@@ -99,11 +99,15 @@ Direct clinical studies exist: a completed Phase 3 placebo-controlled trial in a
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2439743 | Zyban | Bupropion hydrochloride | Tab modified-release 150 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

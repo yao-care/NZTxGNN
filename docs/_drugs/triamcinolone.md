@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 467
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -74,6 +74,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 250066 | Aristocort | Triamcinolone acetonide | Crm 0.02% | Yes |
@@ -85,6 +87,8 @@ Currently no related clinical trials registered.
 | 253634 | Kenacomb | Triamcinolone acetonide with gramicidin, neomycin and nysta… | Ear drops 1 mg with nystatin 100,000 u, neomycin… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -101,12 +105,31 @@ Please refer to the package insert for full warnings and contraindications, as t
 **Rationale:**
 The prediction for alopecia mucinosa has a very high model score but no clinical trials and no triamcinolone-specific literature (L4).
 
+<!-- review:begin nz-lic-20261106-triamcinolone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The prediction for alopecia mucinosa has a very high model score but no clinical trials and no triamcinolone-specific literature (L4). All five New Zealand licences are valid, so the drug is marketed, and label safety information was not available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-triamcinolone-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - A targeted literature search for intralesional triamcinolone in follicular mucinosis
 - A plan for product availability in New Zealand (e.g. unapproved-medicine pathway or re-registration)
 - Consideration of better-supported predictions, such as folliculitis decalvans, for a prioritised follow-up
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five New Zealand licences are valid, so the drug is marketed, and label safety information was not available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

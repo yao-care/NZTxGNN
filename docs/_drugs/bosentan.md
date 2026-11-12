@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bosentan: predicted new indication rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -81,12 +81,22 @@ None of the retrieved studies tests bosentan in patients with rheumatoid arthrit
 
 ## New Zealand Market Information
 
+<!-- review:begin nz-lic-20261106-bosentan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two single-ingredient bosentan licences (Bosentan Dr Reddy's, 62.5 mg and 125 mg tablets) are recorded in the local data, and the market status is listed as marketed. The licence records carry no approved-indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-bosentan-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2550075 | Bosentan Dr Reddy's | Bosentan | Tab 125 mg | Yes |
 | 2550067 | Bosentan Dr Reddy's | Bosentan | Tab 62.5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -105,6 +115,19 @@ The prediction score is very high, but the support is limited to two animal stud
 - Human clinical data (for example, a pilot trial) of bosentan in rheumatoid arthritis
 - Mechanism-of-action data and package insert warnings and contraindications
 - A review of the interaction burden with corticosteroids and other drugs commonly used in rheumatoid arthritis, and of the liver and haematological safety profile
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Two single-ingredient bosentan licences (Bosentan Dr Reddy's, 62.5 mg and 125 mg tablets) are recorded in the local data, and the market sta" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

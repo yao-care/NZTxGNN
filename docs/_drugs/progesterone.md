@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 388
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -83,12 +83,16 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2086905 | Utrogestan | Progesterone | Cap 100 mg | Yes |
 | 2730340 | Utrogestan | Progesterone | Cap 100 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -115,6 +119,18 @@ The TxGNN score is high (0.9998) and the hormonal rationale is plausible. Howeve
 - Mechanism of action data for the drug
 - Warnings and contraindications from the New Zealand package insert, for safety screening
 - A review of the interactions with glucose-lowering drugs for the intended patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Its only New Zealand licence is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

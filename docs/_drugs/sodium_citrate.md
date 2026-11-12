@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "sodium citrate"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,11 +83,15 @@ For reference, the highest-ranked prediction with literature (stomach disease) h
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2262673 | Micolette | Sodium citrate with sodium lauryl sulphoacetate | Enema 90 mg with sodium lauryl sulphoacetate 9 mg… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -106,12 +110,31 @@ Package insert warnings were not available, so please refer to the package inser
 **Rationale:**
 The prediction for papillary conjunctivitis rests on a model score alone, with no clinical trials, no literature, and no plausible mechanism.
 
+<!-- review:begin nz-lic-20261031-sodium_citrate-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The prediction for papillary conjunctivitis rests on a model score alone, with no clinical trials, no literature, and no plausible mechanism. The product's only New Zealand licence is cancelled, and the licensed form was an enema, which is not compatible with ocular use." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-sodium_citrate-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible rationale linking sodium citrate to ocular inflammation
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Any preclinical or clinical evidence in papillary conjunctivitis
 - Assessment of route and formulation feasibility (an ophthalmic preparation would be needed)
 - Review of the interaction and contraindication profile for the intended population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The product's only New Zealand licence is cancelled, and the licensed form was an enema, which is not compatible with ocular use" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

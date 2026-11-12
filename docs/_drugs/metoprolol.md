@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, acute coronary syndrome, myocardial infarction"
 ---
 
@@ -85,6 +85,14 @@ Currently no related literature available for malignant hypertensive renal disea
 
 At least the following authorisations are listed, all single-ingredient products. Approved indication text is not included in the licence records.
 
+<!-- review:begin nz-lic-20261106-metoprolol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Four further licences (Myloc CR long-acting tablets at 23.75, 47.5, 95 and 190 mg) are also valid, bringing the total to 9." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-metoprolol-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2650738 | Myloc CR | Metoprolol succinate | Tab long-acting 190 mg | Yes |
@@ -98,6 +106,8 @@ At least the following authorisations are listed, all single-ingredient products
 | 2108682 | Slow-Lopresor | Metoprolol tartrate | Tab long-acting 200 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -118,6 +128,19 @@ The prediction has no supporting trials or publications for malignant hypertensi
 - Mechanism of action data
 - Any clinical or observational study of metoprolol in malignant hypertensive renal disease
 - Clinical review of the place of an oral beta-blocker relative to standard parenteral therapy in this setting
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Four further licences (Myloc CR long-acting tablets at 23.75, 47.5, 95 and 190 mg) are also valid, bringing the total to 9" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -88,12 +88,16 @@ None of the publications below studies acute pulmonary heart disease directly. T
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 704520 | Burinex | Bumetanide | Inj 500 mcg per ml, 4 ml vial | Yes |
 | 210323 | Burinex | Bumetanide | Tab 1 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

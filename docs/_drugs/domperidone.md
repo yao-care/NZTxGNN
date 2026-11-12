@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the New Zealand licence record (the clinical-use descri…"
 monitor_inn: "DOMPERIDONE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -64,11 +64,15 @@ The high score (0.9908) comes from the TxGNN model (deep learning) and may refle
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2631903 | Domperidone Viatris | Domperidone | Tab 10 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -84,12 +88,38 @@ Please refer to the package insert for full safety information, as label warning
 **Rationale:**
 The prediction has only a model score behind it: no clinical trials, no literature and no documented mechanistic link between D2/D3 antagonism and NSIAD.
 
+<!-- review:begin nz-lic-20261031-domperidone-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The prediction has only a model score behind it: no clinical trials, no literature and no documented mechanistic link between D2/D3 antagonism and NSIAD. The only New Zealand licence is cancelled, and the knowledge graph flags QT-related contraindications that would matter in a patient group with electrolyte disturbance." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-domperidone-1 -->
+
 **To proceed, the following is needed:**
 - Mechanistic evidence linking dopamine D2/D3 antagonism to vasopressin V2 receptor signalling or renal water handling
 - Preclinical or literature support for the NSIAD indication
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Assessment of QT-prolongation risk and electrolyte monitoring in the target population
+
+<!-- review:begin nz-lic-20261031-domperidone-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Assessment of QT-prolongation risk and electrolyte monitoring in the target population / Confirmation of product availability and route compatibility in New Zealand, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-domperidone-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the knowledge graph flags QT-related contraindications that would matter in a patient group w" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Confirmation of product availability and route compatibility in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

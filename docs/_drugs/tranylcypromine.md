@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "tranylcypromine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,11 +82,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2315076 | Parnate | Tranylcypromine sulphate | Tab 10 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -107,13 +111,39 @@ Please refer to the package insert for the full warnings and contraindications.
 **Rationale:**
 The prediction rests only on a score from the TxGNN model (deep learning), with no trials, no publications and no mechanistic link. The target population is infants, and an irreversible MAOI with major dietary and interaction hazards is a poor fit for them.
 
+<!-- review:begin nz-lic-20261106-tranylcypromine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The target population is infants, and an irreversible MAOI with major dietary and interaction hazards is a poor fit for them. The product is currently marketed in New Zealand, with 1 valid licence of 1." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tranylcypromine-2 -->
+
 **To proceed, the following is needed:**
 - Any mechanistic or clinical evidence linking MAO or LSD1 inhibition to this condition
 - Detailed mechanism-of-action data
 - The package insert (warnings and contraindications), which was not available for review
 - A paediatric safety assessment, including dietary and drug-interaction risk
 
+<!-- review:begin nz-lic-20261031-tranylcypromine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "A paediatric safety assessment, including dietary and drug-interaction risk / A route to supply, since the only New Zealand licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-tranylcypromine-1 -->
+
 **Note on other candidates in the same analysis:** Several other predicted indications have much stronger support. Neurotic depression (evidence level L2) and melancholia (L3) both fall within tranylcypromine's existing depressive-disorder scope and were rated "Proceed with Guardrails". Agoraphobia, dysthymic disorder and neurotic disorder were rated "Research Question". Any further evaluation effort would be better spent on these than on the rank 1 prediction.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "A route to supply, since the only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The product is currently marketed in New Zealand, with 1 valid licence of 1" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

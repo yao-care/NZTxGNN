@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 25
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Alectinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer / lung cancer"
 monitor_inn: "ALECTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
@@ -97,11 +97,15 @@ The literature below relates to other predictions and mainly supports the origin
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2574152 | Alecensa | Alectinib | Cap 150 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -127,10 +131,36 @@ Package insert warnings and contraindications were not available for this report
 **Rationale:**
 The predicted indication, gingival fibromatosis, has no trials, no literature and no known mechanistic link to ALK inhibition, so the high TxGNN score alone is not sufficient.
 
+<!-- review:begin nz-lic-20261106-alectinib-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The predicted indication, gingival fibromatosis, has no trials, no literature and no known mechanistic link to ALK inhibition, so the high TxGNN score alone is not sufficient. In addition, the only New Zealand licence for alectinib is cancelled, which limits near-term local access." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-alectinib-2 -->
+
 **To proceed, the following is needed:**
 - Detailed mechanism of action data and a biological rationale linking ALK (or related kinase) signalling to gingival fibromatosis
 - Package insert warnings and contraindications from Medsafe to allow safety screening
 - Consideration of whether a biomarker-driven (ALK fusion) approach in rare tumours, such as the lung germ cell tumour signal, is a more promising direction than the top-ranked prediction
+
+<!-- review:begin nz-lic-20261031-alectinib-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Package insert warnings and contraindications from Medsafe to allow safety screening / Clarification of the current New Zealand regulatory status of alectinib, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-alectinib-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the current New Zealand regulatory status of alectinib, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, the only New Zealand licence for alectinib is cancelled, which limits near-term local access" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

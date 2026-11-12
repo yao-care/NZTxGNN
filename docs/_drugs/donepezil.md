@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: predicted new indication Top-ranked prediction: psychogenic movement disorders. Best-supported candidate: chronic tic disorder (psychogenic move… (evidence level L5). Approved use: Not rec…"
@@ -101,12 +101,16 @@ No literature was found for psychogenic movement disorders, primary orthostatic 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2666898 | Ipca-Donepezil | Donepezil hydrochloride | Tab 10 mg | Yes |
 | 2666871 | Ipca-Donepezil | Donepezil hydrochloride | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -123,12 +127,38 @@ Please refer to the package insert for full safety information.
 **Rationale:**
 - The top-ranked prediction has a high model score but no trials or literature, so it cannot be advanced. Chronic tic disorder has the most consistent supporting signal (an open-label paediatric study, case reports, and mouse models), but it is small, uncontrolled and has no registered trials. Movement-disorder predictions also carry a conflicting safety signal.
 
+<!-- review:begin nz-lic-20261106-donepezil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Movement-disorder predictions also carry a conflicting safety signal. / Both New Zealand licences are cancelled, so there is currently no marketed product in the country." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-donepezil-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (currently missing and blocking safety screening)
 - Detailed mechanism of action data from DrugBank
 - Confirmation of the design and outcomes of the tic and ADHD studies (PMIDs 18343255, 10440471, 16986157)
 - A controlled trial design for chronic tic disorder, with a paediatric safety plan covering gastrointestinal, cardiac (bradycardia, conduction block) and extrapyramidal effects
 - Clarification of the regulatory pathway
+
+<!-- review:begin nz-lic-20261106-donepezil-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since the existing licences are cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-donepezil-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both New Zealand licences are cancelled, so there is currently no marketed product in the country" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since the existing licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

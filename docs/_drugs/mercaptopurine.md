@@ -90,6 +90,8 @@ No trial listed below is a completed randomised trial testing mercaptopurine alo
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2545551 | Allmercap | Mercaptopurine | Oral suspension 20 mg per ml | Yes |
@@ -98,6 +100,8 @@ No trial listed below is a completed randomised trial testing mercaptopurine alo
 | 2737310 | Mercaptopurine (Sterimax) | Mercaptopurine | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

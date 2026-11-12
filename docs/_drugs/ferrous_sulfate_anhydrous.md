@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
 description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2162156 | Ferro-tab | Ferrous fumarate | Tab 200 mg (65.7 mg elemental) | Yes |
@@ -87,6 +89,8 @@ Currently no related literature available.
 | 2615584 | Ferro-F-Tabs | Ferrous fumarate with folic acid | Tab 310 mg (100 mg elemental) with folic acid 350… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -113,6 +117,19 @@ The prediction has no supporting trials or publications (evidence level L5), and
 - Mechanism of action data
 - Package insert warnings and contraindications
 - Route and dose compatibility assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The product's only New Zealand licence is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Clarification of current New Zealand availability, since the only licence is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,7 +72,15 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin nz-lic-20261106-spironolactone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid, so spironolactone is currently marketed in New Zealand according to the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-spironolactone-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -81,6 +89,8 @@ Currently no related literature available.
 | 2435179 | Spiractin | Spironolactone | Tab 25 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,6 +114,26 @@ The prediction has no supporting trials or literature (evidence level L5). The p
 - A literature and trial search, including case reports and preclinical hair-follicle studies
 - The Medsafe package insert, to complete the warnings and contraindications review (a blocking gap for safety screening)
 - Clarification of the regulatory pathway and route of administration, given the unassessed route compatibility (for example, whether a topical formulation would be needed)
+
+<!-- review:begin nz-lic-20261106-spironolactone-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway and route of administration, given the cancelled licences and the unassessed route compatibility (for example, whether a topical formulation would be needed)" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-spironolactone-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are valid, so spironolactone is currently marketed in New Zealand according to the data compiled for this report" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled licences and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

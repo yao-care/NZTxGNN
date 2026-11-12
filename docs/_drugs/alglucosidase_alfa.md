@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Alglucosidase Alfa: predicted new indication Adult polyglucosan body disease (evidence level L5). Approved use: Glycogen storage disease (Pompe disease). The New Zealand licence rec…"
 monitor_inn: "ALGLUCOSIDASE ALFA"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
@@ -88,11 +88,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2500701 | Myozyme | Alglucosidase alfa | Inj 50 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -111,11 +115,37 @@ Please refer to the package insert for other safety information, including warni
 **Rationale:**
 The prediction is supported only by the model score, with no clinical trials or literature. The mechanistic link is weak because lysosomal GAA does not address the GBE1 defect or reach cytosolic polyglucosan.
 
+<!-- review:begin nz-lic-20261031-alglucosidase_alfa-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The mechanistic link is weak because lysosomal GAA does not address the GBE1 defect or reach cytosolic polyglucosan. The only New Zealand licence has been cancelled, so there is no current local supply pathway." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-alglucosidase_alfa-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, as safety screening cannot proceed without them
 - Detailed mechanism-of-action data from DrugBank
 - Preclinical evidence on whether GAA can reach and degrade polyglucosan in relevant cells or models
 - Evaluation of whether a clinical question exists for adult polyglucosan body disease, since the other nine predictions lack credible biological support
+
+<!-- review:begin nz-lic-20261031-alglucosidase_alfa-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Preclinical evidence on whether GAA can reach and degrade polyglucosan in relevant cells or models / A review of current supply and regulatory status in New Zealand, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-alglucosidase_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence has been cancelled, so there is no current local supply pathway" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "A review of current supply and regulatory status in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

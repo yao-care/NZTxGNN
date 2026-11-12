@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "NITROFURANTOIN"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
 description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -93,12 +93,16 @@ None of these papers shows a therapeutic benefit of nitrofurantoin in rheumatoid
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2493624 | Macrobid | Nitrofurantoin | Cap modified-release 100 mg | Yes |
 | 2723670 | Nitrofurantoin Clinect | Nitrofurantoin | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -128,12 +132,31 @@ Please also refer to the package insert for label warnings and contraindications
 **Rationale:**
 The prediction rests only on a model score. There are no clinical trials and no literature showing benefit, and the mechanism has no plausible link to rheumatoid arthritis. The available evidence instead raises safety concerns, especially pulmonary and hepatic toxicity and the methotrexate interaction.
 
+<!-- review:begin nz-lic-20261106-nitrofurantoin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The available evidence instead raises safety concerns, especially pulmonary and hepatic toxicity and the methotrexate interaction. The drug is marketed in New Zealand, with 3 of 3 authorisations valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nitrofurantoin-1 -->
+
 **To proceed, the following is needed:**
 - A plausible mechanistic rationale for anti-rheumatic activity, supported by preclinical data
 - Mechanism of action data and the package insert warnings and contraindications
 - A safety assessment for patients on methotrexate or with pulmonary or hepatic disease
 
 The other predicted indications reviewed (including diabetic nephropathy, sclerosing cholangitis, methemoglobinemia and several rare genetic syndromes) also have only model-prediction support. For several of them the evidence points to harm, notably methemoglobinemia, where nitrofurantoin is a documented cause. None of them supports advancing the drug.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 3 of 3 authorisations valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

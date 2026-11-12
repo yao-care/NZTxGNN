@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -70,6 +70,8 @@ The Evidence Pack for Diltiazem Hydrochloride is missing three critical inputs t
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2648172 | Diltiazem CD Clinect | Diltiazem hydrochloride | Cap long-acting 120 mg | Yes |
@@ -78,7 +80,15 @@ The Evidence Pack for Diltiazem Hydrochloride is missing three critical inputs t
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No product names, dosage forms, or approved indications are on record.
+
+<!-- review:begin nz-lic-20261106-diltiazem_hydrochloride-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Diltiazem Hydrochloride currently has **zero registered authorizations** in New Zealand based on data retrieved on 2026-03-29. No product names, dosage forms, or approved indications are on record." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-diltiazem_hydrochloride-2 -->
 
 ---
 
@@ -102,7 +112,27 @@ This Evidence Pack is structurally incomplete — no TxGNN predictions, no indic
 - **Parse the package insert** already retrieved on 2026-03-29 (query log ID 4, result count = 1) — extract original indications, warnings, and contraindications
 - **Re-generate this Evidence Pack** once the four items above are resolved, then re-run report generation
 
+<!-- review:begin nz-lic-20261106-diltiazem_hydrochloride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Parse the package insert** already retrieved on 2026-03-29 (query log ID 4, result count = 1) — extract original indications, warnings, and contraindications / **Re-query market registration** in New Zealand (Medsafe) if a different registry is intended, as the TFDA query returned 0 results" Removed: leftover template text about Taiwan's TFDA, which does not apply to this New Zealand page. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-diltiazem_hydrochloride-1 -->
+
 > Note: The query log indicates that DrugBank and package insert sources both returned data — the bottleneck is parsing, not data availability. Resolving the parsing step may resolve most of the current data gaps without additional external queries.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "**Re-query market registration** in New Zealand (Medsafe) if a different registry is intended, as the TFDA query returned 0 results" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Diltiazem Hydrochloride currently has **zero registered authorizations** in New Zealand based on data retrieved on 2026-03-29" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

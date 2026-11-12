@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 249
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "IVERMECTIN"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "congenital candidiasis", "neonatal candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
 description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -77,12 +77,16 @@ No literature directly supports the top predicted indication. The only publicati
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2087057 | Stromectol | Ivermectin | Tab 3 mg | Yes |
 | 2726424 | Stromectol | Ivermectin | Tab 3 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -117,6 +121,25 @@ The prediction is supported only by the TxGNN score. The few linked papers are f
 - Preclinical or clinical studies in the proposed indication
 - Assessment of route of administration and formulation suitability, since route compatibility has not been evaluated
 - A comparison with existing effective antifungal therapies
+
+<!-- review:begin nz-lic-20261106-ivermectin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Assessment of route of administration and formulation suitability, since route compatibility has not been evaluated / A review of the licensing situation, since both New Zealand authorizations are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ivermectin-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A review of the licensing situation, since both New Zealand authorizations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

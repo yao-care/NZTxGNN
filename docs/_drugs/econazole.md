@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Econazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 ---
 
@@ -74,6 +74,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2165953 | Pevaryl | Econazole nitrate | Crm 1% | Yes |
@@ -81,7 +83,15 @@ Currently no related literature available.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Neither carries an indication in the available records, so the uses listed above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are not confirmed as approved indications.
+
+<!-- review:begin nz-lic-20261106-econazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products. Neither carries an indication in the available records, so the uses listed above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-econazole-1 -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ The prediction has a very high model score and a plausible link to econazole's k
 - Mechanism-of-action data from DrugBank
 - Evidence on hair-follicle penetration and efficacy of topical econazole in ectothrix and endothrix infection
 - Comparison with standard oral antifungal therapy for scalp and hair dermatophytosis, to decide whether a topical-only use is worthwhile, or whether it would only serve as an adjunct
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are valid single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

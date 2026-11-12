@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,6 +81,12 @@ No trials are registered for the rank 1 prediction (retinal dystrophy).
 
 No literature is available for the rank 1 prediction.
 
+<!-- review:begin nz-lic-20261106-paliperidone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid, and no approved indication text is available for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-paliperidone-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [31648341](https://pubmed.ncbi.nlm.nih.gov/31648341/) | 2019 | Review | Actas Esp Psiquiatr | Psychopharmacology of schizoaffective disorder. Treatment relies mainly on antipsychotics, with few condition-specific studies and no specific guidelines. |
@@ -89,6 +95,8 @@ No literature is available for the rank 1 prediction.
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -103,6 +111,8 @@ No literature is available for the rank 1 prediction.
 | 2515237 | Invega Trinza | Paliperidone palmitate | Inj 525 mg syringe | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -130,12 +140,32 @@ Package insert warnings and contraindications were not available in the data com
 **Rationale:**
 The rank 1 prediction (retinal dystrophy) rests only on a computational score, with no trials, no literature and no plausible mechanism.
 
+<!-- review:begin nz-lic-20261106-paliperidone-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The rank 1 prediction (retinal dystrophy) rests only on a computational score, with no trials, no literature and no plausible mechanism. All five New Zealand licences are valid, and the safety data has important gaps." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-paliperidone-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Preclinical or mechanistic evidence linking paliperidone to retinal dystrophy, if that prediction is to be pursued
 - Results from the Phase 4 trials, and comparative data against clozapine, for the treatment-refractory schizophrenia question
 - Clarification of route compatibility for any new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five licences are valid, and no approved indication text is available for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All five New Zealand licences are valid, and the safety data has important gaps" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

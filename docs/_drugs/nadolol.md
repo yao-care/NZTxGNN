@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "NADOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Nadolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,6 +91,14 @@ No literature was retrieved for the top-ranked prediction. Twelve records were r
 
 The records contain no approved indication text.
 
+<!-- review:begin nz-lic-20261106-nadolol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four authorizations are valid (4 valid licences of 4). The records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nadolol-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2621118 | Nadolol BNM | Nadolol | Tab 40 mg | Yes |
@@ -99,6 +107,8 @@ The records contain no approved indication text.
 | 2647559 | Nadolol BNM | Nadolol | Tab 80 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -131,6 +141,26 @@ All five predictions rest on model scores alone (evidence level L5). The only li
 - A targeted literature search for human studies of nadolol or beta-blockers in malignant hypertensive renal disease and renovascular hypertension
 - Clarification of the regulatory pathway
 - A safety assessment for the pulmonary hypertension predictions, given the cautions against beta-blockers in that setting
+
+<!-- review:begin nz-lic-20261106-nadolol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since the drug is marketed and all four New Zealand authorizations are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nadolol-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four authorizations are valid (4 valid licences of 4)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since the drug is marketed and all four New Zealand authorizations are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

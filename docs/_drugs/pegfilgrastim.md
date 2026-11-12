@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pegfilgrastim: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not stated in the available licence records"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 Pegfilgrastim is a long-acting (PEGylated) G-CSF that stimulates neutrophil production.
 The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy** (and the broader category, diabetic retinopathy), but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model prediction only.
 
+<!-- review:begin nz-lic-20261106-pegfilgrastim-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Pegfilgrastim is a long-acting (PEGylated) G-CSF that stimulates neutrophil production. The licence records compiled for this report do not state an approved indication." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pegfilgrastim-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -71,13 +77,23 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2724251 | Ziextenzo | Pegfilgrastim | Inj 6 mg per 0.6 ml syringe | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The only dosage form listed is a prefilled injection syringe.
+
+<!-- review:begin nz-lic-20261106-pegfilgrastim-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are cancelled, so no pegfilgrastim product is currently licensed in New Zealand according to the data compiled. The only dosage form listed is a prefilled injection syringe." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pegfilgrastim-2 -->
 
 ## Safety Considerations
 
@@ -96,11 +112,39 @@ Package insert warnings and contraindications were not available in the data com
 **Rationale:**
 The prediction rests only on a high model score, with no clinical trials or publications. The direction of effect is mechanistically uncertain, as progenitor mobilization could help or worsen retinal vascular disease.
 
+<!-- review:begin nz-lic-20261106-pegfilgrastim-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The direction of effect is mechanistically uncertain, as progenitor mobilization could help or worsen retinal vascular disease. The product is also not currently licensed in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pegfilgrastim-3 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data (e.g. from DrugBank) to cross-check the proposed link
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening
 - Preclinical or clinical evidence on G-CSF or pegfilgrastim in diabetic retinopathy, including a literature search to check for harm signals such as neovascularization
 - Assessment of route compatibility, since the available systemic injection form has not been compared with the routes needed for retinal disease
+
+<!-- review:begin nz-lic-20261106-pegfilgrastim-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Assessment of route compatibility, since the available systemic injection form has not been compared with the routes needed for retinal disease / Clarification of the original approved indication and the regulatory pathway, given that the drug is marketed with 2 valid licences of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pegfilgrastim-4 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The licence records compiled for this report do not state an approved indication" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both authorizations are cancelled, so no pegfilgrastim product is currently licensed in New Zealand according to the data compiled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The product is also not currently licensed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the original approved indication and the regulatory pathway, given that the drug is marketed with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

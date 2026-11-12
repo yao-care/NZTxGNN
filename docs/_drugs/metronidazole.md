@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "METRONIDAZOLE"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -105,9 +105,17 @@ The ten publications retrieved for pneumocystosis are listed below. None provide
 
 **Best-supported alternative signal (cap polyposis):** one case study proposes that metronidazole acts through anti-inflammatory rather than antibiotic effects ([PMID 12141801](https://pubmed.ncbi.nlm.nih.gov/12141801/)). Other reports describe remission after antibiotic regimens including metronidazole, usually with *H. pylori* eradication ([24949613](https://pubmed.ncbi.nlm.nih.gov/24949613/)), while another case was refractory to drug treatment including infliximab ([38873995](https://pubmed.ncbi.nlm.nih.gov/38873995/)). No controlled data exist.
 
+<!-- review:begin nz-lic-20261106-metronidazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Four of the four authorizations are valid, and no indication text is recorded for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-metronidazole-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -117,6 +125,8 @@ The ten publications retrieved for pneumocystosis are listed below. None provide
 | 2684454 | Metronidamed | Metronidazole | Tab 400 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -146,6 +156,26 @@ The pneumocystosis prediction has no trials, no supporting literature and no pla
 - Obtain the Medsafe package insert to complete the safety review. This gap is blocking for safety screening.
 - Obtain mechanism-of-action data, for example from DrugBank.
 - Confirm the availability of any alternative metronidazole products.
+
+<!-- review:begin nz-lic-20261106-metronidazole-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirm the reason for cancellation of the New Zealand authorizations and the availability of any alternative metronidazole products." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-metronidazole-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Four of the four authorizations are valid, and no indication text is recorded for any of them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the reason for cancellation of the New Zealand authorizations and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

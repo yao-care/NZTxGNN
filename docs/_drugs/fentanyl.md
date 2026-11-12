@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -42,6 +42,12 @@ Fentanyl is a potent opioid (mu-opioid receptor agonist) that is marketed in New
 The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but there are **0 clinical trials** and **0 publications** supporting this direction.
 This is a model-only prediction (evidence level L5) and the recommendation is **Hold**.
 
+<!-- review:begin nz-lic-20261106-fentanyl-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Fentanyl is a potent opioid (mu-opioid receptor agonist) that is marketed in New Zealand as transdermal patches and an injectable, with 7 valid licences out of 7." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fentanyl-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -72,7 +78,21 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin nz-lic-20261106-fentanyl-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 7 authorizations below are valid. The license records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fentanyl-2 -->
+
+<!-- review:begin nz-lic-20261106-fentanyl-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two further cancelled authorizations (Boucher and Muir injection, 50 mcg per ml, 2 ml and 10 ml ampoules; 2381176 and 2381168) are not shown in the table above." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fentanyl-3 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -85,6 +105,8 @@ Currently no related literature available.
 | 2472902 | Fentanyl Sandoz | Fentanyl | Patch 75 mcg per hour | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -105,6 +127,21 @@ The prediction rests only on a model score, with no clinical trials, no literatu
 - Mechanism of action data (from DrugBank)
 - A credible mechanistic hypothesis linking mu-opioid agonism to AVPR2-driven antidiuresis, followed by preclinical support
 - Any clinical or preclinical literature for the predicted indications (NSIAD or Tourette syndrome)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "with 7 valid licences out of 7" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 7 authorizations below are valid. The license records contain no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Two further cancelled authorizations (Boucher and Muir injection, 50 mcg per ml, 2 ml and 10 ml ampoules; 2381176 and 2381168) are not shown" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

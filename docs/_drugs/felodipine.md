@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 195
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Felodipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,7 +94,15 @@ The two predictions with literature are summarised below.
 
 For pulmonary hypertension owing to lung disease/hypoxia, nine retrieved publications are all preclinical (for example PMIDs 8160846, 8584414, 9431863). They address tissue-level hypoxia or reoxygenation injury, not pulmonary hypertension, so they are not listed individually.
 
+<!-- review:begin nz-lic-20261106-felodipine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are valid, so felodipine is currently marketed in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-felodipine-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -103,6 +111,8 @@ For pulmonary hypertension owing to lung disease/hypoxia, nine retrieved publica
 | 2041510 | Felo 5 ER | Felodipine | Tab long-acting 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -119,11 +129,38 @@ Package insert warnings and contraindications were not available in the data com
 **Rationale:**
 The top-ranked pulmonary hypertension prediction rests on model score alone (L5), with no trials or literature.
 
+<!-- review:begin nz-lic-20261106-felodipine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The top-ranked pulmonary hypertension prediction rests on model score alone (L5), with no trials or literature. Felodipine's market authorizations in New Zealand are all valid (3 of 3)." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-felodipine-2 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - A targeted literature review of calcium channel blockers in vasoreactive pulmonary arterial hypertension
 - A decision on whether Prinzmetal angina warrants further work, given the availability of other calcium channel blockers
+
+<!-- review:begin nz-lic-20261106-felodipine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A decision on whether Prinzmetal angina warrants further work, given the cancelled market status and the availability of other calcium channel blockers" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-felodipine-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three authorizations are valid, so felodipine is currently marketed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Felodipine's market authorizations in New Zealand are all valid (3 of 3)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "cancelled market status and the" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

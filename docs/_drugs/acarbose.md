@@ -70,12 +70,16 @@ Currently no related literature available for classic stiff person syndrome. Pub
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2402416 | Accarb | Acarbose | Tab 100 mg | Yes |
 | 2402408 | Accarb | Acarbose | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

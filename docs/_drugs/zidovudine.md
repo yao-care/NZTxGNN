@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 485
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -119,6 +119,8 @@ The top-ranked prediction (feline AIDS) has no registered clinical trials.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 552666 | Retrovir | Zidovudine | Cap 100 mg | Yes |
@@ -127,6 +129,8 @@ The top-ranked prediction (feline AIDS) has no registered clinical trials.
 | 2724952 | Lamivudine/Zidovudine Viatris | Zidovudine with lamivudine | Tab 300 mg with lamivudine 150 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -163,12 +167,38 @@ Package insert warnings and contraindications are not available in the data comp
 - The top prediction is a veterinary indication with animal evidence only, so it does not support human repurposing. The neurodevelopmental disorder and the obsolete hyperlipidaemia term have no evidence and no plausible mechanism, and zidovudine is more often linked to dyslipidaemia than to its treatment.
 - Zidovudine is now used within combination regimens.
 
+<!-- review:begin nz-lic-20261106-zidovudine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Zidovudine is now used within combination regimens, and it is marketed in New Zealand with 2 valid licences out of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-zidovudine-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (from Medsafe) to complete safety screening
 - Detailed mechanism of action data (from DrugBank)
 - Verification of current availability in New Zealand
 - For any HIV-related use: a monitoring plan for haematologic toxicity, myopathy and lactic acidosis, and a review of the 100 recorded interactions
 - For a veterinary pathway, if pursued: a separate veterinary regulatory and toxicity assessment
+
+<!-- review:begin nz-lic-20261106-zidovudine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Verification of current availability in New Zealand, given the cancelled licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-zidovudine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and it is marketed in New Zealand with 2 valid licences out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "given the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

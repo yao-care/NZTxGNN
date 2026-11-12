@@ -97,12 +97,16 @@ The score alone should not be treated as strong evidence.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2690683 | Zejula | Niraparib | Tab 100 mg | Yes |
 | 2690691 | Zejula | Niraparib | Tab 100 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

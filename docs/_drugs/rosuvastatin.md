@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, stroke, cerebrovascular disorder…"
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
@@ -115,6 +115,20 @@ For **hyperlipidaemia (rank 10)**, key sources include the STELLAR trial ([12860
 
 No approved-indication text is recorded for any of them.
 
+<!-- review:begin nz-lic-20261106-rosuvastatin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All eight authorisations are valid. No approved-indication text is recorded for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 12 listings for this drug, 12 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rosuvastatin-1 -->
+
+<!-- review:begin nz-lic-20261106-rosuvastatin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The remaining three authorisations (Rosuvastatin Viatris 10 mg, 20 mg and 40 mg tablets) are also cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 12 listings for this drug, 12 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rosuvastatin-2 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2651149 | Rosuvastatin Viatris | Rosuvastatin | Tab 10 mg | Yes |
@@ -131,6 +145,8 @@ No approved-indication text is recorded for any of them.
 | 2727870 | Rosuvastatin Mylan | Rosuvastatin | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -161,6 +177,27 @@ Package insert warnings and contraindications were not available for this report
 - Mechanism-of-action data from DrugBank.
 - Safety guardrails: myopathy and CK monitoring, renal and hepatic function checks, paediatric dosing and growth monitoring, consideration of Asian-ancestry dosing, and a review of drug interactions.
 - Before any evaluation of CETP deficiency, a clinical rationale showing that treatment is needed and a mechanistic assessment.
+
+<!-- review:begin nz-lic-20261106-rosuvastatin-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Mechanism-of-action data from DrugBank. / Verification of product availability in New Zealand (8 of 8 licences valid)." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 12 listings for this drug, 12 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rosuvastatin-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All eight authorisations are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The remaining three authorisations (Rosuvastatin Viatris 10 mg, 20 mg and 40 mg tablets) are also cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Verification of product availability in New Zealand (8 of 8 licences valid)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

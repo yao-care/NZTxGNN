@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 257451 | Ultraproct | Fluocortolone caproate with fluocortolone pivalate and cinc… | Oint 950 mcg, with fluocortolone pivalate 920 mcg… | Yes |
@@ -79,6 +81,8 @@ Currently no related literature available.
 | 2725509 | Scheriproct | Prednisolone hexanoate with cinchocaine hydrochloride | Suppos 1.3 mg with cinchocaine hydrochloride 1 mg… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

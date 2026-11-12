@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Lispro: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -93,6 +93,8 @@ The only publication found across the predictions relates to pancreatic agenesis
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2702983 | Humalog | Insulin lispro | Inj 100 u per ml, 10 ml vial | Yes |
@@ -101,6 +103,8 @@ The only publication found across the predictions relates to pancreatic agenesis
 | 2235854 | Humalog Mix 50 | Insulin lispro with insulin lispro protamine | Inj lispro 50% with insulin lispro protamine 50%… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -127,6 +131,25 @@ The top prediction, autoimmune oophoritis, rests only on a computational score, 
 - Package insert warnings and contraindications (not available in the data compiled for this report)
 - Any clinical or preclinical evidence linking insulin to ovarian autoimmunity
 - If pursued at all, a focused review of pancreatic agenesis, where insulin replacement is already standard care, rather than the high-scoring but unsupported predictions
+
+<!-- review:begin nz-lic-20261106-insulin_lispro-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Any clinical or preclinical evidence linking insulin to ovarian autoimmunity / Clarification of current New Zealand licensing, since both Humalog licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-insulin_lispro-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clarification of current New Zealand licensing, since both Humalog licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

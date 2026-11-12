@@ -97,6 +97,8 @@ The data compiled for this report include 30 trials. The table lists the 10 most
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2317109 | Apidra | Insulin glulisine | Inj 100 u per ml, 10 ml | Yes |
@@ -104,6 +106,8 @@ The data compiled for this report include 30 trials. The table lists the 10 most
 | 2316870 | Apidra SoloStar | Insulin glulisine | Inj 100 u per ml, 3 ml disposable pen | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

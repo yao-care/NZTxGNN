@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Docusate: predicted new indication Plummer-Vinson syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 252859 | Coloxyl | Docusate sodium | Tab 120 mg | Yes |
@@ -79,6 +81,8 @@ Currently no related literature available.
 | 2712172 | Solax | Docusate sodium with sennosides | Tab 50 mg with sennosides 8 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -103,6 +107,25 @@ No trial or publication studies docusate in Plummer-Vinson syndrome. Docusate ha
 - Mechanism of action data for docusate
 - Any clinical or literature evidence that directly studies Plummer-Vinson syndrome
 - Package insert warnings and contraindications from Medsafe
+
+<!-- review:begin nz-lic-20261106-docusate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from Medsafe / Clarification of the local licence status, since the data compiled for this report show conflicting counts of valid and cancelled licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-docusate-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clarification of the local licence status, since the data compiled for this report show conflicting counts of valid and cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

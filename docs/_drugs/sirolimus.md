@@ -88,6 +88,8 @@ None of these studies tests sirolimus in liposarcoma.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2059339 | Rapamune | Sirolimus | Oral liq 1 mg per ml | Yes |
@@ -95,6 +97,8 @@ None of these studies tests sirolimus in liposarcoma.
 | 2258218 | Rapamune | Sirolimus | Tab 2 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

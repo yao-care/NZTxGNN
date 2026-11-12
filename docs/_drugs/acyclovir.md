@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acyclovir: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -79,6 +79,12 @@ No clinical trials are registered for the top-ranked prediction, punctate epithe
 
 The two publications for punctate epithelial keratoconjunctivitis (PMIDs 21934222 and 7825685) are a microsporidial case series and an AIDS corneal lipidosis report and do not support the prediction. The table below shows the most relevant literature for common wart.
 
+<!-- review:begin nz-lic-20261106-acyclovir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 4 licences are valid (4 of 4), and no indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-acyclovir-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [40889709](https://pubmed.ncbi.nlm.nih.gov/40889709/) | 2026 | RCT | J Am Acad Dermatol | Intralesional acyclovir vs cryotherapy in plantar warts |
@@ -93,6 +99,8 @@ The two publications for punctate epithelial keratoconjunctivitis (PMIDs 2193422
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2490803 | ViruPOS | Aciclovir | Eye oint 3% | Yes |
@@ -101,6 +109,8 @@ The two publications for punctate epithelial keratoconjunctivitis (PMIDs 2193422
 | 471712 | Lovir | Aciclovir | Tab dispersible 800 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -116,12 +126,32 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Rationale:**
 - The top-ranked prediction, punctate epithelial keratoconjunctivitis, rests only on a model score (L5), with no trials and no supportive literature. Common wart is the best-supported direction (L2): one Phase 2/3 trial and several randomized comparisons, but the trials are small, mostly single-centre, use active comparators rather than placebo, and the mechanism is uncertain.
 
+<!-- review:begin nz-lic-20261106-acyclovir-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Common wart is the best-supported direction (L2): one Phase 2/3 trial and several randomized comparisons, but the trials are small, mostly single-centre, use active comparators rather than placebo, and the mechanism is uncertain. / The drug is marketed in this country, with 4 valid licences out of 4." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-acyclovir-2 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Placebo-controlled, adequately powered trials of intralesional acyclovir in warts, with published results for the Phase 2/3 trial
 - Confirmation of which intralesional formulation and route would be used, given that the former licences cover only oral dispersible tablets and an eye ointment
 - Review of the knowledge-graph contraindication associations (especially renal impairment) against official labelling
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 4 licences are valid (4 of 4), and no indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in this country, with 4 valid licences out of 4" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MESALAZINE"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Not recorded in the local data"
@@ -100,6 +100,14 @@ For reference, the literature retrieved for the lower-ranked predictions is summ
 
 No approved indication text is available. Five representative entries:
 
+<!-- review:begin nz-lic-20261106-mesalazine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 13 licences are valid. No approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 13 listings for this drug, 13 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-mesalazine-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 715867 | Pentasa | Mesalazine | Enema 1 g per 100 ml | Yes |
@@ -117,6 +125,8 @@ No approved indication text is available. Five representative entries:
 | 768618 | Pentasa | Mesalazine | Tab long-acting 500 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -142,6 +152,26 @@ The predicted indication has no clinical trials, no literature and no plausible 
 - Preclinical or mechanistic studies for the predicted indication
 - Medsafe package insert warnings and contraindications
 - If a repurposing direction is pursued, consideration of better-supported candidates, such as rheumatoid arthritis, which would first require evidence specific to mesalazine rather than sulfasalazine
+
+<!-- review:begin nz-lic-20261106-mesalazine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Medsafe package insert warnings and contraindications / Clarification of the regulatory status given that all 13 licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 13 listings for this drug, 13 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-mesalazine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 13 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the regulatory status given that all 13 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

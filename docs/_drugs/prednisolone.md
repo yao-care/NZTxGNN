@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 377
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 317659 | Redipred | Prednisolone | Oral liq 5 mg per ml | Yes |
@@ -91,6 +93,8 @@ Currently no related clinical trials registered.
 | 307475 | Minims Prednisolone | Prednisolone sodium phosphate | Eye drops 0.5%, single dose (preservative free) | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -110,11 +114,23 @@ Package insert warnings and contraindications were not available for this report
 **Rationale:**
 A placebo-controlled RCT, a Cochrane network meta-analysis and systematic reviews support oral pulse prednisolone in alopecia areata, but there are no registered trials. Relapse after withdrawal and steroid toxicity limit its use, and JAK inhibitors are preferred for severe disease.
 
+<!-- review:begin nz-lic-20261106-prednisolone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Relapse after withdrawal and steroid toxicity limit its use, and JAK inhibitors are preferred for severe disease. Neither New Zealand licence is currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-prednisolone-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data
 - A pulse dosing regimen and a monitoring plan covering growth, bone density, infection and glucose, particularly in children
 - A decision on how it positions against JAK inhibitors
+
+<!-- review:begin nz-lic-20261106-prednisolone-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A decision on how it positions against JAK inhibitors / Confirmation of a currently available product, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-prednisolone-2 -->
 
 ### Other Predicted Indications (for reference)
 
@@ -126,6 +142,19 @@ A placebo-controlled RCT, a Cochrane network meta-analysis and systematic review
 | 5 | Alopecia antibody deficiency | L5 | Hold | Only an indirect lupus case report |
 | 6–9 | Rare genetic or structural conditions (hereditary hypotrichosis with recurrent skin vesicles, alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome, atrichia with papular lesions, prolapse of lacrimal gland) | L5 | Hold | Model prediction only |
 | 10 | Idiopathic steroid-sensitive nephrotic syndrome | L1 | Proceed with Guardrails | Established standard of care rather than true repurposing; Cochrane reviews and RCT literature support it; not among the drug's listed original indications |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Neither New Zealand licence is currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of a currently available product, since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

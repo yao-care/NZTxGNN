@@ -75,6 +75,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2579111 | Baxter | Trastuzumab emtansine | Inj 1 mg for ECP | Yes |
@@ -82,6 +84,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 | 2444194 | Kadcyla | Trastuzumab emtansine | Inj 160 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -100,6 +100,8 @@ Peritoneal mesothelioma is rare, and prospective trials specific to it are scarc
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2532387 | Baxter | Pemetrexed | Inj 1 mg for ECP | Yes |
@@ -109,6 +111,8 @@ Peritoneal mesothelioma is rare, and prospective trials specific to it are scarc
 | 2693925 | Pemetrexed-AFT | Pemetrexed | Inj 500 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

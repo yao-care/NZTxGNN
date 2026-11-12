@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ETRAVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
 description: "Etravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,11 +78,15 @@ Currently no related literature available for the predicted indication of feline
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2426900 | Intelence | Etravirine | Tab 200 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -102,11 +106,37 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The top prediction rests on a TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence, with no trials or literature. FIV and SIV are also expected to be poorly sensitive to NNRTIs.
 
+<!-- review:begin nz-lic-20261106-etravirine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "FIV and SIV are also expected to be poorly sensitive to NNRTIs. The only New Zealand licence is valid and the drug is marketed, but no package insert safety data is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-etravirine-2 -->
+
 **To proceed, the following is needed:**
 - In vitro activity data of etravirine against FIV reverse transcriptase, followed by veterinary pharmacology and safety studies if activity is shown
 - Mechanism of action data for etravirine
 - Package insert warnings and contraindications, obtained from Medsafe
 - Review of the interaction profile and the hepatitis B/C and neuropathy signals before any use in a new population
+
+<!-- review:begin nz-lic-20261031-etravirine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Package insert warnings and contraindications, obtained from Medsafe / Clarification of the regulatory position, since the only New Zealand licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-etravirine-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the regulatory position, since the only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The only New Zealand licence is valid and the drug is marketed, but no package insert safety data is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

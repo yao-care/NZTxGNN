@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 384
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Probenecid: predicted new indication hypouricemia, renal (evidence level L4). Approved use: Gout"
 monitor_inn: "PROBENECID"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
@@ -58,6 +58,12 @@ The mechanism also points the wrong way: probenecid would likely worsen this con
 
 *Note: the original indications above are not taken from approved labelling.*
 
+<!-- review:begin nz-lic-20261106-probenecid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "*Note: the New Zealand license record has no approved indication text, so the original indications above are not taken from approved labelling.*" Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-probenecid-1 -->
+
 ---
 
 ## Why is This Prediction Reasonable?
@@ -99,11 +105,15 @@ Of the 20 publications retrieved, the following are the most relevant. All are r
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2012499 | Probenecid-AFT | Probenecid | Tab 500 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,12 +137,32 @@ Please refer to the package insert for authoritative warnings and contraindicati
 **Rationale:**
 The TxGNN score is high, but there are no clinical trials and no literature showing a therapeutic benefit. The mechanism argues against benefit in renal hypouricemia, because probenecid would add to the urate loss that already defines the disease. The other two predictions (Lesch-Nyhan syndrome and partial HPRT deficiency) are no better supported, and xanthine oxidase inhibitors are the preferred treatment for both.
 
+<!-- review:begin nz-lic-20261106-probenecid-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The mechanism argues against benefit in renal hypouricemia, because probenecid would add to the urate loss that already defines the disease. The product is also no longer authorized in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-probenecid-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications, which are the blocking data gap for safety screening
 - Detailed mechanism of action data
 - Direct evidence, from non-clinical or clinical studies, that probenecid has any therapeutic benefit in renal hypouricemia
 - A risk assessment of nephrolithiasis and exercise-induced acute kidney injury in this population
 - Confirmation of whether a currently authorized probenecid product exists in New Zealand
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the New Zealand license record has no approved indication text, so" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The product is also no longer authorized in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

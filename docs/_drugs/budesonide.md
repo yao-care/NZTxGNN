@@ -83,6 +83,8 @@ Most of the remaining retrieved papers concern contact sensitization or other co
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2661454 | Budesonide Te Arai | Budesonide | Cap modified-release 3 mg | Yes |
@@ -102,6 +104,8 @@ Most of the remaining retrieved papers concern contact sensitization or other co
 | 2730936 | Breztri Aerosphere | Budesonide with glycopyrronium and eformoterol | Aerosol inhaler budesonide 160 mcg with glycopyrr… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

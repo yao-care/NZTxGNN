@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 description: "Pembrolizumab: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,12 +82,22 @@ Currently no related literature available.
 
 Neither record contains approved indication text.
 
+<!-- review:begin nz-lic-20261106-pembrolizumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand licences for pembrolizumab are cancelled. Neither record contains approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pembrolizumab-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2508427 | Baxter | Pembrolizumab | Inj 1 mg for ECP | Yes |
 | 2547996 | Keytruda | Pembrolizumab | Inj 25 mg per ml, 4 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,11 +137,31 @@ The prediction is supported only by a model score. There are no trials, no publi
 - Any biological evidence linking PD-1 signalling to gingival fibromatosis
 - Clarification of regulatory status
 
+<!-- review:begin nz-lic-20261106-pembrolizumab-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of regulatory status, since both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pembrolizumab-2 -->
+
 ---
 
 ### Note on other predictions
 
 None of the other top-ranked predictions had direct clinical support. Most are rare genetic or benign conditions with no PD-1 rationale (inclusion body myopathy with Paget disease, ovarioleukodystrophy, lung fibroma, lung hamartoma, and a rare leukomelanoderma syndrome). Two are subsets of the approved lung cancer indication (lung hilum carcinoma and pulmonary sulcus neoplasm), which would be an extension of an existing indication rather than true repurposing. The large body of lung cancer trials and literature matched to "lung benign neoplasm" and "lung germ cell tumor" concerns malignant NSCLC and SCLC and general checkpoint-inhibitor research, so it should not be credited to those indications.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both New Zealand licences for pembrolizumab are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

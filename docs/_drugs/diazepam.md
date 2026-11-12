@@ -78,6 +78,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 399019 | Hospira | Diazepam | Inj 5 mg per ml, 2 ml ampoule | Yes |
@@ -86,6 +88,8 @@ Currently no related clinical trials registered.
 | 2328003 | Arrow-Diazepam | Diazepam | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

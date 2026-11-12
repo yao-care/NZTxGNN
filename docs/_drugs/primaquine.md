@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PRIMAQUINE"
 predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
 description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,12 +83,22 @@ Currently no related literature available.
 
 Any use would require an unapproved-medicine pathway or a new sponsor.
 
+<!-- review:begin nz-lic-20261106-primaquine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are cancelled, so no primaquine product is currently authorized in New Zealand. Any use would require an unapproved-medicine pathway or a new sponsor." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-primaquine-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2587637 | Sanofi Primaquine | Primaquine | Tab 15 mg | Yes |
 | 2664062 | Bayshore | Primaquine | Tab 15 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -118,7 +128,27 @@ The prediction has no clinical trials, no literature and no plausible mechanism,
 - Package insert warnings and contraindications, and the mechanism of action data, to support any safety assessment.
 - A benefit-risk comparison with the standard treatments for myiasis (such as wound care, larval removal and ivermectin), which are likely safer.
 
+<!-- review:begin nz-lic-20261106-primaquine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A benefit-risk comparison with the standard treatments for myiasis (such as wound care, larval removal and ivermectin), which are likely safer. / A plan for G6PD screening and a regulatory pathway, given that the drug is marketed with 2 valid New Zealand authorizations out of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-primaquine-2 -->
+
 Other predicted indications for primaquine, such as pneumocystosis (as a clindamycin combination) and malaria itself, have much stronger supporting evidence. They would be better candidates for evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorizations are cancelled, so no primaquine product is currently authorized in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A plan for G6PD screening and a regulatory pathway, given that the drug is marketed with 2 valid New Zealand authorizations out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

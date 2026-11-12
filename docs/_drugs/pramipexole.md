@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 375
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not recorded in the local data"
@@ -89,12 +89,16 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2450534 | Ramipex | Pramipexole hydrochloride | Tab 0.25 mg | Yes |
 | 2450542 | Ramipex | Pramipexole hydrochloride | Tab 1 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -114,6 +118,12 @@ Please refer to the package insert for authoritative warnings and contraindicati
 **Rationale:**
 The prediction score is high, but no ADHD trial exists and the literature is indirect. The only pramipexole RCT in the set targets Tourette's syndrome. The mechanistic rationale is plausible but unproven.
 
+<!-- review:begin nz-lic-20261106-pramipexole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The only pramipexole RCT in the set targets Tourette's syndrome. No pramipexole product is currently authorized in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pramipexole-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (currently missing, and a blocker for safety screening)
 - Detailed mechanism-of-action data
@@ -121,7 +131,27 @@ The prediction score is high, but no ADHD trial exists and the literature is ind
 - Review of whether the dopaminergic safety profile (impulse-control problems, sleepiness, orthostatic hypotension) is acceptable in an ADHD population
 - Clarification of the regulatory pathway
 
+<!-- review:begin nz-lic-20261106-pramipexole-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since both New Zealand authorizations are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pramipexole-2 -->
+
 Among the other predicted indications for this drug, **schizophrenia** has considerably stronger evidence than ADHD: a Phase 3 add-on trial (NCT01320982, status unknown) and a published add-on RCT from 2022. It may deserve a separate evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "No pramipexole product is currently authorized in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both New Zealand authorizations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

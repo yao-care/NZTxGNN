@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the licence records compiled for this report (rivaroxab…"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **4**
 Rivaroxaban is an oral Factor Xa inhibitor anticoagulant. The drug's established use is in preventing and treating thromboembolic disease.
 The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **0 clinical trials** and only **4 publications** (reviews, a cohort study and a case report), none showing disease-modifying benefit in this condition.
 The prediction rests on model output alone (**evidence level L5**).
+
+<!-- review:begin nz-lic-20261106-rivaroxaban-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The licence records compiled for this report do not list an approved indication text, and the drug's established use is in preventing and treating thromboembolic disease." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rivaroxaban-1 -->
 
 ## Quick Overview
 
@@ -79,6 +85,8 @@ Currently no related clinical trials registered for rheumatoid arthritis.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2545152 | Xarelto | Rivaroxaban | Tab 10 mg | Yes |
@@ -86,6 +94,8 @@ Currently no related clinical trials registered for rheumatoid arthritis.
 | 2425947 | Xarelto | Rivaroxaban | Tab 20 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -103,12 +113,39 @@ Please also refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The prediction has the highest model score but no clinical trials and no literature showing disease-modifying benefit in RA (evidence level L5). Rivaroxaban would address only the thrombotic component, not RA activity. The drug is marketed in New Zealand and bleeding-related interactions with common RA co-medications add safety concerns.
 
+<!-- review:begin nz-lic-20261106-rivaroxaban-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in New Zealand with all three licences valid, and bleeding-related interactions with common RA co-medications add safety concerns." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rivaroxaban-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and a clearer mechanistic rationale for any effect on RA inflammation
 - Preclinical or early-phase clinical evidence in RA, for example thromboprophylaxis or thrombo-inflammatory biomarker studies
 - Package insert warnings and contraindications from Medsafe
 - A review of current New Zealand availability
 - A bleeding-risk assessment for RA patients using corticosteroids, NSAIDs or aspirin
+
+<!-- review:begin nz-lic-20261106-rivaroxaban-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from Medsafe, and the approved indications from the licence records / A review of current New Zealand availability, where all 3 licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rivaroxaban-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "he licence records compiled for this report do not list an approved indication text, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "with all three licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the approved indications from the licence records , where all 3 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

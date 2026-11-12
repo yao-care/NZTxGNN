@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2091038 | Calcitriol-AFT | Calcitriol | Cap 0.25 mcg | Yes |
@@ -80,6 +82,8 @@ Currently no related literature available.
 | 2730545 | Calcitriol Devatis | Calcitriol | Cap 0.5 mcg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

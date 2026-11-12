@@ -76,6 +76,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2461625 | Histaclear | Cetirizine hydrochloride | Oral liq 1 mg per ml | Yes |
@@ -83,6 +85,8 @@ Currently no related clinical trials registered.
 | 2500728 | Zista | Cetirizine hydrochloride | Tab 10 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

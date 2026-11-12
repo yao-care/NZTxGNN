@@ -72,6 +72,8 @@ All of the TxGNN model's candidates for Diltiazem (score ≥ 0.99) that can be t
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2648172 | Diltiazem CD Clinect | Diltiazem hydrochloride | Cap long-acting 120 mg | Yes |
@@ -79,6 +81,8 @@ All of the TxGNN model's candidates for Diltiazem (score ≥ 0.99) that can be t
 | 254592 | Cardizem CD | Diltiazem hydrochloride | Cap long-acting 240 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

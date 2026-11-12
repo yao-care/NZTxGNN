@@ -80,12 +80,16 @@ Currently no related literature available for this disease. The only publication
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2595788 | Leustatin | Cladribine | Inj 1 mg per ml, 10 ml | Yes |
 | 2207540 | Baxter | Cladribine | Inj 10 mg for ECP | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

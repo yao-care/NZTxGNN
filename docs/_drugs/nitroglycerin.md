@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 326
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the available licence records"
 monitor_inn: "nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -40,6 +40,12 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 Nitroglycerin is a nitric oxide (NO) donor and vasodilator. The product forms (ointment, patches, sublingual spray) are consistent with cardiovascular and anal-fissure use.
 The TxGNN model predicts it may be effective for **pulmonary hypertension**, with **3 clinical trials** (1 completed, small, non-phased) and **20 publications** (mostly reviews and small haemodynamic studies, plus one randomised trial in newborns) supporting this direction.
+
+<!-- review:begin nz-lic-20261106-nitroglycerin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The New Zealand licence records compiled for this report do not state an approved indication, but the product forms (ointment, patches, sublingual spray) are consistent with cardiovascular and anal-fissure use." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nitroglycerin-1 -->
 
 ## Quick Overview
 
@@ -86,6 +92,8 @@ The evidence level of L3 reflects the mix of reviews, haemodynamic studies and s
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2120313 | Rectogesic | Glyceryl trinitrate | Oint 0.2% | Yes |
@@ -94,6 +102,8 @@ The evidence level of L3 reflects the mix of reviews, haemodynamic studies and s
 | 750247 | Nitroderm TTS | Glyceryl trinitrate | Patch 50 mg, 10 mg per day | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -110,11 +120,38 @@ Please refer to the package insert for further safety information.
 **Rationale:**
 The mechanism is plausible and acute haemodynamic benefit is shown in small studies, including one neonatal RCT. However, there are no completed Phase 2/3 trials, the registered trials are small or unverified, and although the drug is marketed in New Zealand, there is no approved route for this use.
 
+<!-- review:begin nz-lic-20261106-nitroglycerin-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, there are no completed Phase 2/3 trials, the registered trials are small or unverified, and although the drug is marketed in New Zealand (4 valid licences of 4), there is no approved route for this use." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nitroglycerin-3 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Adequately powered controlled trials of nebulised or inhaled nitroglycerin with durable clinical outcomes
 - A decision on formulation and route
+
+<!-- review:begin nz-lic-20261106-nitroglycerin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A decision on formulation and route, since no inhaled product is currently licensed in New Zealand / Clarification of the original approved indications of the cancelled licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nitroglycerin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "he New Zealand licence records compiled for this report do not state an approved indication, but t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since no inhaled product is currently licensed in New Zealand - Clarification of the original approved indications of the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "(4 valid licences of 4)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,7 +82,15 @@ Neither trial provides direct support for bronchitis.
 
 None of these studies shows that omalizumab treats bronchitis.
 
+<!-- review:begin nz-lic-20261106-omalizumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 3 licences are valid, and the drug is marketed in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-omalizumab-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -91,6 +99,8 @@ None of these studies shows that omalizumab treats bronchitis.
 | 2243369 | Xolair | Omalizumab | Inj 150 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -109,6 +119,18 @@ No published study supports omalizumab in bronchitis. The registered trials and 
 - A clinical study that defines bronchitis (for example, eosinophilic or chronic bronchitis) as the target condition and tests omalizumab in it directly
 - Mechanism-of-action data and package insert warnings and contraindications for a full safety review
 - Evidence that IgE-driven inflammation plays a role in the bronchitis phenotype of interest
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 3 licences are valid, and the drug is marketed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

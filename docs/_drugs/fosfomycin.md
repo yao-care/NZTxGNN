@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FOSFOMYCIN"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "pyelitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fosfomycin: predicted new indication Uterine inflammatory disease (evidence level L5). Approved use: Urinary tract infection"
 ---
 
@@ -75,13 +75,23 @@ Both registered trials are broad paediatric pharmacokinetic studies. Neither tes
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2538210 | UroFos | Fosfomycin | Powder for oral solution, 3 g sachet | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 It is an oral formulation.
+
+<!-- review:begin nz-lic-20261106-fosfomycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The only licence is a valid single-ingredient product. It is an oral formulation." Removed: it described the products as single-ingredient or combination products in a way that did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fosfomycin-1 -->
 
 ## Safety Considerations
 
@@ -105,6 +115,19 @@ The prediction score is high, but no retrieved trial or publication studies fosf
 - Package insert warnings and contraindications from the Medsafe record
 - Confirmed mechanism-of-action data
 - A check of whether the oral 3 g sachet formulation is suitable for this condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The only licence is a valid single-ingredient product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

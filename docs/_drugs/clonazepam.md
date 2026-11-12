@@ -93,6 +93,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 204498 | Rivotril | Clonazepam | Oral drops 2.5 mg per ml | Yes |
@@ -100,6 +102,8 @@ Currently no related clinical trials registered.
 | 2095483 | Paxam | Clonazepam | Tab 500 mcg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

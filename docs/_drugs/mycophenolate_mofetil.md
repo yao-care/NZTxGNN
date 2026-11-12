@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 314
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not available"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -98,6 +98,8 @@ The main concern is that immunosuppression is a safety issue in people with HIV.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 350516 | Cellcept | Mycophenolate mofetil | Cap 250 mg | Yes |
@@ -106,12 +108,20 @@ The main concern is that immunosuppression is a safety issue in people with HIV.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
 
 - **Disease-level cautions (from a knowledge graph, not label text):** The TxGNN knowledge graph links MMF with contraindication-type relationships to: neutropenia, agranulocytosis, aplastic anaemia and related marrow failure syndromes (e.g. Fanconi anaemia, Diamond-Blackfan anaemia); active peptic ulcer disease; liver and gallbladder disease; cancers including lymphoma, primary CNS lymphoma and skin cancer; and infections such as cytomegalovirus, herpes simplex, herpes zoster and progressive multifocal leukoencephalopathy. The infection and malignancy links are especially relevant to an immunosuppressant used in people with HIV.
 - **Drug Interactions:** 92 interactions were identified in total. The most notable is **activated charcoal (Major)**. Many **Moderate** interactions involve proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, rabeprazole), antacids and minerals (magnesium oxide, aluminium hydroxide, calcium carbonate) and antibiotics (amoxicillin, clarithromycin, doxycycline, minocycline, tetracycline, vancomycin, kanamycin, paromomycin). **Minor** interactions include zinc salts and iron.
+
+<!-- review:begin nz-lic-20261106-mycophenolate_mofetil-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are valid, so there is currently a marketed MMF product in the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-mycophenolate_mofetil-2 -->
 
 Package insert warnings and contraindications were not available for this report; please refer to the New Zealand package insert for full safety information.
 
@@ -124,12 +134,39 @@ Package insert warnings and contraindications were not available for this report
 **Rationale:**
 The mechanistic rationale (IMPDH inhibition, dGTP depletion, synergy with abacavir) is credible, and a few small human studies exist. Package insert safety data are missing, so the case cannot advance to safety screening yet.
 
+<!-- review:begin nz-lic-20261031-mycophenolate_mofetil-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The mechanistic rationale (IMPDH inhibition, dGTP depletion, synergy with abacavir) is credible, and a few small human studies exist. However, there is no completed trial with direct efficacy data in HIV, the only directly relevant trial was withdrawn, and the immunosuppression risk is a real safety concern." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-mycophenolate_mofetil-1 -->
+
+<!-- review:begin nz-lic-20261106-mycophenolate_mofetil-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 3 New Zealand authorizations are valid, but package insert safety data are missing, so the case cannot advance to safety screening yet." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-mycophenolate_mofetil-3 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap)
 - Detailed mechanism of action data from DrugBank
 - A critical review of the RCT (PMID 15353978) and the smaller cohort data, in particular the effect on viral load and the latent reservoir
 - A safety assessment of immunosuppression in HIV-positive patients (opportunistic infections, CD4 counts, malignancy)
 - Clarification of the original approved indication and the New Zealand regulatory pathway
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "However, there is no completed trial with direct efficacy data in HIV, the only directly relevant trial was withdrawn, and the immunosuppres" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three authorizations are valid, so there is currently a marketed MMF product in the data compiled for this report" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 3 New Zealand authorizations are valid, but p" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

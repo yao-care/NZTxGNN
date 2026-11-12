@@ -68,6 +68,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2380420 | Candestar | Candesartan cilexetil | Tab 16 mg | Yes |
@@ -89,6 +91,8 @@ Currently no related literature available.
 | 2653907 | APO-Candesartan HCTZ 32/12.5 | Candesartan cilexetil with hydrochlorothiazide | Tab 32 mg with hydrochlorothiazide 12.5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

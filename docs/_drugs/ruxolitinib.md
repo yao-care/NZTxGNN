@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
 description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,6 +90,8 @@ For liposarcoma (rank 5), only two preclinical studies on JAK-STAT signalling in
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2627817 | Jakavi | Ruxolitinib | Tab 10mg | Yes |
@@ -98,6 +100,8 @@ For liposarcoma (rank 5), only two preclinical studies on JAK-STAT signalling in
 | 2554763 | Jakavi | Ruxolitinib | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -126,12 +130,38 @@ Package insert warnings and contraindications could not be retrieved, so please 
 **Rationale:**
 The top-ranked prediction (uterine PEComa) is supported only by a model score, with no trials or publications, and a mechanistic link that is speculative. HLH is the most credible repurposing direction (L3 evidence, mostly non-randomized), but it is a lower-ranked prediction and would need its own evaluation. Liposarcoma remains a preclinical research question.
 
+<!-- review:begin nz-lic-20261106-ruxolitinib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The top-ranked prediction (uterine PEComa) is supported only by a model score, with no trials or publications, and a mechanistic link that is speculative. Ruxolitinib is currently marketed in New Zealand (4 of 4 licences valid)." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ruxolitinib-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism-of-action data for ruxolitinib to support the mechanistic-link analysis
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening
 - Clarification of the current New Zealand supply route
 - For HLH: full-text verification of study designs, and ideally a prospective or randomised trial before any decision beyond a research question
 - For uterine PEComa: preclinical or clinical evidence of JAK-STAT dependence, compared against mTOR-targeted therapy
+
+<!-- review:begin nz-lic-20261106-ruxolitinib-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of why the licences were cancelled, and the current New Zealand supply route" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ruxolitinib-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Ruxolitinib is currently marketed in New Zealand (4 of 4 licences valid)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "why the licences were cancelled, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

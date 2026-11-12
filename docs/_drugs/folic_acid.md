@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,6 +97,14 @@ The compiled literature is almost entirely narrative reviews or indirect studies
 
 The records contain no approved indication text.
 
+<!-- review:begin nz-lic-20261106-folic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 3 licences are valid. The records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-folic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 344850 | Biomed | Folic acid | Oral liq 50 mcg per ml | Yes |
@@ -105,6 +113,8 @@ The records contain no approved indication text.
 | 2615584 | Ferro-F-Tabs | Ferrous fumarate with folic acid | Tab 310 mg (100 mg elemental) with folic acid 350… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -130,6 +140,26 @@ The prediction rests only on a high model score (Evidence Level L5). There are n
 - Direct preclinical or clinical evidence of folic acid in biotin metabolic disorders, which is currently absent
 - A clinical rationale for use beyond standard biotin therapy, such as an adjunctive role
 - Clarification of the regulatory position
+
+<!-- review:begin nz-lic-20261106-folic_acid-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory position, since all 3 New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-folic_acid-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 3 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since all 3 New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 403
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RIFAMPICIN"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -87,6 +87,8 @@ Currently no related clinical trials registered for conjunctivitis.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 251186 | Rifadin | Rifampicin | Cap 150 mg | Yes |
@@ -98,6 +100,8 @@ Currently no related clinical trials registered for conjunctivitis.
 | 251240 | Rifinah | Isoniazid with rifampicin | Tab 150 mg with rifampicin 300 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,12 +118,31 @@ For other warnings and contraindications, please refer to the package insert.
 **Rationale:**
 The antibacterial rationale for conjunctivitis is plausible, but evidence is limited to old small studies, case reports and susceptibility surveys, with no registered trials. Effective topical alternatives exist.
 
+<!-- review:begin nz-lic-20261106-rifampicin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Effective topical alternatives exist, and no rifampicin product is currently authorised in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rifampicin-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data
 - Evidence of a topical or ophthalmic formulation and route compatibility, since the licensed forms are oral
 - Comparative data against current standard conjunctivitis therapies
 - Assessment of antimicrobial-resistance risk, given rifampicin's role in tuberculosis treatment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and no rifampicin product is currently authorised in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

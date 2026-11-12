@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 412
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -81,6 +81,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2310856 | Ropin | Ropinirole hydrochloride | Tab 0.25 mg | Yes |
@@ -89,6 +91,8 @@ Currently no related clinical trials registered.
 | 2310880 | Ropin | Ropinirole hydrochloride | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -112,6 +116,25 @@ The TxGNN score is very high and a recent randomized trial exists, but there are
 - Package insert warnings and contraindications from Medsafe
 - Review of the regulatory pathway
 - A safety plan covering impulse-control and gambling risk, psychiatric effects, orthostatic hypotension and paediatric use
+
+<!-- review:begin nz-lic-20261106-ropinirole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Review of the regulatory pathway; the drug is marketed, and all four New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ropinirole-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the drug is marketed, and all four New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

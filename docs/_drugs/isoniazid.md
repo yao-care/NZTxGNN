@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ISONIAZID"
 predicted_indications: ["conjunctivitis"]
 description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,9 +90,17 @@ Of the 12 publications retrieved, the following are most relevant. None is an RC
 
 The remaining retrieved items (BCG-related polyarthritis reports, toxic epidermal necrolysis and an unrelated Munchausen-by-proxy case) offer little support.
 
+<!-- review:begin nz-lic-20261106-isoniazid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand authorisations are cancelled, and no approved indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-isoniazid-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -103,6 +111,8 @@ The remaining retrieved items (BCG-related polyarthritis reports, toxic epiderma
 | 251240 | Rifinah | Isoniazid with rifampicin | Tab 150 mg with rifampicin 300 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,6 +141,26 @@ The high TxGNN score is not backed by clinical data for general conjunctivitis. 
 - Controlled clinical evidence in the narrowed population
 - Clarification of the regulatory position
 - A safety plan covering liver function, peripheral neuropathy and acetylator status
+
+<!-- review:begin nz-lic-20261106-isoniazid-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory position, since both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-isoniazid-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both New Zealand authorisations are cancelled, and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

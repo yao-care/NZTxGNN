@@ -70,12 +70,16 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2498723 | Movapo | Apomorphine hydrochloride | Inj 10 mg per ml, 2 ml ampoule | Yes |
 | 2581159 | Movapo | Apomorphine hydrochloride | Inj 10 mg per ml, 5 ml ampoule | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

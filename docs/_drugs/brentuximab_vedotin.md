@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 70
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Brentuximab Vedotin: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Hodgkin lymphoma (including classic Hodgkin lymphoma)"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -96,11 +96,15 @@ None of these publications evaluates brentuximab vedotin for follicular lymphoma
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2649152 | Adcetris | Brentuximab Vedotin | Inj 50 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,6 +135,12 @@ Package insert warnings and contraindications were not available; please refer t
 **Rationale:**
 For follicular lymphoma, the evidence is limited to one small recruiting Phase 2 trial without results, while several related trials were withdrawn or terminated. Follicular lymphoma generally has low CD30 expression. Within the same predicted set, B-cell neoplasm (rank 4, Level L2, completed Phase 2 in relapsed/refractory NHL with n=176, and a Phase 3 trial in relapsed/refractory DLBCL with a published report) is the more supported direction.
 
+<!-- review:begin nz-lic-20261106-brentuximab_vedotin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Follicular lymphoma generally has low CD30 expression, and the New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-brentuximab_vedotin-1 -->
+
 **To proceed, the following is needed:**
 - Results from NCT04587687 (brentuximab vedotin + bendamustine in relapsed/refractory follicular lymphoma)
 - CD30 expression data in follicular lymphoma, to define a responsive subgroup
@@ -138,6 +148,26 @@ For follicular lymphoma, the evidence is limited to one small recruiting Phase 2
 - Mechanism of action data from DrugBank
 - Clarification of current supply options
 - Consideration of re-prioritising the B-cell neoplasm/DLBCL indication for further evaluation
+
+<!-- review:begin nz-lic-20261106-brentuximab_vedotin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled New Zealand authorization and current supply options" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-brentuximab_vedotin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled New Zealand authorization and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,6 +72,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2270234 | Erythrocin IV | Erythromycin (as lactobionate) | Inj 1 g vial | Yes |
@@ -79,6 +81,8 @@ Currently no related clinical trials registered.
 | 2734117 | Eritrotex | Erythromycin (as lactobionate) | Inj 500 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

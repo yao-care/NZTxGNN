@@ -98,6 +98,8 @@ No randomized controlled trial reports were retrieved. The literature consists m
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2320304 | Gemcitabine Ebewe | Gemcitabine hydrochloride | Inj 1 g | Yes |
@@ -105,6 +107,8 @@ No randomized controlled trial reports were retrieved. The literature consists m
 | 2521423 | DBL Gemcitabine | Gemcitabine hydrochloride | Inj 43.3 mg per ml (equivalent to 38 mg per ml ge… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

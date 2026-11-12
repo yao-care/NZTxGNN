@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 115
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -85,6 +85,20 @@ Many patients with mania do not respond adequately to conventional treatment or 
 
 Clozapine is marketed in New Zealand. Approved-indication text is not recorded in the local data. Main products:
 
+<!-- review:begin nz-lic-20261106-clozapine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clozapine is marketed in New Zealand. All 15 licences in the local data are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 15 listings for this drug, 15 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-clozapine-1 -->
+
+<!-- review:begin nz-lic-20261106-clozapine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The list is limited to five of the 15 licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 15 listings for this drug, 15 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-clozapine-2 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2604965 | Versacloz | Clozapine | Suspension 50 mg per ml | Yes |
@@ -104,6 +118,8 @@ Clozapine is marketed in New Zealand. Approved-indication text is not recorded i
 | 2229781 | Clopine | Clozapine | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -125,6 +141,19 @@ A completed Phase 2 double-blind trial and a systematic review and meta-analysis
 - A monitoring plan covering neutropenia and agranulocytosis, myocarditis, seizures and metabolic risk
 - Review of the major interactions, particularly bupropion, morphine and potassium citrate
 - Results of the completed Phase 2 trial, or larger controlled trials in adults with treatment-resistant mania, to strengthen efficacy evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 15 licences in the local data are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The list is limited to five of the 15 licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ATOMOXETINE"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Atomoxetine: predicted new indication specific developmental disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -81,6 +81,14 @@ None of these publications directly studies specific developmental disorder as a
 
 All are single-ingredient products.
 
+<!-- review:begin nz-lic-20261106-atomoxetine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Five of the seven licences recorded are shown below. All are single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-atomoxetine-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2638517 | APO-Atomoxetine | Atomoxetine | Cap 10 mg | Yes |
@@ -92,6 +100,8 @@ All are single-ingredient products.
 | 2638533 | APO-Atomoxetine | Atomoxetine | Cap 80 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -115,6 +125,19 @@ No trials directly address this disease, and the publications concern related at
 - Detailed mechanism of action data.
 - Package insert warnings and contraindications from Medsafe.
 - A review of the interaction list, especially the Major interactions, before any clinical use.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Five of the seven licences recorded are shown below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

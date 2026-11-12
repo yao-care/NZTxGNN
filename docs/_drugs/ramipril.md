@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,6 +69,12 @@ Currently no related clinical trials registered.
 
 Only the publications that bear on this indication are listed. The rest of the retrieved set (for example the etomidate case report, the toxoplasmosis case report and the endometriosis study) is unrelated to pulmonary hypertension.
 
+<!-- review:begin nz-lic-20261106-ramipril-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid, and the records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ramipril-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [9200213](https://pubmed.ncbi.nlm.nih.gov/9200213/) | 1996 | Preclinical (rat) | Physiological Research | Ramipril 10 mg/kg daily during 3 weeks of chronic hypoxia attenuated the effects of hypoxia on pulmonary blood vessels and lowered baseline perfusion pressure |
@@ -78,6 +84,8 @@ Only the publications that bear on this indication are listed. The rest of the r
 | [24907870](https://pubmed.ncbi.nlm.nih.gov/24907870/) | 2014 | Preclinical (rat) | Basic Research in Cardiology | Soluble guanylyl cyclase activation improved cardiac remodelling after myocardial infarction beyond ACE inhibition; not about pulmonary hypertension |
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -91,6 +99,8 @@ Only the publications that bear on this indication are listed. The rest of the r
 | 2727854 | Ramipril Mylan Generics | Ramipril | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -109,6 +119,12 @@ The package insert warnings and contraindications could not be retrieved, so the
 **Rationale:**
 The prediction score is very high (0.9993), but the support is limited to a single animal study from 1996, with no clinical trials and no human data. ACE inhibitors are not an established therapy for pulmonary hypertension.
 
+<!-- review:begin nz-lic-20261106-ramipril-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The prediction score is very high (0.9993), but the support is limited to a single animal study from 1996, with no clinical trials and no human data. ACE inhibitors are not an established therapy for pulmonary hypertension. In addition, ramipril is marketed in New Zealand, with 4 valid licences out of 4." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ramipril-2 -->
+
 Other predictions in the list were also reviewed. None has trial support:
 - Intracerebral haemorrhage (L4) has only indirect animal data.
 - Cerebral artery occlusion (L4) has one small human cerebral blood flow study and mixed animal results; it is the most promising candidate for further research, as it is consistent with ramipril's existing stroke-prevention role.
@@ -121,6 +137,27 @@ Other predictions in the list were also reviewed. None has trial support:
 - Confirmation of the 1996 rat findings in modern pulmonary hypertension models
 - A systematic literature search for human studies of ACE inhibitors in pulmonary hypertension
 - A safety plan for patients with renal impairment, renal artery stenosis, hypotension or angioedema risk
+
+<!-- review:begin nz-lic-20261106-ramipril-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A systematic literature search for human studies of ACE inhibitors in pulmonary hypertension / Clarification of the licensing situation, since all four New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ramipril-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four licences are valid, and the records contain no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, ramipril is marketed in New Zealand, with 4 valid licences out of 4" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the licensing situation, since all four New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

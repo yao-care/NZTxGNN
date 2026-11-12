@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Amorolfine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Onychomycosis (fungal nail infection)…"
 monitor_inn: "AMOROLFINE"
 predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "sacrum chordoma", "lymph node palisaded myofibroblastoma", "urethral disease"]
@@ -71,11 +71,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2461633 | MycoNail | Amorolfine | Nail soln 5% | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -90,12 +94,31 @@ Package insert warnings and contraindications were not available for this report
 **Rationale:**
 The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, no literature and no plausible mechanistic link between a topical ergosterol-synthesis inhibitor and drug-induced osteoporosis. The same applies to all other predicted indications reviewed.
 
+<!-- review:begin nz-lic-20261106-amorolfine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials, no literature and no plausible mechanistic link between a topical ergosterol-synthesis inhibitor and drug-induced osteoporosis. The drug is marketed in New Zealand, and its only licence is valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-amorolfine-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (currently a blocking gap for safety screening)
 - Mechanism of action data from DrugBank, to enable mechanistic-link analysis
 - Preclinical or mechanistic evidence connecting amorolfine to bone metabolism (for example, in vitro osteoclast/osteoblast studies)
 - Route and formulation compatibility assessment, since only a topical nail solution has been marketed
 - Literature and trial searches to confirm whether any supporting evidence exists
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, and its only licence is valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

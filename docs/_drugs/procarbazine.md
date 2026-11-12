@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 385
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Procarbazine"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 description: "Procarbazine: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Not recorded in the local data"
@@ -82,11 +82,15 @@ However, the evidence is largely retrospective or at the regimen level, so the s
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 336548 | Natulan | Procarbazine hydrochloride | Cap 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -117,6 +121,25 @@ Biological plausibility is reasonable, and there are case-level reports of respo
 - Package insert warnings and contraindications (Medsafe)
 - Mechanism of action data (DrugBank)
 - Prospective data on procarbazine-containing regimens in follicular lymphoma, compared with current standard therapy
+
+<!-- review:begin nz-lic-20261106-procarbazine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Prospective data on procarbazine-containing regimens in follicular lymphoma, compared with current standard therapy / A regulatory pathway, since the only New Zealand authorization has been cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-procarbazine-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A regulatory pathway, since the only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

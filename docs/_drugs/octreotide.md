@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "OCTREOTIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -73,6 +73,14 @@ Currently no related literature available.
 
 The table lists 5 of them.
 
+<!-- review:begin nz-lic-20261106-octreotide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 11 licences are valid, and no approved indication text is recorded. The table lists 5 of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 11 listings for this drug, 11 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-octreotide-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2595885 | Octreotide GH | Octreotide | Inj 100 mcg per ml, 1 ml ampoule | Yes |
@@ -88,6 +96,8 @@ The table lists 5 of them.
 | 2694433 | Omega | Octreotide | Inj 500 mcg per ml, 1 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -115,12 +125,39 @@ Please refer to the package insert for warnings and formal contraindications.
 **Rationale:**
 The only support for either predicted indication is the model score. There are no clinical trials or publications, the mechanism of action is not available, and both indications are benign conditions with low-risk standard care.
 
+<!-- review:begin nz-lic-20261106-octreotide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials or publications, the mechanism of action is not available, and both indications are benign conditions with low-risk standard care. Octreotide is marketed in New Zealand, with 11 of 11 licences valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 11 listings for this drug, 11 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-octreotide-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) and an assessment of somatostatin receptor expression in vulvar or follicular epithelium
 - Package insert warnings and contraindications from Medsafe, which are required before safety screening
 - Preclinical or case-level evidence of benefit in inverted follicular keratosis or seborrheic keratosis
 - Confirmation of current New Zealand supply
 - Route and formulation compatibility assessment (for example, whether a topical approach is plausible instead of an injection)
+
+<!-- review:begin nz-lic-20261106-octreotide-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of current New Zealand supply (11 of 11 licences are valid)" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 11 listings for this drug, 11 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-octreotide-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 11 licences are valid, and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Octreotide is marketed in New Zealand, with 11 of 11 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "(11 of 11 licences are valid)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

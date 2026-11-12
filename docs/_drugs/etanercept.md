@@ -96,6 +96,8 @@ Other predictions in the list include inflammatory spondylopathy and polyarticul
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2006561 | Enbrel | Etanercept | Inj 25 mg | Yes |
@@ -104,6 +106,8 @@ Other predictions in the list include inflammatory spondylopathy and polyarticul
 | 2382113 | Enbrel | Etanercept | Inj 50 mg prefilled syringe | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

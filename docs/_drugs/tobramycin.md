@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 453
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -89,9 +89,17 @@ Currently no related clinical trials registered for exposure keratitis.
 
 None of these studies tests tobramycin in exposure keratitis.
 
+<!-- review:begin nz-lic-20261106-tobramycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four authorizations are valid, so tobramycin products are currently marketed in New Zealand under these licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tobramycin-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -101,6 +109,8 @@ None of these studies tests tobramycin in exposure keratitis.
 | 2601648 | Tobramycin BNM | Tobramycin | Solution for inhalation 60 mg per ml, 5 ml | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,6 +133,12 @@ Package insert warnings and contraindications were not available in the data com
 **Rationale:**
 The prediction score is very high, but no clinical trials exist and none of the retrieved literature addresses exposure keratitis. There is also an in vitro corneal toxicity signal.
 
+<!-- review:begin nz-lic-20261106-tobramycin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There is also an in vitro corneal toxicity signal. In addition, all four New Zealand authorizations are valid, so the drug is currently marketed locally." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tobramycin-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (needed for safety screening)
 - Mechanism of action data
@@ -141,6 +157,20 @@ Other predictions from the model are weaker or equally indirect. Otitis externa 
 - Post-bacterial disorder: two Phase 3 open-label extension trials of inhaled tobramycin in cystic fibrosis, which do not support this indication.
 - Infective urethral stricture: one 1976 study in urinary tract infection, which is indirect.
 - Epidemic keratoconjunctivitis: usually viral, so tobramycin does not target the cause.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four authorizations are valid, so tobramycin products are currently marketed in New Zealand under these licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, all four New Zealand authorizations are valid, so the drug is currently marketed locally" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

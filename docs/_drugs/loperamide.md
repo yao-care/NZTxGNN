@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "conjunctival folliculosis", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "Angelucci syndrome"]
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,12 +85,16 @@ For context, the literature found for other predicted indications is listed belo
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2365545 | Diamide Relief | Loperamide hydrochloride | Cap 2 mg | Yes |
 | 2184427 | Nodia | Loperamide hydrochloride | Tab 2 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,6 +118,25 @@ The top prediction has no clinical trials, no literature, and no plausible mecha
 - Medsafe package insert warnings and contraindications, which are required for safety screening
 - Any preclinical or clinical evidence for an ocular effect, which does not currently exist
 - Assessment of route compatibility, since no ocular formulation is available
+
+<!-- review:begin nz-lic-20261106-loperamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Assessment of route compatibility, since no ocular formulation is available / Current New Zealand regulatory status, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-loperamide-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Current New Zealand regulatory status, since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

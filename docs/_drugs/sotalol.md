@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "SOTALOL"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
 description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,12 +92,16 @@ Currently no related literature is available for the top predicted indication.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2127911 | Mylan | Sotalol | Tab 160 mg | Yes |
 | 2127903 | Mylan | Sotalol | Tab 80 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,6 +129,25 @@ The prediction rests on a model score alone (L5). No trials or publications supp
 - Mechanism of action data from DrugBank
 - Preclinical or clinical evidence that sotalol benefits, or at least does not harm, patients with HCN4-related sick sinus syndrome
 - Clarification of regulatory pathway
+
+<!-- review:begin nz-lic-20261106-sotalol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of regulatory pathway, since 2 of 2 New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-sotalol-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "since 2 of 2 New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

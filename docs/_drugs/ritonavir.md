@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,8 @@ These studies are indirect: most test multi-drug regimens, so ritonavir's specif
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2379317 | Norvir | Ritonavir | Tab 100 mg | Yes |
@@ -92,6 +94,8 @@ These studies are indirect: most test multi-drug regimens, so ritonavir's specif
 | 2711613 | Paxlovid | Nirmatrelvir with ritonavir | Tab 150 mg with ritonavir 100 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -118,12 +122,31 @@ Please refer to the package insert for formal warnings and contraindications, as
 **Rationale:**
 The prediction for feline acquired immunodeficiency syndrome has a high model score and a plausible lentiviral protease rationale, but there is no trial or literature support (evidence level L5). Feline immunodeficiency is also a veterinary condition, so it falls outside human drug repurposing and would need veterinary regulatory review.
 
+<!-- review:begin nz-lic-20261031-ritonavir-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The prediction for feline acquired immunodeficiency syndrome has a high model score and a plausible lentiviral protease rationale, but there is no trial or literature support (evidence level L5). Ritonavir's only New Zealand licence is cancelled, and its interaction burden is heavy." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-ritonavir-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism-of-action data for ritonavir (for example from DrugBank)
 - Package insert warnings and contraindications from Medsafe
 - Direct evidence of ritonavir activity against FIV (in vitro and veterinary studies)
 - A decision on whether the target is human or veterinary use, since SIV is mainly a research model of HIV
 - A review of the neurodevelopmental disorder prediction before any further work, given the absence of a mechanistic link
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Ritonavir's only New Zealand licence is cancelled, and its interaction burden is heavy" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

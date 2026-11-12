@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -92,6 +92,14 @@ Currently no related clinical trials registered.
 
 Cytarabine is marketed in New Zealand. No approved indication text is recorded in the local data.
 
+<!-- review:begin nz-lic-20261106-cytarabine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Cytarabine is marketed in New Zealand. All 6 licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-cytarabine-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2359413 | Baxter | Cytarabine | Inj 1 mg for ECP | Yes |
@@ -102,6 +110,8 @@ Cytarabine is marketed in New Zealand. No approved indication text is recorded i
 | 786365 | Pfizer | Cytarabine | Inj 20 mg per ml, 5 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -137,6 +147,18 @@ The mechanism is plausible for a highly proliferative tumour. However, direct ev
 - Mechanism of action data, and any preclinical evidence in small cell lung cancer models
 - Package insert warnings and contraindications from Medsafe
 - Comparison against current standard small cell lung cancer treatments, and a safety monitoring plan for blood toxicity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 6 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

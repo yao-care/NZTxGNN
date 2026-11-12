@@ -74,6 +74,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2482533 | Lanzol Relief | Lansoprazole | Cap 15 mg | Yes |
@@ -82,6 +84,8 @@ Currently no related clinical trials registered.
 | 2730200 | Lansoprazole (Viatris) | Lansoprazole | Tab orodispersible 30 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

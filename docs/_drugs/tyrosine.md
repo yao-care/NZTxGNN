@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded"
 monitor_inn: "TYROSINE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma"]
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 Tyrosine is an amino acid and precursor of catecholamines and thyroid hormones.
 The TxGNN model (deep learning) predicts it may be effective for **cauda equina syndrome**, but this score comes from the model and may reflect similarities the model learned between related diseases, not biological evidence. There are **0 clinical trials** and **0 publications** supporting this specific indication.
 Evidence is very weak, so the recommendation is to hold.
+
+<!-- review:begin nz-lic-20261106-tyrosine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Tyrosine is an amino acid and precursor of catecholamines and thyroid hormones. Its only New Zealand authorization (a powder sachet product) has been cancelled, and no approved indication is recorded." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tyrosine-2 -->
 
 ## Quick Overview
 
@@ -105,6 +111,8 @@ Selected publications retrieved for other predicted indications (all indirect; n
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2668742 | Tyrosine1000 | Tyrosine | Powder, 4 g sachets | Yes |
@@ -116,9 +124,17 @@ Selected publications retrieved for other predicted indications (all indirect; n
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information. No warnings or contraindications were available in the data compiled for this report, and no drug interaction records were found.
+
+<!-- review:begin nz-lic-20261106-tyrosine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "No warnings or contraindications were available in the data compiled for this report, and no drug interaction records were found. Since the product license is cancelled, a current package insert may not be available from Medsafe." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tyrosine-3 -->
 
 One theoretical concern is worth noting: because tyrosine is a thyroid hormone precursor, use in hyperthyroid or thyroid-related conditions would need careful consideration.
 
@@ -129,12 +145,40 @@ One theoretical concern is worth noting: because tyrosine is a thyroid hormone p
 **Rationale:**
 All predicted indications are supported only by the model score (L4 at best, mostly L5). No trial or study shows tyrosine benefits cauda equina syndrome, and the plausible mechanisms are either absent or point the wrong way (hyperthyroidism, POTS).
 
+<!-- review:begin nz-lic-20261031-tyrosine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "No trial or study shows tyrosine benefits cauda equina syndrome, and the plausible mechanisms are either absent or point the wrong way (hyperthyroidism, POTS). The only New Zealand authorization is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-tyrosine-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Mechanism of action data for tyrosine
 - A credible mechanistic rationale for the top predicted indication, plus any preclinical or clinical studies testing tyrosine directly
 - Clarification of the original approved indication
 - Review of whether the "obsolete neurogenic bladder" term reflects an ontology mapping problem rather than a real target
+
+<!-- review:begin nz-lic-20261106-tyrosine-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original approved indication and the reason for license cancellation" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tyrosine-4 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Its only New Zealand authorization (a powder sachet product) has been cancelled, and no approved indication is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Since the product license is cancelled, a current package insert may not be available from Medsafe" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the reason for license cancellation" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

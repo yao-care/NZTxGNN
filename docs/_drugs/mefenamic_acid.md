@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 283
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -83,6 +83,14 @@ Currently no related clinical trials registered.
 
 The approved indication text is not recorded in the local data.
 
+<!-- review:begin nz-lic-20261106-mefenamic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand licences are valid, single-ingredient products. The approved indication text is not recorded in the local data." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-mefenamic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2469499 | Ponstan | Mefenamic acid | Cap 250 mg | No |
@@ -90,6 +98,8 @@ The approved indication text is not recorded in the local data.
 | 616168 | Ponstan | Mefenamic acid | Cap 250 mg | No |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -123,6 +133,18 @@ The supporting evidence is limited to small, older double-blind trials in migrai
 - Mechanism-of-action data from DrugBank
 - Clarification of whether the efficacy evidence extends beyond migraine to other headache disorders, ideally with newer, adequately powered controlled trials
 - A comparison against better-supported NSAIDs, and a plan to limit treatment duration and monitor gastrointestinal and renal safety
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both New Zealand licences are valid, single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

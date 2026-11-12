@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 310
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -62,6 +62,12 @@ Airway inflammation involving eosinophils and leukotrienes is also described in 
 
 Bronchitis is a broad term, and the evidence differs by subtype. The data for infant bronchiolitis, a related but distinct condition, are mixed, and the Cochrane review in that area is about leukotriene inhibitors in infants and young children. Benefit in one form of bronchitis should not be assumed to carry over to others.
 
+<!-- review:begin nz-lic-20261106-montelukast-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three single-ingredient licences are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-montelukast-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -94,6 +100,8 @@ Bronchitis is a broad term, and the evidence differs by subtype. The data for in
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2643634 | Montelukast Viatris | Montelukast | Tab 10 mg | Yes |
@@ -103,6 +111,8 @@ Bronchitis is a broad term, and the evidence differs by subtype. The data for in
 | 2728079 | Montelukast Paediatric (Relonchem) | Montelukast | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -131,6 +141,18 @@ The TxGNN score is high (0.9995). The best-matched evidence is small controlled 
 - Package insert warnings and contraindications for the marketed products
 - Mechanism-of-action data specific to bronchitis
 - A review of the moderate-severity interactions, particularly for patients taking several medicines
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three single-ingredient licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

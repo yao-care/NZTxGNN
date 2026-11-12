@@ -69,6 +69,8 @@ Currently no related literature available for this predicted indication.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2700468 | Baxter | Bevacizumab | Inj 1 mg for ECP | Yes |
@@ -76,6 +78,8 @@ Currently no related literature available for this predicted indication.
 | 2700700 | Vegzelma | Bevacizumab | Inj 25 mg per ml, 4 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

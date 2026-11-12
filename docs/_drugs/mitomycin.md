@@ -77,6 +77,8 @@ There is no literature for the top-ranked prediction. The table below lists the 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2207605 | Baxter | Mitomycin C | Inj 1 mg for ECP | Yes |
@@ -86,6 +88,8 @@ There is no literature for the top-ranked prediction. The table below lists the 
 | 2686937 | Mitomycin (Sagent) | Mitomycin C | Inj 5 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

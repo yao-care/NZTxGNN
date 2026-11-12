@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 173
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L3). Approved use: Not recorded in the local data"
@@ -83,12 +83,16 @@ The high TxGNN score most likely reflects this shared thrombocytopenia biology, 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2391406 | Revolade | Eltrombopag | Tab 25 mg | Yes |
 | 2391414 | Revolade | Eltrombopag | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,6 +108,12 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 Evidence for HIV is limited to case reports, a small case series, reviews and an in vitro screening study. The single Phase 3 trial was terminated and is not HIV-specific. The plausible benefit is treating HIV-associated thrombocytopenia, not HIV itself. In New Zealand, the label safety data needed for screening are missing.
 
+<!-- review:begin nz-lic-20261106-eltrombopag-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "In New Zealand, both eltrombopag licences are cancelled, and the label safety data needed for screening are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-eltrombopag-1 -->
+
 **To proceed, the following is needed:**
 - The Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
@@ -111,6 +121,19 @@ Evidence for HIV is limited to case reports, a small case series, reviews and an
 - Prospective controlled studies in HIV-associated thrombocytopenia
 - Assessment of liver-related risk in HIV patients, including those with HCV/HBV co-infection, given the liver-related contraindication signals
 - Review of the interaction with eluxadoline, and of cation-containing products, against antiretroviral regimens
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "both eltrombopag licences are cancelled, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

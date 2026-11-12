@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 210
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FLUTAMIDE"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Flutamide: predicted new indication Fibroma of prostate (evidence level L5). Approved use: Not recorded in the local data"
@@ -111,12 +111,16 @@ There is no literature for the top-ranked prediction. The table below draws on t
 
 Approved indication text is not available for either product.
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 259985 | Flutamin | Flutamide | Tab 250 mg | Yes |
 | 2612232 | Prostacur | Flutamide | Tab 250 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -155,6 +159,25 @@ The apparent evidence for broader categories mostly reflects flutamide's origina
 - Medsafe package insert warnings and contraindications (currently a blocking data gap).
 - Mechanism of action data from DrugBank.
 - A hepatotoxicity monitoring and risk-benefit plan, and an assessment of whether any regulatory pathway exists.
+
+<!-- review:begin nz-lic-20261106-flutamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A hepatotoxicity monitoring and risk-benefit plan, and an assessment of whether any regulatory pathway exists given that both licences are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-flutamide-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "given that both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

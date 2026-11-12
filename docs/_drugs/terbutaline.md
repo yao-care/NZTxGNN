@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,11 +83,15 @@ None of the publications below studies terbutaline in respiratory malformation. 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2578417 | Bricanyl Turbuhaler | Terbutaline sulphate | Powder for inhalation, 200 mcg per dose (equivale… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -111,6 +115,18 @@ The prediction rests on a computational score alone. No retrieved study directly
 - Mechanism of action data and a clearer rationale for the prediction
 - Package insert warnings and contraindications for the New Zealand product
 - A safety assessment for the paediatric and cardiovascular populations most likely to be involved
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "However, the evidence is mostly indirect, the use overlaps the existing indications, and the only New Zealand authorization is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

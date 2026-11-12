@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 202
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Flecainide: predicted new indication Stroke disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -84,6 +84,8 @@ The very high TxGNN score comes from the TxGNN model (deep learning) and may ref
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2567113 | Flecainide Controlled Release Teva | Flecainide acetate | Cap long-acting 100 mg | Yes |
@@ -93,7 +95,15 @@ The very high TxGNN score comes from the TxGNN model (deep learning) and may ref
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Approved indication text was not available for any of these products.
+
+<!-- review:begin nz-lic-20261106-flecainide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One further cancelled authorization (2567113, Flecainide Controlled Release Teva, long-acting capsule 100 mg) is not shown. Approved indication text was not available for any of these products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-flecainide-1 -->
 
 ## Safety Considerations
 
@@ -117,6 +127,26 @@ The only Phase 3 trial targets post-PFO-closure arrhythmia, not stroke, and the 
 - Mechanism of action data
 - Package insert warnings and contraindications for a formal safety screen
 - A defined patient population in whom flecainide is safe (without structural heart disease or conduction disease)
+
+<!-- review:begin nz-lic-20261106-flecainide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A defined patient population in whom flecainide is safe (without structural heart disease or conduction disease) / Confirmation of New Zealand availability: the drug is marketed, with 6 valid licences of 6" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-flecainide-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One further cancelled authorization (2567113, Flecainide Controlled Release Teva, long-acting capsule 100 mg) is not shown" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of New Zealand availability: the drug is marketed, with 6 valid licences of 6" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

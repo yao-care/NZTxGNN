@@ -99,6 +99,8 @@ The most relevant trials for paclitaxel in female breast carcinoma (the data con
 
 Approved indication text was not available for any of them.
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2204088 | Baxter | Paclitaxel | Inj 1 mg for ECP | Yes |
@@ -114,6 +116,8 @@ Approved indication text was not available for any of them.
 | 2394596 | Paclitaxel Actavis | Paclitaxel | Inj 6 mg per ml, 50 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

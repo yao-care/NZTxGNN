@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 303
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with schistosomiasis"]
 description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L4). Approved use: Not recorded in the local data"
@@ -86,6 +86,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2662981 | Minoxidil Roma | Minoxidil | Tab 10 mg | Yes |
@@ -93,7 +95,15 @@ Currently no related clinical trials registered.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Only tablet forms appear in the local records. The literature on this condition includes topical and oral low-dose use, so route and formulation suitability would need to be confirmed.
+
+<!-- review:begin nz-lic-20261106-minoxidil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Minoxidil is marketed in New Zealand with 2 valid licences, both for 10 mg tablets." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-minoxidil-1 -->
 
 ---
 
@@ -123,6 +133,18 @@ The model score is very high, the mechanism is plausible, and the drug is alread
 - Mechanism-of-action data from DrugBank
 - Studies or well-documented series that isolate the effect of minoxidil alone in this condition, including paediatric dosing and route (topical versus low-dose oral)
 - A cardiovascular monitoring plan, especially for children and for patients taking interacting medicines
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Minoxidil is marketed in New Zealand with 2 valid licences, both for 10 mg tablets" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

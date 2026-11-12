@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "fluticasone furoate"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
 description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,7 +71,15 @@ However, the two retrieved papers do not test fluticasone furoate in eczema. One
 
 No clinical trials are currently registered for this drug and indication.
 
+<!-- review:begin nz-lic-20261106-fluticasone_furoate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are combination inhalers and both are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 13 listings for this drug, 13 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fluticasone_furoate-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -90,6 +98,8 @@ No clinical trials are currently registered for this drug and indication.
 | 2120224 | Seretide Accuhaler | Fluticasone with salmeterol | Powder for inhalation 250 mcg with salmeterol 50… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -117,6 +127,19 @@ The prediction for atopic eczema is mechanistically plausible but rests on a mod
 - Mechanism of action data from DrugBank
 - Direct clinical evidence of fluticasone furoate in atopic eczema, and a check of route compatibility (the available forms are inhaled and intranasal, whereas eczema treatment is topical)
 - A review of the bronchitis and chronic cough findings as a possible separate research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorizations are combination inhalers and both are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

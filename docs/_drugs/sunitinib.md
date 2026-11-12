@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 434
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -62,6 +62,12 @@ Renal cell carcinoma and GIST are both tumours in which these pathways drive gro
 
 The very high TxGNN score supports the hypothesis. However, two completed Phase 2 trials in non-GIST sarcomas did not report liposarcoma-specific efficacy in the data available, so the prediction remains unconfirmed at the histology level.
 
+<!-- review:begin nz-lic-20261106-sunitinib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four authorisations are valid, and no approved indication text is available for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-sunitinib-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -82,6 +88,8 @@ The very high TxGNN score supports the hypothesis. However, two completed Phase 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2675463 | Sunitinib Rex | Sunitinib | Cap 12.5 mg | Yes |
@@ -89,6 +97,8 @@ The very high TxGNN score supports the hypothesis. However, two completed Phase 
 | 2675498 | Sunitinib Rex | Sunitinib | Cap 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -125,11 +135,31 @@ Package insert warnings and contraindications were not available for this report
 - Detailed mechanism of action data
 - A cardiac and hepatic safety monitoring plan
 
+<!-- review:begin nz-lic-20261106-sunitinib-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Detailed mechanism of action data / Clarification of whether supply is feasible in New Zealand, where the drug is marketed and all 4 licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-sunitinib-2 -->
+
 ---
 
 *Other predicted indications of note (not the focus of this report):*
 - **Renal carcinoma / unclassified RCC** (L1/L2, Proceed with Guardrails): these lie within sunitinib's established disease area, with Phase 3 trial evidence, and are extensions rather than true repurposing.
 - **Dermatofibrosarcoma protuberans** (L3): a PDGFR-driven rationale, with retrospective data and case reports of responses after imatinib failure.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four authorisations are valid, and no approved indication text is available for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of whether supply is feasible in New Zealand, where the drug is marketed and all 4 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

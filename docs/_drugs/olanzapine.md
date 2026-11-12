@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,6 +97,14 @@ For the second-ranked prediction, **agoraphobia**, the following literature is a
 
 The main ones are listed below; approved indication text is not available for any of them.
 
+<!-- review:begin nz-lic-20261106-olanzapine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 11 licences are valid. The main ones are listed below; approved indication text is not available for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 19 listings for this drug, 19 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-olanzapine-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2337339 | Zyprexa Relprevv | Olanzapine | Inj 210 mg vial | Yes |
@@ -121,6 +129,8 @@ The main ones are listed below; approved indication text is not available for an
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 - **Contraindications (from the knowledge graph, not label text):** The graph links olanzapine to a wide range of conditions where caution or avoidance may apply, including:
@@ -141,6 +151,12 @@ Please refer to the package insert for full label warnings and contraindications
 **Rationale:**
 The top prediction for benign paroxysmal torticollis of infancy rests on a TxGNN model (deep learning) score alone. It has no trials or literature, a speculative mechanism, a self-limiting condition and a serious paediatric safety concern. The agoraphobia and dysthymia predictions are better supported, but only by indirect or low-level evidence, so they are best treated as research questions.
 
+<!-- review:begin nz-lic-20261106-olanzapine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "It has no trials or literature, a speculative mechanism, a self-limiting condition and a serious paediatric safety concern. In addition, no New Zealand licence for olanzapine is currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 19 listings for this drug, 19 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-olanzapine-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data for olanzapine
 - Package insert warnings and contraindications from Medsafe
@@ -148,6 +164,27 @@ The top prediction for benign paroxysmal torticollis of infancy rests on a TxGNN
 - For agoraphobia: a controlled trial of olanzapine augmentation, with the effect on agoraphobia assessed separately from panic symptoms
 - For dysthymic disorder: dysthymia-specific olanzapine data, and clarification of whether this is a new use or an extension of existing depression indications
 - Clarification of the regulatory position in New Zealand
+
+<!-- review:begin nz-lic-20261106-olanzapine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory position in New Zealand, where all 11 licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 19 listings for this drug, 19 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-olanzapine-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 11 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, no New Zealand licence for olanzapine is currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "where all 11 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

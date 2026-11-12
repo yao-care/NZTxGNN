@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (partial epilepsy, Lennox-Gastaut syndrome)"
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -83,6 +83,12 @@ No clinical trials are registered for trigeminal nerve neoplasm. The trials belo
 
 For the top-ranked prediction (trigeminal nerve neoplasm), the two publications retrieved are about trigeminal neuralgia: a 2007 review (PMID 17997704) and a 2018 Gamma Knife case report (PMID 30650431). The table below shows the most relevant publications for trigeminal neuralgia and for startle epilepsy.
 
+<!-- review:begin nz-lic-20261106-lamotrigine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-lamotrigine-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [30860637](https://pubmed.ncbi.nlm.nih.gov/30860637/) | 2019 | Guideline | Eur J Neurol | European Academy of Neurology guideline on managing trigeminal neuralgia |
@@ -100,6 +106,8 @@ For the top-ranked prediction (trigeminal nerve neoplasm), the two publications 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2553392 | Logem | Lamotrigine | Tab dispersible 100 mg | Yes |
@@ -109,6 +117,8 @@ For the top-ranked prediction (trigeminal nerve neoplasm), the two publications 
 | 2553384 | Logem | Lamotrigine | Tab dispersible 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -136,6 +146,26 @@ Please refer to the package insert for complete safety information; label warnin
 - Prospective evaluation of startle-induced seizures if that direction is pursued.
 - Detailed mechanism of action data and the package insert warnings and contraindications.
 - A titration and rash-monitoring plan, plus a DDI management plan, especially for patients taking carbamazepine, valproate or opioids.
+
+<!-- review:begin nz-lic-20261106-lamotrigine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Detailed mechanism of action data and the package insert warnings and contraindications. / Regulatory pathway clarification, noting that the drug is marketed in New Zealand with 5 valid licences out of 5." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-lamotrigine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five licences are valid, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Regulatory pathway clarification, noting that the drug is marketed in New Zealand with 5 valid licences out of 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

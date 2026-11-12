@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,13 +70,23 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 536962 | Aci-Jel | Acetic acid with hydroxyquinoline and ricinoleic acid | Jelly with glacial acetic acid 0.94%, hydroxyquin… | No |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 It is currently valid.
+
+<!-- review:begin nz-lic-20261106-acetic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The one authorization is a multi-ingredient jelly product with an applicator. It is currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-acetic_acid-1 -->
 
 ## Safety Considerations
 
@@ -97,6 +107,19 @@ The prediction has a very high model score but no supporting trials or publicati
 - Package insert warnings and contraindications from Medsafe
 - A clear clinical definition of "post-bacterial disorder" and a rationale for topical use
 - Any preclinical or clinical studies that directly address this condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The one authorization is a multi-ingredient jelly product with an applicator" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
 description: "Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,6 +72,8 @@ For context, the second-ranked prediction (galactosemia) returned three narrativ
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2677709 | Nitisinone LogixX Pharma | Nitisinone | Cap 10 mg | Yes |
@@ -79,6 +81,8 @@ For context, the second-ranked prediction (galactosemia) returned three narrativ
 | 2677695 | Nitisinone LogixX Pharma | Nitisinone | Cap 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -100,6 +104,25 @@ The prediction rests on a model score alone. There are no clinical trials or sup
 - The package insert warnings and contraindications, which are needed before any safety screening, with particular attention to kidney disease and blood-count effects
 - Clarification of the regulatory position
 - Route and formulation compatibility assessment (currently capsules only)
+
+<!-- review:begin nz-lic-20261106-nitisinone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory position, since all three New Zealand authorisations are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nitisinone-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "since all three New Zealand authorisations are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

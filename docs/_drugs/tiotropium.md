@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tiotropium"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,12 +74,20 @@ None of these trials enrolled patients with respiratory malformation. They studi
 
 The retrieved publications do not test tiotropium in respiratory malformation. The two most loosely related items are listed below.
 
+<!-- review:begin nz-lic-20261106-tiotropium-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tiotropium-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [33787023](https://pubmed.ncbi.nlm.nih.gov/33787023/) | 2021 | Case report | Rev Fac Cien Med (Cordoba) | COVID-19 in a young patient with pectus excavatum (a chest wall malformation); notes that altered lung function made the infection more dangerous. No tiotropium data. |
 | [40850565](https://pubmed.ncbi.nlm.nih.gov/40850565/) | 2025 | Preclinical | Chem Biol Interact | Mouse study of cholinergic dysregulation causing ventilatory failure after nerve-agent exposure. Mechanistic only, unrelated to malformation. |
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -88,6 +96,8 @@ The retrieved publications do not test tiotropium in respiratory malformation. T
 | 2494027 | Spiolto Respimat | Tiotropium bromide with olodaterol | Soln for inhalation 2.5 mcg with olodaterol 2.5 m… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -111,6 +121,18 @@ No trial or publication directly studies tiotropium in respiratory malformation,
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications for the New Zealand products
 - A defined target subpopulation, with a safety review covering the anticholinergic cautions above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Fungal infections (chromomycosis, coccidioidomycosis, aspergillosis…"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -80,12 +80,16 @@ Posaconazole is established for prevention and treatment of invasive mould and y
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2645181 | Devatis | Posaconazole | Oral liq 40 mg per ml | Yes |
 | 2631008 | Posaconazole Juno | Posaconazole | Tab modified-release 100 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -102,12 +106,38 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 The prediction rests on the model score alone (L5). The only trial found tests a different drug, and no literature directly supports posaconazole in pneumocystosis. Pneumocystis lacks the main azole target, ergosterol, so the high score is probably a class-association artefact.
 
+<!-- review:begin nz-lic-20261106-posaconazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Pneumocystis lacks the main azole target, ergosterol, so the high score is probably a class-association artefact. Both New Zealand authorizations are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-posaconazole-1 -->
+
 **To proceed, the following is needed:**
 - Direct preclinical or clinical evidence of posaconazole activity against *Pneumocystis*
 - Mechanism of action data and confirmation of a plausible target
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - Clarification of New Zealand availability
 - A review of the interaction profile for the intended patient population
+
+<!-- review:begin nz-lic-20261106-posaconazole-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of New Zealand availability, since both authorizations are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-posaconazole-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both New Zealand authorizations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both authorizations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

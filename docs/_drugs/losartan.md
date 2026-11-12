@@ -74,6 +74,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2466880 | Losartan Actavis | Losartan potassium | Tab 100 mg | Yes |
@@ -83,6 +85,8 @@ Currently no related clinical trials registered.
 | 2716828 | Losartan & Hydrochlorothiazide (Ipca) | Losartan potassium with hydrochlorothiazide | Tab 50 mg with hydrochlorothiazide 12.5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

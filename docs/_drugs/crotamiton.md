@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -73,6 +73,12 @@ No safety data was available in this Evidence Pack. All key warnings, contraindi
 **Rationale:**
 The Evidence Pack for Crotamiton (DB00265) is incomplete — no TxGNN-predicted indications were returned, no MOA data is available, and all safety fields are empty. There is currently insufficient evidence to evaluate any repurposing candidate.
 
+<!-- review:begin nz-lic-20261106-crotamiton-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Evidence Pack for Crotamiton (DB00265) is incomplete — no TxGNN-predicted indications were returned, no MOA data is available, the drug is not registered in New Zealand, and all safety fields are empty." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-crotamiton-1 -->
+
 **To proceed, the following is needed:**
 
 - **Run TxGNN pipeline for Crotamiton** to obtain disease-score predictions (`predicted_indications` array is currently empty)
@@ -80,6 +86,19 @@ The Evidence Pack for Crotamiton (DB00265) is incomplete — no TxGNN-predicted 
 - **Retrieve safety data** — download and parse the package insert PDF from the regulatory authority to populate `key_warnings` and `contraindications`
 - **Check DDI database** with alternative search terms (e.g., brand name Eurax) as the current query returned no results
 - **Re-generate this Evidence Pack** (suggest upgrading from v4 to v5) after filling the above data gaps, then re-run evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the drug is not registered in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

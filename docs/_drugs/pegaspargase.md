@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: predicted new indication Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -65,6 +65,12 @@ Other predictions in the data are much weaker. Lymphoid neoplasm has indirect, m
 
 The table lists the 10 most relevant trials (the data contain 33 in total). In almost all of them pegaspargase is one component of a combination regimen, so its individual effect cannot be isolated.
 
+<!-- review:begin nz-lic-20261031-pegaspargase-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The only New Zealand licence has been cancelled, so product availability would need to be verified before any use." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-pegaspargase-1 -->
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT00967057](https://clinicaltrials.gov/study/NCT00967057) | Phase 3 | Completed | 470 | International trial of combination chemotherapy in relapsed/refractory ALL |
@@ -95,11 +101,15 @@ The table lists the 10 most relevant trials (the data contain 33 in total). In a
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2578158 | Oncaspar | Pegaspargase | Inj 750 iu per ml, 5 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -125,12 +135,39 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 The predicted indication is effectively the drug's original use, and it is backed by several large completed Phase 3 trials and RCTs in ALL where pegaspargase is part of the regimen.
 
+<!-- review:begin nz-lic-20261106-pegaspargase-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The predicted indication is effectively the drug's original use, and it is backed by several large completed Phase 3 trials and RCTs in ALL where pegaspargase is part of the regimen. The main limits are that its individual contribution cannot be separated from the combinations, and that the New Zealand licence is cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pegaspargase-3 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (currently unavailable, so formal safety screening cannot be completed)
 - Detailed mechanism-of-action data from DrugBank
 - A toxicity monitoring plan (liver, pancreas, lipids, glucose, coagulation, hypersensitivity), with extra caution in patients aged 55 or older
 
+<!-- review:begin nz-lic-20261031-pegaspargase-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Detailed mechanism-of-action data from DrugBank / Confirmation of product availability in New Zealand, since only a cancelled licence exists" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-pegaspargase-2 -->
+
 **Note on other predictions:** Lymphoid neoplasm (L1 for the ALL component only; non-randomised data for other subtypes) could also proceed with guardrails, limited to ALL. Hodgkin lymphoma and blast-phase CML have only indirect evidence (L4) and should be held. CLL/SLL (including its subtypes), follicular lymphoma and methylcobalamin deficiency cblE have no trials or literature (L5) and no plausible asparagine-dependency rationale, so they should be held.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence has been cancelled, so product availability would need to be verified before any use" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Confirmation of product availability in New Zealand, since only a cancelled licence exists" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The main limits are that its individual contribution cannot be separated from the combinations, and that the New Zealand licence is cancelle" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

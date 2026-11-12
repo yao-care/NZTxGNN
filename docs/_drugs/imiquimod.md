@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
 description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,6 +96,8 @@ Caution: actinic keratosis is already an established use, so it should not be co
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2543907 | Perrigo | Imiquimod | Crm 5%, 250 mg sachet | Yes |
@@ -103,6 +105,8 @@ Caution: actinic keratosis is already an established use, so it should not be co
 | 2728087 | Aldara | Imiquimod | Crm 5%, 250 mg sachet | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,6 +127,12 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The mechanism is plausible and there is a body of reviews and case reports for HPV-related intraepithelial neoplasias. However, the registered trials are very small, one was terminated, and the one completed trial concerns an established indication. Evidence is supportive, not confirmatory.
 
+<!-- review:begin nz-lic-20261106-imiquimod-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Evidence is supportive, not confirmatory, and the New Zealand licences are all cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-imiquimod-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
@@ -132,6 +142,19 @@ The mechanism is plausible and there is a body of reviews and case reports for H
 ---
 
 *Other predicted indications (benign neoplasm of buccal mucosa, odontogenic cyst, and others) have very limited or no supporting evidence and are not recommended for further action at this stage.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the New Zealand licences are all cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

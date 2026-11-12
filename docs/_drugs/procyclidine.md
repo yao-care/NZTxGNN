@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Procyclidine"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "transaldolase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "fructose-1,6-bisphosphatase deficiency"]
 description: "Procyclidine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,11 +75,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 264962 | Kemadrin | Procyclidine hydrochloride | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -103,12 +107,38 @@ Please refer to the package insert for label warnings, as these were not availab
 **Rationale:**
 The prediction rests only on a model score, with no clinical trials, no literature and no plausible mechanistic link to the immune-driven pathology of Rasmussen encephalitis.
 
+<!-- review:begin nz-lic-20261106-procyclidine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The prediction rests only on a model score, with no clinical trials, no literature and no plausible mechanistic link to the immune-driven pathology of Rasmussen encephalitis. The New Zealand licence is also cancelled, so there is no currently marketed product." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-procyclidine-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and a mechanistic rationale linking muscarinic blockade to the predicted indication
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - Any preclinical or clinical evidence for Rasmussen encephalitis
 - Consideration of PLA2G6-associated neurodegeneration as a more plausible symptomatic research question
 - Clarification of the availability of an anticholinergic product in New Zealand
+
+<!-- review:begin nz-lic-20261106-procyclidine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the availability of an anticholinergic product in New Zealand, given the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-procyclidine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The New Zealand licence is also cancelled, so there is no currently marketed product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "given the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

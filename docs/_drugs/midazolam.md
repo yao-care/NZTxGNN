@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 300
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -80,7 +80,15 @@ Anxiety and insomnia are closely related conditions, and both respond to enhance
 
 Other retrieved publications (a lemborexant delirium pilot study, a rodent zolpidem study, a COVID-19 end-of-life case series and a Satoyoshi syndrome case report) are not specific to midazolam for insomnia and are omitted.
 
+<!-- review:begin nz-lic-20261106-midazolam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid and no approved indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-midazolam-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -91,6 +99,8 @@ Other retrieved publications (a lemborexant delirium pilot study, a rodent zolpi
 | 2263068 | Midazolam-Pfizer | Midazolam | Inj 5 mg per ml, 3 ml plastic ampoule | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -112,6 +122,26 @@ The evidence is limited to older oral-midazolam hypnotic studies from the 1980sâ
 - Review of whether an oral formulation is available or would need to be registered
 - Comparison with current insomnia treatments, including a riskâ€“benefit assessment of dependence, next-day impairment and interactions
 - Confirmation of the original (approved) indication
+
+<!-- review:begin nz-lic-20261106-midazolam-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of the original (approved) indication, as no approved indication text is recorded for the cancelled licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-midazolam-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five licences are valid and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "as no approved indication text is recorded for the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

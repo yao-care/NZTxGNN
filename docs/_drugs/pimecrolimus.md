@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 367
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -95,11 +95,15 @@ The literature supports the link. Two systematic reviews of randomized controlle
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2098873 | Elidel | Pimecrolimus | Cream 1% | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -136,11 +140,37 @@ Package insert warnings and contraindications could not be obtained for this rep
 **Rationale:**
 Seborrheic dermatitis has a direct randomized Phase 2 trial plus two systematic reviews of RCTs supporting efficacy and tolerability, with a plausible shared anti-inflammatory mechanism. However, there is no completed Phase 3 evidence.
 
+<!-- review:begin nz-lic-20261106-pimecrolimus-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, there is no completed Phase 3 evidence, and the New Zealand licence is cancelled, so there is currently no marketed product in New Zealand." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pimecrolimus-2 -->
+
 **To proceed, the following is needed:**
 - The package insert warnings and contraindications (Medsafe), which are currently missing, so formal safety screening cannot be completed
 - Detailed mechanism of action data (for example from DrugBank)
 - Published results and outcomes for NCT00403559
 - A long-term safety plan addressing the theoretical malignancy concern, plus guidance on use around viral skin infections and with other topical agents
+
+<!-- review:begin nz-lic-20261031-pimecrolimus-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Published results and outcomes for NCT00403559 / Confirmation of a regulatory pathway and product availability in New Zealand, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-pimecrolimus-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Confirmation of a regulatory pathway and product availability in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the New Zealand licence is cancelled, so there is currently no marketed product in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

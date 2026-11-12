@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,14 @@ Currently no related literature available.
 
 The approved indication text is not available for any of them.
 
+<!-- review:begin nz-lic-20261106-levodopa-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 12 licences are valid. The approved indication text is not available for any of them. The five main authorizations are listed below." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 12 listings for this drug, 12 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-levodopa-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 201421 | Madopar 125 | Levodopa with benserazide | Cap 100 mg with benserazide 25 mg | Yes |
@@ -90,6 +98,8 @@ The approved indication text is not available for any of them.
 | 2696533 | Stalevo | Levodopa with carbidopa and entacapone | Tab 50 mg with carbidopa 12.5 mg and entacapone 2… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -124,6 +134,26 @@ The prediction has no supporting clinical trials or literature (evidence level L
 - A mechanistic rationale connecting dopaminergic therapy to neuroinflammation or seizure control in this disease
 - Assessment of seizure risk in patients with refractory epilepsy
 - Clarification of route and formulation requirements
+
+<!-- review:begin nz-lic-20261106-levodopa-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of route and formulation requirements, and of whether any valid New Zealand licence exists, given that all 12 are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 12 listings for this drug, 12 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-levodopa-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 12 licences are valid. The five main authorizations are listed below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and of whether any valid New Zealand licence exists, given that all 12 are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

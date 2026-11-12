@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected"]
@@ -115,11 +115,15 @@ For reference, selected publications for **injury**:
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2642255 | Cvite | Ascorbic acid | Tab 100 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -140,12 +144,31 @@ Package insert warnings and contraindications were not available, so please refe
 **Rationale:**
 The top-ranked prediction (non-syndromic esophageal malformation) has no trials, no literature and no plausible mechanism. Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Of the other predictions, "injury" (L2) is worth following as a research question, but it is a heterogeneous category with mixed evidence. The drug is marketed in New Zealand but no label safety data were available, which blocks safety screening.
 
+<!-- review:begin nz-lic-20261106-ascorbic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in New Zealand, where its only authorisation (1 of 1) is valid, but no label safety data were available, which blocks safety screening." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ascorbic_acid-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data (MOA)
 - Definition of specific injury subtypes (for example sepsis-induced lung injury, burns, perioperative injury) and a focused review of the Phase 2 RCTs
 - Confirmation of whether any valid ascorbic acid product is available in New Zealand
 - Review of the esophageal carcinogenesis safety signal before considering any esophageal indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "where its only authorisation (1 of 1) is valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 473
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -97,11 +97,15 @@ Atopic dermatitis and other inflammatory skin diseases are mainly Th2-driven, bu
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2455544 | Stelara | Ustekinumab | Inj 90 mg per ml, 1 ml pre-filled syringe | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -122,10 +126,36 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 Two completed Phase 2 randomised trials and several reviews test ustekinumab in atopic dermatitis, but efficacy has been limited and inconsistent, and no Phase 3 evidence exists.
 
+<!-- review:begin nz-lic-20261031-ustekinumab-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Two completed Phase 2 randomised trials and several reviews test ustekinumab in atopic dermatitis, but efficacy has been limited and inconsistent, and no Phase 3 evidence exists. The only New Zealand licence is cancelled, and the safety data needed for screening are missing." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-ustekinumab-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - A full review of the Phase 2 results (NCT01945086, NCT01806662) to identify any responsive patient subgroups, such as Asian, paediatric or chronic-lesion phenotypes
+
+<!-- review:begin nz-lic-20261031-ustekinumab-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "A full review of the Phase 2 results (NCT01945086, NCT01806662) to identify any responsive patient subgroups, such as Asian, paediatric or chronic-lesion phenotypes / Clarification of the New Zealand regulatory and supply status, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-ustekinumab-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the safety data needed for screening are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Clarification of the New Zealand regulatory and supply status, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

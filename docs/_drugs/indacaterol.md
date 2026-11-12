@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2465922 | Onbrez Breezhaler | Indacaterol | Powder for inhalation 150 mcg | Yes |
@@ -79,6 +81,8 @@ Currently no related literature available.
 | 2495562 | Ultibro Breezhaler | Glycopyrronium with indacaterol | Powder for Inhalation 50 mcg with indacaterol 110… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

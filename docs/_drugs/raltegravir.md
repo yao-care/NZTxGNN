@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Raltegravir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,6 +89,8 @@ For the related prediction of SIV infection, the data compiled for this report l
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2324059 | Isentress | Raltegravir potassium | Tab 400 mg | Yes |
@@ -97,6 +99,8 @@ For the related prediction of SIV infection, the data compiled for this report l
 | 2736012 | Isentress HD | Raltegravir potassium | Tab 600 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -123,6 +127,25 @@ The top prediction is a veterinary indication with no trials or publications, an
 - Direct evidence of raltegravir activity against FIV, if the veterinary indication is to be pursued
 - Confirmation of regulatory status
 - Verification of study types of the SIV publications against full records
+
+<!-- review:begin nz-lic-20261106-raltegravir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of regulatory status, since both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-raltegravir-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "since both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

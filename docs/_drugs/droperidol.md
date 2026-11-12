@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
 description: "Droperidol: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -102,12 +102,16 @@ For the manic bipolar affective disorder prediction, the literature includes Coc
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2527138 | Droperidol Panpharma | Droperidol | Inj 2.5 mg per ml, 1 ml ampoule | Yes |
 | 2690543 | Droperidol Medsurge | Droperidol | Inj 2.5 mg per ml, 1 ml ampoule | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -133,6 +137,25 @@ The top prediction, Tourette syndrome, has no trials or literature and is only m
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - For migraine: a full review of the randomised trials and systematic reviews, plus a QT/ECG monitoring plan
+
+<!-- review:begin nz-lic-20261106-droperidol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Mechanism of action data from DrugBank / The original approved indication text for the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-droperidol-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The original approved indication text for the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

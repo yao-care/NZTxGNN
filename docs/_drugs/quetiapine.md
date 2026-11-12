@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,9 +88,17 @@ For trichotillomania (rank 8):
 
 No literature was available for the other nine top-ranked predictions.
 
+<!-- review:begin nz-lic-20261106-quetiapine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All six licences are valid, and no approved indication text is recorded for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-quetiapine-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -102,6 +110,8 @@ No literature was available for the other nine top-ranked predictions.
 | 2476274 | Quetapel | Quetiapine | Tab 300 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -121,11 +131,31 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 The top-ranked prediction, retinal dystrophy, and the other no-evidence predictions have high model scores but no trials, no literature, and no plausible mechanism. Trichotillomania has some case-level literature, but it is weak, mixed in direction, and contains no controlled data. It is best treated as a research question rather than a candidate for action.
 
+<!-- review:begin nz-lic-20261106-quetiapine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "It is best treated as a research question rather than a candidate for action. In New Zealand, quetiapine is marketed, with all six licences valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-quetiapine-2 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (blocking gap for safety screening)
 - Mechanism of action data
 - A controlled study or systematic review of quetiapine in trichotillomania, with attention to reports of worsened obsessive-compulsive symptoms
 - Confirmation of current New Zealand availability and regulatory status
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All six licences are valid, and no approved indication text is recorded for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In New Zealand, quetiapine is marketed, with all six licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis (also vasomotor rhinitis, atopic…"
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -74,6 +74,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2711222 | Fexaclear | Fexofenadine hydrochloride | Tab 120 mg | Yes |
@@ -82,7 +84,15 @@ Currently no related literature available.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 All three products are oral tablets, and no topical or ophthalmic formulation is listed.
+
+<!-- review:begin nz-lic-20261106-fexofenadine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only the Telfast 60 mg licence is currently valid. All three products are oral tablets, and no topical or ophthalmic formulation is listed." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fexofenadine-1 -->
 
 ## Safety Considerations
 
@@ -108,6 +118,19 @@ The prediction is supported by model score alone (L5), with no clinical trials o
 - A literature and trial search for fexofenadine or antihistamines in ocular rosacea
 - Assessment of route and formulation suitability for ocular use
 - Review of the knowledge-graph contraindications against the official label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only the Telfast 60 mg licence is currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

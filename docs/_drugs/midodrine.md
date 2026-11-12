@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 301
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MIDODRINE"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,7 +92,15 @@ Evidence below is for hypotensive disorder. The top-ranked prediction (prionopat
 
 For the other predictions, only two papers were retrieved: one on orthostatic dysregulation in Japan (PMID 42351284, ADHD; cohort) and one on baroreflex dysfunction in spinal cord injury (PMID 24634993, sinoatrial node disease; cohort). Neither shows midodrine efficacy in those conditions.
 
+<!-- review:begin nz-lic-20261106-midodrine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are cancelled, so availability in New Zealand may be a practical constraint." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-midodrine-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -100,6 +108,8 @@ For the other predictions, only two papers were retrieved: one on orthostatic dy
 | 2632071 | Midodrine Medsurge | Midodrine | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -125,6 +135,26 @@ Package insert warnings and contraindications were not available, so please refe
 - Confirm product availability in New Zealand
 - Define a monitoring plan for supine hypertension, bradycardia and interacting drugs
 - Do not pursue the prionopathy, ADHD, sinoatrial or other low-evidence predictions without new supporting data
+
+<!-- review:begin nz-lic-20261106-midodrine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirm product availability in New Zealand, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-midodrine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorizations are cancelled, so availability in New Zealand may be a practical constraint" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

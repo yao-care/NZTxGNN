@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,11 +91,15 @@ No publication found directly studies modafinil for insomnia. The items below ar
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2690586 | Modafinil Max Health | Modafinil | Tab 100 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,6 +131,18 @@ The evidence level is L5. The only trial in primary insomnia has no available re
 - Mechanism of action data
 - Package insert warnings and contraindications for the New Zealand product
 - A safety plan covering the moderate drug interactions above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the regulatory path, given that the only New Zealand authorization is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

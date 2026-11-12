@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ARGININE"
 predicted_indications: ["gastroparesis (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Arginine: predicted new indication gastroparesis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -83,6 +83,8 @@ All of these are animal or mechanistic studies; only the first two relate to the
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2609282 | Solgar | Arginine | Cap 500 mg | Yes |
@@ -92,7 +94,15 @@ All of these are animal or mechanistic studies; only the first two relate to the
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No approved indication text is recorded for any of them.
+
+<!-- review:begin nz-lic-20261106-arginine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The licence records compiled for this report list four single-ingredient arginine products (Biomed powder, Solgar 500 mg capsule, Arginine2000 4 g sachet powder, Clinicians 1,000 mg tablet). No approved indication text is recorded for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-arginine-1 -->
 
 ## Safety Considerations
 
@@ -111,6 +121,19 @@ The prediction score is high and the nitric oxide pathway gives a plausible mech
 - Preclinical or early clinical studies of arginine directly in gastroparesis
 - Confirmation of the current licence status of the local products
 - Safety review for patients with kidney disease, cardiovascular disease, or diabetes (the common gastroparesis population)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The licence records compiled for this report list four single-ingredient arginine products (Biomed powder, Solgar 500 mg capsule, Arginine20" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

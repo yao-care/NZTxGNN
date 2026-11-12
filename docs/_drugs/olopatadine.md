@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,11 +71,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2588048 | Olopatadine Teva | Olopatadine | Eye drops 0.1% | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The only dosage form on record is an ophthalmic one (eye drops 0.1%), which fits an ocular indication.
 
@@ -93,6 +97,12 @@ Please refer to the package insert for warnings and further safety information.
 **Rationale:**
 The prediction has a high model score but no supporting clinical trials or publications (Evidence Level L5). Ocular rosacea is driven mainly by non-allergic mechanisms.
 
+<!-- review:begin nz-lic-20261106-olopatadine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Ocular rosacea is driven mainly by non-allergic mechanisms, and the only New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-olopatadine-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which are currently missing and block safety screening
 - Mechanism of action data for olopatadine from DrugBank
@@ -100,6 +110,19 @@ The prediction has a high model score but no supporting clinical trials or publi
 - Severity grading of the drug interactions
 - A check of whether the prescribing route and a currently available ophthalmic product are suitable in New Zealand
 - If the evidence review is favourable, a small proof-of-concept study with an ocular symptom endpoint such as itching or redness
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

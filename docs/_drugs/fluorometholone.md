@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FLUOROMETHOLONE"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
 description: "Fluorometholone: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,12 @@ For the top prediction (postinfectious vasculitis), currently no related literat
 
 Two papers were retrieved for the rank 6 prediction, punctate epithelial keratoconjunctivitis. They are related but not direct evidence for fluorometholone:
 
+<!-- review:begin nz-lic-20261106-fluorometholone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are cancelled, and the records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fluorometholone-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [34011737](https://pubmed.ncbi.nlm.nih.gov/34011737/) | 2021 | Review | Indian Journal of Ophthalmology | Characterizes the sequelae of microsporidial keratoconjunctivitis and outlines its management |
@@ -94,12 +100,16 @@ Two papers were retrieved for the rank 6 prediction, punctate epithelial keratoc
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 264415 | FML | Fluorometholone | Eye drops 0.1% | Yes |
 | 284866 | Flucon | Fluorometholone | Eye drops 0.1% | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -121,6 +131,12 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 **Rationale:**
 The prediction for postinfectious vasculitis is based on the model score alone (L5), with no trials or literature. A topical ocular steroid is poorly matched to a systemic disease. The anterior uveitis-type predictions (lens-induced iridocyclitis, glaucomatocyclitic crisis) and punctate epithelial keratoconjunctivitis are better-grounded research questions, but they too lack direct evidence.
 
+<!-- review:begin nz-lic-20261106-fluorometholone-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A topical ocular steroid is poorly matched to a systemic disease, and both New Zealand licences are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fluorometholone-2 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (currently a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
@@ -128,6 +144,27 @@ The prediction for postinfectious vasculitis is based on the model score alone (
 - An assessment of route and formulation compatibility, since only ophthalmic eye drops existed
 - For ocular candidates, a plan for monitoring intraocular pressure and infection risk
 - Clarification of whether any product could be re-supplied
+
+<!-- review:begin nz-lic-20261106-fluorometholone-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of why the licences were cancelled and whether any product could be re-supplied" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fluorometholone-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorizations are cancelled, and the records contain no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "why the licences were cancelled and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

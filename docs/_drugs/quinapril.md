@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,8 @@ For the rank 4 indication (pulmonary hypertension owing to lung disease and/or h
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2427885 | Arrow-Quinapril 10 | Quinapril | Tab 10 mg | Yes |
@@ -92,6 +94,8 @@ For the rank 4 indication (pulmonary hypertension owing to lung disease and/or h
 | 2427877 | Arrow-Quinapril 5 | Quinapril | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,6 +118,25 @@ The top prediction is a closely related extension of the approved hypertension u
 - Quinapril-specific clinical evidence in renovascular hypertension, including renal safety in renal artery stenosis
 - Clarification of the market situation (availability of other ACE inhibitors) and whether a genuine unmet need exists
 - For pulmonary hypertension, human data beyond the preclinical studies, with attention to gas exchange in hypoxic lung disease
+
+<!-- review:begin nz-lic-20261106-quinapril-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the market situation (reason for cancellation, availability of other ACE inhibitors) and whether a genuine unmet need exists" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-quinapril-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "reason for cancellation" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

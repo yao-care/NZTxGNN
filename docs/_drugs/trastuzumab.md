@@ -111,6 +111,8 @@ Note: for the luminal A or B term, the key supporting paper is the pivotal adjuv
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2669994 | Baxter | Trastuzumab (Herzuma) | Inj 1 mg for ECP | Yes |
@@ -120,6 +122,8 @@ Note: for the luminal A or B term, the key supporting paper is the pivotal adjuv
 | 2649373 | Phesgo | Pertuzumab with trastuzumab | Inj 600 mg with trastuzumab 600 mg, 10 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

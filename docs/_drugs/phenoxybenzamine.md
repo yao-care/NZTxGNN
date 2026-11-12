@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Phenoxybenzamine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Adrenal gland pheochromocytoma / phaeochromocytoma"
 monitor_inn: "Phenoxybenzamine"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma"]
@@ -72,11 +72,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2457636 | BNM | Phenoxybenzamine hydrochloride | Cap 10 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -97,12 +101,38 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The predictions rest on model scores alone, with no clinical trials or literature. The mechanism does not address the structural cause of hereditary glaucoma, and systemic adverse effects are a concern.
 
+<!-- review:begin nz-lic-20261031-phenoxybenzamine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The mechanism does not address the structural cause of hereditary glaucoma, and systemic adverse effects are a concern. The only New Zealand licence is cancelled, and safer topical alternatives exist." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-phenoxybenzamine-1 -->
+
 **To proceed, the following is needed:**
 - A targeted literature search on alpha-blockers and intraocular pressure, beyond the data compiled here
 - Preclinical ocular pharmacology data (IOP effect, ocular perfusion, local tolerability)
 - Mechanism of action data from DrugBank
 - Package insert warnings and contraindications from Medsafe
 - A review of the regulatory pathway
+
+<!-- review:begin nz-lic-20261106-phenoxybenzamine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "An assessment of whether a topical ocular formulation is feasible, given that only a 10 mg capsule has been licensed in New Zealand / A review of the regulatory pathway, given the cancelled market status" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-phenoxybenzamine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and safer topical alternatives exist" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "An assessment of whether a topical ocular formulation is feasible, given that only a 10 mg capsule has been licensed in New Zealand , given " | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

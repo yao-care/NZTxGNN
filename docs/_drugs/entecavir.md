@@ -84,12 +84,16 @@ Neither trial studies entecavir as a treatment for hepatitis C.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2549301 | Entecavir Sandoz | Entecavir | Tab 0.5 mg | Yes |
 | 2654431 | Entecavir (Rex) | Entecavir | Tab 0.5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

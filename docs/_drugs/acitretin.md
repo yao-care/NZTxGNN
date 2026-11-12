@@ -83,12 +83,16 @@ The mechanistic rationale is plausible, but the direct clinical evidence is very
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2384167 | Novatretin | Acitretin | Cap 10 mg | Yes |
 | 2384175 | Novatretin | Acitretin | Cap 25 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The local records contain no approved-indication text for these licences.
 

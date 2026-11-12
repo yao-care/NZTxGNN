@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -105,9 +105,17 @@ Supportive evidence for other predicted indications, all limited:
 - **Audiogenic seizures:** a randomised open-label veterinary study in cats ([26690830](https://pubmed.ncbi.nlm.nih.gov/26690830/), 2017) and animal models. Evidence is translational, not human.
 - **Reading seizures:** a small case series reporting excellent response to levetiracetam ([22386591](https://pubmed.ncbi.nlm.nih.gov/22386591/), 2012).
 
+<!-- review:begin nz-lic-20261106-levetiracetam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One further licence (2479567, Everet Tab 1,000 mg) is also cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-levetiracetam-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -119,6 +127,8 @@ Supportive evidence for other predicted indications, all limited:
 | 2479559 | Everet | Levetiracetam | Tab 750 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -145,6 +155,19 @@ Please refer to the package insert for label warnings and contraindications, whi
 - Mechanism of action data from DrugBank.
 - Renal dose adjustment guidance, behavioural adverse effect monitoring, and a review of clinically significant interactions, especially with opioids and other CNS depressants.
 - Confirmation of the original-indication listing for status epilepticus.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One further licence (2479567, Everet Tab 1,000 mg) is also cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

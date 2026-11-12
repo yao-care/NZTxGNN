@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,6 +84,12 @@ Currently no related literature available for autoimmune oophoritis.
 
 For reference, the only indication with retrieved publications is the rank 6 prediction, pancreatic agenesis. These papers are indirect and none evaluates insulin glargine in that condition:
 
+<!-- review:begin nz-lic-20261106-insulin_glargine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid, so the product is currently marketed in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-insulin_glargine-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [12150359](https://pubmed.ncbi.nlm.nih.gov/12150359/) | 2002 | Review | J Am Pharm Assoc | Practical aspects of starting insulin therapy in type 2 diabetes |
@@ -93,6 +99,8 @@ For reference, the only indication with retrieved publications is the rank 6 pre
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2146746 | Lantus | Insulin glargine | Inj 100 u per ml, 10 ml | Yes |
@@ -100,6 +108,8 @@ For reference, the only indication with retrieved publications is the rank 6 pre
 | 2275406 | Lantus SoloStar | Insulin glargine | Inj 100 u per ml, 3 ml disposable pen | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -121,12 +131,39 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 The top prediction is supported only by a model score, with no trials or publications (Evidence Level L5). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
+<!-- review:begin nz-lic-20261106-insulin_glargine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The drug is marketed in New Zealand, with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-insulin_glargine-2 -->
+
 **To proceed, the following is needed:**
 - Direct clinical or mechanistic evidence for insulin glargine in autoimmune oophoritis, or confirmation that the signal is only a diabetes-comorbidity artefact
 - Mechanism of action data (currently unavailable)
 - Package insert warnings and contraindications from Medsafe
 - Confirmation of current New Zealand regulatory status
 - If a repurposing direction is pursued, consider pancreatic agenesis first, but only as an extension of existing insulin replacement and not as a new mechanism
+
+<!-- review:begin nz-lic-20261106-insulin_glargine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of current New Zealand regulatory status (3 valid licences of 3)" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-insulin_glargine-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are valid, so the product is currently marketed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "(3 valid licences of 3)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

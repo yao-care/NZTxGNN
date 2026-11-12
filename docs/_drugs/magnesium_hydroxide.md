@@ -86,11 +86,15 @@ No cited study evaluates magnesium hydroxide alone against "stomach disease" as 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2599953 | Phillips Milk of Magnesia | Magnesium hydroxide | Suspension 8% | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

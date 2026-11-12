@@ -77,7 +77,8 @@ def update(rec, new):
 
 # 2026-11-06：依成分重建後，「New Zealand Market Information」的表由 scripts/sync_license_tables.py 產生（含 Fully subsidised 欄）；
 # 每週更新有給付狀態變動時，用同一套程式重排那些藥的表（license_refresh_20261029.py 的 sync_tables 掛勾）
-PAGE_NOTE = r"^(Showing \d+ of \d+ Pharmac Schedule items\.( .*)?|Source: Pharmac Pharmaceutical Schedule, Community Medicines .*)$"
+# 2026-11-12：程式區塊標記（<!-- licenses:begin/end -->，scripts/sync_license_tables.py 重排時會加）也算程式產生的行
+PAGE_NOTE = r"^(Showing \d+ of \d+ Pharmac Schedule items\.( .*)?|Source: Pharmac Pharmaceutical Schedule, Community Medicines .*|<!-- licenses:(begin|end) -->)$"
 
 
 def sync_tables(site_dir, bundles):

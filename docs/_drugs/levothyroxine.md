@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "LEVOTHYROXINE"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2307758 | Mercury Pharma | Levothyroxine | Tab 100 mcg | Yes |
@@ -86,7 +88,15 @@ Currently no related literature available.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Others include Eltroxin and Mercury Pharma products in 50 mcg and 100 mcg strengths.
+
+<!-- review:begin nz-lic-20261106-levothyroxine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Showing 5 of 9 valid single-ingredient authorizations. Others include Eltroxin and Mercury Pharma products in 50 mcg and 100 mcg strengths." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-levothyroxine-1 -->
 
 ## Safety Considerations
 
@@ -107,6 +117,19 @@ The prediction has no supporting trials or publications, and no study directly a
 - Any preclinical or clinical studies directly examining levothyroxine in this disease
 - Package insert warnings and contraindications from Medsafe for a safety review
 - Review of the TxGNN model (deep learning) output, whose scores may reflect similarities the model learned between related diseases rather than biological evidence, and consideration of higher-plausibility predictions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Showing 5 of 9 valid single-ingredient authorizations" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

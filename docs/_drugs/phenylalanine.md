@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 363
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not documented"
 monitor_inn: "PHENYLALANINE"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -41,6 +41,12 @@ Evidence Level: **L4** | Predicted Indications: **2**
 Phenylalanine is an essential amino acid.
 The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are **0 clinical trials** and only **3 loosely related publications**, none of which show that phenylalanine treats the condition.
 
+<!-- review:begin nz-lic-20261031-phenylalanine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Phenylalanine is an essential amino acid. The data compiled for this report contain no approved indication for it in New Zealand, and its only license has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-phenylalanine-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -75,6 +81,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2474557 | Phenylalanine50 | Phenylalanine | Powder, 4 g sachets | Yes |
@@ -82,6 +90,8 @@ Currently no related clinical trials registered.
 | 2668734 | TYR Sphere 20 | Glycomacropeptide and amino acid contains some tyrosine and… | Powder (Vanilla), 35 g sachets | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -102,11 +112,38 @@ Package insert warnings and contraindications were not available for this report
 **Rationale:**
 The prediction rests almost entirely on a model score. No clinical trials exist, the literature shows only associations with disease symptoms, and no mechanism has been established. The knowledge graph also flags contraindications in kidney, cardiac, and calcium-related conditions, which are common in patients with chronic liver disease.
 
+<!-- review:begin nz-lic-20261031-phenylalanine-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "No clinical trials exist, the literature shows only associations with disease symptoms, and no mechanism has been established. The only New Zealand license is cancelled and has no documented indication." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-phenylalanine-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe, which are needed before any safety screening
 - Mechanism of action data (for example from DrugBank)
 - Preclinical or mechanistic studies testing whether phenylalanine or aromatic amino acid modulation affects cholestatic liver disease
 - Route and formulation compatibility assessment
+
+<!-- review:begin nz-lic-20261106-phenylalanine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Preclinical or mechanistic studies testing whether phenylalanine or aromatic amino acid modulation affects cholestatic liver disease / Clarification of the original indication and the reason the license was cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-phenylalanine-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The data compiled for this report contain no approved indication for it in New Zealand, and its only license has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand license is cancelled and has no documented indication" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the original indication and the reason the license was cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

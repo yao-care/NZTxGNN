@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LEVOCARNITINE"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
 description: "Levocarnitine: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -109,7 +109,15 @@ Several other retrieved papers are off-topic: a stem-cell cardiomyopathy model a
 - **Rheumatoid arthritis:** The only evidence is [NCT03953703](https://clinicaltrials.gov/study/NCT03953703), a completed Phase 2 randomized, placebo-controlled crossover pilot (n=15). Its title refers to dry eye in Sjögren's syndrome, so its direct relevance to rheumatoid arthritis should be checked. No results were provided.
 - **Diabetic nephropathy:** The only evidence is [PMID 41884608](https://pubmed.ncbi.nlm.nih.gov/41884608/) (2026), which tested a levocarnitine-alprostadil combination in end-stage diabetic nephropathy. The effect of levocarnitine alone cannot be isolated, and no trials are registered.
 
+<!-- review:begin nz-lic-20261106-levocarnitine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All six licenses are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-levocarnitine-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -122,7 +130,15 @@ Several other retrieved papers are off-topic: a stem-cell cardiomyopathy model a
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Approved indication text is not recorded for any license. Available forms are oral only. The heart failure trial above used an injectable form, and no injectable product appears in the New Zealand license data.
+
+<!-- review:begin nz-lic-20261106-levocarnitine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The sixth license is 2683059 (Metabolics, Capsule 500 mg, cancelled). Approved indication text is not recorded for any license." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-levocarnitine-2 -->
 
 ## Safety Considerations
 
@@ -147,6 +163,20 @@ Congestive heart failure is the most promising alternative direction (L2, Procee
 - Confirmation of the original approved indication
 - A route and formulation plan, since an injectable product would be needed and none is currently marketed in New Zealand
 - A warfarin and anticoagulant interaction management plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All six licenses are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The sixth license is 2683059 (Metabolics, Capsule 500 mg, cancelled)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

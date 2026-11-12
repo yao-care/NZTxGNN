@@ -98,12 +98,16 @@ Other predicted indications are weaker:
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2637146 | Panzop Relief | Pantoprazole | Tab EC 20 mg | Yes |
 | 2637154 | Panzop Relief | Pantoprazole | Tab EC 40 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

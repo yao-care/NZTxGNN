@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sacubitril: predicted new indication Top-ranked: brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not stated in the New Zealand licence data (the combinat…"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **5**
 Sacubitril is the neprilysin-inhibitor component of the sacubitril/valsartan combination (Entresto). The combination is known as a heart failure treatment.
 The TxGNN model ranks **brain small vessel disease 1 with or without ocular anomalies** first, but the best-supported prediction is **Diabetic Nephropathy** (rank 3), with **1 clinical trial** (Phase 4, status unknown) and **15 publications**.
 Overall evidence for the top-ranked prediction is only model-based, so this report focuses on the best-supported candidate and notes the others briefly.
+
+<!-- review:begin nz-lic-20261106-sacubitril-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The licence records compiled for this report do not state an approved indication, but the combination is known as a heart failure treatment." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-sacubitril-1 -->
 
 ## Quick Overview
 
@@ -99,7 +105,15 @@ Literature for diabetic nephropathy (rank 3), with the most clinically relevant 
 
 For the other predictions, the only literature retrieved was PMID 37169551 (rank 1; a cohort study of sacubitril/valsartan in systemic right ventricular failure) and PMID 42266390 (rank 4; a case report of golimumab-associated myocarditis). Neither supports the predicted indication.
 
+<!-- review:begin nz-lic-20261106-sacubitril-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three authorisations are valid, and no approved indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-sacubitril-2 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -108,6 +122,8 @@ For the other predictions, the only literature retrieved was PMID 37169551 (rank
 | 2554747 | Entresto 97/103 | Sacubitril with valsartan | Tab 97.2 mg with valsartan 102.8 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -122,11 +138,39 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 - The top-ranked prediction and the other low-evidence predictions (ranks 2, 4 and 5) rest on model scores alone, with no supporting evidence. Diabetic nephropathy has a plausible mechanism and a Phase 4 trial, but that trial has unknown status and no results, and the human renal evidence is limited.
 
+<!-- review:begin nz-lic-20261106-sacubitril-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Diabetic nephropathy has a plausible mechanism and a Phase 4 trial, but that trial has unknown status and no results, and the human renal evidence is limited. Also, the drug is marketed in New Zealand, with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-sacubitril-3 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Detailed mechanism of action data
 - Results or status confirmation for NCT06501651, and a completed randomised trial with renal outcomes
 - Evidence separating the contribution of sacubitril from that of valsartan in diabetic nephropathy
+
+<!-- review:begin nz-lic-20261106-sacubitril-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Evidence separating the contribution of sacubitril from that of valsartan in diabetic nephropathy / Clarification of the regulatory pathway, given that the drug is marketed in New Zealand with 3 valid licences of 3" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-sacubitril-4 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "he licence records compiled for this report do not state an approved indication, but t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three authorisations are valid, and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Also, the drug is marketed in New Zealand, with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that the drug is marketed in New Zealand with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

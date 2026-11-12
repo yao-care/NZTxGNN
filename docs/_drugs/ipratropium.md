@@ -99,6 +99,8 @@ The literature is dominated by reviews. No randomised trial publications were id
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2145782 | Atrovent | Ipratropium bromide | Aerosol inhaler, 20 mcg per dose CFC-free | Yes |
@@ -112,6 +114,8 @@ The literature is dominated by reviews. No randomised trial publications were id
 | 2719959 | Cipla | Salbutamol with ipratropium bromide | Nebuliser soln, 2.5 mg with ipratropium bromide 0… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

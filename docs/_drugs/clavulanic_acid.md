@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 104
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection, bacterial pneumonia…"
 monitor_inn: "clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
@@ -104,9 +104,17 @@ Literature for the top-ranked prediction (Ureaplasma urethritis) is indirect and
 
 Evidence for the other predictions is minimal. Uterine inflammatory disease has a postpartum endometritis guideline, veterinary studies, a murine Chlamydia model and an IUD-associated actinomycosis case. Urogenital tuberculosis has a single case report, and xanthogranulomatous pyelonephritis and ranks 6-10 have no literature.
 
+<!-- review:begin nz-lic-20261106-clavulanic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed, and all 3 of 3 licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-clavulanic_acid-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -115,6 +123,8 @@ Evidence for the other predictions is minimal. Uterine inflammatory disease has 
 | 2602121 | Curam Duo 500/125 | Amoxicillin with clavulanic acid | Tab 500 mg with clavulanic acid 125 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -138,12 +148,32 @@ Package insert warnings and contraindications have not been retrieved. Please re
 - Ureaplasma urethritis is the main prediction (score 0.9993). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - The remaining predictions are supported only by computation or indirect evidence.
 
+<!-- review:begin nz-lic-20261106-clavulanic_acid-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The drug is marketed, with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-clavulanic_acid-2 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening).
 - Mechanism-of-action data from DrugBank.
 - Current gonococcal resistance and guideline data to judge whether the historical use has any contemporary relevance.
 - If uterine or pelvic infection is pursued, human clinical studies of amoxicillin/clavulanate in that setting.
 - Clarification of whether any active New Zealand amoxicillin/clavulanate product is available.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The drug is marketed, and all 3 of 3 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed, with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

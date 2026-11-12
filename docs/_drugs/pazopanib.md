@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 352
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -89,6 +89,8 @@ Liposarcoma is an adipocytic soft tissue sarcoma. Adipocytic histology was exclu
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2695332 | Pazopanib Teva | Pazopanib | Tab 200 mg | Yes |
@@ -96,6 +98,8 @@ Liposarcoma is an adipocytic soft tissue sarcoma. Adipocytic histology was exclu
 | 2695340 | Pazopanib Teva | Pazopanib | Tab 400 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -122,6 +126,12 @@ Package insert warnings and contraindications were not available, so please refe
 **Rationale:**
 Liposarcoma has the most developed evidence (L2: completed Phase 2 trials), but the data show limited, histology-dependent activity and no randomized evidence of benefit. The package insert safety review has not been done, which is a blocking gap. The liposarcoma prediction is best treated as a research question.
 
+<!-- review:begin nz-lic-20261106-pazopanib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Pazopanib's New Zealand licences are both cancelled, and the package insert safety review has not been done, which is a blocking gap." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pazopanib-1 -->
+
 **Other predictions in the dataset:**
 - **Dermatofibrosarcoma protuberans** (L2, Research Question): strong mechanistic rationale through COL1A1-PDGFB and PDGFR, with a multicenter Phase 2 study (PMID 32956651) and a terminated Phase 2a trial ([NCT01059656](https://clinicaltrials.gov/study/NCT01059656), n=23). Imatinib remains the established therapy, so pazopanib is a second-line consideration.
 - **Fibroblastic neoplasm** (L2, Research Question): includes a Phase 2 trial in solitary fibrous tumour and extraskeletal myxoid chondrosarcoma ([NCT02066285](https://clinicaltrials.gov/study/NCT02066285), n=96). The category is heterogeneous, so results cannot be generalised.
@@ -134,6 +144,26 @@ Liposarcoma has the most developed evidence (L2: completed Phase 2 trials), but 
 - Published results and outcomes of the liposarcoma trials (NCT01506596, NCT01692496) to quantify efficacy.
 - Clarification of New Zealand supply and regulatory status.
 - A safety monitoring plan covering cardiovascular, hepatic and thyroid risks and interactions with acid-suppressing drugs.
+
+<!-- review:begin nz-lic-20261106-pazopanib-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of New Zealand supply and regulatory status, since both licences are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pazopanib-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Pazopanib's New Zealand licences are both cancelled, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

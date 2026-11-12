@@ -90,6 +90,8 @@ Several studies directly in Ewing sarcoma support this. They include a prospecti
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2207559 | Baxter | Docetaxel | Inj 1 mg for ECP | Yes |
@@ -99,6 +101,8 @@ Several studies directly in Ewing sarcoma support this. They include a prospecti
 | 2428156 | Docetaxel Sandoz | Docetaxel | Inj 80 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

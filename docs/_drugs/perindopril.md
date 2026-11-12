@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,6 +78,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2726513 | Coversyl 10 | Perindopril | Tab 10 mg | Yes |
@@ -88,6 +90,8 @@ Currently no related clinical trials registered.
 | 2643316 | Coversyl | Perindopril | Tab 8 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,11 +108,30 @@ Package insert warnings and contraindications were not available for this report
 **Rationale:**
 The prediction is mechanistically plausible but rests on a computational score alone. There are no clinical trials, the single retrieved publication is not about perindopril. Safety signals (renal function decline in renal artery stenosis, angioedema) add further caution.
 
+<!-- review:begin nz-lic-20261106-perindopril-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials, the single retrieved publication is not about perindopril, and the drug is marketed in New Zealand with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-perindopril-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (from Medsafe)
 - Mechanism of action data (from DrugBank)
 - A targeted literature search for ACE inhibitors in malignant hypertension with renal involvement
 - A renal safety monitoring plan for patients with renovascular disease or a solitary kidney
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the drug is marketed in New Zealand with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

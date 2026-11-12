@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 399
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rasagiline: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease (and related parkinsonian syndromes)"
 monitor_inn: "RASAGILINE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -80,11 +80,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2611449 | Azilect | Rasagiline | Tab 1 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -102,10 +106,36 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Rationale:**
 The prediction rests entirely on a computational score, with no clinical trials or publications. The mechanistic link to PLA2G6-associated neurodegeneration is only symptomatic and theoretical.
 
+<!-- review:begin nz-lic-20261106-rasagiline-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The mechanistic link to PLA2G6-associated neurodegeneration is only symptomatic and theoretical, and the New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rasagiline-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data for rasagiline
 - Package insert warnings and contraindications from Medsafe
 - Preclinical or clinical evidence in PLA2G6-associated neurodegeneration (e.g., case series or disease-model studies)
+
+<!-- review:begin nz-lic-20261106-rasagiline-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Preclinical or clinical evidence in PLA2G6-associated neurodegeneration (e.g., case series or disease-model studies) / A clear regulatory pathway given the cancelled New Zealand authorization" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rasagiline-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A clear regulatory pathway given the cancelled New Zealand authorization" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

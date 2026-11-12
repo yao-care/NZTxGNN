@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2654458 | Noflam 250 | Naproxen | Tab 250 mg | Yes |
@@ -83,6 +85,8 @@ Currently no related literature available.
 | 2518627 | Naprosyn SR 750 | Naproxen | Tab long-acting 750 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -107,11 +111,37 @@ Please also refer to the package insert for full safety information.
 **Rationale:**
 The prediction is based only on a TxGNN model (deep learning) score, with no clinical trials, no literature and no plausible mechanistic link. The target condition is a congenital structural disorder that COX inhibition would not be expected to change. The drug is marketed in New Zealand and naproxen carries a notable cardiovascular, renal and gastrointestinal risk profile.
 
+<!-- review:begin nz-lic-20261106-naproxen-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in New Zealand, with 5 of 5 licences valid, and naproxen carries a notable cardiovascular, renal and gastrointestinal risk profile." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-naproxen-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data confirmed from DrugBank
 - Package insert warnings and contraindications from Medsafe, which are needed for safety screening
 - Any preclinical or clinical evidence linking naproxen to this condition
 - A pregnancy and paediatric safety assessment, given the congenital nature of the target disease
+
+<!-- review:begin nz-lic-20261106-naproxen-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Any preclinical or clinical evidence linking naproxen to this condition / Confirmation of the current New Zealand regulatory and supply status, given that the drug is marketed with 5 of 5 licences valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-naproxen-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "with 5 of 5 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of the current New Zealand regulatory and supply status, given that the drug is marketed with 5 of 5 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

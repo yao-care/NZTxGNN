@@ -70,12 +70,16 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2697610 | Baxter | Trastuzumab deruxtecan | Inj 1 mg for ECP | Yes |
 | 2678276 | Enhertu | Trastuzumab deruxtecan | Inj 100 mg per ml, 1 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

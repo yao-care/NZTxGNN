@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 282
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data"
@@ -92,6 +92,14 @@ Currently no related clinical trials registered.
 
 The five main ones are listed below.
 
+<!-- review:begin nz-lic-20261106-medroxyprogesterone_acetate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Seven licences are currently valid. The five main ones are listed below." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-medroxyprogesterone_acetate-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 271691 | Depo-Provera | Medroxyprogesterone acetate | Inj 150 mg per ml, 1 ml syringe | Yes |
@@ -103,6 +111,8 @@ The five main ones are listed below.
 | 2643987 | Provera | Medroxyprogesterone acetate | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -145,6 +155,18 @@ For warnings and formal contraindications, please refer to the package insert.
 - Package insert warnings and contraindications, for a formal safety review.
 - A breast-safety assessment covering proliferation, density and cancer risk, especially for postmenopausal women.
 - A decision on the preferred formulation and dosing route.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Seven licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

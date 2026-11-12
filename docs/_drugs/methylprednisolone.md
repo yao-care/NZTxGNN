@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,6 +72,14 @@ Currently no related literature available.
 
 Methylprednisolone is marketed in New Zealand. The approved indication text is not recorded in the local data.
 
+<!-- review:begin nz-lic-20261106-methylprednisolone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Methylprednisolone is marketed in New Zealand. All 7 licences are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-methylprednisolone-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 681776 | Medrol | Methylprednisolone | Tab 100 mg | Yes |
@@ -83,6 +91,8 @@ Methylprednisolone is marketed in New Zealand. The approved indication text is n
 | 2454327 | Depo-Medrol | Methylprednisolone acetate | Inj 40 mg per ml, 1 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -105,6 +115,18 @@ The prediction score is very high (0.9999), but there are no clinical trials or 
 - Mechanism of action data to support the mechanistic link
 - Review of the Medsafe package insert for warnings and contraindications
 - Assessment of the risk-benefit balance and a suitable route and dosing approach for a skin-limited condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 7 licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

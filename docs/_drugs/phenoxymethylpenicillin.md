@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PHENOXYMETHYLPENICILLIN"
 predicted_indications: ["epiglottitis", "laryngitis"]
 description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,6 +81,14 @@ For reference, the second-ranked prediction, laryngitis (score 0.9985, evidence 
 
 No approved indication text is available.
 
+<!-- review:begin nz-lic-20261106-phenoxymethylpenicillin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid. No approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-phenoxymethylpenicillin-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2602865 | Cilicaine VK | Phenoxymethylpenicillin (Penicillin V) | Cap 250 mg | Yes |
@@ -89,6 +97,8 @@ No approved indication text is available.
 | 2029227 | AFT | Phenoxymethylpenicillin (Penicillin V) | Grans for oral liq 250 mg per 5 ml | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -113,6 +123,26 @@ The prediction rests on a model score alone, with no clinical trials or literatu
 - Clinical or microbiological evidence supporting use in streptococcal epiglottitis, and a defined role relative to standard parenteral therapy
 - Route compatibility assessment (oral drug versus parenteral requirement)
 - Clarification of regulatory status
+
+<!-- review:begin nz-lic-20261106-phenoxymethylpenicillin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of regulatory status, since all 4 New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-phenoxymethylpenicillin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since all 4 New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

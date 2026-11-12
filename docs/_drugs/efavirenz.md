@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 172
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
@@ -99,6 +99,8 @@ No randomised controlled trials or human studies were identified.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2705508 | TEEVIR | Efavirenz with emtricitabine and tenofovir disoproxil | Tab 600 mg with emtricitabine 200 mg and tenofovi… | Yes |
@@ -107,6 +109,8 @@ No randomised controlled trials or human studies were identified.
 | 2644967 | Viatris | Efavirenz with emtricitabine and tenofovir disoproxil | Tab 600 mg with emtricitabine 200 mg and tenofovi… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,11 +131,30 @@ Please refer to the package insert for label warnings and contraindications.
 **Rationale:**
 The top prediction is a preclinical model of HIV therapy in macaques, not a new human indication, and it has no clinical trials. The other two predictions have only indirect or no evidence.
 
+<!-- review:begin nz-lic-20261031-efavirenz-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The other two predictions have only indirect or no evidence. The only New Zealand licence is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-efavirenz-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - A clear human or veterinary use case, since SIV and feline immunodeficiency are non-human conditions
 - For the neurodevelopmental prediction, mechanistic and preclinical evidence, plus a paediatric neuropsychiatric safety assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

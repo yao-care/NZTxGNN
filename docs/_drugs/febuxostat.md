@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 194
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data"
@@ -89,12 +89,16 @@ Two other predicted indications were also reviewed: partial HPRT deficiency (ran
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2670364 | Febuxostat (Teva) | Febuxostat | Tab 120 mg | Yes |
 | 2670356 | Febuxostat (Teva) | Febuxostat | Tab 80 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,6 +127,25 @@ The evidence is limited to a model prediction, one trial of unconfirmed relevanc
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - Clarification of route compatibility
 - If a different candidate is preferred, a focused evaluation of partial HPRT deficiency or Lesch-Nyhan syndrome, where the mechanism fits better but evidence is limited to case reports
+
+<!-- review:begin nz-lic-20261106-febuxostat-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled New Zealand regulatory status and route compatibility" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-febuxostat-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the cancelled New Zealand regulatory status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

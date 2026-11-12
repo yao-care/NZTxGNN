@@ -81,6 +81,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2527197 | Lanoxin S29 | Digoxin | Oral liq 50 mcg per ml | Yes |
@@ -89,6 +91,8 @@ Currently no related clinical trials registered.
 | 2377012 | Lanoxin PG | Digoxin | Tab 62.5 mcg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tezacaftor: predicted new indication HIV infectious disease (evidence level L5). Approved use: Cystic fibrosis"
 monitor_inn: "tezacaftor"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
@@ -74,6 +74,20 @@ Currently no related literature available.
 
 Approved indication text is not available for any of them.
 
+<!-- review:begin nz-lic-20261106-tezacaftor-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All six authorizations are valid. Approved indication text is not available for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tezacaftor-1 -->
+
+<!-- review:begin nz-lic-20261106-tezacaftor-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth authorization, 2649748 (Trikafta tablet: elexacaftor 50 mg / tezacaftor 25 mg / ivacaftor 37.5 mg, plus ivacaftor 75 mg), is also cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tezacaftor-3 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2726238 | Trikafta | Elexacaftor with tezacaftor, ivacaftor and ivacaftor | Oral granules elexacaftor 100 mg with tezacaftor… | Yes |
@@ -84,6 +98,8 @@ Approved indication text is not available for any of them.
 | 2726203 | Alyftrek | Vanzacaftor with Tezacaftor and Deutivacaftor | Tab vanzacaftor 4 mg with tezacaftor 20 mg and de… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -98,11 +114,32 @@ Please refer to the package insert for warnings and contraindications, as these 
 **Rationale:**
 The HIV prediction is supported only by a model score, with no clinical trials, no literature, and no established mechanistic link.
 
+<!-- review:begin nz-lic-20261106-tezacaftor-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The HIV prediction is supported only by a model score, with no clinical trials, no literature, and no established mechanistic link. In addition, all six New Zealand authorizations are valid and the package insert safety data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tezacaftor-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) to assess any plausible link to HIV
 - Medsafe package insert warnings and contraindications for safety screening
 - Preclinical or in vitro studies testing tezacaftor against HIV
 - Clarification of the New Zealand regulatory status
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All six authorizations are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, all six New Zealand authorizations are valid and the package insert safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A sixth authorization, 2649748 (Trikafta tablet: elexacaftor 50 mg / tezacaftor 25 mg / ivacaftor 37.5 mg, plus ivacaftor 75 mg), is also ca" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

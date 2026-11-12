@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2184362 | Clomazol | Clotrimazole | Crm 1% | Yes |
@@ -80,6 +82,8 @@ Currently no related literature available.
 | 2249634 | Clomazol | Clotrimazole | Vaginal crm 2% with applicators | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -72,12 +72,16 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2204215 | Baxter | Bleomycin sulphate | Inj 1,000 iu for ECP | Yes |
 | 2343207 | DBL Bleomycin Sulfate | Bleomycin sulphate | Inj 15,000 iu, vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

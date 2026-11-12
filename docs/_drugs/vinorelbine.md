@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 483
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -62,6 +62,12 @@ Ewing sarcoma is a highly proliferative bone and soft-tissue tumour with high re
 
 Preclinical work adds support. Microtubule-interfering drugs, including vinorelbine, acted synergistically with a PLK1 inhibitor in inducing apoptosis in Ewing sarcoma cells. However, none of the evidence isolates vinorelbine's contribution in a Ewing sarcoma-specific randomized setting.
 
+<!-- review:begin nz-lic-20261106-vinorelbine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All seven licences are valid and no approved indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-vinorelbine-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -83,6 +89,8 @@ Preclinical work adds support. Microtubule-interfering drugs, including vinorelb
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2651912 | Vinorelbine Te Arai | Vinorelbine | Cap 20 mg | Yes |
@@ -93,6 +101,8 @@ Preclinical work adds support. Microtubule-interfering drugs, including vinorelb
 | 2663260 | Navelbine S29 | Vinorelbine | Inj 10 mg per ml, 5 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -118,11 +128,31 @@ Package insert warnings and contraindications were not available, so please refe
 **Rationale:**
 Ewing sarcoma has the strongest support among the predicted indications. It is backed by completed and ongoing Phase 2 studies and a recent review on the vinorelbine and cyclophosphamide regimen, but the evidence is indirect, mostly from mixed paediatric populations.
 
+<!-- review:begin nz-lic-20261106-vinorelbine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "It is backed by completed and ongoing Phase 2 studies and a recent review on the vinorelbine and cyclophosphamide regimen, but the evidence is indirect, mostly from mixed paediatric populations. The drug is marketed in New Zealand, with all 7 licences valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-vinorelbine-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data
 - Ewing sarcoma-specific efficacy results, such as the outcome of NCT00180947 and the INTER-EWING-1 trial
 - A myelosuppression monitoring plan and review of the clarithromycin interaction for paediatric and young adult patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All seven licences are valid and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with all 7 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

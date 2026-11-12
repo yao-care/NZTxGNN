@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
 description: "Riluzole: predicted new indication Bilateral parasagittal parieto-occipital polymicrogyria (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,11 +72,15 @@ Currently no related literature available for the predicted indication.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 238732 | Rilutek | Riluzole | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -93,12 +97,38 @@ Please refer to the package insert for full warnings. The Medsafe label text was
 **Rationale:**
 The prediction is supported only by a model score, with no trials or literature for this condition. The prediction does not currently justify further development investment.
 
+<!-- review:begin nz-lic-20261031-riluzole-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The prediction is supported only by a model score, with no trials or literature for this condition. The only New Zealand licence is cancelled, and the mechanistic link is speculative." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-riluzole-1 -->
+
 **To proceed, the following is needed:**
 - Systematic literature and trial searches specific to polymicrogyria and riluzole, including preclinical epilepsy or cortical-excitability models
 - Detailed mechanism of action data
 - Medsafe package insert warnings and contraindications for a formal safety review
 - Clarification of the availability of any current supply route
 - Consideration of the closer motor neuron disease candidates (such as Mills syndrome and lower motor neuron syndrome), which have a more plausible rationale but also lack direct evidence
+
+<!-- review:begin nz-lic-20261106-riluzole-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled New Zealand licence status and the availability of any current supply route" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-riluzole-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the mechanistic link is speculative" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled New Zealand licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

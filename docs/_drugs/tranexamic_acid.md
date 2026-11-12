@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 Tranexamic acid is an antifibrinolytic drug. The TxGNN model (deep learning) predicts amenorrhea.
 The TxGNN model predicts it may be useful for **amenorrhea (disease)**, but there are currently **0 clinical trials** and **2 publications** (both reviews), so the evidence is **model prediction with indirect literature support only**.
+
+<!-- review:begin nz-lic-20261106-tranexamic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The TxGNN model (deep learning) predicts amenorrhea, although the New Zealand licence records contain no approved indication text." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tranexamic_acid-1 -->
 
 ---
 
@@ -86,12 +92,16 @@ Both publications are reviews on bleeding management. Neither directly tests tra
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2497174 | Tranexamic-AFT | Tranexamic acid | Inj 100 mg per ml, 10 ml ampoule | Yes |
 | 2574020 | Mercury Pharma | Tranexamic acid | Tab 500 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -122,6 +132,12 @@ Please refer to the package insert for warnings and official contraindications. 
 **Rationale:**
 The prediction rests on a model score and an indirect mechanistic argument. There are no registered trials, and the only literature is two general reviews on bleeding management. The drug is marketed in New Zealand and the dominant concern is thrombotic risk, particularly with concurrent hormonal therapy.
 
+<!-- review:begin nz-lic-20261106-tranexamic_acid-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in New Zealand, with 2 valid licences of 2, and the dominant concern is thrombotic risk, particularly with concurrent hormonal therapy." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tranexamic_acid-2 -->
+
 **To proceed, the following is needed:**
 - Clarify the target indication. Decide whether it is true amenorrhea or menses suppression/prophylaxis (for example in haematology patients), and define the outcome measure.
 - Obtain the package insert from Medsafe to confirm warnings and contraindications. This is a blocking gap for safety screening.
@@ -129,6 +145,27 @@ The prediction rests on a model score and an indirect mechanistic argument. Ther
 - Search for trials or studies of tranexamic acid for menses suppression.
 - Review the thrombotic risk, especially in patients on hormonal therapy.
 - Confirm the regulatory pathway for this indication.
+
+<!-- review:begin nz-lic-20261106-tranexamic_acid-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirm the regulatory pathway for this indication; the drug is marketed in New Zealand with 2 valid licences of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tranexamic_acid-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "although the New Zealand licence records contain no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the drug is marketed in New Zealand with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,14 @@ The manic bipolar affective disorder prediction also has a plausible link (share
 
 ## New Zealand Market Information
 
+<!-- review:begin nz-lic-20261106-lacosamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence (2378388, Vimpat Tab 100 mg) is also valid. All 6 licences are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-lacosamide-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2378388 | Vimpat | Lacosamide | Tab 100 mg | Yes |
@@ -95,6 +103,8 @@ The manic bipolar affective disorder prediction also has a plausible link (share
 | 2378353 | Vimpat | Lacosamide | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -117,6 +127,19 @@ Migraine is the only prediction with multiple completed Phase 2/3 randomized tri
 - Package insert warnings and contraindications from Medsafe, plus detailed mechanism-of-action data
 - A cardiac safety plan (ECG screening and monitoring for conduction disorders, and review of interacting medicines)
 - Confirmation of regulatory and supply pathway
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A sixth licence (2378388, Vimpat Tab 100 mg) is also valid. All 6 licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -48,6 +48,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2695618 | Noriday | Norethisterone | Tab 350 mcg | Yes |
@@ -61,6 +63,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 767700 | Trisequens | Oestradiol with norethisterone | Tab 2 mg with 1 mg norethisterone acetate (10), a… | No |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

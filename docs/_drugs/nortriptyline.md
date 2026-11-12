@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 329
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -66,6 +66,12 @@ The very high TxGNN score is a computational prediction and does not replace cli
 
 Currently no related clinical trials registered.
 
+<!-- review:begin nz-lic-20261106-nortriptyline-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are cancelled, so no nortriptyline product currently holds a valid authorization in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nortriptyline-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -84,12 +90,16 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2710692 | Allegron | Nortriptyline hydrochloride | Tab 10 mg | Yes |
 | 2710706 | Allegron | Nortriptyline hydrochloride | Tab 25 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -106,11 +116,38 @@ Please refer to the package insert for full safety information, as label warning
 **Rationale:**
 Published evidence (one pediatric RCT, a Cochrane review and several observational studies) supports a plausible role in ADHD, but no registered clinical trials exist, and tricyclic cardiovascular risk limits use. Label safety data are missing.
 
+<!-- review:begin nz-lic-20261106-nortriptyline-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "No nortriptyline product is currently authorized in New Zealand, and label safety data are missing." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nortriptyline-2 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Review of the RCT and Cochrane data for effect size and cardiac safety, especially ECG monitoring
 - Comparison against established ADHD treatments (stimulants, atomoxetine, α2-agonists)
+
+<!-- review:begin nz-lic-20261106-nortriptyline-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Comparison against established ADHD treatments (stimulants, atomoxetine, α2-agonists) / Regulatory pathway for supply: the drug is marketed in this country, with 2 valid licences of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-nortriptyline-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are cancelled, so no nortriptyline product currently holds a valid authorization in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "No nortriptyline product is currently authorized in New Zealand, and l" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Regulatory pathway for supply: the drug is marketed in this country, with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

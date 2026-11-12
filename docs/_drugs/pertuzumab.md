@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 359
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: predicted new indication Ectomesenchymoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,6 +92,8 @@ Roughly half of HER2-positive breast cancers also express oestrogen and/or proge
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2444208 | Perjeta | Pertuzumab | Inj 30 mg per ml, 14 ml vial | Yes |
@@ -100,6 +102,8 @@ Roughly half of HER2-positive breast cancers also express oestrogen and/or proge
 | 2649373 | Phesgo | Pertuzumab with trastuzumab | Inj 600 mg with trastuzumab 600 mg, 10 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -138,7 +142,26 @@ Pertuzumab has a strong evidence base in HER2-positive breast cancer, including 
 - Clarification of the regulatory path in New Zealand
 - A cardiac monitoring plan for combination use
 
+<!-- review:begin nz-lic-20261106-pertuzumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory path in New Zealand, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pertuzumab-1 -->
+
 **Other predictions (brief note):** The remaining predictions are weaker. "Breast tumor luminal A or B" (L2) is relevant only to the HER2-positive luminal B subset and has no linked trials. "Progesterone-receptor negative breast cancer" has supporting evidence (L1, Proceed with Guardrails), similar to the PR-positive entry. The other seven predictions, including normal breast-like subtype, ectomesenchymoma and the urothelial carcinomas, have no clinical or literature evidence and no clear HER2-dependent mechanism, so they are rated Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

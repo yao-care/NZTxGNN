@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Propylene Glycol: predicted new indication Bronchitis (evidence level L5). Approved use: Dry eye syndrome, xerophthalmia"
 monitor_inn: "PROPYLENE GLYCOL"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "tetanic cataract", "immature cataract", "craniostenosis cataract"]
@@ -86,12 +86,16 @@ Currently no related clinical trials registered for bronchitis.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2177447 | Midwest | Propylene glycol | Liq | Yes |
 | 2718634 | Systane Unit Dose | Polyethylene glycol 400 and propylene glycol | Eye drops 0.4% and propylene glycol 0.3%, 0.8 ml | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -108,11 +112,30 @@ Please refer to the package insert for safety information.
 **Rationale:**
 The bronchitis prediction rests only on a high model score. No trials support it, and the available literature points to potential airway irritation rather than benefit.
 
+<!-- review:begin nz-lic-20261106-propylene_glycol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "No trials support it, and the available literature points to potential airway irritation rather than benefit. The only New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-propylene_glycol-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible biological rationale for respiratory use
 - Package insert warnings and contraindications (currently missing and blocking safety screening)
 - Direct clinical or preclinical evidence of benefit in bronchitis, including inhalation safety data
 - Review of the other predicted indications, none of which have direct evidence. Diabetic retinopathy has only indirect evidence: a post-injection pain trial in which artificial tears were a comparator, and a study of a different compound, propylene glycol mannate sulfate.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

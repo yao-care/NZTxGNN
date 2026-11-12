@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tolcapone: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease (and related parkinsonian syndromes)"
 monitor_inn: "TOLCAPONE"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "X-linked intellectual disability-cerebellar hypoplasia syndrome", "paralysis agitans, juvenile, of Hunt"]
@@ -74,11 +74,15 @@ Currently no related literature available for Rasmussen subacute encephalitis.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 487236 | Tasmar | Tolcapone | Tab 100 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -94,11 +98,37 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 The prediction rests on a model score only, with no clinical trials, no literature and no plausible mechanistic link between COMT inhibition and Rasmussen encephalitis. Its hepatotoxicity profile raises the bar for any new use.
 
+<!-- review:begin nz-lic-20261106-tolcapone-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Tolcapone is also no longer actively authorized in New Zealand, and its hepatotoxicity profile raises the bar for any new use." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tolcapone-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (Medsafe) to enable safety screening
 - Detailed mechanism of action data (e.g., from DrugBank)
 - A mechanistic rationale and preclinical evidence linking COMT inhibition to Rasmussen encephalitis
 - Consideration of Lewy body dementia as a more biologically plausible candidate for further investigation as a research question
+
+<!-- review:begin nz-lic-20261031-tolcapone-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Consideration of Lewy body dementia as a more biologically plausible candidate for further investigation as a research question / Clarification of the New Zealand regulatory pathway, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-tolcapone-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the New Zealand regulatory pathway, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Tolcapone is also no longer actively authorized in New Zealand, and i" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

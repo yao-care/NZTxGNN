@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluoxetine: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Relations recorded in the knowledge graph: major depressive disorder…"
 ---
 
@@ -81,9 +81,17 @@ Currently no related clinical trials registered.
 
 Neither publication directly studies fluoxetine in schizoid personality disorder, which is why the evidence level is L5 and not higher.
 
+<!-- review:begin nz-lic-20261106-fluoxetine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fluoxetine-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -91,6 +99,8 @@ Neither publication directly studies fluoxetine in schizoid personality disorder
 | 2618575 | Fluox | Fluoxetine hydrochloride | Tab dispersible 20 mg, scored | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,6 +130,19 @@ The prediction rests on a model score alone. There are no registered trials and 
 - A review of the Medsafe package insert for warnings and contraindications
 - Mechanism-of-action data to support a disorder-specific rationale
 - Confirmation of the approved indications on the two New Zealand licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are valid single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -71,12 +71,16 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2574004 | Buprenorphine Naloxone BNM | Buprenorphine with naloxone | Tab sublingual 2 mg with naloxone 0.5 mg | Yes |
 | 2574012 | Buprenorphine Naloxone BNM | Buprenorphine with naloxone | Tab sublingual 8 mg with naloxone 2 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RIZATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -87,6 +87,8 @@ The hemiplegic migraine study (PMID 17718700) is the closest to this subtype, bu
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2394634 | Rizamelt | Rizatriptan | Tab orodispersible 10 mg | Yes |
@@ -94,6 +96,8 @@ The hemiplegic migraine study (PMID 17718700) is the closest to this subtype, bu
 | 2733145 | Rizatriptan Rising | Rizatriptan | Tab orodispersible 10 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -109,11 +113,30 @@ Package insert warnings and contraindications were not available, so please refe
 **Rationale:**
 The prediction rests on model output and class pharmacology alone, with no trials and no subtype-specific literature. Triptans carry a long-standing caution in brainstem aura and hemiplegic migraine because of posterior-circulation vasoconstriction.
 
+<!-- review:begin nz-lic-20261106-rizatriptan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Triptans carry a long-standing caution in brainstem aura and hemiplegic migraine because of posterior-circulation vasoconstriction. The only New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rizatriptan-1 -->
+
 **To proceed, the following is needed:**
 - The Medsafe package insert, to review warnings and contraindications. This is currently a blocking gap.
 - Mechanism of action data from DrugBank.
 - A focused review of safety data for triptans in brainstem aura and hemiplegic migraine, including current guideline positions.
 - Any prospective or registry data on rizatriptan in this subtype, followed by a decision on whether a clinical study is justified.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

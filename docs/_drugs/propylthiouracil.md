@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 392
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PROPYLTHIOURACIL"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
@@ -78,11 +78,15 @@ None of these studies tests PTU as a treatment for RTHβ.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2010526 | PTU | Propylthiouracil | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -105,11 +109,23 @@ Please refer to the package insert for label warnings and contraindications.
 **Rationale:**
 The prediction rests on a model score alone (L4). No clinical trials exist, the literature consists of mouse models and case reports that do not test PTU, and the mechanism suggests a risk of raising TSH and worsening goitre.
 
+<!-- review:begin nz-lic-20261031-propylthiouracil-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "No clinical trials exist, the literature consists of mouse models and case reports that do not test PTU, and the mechanism suggests a risk of raising TSH and worsening goitre. The only New Zealand licence is cancelled, and the package insert safety data have not been obtained." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-propylthiouracil-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Clinical evidence that PTU benefits RTHβ patients, and an assessment of the TSH-rise risk
 - A review of the hepatotoxicity risk and of New Zealand supply options
+
+<!-- review:begin nz-lic-20261106-propylthiouracil-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A review of the hepatotoxicity risk and of New Zealand supply options; the drug is marketed, with 1 valid licence of 1" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-propylthiouracil-2 -->
 
 ---
 
@@ -118,6 +134,20 @@ The prediction rests on a model score alone (L4). No clinical trials exist, the 
 Two further predictions were also reviewed:
 
 - **Hyperthyroxinemia** (TxGNN score 0.9908, L4, recommendation: Hold). This is a non-specific laboratory finding, and benefit depends on the cause. Lowering hormone would be inappropriate in familial dysalbuminemic hyperthyroxinemia, where patients are euthyroid. Evidence is limited to animal studies, case reports and observational reports, with no trials.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the package insert safety data have not been obtained" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the drug is marketed, with 1 valid licence of 1" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

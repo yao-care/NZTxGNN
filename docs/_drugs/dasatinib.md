@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -62,6 +62,12 @@ In Ewing sarcoma cell lines, SRC and the FAK-Src axis drive invadopodia formatio
 
 Clinical results are less encouraging. A review notes that single-agent dasatinib failed in the Ewing sarcoma and rhabdomyosarcoma subtypes in a Phase 2 study (PMID 35655525). Any future role would more likely be in combination regimens, such as the RIST regimen (rapamycin, irinotecan, dasatinib, temozolomide).
 
+<!-- review:begin nz-lic-20261106-dasatinib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-dasatinib-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -83,6 +89,8 @@ Clinical results are less encouraging. A review notes that single-agent dasatini
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2679612 | Dasatinib-Teva | Dasatinib | Tab 20 mg | Yes |
@@ -90,6 +98,8 @@ Clinical results are less encouraging. A review notes that single-agent dasatini
 | 2679639 | Dasatinib-Teva | Dasatinib | Tab 70 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -120,6 +130,18 @@ Mechanistic and preclinical support for SRC inhibition in Ewing sarcoma is reaso
 - A prospective trial of a dasatinib-containing combination in relapsed Ewing sarcoma
 - Package insert safety information (warnings and contraindications) and detailed mechanism of action data
 - A cardiac and haematological monitoring plan, plus a review of acid-suppressant co-medication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

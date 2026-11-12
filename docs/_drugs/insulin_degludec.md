@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 Insulin degludec (supplied in New Zealand as the degludec/insulin aspart 70/30 co-formulation, Ryzodeg) is an ultra-long-acting insulin analogue originally used for diabetes mellitus and diabetic ketoacidosis.
 This is essentially an established, on-label use of the drug rather than true repurposing.
+
+<!-- review:begin nz-lic-20261106-insulin_degludec-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is essentially an established, on-label use of the drug rather than true repurposing, and the only New Zealand authorization on record is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-insulin_degludec-1 -->
 
 ---
 
@@ -107,11 +113,15 @@ Several additional Phase 1 pharmacodynamic studies and real-world surveillance s
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2704471 | Ryzodeg 70/30 Penfill | Insulin degludec with insulin aspart | Inj degludec 70 u with insulin aspart 30 u, 100 u… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -137,12 +147,39 @@ Please refer to the package insert for warnings and contraindications. Package i
 **Rationale:**
 Multiple completed Phase 3 randomised trials and several systematic reviews support insulin degludec in type 1 diabetes, so the evidence level is L1. However, this is an established use rather than new repurposing. Safety label information and mechanism of action data are also missing.
 
+<!-- review:begin nz-lic-20261106-insulin_degludec-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, this is an established use rather than new repurposing, and the only New Zealand authorization for the Ryzodeg product is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-insulin_degludec-2 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data, for example from DrugBank
 - Confirmation of the current New Zealand regulatory pathway
 - Verification of the comparator in NCT05463744 against the registry record
 - A glucose-monitoring and hypoglycaemia plan, with attention to the moderate interactions listed above
+
+<!-- review:begin nz-lic-20261106-insulin_degludec-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of the current New Zealand regulatory pathway, since the Ryzodeg licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-insulin_degludec-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the only New Zealand authorization on record is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the only New Zealand authorization for the Ryzodeg product is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since the Ryzodeg licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

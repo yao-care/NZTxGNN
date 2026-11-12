@@ -87,6 +87,8 @@ Historical reports from the 1950s to 1970s describe hair regrowth after intrales
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2646587 | Ethics | Hydrocortisone | Crm 1% | Yes |
@@ -109,6 +111,8 @@ Historical reports from the 1950s to 1970s describe hair regrowth after intrales
 | 260282 | Pimafucort | Hydrocortisone with natamycin and neomycin | Oint 1% with natamycin 1% and neomycin sulphate 0… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -78,15 +78,25 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin nz-lic-20261106-dipyridamole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One licence is valid, for a single-ingredient product." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-dipyridamole-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2710919 | Dipyridamole - Strides | Dipyridamole | Cap modified-release 200 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -112,6 +122,18 @@ The prediction is supported only by a model score, with no trials or publication
 - Mechanism of action data
 - Package insert warnings and contraindications from Medsafe
 - A cardiac safety assessment, focused on bradyarrhythmia, before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One licence is valid, for a single-ingredient product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

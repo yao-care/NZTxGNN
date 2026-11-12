@@ -78,6 +78,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2539144 | Ciprofloxacin Teva | Ciprofloxacin | Eye drops 0.3% | Yes |
@@ -86,6 +88,8 @@ Currently no related clinical trials registered.
 | 2676893 | Ipca-Ciprofloxacin | Ciprofloxacin | Tab 750 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

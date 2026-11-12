@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 232
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -85,6 +85,8 @@ The most relevant publications for ADHD are listed below.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2015269 | Tofranil | Imipramine hydrochloride | Tab 10 mg | Yes |
@@ -93,6 +95,8 @@ The most relevant publications for ADHD are listed below.
 | 2669692 | Imipramine Crescent | Imipramine hydrochloride | Tab 25 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,6 +118,12 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
 **Rationale:**
 The mechanistic rationale is plausible and older literature includes imipramine use in ADHD, but there are no registered trials and the evidence is mostly old, small or review-level. Cardiac safety concerns in children, newer alternatives with better safety profiles.
 
+<!-- review:begin nz-lic-20261106-imipramine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Cardiac safety concerns in children, newer alternatives with better safety profiles, and the cancelled status of all four New Zealand licences all argue against moving forward now." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-imipramine-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (currently missing, which blocks safety screening)
 - Mechanism of action data from DrugBank
@@ -124,6 +134,19 @@ The mechanistic rationale is plausible and older literature includes imipramine 
 **Other predicted indications (for reference):**
 - Obsessive-compulsive disorder (score 0.9901, L3, Research Question): imipramine is not an established OCD therapy. A 1985 comparison found clomipramine generally superior, and the standard of care is SSRIs, clomipramine and CBT.
 - ADHD inattentive type, faciodigitogenital syndrome, specific developmental disorder, chondromyxoid fibroma and benign paroxysmal torticollis of infancy: Hold, with no direct supporting evidence or only indirect literature.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the cancelled status of all four New Zealand licences all argue against moving forward now" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

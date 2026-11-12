@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Taliglucerase Alfa: predicted new indication Hurler syndrome (evidence level L5). Approved use: Gaucher disease"
 monitor_inn: "TALIGLUCERASE ALFA"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
@@ -80,11 +80,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2541106 | Elelyso | Taliglucerase alfa | Inj 200 unit vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -97,12 +101,38 @@ Please refer to the package insert for safety information. No drug interaction r
 **Rationale:**
 The prediction has no supporting clinical or literature evidence (L5), and the proposed mechanism does not hold up: glucocerebrosidase does not act on the glycosaminoglycans that accumulate in Hurler syndrome.
 
+<!-- review:begin nz-lic-20261031-taliglucerase_alfa-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The prediction has no supporting clinical or literature evidence (L5), and the proposed mechanism does not hold up: glucocerebrosidase does not act on the glycosaminoglycans that accumulate in Hurler syndrome. The only New Zealand licence is cancelled, and safety data are missing." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-taliglucerase_alfa-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank
 - Package insert warnings and contraindications from Medsafe (currently a blocking gap for safety screening)
 - Preclinical evidence showing that glucocerebrosidase has any effect on MPS I substrates or outcomes
 - Consideration of established alternatives, since approved enzyme replacement therapies already exist for MPS I and for cholesteryl ester storage disease
 - Clarification of the New Zealand supply status
+
+<!-- review:begin nz-lic-20261106-taliglucerase_alfa-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the New Zealand supply status given the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-taliglucerase_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "given the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

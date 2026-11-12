@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ACETAZOLAMIDE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acetazolamide: predicted new indication exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -42,6 +42,12 @@ Acetazolamide is a carbonic anhydrase inhibitor.
 The TxGNN model predicts it may be relevant to **exercise-induced malignant hyperthermia**, with a score of 0.9995.
 No clinical trials or publications were found for this disease, so the prediction rests on the model alone.
 
+<!-- review:begin nz-lic-20261106-acetazolamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Acetazolamide is a carbonic anhydrase inhibitor that has a single local licence record in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-acetazolamide-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -70,11 +76,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2670801 | Medsurge | Acetazolamide | Tab 250 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -101,6 +111,19 @@ The model score is very high, but there are no clinical trials or publications f
 - Preclinical or case-level evidence addressing this disease directly
 - Package insert warnings and contraindications for safety screening
 - Confirmation of the current licence status and approved indication in New Zealand
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "that has a single local licence record in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

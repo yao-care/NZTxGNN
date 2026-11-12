@@ -69,6 +69,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2669617 | Miro-Amoxicillin | Amoxicillin | Cap 250 mg | Yes |
@@ -83,6 +85,8 @@ Currently no related literature available.
 | 2602121 | Curam Duo 500/125 | Amoxicillin with clavulanic acid | Tab 500 mg with clavulanic acid 125 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

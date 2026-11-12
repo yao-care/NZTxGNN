@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Amiloride: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 344710 | Biomed | Amiloride hydrochloride | Oral liq 1 mg per ml | Yes |
@@ -80,7 +82,15 @@ Currently no related literature available.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The available forms are 5 mg tablets and a 1 mg/mL oral liquid.
+
+<!-- review:begin nz-lic-20261106-amiloride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Amiloride is marketed in New Zealand, with 3 valid licences. The available forms are 5 mg tablets and a 1 mg/mL oral liquid. The licence records carry no indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-amiloride-1 -->
 
 ## Safety Considerations
 
@@ -98,6 +108,19 @@ The prediction is supported only by the TxGNN score (0.9982). No trials or publi
 - Detailed mechanism of action data
 - A literature and trial search specific to amiloride in malignant hypertension and hypertensive kidney injury
 - A hyperkalaemia and renal function risk assessment for this population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Amiloride is marketed in New Zealand, with 3 valid licences. The licence records carry no indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

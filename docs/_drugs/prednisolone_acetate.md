@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
 description: "Prednisolone Acetate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -113,6 +113,8 @@ Most of these publications concern other corticosteroids (loteprednol) or other 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 317659 | Redipred | Prednisolone | Oral liq 5 mg per ml | Yes |
@@ -121,6 +123,8 @@ Most of these publications concern other corticosteroids (loteprednol) or other 
 | 307475 | Minims Prednisolone | Prednisolone sodium phosphate | Eye drops 0.5%, single dose (preservative free) | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Only the ophthalmic route (eye drops 1%) is on record.
 
@@ -148,6 +152,25 @@ The top prediction, chronic follicular conjunctivitis, rests on the model score 
 - Direct clinical evidence for prednisolone acetate in chronic follicular conjunctivitis, or in papillary or vernal conjunctivitis
 - Clarification of the approved indication text, to confirm that a marketed product is available
 - A safety plan for steroid-induced IOP elevation and for ruling out infectious causes before use
+
+<!-- review:begin nz-lic-20261106-prednisolone_acetate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled licence status and the approved indication text, to confirm that a marketed product is available" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-prednisolone_acetate-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the cancelled licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

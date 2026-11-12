@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Exemestane: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not stated in the available licence data"
 monitor_inn: "EXEMESTANE"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
@@ -88,11 +88,15 @@ No literature is available for the top-ranked indication, antithrombin deficienc
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2500647 | Pfizer Exemestane | Exemestane | Tab 25 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -118,11 +122,30 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 All predictions are supported only by the model score, with no clinical trials. The one set of literature, for amenorrhea, is indirect and reverses the repurposing logic. No plausible mechanistic link was found for the leading thrombophilia predictions, and estrogen deprivation could even be harmful.
 
+<!-- review:begin nz-lic-20261031-exemestane-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "No plausible mechanistic link was found for the leading thrombophilia predictions, and estrogen deprivation could even be harmful. The only New Zealand licence is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-exemestane-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications
 - Mechanism-of-action data from DrugBank
 - Any mechanistic or preclinical evidence linking aromatase inhibition to antithrombin function, or a re-evaluation of whether a more plausible indication should be prioritised
 - A thromboembolic safety review, given the thrombophilia-related predictions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

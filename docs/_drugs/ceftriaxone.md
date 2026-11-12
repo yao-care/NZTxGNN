@@ -75,12 +75,16 @@ None of these publications tests ceftriaxone as a treatment for hyperamylasemia.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2428644 | Ceftriaxone-AFT | Ceftriaxone | Inj 1 g vial | Yes |
 | 2400820 | Ceftriaxone-AFT | Ceftriaxone | Inj 500 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

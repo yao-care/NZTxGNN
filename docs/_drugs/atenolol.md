@@ -82,6 +82,8 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2403366 | Atenolol AFT | Atenolol | Oral liq 25 mg per 5 ml | Yes |
@@ -89,6 +91,8 @@ Currently no related literature available for malignant hypertensive renal disea
 | 2627140 | Viatris | Atenolol | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

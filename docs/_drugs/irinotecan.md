@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 242
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Irinotecan"
 predicted_indications: ["female breast carcinoma"]
 description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -61,6 +61,12 @@ The strongest mechanistic support comes from sacituzumab govitecan, an anti-Trop
 
 Earlier literature describes irinotecan as having only marginal activity in breast cancer, with a rationale for sequential use with mitomycin, which upregulates topoisomerase I. The TxGNN score is a computational prediction, not clinical evidence.
 
+<!-- review:begin nz-lic-20261106-irinotecan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five authorizations are valid, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-irinotecan-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -92,6 +98,8 @@ Earlier literature describes irinotecan as having only marginal activity in brea
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2204142 | Baxter | Irinotecan hydrochloride | Inj 1 mg for ECP | Yes |
@@ -101,6 +109,8 @@ Earlier literature describes irinotecan as having only marginal activity in brea
 | 2621177 | Accord | Irinotecan hydrochloride | Inj 20 mg per ml, 5 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -126,10 +136,30 @@ Package insert warnings and contraindications could not be retrieved, so please 
 **Rationale:**
 The evidence consists of small Phase 1 studies and indirect data from SN-38 antibody-drug conjugates, with no Phase 3 results for irinotecan in breast cancer. Irinotecan has also been described as having only marginal activity in this disease. At this stage it is a research question rather than an actionable repurposing candidate.
 
+<!-- review:begin nz-lic-20261106-irinotecan-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Irinotecan has also been described as having only marginal activity in this disease. The drug is marketed in New Zealand, with all 5 licences valid, but package insert safety data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-irinotecan-2 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Results of the PHENOMENAL Phase 2 study and any randomised data on irinotecan or liposomal irinotecan in breast cancer
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five authorizations are valid, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with all 5 licences valid, but package insert safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

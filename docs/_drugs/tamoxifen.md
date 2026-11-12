@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -93,12 +93,16 @@ Mammary Paget disease is frequently associated with underlying ductal carcinoma 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2556944 | Tamoxifen Sandoz | Tamoxifen citrate | Tab 10 mg | Yes |
 | 2556952 | Tamoxifen Sandoz | Tamoxifen citrate | Tab 20 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -133,6 +137,24 @@ The Paget disease prediction rests on case reports and a plausible hormone-recep
 - Package insert warnings and contraindications (from Medsafe), which are a blocking gap for safety screening
 - Detailed mechanism of action data
 - Prospective or at least well-designed retrospective data on tamoxifen in hormone-receptor-positive mammary Paget disease
+
+<!-- review:begin nz-lic-20261106-tamoxifen-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Prospective or at least well-designed retrospective data on tamoxifen in hormone-receptor-positive mammary Paget disease / Clarification of the regulatory pathway, given that both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tamoxifen-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

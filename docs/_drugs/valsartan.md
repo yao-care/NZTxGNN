@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -42,6 +42,12 @@ Valsartan is an angiotensin II receptor blocker.
 The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**, with a score of 0.9997.
 No clinical trials directly study this use, and the only publication retrieved examines a different drug in a preclinical model, so evidence is at the model-prediction level.
 
+<!-- review:begin nz-lic-20261106-valsartan-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Valsartan is an angiotensin II receptor blocker. In New Zealand it is currently licensed within sacubitril/valsartan combination products." Removed: it described the products as single-ingredient or combination products in a way that did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-valsartan-2 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -74,6 +80,14 @@ Currently no related clinical trials registered.
 
 The licences below are for sacubitril/valsartan combination products. They do not describe the approval of valsartan as a single ingredient.
 
+<!-- review:begin nz-lic-20261106-valsartan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-valsartan-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2554720 | Entresto 24/26 | Sacubitril with valsartan | Tab 24.3 mg with valsartan 25.7 mg | Yes |
@@ -81,6 +95,8 @@ The licences below are for sacubitril/valsartan combination products. They do no
 | 2554747 | Entresto 97/103 | Sacubitril with valsartan | Tab 97.2 mg with valsartan 102.8 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -102,6 +118,19 @@ The evidence level is L5. No study in the compiled data tests valsartan in malig
 - Detailed mechanism of action data for valsartan
 - Package insert warnings and contraindications from Medsafe, to enable a safety screen
 - A kidney and potassium monitoring plan, given the major potassium-related interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In New Zealand it is currently licensed within sacubitril/valsartan combination products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

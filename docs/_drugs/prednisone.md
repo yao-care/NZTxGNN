@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 379
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L3). Approved use: Not recorded in the local data"
@@ -93,6 +93,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2608715 | Prednisone Clinect | Prednisone | Tab 1 mg | Yes |
@@ -101,6 +103,8 @@ Currently no related clinical trials registered.
 | 2608731 | Prednisone Clinect | Prednisone | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -111,6 +115,12 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
   - **Moderate**: zidovudine, isotretinoin, acarbose, acebutolol, acetazolamide, ketorolac, ibuprofen, nifedipine, ethinylestradiol, butalbital, albiglutide, aldesleukin, alefacept, alemtuzumab, aliskiren, tetanus toxoid vaccine, abametapir (topical).
   - **Minor**: formoterol, salbutamol.
 - **Reported adverse effects in alopecia areata**: Older follow-up data describe acne, obesity, lens opacities and mild hypertension. Relapse after stopping is also reported.
+
+<!-- review:begin nz-lic-20261106-prednisone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-prednisone-1 -->
 
 Please refer to the package insert for the full warnings and contraindications.
 
@@ -129,6 +139,18 @@ The evidence includes two randomised trials and several cohort and case series i
 - Confirmation of the design and results of the randomised trials
 - A defined role for low-dose prednisone, for example as an add-on to methotrexate or baricitinib, with a limited treatment duration
 - A relapse and steroid-toxicity monitoring plan, including blood pressure, glucose, eye and bone health
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four licences are valid single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LARONIDASE"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase: predicted new indication Sanfilippo syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,11 +82,15 @@ None of the retrieved publications studies Sanfilippo syndrome directly. They co
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2398362 | Aldurazyme | Laronidase | Inj 100 U per ml, 5 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +112,18 @@ The prediction rests only on a model score. No trials or publications address Sa
 - Evidence on whether a central nervous system-targeted delivery approach could be feasible
 - Mechanism of action data
 - Warnings and contraindications from the New Zealand package insert
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The available literature is limited to reviews, an in vitro study and a single case report, and the only licence in New Zealand is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

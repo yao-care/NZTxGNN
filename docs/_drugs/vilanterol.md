@@ -111,6 +111,8 @@ The compiled data contain 20 publications. The table lists the 10 most relevant,
 
 The approved indication text is not available for any of them.
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2674904 | Trelegy Ellipta | Fluticasone furoate with umeclidinium and vilanterol | Powder for inhalation fluticasone furoate 100 mcg… | Yes |
@@ -118,6 +120,8 @@ The approved indication text is not available for any of them.
 | 2494272 | Anoro Ellipta | Umeclidinium with vilanterol | Powder for inhalation 62.5 mcg with vilanterol 25… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
@@ -70,6 +70,14 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- review:begin nz-lic-20261106-haloperidol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Six licences were found; the five main ones are shown below. All six are cancelled, and none lists an approved-indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-haloperidol-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 254258 | Serenace | Haloperidol | Inj 5 mg per ml, 1 ml ampoule | Yes |
@@ -83,6 +91,8 @@ Currently no related literature available.
 | 714615 | Haldol | Haloperidol decanoate | Inj 50 mg per ml, 1 ml | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -101,7 +111,27 @@ The prediction rests only on a model score, with no clinical trials, no literatu
 - Preclinical evidence (for example, cell or animal models of fucosylation defects) showing a plausible benefit
 - Package insert warnings and contraindications, which are currently missing and block formal safety screening
 
+<!-- review:begin nz-lic-20261106-haloperidol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications, which are currently missing and block formal safety screening / Confirmation of local product availability, since the drug is marketed in New Zealand with 6 valid licences out of 6" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-haloperidol-2 -->
+
 It has supporting Phase 3 trials and network meta-analyses and is rated "Proceed with Guardrails". However, the supplied trials mostly test other drugs, with haloperidol as a comparator in only one. It is an on-class extension of existing antipsychotic use rather than a true repurposing. If the team wants to advance a candidate, that indication would be the more evidence-supported one to review separately.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Six licences were found; the five main ones are shown below. All six are cancelled, and none lists an approved-indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of local product availability, since the drug is marketed in New Zealand with 6 valid licences out of 6" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

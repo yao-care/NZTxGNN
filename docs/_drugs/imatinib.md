@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -106,12 +106,16 @@ The only publication linked to heart fibrosarcoma is a general review. The remai
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2594315 | Imatinib-Rex | Imatinib mesilate | Cap 100 mg | Yes |
 | 2594323 | Imatinib-Rex | Imatinib mesilate | Cap 400 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -145,6 +149,12 @@ Please refer to the package insert for full safety information.
 **Rationale:**
 The top-ranked prediction, heart fibrosarcoma, has a very high model score but no trials, one general review, and no cardiac-specific data, so it is L5. The best-supported direction is the DFSP/fibroblastic neoplasm group, where imatinib is already an established indication, and mixed-sarcoma trials give limited support for liposarcoma. Both remain research questions rather than actionable repurposing. Package insert safety data are missing, a blocking gap for safety screening.
 
+<!-- review:begin nz-lic-20261106-imatinib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The New Zealand licences are cancelled, and package insert safety data are missing, a blocking gap for safety screening." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-imatinib-1 -->
+
 **To proceed, the following is needed:**
 - Download and review the Medsafe package insert for warnings and contraindications (blocking gap).
 - Mechanism of action data (for example from DrugBank).
@@ -152,6 +162,26 @@ The top-ranked prediction, heart fibrosarcoma, has a very high model score but n
 - Subgroup results from the mixed-sarcoma trials (NCT00031915, NCT00006357, NCT00154388) for liposarcoma and fibrosarcoma.
 - Clarification of whether any imatinib product is currently supplied in New Zealand.
 - A safety monitoring plan covering cardiac, hepatic, haematological and fluid-retention risks, plus a drug-interaction review.
+
+<!-- review:begin nz-lic-20261106-imatinib-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of why the licences were cancelled and whether any imatinib product is currently supplied in New Zealand." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-imatinib-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The New Zealand licences are cancelled, and p" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "why the licences were cancelled and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

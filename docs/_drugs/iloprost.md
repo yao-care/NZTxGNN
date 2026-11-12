@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Iloprost: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Pulmonary arterial hypertension"
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
@@ -94,12 +94,16 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2643006 | Vebulis | Iloprost | Nebuliser soln 10 mcg per ml, 2 ml | Yes |
 | 2722186 | Vebulis S29 | Iloprost | Nebuliser soln 10 mcg per ml, 2 ml | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -126,12 +130,31 @@ Please refer to the package insert for warnings and formal contraindications.
 **Rationale:**
 The data compiled for this report show that the best-supported prediction, PAH associated with congenital heart disease, rests on small observational studies, one pilot crossover study and reviews, with no registered trials. It also largely falls within the original PAH indication. The highest-scoring prediction (hypotrichosis simplex of the scalp) is a model prediction only.
 
+<!-- review:begin nz-lic-20261106-iloprost-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "It also largely falls within the original PAH indication. Iloprost's New Zealand authorizations are both cancelled, so there is no currently marketed product." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-iloprost-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data
 - Medsafe package insert warnings and contraindications, which are needed before safety screening
 - Confirmation of whether any iloprost product can be supplied in New Zealand
 - Controlled trial evidence in CHD-PAH or Eisenmenger syndrome populations
 - For the non-PAH predictions (hair disorders, pulmonary arteriovenous malformation), any supporting preclinical or clinical evidence, plus a safety assessment for pulmonary arteriovenous malformation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Iloprost's New Zealand authorizations are both cancelled, so there is no currently marketed product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

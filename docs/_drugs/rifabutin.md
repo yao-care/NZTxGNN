@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RIFABUTIN"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Rifabutin: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,11 +94,21 @@ No listed trial tests rifabutin as an anti-HIV treatment. The trials below are t
 
 ## New Zealand Market Information
 
+<!-- review:begin nz-lic-20261106-rifabutin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The market status is marketed. One licence is on record and it is valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rifabutin-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 219924 | Mycobutin | Rifabutin | Cap 150 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -127,6 +137,18 @@ Package-insert warnings and contraindications were not available in the data com
 - Package-insert warnings and contraindications from Medsafe.
 - Mechanism-of-action data from DrugBank.
 - A drug-interaction management plan (dose adjustment and drug-level monitoring) for protease inhibitors, cabotegravir/rilpivirine and other antiretrovirals, with monitoring for neutropenia, uveitis and hepatotoxicity.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The market status is marketed. One licence is on record and it is valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

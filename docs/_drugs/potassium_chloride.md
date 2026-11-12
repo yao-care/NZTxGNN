@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 373
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
@@ -69,6 +69,12 @@ Currently no related clinical trials registered.
 
 The publications are mostly case reports, reviews and cohort studies. No RCTs were found. The table lists the most relevant ones.
 
+<!-- review:begin nz-lic-20261106-potassium_chloride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One further cancelled injection licence (2678942, LumaCina) is also on record." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-potassium_chloride-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [38445406](https://pubmed.ncbi.nlm.nih.gov/38445406/) | 2023 | Cohort (genotype-phenotype) | La Tunisie medicale | Distal RTA is a rare genetic disorder with hyperchloraemic metabolic acidosis, hypokalaemia and nephrocalcinosis |
@@ -84,6 +90,8 @@ The publications are mostly case reports, reviews and cohort studies. No RCTs we
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2593785 | Juno | Potassium chloride | Inj 75 mg per ml, 10 ml | Yes |
@@ -97,6 +105,8 @@ The publications are mostly case reports, reviews and cohort studies. No RCTs we
 | 2718332 | Molaxole | Macrogol 3350 with potassium chloride, sodium bicarbonate a… | Powder for oral soln 13.125 g with potassium chlo… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -120,6 +130,19 @@ Evidence is limited to model prediction, case reports and reviews (L4), with no 
 - Mechanism of action data from DrugBank
 - Comparative evidence of potassium chloride versus potassium citrate or bicarbonate in RTA
 - A safety plan for patients with renal impairment, nephrocalcinosis, or those taking potassium-raising drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One further cancelled injection licence (2678942, LumaCina) is also on record" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,6 +72,8 @@ The TxGNN model produced candidates for Sumatriptan with a score of 0.99 or high
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2647958 | Clustran | Sumatriptan | Inj 12 mg per ml, 0.5 ml prefilled pen | Yes |
@@ -81,6 +83,8 @@ The TxGNN model produced candidates for Sumatriptan with a score of 0.99 or high
 | 2733862 | Sumatriptan Viatris | Sumatriptan | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -65,6 +65,12 @@ The related condition **trigeminal neuralgia** (rank 9, score 0.9997) is much be
 
 Currently no related clinical trials registered.
 
+<!-- review:begin nz-lic-20261106-phenytoin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Phenytoin is currently marketed in New Zealand, and all 5 of the 5 licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-phenytoin-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -73,6 +79,8 @@ Currently no related clinical trials registered.
 | [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case series | An Esp Pediatr | Experience with 14 cases of Sturge-Weber syndrome (clinical features, course, treatment response). Not about neoplasm. |
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -83,6 +91,8 @@ Currently no related clinical trials registered.
 | 2619474 | Dilantin Infatab | Phenytoin sodium | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +118,12 @@ For drug interactions, the only entry is pharmacological (target: Nav1.2 / SCN2A
 **Rationale:**
 The prediction for trigeminal nerve neoplasm rests on model score alone (L5). There are no trials, the literature does not address tumours, and no antineoplastic mechanism is known.
 
+<!-- review:begin nz-lic-20261106-phenytoin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are no trials, the literature does not address tumours, and no antineoplastic mechanism is known. The product is also no longer licensed in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-phenytoin-2 -->
+
 **Other predicted indications in the data (all Hold unless noted):**
 - **Trigeminal neuralgia (L3, "Research Question"):** The most plausible repurposing direction. Phenytoin shares the sodium channel mechanism of carbamazepine, the first-line therapy. Retrospective data support IV phenytoin for acute exacerbations (a 144-case cohort and another retrospective cohort), but guidelines treat it as non-first-line, and evidence for it is weak with no RCTs.
 - **Reflex and stimulus-induced seizures** (micturition-induced, thinking, audiogenic, eating, orgasm-induced, startle, reading): These are subtypes within the existing epilepsy indication, so they are not true repurposing. Support is mostly preclinical or case-report level.
@@ -118,6 +134,20 @@ The prediction for trigeminal nerve neoplasm rests on model score alone (L5). Th
 - Mechanism of action data from DrugBank
 - For trigeminal neuralgia: a focused evidence review or a trial comparing phenytoin (especially IV for acute crises) with standard therapy, plus a decision on whether a licensed product could be re-supplied in New Zealand
 - For trigeminal nerve neoplasm: preclinical or clinical evidence of antitumour activity, otherwise this indication should be deprioritised
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Phenytoin is currently marketed in New Zealand, and all 5 of the 5 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The product is also no longer licensed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

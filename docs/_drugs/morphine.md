@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,14 @@ None of the publications below tests morphine as a treatment for myofascial pain
 
 Morphine is marketed in New Zealand.
 
+<!-- review:begin nz-lic-20261106-morphine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Morphine is marketed in New Zealand. All 4 licences on record are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 17 listings for this drug, 17 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-morphine-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 754285 | RA-Morph | Morphine hydrochloride | Oral liq 1 mg per ml | Yes |
@@ -107,6 +115,8 @@ Morphine is marketed in New Zealand.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information. The retrieved literature raises general opioid concerns relevant to a chronic musculoskeletal pain condition: dependence, tolerance and opioid-induced hyperalgesia.
@@ -123,6 +133,18 @@ The prediction score is high, but no clinical trial or publication tests morphin
 - Detailed mechanism-of-action data to support a myofascial pain rationale
 - Safety and risk-benefit assessment for long-term opioid use in a chronic non-cancer pain population
 - Package insert warnings and contraindications for the marketed products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 4 licences on record are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

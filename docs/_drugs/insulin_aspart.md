@@ -95,6 +95,8 @@ The compiled data lists 31 trials. The most relevant (graded A or B for relevanc
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2105101 | NovoRapid | Insulin aspart | Inj 100 u per ml, 10 ml | Yes |
@@ -104,6 +106,8 @@ The compiled data lists 31 trials. The most relevant (graded A or B for relevanc
 | 2704471 | Ryzodeg 70/30 Penfill | Insulin degludec with insulin aspart | Inj degludec 70 u with insulin aspart 30 u, 100 u… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["non-seminomatous lesion", "chondroid hamartoma", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cetuximab: predicted new indication non-seminomatous lesion (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,6 +72,14 @@ Currently no related literature available.
 
 They carry no indication text.
 
+<!-- review:begin nz-lic-20261106-cetuximab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The local records list three authorisations for single-ingredient cetuximab injection. They carry no indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-cetuximab-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2537958 | Baxter | Cetuximab | Inj 1 mg for ECP | Yes |
@@ -79,6 +87,8 @@ They carry no indication text.
 | 2304457 | Erbitux | Cetuximab | Inj 5 mg per ml, 20 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -113,6 +123,19 @@ The prediction has a high model score but no trials, no publications and no mech
 - Preclinical or clinical studies that address this condition directly
 - The Medsafe package insert, to complete the safety review
 - Detailed mechanism of action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The local records list three authorisations for single-ingredient cetuximab injection" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

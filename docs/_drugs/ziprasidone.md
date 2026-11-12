@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ZIPRASIDONE"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,9 +74,17 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin nz-lic-20261106-ziprasidone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are single-ingredient ziprasidone products and all are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ziprasidone-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -86,6 +94,8 @@ Currently no related literature available.
 | 2479605 | Zusdone | Ziprasidone | Cap 80 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -116,6 +126,18 @@ The prediction score is high (0.9983), but there are no clinical trials or publi
 - Package insert warnings and contraindications from Medsafe
 - A safety plan covering cardiac (ECG) monitoring and interaction screening
 - A small pilot or case-series study, if the literature review supports one
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four licences are single-ingredient ziprasidone products and all are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

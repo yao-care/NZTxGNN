@@ -71,12 +71,16 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 203351 | Cyclogyl | Cyclopentolate hydrochloride | Eye drops 1% | Yes |
 | 2603160 | Minims Cyclopentolate | Cyclopentolate hydrochloride | Eye drops 1%, single dose | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

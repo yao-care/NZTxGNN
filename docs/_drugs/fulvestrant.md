@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 216
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -77,11 +77,15 @@ Currently no related clinical trials registered for HIV infectious disease.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2663139 | Fulvestrant EVER Pharma | Fulvestrant | Inj 50 mg per ml, 5 ml prefilled syringe | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -114,6 +118,25 @@ The HIV prediction has a high model score but only preclinical, indirect support
 - The package insert warnings and contraindications from Medsafe, so safety screening can proceed
 - Review of the interaction severity levels and of interactions with antiretroviral agents
 - Clarification of the regulatory status in New Zealand
+
+<!-- review:begin nz-lic-20261106-fulvestrant-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory status in New Zealand, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fulvestrant-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -68,6 +68,14 @@ Currently no related clinical trials are registered and no related literature is
 
 Approved indication text is not recorded in the local data.
 
+<!-- review:begin nz-lic-20261106-cyclophosphamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Six valid licences are recorded for single-ingredient cyclophosphamide products. Approved indication text is not recorded in the local data." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-cyclophosphamide-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2034212 | Endoxan | Cyclophosphamide | Inj 1 g vial | Yes |
@@ -78,6 +86,8 @@ Approved indication text is not recorded in the local data.
 | 2611597 | Cyclonex | Cyclophosphamide | Tab 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -110,6 +120,18 @@ The prediction rests only on a high model score (0.9938), with no trials or publ
 - Any direct clinical or preclinical evidence in this condition
 - A defined mechanistic rationale, including mechanism-of-action data
 - Review of the package insert warnings and contraindications for this patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Six valid licences are recorded for single-ingredient cyclophosphamide products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

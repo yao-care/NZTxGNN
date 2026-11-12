@@ -78,12 +78,16 @@ For reference, the one relevant publication found for a lower-ranked prediction 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 201855 | Egopsoryl TA | Coal tar with allantoin, menthol, phenol and sulphur | Soln 5% with sulphur 0.5%, menthol 0.75%, phenol… | No |
 | 201863 | Egopsoryl TA | Coal tar with allantoin, menthol, phenol and sulphur | Soln 5% with sulphur 0.5%, menthol 0.75%, phenol… | No |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

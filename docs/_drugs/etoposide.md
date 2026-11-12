@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ETOPOSIDE"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 description: "Etoposide: predicted new indication Well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,6 +81,18 @@ Selected from 33 registered trials for Ewing sarcoma (most are multi-drug regime
 
 Several other registered trials are small, terminated or withdrawn. For rhabdomyosarcoma, NCT00003052 (a phase 3 trial of etoposide + ifosfamide + doxorubicin, 340 patients) is the most relevant.
 
+<!-- review:begin nz-lic-20261106-etoposide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All six licences are valid, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-etoposide-1 -->
+
+<!-- review:begin nz-lic-20261106-etoposide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence (2207613, Baxter, Inj 1 mg of etoposide base for ECP) is also cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-etoposide-2 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -98,6 +110,8 @@ Several other registered trials are small, terminated or withdrawn. For rhabdomy
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 332704 | Vepesid | Etoposide | Cap 100 mg | Yes |
@@ -108,6 +122,8 @@ Several other registered trials are small, terminated or withdrawn. For rhabdomy
 | 493953 | Etopophos | Etoposide phosphate | Inj 100 mg (of etoposide base) | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -139,6 +155,27 @@ Package insert warnings and contraindications were not available. Please refer t
 - Mechanism of action data from DrugBank
 - A myelosuppression and secondary malignancy monitoring plan, plus a full DDI review
 - For the lower-ranked predictions, disease-specific trial or cohort data before any further consideration
+
+<!-- review:begin nz-lic-20261106-etoposide-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Mechanism of action data from DrugBank / Confirmation of local supply or licensing, since all six New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-etoposide-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All six licences are valid, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A sixth licence (2207613, Baxter, Inj 1 mg of etoposide base for ECP) is also cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of local supply or licensing, since all six New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

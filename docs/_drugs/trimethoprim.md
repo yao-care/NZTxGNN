@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 468
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -70,6 +70,12 @@ Currently no related clinical trials registered for punctate epithelial keratoco
 
 No literature was found for the top predicted indication, punctate epithelial keratoconjunctivitis. The literature below relates to the second-ranked prediction, conjunctivitis, which is an existing indication. It shows the drug's established ocular use but does not support the new indication.
 
+<!-- review:begin nz-lic-20261106-trimethoprim-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in this country, and the 1 licence on record (1 of 1) is valid. The record is a 300 mg oral tablet." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-trimethoprim-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [19043945](https://pubmed.ncbi.nlm.nih.gov/19043945/) | 2008 | Comparative clinical study (design not confirmed) | J Pediatr Ophthalmol Strabismus | Polymyxin B/trimethoprim compared with moxifloxacin for speed of clinical efficacy in bacterial conjunctivitis |
@@ -83,6 +89,8 @@ No literature was found for the top predicted indication, punctate epithelial ke
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 648507 | TMP | Trimethoprim | Tab 300 mg | Yes |
@@ -91,6 +99,8 @@ No literature was found for the top predicted indication, punctate epithelial ke
 | 283363 | Trisul | Trimethoprim with sulphamethoxazole [Co-trimoxazole] | Tab trimethoprim 80 mg and sulphamethoxazole 400… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,6 +124,19 @@ The prediction for punctate epithelial keratoconjunctivitis has a high model sco
 - Package insert warnings and contraindications from Medsafe
 - Confirmation of whether an ophthalmic trimethoprim product (for example with polymyxin B) is marketed in New Zealand under other records, and which routes are required
 - Any clinical or observational data in this specific condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The drug is marketed in this country, and the 1 licence on record (1 of 1) is valid. The record is a 300 mg oral tablet" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

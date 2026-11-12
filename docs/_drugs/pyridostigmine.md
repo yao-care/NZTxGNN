@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,11 +82,15 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 251011 | Mestinon | Pyridostigmine bromide | Tab 60 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -109,6 +113,25 @@ The prediction is mechanistically sound, but it largely restates the existing in
 - Evidence on pyridostigmine response in the thymic hyperplasia subtype, including separation of AChR-positive from MuSK-positive patients
 - Dedicated evaluation of neonatal dosing and safety if neonatal MG is pursued
 - Mapping of broad predictions (peripheral autoimmune disease, receptor activity disease) to specific diseases before further assessment
+
+<!-- review:begin nz-lic-20261031-pyridostigmine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Detailed mechanism of action data / Clarification of the regulatory position, since the only New Zealand authorization is cancelled and its approved indication text is not recorded" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-pyridostigmine-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the regulatory position, since the only New Zealand authorization is cancelled and its approved indication text is not reco" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

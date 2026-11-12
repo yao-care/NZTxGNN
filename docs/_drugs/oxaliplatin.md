@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 342
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Not recorded in the local data"
@@ -67,6 +67,12 @@ Other mesothelioma-related predictions have weaker support:
 - **Sarcomatoid mesothelioma** (score 0.9944): no registered trials. This is the least chemosensitive subtype, and the only oxaliplatin-specific report is a surgery-plus-HIPEC series in peritoneal disease. Evidence level L4, Hold.
 - **Malignant visceral pleura tumour** (score 0.9926): no registered trials. Most retrieved literature is not relevant to oxaliplatin efficacy. Evidence level L4, Hold.
 
+<!-- review:begin nz-lic-20261106-oxaliplatin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "5 of 5 licences are valid in this country, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-oxaliplatin-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -92,6 +98,8 @@ Other mesothelioma-related predictions have weaker support:
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2207621 | Baxter | Oxaliplatin | Inj 1 mg for ECP | Yes |
@@ -101,6 +109,8 @@ Other mesothelioma-related predictions have weaker support:
 | 2654830 | Alchemy Oxaliplatin | Oxaliplatin | Inj 5 mg per ml, 20 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -126,12 +136,32 @@ Label warnings and contraindications were not available. Please refer to the pac
 **Rationale:**
 Evidence for pleural mesothelioma is limited to small, single-arm Phase 2 studies with mixed results, and there is no Phase 3 RCT. In New Zealand, the package insert safety review is blocked. The other predicted indications (epithelioid, sarcomatoid, visceral pleura) have no direct clinical evidence.
 
+<!-- review:begin nz-lic-20261106-oxaliplatin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "In New Zealand, all 5 oxaliplatin licences are valid, and the package insert safety review is blocked." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-oxaliplatin-2 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications, to complete safety screening
 - Mechanism of action data from DrugBank
 - Comparison against current standard-of-care regimens for mesothelioma, ideally with randomised data
 - Review of the 2003 to 2005 Phase 2 results for consistency, given the negative second-line study
 - Safety monitoring plan, particularly for patients with kidney, liver, lung or peripheral nerve disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "5 of 5 licences are valid in this country, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "all 5 oxaliplatin licences are valid, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

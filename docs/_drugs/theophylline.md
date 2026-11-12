@@ -81,12 +81,16 @@ None of the retrieved publications directly studies theophylline for thrombotic 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 255092 | Nuelin | Theophylline | Oral liq 80 mg per 15 ml | Yes |
 | 255149 | Nuelin-SR | Theophylline | Tab long-acting 250 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

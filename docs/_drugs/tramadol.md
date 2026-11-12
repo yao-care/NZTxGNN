@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,14 @@ Currently no related literature available for the top predicted indication.
 
 Approved indication text is not available for any of them.
 
+<!-- review:begin nz-lic-20261106-tramadol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All seven licences are valid. Approved indication text is not available for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tramadol-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2351889 | Arrow-Tramadol | Tramadol hydrochloride | Cap 50 mg | Yes |
@@ -85,6 +93,8 @@ Approved indication text is not available for any of them.
 | 2650975 | Tramal SR 200 | Tramadol hydrochloride | Tab sustained-release 200 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -101,12 +111,39 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The prediction is supported only by the TxGNN model (deep learning) score. There are no trials or relevant literature, no plausible mechanism for treating the underlying disease.
 
+<!-- review:begin nz-lic-20261106-tramadol-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are no trials or relevant literature, no plausible mechanism for treating the underlying disease, and the drug is marketed with 7 valid New Zealand licences out of 7." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tramadol-3 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (currently missing and blocking safety screening)
 - Mechanism of action data from DrugBank
 - Evidence that tramadol affects the disease itself, or a clearly defined symptomatic pain-management objective with supporting studies
 - Review of the regulatory status
 - For paediatric conditions, a dedicated paediatric safety assessment
+
+<!-- review:begin nz-lic-20261106-tramadol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Review of the regulatory status; all 7 New Zealand licences are currently valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-tramadol-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All seven licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "all 7 New Zealand licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the drug is marketed with 7 valid New Zealand licences out of 7" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

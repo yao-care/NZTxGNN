@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2643200 | Noumed | Codeine phosphate | Tab 15 mg | Yes |
@@ -91,6 +93,8 @@ Currently no related clinical trials registered.
 | 2461234 | Paracetamol + Codeine (Relieve) | Paracetamol with codeine | Tab paracetamol 500 mg with codeine phosphate 8 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

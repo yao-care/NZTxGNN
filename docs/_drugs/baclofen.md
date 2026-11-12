@@ -80,6 +80,8 @@ None of these publications studies baclofen in attention deficit-hyperactivity d
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2162334 | Lioresal Intrathecal | Baclofen | Inj 0.05 mg per ml, 1 ml ampoule | Yes |
@@ -87,6 +89,8 @@ None of these publications studies baclofen in attention deficit-hyperactivity d
 | 403903 | Pacifen | Baclofen | Tab 10 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

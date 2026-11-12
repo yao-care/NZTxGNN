@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 487
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Zuclopenthixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Zuclopenthixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,12 +83,16 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 496189 | Clopixol | Zuclopenthixol decanoate | Inj 200 mg per ml, 1 ml | Yes |
 | 390372 | Clopixol | Zuclopenthixol hydrochloride | Tab 10 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -108,12 +112,38 @@ Please refer to the package insert for further safety information, including war
 **Rationale:**
 The prediction is supported only by a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications, no plausible mechanism, and a theoretical safety concern (retinal toxicity).
 
+<!-- review:begin nz-lic-20261106-zuclopenthixol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials or publications, no plausible mechanism, and a theoretical safety concern (retinal toxicity). The drug is marketed in New Zealand, and its only licence is valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-zuclopenthixol-2 -->
+
 **To proceed, the following is needed:**
 - Mechanistic evidence linking dopamine/5-HT receptor antagonism to inherited retinal dystrophy pathophysiology
 - Preclinical or literature evidence in retinal disease models
 - Package insert warnings and contraindications from Medsafe, to allow safety screening
 - Confirmation of the original mechanism of action data from DrugBank
 - Assessment of route and formulation suitability for retinal indications
+
+<!-- review:begin nz-lic-20261031-zuclopenthixol-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Assessment of route and formulation suitability for retinal indications / Clarification of current New Zealand availability, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-zuclopenthixol-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of current New Zealand availability, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, and its only licence is valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

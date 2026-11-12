@@ -70,12 +70,16 @@ Currently no related literature available for rheumatoid nodulosis.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 235229 | Vesanoid | Tretinoin | Cap 10 mg | Yes |
 | 2358751 | ReTrieve | Tretinoin | Crm 0.5 mg per g | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

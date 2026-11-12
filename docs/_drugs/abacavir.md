@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "abacavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Abacavir: predicted new indication simian immunodeficiency virus infection (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -76,6 +76,8 @@ This is indirect preclinical evidence. It shows how SIV responds to anti-HIV com
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 378038 | Ziagen | Abacavir sulphate | Tab 300 mg | Yes |
@@ -83,7 +85,15 @@ This is indirect preclinical evidence. It shows how SIV responds to anti-HIV com
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Licence-level details are provided separately by the site.
+
+<!-- review:begin nz-lic-20261106-abacavir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Abacavir is listed as marketed in New Zealand. Licence-level details are provided separately by the site." Removed: its description of the New Zealand products did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-abacavir-1 -->
 
 ## Safety Considerations
 
@@ -105,6 +115,19 @@ The only supporting study is an in vitro susceptibility paper. SIV infection is 
 - A defined human clinical rationale, if any exists, for pursuing this indication
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications from Medsafe for the safety review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Abacavir is listed as marketed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

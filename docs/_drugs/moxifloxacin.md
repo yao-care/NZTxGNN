@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MOXIFLOXACIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
 description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -98,12 +98,16 @@ No literature is available for hyperamylasemia. The publications below relate to
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2022362 | Avelox | Moxifloxacin | Tab 400 mg | Yes |
 | 2717913 | Moximed | Moxifloxacin | Tab 400 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -138,6 +142,25 @@ The top-ranked prediction, hyperamylasemia, has no mechanistic rationale, no tri
 - For bubonic plague: human clinical data, and confirmation of whether it is already covered by existing plague indications
 - For the other predictions: a plausible mechanism and at least preliminary clinical evidence before any further evaluation
 - A review of the New Zealand regulatory pathway and a safety assessment of the QT, tendon, neuropathy and dysglycaemia risks
+
+<!-- review:begin nz-lic-20261106-moxifloxacin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A review of the New Zealand regulatory pathway, given the cancelled licence, and a safety assessment of the QT, tendon, neuropathy and dysglycaemia risks" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-moxifloxacin-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "given the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

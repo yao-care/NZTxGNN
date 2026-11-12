@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,6 +79,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2455161 | Galvus | Vildagliptin | Tab 50 mg | Yes |
@@ -86,6 +88,8 @@ Currently no related literature available.
 | 2554801 | Galvumet | Vildagliptin with metformin hydrochloride | Tab 50 mg with 850 mg metformin hydrochloride | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -108,6 +112,25 @@ The prediction has a very high model score but no trials, no literature and no i
 - Mechanism of action data and a plausible biological rationale linking DPP-4 inhibition to stiff person syndrome
 - Any preclinical or clinical evidence in stiff person syndrome
 - Package insert warnings and contraindications for safety screening
+
+<!-- review:begin nz-lic-20261031-vildagliptin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Package insert warnings and contraindications for safety screening / Clarification of the regulatory position, since the only New Zealand licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-vildagliptin-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the regulatory position, since the only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

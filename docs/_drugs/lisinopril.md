@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
@@ -100,6 +100,8 @@ For reference, the most relevant literature among the other predictions (chronic
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2643677 | Teva Lisinopril | Lisinopril | Tab 10 mg | Yes |
@@ -107,6 +109,8 @@ For reference, the most relevant literature among the other predictions (chronic
 | 2643669 | Teva Lisinopril | Lisinopril | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -132,6 +136,25 @@ The top prediction is a subtype of an indication lisinopril already covers, so t
 - Mechanism of action data (for example from DrugBank)
 - Confirmation of subtype-specific data for infarct location, such as post-MI trial subgroup analyses
 - For chronic pulmonary heart disease, full texts and design details of the Russian-language studies, and a search for controlled trials
+
+<!-- review:begin nz-lic-20261106-lisinopril-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "For chronic pulmonary heart disease, full texts and design details of the Russian-language studies, and a search for controlled trials / Clarification of why the licences were cancelled and whether any re-registration is planned" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-lisinopril-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clarification of why the licences were cancelled and whether any re-registration is planned" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

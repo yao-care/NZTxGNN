@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "natamycin"
 predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
 description: "Natamycin: predicted new indication Vulvitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,15 +89,25 @@ The trial is relevant only to the fungal subtype and does not establish efficacy
 
 The remaining seven publications in the data (surveys, older clinical reports and formulation papers) add no direct evidence for vulvitis.
 
+<!-- review:begin nz-lic-20261106-natamycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The only licence is valid. It covers a natamycin–neomycin combination ointment, so it does not describe the approval of single-ingredient natamycin." Removed: it described the products as single-ingredient or combination products in a way that did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-natamycin-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 260282 | Pimafucort | Hydrocortisone with natamycin and neomycin | Oint 1% with natamycin 1% and neomycin sulphate 0… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -119,6 +129,18 @@ No cited trial or publication studies vulvitis itself, so the evidence level is 
 - Package insert warnings, contraindications and interaction data from Medsafe
 - Mechanism of action data from DrugBank
 - A defined target subgroup (for example, culture-confirmed fungal vulvitis) and a suitable formulation and route for vulvar use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The only licence is valid. It covers a natamycin–neomycin combination ointment, so it does not describe the approval of single-ingredient na" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

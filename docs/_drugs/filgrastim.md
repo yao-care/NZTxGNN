@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
 description: "Filgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,12 @@ Currently no related clinical trials are registered for the top predicted indica
 
 For reference, seven trials were matched to a related prediction, platelet-type bleeding disorder (rank 10). All are haematopoietic stem cell transplantation protocols in which filgrastim is likely a supportive agent for mobilization or engraftment. They do not test filgrastim for platelet disorders and are graded low relevance.
 
+<!-- review:begin nz-lic-20261106-filgrastim-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand authorizations are cancelled, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-filgrastim-1 -->
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT00296023](https://clinicaltrials.gov/study/NCT00296023) | NA | Completed | 25 | Low-dose allogeneic stem cell transplant in high-risk low-grade haematologic malignancies |
@@ -88,12 +94,16 @@ For reference, seven trials were matched to a related prediction, platelet-type 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2561956 | Nivestim | Filgrastim | Inj 300 mcg per 0.5 ml prefilled syringe | Yes |
 | 2561964 | Nivestim | Filgrastim | Inj 480 mcg per 0.5 ml prefilled syringe | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,6 +130,26 @@ The prediction rests on a model score alone (L5). There are no trials or publica
 - Preclinical or clinical evidence in platelet release disorders
 - Medsafe package insert warnings and contraindications for a safety screen
 - Clarification of the market situation
+
+<!-- review:begin nz-lic-20261106-filgrastim-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the market situation, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-filgrastim-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both New Zealand authorizations are cancelled, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

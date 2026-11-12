@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 291
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,6 +97,14 @@ Currently no related clinical trials registered for primary pulmonary lymphoma.
 
 Approved indication text is not available. Main licences:
 
+<!-- review:begin nz-lic-20261106-methotrexate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 15 licences are valid (15 of 15), so methotrexate is currently marketed in New Zealand according to the data compiled. Approved indication text is not available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 16 listings for this drug, 16 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-methotrexate-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2204134 | Baxter | Methotrexate | Inj 1 mg for ECP | Yes |
@@ -117,6 +125,8 @@ Approved indication text is not available. Main licences:
 | 2537060 | Trexate | Methotrexate | Tab 2.5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -166,6 +176,19 @@ Primary pulmonary lymphoma is supported only by indirect evidence (CNS lymphoma 
 - Pulmonary-specific efficacy data, ideally prospective, given the risk of methotrexate lung toxicity
 - Confirmation of regulatory status and product availability in New Zealand
 - If a different candidate is preferred, Hodgkin lymphoma (VBM regimen) and rhabdomyosarcoma are the best-supported alternatives and merit a focused literature review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 15 licences are valid (15 of 15), so methotrexate is currently marketed in New Zealand according to the data compiled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

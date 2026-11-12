@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 180
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,6 +96,14 @@ Other predictions in this analysis are weaker:
 
 ## New Zealand Market Information
 
+<!-- review:begin nz-lic-20261106-epinephrine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence (223972, Epipen, Inj 0.3 mg per 0.3 ml auto-injector) is also cancelled. All six licences are injectable forms; no inhaled epinephrine product is licensed in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-epinephrine-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 208191 | Epipen Jr | Adrenaline | Inj 0.15 mg per 0.3 ml auto-injector | Yes |
@@ -106,6 +114,8 @@ Other predictions in this analysis are weaker:
 | 534196 | DBL Adrenaline | Adrenaline | Inj 1 in 10,000, 10 ml ampoule | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -129,6 +139,19 @@ Please refer to the package insert for official warnings and contraindications.
 - Mechanism of action data from DrugBank
 - Clarification of the regulatory route for an inhaled epinephrine product in New Zealand
 - A cardiovascular and drug-interaction risk management plan, particularly for patients on beta-blockers or tricyclic antidepressants
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A sixth licence (223972, Epipen, Inj 0.3 mg per 0.3 ml auto-injector) is also cancelled. All six licences are injectable forms; no inhaled e" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

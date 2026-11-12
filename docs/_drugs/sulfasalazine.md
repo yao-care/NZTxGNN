@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "SULFASALAZINE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine: predicted new indication Top-ranked: brachydactyly-syndactyly syndrome . Best-supported: osteoarthritis (brachydactyly-syndactyly syndrome) (evidence level L5). Approved use: Not recor…"
@@ -89,7 +89,15 @@ The table covers the most relevant publications for osteoarthritis. No publicati
 
 Several other retrieved papers cover general rheumatology topics (telemedicine, DMARD-induced lung disease) and are not directly relevant to osteoarthritis.
 
+<!-- review:begin nz-lic-20261106-sulfasalazine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand licences are cancelled, and no approved indication text is recorded for either." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-sulfasalazine-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -97,6 +105,8 @@ Several other retrieved papers cover general rheumatology topics (telemedicine, 
 | 251585 | Salazopyrin EN | Sulfasalazine | Tab EC 500 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -117,11 +127,31 @@ The package insert warnings and contraindications could not be retrieved, so ple
 - Osteoarthritis has a plausible anti-inflammatory and cartilage-protective rationale, but the evidence is entirely in vitro or animal.
 - Label safety data are missing.
 
+<!-- review:begin nz-lic-20261106-sulfasalazine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand licences are cancelled, and label safety data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-sulfasalazine-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (currently a blocking gap).
 - Detailed mechanism of action data from DrugBank.
 - Human clinical data for osteoarthritis, starting with a systematic literature search or a pilot trial.
 - A review of the osteoarthritis risk-benefit balance, including the long-term safety profile and the contraindications noted above.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and no approved indication text is recorded for either" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and l" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

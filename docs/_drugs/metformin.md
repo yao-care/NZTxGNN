@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,14 @@ All four of the following predictions also have no trials or literature (Evidenc
 
 No approved indication text is recorded for either.
 
+<!-- review:begin nz-lic-20261106-metformin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are cancelled. No approved indication text is recorded for either." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-metformin-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2628031 | Metformin Viatris | Metformin hydrochloride | Tab immediate-release 500 mg | Yes |
@@ -97,6 +105,8 @@ No approved indication text is recorded for either.
 | 2554801 | Galvumet | Vildagliptin with metformin hydrochloride | Tab 50 mg with 850 mg metformin hydrochloride | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -131,6 +141,26 @@ The prediction rests on a TxGNN model (deep learning) score alone. The identical
 - Literature and trial searches (including case reports and preclinical studies) for metformin in stiff person spectrum disorders
 - Clarification of whether other metformin products are marketed in New Zealand
 - Review of the other predicted indications, as none currently has supporting evidence
+
+<!-- review:begin nz-lic-20261106-metformin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled regulatory status, and of whether other metformin products are marketed in New Zealand" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-metformin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "of the cancelled regulatory status, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

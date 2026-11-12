@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -65,6 +65,12 @@ The very high TxGNN score is a computational prediction, not clinical evidence. 
 
 Currently no related clinical trials registered.
 
+<!-- review:begin nz-lic-20261106-rivastigmine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are cancelled, and no approved indication text is recorded for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rivastigmine-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -75,12 +81,16 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2611570 | Rivastigmine Patch BNM 5 | Rivastigmine | Patch 4.6 mg per 24 hour | Yes |
 | 2611589 | Rivastigmine Patch BNM 10 | Rivastigmine | Patch 9.5 mg per 24 hour | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -110,6 +120,26 @@ The glaucoma prediction is supported only by a high model score, one rabbit stud
 - Further preclinical work on ocular formulations, including tolerability and systemic absorption, followed by early-phase human studies
 - Assessment of the cardiac, respiratory and other contraindication signals for any ocular route
 - A regulatory pathway for a new ocular formulation
+
+<!-- review:begin nz-lic-20261106-rivastigmine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A regulatory pathway for a new ocular formulation, since the existing licences are for patches and are cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-rivastigmine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are cancelled, and no approved indication text is recorded for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since the existing licences are for patches and are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

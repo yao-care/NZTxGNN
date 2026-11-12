@@ -88,6 +88,8 @@ None of these studies directly examines cyproterone acetate as a treatment for m
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2235862 | Siterone | Cyproterone acetate | Tab 100 mg | Yes |
@@ -95,6 +97,8 @@ None of these studies directly examines cyproterone acetate as a treatment for m
 | 2455455 | Ginet | Cyproterone acetate with ethinyloestradiol | Tab 2 mg with ethinyloestradiol 35 mcg and 7 iner… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

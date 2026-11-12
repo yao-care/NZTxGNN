@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 251
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -88,9 +88,17 @@ The very high TxGNN score is a computational prediction and not clinical evidenc
 
 Several other retrieved publications (for example on polycystic ovary syndrome, infant rashes and Cushing's syndrome) are only indirectly related and are not summarised here.
 
+<!-- review:begin nz-lic-20261106-ketoconazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid, and no approved indication text is recorded for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ketoconazole-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -101,6 +109,8 @@ Several other retrieved publications (for example on polycystic ovary syndrome, 
 | 2652242 | Burel | Ketoconazole | Tab 200 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -126,6 +136,26 @@ The evidence is limited to model prediction, laboratory studies, reviews and one
 - Retrieval and review of the Medsafe package insert warnings and contraindications
 - Mechanism-of-action data from DrugBank to replace the inferred mechanism
 - A route and formulation strategy limited to topical use, given the systemic liver and adrenal risks
+
+<!-- review:begin nz-lic-20261106-ketoconazole-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A route and formulation strategy limited to topical use, given the systemic liver and adrenal risks / Confirmation of whether a topical product could be supplied in New Zealand, since all five current licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ketoconazole-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five licences are valid, and no approved indication text is recorded for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of whether a topical product could be supplied in New Zealand, since all five current licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

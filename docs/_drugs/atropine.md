@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 52
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Atropine: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -70,6 +70,12 @@ Currently no related clinical trials registered.
 
 Of the retrieved publications, only some are relevant. None tests atropine as a treatment for migraine.
 
+<!-- review:begin nz-lic-20261106-atropine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Three licences are valid (3 of 3), but no approved indication text is recorded for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-atropine-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [36485173](https://pubmed.ncbi.nlm.nih.gov/36485173/) | 2024 | Preclinical | Eur J Neurosci | Cholinergic modulation of meningeal mast cells and neurogenic inflammation in a rat migraine model |
@@ -81,6 +87,8 @@ Of the retrieved publications, only some are relevant. None tests atropine as a 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 200905 | Atropt | Atropine sulphate | Eye drops 1% | Yes |
@@ -88,6 +96,8 @@ Of the retrieved publications, only some are relevant. None tests atropine as a 
 | 2693976 | Hikma | Atropine sulphate | Inj 600 mcg per ml, 1 ml ampoule | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -106,12 +116,32 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
 **Rationale:**
 The only support for atropine in migraine is a computational prediction plus indirect, mostly preclinical literature, and no clinical trial has tested it. The anticholinergic side-effect and interaction burden is substantial for a chronic indication.
 
+<!-- review:begin nz-lic-20261106-atropine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three New Zealand licences are valid, and the anticholinergic side-effect and interaction burden is substantial for a chronic indication." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-atropine-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Original approved indications and mechanism of action data
 - Clinical evidence in migraine, starting with a pilot or exploratory study with a suitable formulation and route
 - A risk-benefit assessment of anticholinergic adverse effects and the high interaction burden
 - Clarification of the regulatory pathway for this indication, since the existing New Zealand licences carry no recorded approved indication text
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Three licences are valid (3 of 3), but no approved indication text is recorded for any of them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three New Zealand licences are valid, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

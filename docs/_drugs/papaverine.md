@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 349
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
 description: "Papaverine: predicted new indication Ischemic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -85,11 +85,15 @@ However, these are mostly procedural or diagnostic uses, not randomized trial ev
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 333328 | Hospira | Papaverine hydrochloride | Inj 12 mg per ml, 10 ml ampoule | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -106,11 +110,37 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The TxGNN score is very high (0.9991), and the vasodilator mechanism is plausible. However, there is no randomized evidence for treating ischemic disease, the only registered trial is an observational diagnostic registry. The knowledge graph also lists coronary artery disease and myocardial infarction as contraindication-related conditions. The idea is a research question, not a ready-to-use new indication.
 
+<!-- review:begin nz-lic-20261106-papaverine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, there is no randomized evidence for treating ischemic disease, the only registered trial is an observational diagnostic registry, and the product's New Zealand licence has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-papaverine-2 -->
+
 **To proceed, the following is needed:**
 - The Medsafe package insert, to confirm warnings and contraindications (a blocking gap for safety screening)
 - Mechanism-of-action data from DrugBank
 - A narrower, clinically defined target (for example, a specific vasospasm or perfusion setting) in place of the broad "ischemic disease" category
 - Controlled clinical evidence of efficacy in that target condition
+
+<!-- review:begin nz-lic-20261106-papaverine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Controlled clinical evidence of efficacy in that target condition / A route and formulation plan, since the only New Zealand licence was for an injection and has been cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-papaverine-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A route and formulation plan, since the only New Zealand licence was for an injection and has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the product's New Zealand licence has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,6 +79,14 @@ Currently no related literature available for faciodigitogenital syndrome.
 
 The data contain no approved indication text.
 
+<!-- review:begin nz-lic-20261106-methylphenidate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 13 licences are currently valid. Five representative licences are listed below. The data contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 18 listings for this drug, 18 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-methylphenidate-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2735075 | Rubifen LA | Methylphenidate hydrochloride | Cap modified-release 10 mg | Yes |
@@ -102,6 +110,8 @@ The data contain no approved indication text.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 - **Contraindications flagged in the knowledge graph** (these come from drug-disease relationships in the knowledge graph, not from package insert text):
@@ -121,6 +131,12 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The prediction rests only on a model score. There are no clinical trials or publications for faciodigitogenital syndrome, and no mechanistic link is supported. In addition, package insert safety data is unavailable.
 
+<!-- review:begin nz-lic-20261106-methylphenidate-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "In addition, all 13 New Zealand licences are valid (13 of 13), and package insert safety data is unavailable." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 18 listings for this drug, 18 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-methylphenidate-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) from DrugBank
 - Medsafe package insert warnings and contraindications
@@ -128,6 +144,20 @@ The prediction rests only on a model score. There are no clinical trials or publ
 - Review of the cardiovascular, psychiatric and seizure-related safety flags for the target population
 
 **Other predictions to consider:** specific developmental disorder and dysthymic disorder (both L4, "Research Question") may be worth exploring as research questions. This would be mainly in patients with comorbid ADHD.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 13 licences are currently valid. Five representative licences are listed below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "all 13 New Zealand licences are valid (13 of 13), and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

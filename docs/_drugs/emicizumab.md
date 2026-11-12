@@ -82,6 +82,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2553554 | Hemlibra | Emicizumab | Inj 105 mg in 0.7 ml vial | Yes |
@@ -90,6 +92,8 @@ Currently no related literature available.
 | 2553546 | Hemlibra | Emicizumab | Inj 60 mg in 0.4 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

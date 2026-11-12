@@ -78,6 +78,8 @@ The only item directly mentioning epirubicin is a general review. The remaining 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2204177 | Baxter | Epirubicin hydrochloride | Inj 1 mg for ECP | Yes |
@@ -85,6 +87,8 @@ The only item directly mentioning epirubicin is a general review. The remaining 
 | 2224127 | Epirubicin Ebewe | Epirubicin hydrochloride | Inj 2 mg per ml, 25 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

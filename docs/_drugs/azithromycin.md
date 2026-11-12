@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Azithromycin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia…"
 monitor_inn: "AZITHROMYCIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -95,6 +95,12 @@ Currently no related literature available for polyclonal hyperviscosity syndrome
 
 The most relevant publications for the other predicted indications are listed below:
 
+<!-- review:begin nz-lic-20261106-azithromycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid, and no approved-indication text is available for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-azithromycin-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [23546223](https://pubmed.ncbi.nlm.nih.gov/23546223/) | 2013 | Preclinical | Int J Oncol | Macrolides including azithromycin blocked autophagy flux and enhanced bortezomib cytotoxicity in myeloma cell lines (monoclonal gammopathy). |
@@ -108,6 +114,8 @@ The most relevant publications for the other predicted indications are listed be
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2144042 | Zithromax | Azithromycin | Grans for oral liq 200 mg per 5 ml (40 mg per ml) | Yes |
@@ -115,6 +123,8 @@ The most relevant publications for the other predicted indications are listed be
 | 204218 | Zithromax | Azithromycin | Tab 500 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -137,11 +147,31 @@ Package insert warnings and contraindications were not available in the data com
 **Rationale:**
 The prediction for polyclonal hyperviscosity syndrome rests solely on a model score, with no trials, no literature and no plausible mechanism.
 
+<!-- review:begin nz-lic-20261106-azithromycin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The prediction for polyclonal hyperviscosity syndrome rests solely on a model score, with no trials, no literature and no plausible mechanism. In addition, all three New Zealand azithromycin licences are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-azithromycin-2 -->
+
 **To proceed, the following is needed:**
 - Retrieve the Medsafe package insert to complete the safety review. This gap is currently blocking.
 - Obtain mechanism of action data, for example from DrugBank.
 - Consider redirecting the evaluation to better-supported candidates, such as sickle cell disease (acute chest syndrome), ocular surface disease or plasma cell disorders, which have at least indirect or preclinical signals.
 - For any chosen indication, review QT-prolongation risk and the major drug interactions before any clinical study.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are valid, and no approved-indication text is available for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, all three New Zealand azithromycin licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

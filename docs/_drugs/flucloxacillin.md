@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FLUCLOXACILLIN"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -66,6 +66,18 @@ Other top-ranked predictions have no plausible mechanism. These include rheumato
 
 Currently no related clinical trials registered.
 
+<!-- review:begin nz-lic-20261106-flucloxacillin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All seven licences are valid. No licence records include approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-flucloxacillin-1 -->
+
+<!-- review:begin nz-lic-20261106-flucloxacillin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two further cancelled AFT oral granule licences (2431432 at 50 mg per ml and 2431424 at 25 mg per ml) are also on record." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-flucloxacillin-2 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -73,6 +85,8 @@ Currently no related clinical trials registered.
 | [41884366](https://pubmed.ncbi.nlm.nih.gov/41884366/) | 2026 | Case report | Case Reports in Ophthalmology | Gonococcal dacryoadenitis (lacrimal gland infection) caused by *Neisseria gonorrhoeae*, a rare complication of hyperacute bacterial conjunctivitis. Indirect evidence only, as flucloxacillin does not cover this pathogen. |
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -85,6 +99,8 @@ Currently no related clinical trials registered.
 | 331856 | Flucloxin | Flucloxacillin | Inj 500 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +124,34 @@ The prediction rests on a model score and one indirect case report involving a p
 - Microbiological evidence of flucloxacillin activity against common conjunctivitis pathogens
 - Evidence on an ophthalmic formulation or route
 - Comparison against current standard topical treatments for bacterial conjunctivitis
+
+<!-- review:begin nz-lic-20261106-flucloxacillin-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Comparison against current standard topical treatments for bacterial conjunctivitis / Clarification of the regulatory pathway, given that all seven licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-flucloxacillin-3 -->
+
+<!-- review:begin nz-lic-20261106-flucloxacillin-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Evidence on an ophthalmic formulation or route, since only oral and injectable forms were previously licensed" Removed: its description of the New Zealand products did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-flucloxacillin-4 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All seven licences are valid. No licence records include approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Two further cancelled AFT oral granule licences (2431432 at 50 mg per ml and 2431424 at 25 mg per ml) are also on record" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that all seven licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since only oral and injectable forms were previously licensed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

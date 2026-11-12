@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cholecalciferol: predicted new indication acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,6 +82,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2523590 | Vit.D3 | Colecalciferol | Cap 1.25 mg (50,000 iu) | Yes |
@@ -90,7 +92,15 @@ Currently no related literature available.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Cholecalciferol is marketed in New Zealand. The available forms are an oral liquid (188 mcg per ml, 7,500 IU per ml) and a capsule (1.25 mg, 50,000 IU).
+
+<!-- review:begin nz-lic-20261106-cholecalciferol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Cholecalciferol is marketed in New Zealand. Both licences on record are valid, single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-cholecalciferol-1 -->
 
 ---
 
@@ -112,6 +122,19 @@ The prediction score is very high (0.9978), but it is purely computational. Ther
 - A defined mechanistic hypothesis connecting vitamin D signalling to the underlying growth-plate pathway
 - Mechanism-of-action data for the drug
 - Package insert warnings and contraindications from Medsafe, to complete the safety screen
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences on record are valid, single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

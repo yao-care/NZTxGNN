@@ -71,6 +71,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2535378 | Klacid | Clarithromycin | Grans for oral liq 250 mg per 5 ml | Yes |
@@ -79,6 +81,8 @@ Currently no related clinical trials registered.
 | 2605295 | Klacid | Clarithromycin | Tab 500 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

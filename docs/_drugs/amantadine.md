@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -68,7 +68,15 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for Rasmussen subacute encephalitis.
 
+<!-- review:begin nz-lic-20261106-amantadine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The local data lists two licences for Symmetrel (single-ingredient capsule, 100 mg). The licence records carry no indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-amantadine-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -76,6 +84,8 @@ Currently no related literature available for Rasmussen subacute encephalitis.
 | 788589 | Symmetrel | Amantadine hydrochloride | Cap 100 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -96,6 +106,19 @@ The TxGNN score is very high (0.9948), but no clinical trial or publication stud
 - Mechanism of action data for amantadine
 - Package insert warnings and contraindications from Medsafe, to allow a safety assessment
 - Confirmation of current licence status with the regulator
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The local data lists two licences for Symmetrel (single-ingredient capsule, 100 mg). The licence records carry no indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

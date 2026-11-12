@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 277
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Lopinavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
@@ -79,11 +79,15 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2613549 | Lopinavir/Ritonavir Mylan | Lopinavir with ritonavir | Tab 200 mg with ritonavir 50 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -99,11 +103,30 @@ Package insert warnings and contraindications were not available, so please refe
 **Rationale:**
 The only supporting evidence is three preclinical macaque studies, with no registered clinical trials. SIV infection is an animal-model indication rather than a human therapeutic use, so the prediction extends the original antiretroviral indication rather than opening a new treatment opportunity.
 
+<!-- review:begin nz-lic-20261031-lopinavir-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "SIV infection is an animal-model indication rather than a human therapeutic use, so the prediction extends the original antiretroviral indication rather than opening a new treatment opportunity. The product's only New Zealand licence is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-lopinavir-1 -->
+
 **To proceed, the following is needed:**
 - Medsafe package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Clarification of whether a research or veterinary use case justifies further work
 - If a human indication is pursued instead, new mechanistic work and a safety review given the cardiac, hepatic, metabolic and interaction concerns listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The product's only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

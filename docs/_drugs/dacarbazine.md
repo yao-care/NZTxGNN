@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "DACARBAZINE"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
@@ -85,12 +85,16 @@ No randomized trial in upper aerodigestive tract neoplasm was found. The most re
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2204207 | Baxter | Dacarbazine | Inj 200 mg for ECP | Yes |
 | 299308 | DBL Dacarbazine | Dacarbazine | Inj 200 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -119,11 +123,37 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 The prediction rests on a model score alone (L4). There are no registered trials, and the literature covers only related conditions such as mucosal melanoma and medullary thyroid carcinoma. In addition, the package insert safety data have not been reviewed.
 
+<!-- review:begin nz-lic-20261106-dacarbazine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "In addition, both New Zealand licences are cancelled and the package insert safety data have not been reviewed." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-dacarbazine-1 -->
+
 **To proceed, the following is needed:**
 - Direct clinical evidence of dacarbazine in upper aerodigestive tract neoplasms (for example, trials or well-designed cohort studies)
 - Confirmed mechanism of action data from DrugBank
 - Medsafe package insert warnings and contraindications, to allow safety screening
 - Comparison against current standard therapies for the target indication
+
+<!-- review:begin nz-lic-20261106-dacarbazine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Medsafe package insert warnings and contraindications, to allow safety screening / Clarification of the New Zealand supply situation; the drug is marketed, with 2 valid licences out of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-dacarbazine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "both New Zealand licences are cancelled and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the New Zealand supply situation; the drug is marketed, with 2 valid licences out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

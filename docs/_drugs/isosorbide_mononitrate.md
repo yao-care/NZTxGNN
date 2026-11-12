@@ -86,6 +86,8 @@ No literature is available for the top-ranked prediction (hypertrichosis). The o
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 214833 | Ismo 20 | Isosorbide mononitrate | Tab 20 mg | Yes |
@@ -93,6 +95,8 @@ No literature is available for the top-ranked prediction (hypertrichosis). The o
 | 2202964 | Duride | Isosorbide mononitrate | Tab long-acting 60 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2694352 | Diclofenac Devatis | Diclofenac sodium | Eye drops 0.1%, single dose | Yes |
@@ -86,7 +88,15 @@ Currently no related literature available.
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Brands and products include Voltaren, Voltaren D, Voltaren SR, Diclofenac Sandoz and Diclofenac Devatis. Approved indication text is not recorded in the local data.
+
+<!-- review:begin nz-lic-20261106-diclofenac-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Local records show 11 licences for single-ingredient diclofenac products, in several dosage forms: suppositories (12.5, 25, 50 and 100 mg), dispersible tablets, enteric-coated tablets, long-acting tablets, injection and single-dose eye drops. Brands and products include Voltaren, Voltaren D, Voltaren SR, Diclofenac Sandoz and Diclofenac Devatis." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 11 listings for this drug, 11 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-diclofenac-1 -->
 
 ## Safety Considerations
 
@@ -106,6 +116,19 @@ The prediction has a high model score but no clinical trials or literature, and 
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications from Medsafe
 - Any clinical or observational data in this condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Local records show 11 licences for single-ingredient diclofenac products, in several dosage forms: suppositories (12.5, 25, 50 and 100 mg), " | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

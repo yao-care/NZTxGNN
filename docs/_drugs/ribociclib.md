@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 401
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ribociclib: predicted new indication Myeloid leukemia (evidence level L4). Approved use: Not stated in the New Zealand license data compiled for this report (…"
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -74,6 +74,8 @@ Only one publication relates directly to the predicted indication. The second pa
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2701340 | Kisqali | Ribociclib | Tab 200 mg | Yes |
@@ -84,6 +86,8 @@ Only one publication relates directly to the predicted indication. The second pa
 | 2728168 | Kisqali | Ribociclib | Tab 200 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -118,10 +122,36 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 The only support for myeloid leukemia is one preclinical study and a plausible mechanism, with no registered clinical trials. In addition, ribociclib's marrow-suppressing profile is a concern in a haematological malignancy.
 
+<!-- review:begin nz-lic-20261106-ribociclib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "In addition, ribociclib's marrow-suppressing profile is a concern in a haematological malignancy. The drug is marketed in New Zealand, with 3 of 3 licenses valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ribociclib-1 -->
+
 **To proceed, the following is needed:**
 - Detailed mechanism of action data
 - Package insert warnings and contraindications (not yet retrieved)
 - Further preclinical work in myeloid leukemia models, including combination with standard AML therapy and assessment of marrow toxicity
+
+<!-- review:begin nz-lic-20261106-ribociclib-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Further preclinical work in myeloid leukemia models, including combination with standard AML therapy and assessment of marrow toxicity / Review of the New Zealand supply situation, given that the drug is marketed and all 3 of 3 licenses are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-ribociclib-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 3 of 3 licenses valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Review of the New Zealand supply situation, given that the drug is marketed and all 3 of 3 licenses are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

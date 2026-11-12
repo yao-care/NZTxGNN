@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "METOLAZONE"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Metolazone: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,11 +78,15 @@ No literature directly supports the top predicted indication. The only publicati
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2438232 | Zaroxolyn | Metolazone | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -100,12 +104,31 @@ Please refer to the package insert for warnings and further safety information.
 **Rationale:**
 The prediction rests on a model score alone. There are no clinical trials and no supporting literature, so the evidence level is L5. Thiazide-type diuretics are not standard therapy for malignant hypertensive renal disease, which is a hypertensive emergency. The knowledge graph flags several contraindications, including renal-related ones such as anuria.
 
+<!-- review:begin nz-lic-20261106-metolazone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The only New Zealand authorisation has been cancelled, and the knowledge graph flags several contraindications, including renal-related ones such as anuria." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-metolazone-1 -->
+
 **To proceed, the following is needed:**
 - Clinical or mechanistic evidence linking metolazone to malignant hypertensive renal disease
 - The mechanism of action data (DrugBank)
 - The Medsafe package insert, to confirm warnings and contraindications
 - A review of the knowledge-graph contraindications against the target patient population
 - A clinical rationale for using a diuretic in a hypertensive emergency, and confirmation of whether any metolazone product can be supplied in New Zealand
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "he only New Zealand authorisation has been cancelled, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

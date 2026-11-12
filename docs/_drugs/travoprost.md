@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
@@ -74,11 +74,15 @@ Currently no related literature available for visceral calciphylaxis.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2550091 | Travatan | Travoprost | Eye drops 0.004% | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -95,12 +99,31 @@ Please also refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The prediction rests on model output alone (evidence level L5). There are no trials or publications for visceral calciphylaxis, and no plausible mechanism links a topical ocular prostaglandin analogue to this systemic condition.
 
+<!-- review:begin nz-lic-20261106-travoprost-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are no trials or publications for visceral calciphylaxis, and no plausible mechanism links a topical ocular prostaglandin analogue to this systemic condition. The only New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-travoprost-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data, to test whether any link to calcification or vascular pathology exists
 - Package insert warnings and contraindications, which are required for safety screening
 - Preclinical or mechanistic studies showing relevance to visceral calciphylaxis
 - A review of route compatibility, since the drug is currently available only as an ophthalmic product
 - Re-evaluation of the vascular-related predictions only if new, indication-specific evidence emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
 description: "Sulfadiazine: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,11 +85,15 @@ The 19 publications compiled are mainly reviews and observational or case report
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2674912 | Sulfadiazin-Heyl | Sulfadiazine sodium | Tab 500 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,6 +118,25 @@ The prediction score is high (0.9939), and the folate-pathway mechanism is plaus
 - Mechanism of action data from DrugBank to confirm the mechanistic link
 - Direct comparative evidence for sulfadiazine versus established regimens (e.g., TMP-SMX) in Pneumocystis infection
 - Assessment of the sulfa-resistance risk (DHPS mutations)
+
+<!-- review:begin nz-lic-20261031-sulfadiazine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Assessment of the sulfa-resistance risk (DHPS mutations) / Clarification of the New Zealand supply and licensing pathway, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-sulfadiazine-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the New Zealand supply and licensing pathway, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

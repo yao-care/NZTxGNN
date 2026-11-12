@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "ACETYLCYSTEINE"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acetylcysteine: predicted new indication thrombotic disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -91,12 +91,22 @@ The "thrombotic disease" label is broad. The supporting evidence is concentrated
 
 No approved indication text is recorded.
 
+<!-- review:begin nz-lic-20261106-acetylcysteine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Local records list two single-ingredient injectable licences. Both are recorded as cancelled, although the overall market status is recorded as Marketed. No approved indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-acetylcysteine-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2260794 | DBL Acetylcysteine | Acetylcysteine | Inj 200 mg per ml, 10 ml ampoule | Yes |
 | 2701928 | Hikma Acetylcysteine | Acetylcysteine | Inj 200 mg per ml, 10 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -116,6 +126,19 @@ A completed Phase 3 trial (NCT03252925) and an active Phase 2/3 trial (NCT072796
 - A defined target population (for example TA-TMA or TTP) rather than "thrombotic disease"
 - Mechanism of action data and the package insert warnings and contraindications
 - A safety review of NAC given alongside anticoagulants, antiplatelet agents and plasma exchange
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Local records list two single-ingredient injectable licences. Both are recorded as cancelled, although the overall market status is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Gastric cancer, pancreatic adenocarcinoma, colon cancer metastases…"
 monitor_inn: "FLUOROURACIL"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome"]
@@ -85,9 +85,17 @@ No literature was retrieved for the top-ranked prediction. For the second-ranked
 
 The only paper reporting fluorouracil use in rhabdomyosarcoma shows disease progression on a cisplatin plus fluorouracil regimen, so the literature provides no support for efficacy.
 
+<!-- review:begin nz-lic-20261106-fluorouracil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid, and approved indication text is not available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fluorouracil-1 -->
+
 ---
 
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -98,6 +106,8 @@ The only paper reporting fluorouracil use in rhabdomyosarcoma shows disease prog
 | 253065 | Efudix | Fluorouracil sodium | Crm 5% | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -129,12 +139,32 @@ Please also refer to the package insert, as label warnings were not available.
 **Rationale:**
 The predictions are supported only by a high TxGNN model score (0.9975 for the main prediction) with no registered trials and no direct controlled literature. The one case report involving fluorouracil in rhabdomyosarcoma showed progression. Standard rhabdomyosarcoma therapy does not use fluorouracil. In addition, it carries significant myelosuppressive toxicity.
 
+<!-- review:begin nz-lic-20261106-fluorouracil-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "In addition, the drug is marketed in New Zealand (5 of 5 licences valid), and it carries significant myelosuppressive toxicity." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-fluorouracil-2 -->
+
 **To proceed, the following is needed:**
 - Preclinical data (e.g., in vitro sensitivity of rhabdomyosarcoma cell lines) and a systematic literature search for fluorouracil in rhabdomyosarcoma
 - Detailed mechanism of action data
 - Package insert warnings and contraindications for current New Zealand-available products, and confirmation of the current regulatory and supply status
 - A comparison against standard rhabdomyosarcoma regimens to justify any role for fluorouracil
 - A DPD deficiency screening and haematological monitoring plan if any clinical use is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five licences are valid, and approved indication text is not available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the drug is marketed in New Zealand (5 of 5 licences valid), and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

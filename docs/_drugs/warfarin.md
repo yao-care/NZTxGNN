@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 484
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,6 +79,18 @@ Currently no related clinical trials registered for heparin cofactor 2 deficienc
 
 For the closest related prediction, thrombophilia, one trial exists:
 
+<!-- review:begin nz-lic-20261106-warfarin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed, with 6 valid licences out of 6, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-warfarin-1 -->
+
+<!-- review:begin nz-lic-20261106-warfarin-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence (210609, Marevan Tab 5 mg) is also cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-warfarin-3 -->
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT00895505](https://clinicaltrials.gov/study/NCT00895505) | Phase 3 | Unknown | 300 | D-dimer-guided duration of oral anticoagulation after unprovoked deep vein thrombosis; tests a duration strategy, no results available |
@@ -93,6 +105,8 @@ For the closest related prediction, thrombophilia, one trial exists:
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 210587 | Marevan | Warfarin sodium | Tab 1 mg | Yes |
@@ -103,6 +117,8 @@ For the closest related prediction, thrombophilia, one trial exists:
 | 2586983 | Coumadin | Warfarin sodium | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -129,6 +145,27 @@ Evidence for heparin cofactor 2 deficiency is limited to three old case reports,
 - Mechanism of action data from DrugBank
 - Controlled or cohort data on warfarin in inherited thrombophilias such as heparin cofactor II deficiency
 - Consideration of newer anticoagulants (DOACs) as comparators, as discussed in the 2024 ISTH communication
+
+<!-- review:begin nz-lic-20261106-warfarin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Controlled or cohort data on warfarin in inherited thrombophilias such as heparin cofactor II deficiency / Confirmation of which warfarin products are currently supplied in New Zealand, where all 6 licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-warfarin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The drug is marketed, with 6 valid licences out of 6, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of which warfarin products are currently supplied in New Zealand, where all 6 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A sixth licence (210609, Marevan Tab 5 mg) is also cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

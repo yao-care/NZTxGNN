@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Durvalumab: predicted new indication uterine ligament adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,7 +70,15 @@ For context only, a completed Phase 1 trial (n=20) tested durvalumab plus tremel
 
 Currently no related literature available.
 
+<!-- review:begin nz-lic-20261106-durvalumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-durvalumab-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -79,6 +87,8 @@ Currently no related literature available.
 | 2578425 | Imfinzi | Durvalumab | Inj 50 mg per ml, 2.4 ml vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -101,6 +111,19 @@ The prediction score is high, but there are no trials or publications for uterin
 - Mechanism of action data and PD-L1 expression data for this tumour
 - Package insert warnings and contraindications from Medsafe
 - A review of how corticosteroid and immunosuppressant co-medication would be managed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

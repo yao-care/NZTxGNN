@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 190
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 description: "Everolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -88,12 +88,16 @@ An important caveat is that the supporting clinical evidence is a single-arm com
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2334879 | Afinitor | Everolimus | Tab 10 mg | Yes |
 | 2334860 | Afinitor | Everolimus | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -134,9 +138,28 @@ Package insert warnings and contraindications were not available in the compiled
 - Randomized or everolimus-specific evidence in liposarcoma
 - Review of a regulatory pathway for any use
 
+<!-- review:begin nz-lic-20261106-everolimus-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Review of the cancelled New Zealand authorizations, and a regulatory pathway for any use" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-everolimus-1 -->
+
 **Other predicted indications (for reference):**
 - **Rhabdomyosarcoma** has L2 evidence from early-phase pediatric trials only (NCT00187174 Phase 1, NCT03245151 Phase 1/2), in mixed solid tumour populations.
 - The remaining predictions (ovarian myxoid liposarcoma, dermatofibrosarcoma protuberans, rhabdomyosarcoma subtypes, and Xp11.2 translocation RCC) rest on model prediction with little or no supporting evidence, so the recommendation is Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the cancelled New Zealand authorizations, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

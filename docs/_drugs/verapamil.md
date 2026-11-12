@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,7 +72,15 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for the top-ranked prediction. Literature retrieved for lower-ranked predictions is mostly off-target (arrhythmia reviews, migraine, retinal neuroprotection, in vitro and animal hypoxia studies) and does not test verapamil in the predicted conditions.
 
+<!-- review:begin nz-lic-20261106-verapamil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All six licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-verapamil-1 -->
+
 ## New Zealand Market Information
+
+<!-- licenses:begin -->
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
@@ -84,6 +92,8 @@ Currently no related literature available for the top-ranked prediction. Literat
 | 2535343 | Isoptin SR | Verapamil hydrochloride | Tab long-acting 240 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -105,6 +115,19 @@ The prediction is supported only by a model score. There are no trials or releva
 - A current, non-obsolete disease definition and clinical rationale for the predicted indication
 - Consideration of better-supported candidates among the other predictions, such as hypertensive end-organ disease, with disease-specific clinical data
 - Clarification of the regulatory pathway
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All six licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

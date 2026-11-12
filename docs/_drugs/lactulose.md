@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,11 +86,15 @@ The most relevant publications for obstructive jaundice are listed below. Some s
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2440210 | Laevolac | Lactulose | Oral liq 10 g per 15 ml | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -106,11 +110,37 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 There is a plausible gut-endotoxin mechanism and some small clinical and animal studies in obstructive jaundice. The remaining predictions have little or no supporting evidence.
 
+<!-- review:begin nz-lic-20261031-lactulose-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "There is a plausible gut-endotoxin mechanism and some small clinical and animal studies in obstructive jaundice. However, no clinical trials are registered, the clinical results are mixed, and the only New Zealand licence has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-lactulose-1 -->
+
 **To proceed, the following is needed:**
 - Full-text review of the 1986 and 1991 clinical studies to confirm design and results
 - Mechanism-of-action data and the Medsafe package insert (warnings and contraindications)
 - A focused trial or systematic review of preoperative lactulose in obstructive jaundice, with renal outcomes and endotoxaemia as endpoints
 - Review of the knowledge-graph contraindications (especially diabetes and galactosemia) for any proposed patient population
+
+<!-- review:begin nz-lic-20261031-lactulose-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Mechanism-of-action data and the Medsafe package insert (warnings and contraindications) / A current New Zealand market or supply pathway, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-lactulose-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "However, no clinical trials are registered, the clinical results are mixed, and the only New Zealand licence has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "A current New Zealand market or supply pathway, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

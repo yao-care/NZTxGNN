@@ -80,6 +80,8 @@ None of the retrieved publications evaluates amiodarone as a treatment for CPVT.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2565129 | Max Health | Amiodarone hydrochloride | Inj 50 mg per ml, 3 ml ampoule | Yes |
@@ -87,6 +89,8 @@ None of the retrieved publications evaluates amiodarone as a treatment for CPVT.
 | 770639 | Aratac | Amiodarone hydrochloride | Tab 200 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

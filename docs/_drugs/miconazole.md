@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 299
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MICONAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -91,6 +91,14 @@ Currently no related clinical trials registered.
 
 Indication text is not available for these authorizations.
 
+<!-- review:begin nz-lic-20261106-miconazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Indication text is not available for these authorizations. All products listed are single-ingredient miconazole." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-miconazole-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2405008 | Decozol | Miconazole | Oral gel 20 mg per g | Yes |
@@ -101,6 +109,8 @@ Indication text is not available for these authorizations.
 | 704733 | Micreme H | Hydrocortisone with miconazole | Crm 1% with miconazole nitrate 2% | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -128,6 +138,19 @@ The TxGNN score is high (0.9954), but the supporting evidence is limited to a re
 - Controlled clinical evidence in acne vulgaris specifically, such as a randomised trial of a topical formulation
 - Confirmation of which topical formulations and indications are currently valid in New Zealand, and a route-compatibility check for acne treatment
 - Review of the interaction profile, particularly if systemic exposure is expected
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All products listed are single-ingredient miconazole" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

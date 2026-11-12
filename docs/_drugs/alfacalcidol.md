@@ -82,6 +82,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 203084 | One-Alpha | Alfacalcidol | Cap 0.25 mcg | Yes |
@@ -89,6 +91,8 @@ Currently no related literature available.
 | 315761 | One-Alpha | Alfacalcidol | Oral drops 2 mcg per ml | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

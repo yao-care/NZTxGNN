@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,11 +79,15 @@ No literature was retrieved for Ambras syndrome itself. For the second-ranked pr
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2522756 | Ricit | Finasteride | Tab 5 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -100,11 +104,37 @@ Please refer to the package insert for further safety information. The insert's 
 **Rationale:**
 The prediction rests only on a model score, with no clinical trials. The only retrieved literature is general, indirect hypertrichosis material. The proposed mechanism is also biologically weak, since the target conditions are not DHT-driven.
 
+<!-- review:begin nz-lic-20261031-finasteride-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The proposed mechanism is also biologically weak, since the target conditions are not DHT-driven. In addition, the only New Zealand licence is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261031-finasteride-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) to assess the pathway link
 - The Medsafe package insert, to complete warnings and contraindications and allow safety screening
 - Preclinical or case-level evidence of a DHT-dependent mechanism in the target condition
 - Route and formulation compatibility assessment for the new indication
+
+<!-- review:begin nz-lic-20261106-finasteride-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Route and formulation compatibility assessment for the new indication / Review of the cancelled licence status and its implications for local availability" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-finasteride-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "In addition, the only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Review of the cancelled licence status and its implications for local availability" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
 description: "Risdiplam: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,11 +72,15 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2649403 | Evrysdi | Risdiplam | Powder for oral soln 750 mcg per ml, 60 mg per bo… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The available formulation is oral only.
 
@@ -96,12 +100,38 @@ Please refer to the package insert for warnings and contraindications, as this i
 **Rationale:**
 The only support for this prediction is a high TxGNN score, with no clinical trials, no literature and no plausible mechanism (Evidence Level L5). Its preclinical retinal and epithelial toxicity signals are difficult to justify for acne.
 
+<!-- review:begin nz-lic-20261106-risdiplam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The drug's New Zealand licence is cancelled, and its preclinical retinal and epithelial toxicity signals are difficult to justify for acne." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-risdiplam-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological link between SMN2 splicing modulation and acne pathogenesis
 - Package insert warnings and contraindications (for example from the Medsafe website)
 - Preclinical or early clinical evidence of benefit in acne
 - A benefit-risk assessment addressing retinal and epithelial toxicity
 - Clarification of route compatibility (oral versus the topical or systemic routes typically used for acne)
+
+<!-- review:begin nz-lic-20261106-risdiplam-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory status of the cancelled licence and of route compatibility (oral versus the topical or systemic routes typically used for acne)" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-risdiplam-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The drug's New Zealand licence is cancelled, and i" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "of the regulatory status of the cancelled licence and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

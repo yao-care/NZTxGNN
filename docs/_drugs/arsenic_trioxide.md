@@ -72,12 +72,16 @@ Currently no related literature is available for unclassified myelodysplastic sy
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2560518 | Phenasen | Arsenic trioxide | Inj 1 mg per ml, 10 ml vial | Yes |
 | 2568675 | Baxter | Arsenic trioxide | Inj 10 mg for ECP | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

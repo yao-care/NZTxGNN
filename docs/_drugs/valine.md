@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 474
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "VALINE"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
 description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -41,6 +41,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 Valine is an essential branched-chain amino acid.
 The TxGNN model predicts it may be useful for **sclerosing cholangitis**, but there are **0 clinical trials** and only **2 indirect publications** (a cohort study and a Mendelian randomization study), and neither tests valine as a treatment.
 
+<!-- review:begin nz-lic-20261106-valine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Valine is an essential branched-chain amino acid. Its only New Zealand licence (a 4 g sachet powder) is cancelled, and no approved indication is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-valine-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -74,6 +80,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2514079 | Valine50 | Valine | Powder, 4 g sachets | Yes |
@@ -83,6 +91,8 @@ Currently no related clinical trials registered.
 | 2668572 | MMA/PA Express 15 | Aminoacid formula without methionine, threonine and valine | Powder, 25 g sachets | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -100,6 +110,26 @@ The prediction rests on a model score and indirect metabolic associations only. 
 - Package insert warnings and contraindications from Medsafe, which are required before any safety screening
 - Evidence that valine supplementation affects the course of sclerosing cholangitis, such as preclinical or early-phase clinical studies
 - Assessment of route and formulation compatibility for the proposed use
+
+<!-- review:begin nz-lic-20261106-valine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Evidence that valine supplementation affects the course of sclerosing cholangitis, such as preclinical or early-phase clinical studies / Clarification of the original approved indication and the reason the licence was cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-valine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Its only New Zealand licence (a 4 g sachet powder) is cancelled, and no approved indication is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the original approved indication and the reason the licence was cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

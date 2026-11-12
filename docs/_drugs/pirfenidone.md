@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,6 +84,8 @@ This evidence is preclinical and anecdotal. It does not support efficacy against
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2715961 | Pirfenidone Sandoz | Pirfenidone | Tab 267 mg | Yes |
@@ -91,6 +93,8 @@ This evidence is preclinical and anecdotal. It does not support efficacy against
 | 2735652 | Pirfenidone Sandoz | Pirfenidone | Tab 801 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -116,6 +120,25 @@ The prediction rests on a model score alone (L5), with no clinical trials or lit
 - Preclinical evidence (for example mast cell or KIT-driven models) showing a biological effect in this disease
 - Review of the sarcoma and dermatofibroma case reports as a safety signal
 - Consideration of other predictions with a more plausible mechanism, such as dermatofibrosarcoma protuberans, though these also lack direct evidence
+
+<!-- review:begin nz-lic-20261106-pirfenidone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Review of the sarcoma and dermatofibroma case reports as a safety signal / Clarification of the New Zealand licence status, given that both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-pirfenidone-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clarification of the New Zealand licence status, given that both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

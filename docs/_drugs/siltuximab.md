@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "SILTUXIMAB"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
 description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -64,12 +64,16 @@ The high TxGNN score (0.9964) is a computational prediction only. It is not back
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2500663 | Sylvant | Siltuximab | Inj 100 mg vial | Yes |
 | 2500655 | Sylvant | Siltuximab | Inj 400 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -93,6 +97,25 @@ The prediction is supported only by the model score, with no clinical trials or 
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data
 - Review of the other predicted indications. Kaposi's sarcoma has indirect support (shared HHV-8 biology with HHV-8-associated Castleman disease, L4, "Research Question"), and may be a better candidate to prioritise than the top-ranked prediction.
+
+<!-- review:begin nz-lic-20261106-siltuximab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Detailed mechanism of action data / Clarification of availability, since both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-siltuximab-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clarification of availability, since both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

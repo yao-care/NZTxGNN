@@ -69,12 +69,16 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2213621 | Ethics Aspirin EC | Aspirin | Tab 100 mg | Yes |
 | 2184338 | Ethics Aspirin | Aspirin | Tab dispersible 300 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Aspirin products are marketed in New Zealand as plain tablets (a 300 mg dispersible tablet and a 100 mg tablet). The local records do not include approved-indication text.
 

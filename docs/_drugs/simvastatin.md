@@ -104,6 +104,8 @@ Only two trials (NCT00552097 and NCT00129402) directly evaluate simvastatin as p
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2520087 | Simvastatin Mylan | Simvastatin | Tab 10 mg | Yes |
@@ -123,6 +125,8 @@ Only two trials (NCT00552097 and NCT00129402) directly evaluate simvastatin as p
 | 2727730 | Vytorin | Ezetimibe with simvastatin | Tab 10 mg with simvastatin 80 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

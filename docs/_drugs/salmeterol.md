@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,6 +71,12 @@ Neither registered trial studies respiratory malformation as a treatment target.
 
 The publications retrieved concern related airway conditions, mostly asthma and COPD, and none studies respiratory malformation.
 
+<!-- review:begin nz-lic-20261106-salmeterol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are single-ingredient products and both are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-salmeterol-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [34902004](https://pubmed.ncbi.nlm.nih.gov/34902004/) | 2022 | Randomized clinical trial | JAMA Pediatrics | Inhaled corticosteroids alone or with long-acting beta2-agonists for reduced lung function in preterm-born children. |
@@ -82,6 +88,8 @@ The publications retrieved concern related airway conditions, mostly asthma and 
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2243903 | Serevent | Salmeterol | Aerosol inhaler CFC-free, 25 mcg per dose | Yes |
@@ -92,6 +100,8 @@ The publications retrieved concern related airway conditions, mostly asthma and 
 | 2120224 | Seretide Accuhaler | Fluticasone with salmeterol | Powder for inhalation 250 mcg with salmeterol 50… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -113,6 +123,18 @@ The TxGNN score is high (0.9991), but no trial or publication studies respirator
 - Mechanism-of-action data and a defensible biological rationale for a bronchodilator in structural airway malformation
 - Studies that directly address this condition
 - Package insert warnings and contraindications from Medsafe, for a safety review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are single-ingredient products and both are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bendamustine: predicted new indication mantle cell lymphoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -94,6 +94,14 @@ The table lists the most relevant trials of the compiled set. It includes five P
 
 No indication text is recorded for them.
 
+<!-- review:begin nz-lic-20261106-bendamustine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report records five single-ingredient bendamustine licences, listed below. No indication text is recorded for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-bendamustine-1 -->
+
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2524058 | Baxter | Bendamustine hydrochloride | Inj 1 mg for ECP | Yes |
@@ -103,6 +111,8 @@ No indication text is recorded for them.
 | 2691434 | Bendamustine Sandoz | Bendamustine hydrochloride | Inj 25 mg vial | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -133,6 +143,19 @@ Several completed Phase 3 randomised trials and multiple randomised publications
 - Detailed mechanism-of-action data
 - A haematological and renal/hepatic monitoring plan, plus infection-risk management
 - Confirmation of current supply, since the recorded licences should be checked against the market status
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report records five single-ingredient bendamustine licences, listed below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

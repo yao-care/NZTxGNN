@@ -100,6 +100,8 @@ Publications directly on duodenogastric reflux, followed by the strongest relate
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2602776 | Mylan | Famotidine | Inj 10 mg per ml, 4 ml | Yes |
@@ -107,6 +109,8 @@ Publications directly on duodenogastric reflux, followed by the strongest relate
 | 2706229 | Famotidine Hovid MY | Famotidine | Tab 40 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "DOXYCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,6 +94,12 @@ For the top-ranked indication, punctate epithelial keratoconjunctivitis, only on
 
 For reference, the strongest literature belongs to **chronic gingivitis** (mostly periodontitis studies):
 
+<!-- review:begin nz-lic-20261106-doxycycline-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Doxycycline is marketed in New Zealand, with 1 valid licence out of 1 in the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-doxycycline-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [20461319](https://pubmed.ncbi.nlm.nih.gov/20461319/) | 2010 | RCT | J Contemp Dent Pract | Subantimicrobial-dose doxycycline plus scaling and root planing in chronic periodontitis with diabetes |
@@ -109,11 +115,15 @@ For reference, the strongest literature belongs to **chronic gingivitis** (mostl
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2545136 | Doxine | Doxycycline | Tab 100 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -139,6 +149,19 @@ The most promising alternative, chronic gingivitis (L2, "Proceed with Guardrails
 - For punctate epithelial keratoconjunctivitis: controlled studies of doxycycline in ocular surface disease, and a decision on route (oral versus topical ocular).
 - For chronic gingivitis: confirmation that the periodontitis evidence applies to gingivitis, with use as an adjunct to mechanical therapy and local or subantimicrobial dosing to limit resistance.
 - A decision on which predicted indication to prioritise, and whether a New Zealand licence would need to be re-established.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Doxycycline is marketed in New Zealand, with 1 valid licence out of 1 in the data compiled for this report" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

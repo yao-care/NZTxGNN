@@ -92,6 +92,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2474891 | Jaydess | Levonorgestrel | Intra-uterine device 13.5 mg | Yes |
@@ -103,6 +105,8 @@ Currently no related clinical trials registered.
 | 2637138 | Oralcon 30 ED | Ethinyloestradiol with levonorgestrel | Tab 30 mcg with levonorgestrel 150 mcg and 7 iner… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

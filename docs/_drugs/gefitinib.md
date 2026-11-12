@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa"]
 description: "Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
@@ -87,11 +87,15 @@ For reference, the literature retrieved for the lower-ranked "lung hilum carcino
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2146541 | Iressa | Gefitinib | Tab 250 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -125,6 +129,25 @@ The top prediction (gingival fibromatosis) is supported only by a model score, w
 - Preclinical or mechanistic evidence for EGFR/ErbB involvement in gingival fibroblast overgrowth
 - Clarification of any current supply route
 - A systematic literature search specific to gingival fibromatosis, as no publications were retrieved
+
+<!-- review:begin nz-lic-20261106-gefitinib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled Iressa authorization and any current supply route" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-gefitinib-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the cancelled Iressa authorization and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

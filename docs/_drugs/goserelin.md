@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 221
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -97,12 +97,16 @@ The other two predictions (renal hypoplasia and renal hypoplasia, bilateral) hav
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 362107 | Zoladex | Goserelin | Implant 10.8 mg, syringe | Yes |
 | 678066 | Zoladex | Goserelin | Implant 3.6 mg, syringe | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,11 +128,30 @@ Package insert warnings and contraindications were not available, so please refe
 **Rationale:**
 The mechanistic link is strong, but amenorrhea is an expected effect of goserelin rather than a separate disease. The only registered trial has an oncologic primary endpoint, and its status is unknown.
 
+<!-- review:begin nz-lic-20261106-goserelin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The only registered trial has an oncologic primary endpoint, and its status is unknown. In New Zealand, both goserelin licences are cancelled, so there is no currently marketed product." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-goserelin-1 -->
+
 **To proceed, the following is needed:**
 - A clear definition of the intended use (menstrual suppression or ovarian protection during chemotherapy) and its clinical endpoints
 - Package insert warnings and contraindications (the safety screening is currently blocked by this gap)
 - Detailed mechanism of action data from DrugBank
 - Confirmation of whether any goserelin product is currently available in New Zealand, and its approved indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "In New Zealand, both goserelin licences are cancelled, so there is no currently marketed product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

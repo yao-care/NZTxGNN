@@ -68,6 +68,8 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2660016 | Atazanavir Viatris | Atazanavir sulphate | Cap 150 mg | Yes |
@@ -76,6 +78,8 @@ Currently no related literature available.
 | 2736314 | Atazanavir Viatris | Atazanavir sulphate | Cap 200 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

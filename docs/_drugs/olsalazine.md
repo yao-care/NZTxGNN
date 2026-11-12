@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "OLSALAZINE"
 predicted_indications: ["myelodysplastic syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "partial deletion of the long arm of chromosome 5", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Olsalazine: predicted new indication Myelodysplastic syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,6 +71,8 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 588679 | Dipentum | Olsalazine | Cap 250 mg | Yes |
@@ -78,6 +80,8 @@ Currently no related clinical trials registered.
 | 426342 | Dipentum | Olsalazine | Tab 500 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -101,10 +105,29 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 The prediction is supported only by a TxGNN model (deep learning) score, with no clinical trials, no literature and no mechanistic data.
 
+<!-- review:begin nz-lic-20261106-olsalazine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The prediction is supported only by a TxGNN model (deep learning) score, with no clinical trials, no literature and no mechanistic data. Olsalazine has minimal systemic absorption, and it is marketed in New Zealand, with 3 valid licences out of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-olsalazine-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank)
 - Package insert warnings and contraindications from Medsafe, to allow safety screening
 - Preclinical or mechanistic evidence for a link between 5-ASA and myelodysplastic syndrome
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Olsalazine has minimal systemic absorption, and it is marketed in New Zealand, with 3 valid licences out of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

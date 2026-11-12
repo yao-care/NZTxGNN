@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LITHIUM CARBONATE"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
 description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,12 +80,16 @@ Currently no related literature available for pseudoachondroplasia.
 
 ## New Zealand Market Information
 
+<!-- licenses:begin -->
+
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 733393 | Douglas | Lithium carbonate | Cap 250 mg | Yes |
 | 260851 | Priadel | Lithium carbonate | Tab long-acting 400 mg | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -108,11 +112,37 @@ Package insert warnings were not available. Please refer to the package insert f
 **Rationale:**
 The prediction is supported only by a model score (0.9998), with no clinical trials or literature for pseudoachondroplasia and only a speculative mechanistic link. Lithium is marketed in New Zealand and the available safety data are incomplete.
 
+<!-- review:begin nz-lic-20261106-lithium_carbonate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Lithium is marketed in New Zealand, with 2 valid licences of 2, and the available safety data are incomplete." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-lithium_carbonate-1 -->
+
 **To proceed, the following is needed:**
 - Preclinical evidence that lithium or GSK-3β/Wnt modulation affects COMP-related chondrocyte ER stress or growth plate function
 - Detailed mechanism of action data
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - A risk-benefit assessment for a paediatric skeletal population, including renal, thyroid and serum-level monitoring
+
+<!-- review:begin nz-lic-20261106-lithium_carbonate-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications (a blocking gap for safety screening) / Assessment of the regulatory pathway, given that both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261106-lithium_carbonate-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Assessment of the regulatory pathway, given that both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
