@@ -35,3 +35,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 
 2026-10-31～11-06 許可證修正時直接刪掉的矛盾子句（10-31 58ced9c7、11-06 80993f23／56ff65d7／827800db／e6c733d5／8445a9f3），2026-11-12 由 scripts/reviews_from_edits.py 依 git 前後版本轉入（530 筆、320 頁；其中 9 筆因報告在 11 月經 AI 重產、原句已不在頁面，標 resolved_by_regeneration）。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時會重套紀錄，notes 裡的舊錯句會被紀錄再更正一次。
+2026-11-12 正文許可狀態對事實層掃描：tetracycline 在 11 月 AI 重產時照證據包（全標 Cancelled only）寫「cancelled-only in New Zealand」，Pharmac 清單 2 筆都是現行列載；以 `nz-lic-20261112-tetracycline-1` 刪掉該句。

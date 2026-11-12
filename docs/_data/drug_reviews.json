@@ -10728,6 +10728,26 @@
    "checked": "2026-11-06",
    "summary": "Removed: \"The drug is marketed in New Zealand, and its only licence is valid\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）"
+  },
+  {
+   "id": "nz-lic-20261112-tetracycline-1",
+   "drug": "tetracycline",
+   "file": "tetracycline.md",
+   "action": "correct",
+   "claim": "existing conjunctivitis indications. Tetracycline is also cancelled-only in New Zealand, which limits practical use.",
+   "replacement": "existing conjunctivitis indications.",
+   "summary": "Removed: \"Tetracycline is also cancelled-only in New Zealand, which limits practical use.\"",
+   "note": "Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures.",
+   "finding": "11 月 AI 重產時證據包把全部列載標成 Cancelled only，正文照寫「cancelled-only」；bundle 這 2 筆（2587106、2734575）都是現行列載，事實層有效 2、註銷 0",
+   "sources": [
+    {
+     "title": "Pharmac Pharmaceutical Schedule",
+     "url": "https://schedule.pharmac.govt.nz/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文的許可狀態對事實層與原始資料）"
   }
  ]
 }

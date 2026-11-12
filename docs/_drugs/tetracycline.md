@@ -109,7 +109,13 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The only evidence for punctate epithelial keratoconjunctivitis is a single 1992 case report, with no registered trials. The high model score likely reflects proximity to existing conjunctivitis indications. Tetracycline is also cancelled-only in New Zealand, which limits practical use.
+The only evidence for punctate epithelial keratoconjunctivitis is a single 1992 case report, with no registered trials. The high model score likely reflects proximity to existing conjunctivitis indications.
+
+<!-- review:begin nz-lic-20261112-tetracycline-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "existing conjunctivitis indications. Tetracycline is also cancelled-only in New Zealand, which limits practical use." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261112-tetracycline-1 -->
 
 **To proceed, the following is needed:**
 - Mechanism of action data
@@ -117,6 +123,19 @@ The only evidence for punctate epithelial keratoconjunctivitis is a single 1992 
 - Controlled clinical evidence of tetracycline in punctate epithelial keratoconjunctivitis
 - A comparison with currently marketed alternatives such as doxycycline, including the ocular route and formulation
 - For chronic rhinosinusitis (the most-studied alternative prediction), a focused review of doxycycline-based evidence, since the current data are mostly class-level and of low certainty
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Removed: "Tetracycline is also cancelled-only in New Zealand, which limits practical use." | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
