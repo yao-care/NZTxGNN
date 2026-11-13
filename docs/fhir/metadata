@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "name": "NZTxGNNFHIRServer",
   "title": "NZTxGNN FHIR Server - New Zealand Drug Repurposing",
-  "description": "FHIR R4 server for New Zealand TxGNN drug repurposing predictions",
+  "description": "FHIR R4 server for New Zealand TxGNN drug repurposing predictions. Contains 541 drugs and 3162 predicted indications.",
   "status": "active",
-  "date": "2026-03-29",
+  "date": "2026-11-13",
   "publisher": "TxGNN Project",
   "kind": "instance",
   "fhirVersion": "4.0.1",
@@ -33,6 +33,25 @@
               "code": "read"
             }
           ]
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://yao.care/fhir/StructureDefinition/txgnn-resource-counts",
+      "extension": [
+        {
+          "url": "MedicationKnowledge",
+          "valueInteger": 541
+        },
+        {
+          "url": "ClinicalUseDefinition",
+          "valueInteger": 3162
+        },
+        {
+          "url": "countedAt",
+          "valueDate": "2026-11-13"
         }
       ]
     }
