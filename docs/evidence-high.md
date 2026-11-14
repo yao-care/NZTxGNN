@@ -8,6 +8,11 @@ description: "L1-L2 drug repurposing candidates in NZTxGNN, supported by clinica
 
 # High Evidence (L1-L2)
 
+<!-- page-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
+{% assign pd_m = site.data.drug_stats.level_counts.L1 | plus: site.data.drug_stats.level_counts.L2 %}
+This page lists **{{ pd_m }}** of the **{{ site.data.drug_stats.total_drugs }}** medicines with a published report on this site ({{ pd_m | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}%). Level definitions: [Methodology]({{ '/methodology/' | relative_url }}).
+<!-- page-data:end -->
+
 <p style="font-size: 1.25rem; color: #666; margin-bottom: 1.5rem;">
 Candidates that may be prioritised for clinical evaluation
 </p>
