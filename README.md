@@ -19,7 +19,7 @@ Drug repurposing predictions for medicines on the New Zealand Pharmac Community 
 
 | Item | Count |
 |------|------|
-| **Drug Reports** | 460 |
+| **Drug Reports** | 461 |
 | **Total Predictions** | 2,551,121 |
 | **Unique Drugs** | 542 |
 | **Unique Indications** | 17,041 |
@@ -34,7 +34,7 @@ Drug repurposing predictions for medicines on the New Zealand Pharmac Community 
 | **L2** | 25 | Single RCT or multiple Phase 2 |
 | **L3** | 18 | Observational studies |
 | **L4** | 32 | Preclinical / mechanistic studies |
-| **L5** | 364 | Computational prediction only |
+| **L5** | 365 | Computational prediction only |
 | **N/A** | 12 | Known uses only (no new prediction) |
 
 ### By Source
