@@ -86,6 +86,13 @@ rare diseases."
 
 ## Data sources
 
+<p class="key-answer" data-question="Is there a free dataset of drug repurposing predictions I can download?">
+Yes. Every prediction on this site is published as a free, openly browsable drug report, and the
+underlying source datasets — TxGNN, ClinicalTrials.gov, PubMed, DrugBank and the Pharmac Community
+Pharmaceutical Schedule — are listed with download links, licences and update frequency on the
+<a href="{{ '/sources/' | relative_url }}">Data Sources</a> page.
+</p>
+
 Predictions combine TxGNN, ClinicalTrials.gov, PubMed and DrugBank with New Zealand medicine data from the
 Pharmac Community Pharmaceutical Schedule. Datasets, download links, licences and update frequency are listed on the
 <a href="{{ '/sources/' | relative_url }}">Data Sources</a> page.
