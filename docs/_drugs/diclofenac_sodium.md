@@ -1,55 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/diclofenac-sodium/
 sitemap: false
-layout: default
-title: Diclofenac Sodium
-parent: Known Uses Only (No New Predictions)
-nav_order: 149
-last_modified_at: 2026-11-06
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# Diclofenac Sodium
-{: .fs-9 }
-
-Evidence Level: **N/A** | Predicted Indications: **0** 
-{: .fs-6 .fw-300 }
-
----
-
-## Table of Contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-<div id="pharmacist" markdown="1">
-
-## Pharmacist Assessment Report
-
-</div>
-
-## Diclofenac Sodium
-{: .text-alpha }
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not recorded in the local data |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (11 Community Medicines items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 11 |
-
----
-
-## Disclaimer
-
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
-
----
-
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/diclofenac/">
+<meta http-equiv="refresh" content="0; url=/drugs/diclofenac/">
+<script>location="/drugs/diclofenac/"</script>
+<a href="/drugs/diclofenac/">/drugs/diclofenac/</a>
+</html>
