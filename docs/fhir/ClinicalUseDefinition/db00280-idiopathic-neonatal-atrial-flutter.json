@@ -1,0 +1,23 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00280-idiopathic-neonatal-atrial-flutter",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00280"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "idiopathic neonatal atrial flutter"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}

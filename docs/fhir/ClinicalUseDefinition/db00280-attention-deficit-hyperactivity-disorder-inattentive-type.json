@@ -1,0 +1,23 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db00280-attention-deficit-hyperactivity-disorder-inattentive-type",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db00280"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "attention deficit hyperactivity disorder, inattentive type"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://nztxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}
