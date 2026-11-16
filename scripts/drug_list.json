@@ -1,6 +1,6 @@
 {
-  "total": 448,
-  "generated_at": "2026-11-16T04:23:43.718601",
+  "total": 449,
+  "generated_at": "2026-11-16T21:31:22.538909",
   "drugs": [
     {
       "name": "Abacavir",
@@ -2238,6 +2238,27 @@
         "lateral sinus thrombosis"
       ],
       "approved_indication": "atrial fibrillation (disease)"
+    },
+    {
+      "name": "Disopyramide Phosphate",
+      "file": "disopyramide_phosphate.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": "",
+      "inn": "Disopyramide",
+      "predicted_indications": [
+        "Tourette syndrome",
+        "attention deficit-hyperactivity disorder",
+        "trichotillomania",
+        "attention deficit hyperactivity disorder, inattentive type",
+        "faciodigitogenital syndrome",
+        "specific developmental disorder",
+        "idiopathic neonatal atrial flutter",
+        "chondromyxoid fibroma",
+        "multifocal atrial tachycardia (disease)",
+        "trigeminal nerve neoplasm"
+      ],
+      "approved_indication": ""
     },
     {
       "name": "Docetaxel",
