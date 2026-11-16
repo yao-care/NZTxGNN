@@ -233,6 +233,7 @@
       "sources": [
         "AuTxGNN",
         "CaTxGNN",
+        "FITxGNN",
         "HkTxGNN",
         "SgTxGNN",
         "ZaTxGNN"
@@ -1003,6 +1004,7 @@
       "sources": [
         "AuTxGNN",
         "CaTxGNN",
+        "DETxGNN",
         "DkTxGNN",
         "HkTxGNN"
       ]

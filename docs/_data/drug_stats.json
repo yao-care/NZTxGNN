@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-04",
-  "total_drugs": 460,
+  "generated": "2026-11-16",
+  "total_drugs": 461,
   "level_counts": {
     "L1": 9,
     "L2": 25,
     "L3": 18,
     "L4": 32,
-    "L5": 364
+    "L5": 365
   },
   "all_drugs": [
     {
@@ -800,6 +800,12 @@
       "slug": "dipyridamole",
       "level": "L5",
       "indication_count": 6
+    },
+    {
+      "name": "Disopyramide Phosphate",
+      "slug": "disopyramide_phosphate",
+      "level": "L5",
+      "indication_count": 10
     },
     {
       "name": "Docetaxel",

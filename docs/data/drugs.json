@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06",
-  "total_count": 460,
+  "generated": "2026-11-16",
+  "total_count": 461,
   "source": "NZTxGNN",
   "drugs": [
     {
@@ -1322,6 +1322,16 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/dipyridamole/"
+    },
+    {
+      "slug": "disopyramide-phosphate",
+      "name": "Disopyramide Phosphate",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "original_indication": "",
+      "predicted_indication": "",
+      "txgnn_score": "",
+      "url": "/drugs/disopyramide-phosphate/"
     },
     {
       "slug": "docetaxel",
