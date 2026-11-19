@@ -14,55 +14,29 @@ Predictions are published in FHIR R4 format, ready to integrate with EHR systems
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## New Zealand: data behind this site
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## New Zealand: what the files contain now
 
-This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines on the [Pharmac Community Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) (New Zealand).
+| File | Contents now |
+|---|---|
+| `/data/search-index.json` | {{ site.data.local_facts.files.search_index }} medicines with their predicted indications |
+| `/data/drugs.json` | {{ site.data.local_facts.files.drugs_json }} medicines with evidence level and original indication |
+| `/fhir/MedicationKnowledge/` | {{ site.data.local_facts.fhir.medication_knowledge }} MedicationKnowledge resources (one per medicine) |
+| `/fhir/ClinicalUseDefinition/` | {{ site.data.local_facts.fhir.clinical_use_definition }} ClinicalUseDefinition resources (one per predicted indication) |
 
-Dataset: [Pharmac Community Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/), downloaded and compared automatically every week (Mondays). Details: [Data Sources]({{ '/sources/' | relative_url }}).
+Reuse of the local dataset: [Pharmac Community Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/), published by Pharmac; reuse is governed by the publisher's terms, and this site does not grant any further rights.
 
-Reports by evidence level:
+{% if site.data.local_facts.top_licensed.size > 0 %}Medicines with the most current Pharmac Schedule listings: {% for r in site.data.local_facts.top_licensed limit: 5 offset: 3 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.lv }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| Evidence level | Reports | Share |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}Latest review-log corrections: {% for r in site.data.local_facts.recent_reviews limit: 8 offset: 16 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-12 predicted drug–disease pairs on this site appear on no other of the 30 TxGNN sites.
+<!-- local-facts:end -->
 
-<!-- site-data:end -->
+<!-- local-condensed:start（母目錄 .claude/gen_local_pages_20261119.py；原共用段落縮寫，勿手改）-->
+## FHIR, search index and reuse
 
-## FHIR resources
-
-This site publishes predictions as FHIR R4 resources, consumable directly by SMART on FHIR apps:
-
-| Resource | Path | Description |
-|----------|------|-------------|
-| CapabilityStatement | `/fhir/metadata` | FHIR server capability statement |
-| MedicationKnowledge | `/fhir/MedicationKnowledge/` | Drug resources |
-| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/` | Predicted indications |
-| Bundle | `/fhir/Bundle/all-predictions.json` | All predictions bundled |
-
----
-
-## Search index
-
-`/data/search-index.json` provides a search index of drugs and indications for building your own
-query interface.
-
----
-
-## Terms of use
-
-<ol class="actionable-steps">
-<li>Data on this site is <strong>for research reference only</strong> and must not be used as a basis for medical decisions.</li>
-<li>When citing, credit NZTxGNN (藥提醒科技有限公司) and cite the original TxGNN paper.</li>
-<li>Downstream data remains subject to the licence terms of each original source (see <a href="{{ '/sources/' | relative_url }}">Data Sources</a>).</li>
-</ol>
+The FHIR R4 capability statement is at `/fhir/metadata`, all predictions are bundled in `/fhir/Bundle/all-predictions.json`, and `/data/search-index.json` holds the medicines and indications behind the site search. Data here are for research reference only; credit the site and cite the TxGNN paper, and check each source's licence on [Data Sources]({{ '/sources/' | relative_url }}).
+<!-- local-condensed:end -->
 
 ---
 

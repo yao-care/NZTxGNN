@@ -47,11 +47,32 @@ patient identifiers. When you ask for clinical trials, the drug and indication n
 
 ---
 
-## Data subject rights
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Applicable law
 
-This site has no accounts and keeps no personal records on servers of its own (it has none). Usage statistics
-are collected by Google Analytics 4; you can block or delete its cookies in your browser settings.
-For questions about this policy, contact service@yao.care.
+For visitors in New Zealand the relevant law is the [Privacy Act 2020](https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html) and its 13 Information Privacy Principles (IPPs), administered by the [Office of the Privacy Commissioner](https://www.privacy.org.nz/). The site collects no names, emails or health records; the usage data gathered by Google Analytics 4 is sent to Google overseas, which IPP 12 (disclosure outside New Zealand) addresses.
+
+## Your rights and how to use them
+
+- Ask whether we hold personal information about you and see it (IPP 6).
+- Ask for it to be corrected, or for a statement of correction to be attached (IPP 7).
+- Expect it to be used only for the purpose described here: site usage statistics (IPP 10).
+- Complain to the Privacy Commissioner if you think there has been an interference with your privacy.
+
+Requests: service@yao.care (there are no accounts, so tell us the date and pages of your visit). Analytics cookies can be blocked or deleted in your browser.
+
+## Copyright and data sources
+
+Site texts are protected under the [Copyright Act 1994](https://www.legislation.govt.nz/act/public/1994/0143/latest/DLM345634.html). The site's code is published under the MIT License in the [GitHub repository](https://github.com/yao-care/NZTxGNN); report texts are © 藥提醒科技有限公司 (yao.care).
+
+Data sources used on this site and their terms:
+
+- **TxGNN** data (Harvard Dataverse): CC0 1.0; cite Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov**, **PubMed**: [ClinicalTrials.gov terms](https://clinicaltrials.gov/about-site/terms-conditions), [NCBI policies](https://www.ncbi.nlm.nih.gov/home/about/policies/).
+- **DrugBank**: [DrugBank](https://go.drugbank.com/) licence terms, non-commercial use.
+- **Local dataset** – [Pharmac Community Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/), published by Pharmac; reuse is governed by the publisher's terms, and this site does not grant any further rights.
+
+<!-- privacy-law:end -->
 
 ---
 

@@ -14,27 +14,19 @@ Check the evidence level first, then the recommendation, then read the source li
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## New Zealand: data behind this site
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## New Zealand: a worked example from this site
 
-This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines on the [Pharmac Community Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) (New Zealand).
+Reading a report on this site takes three checks, in this order: evidence level, local market data, review log.
 
-Dataset: [Pharmac Community Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/), downloaded and compared automatically every week (Mondays). Details: [Data Sources]({{ '/sources/' | relative_url }}).
+{% assign gx = site.data.local_facts.example %}
+{% if gx %}Open [{{ gx.t }}]({{ gx.u | relative_url }}): the header shows evidence level **{{ gx.l }}**; the main predicted new indication is **{{ gx.i }}**; the local data list **{{ gx.lt }}** Pharmac Schedule listings, **{{ gx.lv }}** of them current; the review log on the page has **{{ gx.r }}** entries.{% endif %}
 
-Reports by evidence level:
+{% if site.data.local_facts.most_reviewed.size > 0 %}Medicines with the most review-log entries: {% for r in site.data.local_facts.most_reviewed %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.r }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| Evidence level | Reports | Share |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}Latest review-log corrections: {% for r in site.data.local_facts.recent_reviews limit: 8 offset: 8 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-12 predicted drug–disease pairs on this site appear on no other of the 30 TxGNN sites.
-
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## Looking up a drug
 
@@ -46,47 +38,13 @@ Reports by evidence level:
 
 ---
 
+<!-- local-condensed:start（母目錄 .claude/gen_local_pages_20261119.py；原共用段落縮寫，勿手改）-->
 ## Reading a report
 
 <p class="key-answer" data-question="What do evidence levels L1 to L5 mean?">
-Each drug report lists predicted new indications, and each indication carries an L1&ndash;L5 evidence
-level. <strong>L1 means multiple Phase 3 randomised controlled trials already support it; L5 means
-model prediction only, with no human evidence.</strong> Full criteria are on the
-<a href="{{ '/methodology/' | relative_url }}">Methodology</a> page.
+Each predicted indication carries a level from <strong>L1</strong> (several Phase 3 trials) to <strong>L5</strong> (model prediction only). Every piece of evidence cites an NCT or PMID number you can open; predictions are research leads, not clinical advice. Definitions and grading rules: <a href="{{ '/methodology/' | relative_url }}">Methodology</a>.
 </p>
-
-| If you see | It means | Suggested action |
-|-----------|----------|------------------|
-| L1 / L2 | Clinical trial evidence exists | Review the source NCT and PMID records |
-| L3 / L4 | Observational or preclinical evidence | Treat as a research lead |
-| L5 | Model prediction only | Hypothesis generation only; not for clinical reference |
-
----
-
-## Citation and traceability
-
-Every piece of evidence in a report carries a traceable identifier:
-
-- **NCT number**: links to the ClinicalTrials.gov registration
-- **PMID**: links to the PubMed record
-- **DrugBank ID**: links to drug and target data
-
-Please read the source literature to confirm context before citing any conclusion from this platform.
-
----
-
-## Frequently asked questions
-
-<p class="key-answer" data-question="Can predictions be used clinically?">
-<strong>No.</strong> Predictions on this platform are research leads, not clinical advice. Any
-clinical application of drug repurposing must go through full clinical trial validation and
-regulatory review.
-</p>
-
-<p class="key-answer" data-question="Why can't I find a particular drug?">
-An ingredient must map to the DrugBank vocabulary to be included in prediction. Herbal extracts,
-vaccines, excipients and other items not catalogued by DrugBank do not appear on this platform.
-</p>
+<!-- local-condensed:end -->
 
 ---
 
