@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 366
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pilocarpine: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
