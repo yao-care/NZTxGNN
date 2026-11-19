@@ -8,6 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 description: "Saccharin: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded"
 monitor_inn: "saccharin"
+drugbank_id: DB12418
 predicted_indications: ["obsolete bundle branch block", "ventricular tachycardia"]
 ---
 

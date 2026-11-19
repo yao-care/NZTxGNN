@@ -8,6 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 description: "Fluticasone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "FLUTICASONE"
+drugbank_id: DB13867
 predicted_indications: ["migraine disorder", "Prinzmetal angina", "migraine with brainstem aura"]
 ---
 

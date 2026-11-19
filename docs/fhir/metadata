@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "name": "NZTxGNNFHIRServer",
   "title": "NZTxGNN FHIR Server - New Zealand Drug Repurposing",
-  "description": "FHIR R4 server for New Zealand TxGNN drug repurposing predictions. Contains 458 drugs and 2617 predicted indications.",
+  "description": "FHIR R4 server for New Zealand TxGNN drug repurposing predictions. Contains 461 drugs and 2627 predicted indications.",
   "status": "active",
-  "date": "2026-11-16",
+  "date": "2026-11-19",
   "publisher": "TxGNN Project",
   "kind": "instance",
   "fhirVersion": "4.0.1",
@@ -43,15 +43,15 @@
       "extension": [
         {
           "url": "MedicationKnowledge",
-          "valueInteger": 458
+          "valueInteger": 461
         },
         {
           "url": "ClinicalUseDefinition",
-          "valueInteger": 2617
+          "valueInteger": 2627
         },
         {
           "url": "countedAt",
-          "valueDate": "2026-11-16"
+          "valueDate": "2026-11-19"
         }
       ]
     }
