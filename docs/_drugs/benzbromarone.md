@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "BENZBROMARONE"
 predicted_indications: ["hypouricemia, renal"]
 last_modified_at: 2026-11-12
-description: "Benzbromarone: predicted new indication Renal hypouricemia (hypouricemia, renal) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Benzbromarone: predicted new indication Renal hypouricemia (hypouricemia, renal) (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Benzbromarone

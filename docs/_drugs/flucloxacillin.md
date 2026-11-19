@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "FLUCLOXACILLIN"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
-description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). In New Zealand: 7 Pharmac Schedule items"
 ---
 
 # Flucloxacillin

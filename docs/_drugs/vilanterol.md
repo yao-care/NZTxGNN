@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-19
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
+description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Vilanterol

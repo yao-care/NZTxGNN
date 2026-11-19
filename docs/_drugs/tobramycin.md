@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-19
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
-description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
+description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). In New Zealand: 4 Pharmac Schedule items"
 ---
 
 # Tobramycin

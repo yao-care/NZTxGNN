@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "sennosides"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia"]
-description: "Sennosides: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
+description: "Sennosides: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Sennosides

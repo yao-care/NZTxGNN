@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "Ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
-description: "Ethambutol: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ethambutol: predicted new indication Epiglottitis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Ethambutol

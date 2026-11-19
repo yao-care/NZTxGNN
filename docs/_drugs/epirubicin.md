@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-19
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
-description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Epirubicin

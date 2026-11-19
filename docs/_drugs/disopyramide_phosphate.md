@@ -9,7 +9,7 @@ drugbank_id: DB00280
 monitor_inn: "Disopyramide"
 predicted_indications: ["Tourette syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "idiopathic neonatal atrial flutter", "chondromyxoid fibroma", "multifocal atrial tachycardia (disease)", "trigeminal nerve neoplasm"]
 last_modified_at: 2026-11-19
-description: "Disopyramide Phosphate: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Disopyramide Phosphate: predicted new indication Tourette syndrome (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Disopyramide Phosphate

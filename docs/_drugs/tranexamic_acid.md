@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
-description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Tranexamic Acid

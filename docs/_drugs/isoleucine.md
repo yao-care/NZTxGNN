@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "ISOLEUCINE"
 predicted_indications: ["gastroparesis (disease)"]
-description: "Isoleucine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Isoleucine: predicted new indication Gastroparesis (disease) (evidence level L5). In New Zealand: 9 Pharmac Schedule items"
 ---
 
 # Isoleucine

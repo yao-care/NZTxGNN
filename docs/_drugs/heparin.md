@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-19
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
-description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
+description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). In New Zealand: 5 Pharmac Schedule items"
 ---
 
 # Heparin

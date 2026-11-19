@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-19
 monitor_inn: "KETAMINE"
 predicted_indications: ["headache disorder"]
-description: "Ketamine: predicted new indication Headache disorder (evidence level L1). Approved use: Not recorded in the local data"
+description: "Ketamine: predicted new indication Headache disorder (evidence level L1). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Ketamine

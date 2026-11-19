@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 last_modified_at: 2026-11-12
-description: "Cyclosporine: predicted new indication Chronic granulomatous disease, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cyclosporine: predicted new indication Chronic granulomatous disease, autosomal recessive (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
 ---
 
 # Cyclosporine

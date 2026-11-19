@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-19
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
+description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In New Zealand: 6 Pharmac Schedule items"
 ---
 
 # Levetiracetam

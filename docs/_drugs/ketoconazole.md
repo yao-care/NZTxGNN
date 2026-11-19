@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-19
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
-description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
+description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). In New Zealand: 5 Pharmac Schedule items"
 ---
 
 # Ketoconazole

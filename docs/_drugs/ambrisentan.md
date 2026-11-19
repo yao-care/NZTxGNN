@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
 last_modified_at: 2026-11-19
-description: "Ambrisentan: predicted new indication pulmonary arteriovenous malformation (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ambrisentan: predicted new indication pulmonary arteriovenous malformation (disease) (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Ambrisentan

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-19
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
-description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In New Zealand: 19 Pharmac Schedule items"
 ---
 
 # Olanzapine

@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Benzatropine"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder"]
 last_modified_at: 2026-11-19
-description: "Benzatropine: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Not recorded in the local data"
+description: "Benzatropine: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Benzatropine

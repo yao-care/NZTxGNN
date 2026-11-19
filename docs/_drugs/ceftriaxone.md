@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CEFTRIAXONE"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
 last_modified_at: 2026-11-19
-description: "Ceftriaxone: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ceftriaxone: predicted new indication hyperamylasemia (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Ceftriaxone

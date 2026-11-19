@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-19
 monitor_inn: "sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
-description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). Approved use: Not recorded in the local data"
+description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Sofosbuvir

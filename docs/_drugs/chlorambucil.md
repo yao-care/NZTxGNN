@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CHLORAMBUCIL"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
 last_modified_at: 2026-11-19
-description: "Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Chlorambucil

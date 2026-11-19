@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-19
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
-description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Pirfenidone

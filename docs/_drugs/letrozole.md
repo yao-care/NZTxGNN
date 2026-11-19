@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-19
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
-description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Letrozole

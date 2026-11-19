@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "PAROMOMYCIN"
 predicted_indications: ["hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
-description: "Paromomycin: predicted new indication Hepatoportal sclerosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Paromomycin: predicted new indication Hepatoportal sclerosis (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Paromomycin

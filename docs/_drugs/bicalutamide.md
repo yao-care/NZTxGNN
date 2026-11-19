@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
 last_modified_at: 2026-11-19
-description: "Bicalutamide: predicted new indication Hypertrichosis (disease) (evidence level L4). Approved use: Not recorded in the local data"
+description: "Bicalutamide: predicted new indication Hypertrichosis (disease) (evidence level L4). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Bicalutamide

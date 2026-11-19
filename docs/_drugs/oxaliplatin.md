@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-19
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
-description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Not recorded in the local data"
+description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). In New Zealand: 5 Pharmac Schedule items"
 ---
 
 # Oxaliplatin

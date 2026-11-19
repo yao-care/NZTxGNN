@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "AMINOPHYLLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
 last_modified_at: 2026-11-19
-description: "Aminophylline: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Aminophylline: predicted new indication migraine disorder (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Aminophylline

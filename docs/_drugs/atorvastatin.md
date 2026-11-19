@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "ATORVASTATIN"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 last_modified_at: 2026-11-19
-description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"
+description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). In New Zealand: 6 Pharmac Schedule items"
 ---
 
 # Atorvastatin

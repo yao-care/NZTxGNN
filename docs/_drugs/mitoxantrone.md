@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-19
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
-description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
+description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Mitoxantrone

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-19
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
-description: "Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L4). Approved use: Not recorded in the local data"
+description: "Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L4). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Vinblastine

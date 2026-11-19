@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-19
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
-description: "Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Lactulose

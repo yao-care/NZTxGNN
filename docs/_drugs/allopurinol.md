@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "ALLOPURINOL"
 predicted_indications: ["hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
 last_modified_at: 2026-11-19
-description: "Allopurinol: predicted new indication hepatic porphyria (evidence level L5). Approved use: Not recorded in the local data"
+description: "Allopurinol: predicted new indication hepatic porphyria (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Allopurinol

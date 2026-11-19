@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-19
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
-description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Ticagrelor

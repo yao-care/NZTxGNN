@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 last_modified_at: 2026-11-19
-description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L3). Approved use: Not recorded in the local data"
+description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L3). In New Zealand: 5 Pharmac Schedule items"
 ---
 
 # Docetaxel

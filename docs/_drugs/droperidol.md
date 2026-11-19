@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "DROPERIDOL"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
-description: "Droperidol: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Droperidol: predicted new indication Tourette syndrome (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Droperidol

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "MUPIROCIN"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
-description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Mupirocin

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-19
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
-description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In New Zealand: 15 Pharmac Schedule items"
 ---
 
 # Risperidone

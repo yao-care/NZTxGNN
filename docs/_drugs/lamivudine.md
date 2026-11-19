@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-19
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-description: "Lamivudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lamivudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In New Zealand: 8 Pharmac Schedule items"
 ---
 
 # Lamivudine

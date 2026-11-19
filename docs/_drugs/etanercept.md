@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-19
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
+description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
 ---
 
 # Etanercept

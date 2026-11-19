@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
-description: "Insulin Aspart: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Insulin Aspart: predicted new indication Autoimmune oophoritis (evidence level L5). In New Zealand: 5 Pharmac Schedule items"
 ---
 
 # Insulin Aspart

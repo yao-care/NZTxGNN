@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-19
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Leflunomide

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
-description: "Flupentixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
+description: "Flupentixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Flupentixol

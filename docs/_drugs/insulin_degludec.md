@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
-description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Insulin Degludec

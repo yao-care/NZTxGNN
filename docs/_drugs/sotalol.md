@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-19
 monitor_inn: "SOTALOL"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
-description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
+description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Sotalol

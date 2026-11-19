@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-19
 monitor_inn: "MIDODRINE"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
-description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Midodrine

@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "ACETAZOLAMIDE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
 last_modified_at: 2026-11-19
-description: "Acetazolamide: predicted new indication exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Acetazolamide: predicted new indication exercise-induced malignant hyperthermia (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Acetazolamide

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-19
 monitor_inn: "MEBENDAZOLE"
 predicted_indications: ["acne (disease)"]
-description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Mebendazole

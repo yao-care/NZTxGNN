@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
 last_modified_at: 2026-11-19
-description: "Axitinib: predicted new indication liposarcoma (evidence level L4). Approved use: Not recorded in the local data"
+description: "Axitinib: predicted new indication liposarcoma (evidence level L4). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Axitinib

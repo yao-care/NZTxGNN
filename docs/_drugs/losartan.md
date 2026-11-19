@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-19
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
-description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
+description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). In New Zealand: 5 Pharmac Schedule items"
 ---
 
 # Losartan

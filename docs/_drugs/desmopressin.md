@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "DESMOPRESSIN"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
 last_modified_at: 2026-11-19
-description: "Desmopressin: predicted new indication congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
+description: "Desmopressin: predicted new indication congenital prothrombin deficiency (evidence level L5). In New Zealand: 5 Pharmac Schedule items"
 ---
 
 # Desmopressin

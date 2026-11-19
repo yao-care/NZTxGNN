@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-19
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
-description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). In New Zealand: 6 Pharmac Schedule items"
 ---
 
 # Lacosamide

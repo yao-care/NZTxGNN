@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
 last_modified_at: 2026-11-19
-description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Amantadine

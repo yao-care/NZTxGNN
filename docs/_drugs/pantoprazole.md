@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-19
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
-description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
+description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Pantoprazole

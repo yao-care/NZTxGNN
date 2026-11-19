@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-19
 monitor_inn: "FLUCONAZOLE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
-description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In New Zealand: 7 Pharmac Schedule items"
 ---
 
 # Fluconazole

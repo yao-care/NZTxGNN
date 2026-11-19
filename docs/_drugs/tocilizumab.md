@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-19
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
-description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L2). Approved use: Not recorded in the local data"
+description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L2). In New Zealand: 4 Pharmac Schedule items"
 ---
 
 # Tocilizumab

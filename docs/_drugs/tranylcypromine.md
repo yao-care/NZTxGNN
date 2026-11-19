@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-19
 monitor_inn: "tranylcypromine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
-description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Tranylcypromine

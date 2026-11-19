@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-19
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
-description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
+description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Goserelin

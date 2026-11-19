@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "CARBIMAZOLE"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 last_modified_at: 2026-11-12
-description: "Carbimazole: predicted new indication resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not recorded in the local data"
+description: "Carbimazole: predicted new indication resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Carbimazole

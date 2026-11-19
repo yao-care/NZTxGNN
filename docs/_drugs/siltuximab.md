@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-19
 monitor_inn: "SILTUXIMAB"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
-description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Siltuximab

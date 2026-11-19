@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
 last_modified_at: 2026-11-19
-description: "Aflibercept: predicted new indication esotropia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Aflibercept: predicted new indication esotropia (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Aflibercept

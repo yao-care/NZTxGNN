@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
-description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Ipilimumab

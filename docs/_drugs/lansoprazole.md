@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-19
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
-description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
 ---
 
 # Lansoprazole

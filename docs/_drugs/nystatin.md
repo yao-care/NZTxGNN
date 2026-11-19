@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-19
 monitor_inn: "NYSTATIN"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-description: "Nystatin: predicted new indication Disease of orbital region (evidence level L5). Approved use: Not recorded in the local data"
+description: "Nystatin: predicted new indication Disease of orbital region (evidence level L5). In New Zealand: 6 Pharmac Schedule items"
 ---
 
 # Nystatin

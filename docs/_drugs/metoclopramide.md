@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-19
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
-description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Metoclopramide

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-19
 monitor_inn: "LENVATINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
-description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
+description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L3). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Lenvatinib

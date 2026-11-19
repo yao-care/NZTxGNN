@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-19
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
-description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). In New Zealand: 9 Pharmac Schedule items"
 ---
 
 # Ipratropium

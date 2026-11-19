@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-19
 monitor_inn: "RIFABUTIN"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
-description: "Rifabutin: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Rifabutin: predicted new indication HIV infectious disease (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Rifabutin

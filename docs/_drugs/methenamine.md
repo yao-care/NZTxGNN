@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "METHENAMINE"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
-description: "Methenamine: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Methenamine: predicted new indication Ureaplasma urethritis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Methenamine

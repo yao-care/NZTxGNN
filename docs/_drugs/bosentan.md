@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
 last_modified_at: 2026-11-19
-description: "Bosentan: predicted new indication rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Bosentan: predicted new indication rheumatoid arthritis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Bosentan

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-19
 monitor_inn: "Papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
-description: "Papaverine: predicted new indication Ischemic disease (evidence level L4). Approved use: Not recorded in the local data"
+description: "Papaverine: predicted new indication Ischemic disease (evidence level L4). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Papaverine

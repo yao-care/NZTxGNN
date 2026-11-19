@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "BECLOMETHASONE DIPROPIONATE"
 predicted_indications: ["atopic eczema"]
 last_modified_at: 2026-11-19
-description: "Beclomethasone Dipropionate: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
+description: "Beclomethasone Dipropionate: predicted new indication atopic eczema (evidence level L5). In New Zealand: 5 Pharmac Schedule items"
 ---
 
 # Beclomethasone Dipropionate

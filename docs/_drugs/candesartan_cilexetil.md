@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "CANDESARTAN CILEXETIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 last_modified_at: 2026-11-19
-description: "Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). In New Zealand: 17 Pharmac Schedule items"
 ---
 
 # Candesartan Cilexetil

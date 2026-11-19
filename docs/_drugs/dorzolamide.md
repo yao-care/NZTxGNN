@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-19
 monitor_inn: "dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
+description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Dorzolamide

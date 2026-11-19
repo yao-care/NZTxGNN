@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-19
 monitor_inn: "OCTREOTIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
-description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). In New Zealand: 11 Pharmac Schedule items"
 ---
 
 # Octreotide

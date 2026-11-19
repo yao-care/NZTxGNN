@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-19
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
-description: "Everolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
+description: "Everolimus: predicted new indication Liposarcoma (evidence level L2). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Everolimus

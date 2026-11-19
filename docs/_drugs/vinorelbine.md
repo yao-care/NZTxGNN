@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-19
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
-description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
+description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). In New Zealand: 6 Pharmac Schedule items"
 ---
 
 # Vinorelbine

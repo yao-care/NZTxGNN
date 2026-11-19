@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-19
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
-description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Propafenone

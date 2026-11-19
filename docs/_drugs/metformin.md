@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-19
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
-description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). In New Zealand: 8 Pharmac Schedule items"
 ---
 
 # Metformin

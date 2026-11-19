@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "DAUNORUBICIN"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
 last_modified_at: 2026-11-19
-description: "Daunorubicin: predicted new indication Hodgkins lymphoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Daunorubicin: predicted new indication Hodgkins lymphoma (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
 ---
 
 # Daunorubicin

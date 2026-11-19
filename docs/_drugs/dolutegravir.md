@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 last_modified_at: 2026-11-19
-description: "Dolutegravir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Dolutegravir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Dolutegravir

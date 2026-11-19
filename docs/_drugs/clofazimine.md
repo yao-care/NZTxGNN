@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "CLOFAZIMINE"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
 last_modified_at: 2026-11-19
-description: "Clofazimine: predicted new indication pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Clofazimine: predicted new indication pneumocystosis (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Clofazimine

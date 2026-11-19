@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 last_modified_at: 2026-11-19
-description: "Bleomycin: predicted new indication cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data"
+description: "Bleomycin: predicted new indication cauda equina neoplasm (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Bleomycin

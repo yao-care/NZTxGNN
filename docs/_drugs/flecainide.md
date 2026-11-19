@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-19
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
-description: "Flecainide: predicted new indication Stroke disorder (evidence level L3). Approved use: Not recorded in the local data"
+description: "Flecainide: predicted new indication Stroke disorder (evidence level L3). In New Zealand: 4 Pharmac Schedule items"
 ---
 
 # Flecainide

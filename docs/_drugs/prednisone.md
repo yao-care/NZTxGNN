@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-19
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-description: "Prednisone: predicted new indication Alopecia areata (evidence level L3). Approved use: Not recorded in the local data"
+description: "Prednisone: predicted new indication Alopecia areata (evidence level L3). In New Zealand: 4 Pharmac Schedule items"
 ---
 
 # Prednisone

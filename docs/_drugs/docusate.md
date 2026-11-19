@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
 last_modified_at: 2026-11-12
-description: "Docusate: predicted new indication Plummer-Vinson syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Docusate: predicted new indication Plummer-Vinson syndrome (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Docusate

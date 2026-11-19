@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-19
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
-description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
+description: "Montelukast: predicted new indication Bronchitis (evidence level L2). In New Zealand: 5 Pharmac Schedule items"
 ---
 
 # Montelukast

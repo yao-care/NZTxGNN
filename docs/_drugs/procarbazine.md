@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-19
 monitor_inn: "Procarbazine"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
-description: "Procarbazine: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Not recorded in the local data"
+description: "Procarbazine: predicted new indication Follicular lymphoma (evidence level L3). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Procarbazine

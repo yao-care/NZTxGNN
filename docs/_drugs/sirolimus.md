@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-19
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
-description: "Sirolimus: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Sirolimus: predicted new indication Liposarcoma (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Sirolimus

@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
 last_modified_at: 2026-11-12
-description: "Cinchocaine: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cinchocaine: predicted new indication Bronchitis (evidence level L5). In New Zealand: 5 Pharmac Schedule items"
 ---
 
 # Cinchocaine

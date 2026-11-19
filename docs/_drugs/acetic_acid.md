@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
 last_modified_at: 2026-11-19
-description: "Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Acetic Acid

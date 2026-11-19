@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
 last_modified_at: 2026-11-19
-description: "Amlodipine: predicted new indication brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
+description: "Amlodipine: predicted new indication brain stem infarction (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Amlodipine

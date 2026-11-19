@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
-description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Ferrous Sulfate Anhydrous

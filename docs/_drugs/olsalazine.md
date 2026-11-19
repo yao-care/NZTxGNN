@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-19
 monitor_inn: "OLSALAZINE"
 predicted_indications: ["myelodysplastic syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "partial deletion of the long arm of chromosome 5", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
-description: "Olsalazine: predicted new indication Myelodysplastic syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Olsalazine: predicted new indication Myelodysplastic syndrome (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Olsalazine

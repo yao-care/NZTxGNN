@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "abacavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 last_modified_at: 2026-11-19
-description: "Abacavir: predicted new indication simian immunodeficiency virus infection (evidence level L5). Approved use: Not recorded in the local data"
+description: "Abacavir: predicted new indication simian immunodeficiency virus infection (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Abacavir

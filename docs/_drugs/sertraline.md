@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-19
 monitor_inn: "SERTRALINE"
 predicted_indications: ["histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Sertraline

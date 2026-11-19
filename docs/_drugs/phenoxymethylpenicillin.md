@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "PHENOXYMETHYLPENICILLIN"
 predicted_indications: ["epiglottitis", "laryngitis"]
-description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
 ---
 
 # Phenoxymethylpenicillin

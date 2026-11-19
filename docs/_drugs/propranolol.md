@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-19
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
-description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
+description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In New Zealand: 6 Pharmac Schedule items"
 ---
 
 # Propranolol

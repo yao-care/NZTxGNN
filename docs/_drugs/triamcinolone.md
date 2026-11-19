@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-19
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
+description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). In New Zealand: 7 Pharmac Schedule items"
 ---
 
 # Triamcinolone

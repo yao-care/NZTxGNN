@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
-description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). In New Zealand: 13 Pharmac Schedule items"
 ---
 
 # Salbutamol

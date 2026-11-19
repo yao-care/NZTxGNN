@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-19
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
-description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). In New Zealand: 5 Pharmac Schedule items"
 ---
 
 # Tolvaptan

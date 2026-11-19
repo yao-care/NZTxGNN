@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-19
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
-description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Olopatadine

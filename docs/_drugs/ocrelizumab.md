@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-19
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
-description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Ocrelizumab

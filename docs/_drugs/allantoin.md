@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "allantoin"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial", "exanthem (disease)"]
 last_modified_at: 2026-11-12
-description: "Allantoin: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Allantoin: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Allantoin

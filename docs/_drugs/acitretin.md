@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "ACITRETIN"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
 last_modified_at: 2026-11-19
-description: "Acitretin: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
+description: "Acitretin: predicted new indication Acne (disease) (evidence level L4). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Acitretin

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-19
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). Approved use: Not recorded in the local data"
+description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). In New Zealand: 7 Pharmac Schedule items"
 ---
 
 # Levonorgestrel

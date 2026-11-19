@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "FERROUS FUMARATE"
 predicted_indications: ["non-syndromic esophageal malformation"]
-description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Ferrous Fumarate

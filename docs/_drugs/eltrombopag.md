@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-19
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
-description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L3). Approved use: Not recorded in the local data"
+description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L3). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Eltrombopag

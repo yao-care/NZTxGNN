@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
 last_modified_at: 2026-11-19
-description: "Busulfan: predicted new indication myelodysplastic syndrome (evidence level L1). Approved use: Not recorded in the local data"
+description: "Busulfan: predicted new indication myelodysplastic syndrome (evidence level L1). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Busulfan

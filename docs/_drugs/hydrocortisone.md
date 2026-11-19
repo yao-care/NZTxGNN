@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-19
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
+description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). In New Zealand: 18 Pharmac Schedule items"
 ---
 
 # Hydrocortisone

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-19
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
-description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
 # Natalizumab
