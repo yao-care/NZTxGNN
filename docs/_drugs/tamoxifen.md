@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ Among the model's top 10 predictions, the best-supported indication is **mammary
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known pharmacology, tamoxifen acts on the estrogen receptors (ERα and ERβ) and also binds GPER. It is used as an anti-estrogen in hormone-receptor-positive breast cancer.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tamoxifen: "Tamoxifen is an estrogen agonist/antagonist. Tamoxifen competes with estrogen for binding to the estrogen receptor, which can result in a decrease in estrogen receptor signaling-dependent growth in breast tissue. Tamoxifen has demonstrated antitumor activity against human breast cancer cell lines xenografted in mice." ([DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02), label version 2021-11-29; accessed 2026-11-19.) Based on known pharmacology, tamoxifen acts on the estrogen receptors (ERα and ERβ) and also binds GPER. It is used as an anti-estrogen in hormone-receptor-positive breast cancer.
 
 Mammary Paget disease is frequently associated with underlying ductal carcinoma in situ or invasive ductal carcinoma, which is often hormone-receptor-positive. This makes tamoxifen's anti-estrogen activity biologically plausible. The link is indirect, however: no trial in the dataset tests tamoxifen in Paget disease. The available support is a handful of case reports, for example one tamoxifen response in an extensive Paget disease of the nipple and one in hormone-receptor-positive extramammary Paget disease (a different condition).
 
@@ -148,11 +148,12 @@ The Paget disease prediction rests on case reports and a plausible hormone-recep
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02) |
 
 <!-- review:end log -->
 

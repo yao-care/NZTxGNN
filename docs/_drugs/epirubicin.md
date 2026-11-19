@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **primary pulmonary lymphoma**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, epirubicin is an anthracycline (a 4' epimer of doxorubicin) that interferes with DNA synthesis and function and inhibits topoisomerase II.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for epirubicin: "Epirubicin is an anthracycline cytotoxic agent. Although it is known that anthracyclines can interfere with a number of biochemical and biological functions within eukaryotic cells, the precise mechanisms of epirubicin's cytotoxic and/or antiproliferative properties have not been completely elucidated." ([DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42), label version 2026-07-24; accessed 2026-11-19.) Based on general pharmacology, epirubicin is an anthracycline (a 4' epimer of doxorubicin) that interferes with DNA synthesis and function and inhibits topoisomerase II.
 
 Anthracyclines are a core component of many lymphoma regimens (CHOP-like regimens), so a topoisomerase II-targeting drug is mechanistically plausible against lymphoma arising in the lung. However, this reasoning is indirect. Doxorubicin is the established anthracycline in lymphoma, which weakens the case for epirubicin specifically, and no study found tests epirubicin in primary pulmonary lymphoma.
 
@@ -119,6 +119,18 @@ The prediction score is high (0.9971), but no study tests epirubicin in primary 
 - Package insert warnings and contraindications
 - Mechanism of action data
 - A cardiac and haematological safety monitoring plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

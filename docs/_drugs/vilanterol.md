@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ Because this prediction overlaps closely with the existing COPD and asthma uses,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, vilanterol is a long-acting beta2-adrenergic agonist. It relaxes airway smooth muscle through cAMP-mediated bronchodilation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone furoate and vilanterol (a combination product containing vilanterol): "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP)." ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), label version 2024-11-21; accessed 2026-11-19.) Based on known pharmacology, vilanterol is a long-acting beta2-adrenergic agonist. It relaxes airway smooth muscle through cAMP-mediated bronchodilation.
 
 Obstructive lung disease is the broader category that includes COPD and asthma, the conditions vilanterol is already used for. The mechanism is therefore the same as in its established uses, and the prediction is mechanistically coherent.
 
@@ -149,6 +149,19 @@ The other nine predicted indications (interstitial emphysema, compensatory emphy
 - Mechanism-of-action data from DrugBank.
 - Verification of the registry phase label for NCT05062304 (IMPACT).
 - Evidence on the contribution of vilanterol alone, as the available trials test combinations.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

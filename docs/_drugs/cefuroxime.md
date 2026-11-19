@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **hyperamylasemia**, but there ar
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cefuroxime belongs to the cephalosporin class of beta-lactam antibiotics, which act by inhibiting bacterial cell-wall synthesis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cefuroxime: "Cefuroxime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefuroxime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c), label version 2025-03-27; accessed 2026-11-19.) Cefuroxime belongs to the cephalosporin class of beta-lactam antibiotics, which act by inhibiting bacterial cell-wall synthesis.
 
 Hyperamylasemia is a biochemical finding (raised serum amylase) and has no bacterial target. No plausible mechanistic link between cefuroxime and this condition could be identified. The high TxGNN score most likely reflects a pattern in the underlying network data rather than a true therapeutic effect, and it should not be read as evidence of efficacy.
 
@@ -106,11 +106,12 @@ The prediction has no supporting clinical trials or literature, and there is no 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the safety review cannot proceed without label data" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
 
 <!-- review:end log -->
 

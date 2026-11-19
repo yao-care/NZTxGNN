@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ Currently there are **no registered clinical trials** and **3 publications** (a 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pyridostigmine is a reversible acetylcholinesterase inhibitor. By slowing the breakdown of acetylcholine, it increases acetylcholine at the neuromuscular junction. This is the established symptomatic mechanism in myasthenia gravis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pyridostigmine: "Pyridostigmine bromide oral solution inhibits the destruction of acetylcholine by cholinesterase and thereby permits freer transmission of nerve impulses across the neuromuscular junction. Pyridostigmine is an analog of neostigmine (Prostigmine TM ), but differs from it in certain clinically significant respects; for example, pyridostigmine is characterized by a longer duration of action and fewer gastrointestinal side effects." ([DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780), label version 2022-09-07; accessed 2026-11-19.) Based on known information, pyridostigmine is a reversible acetylcholinesterase inhibitor. By slowing the breakdown of acetylcholine, it increases acetylcholine at the neuromuscular junction. This is the established symptomatic mechanism in myasthenia gravis.
 
 Thymic hyperplasia is a common pathological feature of myasthenia gravis with acetylcholine receptor antibodies. The predicted indication is therefore a subtype of the disease pyridostigmine already treats, and the mechanistic fit is strong. The high score mostly reflects this close relationship rather than a new therapeutic discovery.
 
@@ -124,11 +124,12 @@ The prediction is mechanistically sound, but it largely restates the existing in
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clarification of the regulatory position, since the only New Zealand authorization is cancelled and its approved indication text is not reco" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CLARITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Clarithromycin: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **hyperamylasemia**, but there ar
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Clarithromycin belongs to the macrolide class of antibiotics, which are known to act on bacterial protein synthesis and also to have some anti-inflammatory and immunomodulatory effects.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for clarithromycin: "Clarithromycin is a macrolide antimicrobial drug. […] Clarithromycin exerts its antibacterial action by binding to the 50S ribosomal subunit of susceptible bacteria resulting in inhibition of protein synthesis." ([DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d328f5d-73c1-4df7-a3df-71d0e0221181), label version 2026-11-12; accessed 2026-11-19.) Clarithromycin belongs to the macrolide class of antibiotics, which are known to act on bacterial protein synthesis and also to have some anti-inflammatory and immunomodulatory effects.
 
 No established mechanism links clarithromycin to the treatment of hyperamylasemia. The only publication found is a 2004 Japanese case report of a *Mycobacterium abscessus* lung infection in a patient who also had primary macroamylasemia. Clarithromycin was most likely used there as an anti-mycobacterial agent, and the raised amylase was an incidental finding rather than a treatment target. The high score of 0.9935 is a computational output from the model and is not backed by clinical data.
 
@@ -101,6 +101,19 @@ The prediction rests only on a model score. No clinical trials exist, and the si
 - Mechanism of action data and a credible biological rationale for an effect on amylase levels
 - Package insert warnings and contraindications from Medsafe for safety screening
 - Controlled or observational studies that directly examine clarithromycin in hyperamylasemia
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d328f5d-73c1-4df7-a3df-71d0e0221181) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

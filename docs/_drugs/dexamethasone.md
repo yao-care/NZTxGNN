@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Dexamethasone is a synthetic glucocorticoid with strong anti-inflammatory and im
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for dexamethasone is not available in the data compiled for this report. Dexamethasone is a systemic and local corticosteroid, and glucocorticoids as a class suppress inflammatory signalling and immune-cell activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dexamethasone: "Dexamethasone, a corticosteroid, has been shown to suppress inflammation by inhibiting multiple inflammatory cytokines resulting in decreased edema, fibrin deposition, capillary leakage and migration of inflammatory cells." ([DailyMed: Ozurdex (dexamethasone) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b204f44-6e8a-4d17-803c-268f0b04679f), label version 2026-03-11; accessed 2026-11-19.) Dexamethasone is a systemic and local corticosteroid, and glucocorticoids as a class suppress inflammatory signalling and immune-cell activity.
 
 Alopecia mucinosa is an inflammatory follicular skin disorder. The model's high score is likely driven by shared features with other alopecia and inflammatory skin diseases. Systemic corticosteroids are plausible for inflammatory follicular disorders, but no study of dexamethasone in this condition was found. This rationale is therefore a hypothesis, not supported evidence.
 
@@ -125,11 +125,12 @@ The prediction score is very high (0.9999), but there are no clinical trials or 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 8 licences in the local data are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for dexamethasone is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ozurdex (dexamethasone) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b204f44-6e8a-4d17-803c-268f0b04679f) |
 
 <!-- review:end log -->
 

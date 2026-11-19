@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ The TxGNN model predicts it may be effective for **cauda equina neoplasm**, but 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacological knowledge, temozolomide is an oral alkylating agent that methylates DNA (at O6-guanine, N7-guanine and N3-adenine), producing cytotoxic lesions in dividing tumour cells. It crosses the blood-brain barrier. This explanation comes from general knowledge, not from the supplied record.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for temozolomide: "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death." ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), label version 2026-02-20; accessed 2026-11-19.) From general pharmacological knowledge, temozolomide is an oral alkylating agent that methylates DNA (at O6-guanine, N7-guanine and N3-adenine), producing cytotoxic lesions in dividing tumour cells. It crosses the blood-brain barrier. This explanation comes from general knowledge, not from the supplied record.
 
 The original uses recorded in the knowledge graph are tumours of the central nervous system (astrocytoma and glioblastoma). Tumours of the cauda equina are also neuroectodermal tumours of the nervous system and are mostly myxopapillary ependymomas. This gives a plausible, though indirect, rationale for a similar drug response. Activity is likely influenced by MGMT promoter methylation status, which is not reported in the supplied data.
 
@@ -135,11 +135,12 @@ No clinical trials are registered, and the only directly relevant publication is
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "There are 8 valid single-ingredient licences in total; the table shows the first 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
 
 <!-- review:end log -->
 

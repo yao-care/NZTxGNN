@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 description: "Teriparatide: predicted new indication Duodenal ulcer (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ It is a model-only signal with no plausible mechanistic link, so we recommend **
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action text is not available. Pharmacology data show that teriparatide is a peptide agonist of the **PTH1 receptor (PTH1R)** and also binds the PTH2 receptor. By activating PTH1R it stimulates osteoblast-mediated bone formation, which is why it is used for osteoporosis in patients at high fracture risk.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for teriparatide: "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c), label version 2026-08-31; accessed 2026-11-19.) Pharmacology data show that teriparatide is a peptide agonist of the **PTH1 receptor (PTH1R)** and also binds the PTH2 receptor. By activating PTH1R it stimulates osteoblast-mediated bone formation, which is why it is used for osteoporosis in patients at high fracture risk.
 
 The prediction is **not well supported**. Bone formation through PTH1R has no known role in healing the gastroduodenal mucosa. The high TxGNN score (0.9986) comes from the TxGNN model (deep learning), with no clinical or literature backing. It may reflect similarities the model learned between related diseases, not biological evidence. Osteoporosis and duodenal ulcer are unrelated diseases, so the original indication gives no mechanistic reason to expect efficacy here.
 
@@ -140,12 +140,13 @@ The duodenal ulcer prediction is supported only by a model score. It should not 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are for single-ingredient injectable products, and neither is currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Confirm product availability, since both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action text is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->
 

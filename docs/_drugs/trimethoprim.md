@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 468
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The second-ranked prediction, conjunctivitis, is already an original indication 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, trimethoprim is a bacterial dihydrofolate reductase inhibitor. Its efficacy in bacterial infections, including ocular surface infections, is established, and it is used topically, usually combined with polymyxin B, for bacterial conjunctivitis and blepharoconjunctivitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trimethoprim: "Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. This binding is very much stronger for the bacterial enzyme than for the corresponding mammalian enzyme." ([DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597), label version 2026-11-15; accessed 2026-11-19.) Based on known information, trimethoprim is a bacterial dihydrofolate reductase inhibitor. Its efficacy in bacterial infections, including ocular surface infections, is established, and it is used topically, usually combined with polymyxin B, for bacterial conjunctivitis and blepharoconjunctivitis.
 
 The plausible link is the overlap between these ocular surface infections and punctate epithelial keratoconjunctivitis, which can be infectious or inflammatory. However, it is frequently viral (for example adenoviral), and an antibacterial would not be expected to address a viral cause. The mechanistic rationale is therefore unsupported at this stage.
 
@@ -129,11 +129,12 @@ The prediction for punctate epithelial keratoconjunctivitis has a high model sco
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The drug is marketed in this country, and the 1 licence on record (1 of 1) is valid. The record is a 300 mg oral tablet" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 
 <!-- review:end log -->
 

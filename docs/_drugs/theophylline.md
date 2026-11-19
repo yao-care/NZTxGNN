@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "THEOPHYLLINE"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Asthma"
 ---
 
@@ -56,7 +56,7 @@ The TxGNN model predicts it may be effective for **thrombotic disease**, but the
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, theophylline is a non-selective phosphodiesterase (PDE) inhibitor and adenosine receptor antagonist. Its relation to asthma, bronchitis, emphysema and related airway diseases is recorded in the knowledge graph.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for theophylline: "Theophylline has two distinct actions in the airways of patients with reversible obstruction: smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., non-bronchodilator prophylactic effects)." ([DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410), label version 2024-07-08; accessed 2026-11-19.) Based on general pharmacology, theophylline is a non-selective phosphodiesterase (PDE) inhibitor and adenosine receptor antagonist. Its relation to asthma, bronchitis, emphysema and related airway diseases is recorded in the knowledge graph.
 
 Mechanistically, PDE inhibition raises cAMP in platelets, which could plausibly reduce platelet aggregation and hence thrombosis. This is a theoretical link only. The retrieved literature is mostly off-target: ticlopidine pharmacokinetics, blood-sample processing and biomarker assay methods, platelet activation measurements, and a theophylline sensor paper. None of it demonstrates an antithrombotic effect of theophylline in patients. The high TxGNN score is therefore not supported by clinical data.
 
@@ -109,6 +109,19 @@ The prediction rests on a high model score and a theoretical PDE/cAMP platelet m
 - Direct preclinical or clinical data showing an antithrombotic effect of theophylline at tolerable doses
 - Mechanism of action data and Medsafe package insert warnings and contraindications
 - A benefit-risk comparison with established antiplatelet and anticoagulant therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

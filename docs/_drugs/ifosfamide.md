@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "IFOSFAMIDE"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Ifosfamide: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -62,7 +62,7 @@ The strongest evidence in the model's top ten predictions is for **rhabdomyosarc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ifosfamide is a well-known oxazaphosphorine alkylating agent and a prodrug. The liver activates it into metabolites that cross-link DNA, which kills rapidly dividing tumour cells. Mesna is routinely given alongside it to protect the bladder.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ifosfamide: "Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard." ([DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a), label version 2026-10-07; accessed 2026-11-19.) Ifosfamide is a well-known oxazaphosphorine alkylating agent and a prodrug. The liver activates it into metabolites that cross-link DNA, which kills rapidly dividing tumour cells. Mesna is routinely given alongside it to protect the bladder.
 
 Breast carcinoma is a rapidly proliferating solid tumour, so a DNA-damaging agent is mechanistically plausible. Published reviews report single-agent response rates of roughly 7–30% in pretreated metastatic breast cancer, and higher rates in combination regimens. Ifosfamide-based regimens have also been used in metaplastic breast cancer and phyllodes tumours.
 
@@ -175,12 +175,13 @@ Package insert warnings and contraindications were not available for this report
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Its New Zealand licences are all cancelled, and the licence records compiled for this report contain no approved-indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "All three licences are valid, so ifosfamide is currently marketed with valid New Zealand authorization" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a) |
 
 <!-- review:end log -->
 

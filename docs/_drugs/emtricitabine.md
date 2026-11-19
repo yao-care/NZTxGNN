@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 176
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ This is a veterinary indication with very limited relevance to human drug repurp
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) with proven activity against HIV-1 reverse transcriptase, and it may be mechanistically applicable to related lentiviruses.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for emtricitabine: "Emtricitabine is an antiretroviral drug. […] FTC, a synthetic nucleoside analog of cytidine, is phosphorylated by cellular enzymes to form emtricitabine 5'-triphosphate (FTC-TP), which inhibits the activity of the HIV-1 reverse transcriptase (RT) by competing with the natural substrate deoxycytidine 5'-triphosphate and by being incorporated into nascent viral DNA resulting in chain termination. FTC-TP is a weak inhibitor of mammalian DNA polymerases α, β, ε, and mitochondrial DNA polymerase γ." ([DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f), label version 2026-11-06; accessed 2026-11-19.) Based on known information, emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) with proven activity against HIV-1 reverse transcriptase, and it may be mechanistically applicable to related lentiviruses.
 
 Feline immunodeficiency virus (FIV) is a lentivirus whose reverse transcriptase is structurally related to that of HIV, so NRTI activity is plausible. The very high TxGNN score most likely reflects this shared antiviral target class and the similarity between FIV and HIV.
 
@@ -115,6 +115,19 @@ The predicted indication is a veterinary disease with no clinical trials and a s
 - Package insert warnings and contraindications from Medsafe
 - Review of the full text of PMID 37112803 to confirm the role of emtricitabine
 - A clear decision on whether a veterinary indication falls within the scope of this repurposing programme
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

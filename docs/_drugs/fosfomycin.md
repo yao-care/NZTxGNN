@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FOSFOMYCIN"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "pyelitis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Fosfomycin: predicted new indication Uterine inflammatory disease (evidence level L5). Approved use: Urinary tract infection"
 ---
 
@@ -54,7 +54,7 @@ Fosfomycin is an antibiotic. The TxGNN model (deep learning) predicts it may be 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for fosfomycin are not available in the data compiled for this report. It is generally described as a broad-spectrum bactericidal antibiotic that inhibits MurA, an enzyme in bacterial cell wall (peptidoglycan) synthesis. It is active against many Gram-negative and Gram-positive bacteria.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for fosfomycin: "CONTEPO is an antibacterial drug. […] Fosfomycin is an epoxide antibacterial drug that disrupts bacterial cell wall synthesis by covalently binding and inhibiting phosphoenolpyruvate transferase (MurA), thereby blocking the synthesis of peptidoglycan. Fosfomycin is bactericidal against Enterobacterales." ([DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94), label version 2025-11-04; accessed 2026-11-19.) It is generally described as a broad-spectrum bactericidal antibiotic that inhibits MurA, an enzyme in bacterial cell wall (peptidoglycan) synthesis. It is active against many Gram-negative and Gram-positive bacteria.
 
 Uterine inflammatory disease is often caused by mixed bacterial infection. An antibiotic with broad activity and a record in urinary tract infection could plausibly be considered for it. This link is only theoretical. No data on fosfomycin penetration into uterine tissue were found, and no study tested it in this condition. The high TxGNN score is a computational prediction and not clinical proof.
 
@@ -120,11 +120,12 @@ The prediction score is high, but no retrieved trial or publication studies fosf
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The only licence is a valid single-ingredient product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for fosfomycin are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94) |
 
 <!-- review:end log -->
 

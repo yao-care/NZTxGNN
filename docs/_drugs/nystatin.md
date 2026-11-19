@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "NYSTATIN"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: predicted new indication Disease of orbital region (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ This is a model-only signal with no direct supporting studies.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Nystatin is generally understood to bind ergosterol in fungal cell membranes, which disrupts the membrane and kills the fungus. This mechanism is specific to fungal pathogens.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nystatin: "Nystatin acts by binding to sterols in the cell membrane of susceptible Candida species with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses." ([DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6), label version 2026-02-06; accessed 2026-11-19.) Nystatin is generally understood to bind ergosterol in fungal cell membranes, which disrupts the membrane and kills the fungus. This mechanism is specific to fungal pathogens.
 
 No plausible mechanistic link between this antifungal action and disease of orbital region was identified. The orbital region covers a broad group of conditions (inflammatory, structural, neoplastic and others), and none is shown to involve a fungal target that nystatin could address. The high TxGNN score (0.9990) is a computational association only. It is not supported by any trial or publication on this disease.
 
@@ -120,11 +120,12 @@ The prediction rests on a model score alone. No trial or publication studies nys
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four single-ingredient licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this specific p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. The pharmacology records show that amantadine acts on NMDA receptor subunits GluN2A, GluN2B, GluN2C and GluN2D (genes GRIN2A, GRIN2B, GRIN2C, GRIN2D).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amantadine: "The mechanism by which amantadine exerts efficacy in the treatment of dyskinesia in patients with Parkinson's disease or as adjunctive treatment to levodopa/carbidopa in patients with Parkinson's disease experiencing 'off' episodes is unknown. Amantadine is a weak uncompetitive antagonist of the NMDA receptor." ([DailyMed: Gocovri (amantadine) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2bee0631-0028-1314-e063-6394a90aaaed), label version 2026-10-05; accessed 2026-11-19.) The pharmacology records show that amantadine acts on NMDA receptor subunits GluN2A, GluN2B, GluN2C and GluN2D (genes GRIN2A, GRIN2B, GRIN2C, GRIN2D).
 
 Rasmussen encephalitis is an inflammatory brain disease in which glutamate-mediated excitotoxicity and neuroinflammation are thought to play a part. Blocking NMDA receptors could therefore plausibly be relevant. This link is a hypothesis based on general pharmacology. It has not been tested in any study supplied here, and it should be treated as unverified.
 
@@ -111,11 +111,12 @@ The TxGNN score is very high (0.9948), but no clinical trial or publication stud
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data lists two licences for Symmetrel (single-ingredient capsule, 100 mg). The licence records carry no indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gocovri (amantadine) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2bee0631-0028-1314-e063-6394a90aaaed) |
 
 <!-- review:end log -->
 

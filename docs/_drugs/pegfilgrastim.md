@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Pegfilgrastim: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not stated in the available licence records"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **severe nonproliferative diabe
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Pegfilgrastim is generally known as a PEGylated G-CSF that stimulates neutrophil production and mobilizes hematopoietic progenitor cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pegfilgrastim: "Pegfilgrastim products are colony-stimulating factor that acts on hematopoietic cells by binding to specific cell surface receptors, thereby stimulating proliferation, differentiation, commitment, and end cell functional activation." ([DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83), label version 2026-10-29; accessed 2026-11-19.) Pegfilgrastim is generally known as a PEGylated G-CSF that stimulates neutrophil production and mobilizes hematopoietic progenitor cells.
 
 A plausible but unverified link is that G-CSF-mobilized bone marrow-derived progenitor cells could support retinal vascular repair. However, the direction of effect is uncertain: neutrophil activation and inflammation are also implicated in diabetic retinal microvascular damage, and mobilized progenitor cells could promote pathological neovascularization. The effect could therefore be beneficial or harmful.
 
@@ -134,7 +134,7 @@ The prediction rests only on a high model score, with no clinical trials or publ
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
@@ -142,6 +142,7 @@ Below is the review log for this page: statements checked against official Pharm
 | 2026-11-06 | Removed: "Both authorizations are cancelled, so no pegfilgrastim product is currently licensed in New Zealand according to the data compiled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The product is also not currently licensed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Clarification of the original approved indication and the regulatory pathway, given that the drug is marketed with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
 
 <!-- review:end log -->
 

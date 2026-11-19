@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 434
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ with **2 Phase 2 clinical trials** and **9 publications** currently supporting t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sunitinib inhibits several receptor tyrosine kinases, including VEGFR, PDGFR and KIT. This gives it both anti-angiogenic and anti-proliferative activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sunitinib: "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), label version 2026-02-20; accessed 2026-11-19.) Based on known pharmacology, sunitinib inhibits several receptor tyrosine kinases, including VEGFR, PDGFR and KIT. This gives it both anti-angiogenic and anti-proliferative activity.
 
 Renal cell carcinoma and GIST are both tumours in which these pathways drive growth. Soft tissue sarcomas, including liposarcoma, also depend to some degree on angiogenesis and PDGFR signalling, so the mechanism is plausibly applicable.
 
@@ -151,12 +151,13 @@ Package insert warnings and contraindications were not available for this report
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four authorisations are valid, and no approved indication text is available for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Clarification of whether supply is feasible in New Zealand, where the drug is marketed and all 4 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
 
 <!-- review:end log -->
 

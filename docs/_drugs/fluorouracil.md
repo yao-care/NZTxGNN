@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Gastric cancer, pancreatic adenocarcinoma, colon cancer metastases…"
 monitor_inn: "FLUOROURACIL"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome"]
@@ -60,7 +60,7 @@ The related predicted indication "rhabdomyosarcoma (disease)" has 4 loosely rela
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, fluorouracil is an antimetabolite that inhibits thymidylate synthase and is incorporated into RNA and DNA. This disrupts DNA synthesis in rapidly dividing cells. Its efficacy in gastrointestinal cancers is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluorouracil: "Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP)." ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b), label version 2026-10-23; accessed 2026-11-19.) Based on known pharmacology, fluorouracil is an antimetabolite that inhibits thymidylate synthase and is incorporated into RNA and DNA. This disrupts DNA synthesis in rapidly dividing cells. Its efficacy in gastrointestinal cancers is established.
 
 The predicted indications are mostly rhabdomyosarcoma subtypes (vaginal botryoid, parameningeal, prostate, and bile duct), plus liver sarcoma and three sickle cell–hemoglobin syndromes. For the sarcomas, the rationale is a generic antimetabolite effect on proliferative tumours. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of specific activity. Standard rhabdomyosarcoma regimens (e.g., vincristine, actinomycin D, cyclophosphamide) do not rely on fluorouracil. For the bile duct subtype, fluorouracil's role in biliary adenocarcinoma does not demonstrate activity in this rare embryonal sarcoma. For the sickle cell syndromes, the only theoretical link is fetal hemoglobin induction (as with hydroxyurea). This is unproven for fluorouracil, and its myelosuppressive toxicity is a concern in chronic non-malignant disease.
 
@@ -156,12 +156,13 @@ The predictions are supported only by a high TxGNN model score (0.9975 for the m
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five licences are valid, and approved indication text is not available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "the drug is marketed in New Zealand (5 of 5 licences valid), and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "acetylsalicylic acid"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **atrophoderma vermiculata**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Aspirin is generally known to block cyclooxygenase enzymes irreversibly, which reduces prostaglandin and thromboxane production and so lowers platelet aggregation and inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for butalbital, aspirin, cafeine, and codeine phosphate (a combination product containing acetylsalicylic acid): "Aspirin is a nonsteroidal anti-inflammatory drug and a non-selective irreversible inhibitor of cyclooxygenases." ([DailyMed: Ascomp With Codeine (butalbital, aspirin, cafeine, and codeine phosphate) prescribing information, LGM PHARMA SOLUTIONS, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1cab3106-1064-4b42-892b-39f405d9e02f), label version 2025-11-01; accessed 2026-11-19.) Aspirin is generally known to block cyclooxygenase enzymes irreversibly, which reduces prostaglandin and thromboxane production and so lowers platelet aggregation and inflammation.
 
 Atrophoderma vermiculata is a rare skin condition in which the cheeks develop a honeycomb-like pattern of atrophic pits. No plausible mechanistic link to aspirin's platelet or prostaglandin pathways has been identified. The high score (0.9959) is a computational output only. Without disease-specific studies, it should be treated as a hypothesis to examine, not as support for clinical use.
 
@@ -100,6 +100,19 @@ The prediction is supported only by a model score. No trials or publications add
 - A systematic literature search for any case series or observational data on this condition
 - Mechanism of action data and package insert warnings and contraindications
 - A risk-benefit assessment for a rare, non-life-threatening skin condition, including bleeding and interaction risks
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ascomp With Codeine (butalbital, aspirin, cafeine, and codeine phosphate) prescribing information, LGM PHARMA SOLUTIONS, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1cab3106-1064-4b42-892b-39f405d9e02f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

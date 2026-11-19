@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Amlodipine: predicted new indication brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Amlodipine is a calcium channel blocker that lowers blood pressure by relaxing b
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, amlodipine blocks L-type calcium channels in vascular smooth muscle, which relaxes arteries and lowers blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amlodipine: "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Amlodipine Besylate 2.5 Mg (amlodipine besylate) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1080fcea-a5da-499d-a855-690c13559071), label version 2026-07-17; accessed 2026-11-19.) Based on general pharmacology, amlodipine blocks L-type calcium channels in vascular smooth muscle, which relaxes arteries and lowers blood pressure.
 
 Brain stem infarction is a type of ischaemic stroke, and high blood pressure is a major risk factor for stroke. Blood-pressure control could therefore be relevant to this condition. Amlodipine is also related to other stroke and cerebral infarction conditions in the model's data, so brain stem infarction appears to be a more specific subtype of an area that already overlaps with the drug's known uses, rather than a truly new therapeutic area. This is a mechanistic inference only; no study of amlodipine in brain stem infarction was supplied.
 
@@ -101,6 +101,19 @@ The prediction score is high (0.9994), but there are no clinical trials or publi
 - Mechanism of action data
 - Package insert warnings and contraindications from Medsafe
 - A review of whether any benefit would go beyond ordinary blood-pressure control
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Amlodipine Besylate 2.5 Mg (amlodipine besylate) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1080fcea-a5da-499d-a855-690c13559071) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

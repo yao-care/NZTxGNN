@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Deferiprone: predicted new indication hepatic porphyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Deferiprone is an oral iron chelator. The TxGNN model predicts it may be useful 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on what is known, deferiprone is an oral iron chelator, meaning it binds iron and helps the body remove it.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for deferiprone: "Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH." ([DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86), label version 2026-01-28; accessed 2026-11-19.) Based on what is known, deferiprone is an oral iron chelator, meaning it binds iron and helps the body remove it.
 
 In some porphyrias, iron plays a part in the disease process. In porphyria cutanea tarda, excess liver iron inhibits an enzyme (uroporphyrinogen decarboxylase), which leads to porphyrin build-up. Reducing iron can therefore lower porphyrin accumulation. This is the plausible link between an iron chelator and hepatic porphyria.
 
@@ -109,6 +109,19 @@ The TxGNN score is high (0.9920), but no clinical trials exist and the only stud
 - Studies that directly test iron chelation in hepatic porphyria, starting with the specific subtypes where iron is known to drive the disease
 - Detailed mechanism of action data
 - Package insert warnings and contraindications, including a review of the interactions with metal-containing products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

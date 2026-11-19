@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 481
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ No clinical trials are registered for this use. Support comes from **6 publicati
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled data. Vinblastine is known to be a vinca alkaloid that binds tubulin and inhibits microtubule assembly. This causes mitotic arrest in rapidly dividing cells.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vinblastine: "Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), label version 2025-04-15; accessed 2026-11-19.) Vinblastine is known to be a vinca alkaloid that binds tubulin and inhibits microtubule assembly. This causes mitotic arrest in rapidly dividing cells.
 
 Rhabdomyosarcoma is a highly proliferative tumour, so an antimitotic drug is mechanistically plausible. Vinca alkaloids, mainly vincristine, are already a backbone of rhabdomyosarcoma regimens. Vinblastine itself appears in a paediatric metronomic regimen and in case reports of combination chemotherapy. Preclinical work also suggests synthetic lethality between PLK1 inhibitors and microtubule-destabilising drugs in rhabdomyosarcoma models.
 
@@ -122,6 +122,18 @@ The only direct clinical evidence for rhabdomyosarcoma is case reports of vinbla
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism-of-action data
 - A safety monitoring plan covering myelosuppression, neurotoxicity and the major interaction with clarithromycin
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

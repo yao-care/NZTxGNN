@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **extracutaneous mastocytoma**,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, pirfenidone is an anti-fibrotic drug whose efficacy in idiopathic pulmonary fibrosis is established. It is reported to suppress TGF-β signaling, which is the main basis for its anti-fibrotic action.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pirfenidone: "The mechanism of action of pirfenidone in the treatment of IPF has not been established." ([DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e), label version 2025-12-05; accessed 2026-11-19.) Based on known information, pirfenidone is an anti-fibrotic drug whose efficacy in idiopathic pulmonary fibrosis is established. It is reported to suppress TGF-β signaling, which is the main basis for its anti-fibrotic action.
 
 For extracutaneous mastocytoma, the mechanistic link is weak. Mast cell neoplasia is driven mainly by KIT signaling, and pirfenidone is not known to target KIT. The high score (0.9971) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or publications support this prediction.
 
@@ -131,11 +131,12 @@ The prediction rests on a model score alone (L5), with no clinical trials or lit
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of the New Zealand licence status, given that both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
 
 <!-- review:end log -->
 

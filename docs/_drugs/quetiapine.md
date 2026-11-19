@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is retinal dystrophy, which has no suppo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Quetiapine is widely known to be an atypical antipsychotic that blocks dopamine and serotonin receptors, but this is not confirmed by the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for quetiapine: "The mechanism of action of quetiapine in the listed indications is unclear. However, the efficacy of quetiapine in these indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2A (5HT 2A ) antagonism." ([DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933), label version 2026-10-08; accessed 2026-11-19.) Quetiapine is widely known to be an atypical antipsychotic that blocks dopamine and serotonin receptors, but this is not confirmed by the data compiled for this report.
 
 **Top-ranked prediction (retinal dystrophy):** No mechanistic link could be identified. Retinal dystrophies are typically monogenic degenerative conditions, and quetiapine's receptor antagonism has no established relevance to them. The high score is a computational output with no trials or literature behind it. The other top-10 predictions without evidence (congenital disorder of glycosylation, hydranencephaly, 17p13.3 microdeletion syndrome, polymicrogyria syndrome, X-linked and syndromic myopia, Charcot-Marie-Tooth type 1G) likewise show no plausible link.
 
@@ -147,12 +147,13 @@ The top-ranked prediction, retinal dystrophy, and the other no-evidence predicti
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All six licences are valid, and no approved indication text is recorded for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "In New Zealand, quetiapine is marketed, with all six licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
 
 <!-- review:end log -->
 

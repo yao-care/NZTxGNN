@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "OLSALAZINE"
 predicted_indications: ["myelodysplastic syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "partial deletion of the long arm of chromosome 5", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Olsalazine: predicted new indication Myelodysplastic syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **myelodysplastic syndrome**, b
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Olsalazine is a prodrug dimer of 5-ASA that is largely confined to the colon, and systemic exposure is minimal.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olsalazine: "Upon reaching the colon, colonic bacteria convert olsalazine into 5‑aminosalicylic acid (5-ASA or mesalazine). The mechanism of action of 5-ASA (mesalamine) is not fully understood, but appears to be a topical anti-inflammatory effect on colonic epithelial cells." ([DailyMed: Dipentum (olsalazine sodium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8512d0c6-db4e-4673-b3b4-28975c18413f), label version 2026-05-15; accessed 2026-11-19.) Olsalazine is a prodrug dimer of 5-ASA that is largely confined to the colon, and systemic exposure is minimal.
 
 Any link to myelodysplastic syndrome (for example, anti-inflammatory or NF-kB modulation by 5-ASA) is speculative. It rests solely on the TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. Olsalazine is not known to affect haematopoiesis.
 
@@ -120,11 +120,12 @@ The prediction is supported only by a TxGNN model (deep learning) score, with no
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Olsalazine has minimal systemic absorption, and it is marketed in New Zealand, with 3 valid licences out of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dipentum (olsalazine sodium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8512d0c6-db4e-4673-b3b4-28975c18413f) |
 
 <!-- review:end log -->
 

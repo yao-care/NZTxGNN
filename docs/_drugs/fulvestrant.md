@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 216
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The original indication is not recorded in the New Zealand licence data compiled
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. From general knowledge, fulvestrant binds the estrogen receptor and promotes its degradation, which is why it is used with other agents in hormone receptor-positive, HER2-negative breast cancer.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fulvestrant: "Many breast cancers have estrogen receptors (ER) and the growth of these tumors can be stimulated by estrogen. Fulvestrant is an estrogen receptor antagonist that binds to the estrogen receptor in a competitive manner with affinity comparable to that of estradiol and downregulates the ER protein in human breast cancer cells." ([DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a), label version 2026-10-16; accessed 2026-11-19.) From general knowledge, fulvestrant binds the estrogen receptor and promotes its degradation, which is why it is used with other agents in hormone receptor-positive, HER2-negative breast cancer.
 
 The link to HIV is indirect. A 2026 study (PMID 42430506) examined how estrogen, fulvestrant and HIV latency-reversing agents affect estrogen receptor α in CD4+ T cells. This suggests estrogen receptor signalling may influence HIV transcription and latency. However, the work is in vitro, and it is unclear whether degrading the receptor would reverse or reinforce latency. The result could go either way, so the mechanistic rationale is a hypothesis rather than support for treatment.
 
@@ -129,11 +129,12 @@ The HIV prediction has a high model score but only preclinical, indirect support
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
 
 <!-- review:end log -->
 

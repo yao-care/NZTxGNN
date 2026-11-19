@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ However, there are **0 clinical trials** and **0 publications** for this specifi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Calcitriol is the active form of vitamin D, so a mechanistic rationale for a vitamin D deficiency state is plausible.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for calcitriol: "Endogenous synthesis and catabolism of calcitriol, as well as physiological control mechanisms affecting these processes, play a critical role regulating the serum level of calcitriol. Physiological daily production is normally 0.5 to 1.0 mcg and is somewhat higher during periods of increased bone synthesis (eg, growth or pregnancy)." ([DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e), label version 2026-10-15; accessed 2026-11-19.) Calcitriol is the active form of vitamin D, so a mechanistic rationale for a vitamin D deficiency state is plausible.
 
 The predicted disease entry is marked "obsolete", which suggests a legacy ontology term rather than a currently used diagnosis. The high score therefore reflects a model prediction without supporting studies. Any real-world relevance would map to current vitamin D deficiency or rickets entries, which should be assessed separately and are not scored here.
 
@@ -111,6 +111,19 @@ The predicted entry is an obsolete term with no clinical trials or publications 
 - Mechanism-of-action data for calcitriol
 - Package insert warnings and contraindications from Medsafe
 - Studies that directly examine the mapped condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

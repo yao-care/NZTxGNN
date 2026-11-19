@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 375
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 
 ## Why is This Prediction Reasonable?
 
-Pramipexole is a non-ergoline dopamine agonist that acts on the D2 and D3 dopamine receptors, with a preference for D3. Detailed mechanism-of-action text is not available in the data compiled for this report, but the receptor-target data confirm this D2/D3 activity.
+Pramipexole is a non-ergoline dopamine agonist that acts on the D2 and D3 dopamine receptors, with a preference for D3. According to the Mechanism of Action section of the US FDA-approved prescribing information for pramipexole: "Pramipexole is a non-ergot dopamine agonist with high relative in vitro specificity and full intrinsic activity at the D 2 subfamily of dopamine receptors, binding with higher affinity to D 3 than to D 2 or D 4 receptor subtypes. Parkinson’s Disease The precise mechanism of action of pramipexole as a treatment for Parkinson's disease is unknown, although it is believed to be related to its ability to stimulate dopamine receptors in the striatum." ([DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c), label version 2026-09-09; accessed 2026-11-19.) The receptor-target data confirm this D2/D3 activity.
 
 Parkinson's disease and restless legs syndrome both involve dopaminergic signalling problems. Dopamine dysregulation is also widely implicated in ADHD. Genetic variants of the dopamine D4 receptor and the α2A adrenoceptor have been linked to ADHD, which gives the prediction a plausible mechanistic basis.
 
@@ -143,12 +143,13 @@ Among the other predicted indications for this drug, **schizophrenia** has consi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "No pramipexole product is currently authorized in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since both New Zealand authorizations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action text is not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c) |
 
 <!-- review:end log -->
 

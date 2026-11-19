@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
 description: "Filgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ This is a model-only prediction with no direct supporting evidence.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, filgrastim is a granulocyte colony-stimulating factor (G-CSF) that acts on the granulocytic lineage through the G-CSF receptor. Its efficacy in neutropenia conditions is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for filgrastim: "Colony-stimulating factors are glycoproteins which act on hematopoietic cells by binding to specific cell surface receptors and stimulating proliferation‚ differentiation commitment‚ and some end-cell functional activation. Endogenous G-CSF is a lineage-specific colony-stimulating factor that is produced by monocytes‚ fibroblasts, and endothelial cells." ([DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7), label version 2026-11-10; accessed 2026-11-19.) Based on known information, filgrastim is a granulocyte colony-stimulating factor (G-CSF) that acts on the granulocytic lineage through the G-CSF receptor. Its efficacy in neutropenia conditions is established.
 
 The link to primary release disorder of platelets is weak. This is a platelet secretion defect, and there is no established mechanistic connection to G-CSF signalling. The high score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -141,12 +141,13 @@ The prediction rests on a model score alone (L5). There are no trials or publica
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both New Zealand authorizations are cancelled, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
 
 <!-- review:end log -->
 

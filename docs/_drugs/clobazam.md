@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "atypical childhood epilepsy with centrotemporal spikes", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Clobazam: predicted new indication febrile infection-related epilepsy syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **febrile infection-related epilep
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, clobazam is a benzodiazepine that positively modulates GABA-A receptors, and this class is widely used in refractory epilepsies.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clobazam: "The exact mechanism of action for clobazam, a 1,5-benzodiazepine, is not fully understood but is thought to involve potentiation of GABAergic neurotransmission resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c), label version 2026-10-16; accessed 2026-11-19.) Based on general pharmacology, clobazam is a benzodiazepine that positively modulates GABA-A receptors, and this class is widely used in refractory epilepsies.
 
 Febrile infection-related epilepsy syndrome (FIRES) is a severe, refractory epileptic encephalopathy that typically follows a febrile illness in previously healthy children. It is often managed with GABAergic agents such as midazolam, lorazepam and barbiturates. This makes a GABA-A–based mechanism plausible for clobazam.
 
@@ -106,6 +106,19 @@ The TxGNN score is very high (0.9982), but no clinical trials exist and the only
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Medsafe
 - A safety plan addressing CNS-depressant interactions (e.g. opioids) in critically ill patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

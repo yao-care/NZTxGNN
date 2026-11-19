@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Sacubitril: predicted new indication Top-ranked: brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not stated in the New Zealand licence data (the combinat…"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
@@ -72,7 +72,7 @@ Overall evidence for the top-ranked prediction is only model-based, so this repo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known pharmacology, sacubitril is a prodrug whose active metabolite inhibits neprilysin, an enzyme that breaks down natriuretic peptides. It is marketed together with valsartan, an angiotensin II receptor blocker.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sacubitril and valsartan (a combination product containing sacubitril): "Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan." ([DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c), label version 2026-10-30; accessed 2026-11-19.) Based on known pharmacology, sacubitril is a prodrug whose active metabolite inhibits neprilysin, an enzyme that breaks down natriuretic peptides. It is marketed together with valsartan, an angiotensin II receptor blocker.
 
 For the top-ranked prediction (a rare COL4A1-related brain small vessel disease), the data compiled for this report show no supported mechanistic link. The only paper retrieved concerns systemic right ventricular failure, a different condition. The same applies to the rank 2, rank 4 and rank 5 predictions, where the high model scores are not corroborated by any relevant evidence.
 
@@ -160,7 +160,7 @@ Please refer to the package insert for warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
@@ -168,6 +168,7 @@ Below is the review log for this page: statements checked against official Pharm
 | 2026-11-06 | Removed: "All three authorisations are valid, and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Also, the drug is marketed in New Zealand, with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that the drug is marketed in New Zealand with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
 
 <!-- review:end log -->
 

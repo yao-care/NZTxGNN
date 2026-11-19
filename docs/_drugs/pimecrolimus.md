@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 367
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ with **1 completed Phase 2 clinical trial** and **19 publications** (including 2
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pimecrolimus is a topical calcineurin inhibitor. It blocks T-cell activation and the release of inflammatory cytokines. Its efficacy in atopic dermatitis is established, and mechanistically it may be applicable to seborrheic dermatitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pimecrolimus: "The mechanism of action of pimecrolimus in atopic dermatitis is not known. While the following have been observed, the clinical significance of these observations in atopic dermatitis is not known. It has been demonstrated that pimecrolimus binds with high affinity to macrophilin-12 (FKBP-12) and inhibits the calcium-dependent phosphatase, calcineurin." ([DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06), label version 2026-04-30; accessed 2026-11-19.) Based on known information, pimecrolimus is a topical calcineurin inhibitor. It blocks T-cell activation and the release of inflammatory cytokines. Its efficacy in atopic dermatitis is established, and mechanistically it may be applicable to seborrheic dermatitis.
 
 Seborrheic dermatitis is a chronic, relapsing inflammatory skin condition. It involves an inflammatory response to *Malassezia* yeast in areas rich in sebaceous glands. Both atopic and seborrheic dermatitis involve T-cell-driven skin inflammation, so the same anti-inflammatory mechanism is plausible. The very high TxGNN score (0.9973) is consistent with this.
 
@@ -162,12 +162,13 @@ Seborrheic dermatitis has a direct randomized Phase 2 trial plus two systematic 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Confirmation of a regulatory pathway and product availability in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and the New Zealand licence is cancelled, so there is currently no marketed product in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06) |
 
 <!-- review:end log -->
 

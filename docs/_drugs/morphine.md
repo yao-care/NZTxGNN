@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The evidence level is therefore **L5**.
 
 ## Why is This Prediction Reasonable?
 
-Morphine binds to the mu, delta and kappa opioid receptors and is used for severe pain. Detailed mechanism-of-action data are not available in the data compiled for this report. Based on what is known, morphine's general analgesic activity makes a link to a painful muscle condition plausible in principle.
+Morphine binds to the mu, delta and kappa opioid receptors and is used for severe pain. According to the Mechanism of Action section of the US FDA-approved prescribing information for morphine: "Morphine is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of morphine is analgesia. Like all full opioid agonists, there is no ceiling effect for analgesia with morphine." ([DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698), label version 2026-08-14; accessed 2026-11-19.) Based on what is known, morphine's general analgesic activity makes a link to a painful muscle condition plausible in principle.
 
 This link is weak. The retrieved literature is almost all indirect. It covers temporomandibular joint dysfunction, post-thoracotomy pain, failed back surgery syndrome, nerve blocks, botulinum toxin and an animal model of referred muscle hyperalgesia. Opioids are not a guideline-supported treatment for myofascial pain. The high TxGNN score most likely reflects generic pain-related associations rather than a specific therapeutic signal.
 
@@ -138,11 +138,12 @@ The prediction score is high, but no clinical trial or publication tests morphin
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 4 licences on record are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698) |
 
 <!-- review:end log -->
 

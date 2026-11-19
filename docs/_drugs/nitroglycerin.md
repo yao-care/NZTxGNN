@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 326
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the available licence records"
 monitor_inn: "nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, wit
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, nitroglycerin is an NO donor: NO activates soluble guanylate cyclase, raises cGMP and relaxes vascular smooth muscle. This pathway is the same one targeted by established pulmonary hypertension therapies.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nitroglycerin: "Nitroglycerin forms free radical nitric oxide (NO), which activates guanylate cyclase, resulting in an increase of guanosine 3',5'-monophosphate (cyclic GMP) in smooth muscle and other tissues. This eventually leads to dephosphorylation of myosin light chains, which regulates the contractile state in smooth muscle and results in vasodilatation." ([DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300), label version 2025-12-17; accessed 2026-11-19.) Based on known pharmacology, nitroglycerin is an NO donor: NO activates soluble guanylate cyclase, raises cGMP and relaxes vascular smooth muscle. This pathway is the same one targeted by established pulmonary hypertension therapies.
 
 Its established use as a vasodilator is mechanistically close to the new indication, since lowering pulmonary vascular resistance is the therapeutic goal. Given by nebulisation or inhalation, it may produce relatively selective pulmonary vasodilation with less systemic hypotension. Older haemodynamic studies (1983–1984) and recent paediatric and neonatal reports (2021, 2025) show acute vasodilatory effects. Durable clinical benefit has not been demonstrated.
 
@@ -142,13 +142,14 @@ The mechanism is plausible and acute haemodynamic benefit is shown in small stud
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "he New Zealand licence records compiled for this report do not state an approved indication, but t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since no inhaled product is currently licensed in New Zealand - Clarification of the original approved indications of the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "(4 valid licences of 4)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Clomipramine is a tricyclic antidepressant with strong serotonin reuptake inhibi
 
 ## Why is This Prediction Reasonable?
 
-Clomipramine is a potent serotonin reuptake inhibitor. Its active metabolite, desmethylclomipramine, adds noradrenergic activity. Pharmacology data compiled for this report show that it acts on the serotonin transporter (SERT), the noradrenaline transporter (NET), the dopamine transporter (DAT) and the α1A-adrenoceptor. Detailed mechanism-of-action data from DrugBank are not available.
+Clomipramine is a potent serotonin reuptake inhibitor. Its active metabolite, desmethylclomipramine, adds noradrenergic activity. Pharmacology data compiled for this report show that it acts on the serotonin transporter (SERT), the noradrenaline transporter (NET), the dopamine transporter (DAT) and the α1A-adrenoceptor. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clomipramine: "Clomipramine (CMI) is presumed to influence obsessive and compulsive behaviors through its effects on serotonergic neuronal transmission. The actual neurochemical mechanism is unknown, but CMI's capacity to inhibit the reuptake of serotonin (5-HT) is thought to be important." ([DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059), label version 2024-11-26; accessed 2026-11-19.)
 
 Serotonergic and noradrenergic modulation is relevant to panic, generalised anxiety and phobic anxiety. These conditions share brain circuitry with obsessive-compulsive disorder, which was formerly classified as an anxiety disorder. Network meta-analyses and the WFSBP guidelines include clomipramine among the treatments considered for panic disorder. Older randomised and comparative studies also tested it directly in panic disorder and agoraphobia.
 
@@ -118,6 +118,18 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
 - Detailed mechanism-of-action data from DrugBank
 - Recent, adequately powered randomised trials of clomipramine in anxiety disorders other than obsessive-compulsive disorder
 - A safety monitoring plan covering cardiac risk, seizure threshold and anticholinergic effects, especially in older adults and young patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data from DrugBank are not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

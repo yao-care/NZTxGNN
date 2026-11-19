@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Durvalumab: predicted new indication uterine ligament adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ There are currently **no clinical trials and no publications** that directly stu
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Durvalumab is known as an antibody that blocks PD-L1, a checkpoint protein that tumours use to evade immune attack. Blocking it can restore T-cell activity against cancer cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for durvalumab: "Expression of programmed cell death ligand-1 (PD-L1) can be induced by inflammatory signals (e.g., IFN-gamma) and can be expressed on both tumor cells and tumor-associated immune cells in the tumor microenvironment. PD-L1 blocks T-cell function and activation through interaction with PD-1 and CD80 (B7.1). […] Durvalumab is a human immunoglobulin G1 kappa (IgG1κ) monoclonal antibody that binds to PD-L1 and blocks the interaction of PD-L1 with PD-1 and CD80 (B7.1)." ([DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3), label version 2026-08-31; accessed 2026-11-19.) Durvalumab is known as an antibody that blocks PD-L1, a checkpoint protein that tumours use to evade immune attack. Blocking it can restore T-cell activity against cancer cells.
 
 A plausible rationale is that PD-L1 blockade could work in gynaecological adenocarcinomas, since some of these tumours express PD-L1. However, none of the data compiled for this report supports this for uterine ligament adenocarcinoma specifically. The prediction is a model output and should be treated as a hypothesis only.
 
@@ -116,11 +116,12 @@ The prediction score is high, but there are no trials or publications for uterin
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3) |
 
 <!-- review:end log -->
 

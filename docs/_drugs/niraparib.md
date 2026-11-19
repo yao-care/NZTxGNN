@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ The evidence relates mainly to serous carcinomas (notably endometrial serous car
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, niraparib inhibits PARP1/2 enzymes. In tumours with homologous recombination deficiency (HRD), such as those with BRCA1/2 alterations or RAD51C methylation, this causes synthetic lethality and tumour cell death.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for niraparib: "Niraparib is an inhibitor of PARP enzymes, including PARP-1 and PARP-2, that play a role in DNA repair. In vitro studies have shown that niraparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complexes resulting in DNA damage, apoptosis, and cell death." ([DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d), label version 2026-07-28; accessed 2026-11-19.) Based on known pharmacology, niraparib inhibits PARP1/2 enzymes. In tumours with homologous recombination deficiency (HRD), such as those with BRCA1/2 alterations or RAD51C methylation, this causes synthetic lethality and tumour cell death.
 
 The link to "cystic neoplasm" is probably an ontology-mapping artefact arising from serous and ovarian disease terms. Ovarian cancer is already within the original indication scope, so it is not a true repurposing signal. The genuinely new angle in the retrieved evidence is **endometrial/uterine serous carcinoma**, which shares molecular features with high-grade serous ovarian carcinoma (chromosomal instability, copy number changes, similar mutations) and is treated using the same model. Extrapolating to cystic neoplasms in general is not supported by the data.
 
@@ -146,6 +146,19 @@ The "cystic neoplasm" prediction rests on a model score that is nearly identical
 - Mechanism of action data from DrugBank
 - Package insert warnings and contraindications from Medsafe, needed before any safety screening
 - A decision on whether to pursue endometrial serous carcinoma as a more clearly defined repurposing target
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

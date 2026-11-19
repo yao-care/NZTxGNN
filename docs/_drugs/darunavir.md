@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Darunavir: predicted new indication simian immunodeficiency virus infection (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ No clinical trials are registered, and **4 publications** are available, all of 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Darunavir is known as an HIV-1 protease inhibitor. Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV, and its protease is structurally and functionally similar to that of HIV-1. This makes the prediction biologically plausible.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for darunavir: "Darunavir is an HIV-1 antiviral drug. […] Darunavir is an inhibitor of the HIV-1 protease. It selectively inhibits the cleavage of HIV-1 encoded Gag-Pol polyproteins in infected cells, thereby preventing the formation of mature virus particles." ([DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f), label version 2025-08-29; accessed 2026-11-19.) Darunavir is known as an HIV-1 protease inhibitor. Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV, and its protease is structurally and functionally similar to that of HIV-1. This makes the prediction biologically plausible.
 
 However, the four retrieved publications are macaque studies of antiretroviral regimens used as a research model of HIV. They appear to include darunavir only as one component of combination therapy, and they do not isolate its effect. SIV infection in macaques is a laboratory model, not a human clinical indication. The very high score most likely reflects the similarity of SIV to HIV rather than independent evidence of benefit.
 
@@ -106,6 +106,19 @@ The prediction rests on the similarity of SIV to HIV and on preclinical macaque 
 - Package insert warnings and contraindications from Medsafe
 - Evidence that isolates darunavir's own effect in SIV models, if this direction is pursued as a research question
 - Confirmation of whether any further use beyond the existing HIV therapy is relevant to humans
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

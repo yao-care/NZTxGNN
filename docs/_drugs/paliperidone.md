@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, paliperidone is a dopamine D2 and serotonin 5-HT2A receptor antagonist, and this mechanism underlies its efficacy in schizophrenia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for paliperidone: "Paliperidone is the major active metabolite of risperidone. The mechanism of action of paliperidone in schizophrenia is unclear. However, the drug's therapeutic effect in schizophrenia could be mediated through a combination of central dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916), label version 2025-01-31; accessed 2026-11-19.) Based on known pharmacology, paliperidone is a dopamine D2 and serotonin 5-HT2A receptor antagonist, and this mechanism underlies its efficacy in schizophrenia.
 
 **Rank 1 (retinal dystrophy):** No mechanistic link is established. The score of 0.9992 is a purely computational output, and no known pathway connects D2/5-HT2A antagonism to inherited retinal dystrophy. The other top-ranked predictions are similar: several X-linked or syndromic myopias, hydranencephaly, a congenital glycosylation disorder, a polymicrogyria syndrome, Charcot-Marie-Tooth type 1G and atypical glycine encephalopathy. All have no trials or literature and no plausible pharmacological rationale. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -157,12 +157,13 @@ The rank 1 prediction (retinal dystrophy) rests only on a computational score, w
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five licences are valid, and no approved indication text is available for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "All five New Zealand licences are valid, and the safety data has important gaps" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
 
 <!-- review:end log -->
 

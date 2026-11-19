@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ There are **no registered clinical trials** for this specific disease, but **20 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, tolvaptan is a selective vasopressin V2 receptor antagonist. In polycystic kidney disease, elevated cAMP signalling drives cyst fluid secretion and epithelial proliferation. Blocking the V2 receptor lowers renal cAMP, which slows cyst growth and the expansion of total kidney volume.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tolvaptan: "Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor." ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), label version 2026-09-30; accessed 2026-11-19.) Based on known pharmacology, tolvaptan is a selective vasopressin V2 receptor antagonist. In polycystic kidney disease, elevated cAMP signalling drives cyst fluid secretion and epithelial proliferation. Blocking the V2 receptor lowers renal cAMP, which slows cyst growth and the expansion of total kidney volume.
 
 Tolvaptan is already an established therapy for ADPKD, which is part of its original indication. PKD3 (GANAB-related) shares the same cystic phenotype and cAMP-driven pathophysiology, so the mechanism may plausibly apply.
 
@@ -119,6 +119,19 @@ Tolvaptan is an established disease-modifying therapy for ADPKD, supported by la
 - Detailed mechanism of action data from DrugBank
 - PKD3 (GANAB)-specific efficacy and safety data, or a justified extrapolation from the ADPKD evidence
 - A liver function monitoring plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

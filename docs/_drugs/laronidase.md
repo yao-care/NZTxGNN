@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "LARONIDASE"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase: predicted new indication Sanfilippo syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **Sanfilippo syndrome**, but **no
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Laronidase is a recombinant form of alpha-L-iduronidase, a lysosomal enzyme that breaks down glycosaminoglycans such as heparan sulfate and dermatan sulfate.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for laronidase: "Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors." ([DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60), label version 2026-09-11; accessed 2026-11-19.) Laronidase is a recombinant form of alpha-L-iduronidase, a lysosomal enzyme that breaks down glycosaminoglycans such as heparan sulfate and dermatan sulfate.
 
 The link to Sanfilippo syndrome (MPS III) is weak. MPS III is caused by deficiencies in other heparan sulfate-degrading enzymes (SGSH, NAGLU, HGSNAT, GNS), so laronidase cannot replace the missing activity. The only shared element is heparan sulfate as a common substrate class, which is an indirect connection. MPS III is also mainly a disease of the central nervous system, and intravenous laronidase does not meaningfully cross the blood-brain barrier.
 
@@ -117,11 +117,12 @@ The prediction rests only on a model score. No trials or publications address Sa
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The available literature is limited to reviews, an in vitro study and a single case report, and the only licence in New Zealand is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
 
 <!-- review:end log -->
 

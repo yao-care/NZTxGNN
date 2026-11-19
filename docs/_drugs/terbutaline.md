@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,7 +54,7 @@ Terbutaline is an inhaled β2-adrenergic agonist bronchodilator. The TxGNN model
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, terbutaline is a β2-adrenergic agonist that relaxes airway smooth muscle and produces bronchodilation. It may also enhance mucociliary clearance, as suggested by a small older study of terbutaline aerosol in chronic sinusitis.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for terbutaline: "In vitro and in vivo pharmacologic studies have demonstrated that terbutaline exerts a preferential effect on beta 2 -adrenergic receptors. While it is recognized that beta2-adrenergic receptors are the predominant receptors in bronchial smooth muscle, data indicate that there is a population of beta2-receptors in the human heart, existing in a concentration between 10% to 50%." ([DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726), label version 2025-12-10; accessed 2026-11-19.) Based on general pharmacology, terbutaline is a β2-adrenergic agonist that relaxes airway smooth muscle and produces bronchodilation. It may also enhance mucociliary clearance, as suggested by a small older study of terbutaline aerosol in chronic sinusitis.
 
 In principle, this bronchodilator action could ease secondary airway hyperreactivity or obstructive symptoms in patients with structural airway abnormalities. However, there is no evidence that terbutaline affects the malformation itself. The high score (0.9952) most likely reflects network proximity to respiratory disease terms rather than a true therapeutic link. The retrieved literature concerns mostly asthma, bronchitis, or unrelated topics, such as fetal heart block, feline lung disease and an autism hypothesis.
 
@@ -120,11 +120,12 @@ The prediction rests on a computational score alone. No retrieved study directly
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "However, the evidence is mostly indirect, the use overlaps the existing indications, and the only New Zealand authorization is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726) |
 
 <!-- review:end log -->
 

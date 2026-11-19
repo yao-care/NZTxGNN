@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "ETHOSUXIMIDE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Ethosuximide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ethosuximide is generally known to block T-type calcium channels in thalamic neurons, which is the basis of its efficacy in absence epilepsy.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ethosuximide: "Ethosuximide suppresses the paroxysmal three cycle per second spike and wave activity associated with lapses of consciousness which is common in absence (petit mal) seizures. The frequency of epileptiform attacks is reduced, apparently by depression of the motor cortex and elevation of the threshold of the central nervous system to convulsive stimuli." ([DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6), label version 2026-05-25; accessed 2026-11-19.) Ethosuximide is generally known to block T-type calcium channels in thalamic neurons, which is the basis of its efficacy in absence epilepsy.
 
 NSIAD is a different kind of condition. It is caused by gain-of-function mutations in the vasopressin V2 receptor gene (*AVPR2*), or in some cases *GNAS*. These mutations cause the receptor to signal constantly, so the kidney retains water even when vasopressin is low. No link between T-type calcium channel blockade and this renal mechanism has been established in the available data.
 
@@ -117,11 +117,12 @@ The prediction is supported only by the TxGNN model score. The safety data also 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "since both New Zealand licences are cancelled and the route compatibility for the new indication has not been assessed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6) |
 
 <!-- review:end log -->
 

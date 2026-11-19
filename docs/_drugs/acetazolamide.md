@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ACETAZOLAMIDE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Acetazolamide: predicted new indication exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -62,7 +62,7 @@ No clinical trials or publications were found for this disease, so the predictio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, acetazolamide is a carbonic anhydrase inhibitor that alters acid-base balance. It is used in some muscle channelopathies such as periodic paralysis.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for acetazolamide: "Acetazolamide is a potent carbonic anhydrase inhibitor, effective in the control of fluid secretion (e.g., some types of glaucoma), in the treatment of certain convulsive disorders (e.g., epilepsy), and in the promotion of diuresis in instances of abnormal fluid retention (e.g., cardiac edema). Acetazolamide is not a mercurial diuretic." ([DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b), label version 2026-11-10; accessed 2026-11-19.) Based on general pharmacology, acetazolamide is a carbonic anhydrase inhibitor that alters acid-base balance. It is used in some muscle channelopathies such as periodic paralysis.
 
 A link to malignant hyperthermia, which involves disordered calcium handling in skeletal muscle (ryanodine receptor dysfunction), is speculative. The data compiled for this report contain no study or mechanism that supports it. The prediction should be treated as a hypothesis only.
 
@@ -116,11 +116,12 @@ The model score is very high, but there are no clinical trials or publications f
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "that has a single local licence record in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b) |
 
 <!-- review:end log -->
 

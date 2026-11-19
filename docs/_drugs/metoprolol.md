@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, acute coronary syndrome, myocardial infarction"
 ---
 
@@ -57,7 +57,7 @@ However, **no clinical trials and no publications** directly study this disease,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that metoprolol acts on the beta-1 and beta-2 adrenoceptors, and it is a beta-1 selective blocker. Reduced heart rate, lower cardiac output and lower renin release are the usual explanations for its blood pressure lowering effect.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metoprolol: "Metoprolol is a beta 1 -selective (cardioselective) adrenergic receptor blocking agent. This preferential effect is not absolute, however, and at higher plasma concentrations, metoprolol also inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature." ([DailyMed: Lopressor (metoprolol tartrate) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0283bc9d-6998-493a-824a-d4c85f704111), label version 2023-09-14; accessed 2026-11-19.) Pharmacology records show that metoprolol acts on the beta-1 and beta-2 adrenoceptors, and it is a beta-1 selective blocker. Reduced heart rate, lower cardiac output and lower renin release are the usual explanations for its blood pressure lowering effect.
 
 Malignant hypertensive renal disease is a severe kidney complication of very high blood pressure. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Hypertension is a relation recorded for metoprolol.
 
@@ -133,11 +133,12 @@ The prediction has no supporting trials or publications for malignant hypertensi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Four further licences (Myloc CR long-acting tablets at 23.75, 47.5, 95 and 190 mg) are also valid, bringing the total to 9" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lopressor (metoprolol tartrate) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0283bc9d-6998-493a-824a-d4c85f704111) |
 
 <!-- review:end log -->
 

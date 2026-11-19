@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ARSENIC TRIOXIDE"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Arsenic Trioxide: predicted new indication unclassified myelodysplastic syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ However, **no clinical trials or publications** are currently linked to this spe
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, arsenic trioxide induces apoptosis and cell differentiation in blood cancer cells. These effects have been explored across the wider group of myelodysplastic syndromes (MDS).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for arsenic trioxide: "The mechanism of action of TRISENOX is not completely understood. Arsenic trioxide causes morphological changes and DNA fragmentation characteristic of apoptosis in NB4 human promyelocytic leukemia cells in vitro. Arsenic trioxide also causes damage or degradation of the fusion protein promyelocytic leukemia (PML)-retinoic acid receptor (RAR)-alpha." ([DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741), label version 2022-06-30; accessed 2026-11-19.) Based on general knowledge, arsenic trioxide induces apoptosis and cell differentiation in blood cancer cells. These effects have been explored across the wider group of myelodysplastic syndromes (MDS).
 
 The predicted condition is a subtype of MDS, a group of clonal bone marrow disorders. Because arsenic trioxide has been studied in MDS broadly, a mechanistic link is plausible. However, it has not been tested in this specific subtype, and the very high score reflects a model prediction rather than observed clinical results.
 
@@ -110,6 +110,19 @@ No clinical trials or publications address unclassified myelodysplastic syndrome
 - Mechanism of action data
 - Package insert warnings and contraindications
 - A review of how the earlier-stage MDS trials apply to this subtype, including their early terminations and small sizes
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

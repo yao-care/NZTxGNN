@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **hypermobility of coccyx**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Adalimumab belongs to the TNF-α inhibitor class, which dampens TNF-driven inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for adalimumab: "Adalimumab products bind specifically to TNF-alpha and block its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab products also lyse surface TNF expressing cells in vitro in the presence of complement." ([DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc), label version 2026-11-11; accessed 2026-11-19.) Adalimumab belongs to the TNF-α inhibitor class, which dampens TNF-driven inflammation.
 
 Coccygeal hypermobility is mainly a mechanical or traumatic condition of the tail-bone joint. No clear TNF-driven inflammatory process has been identified that adalimumab would address. The high model score therefore looks like a statistical association, not a biologically grounded signal. No trial or publication supports a mechanistic link, so the prediction should be treated as a hypothesis only.
 
@@ -117,11 +117,12 @@ The prediction rests on a model score alone (evidence level L5). No study addres
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Six licences are recorded in the local data, and all are currently valid. The licence records carry no approved-indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
 
 <!-- review:end log -->
 

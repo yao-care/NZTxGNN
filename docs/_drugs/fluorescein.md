@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Fluorescein: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not available"
 monitor_inn: "fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -61,7 +61,7 @@ The TxGNN model (deep learning) ranks **Prinzmetal angina** as its top predictio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Fluorescein is a diagnostic fluorescent dye used in angiography, and it has no known vasodilatory or anti-vasospastic activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluorescein: "Fluorescein sodium responds to electromagnetic radiation and light between the wavelengths of 465 to 490 nm and fluoresces, i.e., emits light at wavelengths of 520 to 530 nm. Thus, the hydrocarbon is excited by blue light and emits light that appears yellowish green." ([DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0), label version 2026-02-26; accessed 2026-11-19.) Fluorescein is a diagnostic fluorescent dye used in angiography, and it has no known vasodilatory or anti-vasospastic activity.
 
 The review of the top prediction found no identifiable mechanistic link between fluorescein and Prinzmetal angina, which is a coronary vasospasm disorder. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, with no supporting trials or literature.
 
@@ -127,13 +127,14 @@ The prediction rests only on a model score. There are no clinical trials or publ
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Fluorescein is a diagnostic dye, and its only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The only New Zealand licence on record for it is cancelled, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and the status of the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0) |
 
 <!-- review:end log -->
 

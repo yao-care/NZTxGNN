@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Exemestane: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not stated in the available licence data"
 monitor_inn: "EXEMESTANE"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
@@ -55,7 +55,7 @@ The TxGNN model's top prediction is **antithrombin deficiency type 2** (score 0.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general knowledge, exemestane irreversibly inhibits aromatase and so lowers circulating estrogen. This is the basis of its use in estrogen-dependent breast cancer.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for exemestane: "Breast cancer cell growth may be estrogen-dependent. Aromatase is the principal enzyme that converts androgens to estrogens both in pre- and postmenopausal women. […] Exemestane is an irreversible, steroidal aromatase inactivator, structurally related to the natural substrate androstenedione." ([DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3), label version 2025-12-24; accessed 2026-11-19.) Based on general knowledge, exemestane irreversibly inhibits aromatase and so lowers circulating estrogen. This is the basis of its use in estrogen-dependent breast cancer.
 
 Antithrombin deficiency type 2 is a hereditary thrombophilia caused by a functional defect in the SERPINC1 protein. No plausible mechanistic link to estrogen lowering was identified. Estrogen-containing therapies raise thrombotic risk, but that does not show that exemestane would correct antithrombin function. The high score (0.9983) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -138,11 +138,12 @@ All predictions are supported only by the model score, with no clinical trials. 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, bupropion inhibits the reuptake of norepinephrine and dopamine. The pharmacology data compiled for this report lists the norepinephrine transporter (NET, SLC6A2) and the dopamine transporter (DAT, SLC6A3) as its targets.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bupropion: "The exact mechanism of the antidepressant action of bupropion is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine and does not inhibit the reuptake of serotonin." ([DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, QPharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d6c996e-8965-921c-e063-6394a90abb4e), label version 2026-10-15; accessed 2026-11-19.) Based on general pharmacological knowledge, bupropion inhibits the reuptake of norepinephrine and dopamine. The pharmacology data compiled for this report lists the norepinephrine transporter (NET, SLC6A2) and the dopamine transporter (DAT, SLC6A3) as its targets.
 
 ADHD is thought to involve noradrenergic and dopaminergic dysfunction, and established ADHD treatments such as methylphenidate and atomoxetine act on these same catecholamine systems. This overlap gives the prediction biological plausibility. Because the mechanism field is empty in the compiled data, this link rests on general pharmacology, not on data supplied for this report.
 
@@ -130,6 +130,19 @@ A completed Phase 3 placebo-controlled trial and a Cochrane review directly addr
 - Obtain full results of NCT00048360 and the conclusions of the Cochrane review
 - Obtain verified mechanism of action data
 - Define a safety plan for patients with seizure risk, hypertension, or comorbid substance use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, QPharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d6c996e-8965-921c-e063-6394a90abb4e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

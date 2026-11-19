@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CARBAMAZEPINE"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Carbamazepine is a sodium channel–blocking anticonvulsant. The TxGNN model pre
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Carbamazepine is widely known as a voltage-gated sodium channel blocker. This is general pharmacology and is not drawn from the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for carbamazepine: "Tegretol has demonstrated anticonvulsant properties in rats and mice with electrically and chemically induced seizures. It appears to act by reducing polysynaptic responses and blocking the post-tetanic potentiation. […] The principal metabolite of Tegretol, carbamazepine-10,11-epoxide, has anticonvulsant activity as demonstrated in several in vivo animal models of seizures." ([DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053), label version 2026-08-20; accessed 2026-11-19.) Carbamazepine is widely known as a voltage-gated sodium channel blocker. This is general pharmacology and is not drawn from the data compiled for this report.
 
 The retrieved literature mainly describes trigeminal neuralgia caused by tumours or masses near the nerve, such as schwannoma, meningioma, lipoma, dermoid cyst, pituitary adenoma and lymphoma. In these reports carbamazepine was given for the nerve pain. In several cases it was ineffective or poorly tolerated, and the underlying mass needed surgery or other treatment. Nothing indicates that carbamazepine affects the neoplasm itself.
 
@@ -126,11 +126,12 @@ No trial or publication studies carbamazepine in trigeminal nerve neoplasm. The 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of which New Zealand licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053) |
 
 <!-- review:end log -->
 

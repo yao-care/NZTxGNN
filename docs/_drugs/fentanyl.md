@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -62,7 +62,7 @@ This is a model-only prediction (evidence level L5) and the recommendation is **
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Fentanyl is known as a potent mu-opioid receptor agonist used for analgesia, but this comes from general pharmacological knowledge rather than the compiled data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fentanyl: "Fentanyl Citrate Injection is an opioid agonist, whose principal actions of therapeutic value are analgesia and sedation." ([DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11), label version 2026-10-23; accessed 2026-11-19.) Fentanyl is known as a potent mu-opioid receptor agonist used for analgesia, but this comes from general pharmacological knowledge rather than the compiled data.
 
 The review of the prediction found **no credible mechanistic link** to the new indication. NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), which cause water retention independent of vasopressin. Opioids can indirectly promote ADH release and cause SIADH-like effects, which would worsen rather than treat antidiuresis.
 
@@ -132,13 +132,14 @@ The prediction rests only on a model score, with no clinical trials, no literatu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "with 7 valid licences out of 7" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "All 7 authorizations below are valid. The license records contain no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Two further cancelled authorizations (Boucher and Muir injection, 50 mcg per ml, 2 ml and 10 ml ampoules; 2381176 and 2381168) are not shown" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
 
 <!-- review:end log -->
 

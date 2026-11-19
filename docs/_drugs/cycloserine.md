@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Cycloserine: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "CYCLOSERINE"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **irritable bowel syndrome**, b
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cycloserine is a D-alanine analogue that inhibits bacterial cell wall synthesis, and it also acts as a partial agonist at the NMDA receptor glycine site. Its efficacy in tuberculosis is established, but a mechanistic route to irritable bowel syndrome is not supported by the available data.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cycloserine: "The antibacterial activity of Cycloserine results from inhibition of cell-wall synthesis in susceptible strains of gram-positive and gram-negative bacteria." ([DailyMed: cycloserine prescribing information, Dr. Reddys Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8e7e2665-7a3d-3f54-9f92-5fe845f02ef9), label version 2024-07-30; accessed 2026-11-19.) Based on known information, cycloserine is a D-alanine analogue that inhibits bacterial cell wall synthesis, and it also acts as a partial agonist at the NMDA receptor glycine site. Its efficacy in tuberculosis is established, but a mechanistic route to irritable bowel syndrome is not supported by the available data.
 
 Possible links, such as the gut-brain axis, effects on gut microbiota, or visceral hypersensitivity, are speculative. The very high TxGNN score (rank 784 among predictions for this drug) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It has not been verified by any clinical or literature evidence. This should be treated as a hypothesis only.
 
@@ -125,12 +125,13 @@ The prediction for irritable bowel syndrome has a high model score but no clinic
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "given the cancelled authorization" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The drug's known neuropsychiatric toxicity and its cancelled status in New Zealand add further barriers" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cycloserine prescribing information, Dr. Reddys Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8e7e2665-7a3d-3f54-9f92-5fe845f02ef9) |
 
 <!-- review:end log -->
 

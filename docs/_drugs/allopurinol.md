@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ALLOPURINOL"
 predicted_indications: ["hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Allopurinol: predicted new indication hepatic porphyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Allopurinol is a xanthine oxidase inhibitor. The TxGNN model predicts it may be 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Allopurinol is generally known as an inhibitor of xanthine oxidase, the enzyme that produces uric acid. How this would apply to hepatic porphyria is not established by the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for allopurinol: "Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans." ([DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449), label version 2022-02-18; accessed 2026-11-19.) Allopurinol is generally known as an inhibitor of xanthine oxidase, the enzyme that produces uric acid. How this would apply to hepatic porphyria is not established by the data compiled for this report.
 
 The retrieved papers point to a possible, but indirect, link through heme metabolism. A 2019 hypothesis paper discusses targeting 5-aminolevulinate synthase, the rate-limiting enzyme of heme biosynthesis, as a way to treat acute hepatic porphyrias. A 1992 rat study examined how another drug (carbamazepine) worsens porphyria by affecting hepatic heme. Neither paper tests allopurinol as a treatment for this condition.
 
@@ -102,6 +102,19 @@ The prediction score is high, but no clinical trial or study directly tests allo
 - Package insert warnings and contraindications, in particular for patients with liver disease
 - Preclinical or clinical data showing the direction of allopurinol's effect on heme biosynthesis in porphyria
 - A safety assessment of the drug interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "ETRAVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
 description: "Etravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ It is a model-only prediction and should be treated as a hypothesis.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, etravirine is an NNRTI that blocks HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and the TxGNN model (deep learning) scores for related immunodeficiency virus diseases may reflect similarities the model learned between related diseases, not biological evidence.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for etravirine: "Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ." ([DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d), label version 2023-08-15; accessed 2026-11-19.) Based on known information, etravirine is an NNRTI that blocks HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and the TxGNN model (deep learning) scores for related immunodeficiency virus diseases may reflect similarities the model learned between related diseases, not biological evidence.
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, so the TxGNN model (deep learning) may have learned similarities between the two diseases. However, FIV reverse transcriptase is generally less sensitive to NNRTIs. The high score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than validated antiviral activity in cats. No trials or literature were found to test this.
 
@@ -128,12 +128,13 @@ The top prediction rests on a TxGNN model (deep learning) score alone, which may
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clarification of the regulatory position, since the only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The only New Zealand licence is valid and the drug is marketed, but no package insert safety data is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d) |
 
 <!-- review:end log -->
 

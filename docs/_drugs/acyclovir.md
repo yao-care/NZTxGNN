@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Acyclovir: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -56,7 +56,7 @@ The best-supported repurposing direction in the data is **common wart** (4 clini
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Acyclovir is a guanosine analogue known to inhibit herpesvirus DNA polymerase after activation by viral thymidine kinase. Its efficacy in herpes simplex and varicella-zoster infections is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for acyclovir: "Acyclovir is a synthetic purine nucleoside analogue with in vitro and in vivo inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella-zoster virus (VZV). The inhibitory activity of acyclovir is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV." ([DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4), label version 2026-06-26; accessed 2026-11-19.) Acyclovir is a guanosine analogue known to inhibit herpesvirus DNA polymerase after activation by viral thymidine kinase. Its efficacy in herpes simplex and varicella-zoster infections is well established.
 
 **Punctate epithelial keratoconjunctivitis (rank 1).** This condition can have a herpetic or adenoviral component, which explains the model's high score. However, the literature retrieved concerns microsporidial keratoconjunctivitis and drug-induced corneal lipidosis in AIDS, neither of which responds to acyclovir. The score is a model prediction without clinical support.
 
@@ -143,12 +143,13 @@ Please refer to the package insert for the official warnings and contraindicatio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 4 licences are valid (4 of 4), and no indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The drug is marketed in this country, with 4 valid licences out of 4" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
 
 <!-- review:end log -->
 

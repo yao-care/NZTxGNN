@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: predicted new indication Hodgkins lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ There are currently **0 clinical trials** and **0 publications** specific to thi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known information, venetoclax is a selective BCL-2 inhibitor. BCL-2 is a protein that helps cancer cells evade programmed cell death. Venetoclax is an established therapy in chronic lymphocytic leukaemia generally and in several other BCL-2-dependent blood cancers.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for venetoclax: "Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics." ([DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018), label version 2026-05-20; accessed 2026-11-19.) Based on known information, venetoclax is a selective BCL-2 inhibitor. BCL-2 is a protein that helps cancer cells evade programmed cell death. Venetoclax is an established therapy in chronic lymphocytic leukaemia generally and in several other BCL-2-dependent blood cancers.
 
 CLL/SLL cells depend heavily on BCL-2 for survival, which gives the predicted indication a sound mechanistic basis. The original indications, acute lymphoblastic leukaemia and Richter syndrome (a transformation of CLL), are also lymphoid malignancies.
 
@@ -157,11 +157,12 @@ The prediction score is high and BCL-2 dependence in CLL/SLL makes it plausible.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four licences for the single-ingredient product Venclexta are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018) |
 
 <!-- review:end log -->
 

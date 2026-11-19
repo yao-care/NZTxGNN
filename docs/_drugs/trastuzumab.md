@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for several breast cancer subtypes.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From established knowledge, trastuzumab binds the HER2 receptor, which blocks HER2 signalling and engages immune-mediated killing of tumour cells (antibody-dependent cellular cytotoxicity).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trastuzumab: "The HER2 (or c-erbB2) proto-oncogene encodes a transmembrane receptor protein of 185 kDa, which is structurally related to the epidermal growth factor receptor. Trastuzumab products have been shown, in both in vitro assays and in animals, to inhibit the proliferation of human tumor cells that overexpress HER2." ([DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c), label version 2026-06-26; accessed 2026-11-19.) From established knowledge, trastuzumab binds the HER2 receptor, which blocks HER2 signalling and engages immune-mediated killing of tumour cells (antibody-dependent cellular cytotoxicity).
 
 The predicted terms are hormone-receptor or molecular subtypes of breast cancer. A substantial share of progesterone-receptor positive tumours also overexpress HER2 (HR+/HER2+), and so do some progesterone-receptor negative tumours (HR-/HER2+). In these groups, trastuzumab's benefit comes from HER2 dependency, which hormone-receptor status does not remove. Combining it with endocrine therapy and CDK4/6 inhibitors is an established strategy. This makes these predictions biomarker-defined subsets of the approved HER2-positive indication.
 
@@ -161,6 +161,19 @@ Package insert warnings and contraindications were not available, so please refe
 - Cardiac function monitoring (LVEF) plan.
 - Review of the 94 recorded drug interactions, especially the major ones.
 - Package insert warnings and contraindications (not yet obtained) and mechanism of action data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

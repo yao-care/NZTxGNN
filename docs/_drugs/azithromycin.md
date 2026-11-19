@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Azithromycin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia…"
 monitor_inn: "AZITHROMYCIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -60,7 +60,7 @@ The score is a computational prediction only, so this candidate is best treated 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial respiratory, ocular and sexually transmitted infections is established, and it also has recognised immunomodulatory and anti-inflammatory effects.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for azithromycin: "Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit." ([DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a), label version 2026-09-09; accessed 2026-11-19.) Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial respiratory, ocular and sexually transmitted infections is established, and it also has recognised immunomodulatory and anti-inflammatory effects.
 
 For polyclonal hyperviscosity syndrome, however, the data compiled for this report supports no mechanistic rationale. The high TxGNN score (0.9981) is not corroborated by any trial or publication. An antibiotic is not expected to directly address the raised serum viscosity caused by excess immunoglobulins.
 
@@ -163,12 +163,13 @@ The prediction for polyclonal hyperviscosity syndrome rests solely on a model sc
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three licences are valid, and no approved-indication text is available for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "In addition, all three New Zealand azithromycin licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a) |
 
 <!-- review:end log -->
 

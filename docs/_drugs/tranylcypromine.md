@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "tranylcypromine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ The prediction comes from the TxGNN model (deep learning) alone and has no mecha
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Tranylcypromine is known as an irreversible, non-selective MAOI. It raises brain levels of serotonin, noradrenaline and dopamine, and its efficacy in depression and anxiety is well established. It also inhibits LSD1 (KDM1A), an epigenetic enzyme, which is relevant to some of the other predicted conditions but not to this one.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tranylcypromine: "The mechanism of action of PARNATE as an antidepressant is not fully understood, but is presumed to be linked to potentiation of monoamine neurotransmitter activity in the central nervous system (CNS) resulting from its irreversible inhibition of the enzyme monoamine oxidase (MAO)." ([DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27), label version 2025-07-02; accessed 2026-11-19.) Tranylcypromine is known as an irreversible, non-selective MAOI. It raises brain levels of serotonin, noradrenaline and dopamine, and its efficacy in depression and anxiety is well established. It also inhibits LSD1 (KDM1A), an epigenetic enzyme, which is relevant to some of the other predicted conditions but not to this one.
 
 Benign paroxysmal torticollis of infancy is a self-limiting movement disorder of infants. It is related to the migraine spectrum and to channelopathies (for example CACNA1A variants). The review found no plausible mechanistic link between MAO inhibition and this condition. The high score of 0.9967 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence.
 
@@ -135,12 +135,13 @@ The prediction rests only on a score from the TxGNN model (deep learning), with 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "A route to supply, since the only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The product is currently marketed in New Zealand, with 1 valid licence of 1" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27) |
 
 <!-- review:end log -->
 

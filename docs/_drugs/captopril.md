@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -60,7 +60,7 @@ No clinical trials are registered for this disease, and the one retrieved public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the data compiled for this report. Captopril belongs to the ACE inhibitor class, which blocks the formation of angiotensin II, a key driver of vasoconstriction and blood-pressure regulation in the renin-angiotensin system (RAS).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for captopril: "The mechanism of action of captopril tablets have not yet been fully elucidated. Its beneficial effects in hypertension and heart failure appear to result primarily from suppression of the renin-angiotensin-aldosterone system." ([DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017), label version 2026-11-11; accessed 2026-11-19.) Captopril belongs to the ACE inhibitor class, which blocks the formation of angiotensin II, a key driver of vasoconstriction and blood-pressure regulation in the renin-angiotensin system (RAS).
 
 Activation of the RAS is thought to contribute to the vascular and kidney damage seen in malignant hypertensive nephrosclerosis. Blocking this pathway is therefore mechanistically plausible. This is a theoretical rationale only. The high TxGNN score is not backed by clinical data, and no study retrieved for this report tests captopril as a treatment for this disease.
 
@@ -118,6 +118,19 @@ The prediction has a high model score but no clinical trials and no publication 
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications for safety screening, especially renal function, potassium and blood-pressure monitoring in this severely ill population
 - Review of the interactions above in the target patient group
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

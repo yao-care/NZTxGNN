@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ with **43 clinical trials** and **20 publications** compiled for this prediction
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on well-known pharmacology, paclitaxel stabilises microtubules, causing mitotic arrest and apoptosis in rapidly dividing tumour cells. This action does not depend on tumour type or hormone-receptor status.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for paclitaxel: "Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions." ([DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c), label version 2025-09-17; accessed 2026-11-19.) Based on well-known pharmacology, paclitaxel stabilises microtubules, causing mitotic arrest and apoptosis in rapidly dividing tumour cells. This action does not depend on tumour type or hormone-receptor status.
 
 Ovarian cancer and breast cancer are both epithelial solid tumours that respond to taxane-based chemotherapy. Reviews in the compiled literature (e.g. PMID 10791395 and 9282422) describe taxanes as evidence-based components of therapy for advanced breast, lung and ovarian carcinomas, and note that paclitaxel's licence was extended to breast cancer.
 
@@ -148,6 +148,19 @@ Paclitaxel has a clear mechanistic fit and extensive trial activity in breast ca
 - Mechanism of action data from DrugBank
 - Confirmation of the paclitaxel-specific effect in breast cancer from monotherapy or head-to-head Phase 3 data
 - A myelosuppression and neuropathy monitoring plan, and a review of drug interactions (particularly CYP-active agents)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

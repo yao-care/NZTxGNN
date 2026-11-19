@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Bicalutamide: predicted new indication Hypertrichosis (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Bicalutamide is a non-steroidal androgen receptor antagonist. The TxGNN model pr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, bicalutamide is a non-steroidal androgen receptor (AR) antagonist. Androgen signalling drives hair follicle activity, so blocking the AR is plausible for androgen-dependent hair growth.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bicalutamide: "CASODEX is a non-steroidal androgen receptor inhibitor. It competitively inhibits the action of androgens by binding to cytosol androgen receptors in the target tissue. Prostatic carcinoma is known to be androgen sensitive and responds to treatment that counteracts the effect of androgen and/or removes the source of androgen." ([DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67), label version 2026-02-27; accessed 2026-11-19.) Based on known pharmacology, bicalutamide is a non-steroidal androgen receptor (AR) antagonist. Androgen signalling drives hair follicle activity, so blocking the AR is plausible for androgen-dependent hair growth.
 
 The only human evidence is a letter commenting on a retrospective review of 35 patients with female pattern hair loss. In that review, minoxidil-induced hypertrichosis improved with bicalutamide. The review itself is not among the data compiled for this report, so this is indirect, secondary evidence. It concerns drug-induced hypertrichosis, not congenital or generalised forms, and it cannot be extended to those without further study.
 
@@ -98,6 +98,18 @@ The mechanism is plausible, but the only human evidence is a letter about a smal
 - Prospective studies or trials in the specific type of hypertrichosis of interest
 - Mechanism of action data and the package insert's warnings and contraindications
 - A safety review of the drug interactions, particularly the major-level ones
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

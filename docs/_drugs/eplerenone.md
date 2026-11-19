@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 182
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "EPLERENONE"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Eplerenone: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ but there are **no registered clinical trials** and the **13 publications** retr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, eplerenone is a selective mineralocorticoid receptor (MR) antagonist. Its efficacy in hypertension is established, and mechanistically it may be applicable to pulmonary hypertension driven by hypoxia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eplerenone: "Eplerenone binds to the mineralocorticoid receptor and blocks the binding of aldosterone, a component of the renin-angiotensin-aldosterone-system (RAAS). Aldosterone synthesis, which occurs primarily in the adrenal gland, is modulated by multiple factors, including angiotensin II and non-RAAS mediators such as adrenocorticotropic hormone (ACTH) and potassium." ([DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a), label version 2025-06-23; accessed 2026-11-19.) Based on known information, eplerenone is a selective mineralocorticoid receptor (MR) antagonist. Its efficacy in hypertension is established, and mechanistically it may be applicable to pulmonary hypertension driven by hypoxia.
 
 The literature points to a plausible link. Hypoxia can activate MR signalling and aldosterone synthesis. In preclinical work, hypoxia-driven aldosterone production in pulmonary artery endothelial cells promoted pulmonary vascular fibrosis, and aldosterone signalling promoted abnormal pulmonary artery smooth muscle cell survival. In animal models, eplerenone also reduced hypoxia-related atrial remodelling, and MR antagonists improved established pulmonary arterial hypertension in a rat model.
 
@@ -145,11 +145,12 @@ The prediction rests on a very high TxGNN score and on preclinical or indirect e
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "given the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a) |
 
 <!-- review:end log -->
 

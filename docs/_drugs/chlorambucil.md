@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CHLORAMBUCIL"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Chlorambucil is an alkylating chemotherapy agent that damages DNA in rapidly div
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Chlorambucil is known as an alkylating agent: it cross-links DNA and so interferes with the division of malignant lymphoid cells. It has long been used in B-cell lymphoid malignancies.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for chlorambucil: "Chlorambucil, an aromatic nitrogen mustard derivative, is an alkylating agent. Chlorambucil interferes with DNA replication and induces cellular apoptosis via the accumulation of cytosolic p53 and subsequent activation of Bax, an apoptosis promoter." ([DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213), label version 2025-01-08; accessed 2026-11-19.) Chlorambucil is known as an alkylating agent: it cross-links DNA and so interferes with the division of malignant lymphoid cells. It has long been used in B-cell lymphoid malignancies.
 
 The predicted disease is a subtype of chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL), the unmutated-IGHV, pre-germinal-centre type. It belongs to the same broad family of mature B-cell neoplasms in which alkylators are used, so the prediction is biologically plausible.
 
@@ -125,11 +125,12 @@ The prediction score is very high, but no trials are registered and the only pap
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Local records show 1 licence, and its status is recorded as cancelled, while the overall market status is listed as marketed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213) |
 
 <!-- review:end log -->
 

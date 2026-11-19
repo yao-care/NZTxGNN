@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 275
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "LOMUSTINE"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
 description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L4). Approved use: Not recorded in the local data"
@@ -54,7 +54,7 @@ Lomustine is an oral nitrosourea alkylating chemotherapy that crosses the blood-
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lomustine is a lipophilic nitrosourea alkylating agent. It damages DNA in rapidly dividing cells, is cytotoxic to lymphoid malignancies, and reaches the central nervous system.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lomustine: "Lomustine alkylates DNA and RNA. As with other nitrosoureas, it may also inhibit several key enzymatic processes by carbamoylation of amino acids in proteins." ([DailyMed: Gleostine (lomustine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3529fe2f-3c23-4862-bb20-b48026957082), label version 2025-09-25; accessed 2026-11-19.) Lomustine is a lipophilic nitrosourea alkylating agent. It damages DNA in rapidly dividing cells, is cytotoxic to lymphoid malignancies, and reaches the central nervous system.
 
 Historically, lomustine has been used within oral combination regimens for lymphoma, for example with procarbazine, etoposide and cyclophosphamide in AIDS-related lymphoma. These regimens exploit its oral route and its penetration into the brain. This makes activity against lymphosarcoma biologically plausible.
 
@@ -131,6 +131,18 @@ The only study directly on lymphosarcoma is a mouse model, so the evidence level
 - Mechanism of action data and the package insert warnings and contraindications
 - A myelosuppression monitoring plan and review of the major drug interactions
 - Clarification of how the findings in related lymphomas apply to lymphosarcoma
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gleostine (lomustine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3529fe2f-3c23-4862-bb20-b48026957082) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

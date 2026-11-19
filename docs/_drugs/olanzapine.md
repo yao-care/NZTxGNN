@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ Two other predictions (agoraphobia and dysthymic disorder) have some indirect li
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, olanzapine is an atypical antipsychotic whose efficacy in schizophrenia, bipolar disorder and depressive conditions is established. It is generally understood to act through dopamine and serotonin receptor antagonism.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olanzapine: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), label version 2026-10-26; accessed 2026-11-19.) Based on known information, olanzapine is an atypical antipsychotic whose efficacy in schizophrenia, bipolar disorder and depressive conditions is established. It is generally understood to act through dopamine and serotonin receptor antagonism.
 
 Benign paroxysmal torticollis of infancy is a rare, usually self-limiting paediatric disorder thought to belong to the migraine spectrum, with links to channelopathies such as CACNA1A. A mechanistic link to olanzapine's dopaminergic and serotonergic antagonism is speculative. The very high score (0.9954) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Using an antipsychotic in infants for a condition that usually resolves on its own raises significant safety concerns.
 
@@ -175,13 +175,14 @@ The top prediction for benign paroxysmal torticollis of infancy rests on a TxGNN
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 11 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "In addition, no New Zealand licence for olanzapine is currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "where all 11 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
 
 <!-- review:end log -->
 

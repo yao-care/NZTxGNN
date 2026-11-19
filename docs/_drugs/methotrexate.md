@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 291
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -62,7 +62,7 @@ Of the predictions with some supporting data, Hodgkin lymphoma has the most tria
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, methotrexate is an antifolate that inhibits dihydrofolate reductase (DHFR), blocking DNA synthesis in rapidly dividing cells. Its efficacy in lymphoma and leukaemia is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methotrexate: "Methotrexate inhibits dihydrofolic acid reductase. Dihydrofolates must be reduced to tetrahydrofolates by this enzyme before they can be utilized as carriers of one-carbon groups in the synthesis of purine nucleotides and thymidylate." ([DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e), label version 2026-11-05; accessed 2026-11-19.) Based on general knowledge, methotrexate is an antifolate that inhibits dihydrofolate reductase (DHFR), blocking DNA synthesis in rapidly dividing cells. Its efficacy in lymphoma and leukaemia is well established.
 
 Primary pulmonary lymphoma is a form of non-Hodgkin lymphoma arising in the lung. Because non-Hodgkin lymphoma is already among methotrexate's original indications, this prediction is arguably an extension of an existing use rather than true repurposing. High-dose methotrexate is a backbone of regimens for CNS and other extranodal lymphomas, which gives indirect support.
 
@@ -181,11 +181,12 @@ Primary pulmonary lymphoma is supported only by indirect evidence (CNS lymphoma 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 15 licences are valid (15 of 15), so methotrexate is currently marketed in New Zealand according to the data compiled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
 
 <!-- review:end log -->
 

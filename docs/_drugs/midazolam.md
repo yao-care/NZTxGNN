@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 300
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ with **2 clinical trials** (both only indirectly related) and **10 publications*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known class pharmacology, midazolam is a benzodiazepine that enhances GABA-A receptor activity, producing sedative, hypnotic and anxiolytic effects. This mechanism is shared with approved benzodiazepine hypnotics such as flurazepam. This link rests on general knowledge of the drug class, not on the supplied data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for midazolam: "Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant." ([DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e), label version 2025-07-31; accessed 2026-11-19.) Based on known class pharmacology, midazolam is a benzodiazepine that enhances GABA-A receptor activity, producing sedative, hypnotic and anxiolytic effects. This mechanism is shared with approved benzodiazepine hypnotics such as flurazepam. This link rests on general knowledge of the drug class, not on the supplied data.
 
 Anxiety and insomnia are closely related conditions, and both respond to enhanced GABAergic inhibition. Oral midazolam was studied as a sleep medication in the 1980s and 1990s, including dose-finding studies and a multicentre comparison against flurazepam in chronic insomnia. These studies suggest clinical activity.
 
@@ -133,12 +133,13 @@ The evidence is limited to older oral-midazolam hypnotic studies from the 1980sâ
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five licences are valid and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "as no approved indication text is recorded for the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->
 

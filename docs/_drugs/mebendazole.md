@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "MEBENDAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **acne**, but there are **0 cli
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Mebendazole is generally understood to be a benzimidazole anthelmintic that inhibits parasite tubulin polymerisation, and its efficacy against intestinal nematodes is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for mebendazole: "Mebendazole, a benzimidazole, is an anthelmintic. […] Mebendazole interferes with cellular tubulin formation in the helminth and causes ultrastructural degenerative changes in its intestine. As a result, its glucose uptake and the digestive and reproductive functions are disrupted, leading to immobilization, inhibition of egg production and death of the helminth." ([DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f), label version 2021-10-05; accessed 2026-11-19.) Mebendazole is generally understood to be a benzimidazole anthelmintic that inhibits parasite tubulin polymerisation, and its efficacy against intestinal nematodes is established.
 
 Any link to acne is speculative. Antiproliferative or anti-inflammatory effects (for example via tubulin or hedgehog signalling) have been proposed in principle, but nothing in the supplied data supports them. The only basis for this prediction is the high TxGNN TxGNN model (deep learning) score. The link has not been biologically validated, and no similarity analysis between the original and new indications is available.
 
@@ -119,6 +119,19 @@ The prediction rests only on a model score, with no clinical trials, no relevant
 - A literature and trial search targeted at mebendazole in acne or related skin conditions
 - Assessment of route compatibility (oral formulations only are currently marketed; acne treatment would need to be evaluated for oral versus topical use)
 - Review of the liver and gallbladder disease contraindication signals and the enzyme-inducer interactions (e.g. phenytoin, carbamazepine) for any long-term dosing scenario
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

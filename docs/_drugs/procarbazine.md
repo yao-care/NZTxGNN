@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 385
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Procarbazine"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 description: "Procarbazine: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **follicular lymphoma**, but th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, procarbazine is an oral alkylating-type cytotoxic agent. Its efficacy in Hodgkin lymphoma is established, and mechanistically it may be applicable to other lymphoid malignancies such as follicular lymphoma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for procarbazine: "The precise mode of cytotoxic action of procarbazine has not been clearly defined. After metabolic activation, procarbazine may inhibit the transmethylation of methyl groups of methionine into transfer RNA (t-RNA). The unavailability of t-RNA prevents protein synthesis, and consequently prevents DNA and RNA synthesis." ([DailyMed: Matulane (procarbazine hydrochloride) prescribing information, Leadiant Biosciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1aa75a3a-18c9-49e1-91a6-293d0b7da756), label version 2026-10-09; accessed 2026-11-19.) Based on known information, procarbazine is an oral alkylating-type cytotoxic agent. Its efficacy in Hodgkin lymphoma is established, and mechanistically it may be applicable to other lymphoid malignancies such as follicular lymphoma.
 
 Both Hodgkin lymphoma and follicular lymphoma are lymphoid cancers that respond to alkylating chemotherapy. The literature includes a case report of two patients with relapsed or refractory follicular lymphoma who achieved a complete and durable remission with prolonged daily procarbazine (PMID 16690522). A metronomic low-dose oral regimen containing procarbazine (PEP-C) has also been reported in relapsed or refractory lymphoma.
 
@@ -132,11 +132,12 @@ Biological plausibility is reasonable, and there are case-level reports of respo
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "A regulatory pathway, since the only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Matulane (procarbazine hydrochloride) prescribing information, Leadiant Biosciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1aa75a3a-18c9-49e1-91a6-293d0b7da756) |
 
 <!-- review:end log -->
 

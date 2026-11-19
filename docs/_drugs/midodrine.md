@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 301
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "MIDODRINE"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is variably protease-sensitive prionopat
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, midodrine is a prodrug whose active metabolite, desglymidodrine, is a peripheral alpha-1 adrenergic agonist. It raises vascular tone and blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for midodrine: "Midodrine hydrochloride forms an active metabolite, desglymidodrine, that is an alpha 1 -agonist, and exerts its actions via activation of the alpha-adrenergic receptors of the arteriolar and venous vasculature, producing an increase in vascular tone and elevation of blood pressure. Desglymidodrine does not stimulate cardiac beta-adrenergic receptors." ([DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba), label version 2026-11-12; accessed 2026-11-19.) Based on known pharmacology, midodrine is a prodrug whose active metabolite, desglymidodrine, is a peripheral alpha-1 adrenergic agonist. It raises vascular tone and blood pressure.
 
 **Top-ranked prediction (variably protease-sensitive prionopathy):** No plausible mechanistic link was identified. Nothing connects peripheral vasoconstriction to prion protein pathology. The very high score (0.9999) comes from the TxGNN model (deep learning), with no supporting trials or literature, so it may reflect similarities the model learned between related diseases, not biological evidence. The same applies to most other top-10 predictions, such as faciodigitogenital syndrome, monogenic obesity, developmental disorders and hypertelorism.
 
@@ -146,12 +146,13 @@ Package insert warnings and contraindications were not available, so please refe
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both authorizations are cancelled, so availability in New Zealand may be a practical constraint" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba) |
 
 <!-- review:end log -->
 

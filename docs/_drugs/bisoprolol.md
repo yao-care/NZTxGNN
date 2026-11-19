@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bisoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Bisoprolol: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ No clinical trials or publications on this condition were found, so the predicti
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. The pharmacology records do show that bisoprolol targets the human β1-adrenoceptor (ADRB1). Blocking this receptor lowers heart rate and cardiac output, and it suppresses renin release.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for bisoprolol: "BISOPROLOL FUMARATE is a beta 1 -selective (cardioselective) adrenoceptor blocking agent without significant membrane stabilizing activity or intrinsic sympathomimetic activity in its therapeutic dosage range. Cardioselectivity is not absolute, however, and at higher doses (≥ 20 mg) bisoprolol fumarate also inhibits beta 2 -adrenoceptors, chiefly located in the bronchial and vascular musculature; to retain selectivity it is therefore important to use the lowest effective dose." ([DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e), label version 2026-11-11; accessed 2026-11-19.) The pharmacology records do show that bisoprolol targets the human β1-adrenoceptor (ADRB1). Blocking this receptor lowers heart rate and cardiac output, and it suppresses renin release.
 
 Malignant hypertensive renal disease is kidney injury caused by severely elevated blood pressure. Blood pressure lowering and renin suppression could in theory reduce this injury. The model score is probably driven by the close link between this condition and blood pressure-related disease.
 
@@ -111,11 +111,12 @@ The only support is a high model score (0.9994). There are no trials or publicat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Local regulatory data lists bisoprolol as marketed in New Zealand, in single-ingredient tablet strengths of 2.5 mg, 5 mg and 10 mg. The deta" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **obsolete bundle branch block*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, verapamil is a calcium channel blocker, and its efficacy in hypertension and supraventricular and ventricular arrhythmias is established. Data compiled for this report show it acts on L-type calcium channels (Cav1.1–1.4) and also interacts with other ion channels and CYP3A4.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for verapamil: "Essential hypertension: Verapamil exerts antihypertensive effects by decreasing systemic vascular resistance, usually without orthostatic decreases in blood pressure or reflex tachycardia; bradycardia (rate less than 50 beats/min) is uncommon (1.4%). During isometric or dynamic exercise, verapamil hydrochloride does not alter systolic cardiac function in patients with normal ventricular function." ([DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af1249b0-e889-4f02-bdc2-54862de0545e), label version 2026-10-30; accessed 2026-11-19.) Based on known information, verapamil is a calcium channel blocker, and its efficacy in hypertension and supraventricular and ventricular arrhythmias is established. Data compiled for this report show it acts on L-type calcium channels (Cav1.1–1.4) and also interacts with other ion channels and CYP3A4.
 
 The link to the predicted indication is weak. Verapamil slows atrioventricular nodal conduction. Bundle branch block is a conduction defect in the His-Purkinje system, so slowing conduction could worsen it rather than treat it. The very high score (0.9962) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The disease term is marked obsolete, so there is no clear clinical target.
 
@@ -120,11 +120,12 @@ The prediction is supported only by a model score. There are no trials or releva
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All six licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af1249b0-e889-4f02-bdc2-54862de0545e) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 52
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Atropine: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and only **indirect, mostly precli
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, atropine is a non-selective muscarinic receptor antagonist, so its pharmacology rests on blocking cholinergic signalling. Whether that could be applied to migraine remains unproven.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atropine: "Atropine competitively blocks the effects of acetylcholine, including excess acetylcholine due to organophosphorus poisoning, at muscarinic cholinergic receptors on smooth muscle, cardiac muscle, secretory gland cells, and in peripheral autonomic ganglia and the central nervous system." ([DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7), label version 2022-09-15; accessed 2026-11-19.) Based on known information, atropine is a non-selective muscarinic receptor antagonist, so its pharmacology rests on blocking cholinergic signalling. Whether that could be applied to migraine remains unproven.
 
 Several publications suggest that the cholinergic system may take part in migraine pathophysiology. In rats, cholinergic modulation of meningeal mast cells has been linked to neurogenic inflammation in a nitroglycerin-induced migraine model. Stimulating the parasympathetic sphenopalatine ganglion causes plasma protein leakage in the dura mater. Central cholinergic pathways also contribute to antinociception in rodents. In chronic paroxysmal hemicrania, a related headache disorder, systemic atropine reduced attack-related sweating, tearing and nasal secretion.
 
@@ -133,12 +133,13 @@ The only support for atropine in migraine is a computational prediction plus ind
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Three licences are valid (3 of 3), but no approved indication text is recorded for any of them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "All three New Zealand licences are valid, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7) |
 
 <!-- review:end log -->
 

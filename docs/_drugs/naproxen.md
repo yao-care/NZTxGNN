@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but there are **0 clinical trials** and **0 publications** supporting this predi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, naproxen is a non-selective COX-1/COX-2 inhibitor that reduces prostaglandin synthesis. This explains its proven benefit in inflammatory and painful musculoskeletal conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for naproxen: "Naproxen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of naproxen, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: naproxen prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29d98cf3-a0f2-3f89-e054-00144ff88e88), label version 2026-11-11; accessed 2026-11-19.) Based on general pharmacology, naproxen is a non-selective COX-1/COX-2 inhibitor that reduces prostaglandin synthesis. This explains its proven benefit in inflammatory and painful musculoskeletal conditions.
 
 Brachydactyly-syndactyly syndromes are congenital limb malformations caused by developmental gene variants. An anti-inflammatory and analgesic drug has no plausible disease-modifying role in such a structural condition. The high score (0.9935, rank 5394) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. NSAID exposure in pregnancy also raises fetal safety concerns.
 
@@ -133,12 +133,13 @@ The prediction is based only on a TxGNN model (deep learning) score, with no cli
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "with 5 of 5 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Confirmation of the current New Zealand regulatory and supply status, given that the drug is marketed with 5 of 5 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: naproxen prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29d98cf3-a0f2-3f89-e054-00144ff88e88) |
 
 <!-- review:end log -->
 

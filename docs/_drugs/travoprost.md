@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
@@ -56,7 +56,7 @@ It is a computational prediction only and is not backed by any real-world eviden
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, travoprost is a prostaglandin F2-alpha analogue that acts on the FP receptor. Its efficacy in lowering intraocular pressure in glaucoma is well established, but no established mechanistic route to visceral calciphylaxis has been shown.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for travoprost: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), label version 2026-09-28; accessed 2026-11-19.) Based on known information, travoprost is a prostaglandin F2-alpha analogue that acts on the FP receptor. Its efficacy in lowering intraocular pressure in glaucoma is well established, but no established mechanistic route to visceral calciphylaxis has been shown.
 
 The original and predicted indications are not closely related. Glaucoma is an eye disease treated with eye drops. Visceral calciphylaxis is a systemic vascular calcification disorder. Systemic exposure after topical eye dosing is minimal, so it is hard to see how the drug could reach the relevant tissues at useful levels. The very high TxGNN score (about 1.0) is not corroborated by any trial or publication, and the mechanism cannot be cross-checked.
 
@@ -116,11 +116,12 @@ The prediction rests on model output alone (evidence level L5). There are no tri
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->
 

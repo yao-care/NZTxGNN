@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 467
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa**, but **no
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, triamcinolone is a glucocorticoid that acts on the glucocorticoid receptor (NR3C1) and is used for its anti-inflammatory and immunosuppressive effects. Its efficacy in inflammatory and autoimmune conditions is established, and mechanistically it may be applicable to alopecia mucinosa.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for triamcinolone: "Studies indicate that following a single intramuscular dose of 60 mg to 100 mg of triamcinolone acetonide, adrenal suppression occurs within 24 to 48 hours and then gradually returns to normal, usually in 30 to 40 days. This finding correlates closely with the extended duration of therapeutic action achieved with the drug." ([DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad), label version 2026-01-05; accessed 2026-11-19.) Based on known information, triamcinolone is a glucocorticoid that acts on the glucocorticoid receptor (NR3C1) and is used for its anti-inflammatory and immunosuppressive effects. Its efficacy in inflammatory and autoimmune conditions is established, and mechanistically it may be applicable to alopecia mucinosa.
 
 Alopecia mucinosa (follicular mucinosis) often shows a perifollicular inflammatory infiltrate. Intralesional corticosteroids are used empirically for localized disease. However, the supplied literature does not test triamcinolone: one paper is a 1964 case report and the other describes successful treatment with bexarotene gel. The very high TxGNN score reflects a network-based prediction, not clinical validation.
 
@@ -122,11 +122,12 @@ The prediction for alopecia mucinosa has a very high model score but no clinical
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five New Zealand licences are valid, so the drug is marketed, and label safety information was not available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
 
 <!-- review:end log -->
 

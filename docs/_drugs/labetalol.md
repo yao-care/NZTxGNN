@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "LABETALOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ but there are **no registered clinical trials** and only **1 publication** (a si
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, labetalol combines alpha-1 and non-selective beta blockade. It is established in hypertension, and a link to severe or malignant hypertension is plausible. Renovascular hypertension is driven largely by renin-angiotensin activation, and beta-blockade reduces renin release.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for labetalol: "Labetalol has both competitive alpha1-adrenergic blocking and competitive beta-adrenergic blocking activity. In man, the ratio of alpha- to beta-blockade has been estimated to be approximately 1:7 following intravenous administration." ([DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55), label version 2025-12-19; accessed 2026-11-19.) Based on known pharmacology, labetalol combines alpha-1 and non-selective beta blockade. It is established in hypertension, and a link to severe or malignant hypertension is plausible. Renovascular hypertension is driven largely by renin-angiotensin activation, and beta-blockade reduces renin release.
 
 The predicted indication is largely a severe subtype of the already established hypertension indication, so it is not a distinct repurposing opportunity. The only retrieved publication (PMID 7242419) describes a case of hallucinogen-induced vasculitis with malignant hypertension in which labetalol and minoxidil were used for initial blood pressure control. It does not evaluate renovascular hypertension directly.
 
@@ -124,11 +124,12 @@ The 0.9908 TxGNN score is a model prediction only. There are no clinical trials,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "for the valid injection licence (2604116)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55) |
 
 <!-- review:end log -->
 

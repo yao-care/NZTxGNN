@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -65,7 +65,7 @@ The New Zealand product record contains no approved indication text.
 
 **Rank 1 (manic bipolar affective disorder).** No plausible therapeutic mechanism is supported. The available literature describes propafenone as a cause of mania (a 1985 case report) and as part of interactions that produced psychiatric adverse effects (a 2001 venlafaxine-propafenone psychosis case and a 2020 review of antipsychotic-cardiac drug interactions). This is a safety signal, not evidence of benefit. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-**Rank 2 (CPVT).** Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that propafenone acts on β1- and β2-adrenoceptors and on the Kv1.5 potassium channel, and it is a class IC sodium channel blocker.
+**Rank 2 (CPVT).** According to the Mechanism of Action section of the US FDA-approved prescribing information for propafenone: "Propafenone is a Class 1C antiarrhythmic drug with local anesthetic effects, and a direct stabilizing action on myocardial membranes. The electrophysiological effect of propafenone manifests itself in a reduction of upstroke velocity (Phase 0) of the monophasic action potential." ([DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42), label version 2026-06-04; accessed 2026-11-19.) Pharmacology records show that propafenone acts on β1- and β2-adrenoceptors and on the Kv1.5 potassium channel, and it is a class IC sodium channel blocker.
 
 CPVT is usually caused by gain-of-function mutations in the ryanodine receptor 2 (RyR2), which cause diastolic calcium leak and delayed afterdepolarizations. Preclinical studies (PMIDs 21270101, 26121139, 21798265) show that class I antiarrhythmics, including propafenone (its R-enantiomer) and flecainide, inhibit RyR2 channels and suppress calcium waves, and that this inhibition helps determine their efficacy. Flecainide is the better-established agent in CPVT and is the relevant comparator. A case report describes 35 years of effective propafenone treatment in CPVT (PMID 30820400).
 
@@ -158,12 +158,13 @@ Package insert warnings and contraindications were not available for this report
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand authorization is cancelled, so no product is currently marketed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since the market status is cancelled only" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
 
 <!-- review:end log -->
 

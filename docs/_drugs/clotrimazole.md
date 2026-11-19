@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Clotrimazole: predicted new indication acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ The evidence is therefore thin and indirect.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Clotrimazole is an azole antifungal, a class known to block ergosterol synthesis in fungal cell membranes. It also has some reported anti-inflammatory activity.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clotrimazole: "Clotrimazole is a broad-spectrum antifungal agent that inhibits the growth of pathogenic yeasts by altering the permeability of cell membranes. The action of clotrimazole is fungistatic at concentrations of drug up to 20 mcg/mL and may be fungicidal in vitro against Candida albicans and other species of the genus Candida at higher concentrations." ([DailyMed: clotrimazole prescribing information, Padagis US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f57ef51-8202-4d0b-95a8-d2df468b8d9a), label version 2022-05-31; accessed 2026-11-19.) Clotrimazole is an azole antifungal, a class known to block ergosterol synthesis in fungal cell membranes. It also has some reported anti-inflammatory activity.
 
 A possible link is that yeast overgrowth (Malassezia or Candida) can contribute to acne-like folliculitis. However, acne vulgaris is driven mainly by sebum production, *Cutibacterium acnes* and inflammation, so the connection to an antifungal is indirect. The only registered trial tests a fixed combination of beclomethasone, gentamicin and clotrimazole. This cannot separate the contribution of clotrimazole from that of the corticosteroid and antibiotic.
 
@@ -102,6 +102,19 @@ No study directly examines clotrimazole alone in acne. The single registered tri
 - Mechanism of action data and a clear biological rationale linking clotrimazole to acne
 - Controlled clinical data on clotrimazole as a single agent in acne, or in a defined fungal-associated subtype
 - Package insert warnings and contraindications for the marketed products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clotrimazole prescribing information, Padagis US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f57ef51-8202-4d0b-95a8-d2df468b8d9a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

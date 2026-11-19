@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ATENOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Atenolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and myocardial infarction"
 ---
 
@@ -60,7 +60,7 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on general pharmacology, atenolol is a beta-1 selective blocker that lowers blood pressure and reduces renin release. This gives a plausible link to hypertension-related kidney injury.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for atenolol: "TENORMIN is a beta 1 -selective (cardioselective) beta-adrenergic receptor blocking agent without membrane stabilizing or intrinsic sympathomimetic (partial agonist) activities. This preferential effect is not absolute, however, and at higher doses, TENORMIN inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature." ([DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a), label version 2025-09-18; accessed 2026-11-19.) Based on general pharmacology, atenolol is a beta-1 selective blocker that lowers blood pressure and reduces renin release. This gives a plausible link to hypertension-related kidney injury.
 
 Malignant hypertensive renal disease is a severe consequence of uncontrolled hypertension. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -121,6 +121,19 @@ The prediction is supported only by a model score, with no clinical trials or pu
 - Mechanism of action data
 - Clinical or observational studies directly examining atenolol in malignant hypertensive renal disease
 - A comparison with standard treatment for malignant hypertension to establish whether oral atenolol has a role
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

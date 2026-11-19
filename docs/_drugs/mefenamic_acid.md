@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 283
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ No clinical trials are registered for this prediction, but **19 publications** e
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Mefenamic acid is known to be an NSAID that blocks prostaglandin synthesis. Prostaglandins contribute to headache pain and to neurogenic inflammation, the inflammatory signalling around pain-sensing nerves, so a mechanistic fit with headache is plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mefenamic acid: "Mefenamic acid has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of mefenamic acid, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f), label version 2026-04-20; accessed 2026-11-19.) Mefenamic acid is known to be an NSAID that blocks prostaglandin synthesis. Prostaglandins contribute to headache pain and to neurogenic inflammation, the inflammatory signalling around pain-sensing nerves, so a mechanistic fit with headache is plausible.
 
 The strongest support comes from migraine, a major headache disorder. Double-blind trials report benefit in acute attacks (compared with paracetamol), in menstrual migraine (compared with placebo), and in migraine prevention (compared with propranolol and placebo). This evidence is specific to migraine and does not show that mefenamic acid works across headache disorders in general. The trials are old and small, and other NSAIDs have stronger guideline support.
 
@@ -138,11 +138,12 @@ The supporting evidence is limited to small, older double-blind trials in migrai
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both New Zealand licences are valid, single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f) |
 
 <!-- review:end log -->
 

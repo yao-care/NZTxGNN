@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Cetirizine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Cetirizine is an H1 antihistamine that blocks histamine receptors. The TxGNN mod
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cetirizine is known pharmacologically as an antagonist of the histamine H1 receptor (HRH1). In rodent studies, systemically given cetirizine showed negligible brain penetration or binding to cerebral H1 receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cetirizine: "Cetirizine, a human metabolite of hydroxyzine, is an antihistamine; its principal effects are mediated via selective inhibition of peripheral H 1 receptors. The antihistaminic activity of cetirizine has been clearly documented in a variety of animal and human models." ([DailyMed: cetirizine hydrochloride prescribing information, BAJAJ MEDICAL, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05324e41-ee3f-0e4b-e063-6294a90a102c), label version 2025-10-16; accessed 2026-11-19.) Cetirizine is known pharmacologically as an antagonist of the histamine H1 receptor (HRH1). In rodent studies, systemically given cetirizine showed negligible brain penetration or binding to cerebral H1 receptors.
 
 Histamine drives many allergic and inflammatory nasal symptoms, so H1 blockade is plausibly relevant to allergic and inflammatory conditions of the nose. However, "nasal cavity disease" is a very broad term. It is unclear whether the benefit extends to non-allergic nasal conditions, where histamine is not the main driver. The prediction would need to be narrowed to specific conditions before it can be meaningfully evaluated.
 
@@ -106,6 +106,19 @@ The prediction score is high, but the term "nasal cavity disease" is too broad, 
 - Clinical trial or direct clinical literature for those conditions
 - Mechanism of action data
 - Package insert warnings and contraindications from Medsafe
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cetirizine hydrochloride prescribing information, BAJAJ MEDICAL, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05324e41-ee3f-0e4b-e063-6294a90a102c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

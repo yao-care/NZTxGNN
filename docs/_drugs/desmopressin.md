@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DESMOPRESSIN"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Desmopressin: predicted new indication congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ The evidence is therefore very limited.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. From general pharmacology, desmopressin acts on V2 receptors and triggers release of von Willebrand factor and factor VIII from endothelial cells. This is why it is used in bleeding disorders involving those factors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for desmopressin: "Desmopressin acetate increases plasma levels of factor VIII activity in patients with hemophilia and von Willebrand's disease Type I. The antidiuretic effects of desmopressin acetate are mediated by stimulation of vasopressin 2 (V2) receptors, thereby increasing water re-absorption in the kidney, and hence reducing urine production. Desmopressin acetate is a replacement hormone for antidiuretic hormone in the treatment of central diabetes insipidus." ([DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244), label version 2022-09-28; accessed 2026-11-19.) From general pharmacology, desmopressin acts on V2 receptors and triggers release of von Willebrand factor and factor VIII from endothelial cells. This is why it is used in bleeding disorders involving those factors.
 
 Prothrombin (factor II) is not known to be released through this pathway, so a direct mechanistic rationale for congenital prothrombin deficiency is weak. The high score most likely reflects the model's closeness to other bleeding disorders rather than a specific mechanism. The only literature item is a 1993 review of treatment options for congenital bleeding disorders. It is general in scope and does not study desmopressin in prothrombin deficiency.
 
@@ -104,6 +104,19 @@ The prediction has no supporting clinical trials and only one general review tha
 - Disease-specific studies (case series or trials) of desmopressin in congenital prothrombin deficiency
 - Package insert warnings and contraindications, to complete the safety screening
 - Safety review for this population, including thrombotic risk and hyponatraemia
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

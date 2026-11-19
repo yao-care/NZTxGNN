@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 392
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PROPYLTHIOURACIL"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **resistance to thyroid hormone
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. From general pharmacology, PTU inhibits thyroid peroxidase, which reduces thyroid hormone synthesis, and it also reduces peripheral conversion of T4 to T3. Its efficacy in hyperthyroid states is well established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for propylthiouracil: "Propylthiouracil inhibits the synthesis of thyroid hormones and thus is effective in the treatment of hyperthyroidism. The drug does not inactivate existing thyroxine and triiodothyronine that are stored in the thyroid or circulating in the blood, nor does it interfere with the effectiveness of thyroid hormones given by mouth or by injection." ([DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa), label version 2026-08-27; accessed 2026-11-19.) From general pharmacology, PTU inhibits thyroid peroxidase, which reduces thyroid hormone synthesis, and it also reduces peripheral conversion of T4 to T3. Its efficacy in hyperthyroid states is well established.
 
 In resistance to thyroid hormone beta (RTHβ), tissues respond poorly to circulating hormone, and T4/T3 are elevated with a TSH that is not suppressed. In theory, lowering hormone synthesis would reduce the elevated hormone levels, which is probably why the model links the two conditions.
 
@@ -139,12 +139,13 @@ Two further predictions were also reviewed:
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the package insert safety data have not been obtained" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "the drug is marketed, with 1 valid licence of 1" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
 
 <!-- review:end log -->
 

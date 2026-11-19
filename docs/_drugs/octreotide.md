@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "OCTREOTIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **vulvar inverted follicular ke
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, octreotide is a somatostatin analogue that acts mainly on somatostatin receptors (SSTR2 and SSTR5). Its efficacy in acromegaly and carcinoid syndrome is established, which is consistent with suppressing hormone secretion and cell growth signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for octreotide: "Sandostatin Injection exerts pharmacologic actions similar to the natural hormone, somatostatin. It is an even more potent inhibitor of GH, glucagon, and insulin than somatostatin. […] By virtue of these pharmacological actions, octreotide has been used to treat the symptoms associated with metastatic carcinoid tumors (flushing and diarrhea), and VIP secreting adenomas (watery diarrhea)." ([DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39), label version 2026-07-22; accessed 2026-11-19.) Based on known information, octreotide is a somatostatin analogue that acts mainly on somatostatin receptors (SSTR2 and SSTR5). Its efficacy in acromegaly and carcinoid syndrome is established, which is consistent with suppressing hormone secretion and cell growth signalling.
 
 A link to vulvar inverted follicular keratosis, a benign follicular keratinocyte lesion, is speculative. It would depend on somatostatin receptor expression in skin or follicular epithelium and on antiproliferative or anti-IGF-1 effects. Neither is supported by the data compiled for this report. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -148,13 +148,14 @@ The only support for either predicted indication is the model score. There are n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 11 licences are valid, and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Octreotide is marketed in New Zealand, with 11 of 11 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "(11 of 11 licences are valid)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
 
 <!-- review:end log -->
 

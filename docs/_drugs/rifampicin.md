@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 403
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "RIFAMPICIN"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ No clinical trials are registered for this indication; the support is **about 19
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rifampicin is a broad-spectrum antibiotic that inhibits bacterial RNA polymerase. Its efficacy in tuberculosis is established, and it is active against Gram-positive bacteria, Chlamydia and some other ocular pathogens.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rifampicin: "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5), label version 2026-05-05; accessed 2026-11-19.) Based on known information, rifampicin is a broad-spectrum antibiotic that inhibits bacterial RNA polymerase. Its efficacy in tuberculosis is established, and it is active against Gram-positive bacteria, Chlamydia and some other ocular pathogens.
 
 Conjunctivitis is frequently caused by bacteria, including Staphylococcus, Streptococcus and Chlamydia trachomatis. An antibacterial agent with activity against these organisms could plausibly help, so the prediction is biologically reasonable. The supporting literature, however, is mainly microbiology and susceptibility surveys, a few small older topical studies (1970s) and case reports. No modern controlled trials exist, and well-established topical alternatives are available.
 
@@ -135,11 +135,12 @@ The antibacterial rationale for conjunctivitis is plausible, but evidence is lim
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and no rifampicin product is currently authorised in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
 
 <!-- review:end log -->
 

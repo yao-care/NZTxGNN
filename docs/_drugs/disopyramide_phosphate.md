@@ -8,7 +8,7 @@ indication_count: 10
 drugbank_id: DB00280
 monitor_inn: "Disopyramide"
 predicted_indications: ["Tourette syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "idiopathic neonatal atrial flutter", "chondromyxoid fibroma", "multifocal atrial tachycardia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-19
 description: "Disopyramide Phosphate: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -57,7 +57,7 @@ This is a model prediction only: **0 clinical trials** and **0 publications** in
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug in the data compiled for this report. Disopyramide is known as a class IA antiarrhythmic that blocks sodium channels and has anticholinergic effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for disopyramide phosphate: "Norpace (disopyramide phosphate) is a Type 1 antiarrhythmic drug (i.e., similar to procainamide and quinidine). In animal studies Norpace decreases the rate of diastolic depolarization (phase 4) in cells with augmented automaticity, decreases the upstroke velocity (phase 0) and increases the action potential duration of normal cardiac cells, decreases the disparity in refractoriness between infarcted and adjacent normally perfused myocardium, and has no effect on alpha- or beta-adrenergic receptors." ([DailyMed: Norpace (disopyramide phosphate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2aa1642-d262-4520-bc6a-9fd3ad795677), label version 2026-08-24; accessed 2026-11-19.) Disopyramide is known as a class IA antiarrhythmic that blocks sodium channels and has anticholinergic effects.
 
 No mechanistic link to Tourette syndrome is supported by the available data. Tourette syndrome is a neurodevelopmental tic disorder, and nothing in the compiled data connects sodium channel blockade or anticholinergic activity to tic pathophysiology. The high score (0.9986) reflects the model's computational output only. It should be treated as a hypothesis to examine, not as evidence of efficacy.
 
@@ -99,6 +99,19 @@ The Tourette syndrome prediction rests only on a model score. There are no trial
 - Package insert warnings and contraindications from Medsafe, including cardiac and anticholinergic safety considerations
 - Any preclinical or clinical studies directly addressing disopyramide in Tourette syndrome or related tic disorders
 - A risk-benefit assessment for a neurological population, given the drug's cardiac and anticholinergic effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for this drug in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Norpace (disopyramide phosphate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2aa1642-d262-4520-bc6a-9fd3ad795677) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

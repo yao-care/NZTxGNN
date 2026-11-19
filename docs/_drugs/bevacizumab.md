@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Bevacizumab: predicted new indication epiglottis neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **epiglottis neoplasm**, but **no
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general knowledge, bevacizumab binds VEGF-A and so reduces the formation of new blood vessels that tumours depend on for growth.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bevacizumab: "Bevacizumab products bind VEGF and prevent the interaction of VEGF to its receptors (Flt-1 and KDR) on the surface of endothelial cells. The interaction of VEGF with its receptors leads to endothelial cell proliferation and new blood vessel formation in in vitro models of angiogenesis." ([DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe), label version 2026-08-21; accessed 2026-11-19.) Based on general knowledge, bevacizumab binds VEGF-A and so reduces the formation of new blood vessels that tumours depend on for growth.
 
 Head and neck tumours, including those arising in the epiglottis, can be vascular and may depend on VEGF signalling. This offers a plausible mechanistic link. However, it is only a computational prediction: no study provided here has tested bevacizumab in epiglottis neoplasm, and similarity to the existing uses has not been assessed.
 
@@ -117,6 +117,19 @@ The prediction score is very high (0.9990), but no trial or publication studies 
 - Clinical or preclinical studies specific to epiglottis or laryngeal neoplasms
 - A review of the Major drug interactions in the intended treatment setting
 - Confirmation of the current licence situation in New Zealand
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

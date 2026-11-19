@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 430
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Duodenal ulcer"
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
@@ -56,7 +56,7 @@ supported by **no registered clinical trials** but **10 publications**, includin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, sucralfate is a mucosal-protective agent, its efficacy in duodenal ulcer has been established, and mechanistically it may be applicable to duodenogastric reflux. This reasoning draws on general pharmacological knowledge rather than the data compiled for this report.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for sucralfate: "Although the mechanism of sucralfate's ability to accelerate healing of duodenal ulcers remains to be fully defined, it is known that it exerts its effect through a local, rather than systemic, action. The following observations also appear pertinent: 1." ([DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9), label version 2026-01-06; accessed 2026-11-19.) Based on known information, sucralfate is a mucosal-protective agent, its efficacy in duodenal ulcer has been established, and mechanistically it may be applicable to duodenogastric reflux. This reasoning draws on general pharmacological knowledge rather than the data compiled for this report.
 
 Sucralfate is generally understood to form a protective, adherent barrier over damaged gastric and oesophageal mucosa and to bind bile salts and pepsin. Duodenogastric reflux (alkaline or bile reflux) injures the mucosa through duodenal contents, so a barrier and bile-binding action plausibly reduces that injury. This is consistent with its original use in duodenal ulcer, where mucosal protection is also central.
 
@@ -119,6 +119,19 @@ Two small randomized trials and several clinical reports suggest a benefit of su
 ---
 
 **Note on the second prediction (duodenal obstruction):** Its TxGNN score is high (0.9930), but the evidence level is L5 and the recommendation is **Hold**. There is no clear mechanistic link, because sucralfate's mucosal protection does not treat a mechanical obstruction. None of the retrieved literature shows sucralfate treating obstruction. The score likely reflects network proximity to duodenal ulcer.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

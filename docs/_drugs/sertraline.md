@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "SERTRALINE"
 predicted_indications: ["histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **histrionic personality disorder
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Sertraline belongs to the SSRI class, which raises serotonin availability in the brain. SSRIs are widely used for anxiety, obsessive-compulsive and mood-related conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sertraline: "Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: sertraline hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=687ebdc4-6946-454e-8d46-3207488ccf32), label version 2026-11-05; accessed 2026-11-19.) Sertraline belongs to the SSRI class, which raises serotonin availability in the brain. SSRIs are widely used for anxiety, obsessive-compulsive and mood-related conditions.
 
 Histrionic personality disorder is characterised by emotional instability and attention-seeking behaviour, and it often co-occurs with mood and anxiety problems. A possible link is that an SSRI could ease such co-occurring symptoms. This is a hypothesis only. The data compiled for this report contain no study of sertraline in histrionic personality disorder, and the high TxGNN score is a computational prediction rather than evidence of benefit.
 
@@ -109,11 +109,12 @@ The prediction has no supporting trials or publications, so the evidence level i
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both authorisations are currently valid, and both are single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sertraline hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=687ebdc4-6946-454e-8d46-3207488ccf32) |
 
 <!-- review:end log -->
 

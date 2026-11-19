@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Diazoxide: predicted new indication Hypotrichosis simplex of the scalp . Alopecia is the best-supported p… (evidence level L5). Approved use: Hyperinsulinaemic hypoglycaemia…"
 monitor_inn: "DIAZOXIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
@@ -60,7 +60,7 @@ Evidence is indirect, and the same approach cannot be applied to the other highl
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, diazoxide opens ATP-sensitive potassium (KATP) channels. In pancreatic beta cells this suppresses insulin release, which explains its use in hyperinsulinaemic hypoglycaemia.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for diazoxide: "PROGLYCEM produces a dose-related increase in blood glucose, due primarily to an inhibition of insulin release from the pancreas, and also to an extrapancreatic effect. The hyperglycemic effect of PROGLYCEM begins within an hour and generally lasts no more than 8 hours in the presence of normal renal function." ([DailyMed: Proglycem (diazoxide) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2), label version 2026-10-06; accessed 2026-11-19.) Based on known information, diazoxide opens ATP-sensitive potassium (KATP) channels. In pancreatic beta cells this suppresses insulin release, which explains its use in hyperinsulinaemic hypoglycaemia.
 
 The link to hair disorders comes from a known side effect. Diazoxide causes hypertrichosis (excess hair growth), much like minoxidil, another KATP channel opener that is an established alopecia treatment. In a preclinical study, topical diazoxide stimulated hair regrowth on the bald scalp of stumptailed macaques (PMID 2085505). This is a plausible mechanistic bridge, but it rests on animal data and adverse-effect observations, not human efficacy trials.
 
@@ -157,12 +157,13 @@ All predictions rest on model scores alone (L5), except alopecia, which has L4 i
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three authorisations are valid, so diazoxide is currently marketed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "the New Zealand licences are all cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Proglycem (diazoxide) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "NADOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Nadolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but **no clinical trials** and **no directly relevant publications** currently s
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, nadolol is a non-selective beta-blocker. Its efficacy in hypertension is established, and it may plausibly apply to malignant hypertensive renal disease by lowering blood pressure and reducing sympathetic and renin-angiotensin activity.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nadolol: "Nadolol is a nonselective beta-adrenergic receptor blocking agent. Clinical pharmacology studies have demonstrated beta-blocking activity by showing reduction in heart rate and cardiac output at rest and on exercise, reduction of systolic and diastolic blood pressure at rest and on exercise, inhibition of isoproterenol-induced tachycardia, and reduction of reflex orthostatic tachycardia." ([DailyMed: nadolol prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f11553f1-18ec-41b0-a7ad-1c9f21ef2c9f), label version 2026-09-07; accessed 2026-11-19.) Based on known information, nadolol is a non-selective beta-blocker. Its efficacy in hypertension is established, and it may plausibly apply to malignant hypertensive renal disease by lowering blood pressure and reducing sympathetic and renin-angiotensin activity.
 
 Malignant hypertensive renal disease is a severe kidney complication of very high blood pressure. It is essentially the original indication in a more severe form, which explains the high prediction score. This is a weak form of support, however. Beta-blockers are not first-line treatment for hypertensive emergencies, and the prediction has no clinical data behind it.
 
@@ -152,12 +152,13 @@ All five predictions rest on model scores alone (evidence level L5). The only li
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four authorizations are valid (4 valid licences of 4)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since the drug is marketed and all four New Zealand authorizations are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nadolol prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f11553f1-18ec-41b0-a7ad-1c9f21ef2c9f) |
 
 <!-- review:end log -->
 

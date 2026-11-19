@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 190
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 description: "Everolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **1 clini
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, everolimus inhibits mTORC1, a key node downstream of PI3K/AKT signalling that drives tumour growth and survival. Its efficacy in renal cell carcinoma is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for everolimus: "Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase." ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a), label version 2026-09-16; accessed 2026-11-19.) Based on known information, everolimus inhibits mTORC1, a key node downstream of PI3K/AKT signalling that drives tumour growth and survival. Its efficacy in renal cell carcinoma is established.
 
 Dedifferentiated liposarcoma is characterised by CDK4/MDM2 amplification. Combining mTOR inhibition with the CDK4/6 inhibitor ribociclib targets two converging proliferative pathways: cell cycle control and growth/survival signalling. Combination and preclinical data support the pathway relevance.
 
@@ -152,11 +152,12 @@ Package insert warnings and contraindications were not available in the compiled
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "the cancelled New Zealand authorizations, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a) |
 
 <!-- review:end log -->
 

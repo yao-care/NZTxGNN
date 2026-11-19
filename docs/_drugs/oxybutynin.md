@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "OXYBUTYNIN"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **restless legs syndrome**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, oxybutynin is a muscarinic antagonist with musculotropic antispasmodic activity. Its efficacy in bladder overactivity is established, but the link to restless legs syndrome (RLS) is unclear.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxybutynin: "Oxybutynin relaxes bladder smooth muscle. Oxybutynin chloride exerts a direct antispasmodic effect on smooth muscle and inhibits the muscarinic action of acetylcholine on smooth muscle. No blocking effects occur at skeletal neuromuscular junctions or autonomic ganglia (antinicotinic effects)." ([DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67), label version 2026-11-11; accessed 2026-11-19.) Based on known information, oxybutynin is a muscarinic antagonist with musculotropic antispasmodic activity. Its efficacy in bladder overactivity is established, but the link to restless legs syndrome (RLS) is unclear.
 
 RLS is mainly associated with dopaminergic dysfunction and brain iron deficiency, which are not obviously related to muscarinic blockade. Anticholinergic drugs may also worsen sleep quality and cognition. The very high TxGNN score therefore cannot be mechanistically verified from the data compiled for this report.
 
@@ -132,12 +132,13 @@ The predictions rest on model scores alone (L5 for restless legs syndrome and ga
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The mechanistic link is weak or unverifiable, there is a documented reflux safety signal for upper GI use, and the only New Zealand licence " | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-10-31 | Removed: "Confirmation of current regulatory and supply status in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 388
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ This rests on **0 registered clinical trials** and **18 publications**, which ar
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug. Progesterone is the body's own luteal-phase hormone, and it counterbalances estrogen in breast tissue.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for progesterone: "Progesterone is a naturally occurring steroid that is secreted by the ovary, placenta, and adrenal gland. In the presence of adequate estrogen, progesterone transforms a proliferative endometrium into a secretory endometrium." ([DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1), label version 2026-10-05; accessed 2026-11-19.) Progesterone is the body's own luteal-phase hormone, and it counterbalances estrogen in breast tissue.
 
 Fibrocystic breast change is a hormone-responsive condition. Published work suggests that estrogen predominance with relative progesterone deficiency drives connective tissue and epithelial overgrowth, cysts and cyclic breast pain. A Croatian study of women with the condition examined the estradiol-to-progesterone ratio in the late luteal phase. A 1983 study of luteal-phase breast pain also reported lower luteal progesterone levels in affected patients. This gives a plausible reason to test progesterone supplementation.
 
@@ -124,11 +124,12 @@ The TxGNN score is high (0.9998) and the hormonal rationale is plausible. Howeve
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Its only New Zealand licence is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
 
 <!-- review:end log -->
 

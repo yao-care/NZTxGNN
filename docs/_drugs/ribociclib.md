@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 401
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Ribociclib: predicted new indication Myeloid leukemia (evidence level L4). Approved use: Not stated in the New Zealand license data compiled for this report (…"
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -54,7 +54,7 @@ Ribociclib is a CDK4/6 inhibitor, known for use in hormone receptor-positive, HE
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ribociclib inhibits CDK4/6, which regulates the G1-S transition of the cell cycle. Blocking this step stops proliferation of cells that depend on the CDK4/6–retinoblastoma pathway.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ribociclib: "Ribociclib is an inhibitor of cyclin-dependent kinase (CDK) 4 and 6. These kinases are activated upon binding to D-cyclins and are downstream of signaling pathways which lead to cell cycle progression and cellular proliferation." ([DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8), label version 2026-07-01; accessed 2026-11-19.) Based on known information, ribociclib inhibits CDK4/6, which regulates the G1-S transition of the cell cycle. Blocking this step stops proliferation of cells that depend on the CDK4/6–retinoblastoma pathway.
 
 Myeloid leukemia cells may depend on CDK4/6 signalling for proliferation, which gives a plausible mechanistic rationale. A 2020 preclinical study (PMID 32560251) suggests CDK4/6 inhibitors can target pharmacokinetic drug resistance in acute myeloid leukemia cells, for example by affecting the ABCB1 and ABCG2 efflux transporters. This points to a possible role in combination with standard induction therapy.
 
@@ -143,12 +143,13 @@ The only support for myeloid leukemia is one preclinical study and a plausible m
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 3 of 3 licenses valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Review of the New Zealand supply situation, given that the drug is marketed and all 3 of 3 licenses are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
 
 <!-- review:end log -->
 

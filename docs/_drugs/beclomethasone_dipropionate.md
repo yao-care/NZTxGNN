@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BECLOMETHASONE DIPROPIONATE"
 predicted_indications: ["atopic eczema"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Beclomethasone Dipropionate: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but the supp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on drug class knowledge, beclomethasone dipropionate is a glucocorticoid prodrug. It is converted to the active metabolite beclomethasone-17-monopropionate, which binds the glucocorticoid receptor and dampens pro-inflammatory cytokine and NF-kB signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for beclomethasone dipropionate: "Beclomethasone dipropionate is a prodrug that is extensively converted to the active metabolite, beclomethasone-17-monopropionate. The precise mechanism through which beclomethasone dipropionate affects rhinitis symptoms is unknown." ([DailyMed: Qnasl (beclomethasone dipropionate) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b8d8e84-b5d2-4e56-97ec-4f72971465c5), label version 2020-02-29; accessed 2026-11-19.) Based on drug class knowledge, beclomethasone dipropionate is a glucocorticoid prodrug. It is converted to the active metabolite beclomethasone-17-monopropionate, which binds the glucocorticoid receptor and dampens pro-inflammatory cytokine and NF-kB signalling.
 
 Atopic eczema is a Th2-driven inflammatory skin disease, and corticosteroids are a standard anti-inflammatory approach for it. Topical beclomethasone has historically been used in dermatology. This makes the prediction plausible at the drug-class level. This reasoning is inferred from class knowledge, not from mechanism data supplied for this drug.
 
@@ -134,6 +134,19 @@ The TxGNN score is high (0.9941), and the glucocorticoid mechanism is plausible 
 - Package insert warnings and contraindications from Medsafe
 - Mechanism-of-action data from DrugBank
 - A growth and adrenal-suppression safety assessment, especially for children
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Qnasl (beclomethasone dipropionate) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b8d8e84-b5d2-4e56-97ec-4f72971465c5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

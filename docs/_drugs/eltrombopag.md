@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 173
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L3). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ Support is limited: **1 clinical trial** (terminated, and only indirectly relate
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, eltrombopag is a thrombopoietin receptor agonist. It stimulates megakaryocyte and progenitor cell proliferation and has proven efficacy in immune thrombocytopenia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eltrombopag: "Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production." ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), label version 2026-05-20; accessed 2026-11-19.) Based on known information, eltrombopag is a thrombopoietin receptor agonist. It stimulates megakaryocyte and progenitor cell proliferation and has proven efficacy in immune thrombocytopenia.
 
 The link to HIV is supportive rather than antiviral. HIV infection can cause thrombocytopenia, including immune reconstitution thrombocytopenia and HIV-associated immune thrombocytopenic purpura. Case reports describe eltrombopag raising platelet counts in these settings. One report describes a trilineage response in HIV-associated aplastic anaemia, along with immunomodulatory changes (reduced Th1/Th17 cells and a higher T-regulatory cell/T-helper ratio).
 
@@ -126,11 +126,12 @@ Evidence for HIV is limited to case reports, a small case series, reviews and an
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "both eltrombopag licences are cancelled, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46) |
 
 <!-- review:end log -->
 

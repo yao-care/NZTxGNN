@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 329
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ with **no registered clinical trials** but **about 11 relevant publications** (i
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology of the drug class, nortriptyline is a tricyclic antidepressant that mainly inhibits norepinephrine reuptake, with weaker serotonin reuptake inhibition. Pharmacology data compiled for this report show activity at the norepinephrine transporter (NET) and the serotonin transporter (SERT), as well as at the α1A-adrenoceptor and several inwardly rectifying potassium channels (Kir3.2, Kir3.4, Kir4.1).
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nortriptyline: "The mechanism of mood elevation by tricyclic antidepressants is at present unknown. Pamelor is not a monoamine oxidase inhibitor. It inhibits the activity of such diverse agents as histamine, 5-hydroxytryptamine, and acetylcholine." ([DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb), label version 2024-12-04; accessed 2026-11-19.) Based on general pharmacology of the drug class, nortriptyline is a tricyclic antidepressant that mainly inhibits norepinephrine reuptake, with weaker serotonin reuptake inhibition. Pharmacology data compiled for this report show activity at the norepinephrine transporter (NET) and the serotonin transporter (SERT), as well as at the α1A-adrenoceptor and several inwardly rectifying potassium channels (Kir3.2, Kir3.4, Kir4.1).
 
 Enhancing noradrenergic signalling in prefrontal circuits is the same pathway targeted by atomoxetine and other non-stimulant ADHD treatments. This offers a plausible mechanistic link between a drug used for mood and anxiety conditions and ADHD. A PET study in patients with depression also confirmed that nortriptyline occupies NET in the human brain.
 
@@ -138,13 +138,14 @@ Published evidence (one pediatric RCT, a Cochrane review and several observation
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are cancelled, so no nortriptyline product currently holds a valid authorization in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "No nortriptyline product is currently authorized in New Zealand, and l" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Regulatory pathway for supply: the drug is marketed in this country, with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb) |
 
 <!-- review:end log -->
 

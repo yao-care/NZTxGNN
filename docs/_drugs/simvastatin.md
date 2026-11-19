@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ Note that this prediction overlaps heavily with the existing labelled use, so it
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, simvastatin is an HMG-CoA reductase inhibitor. It lowers cholesterol synthesis in the liver and upregulates LDL receptors, which increases clearance of LDL cholesterol. This mechanism is directly relevant to familial hypercholesterolemia, where LDL clearance is impaired.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for simvastatin: "Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), label version 2025-03-28; accessed 2026-11-19.) Based on known pharmacology, simvastatin is an HMG-CoA reductase inhibitor. It lowers cholesterol synthesis in the liver and upregulates LDL receptors, which increases clearance of LDL cholesterol. This mechanism is directly relevant to familial hypercholesterolemia, where LDL clearance is impaired.
 
 The original indications already include homozygous familial hypercholesterolemia and several related hyperlipidaemias. Many patients still need add-on therapy (for example ezetimibe or PCSK9 inhibitors) to reach LDL-C targets, which is reflected in most of the trials below.
 
@@ -152,6 +152,19 @@ Multiple completed Phase 3 trials and a Cochrane review support simvastatin-base
 - Detailed mechanism of action data
 - A drug-interaction management plan, particularly for amiodarone, amlodipine, fenofibrate and CYP3A4 inhibitors
 - Confirmation of which trials contribute simvastatin-specific efficacy data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

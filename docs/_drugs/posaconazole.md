@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Fungal infections (chromomycosis, coccidioidomycosis, aspergillosis…"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -56,7 +56,7 @@ Mechanistically the prediction is doubtful, and the evidence does not support it
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Posaconazole belongs to the triazole antifungal class. Triazoles generally inhibit fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for posaconazole: "Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84), label version 2026-02-13; accessed 2026-11-19.) Posaconazole belongs to the triazole antifungal class. Triazoles generally inhibit fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane.
 
 The link to pneumocystosis is weak. *Pneumocystis jirovecii* has very little ergosterol in its membrane and relies mainly on cholesterol and other sterols, so the azole target is largely absent or not functionally relevant. The high TxGNN score most likely reflects the drug's general antifungal class association rather than a true mechanistic fit. This could not be verified from the available data.
 
@@ -129,12 +129,13 @@ The prediction rests on the model score alone (L5). The only trial found tests a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both New Zealand authorizations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since both authorizations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
 
 <!-- review:end log -->
 

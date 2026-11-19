@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "LITHIUM CARBONATE"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
 description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -58,7 +58,7 @@ Lithium carbonate is a mood stabiliser originally used for bipolar disorder and 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on known information, lithium is an established mood stabiliser, and its efficacy in bipolar disorder is well recognised. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lithium carbonate: "The mechanism of action of lithium as a mood stabilizing agent is unknown." ([DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544), label version 2022-11-03; accessed 2026-11-19.) Based on known information, lithium is an established mood stabiliser, and its efficacy in bipolar disorder is well recognised. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 A speculative mechanistic link is lithium's inhibition of GSK-3β and modulation of Wnt signalling, which may affect chondrocyte function. Pseudoachondroplasia is caused by COMP gene mutations that lead to endoplasmic reticulum stress and chondrocyte death. No direct evidence connects lithium to this mechanism, so the prediction should be read as a hypothesis only.
 
@@ -134,12 +134,13 @@ The prediction is supported only by a model score (0.9998), with no clinical tri
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Assessment of the regulatory pathway, given that both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544) |
 
 <!-- review:end log -->
 

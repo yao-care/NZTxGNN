@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
 description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The best-supported alternative direction is **hemophagocytic lymphohistiocytosis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general knowledge, ruxolitinib inhibits JAK1 and JAK2, which blocks JAK-STAT signalling. This is the pathway that drives myeloproliferative neoplasms and many cytokine-mediated inflammatory states.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ruxolitinib: "Ruxolitinib, a kinase inhibitor, inhibits Janus Associated Kinases (JAKs), JAK1 and JAK2, which mediate the signaling of a number of cytokines and growth factors that are important for hematopoiesis and immune function. JAK signaling involves recruitment of STATs (signal transducers and activators of transcription) to cytokine receptors, activation, and subsequent localization of STATs to the nucleus leading to modulation of gene expression." ([DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b), label version 2026-07-20; accessed 2026-11-19.) Based on general knowledge, ruxolitinib inhibits JAK1 and JAK2, which blocks JAK-STAT signalling. This is the pathway that drives myeloproliferative neoplasms and many cytokine-mediated inflammatory states.
 
 For the top-ranked prediction (uterine PEComa), the link is speculative. PEComa is mainly associated with mTOR/TSC pathway activation, and any crosstalk with JAK-STAT is unsupported by the supplied data. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to the other PEComa-family and lymphangioleiomyomatosis predictions (ranks 2–4, 7). In lymphangioleiomyomatosis the established therapy targets mTOR, and no JAK-inhibitor evidence was provided. Benign PEComa generally does not require systemic therapy, so its clinical rationale is weak.
 
@@ -153,12 +153,13 @@ The top-ranked prediction (uterine PEComa) is supported only by a model score, w
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Ruxolitinib is currently marketed in New Zealand (4 of 4 licences valid)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "why the licences were cancelled, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b) |
 
 <!-- review:end log -->
 

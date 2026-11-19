@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The best-supported alternative among the predictions is **migraine disorder** (2
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. In general, pregabalin binds the alpha-2-delta subunit of voltage-gated calcium channels and reduces release of excitatory neurotransmitters. This may relieve neuropathic and nociceptive pain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pregabalin: "Pregabalin binds with high affinity to the alpha 2 -delta site (an auxiliary subunit of voltage-gated calcium channels) in central nervous system tissues. Although the mechanism of action of pregabalin has not been fully elucidated, results with genetically modified mice and with compounds structurally related to pregabalin (such as gabapentin) suggest that binding to the alpha 2 -delta subunit may be involved in pregabalin's anti-nociceptive and antiseizure effects in animals." ([DailyMed: Pregabalin Extended Release (pregabalin) prescribing information, ScieGen Pharmaceuticals, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1544a657-353c-47f8-96ac-a63fa78373f0), label version 2022-09-19; accessed 2026-11-19.) In general, pregabalin binds the alpha-2-delta subunit of voltage-gated calcium channels and reduces release of excitatory neurotransmitters. This may relieve neuropathic and nociceptive pain.
 
 The original indications (fibromyalgia, myofascial pain syndrome) are musculoskeletal and neuropathic pain conditions. Tendinitis is a painful musculoskeletal condition, so the model likely links them through shared pain-related features. This is a computational inference only. The retrieved literature does not show that pregabalin treats tendinitis. Two perioperative studies concern postoperative pain after shoulder (rotator cuff) surgery, which is not tendinitis treatment. The remaining papers are case reports, a commentary, or unrelated work.
 
@@ -169,13 +169,14 @@ The top prediction (tendinitis) rests on a computational score alone. No trials 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 8 licences are valid, so this drug is currently marketed in this country" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Three further cancelled licences (Lyrica 150 mg and 25 mg, Pregabalin Pfizer 25 mg) are not listed here" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that this drug is marketed with 8 valid licences of 8" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pregabalin Extended Release (pregabalin) prescribing information, ScieGen Pharmaceuticals, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1544a657-353c-47f8-96ac-a63fa78373f0) |
 
 <!-- review:end log -->
 

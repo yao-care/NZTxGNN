@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tenofovir disoproxil is a prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor. Its efficacy in HIV and hepatitis B has been established, and mechanistically it may be applicable to feline immunodeficiency virus (FIV).
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tenofovir disoproxil: "Tenofovir disoproxil fumarate is an antiviral drug. […] Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir disoproxil fumarate requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate (TFV-DP), an obligate chain terminator." ([DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418), label version 2025-02-18; accessed 2026-11-19.) Based on known information, tenofovir disoproxil is a prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor. Its efficacy in HIV and hepatitis B has been established, and mechanistically it may be applicable to feline immunodeficiency virus (FIV).
 
 FIV is a lentivirus that causes progressive immune dysfunction in cats, similar to HIV in humans. Because FIV also relies on a reverse transcriptase, the mechanistic plausibility is reasonable. The one related study (2023) tested a combination antiretroviral regimen (dolutegravir, tenofovir and emtricitabine) in FIV-infected cats. It is a combination study, so it cannot isolate the contribution of tenofovir.
 
@@ -142,12 +142,13 @@ The predicted indication is a veterinary condition supported by only one indirec
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are currently valid (2 valid licences of 2)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
 
 <!-- review:end log -->
 

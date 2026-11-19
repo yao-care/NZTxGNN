@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Apomorphine: predicted new indication polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ There are **0 clinical trials** and **0 publications** supporting this specific 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From the pharmacology records, apomorphine binds dopamine D1–D5 receptors, serotonin 5-HT1A/2A/2B/2C receptors, α2-adrenoceptors and TRPA1.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for apomorphine: "ONAPGO is a non-ergoline dopamine agonist with high in vitro binding affinity for the dopamine D4 receptor, and moderate affinity for the dopamine D2, D3, and D5, and adrenergic α1D, α2B, α2C receptors. The precise mechanism of action of ONAPGO as a treatment for Parkinson's disease is unknown, although it is believed to be due to stimulation of post-synaptic dopamine D2-type receptors within the caudate-putamen in the brain." ([DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a), label version 2026-10-05; accessed 2026-11-19.) From the pharmacology records, apomorphine binds dopamine D1–D5 receptors, serotonin 5-HT1A/2A/2B/2C receptors, α2-adrenoceptors and TRPA1.
 
 The predicted condition is an ultra-rare congenital neurodevelopmental malformation involving abnormal cortical folding, cerebellar underdevelopment and joint contractures. Dopamine receptor agonism has no recognised relevance to cortical malformation or arthrogryposis, and no mechanistic link has been identified. The high score (0.9975) is a model-based prediction only and should not be read as evidence of benefit.
 
@@ -96,6 +96,19 @@ The prediction has no supporting trials or publications and no plausible mechani
 - Any preclinical or clinical study that directly addresses this condition
 - A defined biological hypothesis linking dopaminergic or related receptor signalling to the disease pathology
 - Detailed mechanism of action data and the package insert safety information
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

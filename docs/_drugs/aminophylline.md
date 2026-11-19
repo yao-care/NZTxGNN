@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMINOPHYLLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Aminophylline: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ Support is limited: **no clinical trials** and **4 publications** (one review, t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, aminophylline is a nonselective adenosine receptor antagonist and phosphodiesterase inhibitor.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aminophylline: "Theophylline has two distinct actions in the airways of patients with reversible obstruction; smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., nonbronchodilator prophylactic effects)." ([DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d), label version 2026-05-26; accessed 2026-11-19.) Based on known pharmacology, aminophylline is a nonselective adenosine receptor antagonist and phosphodiesterase inhibitor.
 
 Migraine may be driven in part by impaired brain energy metabolism and high adenosine levels, and adenosine signalling has been linked to trigeminovascular activation and cerebral vasodilation. A 2023 review (PMID 38059379) discusses aminophylline in pain and migraine, noting its use in post-dural headache. A case report (PMID 34308528) describes a hemiplegic migraine episode after regadenoson, an adenosine agonist. This supports the plausibility of adenosine antagonism as a countermeasure.
 
@@ -110,6 +110,19 @@ The model score is very high, but no clinical trial or controlled study of amino
 - Detailed mechanism of action data
 - Controlled or at least observational clinical data on aminophylline in migraine, such as post-dural headache cohorts
 - An interaction management plan given the 100 recorded interactions, including bupropion
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PRIMAQUINE"
 predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
 description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **myiasis** (infestation by fly
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, primaquine is an 8-aminoquinoline whose efficacy against *P. vivax* malaria is established. It acts mainly on liver-stage parasites and on the gametocytes of the malaria parasite.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for primaquine: "Primaquine phosphate is an 8-aminoquinoline antimalarial drug. The mechanism of action has not been fully established. The major assumptions are an inhibition of the mitochondrial system of dormant parasites, and an oxidative stress generated through reactive metabolites in infected cells." ([DailyMed: primaquine phosphate prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1bfbf4ae-81b8-4160-a00d-6322aadd4b59), label version 2026-02-11; accessed 2026-11-19.) Based on known information, primaquine is an 8-aminoquinoline whose efficacy against *P. vivax* malaria is established. It acts mainly on liver-stage parasites and on the gametocytes of the malaria parasite.
 
 The biological link to myiasis is weak. Myiasis is an infestation of tissue by dipteran (fly) larvae, which are multicellular insects. Malaria is caused by a single-celled protozoan. Primaquine has no known activity against fly larvae.
 
@@ -140,12 +140,13 @@ Other predicted indications for primaquine, such as pneumocystosis (as a clindam
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both authorizations are cancelled, so no primaquine product is currently authorized in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "A plan for G6PD screening and a regulatory pathway, given that the drug is marketed with 2 valid New Zealand authorizations out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: primaquine phosphate prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1bfbf4ae-81b8-4160-a00d-6322aadd4b59) |
 
 <!-- review:end log -->
 

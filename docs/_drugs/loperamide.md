@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "conjunctival folliculosis", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "Angelucci syndrome"]
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The prediction rests on a TxGNN model (deep learning) score alone and should be 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that loperamide acts on the mu (μ) opioid receptor (OPRM1), and it is used to treat diarrhea. It acts mainly on the gut, where it slows motility.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for loperamide: "In vitro and animal studies show that loperamide hydrochloride acts by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall." ([DailyMed: loperamide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3310a3c2-389a-4b27-a478-67c905789854), label version 2026-11-13; accessed 2026-11-19.) Pharmacology data show that loperamide acts on the mu (μ) opioid receptor (OPRM1), and it is used to treat diarrhea. It acts mainly on the gut, where it slows motility.
 
 The link to conjunctivitis is weak. Conjunctivitis is an infectious or inflammatory eye condition, and loperamide has no known anti-infective or anti-inflammatory action. A topical eye formulation of a gut-restricted opioid has no plausible rationale. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -129,11 +129,12 @@ The top prediction has no clinical trials, no literature, and no plausible mecha
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Current New Zealand regulatory status, since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: loperamide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3310a3c2-389a-4b27-a478-67c905789854) |
 
 <!-- review:end log -->
 

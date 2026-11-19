@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CIPROFLOXACIN"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Ciprofloxacin: predicted new indication diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ Supporting evidence is thin: **0 registered clinical trials** and **2 publicatio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ciprofloxacin is a fluoroquinolone antibiotic, and such drugs generally act by inhibiting bacterial DNA gyrase and topoisomerase IV.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ciprofloxacin: "Ciprofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of ciprofloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV (both Type II topoisomerases), which are required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, ProPharma Distribution](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c758be-4d44-018a-e063-6294a90ae041), label version 2025-11-04; accessed 2026-11-19.) Ciprofloxacin is a fluoroquinolone antibiotic, and such drugs generally act by inhibiting bacterial DNA gyrase and topoisomerase IV.
 
 Two routes could link it to diffuse scleroderma:
 
@@ -109,6 +109,19 @@ The prediction score is very high, but the only scleroderma-specific publication
 - Confirmation of a plausible antifibrotic mechanism in preclinical or translational data
 - Package insert warnings and contraindications for the marketed products
 - A distinction between symptomatic SIBO treatment and any disease-modifying benefit in diffuse scleroderma
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, ProPharma Distribution](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c758be-4d44-018a-e063-6294a90ae041) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

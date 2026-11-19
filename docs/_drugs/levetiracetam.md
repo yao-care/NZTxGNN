@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ Levetiracetam is already an established second-line therapy here, so this is bet
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the data compiled for this report. Based on the literature, levetiracetam binds the synaptic vesicle protein SV2A and modulates neurotransmitter release, which reduces neuronal hyperexcitability. Its efficacy in partial epilepsy is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levetiracetam: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Levetiracetam Levetiracetam (levetiracetam) prescribing information, Atlantic Biologicals Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56fed03f-38c3-4273-8fd7-522bc508bf36), label version 2026-10-23; accessed 2026-11-19.) Based on the literature, levetiracetam binds the synaptic vesicle protein SV2A and modulates neurotransmitter release, which reduces neuronal hyperexcitability. Its efficacy in partial epilepsy is established.
 
 Status epilepticus is a prolonged, self-sustaining seizure state, so it is closely related to the original indication: both involve excessive neuronal firing. Intravenous levetiracetam is used as a second-line agent after benzodiazepines, and its SV2A-mediated mechanism is plausible for terminating prolonged seizure activity.
 
@@ -160,11 +160,12 @@ Please refer to the package insert for label warnings and contraindications, whi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One further licence (2479567, Everet Tab 1,000 mg) is also cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Levetiracetam Levetiracetam (levetiracetam) prescribing information, Atlantic Biologicals Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56fed03f-38c3-4273-8fd7-522bc508bf36) |
 
 <!-- review:end log -->
 

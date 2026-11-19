@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ This prediction largely confirms an existing use rather than a true new indicati
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that ipratropium binds muscarinic receptors M1 to M5 (CHRM1–CHRM5). It is a non-selective muscarinic antagonist, and its recorded clinical use is bronchospasm associated with COPD.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ipratropium: "Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle." ([DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884), label version 2025-11-05; accessed 2026-11-19.) Pharmacology records show that ipratropium binds muscarinic receptors M1 to M5 (CHRM1–CHRM5). It is a non-selective muscarinic antagonist, and its recorded clinical use is bronchospasm associated with COPD.
 
 Blocking M3 receptors on airway smooth muscle reduces vagally mediated bronchoconstriction, which is the core physiological problem in obstructive lung disease. The predicted indication overlaps heavily with the drug's original uses (COPD, bronchitis, emphysema), so this is mostly confirmation of an established use rather than true repurposing.
 
@@ -138,6 +138,19 @@ Package insert warnings and contraindications could not be retrieved, so please 
 - Detailed mechanism of action data from DrugBank
 - A review of the knowledge-graph contraindications (cardiovascular, glaucoma, urinary retention and others) against label text
 - Confirmation of which formulation (nebulised, inhaler or nasal) is intended for any new use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

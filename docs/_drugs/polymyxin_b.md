@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 371
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -66,7 +66,7 @@ The evidence is weak, and some of it points to a safety concern with inhaled use
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Polymyxin B is a cationic lipopeptide antibiotic. It is known to disrupt the outer membrane of Gram-negative bacteria. This provides a plausible link to bacterial tracheobronchitis or lower respiratory infections caused by multidrug-resistant Gram-negative organisms such as *Pseudomonas aeruginosa* and *Acinetobacter baumannii*.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for polymyxin b: "Polymyxin B sulfate has a bactericidal action against almost all gram-negative bacilli except the Proteus group. Polymyxins increase the permeability of the bacterial cell membrane leading to death of the cell. All gram-positive bacteria, fungi, and gram-negative cocci are resistant to polymyxin B. For specific information regarding susceptibility test criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC." ([DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=18daf0d1-b6f5-46f4-ab2f-01a594f3959c), label version 2022-04-28; accessed 2026-11-19.) Polymyxin B is a cationic lipopeptide antibiotic. It is known to disrupt the outer membrane of Gram-negative bacteria. This provides a plausible link to bacterial tracheobronchitis or lower respiratory infections caused by multidrug-resistant Gram-negative organisms such as *Pseudomonas aeruginosa* and *Acinetobacter baumannii*.
 
 Its known use is topical and ophthalmic, so the connection to bronchitis is indirect. It rests on the antibacterial mechanism being applicable to airway infection, and on published reports of systemic or inhaled polymyxin B in respiratory infections. Several publications suggest caution. Inhaled polymyxin B can cause bronchoconstriction and has been used as a non-specific bronchial provocation agent in asthma and chronic bronchitis. Eosinophil-related findings come from animal models, where polymyxin B is used to induce eosinophilic bronchitis, so they do not support a therapeutic effect.
 
@@ -160,12 +160,13 @@ The prediction rests on a high model score, without any registered clinical tria
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "In New Zealand it was licensed only in neomycin-containing eye ointment and eye drops (Maxitrol), and both licenses are now cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Verification of whether a suitable product and route could be marketed in New Zealand, given that both licenses are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=18daf0d1-b6f5-46f4-ab2f-01a594f3959c) |
 
 <!-- review:end log -->
 

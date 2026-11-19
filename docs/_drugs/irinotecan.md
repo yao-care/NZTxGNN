@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 242
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Irinotecan"
 predicted_indications: ["female breast carcinoma"]
 description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**, bu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, irinotecan targets DNA topoisomerase I, and its active metabolite SN-38 causes DNA damage in rapidly dividing cells. This mechanism is not specific to one tumour type. The target mapping rests on structural similarity to camptothecin and topotecan rather than direct affinity data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for irinotecan: "Irinotecan is a derivative of camptothecin. Camptothecins interact specifically with the enzyme topoisomerase I, which relieves torsional strain in DNA by inducing reversible single-strand breaks. Irinotecan and its active metabolite SN-38 bind to the topoisomerase I-DNA complex and prevent religation of these single-strand breaks." ([DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056), label version 2026-05-12; accessed 2026-11-19.) Based on known pharmacology, irinotecan targets DNA topoisomerase I, and its active metabolite SN-38 causes DNA damage in rapidly dividing cells. This mechanism is not specific to one tumour type. The target mapping rests on structural similarity to camptothecin and topotecan rather than direct affinity data.
 
 The strongest mechanistic support comes from sacituzumab govitecan, an anti-Trop-2 antibody-drug conjugate that delivers SN-38. It has been studied in metastatic breast cancer, including the Phase III TROPiCS-02 trial in HR+/HER2- disease. This supports the activity of the SN-38 payload in breast cancer but does not directly validate irinotecan itself.
 
@@ -151,12 +151,13 @@ The evidence consists of small Phase 1 studies and indirect data from SN-38 anti
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five authorizations are valid, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The drug is marketed in New Zealand, with all 5 licences valid, but package insert safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
 
 <!-- review:end log -->
 

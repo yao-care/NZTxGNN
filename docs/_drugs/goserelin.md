@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 221
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ Note that amenorrhea is largely an expected pharmacological effect of goserelin,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, goserelin is a GnRH agonist. Continuous exposure desensitises pituitary GnRH receptors, which lowers LH and FSH and suppresses ovarian oestradiol production. The result is reversible amenorrhea.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for goserelin: "ZOLADEX is a synthetic decapeptide analogue of GnRH. ZOLADEX acts as an inhibitor of pituitary gonadotropin secretion when administered in the biodegradable formulation. In animal and in vitro studies, administration of goserelin resulted in the regression or inhibition of growth of the hormonally sensitive dimethylbenzanthracene (DMBA)-induced rat mammary tumor and Dunning R3327 prostate tumor." ([DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3), label version 2026-03-24; accessed 2026-11-19.) Based on known pharmacology, goserelin is a GnRH agonist. Continuous exposure desensitises pituitary GnRH receptors, which lowers LH and FSH and suppresses ovarian oestradiol production. The result is reversible amenorrhea.
 
 This is the intended pharmacological effect, and it is the same effect that underlies goserelin's use in endometriosis and in ovarian suppression for premenopausal breast cancer. The mechanistic link is therefore strong.
 
@@ -144,11 +144,12 @@ The mechanistic link is strong, but amenorrhea is an expected effect of gosereli
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "In New Zealand, both goserelin licences are cancelled, so there is no currently marketed product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3) |
 
 <!-- review:end log -->
 

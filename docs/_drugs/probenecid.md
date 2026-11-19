@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 384
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Probenecid: predicted new indication hypouricemia, renal (evidence level L4). Approved use: Gout"
 monitor_inn: "PROBENECID"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
@@ -68,7 +68,7 @@ The mechanism also points the wrong way: probenecid would likely worsen this con
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, probenecid is a uricosuric. It inhibits renal urate reabsorption through the URAT1 (SLC22A12) and OAT transporters, which lowers serum uric acid. That is why it works in gout.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for probenecid: "Probenecid is a uricosuric and renal tubular blocking agent." ([DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069), label version 2026-11-06; accessed 2026-11-19.) Based on known information, probenecid is a uricosuric. It inhibits renal urate reabsorption through the URAT1 (SLC22A12) and OAT transporters, which lowers serum uric acid. That is why it works in gout.
 
 The predicted indication, however, is hard to justify. Renal hypouricemia is caused mainly by loss-of-function variants in URAT1 or GLUT9. These variants already cause excessive urinary urate excretion and low serum urate. Additional uricosuric action from probenecid would be expected to **worsen** the underlying defect. It could increase the risk of exercise-induced acute kidney injury and urolithiasis.
 
@@ -154,12 +154,13 @@ The TxGNN score is high, but there are no clinical trials and no literature show
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "the New Zealand license record has no approved indication text, so" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The product is also no longer authorized in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069) |
 
 <!-- review:end log -->
 

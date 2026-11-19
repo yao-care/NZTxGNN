@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "RIZATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,7 +54,7 @@ Rizatriptan is a triptan originally used to treat migraine, including migraine w
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Rizatriptan belongs to the triptan class, which acts as 5-HT1B/1D receptor agonists. This action causes cranial vasoconstriction and reduces trigeminal release of CGRP and neurogenic inflammation. Its efficacy in acute migraine, with or without aura, is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rizatriptan: "Rizatriptan binds with high affinity to human cloned 5-HT 1B/1D receptors. Rizatriptan presumably exerts its therapeutic effects in the treatment of migraine headache by binding to 5-HT 1B/1D receptors located on intracranial blood vessels and sensory nerves of the trigeminal system." ([DailyMed: rizatriptan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f000d96c-42a0-4aac-96ca-8cef289979ce), label version 2025-11-26; accessed 2026-11-19.) Rizatriptan belongs to the triptan class, which acts as 5-HT1B/1D receptor agonists. This action causes cranial vasoconstriction and reduces trigeminal release of CGRP and neurogenic inflammation. Its efficacy in acute migraine, with or without aura, is well established.
 
 Migraine with brainstem aura is a subtype of migraine with aura, so the pharmacological overlap with the approved indication is strong.
 
@@ -129,11 +129,12 @@ The prediction rests on model output and class pharmacology alone, with no trial
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rizatriptan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f000d96c-42a0-4aac-96ca-8cef289979ce) |
 
 <!-- review:end log -->
 

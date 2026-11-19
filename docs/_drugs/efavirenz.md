@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 172
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ There are **0 clinical trials** and **14 publications** (mostly macaque and labo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, efavirenz is an HIV-1 NNRTI, its efficacy in HIV infection is established, and it acts by blocking the viral reverse transcriptase (RT).
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for efavirenz: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), label version 2024-06-28; accessed 2026-11-19.) Based on known information, efavirenz is an HIV-1 NNRTI, its efficacy in HIV infection is established, and it acts by blocking the viral reverse transcriptase (RT).
 
 SIV does not naturally carry an NNRTI-sensitive RT. The supporting studies instead use **RT-SHIV**, a chimeric virus with HIV-1 RT placed in an SIV backbone, in rhesus and pigtail macaques. In these models efavirenz suppresses viral replication, both alone and in combination with lamivudine and tenofovir (PMIDs 15564466, 15328115, 15919889).
 
@@ -147,11 +147,12 @@ The top prediction is a preclinical model of HIV therapy in macaques, not a new 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
 
 <!-- review:end log -->
 

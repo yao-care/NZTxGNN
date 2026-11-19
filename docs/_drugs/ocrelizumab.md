@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ocrelizumab is a humanized anti-CD20 monoclonal antibody that depletes B cells. Its efficacy in multiple sclerosis has been demonstrated, but the data compiled for this report do not show a mechanistic link to HER2-positive breast carcinoma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ocrelizumab: "The precise mechanism by which ocrelizumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d), label version 2026-05-14; accessed 2026-11-19.) Based on known information, ocrelizumab is a humanized anti-CD20 monoclonal antibody that depletes B cells. Its efficacy in multiple sclerosis has been demonstrated, but the data compiled for this report do not show a mechanistic link to HER2-positive breast carcinoma.
 
 The original indication (an autoimmune neurological disease) and the predicted indication (a breast cancer subtype) are biologically quite distant. The compiled data give no evidence that CD20-directed B-cell depletion is relevant to HER2-driven tumours. The high TxGNN score (0.9989) is a computational signal only and should be treated as a hypothesis, not as evidence of efficacy.
 
@@ -123,12 +123,13 @@ The prediction is supported only by the TxGNN model score (L5), with no clinical
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "In addition, both New Zealand licences for the drug are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
 
 <!-- review:end log -->
 

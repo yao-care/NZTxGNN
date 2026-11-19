@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Dolutegravir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **feline acquired immunodeficienc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dolutegravir blocks the integrase enzyme that HIV-1 uses to insert its genetic material into host cells. Feline immunodeficiency virus (FIV) is a lentivirus, in the same family as HIV, and carries an integrase enzyme related to that of HIV-1. This gives a plausible mechanistic rationale.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for dolutegravir: "Dolutegravir is an HIV-1 antiretroviral agent. […] Dolutegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral DNA integration which is essential for the HIV replication cycle. Strand transfer biochemical assays using purified HIV-1 integrase and pre-processed substrate DNA resulted in IC 50 values of 2.7 nM and 12.6 nM." ([DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922), label version 2026-08-25; accessed 2026-11-19.) Based on general pharmacology, dolutegravir blocks the integrase enzyme that HIV-1 uses to insert its genetic material into host cells. Feline immunodeficiency virus (FIV) is a lentivirus, in the same family as HIV, and carries an integrase enzyme related to that of HIV-1. This gives a plausible mechanistic rationale.
 
 The high TxGNN score most likely reflects how closely this disease resembles human HIV/AIDS in the model's data. It should be read as a similarity signal, not as a measure of proven benefit.
 
@@ -105,6 +105,19 @@ The prediction score is high and the mechanism is plausible, since FIV is a lent
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Medsafe
 - A clear decision on whether veterinary use is within the scope of this repurposing programme
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

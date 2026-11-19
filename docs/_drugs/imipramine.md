@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 232
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but there are **no registered clinical trials** and only **20 publications**, mo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the known pharmacology of tricyclic antidepressants, imipramine inhibits reuptake of norepinephrine and, to a lesser extent, serotonin. The pharmacology data compiled for this report show activity at the norepinephrine transporter (NET) and the serotonin transporter (SERT). It also shows activity at the M2 muscarinic receptor, Kv10.1 and Kir3 channels (the Kir3 data are from mouse).
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for imipramine: "The mechanism of action of imipramine hydrochloride, is not definitely known. However, it does not act primarily by stimulation of the central nervous system. The clinical effect is hypothesized as being due to potentiation of adrenergic synapses by blocking uptake of norepinephrine at nerve endings." ([DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20af582f-08ba-4281-a2df-0bcf68c58594), label version 2026-11-04; accessed 2026-11-19.) Based on the known pharmacology of tricyclic antidepressants, imipramine inhibits reuptake of norepinephrine and, to a lesser extent, serotonin. The pharmacology data compiled for this report show activity at the norepinephrine transporter (NET) and the serotonin transporter (SERT). It also shows activity at the M2 muscarinic receptor, Kv10.1 and Kir3 channels (the Kir3 data are from mouse).
 
 ADHD is thought to involve reduced noradrenergic signalling in prefrontal circuits. Other noradrenergic agents, such as desipramine and atomoxetine, are used in ADHD. This gives a plausible mechanistic basis for imipramine, although the link is inferred rather than demonstrated in the data. Imipramine's existing use in anxiety, dysthymia and nocturnal enuresis (which often co-occurs with ADHD) also places it in a neighbouring clinical space.
 
@@ -139,11 +139,12 @@ The mechanistic rationale is plausible and older literature includes imipramine 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and the cancelled status of all four New Zealand licences all argue against moving forward now" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20af582f-08ba-4281-a2df-0bcf68c58594) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ The data compiled for this report include **8 clinical trials** and **20 publica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Docetaxel belongs to the taxane class, which stabilises microtubules and stops rapidly dividing cells from completing mitosis. Ewing sarcoma is a fast-growing bone and soft tissue tumour, so an antimitotic agent is a plausible fit.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for docetaxel: "Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly." ([DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b), label version 2025-12-17; accessed 2026-11-19.) Docetaxel belongs to the taxane class, which stabilises microtubules and stops rapidly dividing cells from completing mitosis. Ewing sarcoma is a fast-growing bone and soft tissue tumour, so an antimitotic agent is a plausible fit.
 
 Several studies directly in Ewing sarcoma support this. They include a prospective phase II study of docetaxel alone in relapsed or refractory Ewing's tumours (14 patients in the initial report), and phase II studies of docetaxel with gemcitabine or irinotecan. Most of the signal comes from combinations, so docetaxel's own contribution cannot be separated out. The studies are small and mostly single-arm phase 2, and no Phase 3 data were provided. The evidence level is therefore capped at L3.
 
@@ -140,6 +140,19 @@ Several phase 2 studies directly in Ewing sarcoma, mostly in relapsed or refract
 - Mechanism of action data and package insert warnings and contraindications from the New Zealand data sheet
 - A haematological, liver function and neuropathy monitoring plan, with interaction management for strong CYP3A inhibitors such as clarithromycin
 - Confirmation of current licence status for the New Zealand products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

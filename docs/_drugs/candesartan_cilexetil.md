@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CANDESARTAN CILEXETIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Candesartan cilexetil is an angiotensin II type 1 (AT1) receptor blocker. The Tx
 
 ## Why is This Prediction Reasonable?
 
-Candesartan is an angiotensin II type 1 receptor blocker. Detailed mechanism of action data is not available in the data compiled for this report, but the drug class is well known: blocking AT1 receptors lowers blood pressure and reduces renal injury driven by the renin-angiotensin system.
+Candesartan is an angiotensin II type 1 receptor blocker. According to the Mechanism of Action section of the US FDA-approved prescribing information for candesartan cilexetil: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Candesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10), label version 2025-12-22; accessed 2026-11-19.) The drug class is well known: blocking AT1 receptors lowers blood pressure and reduces renal injury driven by the renin-angiotensin system.
 
 Malignant hypertensive renal disease is kidney damage caused by severely raised blood pressure, so a mechanistic rationale exists. However, this prediction is largely an extension of blood-pressure control rather than a clearly new use. No trials or publications were found for this disease, so the high score (0.9968) is a computational prediction only and does not by itself demonstrate benefit.
 
@@ -112,6 +112,19 @@ The prediction is supported only by the TxGNN score, with no trials or publicati
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data
 - Clarification of how this use differs from standard hypertension management
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

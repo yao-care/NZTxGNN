@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Buprenorphine: predicted new indication acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **acute intermittent porphyria**,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Buprenorphine is known pharmacologically as a mu-opioid receptor partial agonist, but there is no established link between this activity and heme biosynthesis, which is the pathway disturbed in acute intermittent porphyria.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for buprenorphine: "SUBLOCADE Injection contains buprenorphine. Buprenorphine is a partial agonist at the mu- opioid receptor and an antagonist at the kappa-opioid receptor." ([DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95), label version 2026-07-27; accessed 2026-11-19.) Buprenorphine is known pharmacologically as a mu-opioid receptor partial agonist, but there is no established link between this activity and heme biosynthesis, which is the pathway disturbed in acute intermittent porphyria.
 
 The only publication retrieved is a case report on peri-operative anaesthetic management of a patient who already had the disease. It concerns drug safety around surgery, not treatment of the condition. The high score of 0.9941 is therefore not supported by clinical or mechanistic evidence in the data compiled for this report, and the prediction should be regarded as a hypothesis only.
 
@@ -100,6 +100,19 @@ The score is very high, but no clinical trial studies buprenorphine in acute int
 - Package insert warnings and contraindications from Medsafe, as safety screening cannot start without them
 - Preclinical or clinical studies that directly test buprenorphine in acute intermittent porphyria
 - A safety review of use in porphyria, given the drug's many interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

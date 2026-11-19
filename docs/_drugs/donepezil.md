@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: predicted new indication Top-ranked prediction: psychogenic movement disorders. Best-supported candidate: chronic tic disorder (psychogenic move… (evidence level L5). Approved use: Not rec…"
@@ -56,7 +56,7 @@ with **0 registered clinical trials** and **5 publications** currently supportin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, donepezil is a selective acetylcholinesterase inhibitor (the pharmacology data show it acts on the ACHE target and is about 188-fold more selective for acetylcholinesterase than butyrylcholinesterase). By blocking the breakdown of acetylcholine, it raises central cholinergic tone. Its efficacy in Alzheimer disease is established, and mechanistically it may be applicable to movement disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for donepezil: "Current theories on the pathogenesis of the cognitive signs and symptoms of Alzheimer’s disease attribute some of them to a deficiency of cholinergic neurotransmission. Donepezil hydrochloride is postulated to exert its therapeutic effect by enhancing cholinergic function." ([DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975), label version 2021-12-30; accessed 2026-11-19.) Based on known information, donepezil is a selective acetylcholinesterase inhibitor (the pharmacology data show it acts on the ACHE target and is about 188-fold more selective for acetylcholinesterase than butyrylcholinesterase). By blocking the breakdown of acetylcholine, it raises central cholinergic tone. Its efficacy in Alzheimer disease is established, and mechanistically it may be applicable to movement disorders.
 
 **Top-ranked prediction (psychogenic movement disorders):** No trials or literature were found. A cholinergic link to functional movement disorders is speculative and not supported by the data, so this prediction rests on the model score alone.
 
@@ -150,12 +150,13 @@ Please refer to the package insert for full safety information.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both New Zealand licences are cancelled, so there is currently no marketed product in the country" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since the existing licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975) |
 
 <!-- review:end log -->
 

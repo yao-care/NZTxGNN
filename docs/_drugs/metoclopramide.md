@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **gastric ulcer**, but the supp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the pharmacology data, metoclopramide acts on dopamine D2 receptors, 5-HT4 receptors and 5-HT3 receptors. It is used as an antiemetic, to treat gastroesophageal reflux disease and to speed gastric emptying. It is a prokinetic drug: D2 antagonism combined with 5-HT4 agonism enhances gastric emptying and can reduce duodenogastric and gastroesophageal reflux.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metoclopramide: "Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. The exact mechanism of action of metoclopramide in the treatment of gastroesophageal reflux and acute and recurrent diabetic gastroparesis has not been fully established." ([DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397), label version 2026-02-09; accessed 2026-11-19.) Based on the pharmacology data, metoclopramide acts on dopamine D2 receptors, 5-HT4 receptors and 5-HT3 receptors. It is used as an antiemetic, to treat gastroesophageal reflux disease and to speed gastric emptying. It is a prokinetic drug: D2 antagonism combined with 5-HT4 agonism enhances gastric emptying and can reduce duodenogastric and gastroesophageal reflux.
 
 The link to gastric ulcer is therefore indirect. Delayed gastric emptying or alkaline (bile) reflux may add to symptoms in some ulcer patients, so a prokinetic is plausible as a symptom-oriented adjunct. However, there is no evidence that metoclopramide heals ulcers. Acid suppression and *H. pylori* eradication remain the standard of care. The only supportive laboratory finding is an older rat study (PMID 2730234) reporting ulcer-protective effects in aspirin-induced and pylorus-ligated models, which has not been confirmed in humans. The high TxGNN score is a computational prediction and should be treated as a hypothesis only.
 
@@ -143,11 +143,12 @@ The prediction rests on a high model score, but no study shows that metocloprami
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Confirmation of whether any metoclopramide product is currently marketed in New Zealand, since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
 
 <!-- review:end log -->
 

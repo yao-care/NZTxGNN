@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Bimatoprost: predicted new indication Malformation syndrome with odontal and/or periodontal component (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ but **no clinical trials and no publications** support this prediction, so it re
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Bimatoprost is known as a prostamide/prostaglandin F2α analogue that acts on FP-like receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bimatoprost: "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), label version 2024-10-16; accessed 2026-11-19.) Bimatoprost is known as a prostamide/prostaglandin F2α analogue that acts on FP-like receptors.
 
 No plausible mechanistic link to this condition was identified. Developmental malformation syndromes involving the teeth or periodontium are structural conditions, and a topical prostamide has no known role in them. The high TxGNN score is a model-derived pattern only. It is not supported by any trial, publication or biological rationale, and it should not be read as evidence of benefit.
 
@@ -114,11 +114,12 @@ The prediction has no supporting trials or literature and no credible mechanisti
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local records list one single-ingredient licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
 
 <!-- review:end log -->
 

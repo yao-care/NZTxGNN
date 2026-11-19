@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
 description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but at present there are **no registered clinical trials** and only **1 review a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for nilotinib is not available in the data compiled for this report. The following reasoning is therefore based on the known pharmacology of the drug rather than on supplied data. Nilotinib inhibits BCR-ABL1, which drives chronic myelogenous leukaemia, and it also inhibits PDGFR-alpha/beta and KIT.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nilotinib: "Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML." ([DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc), label version 2026-07-20; accessed 2026-11-19.) The following reasoning is therefore based on the known pharmacology of the drug rather than on supplied data. Nilotinib inhibits BCR-ABL1, which drives chronic myelogenous leukaemia, and it also inhibits PDGFR-alpha/beta and KIT.
 
 DFSP is characterised by a COL1A1-PDGFB translocation. This produces a constitutively active PDGFB ligand that drives PDGFR-beta signalling. Blocking PDGFR signalling is therefore a biologically plausible way to act against this tumour. Imatinib, a related tyrosine kinase inhibitor with the same target activity, is the established targeted therapy for unresectable or metastatic DFSP. This supports the plausibility of nilotinib as a related PDGFR-inhibiting agent, and it is consistent with the high TxGNN score.
 
@@ -142,12 +142,13 @@ The only support is a high model score, a plausible PDGFR-based mechanism and on
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "the reason for the licence cancellations and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data for nilotinib is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc) |
 
 <!-- review:end log -->
 

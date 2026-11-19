@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **nasal cavity disease**, but the
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Codeine is known as an opioid agonist at the μ-opioid receptor (OPRM1), with pain-relieving, cough-suppressing and mild secretion-drying effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for codeine: "Codeine sulfate is an opioid agonist relatively selective for the mu-opioid receptor, but with a much weaker affinity than morphine. The analgesic properties of codeine have been speculated to come from its conversion to morphine, although the exact mechanism of analgesic action remains unknown." ([DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293), label version 2026-01-16; accessed 2026-11-19.) Codeine is known as an opioid agonist at the μ-opioid receptor (OPRM1), with pain-relieving, cough-suppressing and mild secretion-drying effects.
 
 The high TxGNN score (0.9993) most likely reflects closeness in the network to upper-airway conditions such as rhinitis and the common cold, not a distinct mechanism for nasal cavity disease. Codeine's pharmacology offers only a weak rationale for structural or inflammatory disease inside the nose.
 
@@ -116,6 +116,19 @@ No clinical trial or study directly tests codeine as a treatment for nasal cavit
 - Package insert warnings and contraindications from the regulator
 - Controlled clinical evidence showing therapeutic benefit, not only case reports
 - A review of the opioid dependence and misuse risks if any use were considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

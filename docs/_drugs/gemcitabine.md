@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 description: "Gemcitabine: predicted new indication Rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -57,7 +57,7 @@ with **33 clinical trials** and **20 publications** currently supporting this di
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the compiled data. Pharmacology records show that gemcitabine acts on ribonucleotide reductase (subunits RRM1 and RRM2). It is a nucleoside analogue that interferes with DNA synthesis, which gives it broad activity against rapidly dividing solid tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for gemcitabine: "Gemcitabine kills cells undergoing DNA synthesis and blocks the progression of cells through the G1/S-phase boundary. Gemcitabine is metabolized by nucleoside kinases to diphosphate (dFdCDP) and triphosphate (dFdCTP) nucleosides." ([DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84), label version 2026-07-27; accessed 2026-11-19.) Pharmacology records show that gemcitabine acts on ribonucleotide reductase (subunits RRM1 and RRM2). It is a nucleoside analogue that interferes with DNA synthesis, which gives it broad activity against rapidly dividing solid tumours.
 
 Ovarian cancer and breast cancer are both common solid tumours treated with cytotoxic combination regimens. Gemcitabine is already used with carboplatin for relapsed ovarian cancer and with paclitaxel for metastatic breast cancer, according to the pharmacology records. Breast carcinoma therefore has the strongest clinical support of all predicted indications.
 
@@ -139,6 +139,19 @@ Breast carcinoma is supported by a completed Phase 3 randomized trial of gemcita
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data
 - A monitoring plan for myelosuppression, renal and hepatic function, and retinal toxicity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

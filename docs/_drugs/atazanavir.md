@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "atazanavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Atazanavir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Atazanavir is an HIV-1 protease inhibitor antiviral. The TxGNN model predicts it
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Atazanavir is known as an HIV-1 protease inhibitor, which blocks the viral enzyme needed to produce mature, infectious virus particles.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for atazanavir: "Atazanavir is an HIV-1 antiretroviral drug. […] Atazanavir (ATV) is an azapeptide HIV-1 protease inhibitor (PI). The compound selectively inhibits the virus-specific processing of viral Gag and Gag-Pol polyproteins in HIV-1-infected cells, thus preventing formation of mature virions." ([DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8), label version 2024-12-05; accessed 2026-11-19.) Atazanavir is known as an HIV-1 protease inhibitor, which blocks the viral enzyme needed to produce mature, infectious virus particles.
 
 Feline immunodeficiency virus (FIV) also encodes a protease, but it differs structurally from HIV-1 protease and has different substrate and inhibitor specificity. The high score appears to be driven by the model's proximity to human HIV-related conditions rather than by direct evidence. Because this is a veterinary condition, it is outside the scope of human drug repurposing, and any benefit remains speculative.
 
@@ -98,6 +98,19 @@ The prediction has no supporting clinical trials or publications, and the target
 - Direct evidence (preclinical or veterinary studies) showing atazanavir activity against FIV protease or in feline infection
 - Confirmation that a veterinary indication is within the intended scope of this repurposing programme
 - Mechanism of action data and the Medsafe package insert warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

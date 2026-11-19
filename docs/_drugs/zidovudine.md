@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 485
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency sy
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, zidovudine is a thymidine analogue that must be phosphorylated in lymphocytes before it acts. It inhibits the reverse transcriptase of HIV by chain termination, and its efficacy in HIV infection and AIDS is well established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for zidovudine: "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84), label version 2024-11-13; accessed 2026-11-19.) Based on known information, zidovudine is a thymidine analogue that must be phosphorylated in lymphocytes before it acts. It inhibits the reverse transcriptase of HIV by chain termination, and its efficacy in HIV infection and AIDS is well established.
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV and carries a reverse transcriptase that zidovudine can inhibit. In experimentally and naturally infected cats, zidovudine lowered plasma virus titres and in some studies produced clinical benefit. It did not prevent infection when given prophylactically. Toxicity, mainly anaemia, has also been documented in cats. The same logic applies to the second-ranked prediction, simian immunodeficiency virus infection, where macaque studies show reduced viral load and prolonged survival.
 
@@ -190,12 +190,13 @@ Package insert warnings and contraindications are not available in the data comp
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and it is marketed in New Zealand with 2 valid licences out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "given the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 
 <!-- review:end log -->
 

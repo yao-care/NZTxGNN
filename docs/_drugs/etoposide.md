@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "ETOPOSIDE"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 description: "Etoposide: predicted new indication Well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ This report uses Ewing sarcoma as the lead indication because the top-ranked pre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, etoposide inhibits topoisomerase II, causing DNA double-strand breaks in rapidly dividing tumour cells. Its efficacy in small cell lung carcinoma and germ cell tumours is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for etoposide: "Etoposide causes the induction of DNA strand breaks by an interaction with DNA-topoisomerase II or the formation of free radicals, leading to cell cycle arrest, primarily at the G2 stage of the cell cycle, and cell death." ([DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059), label version 2026-10-07; accessed 2026-11-19.) Based on known pharmacology, etoposide inhibits topoisomerase II, causing DNA double-strand breaks in rapidly dividing tumour cells. Its efficacy in small cell lung carcinoma and germ cell tumours is established.
 
 Ewing sarcoma is a highly proliferative paediatric and young-adult bone and soft-tissue cancer that is notably sensitive to genotoxic agents such as etoposide. Ifosfamide plus etoposide (IE), alternating with vincristine, doxorubicin and cyclophosphamide (VDC), is an established regimen supported by randomised phase 3 trials and consensus guidance. A 2018 mechanistic paper reports that EWS-FLI1 causes R-loops and blocks BRCA1 repair, which may explain this sensitivity.
 
@@ -166,13 +166,14 @@ Package insert warnings and contraindications were not available. Please refer t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All six licences are valid, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "A sixth licence (2207613, Baxter, Inj 1 mg of etoposide base for ECP) is also cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Confirmation of local supply or licensing, since all six New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
 
 <!-- review:end log -->
 

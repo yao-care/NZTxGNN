@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
 description: "Riluzole: predicted new indication Bilateral parasagittal parieto-occipital polymicrogyria (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this specific p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug in the data compiled for this report. Based on general knowledge, riluzole is thought to reduce glutamate-mediated excitotoxicity and block sodium channels. Reviews retrieved for ALS describe it as a drug thought to affect glutamate metabolism, which modestly prolongs survival in ALS.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for riluzole: "The mechanism by which riluzole exerts its therapeutic effects in patients with ALS is unknown." ([DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857), label version 2026-07-27; accessed 2026-11-19.) Based on general knowledge, riluzole is thought to reduce glutamate-mediated excitotoxicity and block sodium channels. Reviews retrieved for ALS describe it as a drug thought to affect glutamate metabolism, which modestly prolongs survival in ALS.
 
 Polymicrogyria is a cortical malformation often associated with neuronal hyperexcitability. Glutamate modulation and sodium-channel blockade could plausibly be relevant to that hyperexcitability. However, this link is speculative. No trials or literature were retrieved for this condition. The high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis, not as evidence of benefit.
 
@@ -120,12 +120,13 @@ The prediction is supported only by a model score, with no trials or literature 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the mechanistic link is speculative" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "the cancelled New Zealand licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857) |
 
 <!-- review:end log -->
 

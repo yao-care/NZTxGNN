@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected"]
@@ -62,7 +62,7 @@ The top-ranked prediction has no supporting evidence. The best-supported predict
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ascorbic acid is an essential vitamin whose efficacy in scurvy is well established. It acts as an antioxidant and as a cofactor for collagen synthesis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ascorbic acid: "The exact mechanism of action of ascorbic acid for the treatment of symptoms and signs of scurvy (a disorder caused by severe deficiency in vitamin C) is unknown; however, administration of ascorbic acid in patients with scurvy is thought to restore the body pool of ascorbic acid." ([DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6), label version 2026-09-03; accessed 2026-11-19.) Based on known information, ascorbic acid is an essential vitamin whose efficacy in scurvy is well established. It acts as an antioxidant and as a cofactor for collagen synthesis.
 
 **Top-ranked prediction (non-syndromic esophageal malformation):** This is a structural congenital malformation. Ascorbic acid has no plausible mechanism for correcting it, and there are no trials or publications. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction is not considered credible.
 
@@ -161,11 +161,12 @@ The top-ranked prediction (non-syndromic esophageal malformation) has no trials,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "where its only authorisation (1 of 1) is valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6) |
 
 <!-- review:end log -->
 

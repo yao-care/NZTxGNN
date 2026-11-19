@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "ISOSORBIDE MONONITRATE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "alopecia", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pulmonary arterial hypertension"]
 description: "Isosorbide Mononitrate: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **hypertrichosis (disease)**, but the
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, isosorbide mononitrate is an NO donor. NO activates soluble guanylate cyclase, raises cGMP, and causes vasodilation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for isosorbide mononitrate: "Isosorbide mononitrate extended-release tablet are an oral extended-release formulation of ISMN, the major active metabolite of isosorbide dinitrate; most of the clinical activity of the dinitrate is attributable to the mononitrate. The principal pharmacological action of ISMN and all organic nitrates in general is relaxation of vascular smooth muscle, producing dilatation of peripheral arteries and veins, especially the latter." ([DailyMed: isosorbide mononitrate prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86be0e85-5337-bee4-e053-2a91aa0a8158), label version 2026-11-10; accessed 2026-11-19.) Based on known pharmacology, isosorbide mononitrate is an NO donor. NO activates soluble guanylate cyclase, raises cGMP, and causes vasodilation.
 
 For the top-ranked prediction, hypertrichosis, **no established mechanistic link exists**. Minoxidil, a vasodilator, can cause hypertrichosis, but it acts through potassium channel opening, not NO donation. The high score is therefore best treated as a model output with no supporting clinical or literature data. The other highly ranked predictions (Ambras syndrome, malformation syndromes, Dandy-Walker–related syndrome, hereditary hair shaft disorders, hypotrichosis, and alopecia areata) are mostly congenital, genetic, or autoimmune conditions. They are unlikely to respond to a vasodilator, and their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Alopecia has only a speculative link through scalp microcirculation.
 
@@ -121,6 +121,19 @@ The top prediction (hypertrichosis) is supported only by the model score, with n
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - Original indication and mechanism of action data
 - For PAH: targeted mechanistic and preclinical work, and a safety assessment of tolerance and the PDE5 inhibitor–nitrate interaction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: isosorbide mononitrate prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86be0e85-5337-bee4-e053-2a91aa0a8158) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

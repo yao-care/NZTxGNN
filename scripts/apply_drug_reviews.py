@@ -22,6 +22,9 @@
   header_level  頁首等級重算的留存紀錄（original_level／new_level／original_parent／new_parent）：只列在查核紀錄表。
             頁首規則見 src/nztxgnn/regulatory/page_format.py。
   description_level  front matter description 的等級跟著頁首：只列在查核紀錄表（page_format.sync_description_level）。
+  mechanism  附出處的作用機轉（2026-11-19）：頁面上「作用機轉資料不可得」那句（claim）換成 replacement（官方仿單原句節錄＋
+            可點的出處、版本與取用日期），不加框；查核紀錄表列原句與出處。紀錄由 scripts/build_mechanism_reviews.py 產生，
+            來源規則見該檔與 CLAUDE.md「作用機轉段的資料來源與查核機制」。只換那一句，模型預測與其他正文不動。
 status：superseded（錨點落在程式產生的區塊上）、resolved_by_regeneration（報告重生後已無此錯誤）、resolved_by_program
 （程式改版後已無此錯誤）、withdrawn（查核本身有誤或重複）：紀錄保留、頁面不顯示框，查核紀錄表註明。
 同 id 重發時前版存進 history（retired、reason），不覆蓋丟棄。
@@ -50,7 +53,8 @@ LABEL = {"correct": "Review correction", "annotate": "Review note", "rereview": 
 ACTION_EN = {"correct": "Corrected", "annotate": "Annotated", "rereview": "Marked for re-review",
              "section": "Added a sourced section", "rereview_result": "Re-review completed",
              "header_level": "Header evidence level recomputed from the Quick Overview",
-             "description_level": "Page description evidence level set to the header level"}
+             "description_level": "Page description evidence level set to the header level",
+             "mechanism": "Statement that mechanism-of-action data were not available replaced with a sourced excerpt"}
 VERDICT_EN = {"maintain": "Maintained", "downgrade": "Downgraded", "upgrade": "Upgraded", "withdraw": "Withdrawn"}
 RESOLVED = "resolved_by_regeneration"
 WITHDRAWN = "withdrawn"
@@ -176,6 +180,13 @@ def apply_record(text, rec, problems):
             return text
         block = f"{begin(rid)}\n\n{rec['markdown'].strip()}\n\n{end(rid)}\n\n"
         return text[:m.start()] + block + text[m.start():]
+    if act == "mechanism":
+        j = find_outside(text, rec["claim"])
+        if j >= 0:
+            text = text[:j] + rec["replacement"] + text[j + len(rec["claim"]):]
+        elif find_outside(text, rec["replacement"]) < 0:
+            problems.append(f"{rid}：頁面上找不到「作用機轉資料不可得」原句或附出處的作用機轉（頁面可能被改寫，需人工重查）")
+        return text
     if act == "correct":
         olds = [rec["claim"]] + [h["replacement"] for h in rec.get("history") or []
                                  if h.get("replacement") and h["replacement"] != rec["replacement"]
@@ -240,10 +251,17 @@ def log_md(recs):
     if all(r["action"] in ("header_level", "description_level") for r in recs):
         intro = ("Below is the review log for this page; the header evidence level follows the Quick Overview. "
                  "Model predictions, the overview table, and conclusions were not rewritten.")
+    elif all(r["action"] in ("mechanism", "header_level", "description_level") for r in recs):
+        intro = ("Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced "
+                 "with an excerpt from the cited official prescribing information or database; "
+                 "model predictions, evidence levels, and conclusions were not rewritten.")
     elif any(r["action"] == "rereview_result" and r.get("table_updates") for r in recs):
         intro = ("Below is the review log for this page: statements checked against official Pharmac data (the Pharmaceutical Schedule). Corrections are limited to "
                  "basic factual statements and model prediction text was not rewritten; evidence levels and decisions were changed "
                  "only by a re-review result (downgrade, upgrade, or withdrawal), with the original values listed below.")
+    if any(r["action"] == "mechanism" for r in recs) and not all(r["action"] in ("mechanism", "header_level", "description_level") for r in recs):
+        intro += (" A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited "
+                  "official prescribing information or database.")
     return f"{begin('log')}\n\n{LOG_HEAD}\n\n{intro}\n\n" + "\n".join(rows) + f"\n\n{end('log')}\n\n"
 
 
@@ -296,6 +314,14 @@ def validate(recs):
                 errs.append(f"{r.get('id')}：缺 {k}")
         if r.get("action") not in ACTION_EN:
             errs.append(f"{r.get('id')}：action 必須是 {sorted(ACTION_EN)}")
+        if r.get("action") == "mechanism":
+            if not (r.get("claim") and r.get("replacement")):
+                errs.append(f"{r['id']}：mechanism 要有 claim 與 replacement")
+            for sx in r.get("sources") or []:
+                if not (sx.get("url") and sx.get("accessed") and sx.get("excerpt")):
+                    errs.append(f"{r['id']}：mechanism 的來源要有 url、accessed、excerpt（原文節錄）")
+                elif sx["url"] not in (r.get("replacement") or ""):
+                    errs.append(f"{r['id']}：mechanism 的 replacement 要附來源連結 {sx['url']}")
         if r.get("action") == "correct" and not (r.get("replacement") or r.get("anchor")):
             errs.append(f"{r['id']}：correct 要有 replacement（或整段刪除時的 anchor）")
         if r["action"] != "rereview_result":

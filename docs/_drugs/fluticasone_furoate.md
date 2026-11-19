@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "fluticasone furoate"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
 description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The evidence is a model prediction only.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fluticasone furoate is known to be a potent glucocorticoid receptor agonist with anti-inflammatory and immunosuppressive effects. Its efficacy in asthma and allergic rhinitis is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone furoate: "Fluticasone furoate is a synthetic trifluorinated corticosteroid with anti‑inflammatory activity. Fluticasone furoate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is approximately 29.9 times that of dexamethasone and 1.7 times that of fluticasone propionate." ([DailyMed: Arnuity Ellipta (fluticasone furoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=50f193ee-1691-486d-9370-a664df63695c), label version 2023-10-18; accessed 2026-11-19.) Fluticasone furoate is known to be a potent glucocorticoid receptor agonist with anti-inflammatory and immunosuppressive effects. Its efficacy in asthma and allergic rhinitis is established.
 
 Atopic eczema is an allergic, inflammatory skin disease that often coexists with asthma and allergic rhinitis. Topical corticosteroids are a standard therapy for it, so the mechanism is plausible.
 
@@ -132,11 +132,12 @@ The prediction for atopic eczema is mechanistically plausible but rests on a mod
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both authorizations are combination inhalers and both are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arnuity Ellipta (fluticasone furoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=50f193ee-1691-486d-9370-a664df63695c) |
 
 <!-- review:end log -->
 

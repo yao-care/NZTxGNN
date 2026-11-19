@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 454
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **ankylosing spondylitis**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tocilizumab is a humanized monoclonal antibody that blocks the interleukin-6 receptor, and its efficacy in rheumatoid arthritis and juvenile idiopathic arthritis is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tocilizumab: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), label version 2026-10-20; accessed 2026-11-19.) Based on known information, tocilizumab is a humanized monoclonal antibody that blocks the interleukin-6 receptor, and its efficacy in rheumatoid arthritis and juvenile idiopathic arthritis is established.
 
 IL-6 signalling contributes to inflammation and bone remodelling in axial spondyloarthritis, so blocking the IL-6 receptor is biologically plausible. Ankylosing spondylitis shares inflammatory pathways with the arthritides for which tocilizumab is already used.
 
@@ -128,11 +128,12 @@ The only controlled data in ankylosing spondylitis come from two terminated Phas
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "since all 4 authorizations are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
 
 <!-- review:end log -->
 

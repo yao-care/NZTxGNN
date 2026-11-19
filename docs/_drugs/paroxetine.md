@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
@@ -56,7 +56,7 @@ but there are currently **no clinical trials and no publications** supporting th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, paroxetine is an SSRI whose efficacy in depression and anxiety-spectrum disorders is established, but a mechanistic link to Ohdo syndrome cannot be verified from the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for paroxetine: "The mechanism of action of PAXIL CR in the treatment of major depressive disorder (MDD), panic disorder (PD), social anxiety disorder (SAD), and premenstrual dysphoric disorder (PMDD) is unknown, but is presumed to be linked to potentiation of serotonergic activity in the central nervous system resulting from inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c), label version 2026-09-30; accessed 2026-11-19.) Based on known information, paroxetine is an SSRI whose efficacy in depression and anxiety-spectrum disorders is established, but a mechanistic link to Ohdo syndrome cannot be verified from the data compiled for this report.
 
 Ohdo syndrome (including the Say-Barber-Biesecker-Young-Simpson variant, associated with KAT6B variants) is a rare genetic neurodevelopmental disorder characterised by intellectual disability, blepharophimosis and hypotonia. Its underlying pathology involves epigenetic and chromatin regulation, which is not clearly connected to serotonin reuptake inhibition.
 
@@ -125,12 +125,13 @@ The prediction is supported only by a model score (Evidence Level L5). The knowl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "There are no clinical trials or publications, no verifiable mechanistic link, and the only New Zealand authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
 
 <!-- review:end log -->
 

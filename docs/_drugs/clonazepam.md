@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 3
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Clonazepam: predicted new indication restless legs syndrome (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -60,7 +60,7 @@ Most of the publications are reviews, guidelines or small and older studies, so 
 
 ## Why is This Prediction Reasonable?
 
-Clonazepam is a GABA-A positive allosteric modulator. Detailed mechanism-of-action data is not available in the data compiled for this report, so the mechanism is inferred from general pharmacology. By enhancing inhibitory GABA signalling, clonazepam produces sedation and has anti-myoclonic effects. These could reduce the sleep disruption and periodic limb movements that are characteristic of restless legs syndrome.
+Clonazepam is a GABA-A positive allosteric modulator. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clonazepam: "The precise mechanism by which clonazepam exerts its antiseizure and antipanic effects is unknown, although it is believed to be related to its ability to enhance the activity of gamma aminobutyric acid (GABA), the major inhibitory neurotransmitter in the central nervous system." ([DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1), label version 2025-12-01; accessed 2026-11-19.) The mechanism is inferred from general pharmacology. By enhancing inhibitory GABA signalling, clonazepam produces sedation and has anti-myoclonic effects. These could reduce the sleep disruption and periodic limb movements that are characteristic of restless legs syndrome.
 
 The literature supports this link in part. A Cochrane systematic review covers benzodiazepines in restless legs syndrome, noting that clonazepam in particular is used for symptoms. A small randomised, double-blind, placebo-controlled crossover study from 1984 (6 patients) reported better subjective sleep quality and leg dysaesthesia with clonazepam. A placebo-controlled sleep laboratory study (2001) tested a single 1 mg dose. A 2024 historical overview reports that about 25% of treated patients in a large survey received benzodiazepines.
 
@@ -129,6 +129,19 @@ There is a plausible mechanistic link and several publications, including a syst
 - Confirmation of current licence status and approved indications in New Zealand
 - Modern, adequately powered controlled trials of clonazepam in restless legs syndrome, compared with first-line agents
 - A plan to manage risks of dependence, daytime sedation, falls and respiratory depression, especially with opioids
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

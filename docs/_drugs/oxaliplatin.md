@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 342
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ with **3 clinical trials** (2 directly relevant Phase 2 studies) and **20 public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, oxaliplatin is a third-generation platinum agent that forms DNA adducts (intra- and inter-strand crosslinks), blocking DNA replication and transcription. Its efficacy in metastatic colorectal cancer is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxaliplatin: "Oxaliplatin undergoes nonenzymatic conversion in physiologic solutions to active derivatives via displacement of the labile oxalate ligand. Several transient reactive species are formed, including monoaquo and diaquo DACH platinum, which covalently bind with macromolecules." ([DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5), label version 2026-08-24; accessed 2026-11-19.) Based on known information, oxaliplatin is a third-generation platinum agent that forms DNA adducts (intra- and inter-strand crosslinks), blocking DNA replication and transcription. Its efficacy in metastatic colorectal cancer is established.
 
 Platinum agents such as cisplatin and carboplatin are already backbone therapy in pleural mesothelioma, so a shared cytotoxic mechanism is plausible. Oxaliplatin's distinct DACH-ligand adducts may retain activity in some settings where other platinum agents are less effective. The very high TxGNN score is consistent with this mechanistic proximity, but it is a model prediction and not clinical proof.
 
@@ -153,12 +153,13 @@ Evidence for pleural mesothelioma is limited to small, single-arm Phase 2 studie
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "5 of 5 licences are valid in this country, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "all 5 oxaliplatin licences are valid, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
 
 <!-- review:end log -->
 

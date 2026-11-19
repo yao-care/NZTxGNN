@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The data compiled for this report contain **0 clinical trials** and **0 publicat
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Methylprednisolone belongs to the systemic corticosteroid class, whose members generally suppress inflammatory signalling and immune cell activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methylprednisolone: "Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4), label version 2026-07-01; accessed 2026-11-19.) Methylprednisolone belongs to the systemic corticosteroid class, whose members generally suppress inflammatory signalling and immune cell activity.
 
 Alopecia mucinosa is an inflammatory skin condition that affects hair follicles. The model links it to methylprednisolone through shared hair-loss and inflammatory skin disease features. An anti-inflammatory mechanism could plausibly apply, but this is a rationale only. No trial or publication was found to test it, and the prediction should be treated as a hypothesis.
 
@@ -120,11 +120,12 @@ The prediction score is very high (0.9999), but there are no clinical trials or 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 7 licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
 
 <!-- review:end log -->
 

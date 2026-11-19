@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CEFTRIAXONE"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Ceftriaxone: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **hyperamylasemia**, but this pre
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ceftriaxone is known as a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, and it is used against bacterial infections.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ceftriaxone: "Ceftriaxone is an antibacterial drug. […] Ceftriaxone is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftriaxone has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467), label version 2022-01-13; accessed 2026-11-19.) Ceftriaxone is known as a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, and it is used against bacterial infections.
 
 Hyperamylasemia, however, is a laboratory finding (raised blood amylase) and not an infectious disease. No clear mechanistic link between an antibacterial agent and this finding has been identified. The retrieved publications describe hyperamylasemia as a secondary finding in other conditions (for example Weil syndrome and intracranial bleeding), or describe ceftriaxone given to prevent infection after endoscopic papillosphincterotomy, where the antibiotic targets infection and not amylase levels. The high score is therefore not backed by clinical evidence.
 
@@ -103,6 +103,19 @@ The prediction has a high model score but no clinical trials, no publications th
 - A plausible mechanistic hypothesis linking ceftriaxone to amylase elevation
 - Mechanism of action data and package insert warnings and contraindications
 - Direct clinical or preclinical evidence in hyperamylasemia, if the question is pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

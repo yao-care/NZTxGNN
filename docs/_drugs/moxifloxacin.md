@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "MOXIFLOXACIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
 description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **Hyperamylasemia**, but there are **
 
 ## Why is This Prediction Reasonable?
 
-Moxifloxacin is an antibacterial fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV. Detailed mechanism-of-action data is not available in the data compiled for this report, but this class mechanism is well established.
+Moxifloxacin is an antibacterial fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for moxifloxacin: "Moxifloxacin Tablet is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of moxifloxacin results from inhibition of the topoisomerase II (DNA gyrase) and topoisomerase IV required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5), label version 2026-11-06; accessed 2026-11-19.) This class mechanism is well established.
 
 For the top-ranked prediction, **hyperamylasemia**, no plausible mechanism is evident. Moxifloxacin has no known effect on amylase metabolism, and the high score (about 0.9998) is a model output without trial or literature support. The same is true of the other high-scoring predictions: polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, premalignant haematological disease and haematopoietic and lymphoid neoplasm. None has a mechanistic link, and none has supporting trials.
 
@@ -153,11 +153,12 @@ The top-ranked prediction, hyperamylasemia, has no mechanistic rationale, no tri
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "given the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5) |
 
 <!-- review:end log -->
 

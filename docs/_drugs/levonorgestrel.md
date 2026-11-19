@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 271
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ Evidence is limited: **no registered clinical trials** and **1 randomized placeb
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Levonorgestrel is a progestin, a class of drugs that act on hormone pathways, and acne is a condition in which androgens play an important role in the oil-producing glands of the skin.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levonorgestrel: "The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium." ([DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309), label version 2026-03-04; accessed 2026-11-19.) Levonorgestrel is a progestin, a class of drugs that act on hormone pathways, and acne is a condition in which androgens play an important role in the oil-producing glands of the skin.
 
 The mechanistic link is weak and may even point the wrong way:
 
@@ -133,6 +133,18 @@ The only acne-specific randomized trial tested an ethinyl estradiol/levonorgestr
 - Comparative evidence between levonorgestrel-containing and anti-androgenic progestin-containing regimens
 - Package insert warnings and contraindications from the New Zealand regulator
 - Evidence on the approved dosage forms (tablets, intrauterine systems, implant) for any acne use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

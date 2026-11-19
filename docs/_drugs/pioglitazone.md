@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but there are **0 clinical trials** and **0 publications** supporting this predi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pioglitazone is a PPAR-gamma agonist (thiazolidinedione class). It improves insulin sensitivity, and its efficacy in type 2 diabetes is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pioglitazone: "ACTOS is a thiazolidinedione that depends on the presence of insulin for its mechanism of action. ACTOS decreases insulin resistance in the periphery and in the liver resulting in increased insulin-dependent glucose disposal and decreased hepatic glucose output. […] Pioglitazone is not an insulin secretagogue." ([DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c), label version 2025-03-28; accessed 2026-11-19.) Based on known pharmacology, pioglitazone is a PPAR-gamma agonist (thiazolidinedione class). It improves insulin sensitivity, and its efficacy in type 2 diabetes is well established.
 
 Opsismodysplasia is a rare skeletal dysplasia caused by mutations in INPPL1 (SHIP2), a gene that modulates PI3K/AKT signalling. Pioglitazone acts on insulin-related pathways, so a loose link through insulin/PI3K signalling is conceivable. However, no direct mechanistic or clinical evidence supports this connection. The high TxGNN score is a model prediction only.
 
@@ -124,12 +124,13 @@ The prediction has no supporting clinical trials or publications (evidence level
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of the regulatory pathway given the cancelled New Zealand licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and pioglitazone is marketed in New Zealand with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
 
 <!-- review:end log -->
 

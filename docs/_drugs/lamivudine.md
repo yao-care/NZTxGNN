@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) that is active against HIV-1 reverse transcriptase and hepatitis B virus polymerase. Its efficacy in HIV and hepatitis B is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for lamivudine: "Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8), label version 2024-08-15; accessed 2026-11-19.) Based on known information, lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) that is active against HIV-1 reverse transcriptase and hepatitis B virus polymerase. Its efficacy in HIV and hepatitis B is established.
 
 Feline immunodeficiency virus (FIV) is a lentivirus that causes an AIDS-like disease in cats. Its reverse transcriptase is structurally related to that of HIV, so NRTI activity is biologically plausible. Published veterinary studies have used lamivudine as part of combination regimens (for example with zidovudine) in naturally infected cats, and an in vitro study tested zidovudine, lamivudine and abacavir against FIV replication.
 
@@ -153,13 +153,14 @@ The top prediction is supported only by small veterinary cohort studies and in v
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four licences are valid, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "all four lamivudine licences are valid, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Confirmation of the licensing status; all four New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->
 

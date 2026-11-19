@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Busulfan: predicted new indication myelodysplastic syndrome (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **myelodysplastic syndrome**, with
 
 ## Why is This Prediction Reasonable?
 
-Busulfan is a bifunctional alkylating agent. It cross-links DNA and destroys bone marrow cells. A detailed mechanism of action entry was not available in the data compiled for this report, but this general mechanism is well established.
+Busulfan is a bifunctional alkylating agent. It cross-links DNA and destroys bone marrow cells. According to the Mechanism of Action section of the US FDA-approved prescribing information for busulfan: "Busulfan is a bifunctional alkylating agent in which two labile methanesulfonate groups are attached to opposite ends of a four-carbon alkyl chain. In aqueous media, busulfan hydrolyzes to release the methanesulfonate groups." ([DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203), label version 2026-07-29; accessed 2026-11-19.) This general mechanism is well established.
 
 In MDS, allogeneic stem cell transplantation is the only potentially curative approach. Busulfan is an established part of conditioning regimens (for example busulfan/fludarabine and busulfan/cyclophosphamide). It helps eradicate the malignant clone and creates marrow space so donor cells can engraft.
 
@@ -133,6 +133,19 @@ Two completed Phase 3 randomised trials (NCT00005866 and NCT00822393) and severa
 - Detailed mechanism of action data
 - Review of the Phase 3 results, particularly comparisons against newer conditioning agents such as treosulfan
 - A safety monitoring plan for myelosuppression, secondary malignancy risk and interactions in transplant patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "A detailed mechanism of action entry was not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CARBOPLATIN"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Carboplatin: predicted new indication rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ This is a model prediction only: **0 clinical trials** and **0 publications** we
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug in the data compiled for this report. Carboplatin belongs to the platinum class of chemotherapy agents. Drugs in this class generally act by forming DNA crosslinks that block cell division and trigger cell death in rapidly dividing tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for carboplatin: "Carboplatin is a platinum-based drug that binds to DNA and forms DNA cross-links. These crosslinks inhibit DNA replication and transcription and trigger cytotoxic processes that lead to cell death." ([DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b), label version 2026-11-09; accessed 2026-11-19.) Carboplatin belongs to the platinum class of chemotherapy agents. Drugs in this class generally act by forming DNA crosslinks that block cell division and trigger cell death in rapidly dividing tumour cells.
 
 The model's high score most likely reflects shared mucinous tumour characteristics between the disease carboplatin is already used for and rectal mucinous adenocarcinoma. This is an inference from the model output, not a demonstrated clinical link. No study in the compiled data examines carboplatin in rectal cancer, so the mechanistic rationale remains hypothetical. Mucinous tumours of the gastrointestinal tract are also often less responsive to chemotherapy than non-mucinous tumours, which is a reason for caution.
 
@@ -122,6 +122,19 @@ The prediction rests on the model score alone. No clinical trials or publication
 - Mechanism of action data
 - Package-insert warnings and contraindications for safety screening
 - Comparison with the platinum agents and regimens already used in colorectal cancer
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

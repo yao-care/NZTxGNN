@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "SULFASALAZINE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine: predicted new indication Top-ranked: brachydactyly-syndactyly syndrome . Best-supported: osteoarthritis (brachydactyly-syndactyly syndrome) (evidence level L5). Approved use: Not recor…"
@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is **brachydactyly-syndactyly syndrome**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the known pharmacology described there, sulfasalazine acts through NF-kB inhibition, folate pathway antagonism and inhibition of the cystine/glutamate antiporter (system xc-). Its efficacy in inflammatory joint and bowel disease is established, so a mechanistic fit with inflammatory joint conditions is plausible.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for sulfasalazine: "The mode of action of sulfasalazine (SSZ) or its metabolites, 5-aminosalicylic acid (5-ASA) and sulfapyridine (SP), may be related to the anti-inflammatory and/or immunomodulatory properties that have been observed in animal and in vitro models, to its affinity for connective tissue, and/or to the relatively high concentration it reaches in serous fluids, the liver and intestinal walls, as demonstrated in autoradiographic studies in animals. In ulcerative colitis, clinical studies utilizing rectal administration of SSZ, SP and 5-ASA have indicated that the major therapeutic action may reside in the 5-ASA moiety." ([DailyMed: Azulfidine En-Tabs (sulfasalazine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b9ef541a-93c8-4428-ba45-398aa0b327d1), label version 2026-10-27; accessed 2026-11-19.) Based on the known pharmacology described there, sulfasalazine acts through NF-kB inhibition, folate pathway antagonism and inhibition of the cystine/glutamate antiporter (system xc-). Its efficacy in inflammatory joint and bowel disease is established, so a mechanistic fit with inflammatory joint conditions is plausible.
 
 **Top-ranked predictions:** The highest-scoring predictions are mostly rare congenital or developmental syndromes. Examples are brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, WHIM syndrome and acromesomelic dysplasia, Hunter-Thompson type. No mechanistic link, trial or publication supports any of them. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are computational predictions only and should not be pursued without new evidence.
 
@@ -143,12 +143,13 @@ The package insert warnings and contraindications could not be retrieved, so ple
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and no approved indication text is recorded for either" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and l" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Azulfidine En-Tabs (sulfasalazine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b9ef541a-93c8-4428-ba45-398aa0b327d1) |
 
 <!-- review:end log -->
 

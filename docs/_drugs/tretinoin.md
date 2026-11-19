@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 466
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "TRETINOIN"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
 description: "Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but there are **0 clinical trials** and **0 relevant publications** supporting t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tretinoin is a retinoid (a vitamin A derivative) whose efficacy in acne, keratinisation disorders and acute promyelocytic leukaemia is established. Mechanistically, retinoids may modulate immune cell differentiation and inflammatory signalling, which could plausibly relate to rheumatoid-type inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tretinoin: "Tretinoin induces cytodifferentiation and decreased proliferation of APL cells in culture and in vivo. In APL patients, tretinoin treatment produces an initial maturation of the primitive promyelocytes derived from the leukemic clone, followed by a repopulation of the bone marrow and peripheral blood by normal, polyclonal hematopoietic cells in patients achieving complete remission (CR)." ([DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9), label version 2026-08-20; accessed 2026-11-19.) Based on known information, tretinoin is a retinoid (a vitamin A derivative) whose efficacy in acne, keratinisation disorders and acute promyelocytic leukaemia is established. Mechanistically, retinoids may modulate immune cell differentiation and inflammatory signalling, which could plausibly relate to rheumatoid-type inflammation.
 
 No data compiled for this report directly supports that link. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top predictions (juvenile idiopathic arthritis variants, osteoarthritis, rare skeletal dysplasias, and folliculitis decalvans) all have the same evidence level (L5, model prediction only). Of these, folliculitis decalvans is the most biologically plausible, given tretinoin's established use in follicular and keratinisation disorders. It is still an unvalidated hypothesis.
 
@@ -112,6 +112,19 @@ The prediction for rheumatoid nodulosis has a very high model score but no suppo
 - Medsafe package insert warnings and contraindications
 - Evaluation of whether any topical or other route is feasible for the target condition
 - If a lead is wanted, a separate evaluation of folliculitis decalvans, the most plausible predicted dermatological indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **glaucoma**, but there are cur
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on its drug class, rivastigmine is a carbamate-type inhibitor of acetylcholinesterase and butyrylcholinesterase. By slowing the breakdown of acetylcholine, it raises cholinergic activity. In Alzheimer disease this supports neurotransmission in the brain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rivastigmine: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), label version 2025-11-11; accessed 2026-11-19.) Based on its drug class, rivastigmine is a carbamate-type inhibitor of acetylcholinesterase and butyrylcholinesterase. By slowing the breakdown of acetylcholine, it raises cholinergic activity. In Alzheimer disease this supports neurotransmission in the brain.
 
 The same mechanism may apply to the eye. Increased cholinergic tone at the ciliary muscle and trabecular meshwork may improve aqueous humour outflow and lower intraocular pressure (IOP), the main modifiable risk factor in glaucoma. This is analogous to miotic agents such as pilocarpine and physostigmine. A rabbit study found that topical rivastigmine lowered IOP in normotensive animals, and a 2024 systems genetics and modelling review of cholinergic agents for IOP reduction offers indirect support.
 
@@ -131,12 +131,13 @@ The glaucoma prediction is supported only by a high model score, one rabbit stud
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are cancelled, and no approved indication text is recorded for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since the existing licences are for patches and are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->
 

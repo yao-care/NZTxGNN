@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Econazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 ---
 
@@ -58,7 +58,7 @@ A second prediction, **endothrix infectious disease** (score 0.9997), is also in
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for econazole are not available in the data compiled for this report. From general pharmacology, econazole is an imidazole antifungal that inhibits fungal lanosterol 14-alpha-demethylase (CYP51). This blocks ergosterol synthesis and damages the fungal cell membrane. This explanation comes from general knowledge, not from the supplied data.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for econazole: "Ecoza topical foam is an azole antifungal. […] Econazole nitrate, an azole antifungal agent, inhibits fungal cytochrome P-450-mediated 14 alpha-lanosterol demethylase enzyme. This enzyme functions to convert lanosterol to ergosterol. The accumulation of 14 alpha-methyl sterols correlates with the subsequent loss of ergosterol in the fungal cell wall and may be responsible for the fungistatic activity of econazole." ([DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577), label version 2023-12-04; accessed 2026-11-19.) From general pharmacology, econazole is an imidazole antifungal that inhibits fungal lanosterol 14-alpha-demethylase (CYP51). This blocks ergosterol synthesis and damages the fungal cell membrane. This explanation comes from general knowledge, not from the supplied data.
 
 In ectothrix infection, fungal spores form a sheath on the outside of the hair shaft. The usual causes are *Microsporum* and *Trichophyton* species. These dermatophytes belong to the same group as the organisms in econazole's recorded skin indications (tinea pedis, tinea corporis). The prediction is therefore best seen as an extension of an existing dermatophyte use, not a novel repurposing.
 
@@ -119,11 +119,12 @@ The prediction has a very high model score and a plausible link to econazole's k
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are valid single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for econazole are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577) |
 
 <!-- review:end log -->
 

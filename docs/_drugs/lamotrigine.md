@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (partial epilepsy, Lennox-Gastaut syndrome)"
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -60,7 +60,7 @@ The best-supported direction in the data compiled for this report is the second-
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lamotrigine is an antiseizure drug whose efficacy in epilepsy is established. Its anticonvulsant effect is generally attributed to blockade of voltage-gated sodium channels and reduced glutamate release, and this could plausibly apply to other conditions driven by abnormal neuronal firing.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lamotrigine: "The precise mechanism(s) by which lamotrigine exerts its anticonvulsant action are unknown. In animal models designed to detect anticonvulsant activity, lamotrigine was effective in preventing seizure spread in the maximum electroshock (MES) and pentylenetetrazol (scMet) tests, and prevented seizures in the visually and electrically evoked after-discharge (EEAD) tests for antiepileptic activity." ([DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4), label version 2026-10-12; accessed 2026-11-19.) Based on known information, lamotrigine is an antiseizure drug whose efficacy in epilepsy is established. Its anticonvulsant effect is generally attributed to blockade of voltage-gated sodium channels and reduced glutamate release, and this could plausibly apply to other conditions driven by abnormal neuronal firing.
 
 **Trigeminal nerve neoplasm (rank 1).** The high score from the TxGNN model (deep learning) most likely reflects similarities the model learned between related diseases, such as trigeminal neuralgia, a condition for which lamotrigine is used, and is not biological evidence. The two retrieved papers (a review and a Gamma Knife case report on a cavernous malformation) concern trigeminal neuralgia, not a tumour. There is no evidence that lamotrigine treats the neoplasm itself. At most, it might relieve secondary neuropathic pain.
 
@@ -157,12 +157,13 @@ Please refer to the package insert for complete safety information; label warnin
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five licences are valid, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Regulatory pathway clarification, noting that the drug is marketed in New Zealand with 5 valid licences out of 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
 
 <!-- review:end log -->
 

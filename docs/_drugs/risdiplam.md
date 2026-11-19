@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
 description: "Risdiplam: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The prediction rests only on a TxGNN model (deep learning) score.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, risdiplam is an SMN2 splicing modifier developed for spinal muscular atrophy, where it increases production of functional SMN protein.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for risdiplam: "Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain." ([DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e), label version 2026-11-02; accessed 2026-11-19.) Based on general knowledge, risdiplam is an SMN2 splicing modifier developed for spinal muscular atrophy, where it increases production of functional SMN protein.
 
 No documented biological link connects SMN2 splicing modulation to the processes that drive acne: sebum production, follicular hyperkeratinization, *C. acnes* colonization and inflammation. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -123,12 +123,13 @@ The only support for this prediction is a high TxGNN score, with no clinical tri
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The drug's New Zealand licence is cancelled, and i" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "of the regulatory status of the cancelled licence and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
 
 <!-- review:end log -->
 

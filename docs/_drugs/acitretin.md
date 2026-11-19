@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "ACITRETIN"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Acitretin is an oral second-generation retinoid (a vitamin A derivative) that is
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this report. Based on general pharmacology, acitretin is a systemic retinoid. It modulates keratinocyte differentiation and proliferation. It is also thought to reduce sebaceous gland activity and follicular hyperkeratinisation, both of which are central to acne.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for acitretin: "The mechanism of action of acitretin is unknown." ([DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910), label version 2026-10-20; accessed 2026-11-19.) Based on general pharmacology, acitretin is a systemic retinoid. It modulates keratinocyte differentiation and proliferation. It is also thought to reduce sebaceous gland activity and follicular hyperkeratinisation, both of which are central to acne.
 
 The clinical signal comes mainly from hidradenitis suppurativa (also called acne inversa). This is a related follicular occlusion disorder, not acne vulgaris. For acne vulgaris itself, isotretinoin is the preferred retinoid, and the literature on acitretin is thin. A single case report (PMID 12080949) describes acitretin in a patient with severe nodulocystic acne and hidradenitis suppurativa who had improved on isotretinoin but had persistent lesions.
 
@@ -121,6 +121,18 @@ Please refer to the package insert for full warnings and contraindications.
 - A comparison against isotretinoin.
 - Detailed mechanism of action data.
 - A pregnancy-prevention and monitoring plan, based on the package insert warnings and contraindications.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

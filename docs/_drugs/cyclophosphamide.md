@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ The data compiled for this report contain **no clinical trials and no publicatio
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Cyclophosphamide belongs to the alkylating agent class. These drugs damage DNA and are cytotoxic to rapidly dividing cells, including lymphocytes.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cyclophosphamide: "The mechanism of action has not been fully characterized. However, cross-linking of tumor cell DNA may be involved. The active alkylating metabolites of cyclophosphamide interfere with the growth of susceptible rapidly proliferating malignant cells." ([DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e), label version 2026-08-26; accessed 2026-11-19.) Cyclophosphamide belongs to the alkylating agent class. These drugs damage DNA and are cytotoxic to rapidly dividing cells, including lymphocytes.
 
 The predicted condition is a rare syndrome that includes vertebral anomalies, endocrine abnormalities and T-cell dysfunction. No credible mechanistic rationale for benefit could be established from the available data. A cytotoxic, immunosuppressive drug acting on an already impaired T-cell compartment would plausibly cause harm rather than benefit. The score reflects a statistical association from the model, not a demonstrated biological link.
 
@@ -125,11 +125,12 @@ The prediction rests only on a high model score (0.9938), with no trials or publ
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Six valid licences are recorded for single-ingredient cyclophosphamide products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 349
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
 description: "Papaverine: predicted new indication Ischemic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but the supporting evidence is thin: **1 registered clinical trial** (an observa
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data from DrugBank is not available for this report. Pharmacology data compiled for this report show that papaverine inhibits phosphodiesterases (PDE3A, PDE3B and PDE10A), which raises cAMP/cGMP in vascular smooth muscle and causes vasodilation. Clinically, it has been used as an antispasmodic in the gastrointestinal tract and as a vasodilator of cerebral, coronary and penile blood vessels.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for papaverine: "Papaverine Hydrochloride apparently acts directly on the muscle itself. This relaxation is noted in the vascular system and bronchial musculature and in the gastrointestinal, biliary and urinary tracts. The main actions of papaverine are exerted on cardiac and smooth muscle." ([DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e), label version 2026-07-27; accessed 2026-11-19.) Pharmacology data compiled for this report show that papaverine inhibits phosphodiesterases (PDE3A, PDE3B and PDE10A), which raises cAMP/cGMP in vascular smooth muscle and causes vasodilation. Clinically, it has been used as an antispasmodic in the gastrointestinal tract and as a vasodilator of cerebral, coronary and penile blood vessels.
 
 The predicted indication is consistent with the original ones. Peripheral arterial disease, brain ischemia and transient ischemic attack are all conditions of insufficient blood supply, and a drug that relaxes vascular smooth muscle could plausibly improve perfusion. The literature shows supportive uses such as intra-arterial infusion in non-occlusive mesenteric ischemia, spinal cord protection during aortic surgery, and intracoronary use to measure coronary flow reserve. An animal study also reports a reduced infarct volume after cerebral ischemia.
 
@@ -132,12 +132,13 @@ The TxGNN score is very high (0.9991), and the vasodilator mechanism is plausibl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "A route and formulation plan, since the only New Zealand licence was for an injection and has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and the product's New Zealand licence has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data from DrugBank is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e) |
 
 <!-- review:end log -->
 

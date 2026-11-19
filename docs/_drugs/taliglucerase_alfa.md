@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Taliglucerase Alfa: predicted new indication Hurler syndrome (evidence level L5). Approved use: Gaucher disease"
 monitor_inn: "TALIGLUCERASE ALFA"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Hurler syndrome**, but there 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source database. Based on known information, taliglucerase alfa is a recombinant glucocerebrosidase (beta-glucosidase) that hydrolyses glucosylceramide, and its efficacy in Gaucher disease is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for taliglucerase alfa: "Gaucher disease is an autosomal recessive disorder caused by mutations in the human glucocerebrosidase gene, which results in a reduced activity of the lysosomal enzyme glucocerebrosidase. Glucocerebrosidase catalyzes the conversion of the sphingolipid glucocerebroside into glucose and ceramide." ([DailyMed: Elelyso (taliglucerase alfa) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3cbd5d-677c-4b19-9032-d9182cb69a83), label version 2025-12-29; accessed 2026-11-19.) Based on known information, taliglucerase alfa is a recombinant glucocerebrosidase (beta-glucosidase) that hydrolyses glucosylceramide, and its efficacy in Gaucher disease is established.
 
 Hurler syndrome (MPS I) is caused by a deficiency of alpha-L-iduronidase, which leads to accumulation of glycosaminoglycans (dermatan sulfate and heparan sulfate). Both Gaucher disease and Hurler syndrome are lysosomal storage disorders, so the high score most likely reflects similarities the TxGNN model (deep learning) learned between related diseases, not biological evidence.
 
@@ -124,12 +124,13 @@ The prediction has no supporting clinical or literature evidence (L5), and the p
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "given the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the source database" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Elelyso (taliglucerase alfa) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3cbd5d-677c-4b19-9032-d9182cb69a83) |
 
 <!-- review:end log -->
 

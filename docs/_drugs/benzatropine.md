@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Benzatropine"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Benzatropine: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ This is a model prediction only: **0 clinical trials** and **0 publications** we
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for benzatropine are not available in the data compiled for this report. The pharmacology records list these targets:
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for benzatropine: "Benztropine mesylate possesses both anticholinergic and antihistaminic effects, although only the former have been established as therapeutically significant in the management of parkinsonism. In the isolated guinea pig ileum, the anticholinergic activity of this drug is about equal to that of atropine; however, when administered orally to unanesthetized cats, it is only about half as active as atropine." ([DailyMed: benztropine mesylate prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01688e6f-7b22-41bf-9a85-1c88d90f99b6), label version 2026-11-11; accessed 2026-11-19.) The pharmacology records list these targets:
 
 - M1 muscarinic receptor (rat)
 - M2 muscarinic receptor (rat)
@@ -114,6 +114,19 @@ The prediction score is very high (0.9917), but there are no clinical trials or 
 - Mechanism-of-action data for benzatropine
 - Package insert warnings and contraindications from Medsafe
 - A safety review for the neurological and paediatric populations affected, given anticholinergic effects on cognition and the many flagged conditions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for benzatropine are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: benztropine mesylate prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01688e6f-7b22-41bf-9a85-1c88d90f99b6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

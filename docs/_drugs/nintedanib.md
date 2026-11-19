@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ but there are currently **no registered clinical trials** and only **1 publicati
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for nintedanib is not available in the data compiled for this report. Based on general pharmacological knowledge (not verified against the compiled data), nintedanib is a multi-target tyrosine kinase inhibitor acting on PDGFR alpha/beta, VEGFR 1-3 and FGFR 1-3.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nintedanib: "Nintedanib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs) and non-receptor tyrosine kinases (nRTKs). Nintedanib inhibits the following RTKs: platelet-derived growth factor receptor (PDGFR) α and β, fibroblast growth factor receptor (FGFR) 1-3, vascular endothelial growth factor receptor (VEGFR) 1-3, colony stimulating factor 1 receptor (CSF1R), and Fms-like tyrosine kinase-3 (FLT-3)." ([DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa), label version 2026-04-21; accessed 2026-11-19.) Based on general pharmacological knowledge (not verified against the compiled data), nintedanib is a multi-target tyrosine kinase inhibitor acting on PDGFR alpha/beta, VEGFR 1-3 and FGFR 1-3.
 
 DFSP is driven by the COL1A1-PDGFB fusion, which causes constitutive PDGFR-beta activation. Inhibiting PDGFR is therefore a biologically plausible approach. The one retrieved publication is a review of small-molecule PDGFR inhibitors in neoplastic disorders. It offers indirect, class-level support and contains no nintedanib-specific clinical data.
 
@@ -151,12 +151,13 @@ The prediction score is high, and PDGFR-beta activation in DFSP gives a plausibl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "In addition, nintedanib is marketed in New Zealand, with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since the drug is marketed with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data for nintedanib is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
 
 <!-- review:end log -->
 

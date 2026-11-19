@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,7 +54,7 @@ Risperidone is an atypical antipsychotic that blocks dopamine and serotonin rece
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Risperidone is generally understood as a dopamine D2 and serotonin 5-HT2A receptor antagonist.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for risperidone: "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism." ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), label version 2026-10-23; accessed 2026-11-19.) Risperidone is generally understood as a dopamine D2 and serotonin 5-HT2A receptor antagonist.
 
 The predicted disease is an ultra-rare inherited disorder (ROBO3-related) affecting eye movement control and spine development, with neurodevelopmental and structural causes. No plausible mechanistic link to dopamine or serotonin receptor antagonism has been identified. The high score reflects a computational prediction only, and it should be treated as a hypothesis with no supporting biological or clinical rationale at this time.
 
@@ -120,11 +120,12 @@ The prediction has a very high model score but no trials, no literature, and no 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 11 licences recorded are valid; the table shows the first five" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
 
 <!-- review:end log -->
 

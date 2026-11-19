@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "abacavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Abacavir: predicted new indication simian immunodeficiency virus infection (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ Support is thin: **0 clinical trials** and **1 publication**, an in vitro suscep
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, abacavir is an NRTI. It is phosphorylated intracellularly to carbovir triphosphate, which terminates proviral DNA chain elongation by blocking reverse transcriptase.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for abacavir and lamivudine (a combination product containing abacavir): "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c), label version 2026-09-18; accessed 2026-11-19.) Based on known pharmacology, abacavir is an NRTI. It is phosphorylated intracellularly to carbovir triphosphate, which terminates proviral DNA chain elongation by blocking reverse transcriptase.
 
 Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV, and its reverse transcriptase is homologous. Mechanistically, an NRTI active against HIV could therefore be expected to act on SIV as well.
 
@@ -120,11 +120,12 @@ The only supporting study is an in vitro susceptibility paper. SIV infection is 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Abacavir is listed as marketed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
 
 <!-- review:end log -->
 

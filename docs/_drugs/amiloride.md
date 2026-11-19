@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Amiloride: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Amiloride is a potassium-sparing diuretic that blocks epithelial sodium channels
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for amiloride is not available in the data compiled for this report. The pharmacology records do show that amiloride blocks ENaC. It also acts on acid-sensing ion channels (ASIC1–3) and sodium/hydrogen exchangers. Blocking ENaC reduces renal sodium reabsorption, which lowers blood pressure.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for amiloride: "Amiloride HCl is a potassium-conserving (antikaliuretic) drug that possesses weak (compared with thiazide diuretics) natriuretic, diuretic, and antihypertensive activity. These effects have been partially additive to the effects of thiazide diuretics in some clinical studies." ([DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68), label version 2026-11-11; accessed 2026-11-19.) The pharmacology records do show that amiloride blocks ENaC. It also acts on acid-sensing ion channels (ASIC1–3) and sodium/hydrogen exchangers. Blocking ENaC reduces renal sodium reabsorption, which lowers blood pressure.
 
 Malignant hypertensive renal disease is kidney injury caused by severely elevated blood pressure. The prediction is plausible only through amiloride's general blood-pressure-lowering and ENaC-blocking activity. No data link amiloride to this specific condition.
 
@@ -113,11 +113,12 @@ The prediction is supported only by the TxGNN score (0.9982). No trials or publi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Amiloride is marketed in New Zealand, with 3 valid licences. The licence records carry no indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data for amiloride is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
 
 <!-- review:end log -->
 

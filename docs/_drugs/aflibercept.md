@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Aflibercept: predicted new indication esotropia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **esotropia**, but this is a mode
 
 ## Why is This Prediction Reasonable?
 
-Aflibercept traps vascular endothelial growth factor (VEGF-A, VEGF-B) and placental growth factor (PlGF). It is used in the eye for diseases driven by abnormal blood vessel growth and leakage in the retina and macula. Detailed mechanism-of-action data is not available in the data compiled for this report.
+Aflibercept traps vascular endothelial growth factor (VEGF-A, VEGF-B) and placental growth factor (PlGF). It is used in the eye for diseases driven by abnormal blood vessel growth and leakage in the retina and macula. According to the Mechanism of Action section of the US FDA-approved prescribing information for aflibercept: "Vascular endothelial growth factor-A (VEGF-A) and placental growth factor (PlGF) are members of the VEGF family of angiogenic factors that can act as mitogenic, chemotactic, and vascular permeability factors for endothelial cells. VEGF acts via two receptor tyrosine kinases, VEGFR-1 and VEGFR-2, present on the surface of endothelial cells. […] Aflibercept products act as a soluble decoy receptor that binds VEGF - A and PlGF, and thereby can inhibit the binding and activation of these cognate VEGF receptors." ([DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06), label version 2026-10-29; accessed 2026-11-19.)
 
 The link to esotropia is indirect and weak. Esotropia is an inward misalignment of the eyes, usually of neuromuscular or sensorimotor origin. It can arise secondarily when retinal disease causes vision loss (sensory esotropia). In that situation, treating the retinal disease might help vision, but it would not directly correct the misalignment. No direct mechanism is established by which anti-VEGF therapy corrects ocular misalignment.
 
@@ -111,11 +111,12 @@ The prediction rests on a model score alone. There are no clinical trials or pub
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local records list one licence for this product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
 
 <!-- review:end log -->
 

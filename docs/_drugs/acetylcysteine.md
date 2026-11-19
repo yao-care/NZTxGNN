@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "ACETYLCYSTEINE"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Acetylcysteine: predicted new indication thrombotic disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ Most of the evidence concerns thrombotic microangiopathies (TTP and transplant-a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. The following rationale comes from the trial and literature evidence.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for acetylcysteine: "Acetylcysteine has been shown to reduce the extent of liver injury following acetaminophen overdose. Acetaminophen doses of 150 mg/kg or greater have been associated with hepatotoxicity. Acetylcysteine probably protects the liver by maintaining or restoring the glutathione levels, or by acting as an alternate substrate for conjugation with, and thus detoxification of, the reactive metabolite of acetaminophen." ([DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39), label version 2025-04-30; accessed 2026-11-19.) The following rationale comes from the trial and literature evidence.
 
 NAC is a thiol that can reduce disulfide bonds in von Willebrand factor (VWF) multimers. This may reduce VWF–platelet binding and microthrombus formation. Preclinical mouse and baboon models of TTP support this idea (PMID 28011677). NAC also has antioxidant effects, which may lessen the prothrombotic state seen in renal insufficiency (the RENACTIF trial).
 
@@ -131,11 +131,12 @@ A completed Phase 3 trial (NCT03252925) and an active Phase 2/3 trial (NCT072796
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Local records list two single-ingredient injectable licences. Both are recorded as cancelled, although the overall market status is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
 
 <!-- review:end log -->
 

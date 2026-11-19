@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ This is essentially an on-label use rather than true repurposing, so the predict
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. The mechanism is well established in the literature, however. Pantoprazole irreversibly inhibits the H+/K+ ATPase (proton pump) in gastric parietal cells. This suppresses gastric acid secretion, which is the key driver of ulcer formation and persistence.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pantoprazole: "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus." ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), label version 2026-11-06; accessed 2026-11-19.) The mechanism is well established in the literature, however. Pantoprazole irreversibly inhibits the H+/K+ ATPase (proton pump) in gastric parietal cells. This suppresses gastric acid secretion, which is the key driver of ulcer formation and persistence.
 
 The original indications (peptic ulcer disease, reflux disease, esophagitis) are all acid-related disorders. The TxGNN score mainly reflects that the drug already belongs to this disease area.
 
@@ -136,6 +136,19 @@ Active peptic ulcer disease is an established, on-label use of pantoprazole. It 
 - Detailed mechanism of action data from DrugBank
 - A review of the major DDIs (acalabrutinib, atazanavir) and of the bone-health and vitamin B12/pernicious anaemia concerns for long-term use
 - A manual check of the trial title and comparator details for NCT02084420
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CAPECITABINE"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Capecitabine: predicted new indication Gastric adenocarcinoma and proximal polyposis of the stomach (evidence level L5). Approved use: Metastasis from malignant tumour of colon"
 ---
 
@@ -56,7 +56,7 @@ The TxGNN model predicts it may be useful for **gastric adenocarcinoma and proxi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, capecitabine is a single-ingredient anticancer medicine used in colon and gastric cancers. Mechanistically, it may be applicable to a gastric adenocarcinoma-related condition, but this report cannot confirm it.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for capecitabine: "Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms." ([DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5), label version 2026-02-05; accessed 2026-11-19.) Based on known information, capecitabine is a single-ingredient anticancer medicine used in colon and gastric cancers. Mechanistically, it may be applicable to a gastric adenocarcinoma-related condition, but this report cannot confirm it.
 
 The predicted condition (gastric adenocarcinoma and proximal polyposis of the stomach) is closely related to the gastric cancer relations already recorded for capecitabine. This similarity is the likely basis of the model's high score. However, the similarity has not yet been analysed in detail, and no study cited here examines this specific condition.
 
@@ -110,6 +110,19 @@ The prediction score is very high, but no clinical trial or publication in the c
 - Mechanism of action data (e.g. from DrugBank)
 - Medsafe package insert warnings, contraindications and approved indication text
 - A review of the knowledge-graph contraindication relations (e.g. DPD deficiency, renal and hepatic impairment) against label text
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

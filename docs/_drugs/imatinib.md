@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ Among the other top-10 predictions, the best-supported are fibroblastic neoplasm
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, imatinib inhibits the ABL, KIT and PDGFR kinases. Its efficacy in chronic myeloid leukaemia, gastrointestinal stromal tumour and DFSP is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for imatinib: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), label version 2026-07-13; accessed 2026-11-19.) Based on known pharmacology, imatinib inhibits the ABL, KIT and PDGFR kinases. Its efficacy in chronic myeloid leukaemia, gastrointestinal stromal tumour and DFSP is established.
 
 DFSP is driven by a COL1A1-PDGFB fusion that constitutively activates PDGFRB, which imatinib blocks. Fibrosarcoma-like tumours, including fibrosarcomatous transformation of DFSP, may therefore respond through the same pathway. For heart fibrosarcoma specifically, no cardiac data exist, and the link is inferred only from the sarcoma class.
 
@@ -173,12 +173,13 @@ The top-ranked prediction, heart fibrosarcoma, has a very high model score but n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The New Zealand licences are cancelled, and p" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "why the licences were cancelled and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
 
 <!-- review:end log -->
 

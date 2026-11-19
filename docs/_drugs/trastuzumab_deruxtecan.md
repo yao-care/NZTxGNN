@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "TRASTUZUMAB DERUXTECAN"
 predicted_indications: ["drug-induced osteoporosis"]
 description: "Trastuzumab Deruxtecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,7 +54,7 @@ Trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate carrying a top
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate. Its payload, deruxtecan (an exatecan derivative), inhibits topoisomerase I and is cytotoxic to HER2-expressing tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trastuzumab deruxtecan: "Fam-trastuzumab deruxtecan-nxki is a HER2-directed antibody-drug conjugate. The antibody is a humanized anti-HER2 IgG1. The small molecule, DXd, is a topoisomerase I inhibitor attached to the antibody by a cleavable linker." ([DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6), label version 2026-05-15; accessed 2026-11-19.) Based on known pharmacology, trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate. Its payload, deruxtecan (an exatecan derivative), inhibits topoisomerase I and is cytotoxic to HER2-expressing tumour cells.
 
 The link between the original use and the predicted indication is weak. Bone remodelling (osteoblast/osteoclast balance, RANKL/OPG, Wnt signalling) is not a recognised target of HER2 blockade or topoisomerase I inhibition. The high score of 0.9931 (rank 5693) is a TxGNN model (deep learning) prediction. It likely reflects network proximity or shared associations rather than a biological rationale.
 
@@ -120,6 +120,19 @@ The prediction is supported only by the model score (L5). There are no clinical 
 - A literature and trial search to confirm whether any bone-related evidence exists
 - Preclinical or mechanistic evidence for an effect on bone remodelling
 - Clarification of the original approved indications and licensing status in New Zealand
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

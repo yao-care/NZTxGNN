@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 286
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). Approved use: Not recorded in the local data"
@@ -54,7 +54,7 @@ Mercaptopurine is a purine antimetabolite used in leukaemia chemotherapy. The Tx
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, mercaptopurine is a purine antimetabolite. Its active thioguanine nucleotides are incorporated into DNA and RNA and inhibit de novo purine synthesis. This is a plausible way to act on rapidly dividing myeloid blasts.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mercaptopurine: "Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death." ([DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15), label version 2026-07-22; accessed 2026-11-19.) Based on general pharmacology, mercaptopurine is a purine antimetabolite. Its active thioguanine nucleotides are incorporated into DNA and RNA and inhibit de novo purine synthesis. This is a plausible way to act on rapidly dividing myeloid blasts.
 
 Evidence in myeloid disease comes almost entirely from combination regimens. Examples are oral mercaptopurine plus methotrexate maintenance in AML patients ineligible for transplantation, ALL-like consolidation in childhood AML, and a risk-stratified protocol for AML in Down syndrome. Because mercaptopurine is always given with other drugs, its independent effect cannot be isolated.
 
@@ -135,6 +135,18 @@ Mercaptopurine has a plausible mechanism in myeloid blasts. Support is limited t
 - Package insert warnings and contraindications from Medsafe
 - A controlled study that isolates mercaptopurine's contribution in AML
 - Haematological monitoring and pharmacogenetic (TPMT/NUDT15) testing plans
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

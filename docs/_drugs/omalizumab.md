@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The evidence level is **L5**: no published study directly supports omalizumab in
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. From general knowledge of the drug class, omalizumab binds free IgE and lowers FcεRI expression on mast cells and basophils, which dampens allergic airway inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for omalizumab: "Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13." ([DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84), label version 2026-10-06; accessed 2026-11-19.) From general knowledge of the drug class, omalizumab binds free IgE and lowers FcεRI expression on mast cells and basophils, which dampens allergic airway inflammation.
 
 The link to bronchitis is indirect. It runs through allergic asthma and asthma-COPD overlap, where chronic bronchitis features can coexist with allergic airway inflammation. No trial has tested omalizumab in bronchitis as a distinct condition. The high model score therefore reflects a network-level association rather than direct clinical proof.
 
@@ -124,11 +124,12 @@ No published study supports omalizumab in bronchitis. The registered trials and 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 3 licences are valid, and the drug is marketed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84) |
 
 <!-- review:end log -->
 

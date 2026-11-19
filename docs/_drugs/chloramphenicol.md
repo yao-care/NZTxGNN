@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "CHLORAMPHENICOL"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
 description: "Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -58,7 +58,7 @@ Evidence for this prediction is therefore model-based only.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Chloramphenicol is known as an antibacterial that inhibits bacterial ribosomal protein synthesis, and this is the only mechanistic basis available here.
+According to the Clinical Pharmacology and Microbiology sections of the US FDA-approved prescribing information for chloramphenicol: "Chloramphenicol is a broad-spectrum antibiotic originally isolated from Streptomyces venezuelae. It inhibits bacterial protein synthesis by interfering with the transfer of activated amino acids from soluble RNA to ribosomes." ([DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3), label version 2024-10-10; accessed 2026-11-19.) Chloramphenicol is known as an antibacterial that inhibits bacterial ribosomal protein synthesis, and this is the only mechanistic basis available here.
 
 The link to diffuse scleroderma is weak. The retrieved papers study collagen gene regulation in scleroderma fibroblasts (the alpha1(I) procollagen promoter, Smad3/Sp1/p300, TGF-beta signalling). In these experiments chloramphenicol seems to appear only through the CAT reporter gene used in assays, not as a therapy. They therefore do not show that the drug acts on scleroderma.
 
@@ -109,6 +109,18 @@ The only supporting literature is laboratory work on collagen regulation in whic
 - Preclinical data on antifibrotic activity at clinically achievable, safe exposures
 - Mechanism of action data and package insert safety information
 - A route and dosing rationale, since the marketed products in New Zealand are ophthalmic only
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

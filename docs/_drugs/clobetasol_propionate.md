@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Clobetasol Propionate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **vulvar inverted follicular ke
 
 ## Why is This Prediction Reasonable?
 
-Clobetasol propionate binds the glucocorticoid receptor (NR3C1), which drives its anti-inflammatory and immunosuppressive effects in the skin. Detailed mechanism-of-action text is not available in the data compiled for this report; the receptor-binding information comes from pharmacology data.
+Clobetasol propionate binds the glucocorticoid receptor (NR3C1), which drives its anti-inflammatory and immunosuppressive effects in the skin. According to the Mechanism of Action section of the US FDA-approved prescribing information for clobetasol propionate: "Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear." ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), label version 2026-11-10; accessed 2026-11-19.) The receptor-binding information comes from pharmacology data.
 
 Inverted follicular keratosis is a benign epithelial skin lesion, related to seborrheic keratosis. The model's prediction appears to rest on this proximity to conditions already treated with the drug. The mechanistic link is weak, however. Topical corticosteroids are not a recognised treatment for a keratotic growth, and the prediction reflects similarity in the model's data rather than demonstrated benefit.
 
@@ -99,6 +99,19 @@ The prediction has a high model score (0.9946) but no supporting trials or publi
 - Medsafe package insert warnings and contraindications
 - Detailed mechanism-of-action data
 - Clinical confirmation that a benign keratotic lesion would plausibly respond to a super-potent steroid, given the risks of skin atrophy with prolonged use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action text is not available in the data compiled for this report; t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

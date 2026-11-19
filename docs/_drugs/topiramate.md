@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 457
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, topiramate acts through several mechanisms: blockade of voltage-gated sodium channels, enhancement of GABA-A activity, antagonism of AMPA/kainate glutamate receptors, and weak carbonic anhydrase inhibition. Its efficacy in epilepsy is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for topiramate: "The precise mechanisms by which topiramate exerts its anticonvulsant and preventive migraine effects are unknown; however, preclinical studies have revealed four properties that may contribute to topiramate's efficacy for epilepsy and the preventive treatment of migraine." ([DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e), label version 2026-10-05; accessed 2026-11-19.) Based on known pharmacology, topiramate acts through several mechanisms: blockade of voltage-gated sodium channels, enhancement of GABA-A activity, antagonism of AMPA/kainate glutamate receptors, and weak carbonic anhydrase inhibition. Its efficacy in epilepsy is well established.
 
 For the top-ranked prediction, **trigeminal nerve neoplasm**, no plausible mechanism links these actions to anti-tumour activity. The very high score (0.9970) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as trigeminal neuralgia, not biological evidence. Symptomatic relief of neuropathic pain is conceivable, but that would be a different indication.
 
@@ -164,13 +164,14 @@ The top prediction (trigeminal nerve neoplasm) has a very high model score but n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 14 licences are currently valid. Five of the main authorizations are listed below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 14 of 14 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Clarification of the current availability of the product in New Zealand, where 14 of 14 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
 
 <!-- review:end log -->
 

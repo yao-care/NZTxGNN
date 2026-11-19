@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 184
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ Some of that literature actually reports etanercept-associated vasculitis, so th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, etanercept is a soluble TNF receptor fusion protein that neutralises TNF-alpha. Its efficacy in rheumatoid arthritis is established, and mechanistically it may be applicable to rheumatoid vasculitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for etanercept: "TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules." ([DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f), label version 2026-05-11; accessed 2026-11-19.) Based on known information, etanercept is a soluble TNF receptor fusion protein that neutralises TNF-alpha. Its efficacy in rheumatoid arthritis is established, and mechanistically it may be applicable to rheumatoid vasculitis.
 
 Rheumatoid vasculitis is a severe extra-articular complication of rheumatoid arthritis, an approved etanercept indication. TNF-alpha is a central driver of the underlying inflammation, so TNF blockade is biologically plausible. A systematic review of biologic therapy in rheumatoid vasculitis exists, but it rests on low-quality observational data.
 
@@ -136,6 +136,19 @@ The available literature is low-quality and includes reports of etanercept-assoc
 - Inflammatory spondylopathy (L1, Proceed with Guardrails) and polyarticular juvenile rheumatoid arthritis (L1, Proceed with Guardrails) largely overlap with approved indications, so label scope should be confirmed before treating them as new uses.
 - Vertebral disease (L4) is too non-specific to support a recommendation.
 - Hypermobility of coccyx and Kummell disease (L5, Hold) have only model-based support.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 134
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Dapsone: predicted new indication Pneumocystosis (evidence level L1). Approved use: Dermatitis herpetiformis, acne, leprosy"
 monitor_inn: "DAPSONE"
 predicted_indications: ["pneumocystosis"]
@@ -56,7 +56,7 @@ with **10 clinical trials** and **20 publications** currently supporting this di
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, dapsone is a sulfone that inhibits dihydropteroate synthase in the folate synthesis pathway. This is the same target as sulfonamides such as sulfamethoxazole. This mechanistic explanation comes from general pharmacology, not from the supplied data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dapsone: "The mechanism of action in Dermatitis herpetiformis has not been established. By the kinetic method in mice, Dapsone is bactericidal as well as bacteriostatic against Mycobacterium leprae." ([DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c), label version 2026-10-01; accessed 2026-11-19.) Based on established pharmacology, dapsone is a sulfone that inhibits dihydropteroate synthase in the folate synthesis pathway. This is the same target as sulfonamides such as sulfamethoxazole. This mechanistic explanation comes from general pharmacology, not from the supplied data.
 
 Dapsone's established uses are leprosy and dermatitis herpetiformis, and it also has anti-inflammatory effects. *Pneumocystis jirovecii* depends on the folate pathway, so a drug that acts on it is mechanistically plausible for PCP. Published reviews describe dapsone as useful for PCP prophylaxis in patients with HIV disease. The high TxGNN score is consistent with this picture.
 
@@ -153,13 +153,14 @@ Four completed Phase 3 trials (700, 400, 290 and 600 participants) evaluate daps
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both authorizations are cancelled, so product availability in New Zealand should be verified" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c) |
 
 <!-- review:end log -->
 

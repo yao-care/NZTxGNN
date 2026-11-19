@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 193
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -58,7 +58,7 @@ Famotidine is an H2-receptor antagonist originally used for gastric and duodenal
 
 ## Why is This Prediction Reasonable?
 
-Famotidine is an H2-receptor antagonist. It blocks histamine's action on stomach parietal cells and so lowers gastric acid secretion. Detailed mechanism-of-action data is not available in the data compiled for this report, so this description reflects the drug's known drug class.
+Famotidine is an H2-receptor antagonist. It blocks histamine's action on stomach parietal cells and so lowers gastric acid secretion. According to the Mechanism of Action section of the US FDA-approved prescribing information for famotidine: "Famotidine is a competitive inhibitor of histamine-2 (H2) receptors. The primary clinically important pharmacologic activity of famotidine is inhibition of gastric secretion. Both the acid concentration and volume of gastric secretion are suppressed by famotidine, while changes in pepsin secretion are proportional to volume output." ([DailyMed: famotidine prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=09ef39a4-c6b3-4395-8211-3f551dc44830), label version 2026-11-11; accessed 2026-11-19.) This description reflects the drug's known drug class.
 
 Duodenogastric reflux is the backflow of duodenal contents (including bile) into the stomach. Famotidine is already used for acid-related stomach and oesophageal disease. Lowering acid should reduce the acid load of refluxed material and may ease symptoms and mucosal irritation. It does not stop bile reflux itself, so any benefit is likely to be symptomatic rather than disease-modifying.
 
@@ -134,6 +134,19 @@ Please refer to the package insert for further safety information.
 - Mechanism of action data
 - Package insert warnings and contraindications (Medsafe)
 - A controlled trial of famotidine in duodenogastric reflux, with symptom or bile-reflux endpoints
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: famotidine prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=09ef39a4-c6b3-4395-8211-3f551dc44830) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

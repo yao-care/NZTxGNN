@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "Clomifene"
 predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "transverse vaginal septum", "longitudinal vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12"]
 description: "Clomifene: predicted new indication 46,XY disorder of sex development due to testicular steroidogenesis defect (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,7 +54,7 @@ Clomifene is a selective estrogen receptor modulator that acts on the hypothalam
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Clomifene is generally understood as a selective estrogen receptor modulator. It targets estrogen receptor alpha (ESR1), which is consistent with the pharmacology data compiled for this report. By blocking estrogen feedback in the hypothalamus, it can raise LH and FSH release.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clomifene: "Clomiphene citrate is capable of interacting with estrogen-receptor-containing tissues, including the hypothalamus, pituitary, ovary, endometrium, vagina, and cervix. It may compete with estrogen for estrogen-receptor-binding sites and may delay replenishment of intracellular estrogen receptors." ([DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e), label version 2025-10-07; accessed 2026-11-19.) Clomifene is generally understood as a selective estrogen receptor modulator. It targets estrogen receptor alpha (ESR1), which is consistent with the pharmacology data compiled for this report. By blocking estrogen feedback in the hypothalamus, it can raise LH and FSH release.
 
 In theory, higher LH stimulation could drive any residual testicular steroid production in a person with a steroidogenesis defect. This is the only mechanistic link available, and it is speculative. If the defect lies in a steroidogenic enzyme or in Leydig cell function, the response would likely be limited. No trials or literature support this link, so it should be treated as a hypothesis rather than an evidence-backed use.
 
@@ -96,6 +96,18 @@ The prediction has a high model score (0.9990), but no clinical trials or public
 - Package insert warnings and contraindications from Medsafe
 - Preclinical or clinical studies that directly examine clomifene in this condition
 - Specialist endocrinology review of whether gonadotropin stimulation is biologically plausible for the specific enzyme or Leydig cell defect involved
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

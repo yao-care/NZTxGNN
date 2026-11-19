@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ Evidence for the top-ranked prediction itself is limited to **19 publications** 
 
 ## Why is This Prediction Reasonable?
 
-Mitoxantrone is a topoisomerase II inhibitor and DNA intercalator. It causes DNA damage in rapidly dividing cells and can induce immunogenic cell death. Detailed mechanism of action data is not available in the compiled drug record, but this mechanism is described in the literature, and mitoxantrone has a similar mode of action to the anthracyclines.
+Mitoxantrone is a topoisomerase II inhibitor and DNA intercalator. It causes DNA damage in rapidly dividing cells and can induce immunogenic cell death. According to the Mechanism of Action section of the US FDA-approved prescribing information for mitoxantrone: "Mitoxantrone, a DNA-reactive agent that intercalates into deoxyribonucleic acid (DNA) through hydrogen bonding, causes crosslinks and strand breaks. Mitoxantrone also interferes with ribonucleic acid (RNA) and is a potent inhibitor of topoisomerase II, an enzyme responsible for uncoiling and repairing damaged DNA." ([DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae), label version 2026-09-01; accessed 2026-11-19.) This mechanism is described in the literature, and mitoxantrone has a similar mode of action to the anthracyclines.
 
 Its established use in AML shows activity against rapidly proliferating malignancies. Historical phase II studies also reported some activity in head and neck, salivary gland and adenoid cystic carcinomas, and in nasopharyngeal carcinoma. This provides a plausible link to upper aerodigestive tract tumours.
 
@@ -177,13 +177,14 @@ The package insert warnings and contraindications could not be obtained for this
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both New Zealand authorisations are cancelled, and no approved indication text is recorded for either" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Both New Zealand authorisations are cancelled, and m" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "given the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled drug record, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 202
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Flecainide: predicted new indication Stroke disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **stroke disorder**, but the link 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, flecainide is a class 1C antiarrhythmic that blocks cardiac sodium channels. Its efficacy in atrial fibrillation is established, and it is used for rhythm control.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for flecainide: "Flecainide has local anesthetic activity and belongs to the membrane stabilizing (Class 1) group of antiarrhythmic agents; it has electrophysiologic effects characteristic of the IC class of antiarrhythmics. Electrophysiology In man, flecainide produces a dose-related decrease in intracardiac conduction in all parts of the heart with the greatest effect on the His-Purkinje system (H-V conduction)." ([DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4), label version 2026-06-11; accessed 2026-11-19.) Based on known information, flecainide is a class 1C antiarrhythmic that blocks cardiac sodium channels. Its efficacy in atrial fibrillation is established, and it is used for rhythm control.
 
 Atrial fibrillation is a major cause of cardioembolic stroke. Any benefit for stroke would therefore come from reducing arrhythmia burden, not from a direct neuroprotective or antithrombotic effect. The only Phase 3 trial tests flecainide for preventing atrial arrhythmia after closure of a patent foramen ovale (PFO), a procedure done to prevent recurrent cryptogenic stroke. That is a post-procedural complication, not stroke itself.
 
@@ -138,12 +138,13 @@ The only Phase 3 trial targets post-PFO-closure arrhythmia, not stroke, and the 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One further cancelled authorization (2567113, Flecainide Controlled Release Teva, long-acting capsule 100 mg) is not shown" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Confirmation of New Zealand availability: the drug is marketed, with 6 valid licences of 6" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4) |
 
 <!-- review:end log -->
 

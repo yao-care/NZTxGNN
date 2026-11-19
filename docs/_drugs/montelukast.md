@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 310
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The data compiled for this report include **17 clinical trials** and **20 public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. The literature describes montelukast as a cysteinyl leukotriene receptor antagonist. Cysteinyl leukotrienes are lipid mediators that drive airway inflammation, and they are released during respiratory viral infection (PMID 24118637).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for montelukast: "The cysteinyl leukotrienes (LTC 4, LTD 4, LTE 4 ) are products of arachidonic acid metabolism and are released from various cells, including mast cells and eosinophils. These eicosanoids bind to cysteinyl leukotriene (CysLT) receptors. […] Montelukast is an orally active compound that binds with high affinity and selectivity to the CysLT 1 receptor (in preference to other pharmacologically important airway receptors, such as the prostanoid, cholinergic, or β-adrenergic receptor)." ([DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842), label version 2025-04-30; accessed 2026-11-19.) The literature describes montelukast as a cysteinyl leukotriene receptor antagonist. Cysteinyl leukotrienes are lipid mediators that drive airway inflammation, and they are released during respiratory viral infection (PMID 24118637).
 
 Airway inflammation involving eosinophils and leukotrienes is also described in some forms of bronchitis. The clinical studies are consistent with this idea. A placebo-controlled study tested montelukast added to inhaled budesonide in non-asthmatic eosinophilic bronchitis (NCT01121016, PMID 25563311), and a Phase 4 study tested it in children with recurrent obstructive bronchitis (NCT04613180).
 
@@ -146,11 +146,12 @@ The TxGNN score is high (0.9995). The best-matched evidence is small controlled 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three single-ingredient licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
 
 <!-- review:end log -->
 

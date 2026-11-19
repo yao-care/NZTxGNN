@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, stroke, cerebrovascular disorder…"
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
@@ -60,7 +60,7 @@ The better-supported predictions are **familial hypercholesterolaemia** (13 tria
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Rosuvastatin is, however, a well-known statin (HMG-CoA reductase inhibitor). It reduces hepatic cholesterol synthesis and upregulates LDL receptors, which lowers LDL cholesterol.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rosuvastatin: "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee), label version 2026-09-23; accessed 2026-11-19.) Rosuvastatin is, however, a well-known statin (HMG-CoA reductase inhibitor). It reduces hepatic cholesterol synthesis and upregulates LDL receptors, which lowers LDL cholesterol.
 
 **CETP deficiency (rank 1):** CETP deficiency raises HDL cholesterol and alters LDL metabolism, so a lipid-pathway link with rosuvastatin is plausible. However, it is generally a benign, or even potentially protective, lipid phenotype that rarely needs treatment, and no trials or literature exist. This is a model prediction only.
 
@@ -188,13 +188,14 @@ Package insert warnings and contraindications were not available for this report
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All eight authorisations are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The remaining three authorisations (Rosuvastatin Viatris 10 mg, 20 mg and 40 mg tablets) are also cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Verification of product availability in New Zealand (8 of 8 licences valid)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
 
 <!-- review:end log -->
 

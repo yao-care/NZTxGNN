@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 2
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Doxazosin: predicted new indication migraine disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Doxazosin is an alpha-1 adrenergic blocker. The TxGNN model predicts it may be u
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the known drug class, doxazosin blocks alpha-1 adrenergic receptors. Adrenergic signalling contributes to vascular tone and sympathetic modulation of vascular and trigeminovascular pathways, which offers a plausible, but unproven, basis for migraine prophylaxis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxazosin: "Benign Prostatic Hyperplasia (BPH) The symptoms associated with benign prostatic hyperplasia (BPH), such as urinary frequency, nocturia, weak stream, hesitancy, and incomplete emptying are related to two components, anatomical (static) and functional (dynamic). The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Studies in normal human subjects have shown that doxazosin competitively antagonized the pressor effects of phenylephrine (an alpha 1 agonist) and the systolic pressor effect of norepinephrine." ([DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82), label version 2023-10-15; accessed 2026-11-19.) Based on the known drug class, doxazosin blocks alpha-1 adrenergic receptors. Adrenergic signalling contributes to vascular tone and sympathetic modulation of vascular and trigeminovascular pathways, which offers a plausible, but unproven, basis for migraine prophylaxis.
 
 The only supporting item is a 1997 article in which 10 patients with migraine were given terazosin or doxazosin. Most reported fewer or milder migraines, but half stopped the drug because of side effects. This is a very small, uncontrolled observation. The high TxGNN score is a computational prediction, not clinical evidence.
 
@@ -101,6 +101,19 @@ The only support is a small 1997 uncontrolled report in which half of the patien
 - Detailed mechanism of action data
 - Controlled clinical data for migraine prophylaxis, with attention to blood pressure effects and tolerability
 - Confirmation of current market and supply status in New Zealand
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

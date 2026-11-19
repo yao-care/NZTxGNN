@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general knowledge, mirtazapine is an antidepressant whose efficacy in depression and anxiety is established. However, the data compiled for this report do not show a mechanistic link to Ohdo syndrome.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mirtazapine: "The mechanism of action of mirtazapine for the treatment of major depressive disorder, is unclear. However, its efficacy could be mediated through its activity as an antagonist at central presynaptic α 2 -adrenergic inhibitory autoreceptors and heteroreceptors and enhancing central noradrenergic and serotonergic activity." ([DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887), label version 2025-08-06; accessed 2026-11-19.) Based on general knowledge, mirtazapine is an antidepressant whose efficacy in depression and anxiety is established. However, the data compiled for this report do not show a mechanistic link to Ohdo syndrome.
 
 Ohdo syndrome is a rare genetic disorder (KAT6B-related) with neurodevelopmental features. No plausible pharmacological rationale linking mirtazapine to its underlying pathology is evident from the available data. The very high TxGNN score (0.9942) reflects a model prediction without clinical corroboration.
 
@@ -128,11 +128,12 @@ All three predicted indications rest on model scores alone (Evidence Level L5), 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "since both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887) |
 
 <!-- review:end log -->
 

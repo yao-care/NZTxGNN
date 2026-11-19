@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 473
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **dermatitis**, with **6 clinic
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ustekinumab is known to be a human antibody that blocks the p40 subunit shared by interleukin-12 (IL-12) and interleukin-23 (IL-23). This inhibits the Th1 and Th17 immune pathways, which drive psoriasis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ustekinumab: "Ustekinumab products are human IgG1κ monoclonal antibodies that bind with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines. IL-12 and IL-23 are naturally occurring cytokines that are involved in inflammatory and immune responses, such as natural killer cell activation and CD4+ T-cell differentiation and activation." ([DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7), label version 2026-11-11; accessed 2026-11-19.) Ustekinumab is known to be a human antibody that blocks the p40 subunit shared by interleukin-12 (IL-12) and interleukin-23 (IL-23). This inhibits the Th1 and Th17 immune pathways, which drive psoriasis.
 
 Atopic dermatitis and other inflammatory skin diseases are mainly Th2-driven, but Th1, Th17 and Th22 activity also contributes, particularly in chronic lesions and in Asian or paediatric patients. This gives a plausible but only partial mechanistic rationale. Clinical efficacy in atopic dermatitis has been inconsistent, and any effect is likely smaller than with biologics that target Th2 pathways directly.
 
@@ -147,12 +147,13 @@ Two completed Phase 2 randomised trials and several reviews test ustekinumab in 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the safety data needed for screening are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-10-31 | Removed: "Clarification of the New Zealand regulatory and supply status, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
 
 <!-- review:end log -->
 

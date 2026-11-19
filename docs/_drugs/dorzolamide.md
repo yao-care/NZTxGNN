@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,7 +54,7 @@ Dorzolamide is a topical carbonic anhydrase inhibitor, originally used to lower 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Dorzolamide is a carbonic anhydrase inhibitor. Its pharmacological targets include carbonic anhydrases 1, 7, 12 and 14. In the eye, it is understood to inhibit carbonic anhydrase II in the ciliary processes, which reduces aqueous humour production and lowers intraocular pressure (IOP). This is established for open-angle glaucoma and ocular hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dorzolamide: "Carbonic anhydrase (CA) is an enzyme found in many tissues of the body including the eye. It catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. […] Dorzolamide hydrochloride ophthalmic solution contains dorzolamide hydrochloride, an inhibitor of human carbonic anhydrase II." ([DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea), label version 2026-11-14; accessed 2026-11-19.) Dorzolamide is a carbonic anhydrase inhibitor. Its pharmacological targets include carbonic anhydrases 1, 7, 12 and 14. In the eye, it is understood to inhibit carbonic anhydrase II in the ciliary processes, which reduces aqueous humour production and lowers intraocular pressure (IOP). This is established for open-angle glaucoma and ocular hypertension.
 
 Primary hereditary glaucoma is also a disease of raised IOP. A drug that reduces aqueous humour production is therefore mechanistically plausible, and this likely explains the high model score. However, hereditary forms often have structural drainage-angle abnormalities, and the data compiled for this report contain no study of dorzolamide in this setting. The score is a computational association, not clinical proof.
 
@@ -125,13 +125,14 @@ The prediction has a very high model score and a plausible IOP-lowering mechanis
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled, so there is currently no marketed product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The only New Zealand authorization is a fixed combination with timolol, and it is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "the licence is cancelled and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
 
 <!-- review:end log -->
 

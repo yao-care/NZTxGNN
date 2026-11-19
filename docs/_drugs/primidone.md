@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PRIMIDONE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ Among the other predicted indications, the reflex seizure types and trigeminal n
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, primidone is an established anticonvulsant. It is metabolized to phenobarbital and PEMA, which act on voltage-gated sodium channels and GABAergic signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for primidone: "MYSOLINE raises electro- or chemoshock seizure thresholds or alters seizure patterns in experimental animals. The mechanism(s) of primidone’s antiepileptic action is not known. Primidone per se has anticonvulsant activity as do its two metabolites, phenobarbital and phenylethylmalonamide (PEMA)." ([DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46), label version 2026-09-10; accessed 2026-11-19.) Based on known information, primidone is an established anticonvulsant. It is metabolized to phenobarbital and PEMA, which act on voltage-gated sodium channels and GABAergic signalling.
 
 For the top-ranked prediction, trigeminal nerve neoplasm, there is no established link between this antiseizure activity and tumour biology. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than a real antineoplastic effect. This prediction should be treated with caution.
 
@@ -125,11 +125,12 @@ The top predicted indication, trigeminal nerve neoplasm, has no clinical trials 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "In New Zealand, the only authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46) |
 
 <!-- review:end log -->
 

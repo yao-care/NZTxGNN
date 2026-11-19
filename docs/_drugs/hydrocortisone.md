@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 224
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -54,7 +54,7 @@ Hydrocortisone is a corticosteroid with anti-inflammatory and immunosuppressive 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, hydrocortisone is a glucocorticoid with anti-inflammatory and immunosuppressive effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydrocortisone: "Hydrocortisone is a glucocorticoid. Glucocorticoids, adrenocortical steroids, cause varied metabolic effects. In addition, they modify the body's immune responses to diverse stimuli." ([DailyMed: Khindivi (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ef80500-8386-40ee-b608-516cd687b376), label version 2026-04-01; accessed 2026-11-19.) Based on general pharmacology, hydrocortisone is a glucocorticoid with anti-inflammatory and immunosuppressive effects.
 
 Alopecia areata is a T-cell-mediated autoimmune disease in which the immune system attacks hair follicles. Corticosteroids are therefore mechanistically plausible, because they can suppress inflammation around the follicle.
 
@@ -132,6 +132,18 @@ The only Phase 3 trial used hydrocortisone 1% as the weaker comparator, so it do
 - Controlled data on hydrocortisone's own efficacy, such as a placebo-controlled or dose-comparison study
 - Package insert warnings and contraindications, to complete safety screening
 - Review of the route of administration (topical vs intralesional) against the products available in New Zealand
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Khindivi (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ef80500-8386-40ee-b608-516cd687b376) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

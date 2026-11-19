@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "AMOXICILLIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Amoxicillin: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **polyclonal hyperviscosity syndr
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Amoxicillin is known as a beta-lactam antibacterial that blocks bacterial cell wall synthesis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for amoxicillin: "Amoxicillin tablets are an antibacterial drug. […] Amoxicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05b9b595-05d9-469f-82a3-c2bc94c50be2), label version 2026-11-12; accessed 2026-11-19.) Amoxicillin is known as a beta-lactam antibacterial that blocks bacterial cell wall synthesis.
 
 Polyclonal hyperviscosity syndrome is a protein- and immunoglobulin-driven disorder of blood flow properties, not a bacterial infection. No plausible pharmacological link between an antibacterial and this condition was identified. The high score most likely reflects proximity in the model's network rather than a pharmacological rationale, and it should not be read as evidence of benefit.
 
@@ -108,6 +108,19 @@ The prediction rests only on a model score. There are no trials or publications 
 - Any direct clinical or preclinical evidence in polyclonal hyperviscosity syndrome
 - A plausible mechanistic hypothesis
 - Mechanism of action data and package insert warnings and contraindications from Medsafe
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05b9b595-05d9-469f-82a3-c2bc94c50be2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
@@ -70,7 +70,7 @@ The data compiled for this report contain more supportive literature for two oth
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, propranolol is a non-selective beta-adrenergic blocker. Its efficacy in hypertension and hypertrophic cardiomyopathy is established, but a mechanistic link to a rare distal myopathy is not supported.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for propranolol: "The mechanism of the antihypertensive effect of propranolol has not been established. Among the factors that may be involved in contributing to the antihypertensive action include: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Propranolol Hydrochloride Er (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5415904b-90da-48e8-9f9e-f86749aa129c), label version 2026-08-27; accessed 2026-11-19.) Based on known information, propranolol is a non-selective beta-adrenergic blocker. Its efficacy in hypertension and hypertrophic cardiomyopathy is established, but a mechanistic link to a rare distal myopathy is not supported.
 
 For the top-ranked prediction, **distal myopathy, Tateyama type** (score 0.9940), no plausible link between beta-adrenergic blockade and this rare condition can be drawn from the supplied data. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Note also that the knowledge graph lists myopathy and muscular disease among propranolol's contraindication-type associations, which points in the opposite direction. The same applies to the second-ranked prediction, congenital myopathy with excess of thin filaments (score 0.9930).
 
@@ -175,12 +175,13 @@ The top-ranked prediction (distal myopathy, Tateyama type) rests on a model scor
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five licences are valid; propranolol is marketed in this country with 5 valid licences of 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since propranolol is marketed in New Zealand with 5 valid licences of 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Propranolol Hydrochloride Er (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5415904b-90da-48e8-9f9e-f86749aa129c) |
 
 <!-- review:end log -->
 

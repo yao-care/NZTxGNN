@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the licence records compiled for this report (rivaroxab…"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -62,7 +62,7 @@ The prediction rests on model output alone (**evidence level L5**).
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Rivaroxaban is known as a direct Factor Xa inhibitor, so it reduces thrombin generation and clot formation. This general pharmacology is background knowledge, not something the compiled data confirms.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rivaroxaban: "XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610), label version 2026-09-10; accessed 2026-11-19.) Rivaroxaban is known as a direct Factor Xa inhibitor, so it reduces thrombin generation and clot formation. This general pharmacology is background knowledge, not something the compiled data confirms.
 
 The link to rheumatoid arthritis (RA) is indirect. Autoimmune disease is associated with a thrombo-inflammatory state, with increased thrombin generation and crosstalk between coagulation and inflammation. Patients with RA also have a higher risk of venous thromboembolism. Rivaroxaban could address the thrombotic component of this picture, but not RA disease activity itself.
 
@@ -136,13 +136,14 @@ The prediction has the highest model score but no clinical trials and no literat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "he licence records compiled for this report do not list an approved indication text, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "with all three licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and the approved indications from the licence records , where all 3 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
 
 <!-- review:end log -->
 

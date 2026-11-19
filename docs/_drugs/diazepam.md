@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Diazepam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ No clinical trials are registered for this prediction. The compiled literature h
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Diazepam is a benzodiazepine and a positive allosteric modulator of GABA-A receptors. By strengthening inhibitory GABA signalling, it produces sedative and hypnotic effects, which is a plausible, well-understood basis for treating insomnia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diazepam: "The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6), label version 2026-10-06; accessed 2026-11-19.) Diazepam is a benzodiazepine and a positive allosteric modulator of GABA-A receptors. By strengthening inhibitory GABA signalling, it produces sedative and hypnotic effects, which is a plausible, well-understood basis for treating insomnia.
 
 Other benzodiazepines such as triazolam have documented hypnotic efficacy. Diazepam, however, has a long half-life and an active metabolite (nordiazepam). This raises concerns about next-day sedation, tolerance, dependence and rebound insomnia after withdrawal. The supplied literature is mostly about the drug class or tangential topics (rebound insomnia, a triazolam review, herbal medicine), so the mechanistic link is reasonable but not proven for diazepam itself.
 
@@ -113,6 +113,18 @@ The mechanism is plausible and one double-blind trial exists, but it is a 1981 c
 - Detailed mechanism of action data
 - Package insert warnings and contraindications
 - A risk assessment for dependence, next-day sedation and use in older adults
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

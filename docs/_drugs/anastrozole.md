@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ANASTROZOLE"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Anastrozole: predicted new indication neuroblastoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ There are **no clinical trials** and **no publications** directly studying this 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Anastrozole is known as an aromatase inhibitor, which lowers oestrogen production. Whether this mechanism could apply to neuroblastoma is not established in the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for anastrozole: "The growth of many cancers of the breast is stimulated or maintained by estrogens. In postmenopausal women, estrogens are mainly derived from the action of the aromatase enzyme, which converts adrenal androgens (primarily androstenedione and testosterone) to estrone and estradiol. […] Anastrozole is a selective non-steroidal aromatase inhibitor." ([DailyMed: Arimidex (anastrozole) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de), label version 2026-03-02; accessed 2026-11-19.) Anastrozole is known as an aromatase inhibitor, which lowers oestrogen production. Whether this mechanism could apply to neuroblastoma is not established in the data compiled for this report.
 
 Neuroblastoma is a childhood tumour arising from neural crest cells and is not typically driven by hormones. A possible link through hormone or aromatase-related signalling is speculative and has no supporting evidence here. The high score is a computational prediction only, and the mechanistic rationale is weak.
 
@@ -109,6 +109,19 @@ The prediction is supported only by the model score. There are no trials or publ
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data
 - Classification of the severity of the listed drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arimidex (anastrozole) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

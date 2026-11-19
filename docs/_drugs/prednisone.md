@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 379
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L3). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ The data compiled for this report include **no registered clinical trials** and 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, prednisone is a systemic glucocorticoid with broad anti-inflammatory and immunosuppressive activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prednisone: "Naturally occurring corticosteroids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs, such as prednisone, are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a), label version 2026-09-23; accessed 2026-11-19.) Based on known pharmacology, prednisone is a systemic glucocorticoid with broad anti-inflammatory and immunosuppressive activity.
 
 Alopecia areata is a T-cell-mediated autoimmune attack on hair follicles, with collapse of the follicle's immune privilege. Glucocorticoids suppress T-cell activation and pro-inflammatory cytokine production, which fits the aim of reducing follicular inflammation.
 
@@ -144,11 +144,12 @@ The evidence includes two randomised trials and several cohort and case series i
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four licences are valid single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a) |
 
 <!-- review:end log -->
 

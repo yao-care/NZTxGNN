@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ The evidence level is **L3**: there is no randomized trial, and the support come
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, dasatinib inhibits SRC-family kinases, as well as KIT and PDGFR.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dasatinib: "Dasatinib, at nanomolar concentrations, inhibits the following kinases: BCR-ABL, SRC family (SRC, LCK, YES, FYN), c-KIT, EPHA2, and PDGFRβ. Based on modeling studies, dasatinib is predicted to bind to multiple conformations of the ABL kinase." ([DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df), label version 2026-10-16; accessed 2026-11-19.) Based on the published literature, dasatinib inhibits SRC-family kinases, as well as KIT and PDGFR.
 
 In Ewing sarcoma cell lines, SRC and the FAK-Src axis drive invadopodia formation, migration and invasion. Laboratory studies show that dasatinib has antiproliferative and antimigratory activity in Ewing sarcoma and other sarcoma cell lines (PMID 18202781, 17363602, 27566104, 31521948). This gives a plausible mechanistic link.
 
@@ -135,11 +135,12 @@ Mechanistic and preclinical support for SRC inhibition in Ewing sarcoma is reaso
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
 
 <!-- review:end log -->
 

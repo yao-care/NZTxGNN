@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "ATORVASTATIN"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ The data compiled for this report include **13 clinical trials** and **20 public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Atorvastatin is a member of the statin class, which lowers LDL cholesterol by blocking cholesterol synthesis in the liver.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atorvastatin: "Atorvastatin is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A to mevalonate, a precursor of sterols, including cholesterol. In animal models, atorvastatin lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL; atorvastatin also reduces LDL production and the number of LDL particles." ([DailyMed: atorvastatin calcium prescribing information, Accord Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e06b20d-cc5d-46eb-991b-5972248de3af), label version 2026-11-06; accessed 2026-11-19.) Atorvastatin is a member of the statin class, which lowers LDL cholesterol by blocking cholesterol synthesis in the liver.
 
 In people with HIV, the rationale rests on three points:
 - **Lipid lowering:** Protease-inhibitor-based antiretroviral therapy often raises cholesterol and triglycerides, and statins are a standard way to treat this.
@@ -117,6 +117,19 @@ Several randomized and early-phase studies have tested atorvastatin in people wi
 - Mechanism-of-action data
 - Results from larger, adequately powered trials (for example, the 320-patient atorvastatin vs rosuvastatin study) showing clinical benefit
 - A dosing and monitoring plan for patients on protease inhibitors or boosted regimens
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: atorvastatin calcium prescribing information, Accord Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e06b20d-cc5d-46eb-991b-5972248de3af) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

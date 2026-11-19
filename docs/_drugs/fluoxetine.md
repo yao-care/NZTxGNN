@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Fluoxetine: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Relations recorded in the knowledge graph: major depressive disorder…"
 ---
 
@@ -60,7 +60,7 @@ The TxGNN model predicts it may be useful for **schizoid personality disorder**,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Fluoxetine is an SSRI whose main target is the serotonin transporter (SERT), and it also shows activity at several serotonin receptors. Its use in depression and anxiety-spectrum conditions is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluoxetine: "Studies at clinically relevant doses in man have demonstrated that fluoxetine blocks the uptake of serotonin into human platelets. Studies in animals also suggest that fluoxetine is a much more potent uptake inhibitor of serotonin than of norepinephrine." ([DailyMed: fluoxetine prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=620ecf00-5473-4420-afd1-94b5b38e7301), label version 2026-11-12; accessed 2026-11-19.) Fluoxetine is an SSRI whose main target is the serotonin transporter (SERT), and it also shows activity at several serotonin receptors. Its use in depression and anxiety-spectrum conditions is well established.
 
 Serotonergic modulation could plausibly help with mood, anxiety or obsessional symptoms that sometimes accompany cluster A personality disorders, which include schizoid, paranoid and schizotypal types. However, there is no disorder-specific mechanistic evidence for schizoid personality disorder itself. The high score appears to be shared across several personality disorder nodes, since three other personality disorders carry an identical score. It should be read as a model-level association, not as evidence of benefit.
 
@@ -135,11 +135,12 @@ The prediction rests on a model score alone. There are no registered trials and 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are valid single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fluoxetine prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=620ecf00-5473-4420-afd1-94b5b38e7301) |
 
 <!-- review:end log -->
 

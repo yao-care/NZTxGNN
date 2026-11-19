@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, olopatadine is a selective histamine H1 receptor antagonist with mast cell stabilizing activity. Its efficacy in allergic and atopic conjunctivitis, including the papillary and vernal forms, is established. Mechanistically it may be applicable to rosacea conjunctivitis, but this has not been confirmed.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olopatadine: "Olopatadine is a histamine H 1 receptor antagonist. The antihistaminic activity of olopatadine has been documented in isolated tissues, animal models, and humans." ([DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85), label version 2026-09-15; accessed 2026-11-19.) Based on known information, olopatadine is a selective histamine H1 receptor antagonist with mast cell stabilizing activity. Its efficacy in allergic and atopic conjunctivitis, including the papillary and vernal forms, is established. Mechanistically it may be applicable to rosacea conjunctivitis, but this has not been confirmed.
 
 Rosacea-associated conjunctivitis (ocular rosacea) is driven mainly by meibomian gland dysfunction, tear film instability and inflammation. The inflammation involves innate immune activation, MMP-9 and Demodex-related mechanisms, rather than classical IgE-mediated histamine release. A plausible but unproven overlap exists through mast cell involvement and ocular surface inflammation, which could give symptomatic benefit for itching or redness. It is unlikely to address the underlying causes.
 
@@ -115,11 +115,12 @@ The prediction has a high model score but no supporting clinical trials or publi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and the only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
 
 <!-- review:end log -->
 

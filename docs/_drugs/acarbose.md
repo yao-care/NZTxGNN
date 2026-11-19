@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ACARBOSE"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Acarbose: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ There are **no clinical trials and no publications** on this disease, so the pre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Acarbose is generally understood to act locally in the gut, inhibiting alpha-glucosidase enzymes and so reducing the absorption of carbohydrates after meals.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for acarbose: "In contrast to sulfonylureas, Acarbose Tablets do not enhance insulin secretion. The antihyperglycemic action of acarbose results from a competitive, reversible inhibition of pancreatic alpha-amylase and membrane-bound intestinal alpha-glucoside hydrolase enzymes." ([DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a), label version 2026-08-11; accessed 2026-11-19.) Acarbose is generally understood to act locally in the gut, inhibiting alpha-glucosidase enzymes and so reducing the absorption of carbohydrates after meals.
 
 Stiff person syndrome is a rare autoimmune neurological disorder, typically linked to anti-GAD antibodies, that causes muscle stiffness and spasms. Nothing connects the action of acarbose to this autoimmune mechanism. The high score most likely reflects associations between diabetes and GAD autoimmunity in the model's training data rather than a therapeutic rationale. The same score appears for focal stiff limb syndrome, a related variant, which suggests the result comes from shared model associations rather than separate evidence. The prediction is therefore not mechanistically supported at this time.
 
@@ -99,6 +99,19 @@ The prediction has no supporting trials or publications, and no plausible mechan
 - Any preclinical or clinical studies that directly address stiff person syndrome
 - Detailed mechanism-of-action data for acarbose
 - Package insert warnings and contraindications from Medsafe
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

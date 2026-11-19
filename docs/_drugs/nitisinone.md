@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
 description: "Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The prediction is a computational signal only.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. From general knowledge, nitisinone inhibits 4-hydroxyphenylpyruvate dioxygenase (HPPD), an enzyme in tyrosine breakdown. Blocking it prevents the build-up of toxic downstream metabolites such as succinylacetone in hereditary tyrosinemia type 1.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nitisinone: "Nitisinone is a competitive inhibitor of 4-hydroxyphenyl-pyruvate dioxygenase, an enzyme upstream of fumarylacetoacetate hydrolase (FAH) in the tyrosine catabolic pathway. By inhibiting the normal catabolism of tyrosine in patients with HT-1, nitisinone prevents the accumulation of the catabolic intermediates maleylacetoacetate and fumarylacetoacetate." ([DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526), label version 2026-10-21; accessed 2026-11-19.) From general knowledge, nitisinone inhibits 4-hydroxyphenylpyruvate dioxygenase (HPPD), an enzyme in tyrosine breakdown. Blocking it prevents the build-up of toxic downstream metabolites such as succinylacetone in hereditary tyrosinemia type 1.
 
 Renal tubular dysfunction (a Fanconi-type picture) is a feature of hereditary tyrosinemia type 1. This is probably why the model links the two conditions. However, that kidney involvement is caused by the toxic metabolites and is already covered by the original indication. No separate mechanistic rationale has been established for other forms of renal tubular acidosis, so the high score (0.9996) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of therapeutic benefit.
 
@@ -115,11 +115,12 @@ The prediction rests on a model score alone. There are no clinical trials or sup
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "since all three New Zealand authorisations are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526) |
 
 <!-- review:end log -->
 

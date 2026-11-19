@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 5
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Deferasirox is an oral iron chelator. The TxGNN model predicts it may be relevan
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for deferasirox is not available in the data compiled for this report. Based on known information, deferasirox is an iron chelator, so its pharmacology centres on binding and removing excess iron.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for deferasirox: "Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox." ([DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85), label version 2026-01-28; accessed 2026-11-19.) Based on known information, deferasirox is an iron chelator, so its pharmacology centres on binding and removing excess iron.
 
 One preclinical paper (PMID 34550543, 2021) reports that iron held in endolysosomes restricts Tat-mediated HIV-1 LTR transactivation by increasing Tat oligomerization and β-catenin expression. This suggests iron homeostasis can influence HIV-1 transcription. However, the direction of effect for chelation is not established: removing iron could either help or hinder viral transcription. No clinical data for deferasirox in HIV were found, so this link is a hypothesis for laboratory investigation.
 
@@ -103,6 +103,19 @@ The prediction score is high, but there are no clinical trials and the only mech
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism-of-action data
 - A safety assessment covering renal, hepatic and blood-count risks and interactions with antiretroviral regimens
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for deferasirox is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

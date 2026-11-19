@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
 description: "Prednisolone Acetate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ Among the other predicted conditions, papillary conjunctivitis and vernal conjun
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, prednisolone acetate is a topical corticosteroid. Its efficacy in ocular inflammation, including uveitis and conjunctivitis, is the basis of its original indications. Mechanistically, it may be applicable to chronic follicular conjunctivitis because corticosteroids reduce inflammation on the ocular surface.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prednisolone acetate: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), label version 2025-06-03; accessed 2026-11-19.) Based on known information, prednisolone acetate is a topical corticosteroid. Its efficacy in ocular inflammation, including uveitis and conjunctivitis, is the basis of its original indications. Mechanistically, it may be applicable to chronic follicular conjunctivitis because corticosteroids reduce inflammation on the ocular surface.
 
 The original indications already include conjunctivitis and blepharoconjunctivitis, so the predicted indication is close to the existing ones. This closeness is why the prediction is plausible, but it also means the model may simply be extending known uses rather than finding a new one. No trial or publication directly tests prednisolone acetate in chronic follicular conjunctivitis.
 
@@ -163,11 +163,12 @@ The top prediction, chronic follicular conjunctivitis, rests on the model score 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "the cancelled licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Emicizumab: predicted new indication pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -60,7 +60,7 @@ The TxGNN model predicts it may be relevant to **pseudo-von Willebrand disease**
 
 ## Why is This Prediction Reasonable?
 
-Emicizumab bridges activated factor IX and factor X, replacing the cofactor function of activated factor VIII in the intrinsic tenase complex. Detailed mechanism-of-action data were not available in the data compiled for this report, but this bridging role is described in the pharmacology information.
+Emicizumab bridges activated factor IX and factor X, replacing the cofactor function of activated factor VIII in the intrinsic tenase complex. According to the Mechanism of Action section of the US FDA-approved prescribing information for emicizumab: "HEMLIBRA bridges activated factor IX and factor X to restore the function of missing activated factor VIII that is needed for effective hemostasis." ([DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071), label version 2025-07-11; accessed 2026-11-19.) This bridging role is described in the pharmacology information.
 
 Pseudo-von Willebrand disease, however, is a platelet-type disorder. It is caused by a gain-of-function change in the platelet GP1BA receptor, which increases binding to von Willebrand factor. The primary defect lies in the platelet–VWF interaction, not in factor VIII function. No plausible mechanistic link to emicizumab is evident.
 
@@ -120,6 +120,19 @@ No clinical trials or publications address pseudo-von Willebrand disease, and th
 - A plausible mechanistic rationale linking the platelet–VWF defect to emicizumab's tenase-complex mechanism
 - Package insert warnings and contraindications for a formal safety review
 - Detailed mechanism-of-action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

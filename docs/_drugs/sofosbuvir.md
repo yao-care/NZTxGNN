@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 427
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ The mechanistic basis is weak, and the data point to HBV reactivation risk durin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sofosbuvir is a nucleotide analogue inhibitor of the HCV NS5B RNA-dependent RNA polymerase, and its efficacy in hepatitis C is well established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for sofosbuvir: "Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator." ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), label version 2024-12-26; accessed 2026-11-19.) Based on known information, sofosbuvir is a nucleotide analogue inhibitor of the HCV NS5B RNA-dependent RNA polymerase, and its efficacy in hepatitis C is well established.
 
 Mechanistically, however, the prediction is **not well supported**. HBV is a DNA virus that replicates through a reverse transcriptase, and sofosbuvir does not target that enzyme. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -136,11 +136,12 @@ Sofosbuvir has no plausible mechanism against HBV, and the available evidence (L
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of the status of the cancelled New Zealand authorization" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
 
 <!-- review:end log -->
 

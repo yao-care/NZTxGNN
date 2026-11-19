@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 359
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: predicted new indication Ectomesenchymoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ This is best understood as a receptor-subtype refinement of the existing HER2-po
 
 ## Why is This Prediction Reasonable?
 
-Pertuzumab binds the extracellular dimerization domain (subdomain II) of HER2 and blocks its pairing with HER3 and EGFR. This dampens downstream PI3K/AKT and MAPK signalling. Detailed mechanism-of-action data was not available in the data compiled for this report, so this description is based on established knowledge of pertuzumab.
+Pertuzumab binds the extracellular dimerization domain (subdomain II) of HER2 and blocks its pairing with HER3 and EGFR. This dampens downstream PI3K/AKT and MAPK signalling. According to the Mechanism of Action section of the US FDA-approved prescribing information for pertuzumab: "Pertuzumab targets the extracellular dimerization domain (Subdomain II) of the human epidermal growth factor receptor 2 protein (HER2) and, thereby, blocks ligand-dependent heterodimerization of HER2 with other HER family members, including EGFR, HER3, and HER4. As a result, pertuzumab inhibits ligand-initiated intracellular signaling through two major signal pathways, mitogen-activated protein (MAP) kinase, and phosphoinositide 3-kinase (PI3K)." ([DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff), label version 2026-04-30; accessed 2026-11-19.) This description is based on established knowledge of pertuzumab.
 
 Roughly half of HER2-positive breast cancers also express oestrogen and/or progesterone receptors (HR+/HER2+ disease). Because pertuzumab acts on HER2 itself, it applies to these tumours as well. The "PR-positive" label therefore describes a subset of the already-approved HER2-positive population. Crosstalk between the hormone-receptor and HER2 pathways is also the rationale for combining anti-HER2 therapy with endocrine therapy in this group.
 
@@ -154,11 +154,12 @@ Pertuzumab has a strong evidence base in HER2-positive breast cancer, including 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
 
 <!-- review:end log -->
 

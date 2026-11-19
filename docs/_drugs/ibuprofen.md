@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Ibuprofen is generally known as a non-selective cyclooxygenase (COX) inhibitor with anti-inflammatory and analgesic effects, and its use in arthritis and musculoskeletal pain is well established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ibuprofen: "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) that possesses anti-inflammatory, analgesic and antipyretic activity. Its mode of action, like that of other NSAIDs, is not completely understood, but may be related to prostaglandin synthetase inhibition." ([DailyMed: ibuprofen prescribing information, NuCare Pharmaceuticals,Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=141b7964-cce6-74e4-e063-6294a90af746), label version 2024-03-20; accessed 2026-11-19.) Ibuprofen is generally known as a non-selective cyclooxygenase (COX) inhibitor with anti-inflammatory and analgesic effects, and its use in arthritis and musculoskeletal pain is well established.
 
 Hunter-Thompson type acromesomelic dysplasia is a rare skeletal disorder caused by loss-of-function variants in *GDF5*, which impair cartilage formation and limb growth. No plausible link between COX inhibition and this GDF5/BMP signalling defect is evident. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as musculoskeletal indications like arthropathy and osteoarthritis, not biological evidence.
 
@@ -132,11 +132,12 @@ The prediction is supported only by the TxGNN model score, with no clinical tria
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three authorizations are valid, so valid ibuprofen products are currently registered and marketed in the data compiled for this report" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ibuprofen prescribing information, NuCare Pharmaceuticals,Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=141b7964-cce6-74e4-e063-6294a90af746) |
 
 <!-- review:end log -->
 

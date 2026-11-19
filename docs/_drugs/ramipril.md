@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **pulmonary hypertension owing to 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ramipril is known to be an angiotensin-converting enzyme (ACE) inhibitor, so it reduces angiotensin II production and lowers vascular tone through the renin-angiotensin system (RAS). Its efficacy in hypertension and in stroke prevention is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ramipril: "Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59), label version 2026-11-11; accessed 2026-11-19.) Ramipril is known to be an angiotensin-converting enzyme (ACE) inhibitor, so it reduces angiotensin II production and lowers vascular tone through the renin-angiotensin system (RAS). Its efficacy in hypertension and in stroke prevention is established.
 
 The link to pulmonary hypertension is that RAS activity may also affect the tone and remodelling of pulmonary blood vessels. The most relevant study is a 1996 rat experiment (PMID 9200213), in which ramipril given during three weeks of chronic hypoxia lowered baseline perfusion pressure in the lungs and attenuated the effects of hypoxia on pulmonary vessels. This fits a RAS-mediated mechanism.
 
@@ -148,13 +148,14 @@ Other predictions in the list were also reviewed. None has trial support:
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four licences are valid, and the records contain no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "In addition, ramipril is marketed in New Zealand, with 4 valid licences out of 4" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Clarification of the licensing situation, since all four New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
 
 <!-- review:end log -->
 

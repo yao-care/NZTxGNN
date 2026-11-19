@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "SILTUXIMAB"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
 description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Siltuximab is a chimeric monoclonal antibody that blocks interleukin-6 (IL-6). Detailed mechanism of action data is not available in the data compiled for this report. However, its class is well known, and its efficacy in Castleman disease, a lymphoproliferative disorder driven by IL-6, is the basis of its original use.
+Siltuximab is a chimeric monoclonal antibody that blocks interleukin-6 (IL-6). According to the Mechanism of Action section of the US FDA-approved prescribing information for siltuximab: "Siltuximab binds human IL-6 and prevents the binding of IL-6 to both soluble and membrane-bound IL-6 receptors. IL-6 has been shown to be involved in diverse normal physiologic processes such as induction of immunoglobulin secretion." ([DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b), label version 2024-08-27; accessed 2026-11-19.) However, its class is well known, and its efficacy in Castleman disease, a lymphoproliferative disorder driven by IL-6, is the basis of its original use.
 
 The link between Castleman disease and extracutaneous mastocytoma is weak. IL-6 may play a role in mast cell biology, and IL-6 is elevated in mastocytosis, but mast cell neoplasms are driven mainly by other pathways (such as KIT mutations). No direct mechanistic link is supported by the available data, so this connection is speculative.
 
@@ -108,11 +108,12 @@ The prediction is supported only by the model score, with no clinical trials or 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of availability, since both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b) |
 
 <!-- review:end log -->
 

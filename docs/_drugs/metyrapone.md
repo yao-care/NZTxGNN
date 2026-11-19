@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Metyrapone: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not stated in the New Zealand license record (clinical use: diagnosti…"
 monitor_inn: "METYRAPONE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From the pharmacology data, metyrapone targets CYP11B1 (11-beta-hydroxylase) and CYP11B2 (aldosterone synthase), reducing cortisol synthesis. This is the basis for its use in testing pituitary-adrenal function and in Cushing's syndrome.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metyrapone: "The pharmacological effect of Metopirone is to reduce cortisol and corticosterone production by inhibiting the 11-beta-hydroxylation reaction in the adrenal cortex. Removal of the strong inhibitory feedback mechanism exerted by cortisol results in an increase in adrenocorticotropic hormone (ACTH) production by the pituitary." ([DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f), label version 2026-05-19; accessed 2026-11-19.) From the pharmacology data, metyrapone targets CYP11B1 (11-beta-hydroxylase) and CYP11B2 (aldosterone synthase), reducing cortisol synthesis. This is the basis for its use in testing pituitary-adrenal function and in Cushing's syndrome.
 
 The predicted indication has no established link to this mechanism. Malignant hyperthermia is driven mainly by dysregulated calcium release through the skeletal muscle ryanodine receptor (RYR1). The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -131,11 +131,12 @@ The prediction is supported only by the TxGNN model score (L5). There are no cli
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "he drug is marketed in New Zealand (1 valid licence of 1), and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f) |
 
 <!-- review:end log -->
 

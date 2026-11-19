@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
 description: "Remdesivir: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -62,7 +62,7 @@ The second-ranked prediction, **HIV infectious disease**, has **1 clinical trial
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. From general pharmacology, remdesivir is a nucleotide analog prodrug that inhibits viral RNA-dependent RNA polymerase, giving it activity against several RNA viruses such as SARS-CoV-2 and Ebola.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for remdesivir: "Remdesivir is an antiviral drug with activity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). […] Remdesivir is an inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), which is essential for viral replication. Remdesivir is an adenosine nucleotide prodrug that distributes into cells where it is metabolized to a nucleoside monophosphate intermediate by carboxyesterase 1 and/or cathepsin A, depending upon the cell type." ([DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca), label version 2026-07-29; accessed 2026-11-19.) From general pharmacology, remdesivir is a nucleotide analog prodrug that inhibits viral RNA-dependent RNA polymerase, giving it activity against several RNA viruses such as SARS-CoV-2 and Ebola.
 
 Multiple endocrine neoplasia is a hereditary tumour syndrome (for example, driven by MEN1 or RET mutations) and is not caused by viral replication. No credible mechanistic link to an antiviral polymerase inhibitor could be identified. The high score (0.995, rank 4483) appears to be a TxGNN model (deep learning) artefact rather than a meaningful signal.
 
@@ -152,13 +152,14 @@ The top prediction, multiple endocrine neoplasia, rests solely on a TxGNN model 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Remdesivir's only New Zealand licence is cancelled, and label safety information could not be obtained" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The New Zealand licence record compiled for this report does not state an approved indication" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "the cancelled licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
 
 <!-- review:end log -->
 

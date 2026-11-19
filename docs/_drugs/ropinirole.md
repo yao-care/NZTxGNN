@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 412
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ with **no registered clinical trials** but **8 publications** currently supporti
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ropinirole is a dopamine agonist acting on D2 and D3 receptors. Its efficacy in RLS and Parkinson disease is established, and mechanistically it may be applicable to ADHD.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ropinirole: "Ropinirole is a non-ergoline dopamine agonist. The precise mechanism of action of ropinirole as a treatment for Parkinson’s disease is unknown, although it is thought to be related to its ability to stimulate dopamine D 2 receptors within the caudate-putamen in the brain." ([DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da), label version 2026-11-06; accessed 2026-11-19.) Based on known information, ropinirole is a dopamine agonist acting on D2 and D3 receptors. Its efficacy in RLS and Parkinson disease is established, and mechanistically it may be applicable to ADHD.
 
 ADHD involves dopaminergic dysregulation, and it frequently co-occurs with RLS, an established ropinirole indication. A shared dopaminergic and iron-metabolism pathway plausibly links the two conditions. This link is largely inferred from the RLS comorbidity. Direct efficacy of ropinirole in ADHD has not been firmly established.
 
@@ -127,11 +127,12 @@ The TxGNN score is very high and a recent randomized trial exists, but there are
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "the drug is marketed, and all four New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 251
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **acne**, but the supporting ev
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, ketoconazole inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which disrupts the fungal cell membrane. At higher doses it also inhibits human steroidogenic enzymes (CYP17A1, CYP11A1), lowering androgen synthesis. This mechanistic reasoning is inferred, not drawn from the supplied data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ketoconazole: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), label version 2025-11-18; accessed 2026-11-19.) Based on general pharmacology, ketoconazole inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which disrupts the fungal cell membrane. At higher doses it also inhibits human steroidogenic enzymes (CYP17A1, CYP11A1), lowering androgen synthesis. This mechanistic reasoning is inferred, not drawn from the supplied data.
 
 Acne is partly driven by androgen-stimulated sebum production, so lowering androgens could plausibly help. Ketoconazole is also active against *Malassezia* (*Pityrosporum*) yeasts, which are linked to seborrheic dermatitis and to acne-like follicular eruptions that are often misdiagnosed as acne vulgaris. Laboratory studies further report that ketoconazole inhibits the growth and lipase activity of *Cutibacterium (Propionibacterium) acnes*, the bacterium implicated in acne, and has mild anti-inflammatory effects.
 
@@ -147,12 +147,13 @@ The evidence is limited to model prediction, laboratory studies, reviews and one
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five licences are valid, and no approved indication text is recorded for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Confirmation of whether a topical product could be supplied in New Zealand, since all five current licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->
 

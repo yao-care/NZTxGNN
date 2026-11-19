@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "FLUOROMETHOLONE"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
 description: "Fluorometholone: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ Among the other top-ranked predictions, only **punctate epithelial keratoconjunc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, fluorometholone is a synthetic glucocorticoid that acts on the glucocorticoid receptor (NR3C1). Its efficacy in ocular inflammation is established, so a general anti-inflammatory effect is mechanistically plausible in other inflammatory conditions.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for fluorometholone: "Corticosteroids inhibit the inflammatory response to a variety of inciting agents and probably delay or slow healing. They inhibit the edema, fibrin deposition, capillary dilation, leukocyte migration, capillary proliferation, fibroblast proliferation, deposition of collagen, and scar formation associated with inflammation. […] In clinical studies of documented steroid-responders, fluorometholone demonstrated a significantly longer average time to produce a rise in intraocular pressure than dexamethasone phosphate; however, in a small percentage of individuals, a significant rise in intraocular pressure occurred within one week." ([DailyMed: Fluorometholone Ophthalmic Suspension (fluorometholone) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7988a3b-e432-4d42-a8d2-63ca017e6a01), label version 2026-08-12; accessed 2026-11-19.) Based on known pharmacology, fluorometholone is a synthetic glucocorticoid that acts on the glucocorticoid receptor (NR3C1). Its efficacy in ocular inflammation is established, so a general anti-inflammatory effect is mechanistically plausible in other inflammatory conditions.
 
 For postinfectious vasculitis, however, the link is weak. It is a systemic condition, whereas fluorometholone is formulated only as 0.1% eye drops, which give minimal systemic exposure. No clinical or literature evidence supports its use here, and no suitable route of administration has been identified.
 
@@ -155,13 +155,14 @@ The prediction for postinfectious vasculitis is based on the model score alone (
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both authorizations are cancelled, and the records contain no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "why the licences were cancelled and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluorometholone Ophthalmic Suspension (fluorometholone) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7988a3b-e432-4d42-a8d2-63ca017e6a01) |
 
 <!-- review:end log -->
 

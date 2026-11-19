@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Anagrelide"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Anagrelide: predicted new indication reactive thrombocytosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **reactive thrombocytosis**, bu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general literature knowledge, anagrelide lowers platelet count by inhibiting megakaryocyte maturation and differentiation. This is reported to involve PDE3 inhibition and suppression of megakaryocyte transcription factors such as GATA-1 and FOG-1. A PDE3A interaction is also recorded in the pharmacology data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for anagrelide: "The precise mechanism by which anagrelide reduces blood platelet count is unknown. In cell culture studies, anagrelide suppressed expression of transcription factors including GATA-1 and FOG-1 required for megakaryocytopoiesis, ultimately leading to reduced platelet production." ([DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219), label version 2026-04-08; accessed 2026-11-19.) From general literature knowledge, anagrelide lowers platelet count by inhibiting megakaryocyte maturation and differentiation. This is reported to involve PDE3 inhibition and suppression of megakaryocyte transcription factors such as GATA-1 and FOG-1. A PDE3A interaction is also recorded in the pharmacology data.
 
 Mechanistically, lowering platelets could work in any raised-platelet state. The model's high score most likely reflects similarity to clonal thrombocytosis conditions such as essential thrombocythaemia.
 
@@ -122,6 +122,19 @@ No clinical trial or study directly examines anagrelide in reactive thrombocytos
 - Package insert warnings and contraindications from Medsafe
 - Confirmed mechanism of action data from DrugBank
 - A risk-benefit assessment, given cardiovascular and other safety concerns in the label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

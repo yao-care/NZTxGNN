@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 352
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **Liposarcoma**. This is the hi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pazopanib is a multi-target inhibitor of VEGFR, PDGFR and c-Kit. It is established in renal cell carcinoma and non-adipocytic soft tissue sarcoma, and mechanistically it may be applicable to liposarcoma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pazopanib: "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors." ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7), label version 2025-12-16; accessed 2026-11-19.) Based on known information, pazopanib is a multi-target inhibitor of VEGFR, PDGFR and c-Kit. It is established in renal cell carcinoma and non-adipocytic soft tissue sarcoma, and mechanistically it may be applicable to liposarcoma.
 
 Liposarcoma is an adipocytic soft tissue sarcoma. Adipocytic histology was excluded from the pivotal soft tissue sarcoma trial, so liposarcoma is not covered by the approved sarcoma use. Several Phase 2 trials have tested pazopanib in liposarcoma, but activity appeared limited or dependent on histology, and review articles do not regard pazopanib as a preferred option here. The mechanistic link exists, but efficacy is uncertain.
 
@@ -155,12 +155,13 @@ Liposarcoma has the most developed evidence (L2: completed Phase 2 trials), but 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Pazopanib's New Zealand licences are both cancelled, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
 
 <!-- review:end log -->
 

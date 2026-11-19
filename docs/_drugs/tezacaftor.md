@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Tezacaftor: predicted new indication HIV infectious disease (evidence level L5). Approved use: Cystic fibrosis"
 monitor_inn: "tezacaftor"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Tezacaftor is part of fixed-dose combination therapies for cystic fibrosis (Symdeko, Trikafta, and Alyftrek), and its efficacy in cystic fibrosis is established. Its pharmacological target is listed as CFTR.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vanzacaftor, tezacaftor, and deutivacaftor (a combination product containing tezacaftor): "Vanzacaftor and tezacaftor bind to different sites on the CFTR protein and have an additive effect in facilitating the cellular processing and trafficking of select mutant forms of CFTR (including F508del- CFTR) to increase the amount of CFTR protein delivered to the cell surface compared to either molecule alone. The combined effect of vanzacaftor, tezacaftor and deutivacaftor is increased quantity and function of CFTR at the cell surface, resulting in increased CFTR activity as measured both by CFTR-mediated chloride transport in vitro and by sweat chloride in patients with CF." ([DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20), label version 2026-08-26; accessed 2026-11-19.) Tezacaftor is part of fixed-dose combination therapies for cystic fibrosis (Symdeko, Trikafta, and Alyftrek), and its efficacy in cystic fibrosis is established. Its pharmacological target is listed as CFTR.
 
 No mechanistic link between tezacaftor and HIV infection is supported by the available data. The high TxGNN score (0.9924) is a computational prediction only, with no clinical or literature corroboration. Any biological rationale, for example involving protein folding, trafficking, or host-pathogen pathways, would be speculative and needs independent validation.
 
@@ -130,13 +130,14 @@ The HIV prediction is supported only by a model score, with no clinical trials, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All six authorizations are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "In addition, all six New Zealand authorizations are valid and the package insert safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "A sixth authorization, 2649748 (Trikafta tablet: elexacaftor 50 mg / tezacaftor 25 mg / ivacaftor 37.5 mg, plus ivacaftor 75 mg), is also ca" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20) |
 
 <!-- review:end log -->
 

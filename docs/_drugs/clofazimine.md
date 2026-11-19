@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CLOFAZIMINE"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Clofazimine: predicted new indication pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **pneumocystosis** (score 0.9990)
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Clofazimine is a riminophenazine antimycobacterial agent, reported to have immunomodulatory and membrane-disrupting properties. Nothing in the data compiled for this report shows activity against Pneumocystis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for clofazimine: "LAMPRENE is an anti-mycobacterial drug. […] Clofazimine exerts a slow bactericidal effect on Mycobacterium leprae (Hansen’s bacillus). Clofazimine inhibits mycobacterial growth and binds preferentially to mycobacterial DNA. Clofazimine also exerts anti-inflammatory properties in treating erythema nodosum leprosum reactions." ([DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250), label version 2026-08-17; accessed 2026-11-19.) Clofazimine is a riminophenazine antimycobacterial agent, reported to have immunomodulatory and membrane-disrupting properties. Nothing in the data compiled for this report shows activity against Pneumocystis.
 
 The retrieved literature mentions Pneumocystis only as a co-occurring opportunistic infection in people with AIDS. One randomised trial studied clofazimine as prophylaxis for *Mycobacterium avium* complex (MAC) in HIV patients, some of whom had a prior Pneumocystis pneumonia. A case report describes an AIDS patient with *M. kansasii* lung disease complicated by Pneumocystis pneumonia, who recovered after a regimen that added trimethoprim-sulfamethoxazole once the Pneumocystis pneumonia appeared. In neither paper was Pneumocystis the target of clofazimine.
 
@@ -110,6 +110,19 @@ The prediction rests on a model score alone. There are no registered trials, and
 - Mechanism of action data for clofazimine
 - Package insert warnings and contraindications (Medsafe data sheet)
 - A review of the major interactions (cisapride, dolasetron) and their relevance to the likely patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

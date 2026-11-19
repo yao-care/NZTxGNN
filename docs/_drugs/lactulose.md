@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful in **obstructive jaundice** (mainly to
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, lactulose is a non-absorbable disaccharide. It is fermented in the colon by gut bacteria, which acidifies the gut contents and changes the intestinal flora. This underlies its established use in hepatic encephalopathy and constipation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for lactulose: "Lactulose causes a decrease in blood ammonia concentration and reduces the degree of portalsystemic encephalopathy. These actions are considered to be results of the following: Bacterial degradation of lactulose in the colon acidifies the colonic contents." ([DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5), label version 2024-12-18; accessed 2026-11-19.) Based on known information, lactulose is a non-absorbable disaccharide. It is fermented in the colon by gut bacteria, which acidifies the gut contents and changes the intestinal flora. This underlies its established use in hepatic encephalopathy and constipation.
 
 In obstructive jaundice, bile salts are absent from the gut. This promotes bacterial overgrowth, endotoxin absorption and intestinal barrier dysfunction, which are linked to postoperative kidney dysfunction and liver injury. Lactulose may reduce the gut endotoxin load and bacterial translocation. A 1986 clinical study of 24 patients found lower endotoxaemia in the lactulose group (portal and systemic samples, P<0.05). A 1991 multicentre randomised study of 102 patients compared preoperative lactulose, bile salts and no treatment for preventing postoperative renal dysfunction. Several rat studies examined bacterial translocation and renal or hepatic outcomes.
 
@@ -132,12 +132,13 @@ There is a plausible gut-endotoxin mechanism and some small clinical and animal 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "However, no clinical trials are registered, the clinical results are mixed, and the only New Zealand licence has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-10-31 | Removed: "A current New Zealand market or supply pathway, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Phenoxybenzamine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Adrenal gland pheochromocytoma / phaeochromocytoma"
 monitor_inn: "Phenoxybenzamine"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma"]
@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, phenoxybenzamine is an irreversible, non-selective alpha-adrenergic antagonist. It blocks alpha-1 and alpha-2 adrenoceptors, including the α1D and α2B subtypes. Its efficacy in pheochromocytoma, where it controls catecholamine-driven hypertension and sweating, is established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for phenoxybenzamine: "Phenoxybenzamine hydrochloride is a long-acting, adrenergic, alpha -receptor-blocking agent, which can produce and maintain “chemical sympathectomy” by oral administration. It increases blood flow to the skin, mucosa and abdominal viscera, and lowers both supine and erect blood pressures." ([DailyMed: phenoxybenzamine hydrochloride prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0be6a394-cd10-42fc-97cf-ad53d81d8d93), label version 2026-07-03; accessed 2026-11-19.) Based on known pharmacology, phenoxybenzamine is an irreversible, non-selective alpha-adrenergic antagonist. It blocks alpha-1 and alpha-2 adrenoceptors, including the α1D and α2B subtypes. Its efficacy in pheochromocytoma, where it controls catecholamine-driven hypertension and sweating, is established.
 
 The link to glaucoma is only theoretical. Alpha-blockade could alter ocular vascular tone, aqueous humour production or uveoscleral outflow, and adrenergic pathways are an established target class in glaucoma therapy (for example, alpha-2 agonists). However, primary hereditary (congenital/juvenile) glaucoma is mainly caused by developmental anomalies of the trabecular meshwork and anterior chamber angle (for example, CYP1B1 and MYOC variants). Pharmacological alpha-blockade is not expected to correct this structural pathology.
 
@@ -124,12 +124,13 @@ The predictions rest on model scores alone, with no clinical trials or literatur
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and safer topical alternatives exist" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "An assessment of whether a topical ocular formulation is feasible, given that only a 10 mg capsule has been licensed in New Zealand , given " | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: phenoxybenzamine hydrochloride prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0be6a394-cd10-42fc-97cf-ad53d81d8d93) |
 
 <!-- review:end log -->
 

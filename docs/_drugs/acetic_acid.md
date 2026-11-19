@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ It is a computational prediction only.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Acetic acid is known to have antibacterial activity, acting through acidification and disruption of bacterial membranes.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for acetic acid: "Acetic acid is antibacterial and antifungal; propylene glycol is hydrophilic and provides a low surface tension; benzethonium chloride is a surface active agent that promotes contact of the solution with tissues." ([DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d), label version 2026-03-18; accessed 2026-11-19.) Acetic acid is known to have antibacterial activity, acting through acidification and disruption of bacterial membranes.
 
 Post-bacterial disorders, however, are generally immune-mediated or post-inflammatory sequelae of a past infection rather than an active infection. A topical antimicrobial acid does not clearly address these processes, so the mechanistic link is weak. The very high TxGNN score reflects a computational association only and should not be read as clinical support.
 
@@ -112,11 +112,12 @@ The prediction has a very high model score but no supporting trials or publicati
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The one authorization is a multi-ingredient jelly product with an applicator" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
 
 <!-- review:end log -->
 

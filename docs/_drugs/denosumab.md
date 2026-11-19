@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Denosumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Osteoporosis (including postmenopausal and drug-induced osteoporosis)"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -60,7 +60,7 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, denosumab is a RANKL inhibitor, and its efficacy in osteoporosis is established. Mechanistically, it may be applicable to diabetic retinopathy, but this link is speculative.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for denosumab: "Denosumab products bind to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption. Denosumab products prevent RANKL from activating its receptor, RANK, on the surface of osteoclasts and their precursors." ([DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd), label version 2026-11-04; accessed 2026-11-19.) Based on known information, denosumab is a RANKL inhibitor, and its efficacy in osteoporosis is established. Mechanistically, it may be applicable to diabetic retinopathy, but this link is speculative.
 
 RANKL/RANK signalling has been proposed to play roles in vascular calcification, inflammation and metabolic regulation, which could plausibly relate to diabetic microvascular disease. However, the data compiled for this report contain no direct evidence linking RANKL inhibition to retinal vascular pathology.
 
@@ -134,11 +134,12 @@ The prediction score is high, but there are no registered clinical trials and no
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both New Zealand authorizations are cancelled, and m" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
 
 <!-- review:end log -->
 

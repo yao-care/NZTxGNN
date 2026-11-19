@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DANTROLENE"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Dantrolene: predicted new indication moderate multiminicore disease with hand involvement (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Dantrolene is a skeletal muscle relaxant that is marketed in New Zealand. The Tx
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Multiminicore disease is commonly associated with variants in *RYR1* or *SEPN1*. Dantrolene is a muscle relaxant that acts on skeletal muscle calcium release, so forms of the disease caused by *RYR1* variants could plausibly respond to *RYR1* modulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dantrolene: "In isolated nerve-muscle preparation, dantrolene has been shown to produce relaxation by affecting the contractile response of the muscle at a site beyond the myoneural junction. In skeletal muscle, dantrolene dissociates the excitation-contraction coupling, probably by interfering with the release of Ca ++ from the sarcoplasmic reticulum." ([DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698), label version 2024-10-30; accessed 2026-11-19.) Multiminicore disease is commonly associated with variants in *RYR1* or *SEPN1*. Dantrolene is a muscle relaxant that acts on skeletal muscle calcium release, so forms of the disease caused by *RYR1* variants could plausibly respond to *RYR1* modulation.
 
 This is only a prediction. The high TxGNN score reflects network proximity between the drug and the disease, not clinical evidence. The *SEPN1*-related forms have no obvious link to dantrolene's target. No study in the compiled data has tested dantrolene in this disease.
 
@@ -105,6 +105,19 @@ The evidence level is L5. The score is high, but there are no trials or publicat
 - Evidence that dantrolene benefits patients with this disease, such as case series, functional studies in *RYR1*-mutant models, or a pilot trial
 - Genetic stratification (*RYR1* versus *SEPN1*) to identify the patients who might benefit
 - A safety review of dantrolene in patients with underlying muscle disease and liver impairment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

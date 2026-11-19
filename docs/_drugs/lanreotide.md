@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "LANREOTIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 description: "Lanreotide: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but **no cl
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lanreotide is known to be a somatostatin analogue that suppresses growth hormone (GH) and IGF-1 secretion, which is why it is effective in acromegaly.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lanreotide: "Lanreotide, the active component of SOMATULINE DEPOT is an octapeptide analog of natural somatostatin. The mechanism of action of lanreotide is believed to be similar to that of natural somatostatin." ([DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d), label version 2024-10-11; accessed 2026-11-19.) Lanreotide is known to be a somatostatin analogue that suppresses growth hormone (GH) and IGF-1 secretion, which is why it is effective in acromegaly.
 
 The link to hypertrichosis is speculative. Excess IGF-1 signalling might theoretically influence hair follicle growth, but hypertrichosis has many causes (congenital, drug-induced, metabolic), and a somatostatin-based mechanism has not been shown to apply to any of them. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -154,13 +154,14 @@ The prediction rests solely on a TxGNN model (deep learning) score (L5), with no
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All seven licences are valid, and approved indication text is not available for any of them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Two further cancelled licences (2659131 and 2698145) are also on record" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "A review of the current registration and supply situation, since all seven licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 description: "Pembrolizumab: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ The result is a computational signal only, and it should not be treated as evide
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From the pharmacology data, pembrolizumab is an antibody that binds the PD-1 receptor (PDCD1, CD279) on T cells. Blocking PD-1 releases the "brake" on T cells so they can attack tumour cells. It is approved in many cancers, including melanoma, lung cancer, head and neck cancer, Hodgkin lymphoma and others.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pembrolizumab: "Binding of the PD-1 ligands, PD-L1 and PD-L2, to the PD-1 receptor found on T cells, inhibits T cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Pembrolizumab is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287), label version 2026-10-16; accessed 2026-11-19.) From the pharmacology data, pembrolizumab is an antibody that binds the PD-1 receptor (PDCD1, CD279) on T cells. Blocking PD-1 releases the "brake" on T cells so they can attack tumour cells. It is approved in many cancers, including melanoma, lung cancer, head and neck cancer, Hodgkin lymphoma and others.
 
 For gingival fibromatosis, no mechanistic link was identified. Gingival fibromatosis is a benign overgrowth of gum tissue, usually hereditary or drug-induced. It has no established relationship to the PD-1/PD-L1 pathway. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Without trial or literature support, this prediction cannot be considered reasonable on current evidence.
 
@@ -153,12 +153,13 @@ None of the other top-ranked predictions had direct clinical support. Most are r
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both New Zealand licences for pembrolizumab are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287) |
 
 <!-- review:end log -->
 

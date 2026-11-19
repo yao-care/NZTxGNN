@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 194
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ The mechanism also points in the opposite direction, because febuxostat lowers u
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, febuxostat is a non-purine selective xanthine oxidase inhibitor that lowers serum uric acid, and its efficacy in hyperuricemia is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for febuxostat: "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), label version 2025-12-24; accessed 2026-11-19.) Based on known pharmacology, febuxostat is a non-purine selective xanthine oxidase inhibitor that lowers serum uric acid, and its efficacy in hyperuricemia is established.
 
 Renal hypouricemia is characterised by already low serum urate, typically from loss-of-function of urate transporters such as URAT1 or GLUT9. Further urate lowering is therefore mechanistically counterproductive, and the high TxGNN score probably reflects network proximity through urate-pathway genes rather than a true therapeutic fit. The direction of effect needs careful review.
 
@@ -138,11 +138,12 @@ The evidence is limited to a model prediction, one trial of unconfirmed relevanc
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "the cancelled New Zealand regulatory status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CELECOXIB"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Celecoxib: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ There are **0 clinical trials** and **0 publications** supporting this predictio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for the compiled record is not available. Celecoxib belongs to the selective COX-2 inhibitor class, which reduces prostaglandin-mediated inflammation and pain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for celecoxib: "Celecoxib has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of celecoxib is believed to be due to inhibition of prostaglandin synthesis, primarily via inhibition of COX-2. Celecoxib is a potent inhibitor of prostaglandin synthesis in vitro." ([DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d), label version 2025-07-31; accessed 2026-11-19.) Celecoxib belongs to the selective COX-2 inhibitor class, which reduces prostaglandin-mediated inflammation and pain.
 
 Acromesomelic dysplasia, Hunter-Thompson type is a rare inherited skeletal dysplasia caused by a defect in the CDMP1/GDF5 gene. No plausible mechanism linking COX-2 inhibition to this condition has been established. The high score reflects a computational prediction, probably network proximity to other skeletal and joint disorders, and is not supported by clinical or literature evidence. At best, any benefit would be symptomatic (pain or inflammation), not disease-modifying.
 
@@ -99,6 +99,19 @@ No clinical trial or publication studies celecoxib in this rare skeletal dysplas
 - Preclinical or case-level evidence in this condition
 - Package insert warnings and contraindications from Medsafe for safety screening
 - Clarification of the current licence status of the New Zealand products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data for the compiled record is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

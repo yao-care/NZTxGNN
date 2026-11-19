@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "Citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Citalopram: predicted new indication obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ The data compiled for this report include **4 clinical trials** and **16 publica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for citalopram are not available in the data compiled for this report. Citalopram belongs to the SSRI class. Pharmacology records list the serotonin transporter (SERT) and the norepinephrine transporter (NET) as its targets.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for citalopram: "The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT)." ([DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177), label version 2023-10-09; accessed 2026-11-19.) Citalopram belongs to the SSRI class. Pharmacology records list the serotonin transporter (SERT) and the norepinephrine transporter (NET) as its targets.
 
 Serotonergic dysfunction is considered central to the pathophysiology of OCD, and SSRIs are first-line drug treatment for the disorder. This class-level link is the main reason the prediction is plausible. The TxGNN score of 0.9974 is consistent with it.
 
@@ -116,6 +116,19 @@ SSRIs are an established drug class for OCD, and several small citalopram-specif
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism of action data from DrugBank
 - A review of cardiac risk (QT prolongation) and serotonin syndrome risk before any use in a new population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for citalopram are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

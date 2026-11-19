@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -58,7 +58,7 @@ Modafinil is a wake-promoting medicine that reduces excessive daytime sleepiness
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Modafinil is generally described as a wake-promoting agent. Proposed actions include dopamine transporter inhibition and downstream effects on histaminergic, orexinergic and noradrenergic wake circuits.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for modafinil: "The mechanism(s) through which modafinil promotes wakefulness is unknown. Modafinil has wake-promoting actions similar to sympathomimetic agents including amphetamine and methylphenidate, although the pharmacologic profile is not identical to that of the sympathomimetic amines." ([DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7), label version 2026-09-16; accessed 2026-11-19.) Modafinil is generally described as a wake-promoting agent. Proposed actions include dopamine transporter inhibition and downstream effects on histaminergic, orexinergic and noradrenergic wake circuits.
 
 The mechanistic case for insomnia is weak. Insomnia is a problem of falling or staying asleep, and a drug that promotes wakefulness would be expected to make that worse. The very high score of 0.9985 most likely reflects how closely modafinil is linked to other sleep-wake conditions in the model's network, not a true therapeutic fit.
 
@@ -136,11 +136,12 @@ The evidence level is L5. The only trial in primary insomnia has no available re
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clarification of the regulatory path, given that the only New Zealand authorization is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7) |
 
 <!-- review:end log -->
 

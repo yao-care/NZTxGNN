@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ with **2 clinical trials** (neither with results yet) and **2 publications** (a 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ticagrelor is a reversible P2Y12 platelet inhibitor. Its efficacy in acute coronary syndrome is established, and mechanistically it may be applicable to intracranial arteriosclerosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ticagrelor: "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8), label version 2026-05-07; accessed 2026-11-19.) Based on known information, ticagrelor is a reversible P2Y12 platelet inhibitor. Its efficacy in acute coronary syndrome is established, and mechanistically it may be applicable to intracranial arteriosclerosis.
 
 Symptomatic intracranial atherosclerotic stenosis causes stroke through platelet-driven thrombosis and artery-to-artery embolism, so P2Y12 inhibition is mechanistically plausible. Both coronary and intracranial disease arise from atherosclerosis with platelet-mediated thrombosis, which links the original and new indications.
 
@@ -130,11 +130,12 @@ The prediction score is very high and the mechanism is plausible, but no complet
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of New Zealand supply and licensing, since 3 of 3 licences are valid and the drug is marketed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ Among the other top-10 predictions, **insomnia** has the most supporting evidenc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lorazepam is known to be a benzodiazepine that enhances GABA-A receptor-mediated inhibition, producing anxiolytic, sedative and anticonvulsant effects. This is general pharmacology rather than data from this report's sources.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lorazepam: "Lorazepam exerts its effect for the treatment of anxiety disorders through binding to the benzodiazepine site of the gamma-aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9), label version 2025-10-08; accessed 2026-11-19.) Lorazepam is known to be a benzodiazepine that enhances GABA-A receptor-mediated inhibition, producing anxiolytic, sedative and anticonvulsant effects. This is general pharmacology rather than data from this report's sources.
 
 For the top-ranked prediction, trigeminal nerve neoplasm, there is no plausible disease-modifying link. Lorazepam has no known antitumour mechanism. At most it could offer symptomatic relief (anxiolysis, sedation, antiemetic use) in oncology care, which is not treatment of the tumour. This prediction is most likely a TxGNN model (deep learning) artifact.
 
@@ -128,11 +128,12 @@ The top prediction, trigeminal nerve neoplasm, has a very high score from the Tx
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 2 of 2 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9) |
 
 <!-- review:end log -->
 

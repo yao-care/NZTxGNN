@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Bosentan: predicted new indication rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Bosentan is a dual endothelin receptor antagonist (blocking both ETA and ETB rec
 
 ## Why is This Prediction Reasonable?
 
-Bosentan blocks endothelin receptors. Endothelin signalling contributes to inflammation in the joint lining, to vascular dysfunction and to the release of inflammatory mediators such as TNF and LTB4. Detailed mechanism-of-action data for bosentan are not available in the data compiled for this report, so this reasoning relies on the published preclinical literature.
+Bosentan blocks endothelin receptors. Endothelin signalling contributes to inflammation in the joint lining, to vascular dysfunction and to the release of inflammatory mediators such as TNF and LTB4. According to the Mechanism of Action section of the US FDA-approved prescribing information for bosentan: "Bosentan is a specific and competitive antagonist at endothelin receptor types ET A and ET B. Bosentan has a slightly higher affinity for ET A receptors than for ET B receptors. The clinical impact of dual endothelin blockage is unknown." ([DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c), label version 2025-11-17; accessed 2026-11-19.) This reasoning relies on the published preclinical literature.
 
 In a mouse model of collagen-induced arthritis, bosentan reduced joint inflammation (PMID 22249931). In a separate mouse model, endothelin receptor blockade also modulated zymosan-induced arthritis (PMID 18515326). These findings give a plausible mechanistic rationale, but they come from animals only. No human studies of bosentan in rheumatoid arthritis were identified.
 
@@ -120,11 +120,12 @@ The prediction score is very high, but the support is limited to two animal stud
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Two single-ingredient bosentan licences (Bosentan Dr Reddy's, 62.5 mg and 125 mg tablets) are recorded in the local data, and the market sta" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for bosentan are not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
 
 <!-- review:end log -->
 

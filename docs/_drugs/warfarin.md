@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 484
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ This is essentially an extension of warfarin's existing use in thrombosis, not a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data indicate that warfarin inhibits vitamin K epoxide reductase (VKORC1), which reduces the vitamin K-dependent clotting factors (II, VII, IX and X). This makes it a standard long-term anticoagulant.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for warfarin: "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730), label version 2026-10-28; accessed 2026-11-19.) Pharmacology data indicate that warfarin inhibits vitamin K epoxide reductase (VKORC1), which reduces the vitamin K-dependent clotting factors (II, VII, IX and X). This makes it a standard long-term anticoagulant.
 
 Heparin cofactor II deficiency is an inherited thrombophilia that predisposes patients to thrombosis. Long-term anticoagulation is therefore a plausible way to prevent clots, which is why the model links it to warfarin's existing thrombotic-disease indications.
 
@@ -156,13 +156,14 @@ Evidence for heparin cofactor 2 deficiency is limited to three old case reports,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The drug is marketed, with 6 valid licences out of 6, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Confirmation of which warfarin products are currently supplied in New Zealand, where all 6 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "A sixth licence (210609, Marevan Tab 5 mg) is also cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
 
 <!-- review:end log -->
 

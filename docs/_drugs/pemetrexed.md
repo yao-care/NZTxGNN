@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,7 @@ with **7 clinical trials** (1 completed Phase 2 trial that includes the peritone
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the evidence reviewed, pemetrexed is a multitargeted antifolate that inhibits thymidylate synthase, DHFR and GARFT, which blocks folate-dependent nucleotide synthesis in rapidly dividing cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pemetrexed: "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides." ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0), label version 2026-06-18; accessed 2026-11-19.) Based on the evidence reviewed, pemetrexed is a multitargeted antifolate that inhibits thymidylate synthase, DHFR and GARFT, which blocks folate-dependent nucleotide synthesis in rapidly dividing cells.
 
 Its efficacy in pleural mesothelioma is well established. A Phase 3 randomized trial (Vogelzang 2003) showed a survival benefit for pemetrexed plus cisplatin over cisplatin alone. Peritoneal mesothelioma arises from the same mesothelial lining and is histologically and biologically similar, so antifolate sensitivity is plausibly transferable. The drug's original indication list already includes malignant mesothelioma, so this prediction is largely an extension of the treatment site within the same disease.
 
@@ -157,6 +157,19 @@ Pemetrexed has an established benefit in pleural mesothelioma, and peritoneal me
 - Pleural mesothelioma, pleural epithelioid mesothelioma, pleural sarcomatoid mesothelioma and pleural biphasic mesothelioma are subtypes of the existing indication rather than true repurposing, though the evidence is strongest for the pleural and epithelioid forms.
 - Pericardium cancer is a research question only, supported by case reports and a pooled review.
 - Pleural adenomatoid tumor, well differentiated papillary mesothelioma, lymphohistiocytoid mesothelioma and iminoglycinuria should be on hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

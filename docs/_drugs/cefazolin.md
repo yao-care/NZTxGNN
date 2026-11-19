@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CEFAZOLIN"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Cefazolin: predicted new indication infectious otitis media (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **infectious otitis media**, bu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cefazolin is a first-generation cephalosporin that inhibits bacterial cell wall synthesis. It is active against Gram-positive organisms such as Staphylococcus and Streptococcus, which can be involved in bacterial ear infections.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for cefazolin: "Cefazolin is an antibacterial drug. […] Cefazolin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis." ([DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4), label version 2026-08-31; accessed 2026-11-19.) Based on known pharmacology, cefazolin is a first-generation cephalosporin that inhibits bacterial cell wall synthesis. It is active against Gram-positive organisms such as Staphylococcus and Streptococcus, which can be involved in bacterial ear infections.
 
 The link is only partial. Cefazolin has limited coverage of Haemophilus influenzae and Moraxella catarrhalis, the key pathogens in otitis media. The high TxGNN score is a model prediction and does not by itself show clinical benefit.
 
@@ -90,6 +90,19 @@ The prediction score is high, but there are no registered trials and no study sh
 - Mechanism of action data
 - Microbiological and clinical evidence of cefazolin activity against the usual otitis media pathogens
 - Confirmation of current supply, since the recorded New Zealand licences need to be checked against the market status
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

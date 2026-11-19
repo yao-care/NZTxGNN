@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but there are **0 clinical trials** and **0 publications** supporting it, so thi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, haloperidol is a typical (first-generation) antipsychotic. Its efficacy in psychotic disorders and schizophrenia is established, and it is generally understood to act by blocking dopamine D2 receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for haloperidol: "The mechanism of action of haloperidol decanoate for the treatment of schizophrenia in adults is unclear. However, its effect in schizophrenia could be mediated through its activity as an antagonist at central dopamine type 2 receptors." ([DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c), label version 2026-11-03; accessed 2026-11-19.) Based on known information, haloperidol is a typical (first-generation) antipsychotic. Its efficacy in psychotic disorders and schizophrenia is established, and it is generally understood to act by blocking dopamine D2 receptors.
 
 The predicted new indication is a rare inherited metabolic disorder of protein glycosylation. It has no obvious pharmacological or clinical overlap with psychosis. The data compiled for this report show no mechanistic link between haloperidol and fucosylation defects. The very high TxGNN score (0.9991, rank 1222 overall) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At this stage the prediction cannot be considered mechanistically supported.
 
@@ -123,12 +123,13 @@ It has supporting Phase 3 trials and network meta-analyses and is rated "Proceed
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Six licences were found; the five main ones are shown below. All six are cancelled, and none lists an approved-indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Confirmation of local product availability, since the drug is marketed in New Zealand with 6 valid licences out of 6" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Alglucosidase Alfa: predicted new indication Adult polyglucosan body disease (evidence level L5). Approved use: Glycogen storage disease (Pompe disease). The New Zealand licence rec…"
 monitor_inn: "ALGLUCOSIDASE ALFA"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
@@ -60,7 +60,7 @@ The prediction rests on model output alone, and the biological rationale is weak
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, alglucosidase alfa is a recombinant human acid alpha-glucosidase (GAA). It breaks down glycogen inside lysosomes and is an established enzyme replacement therapy for Pompe disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alglucosidase alfa: "Pompe disease (acid maltase deficiency, glycogen storage disease type II, GSD II, glycogenosis type II) is an inherited disorder of glycogen metabolism caused by the absence or marked deficiency of the lysosomal enzyme GAA. Alglucosidase alfa provides an exogenous source of GAA." ([DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df), label version 2025-01-10; accessed 2026-11-19.) Based on known information, alglucosidase alfa is a recombinant human acid alpha-glucosidase (GAA). It breaks down glycogen inside lysosomes and is an established enzyme replacement therapy for Pompe disease.
 
 Adult polyglucosan body disease is caused by a deficiency of the glycogen branching enzyme (GBE1). This produces poorly branched, insoluble polyglucosan that accumulates mainly in the cytosol of neurons and other cells. The shared theme of abnormal glycogen metabolism likely explains the high TxGNN score.
 
@@ -137,12 +137,13 @@ The prediction is supported only by the model score, with no clinical trials or 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence has been cancelled, so there is no current local supply pathway" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-10-31 | Removed: "A review of current supply and regulatory status in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df) |
 
 <!-- review:end log -->
 

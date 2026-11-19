@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The prediction rests only on a model score.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Isotretinoin (13-cis-retinoic acid) is a retinoid that acts through retinoic acid receptors to regulate cell differentiation, proliferation, and apoptosis. Preclinical work has explored retinoids in relation to the renin-angiotensin system and vascular remodelling. This is speculative and has not been shown for malignant renovascular hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for isotretinoin: "The exact mechanism of action of Zenatane in the treatment of severe recalcitrant nodular acne in nonpregnant patients 12 years of age and older with multiple inflammatory nodules with a diameter of 5 mm or greater who are unresponsive to conventional therapy, including systemic antibiotics is unknown. Isotretinoin, a retinoid, inhibits sebaceous gland function and keratinization." ([DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee), label version 2026-09-20; accessed 2026-11-19.) Isotretinoin (13-cis-retinoic acid) is a retinoid that acts through retinoic acid receptors to regulate cell differentiation, proliferation, and apoptosis. Preclinical work has explored retinoids in relation to the renin-angiotensin system and vascular remodelling. This is speculative and has not been shown for malignant renovascular hypertension.
 
 The listed original indications (hypertensive disorder, hypertension) do not match the known clinical use of isotretinoin, which is severe acne. This suggests a data-mapping problem in the source record. Until it is resolved, the apparent link between the "original" and the predicted indication cannot be relied on.
 
@@ -116,6 +116,19 @@ The only support is a model score, with no clinical trials, no literature, and n
 - Obtain detailed mechanism of action data (for example, from DrugBank).
 - Run a systematic literature and trial search for retinoids in malignant or renovascular hypertension.
 - Assess the benefit-risk balance given teratogenicity, lipid effects, hepatotoxicity, and the high number of interactions.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

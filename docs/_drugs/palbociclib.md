@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not stated in the licence data"
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
@@ -65,7 +65,7 @@ Palbociclib is a CDK4/6 inhibitor used in oncology. The top TxGNN prediction (hy
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Palbociclib belongs to the CDK4/6 inhibitor class, and its efficacy in breast cancer relies on blocking cell-cycle progression.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for palbociclib: "Palbociclib is an inhibitor of cyclin-dependent kinases (CDK) 4 and 6. Cyclin D1 and CDK4/6 are downstream of signaling pathways which lead to cellular proliferation. In vitro, palbociclib reduced cellular proliferation of estrogen receptor (ER)-positive breast cancer cell lines by blocking progression of the cell from G1 into S phase of the cell cycle." ([DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792), label version 2026-07-06; accessed 2026-11-19.) Palbociclib belongs to the CDK4/6 inhibitor class, and its efficacy in breast cancer relies on blocking cell-cycle progression.
 
 For **rheumatoid arthritis**, there is a plausible but indirect biological rationale. CDK4/6 drives proliferation of synovial fibroblasts and immune cells. Preclinical work shows CDK6-dependent synovial hyperplasia in arthritic mice, and cell-cycle inhibition combined with cytokine blockade enhanced antiarthritic effects in animal models without increased immune suppression. A single case report describes improvement of rheumatoid arthritis in a breast cancer patient treated with palbociclib. These findings are anecdotal or preclinical and do not establish efficacy in patients.
 
@@ -164,13 +164,14 @@ Rheumatoid arthritis has biologically plausible but indirect support (one case r
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three authorizations are valid; the drug is currently marketed, according to the data compiled for this report" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "In addition, all three New Zealand authorizations are valid and the drug is marketed, but the package insert safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Clarification of the New Zealand regulatory pathway given the three valid licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
 
 <!-- review:end log -->
 

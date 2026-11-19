@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Baclofen: predicted new indication attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Baclofen is a GABA-B receptor agonist. The TxGNN model predicts it may be useful
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Baclofen is known as a GABA-B receptor agonist.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for baclofen: "The precise mechanism of action of baclofen is not fully understood. Baclofen inhibits both monosynaptic and polysynaptic reflexes at the spinal level, possibly by decreasing excitatory neurotransmitter release from afferent terminals, although actions at supraspinal sites may also occur and contribute to its clinical effect." ([DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2), label version 2026-09-22; accessed 2026-11-19.) Baclofen is known as a GABA-B receptor agonist.
 
 A plausible but unproven link is that GABA-B activation modulates dopaminergic and glutamatergic signalling in frontostriatal circuits involved in impulsivity and attention. The retrieved papers do not test this hypothesis directly. They concern Tourette syndrome and tic disorders, off-label methylphenidate prescribing in adults, and rodent studies of impulsivity, hippocampal EEG, social play and effort-based decision-making.
 
@@ -111,6 +111,19 @@ The TxGNN score is very high (0.9932), but there are no registered trials and no
 - Clinical or well-designed preclinical studies of baclofen directly in ADHD
 - Mechanism of action data to support the proposed frontostriatal GABA-B hypothesis
 - Package insert warnings and contraindications, to complete the safety assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

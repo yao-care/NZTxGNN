@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CLONIDINE"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Clonidine: predicted new indication faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ Currently there are **no clinical trials** and **no publications** supporting th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, clonidine is an α2-adrenergic agonist that lowers noradrenergic activity in the central nervous system, which underlies its use in conditions involving sympathetic overactivity and behavioural hyperarousal.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clonidine: "Clonidine stimulates alpha-adrenoreceptors in the brain stem. This action results in reduced sympathetic outflow from the central nervous system and in decreases in peripheral resistance, renal vascular resistance, heart rate, and blood pressure." ([DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd), label version 2026-08-12; accessed 2026-11-19.) Based on known information, clonidine is an α2-adrenergic agonist that lowers noradrenergic activity in the central nervous system, which underlies its use in conditions involving sympathetic overactivity and behavioural hyperarousal.
 
 Faciodigitogenital syndrome (Aarskog-Scott syndrome) is a rare genetic developmental disorder. No mechanistic link between α2-adrenergic agonism and its core pathology was identified. The high score reflects a computational prediction only. At most, an indirect rationale could be symptomatic treatment of hyperactivity or behavioural features, but nothing in the data compiled for this report supports this.
 
@@ -102,6 +102,19 @@ The prediction rests on a model score alone. There are no clinical trials or pub
 - Any mechanistic or clinical evidence linking α2-adrenergic agonism to the pathology or symptoms of faciodigitogenital syndrome
 - Detailed mechanism of action data
 - Package insert warnings and contraindications for safety review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

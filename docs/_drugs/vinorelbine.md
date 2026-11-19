@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 483
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ with **3 clinical trials** (one completed Phase 2 trial, one Phase 2 trial of un
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the compiled data. Based on known information, vinorelbine is a vinca alkaloid that inhibits microtubule polymerization, causing mitotic arrest and apoptosis in rapidly dividing cells. Its efficacy in NSCLC is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vinorelbine: "Vinorelbine is a vinca alkaloid that interferes with microtubule assembly. The antitumor activity of vinorelbine is thought to be due primarily to inhibition of mitosis at metaphase through its interaction with tubulin. Vinorelbine may also interfere with: 1) amino acid, cyclic AMP and glutathione metabolism, 2) calmodulin-dependent Ca++-transport ATPase activity, 3) cellular respiration, and 4) nucleic acid and lipid biosynthesis." ([DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397), label version 2024-08-16; accessed 2026-11-19.) Based on known information, vinorelbine is a vinca alkaloid that inhibits microtubule polymerization, causing mitotic arrest and apoptosis in rapidly dividing cells. Its efficacy in NSCLC is well established.
 
 Ewing sarcoma is a highly proliferative bone and soft-tissue tumour with high relapse rates, particularly in metastatic disease. This makes an antimitotic agent a plausible fit. Vinorelbine combined with low-dose (metronomic) cyclophosphamide has shown activity in relapsed or refractory paediatric solid tumours. A 2026 review also discusses this combination as a rationale for maintenance therapy in the international INTER-EWING-1 trial.
 
@@ -144,12 +144,13 @@ Ewing sarcoma has the strongest support among the predicted indications. It is b
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All seven licences are valid and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The drug is marketed in New Zealand, with all 7 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
 
 <!-- review:end log -->
 

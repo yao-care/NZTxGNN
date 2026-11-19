@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,7 +54,7 @@ Salmeterol is an inhaled long-acting beta2-adrenergic agonist used as a bronchod
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Salmeterol belongs to the long-acting beta2-agonist class, which relaxes airway smooth muscle. Salmeterol may also influence ciliary beat frequency, which is relevant to airway clearance.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for salmeterol: "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4), label version 2022-10-10; accessed 2026-11-19.) Salmeterol belongs to the long-acting beta2-agonist class, which relaxes airway smooth muscle. Salmeterol may also influence ciliary beat frequency, which is relevant to airway clearance.
 
 The link to respiratory malformation is weak. The high score appears to come from the condition's closeness to airway and ciliary disorders in the model's ontology. There is no evidence that salmeterol treats structural malformations of the respiratory tract, which are developmental defects that a bronchodilator would not be expected to correct. The prediction should be read as a hypothesis only.
 
@@ -128,11 +128,12 @@ The TxGNN score is high (0.9991), but no trial or publication studies respirator
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are single-ingredient products and both are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
 
 <!-- review:end log -->
 

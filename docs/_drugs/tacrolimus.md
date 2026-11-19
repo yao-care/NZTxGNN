@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 435
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **seborrheic dermatitis**, with
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for tacrolimus is not available in the data compiled for this report. From the literature, topical tacrolimus is a calcineurin inhibitor. It suppresses T-cell activation and the release of inflammatory cytokines such as IL-2, IL-4 and interferon-gamma. This is the mechanism behind its established use in atopic dermatitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tacrolimus: "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), label version 2025-02-26; accessed 2026-11-19.) From the literature, topical tacrolimus is a calcineurin inhibitor. It suppresses T-cell activation and the release of inflammatory cytokines such as IL-2, IL-4 and interferon-gamma. This is the mechanism behind its established use in atopic dermatitis.
 
 Seborrheic dermatitis is a chronic, relapsing inflammatory skin disease of the face and scalp. It is thought to involve an inflammatory response to *Malassezia* yeast. Because both conditions are driven by skin inflammation, the same anti-inflammatory action is plausible in seborrheic dermatitis. It may also dampen the immune reaction to *Malassezia*. This fits the high TxGNN score.
 
@@ -166,13 +166,14 @@ One completed Phase 3 trial (n=120), one completed Phase 4 trial (n=104) and a p
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 5 authorisations are valid (5 of 5)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Its authorisation is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The product is marketed in New Zealand, with 5 valid authorisations out of 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for tacrolimus is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
 
 <!-- review:end log -->
 

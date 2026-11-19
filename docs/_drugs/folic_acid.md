@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ This is a model-only prediction without direct clinical support.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, folic acid is a water-soluble B vitamin, its efficacy in folate-deficiency anaemia is well established, and it may be loosely connected to biotin metabolism at the pathway level.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for folic acid: "Folic acid acts on megaloblastic bone marrow to produce a normoblastic marrow. In man, an exogenous source of folate is required for nucleoprotein synthesis and the maintenance of normal erythropoiesis. Folic acid is the precursor of tetrahydrofolic acid, which is involved as a cofactor for transformylation reactions in the biosynthesis of purines and thymidylates of nucleic acids." ([DailyMed: folic acid prescribing information, Ayurax, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96618bf8-6c03-4df3-9896-b7ef27ca392a), label version 2026-10-05; accessed 2026-11-19.) Based on known information, folic acid is a water-soluble B vitamin, its efficacy in folate-deficiency anaemia is well established, and it may be loosely connected to biotin metabolism at the pathway level.
 
 Folate supports one-carbon transfer for nucleotide and amino acid synthesis. Biotin is the cofactor for carboxylases (for example propionyl-CoA carboxylase and pyruvate carboxylase) involved in gluconeogenesis, fatty acid synthesis and amino acid catabolism. Both are cofactor-type vitamins, so they sit close together in a metabolic network.
 
@@ -151,12 +151,13 @@ The prediction rests only on a high model score (Evidence Level L5). There are n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 3 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since all 3 New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: folic acid prescribing information, Ayurax, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96618bf8-6c03-4df3-9896-b7ef27ca392a) |
 
 <!-- review:end log -->
 

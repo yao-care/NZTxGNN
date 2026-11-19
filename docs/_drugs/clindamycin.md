@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "CLINDAMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ No clinical trials or publications were found for this disease, so the predictio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Clindamycin is a lincosamide antibacterial. It is known to inhibit the bacterial 50S ribosomal subunit and so stops bacterial protein synthesis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clindamycin: "Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic." ([DailyMed: Cleocin Phosphate (clindamycin phosphate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05a75685-0af5-407c-ac57-e380c882b49d), label version 2026-07-29; accessed 2026-11-19.) Clindamycin is a lincosamide antibacterial. It is known to inhibit the bacterial 50S ribosomal subunit and so stops bacterial protein synthesis.
 
 The link to the predicted disease is weak. Punctate epithelial keratoconjunctivitis is often viral or inflammatory in origin, and an antibacterial would not be expected to treat it. Any benefit would probably be limited to a bacterial superinfection. The high score is a model output and does not by itself show a therapeutic mechanism.
 
@@ -109,11 +109,12 @@ The prediction has the highest model score but no clinical trials or publication
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data list two licences, both of single-ingredient products. The data show a mixed picture on licence validity, so no firm statemen" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cleocin Phosphate (clindamycin phosphate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05a75685-0af5-407c-ac57-e380c882b49d) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
 description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Empagliflozin is known as an SGLT2 inhibitor that lowers renal glucose reabsorption, and its efficacy in type 2 diabetes is established. However, this general pharmacology has not been linked to the predicted indication by any supplied data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for empagliflozin: "Empagliflozin is an inhibitor of SGLT2, the predominant transporter responsible for reabsorption of glucose from the glomerular filtrate back into the circulation. By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion." ([DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565), label version 2026-11-10; accessed 2026-11-19.) Empagliflozin is known as an SGLT2 inhibitor that lowers renal glucose reabsorption, and its efficacy in type 2 diabetes is established. However, this general pharmacology has not been linked to the predicted indication by any supplied data.
 
 Stiff person syndrome is an autoimmune neurological disorder, typically associated with anti-GAD65 antibodies and impaired GABAergic signalling. A loose connection may exist through the overlap between GAD65 autoimmunity and autoimmune diabetes, but this is speculative and does not support a therapeutic effect of empagliflozin.
 
@@ -116,11 +116,12 @@ The prediction rests solely on a computational score, with no clinical trials, n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of the regulatory status of empagliflozin in New Zealand, given that both Jardiance licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
 
 <!-- review:end log -->
 

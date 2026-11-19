@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: predicted new indication Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **precursor lymphoblastic lymph
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled data. Based on known information, pegaspargase is a PEGylated L-asparaginase that depletes circulating asparagine. Lymphoblasts have low asparagine synthetase expression and depend on asparagine from the blood, so depleting it causes selective leukaemic cell death.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pegaspargase: "L-asparaginase is an enzyme that catalyzes the conversion of the amino acid L-asparagine into aspartic acid and ammonia. The pharmacological effect of ONCASPAR is thought to be based on the killing of leukemic cells due to depletion of plasma asparagine." ([DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce), label version 2024-10-07; accessed 2026-11-19.) Based on known information, pegaspargase is a PEGylated L-asparaginase that depletes circulating asparagine. Lymphoblasts have low asparagine synthetase expression and depend on asparagine from the blood, so depleting it causes selective leukaemic cell death.
 
 The predicted indication is the same disease family as the original one (precursor lymphoblastic leukaemia and lymphoma are the same biological entity at different sites of presentation). The mechanism is therefore the same as in the established ALL use. This is not a true repurposing case; it supports the original indication. Pegaspargase is a standard part of multi-agent backbones in large Phase 3 trials, including COG AALL1231, AALL0434 and ALLR3.
 
@@ -158,13 +158,14 @@ The predicted indication is effectively the drug's original use, and it is backe
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence has been cancelled, so product availability would need to be verified before any use" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-10-31 | Removed: "Confirmation of product availability in New Zealand, since only a cancelled licence exists" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The main limits are that its individual contribution cannot be separated from the combinations, and that the New Zealand licence is cancelle" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce) |
 
 <!-- review:end log -->
 

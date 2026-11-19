@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Raltegravir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ The top-ranked prediction is a veterinary indication with no direct evidence; th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, raltegravir is an HIV-1 integrase strand transfer inhibitor, its efficacy in HIV/AIDS has been established, and mechanistically it may be applicable to other lentiviral infections.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for raltegravir: "Raltegravir is an HIV-1 antiviral drug. […] Raltegravir inhibits the catalytic activity of HIV-1 integrase, an HIV-1 encoded enzyme that is required for viral replication. Inhibition of integrase prevents the covalent insertion, or integration, of unintegrated linear HIV-1 DNA into the host cell genome preventing the formation of the HIV-1 provirus." ([DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2), label version 2026-09-16; accessed 2026-11-19.) Based on known information, raltegravir is an HIV-1 integrase strand transfer inhibitor, its efficacy in HIV/AIDS has been established, and mechanistically it may be applicable to other lentiviral infections.
 
 Feline immunodeficiency virus (FIV) is a lentivirus that has its own integrase enzyme, structurally related to HIV-1 integrase. A class-level mechanistic rationale therefore exists. However, the high TxGNN score most likely reflects network proximity to the original HIV/AIDS indications rather than independent evidence. No trials or literature support activity against FIV, and because this is a veterinary indication, its relevance to human clinical development is limited.
 
@@ -138,11 +138,12 @@ The top prediction is a veterinary indication with no trials or publications, an
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "since both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 453
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -60,7 +60,7 @@ but there are **no registered clinical trials** and only **8 publications**, non
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tobramycin is an aminoglycoside with broad Gram-negative and *Staphylococcus* activity. It is already used topically for bacterial eye infections, and its efficacy in conjunctivitis and other eye infections is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tobramycin: "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), label version 2026-04-15; accessed 2026-11-19.) Based on known information, tobramycin is an aminoglycoside with broad Gram-negative and *Staphylococcus* activity. It is already used topically for bacterial eye infections, and its efficacy in conjunctivitis and other eye infections is established.
 
 Exposure keratitis occurs when the cornea is not adequately protected (for example, when the eyelids cannot close). The damaged surface is prone to secondary bacterial infection. Tobramycin could therefore be mechanistically useful for preventing or treating that secondary infection. This is indirect support only. The drug would not treat the underlying exposure or dryness.
 
@@ -162,12 +162,13 @@ Other predictions from the model are weaker or equally indirect. Otitis externa 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four authorizations are valid, so tobramycin products are currently marketed in New Zealand under these licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "In addition, all four New Zealand authorizations are valid, so the drug is currently marketed locally" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Vincristine: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Vincristine is a vinca-alkaloid-type cytotoxic agent. It is generally understood to disrupt microtubules and halt dividing cells in metaphase.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vincristine: "The mechanisms of action of vincristine sulfate remain under investigation. The mechanism of action of vincristine sulfate has been related to the inhibition of microtubule formation in mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c), label version 2026-02-17; accessed 2026-11-19.) Vincristine is a vinca-alkaloid-type cytotoxic agent. It is generally understood to disrupt microtubules and halt dividing cells in metaphase.
 
 That mechanism makes sense for fast-growing cancers such as leukaemia and lymphoma. It is hard to connect to a rare congenital syndrome affecting the vertebrae, endocrine system and T cells. The condition is not a proliferative cancer, so there is no obvious target for an antimitotic drug. A drug that suppresses dividing cells could also worsen existing T-cell dysfunction.
 
@@ -126,11 +126,12 @@ A secondary prediction, **retroperitoneal neoplasm** (score 0.9923), has some su
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The licence records compiled for this report contain no approved indication text. All three licences are single-ingredient products and are " | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c) |
 
 <!-- review:end log -->
 

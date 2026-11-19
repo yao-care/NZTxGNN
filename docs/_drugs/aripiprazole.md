@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -60,7 +60,7 @@ The data compiled for this report contain **0 clinical trials** and **0 publicat
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for aripiprazole is not available in the data compiled for this report. In general, the drug acts on dopamine and serotonin receptors as a partial agonist.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aripiprazole: "The mechanism of action of aripiprazole in the listed indications, is unclear. However, the efficacy of aripiprazole in the listed indications could be mediated through a combination of partial agonist activity at D 2 and 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Opipza (aripiprazole) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b47ede68-8942-4432-af7e-57afc14b2ba4), label version 2025-01-30; accessed 2026-11-19.) In general, the drug acts on dopamine and serotonin receptors as a partial agonist.
 
 The predicted disease is a rare genetic condition (ROBO3-related) affecting eye movement and spine development. It arises from abnormal development of brainstem nerve pathways. No plausible link to dopamine or serotonin partial agonism has been identified. The very high score is therefore likely a model artifact rather than a pharmacological signal, and the prediction should be treated as a hypothesis only.
 
@@ -133,11 +133,12 @@ The prediction has a high model score (0.9960) but no supporting clinical trials
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The table below shows 5 of the 9 valid licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data for aripiprazole is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Opipza (aripiprazole) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b47ede68-8942-4432-af7e-57afc14b2ba4) |
 
 <!-- review:end log -->
 

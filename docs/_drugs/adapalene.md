@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ADAPALENE"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **zinc, elevated plasma**, but **
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for this drug are not available in the data compiled for this report. Based on general knowledge, adapalene is a third-generation topical retinoid. It acts on RAR-beta and RAR-gamma and affects keratinocyte differentiation and inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for adapalene: "Adapalene binds to specific retinoic acid nuclear receptors but does not bind to cytosolic receptor protein. Biochemical and pharmacological profile studies have demonstrated that adapalene is a modulator of cellular differentiation, keratinization, and inflammatory processes." ([DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec), label version 2023-12-27; accessed 2026-11-19.) Based on general knowledge, adapalene is a third-generation topical retinoid. It acts on RAR-beta and RAR-gamma and affects keratinocyte differentiation and inflammation.
 
 No established mechanistic link has been found between retinoid receptor signalling and systemic zinc handling (for example zinc transporters, metallothionein or albumin binding). The prediction score comes from a model-based pattern only and is not backed by any clinical or literature evidence.
 
@@ -103,6 +103,19 @@ The prediction has a high model score but no supporting trials or publications, 
 - Mechanism-of-action data for adapalene
 - Package insert warnings and contraindications from Medsafe
 - A review of whether a topical product can reach systemic exposure relevant to this target
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for this drug are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 263
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, leflunomide is an immunomodulatory drug whose efficacy in rheumatoid arthritis and psoriatic arthritis is established, but no mechanistic link to the predicted indication is supported by the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for leflunomide: "Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect." ([DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52), label version 2025-06-04; accessed 2026-11-19.) Based on known information, leflunomide is an immunomodulatory drug whose efficacy in rheumatoid arthritis and psoriatic arthritis is established, but no mechanistic link to the predicted indication is supported by the data compiled for this report.
 
 Brachydactyly-syndactyly syndromes are congenital limb malformations of developmental origin. There is no evident rationale for postnatal immunomodulatory or antiproliferative treatment of such a condition. Leflunomide (through its active metabolite teriflunomide) is generally understood to inhibit dihydroorotate dehydrogenase (DHODH) and pyrimidine synthesis. This is background knowledge, not part of the compiled data. DHODH inhibition is associated with teratogenicity, and leflunomide is contraindicated in pregnancy, which argues against use in developmental disorders.
 
@@ -127,12 +127,13 @@ The prediction has no supporting clinical trials or literature (evidence level L
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Leflunomide is marketed in New Zealand, with 2 valid licences out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and the cancelled New Zealand licence status before any further consideration" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
 
 <!-- review:end log -->
 

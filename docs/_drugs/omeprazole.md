@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -58,7 +58,7 @@ Omeprazole is a proton pump inhibitor originally used for acid-related upper gas
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, omeprazole is a proton pump inhibitor. Its efficacy in acid-related upper gastrointestinal disease is established, and its known action is to suppress gastric acid secretion by inhibiting the H+/K+ ATPase.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for omeprazole: "Omeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the gastric mucosa, omeprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: omeprazole prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=062800b1-790a-41c3-a8be-94143d2c7fb6), label version 2026-08-01; accessed 2026-11-19.) Based on known information, omeprazole is a proton pump inhibitor. Its efficacy in acid-related upper gastrointestinal disease is established, and its known action is to suppress gastric acid secretion by inhibiting the H+/K+ ATPase.
 
 Duodenogastric reflux is closely related to the conditions omeprazole already treats, because it affects the same upper gastrointestinal tract and can cause overlapping symptoms and mucosal injury. This overlap probably drives the high TxGNN score. It is not independent clinical confirmation.
 
@@ -155,11 +155,12 @@ The prediction rests on model similarity to approved acid-related indications ra
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Four further cancelled licences exist (Midwest powder, Omeprazole Teva 10 mg and 40 mg capsules, and Dr Reddy's Omeprazole injection)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: omeprazole prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=062800b1-790a-41c3-a8be-94143d2c7fb6) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
 description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -62,7 +62,7 @@ Part of this evidence (actinic keratosis) overlaps with an existing indication, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, imiquimod is a Toll-like receptor 7 (TLR7) agonist. It triggers local innate and adaptive immune activation (interferon-alpha, TNF-alpha, IL-12), which can clear dysplastic and pre-malignant epithelium.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for imiquimod: "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown." ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), label version 2025-05-23; accessed 2026-11-19.) Based on known pharmacology, imiquimod is a Toll-like receptor 7 (TLR7) agonist. It triggers local innate and adaptive immune activation (interferon-alpha, TNF-alpha, IL-12), which can clear dysplastic and pre-malignant epithelium.
 
 Its original indications (actinic keratosis, superficial basal cell carcinoma, HPV-related warts) are themselves pre-malignant, malignant or virally driven epithelial lesions. Extending the drug to other intraepithelial neoplasias (cervical, vulvar, anal, penile Bowenoid papulosis) is mechanistically coherent, because many are HPV-driven or depend on immune-mediated clearance.
 
@@ -147,11 +147,12 @@ The mechanism is plausible and there is a body of reviews and case reports for H
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and the New Zealand licences are all cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
 
 <!-- review:end log -->
 

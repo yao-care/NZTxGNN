@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
@@ -58,7 +58,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, enoxaparin is a low-molecular-weight heparin that potentiates antithrombin and mainly inhibits factor Xa (and, to a lesser degree, thrombin). Its target interaction recorded here is with antithrombin (SERPINC1).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for enoxaparin: "Enoxaparin is a low molecular weight heparin which has antithrombotic properties." ([DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59), label version 2026-05-28; accessed 2026-11-19.) Based on known information, enoxaparin is a low-molecular-weight heparin that potentiates antithrombin and mainly inhibits factor Xa (and, to a lesser degree, thrombin). Its target interaction recorded here is with antithrombin (SERPINC1).
 
 Severe congenital protein C deficiency causes uncontrolled thrombin generation, leading to thrombosis and purpura fulminans. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -153,7 +153,7 @@ The prediction score is high (0.9958) and the mechanism is plausible, but there 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
@@ -161,6 +161,7 @@ Below is the review log for this page: statements checked against official Pharm
 | 2026-11-06 | Removed: "Two further cancelled licences (Clexane 20 mg in 0.2 ml, 2581868; Clexane Forte 120 mg in 0.8 ml, 2581914) are not listed above" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and enoxaparin is marketed in New Zealand with 7 valid licences of 7" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "the cancelled licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59) |
 
 <!-- review:end log -->
 

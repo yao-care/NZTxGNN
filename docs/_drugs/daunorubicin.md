@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DAUNORUBICIN"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Daunorubicin: predicted new indication Hodgkins lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ Direct support is limited: **2 Phase 2 trials** (both multi-drug regimens, one i
 
 ## Why is This Prediction Reasonable?
 
-Daunorubicin intercalates into DNA and inhibits topoisomerase II. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the general known pharmacology of the anthracycline class.
+Daunorubicin intercalates into DNA and inhibits topoisomerase II. According to the Mechanism of Action section of the US FDA-approved prescribing information for daunorubicin: "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes." ([DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f), label version 2025-05-21; accessed 2026-11-19.) This description reflects the general known pharmacology of the anthracycline class.
 
 Doxorubicin, a closely related anthracycline, is a core component of the standard ABVD regimen for Hodgkin lymphoma. That gives a plausible mechanistic reason why daunorubicin could be active in the same disease.
 
@@ -126,6 +126,19 @@ The prediction score is high (0.9981) and the mechanism is plausible given the u
 - Package insert warnings and contraindications from Medsafe
 - Detailed mechanism-of-action data
 - A cardiac and haematological safety monitoring plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

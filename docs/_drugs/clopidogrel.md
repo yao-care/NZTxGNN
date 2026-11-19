@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Clopidogrel: predicted new indication Migraine disorder (evidence level L5). Approved use: Acute coronary syndrome"
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
@@ -58,7 +58,7 @@ So far, **6 clinical trials** (2 directly relevant to clopidogrel) and **more th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Clopidogrel is known as a P2Y12 receptor inhibitor that reduces platelet aggregation, which is why it is used in acute coronary syndrome and thrombotic events.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clopidogrel: "Clopidogrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227), label version 2025-05-30; accessed 2026-11-19.) Clopidogrel is known as a P2Y12 receptor inhibitor that reduces platelet aggregation, which is why it is used in acute coronary syndrome and thrombotic events.
 
 The proposed link to migraine runs through platelets. In people with a PFO or other right-to-left shunt, platelet-derived microemboli or vasoactive substances such as serotonin may bypass the lungs' filtering. These could trigger cortical spreading depression, the process thought to underlie migraine aura. By blocking P2Y12-mediated platelet aggregation, clopidogrel could reduce this trigger. Preclinical papers on P2Y12 receptors in mouse migraine models add some biological plausibility.
 
@@ -146,12 +146,13 @@ There are randomised data for clopidogrel in migraine, but they are a small pilo
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "In New Zealand, the only licence is cancelled and the package insert data are unavailable, so a safety screen cannot yet be completed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-10-31 | Removed: "Confirmation of the availability of a clopidogrel product in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
 
 <!-- review:end log -->
 

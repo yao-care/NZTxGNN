@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Chlorpromazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Chlorpromazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Pharmacology data show that chlorpromazine binds many receptors: serotonin (5-HT1A, 2A, 2C, 6, 7), alpha-2 adrenergic, dopamine D1 to D5, and histamine H1.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for chlorpromazine: "The precise mechanism whereby the therapeutic effects of chlorpromazine are produced is not known. The principal pharmacological actions are psychotropic. It also exerts sedative and antiemetic activity. Chlorpromazine has actions at all levels of the central nervous system –primarily at subcortical levels – as well as on multiple organ systems." ([DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267), label version 2026-11-10; accessed 2026-11-19.) Pharmacology data show that chlorpromazine binds many receptors: serotonin (5-HT1A, 2A, 2C, 6, 7), alpha-2 adrenergic, dopamine D1 to D5, and histamine H1.
 
 A mechanistic link to retinal dystrophy is not established. The only related publication is a 1967 report of phototoxic reactions from high-dose chlorpromazine and thioridazine. It describes drug-induced harm, not therapeutic effect. Phenothiazines are known to accumulate in melanin-containing tissues such as the retina and uvea, which points to a potential safety concern rather than a treatment rationale. The high model score is therefore not supported by clinical evidence, and the available literature signal points toward harm.
 
@@ -100,6 +100,19 @@ The prediction rests on a model score alone. No clinical trials exist, and the s
 - Detailed mechanism-of-action data and a plausible mechanistic link to retinal disease
 - A review of ocular safety (melanin binding, phototoxicity, retinal effects) from the package insert and the literature
 - Confirmation of the current New Zealand licence status and approved indications from the package insert
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

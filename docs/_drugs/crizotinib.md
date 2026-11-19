@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CRIZOTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Crizotinib: predicted new indication fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ No clinical trials and no publications in the data compiled for this report addr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Literature in the compiled data describes crizotinib as an ATP-competitive inhibitor of the receptor tyrosine kinases ALK, ROS1 and c-MET.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for crizotinib: "Crizotinib is an inhibitor of receptor tyrosine kinases including ALK, Hepatocyte Growth Factor Receptor (HGFR, c-Met), ROS1 (c-ros), and Recepteur d'Origine Nantais (RON). Translocations can affect the ALK gene resulting in the expression of oncogenic fusion proteins." ([DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7), label version 2026-10-29; accessed 2026-11-19.) Literature in the compiled data describes crizotinib as an ATP-competitive inhibitor of the receptor tyrosine kinases ALK, ROS1 and c-MET.
 
 No mechanistic link between these targets and gingival fibromatosis is supported by the data. The high score is a computational prediction only. A link through kinase-driven fibroblast proliferation is conceivable, but it is speculative and untested here. Gingival fibromatosis is not known to be driven by ALK, ROS1 or MET alterations.
 
@@ -110,6 +110,19 @@ The prediction has a high score (0.9981) but no supporting trials or literature,
 - Preclinical or case-level evidence in this disease
 - Package insert warnings and contraindications, to complete safety screening
 - Review of the Major interactions (e.g. clarithromycin) and of hepatic and cardiac risk for any new patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

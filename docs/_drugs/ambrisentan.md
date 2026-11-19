@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Ambrisentan: predicted new indication pulmonary arteriovenous malformation (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,7 +54,7 @@ Ambrisentan is an endothelin receptor type A antagonist. The TxGNN model predict
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From its drug class, ambrisentan is an endothelin receptor type A antagonist. Endothelin-mediated vasoconstriction and vascular remodelling could plausibly be relevant to pulmonary vascular disease in hereditary hemorrhagic telangiectasia (HHT), the condition in which pulmonary arteriovenous malformations commonly occur.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ambrisentan: "Endothelin-1 (ET-1) is a potent autocrine and paracrine peptide. Two receptor subtypes, ET A and ET B, mediate the effects of ET-1 in the vascular smooth muscle and endothelium. […] Ambrisentan is a high-affinity (K i =0.011 nM) ET A receptor antagonist with a high selectivity for the ET A versus ET B receptor (>4000-fold)." ([DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844), label version 2026-06-22; accessed 2026-11-19.) From its drug class, ambrisentan is an endothelin receptor type A antagonist. Endothelin-mediated vasoconstriction and vascular remodelling could plausibly be relevant to pulmonary vascular disease in hereditary hemorrhagic telangiectasia (HHT), the condition in which pulmonary arteriovenous malformations commonly occur.
 
 However, the link is weak. The only publication is a case report of pulmonary arterial hypertension in an HHT patient. It addresses pulmonary arterial hypertension, not treatment of pulmonary arteriovenous malformations. No evidence shows a benefit on the malformations themselves, and vasodilation could theoretically worsen right-to-left shunting. The prediction should therefore be treated as a hypothesis from the model, not as an established finding.
 
@@ -101,6 +101,19 @@ No clinical trial or publication directly studies ambrisentan for pulmonary arte
 - Assessment of shunt and oxygenation risk in patients with HHT
 - Package insert warnings and contraindications from the regulator's website
 - Detailed mechanism of action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "FLUCONAZOLE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, fluconazole is an azole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), blocking ergosterol synthesis. Its efficacy in candidiasis and cryptococcal infection is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluconazole: "Fluconazole is a highly selective inhibitor of fungal cytochrome P450 dependent enzyme lanosterol 14-α-demethylase. This enzyme functions to convert lanosterol to ergosterol. The subsequent loss of normal sterols correlates with the accumulation of 14-α-methyl sterols in fungi and may be responsible for the fungistatic activity of fluconazole." ([DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204), label version 2026-04-02; accessed 2026-11-19.) Based on known pharmacology, fluconazole is an azole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), blocking ergosterol synthesis. Its efficacy in candidiasis and cryptococcal infection is established.
 
 The link to the new indication is weak. Punctate epithelial keratoconjunctivitis is most often viral (for example, adenoviral) or related to ocular surface disease. An antifungal mechanism would be relevant only if the condition had a fungal cause, which is not the usual case.
 
@@ -125,11 +125,12 @@ The only support for this prediction is a high model score (0.9924).
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five licences below are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204) |
 
 <!-- review:end log -->
 

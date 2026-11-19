@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ There are **no clinical trials and no publications** supporting this prediction,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for diclofenac are not available in the data compiled for this report. Based on pharmacology data, diclofenac acts on COX-1 and COX-2, reducing prostaglandin-mediated inflammation and pain. It also interacts with other targets, including TRPM3, PPARG, ASIC3 and the SLC36A1 amino acid transporter.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diclofenac: "Diclofenac has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of diclofenac, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10991fe6-fafd-49af-9684-83b447c19c67), label version 2026-06-29; accessed 2026-11-19.) Based on pharmacology data, diclofenac acts on COX-1 and COX-2, reducing prostaglandin-mediated inflammation and pain. It also interacts with other targets, including TRPM3, PPARG, ASIC3 and the SLC36A1 amino acid transporter.
 
 Hypotrichosis simplex of the scalp is a hereditary hair loss disorder of genetic origin. No plausible link between COX inhibition and this condition was identified. The high score is therefore a model prediction only, and the mechanistic rationale is weak. The result should be treated as a hypothesis, not as a supported repurposing opportunity.
 
@@ -121,11 +121,12 @@ The prediction has a high model score but no clinical trials or literature, and 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Local records show 11 licences for single-ingredient diclofenac products, in several dosage forms: suppositories (12.5, 25, 50 and 100 mg), " | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for diclofenac are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10991fe6-fafd-49af-9684-83b447c19c67) |
 
 <!-- review:end log -->
 

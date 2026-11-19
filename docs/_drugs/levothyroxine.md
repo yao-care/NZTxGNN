@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "LEVOTHYROXINE"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -56,7 +56,7 @@ but there are **0 clinical trials** and **0 publications** supporting this direc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Levothyroxine is a synthetic thyroid hormone replacement. In the knowledge graph its recorded uses are mainly thyroid-related (hypothyroidism, goitre, thyroid cancer, Hashimoto thyroiditis), plus hyperlipidaemia. These are recorded uses, not approved indications confirmed by local label text.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levothyroxine: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Thyquidity (levothyroxine sodium) prescribing information, Oliva Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c839877-50e4-455f-9b6c-462efb09cb96), label version 2025-07-03; accessed 2026-11-19.) Levothyroxine is a synthetic thyroid hormone replacement. In the knowledge graph its recorded uses are mainly thyroid-related (hypothyroidism, goitre, thyroid cancer, Hashimoto thyroiditis), plus hyperlipidaemia. These are recorded uses, not approved indications confirmed by local label text.
 
 The link to renal hypodysplasia/aplasia is weak. Thyroid hormone contributes to general fetal development, including the kidney, but this is a speculative connection. Renal hypodysplasia/aplasia is a structural congenital malformation, usually driven by developmental gene defects (for example PAX2, HNF1B, RET). Postnatal levothyroxine is not expected to reverse it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than a real therapeutic rationale.
 
@@ -122,11 +122,12 @@ The prediction has no supporting trials or publications, and no study directly a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Showing 5 of 9 valid single-ingredient authorizations" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Thyquidity (levothyroxine sodium) prescribing information, Oliva Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c839877-50e4-455f-9b6c-462efb09cb96) |
 
 <!-- review:end log -->
 

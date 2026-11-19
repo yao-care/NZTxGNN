@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 183
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "ERYTHROMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but there are **no registered clinical trials** and only **1 publication**, a ge
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, erythromycin is a macrolide that blocks bacterial protein synthesis by binding the 50S ribosomal subunit. It is active against Gram-positive bacteria such as Staphylococcus, and macrolides are also described as having anti-inflammatory effects and effects on meibomian glands.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for erythromycin: "Erythromycin acts by inhibition of protein synthesis by binding 50S ribosomal subunits of susceptible organisms. It does not affect nucleic acid synthesis." ([DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd), label version 2018-12-04; accessed 2026-11-19.) Based on general pharmacology, erythromycin is a macrolide that blocks bacterial protein synthesis by binding the 50S ribosomal subunit. It is active against Gram-positive bacteria such as Staphylococcus, and macrolides are also described as having anti-inflammatory effects and effects on meibomian glands.
 
 Staphylococcal blepharitis is a recognised driver of punctate corneal epithelial disease, so an antibacterial and anti-inflammatory agent is mechanistically plausible. This link is indirect. The only publication retrieved is a review of the diagnosis and management of chronic blepharokeratoconjunctivitis in children, and it is not a study of erythromycin for this condition. The very high score is a computational prediction and not proof of benefit. Because no cited study directly examines erythromycin in punctate epithelial keratoconjunctivitis, the evidence level is L5.
 
@@ -103,6 +103,18 @@ The prediction score is very high, but there are no clinical trials, the single 
 - Mechanism of action data and package insert warnings and contraindications
 - Assessment of route and formulation compatibility, since the local product is injectable only
 - A safety review of the QT-prolongation risk and the major drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

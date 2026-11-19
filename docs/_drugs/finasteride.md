@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, finasteride is a 5-alpha-reductase type II inhibitor that lowers dihydrotestosterone (DHT). This is the basis for its efficacy in BPH and its established use in androgenetic alopecia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for finasteride: "The development and enlargement of the prostate gland is dependent on the potent androgen, 5α-dihydrotestosterone (DHT). Type II 5α-reductase metabolizes testosterone to DHT in the prostate gland, liver and skin. […] Finasteride is a competitive and specific inhibitor of Type II 5α-reductase with which it slowly forms a stable enzyme complex." ([DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b), label version 2026-03-18; accessed 2026-11-19.) Based on known information, finasteride is a 5-alpha-reductase type II inhibitor that lowers dihydrotestosterone (DHT). This is the basis for its efficacy in BPH and its established use in androgenetic alopecia.
 
 The link to Ambras syndrome is weak. Ambras syndrome is a congenital, genetically driven hypertrichosis (a chromosome 8q22 rearrangement affecting TRPS1 regulation), and its hair overgrowth is not known to depend on DHT. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the mechanistic rationale is speculative.
 
@@ -126,12 +126,13 @@ The prediction rests only on a model score, with no clinical trials. The only re
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "In addition, the only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Review of the cancelled licence status and its implications for local availability" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
 
 <!-- review:end log -->
 

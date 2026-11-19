@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 70
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Brentuximab Vedotin: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Hodgkin lymphoma (including classic Hodgkin lymphoma)"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -60,7 +60,7 @@ Among the other predicted indications, **B-cell neoplasm** (especially diffuse l
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, brentuximab vedotin is an antibody-drug conjugate: an anti-CD30 antibody linked to the cytotoxic agent MMAE. CD30 is strongly expressed on Hodgkin/Reed-Sternberg cells, which is why the drug works in Hodgkin lymphoma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for brentuximab vedotin: "CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. CD30 is variably expressed in other T-cell lymphomas. […] Brentuximab vedotin is an antibody-drug conjugate (ADC)." ([DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f), label version 2025-11-11; accessed 2026-11-19.) Based on known information, brentuximab vedotin is an antibody-drug conjugate: an anti-CD30 antibody linked to the cytotoxic agent MMAE. CD30 is strongly expressed on Hodgkin/Reed-Sternberg cells, which is why the drug works in Hodgkin lymphoma.
 
 Follicular lymphoma is a B-cell lymphoma that generally has low CD30 expression. The mechanistic rationale is therefore limited to CD30-positive subsets or possible bystander effects, where MMAE released near target cells kills neighbouring tumour cells. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should not be read as evidence of efficacy.
 
@@ -159,12 +159,13 @@ For follicular lymphoma, the evidence is limited to one small recruiting Phase 2
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and the New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "the cancelled New Zealand authorization and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
 
 <!-- review:end log -->
 

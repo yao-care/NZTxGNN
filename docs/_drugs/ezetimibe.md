@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidaemia, familial hypercholesterolaemia, sitosterolemia"
 ---
 
@@ -61,7 +61,7 @@ This is a model prediction only, and the supporting evidence is weak.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for ezetimibe is not available in the data compiled for this report. From general knowledge, ezetimibe inhibits NPC1L1-mediated cholesterol absorption in the intestine, which lowers LDL cholesterol.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ezetimibe: "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols." ([DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9), label version 2026-10-08; accessed 2026-11-19.) From general knowledge, ezetimibe inhibits NPC1L1-mediated cholesterol absorption in the intestine, which lowers LDL cholesterol.
 
 CETP deficiency is a genetic condition marked by markedly raised HDL cholesterol and altered lipoprotein metabolism. The shared involvement of lipid-metabolism pathways probably explains the high model score (0.9909).
 
@@ -136,6 +136,19 @@ The prediction rests on model output alone. No clinical trial or publication dir
 - Mechanism-of-action data for ezetimibe
 - Medsafe package insert warnings and contraindications for a formal safety review
 - Review of the interaction profile, particularly with statins and other lipid-modifying agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for ezetimibe is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

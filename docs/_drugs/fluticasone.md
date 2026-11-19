@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Fluticasone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "FLUTICASONE"
 drugbank_id: DB13867
@@ -62,7 +62,7 @@ This prediction rests on the model alone and is not yet backed by clinical evide
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Fluticasone is known to be a glucocorticoid with anti-inflammatory activity. Neurogenic inflammation and sensitization of the trigeminovascular system are thought to be involved in migraine, which gives a plausible but unverified link.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone: "Fluticasone propionate is a synthetic trifluorinated corticosteroid with anti-inflammatory activity. Fluticasone propionate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is 18 times that of dexamethasone, almost twice that of beclomethasone-17-monopropionate (BMP), the active metabolite of beclomethasone dipropionate, and over 3 times that of budesonide." ([DailyMed: Xhance (fluticasone propionate) prescribing information, Paratek Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44fcea33-8cfa-3a5c-e063-6394a90aafb2), label version 2026-10-23; accessed 2026-11-19.) Fluticasone is known to be a glucocorticoid with anti-inflammatory activity. Neurogenic inflammation and sensitization of the trigeminovascular system are thought to be involved in migraine, which gives a plausible but unverified link.
 
 The TxGNN score is very high (0.9920), but it comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The data compiled for this report contain no mechanistic, preclinical or clinical study supporting a benefit in migraine.
 
@@ -154,7 +154,7 @@ The prediction is supported only by the model score (L5). There are no clinical 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
@@ -162,6 +162,7 @@ Below is the review log for this page: statements checked against official Pharm
 | 2026-11-06 | Removed: "One further cancelled authorization (472859, Flixotide aerosol inhaler, 125 mcg per dose) is not shown. All 6 authorizations are single-ingr" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "All 6 New Zealand licences are valid, but p" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since only inhaled forms were licensed - A decision on whether any product would be re-registered, given the cancelled market status" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xhance (fluticasone propionate) prescribing information, Paratek Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44fcea33-8cfa-3a5c-e063-6394a90aafb2) |
 
 <!-- review:end log -->
 

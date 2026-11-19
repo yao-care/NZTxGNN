@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 279
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ but there are **0 registered clinical trials** and only **2 publications** (one 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, losartan blocks the angiotensin II type 1 (AT1) receptor (gene AGTR1) of the renin-angiotensin system. Its efficacy in hypertension and diabetic nephropathy is established, and it may be mechanistically applicable to renovascular hypertension, which is driven by the same system.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for losartan: "Angiotensin II [formed from angiotensin I in a reaction catalyzed by angiotensin converting enzyme (ACE, kininase II)] is a potent vasoconstrictor, the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. It also stimulates aldosterone secretion by the adrenal cortex. […] Losartan and its principal active metabolite block the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor found in many tissues, (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41), label version 2026-09-15; accessed 2026-11-19.) Based on known information, losartan blocks the angiotensin II type 1 (AT1) receptor (gene AGTR1) of the renin-angiotensin system. Its efficacy in hypertension and diabetic nephropathy is established, and it may be mechanistically applicable to renovascular hypertension, which is driven by the same system.
 
 Renovascular hypertension arises when renal artery narrowing activates the renin-angiotensin system, so blocking AT1 is a logical approach. A published case report describes a patient with Takayasu's arteritis, a single kidney and malignant hypertension due to renal artery stenosis. Hypertension there was refractory to conventional treatment, and enalapril plus losartan improved blood pressure without deterioration of renal function.
 
@@ -108,6 +108,19 @@ The prediction score is high (0.9973), but the supporting evidence is one case r
 - Package insert warnings and contraindications from Medsafe, for safety screening
 - Clinical studies in renovascular hypertension patients, with attention to renal function monitoring in renal artery stenosis
 - An assessment of the incremental value over the existing hypertension indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

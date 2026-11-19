@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BUMETANIDE"
 predicted_indications: ["acute pulmonary heart disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-19
 description: "Bumetanide: predicted new indication acute pulmonary heart disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -58,7 +58,7 @@ Bumetanide is a loop diuretic that relieves fluid overload. The TxGNN model pred
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Bumetanide is, however, a well-established loop diuretic. It inhibits the Na-K-2Cl cotransporter (NKCC2) in the thick ascending limb of the loop of Henle, producing rapid sodium and water excretion.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bumetanide: "Bumetanide primarily inhibits the reabsorption of sodium and chloride in the proximal and distal tubules and in the loop of Henle. The high degree of diuresis is largely due to the unique site of action. The action on the distal tubule is independent of any inhibitory effect on carbonic anhydrase and aldosterone." ([DailyMed: Enbumyst (bumetanide) prescribing information, Corstasis USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6f752c5-d2bd-4f77-9611-ca2110066d1f), label version 2026-08-27; accessed 2026-11-19.) Bumetanide is, however, a well-established loop diuretic. It inhibits the Na-K-2Cl cotransporter (NKCC2) in the thick ascending limb of the loop of Henle, producing rapid sodium and water excretion.
 
 In acute pulmonary heart disease (acute cor pulmonale), the right ventricle is overloaded and venous congestion develops. Reducing preload and extracellular fluid volume could plausibly relieve this congestion. This shares the volume-overload pathophysiology of heart failure, for which loop diuretics are commonly used.
 
@@ -129,6 +129,19 @@ Please refer to the package insert for the full warnings and contraindications.
 - Package insert warnings and contraindications from Medsafe
 - Mechanism-of-action data from DrugBank
 - A safety plan for patients with electrolyte disturbance, renal impairment, hearing disorder or diabetes, and for those taking interacting drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enbumyst (bumetanide) prescribing information, Corstasis USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6f752c5-d2bd-4f77-9611-ca2110066d1f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is papillary conjunctivitis, but that pr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Prilocaine is an amide local anaesthetic that blocks voltage-gated sodium channels. In EMLA it is combined with lidocaine in a eutectic mixture (2.5% each) for topical use.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prilocaine: "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41), label version 2021-11-10; accessed 2026-11-19.) Prilocaine is an amide local anaesthetic that blocks voltage-gated sodium channels. In EMLA it is combined with lidocaine in a eutectic mixture (2.5% each) for topical use.
 
 The original indications (premature ejaculation, dyspareunia) are conditions where topical numbing of sensitive tissue helps. Neuralgia is a pain condition driven by hyperactive nociceptive nerve fibres, so sodium channel blockade gives a direct biological rationale. This is the most plausible of the ten predictions.
 
@@ -156,12 +156,13 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both New Zealand licences are cancelled, so no product is currently marketed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and a decision on how to supply a topical product given the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 250
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "KETAMINE"
 predicted_indications: ["headache disorder"]
 description: "Ketamine: predicted new indication Headache disorder (evidence level L1). Approved use: Not recorded in the local data"
@@ -64,7 +64,7 @@ Several of the trials are completed randomised studies, but most are small, and 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, ketamine is an NMDA receptor antagonist. Central sensitisation and glutamatergic signalling contribute to migraine, cluster headache and chronic headache pain, including cortical spreading depression and trigeminovascular activation. Blocking NMDA receptors may reduce this hyperexcitability and pain amplification.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ketamine: "KETALAR, a racemic mixture of ketamine, is a non-selective, non-competitive antagonist of the N-methyl-D-aspartate (NMDA) receptor, an ionotropic glutamate receptor. The major circulating metabolite of ketamine (norketamine) demonstrated activity at the same receptor with less affinity." ([DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063), label version 2026-03-27; accessed 2026-11-19.) Based on general pharmacology, ketamine is an NMDA receptor antagonist. Central sensitisation and glutamatergic signalling contribute to migraine, cluster headache and chronic headache pain, including cortical spreading depression and trigeminovascular activation. Blocking NMDA receptors may reduce this hyperexcitability and pain amplification.
 
 No approved indication is on record, so a direct comparison between original and new indication is not possible. Ketamine's established use as an analgesic and anaesthetic agent, together with its use in other chronic pain conditions, makes a pain-related application plausible. The very high TxGNN score (0.9933) is consistent with this reasoning.
 
@@ -143,12 +143,13 @@ Multiple randomised trials, including one completed Phase 3 trial, and several r
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "but the New Zealand licence record compiled for this report contains no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "given the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
 
 <!-- review:end log -->
 

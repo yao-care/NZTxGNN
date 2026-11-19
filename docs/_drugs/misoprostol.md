@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 description: "Misoprostol: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the licence data"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but there are *
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Misoprostol is a prostaglandin E1 analogue that induces uterine contraction and cervical ripening, and it is used in obstetric and gynaecological settings such as medical abortion and management of missed abortion.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diclofenac sodium and misoprostol (a combination product containing misoprostol): "Misoprostol Misoprostol is a synthetic PGE1 analog with gastric antisecretory and mucosal protective properties. Misoprostol can increase bicarbonate and mucus production, but it has been shown at doses 200 mcg and above that are also antisecretory." ([DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3), label version 2026-08-31; accessed 2026-11-19.) Misoprostol is a prostaglandin E1 analogue that induces uterine contraction and cervical ripening, and it is used in obstetric and gynaecological settings such as medical abortion and management of missed abortion.
 
 The retrieved literature is about pregnancy termination and pregnancy-related conditions. Amenorrhea appears in these papers mainly as an eligibility criterion (for example, "amenorrhea ≤35 days" in early pregnancy studies), not as a condition being treated. One regimen, low-dose mifepristone plus misoprostol before expected menstruation, was studied to prevent unintended pregnancy, which is only loosely related to menstrual regulation.
 
@@ -152,12 +152,13 @@ The prediction has no registered trials, and the published studies concern pregn
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the label safety data could not be retrieved" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and the regulatory status of the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
 
 <!-- review:end log -->
 

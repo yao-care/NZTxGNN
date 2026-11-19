@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Lispro: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -56,7 +56,7 @@ It is a computational signal only and should be treated as hypothesis-generating
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, insulin lispro is a rapid-acting insulin analogue whose efficacy in diabetes is well established. It replaces or supplements endogenous insulin to lower blood glucose.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin lispro: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin lispro products. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0), label version 2026-09-03; accessed 2026-11-19.) Based on known information, insulin lispro is a rapid-acting insulin analogue whose efficacy in diabetes is well established. It replaces or supplements endogenous insulin to lower blood glucose.
 
 The only plausible link to autoimmune oophoritis is indirect. Autoimmune polyendocrine syndromes can occur together with insulin-dependent autoimmune diabetes. This is a co-occurrence of diseases, not a treatment rationale. Insulin would not be expected to modify ovarian autoimmunity.
 
@@ -142,11 +142,12 @@ The top prediction, autoimmune oophoritis, rests only on a computational score, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of current New Zealand licensing, since both Humalog licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
 
 <!-- review:end log -->
 
