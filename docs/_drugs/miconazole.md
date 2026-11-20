@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 299
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "MICONAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). In New Zealand: 6 Pharmac Schedule items"

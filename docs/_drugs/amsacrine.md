@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "AMSACRINE"
 drugbank_id: DB00276
 predicted_indications: ["hyperthyroidism", "plasma cell myeloma", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "bronchitis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Amsacrine: predicted new indication hyperthyroidism (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
