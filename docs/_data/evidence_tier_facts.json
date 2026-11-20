@@ -9,7 +9,7 @@
   "with_current": 34,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 33,
+  "with_reviews": 34,
   "rows": [
    {
     "t": "Acetylcysteine",
@@ -194,7 +194,7 @@
     "i": "alopecia areata",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The one local licence is currently valid\"",
     "x": 0
    },
@@ -205,7 +205,7 @@
     "i": "hepatitis B virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only New Zealand licence is cancelled, and the package insert safety data are not available\"",
     "x": 0
    },
@@ -249,8 +249,8 @@
     "i": "agoraphobia",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -447,7 +447,7 @@
     "i": "small cell lung carcinoma",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All 6 licences are valid\"",
     "x": 0
    },
@@ -524,7 +524,7 @@
     "i": "breast fibrocystic disease",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Seven licences are currently valid\"",
     "x": 0
    },
@@ -744,7 +744,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The product's only New Zealand licence is cancelled\"",
     "x": 0
    },
@@ -766,7 +766,7 @@
     "i": "acne (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All products listed are single-ingredient miconazole\"",
     "x": 0
    },
@@ -777,7 +777,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Minoxidil is marketed in New Zealand with 2 valid licences, both for 10 mg tablets\"",
     "x": 0
    },
@@ -854,7 +854,7 @@
     "i": "HIV infectious disease",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clarification of the regulatory status given the cancelled licences\"",
     "x": 0
    },
@@ -976,7 +976,7 @@
   "with_current": 364,
   "none_current": 0,
   "without_data": 1,
-  "with_reviews": 341,
+  "with_reviews": 354,
   "rows": [
    {
     "t": "Olanzapine",
@@ -1040,8 +1040,8 @@
     "i": "atopic eczema",
     "lt": 15,
     "lv": 15,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -1128,7 +1128,7 @@
     "i": "papillary conjunctivitis",
     "lt": 13,
     "lv": 13,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"(no ocular product is currently licensed in New Zealand)\"",
     "x": 0
    },
@@ -1139,7 +1139,7 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 12,
     "lv": 12,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and of whether any valid New Zealand licence exists, given that all 12 are cancelled\"",
     "x": 0
    },
@@ -1381,7 +1381,7 @@
     "i": "specific developmental disorder",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Five of the seven licences recorded are shown below\"",
     "x": 0
    },
@@ -1788,8 +1788,8 @@
     "i": "autoimmune oophoritis",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -1843,8 +1843,8 @@
     "i": "solid pseudopapillary carcinoma of pancreas",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -1865,7 +1865,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The product is also no longer licensed in New Zealand\"",
     "x": 0
    },
@@ -2008,8 +2008,8 @@
     "i": "granulomatous disease, chronic, autosomal recessive",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -2151,7 +2151,7 @@
     "i": "epiglottitis",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since all 4 New Zealand licences are valid\"",
     "x": 0
    },
@@ -2261,8 +2261,8 @@
     "i": "craniofacial conodysplasia",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -2272,8 +2272,8 @@
     "i": "catecholaminergic polymorphic ventricular tachycardia",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available for amiodarone\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -2349,7 +2349,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local licence records list the three single-ingredient carvedilol tablet strengths above\"",
     "x": 0
    },
@@ -2382,7 +2382,7 @@
     "i": "non-seminomatous lesion",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local records list three authorisations for single-ingredient cetuximab injection\"",
     "x": 0
    },
@@ -2404,7 +2404,7 @@
     "i": "acromesomelic dysplasia, Campailla Martinelli type",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both licences on record are valid, single-ingredient products\"",
     "x": 0
    },
@@ -2481,7 +2481,7 @@
     "i": "Plummer-Vinson syndrome",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clarification of the local licence status, since the data compiled for this report show conflicting…",
     "x": 0
    },
@@ -2536,7 +2536,7 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 3,
     "lv": 3,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"cancelled market status and the\"",
     "x": 0
    },
@@ -2778,8 +2778,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -2855,7 +2855,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"the cancelled licences and\"",
     "x": 0
    },
@@ -2888,7 +2888,7 @@
     "i": "respiratory malformation",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both licences are currently valid\"",
     "x": 0
    },
@@ -2910,7 +2910,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"In New Zealand it is currently licensed within sacubitril/valsartan combination products\"",
     "x": 0
    },
@@ -2932,7 +2932,7 @@
     "i": "classic stiff person syndrome",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clarification of the regulatory position, since the only New Zealand licence is cancelled\"",
     "x": 0
    },
@@ -3042,8 +3042,8 @@
     "i": "hyperthyroidism",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -3086,8 +3086,8 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data for azathioprine is not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -3262,8 +3262,8 @@
     "i": "cauda equina syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3273,7 +3273,7 @@
     "i": "upper aerodigestive tract neoplasm",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the New Zealand supply situation; the drug is marketed, with 2 valid licences out…",
     "x": 0
    },
@@ -3328,7 +3328,7 @@
     "i": "amenorrhea (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"since the existing authorization is cancelled\"",
     "x": 0
    },
@@ -3361,7 +3361,7 @@
     "i": "Tourette syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The original approved indication text for the cancelled licence\"",
     "x": 0
    },
@@ -3460,7 +3460,7 @@
     "i": "fibroma of prostate",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"given that both licences are cancelled\"",
     "x": 0
    },
@@ -3482,7 +3482,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Iloprost's New Zealand authorizations are both cancelled, so there is no currently marketed product\"",
     "x": 0
    },
@@ -3845,7 +3845,7 @@
     "i": "papillary conjunctivitis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Ocular irritation risk argues against the proposed route, and the only New Zealand licence has been…",
     "x": 0
    },
@@ -3922,7 +3922,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Tetracycline is also cancelled-only in New Zealand, which limits practical use.\"",
     "x": 0
    },
@@ -3955,7 +3955,7 @@
     "i": "amenorrhea (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"the drug is marketed in New Zealand with 2 valid licences of 2\"",
     "x": 0
    },
@@ -4065,7 +4065,7 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"In addition, the only New Zealand licence for alectinib is cancelled, which limits near-term local…",
     "x": 0
    },
@@ -4164,8 +4164,8 @@
     "i": "Renal hypouricemia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4208,8 +4208,8 @@
     "i": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data are not available in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -4318,7 +4318,7 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Confirmation of product availability and route compatibility in New Zealand, since the only licence…",
     "x": 0
    },
@@ -4417,7 +4417,7 @@
     "i": "HIV infectious disease",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The licence is currently valid\"",
     "x": 0
    },
@@ -4450,7 +4450,7 @@
     "i": "autoimmune oophoritis",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"since the Ryzodeg licence is cancelled\"",
     "x": 0
    },
@@ -4549,7 +4549,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"he only New Zealand authorisation has been cancelled, and t\"",
     "x": 0
    },
@@ -4593,8 +4593,8 @@
     "i": "pleural empyema (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -4615,7 +4615,7 @@
     "i": "vulvitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only licence is valid. It covers a natamycin–neomycin combination ointment, so it does not…",
     "x": 0
    },
@@ -4626,7 +4626,7 @@
     "i": "hyperamylasemia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The product also has only a cancelled licence in New Zealand\"",
     "x": 0
    },
@@ -4648,7 +4648,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"A decision on whether the cancelled New Zealand licence matters for the intended use, since no…",
     "x": 0
    },
@@ -4670,7 +4670,7 @@
     "i": "benign neoplasm of tongue",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The product's only licence has been cancelled\"",
     "x": 0
    },
@@ -4736,7 +4736,7 @@
     "i": "hepatitis B virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Evidence of an active New Zealand regulatory pathway, since the only authorization is cancelled\"",
     "x": 0
    },
@@ -4791,7 +4791,7 @@
     "i": "infectious otitis media",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"given the cancelled licence\"",
     "x": 0
    },
@@ -4813,7 +4813,7 @@
     "i": "PLA2G6-associated neurodegeneration",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and the New Zealand authorization has been cancelled\"",
     "x": 0
    },
@@ -4989,7 +4989,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 0,
     "lv": 0,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"There are no clinical trials or publications, no plausible mechanistic link to the GDF5/BMP…",
     "x": 0
    }

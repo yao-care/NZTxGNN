@@ -54,7 +54,7 @@ Atomoxetine is a selective norepinephrine reuptake inhibitor. The TxGNN model pr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Atomoxetine is known as a selective norepinephrine reuptake inhibitor. Noradrenergic signalling is linked to attention and executive function.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atomoxetine: "The precise mechanism by which STRATTERA produces its therapeutic effects in ADHD is unknown, but is thought to be related to selective inhibition of the pre-synaptic norepinephrine transporter, as determined in ex vivo uptake and neurotransmitter depletion studies." ([DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb), label version 2026-06-30; accessed 2026-11-20.) Atomoxetine is known as a selective norepinephrine reuptake inhibitor. Noradrenergic signalling is linked to attention and executive function.
 
 Specific developmental disorders, such as learning disabilities and developmental coordination disorder, frequently co-occur with attention-related conditions. Any benefit would plausibly come from better attention and executive function, not from a direct effect on the learning disorder itself. The literature is mostly centred on attention-related conditions, so the link to the predicted disease remains indirect.
 
@@ -130,11 +130,12 @@ No trials directly address this disease, and the publications concern related at
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Five of the seven licences recorded are shown below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, phenoxymethylpenicillin is a narrow-spectrum, beta-lactamase-labile penicillin with established activity against streptococci. Its efficacy in streptococcal infections and upper respiratory tract infections is well recognised, and it may be mechanistically applicable to bacterial epiglottitis.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for phenoxymethylpenicillin: "Penicillin V exerts a bactericidal action against penicillin-sensitive microorganisms during the stage of active multiplication. It acts through the inhibition of biosynthesis of cell-wall mucopeptide. It is not active against the penicillinase-producing bacteria, which include many strains of staphylococci." ([DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea), label version 2026-11-12; accessed 2026-11-20.) Based on known information, phenoxymethylpenicillin is a narrow-spectrum, beta-lactamase-labile penicillin with established activity against streptococci. Its efficacy in streptococcal infections and upper respiratory tract infections is well recognised, and it may be mechanistically applicable to bacterial epiglottitis.
 
 Epiglottitis (supraglottitis) is most often bacterial. Historically the main cause was *Haemophilus influenzae* type b, but *Streptococcus pyogenes*, *Streptococcus pneumoniae* and *Staphylococcus aureus* are also implicated. The link to the drug's original uses is therefore plausible only for streptococcal cases. The very high TxGNN score is probably driven by the drug's known streptococcal and upper respiratory tract indications.
 
@@ -134,12 +134,13 @@ The prediction rests on a model score alone, with no clinical trials or literatu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since all 4 New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Flutamide is a nonsteroidal androgen receptor antagonist, originally used to tre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, flutamide is a nonsteroidal androgen receptor antagonist. It blocks the effect of androgens on target tissues and has long been used in prostate cancer, often together with LHRH agonists.
+ChEMBL (EMBL-EBI) records the mechanism of action of flutamide as: Androgen Receptor antagonist ([ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806), CC BY-SA 3.0; accessed 2026-11-20.) Based on known pharmacology, flutamide is a nonsteroidal androgen receptor antagonist. It blocks the effect of androgens on target tissues and has long been used in prostate cancer, often together with LHRH agonists.
 
 No trial or publication supports it as a distinct repurposing indication.
 
@@ -170,11 +170,12 @@ The apparent evidence for broader categories mostly reflects flutamide's origina
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "given that both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806) |
 
 <!-- review:end log -->
 

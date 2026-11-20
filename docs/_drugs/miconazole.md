@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **acne**, but there are currently 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, miconazole is an azole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase) and disrupts ergosterol synthesis. Its efficacy in superficial fungal skin infections is established, and it may be mechanistically applicable to acne through the pathways below.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for miconazole: "Miconazole is an antifungal drug. […] Miconazole inhibits the enzyme cytochrome P450 14α-demethylase which leads to inhibition of ergosterol synthesis, an essential component of the fungal cell membrane. Miconazole also affects the synthesis of triglycerides and fatty acids and inhibits oxidative and peroxidative enzymes, increasing the amount of reactive oxygen species within the cell." ([DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a), label version 2026-01-08; accessed 2026-11-20.) Based on known information, miconazole is an azole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase) and disrupts ergosterol synthesis. Its efficacy in superficial fungal skin infections is established, and it may be mechanistically applicable to acne through the pathways below.
 
 The link between the original and new indications is indirect, and three lines of reasoning support it:
 - **Anti-bacterial activity:** Azole antifungals show in vitro activity against *Cutibacterium (Propionibacterium) acnes*, the bacterium involved in acne vulgaris (PMID 20045949).
@@ -143,11 +143,12 @@ The TxGNN score is high (0.9954), but the supporting evidence is limited to a re
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All products listed are single-ingredient miconazole" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
 
 <!-- review:end log -->
 

@@ -65,7 +65,7 @@ This is essentially an established, on-label use of the drug rather than true re
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known pharmacology, insulin degludec is a basal insulin analogue that binds the insulin receptor and lowers blood glucose. It has a flat, long-lasting profile, and the Ryzodeg product combines it with rapid-acting insulin aspart in a 70/30 ratio.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin degludec: "The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17), label version 2024-02-22; accessed 2026-11-20.) Based on known pharmacology, insulin degludec is a basal insulin analogue that binds the insulin receptor and lowers blood glucose. It has a flat, long-lasting profile, and the Ryzodeg product combines it with rapid-acting insulin aspart in a 70/30 ratio.
 
 Type 1 diabetes is a state of absolute insulin deficiency, so insulin replacement is the cornerstone of treatment. The relationship between the original indication (diabetes mellitus) and the predicted one (type 1 diabetes) is therefore direct: type 1 diabetes is a subtype of diabetes mellitus. The very high TxGNN score agrees with this established use.
 
@@ -170,13 +170,14 @@ Multiple completed Phase 3 randomised trials and several systematic reviews supp
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and the only New Zealand authorization on record is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and the only New Zealand authorization for the Ryzodeg product is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since the Ryzodeg licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
 
 <!-- review:end log -->
 

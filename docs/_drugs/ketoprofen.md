@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for ketoprofen. It is a member of the non-selective cyclooxygenase (COX) inhibitor class of NSAIDs. These drugs reduce prostaglandin synthesis, which relieves pain and inflammation in arthritis.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ketoprofen: "In anti-inflammatory models ketoprofen has been shown to have inhibitory effects on prostaglandin and leukotriene synthesis, to have antibradykinin activity, as well as to have lysosomal membrane-stabilizing action. However, its mode of action, like that of other non-steroidal anti-inflammatory drugs, is not fully understood." ([DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d), label version 2026-01-07; accessed 2026-11-20.) It is a member of the non-selective cyclooxygenase (COX) inhibitor class of NSAIDs. These drugs reduce prostaglandin synthesis, which relieves pain and inflammation in arthritis.
 
 For this predicted indication, **no credible mechanistic link was identified**. Hunter-Thompson type acromesomelic dysplasia is a rare skeletal dysplasia caused by loss-of-function variants in *CDMP1/GDF5*, which affects BMP signalling. Ketoprofen has no known action on the GDF5/BMP pathway. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as shared skeletal and joint phenotype terms with ketoprofen's arthritis indications, not biological evidence. Symptomatic relief of joint pain is conceivable, but it would not modify the disease.
 
@@ -133,11 +133,12 @@ The top prediction is supported only by a model score. The data compiled for thi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "There are no clinical trials or publications, no plausible mechanistic link to the GDF5/BMP pathway, and the only New Zealand licence has be" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available for ketoprofen" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d) |
 
 <!-- review:end log -->
 

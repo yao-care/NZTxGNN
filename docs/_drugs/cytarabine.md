@@ -60,7 +60,7 @@ Evidence is thin: **0 registered clinical trials** and **1 small clinical study*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Cytarabine belongs to the pyrimidine nucleoside analog class. After intracellular activation, drugs of this class interfere with DNA synthesis and are most active in cells that divide quickly.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cytarabine: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd), label version 2026-10-19; accessed 2026-11-20.) Cytarabine belongs to the pyrimidine nucleoside analog class. After intracellular activation, drugs of this class interfere with DNA synthesis and are most active in cells that divide quickly.
 
 Small cell lung carcinoma is a highly proliferative tumour, so a DNA-synthesis-directed antimetabolite is mechanistically plausible. One older study (1987) tested high-dose cytarabine in small cell lung cancer, but no abstract is available, so its results cannot be summarised.
 
@@ -152,11 +152,12 @@ The mechanism is plausible for a highly proliferative tumour. However, direct ev
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 6 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
 
 <!-- review:end log -->
 

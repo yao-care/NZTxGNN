@@ -58,7 +58,7 @@ Medroxyprogesterone acetate is a synthetic progestin hormone marketed in New Zea
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Based on known pharmacology, it is a progestin, and the literature supplied describes fibrocystic breast disease as driven by estrogen predominance and relative progesterone deficiency. That imbalance promotes overgrowth of connective tissue and then of the breast epithelium.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for medroxyprogesterone acetate: "Depo-Provera CI (medroxyprogesterone acetate [MPA]) inhibits the secretion of gonadotropins which primarily prevents follicular maturation and ovulation and causes thickening of cervical mucus. These actions contribute to its contraceptive effect." ([DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049), label version 2026-08-25; accessed 2026-11-20.) Based on known pharmacology, it is a progestin, and the literature supplied describes fibrocystic breast disease as driven by estrogen predominance and relative progesterone deficiency. That imbalance promotes overgrowth of connective tissue and then of the breast epithelium.
 
 On that view, a progestin could counter estrogen-driven proliferation and suppress ovarian hormone production, which is the rationale for treating breast pain and cystic change. Two older clinical reports, one in severe fibrocystic disease (1983) and one in adolescents (1988), explored this idea directly. Both appear to be small studies without a control group.
 
@@ -160,11 +160,12 @@ For warnings and formal contraindications, please refer to the package insert.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Seven licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049) |
 
 <!-- review:end log -->
 

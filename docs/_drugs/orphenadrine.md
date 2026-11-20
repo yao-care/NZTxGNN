@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is a retinal dystrophy with no supportin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, orphenadrine is an anticholinergic/antihistaminic agent with NMDA-channel blocking activity. It is used for parkinsonism and muscle spasm.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for orphenadrine: "The mode of action has not been clearly identified but may be related to analgesic properties. Orphenadrine citrate possesses anticholinergic actions." ([DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a), label version 2016-07-20; accessed 2026-11-20.) Based on known information, orphenadrine is an anticholinergic/antihistaminic agent with NMDA-channel blocking activity. It is used for parkinsonism and muscle spasm.
 
 The top-ranked predictions (retinal dystrophy, a glycosylation disorder, polymicrogyria with cerebellar hypoplasia, Charcot-Marie-Tooth type 1G, and two X-linked myopias) are inherited disorders. None has a plausible mechanistic link, clinical trial or publication. Their scores are purely computational. For the myopias, muscarinic blockade is relevant to myopia control (as with atropine), but systemic orphenadrine is not a validated approach and these are monogenic forms.
 
@@ -145,12 +145,13 @@ The top-ranked predictions rest on computational scores alone, with no trials, n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Orphenadrine's only New Zealand licence has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "A decision on whether the cancelled New Zealand licence matters for the intended use, since no current product is marketed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a) |
 
 <!-- review:end log -->
 

@@ -65,7 +65,7 @@ The TxGNN model predicts it may be useful for **amenorrhea (disease)**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on established pharmacology, tranexamic acid is a lysine analogue that blocks plasminogen binding to fibrin. This reduces fibrinolysis and bleeding, including menstrual blood loss.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tranexamic acid: "Tranexamic acid is a synthetic lysine amino acid derivative, which diminishes the dissolution of hemostatic fibrin by plasmin. In the presence of tranexamic acid, the lysine receptor binding sites of plasmin for fibrin are occupied, preventing binding to fibrin monomers, thus preserving and stabilizing fibrin's matrix structure." ([DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5), label version 2025-09-03; accessed 2026-11-20.) Based on established pharmacology, tranexamic acid is a lysine analogue that blocks plasminogen binding to fibrin. This reduces fibrinolysis and bleeding, including menstrual blood loss.
 
 The link to "amenorrhea" is **indirect**. Tranexamic acid does not act on the hormonal or endometrial pathways that would cause true amenorrhea, so any benefit would be a reduction in bleeding volume rather than correction of an underlying cause. The label "amenorrhea" is also ambiguous. It can mean the condition itself, or a desired therapeutic state of menses suppression, for example prophylaxis in premenopausal haematology patients at risk of heavy bleeding. The second reading is the more plausible one for this drug.
 
@@ -156,13 +156,14 @@ The prediction rests on a model score and an indirect mechanistic argument. Ther
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "although the New Zealand licence records contain no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "the drug is marketed in New Zealand with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
 
 <!-- review:end log -->
 

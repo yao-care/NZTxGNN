@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lopinavir is an HIV-1 protease inhibitor, marketed in a fixed-dose combination with ritonavir (a pharmacokinetic booster). Its efficacy in HIV infection is established, and mechanistically it may be applicable to SIV.
+ChEMBL (EMBL-EBI) records the mechanism of action of lopinavir as: Human immunodeficiency virus type 1 protease inhibitor ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; accessed 2026-11-20.) Based on known information, lopinavir is an HIV-1 protease inhibitor, marketed in a fixed-dose combination with ritonavir (a pharmacokinetic booster). Its efficacy in HIV infection is established, and mechanistically it may be applicable to SIV.
 
 SIV is a closely related primate lentivirus, and its protease is structurally similar to HIV-1 protease, so activity is biologically plausible. The available literature consists of macaque studies of combination antiretroviral regimens including lopinavir, plus a chimeric SHIV engineered with an HIV-1 protease gene so that macaques become susceptible to HIV protease inhibitors.
 
@@ -119,11 +119,12 @@ The only supporting evidence is three preclinical macaque studies, with no regis
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The product's only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->
 

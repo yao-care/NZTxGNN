@@ -56,7 +56,7 @@ There are currently **no clinical trials and no publications** supporting this d
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Docusate is an anionic surfactant that softens stool by letting water and fats penetrate the stool mass. It has no known pharmacological action on iron absorption, esophageal web formation or blood cell production.
+ChEMBL (EMBL-EBI) records the mechanism of action of docusate as: Surfactant laxative ([ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036), CC BY-SA 3.0; accessed 2026-11-20.) Docusate is an anionic surfactant that softens stool by letting water and fats penetrate the stool mass. It has no known pharmacological action on iron absorption, esophageal web formation or blood cell production.
 
 The high score most likely reflects the model's network proximity to anaemia-related conditions linked to docusate. Plummer-Vinson syndrome is characterised by iron deficiency anaemia, difficulty swallowing and esophageal webs. Those anaemia links probably come from combination iron or folic acid products that contain docusate to counter iron-induced constipation. They do not show an effect of docusate itself on anaemia.
 
@@ -118,11 +118,12 @@ No trial or publication studies docusate in Plummer-Vinson syndrome. Docusate ha
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of the local licence status, since the data compiled for this report show conflicting counts of valid and cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
 
 <!-- review:end log -->
 

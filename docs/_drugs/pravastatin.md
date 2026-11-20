@@ -56,7 +56,7 @@ but the data compiled for this report contain **1 clinical trial** (which tests 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available from the compiled data. Based on known pharmacology, pravastatin inhibits HMG-CoA reductase, reducing hepatic cholesterol synthesis and upregulating hepatic LDL receptors, which lowers circulating LDL cholesterol. Its efficacy in hyperlipidaemia and atherosclerotic disease is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pravastatin: "Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d), label version 2026-10-23; accessed 2026-11-20.) Based on known pharmacology, pravastatin inhibits HMG-CoA reductase, reducing hepatic cholesterol synthesis and upregulating hepatic LDL receptors, which lowers circulating LDL cholesterol. Its efficacy in hyperlipidaemia and atherosclerotic disease is well established.
 
 The relationship to the predicted indication is mechanistically plausible but has an important limit. In homozygous familial hypercholesterolaemia, LDL receptor function is severely reduced or absent, so a drug that works largely by upregulating LDL receptors is expected to have limited effect. One review in the compiled literature states that statins are not very effective in the homozygous form.
 
@@ -130,11 +130,12 @@ The prediction score is high, but no trial tests pravastatin in homozygous FH, a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of the regulatory status given the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
 
 <!-- review:end log -->
 

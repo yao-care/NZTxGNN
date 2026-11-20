@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Vildagliptin is generally known as a DPP-4 (dipeptidyl peptidase-4) inhibitor. Pharmacology records list DPP4, DPP8, DPP9 and TRPV4 as its targets. Blocking DPP-4 raises incretin hormones (GLP-1 and GIP), which supports insulin secretion and lowers glucagon in type 2 diabetes.
+ChEMBL (EMBL-EBI) records the mechanism of action of vildagliptin as: Dipeptidyl peptidase IV inhibitor ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; accessed 2026-11-20.) Vildagliptin is generally known as a DPP-4 (dipeptidyl peptidase-4) inhibitor. Pharmacology records list DPP4, DPP8, DPP9 and TRPV4 as its targets. Blocking DPP-4 raises incretin hormones (GLP-1 and GIP), which supports insulin secretion and lowers glucagon in type 2 diabetes.
 
 Stiff person syndrome is a rare neurological disorder, usually autoimmune, involving GABAergic signalling and anti-GAD antibodies. No plausible DPP-4 pathway to this condition is evident from the supplied data. The prediction is therefore not backed by a mechanistic link. The same score appears for the related condition "focal stiff limb syndrome", which suggests the model is inferring from a shared disease ontology rather than from drug-specific biology. The high score should be read as a hypothesis-generating signal only.
 
@@ -123,11 +123,12 @@ The prediction has a very high model score but no trials, no literature and no i
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clarification of the regulatory position, since the only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->
 

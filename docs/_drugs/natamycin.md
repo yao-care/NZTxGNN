@@ -58,7 +58,7 @@ Natamycin is a topical polyene antifungal. The TxGNN model predicts it may be us
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Natamycin belongs to the polyene antifungals, which bind ergosterol in fungal cell membranes. Its antifungal activity is established, so it may be applicable where vulvar inflammation has a fungal cause.
+ChEMBL (EMBL-EBI) records the mechanism of action of natamycin as: Ergosterol sequestering agent ([ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656), CC BY-SA 3.0; accessed 2026-11-20.) Natamycin belongs to the polyene antifungals, which bind ergosterol in fungal cell membranes. Its antifungal activity is established, so it may be applicable where vulvar inflammation has a fungal cause.
 
 That reasoning covers only the fungal subtype of vulvitis. The linked Phase 3 trial enrolled women with a fungal infection of the vulva and vagina, not patients with vulvitis of other origins such as irritant, allergic, atrophic or autoimmune causes. Natamycin has no plausible action in those forms. The high model score therefore supports a hypothesis for fungal vulvitis only. It does not show efficacy in vulvitis as a whole.
 
@@ -134,11 +134,12 @@ No cited trial or publication studies vulvitis itself, so the evidence level is 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The only licence is valid. It covers a natamycin–neomycin combination ointment, so it does not describe the approval of single-ingredient na" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656) |
 
 <!-- review:end log -->
 

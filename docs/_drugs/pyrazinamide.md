@@ -60,7 +60,7 @@ The prediction rests on model output alone (evidence level L5).
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known information, pyrazinamide is a first-line anti-tuberculosis agent whose activity is specific to *Mycobacterium tuberculosis* (acid-dependent activity through pyrazinoic acid). It is usually given as part of a multidrug regimen.
+ChEMBL (EMBL-EBI) records the mechanism of action of pyrazinamide as: Fatty acid synthase inhibitor; 70S ribosome inhibitor ([ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614), CC BY-SA 3.0; accessed 2026-11-20.) Based on known information, pyrazinamide is a first-line anti-tuberculosis agent whose activity is specific to *Mycobacterium tuberculosis* (acid-dependent activity through pyrazinoic acid). It is usually given as part of a multidrug regimen.
 
 The link to otitis media is weak. Common otitis media pathogens (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*) are not susceptible to pyrazinamide. The prediction is mechanistically plausible only for the rare tuberculous subset of otitis media, where standard anti-TB regimens that include pyrazinamide would be used. That is an extension of its existing TB use to an extrapulmonary site, not true repurposing.
 
@@ -145,12 +145,13 @@ The prediction for infectious otitis media is model-based only, with no trials o
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Its New Zealand licence is also cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "given the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614) |
 
 <!-- review:end log -->
 

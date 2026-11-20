@@ -54,7 +54,7 @@ Carvedilol is a beta-blocker with additional alpha-1 blocking activity. The TxGN
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on general pharmacology, carvedilol blocks beta receptors and alpha-1 receptors, which lowers blood pressure, and it is reported to have antioxidant properties.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for carvedilol: "COREG is a racemic mixture in which nonselective β-adrenoreceptor blocking activity is present in the S(-) enantiomer and α1-adrenergic blocking activity is present in both R(+) and S(-) enantiomers at equal potency. COREG has no intrinsic sympathomimetic activity." ([DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39), label version 2026-07-31; accessed 2026-11-20.) Based on general pharmacology, carvedilol blocks beta receptors and alpha-1 receptors, which lowers blood pressure, and it is reported to have antioxidant properties.
 
 Malignant hypertensive renal disease is kidney injury caused by severe, sustained high blood pressure. Because carvedilol lowers blood pressure, it is plausible that it could reduce the haemodynamic stress on the kidney, and a possible renal protective effect has been suggested. However, this is essentially an extension of its blood pressure-lowering role, and no study in the data compiled for this report tests it in this disease. The prediction should therefore be treated as a hypothesis only.
 
@@ -111,11 +111,12 @@ The prediction rests on a high model score alone (0.9955), with no clinical tria
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local licence records list the three single-ingredient carvedilol tablet strengths above" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39) |
 
 <!-- review:end log -->
 

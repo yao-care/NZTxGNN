@@ -66,7 +66,7 @@ The evidence is weak and mostly indirect, so this is a research question rather 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, desogestrel is a progestin that suppresses gonadotropin secretion. Combined with ethinylestradiol, it provides estrogen/progestin replacement.
+ChEMBL (EMBL-EBI) records the mechanism of action of desogestrel as: Progesterone receptor agonist ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0; accessed 2026-11-20.) Based on known pharmacology, desogestrel is a progestin that suppresses gonadotropin secretion. Combined with ethinylestradiol, it provides estrogen/progestin replacement.
 
 In hypothalamic oligo-amenorrhea, for example in athletes, combined oral contraceptives can restore regular withdrawal bleeding and help preserve bone density. This is symptomatic hormonal management rather than correction of the underlying cause, and it would not restore spontaneous ovulation. The relationship to the original contraceptive use is therefore one of shared hormonal action, not a new mechanism.
 
@@ -155,13 +155,14 @@ The only related trial is indirect, and the literature consists mostly of older 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and its only New Zealand authorization (Cerazette 75 mcg tablets) is now cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The sole New Zealand authorization is cancelled, and s" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "since the existing authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ The prediction is a model output only, and the available evidence points to a ne
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, pibrentasvir is an HCV NS5A inhibitor, used as a partner drug in the glecaprevir/pibrentasvir combination (Maviret). Its efficacy in hepatitis C is well established.
+ChEMBL (EMBL-EBI) records the mechanism of action of pibrentasvir as: Nonstructural protein 5A inhibitor ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123), CC BY-SA 3.0; accessed 2026-11-20.) Based on known information, pibrentasvir is an HCV NS5A inhibitor, used as a partner drug in the glecaprevir/pibrentasvir combination (Maviret). Its efficacy in hepatitis C is well established.
 
 The mechanistic case for hepatitis B is weak. HBV is a DNA virus that replicates through reverse transcription and has no NS5A homolog, so an NS5A inhibitor has no plausible direct target. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases such as "hepatitis B" and "hepatitis C", not biological evidence. All the literature retrieved concerns HCV, not HBV. HBV reactivation is a known safety concern during HCV direct-acting antiviral therapy in coinfected patients, which is the opposite of an efficacy signal.
 
@@ -124,12 +124,13 @@ The prediction rests only on a high model score. HBV reactivation during HCV ant
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "There is no plausible mechanism, no HBV trials, no HBV literature, and the only New Zealand authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-10-31 | Removed: "Evidence of an active New Zealand regulatory pathway, since the only authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
 
 <!-- review:end log -->
 

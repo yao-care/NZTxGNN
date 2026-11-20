@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that domperidone acts on the dopamine D2 receptor (DRD2) and D3 receptor (DRD3). It is used for upper gastrointestinal symptoms such as dyspepsia, nausea and vomiting.
+ChEMBL (EMBL-EBI) records the mechanism of action of domperidone as: Dopamine D2 receptor antagonist ([ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916), CC BY-SA 3.0; accessed 2026-11-20.) Pharmacology records show that domperidone acts on the dopamine D2 receptor (DRD2) and D3 receptor (DRD3). It is used for upper gastrointestinal symptoms such as dyspepsia, nausea and vomiting.
 
 NSIAD is caused by activating mutations of the vasopressin V2 receptor (AVPR2), or less commonly by GNAS-related signalling changes. Dopamine D2 antagonism has no established direct link to V2 receptor activity or renal water handling. Any connection, such as dopamine-vasopressin interactions in the collecting duct or off-target effects, would be speculative and would need independent validation.
 
@@ -111,12 +111,13 @@ The prediction has only a model score behind it: no clinical trials, no literatu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the knowledge graph flags QT-related contraindications that would matter in a patient group w" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-10-31 | Removed: "Confirmation of product availability and route compatibility in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, metolazone is a thiazide-like diuretic. It is understood to lower blood pressure by inhibiting sodium-chloride reabsorption in the kidney, which reduces fluid volume. Its efficacy in hypertension is established, and mechanistically it could be applicable to hypertension-related kidney disease.
+ChEMBL (EMBL-EBI) records the mechanism of action of metolazone as: Thiazide-sensitive sodium-chloride cotransporter inhibitor ([ChEMBL CHEMBL878 (metolazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL878), CC BY-SA 3.0; accessed 2026-11-20.) Based on known information, metolazone is a thiazide-like diuretic. It is understood to lower blood pressure by inhibiting sodium-chloride reabsorption in the kidney, which reduces fluid volume. Its efficacy in hypertension is established, and mechanistically it could be applicable to hypertension-related kidney disease.
 
 The predicted indication is closely related to the original one, which probably explains the high score. Malignant hypertensive renal disease is, however, a hypertensive emergency. It is usually managed with intravenous antihypertensives, and thiazide-type diuretics are not a standard therapy. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -121,11 +121,12 @@ The prediction rests on a model score alone. There are no clinical trials and no
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "he only New Zealand authorisation has been cancelled, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL878 (metolazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL878) |
 
 <!-- review:end log -->
 

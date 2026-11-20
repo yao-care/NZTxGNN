@@ -21,12 +21,12 @@
   "items_current": 1665
  },
  "reviews": {
-  "records": 869,
-  "pages": 426,
-  "public_pages_with_records": 423,
+  "records": 926,
+  "pages": 440,
+  "public_pages_with_records": 437,
   "by_action": {
    "correct": 531,
-   "mechanism": 338
+   "mechanism": 395
   }
  },
  "fhir": {
@@ -58,7 +58,7 @@
    "l": "L2",
    "lt": 18,
    "lv": 18,
-   "r": 1,
+   "r": 2,
    "i": "alopecia areata"
   },
   {
@@ -103,7 +103,7 @@
    "l": "L5",
    "lt": 15,
    "lv": 15,
-   "r": 0,
+   "r": 1,
    "i": "atopic eczema"
   }
  ],
@@ -156,13 +156,13 @@
    "i": "pneumocystosis"
   },
   {
-   "t": "Dorzolamide",
-   "u": "/drugs/dorzolamide/",
+   "t": "Desogestrel",
+   "u": "/drugs/desogestrel/",
    "l": "L5",
-   "lt": 1,
-   "lv": 1,
+   "lt": 2,
+   "lv": 2,
    "r": 4,
-   "i": "hypotrichosis simplex of the scalp"
+   "i": "amenorrhea (disease)"
   }
  ],
  "example": {

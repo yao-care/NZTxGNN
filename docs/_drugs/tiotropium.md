@@ -56,7 +56,7 @@ The 3 clinical trials and 5 publications compiled for this report address other 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not currently available. Pharmacology data show that tiotropium binds all five muscarinic receptor subtypes (M1–M5). Blocking these receptors relaxes airway smooth muscle and produces bronchodilation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tiotropium: "Tiotropium is a long-acting, antimuscarinic agent, which is often referred to as an anticholinergic. It has similar affinity to the subtypes of muscarinic receptors, M 1 to M 5. In the airways, it exhibits pharmacological effects through inhibition of M 3 -receptors at the smooth muscle leading to bronchodilation." ([DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9), label version 2025-11-10; accessed 2026-11-20.) Pharmacology data show that tiotropium binds all five muscarinic receptor subtypes (M1–M5). Blocking these receptors relaxes airway smooth muscle and produces bronchodilation.
 
 The high score most likely reflects the disease's closeness to other airway diseases in the model's network, not a specific mechanism. Bronchodilation could in theory help secondary airflow limitation in some people with a structural airway or lung malformation. No evidence shows that tiotropium treats the malformation itself or improves outcomes in this population.
 
@@ -126,11 +126,12 @@ No trial or publication directly studies tiotropium in respiratory malformation,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism-of-action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9) |
 
 <!-- review:end log -->
 

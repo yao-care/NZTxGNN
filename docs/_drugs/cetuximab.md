@@ -56,7 +56,7 @@ No clinical trials or publications in the compiled data support this prediction,
 
 ## Why is This Prediction Reasonable?
 
-The compiled data lack a detailed mechanism-of-action entry for this drug. Pharmacology records show that cetuximab binds EGFR and blocks signalling through this receptor.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cetuximab: "The epidermal growth factor receptor (EGFR, HER1, c-ErbB-1) is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases including EGFR, HER2, HER3, and HER4. The EGFR is constitutively expressed in many normal epithelial tissues, including the skin and hair follicle. […] Cetuximab binds specifically to the EGFR on both normal and tumor cells, and competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor-alpha." ([DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9), label version 2026-04-16; accessed 2026-11-20.) Pharmacology records show that cetuximab binds EGFR and blocks signalling through this receptor.
 
 For this prediction, no mechanistic link has been established. The high score is a model output only. No trial or publication shows that EGFR signalling matters in this condition, and nothing indicates that blocking EGFR would help. The prediction should be treated as a hypothesis to examine, not as a supported use.
 
@@ -128,11 +128,12 @@ The prediction has a high model score but no trials, no publications and no mech
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local records list three authorisations for single-ingredient cetuximab injection" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "The compiled data lack a detailed mechanism-of-action entry for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9) |
 
 <!-- review:end log -->
 

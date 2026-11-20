@@ -54,6 +54,8 @@ seo-ops 轉交：搜「<藥名> mechanism of action／moa」落在本站藥物�
   節錄照原文 2～4 句（拿掉「[see …]」交互參照與段落編號，前幾句只講生理背景時以「[…]」接上第一句講到本藥的句子），不改寫。紀錄寫進 `docs/_data/drug_reviews.json`（action＝mechanism，id `nz-moa-<日期>-<藥>-1`，sources 附 url、accessed、excerpt、label_version、section、set_id）；美國仿單與 ChEMBL 都沒有的，列進 `docs/_data/drug_reviews_uncertain.json`（source＝mechanism of action，附原因）。已有紀錄的頁不重抓。`--no-chembl` 只查仿單（ChEMBL 慢時先跑），`--list` 只列仍寫「不可得」的頁。
 - `scripts/apply_drug_reviews.py` 的 mechanism：只把「不可得」那句（句子後半是 AI 推論的，連接詞後的部分保留、首字母大寫）換成「According to the … section of the US FDA-approved prescribing information for <藥>: "…" ([DailyMed: …](…), label version …; accessed …)」，不加框；Review Log 列原句與出處。模型預測與其他正文不動；「To proceed」清單裡的「Detailed mechanism of action data」待辦條目不改。
 - gate 第 21 項（`scripts/check_seo_docs.py`，函式在 build_mechanism_reviews.gate_errors）：公開頁仍寫「不可得」、既沒有 mechanism 紀錄也沒列待查的，擋下；有紀錄沒套上的由第 17 項擋。
+- 2026-11-20 補做（照各站同日推出的版本更新本站 build_mechanism_reviews.py：偵測改成正文章節裡同時有作用機轉／資料／不可得字樣的短句，原 regex 漏掉「is not currently available」「The compiled data lack …」等寫法；同頁不只一句時每句各一筆紀錄（-1、-2…）；同頁別筆紀錄的更正文字與錨點句不當成「不可得」句；新增 `--fda-bulk <目錄>` 改讀 openFDA 全量下載檔，不吃 API 配額；選仿單規則不變）：
+  ChEMBL 恢復可連，待查的 71 頁重跑，27 頁補上紀錄（ChEMBL 26、仿單 1），44 頁仍查不到（待查清單更新原因、標已查 ChEMBL；補上的 27 筆標 resolved）；新偵測另找到 33 頁漏掉的句子，30 頁補上仿單節錄、3 頁列待查。合計 395 筆紀錄、47 頁待查。gate 第 21 項改成「仍寫不可得、又沒列待查」就擋（不再只看有沒有紀錄）。
 - 注意：節錄的是美國仿單，劑型與適應症可能跟紐西蘭產品不同（例 calcitriol、clobetasol 取到外用仿單）；文字上已寫明「US FDA-approved prescribing information」。sync_notes_to_docs.py 整頁重寫後會重套紀錄（claim 是頁面原句）；報告重產、原句改寫後要再跑 build_mechanism_reviews.py。
 
 ## 說明頁與證據等級頁的在地資料（2026-11-19）

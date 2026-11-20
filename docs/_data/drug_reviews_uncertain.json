@@ -5,13 +5,18 @@
    "file": "alfacalcidol.md",
    "drug": "alfacalcidol",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'alfacalcidol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'alfacalcidol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-alfacalcidol-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "allantoin.md",
@@ -21,9 +26,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'allantoin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'allantoin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'allantoin'",
+   "updated": "2026-11-20"
   },
   {
    "file": "amorolfine.md",
@@ -33,21 +40,28 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'amorolfine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'amorolfine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL489411 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "amsacrine.md",
    "drug": "amsacrine",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'amsacrine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'amsacrine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-amsacrine-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "arginine.md",
@@ -57,33 +71,45 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no INN; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no INN; no approved ChEMBL molecule named ''",
+   "updated": "2026-11-20"
   },
   {
    "file": "azathioprine.md",
    "drug": "azathioprine",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'azathioprine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'azathioprine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-azathioprine-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "benzbromarone.md",
    "drug": "benzbromarone",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'benzbromarone' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'benzbromarone' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-benzbromarone-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "calcipotriol.md",
@@ -93,33 +119,45 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'calcipotriol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'calcipotriol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'calcipotriol'",
+   "updated": "2026-11-20"
   },
   {
    "file": "carbimazole.md",
    "drug": "carbimazole",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'carbimazole' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'carbimazole' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-carbimazole-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "cholecalciferol.md",
    "drug": "cholecalciferol",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'cholecalciferol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'cholecalciferol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-cholecalciferol-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "cinchocaine.md",
@@ -129,9 +167,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'cinchocaine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'cinchocaine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'cinchocaine'",
+   "updated": "2026-11-20"
   },
   {
    "file": "clavulanic_acid.md",
@@ -141,9 +181,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'clavulanic acid' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'clavulanic acid' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL777 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "cyclizine.md",
@@ -153,9 +195,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'cyclizine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'cyclizine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL648 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "cyproterone_acetate.md",
@@ -165,69 +209,96 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'cyproterone' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'cyproterone' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'cyproterone'",
+   "updated": "2026-11-20"
   },
   {
    "file": "dacarbazine.md",
    "drug": "dacarbazine",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'dacarbazine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'dacarbazine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-dacarbazine-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "desogestrel.md",
    "drug": "desogestrel",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'desogestrel' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'desogestrel' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-desogestrel-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "docusate.md",
    "drug": "docusate",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'docusate' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'docusate' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-docusate-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "domperidone.md",
    "drug": "domperidone",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'domperidone' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'domperidone' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-domperidone-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "droperidol.md",
    "drug": "droperidol",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'droperidol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'droperidol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-droperidol-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "ethambutol.md",
@@ -237,9 +308,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'ethambutol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'ethambutol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL44884 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "ethinylestradiol.md",
@@ -249,9 +322,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'ethinylestradiol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'ethinylestradiol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'ethinylestradiol'",
+   "updated": "2026-11-20"
   },
   {
    "file": "ferrous_fumarate.md",
@@ -261,9 +336,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'ferrous' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'ferrous' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'ferrous'",
+   "updated": "2026-11-20"
   },
   {
    "file": "ferrous_sulfate_anhydrous.md",
@@ -273,9 +350,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'ferrous' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'ferrous' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'ferrous'",
+   "updated": "2026-11-20"
   },
   {
    "file": "fexofenadine.md",
@@ -285,9 +364,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'fexofenadine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'fexofenadine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL914 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "flucloxacillin.md",
@@ -297,9 +378,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'flucloxacillin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'flucloxacillin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'flucloxacillin'",
+   "updated": "2026-11-20"
   },
   {
    "file": "flupentixol.md",
@@ -309,21 +392,28 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'flupentixol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'flupentixol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'flupentixol'",
+   "updated": "2026-11-20"
   },
   {
    "file": "flutamide.md",
    "drug": "flutamide",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'flutamide' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'flutamide' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-flutamide-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "framycetin.md",
@@ -333,21 +423,28 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'framycetin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'framycetin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'framycetin'",
+   "updated": "2026-11-20"
   },
   {
    "file": "glecaprevir.md",
    "drug": "glecaprevir",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'glecaprevir' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'glecaprevir' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-glecaprevir-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "glycerin.md",
@@ -357,9 +454,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'glycerin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'glycerin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL692 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "indacaterol.md",
@@ -369,9 +468,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'indacaterol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'indacaterol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1095777 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "isoleucine.md",
@@ -381,21 +482,28 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'isoleucine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'isoleucine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'isoleucine'",
+   "updated": "2026-11-20"
   },
   {
    "file": "ledipasvir.md",
    "drug": "ledipasvir",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'ledipasvir' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'ledipasvir' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-ledipasvir-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "levocabastine.md",
@@ -405,9 +513,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'levocabastine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'levocabastine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1615438 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "levocarnitine.md",
@@ -417,21 +527,28 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'levocarnitine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'levocarnitine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1149 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "lopinavir.md",
    "drug": "lopinavir",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'lopinavir' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'lopinavir' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-lopinavir-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "magnesium_hydroxide.md",
@@ -441,9 +558,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'hydroxide' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'hydroxide' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'hydroxide'",
+   "updated": "2026-11-20"
   },
   {
    "file": "methenamine.md",
@@ -453,9 +572,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'methenamine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'methenamine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1201270 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "methionine.md",
@@ -465,69 +586,96 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'methionine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'methionine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'methionine'",
+   "updated": "2026-11-20"
   },
   {
    "file": "metolazone.md",
    "drug": "metolazone",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'metolazone' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'metolazone' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-metolazone-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "miconazole.md",
    "drug": "miconazole",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'miconazole' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'miconazole' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-miconazole-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "minoxidil.md",
    "drug": "minoxidil",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'minoxidil' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'minoxidil' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-minoxidil-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "moclobemide.md",
    "drug": "moclobemide",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'moclobemide' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'moclobemide' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-moclobemide-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "natamycin.md",
    "drug": "natamycin",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'natamycin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'natamycin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-natamycin-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "nicorandil.md",
@@ -537,33 +685,45 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'nicorandil' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'nicorandil' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL284906 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "norfloxacin.md",
    "drug": "norfloxacin",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'norfloxacin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'norfloxacin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-norfloxacin-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "palivizumab.md",
    "drug": "palivizumab",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'palivizumab' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'palivizumab' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-palivizumab-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "paromomycin.md",
@@ -573,9 +733,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'paromomycin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'paromomycin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL370143 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "periciazine.md",
@@ -585,9 +747,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'periciazine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'periciazine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL251940 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "perindopril.md",
@@ -597,9 +761,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'perindopril' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'perindopril' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1581 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "phenol.md",
@@ -609,9 +775,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'phenol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'phenol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL14060 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "phenylalanine.md",
@@ -621,21 +789,28 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'phenylalanine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'phenylalanine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'phenylalanine'",
+   "updated": "2026-11-20"
   },
   {
    "file": "pibrentasvir.md",
    "drug": "pibrentasvir",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'pibrentasvir' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'pibrentasvir' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-pibrentasvir-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "polyethylene_glycol.md",
@@ -645,9 +820,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'polyethylene glycol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'polyethylene glycol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'polyethylene glycol'",
+   "updated": "2026-11-20"
   },
   {
    "file": "potassium_chloride.md",
@@ -657,9 +834,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no INN; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no INN; no approved ChEMBL molecule named ''",
+   "updated": "2026-11-20"
   },
   {
    "file": "potassium_citrate.md",
@@ -669,21 +848,28 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no INN; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no INN; no approved ChEMBL molecule named ''",
+   "updated": "2026-11-20"
   },
   {
    "file": "prochlorperazine.md",
    "drug": "prochlorperazine",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'prochlorperazine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'prochlorperazine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-prochlorperazine-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "procyclidine.md",
@@ -693,9 +879,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'procyclidine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'procyclidine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL86715 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "propylene_glycol.md",
@@ -705,21 +893,28 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'propylene glycol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'propylene glycol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'propylene glycol'",
+   "updated": "2026-11-20"
   },
   {
    "file": "pyrazinamide.md",
    "drug": "pyrazinamide",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'pyrazinamide' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'pyrazinamide' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-pyrazinamide-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "roxithromycin.md",
@@ -729,9 +924,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'roxithromycin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'roxithromycin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'roxithromycin'",
+   "updated": "2026-11-20"
   },
   {
    "file": "saccharin.md",
@@ -741,9 +938,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'saccharin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'saccharin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'saccharin'",
+   "updated": "2026-11-20"
   },
   {
    "file": "sennosides.md",
@@ -753,9 +952,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'sennosides' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'sennosides' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'sennosides'",
+   "updated": "2026-11-20"
   },
   {
    "file": "sodium_citrate.md",
@@ -765,9 +966,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no INN; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no INN; no approved ChEMBL molecule named ''",
+   "updated": "2026-11-20"
   },
   {
    "file": "tenoxicam.md",
@@ -777,21 +980,28 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'tenoxicam' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'tenoxicam' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'tenoxicam'",
+   "updated": "2026-11-20"
   },
   {
    "file": "tetracycline.md",
    "drug": "tetracycline",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'tetracycline' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'tetracycline' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-tetracycline-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "threonine.md",
@@ -801,9 +1011,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'threonine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'threonine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'threonine'",
+   "updated": "2026-11-20"
   },
   {
    "file": "tyrosine.md",
@@ -813,9 +1025,11 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'tyrosine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'tyrosine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL925 has no mechanism entry",
+   "updated": "2026-11-20"
   },
   {
    "file": "valine.md",
@@ -825,21 +1039,28 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'valine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'valine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'valine'",
+   "updated": "2026-11-20"
   },
   {
    "file": "vildagliptin.md",
    "drug": "vildagliptin",
    "source": "mechanism of action",
-   "status": "open",
+   "status": "resolved",
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
     "openFDA drug label API (US prescribing information)"
    ],
-   "reason": "no single-ingredient US prescription label for 'vildagliptin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'vildagliptin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later",
+   "record_ids": [
+    "nz-moa-20261120-vildagliptin-1"
+   ],
+   "resolved_on": "2026-11-20",
+   "resolution": "ChEMBL web services reachable again on 2026-11-20; sourced mechanism record added"
   },
   {
    "file": "zuclopenthixol.md",
@@ -849,9 +1070,50 @@
    "added": "2026-11-19",
    "issue": "Page says mechanism-of-action data is not available; no citable source found",
    "searched": [
-    "openFDA drug label API (US prescribing information)"
+    "openFDA drug label API (US prescribing information)",
+    "ChEMBL drug mechanism"
    ],
-   "reason": "no single-ingredient US prescription label for 'zuclopenthixol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL not queried: ChEMBL web services returned HTTP 500 or timed out from the cloud host on 2026-11-19; retry later"
+   "reason": "no single-ingredient US prescription label for 'zuclopenthixol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'zuclopenthixol'",
+   "updated": "2026-11-20"
+  },
+  {
+   "file": "dihydrocodeine.md",
+   "drug": "dihydrocodeine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-20",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'dihydrocodeine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1595 has no mechanism entry"
+  },
+  {
+   "file": "iron.md",
+   "drug": "iron",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-20",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'iron' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'iron'"
+  },
+  {
+   "file": "ursodeoxycholic_acid.md",
+   "drug": "ursodeoxycholic_acid",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-20",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'ursodeoxycholic acid' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'ursodeoxycholic acid'"
   }
  ]
 }

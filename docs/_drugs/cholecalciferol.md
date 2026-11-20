@@ -60,7 +60,7 @@ The data compiled for this report contain **no clinical trials and no publicatio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, cholecalciferol is converted in the liver and kidney to active calcitriol, which promotes intestinal absorption of calcium and phosphate and supports bone mineralisation.
+ChEMBL (EMBL-EBI) records the mechanism of action of cholecalciferol as: Vitamin D receptor agonist ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; accessed 2026-11-20.) Based on general pharmacology, cholecalciferol is converted in the liver and kidney to active calcitriol, which promotes intestinal absorption of calcium and phosphate and supports bone mineralisation.
 
 Acromesomelic dysplasia is a rare skeletal dysplasia that mainly affects the growth of the forearms, lower legs, hands and feet. Conditions of this kind are generally thought to arise from genetic defects in growth-plate signalling pathways, such as the natriuretic peptide receptor or bone morphogenetic protein pathways. Vitamin D supplementation is not expected to correct such a defect.
 
@@ -127,11 +127,12 @@ The prediction score is very high (0.9978), but it is purely computational. Ther
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences on record are valid, single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ The TxGNN model predicts it may be useful for **hyperthyroidism**, but **no clin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Amsacrine is known as a topoisomerase II inhibitor and DNA intercalator, a cytotoxic mechanism aimed at rapidly dividing cancer cells.
+ChEMBL (EMBL-EBI) records the mechanism of action of amsacrine as: DNA topoisomerase II inhibitor ([ChEMBL CHEMBL43 (amsacrine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43), CC BY-SA 3.0; accessed 2026-11-20.) Amsacrine is known as a topoisomerase II inhibitor and DNA intercalator, a cytotoxic mechanism aimed at rapidly dividing cancer cells.
 
 No plausible mechanistic link between this action and excess thyroid hormone is evident. Hyperthyroidism is a benign, manageable endocrine condition with established, far less toxic treatments. The high model score is therefore best read as a statistical signal that needs independent confirmation, not as a biologically supported finding. The cytotoxic profile, including myelosuppression and cardiotoxicity concerns, makes this use unfavourable on risk-benefit grounds.
 
@@ -107,6 +107,19 @@ The prediction has no supporting trials or literature, no plausible mechanism, a
 - Package insert warnings and contraindications from Medsafe for a safety screen
 - Preclinical or clinical evidence that directly studies hyperthyroidism
 - A risk-benefit comparison against existing hyperthyroidism treatments
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL43 (amsacrine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pleural empyema**, but there 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. From general pharmacological knowledge, mupirocin inhibits bacterial isoleucyl-tRNA synthetase. It is active mainly against *Staphylococcus aureus* (including MRSA) and some streptococci. Its efficacy in skin infections such as impetigo is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for mupirocin: "Mupirocin is an RNA synthetase inhibitor antibacterial. […] Mupirocin inhibits bacterial protein synthesis by reversibly and specifically binding to bacterial isoleucyl-transfer RNA (tRNA) synthetase. Mupirocin is bactericidal at concentrations achieved by topical administration." ([DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870), label version 2020-03-20; accessed 2026-11-20.) From general pharmacological knowledge, mupirocin inhibits bacterial isoleucyl-tRNA synthetase. It is active mainly against *Staphylococcus aureus* (including MRSA) and some streptococci. Its efficacy in skin infections such as impetigo is established.
 
 These organisms are also among the pathogens found in pleural empyema, which is the plausible link behind the prediction. However, mupirocin is a topical agent with no meaningful systemic exposure. It is not suited to treating a deep-seated infection of the pleural space. The high TxGNN score (0.9949) is a computational output only. It should not be read as evidence of clinical benefit.
 
@@ -93,6 +93,19 @@ The prediction is supported only by the model score, with no clinical trials or 
 - Evidence that a suitable route of administration exists for the proposed indication
 - Any clinical or preclinical studies in the predicted indications
 - Clarification of the approved indication text for the New Zealand licence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ with **31 clinical trials** and **20 publications** currently supporting this di
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the compiled data. Based on known information, insulin aspart is a rapid-acting human insulin analogue that activates the insulin receptor to lower blood glucose. Its efficacy in diabetes mellitus is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin aspart: "The primary activity of insulin, including NOVOLOG MIX 70/30 is the regulation of glucose metabolism. Insulin and its analog lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85), label version 2026-05-18; accessed 2026-11-20.) Based on known information, insulin aspart is a rapid-acting human insulin analogue that activates the insulin receptor to lower blood glucose. Its efficacy in diabetes mellitus is well established.
 
 Type 1 diabetes is characterised by absolute insulin deficiency, so insulin replacement is a direct, mechanistically sound treatment. Because the original indication (diabetes mellitus) already overlaps with type 1 diabetes, this prediction confirms an established use rather than revealing a new therapeutic direction.
 
@@ -125,6 +125,19 @@ Multiple completed Phase 3 trials and systematic reviews support insulin aspart 
 - Add detailed mechanism of action data from DrugBank
 - Establish a hypoglycaemia monitoring plan and injection-site rotation guidance
 - Treat the other predicted indications as research questions only (neonatal diabetes and pancreatic agenesis) or do not pursue them (the remainder)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not currently available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

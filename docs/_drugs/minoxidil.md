@@ -60,7 +60,7 @@ Evidence is at **Level L4**: **3 published case reports** (2022-2024), all of wh
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on what is known about the drug, minoxidil is a potassium channel opener. Its active metabolite, minoxidil sulfate, is thought to prolong the anagen (growth) phase of the hair cycle and to dilate the small blood vessels around hair follicles.
+ChEMBL (EMBL-EBI) records the mechanism of action of minoxidil as: Sulfonylurea receptor 2, Kir6.2 opener ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; accessed 2026-11-20.) Based on what is known about the drug, minoxidil is a potassium channel opener. Its active metabolite, minoxidil sulfate, is thought to prolong the anagen (growth) phase of the hair cycle and to dilate the small blood vessels around hair follicles.
 
 Hypotrichosis simplex of the scalp is a rare, inherited condition in which scalp hair is thin or sparse. It is linked to variants in the CDSN gene, which encodes corneodesmosin, a desmosome protein. The phenotype resembles other non-scarring hair-thinning conditions that respond to minoxidil, so the mechanism is plausible. Hair follicles are present but underperforming, which is the situation in which a growth-promoting agent might help.
 
@@ -138,11 +138,12 @@ The model score is very high, the mechanism is plausible, and the drug is alread
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Minoxidil is marketed in New Zealand with 2 valid licences, both for 10 mg tablets" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
 
 <!-- review:end log -->
 

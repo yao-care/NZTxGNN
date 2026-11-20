@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **autosomal recessive chronic g
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Cyclosporine is known as a calcineurin inhibitor that suppresses T-lymphocyte activation, and it is used as an immunosuppressant in transplantation and in several inflammatory conditions.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyclosporine: "Cyclosporine is a potent immunosuppressive agent that in animals prolongs survival of allogeneic transplants involving skin, kidney, liver, heart, pancreas, bone marrow, small intestine, and lung. Cyclosporine has been demonstrated to suppress some humoral immunity and to a greater extent, cell-mediated immune reactions such as allograft rejection, delayed hypersensitivity, experimental allergic encephalomyelitis, Freund’s adjuvant arthritis, and graft versus host disease in many animal species for a variety of organs." ([DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f), label version 2026-09-10; accessed 2026-11-20.) Cyclosporine is known as a calcineurin inhibitor that suppresses T-lymphocyte activation, and it is used as an immunosuppressant in transplantation and in several inflammatory conditions.
 
 This does not provide a clear mechanistic link to the predicted disease. Chronic granulomatous disease is caused by a defect in the phagocyte NADPH oxidase system, not by overactive T cells. Suppressing T-cell activation would not be expected to correct that defect. The only publication found concerns stem cell transplantation for this disease. In that setting, cyclosporine could at most appear as graft-versus-host disease prophylaxis, not as treatment of the disease itself. The high model score is therefore not supported by independent clinical evidence.
 
@@ -115,6 +115,19 @@ There are no clinical trials, and the only publication is about stem cell transp
 - Any direct clinical or preclinical study of cyclosporine in chronic granulomatous disease, rather than as transplant GVHD prophylaxis
 - A plausible mechanistic rationale linking calcineurin inhibition to the disease
 - Mechanism of action data and package insert safety information (warnings and contraindications) from Medsafe
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

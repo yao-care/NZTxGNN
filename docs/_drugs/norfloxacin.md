@@ -60,7 +60,7 @@ It is a prediction of the TxGNN model (deep learning) only. It may reflect simil
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Norfloxacin is a fluoroquinolone antibacterial that is generally understood to inhibit bacterial DNA gyrase and topoisomerase IV. Its efficacy is established in bacterial infections, not in laboratory findings.
+ChEMBL (EMBL-EBI) records the mechanism of action of norfloxacin as: Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0; accessed 2026-11-20.) Norfloxacin is a fluoroquinolone antibacterial that is generally understood to inhibit bacterial DNA gyrase and topoisomerase IV. Its efficacy is established in bacterial infections, not in laboratory findings.
 
 The assessment found **no plausible mechanistic link** to hyperamylasemia. Hyperamylasemia is a laboratory finding with diverse causes, such as pancreatitis and renal impairment. It is not a primary infectious indication. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There is no supporting trial or literature evidence.
 
@@ -133,11 +133,12 @@ The prediction for hyperamylasemia rests on a model score alone, with no clinica
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The product also has only a cancelled licence in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
 
 <!-- review:end log -->
 

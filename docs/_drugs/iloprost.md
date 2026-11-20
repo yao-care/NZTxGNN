@@ -61,7 +61,7 @@ The top-ranked prediction by score is **hypotrichosis simplex of the scalp**, wh
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, iloprost is a prostacyclin analogue. It causes pulmonary vasodilation and has antiproliferative and antiplatelet effects. Its efficacy in PAH is established, and mechanistically it is applicable to PAH associated with congenital heart disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for iloprost: "Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation." ([DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4), label version 2026-08-13; accessed 2026-11-20.) Based on known information, iloprost is a prostacyclin analogue. It causes pulmonary vasodilation and has antiproliferative and antiplatelet effects. Its efficacy in PAH is established, and mechanistically it is applicable to PAH associated with congenital heart disease.
 
 PAH associated with congenital heart disease, including Eisenmenger syndrome, shares the core pathology of PAH: pulmonary vasoconstriction and vascular remodelling. The supporting publications are mostly small cohort studies, case series and reviews. They include inhaled iloprost studies in children and a biomarker study in this population.
 
@@ -147,11 +147,12 @@ The data compiled for this report show that the best-supported prediction, PAH a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Iloprost's New Zealand authorizations are both cancelled, so there is no currently marketed product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
 
 <!-- review:end log -->
 

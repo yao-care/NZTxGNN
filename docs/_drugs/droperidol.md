@@ -63,7 +63,7 @@ For context, the other top-10 predictions with the strongest evidence are:
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, droperidol is a butyrophenone neuroleptic with potent dopamine D2 receptor antagonism, the same pharmacological class as haloperidol and pimozide.
+ChEMBL (EMBL-EBI) records the mechanism of action of droperidol as: Serotonin 2a (5-HT2a) receptor antagonist; D2-like dopamine receptor antagonist ([ChEMBL CHEMBL1108 (droperidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1108), CC BY-SA 3.0; accessed 2026-11-20.) Based on known information, droperidol is a butyrophenone neuroleptic with potent dopamine D2 receptor antagonism, the same pharmacological class as haloperidol and pimozide.
 
 Haloperidol and pimozide are established treatments for tics, so a D2 antagonist predicted for Tourette syndrome is mechanistically plausible. However, no trials or literature support this prediction for droperidol itself. Its QT-prolongation risk and injection-only availability make chronic use for a tic disorder impractical.
 
@@ -148,11 +148,12 @@ The top prediction, Tourette syndrome, has no trials or literature and is only m
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The original approved indication text for the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1108 (droperidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1108) |
 
 <!-- review:end log -->
 

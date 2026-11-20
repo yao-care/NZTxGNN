@@ -55,7 +55,7 @@ The TxGNN model predicts it for **renal hypouricemia (hypouricemia, renal)**, bu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, benzbromarone is a potent uricosuric that inhibits URAT1 (SLC22A12), reducing renal urate reabsorption and lowering serum uric acid.
+ChEMBL (EMBL-EBI) records the mechanism of action of benzbromarone as: Solute carrier family 22 member 12 inhibitor ([ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590), CC BY-SA 3.0; accessed 2026-11-20.) From general pharmacology, benzbromarone is a potent uricosuric that inhibits URAT1 (SLC22A12), reducing renal urate reabsorption and lowering serum uric acid.
 
 Renal hypouricemia is characterised by excessive urinary urate loss, most often caused by loss-of-function variants in URAT1 (SLC22A12) or GLUT9 (SLC2A9). Benzbromarone's pharmacology would therefore reproduce or worsen the underlying defect rather than correct it. The high score of 0.9907 most likely reflects a close association between the drug and the urate transport pathway, not a therapeutic relationship.
 
@@ -111,6 +111,19 @@ The evidence is at L5, with only a model prediction and no study showing a benef
 - Mechanism of action data confirmed from DrugBank
 - Safety information from the Medsafe package insert (warnings and contraindications)
 - Any new evidence showing a therapeutic rationale; without it, this direction should not be pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

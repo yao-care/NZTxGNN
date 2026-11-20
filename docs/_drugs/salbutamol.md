@@ -56,7 +56,7 @@ However, **no clinical trials and no publications** were found for this disease,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Salbutamol is generally known as a beta-2 adrenergic agonist. Beta-2 stimulation can reduce the release of inflammatory mediators from mast cells, which is the main reason this prediction is conceivable in an allergic eye condition.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for salbutamol: "Albuterol sulfate is a beta 2 -adrenergic agonist. The pharmacologic effects of albuterol sulfate are attributable to activation of beta 2 -adrenergic receptors on airway smooth muscle. Activation of beta 2 -adrenergic receptors leads to the activation of adenylcyclase and to an increase in the intracellular concentration of cyclic-3', 5’-adenosine monophosphate (cyclic AMP)." ([DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d), label version 2024-12-20; accessed 2026-11-20.) Salbutamol is generally known as a beta-2 adrenergic agonist. Beta-2 stimulation can reduce the release of inflammatory mediators from mast cells, which is the main reason this prediction is conceivable in an allergic eye condition.
 
 This link is speculative. Papillary conjunctivitis is often driven by contact lenses or mechanical irritation rather than by classic allergic mechanisms, so mast-cell stabilisation may not address the main cause. No studies were retrieved that test salbutamol in this condition, and the model's score alone cannot establish benefit.
 
@@ -130,12 +130,13 @@ The prediction score is very high, but there are no trials or publications on sa
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "These are 5 of the 9 valid licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "(no ocular product is currently licensed in New Zealand)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
 
 <!-- review:end log -->
 

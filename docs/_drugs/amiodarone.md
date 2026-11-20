@@ -54,7 +54,7 @@ Amiodarone is an antiarrhythmic medicine used for serious heart rhythm disorders
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for amiodarone. Pharmacology data compiled for this report show it acts on several ion channels, including the cardiac sodium channel Nav1.5 and the potassium channel Kv1.7, and it is described as a drug for angina and arrhythmias.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amiodarone: "Amiodarone is considered a class III antiarrhythmic drug, but it possesses electrophysiologic characteristics of all four Vaughan Williams classes. Like class I drugs, amiodarone blocks sodium channels at rapid pacing frequencies, and like class II drugs, amiodarone exerts a noncompetitive antisympathetic action." ([DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3), label version 2025-11-05; accessed 2026-11-20.) Pharmacology data compiled for this report show it acts on several ion channels, including the cardiac sodium channel Nav1.5 and the potassium channel Kv1.7, and it is described as a drug for angina and arrhythmias.
 
 CPVT is a rare inherited rhythm disorder. Mutations in RYR2 or CASQ2 cause calcium leak in heart muscle cells, which triggers dangerous ventricular arrhythmias during exercise or stress. Amiodarone's calcium-channel and beta-blocking actions give a plausible but weak link to this mechanism.
 
@@ -111,6 +111,18 @@ The prediction score is very high, but no clinical trials exist and no publicati
 - Comparison against guideline therapy (beta-blockers, flecainide)
 - Mechanism of action data
 - Package insert warnings and contraindications from Medsafe
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not currently available for amiodarone" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

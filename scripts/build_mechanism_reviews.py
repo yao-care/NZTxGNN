@@ -1,34 +1,32 @@
 #!/usr/bin/env python3
-"""藥物頁「作用機轉資料不可得」句改成附出處的作用機轉（2026-11-19 建）。
+"""藥物頁「作用機轉資料不可得」句改成附出處的作用機轉（NZTxGNN，2026-11-19 建；做法照 NZTxGNN 同名程式，改成本站的頁面語言與句型）。
 
 為什麼要有這支：
-  藥師報告的「Why is This Prediction Reasonable?」段，在證據包沒有 DrugBank 作用機轉文字時（drugbank.source＝vocab_only），
-  AI 寫成「Detailed mechanism of action data is not available in the data compiled for this report.」。
-  2026-11-19 量測：461 個公開藥物頁有 409 頁這樣寫；搜尋「<藥名> mechanism of action」的人點進來看到的是「沒有資料」。
-  作用機轉是藥物本身的基本藥理事實（不是模型預測），所以照查核機制補：每一段都摘自官方仿單、附可點的出處與取用日期，
-  不自己寫作用機轉。
+  藥師報告在證據包沒有 DrugBank 作用機轉文字時（drugbank.source＝vocab_only），AI 寫成「作用機轉資料不可得」
+  （本站語言的寫法見下方 L 的 KW／DATA／NEG）。作用機轉是藥物本身的基本藥理事實（不是模型預測），所以照查核機制補：
+  每一段都節錄官方仿單原文、附可點的出處與取用日期，不自己寫作用機轉。
 
-資料來源（選擇理由見 CLAUDE.md「作用機轉段的資料來源與查核機制」）：
-  1. 美國 FDA 核准仿單（openFDA drug label API；連結到 NLM DailyMed 同一份 SPL）：PLR 格式的「12.1 Mechanism of Action」
-     （mechanism_of_action 欄），舊格式仿單沒有這欄時用「Clinical Pharmacology」段開頭的藥理說明。
-     只用單一成分、主成分名（去鹽類）跟本頁相同的處方藥仿單；多份時取有 12.1 欄、版本最新的。
-     文字照仿單原句節錄 2～4 句（拿掉「[see …]」交互參照與段落編號），不改寫。
-  2. 美國沒有仿單的藥：ChEMBL 的 drug mechanism 表（結構化：作用機轉、標靶、作用類型；CC BY-SA 3.0，附出處）。
-  3. 兩者都沒有：不補，寫進 docs/_data/drug_reviews_uncertain.json（source＝mechanism of action），列原因。
-  Medsafe Data Sheet（紐西蘭主管機關仿單）最適合，但 Medsafe 的 Data Sheet 查詢（/DbSearch/InfoSearch）是 Blazor Server 互動頁、
-  沒有可下載的清單或 API，2026-11-19 從雲端無法依藥名逐一取得 PDF 網址，所以沒用；之後能取得時應優先換成 Medsafe。
+資料來源（理由見本站 CLAUDE.md「作用機轉段的資料來源與查核機制」）：
+  1. 美國 FDA 核准仿單（openFDA drug label；連結到 NLM DailyMed 同一份 SPL）：PLR 格式的「12.1 Mechanism of Action」，
+     抗感染藥 12.1 只有一句時接 12.4 Microbiology 的「Mechanism of Action」小標，舊格式用「Clinical Pharmacology」段開頭的藥理說明。
+     只用單一成分、主成分名（去鹽類；酯類要相同）跟本頁相同的處方藥仿單；多份時依序取全身給藥→節錄夠長→有 12.1→有品牌名→版本新。
+     美國只有複方仿單的，只節錄 12.1 裡講本藥成分的句子並寫明是複方。文字照仿單原句節錄 2～4 句（拿掉「[see …]」交互參照與段落編號），不改寫。
+     查詢：預設用 openFDA drug label API（https://api.fda.gov/drug/label.json，免金鑰每日 1,000 次）；
+     --fda-bulk <目錄> 改用 openFDA 的 drug label 全量下載檔（download.open.fda.gov，同一批資料，只留 human prescription 仿單），不吃 API 配額。
+  2. 美國沒有仿單的藥：ChEMBL drug mechanism 表（CC BY-SA 3.0）備援；ChEMBL 從雲端很慢，可先 --chembl-down 跳過。
+  3. 都沒有：不補，寫進 docs/_data/drug_reviews_uncertain.json（source＝mechanism of action），列原因。
+  頁面文字是英文：替換句照 NZ 的格式「According to the … section of the US FDA-approved prescribing information for X: "…" (DailyMed 連結, label version …; accessed …)」。
 
-紀錄：docs/_data/drug_reviews.json 的 action＝mechanism（id：nz-moa-<查核日>-<藥>-1）。claim＝頁面上「不可得」那句
-  （或句子裡「不可得」子句加連接詞，句子後半是 AI 的推論，保留、首字母大寫），replacement＝附出處的作用機轉＋保留的後半句。
-  scripts/apply_drug_reviews.py 套用（可重複執行）；頁面「Review Log」表列原句與出處。模型預測與其他正文不動。
+紀錄：docs/_data/drug_reviews.json 的 action＝mechanism（id：nz-moa-<查核日>-<藥>-1）。claim＝頁面上「不可得」那句，
+  replacement＝附出處的作用機轉。scripts/apply_drug_reviews.py 套用（可重複執行）；頁面查核紀錄表列原句與出處。模型預測與其他正文不動。
 
 用法：
-  python3 scripts/build_mechanism_reviews.py --cache <目錄>            # 抓來源、寫紀錄與待查清單（已有紀錄的頁不重抓）
-  python3 scripts/build_mechanism_reviews.py --cache <目錄> --dry-run  # 只印結果
-  python3 scripts/build_mechanism_reviews.py --list                    # 只列出公開頁仍寫「不可得」的句子（不連網）
+  python3 scripts/build_mechanism_reviews.py --cache <目錄> [--fda-bulk <目錄>] [--chembl-down 說明]
+  python3 scripts/build_mechanism_reviews.py --list       # 只列出公開頁仍寫「不可得」的句子（不連網）
 """
 import argparse
 import datetime as dt
+import hashlib
 import json
 import re
 import sys
@@ -41,15 +39,170 @@ ROOT = Path(__file__).resolve().parent.parent
 DRUGS = ROOT / "docs" / "_drugs"
 REVIEWS = ROOT / "docs" / "_data" / "drug_reviews.json"
 UNCERTAIN = ROOT / "docs" / "_data" / "drug_reviews_uncertain.json"
-BUNDLES = ROOT / "data" / "bundles"
-SECTION = "## Why is This Prediction Reasonable?"
 UNCERTAIN_SOURCE = "mechanism of action"
+PREFIX = "nz-moa"
+LANG = "en"
+# 本站語言的字樣（偵測「不可得」句、替換句、查核紀錄表）
+L = {'KW': 'mechanism[- ]of[- ]action|\\bMOA\\b',
+ 'DATA': 'data|information|text|entry|details',
+ 'NEG': 'not (?:currently )?available|unavailable|not included|not provided|lack|no detailed|not found',
+ 'EXCL': 'Conclusion|Next Steps|Safety|Summary|Quick Overview|Review Log|Disclaimer|Table of Contents|Market|Clinical '
+         'Trial|Literature|Cytotoxicity',
+ 'maxlen': 320}
+REGULATOR_LOCAL = False  # True＝本站就是美國（寫「FDA-approved」，不加「US」）
 
-# 「不可得」子句：Detailed mechanism(-)of(-)action data/text/entry … is/are/was/were not available …（到句號、逗號＋連接詞或分號為止）
+KW = re.compile(L["KW"], re.I)
+DATA = re.compile(L["DATA"], re.I)
+NEG = re.compile(L["NEG"], re.I)
+EXCL = re.compile(L["EXCL"], re.I)
+REVIEW_BLOCK = re.compile(r"<!-- review:begin (\S+) -->.*?<!-- review:end \1 -->", re.S)
+if L.get("cjk"):
+    SENT_SPLIT = re.compile(r"(?<=[。！？])")
+elif L.get("thai"):
+    SENT_SPLIT = re.compile(r"(?<=\S)(?= )")
+else:
+    SENT_SPLIT = re.compile(r"(?<=[.!?])(?=\s+(?:\*\*)?[\"'“«„(\[A-ZÀ-ɏ؀-ۿ가-힯0-9])")
+# 英文站：照 NZ 的寫法，「不可得」子句在句首、後面接 so／but／and 的後半句是 AI 推論，保留
 NA_CLAUSE = (r"(?:Currently, )?(?:[Dd]etailed|A detailed) mechanism[- ]of[- ]action (?:data|text|entry|information)"
              r"[^.;\n]*?\b(?:is|are|was|were) (?:currently )?not available[^.;,\n]*")
-NA_SENTENCE = re.compile(r"(?:(?<=\n)|(?<=\. )|(?<=\*\* )|^)(" + NA_CLAUSE + r")(\.|, (?:so|but|and) |; )", re.M)
-NA_ANY = re.compile(r"mechanism[- ]of[- ]action[^.\n|]*?\bnot available", re.I)
+NA_SENTENCE_EN = re.compile(r"^(" + NA_CLAUSE + r")(\.|, (?:so|but|and) |; )")
+
+
+def public_pages():
+    for p in sorted(DRUGS.glob("*.md")):
+        t = p.read_text(encoding="utf-8")
+        fm = t.split("---", 2)[1] if t.startswith("---") else ""
+        if re.search(r"^layout:\s*id_redirect|^noindex:\s*true", fm, re.M) or 'http-equiv="refresh"' in t[:3000]:
+            continue
+        yield p, t, fm
+
+
+def is_na(sentence):
+    s = sentence.strip()
+    if not s or len(s) > L.get("maxlen", 320):
+        return False
+    return bool(KW.search(s) and DATA.search(s) and NEG.search(s))
+
+
+def find_claim(text, protect=()):
+    """回傳 (claim, tail)：claim 是頁面上要換掉的原文（整句；英文站句首子句＋連接詞），tail 是 replacement 要接回的後半句開頭。
+    只看正文章節（排除結論／下一步、安全性、摘要、總覽表、查核紀錄、免責聲明等，見 L["EXCL"]）、不看表格列與查核框。"""
+    body = text.split("---", 2)[2] if text.startswith("---") else text
+    body = REVIEW_BLOCK.sub(lambda m: "\n" * m.group(0).count("\n"), body)
+    sec_ok = False
+    for line in body.split("\n"):
+        if line.startswith("#"):
+            sec_ok = line.startswith("## ") and not EXCL.search(line) or (line.startswith("###") and sec_ok)
+            continue
+        if not sec_ok or line.lstrip().startswith("|") or "<!--" in line:
+            continue
+        for seg in SENT_SPLIT.split(line):
+            s = seg.strip()
+            s = re.sub(r"^(?:[-*+]\s+|\d+\.\s+)", "", s)
+            if not is_na(s):
+                continue
+            if any(s in x or (x and x in s) for x in protect):
+                continue  # 句子是別筆查核紀錄的更正文字或錨點，不動
+            if LANG == "en":
+                m = NA_SENTENCE_EN.match(s)
+                if m:
+                    clause, conn = m.group(1), m.group(2)
+                    if conn == ".":
+                        return clause + ".", ""
+                    rest = s[m.end():]
+                    if rest:
+                        return clause + conn + rest[0], rest[0].upper()
+                n = NEG.search(s)
+                m2 = re.compile(r", (?:so|but) ").search(s, n.end() if n else 0)
+                if m2 and m2.end() < len(s):
+                    return s[:m2.end() + 1], s[m2.end()].upper()
+            if s.startswith("**") and not s.endswith("**"):
+                continue
+            return s, ""
+    return None, None
+
+
+def front(fm, key):
+    m = re.search(rf'^{key}:\s*"?([^"\n]+)"?', fm, re.M)
+    return m.group(1).strip() if m else ""
+
+
+def protected(records, fname):
+    """同頁紀錄的更正文字與錨點（含已套上的作用機轉節錄）：這些句子由那些紀錄管，不再當成「不可得」句。"""
+    out = []
+    for r in records:
+        if r.get("file") == fname:
+            for k in ("replacement", "anchor"):
+                v = (r.get(k) or "").strip()
+                if len(v) >= 8:
+                    out.append(v)
+    return out
+
+
+def http_json(url, cache, key, tries=4):
+    f = cache / (re.sub(r"[^\w.-]+", "_", key)[:150] + ".json")
+    if f.exists():
+        return json.loads(f.read_text(encoding="utf-8"))
+    for k in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "txgnn-site-review/1.0", "Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                data = json.loads(r.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                data = {}
+                break
+            if e.code == 429:
+                raise RuntimeError("openFDA API quota exceeded (HTTP 429)")
+            if k == tries - 1:
+                raise
+            time.sleep(5 * (k + 1))
+        except Exception:
+            if k == tries - 1:
+                raise
+            time.sleep(5 * (k + 1))
+    f.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    time.sleep(0.3)
+    return data
+
+
+BULK = {"dir": None, "rows": None, "idx": None}
+
+
+def _tokens(s):
+    return set(t for t in re.split(r"[^a-z0-9]+", s.lower()) if t)
+
+
+def fda_results(base, cache):
+    """openFDA 仿單查詢：generic_name 含 base 的每個字。快取檔名同 NZ（fda_<base>.json），各站共用同一個快取目錄。"""
+    f = cache / (re.sub(r"[^\w.-]+", "_", "fda_" + base)[:150] + ".json")
+    if f.exists():
+        return json.loads(f.read_text(encoding="utf-8"))
+    if BULK["dir"]:
+        import glob
+        import gzip
+        if BULK["rows"] is None:
+            rows = []
+            for p in sorted(glob.glob(str(Path(BULK["dir"]) / "labels_*.json.gz"))):
+                rows += json.load(gzip.open(p, "rt", encoding="utf-8"))
+            idx = {}
+            for i, r in enumerate(rows):
+                for g in (r.get("openfda", {}).get("generic_name") or []):
+                    for t in _tokens(g):
+                        idx.setdefault(t, set()).add(i)
+            BULK["rows"], BULK["idx"] = rows, idx
+        toks = base.split()
+        hit = set.intersection(*[BULK["idx"].get(t, set()) for t in toks]) if toks else set()
+        res = [BULK["rows"][i] for i in sorted(hit)
+               if any(set(toks) <= _tokens(g) for g in BULK["rows"][i].get("openfda", {}).get("generic_name") or [])]
+        data = {"results": res, "meta": {"source": "openFDA drug label bulk download (human prescription labels)"}}
+        f.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+        return data
+    q = " AND ".join(f'openfda.generic_name:"{t}"' for t in base.split())
+    url = "https://api.fda.gov/drug/label.json?" + urllib.parse.urlencode({"search": q, "limit": 100})
+    return http_json(url, cache, "fda_" + base)
+
 
 SALTS = {"hydrochloride", "hcl", "dihydrochloride", "sodium", "potassium", "calcium", "magnesium", "maleate", "mesylate",
          "mesilate", "besylate", "besilate", "sulfate", "sulphate", "acetate", "citrate", "tartrate", "bitartrate",
@@ -74,69 +227,9 @@ def norm_base(name):
     return " ".join(toks)
 
 
-def public_pages():
-    for p in sorted(DRUGS.glob("*.md")):
-        t = p.read_text(encoding="utf-8")
-        fm = t.split("---", 2)[1] if t.startswith("---") else ""
-        if re.search(r"^layout:\s*id_redirect|^noindex:\s*true", fm, re.M) or 'http-equiv="refresh"' in t[:3000]:
-            continue
-        yield p, t, fm
-
-
-def section_body(text):
-    i = text.find(SECTION)
-    if i < 0:
-        return None, -1
-    j = text.find("\n## ", i + len(SECTION))
-    return text[i:j if j > 0 else len(text)], i
-
-
-def find_claim(text):
-    """回傳 (claim, tail)：claim 是要換掉的原文（不可得子句＋句號或連接詞），tail 是 replacement 要接回的後半句開頭（空＝整句）。"""
-    body, _ = section_body(text)
-    if body is None:
-        return None, None
-    blocks = [m.span() for m in re.finditer(r"<!-- review:begin (\S+) -->.*?<!-- review:end \1 -->", body, re.S)]
-    for m in NA_SENTENCE.finditer(body):
-        if any(a <= m.start() < b for a, b in blocks):
-            continue
-        clause, conn = m.group(1), m.group(2)
-        if conn == ".":
-            return clause + ".", ""
-        nxt = body[m.end():m.end() + 1]
-        return clause + conn + nxt, nxt.upper()
-    return None, None
-
-
 def front(fm, key):
     m = re.search(rf'^{key}:\s*"?([^"\n]+)"?', fm, re.M)
     return m.group(1).strip() if m else ""
-
-
-def http_json(url, cache, key, tries=4):
-    f = cache / (re.sub(r"[^\w.-]+", "_", key)[:150] + ".json")
-    if f.exists():
-        return json.loads(f.read_text(encoding="utf-8"))
-    for k in range(tries):
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "txgnn-site-review/1.0", "Accept": "application/json"})
-            with urllib.request.urlopen(req, timeout=60) as r:
-                data = json.loads(r.read().decode("utf-8"))
-            break
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                data = {}
-                break
-            if k == tries - 1:
-                raise
-            time.sleep(5 * (k + 1))
-        except Exception:
-            if k == tries - 1:
-                raise
-            time.sleep(5 * (k + 1))
-    f.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
-    time.sleep(0.3)
-    return data
 
 
 LEAD_HEAD = re.compile(r"^(?:(?i:Pharmacologic Properties|ACTIONS?|Mechanisms? of action)\s*|\d+(?:\.\d+)*\.?\s*|CLINICAL PHARMACOLOGY\s*|Clinical Pharmacology\s*|Mechanisms? of (?:\w+ )?Action\s*|"
@@ -268,9 +361,7 @@ def _label_source(inn, cache):
     base = norm_base(inn)
     if not base:
         return None, "no INN"
-    q = " AND ".join(f'openfda.generic_name:"{t}"' for t in base.split())
-    url = "https://api.fda.gov/drug/label.json?" + urllib.parse.urlencode({"search": q, "limit": 100})
-    d = http_json(url, cache, "fda_" + base)
+    d = fda_results(base, cache)
     cands = []
     for r in d.get("results", []):
         o = r.get("openfda", {})
@@ -396,30 +487,60 @@ def md_safe(t):
     return t.replace("<", "&lt;").replace("*", "\\*").replace("|", "&#124;").replace('"', "'")
 
 
-def replacement_text(name, src, accessed):
-    src = dict(src, excerpt=md_safe(src["excerpt"]))
-    if src["kind"] == "us_label":
-        sec = {"12.1 Mechanism of Action": "Mechanism of Action section",
-               "12.1 Mechanism of Action; 12.4 Microbiology": "Mechanism of Action and Microbiology sections",
-               "Clinical Pharmacology; Microbiology": "Clinical Pharmacology and Microbiology sections"}.get(src["section"], "Clinical Pharmacology section")
+
+
+def tr_key(excerpt):
+    return hashlib.sha1(("%s|%s" % (LANG, excerpt)).encode("utf-8")).hexdigest()[:16]
+
+
+def section_names(src):
+    secs = {"12.1 Mechanism of Action": ("Mechanism of Action",),
+            "12.1 Mechanism of Action; 12.4 Microbiology": ("Mechanism of Action", "Microbiology"),
+            "Clinical Pharmacology; Microbiology": ("Clinical Pharmacology", "Microbiology")}.get(src["section"], ("Clinical Pharmacology",))
+    return secs
+
+
+def replacement_text(name, src, accessed, translation=None):
+    ex = md_safe(src["excerpt"])
+    if src["kind"] != "us_label" and LANG != "en":
+        qo, qc = L["q"]
+        return L["chembl_tpl"].format(name=name, qo=qo, qc=qc, tr=md_safe(translation), ex=ex,
+                                      title=src["title"], url=src["url"], acc=accessed)
+    if src["kind"] != "us_label":
+        return (f"ChEMBL (EMBL-EBI) records the mechanism of action of {name.lower()} as: {ex} "
+                f"([{src['title']}]({src['url']}), CC BY-SA 3.0; accessed {accessed}.)")
+    secs = section_names(src)
+    if LANG == "en":
+        sec = {1: f"{secs[0]} section"}.get(len(secs), f"{secs[0]} and {secs[-1]} sections")
+        fda = "FDA-approved prescribing information" if REGULATOR_LOCAL else "US FDA-approved prescribing information"
         if src.get("combination"):
-            return (f"According to the {sec} of the US FDA-approved prescribing information for {src['combination']} "
+            return (f"According to the {sec} of the {fda} for {src['combination']} "
                     f"(a combination product containing {name.lower()}): "
-                    f"\"{src['excerpt']}\" ([{src['title']}]({src['url']}), label version {src['label_version']}; accessed {accessed}.)")
-        return (f"According to the {sec} of the US FDA-approved prescribing information for {name.lower()}: "
-                f"\"{src['excerpt']}\" ([{src['title']}]({src['url']}), label version {src['label_version']}; accessed {accessed}.)")
-    return (f"ChEMBL (EMBL-EBI) records the mechanism of action of {name.lower()} as: {src['excerpt']} "
-            f"([{src['title']}]({src['url']}), CC BY-SA 3.0; accessed {accessed}.)")
+                    f"\"{ex}\" ([{src['title']}]({src['url']}), label version {src['label_version']}; accessed {accessed}.)")
+        return (f"According to the {sec} of the {fda} for {name.lower()}: "
+                f"\"{ex}\" ([{src['title']}]({src['url']}), label version {src['label_version']}; accessed {accessed}.)")
+    qo, qc = L["q"]
+    quoted = [f"{qo}{s}{qc}" if not L.get("cjk") else f"「{s}」" for s in secs]
+    sec = L["sec1"].format(a=quoted[0]) if len(quoted) == 1 else L["sec2"].format(a=quoted[0], b=quoted[1])
+    if src.get("combination"):
+        nm, combo = src["combination"], L["combo"].format(name=name)
+    else:
+        nm, combo = name, ""
+    return L["tpl"].format(sec=sec, name=nm, combo=combo, qo=qo, qc=qc, tr=md_safe(translation), ex=ex,
+                           title=src["title"], url=src["url"], ver=src["label_version"], acc=accessed)
 
 
 def gate_errors():
-    """給 scripts/check_seo_docs.py：公開頁仍寫「作用機轉資料不可得」、卻沒有 mechanism 紀錄也沒有列在待查清單（說明為什麼補不到）的頁。
+    """給 scripts/check_seo_docs.py：公開頁寫「作用機轉資料不可得」、卻沒有 mechanism 紀錄也沒有列在待查清單（說明為什麼補不到）的頁。
     有紀錄卻沒套上的頁由 apply_drug_reviews.check_errors 擋。"""
-    rev = load_json(REVIEWS, {"records": []})["records"]
-    unc = load_json(UNCERTAIN, {"items": []})["items"]
+    rev = load_json(REVIEWS, {"records": []})
+    rev = rev["records"] if isinstance(rev, dict) else rev
+    unc = load_json(UNCERTAIN, {"items": []})
+    unc = unc.get("items", []) if isinstance(unc, dict) else unc
     covered = {r["file"] for r in rev if r.get("action") == "mechanism"}
-    covered |= {i["file"] for i in unc if i.get("source") == UNCERTAIN_SOURCE and i.get("status") in ("open", "unresolvable")}
-    bad = [p.name for p, t, _ in public_pages() if p.name not in covered and find_claim(t)[0]]
+    covered |= {i.get("file") for i in unc if i.get("source") == UNCERTAIN_SOURCE and i.get("status") in ("open", "unresolvable")}
+    listed = {i.get("file") for i in unc if i.get("source") == UNCERTAIN_SOURCE and i.get("status") in ("open", "unresolvable")}
+    bad = [p.name for p, t, _ in public_pages() if p.name not in listed and find_claim(t, protected(rev, p.name))[0]]
     if not bad:
         return []
     return [f"公開藥物頁寫「作用機轉資料不可得」、沒有附出處的作用機轉紀錄也沒列待查 {len(bad)} 頁：{'、'.join(bad[:8])}"
@@ -432,25 +553,30 @@ def load_json(p, default):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--cache", default=None)
+    ap.add_argument("--cache", default=None, help="openFDA／ChEMBL 回應快取目錄（當不受信任資料；各站可共用）")
+    ap.add_argument("--fda-bulk", default=None, help="openFDA drug label 全量下載檔整理後的目錄（labels_*.json.gz）；給了就不打 API")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--list", action="store_true")
     ap.add_argument("--chembl-down", metavar="說明",
-                    help="ChEMBL API 連不上時：不查 ChEMBL，補不到的頁照樣列進待查清單，原因寫這段說明（例「ChEMBL API HTTP 500／逾時」）")
-    ap.add_argument("--out", help="--dry-run 時把全部新紀錄寫到這個檔（人工逐筆看節錄用）")
-    ap.add_argument("--no-chembl", action="store_true", help="只查美國仿單（ChEMBL API 從雲端很慢時先跑這個，再對補不到的頁跑一次不加這個參數）")
+                    help="ChEMBL API 連不上或太慢時：不查 ChEMBL，補不到的頁照樣列進待查清單，原因寫這段說明")
+    ap.add_argument("--no-chembl", action="store_true", help="只查美國仿單，補不到的頁不列待查（之後再跑一次）")
+    ap.add_argument("--translations", default=None, help="非英文站：節錄的翻譯檔（JSON，key＝tr_key(excerpt)）")
+    ap.add_argument("--need", default=None, help="非英文站：還沒有翻譯的節錄寫到這個檔（JSON），翻好後再跑一次")
     ap.add_argument("--date", default=dt.date.today().isoformat())
+    ap.add_argument("--out", help="--dry-run 時把全部新紀錄寫到這個檔")
     ap.add_argument("drugs", nargs="*")
     a = ap.parse_args()
+    rev0 = load_json(REVIEWS, {"records": []})
+    rev0 = rev0["records"] if isinstance(rev0, dict) else rev0
     targets = []
     for p, t, fm in public_pages():
         if a.drugs and p.stem not in a.drugs:
             continue
-        claim, tail = find_claim(t)
+        claim, tail = find_claim(t, protected(rev0, p.name))
         if claim:
-            targets.append((p, fm, claim, tail))
+            targets.append((p, fm, claim, tail, t))
     if a.list:
-        for p, _, claim, _ in targets:
+        for p, _, claim, _, _ in targets:
             print(f"{p.name}\t{claim}")
         print(f"公開頁仍寫「作用機轉資料不可得」：{len(targets)} 頁")
         return 0
@@ -458,18 +584,33 @@ def main():
         sys.exit("要給 --cache <目錄>（API 回應快取；當不受信任資料）")
     cache = Path(a.cache)
     cache.mkdir(parents=True, exist_ok=True)
+    BULK["dir"] = a.fda_bulk
+    trans = load_json(Path(a.translations), {}) if a.translations else {}
     rev = load_json(REVIEWS, {"records": []})
+    records = rev["records"] if isinstance(rev, dict) else rev
     unc = load_json(UNCERTAIN, {"items": []})
-    have = {r["file"] for r in rev["records"] if r.get("action") == "mechanism"}
-    added, missing = [], []
-    for p, fm, claim, tail in targets:
-        if p.name in have:
+    have = {r["file"] for r in records if r.get("action") == "mechanism"}
+    nmech = {}
+    for r in records:
+        if r.get("action") == "mechanism":
+            nmech[r["file"]] = nmech.get(r["file"], 0) + 1
+    listed = {i.get("file") for i in (unc.get("items", []) if isinstance(unc, dict) else unc)
+              if i.get("source") == UNCERTAIN_SOURCE and i.get("status") in ("open", "unresolvable")}
+    added, missing, need = [], [], {}
+    for p, fm, claim, tail, page_text in targets:
+        # 已有紀錄的頁：只處理還留著的「不可得」句（同頁第二句起）；已列待查的頁不重抓
+        if p.name in listed and p.name not in have:
             continue
         name = front(fm, "title") or p.stem.replace("_", " ")
         inn = front(fm, "monitor_inn") or name
         try:
             src, why = label_source(inn, cache)
-        except Exception as e:  # 單一藥的來源抓取失敗不擋其他藥；下次重跑會補（快取只存成功的回應）
+            if not src and inn.lower() != name.lower():
+                src, why2 = label_source(name, cache)
+        except Exception as e:  # 單一藥抓取失敗不擋其他藥；下次重跑會補（快取只存成功的回應）
+            if "quota" in str(e):
+                print("openFDA 配額用完，停在", p.name, file=sys.stderr)
+                break
             src, why = None, f"openFDA fetch failed ({e})"
         why2 = ("ChEMBL not queried in this run" if a.no_chembl else
                 f"ChEMBL not queried: {a.chembl_down}" if a.chembl_down else "")
@@ -479,51 +620,75 @@ def main():
             except Exception as e:
                 src, why2 = None, f"ChEMBL fetch failed ({e})"
         if not src:
-            missing.append({"file": p.name, "drug": p.stem, "reason": f"{why}; {why2}"})
+            if p.name not in have:
+                missing.append({"file": p.name, "drug": p.stem, "reason": f"{why}; {why2}"})
             continue
-        rep = replacement_text(name, src, a.date) + (" " + tail if tail else "")
-        rec = {
-            "id": f"nz-moa-{a.date.replace('-', '')}-{p.stem}-1",
-            "drug": p.stem,
-            "file": p.name,
-            "action": "mechanism",
-            "claim": claim,
-            "replacement": rep,
-            "summary": f"\"{claim.rstrip('.,;: ').strip()}\" replaced with a sourced mechanism-of-action statement",
-            "finding": ("頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，"
-                        f"依 {'美國 FDA 仿單 ' + src['section'] if src['kind'] == 'us_label' else 'ChEMBL drug mechanism 表'} 原文節錄補上，模型預測與其他正文不動。"),
-            "sources": [{k: v for k, v in {
-                "title": src["title"], "url": src["url"], "accessed": a.date, "excerpt": src["excerpt"],
-                "label_version": src.get("label_version"), "section": src.get("section"), "via": src["via"],
-                "set_id": src.get("set_id"), "chembl_id": src.get("chembl_id")}.items() if v}],
-            "checked": a.date,
-            "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
-        }
-        added.append(rec)
+        translation = None
+        if LANG != "en":
+            k = tr_key(src["excerpt"])
+            translation = (trans.get(k) or {}).get("translation") if isinstance(trans.get(k), dict) else trans.get(k)
+            if not translation:
+                need[k] = {"lang": LANG, "excerpt": src["excerpt"], "drug": p.stem}
+                continue
+        s = {k: v for k, v in {
+            "title": src["title"], "url": src["url"], "accessed": a.date, "excerpt": src["excerpt"],
+            "label_version": src.get("label_version"), "section": src.get("section"), "via": src["via"],
+            "set_id": src.get("set_id"), "chembl_id": src.get("chembl_id")}.items() if v}
+        if translation:
+            s["translation"] = translation
+            s["translation_lang"] = LANG
+            s["translation_note"] = ("unofficial translation of the English excerpt (machine-assisted, 2026-11-19); "
+                                     "the English original quoted on the page is authoritative")
+        # 同一頁可能有不只一句「不可得」：每句各一筆紀錄（-1、-2…），換掉一句再找下一句
+        n, text_local, prot = nmech.get(p.name, 0), page_text, protected(rev0, p.name)
+        while n < 8:
+            if text_local is not page_text or n > nmech.get(p.name, 0):
+                claim, tail = find_claim(text_local, prot)
+                if not claim:
+                    break
+            rep = replacement_text(name, src, a.date, translation) + (" " + tail if tail else "")
+            rec = {
+                "id": f"{PREFIX}-{a.date.replace('-', '')}-{p.stem}-{n + 1}",
+                "drug": p.stem,
+                "file": p.name,
+                "action": "mechanism",
+                "claim": claim,
+                "replacement": rep,
+                "summary": L.get("summary") or f"\"{claim.rstrip('.,;: ').strip()}\" replaced with a sourced mechanism-of-action statement",
+                "finding": ("頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，"
+                            f"依 {'美國 FDA 仿單 ' + src['section'] if src['kind'] == 'us_label' else 'ChEMBL drug mechanism 表'} 原文節錄補上"
+                            f"{'（附非官方翻譯，英文原文為準）' if translation else ''}，模型預測與其他正文不動。"),
+                "sources": [s],
+                "checked": a.date,
+                "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+            }
+            added.append(rec)
+            j = text_local.find(claim)
+            text_local = text_local[:j] + rep + text_local[j + len(claim):] if j >= 0 else text_local + "\n"
+            prot = prot + [rep]
+            n += 1
     print(f"目標 {len(targets)} 頁；新紀錄 {len(added)}（仿單 {sum(r['sources'][0].get('set_id') is not None for r in added)}、"
-          f"ChEMBL {sum('chembl_id' in r['sources'][0] for r in added)}）；找不到來源 {len(missing)}")
-    for m in missing:
-        print("  ✗", m["file"], m["reason"])
+          f"ChEMBL {sum('chembl_id' in r['sources'][0] for r in added)}）；找不到來源 {len(missing)}；待翻譯 {len(need)}")
+    if a.need:
+        Path(a.need).write_text(json.dumps(need, ensure_ascii=False, indent=1), encoding="utf-8")
     if a.dry_run:
         if a.out:
             Path(a.out).write_text(json.dumps({"added": added, "missing": missing}, ensure_ascii=False, indent=1), encoding="utf-8")
-        for r in added[:5]:
-            print(json.dumps(r, ensure_ascii=False, indent=1))
         return 0
-    rev["records"].extend(added)
+    records.extend(added)
     REVIEWS.write_text(json.dumps(rev, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    open_items = {(i.get("file"), i.get("source")) for i in unc["items"]}
-    for m in missing:
-        if a.no_chembl:
-            continue  # 還沒查 ChEMBL 的不列待查
-        if (m["file"], UNCERTAIN_SOURCE) in open_items:
-            continue
-        unc["items"].append({"file": m["file"], "drug": m["drug"], "source": UNCERTAIN_SOURCE, "status": "open",
-                             "added": a.date, "issue": "Page says mechanism-of-action data is not available; no citable source found",
-                             "searched": ["openFDA drug label API (US prescribing information)"] +
-                                         ([] if a.chembl_down else ["ChEMBL drug mechanism"]),
-                             "reason": m["reason"]})
-    UNCERTAIN.write_text(json.dumps(unc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    if not a.no_chembl:
+        items = unc["items"] if isinstance(unc, dict) else unc
+        open_items = {(i.get("file"), i.get("source")) for i in items}
+        for m in missing:
+            if (m["file"], UNCERTAIN_SOURCE) in open_items:
+                continue
+            items.append({"file": m["file"], "drug": m["drug"], "source": UNCERTAIN_SOURCE, "status": "open",
+                          "added": a.date, "issue": "Page says mechanism-of-action data is not available; no citable source found",
+                          "searched": ["openFDA drug label (US prescribing information)"] +
+                                      ([] if a.chembl_down else ["ChEMBL drug mechanism"]),
+                          "reason": m["reason"]})
+        UNCERTAIN.write_text(json.dumps(unc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return 0
 
 

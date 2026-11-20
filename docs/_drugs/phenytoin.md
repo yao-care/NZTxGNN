@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Phenytoin is generally known as a voltage-gated sodium channel blocker. It limits repetitive neuronal firing, and the pharmacology data compiled here list the sodium channel Nav1.2 (SCN2A) as a target. That mechanism fits epilepsy well.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for phenytoin: "The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges." ([DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353), label version 2026-06-25; accessed 2026-11-20.) Phenytoin is generally known as a voltage-gated sodium channel blocker. It limits repetitive neuronal firing, and the pharmacology data compiled here list the sodium channel Nav1.2 (SCN2A) as a target. That mechanism fits epilepsy well.
 
 The link to a trigeminal nerve neoplasm is weak. The very high TxGNN score most likely reflects network proximity to trigeminal neuralgia and seizure-related nodes, not any antitumour activity. Phenytoin has no established antineoplastic mechanism in this setting. The retrieved literature covers trigeminal neuralgia treatment and Sturge-Weber syndrome, not tumours. This looks like a model artefact, not a real repurposing opportunity.
 
@@ -139,12 +139,13 @@ The prediction for trigeminal nerve neoplasm rests on model score alone (L5). Th
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Phenytoin is currently marketed in New Zealand, and all 5 of the 5 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The product is also no longer licensed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
 
 <!-- review:end log -->
 

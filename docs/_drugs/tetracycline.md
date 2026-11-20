@@ -56,7 +56,7 @@ but **no clinical trials** and only **1 publication** (a case report) support th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tetracycline is a member of the tetracycline antibiotic class, its efficacy in bacterial infections (including conjunctivitis) is established, and mechanistically it may be applicable to punctate epithelial keratoconjunctivitis.
+ChEMBL (EMBL-EBI) records the mechanism of action of tetracycline as: Bacterial 70S ribosome inhibitor ([ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440), CC BY-SA 3.0; accessed 2026-11-20.) Based on known information, tetracycline is a member of the tetracycline antibiotic class, its efficacy in bacterial infections (including conjunctivitis) is established, and mechanistically it may be applicable to punctate epithelial keratoconjunctivitis.
 
 Tetracycline is already linked to conjunctivitis, including chlamydial (trachoma/inclusion) conjunctivitis. Punctate epithelial keratitis can persist after such an infection resolves, so the link is plausible. Tetracyclines also have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects that may help ocular surface inflammation.
 
@@ -128,11 +128,12 @@ The only evidence for punctate epithelial keratoconjunctivitis is a single 1992 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | Removed: "Tetracycline is also cancelled-only in New Zealand, which limits practical use." | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440) |
 
 <!-- review:end log -->
 

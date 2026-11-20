@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **Cauda Equina Syndrome**, but **
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on general pharmacology, cyclopentolate is an antimuscarinic (anticholinergic) agent, meaning it blocks muscarinic receptors.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyclopentolate: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to cholinergic stimulation, producing pupillary dilation (mydriasis) and paralysis of accommodation (cycloplegia). It acts rapidly, but has a shorter duration than atropine." ([DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e), label version 2024-06-25; accessed 2026-11-20.) Based on general pharmacology, cyclopentolate is an antimuscarinic (anticholinergic) agent, meaning it blocks muscarinic receptors.
 
 Cauda equina syndrome can cause bladder problems, such as an overactive or poorly emptying bladder, and antimuscarinic drugs are sometimes used for certain bladder symptoms. This gives a loose class-level link between the drug and the predicted disease.
 
@@ -100,6 +100,19 @@ The prediction rests on the model score and a general class-level argument alone
 - Package insert warnings and contraindications from Medsafe
 - Any published or registered studies of antimuscarinics in cauda equina syndrome
 - Assessment of whether a suitable non-ophthalmic formulation and route would be feasible
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

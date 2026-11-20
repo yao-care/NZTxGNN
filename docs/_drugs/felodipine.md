@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is **pulmonary hypertension with unclear
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, felodipine is a dihydropyridine L-type calcium channel blocker. It relaxes vascular smooth muscle, and its efficacy in hypertension is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for felodipine: "Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca ++ currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein." ([DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115), label version 2024-08-07; accessed 2026-11-20.) Based on known information, felodipine is a dihydropyridine L-type calcium channel blocker. It relaxes vascular smooth muscle, and its efficacy in hypertension is established.
 
 Pulmonary hypertension also involves increased vascular tone, so vasodilation is biologically plausible. However, calcium channel blockers help only a small vasoreactive subset of pulmonary arterial hypertension patients. The multifactorial group is heterogeneous, so the high score (0.9991) is a TxGNN model (deep learning) prediction and not proof of benefit.
 
@@ -151,13 +151,14 @@ The top-ranked pulmonary hypertension prediction rests on model score alone (L5)
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three authorizations are valid, so felodipine is currently marketed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Felodipine's market authorizations in New Zealand are all valid (3 of 3)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "cancelled market status and the" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
 
 <!-- review:end log -->
 

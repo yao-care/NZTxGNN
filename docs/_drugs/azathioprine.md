@@ -56,7 +56,7 @@ No clinical trials and no publications in the data compiled for this report supp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for azathioprine is not available in the data compiled for this report. Based on general knowledge, azathioprine is a purine analog that suppresses lymphocyte proliferation and so dampens immune-mediated inflammation.
+ChEMBL (EMBL-EBI) records the mechanism of action of azathioprine as: Amidophosphoribosyltransferase inhibitor; DNA inhibitor ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; accessed 2026-11-20.) Based on general knowledge, azathioprine is a purine analog that suppresses lymphocyte proliferation and so dampens immune-mediated inflammation.
 
 For this prediction, no identifiable mechanistic link was found. The syndrome is a rare developmental malformation of the eye and skeleton, and no immune-mediated pathology is described for it. Immunosuppression would not be expected to change a structural developmental defect.
 
@@ -92,6 +92,19 @@ The prediction has no supporting trials or publications, and no plausible mechan
 - Mechanism-of-action data for azathioprine
 - Package insert warnings and contraindications from Medsafe for safety screening
 - A risk-benefit assessment for immunosuppression in this population, given the infection and myelosuppression risks
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism-of-action data for azathioprine is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

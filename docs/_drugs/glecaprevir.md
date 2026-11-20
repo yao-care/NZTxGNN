@@ -54,7 +54,7 @@ Glecaprevir is a viral protease inhibitor marketed in New Zealand as a fixed-dos
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Glecaprevir is known as an inhibitor of the hepatitis C virus NS3/4A protease. It has no established activity against HIV, whose protease is structurally and mechanistically distinct.
+ChEMBL (EMBL-EBI) records the mechanism of action of glecaprevir as: Hepatitis C virus serine protease, NS3/NS4A inhibitor ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363), CC BY-SA 3.0; accessed 2026-11-20.) Glecaprevir is known as an inhibitor of the hepatitis C virus NS3/4A protease. It has no established activity against HIV, whose protease is structurally and mechanistically distinct.
 
 The high score most likely reflects the drug's close network association with antiviral drugs and with HIV/hepatitis C co-infection. It does not reflect a shared drug target. The trials and publications show that glecaprevir/pibrentasvir clears hepatitis C virus in people who are HIV-positive. They do not show any effect on HIV. This is a hepatitis C treatment given to an HIV population, not a repurposing signal.
 
@@ -131,12 +131,13 @@ No study tests glecaprevir against HIV, and no mechanistic basis for anti-HIV ac
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the other nine predictions are L5 or weaker, with no supporting evidence" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The licence is currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
 
 <!-- review:end log -->
 

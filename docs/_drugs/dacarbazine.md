@@ -56,7 +56,7 @@ but **no clinical trials** are registered for this indication and the **20 publi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, dacarbazine is a DNA-alkylating agent. It is a methylating prodrug activated in the liver to MTIC, which damages the DNA of rapidly dividing cells. This mechanism has been proven in melanoma and Hodgkin lymphoma.
+ChEMBL (EMBL-EBI) records the mechanism of action of dacarbazine as: DNA inhibitor ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0; accessed 2026-11-20.) Based on general pharmacological knowledge, dacarbazine is a DNA-alkylating agent. It is a methylating prodrug activated in the liver to MTIC, which damages the DNA of rapidly dividing cells. This mechanism has been proven in melanoma and Hodgkin lymphoma.
 
 A cytotoxic mechanism could plausibly act on tumours of the upper aerodigestive tract, such as squamous cell carcinomas. However, no direct mechanistic or clinical data support this. The very high TxGNN score is a model prediction only.
 
@@ -145,12 +145,13 @@ The prediction rests on a model score alone (L4). There are no registered trials
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "both New Zealand licences are cancelled and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Clarification of the New Zealand supply situation; the drug is marketed, with 2 valid licences out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
 
 <!-- review:end log -->
 

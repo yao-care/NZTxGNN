@@ -56,7 +56,7 @@ It is a computational prediction only (evidence level L5).
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Salicylic acid is generally proposed to act through inhibition of COX enzymes, which reduces prostaglandin synthesis, but no public bioactivity data were found to confirm this at a specific molecular target. It also has keratolytic activity, which explains its use on the skin.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for salicylic acid: "Although the exact mode of action for salicylic acid in the treatment of warts is unknown, its activity appears to be associated with its keratolytic action, which results in mechanical removal of epidermal cells infected with wart viruses." ([DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b), label version 2025-10-15; accessed 2026-11-20.) Salicylic acid is generally proposed to act through inhibition of COX enzymes, which reduces prostaglandin synthesis, but no public bioactivity data were found to confirm this at a specific molecular target. It also has keratolytic activity, which explains its use on the skin.
 
 The TxGNN model (deep learning) predicts papillary conjunctivitis for salicylic acid. This score may reflect similarities the model learned between related diseases, such as inflammatory and allergic conditions including allergic rhinitis, rheumatoid arthritis and synovitis, not biological evidence. Papillary conjunctivitis is an allergic or inflammatory disease of the ocular surface, so an anti-inflammatory effect could in theory be relevant. This is speculative.
 
@@ -115,11 +115,12 @@ The prediction rests on a model score alone, with no clinical trials or literatu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Ocular irritation risk argues against the proposed route, and the only New Zealand licence has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
 
 <!-- review:end log -->
 

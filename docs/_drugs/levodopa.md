@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, levodopa is a dopamine precursor used in combination with a decarboxylase inhibitor (benserazide or carbidopa) and, in some products, entacapone. Its efficacy in Parkinson disease and other parkinsonian syndromes is established. Whether it applies mechanistically to Rasmussen encephalitis is unproven.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levodopa: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), label version 2026-07-20; accessed 2026-11-20.) Based on known information, levodopa is a dopamine precursor used in combination with a decarboxylase inhibitor (benserazide or carbidopa) and, in some products, entacapone. Its efficacy in Parkinson disease and other parkinsonian syndromes is established. Whether it applies mechanistically to Rasmussen encephalitis is unproven.
 
 Rasmussen encephalitis is a rare, chronic, unilateral inflammatory brain disease. It causes refractory focal seizures, progressive hemiparesis and cognitive decline, and is thought to be driven by T-cell-mediated, autoimmune-type neuroinflammation. Levodopa treats dopamine deficiency and has no known link to this immune-mediated pathology or to seizure control.
 
@@ -145,12 +145,13 @@ The prediction has no supporting clinical trials or literature (evidence level L
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 12 licences are valid. The five main authorizations are listed below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and of whether any valid New Zealand licence exists, given that all 12 are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->
 

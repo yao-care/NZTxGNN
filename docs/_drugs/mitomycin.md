@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** directly 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, mitomycin is a DNA cross-linking alkylating agent. Its efficacy in pancreatic adenocarcinoma is the basis of its original indication, and mechanistically its general cytotoxic activity may be applicable to other pancreatic tumours.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for mitomycin: "Mitomycin selectively inhibits the synthesis of deoxyribonucleic acid (DNA). The guanine and cytosine content correlates with the degree of mitomycin-induced cross-linking. At high concentrations of the drug, cellular RNA and protein synthesis are also suppressed." ([DailyMed: Mutamycin (mitomycin) prescribing information, Accord BioPharma Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbf0f6ba-3a53-4791-9a85-5c6b271eeb8e), label version 2025-03-12; accessed 2026-11-20.) Based on known information, mitomycin is a DNA cross-linking alkylating agent. Its efficacy in pancreatic adenocarcinoma is the basis of its original indication, and mechanistically its general cytotoxic activity may be applicable to other pancreatic tumours.
 
 The predicted indication is a rare pancreatic tumour that is usually indolent and often cured by surgery, so cytotoxic therapy is rarely needed. The link to the original indication is therefore a general one (both are pancreatic neoplasms) and has not been confirmed by any study. The other top-ranked predictions are also pancreatic tumour subtypes, such as osteoclastic giant cell tumour, mixed-differentiation carcinoma, signet ring cell adenocarcinoma and undifferentiated carcinoma. Ten predictions were compiled in total. None has clinical trial support, and only four (ranks 4, 7, 8 and 9) have any literature, which is indirect.
 
@@ -124,6 +124,19 @@ The prediction rests on a model score alone (L5), with no trials or direct liter
 - Package insert warnings and contraindications for a formal safety screen
 - Published case series or trial evidence of mitomycin in solid pseudopapillary neoplasms, or a clear clinical need for cytotoxic therapy in this setting
 - Confirmation of whether any mitomycin product can be supplied in New Zealand, and by which route
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mutamycin (mitomycin) prescribing information, Accord BioPharma Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbf0f6ba-3a53-4791-9a85-5c6b271eeb8e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

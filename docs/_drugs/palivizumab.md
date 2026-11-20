@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **benign neoplasm of tongue**, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Palivizumab is known to be a humanized monoclonal antibody that targets the F protein of RSV, and its use in RSV infection is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of palivizumab as: Fusion glycoprotein F0 inhibitor ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586), CC BY-SA 3.0; accessed 2026-11-20.) Palivizumab is known to be a humanized monoclonal antibody that targets the F protein of RSV, and its use in RSV infection is established.
 
 The data compiled for this report did not identify a mechanistic link between this antibody and benign tongue neoplasms. The RSV F protein has no known role in this tumour type, and an antiviral neutralizing antibody would not be expected to act on it. The high score (0.9994) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -111,11 +111,12 @@ The prediction has only a model score behind it (Evidence Level L5).
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The product's only licence has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
 
 <!-- review:end log -->
 

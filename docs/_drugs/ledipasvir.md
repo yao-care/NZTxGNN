@@ -60,7 +60,7 @@ with **5 clinical trials** and **20 publications** matched to this prediction. O
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ledipasvir is known to inhibit the HCV NS5A protein, and it is used with the polymerase inhibitor sofosbuvir. Its efficacy in hepatitis C is well established.
+ChEMBL (EMBL-EBI) records the mechanism of action of ledipasvir as: Nonstructural protein 5A inhibitor ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; accessed 2026-11-20.) Ledipasvir is known to inhibit the HCV NS5A protein, and it is used with the polymerase inhibitor sofosbuvir. Its efficacy in hepatitis C is well established.
 
 Both HCV and HBV cause chronic viral liver infection, which likely explains the model's prediction. Mechanistically, however, the link is weak. NS5A has no known HBV homolog, so any anti-HBV effect is not explained by the original mechanism. A pilot study of HCV/HBV co-infected patients observed a modest drop in HBsAg during ledipasvir/sofosbuvir treatment. That observation led to a dedicated study in HBV mono-infection, but it remains hypothesis-generating.
 
@@ -146,11 +146,12 @@ Only one small, completed open-label Phase 2 study (n=21) tests ledipasvir/sofos
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the package insert safety data are not available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
 
 <!-- review:end log -->
 
