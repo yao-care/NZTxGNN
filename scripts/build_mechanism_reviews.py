@@ -97,15 +97,25 @@ SRC_TAIL = re.compile(r"(?:This|The)(?: general| mechanistic| class)? (?:descrip
                       r"[^.]*?\b(?:is (?:based|drawn|derived)|was drawn|reflects|relies|rests|comes|draws|derives)\b|This is based on")
 _SENT_END = re.compile(r"[.!?](?=\s|$)")
 
+SRC_LOCAL = None  # 非英文站用；本站沒有這種句子的寫法紀錄
+
 
 def reorder_src_tail(text, claim, rep):
     """回傳 (claim, rep)：claim 後面（同一句的後半或下一句）是講「上面描述依據」的句子時，claim 延伸涵蓋那句、rep 改成「那句＋節錄」。"""
-    if LANG != "en":
-        return claim, rep
     j = text.find(claim)
     if j < 0:
         return claim, rep
     rest = text[j + len(claim):].split("\n", 1)[0]
+    if LANG != "en":
+        if SRC_LOCAL is None:
+            return claim, rep
+        body = rest.lstrip()
+        sep = rest[:len(rest) - len(body)]
+        segs = [x for x in SENT_SPLIT.split(body) if x]
+        sent = segs[0].rstrip() if segs else ""
+        if sent and SRC_LOCAL.match(sent) and body.startswith(sent):
+            return claim + sep + sent, sent + (sep or "") + rep
+        return claim, rep
     if claim and claim[-1].islower() and rep[-2:-1] == " ":   # 同一句的後半（claim 以「, so t」收尾、rep 以「 T」收尾）
         m = _SENT_END.search(rest)
         if not m:
@@ -124,6 +134,26 @@ def reorder_src_tail(text, claim, rep):
     if SRC_TAIL.match(sent):
         return claim + rest[:m.end()], sent + " " + rep
     return claim, rep
+
+# 2026-11-20：同頁上方已引用同一段節錄（同頁兩句「不可得」相鄰時）就不再重複引用，改成指向上方節錄的一句
+POINTER_SENTENCE = 'The mechanism of action is quoted above, with its source.'
+
+
+def pointer_sentence(src):
+    """指向上方節錄的一句，附同一個來源連結（mechanism 的 replacement 一律要附來源連結）。"""
+    link = f"[{'DailyMed' if 'dailymed' in src['url'] else 'ChEMBL'}]({src['url']})"
+    s = POINTER_SENTENCE
+    if s[-1] in "。":
+        return s[:-1] + f"（{link}）" + s[-1]
+    if s[-1] not in ".!?":
+        return s + f" ({link})"
+    return s[:-1] + f" ({link})" + s[-1]
+
+
+def _excerpt(r):
+    s = r.get("sources")
+    s = s[0] if isinstance(s, list) and s else s
+    return (s or {}).get("excerpt", "")
 
 
 def find_claim(text, protect=()):
@@ -154,7 +184,7 @@ def find_claim(text, protect=()):
                     rest = s[m.end():]
                     if rest:
                         return clause + conn + rest[0], rest[0].upper()
-                n = NEG.search(s)
+                n = NEG2.search(s) or NEG.search(s)  # 2026-11-20：新增寫法的否定詞也要算（不然會在否定詞前面的 , but 切開、換錯半句）
                 m2 = re.compile(r", (?:so|but) ").search(s, n.end() if n else 0)
                 if m2 and m2.end() < len(s):
                     return s[:m2.end() + 1], s[m2.end()].upper()
@@ -688,7 +718,12 @@ def main():
                 claim, tail = find_claim(text_local, prot)
                 if not claim:
                     break
-            rep = replacement_text(name, src, a.date, translation) + (" " + tail if tail else "")
+            core = replacement_text(name, src, a.date, translation)
+            cpos = text_local.find(claim)
+            if any(r.get("file") == p.name and _excerpt(r) == src["excerpt"] and 0 <= text_local.find(r.get("replacement", "\0")) < cpos
+                   for r in list(rev0) + added):
+                core = pointer_sentence(src)
+            rep = core + (" " + tail if tail else "")
             claim, rep = reorder_src_tail(text_local, claim, rep)
             rec = {
                 "id": f"{PREFIX}-{a.date.replace('-', '')}-{p.stem}-{n + 1}",

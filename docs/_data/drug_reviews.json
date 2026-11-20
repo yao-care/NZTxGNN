@@ -20491,7 +20491,7 @@
    "file": "alfacalcidol.md",
    "action": "mechanism",
    "claim": "The mechanism of action is also missing from the data, so a",
-   "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of alfacalcidol as: Vitamin D receptor agonist ([ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669), CC BY-SA 3.0; accessed 2026-11-20.) A",
+   "replacement": "The mechanism of action is quoted above, with its source ([ChEMBL](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669)). A",
    "summary": "\"The mechanism of action is also missing from the data, so a\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
@@ -20505,7 +20505,33 @@
     }
    ],
    "checked": "2026-11-20",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "nz-moa-20261120-alfacalcidol-2",
+     "drug": "alfacalcidol",
+     "file": "alfacalcidol.md",
+     "action": "mechanism",
+     "claim": "The mechanism of action is also missing from the data, so a",
+     "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of alfacalcidol as: Vitamin D receptor agonist ([ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669), CC BY-SA 3.0; accessed 2026-11-20.) A",
+     "summary": "\"The mechanism of action is also missing from the data, so a\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism",
+       "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669",
+       "accessed": "2026-11-20",
+       "excerpt": "Vitamin D receptor agonist",
+       "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+       "chembl_id": "CHEMBL1601669"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "同頁已有同一段節錄（較上方那筆），重複引用改成指向上方節錄的一句"
+    }
+   ]
   },
   {
    "id": "nz-moa-20261120-bedaquiline-1",
