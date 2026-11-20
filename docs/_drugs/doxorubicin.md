@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 167
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-20
 description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
@@ -56,7 +56,7 @@ with **29 clinical trials** and **20 publications** currently supporting this di
 
 ## Why is This Prediction Reasonable?
 
-Doxorubicin is a topoisomerase II inhibitor and DNA intercalator. It acts on rapidly dividing tumour cells, and its pharmacological target in the data compiled for this report is DNA topoisomerase II alpha (TOP2A). According to the Mechanism of Action section of the US FDA-approved prescribing information for doxorubicin: "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases." ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd), label version 2026-11-12; accessed 2026-11-19.) This description is based on the mechanistic rationale compiled for the report.
+Doxorubicin is a topoisomerase II inhibitor and DNA intercalator. It acts on rapidly dividing tumour cells, and its pharmacological target in the data compiled for this report is DNA topoisomerase II alpha (TOP2A). This description is based on the mechanistic rationale compiled for the report. According to the Mechanism of Action section of the US FDA-approved prescribing information for doxorubicin: "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases." ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd), label version 2026-11-12; accessed 2026-11-19.)
 
 Doxorubicin is already used in lymphoma and leukaemia regimens, and it is a backbone of the VDC/IE regimen for Ewing sarcoma (vincristine, doxorubicin and cyclophosphamide, alternating with ifosfamide and etoposide). Ewing sarcoma is a fast-growing cancer of bone and soft tissue, mainly in children, adolescents and young adults. Cytotoxic drugs that damage DNA in dividing cells are therefore mechanistically suitable.
 
@@ -195,7 +195,7 @@ Below is the review log for this page: statements checked against official Pharm
 | 2026-11-06 | Removed: "All 7 New Zealand licences for single-agent doxorubicin have been cancelled, so there is currently no marketed doxorubicin product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "and no doxorubicin product is currently licensed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "although the drug is marketed, with 7 valid licences of 7" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-19 | "Detailed mechanism of action data from the drug database is not available, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
+| 2026-11-20 | "Detailed mechanism of action data from the drug database is not available, so this description is based on the mechanistic rationale compiled for the report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
 
 <!-- review:end log -->
 

@@ -514,7 +514,7 @@
     "lt": 2,
     "lv": 2,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data were not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism of action data were not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -976,7 +976,7 @@
   "with_current": 364,
   "none_current": 0,
   "without_data": 1,
-  "with_reviews": 354,
+  "with_reviews": 355,
   "rows": [
    {
     "t": "Olanzapine",
@@ -2020,7 +2020,7 @@
     "lt": 4,
     "lv": 4,
     "r": 1,
-    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced…",
+    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -2261,8 +2261,8 @@
     "i": "craniofacial conodysplasia",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "\"The mechanism of action is also missing from the data, so a\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -2526,7 +2526,7 @@
     "lt": 3,
     "lv": 3,
     "r": 1,
-    "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report, so t\" replaced with…",
+    "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report, so this description…",
     "x": 0
    },
    {
@@ -4153,8 +4153,8 @@
     "i": "vulvovaginal candidiasis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not otherwise available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -4186,7 +4186,7 @@
     "i": "nasal cavity disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only licence on record is an oral liquid (20 mg per ml) product, Biomed (licence 461253)\"",
     "x": 0
    },

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Caffeine: predicted new indication nasal cavity disease (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
@@ -56,7 +56,7 @@ No clinical trials are registered for this prediction, and the 3 publications re
 
 ## Why is This Prediction Reasonable?
 
-Caffeine is an adenosine receptor antagonist (A1, A2A, A2B and A3) and also acts on ryanodine receptors (RyR1–3) and the IP3 receptor type 1. The mechanism-of-action field itself is not recorded in the data compiled for this report, so this description relies on the receptor-binding data.
+Caffeine is an adenosine receptor antagonist (A1, A2A, A2B and A3) and also acts on ryanodine receptors (RyR1–3) and the IP3 receptor type 1. This description relies on the receptor-binding data. According to the Mechanism of Action section of the US FDA-approved prescribing information for caffeine: "Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic. Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized." ([DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a), label version 2026-07-29; accessed 2026-11-20.)
 
 The link to nasal cavity disease is indirect. Bitter taste receptors are present in the airway and nasal epithelium and may respond to caffeine, and a nasal caffeine gel has been studied as a delivery route for cognition after sleep deprivation. Neither finding shows benefit in any nasal disease. "Nasal cavity disease" is also a broad category, so related uses do not amount to evidence of efficacy for it.
 
@@ -117,11 +117,12 @@ The prediction score is very high (0.9991), but no trial or publication studies 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The only licence on record is an oral liquid (20 mg per ml) product, Biomed (licence 461253)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-20 | "The mechanism-of-action field itself is not recorded in the data compiled for this report, so this description relies on the receptor-binding data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
 
 <!-- review:end log -->
 

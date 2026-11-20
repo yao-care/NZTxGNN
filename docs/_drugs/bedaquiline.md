@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BEDAQUILINE"
 predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Bedaquiline: predicted new indication Vulvovaginal candidiasis (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
@@ -54,7 +54,7 @@ Bedaquiline is an antimycobacterial drug that inhibits the ATP synthase of mycob
 
 ## Why is This Prediction Reasonable?
 
-Bedaquiline targets subunit c of the mycobacterial ATP synthase. This is a bacterial-specific target and is not a validated antifungal target. Detailed mechanism of action data is not otherwise available in the data compiled for this report.
+Bedaquiline targets subunit c of the mycobacterial ATP synthase. This is a bacterial-specific target and is not a validated antifungal target. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for bedaquiline: "Bedaquiline is a diarylquinoline antimycobacterial drug. […] SIRTURO is a diarylquinoline antimycobacterial drug that inhibits mycobacterial ATP (adenosine 5'- triphosphate) synthase, by binding to subunit c of the enzyme that is essential for the generation of energy in M. tuberculosis." ([DailyMed: Sirturo (bedaquiline fumarate) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1534c9ae-4948-4cf4-9f66-222a99db6d0e), label version 2025-10-17; accessed 2026-11-20.)
 
 On current information there is no clear mechanistic link between inhibiting mycobacterial energy metabolism and treating *Candida* infection of the vulvovagina. The high model score is most likely an artefact of the network-based prediction rather than a pharmacological signal. The prediction should be treated as a hypothesis only, and no basis exists to expect clinical benefit.
 
@@ -98,6 +98,19 @@ The prediction has a high model score but no supporting trials or publications, 
 - A defined mechanistic hypothesis for activity in this disease
 - Package insert warnings and contraindications, and detailed mechanism of action data
 - Route-of-administration compatibility assessment for a vulvovaginal indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sirturo (bedaquiline fumarate) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1534c9ae-4948-4cf4-9f66-222a99db6d0e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

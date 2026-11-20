@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 265
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-20
 monitor_inn: "LENVATINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L3). In New Zealand: 2 Pharmac Schedule items"
@@ -56,7 +56,7 @@ Support comes from **1 completed single-arm Phase Ib/II trial** and **1 matching
 
 ## Why is This Prediction Reasonable?
 
-Lenvatinib blocks several receptor tyrosine kinases, including VEGFR1-3, FGFR1-4, PDGFRα, RET and KIT. These pathways drive tumour blood-vessel growth and growth signalling, which are also relevant in soft tissue sarcomas such as liposarcoma. According to the Mechanism of Action section of the US FDA-approved prescribing information for lenvatinib: "Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET." ([DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e), label version 2026-10-14; accessed 2026-11-19.) This description reflects the drug's generally known targets.
+Lenvatinib blocks several receptor tyrosine kinases, including VEGFR1-3, FGFR1-4, PDGFRα, RET and KIT. These pathways drive tumour blood-vessel growth and growth signalling, which are also relevant in soft tissue sarcomas such as liposarcoma. This description reflects the drug's generally known targets. According to the Mechanism of Action section of the US FDA-approved prescribing information for lenvatinib: "Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET." ([DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e), label version 2026-10-14; accessed 2026-11-19.)
 
 Preclinical work suggests that eribulin, the partner drug used in the clinical study, works synergistically with agents that have different mechanisms. A completed single-arm Phase Ib/II study of lenvatinib plus eribulin in advanced liposarcoma and leiomyosarcoma gives a direct clinical signal. However, it has no randomized comparator and tests a combination, so it cannot isolate lenvatinib's own contribution.
 
@@ -128,7 +128,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism of action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e) |
+| 2026-11-20 | "Detailed mechanism of action data were not available in the data compiled for this report, so this description reflects the drug's generally known targets" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e) |
 
 <!-- review:end log -->
 

@@ -51,7 +51,12 @@ L = {'KW': 'mechanism[- ]of[- ]action|\\bMOA\\b',
  'maxlen': 320}
 REGULATOR_LOCAL = False  # True＝本站就是美國（寫「FDA-approved」，不加「US」）
 
+# 2026-11-20：補偵測漏抓的寫法（試跑交付前驗證時，用全量候選句逐句標註 A／B 校準：A＝本藥作用機轉資料不可得的獨立句，B＝以缺資料為前提的模型推論，不改）。
+# 原本的 KW／NEG／DATA 照舊；L2 是新增寫法，只有新增寫法比中的句子才再用 NOT 排除推論句。
+L2 = {"KW": r"mechanism(?:[- ]of[- ]action)?[- ](?:data|information|details|text|entry|annotation|description|field|record|statement)|describe (?:its|a|the drug's) mechanism|describe how it acts", "NEG": r"not otherwise available|not recorded|not compiled|not captured|do(?:es)? not (?:include|describe)|missing|absent|were not available|was not available", "DATA": r"compiled|record", "NOT": r"^(?:Because|As|Since|However|This|The high|It may)\b|cross-?check|cannot be (?:checked|verified)|\blink\b|connect|bridge|plausib|support|inferred|further limits|limits confidence|weakens"}
 KW = re.compile(L["KW"], re.I)
+KW2, NEG2, DATA2 = (re.compile("|".join(x for x in (L[k], L2[k]) if x), re.I) for k in ("KW", "NEG", "DATA"))
+NOT2 = re.compile(L2["NOT"], re.I) if L2["NOT"] else None
 DATA = re.compile(L["DATA"], re.I)
 NEG = re.compile(L["NEG"], re.I)
 EXCL = re.compile(L["EXCL"], re.I)
@@ -81,7 +86,44 @@ def is_na(sentence):
     s = sentence.strip()
     if not s or len(s) > L.get("maxlen", 320):
         return False
-    return bool(KW.search(s) and DATA.search(s) and NEG.search(s))
+    return bool(KW.search(s) and DATA.search(s) and NEG.search(s))\
+        or (bool(KW2.search(s) and DATA2.search(s) and NEG2.search(s)) and not (NOT2 and NOT2.search(s)))
+
+
+# 2026-11-20：節錄後面若接著 AI 說明「上面這段描述的依據」的句子（This description reflects／is based on…），
+# 留在節錄後面會讀成美國仿單的出處；那句移到節錄前面（原文一字不改，只換順序）。英文站才有接回的後半句與下一句。
+SRC_TAIL = re.compile(r"(?:This|The)(?: general| mechanistic| class)? (?:description|reasoning|rationale|explanation|class assignment|"
+                      r"mechanism described (?:above|here)|mechanism above|pharmacology above|description (?:above|here)|reasoning above|above)\b"
+                      r"[^.]*?\b(?:is (?:based|drawn|derived)|was drawn|reflects|relies|rests|comes|draws|derives)\b|This is based on")
+_SENT_END = re.compile(r"[.!?](?=\s|$)")
+
+
+def reorder_src_tail(text, claim, rep):
+    """回傳 (claim, rep)：claim 後面（同一句的後半或下一句）是講「上面描述依據」的句子時，claim 延伸涵蓋那句、rep 改成「那句＋節錄」。"""
+    if LANG != "en":
+        return claim, rep
+    j = text.find(claim)
+    if j < 0:
+        return claim, rep
+    rest = text[j + len(claim):].split("\n", 1)[0]
+    if claim and claim[-1].islower() and rep[-2:-1] == " ":   # 同一句的後半（claim 以「, so t」收尾、rep 以「 T」收尾）
+        m = _SENT_END.search(rest)
+        if not m:
+            return claim, rep
+        sent = rep[-1] + rest[:m.end()]
+        if SRC_TAIL.match(sent):
+            return claim + rest[:m.end()], sent + " " + rep[:-2].rstrip()
+        return claim, rep
+    lead = len(rest) - len(rest.lstrip(" "))
+    if lead != 1:
+        return claim, rep
+    m = _SENT_END.search(rest, 1)
+    if not m:
+        return claim, rep
+    sent = rest[1:m.end()]
+    if SRC_TAIL.match(sent):
+        return claim + rest[:m.end()], sent + " " + rep
+    return claim, rep
 
 
 def find_claim(text, protect=()):
@@ -647,6 +689,7 @@ def main():
                 if not claim:
                     break
             rep = replacement_text(name, src, a.date, translation) + (" " + tail if tail else "")
+            claim, rep = reorder_src_tail(text_local, claim, rep)
             rec = {
                 "id": f"{PREFIX}-{a.date.replace('-', '')}-{p.stem}-{n + 1}",
                 "drug": p.stem,

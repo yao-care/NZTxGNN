@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-20
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 ## Why is This Prediction Reasonable?
 
-Ritonavir is an HIV-1 protease inhibitor that is also widely used as a CYP3A4 inhibitor to boost the exposure of other antiviral drugs. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ritonavir: "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3), label version 2026-07-23; accessed 2026-11-19.) This description relies on general pharmacological knowledge.
+Ritonavir is an HIV-1 protease inhibitor that is also widely used as a CYP3A4 inhibitor to boost the exposure of other antiviral drugs. This description relies on general pharmacological knowledge. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ritonavir: "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3), label version 2026-07-23; accessed 2026-11-19.)
 
 Feline immunodeficiency virus (FIV) is a lentivirus, like HIV, and has a protease with similarity to the HIV-1 enzyme. This offers a plausible mechanistic rationale. The very high TxGNN score probably reflects the drug's similarity to approved HIV/AIDS use. However, the link cannot be verified: no trials or publications were retrieved for this indication.
 
@@ -144,7 +144,7 @@ Below is the review log for this page: statements checked against official Pharm
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Ritonavir's only New Zealand licence is cancelled, and its interaction burden is heavy" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
+| 2026-11-20 | "Detailed mechanism-of-action data are not available in the data compiled for this report, so this description relies on general pharmacological knowledge" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
 
 <!-- review:end log -->
 

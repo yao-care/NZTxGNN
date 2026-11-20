@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-20
 description: "Tolcapone: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease (and related parkinsonian syndromes)"
 monitor_inn: "TOLCAPONE"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "X-linked intellectual disability-cerebellar hypoplasia syndrome", "paralysis agitans, juvenile, of Hunt"]
@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Tolcapone is a catechol-O-methyltransferase (COMT) inhibitor. According to the Mechanism of Action section of the US FDA-approved prescribing information for tolcapone: "Tolcapone is a selective and reversible inhibitor of catechol- O -methyltransferase (COMT). In mammals, COMT is distributed throughout various organs. The highest activities are in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells and neuronal tissues, especially in glial cells." ([DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736), label version 2020-10-02; accessed 2026-11-19.) This is based on its known drug class only. Its established role is in Parkinson disease, where blocking COMT prolongs the effect of levodopa-based dopaminergic therapy.
+Tolcapone is a catechol-O-methyltransferase (COMT) inhibitor. This is based on its known drug class only. According to the Mechanism of Action section of the US FDA-approved prescribing information for tolcapone: "Tolcapone is a selective and reversible inhibitor of catechol- O -methyltransferase (COMT). In mammals, COMT is distributed throughout various organs. The highest activities are in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells and neuronal tissues, especially in glial cells." ([DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736), label version 2020-10-02; accessed 2026-11-19.) Its established role is in Parkinson disease, where blocking COMT prolongs the effect of levodopa-based dopaminergic therapy.
 
 Rasmussen encephalitis is an immune-mediated, inflammatory epilepsy that affects one brain hemisphere. It has no obvious connection to COMT inhibition or dopaminergic pathways. The high score (0.9993) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No mechanistic rationale is supported by the available data.
 
@@ -126,7 +126,7 @@ Below is the review log for this page: statements checked against official Pharm
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clarification of the New Zealand regulatory pathway, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Tolcapone is also no longer actively authorized in New Zealand, and i" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736) |
+| 2026-11-20 | "Detailed mechanism of action data are not available in the data compiled for this report, so this is based on its known drug class only" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736) |
 
 <!-- review:end log -->
 

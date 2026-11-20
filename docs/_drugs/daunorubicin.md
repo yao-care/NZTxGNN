@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DAUNORUBICIN"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-20
 description: "Daunorubicin: predicted new indication Hodgkins lymphoma (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
 ---
 
@@ -56,7 +56,7 @@ Direct support is limited: **2 Phase 2 trials** (both multi-drug regimens, one i
 
 ## Why is This Prediction Reasonable?
 
-Daunorubicin intercalates into DNA and inhibits topoisomerase II. According to the Mechanism of Action section of the US FDA-approved prescribing information for daunorubicin: "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes." ([DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f), label version 2025-05-21; accessed 2026-11-19.) This description reflects the general known pharmacology of the anthracycline class.
+Daunorubicin intercalates into DNA and inhibits topoisomerase II. This description reflects the general known pharmacology of the anthracycline class. According to the Mechanism of Action section of the US FDA-approved prescribing information for daunorubicin: "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes." ([DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f), label version 2025-05-21; accessed 2026-11-19.)
 
 Doxorubicin, a closely related anthracycline, is a core component of the standard ABVD regimen for Hodgkin lymphoma. That gives a plausible mechanistic reason why daunorubicin could be active in the same disease.
 
@@ -135,7 +135,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f) |
+| 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the general known pharmacology of the anthracycline class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f) |
 
 <!-- review:end log -->
 
