@@ -59,6 +59,24 @@ seo-ops 轉交：搜「<藥名> mechanism of action／moa」落在本站藥物�
   ChEMBL 恢復可連，待查的 71 頁重跑，27 頁補上紀錄（ChEMBL 26、仿單 1），44 頁仍查不到（待查清單更新原因、標已查 ChEMBL；補上的 27 筆標 resolved）；新偵測另找到 33 頁漏掉的句子，30 頁補上仿單節錄、3 頁列待查。合計 395 筆紀錄、47 頁待查。gate 第 21 項改成「仍寫不可得、又沒列待查」就擋（不再只看有沒有紀錄）。
 - 注意：節錄的是美國仿單，劑型與適應症可能跟紐西蘭產品不同（例 calcitriol、clobetasol 取到外用仿單）；文字上已寫明「US FDA-approved prescribing information」。sync_notes_to_docs.py 整頁重寫後會重套紀錄（claim 是頁面原句）；報告重產、原句改寫後要再跑 build_mechanism_reviews.py。
 
+## 正文 Pharmac 品項張數由程式改寫（2026-11-24）
+
+用戶 2026-11-24 決定（各站同日「許可證張數與狀態不再每週過期」）：每週許可證排程只改概覽表狀態列／張數列與程式表，正文寫死的張數會跟著 Pharmac 清單過期、讓 checker 擋頁。
+本站市場段落的表 2026-11-06 起已是程式產生（`scripts/sync_license_tables.py`，`<!-- licenses:begin/end -->`），這次只做正文張數。
+- `scripts/rewrite_license_counts.py`＋`src/nztxgnn/regulatory/count_prose.py`（照 AuTxGNN 移植，同為給付清單、英文句型）：依快照事實層改寫「three Pharmac Schedule items」「the 2 listings」「N of M …」這類句型明確的品項張數；
+  有保留、講證據包或查詢、相對數、劑型／廠商／單方複方子集、fully subsidised 子集、Medsafe 或其他國家口徑、表格顯示筆數、partial 頁不動；同一行有判斷不了的整行不動；0／1 單複數、「only／all」前提句不改，`--list`／`--uncertain` 列待查。
+  句子含 indication 等字樣（NOT_LICENSE）不當成張數句。不寫查核框（同 Au／Kr／My／Tw）；查核紀錄 replacement／anchor 所在的句子不改。
+- 掛鉤：`apply_drug_reviews.py`（非 --check）結尾先重排程式表（`sync_license_tables.run`，沒有 data/bundles 的頁略過）再改寫張數；`build_license_snapshot.py` 寫完快照後同樣兩步（`--no-rewrite` 不跑；
+  `license_rebuild_run.py` 轉紀錄前那次建快照用 `--no-rewrite`，免得改寫被當成刪改轉成紀錄）；母目錄排程在 checker 前跑 build_license_snapshot。gate 第 22 項擋「再跑一次會變」（2026-11-24 以假句實測會擋、改寫後通過）。
+- 2026-11-24 全量量測（公開頁 461 頁，排除 noindex 7 頁、轉址頁）：正文張數句由程式改寫 0 句（11-06～11-12 刪句後正文剩的張數句都跟事實一致）、判斷不了 0 句；
+  另寫的獨立寬偵測（同句有數字＋Pharmac／item／listing／licence 字樣）正文 29 句：多是 DDI「only entry」「one known use」等誤中，張數句（fluoxetine、framycetin、phenol、tenoxicam「two New Zealand licences」、polymyxin_b「Both products」）都等於事實；
+  再掃「the only／one … product」：erythromycin「The only New Zealand product is an intravenous injection」（實為 3 個品項、都是靜脈注射）以 `nz-lic-20261124-erythromycin-1` 更正；
+  hydrocortisone_acetate「The only local product is a rectal foam」（acetate 子集口徑）列待查。單方／複方說法（atomoxetine、dantrolene、metoprolol、montelukast、valsartan、glecaprevir）逐句對證據包成分欄都成立。
+- 查核紀錄說明裡寫死的張數（`reviews_from_edits.figures()` 產生的「The Pharmaceutical Schedule lists N listings for this drug, N current; …」，510 筆、查核框顯示 509 處）同 id 重發成不寫數字的
+  「The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.」，前版存 history；`figures()` 也改成這句，新紀錄不再寫死張數。resolved_by_regeneration 的 9 筆不顯示、不動。
+  checked 日期保留原值（更正內容沒變），查核紀錄表註明 revised 2026-11-24；309 頁 last_modified_at 依「正文有變」改 2026-11-24。
+- checker 全量前後都是 0；gate exit 0。
+
 ## 說明頁與證據等級頁的在地資料（2026-11-19）
 
 用戶 2026-11-19 決定的第一批改版（母目錄 `.claude/gen_local_pages_20261119.py` 產生，不逐站手改）：說明頁（about／guide／sources／downloads／methodology，自有結構站只有證據等級頁與隱私頁）加本站資料區塊（`<!-- local-facts -->`）、證據等級頁的事實段與藥名表（`<!-- tier-facts -->`、`<!-- tier-table -->`）、隱私頁的適用法律／權利／著作權與資料來源段（`<!-- privacy-law -->`）；en／es／de 樣板站的共用長段落縮成一段（`<!-- local-condensed -->`）。
