@@ -149,7 +149,12 @@ def carry_block(old_text, new_text):
 def process(text, recs, partial=False):
     lines = ensure_count_row(strip_marks(text.split("\n")), recs, partial)
     if SEC not in lines:
-        return None
+        # 2026-11-24 第三輪：known_use_pages 以前退回英文寫的「## Market information」標題（teriflunomide）改成本站標題，表照常換成程式表
+        if ALT_SEC in lines and table_rows(recs) and is_public(text):
+            lines[lines.index(ALT_SEC)] = SEC
+        else:
+            t2 = add_section("\n".join(lines), recs)
+            return t2 if t2 and t2 != text else None
     a = lines.index(SEC) + 1
     b = next((k for k in range(a, len(lines)) if lines[k].startswith("## ")), len(lines))
     tb = [k for k in range(a, b) if lines[k].startswith("|")]
@@ -171,6 +176,30 @@ def process(text, recs, partial=False):
         out.insert(x, "")
     t2 = re.sub(r"\n{3,}", "\n\n", "\n".join(out))
     return t2 if t2 != text else None
+
+
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 第二輪）：公開頁沒有「## New Zealand Market Information」段落、但證據包有 Pharmac 品項的，
+# 補一個段落放程式表。位置：「## Safety Considerations」之前；沒有就「## Conclusion and Next Steps」「## Review Log」「## Disclaimer」之前。
+# noindex 頁與證據包沒有紀錄的頁不補。
+ALT_SEC = "## Market information"
+ADD_BEFORE = ("Safety Considerations", "Conclusion and Next Steps", "Review Log", "Disclaimer")
+
+
+def is_public(text):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    return not re.search(r"^noindex:\s*true", fm, re.M)
+
+
+def add_section(text, recs):
+    if not table_rows(recs) or not is_public(text):
+        return None
+    lines = text.split("\n")
+    heads = {m.group(1): i for i, l in enumerate(lines) for m in [re.match(r"^## (.+?)\s*$", l)] if m}
+    at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
+    if at is None:
+        return None
+    sec = [SEC, ""] + wrap(block_for(recs)) + [""]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
 
 
 def run(only=None, dry=False):

@@ -95,3 +95,10 @@ seo-ops 轉交：搜「<藥名> mechanism of action／moa」落在本站藥物�
 例：abacavir「Approved use: Not recorded in the local data」→「In New Zealand: 2 Pharmac Schedule items」；2026-11-19 改了 368 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site NZTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 缺市場段落的公開頁補程式表（2026-11-24 第三輪）
+
+用戶 2026-11-24 決定（比照 JpTxGNN 第二輪 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落、證據包卻有許可證紀錄的，
+`scripts/sync_license_tables.py` 的 `add_section` 在安全性段之前（沒有就結論、查核紀錄、免責聲明段之前）補「## New Zealand Market Information」與程式表；noindex 頁、證據包沒有紀錄的頁不補。
+gate（licenses.py 的 page_problems 第 5 項）擋「公開頁快照有程式表列卻沒有市場段落」；PAGE_NOTE 放行新標題行。
+2026-11-24 全量量測 5 頁（atorvastatin、azathioprine、cefazolin、sofosbuvir；teriflunomide 的已知用途頁標題「## Market information」改成本站標題、舊表換成程式表），補上；正文沒有跟新表矛盾的句子，沒有新查核紀錄。checker 前後都是 0、gate exit 0。

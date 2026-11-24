@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "ATORVASTATIN"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). In New Zealand: 6 Pharmac Schedule items"
 ---
 
@@ -94,6 +94,23 @@ The studies are small, and many were terminated or very limited in size. They do
 | [28364370](https://pubmed.ncbi.nlm.nih.gov/28364370/) | 2017 | Review | American Journal of Cardiovascular Drugs | Recommendations for managing statin and HIV medication interactions |
 | [23703578](https://pubmed.ncbi.nlm.nih.gov/23703578/) | 2013 | Review | Clinical Pharmacokinetics | Interactions between statins and antiviral protease inhibitors, including the risk of muscle toxicity |
 | [41774493](https://pubmed.ncbi.nlm.nih.gov/41774493/) | 2026 | Preclinical (mouse) | JCI Insight | Atorvastatin reduced HIV/antiretroviral-induced cardiac fibrosis and dysfunction by blocking platelet TGF-β1 signaling |
+
+## New Zealand Market Information
+
+<!-- licenses:begin -->
+
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2493586 | Lorstat | Atorvastatin | Tab 10 mg | Yes |
+| 2697580 | Lorstat | Atorvastatin | Tab 10 mg | Yes |
+| 2493594 | Lorstat | Atorvastatin | Tab 20 mg | Yes |
+| 2493608 | Lorstat | Atorvastatin | Tab 40 mg | Yes |
+| 2493616 | Lorstat | Atorvastatin | Tab 80 mg | Yes |
+| 2697599 | Lorstat | Atorvastatin | Tab 80 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

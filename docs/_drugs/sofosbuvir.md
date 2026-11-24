@@ -102,6 +102,18 @@ For context, among the other predicted indications **hepatitis E virus infection
 
 ---
 
+## New Zealand Market Information
+
+<!-- licenses:begin -->
+
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2504111 | Harvoni | Ledipasvir with sofosbuvir | Tab 90 mg with sofosbuvir 400 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 - **Drug Interactions** (8 interactions identified in the DDI database):

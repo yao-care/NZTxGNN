@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 444
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Teriflunomide: known uses and market status in New Zealand; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -70,11 +70,18 @@ The TxGNN deep-learning model produced candidate indications for Teriflunomide, 
 |------|
 | none |
 
-## Market information
+## New Zealand Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 2691426 | Teriflunomide | Tab 14 mg | Valid |
+<!-- licenses:begin -->
+
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2691426 | Teriflunomide Sandoz | Teriflunomide | Tab 14 mg | Yes |
+| 2733099 | Teriflunomide Aurobindo | Teriflunomide | Tab 14 mg | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

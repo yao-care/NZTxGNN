@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CEFAZOLIN"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Cefazolin: predicted new indication infectious otitis media (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
@@ -71,6 +71,20 @@ Currently no related clinical trials registered.
 | [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Review | Clin Pharm | Management of Stevens-Johnson syndrome in a child who had otitis media. Not relevant to cefazolin efficacy in otitis media. |
 
 No cited study directly addresses cefazolin for infectious otitis media, so the evidence level is L5 (model prediction only).
+
+## New Zealand Market Information
+
+<!-- licenses:begin -->
+
+| Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
+|------|------|------|------|------|
+| 2391317 | Cefazolin-AFT | Cefazolin | Inj 1 g vial | Yes |
+| 2662876 | Cefazolin-AFT | Cefazolin | Inj 2 g vial | Yes |
+| 2391325 | Cefazolin-AFT | Cefazolin | Inj 500 mg vial | Yes |
+
+Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
