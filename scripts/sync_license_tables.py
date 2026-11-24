@@ -198,6 +198,11 @@ def add_section(text, recs):
     at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
     if at is None:
         return None
+    k = at - 1
+    while k > 0 and not lines[k].strip():
+        k -= 1
+    if lines[k].strip() == "<!-- review:begin log -->":  # 查核紀錄段的標題在 log 區塊裡：段落放在區塊之前（否則套用查核紀錄時會被當成 log 區塊的內容）
+        at = k
     sec = [SEC, ""] + wrap(block_for(recs)) + [""]
     return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
 
