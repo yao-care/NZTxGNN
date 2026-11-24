@@ -14,7 +14,8 @@
 
 什麼時候跑：證據包或事實層變了之後（每週許可證排程與依成分重建都會在改頁後自動跑，並把 snapshots/ 跟 docs/ 一起 commit）。
 用法（repo 根目錄，先還原 data/ 並在工作目錄跑 dump_license_facts）：
-  python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS]
+  python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS] [--no-rewrite]
+寫完快照會重排程式 Pharmac 品項表（sync_license_tables.py）、依新事實改寫正文張數（rewrite_license_counts.py）；--no-rewrite 不跑。
 """
 import datetime as dt
 import gzip
@@ -100,3 +101,14 @@ if __name__ == "__main__":
     if not re.fullmatch(r"(data-[\w-]+)?", tag):
         sys.exit("--release-tag 要是 data-… 的 tag")
     build(ws, tag)
+    # 2026-11-24（用戶決定）：快照換了，先依證據包重排市場段落的程式 Pharmac 品項表（scripts/sync_license_tables.py），
+    # 再依新快照改寫正文 Pharmac 品項張數（scripts/rewrite_license_counts.py）。母目錄每週排程在 checker 之前就會跑這支
+    # （--ws <母目錄>），所以這裡一定要改寫，且只改表格與張數句。--no-rewrite 不跑（license_rebuild_run.py 轉紀錄前建快照時用，
+    # 不然改寫會被當成刪改轉成紀錄）。
+    if "--no-rewrite" not in a:
+        import subprocess
+        for _s in ("sync_license_tables.py", "rewrite_license_counts.py"):
+            _r = subprocess.run([sys.executable, str(ROOT / "scripts" / _s)])
+            if _r.returncode:
+                print(f"  ✗ 結尾自動改寫失敗：{_s}（exit {_r.returncode}）", file=sys.stderr)
+                _lf_fail.append(_s)

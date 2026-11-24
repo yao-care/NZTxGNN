@@ -222,11 +222,14 @@ def classify(rm):
 
 
 def figures(fc):
+    """2026-11-24（用戶決定）：紀錄說明不再寫死張數（以前寫「lists N listings for this drug, N current」，每週資料一變就過期）；
+    張數由概覽表與程式 Pharmac 品項表維護，這裡只指過去。"""
     if not fc or fc.get("total") is None:
         return ""
-    t, v = fc["total"], fc.get("valid") or 0
-    return (f" The Pharmaceutical Schedule lists {t} listing{'' if t == 1 else 's'} for this drug, {v} current; "
-            "the Quick Overview and the table under New Zealand Market Information show the current figures.")
+    return NEWFIG
+
+
+NEWFIG = (" The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.")
 
 
 def note_for(kind, date, fc):

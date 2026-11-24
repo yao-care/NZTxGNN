@@ -32,6 +32,7 @@
       證據監測清單 scripts/drug_list.json（src/nztxgnn/regulatory/withdrawn.py）（2026-11-12）。同、只宣稱 read（2026-11-06）。
   21. 公開藥物頁寫「mechanism of action data is not available」的，有附出處的作用機轉紀錄（drug_reviews.json action=mechanism）
       或列在待查清單（source＝mechanism of action，附補不到的原因）（scripts/build_mechanism_reviews.py）（2026-11-19）。
+  22. 正文 Pharmac 品項張數＝程式改寫結果：再跑 scripts/rewrite_license_counts.py 不會變（src/nztxgnn/regulatory/count_prose.py）（2026-11-24）。
 
 2026-11-12 起本站有自己的查核機制（核心流程比照 TwTxGNN，用戶決定 30 站各自建立；範本 UsTxGNN）：第 17–20 項對應 Tw 的
 人工查核紀錄、許可證、頁首等級、撤回預測檢查，規則在本站 src/nztxgnn/regulatory/ 與 scripts/apply_drug_reviews.py。
@@ -793,6 +794,9 @@ if _dl_p.exists():
 #     （drug_reviews.json action=mechanism，由 scripts/build_mechanism_reviews.py 產生），要嘛列在待查清單並寫明補不到的原因。
 from build_mechanism_reviews import gate_errors as _moa_errors  # noqa: E402
 errors += _moa_errors()
+# 22) 正文 Pharmac 品項張數＝程式改寫結果（2026-11-24；scripts/rewrite_license_counts.py、src/nztxgnn/regulatory/count_prose.py：再跑一次會變就擋）
+from rewrite_license_counts import check_errors as _count_errors  # noqa: E402
+errors += _count_errors()
 _lic_errs = _Lic.site_problems()
 if _lic_errs:
     errors.append(f"許可證資訊跟快照不一致 {len(_lic_errs)} 項：{'；'.join(_lic_errs[:5])}")
