@@ -98,13 +98,19 @@ For reference, the literature retrieved for the lower-ranked predictions is summ
 
 ## New Zealand Market Information
 
-No approved indication text is available. Five representative entries:
+No approved indication text is available.
 
 <!-- review:begin nz-lic-20261106-mesalazine-1 -->
 
 > **Review correction (2026-11-06)**: Originally stated: "All 13 licences are valid. No approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-mesalazine-1 -->
+
+<!-- review:begin nz-lic-20261124b-mesalazine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Five representative entries:" Removed: this caption described the earlier table, which showed only some of the listings; the table under New Zealand Market Information now lists all Pharmac Schedule items collected for this page. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261124b-mesalazine-1 -->
 
 <!-- licenses:begin -->
 
@@ -170,6 +176,7 @@ Below is the review log for this page: statements checked against official Pharm
 | 2026-11-06 | Removed: "All 13 licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "Clarification of the regulatory status given that all 13 licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
+| 2026-11-24 | Caption of the earlier table ("Five representative entries") removed | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

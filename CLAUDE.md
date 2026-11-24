@@ -76,6 +76,13 @@ seo-ops 轉交：搜「<藥名> mechanism of action／moa」落在本站藥物�
   「The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.」，前版存 history；`figures()` 也改成這句，新紀錄不再寫死張數。resolved_by_regeneration 的 9 筆不顯示、不動。
   checked 日期保留原值（更正內容沒變），查核紀錄表註明 revised 2026-11-24；309 頁 last_modified_at 依「正文有變」改 2026-11-24。
 - checker 全量前後都是 0；gate exit 0。
+- 2026-11-24 第二輪（用戶決定，處理第一輪列待查的事）：hydrocortisone_acetate「The only local product is a rectal foam」對照證據包 18 筆不成立（acetate 單方 2 筆直腸泡沫，另有 hydrocortisone 乳膏、軟膏、乳液、錠、注射與複方），
+  以 `nz-lic-20261124b-hydrocortisone_acetate-1` 改成明講 acetate 單方子集、`-2` 拿掉同頁待辦的同一前提，待查項目標 resolved。
+  含 indication 字樣的待辦寫死張數全站掃 7 句（fluoxetine、framycetin、phenol、tenoxicam「the two New Zealand licences」等），都等於事實層；tenofovir_disoproxil「for either product」是 11-06 紀錄的更正文字（事實 8 筆），同 id 重發成不寫數字。
+  劑型全稱說法全站掃（only／all／both＋劑型、「marketed in New Zealand as …」）45 句，逐句對照證據包全部品項：不成立 3 句——betamethasone「All marketed forms are topical」（11-06 紀錄的更正文字，同 id 重發）與簡介「marketed … as topical products」（`nz-lic-20261124b-betamethasone-1`；另有 Celestone Chronodose 注射）、
+  nystatin「The available forms are oral and vaginal only」（11-06 更正文字拿掉了原句的單方口徑，同 id 重發；複方另有乳膏、耳滴劑）；其餘成立、不改。
+  另掃市場段落的舊表說明句：程式表列出證據包全部品項，「The table lists 5 of them」「The five main ones are listed below」「Main products:」「Main licences:」「The main ones are listed below」「Five representative entries:」「The remaining licences cover …」
+  7 頁 8 句跟新表對不上（多數在 11-06 紀錄的更正文字或錨點句裡）：medroxyprogesterone_acetate、octreotide、olanzapine 的 11-06 紀錄同 id 重發、clozapine-2 改錨，其餘以 `nz-lic-20261124b-{clozapine,methotrexate,dexamethasone,mesalazine}-*` 刪掉或改寫。checker 全量 0、gate exit 0。
 
 ## 說明頁與證據等級頁的在地資料（2026-11-19）
 

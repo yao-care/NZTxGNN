@@ -95,13 +95,19 @@ Currently no related clinical trials registered for primary pulmonary lymphoma.
 
 ## New Zealand Market Information
 
-Approved indication text is not available. Main licences:
+Approved indication text is not available.
 
 <!-- review:begin nz-lic-20261106-methotrexate-1 -->
 
 > **Review correction (2026-11-06)**: Originally stated: "All 15 licences are valid (15 of 15), so methotrexate is currently marketed in New Zealand according to the data compiled. Approved indication text is not available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-methotrexate-1 -->
+
+<!-- review:begin nz-lic-20261124b-methotrexate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Main licences:" Removed: this caption described the earlier table, which showed only some of the listings; the table under New Zealand Market Information now lists all Pharmac Schedule items collected for this page. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261124b-methotrexate-1 -->
 
 <!-- licenses:begin -->
 
@@ -187,6 +193,7 @@ Below is the review log for this page: statements checked against official Pharm
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 15 licences are valid (15 of 15), so methotrexate is currently marketed in New Zealand according to the data compiled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
+| 2026-11-24 | Caption of the earlier table ("Main licences") removed | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

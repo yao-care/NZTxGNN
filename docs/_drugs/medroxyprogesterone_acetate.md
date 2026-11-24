@@ -90,7 +90,7 @@ Currently no related clinical trials registered.
 
 ## New Zealand Market Information
 
-The five main ones are listed below.
+The Pharmac Schedule items are listed in the table below.
 
 <!-- review:begin nz-lic-20261106-medroxyprogesterone_acetate-1 -->
 

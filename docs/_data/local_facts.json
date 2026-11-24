@@ -21,11 +21,11 @@
   "items_current": 1665
  },
  "reviews": {
-  "records": 930,
+  "records": 938,
   "pages": 441,
   "public_pages_with_records": 438,
   "by_action": {
-   "correct": 532,
+   "correct": 540,
    "mechanism": 398
   }
  },
@@ -58,7 +58,7 @@
    "l": "L2",
    "lt": 18,
    "lv": 18,
-   "r": 2,
+   "r": 4,
    "i": "alopecia areata"
   },
   {
@@ -94,7 +94,7 @@
    "l": "L5",
    "lt": 16,
    "lv": 16,
-   "r": 2,
+   "r": 3,
    "i": "pulmonary blastoma"
   },
   {
@@ -175,6 +175,42 @@
   "i": "Ewing sarcoma"
  },
  "recent_reviews": [
+  {
+   "t": "Methotrexate",
+   "u": "/drugs/methotrexate/",
+   "s": "Caption of the earlier table (\"Main licences\") removed",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Mesalazine",
+   "u": "/drugs/mesalazine/",
+   "s": "Caption of the earlier table (\"Five representative entries\") removed",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Hydrocortisone Acetate",
+   "u": "/drugs/hydrocortisone-acetate/",
+   "s": "Premise \"the local product is a rectal foam\" removed",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Dexamethasone",
+   "u": "/drugs/dexamethasone/",
+   "s": "\"The remaining licences cover …\" → \"The listed items include …\" (these products are now in the table)",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Clozapine",
+   "u": "/drugs/clozapine/",
+   "s": "Caption of the earlier table (\"Main products\") removed",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Betamethasone",
+   "u": "/drugs/betamethasone/",
+   "s": "\"marketed in New Zealand as topical products\" → mainly topical; an injection is also listed",
+   "d": "2026-11-24"
+  },
   {
    "t": "Erythromycin",
    "u": "/drugs/erythromycin/",
@@ -282,45 +318,45 @@
    "u": "/drugs/triamcinolone/",
    "s": "Removed: \"All five New Zealand licences are valid, so the drug is marketed, and label safety information was…",
    "d": "2026-11-06"
-  },
-  {
-   "t": "Travoprost",
-   "u": "/drugs/travoprost/",
-   "s": "Removed: \"The only New Zealand authorization has been cancelled\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Tranylcypromine",
-   "u": "/drugs/tranylcypromine/",
-   "s": "Removed: \"The product is currently marketed in New Zealand, with 1 valid licence of 1\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Tranexamic Acid",
-   "u": "/drugs/tranexamic-acid/",
-   "s": "Removed: \"the drug is marketed in New Zealand with 2 valid licences of 2\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Trametinib",
-   "u": "/drugs/trametinib/",
-   "s": "Removed: \"Confirmation of the regulatory pathway, given that the New Zealand authorizations are cancelled\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Tramadol",
-   "u": "/drugs/tramadol/",
-   "s": "Removed: \"and the drug is marketed with 7 valid New Zealand licences out of 7\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Topiramate",
-   "u": "/drugs/topiramate/",
-   "s": "Removed: \"Clarification of the current availability of the product in New Zealand, where 14 of 14 licences…",
-   "d": "2026-11-06"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Methotrexate",
+   "u": "/drugs/methotrexate/",
+   "s": "Caption of the earlier table (\"Main licences\") removed",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Mesalazine",
+   "u": "/drugs/mesalazine/",
+   "s": "Caption of the earlier table (\"Five representative entries\") removed",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Hydrocortisone Acetate",
+   "u": "/drugs/hydrocortisone-acetate/",
+   "s": "Premise \"the local product is a rectal foam\" removed",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Dexamethasone",
+   "u": "/drugs/dexamethasone/",
+   "s": "\"The remaining licences cover …\" → \"The listed items include …\" (these products are now in the table)",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Clozapine",
+   "u": "/drugs/clozapine/",
+   "s": "Caption of the earlier table (\"Main products\") removed",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Betamethasone",
+   "u": "/drugs/betamethasone/",
+   "s": "\"marketed in New Zealand as topical products\" → mainly topical; an injection is also listed",
+   "d": "2026-11-24"
+  },
   {
    "t": "Erythromycin",
    "u": "/drugs/erythromycin/",
@@ -332,42 +368,6 @@
    "u": "/drugs/tetracycline/",
    "s": "Removed: \"Tetracycline is also cancelled-only in New Zealand, which limits practical use.\"",
    "d": "2026-11-12"
-  },
-  {
-   "t": "Zuclopenthixol",
-   "u": "/drugs/zuclopenthixol/",
-   "s": "Removed: \"The drug is marketed in New Zealand, and its only licence is valid\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Ziprasidone",
-   "u": "/drugs/ziprasidone/",
-   "s": "Removed: \"All four licences are single-ingredient ziprasidone products and all are currently valid\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Zidovudine",
-   "u": "/drugs/zidovudine/",
-   "s": "Removed: \"given the cancelled licences\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Warfarin",
-   "u": "/drugs/warfarin/",
-   "s": "Removed: \"A sixth licence (210609, Marevan Tab 5 mg) is also cancelled\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Vinorelbine",
-   "u": "/drugs/vinorelbine/",
-   "s": "Removed: \"The drug is marketed in New Zealand, with all 7 licences valid\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Vincristine",
-   "u": "/drugs/vincristine/",
-   "s": "Removed: \"The licence records compiled for this report contain no approved indication text. All three…",
-   "d": "2026-11-06"
   }
  ],
  "files": {

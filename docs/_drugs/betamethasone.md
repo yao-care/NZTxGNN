@@ -38,9 +38,15 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Betamethasone is a synthetic glucocorticoid with anti-inflammatory, antipruritic and vasoconstrictive activity, marketed in New Zealand as topical products.
+Betamethasone is a synthetic glucocorticoid with anti-inflammatory, antipruritic and vasoconstrictive activity, marketed in New Zealand mainly as topical products (the Pharmac Schedule also lists an injection).
 The TxGNN model predicts it may be useful for **alopecia mucinosa**, with a score of **0.9997**.
 Current support is thin: **0 clinical trials** and **1 publication**, a 1964 case series.
+
+<!-- review:begin nz-lic-20261124b-betamethasone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Betamethasone is a synthetic glucocorticoid with anti-inflammatory, antipruritic and vasoconstrictive activity, marketed in New Zealand as topical products." Corrected: besides the topical products, the Pharmac Schedule lists a betamethasone injection (Celestone Chronodose). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261124b-betamethasone-1 -->
 
 ## Quick Overview
 
@@ -102,7 +108,7 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
 
 <!-- licenses:end -->
 
-All marketed forms are topical.
+Most of the listed forms are topical; the Schedule also lists an injection (Celestone Chronodose).
 
 <!-- review:begin nz-lic-20261106-betamethasone-1 -->
 
@@ -137,6 +143,7 @@ Below is the review log for this page: statements checked against official Pharm
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Four further valid licences are not listed (Betnovate lotion 0.1%, Diprosone OV ointment, and two additional Diprosone products)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-24 | "marketed in New Zealand as topical products" → mainly topical; an injection is also listed | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

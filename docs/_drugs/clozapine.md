@@ -83,7 +83,7 @@ Many patients with mania do not respond adequately to conventional treatment or 
 
 ## New Zealand Market Information
 
-Clozapine is marketed in New Zealand. Approved-indication text is not recorded in the local data. Main products:
+Clozapine is marketed in New Zealand. Approved-indication text is not recorded in the local data.
 
 <!-- review:begin nz-lic-20261106-clozapine-1 -->
 
@@ -96,6 +96,12 @@ Clozapine is marketed in New Zealand. Approved-indication text is not recorded i
 > **Review correction (2026-11-06)**: Originally stated: "The list is limited to five of the 15 licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-clozapine-2 -->
+
+<!-- review:begin nz-lic-20261124b-clozapine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Main products:" Removed: this caption described the earlier table, which showed only some of the listings; the table under New Zealand Market Information now lists all Pharmac Schedule items collected for this page. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261124b-clozapine-1 -->
 
 <!-- licenses:begin -->
 
@@ -152,6 +158,7 @@ Below is the review log for this page: statements checked against official Pharm
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 15 licences in the local data are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The list is limited to five of the 15 licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-24 | Caption of the earlier table ("Main products") removed | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

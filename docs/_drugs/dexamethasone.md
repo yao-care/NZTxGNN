@@ -68,13 +68,19 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-Dexamethasone is marketed in New Zealand. The table lists 5 of them. The local data does not record approved indication text for these licences.
+Dexamethasone is marketed in New Zealand. The local data does not record approved indication text for these licences.
 
 <!-- review:begin nz-lic-20261106-dexamethasone-1 -->
 
 > **Review correction (2026-11-06)**: Originally stated: "Dexamethasone is marketed in New Zealand. All 8 licences in the local data are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-dexamethasone-1 -->
+
+<!-- review:begin nz-lic-20261124b-dexamethasone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The table lists 5 of them." Removed: this caption described the earlier table, which showed only some of the listings; the table under New Zealand Market Information now lists all Pharmac Schedule items collected for this page. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261124b-dexamethasone-1 -->
 
 <!-- licenses:begin -->
 
@@ -96,7 +102,13 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
 
 <!-- licenses:end -->
 
-The remaining licences cover Maxidex eye ointment 0.1%, Dexamethasone Medsurge injection 4 mg per ml (1 ml ampoule) and Ozurdex ocular implant 700 mcg.
+The listed items include Maxidex eye ointment 0.1%, Dexamethasone Medsurge injection 4 mg per ml (1 ml ampoule) and Ozurdex ocular implant 700 mcg.
+
+<!-- review:begin nz-lic-20261124b-dexamethasone-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining licences cover Maxidex eye ointment 0.1%, Dexamethasone Medsurge injection 4 mg per ml (1 ml ampoule) and Ozurdex ocular implant 700 mcg." Corrected: these products were described as not shown in the earlier table; the table under New Zealand Market Information now lists them with the other Pharmac Schedule items. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261124b-dexamethasone-2 -->
 
 ## Safety Considerations
 
@@ -131,6 +143,8 @@ Below is the review log for this page: statements checked against official Pharm
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 8 licences in the local data are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data for dexamethasone is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ozurdex (dexamethasone) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b204f44-6e8a-4d17-803c-268f0b04679f) |
+| 2026-11-24 | Caption of the earlier table ("The table lists 5 of them") removed | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-24 | "The remaining licences cover …" → "The listed items include …" (these products are now in the table) | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

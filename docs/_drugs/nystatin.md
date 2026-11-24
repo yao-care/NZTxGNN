@@ -89,7 +89,7 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
 
 <!-- licenses:end -->
 
-The available forms are oral and vaginal only. No ophthalmic or periocular formulation is listed.
+The single-ingredient nystatin products are oral and vaginal forms (the combination products also include a topical cream and ear drops). No ophthalmic or periocular formulation is listed.
 
 <!-- review:begin nz-lic-20261106-nystatin-1 -->
 

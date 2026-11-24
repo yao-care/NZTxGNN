@@ -84,7 +84,7 @@ The table below lists the most relevant publications. The sole publication for t
 
 ## New Zealand Market Information
 
-The data compiled for this report contain no approved indication text for either product.
+The data compiled for this report contain no approved indication text for the listed products.
 
 <!-- review:begin nz-lic-20261106-tenofovir_disoproxil-1 -->
 

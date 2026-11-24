@@ -71,7 +71,7 @@ Currently no related literature available.
 
 ## New Zealand Market Information
 
-The table lists 5 of them.
+No approved indication text is recorded.
 
 <!-- review:begin nz-lic-20261106-octreotide-1 -->
 

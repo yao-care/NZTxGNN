@@ -1229,9 +1229,9 @@
    "file": "betamethasone.md",
    "action": "correct",
    "claim": "Four further valid licences are not listed (Betnovate lotion 0.1%, Diprosone OV ointment, and two additional Diprosone products). All marketed forms are topical.",
-   "replacement": "All marketed forms are topical.",
+   "replacement": "Most of the listed forms are topical; the Schedule also lists an injection (Celestone Chronodose).",
    "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）；2026-11-24 第二輪重發：更正文字「All marketed forms are topical.」不成立：證據包 14 筆含 Celestone Chronodose 注射",
    "sources": [
     {
      "title": "Pharmac Pharmaceutical Schedule",
@@ -1264,6 +1264,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明裡寫死的 Pharmac 品項張數（lists N listings…, N current）改成指向概覽表與程式表，不寫數字；更正內容不變"
+    },
+    {
+     "id": "nz-lic-20261106-betamethasone-1",
+     "drug": "betamethasone",
+     "file": "betamethasone.md",
+     "action": "correct",
+     "claim": "Four further valid licences are not listed (Betnovate lotion 0.1%, Diprosone OV ointment, and two additional Diprosone products). All marketed forms are topical.",
+     "replacement": "All marketed forms are topical.",
+     "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "Pharmac Pharmaceutical Schedule",
+       "url": "https://schedule.pharmac.govt.nz/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Removed: \"Four further valid licences are not listed (Betnovate lotion 0.1%, Diprosone OV ointment, and two additional Diprosone products)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定（第二輪：更正文字的劑型／筆數說法對照證據包全部品項）"
     }
    ]
   },
@@ -2029,7 +2051,7 @@
    "claim": "The list is limited to five of the 15 licences.",
    "replacement": "",
    "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）；2026-11-24 第二輪重發：錨點句裡的舊表說明「Main products:」由 nz-lic-20261124b-clozapine-1 拿掉，錨點改到前面的句子",
    "sources": [
     {
      "title": "Pharmac Pharmaceutical Schedule",
@@ -2040,7 +2062,7 @@
    "checked": "2026-11-06",
    "summary": "Removed: \"The list is limited to five of the 15 licences\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
-   "anchor": "Clozapine is marketed in New Zealand. Approved-indication text is not recorded in the local data. Main products:",
+   "anchor": "Clozapine is marketed in New Zealand. Approved-indication text is not recorded in the local data.",
    "history": [
     {
      "id": "nz-lic-20261106-clozapine-2",
@@ -2064,6 +2086,29 @@
      "anchor": "Clozapine is marketed in New Zealand. Approved-indication text is not recorded in the local data. Main products:",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明裡寫死的 Pharmac 品項張數（lists N listings…, N current）改成指向概覽表與程式表，不寫數字；更正內容不變"
+    },
+    {
+     "id": "nz-lic-20261106-clozapine-2",
+     "drug": "clozapine",
+     "file": "clozapine.md",
+     "action": "correct",
+     "claim": "The list is limited to five of the 15 licences.",
+     "replacement": "",
+     "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "Pharmac Pharmaceutical Schedule",
+       "url": "https://schedule.pharmac.govt.nz/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Removed: \"The list is limited to five of the 15 licences\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
+     "anchor": "Clozapine is marketed in New Zealand. Approved-indication text is not recorded in the local data. Main products:",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定（第二輪：更正文字裡的舊表筆數說明）"
     }
    ]
   },
@@ -10047,9 +10092,9 @@
    "file": "medroxyprogesterone_acetate.md",
    "action": "correct",
    "claim": "Seven licences are currently valid. The five main ones are listed below.",
-   "replacement": "The five main ones are listed below.",
+   "replacement": "The Pharmac Schedule items are listed in the table below.",
    "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）；2026-11-24 第二輪重發：更正文字「The five main ones are listed below.」是舊表說明，程式表列出全部 7 筆，改成不寫數字",
    "sources": [
     {
      "title": "Pharmac Pharmaceutical Schedule",
@@ -10082,6 +10127,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明裡寫死的 Pharmac 品項張數（lists N listings…, N current）改成指向概覽表與程式表，不寫數字；更正內容不變"
+    },
+    {
+     "id": "nz-lic-20261106-medroxyprogesterone_acetate-1",
+     "drug": "medroxyprogesterone_acetate",
+     "file": "medroxyprogesterone_acetate.md",
+     "action": "correct",
+     "claim": "Seven licences are currently valid. The five main ones are listed below.",
+     "replacement": "The five main ones are listed below.",
+     "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "Pharmac Pharmaceutical Schedule",
+       "url": "https://schedule.pharmac.govt.nz/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Removed: \"Seven licences are currently valid\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定（第二輪：更正文字裡的舊表筆數說明）"
     }
    ]
   },
@@ -12857,9 +12924,9 @@
    "file": "nystatin.md",
    "action": "correct",
    "claim": "All four single-ingredient licences are currently valid. The available forms are oral and vaginal only.",
-   "replacement": "The available forms are oral and vaginal only.",
+   "replacement": "The single-ingredient nystatin products are oral and vaginal forms (the combination products also include a topical cream and ear drops).",
    "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）；2026-11-24 第二輪重發：更正文字「The available forms are oral and vaginal only.」去掉了原句的單方口徑後不成立：證據包 6 筆中複方 Viaderm KC 乳膏、Kenacomb 耳滴劑",
    "sources": [
     {
      "title": "Pharmac Pharmaceutical Schedule",
@@ -12892,6 +12959,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明裡寫死的 Pharmac 品項張數（lists N listings…, N current）改成指向概覽表與程式表，不寫數字；更正內容不變"
+    },
+    {
+     "id": "nz-lic-20261106-nystatin-1",
+     "drug": "nystatin",
+     "file": "nystatin.md",
+     "action": "correct",
+     "claim": "All four single-ingredient licences are currently valid. The available forms are oral and vaginal only.",
+     "replacement": "The available forms are oral and vaginal only.",
+     "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "Pharmac Pharmaceutical Schedule",
+       "url": "https://schedule.pharmac.govt.nz/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Removed: \"All four single-ingredient licences are currently valid\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定（第二輪：更正文字的劑型／筆數說法對照證據包全部品項）"
     }
    ]
   },
@@ -12989,9 +13078,9 @@
    "file": "octreotide.md",
    "action": "correct",
    "claim": "All 11 licences are valid, and no approved indication text is recorded. The table lists 5 of them.",
-   "replacement": "The table lists 5 of them.",
+   "replacement": "No approved indication text is recorded.",
    "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）；2026-11-24 第二輪重發：更正文字「The table lists 5 of them.」是舊表說明，程式表列出全部 11 筆；改留原句裡仍成立的「沒有適應症文字」",
    "sources": [
     {
      "title": "Pharmac Pharmaceutical Schedule",
@@ -13024,6 +13113,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明裡寫死的 Pharmac 品項張數（lists N listings…, N current）改成指向概覽表與程式表，不寫數字；更正內容不變"
+    },
+    {
+     "id": "nz-lic-20261106-octreotide-1",
+     "drug": "octreotide",
+     "file": "octreotide.md",
+     "action": "correct",
+     "claim": "All 11 licences are valid, and no approved indication text is recorded. The table lists 5 of them.",
+     "replacement": "The table lists 5 of them.",
+     "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "Pharmac Pharmaceutical Schedule",
+       "url": "https://schedule.pharmac.govt.nz/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Removed: \"All 11 licences are valid, and no approved indication text is recorded\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定（第二輪：更正文字裡的舊表筆數說明）"
     }
    ]
   },
@@ -13121,9 +13232,9 @@
    "file": "olanzapine.md",
    "action": "correct",
    "claim": "All 11 licences are valid. The main ones are listed below; approved indication text is not available for any of them.",
-   "replacement": "The main ones are listed below; approved indication text is not available for any of them.",
+   "replacement": "Approved indication text is not available for any of the listed items.",
    "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）；2026-11-24 第二輪重發：更正文字「The main ones are listed below; …」是舊表說明，程式表列出全部 19 筆，只留適應症文字的說法",
    "sources": [
     {
      "title": "Pharmac Pharmaceutical Schedule",
@@ -13156,6 +13267,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明裡寫死的 Pharmac 品項張數（lists N listings…, N current）改成指向概覽表與程式表，不寫數字；更正內容不變"
+    },
+    {
+     "id": "nz-lic-20261106-olanzapine-1",
+     "drug": "olanzapine",
+     "file": "olanzapine.md",
+     "action": "correct",
+     "claim": "All 11 licences are valid. The main ones are listed below; approved indication text is not available for any of them.",
+     "replacement": "The main ones are listed below; approved indication text is not available for any of them.",
+     "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "Pharmac Pharmaceutical Schedule",
+       "url": "https://schedule.pharmac.govt.nz/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Removed: \"All 11 licences are valid\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定（第二輪：更正文字裡的舊表筆數說明）"
     }
    ]
   },
@@ -20208,9 +20341,9 @@
    "file": "tenofovir_disoproxil.md",
    "action": "correct",
    "claim": "Both licences are currently valid (2 valid licences of 2). The data compiled for this report contain no approved indication text for either product.",
-   "replacement": "The data compiled for this report contain no approved indication text for either product.",
+   "replacement": "The data compiled for this report contain no approved indication text for the listed products.",
    "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）；2026-11-24 第二輪重發：更正文字「for either product」是舊證據包 2 筆的說法，現在 8 筆；改成不寫數字",
    "sources": [
     {
      "title": "Pharmac Pharmaceutical Schedule",
@@ -20243,6 +20376,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明裡寫死的 Pharmac 品項張數（lists N listings…, N current）改成指向概覽表與程式表，不寫數字；更正內容不變"
+    },
+    {
+     "id": "nz-lic-20261106-tenofovir_disoproxil-1",
+     "drug": "tenofovir_disoproxil",
+     "file": "tenofovir_disoproxil.md",
+     "action": "correct",
+     "claim": "Both licences are currently valid (2 valid licences of 2). The data compiled for this report contain no approved indication text for either product.",
+     "replacement": "The data compiled for this report contain no approved indication text for either product.",
+     "note": "Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "Pharmac Pharmaceutical Schedule",
+       "url": "https://schedule.pharmac.govt.nz/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Removed: \"Both licences are currently valid (2 valid licences of 2)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：80993f23（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定（第二輪：更正文字的劑型／筆數說法對照證據包全部品項）"
     }
    ]
   },
@@ -32964,6 +33119,170 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 人工查核（正文張數說法對事實層與證據包，用戶決定「正文張數自動改寫」的獨立寬偵測）"
+  },
+  {
+   "id": "nz-lic-20261124b-hydrocortisone_acetate-1",
+   "drug": "hydrocortisone_acetate",
+   "file": "hydrocortisone_acetate.md",
+   "action": "correct",
+   "claim": "The only local product is a rectal foam, which is not suited to this use.",
+   "replacement": "The single-ingredient hydrocortisone acetate items on the Pharmac Schedule are rectal foams, which are not suited to this use; the Schedule also lists other hydrocortisone products, including creams, ointments and lotions.",
+   "summary": "\"The only local product is a rectal foam\" → hydrocortisone acetate single-ingredient items are rectal foams; other hydrocortisone products also listed",
+   "note": "Corrected: the Pharmac Schedule items collected for this page include, besides the hydrocortisone acetate rectal foams, other hydrocortisone, hydrocortisone butyrate and combination products (creams, ointments, lotions, tablets, an injection); the sentence said there was only one local product. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+   "finding": "證據包 tfda.records 18 筆：hydrocortisone 鹼 6（乳膏、注射、粉、錠）、acetate 單方 2（Cortifoam、Colifoam 直腸泡沫）、butyrate 4（乳膏、軟膏、乳液、頭皮液）、複方 6（Proctofoam 外用泡沫等）；「The only local product is a rectal foam」只對 acetate 單方子集成立，改成明講子集並補上其他品項存在",
+   "sources": [
+    {
+     "title": "Pharmac Pharmaceutical Schedule",
+     "url": "https://schedule.pharmac.govt.nz/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：劑型與張數說法逐句對照證據包全部品項）"
+  },
+  {
+   "id": "nz-lic-20261124b-hydrocortisone_acetate-2",
+   "drug": "hydrocortisone_acetate",
+   "file": "hydrocortisone_acetate.md",
+   "action": "correct",
+   "claim": "- A suitable topical or intralesional formulation, since the local product is a rectal foam",
+   "replacement": "- A suitable topical or intralesional formulation",
+   "summary": "Premise \"the local product is a rectal foam\" removed",
+   "note": "Corrected: the premise did not match the Pharmac Schedule data (the items collected for this page also include hydrocortisone creams, ointments and lotions); only the premise was removed, the recommendation is unchanged. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+   "finding": "同上；待辦條目只拿掉錯的前提，建議內容不動",
+   "sources": [
+    {
+     "title": "Pharmac Pharmaceutical Schedule",
+     "url": "https://schedule.pharmac.govt.nz/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：劑型與張數說法逐句對照證據包全部品項）"
+  },
+  {
+   "id": "nz-lic-20261124b-betamethasone-1",
+   "drug": "betamethasone",
+   "file": "betamethasone.md",
+   "action": "correct",
+   "claim": "Betamethasone is a synthetic glucocorticoid with anti-inflammatory, antipruritic and vasoconstrictive activity, marketed in New Zealand as topical products.",
+   "replacement": "Betamethasone is a synthetic glucocorticoid with anti-inflammatory, antipruritic and vasoconstrictive activity, marketed in New Zealand mainly as topical products (the Pharmac Schedule also lists an injection).",
+   "summary": "\"marketed in New Zealand as topical products\" → mainly topical; an injection is also listed",
+   "note": "Corrected: besides the topical products, the Pharmac Schedule lists a betamethasone injection (Celestone Chronodose). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+   "finding": "證據包 14 筆中 13 筆外用（乳膏、軟膏、乳液、頭皮液、泡沫、凝膠），另有 Celestone Chronodose 注射（betamethasone sodium phosphate＋acetate）",
+   "sources": [
+    {
+     "title": "Pharmac Pharmaceutical Schedule",
+     "url": "https://schedule.pharmac.govt.nz/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：劑型與張數說法逐句對照證據包全部品項）"
+  },
+  {
+   "id": "nz-lic-20261124b-mesalazine-1",
+   "drug": "mesalazine",
+   "file": "mesalazine.md",
+   "action": "correct",
+   "claim": " Five representative entries:",
+   "replacement": "",
+   "anchor": "No approved indication text is available.",
+   "summary": "Caption of the earlier table (\"Five representative entries\") removed",
+   "note": "Removed: this caption described the earlier table, which showed only some of the listings; the table under New Zealand Market Information now lists all Pharmac Schedule items collected for this page. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+   "finding": "2026-11-24 第二輪：程式表列出證據包全部 13 筆，舊表說明「Five representative entries:」跟新表對不上（同第一輪 --migrate 拿掉的說明句；因為跟 nz-lic-20261106-mesalazine-1 的更正文字同一行，寫成紀錄）",
+   "sources": [
+    {
+     "title": "Pharmac Pharmaceutical Schedule",
+     "url": "https://schedule.pharmac.govt.nz/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（用戶決定）"
+  },
+  {
+   "id": "nz-lic-20261124b-clozapine-1",
+   "drug": "clozapine",
+   "file": "clozapine.md",
+   "action": "correct",
+   "claim": " Main products:",
+   "replacement": "",
+   "anchor": "Approved-indication text is not recorded in the local data.",
+   "summary": "Caption of the earlier table (\"Main products\") removed",
+   "note": "Removed: this caption described the earlier table, which showed only some of the listings; the table under New Zealand Market Information now lists all Pharmac Schedule items collected for this page. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+   "finding": "2026-11-24 第二輪：程式表列出證據包全部品項，舊表說明（只列幾筆／主要品項）跟新表對不上（同第一輪 --migrate 拿掉的說明句；因為跟 11-06 紀錄的更正文字同一行，寫成紀錄）",
+   "sources": [
+    {
+     "title": "Pharmac Pharmaceutical Schedule",
+     "url": "https://schedule.pharmac.govt.nz/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（用戶決定）"
+  },
+  {
+   "id": "nz-lic-20261124b-methotrexate-1",
+   "drug": "methotrexate",
+   "file": "methotrexate.md",
+   "action": "correct",
+   "claim": " Main licences:",
+   "replacement": "",
+   "anchor": "Approved indication text is not available.",
+   "summary": "Caption of the earlier table (\"Main licences\") removed",
+   "note": "Removed: this caption described the earlier table, which showed only some of the listings; the table under New Zealand Market Information now lists all Pharmac Schedule items collected for this page. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+   "finding": "2026-11-24 第二輪：程式表列出證據包全部品項，舊表說明（只列幾筆／主要品項）跟新表對不上（同第一輪 --migrate 拿掉的說明句；因為跟 11-06 紀錄的更正文字同一行，寫成紀錄）",
+   "sources": [
+    {
+     "title": "Pharmac Pharmaceutical Schedule",
+     "url": "https://schedule.pharmac.govt.nz/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（用戶決定）"
+  },
+  {
+   "id": "nz-lic-20261124b-dexamethasone-1",
+   "drug": "dexamethasone",
+   "file": "dexamethasone.md",
+   "action": "correct",
+   "claim": " The table lists 5 of them.",
+   "replacement": "",
+   "anchor": "Dexamethasone is marketed in New Zealand.",
+   "summary": "Caption of the earlier table (\"The table lists 5 of them\") removed",
+   "note": "Removed: this caption described the earlier table, which showed only some of the listings; the table under New Zealand Market Information now lists all Pharmac Schedule items collected for this page. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+   "finding": "2026-11-24 第二輪：程式表列出證據包全部品項，舊表說明（只列幾筆／主要品項）跟新表對不上（同第一輪 --migrate 拿掉的說明句；因為跟 11-06 紀錄的更正文字同一行，寫成紀錄）",
+   "sources": [
+    {
+     "title": "Pharmac Pharmaceutical Schedule",
+     "url": "https://schedule.pharmac.govt.nz/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（用戶決定）"
+  },
+  {
+   "id": "nz-lic-20261124b-dexamethasone-2",
+   "drug": "dexamethasone",
+   "file": "dexamethasone.md",
+   "action": "correct",
+   "claim": "The remaining licences cover Maxidex eye ointment 0.1%, Dexamethasone Medsurge injection 4 mg per ml (1 ml ampoule) and Ozurdex ocular implant 700 mcg.",
+   "replacement": "The listed items include Maxidex eye ointment 0.1%, Dexamethasone Medsurge injection 4 mg per ml (1 ml ampoule) and Ozurdex ocular implant 700 mcg.",
+   "summary": "\"The remaining licences cover …\" → \"The listed items include …\" (these products are now in the table)",
+   "note": "Corrected: these products were described as not shown in the earlier table; the table under New Zealand Market Information now lists them with the other Pharmac Schedule items. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+   "finding": "2026-11-24 第二輪：程式表列出證據包全部品項，舊表說明（只列幾筆／主要品項）跟新表對不上（同第一輪 --migrate 拿掉的說明句；因為跟 11-06 紀錄的更正文字同一行，寫成紀錄）",
+   "sources": [
+    {
+     "title": "Pharmac Pharmaceutical Schedule",
+     "url": "https://schedule.pharmac.govt.nz/",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 第二輪人工查核（用戶決定）"
   }
  ]
 }

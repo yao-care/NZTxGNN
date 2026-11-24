@@ -95,7 +95,7 @@ For the second-ranked prediction, **agoraphobia**, the following literature is a
 
 ## New Zealand Market Information
 
-The main ones are listed below; approved indication text is not available for any of them.
+Approved indication text is not available for any of the listed items.
 
 <!-- review:begin nz-lic-20261106-olanzapine-1 -->
 

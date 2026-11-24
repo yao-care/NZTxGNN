@@ -117,14 +117,26 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The evidence for alopecia areata is limited: one small paediatric randomised trial in which hydrocortisone was only the comparator, and one old case series of intralesional hydrocortisone acetate. The mechanism is plausible, but hydrocortisone is a low-potency steroid. The only local product is a rectal foam, which is not suited to this use.
+The evidence for alopecia areata is limited: one small paediatric randomised trial in which hydrocortisone was only the comparator, and one old case series of intralesional hydrocortisone acetate. The mechanism is plausible, but hydrocortisone is a low-potency steroid. The single-ingredient hydrocortisone acetate items on the Pharmac Schedule are rectal foams, which are not suited to this use; the Schedule also lists other hydrocortisone products, including creams, ointments and lotions.
+
+<!-- review:begin nz-lic-20261124b-hydrocortisone_acetate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only local product is a rectal foam, which is not suited to this use." Corrected: the Pharmac Schedule items collected for this page include, besides the hydrocortisone acetate rectal foams, other hydrocortisone, hydrocortisone butyrate and combination products (creams, ointments, lotions, tablets, an injection); the sentence said there was only one local product. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261124b-hydrocortisone_acetate-1 -->
 
 **To proceed, the following is needed:**
 - Trial results showing how hydrocortisone performed against the comparator in alopecia areata
 - Comparison with higher-potency corticosteroids already used for alopecia areata
-- A suitable topical or intralesional formulation, since the local product is a rectal foam
+- A suitable topical or intralesional formulation
 - Safety information from the package insert, including warnings and contraindications
 - Detailed mechanism of action data
+
+<!-- review:begin nz-lic-20261124b-hydrocortisone_acetate-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "A suitable topical or intralesional formulation, since the local product is a rectal foam" Corrected: the premise did not match the Pharmac Schedule data (the items collected for this page also include hydrocortisone creams, ointments and lotions); only the premise was removed, the recommendation is unchanged. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261124b-hydrocortisone_acetate-2 -->
 
 <!-- review:begin log -->
 
@@ -136,6 +148,8 @@ Below is the review log for this page: statements checked against official Pharm
 |------|------|------|------|
 | 2026-11-06 | Removed: "The one local licence is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
+| 2026-11-24 | "The only local product is a rectal foam" → hydrocortisone acetate single-ingredient items are rectal foams; other hydrocortisone products also listed | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-24 | Premise "the local product is a rectal foam" removed | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

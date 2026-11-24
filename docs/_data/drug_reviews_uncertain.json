@@ -1119,11 +1119,17 @@
    "source": "正文 Pharmac 品項張數獨立寬偵測（2026-11-24，用戶決定「正文張數自動改寫」）",
    "drug": "hydrocortisone_acetate",
    "file": "hydrocortisone_acetate.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "The only local product is a rectal foam, which is not suited to this use.",
    "reason": "subset",
    "added": "2026-11-24",
-   "note": "證據包 18 筆裡含 hydrocortisone 鹼、butyrate 與複方；只算 hydrocortisone acetate 單方是 2 筆直腸泡沫（Cortifoam 2608707、Colifoam 2611120），另有 Proctofoam（acetate＋pramoxine 外用泡沫）。句子講的是 acetate 子集、劑型說法大致成立但單數「the only local product」不精確；子集口徑判斷不了，程式不改，要改請寫查核紀錄"
+   "note": "證據包 18 筆裡含 hydrocortisone 鹼、butyrate 與複方；只算 hydrocortisone acetate 單方是 2 筆直腸泡沫（Cortifoam 2608707、Colifoam 2611120），另有 Proctofoam（acetate＋pramoxine 外用泡沫）。句子講的是 acetate 子集、劑型說法大致成立但單數「the only local product」不精確；子集口徑判斷不了，程式不改，要改請寫查核紀錄",
+   "resolved": "2026-11-24",
+   "record_ids": [
+    "nz-lic-20261124b-hydrocortisone_acetate-1",
+    "nz-lic-20261124b-hydrocortisone_acetate-2"
+   ],
+   "resolution": "2026-11-24 第二輪：證據包 18 筆，acetate 單方只有 2 筆直腸泡沫，另有 hydrocortisone 乳膏、軟膏、乳液等；單數「the only local product」不成立，改成明講 acetate 單方子集並補上其他品項；同頁待辦的同一前提一併拿掉"
   }
  ]
 }
