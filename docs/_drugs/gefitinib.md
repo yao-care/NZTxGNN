@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa"]
 description: "Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -132,7 +132,7 @@ The top prediction (gingival fibromatosis) is supported only by a model score, w
 
 <!-- review:begin nz-lic-20261106-gefitinib-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled Iressa authorization and any current supply route" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled Iressa authorization and any current supply route" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-gefitinib-1 -->
 
@@ -144,7 +144,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "the cancelled Iressa authorization and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled Iressa authorization and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41) |
 
 <!-- review:end log -->

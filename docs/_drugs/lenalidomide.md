@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 264
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). In New Zealand: 5 Pharmac Schedule items"
@@ -114,13 +114,13 @@ Approved-indication text is not available for any of them.
 
 <!-- review:begin nz-lic-20261106-lenalidomide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All six licences are valid, so lenalidomide is currently marketed in New Zealand under these authorizations. Approved-indication text is not available for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All six licences are valid, so lenalidomide is currently marketed in New Zealand under these authorizations. Approved-indication text is not available for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lenalidomide-1 -->
 
 <!-- review:begin nz-lic-20261106-lenalidomide-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A sixth licence (2707535, Capsule 10 mg) is also cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence (2707535, Capsule 10 mg) is also cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lenalidomide-3 -->
 
@@ -176,7 +176,7 @@ The TxGNN score is very high (0.9949) and the mechanism is plausible, but the ev
 
 <!-- review:begin nz-lic-20261106-lenalidomide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Subgroup analysis, particularly del(5q) and chromosome 5 abnormalities, where benefit is most plausible / A haematological and thromboembolic monitoring plan, and a regulatory pathway given that all 6 New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Subgroup analysis, particularly del(5q) and chromosome 5 abnormalities, where benefit is most plausible / A haematological and thromboembolic monitoring plan, and a regulatory pathway given that all 6 New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lenalidomide-2 -->
 
@@ -188,9 +188,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All six licences are valid, so lenalidomide is currently marketed in New Zealand under these authorizations" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "A haematological and thromboembolic monitoring plan, and a regulatory pathway given that all 6 New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "A sixth licence (2707535, Capsule 10 mg) is also cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All six licences are valid, so lenalidomide is currently marketed in New Zealand under these authorizations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A haematological and thromboembolic monitoring plan, and a regulatory pathway given that all 6 New Zealand licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A sixth licence (2707535, Capsule 10 mg) is also cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
 
 <!-- review:end log -->

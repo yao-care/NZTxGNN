@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
@@ -84,7 +84,7 @@ It is currently valid.
 
 <!-- review:begin nz-lic-20261106-acetic_acid-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The one authorization is a multi-ingredient jelly product with an applicator. It is currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The one authorization is a multi-ingredient jelly product with an applicator. It is currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-acetic_acid-1 -->
 
@@ -116,7 +116,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The one authorization is a multi-ingredient jelly product with an applicator" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The one authorization is a multi-ingredient jelly product with an applicator" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
 
 <!-- review:end log -->

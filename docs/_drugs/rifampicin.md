@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 403
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "RIFAMPICIN"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). In New Zealand: 7 Pharmac Schedule items"
@@ -120,7 +120,7 @@ The antibacterial rationale for conjunctivitis is plausible, but evidence is lim
 
 <!-- review:begin nz-lic-20261106-rifampicin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Effective topical alternatives exist, and no rifampicin product is currently authorised in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Effective topical alternatives exist, and no rifampicin product is currently authorised in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-rifampicin-1 -->
 
@@ -139,7 +139,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "and no rifampicin product is currently authorised in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and no rifampicin product is currently authorised in New Zealand" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
 
 <!-- review:end log -->

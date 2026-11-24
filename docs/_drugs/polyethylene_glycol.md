@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
 description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
@@ -109,7 +109,7 @@ The prediction is model-based only (L5), with no clinical trials or publications
 
 <!-- review:begin nz-lic-20261031-polyethylene_glycol-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The proposed mechanism is speculative and does not explain specificity for congenital ichthyosiform erythroderma. The only New Zealand licence is cancelled, and safety data are incomplete." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The proposed mechanism is speculative and does not explain specificity for congenital ichthyosiform erythroderma. The only New Zealand licence is cancelled, and safety data are incomplete." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-polyethylene_glycol-1 -->
 
@@ -122,7 +122,7 @@ The prediction is model-based only (L5), with no clinical trials or publications
 
 <!-- review:begin nz-lic-20261106-polyethylene_glycol-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled licence status and any currently marketed PEG products in New Zealand" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled licence status and any currently marketed PEG products in New Zealand" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-polyethylene_glycol-2 -->
 
@@ -134,8 +134,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and safety data are incomplete" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "the cancelled licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and safety data are incomplete" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled licence status and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "SILTUXIMAB"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
 description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -100,7 +100,7 @@ The prediction is supported only by the model score, with no clinical trials or 
 
 <!-- review:begin nz-lic-20261106-siltuximab-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Detailed mechanism of action data / Clarification of availability, since both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Detailed mechanism of action data / Clarification of availability, since both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-siltuximab-1 -->
 
@@ -112,7 +112,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Clarification of availability, since both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of availability, since both New Zealand licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b) |
 
 <!-- review:end log -->

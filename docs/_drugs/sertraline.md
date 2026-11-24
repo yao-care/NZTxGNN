@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "SERTRALINE"
 predicted_indications: ["histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -69,7 +69,7 @@ Currently no related literature available.
 
 <!-- review:begin nz-lic-20261106-sertraline-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are currently valid, and both are single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are currently valid, and both are single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-sertraline-1 -->
 
@@ -113,7 +113,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both authorisations are currently valid, and both are single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both authorisations are currently valid, and both are single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sertraline hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=687ebdc4-6946-454e-8d46-3207488ccf32) |
 
 <!-- review:end log -->

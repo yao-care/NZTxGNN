@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "DACARBAZINE"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
@@ -125,7 +125,7 @@ The prediction rests on a model score alone (L4). There are no registered trials
 
 <!-- review:begin nz-lic-20261106-dacarbazine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "In addition, both New Zealand licences are cancelled and the package insert safety data have not been reviewed." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "In addition, both New Zealand licences are cancelled and the package insert safety data have not been reviewed." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-dacarbazine-1 -->
 
@@ -137,7 +137,7 @@ The prediction rests on a model score alone (L4). There are no registered trials
 
 <!-- review:begin nz-lic-20261106-dacarbazine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Medsafe package insert warnings and contraindications, to allow safety screening / Clarification of the New Zealand supply situation; the drug is marketed, with 2 valid licences out of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Medsafe package insert warnings and contraindications, to allow safety screening / Clarification of the New Zealand supply situation; the drug is marketed, with 2 valid licences out of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-dacarbazine-2 -->
 
@@ -149,8 +149,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "both New Zealand licences are cancelled and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Clarification of the New Zealand supply situation; the drug is marketed, with 2 valid licences out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "both New Zealand licences are cancelled and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the New Zealand supply situation; the drug is marketed, with 2 valid licences out of 2" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
 
 <!-- review:end log -->

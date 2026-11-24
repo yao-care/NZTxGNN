@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected"]
@@ -146,7 +146,7 @@ The top-ranked prediction (non-syndromic esophageal malformation) has no trials,
 
 <!-- review:begin nz-lic-20261106-ascorbic_acid-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in New Zealand, where its only authorisation (1 of 1) is valid, but no label safety data were available, which blocks safety screening." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in New Zealand, where its only authorisation (1 of 1) is valid, but no label safety data were available, which blocks safety screening." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ascorbic_acid-1 -->
 
@@ -165,7 +165,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "where its only authorisation (1 of 1) is valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "where its only authorisation (1 of 1) is valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6) |
 
 <!-- review:end log -->

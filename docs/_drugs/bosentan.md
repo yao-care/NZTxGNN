@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bosentan: predicted new indication rheumatoid arthritis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
@@ -83,7 +83,7 @@ None of the retrieved studies tests bosentan in patients with rheumatoid arthrit
 
 <!-- review:begin nz-lic-20261106-bosentan-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Two single-ingredient bosentan licences (Bosentan Dr Reddy's, 62.5 mg and 125 mg tablets) are recorded in the local data, and the market status is listed as marketed. The licence records carry no approved-indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Two single-ingredient bosentan licences (Bosentan Dr Reddy's, 62.5 mg and 125 mg tablets) are recorded in the local data, and the market status is listed as marketed. The licence records carry no approved-indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-bosentan-1 -->
 
@@ -124,7 +124,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Two single-ingredient bosentan licences (Bosentan Dr Reddy's, 62.5 mg and 125 mg tablets) are recorded in the local data, and the market sta" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Two single-ingredient bosentan licences (Bosentan Dr Reddy's, 62.5 mg and 125 mg tablets) are recorded in the local data, and the market sta" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism-of-action data for bosentan are not available in the data compiled for this report, so this reasoning relies on the published preclinical literature" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
 
 <!-- review:end log -->

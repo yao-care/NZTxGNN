@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Metyrapone: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not stated in the New Zealand license record (clinical use: diagnosti…"
 monitor_inn: "METYRAPONE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
@@ -116,7 +116,7 @@ The prediction is supported only by the TxGNN model score (L5). There are no cli
 
 <!-- review:begin nz-lic-20261106-metyrapone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in New Zealand (1 valid licence of 1), and the contraindications involve adrenal insufficiency." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in New Zealand (1 valid licence of 1), and the contraindications involve adrenal insufficiency." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-metyrapone-1 -->
 
@@ -135,7 +135,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "he drug is marketed in New Zealand (1 valid licence of 1), and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "he drug is marketed in New Zealand (1 valid licence of 1), and t" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f) |
 
 <!-- review:end log -->

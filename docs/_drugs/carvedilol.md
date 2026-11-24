@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
@@ -84,7 +84,7 @@ The approved indication text is not recorded in the local data.
 
 <!-- review:begin nz-lic-20261106-carvedilol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The local licence records list the three single-ingredient carvedilol tablet strengths above. The approved indication text is not recorded in the local data." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The local licence records list the three single-ingredient carvedilol tablet strengths above. The approved indication text is not recorded in the local data." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-carvedilol-1 -->
 
@@ -115,7 +115,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The local licence records list the three single-ingredient carvedilol tablet strengths above" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The local licence records list the three single-ingredient carvedilol tablet strengths above" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39) |
 
 <!-- review:end log -->

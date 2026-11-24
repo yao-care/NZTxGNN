@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). In New Zealand: 8 Pharmac Schedule items"
@@ -71,7 +71,7 @@ Only the publications that bear on this indication are listed. The rest of the r
 
 <!-- review:begin nz-lic-20261106-ramipril-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid, and the records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid, and the records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ramipril-1 -->
 
@@ -121,7 +121,7 @@ The prediction score is very high (0.9993), but the support is limited to a sing
 
 <!-- review:begin nz-lic-20261106-ramipril-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The prediction score is very high (0.9993), but the support is limited to a single animal study from 1996, with no clinical trials and no human data. ACE inhibitors are not an established therapy for pulmonary hypertension. In addition, ramipril is marketed in New Zealand, with 4 valid licences out of 4." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The prediction score is very high (0.9993), but the support is limited to a single animal study from 1996, with no clinical trials and no human data. ACE inhibitors are not an established therapy for pulmonary hypertension. In addition, ramipril is marketed in New Zealand, with 4 valid licences out of 4." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ramipril-2 -->
 
@@ -140,7 +140,7 @@ Other predictions in the list were also reviewed. None has trial support:
 
 <!-- review:begin nz-lic-20261106-ramipril-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A systematic literature search for human studies of ACE inhibitors in pulmonary hypertension / Clarification of the licensing situation, since all four New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A systematic literature search for human studies of ACE inhibitors in pulmonary hypertension / Clarification of the licensing situation, since all four New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ramipril-3 -->
 
@@ -152,9 +152,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All four licences are valid, and the records contain no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "In addition, ramipril is marketed in New Zealand, with 4 valid licences out of 4" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Clarification of the licensing situation, since all four New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All four licences are valid, and the records contain no approved indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, ramipril is marketed in New Zealand, with 4 valid licences out of 4" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the licensing situation, since all four New Zealand licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
 
 <!-- review:end log -->

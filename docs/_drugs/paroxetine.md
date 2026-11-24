@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
@@ -105,7 +105,7 @@ The prediction is supported only by a model score (Evidence Level L5). The knowl
 
 <!-- review:begin nz-lic-20261031-paroxetine-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction is supported only by a model score (Evidence Level L5). There are no clinical trials or publications, no verifiable mechanistic link, and the only New Zealand authorization is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The prediction is supported only by a model score (Evidence Level L5). There are no clinical trials or publications, no verifiable mechanistic link, and the only New Zealand authorization is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-paroxetine-1 -->
 
@@ -117,7 +117,7 @@ The prediction is supported only by a model score (Evidence Level L5). The knowl
 
 <!-- review:begin nz-lic-20261031-paroxetine-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Preclinical or case-level evidence, and a literature and trial registry search specific to Ohdo syndrome / Clarification of the regulatory pathway, since the only New Zealand licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "Preclinical or case-level evidence, and a literature and trial registry search specific to Ohdo syndrome / Clarification of the regulatory pathway, since the only New Zealand licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-paroxetine-2 -->
 
@@ -129,8 +129,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "There are no clinical trials or publications, no verifiable mechanistic link, and the only New Zealand authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "There are no clinical trials or publications, no verifiable mechanistic link, and the only New Zealand authorization is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only New Zealand licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
 
 <!-- review:end log -->

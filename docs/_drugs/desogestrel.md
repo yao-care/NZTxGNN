@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desogestrel: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the available authorization data (desogestrel is known…"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -44,7 +44,7 @@ The evidence is weak and mostly indirect, so this is a research question rather 
 
 <!-- review:begin nz-lic-20261106-desogestrel-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Desogestrel is a progestin, a hormone used in oral contraceptives, and its only New Zealand authorization (Cerazette 75 mcg tablets) is now cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Desogestrel is a progestin, a hormone used in oral contraceptives, and its only New Zealand authorization (Cerazette 75 mcg tablets) is now cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-desogestrel-1 -->
 
@@ -134,7 +134,7 @@ The only related trial is indirect, and the literature consists mostly of older 
 
 <!-- review:begin nz-lic-20261106-desogestrel-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The sole New Zealand authorization is cancelled, and safety label data is missing." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The sole New Zealand authorization is cancelled, and safety label data is missing." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-desogestrel-2 -->
 
@@ -147,7 +147,7 @@ The only related trial is indirect, and the literature consists mostly of older 
 
 <!-- review:begin nz-lic-20261106-desogestrel-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarify the original approved indication and current regulatory pathway, since the existing authorization is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarify the original approved indication and current regulatory pathway, since the existing authorization is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-desogestrel-3 -->
 
@@ -159,9 +159,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "and its only New Zealand authorization (Cerazette 75 mcg tablets) is now cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The sole New Zealand authorization is cancelled, and s" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since the existing authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and its only New Zealand authorization (Cerazette 75 mcg tablets) is now cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The sole New Zealand authorization is cancelled, and s" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since the existing authorization is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
 
 <!-- review:end log -->

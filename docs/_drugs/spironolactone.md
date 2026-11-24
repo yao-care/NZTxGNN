@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -74,7 +74,7 @@ Currently no related literature available.
 
 <!-- review:begin nz-lic-20261106-spironolactone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid, so spironolactone is currently marketed in New Zealand according to the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid, so spironolactone is currently marketed in New Zealand according to the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-spironolactone-1 -->
 
@@ -117,7 +117,7 @@ The prediction has no supporting trials or literature (evidence level L5). The p
 
 <!-- review:begin nz-lic-20261106-spironolactone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway and route of administration, given the cancelled licences and the unassessed route compatibility (for example, whether a topical formulation would be needed)" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway and route of administration, given the cancelled licences and the unassessed route compatibility (for example, whether a topical formulation would be needed)" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-spironolactone-2 -->
 
@@ -129,8 +129,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All three licences are valid, so spironolactone is currently marketed in New Zealand according to the data compiled for this report" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "the cancelled licences and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three licences are valid, so spironolactone is currently marketed in New Zealand according to the data compiled for this report" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled licences and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
 
 <!-- review:end log -->

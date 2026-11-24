@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TETRACYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -113,7 +113,7 @@ The only evidence for punctate epithelial keratoconjunctivitis is a single 1992 
 
 <!-- review:begin nz-lic-20261112-tetracycline-1 -->
 
-> **Review correction (2026-11-12)**: Originally stated: "existing conjunctivitis indications. Tetracycline is also cancelled-only in New Zealand, which limits practical use." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-12)**: Originally stated: "existing conjunctivitis indications. Tetracycline is also cancelled-only in New Zealand, which limits practical use." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261112-tetracycline-1 -->
 
@@ -132,7 +132,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | Removed: "Tetracycline is also cancelled-only in New Zealand, which limits practical use." | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-12 | Removed: "Tetracycline is also cancelled-only in New Zealand, which limits practical use." | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440) |
 
 <!-- review:end log -->

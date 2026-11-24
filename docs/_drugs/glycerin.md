@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
 description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
@@ -126,7 +126,7 @@ All 10 predictions are at evidence level L4 or L5, with no registered clinical t
 
 <!-- review:begin nz-lic-20261106-glycerin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The top-ranked prediction, cauda equina syndrome, has no identifiable mechanism. All four New Zealand authorizations are valid, and the drug is marketed." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The top-ranked prediction, cauda equina syndrome, has no identifiable mechanism. All four New Zealand authorizations are valid, and the drug is marketed." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-glycerin-1 -->
 
@@ -144,7 +144,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All four New Zealand authorizations are valid, and the drug is marketed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All four New Zealand authorizations are valid, and the drug is marketed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

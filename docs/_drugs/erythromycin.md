@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 183
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "ERYTHROMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -96,7 +96,13 @@ Please refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but there are no clinical trials, the single publication is a general paediatric review that does not study erythromycin, and the mechanistic link is indirect. The only New Zealand product is an intravenous injection, which is not a natural fit for an eye surface condition.
+The prediction score is very high, but there are no clinical trials, the single publication is a general paediatric review that does not study erythromycin, and the mechanistic link is indirect. The New Zealand Pharmac Schedule items are all intravenous injections, which are not a natural fit for an eye surface condition.
+
+<!-- review:begin nz-lic-20261124-erythromycin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only New Zealand product is an intravenous injection, which is not a natural fit for an eye surface condition." Corrected: the Pharmac Schedule lists more than one erythromycin item, all of them intravenous (lactobionate) injections; the sentence said there was only one product. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261124-erythromycin-1 -->
 
 **To proceed, the following is needed:**
 - Studies that directly test erythromycin (ideally an ophthalmic formulation) in punctate epithelial keratoconjunctivitis
@@ -108,11 +114,12 @@ The prediction score is very high, but there are no clinical trials, the single 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Pharmac data (the New Zealand Pharmaceutical Schedule). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
+| 2026-11-24 | "The only New Zealand product is an intravenous injection" → "The New Zealand Pharmac Schedule items are all intravenous injections" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

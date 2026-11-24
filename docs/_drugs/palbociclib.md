@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not stated in the licence data"
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
@@ -100,7 +100,7 @@ These describe thrombosis as a risk, not a therapeutic effect. No literature was
 
 <!-- review:begin nz-lic-20261106-palbociclib-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are valid; the drug is currently marketed, according to the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are valid; the drug is currently marketed, according to the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-palbociclib-1 -->
 
@@ -144,7 +144,7 @@ Rheumatoid arthritis has biologically plausible but indirect support (one case r
 
 <!-- review:begin nz-lic-20261106-palbociclib-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Other predictions rest on model scores alone or are contradicted by safety signals. In addition, all three New Zealand authorizations are valid and the drug is marketed, but the package insert safety data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Other predictions rest on model scores alone or are contradicted by safety signals. In addition, all three New Zealand authorizations are valid and the drug is marketed, but the package insert safety data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-palbociclib-2 -->
 
@@ -156,7 +156,7 @@ Rheumatoid arthritis has biologically plausible but indirect support (one case r
 
 <!-- review:begin nz-lic-20261106-palbociclib-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Controlled clinical evidence, starting with an exploratory trial in rheumatoid arthritis, with myelosuppression and infection risk weighed against benefit / Clarification of the New Zealand regulatory pathway given the three valid licences" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Controlled clinical evidence, starting with an exploratory trial in rheumatoid arthritis, with myelosuppression and infection risk weighed against benefit / Clarification of the New Zealand regulatory pathway given the three valid licences" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-palbociclib-3 -->
 
@@ -168,9 +168,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All three authorizations are valid; the drug is currently marketed, according to the data compiled for this report" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "In addition, all three New Zealand authorizations are valid and the drug is marketed, but the package insert safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Clarification of the New Zealand regulatory pathway given the three valid licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three authorizations are valid; the drug is currently marketed, according to the data compiled for this report" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, all three New Zealand authorizations are valid and the drug is marketed, but the package insert safety data are missing" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the New Zealand regulatory pathway given the three valid licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
 
 <!-- review:end log -->

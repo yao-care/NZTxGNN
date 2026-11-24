@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 453
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). In New Zealand: 4 Pharmac Schedule items"
@@ -91,7 +91,7 @@ None of these studies tests tobramycin in exposure keratitis.
 
 <!-- review:begin nz-lic-20261106-tobramycin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All four authorizations are valid, so tobramycin products are currently marketed in New Zealand under these licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All four authorizations are valid, so tobramycin products are currently marketed in New Zealand under these licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-tobramycin-1 -->
 
@@ -135,7 +135,7 @@ The prediction score is very high, but no clinical trials exist and none of the 
 
 <!-- review:begin nz-lic-20261106-tobramycin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There is also an in vitro corneal toxicity signal. In addition, all four New Zealand authorizations are valid, so the drug is currently marketed locally." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "There is also an in vitro corneal toxicity signal. In addition, all four New Zealand authorizations are valid, so the drug is currently marketed locally." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-tobramycin-2 -->
 
@@ -166,8 +166,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All four authorizations are valid, so tobramycin products are currently marketed in New Zealand under these licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "In addition, all four New Zealand authorizations are valid, so the drug is currently marketed locally" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All four authorizations are valid, so tobramycin products are currently marketed in New Zealand under these licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, all four New Zealand authorizations are valid, so the drug is currently marketed locally" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->

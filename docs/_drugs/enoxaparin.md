@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). In New Zealand: 14 Pharmac Schedule items"
@@ -78,13 +78,13 @@ Approved indication text is not available for any of them.
 
 <!-- review:begin nz-lic-20261106-enoxaparin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All seven licences are valid. Approved indication text is not available for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 14 listings for this drug, 14 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All seven licences are valid. Approved indication text is not available for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-enoxaparin-1 -->
 
 <!-- review:begin nz-lic-20261106-enoxaparin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Two further cancelled licences (Clexane 20 mg in 0.2 ml, 2581868; Clexane Forte 120 mg in 0.8 ml, 2581914) are not listed above." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 14 listings for this drug, 14 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Two further cancelled licences (Clexane 20 mg in 0.2 ml, 2581868; Clexane Forte 120 mg in 0.8 ml, 2581914) are not listed above." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-enoxaparin-2 -->
 
@@ -132,7 +132,7 @@ The prediction score is high (0.9958) and the mechanism is plausible, but there 
 
 <!-- review:begin nz-lic-20261106-enoxaparin-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Standard care is protein C replacement, and enoxaparin is marketed in New Zealand with 7 valid licences of 7." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 14 listings for this drug, 14 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Standard care is protein C replacement, and enoxaparin is marketed in New Zealand with 7 valid licences of 7." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-enoxaparin-3 -->
 
@@ -145,7 +145,7 @@ The prediction score is high (0.9958) and the mechanism is plausible, but there 
 
 <!-- review:begin nz-lic-20261106-enoxaparin-4 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled licence status and whether a supply route exists in New Zealand" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 14 listings for this drug, 14 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled licence status and whether a supply route exists in New Zealand" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-enoxaparin-4 -->
 
@@ -157,10 +157,10 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All seven licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Two further cancelled licences (Clexane 20 mg in 0.2 ml, 2581868; Clexane Forte 120 mg in 0.8 ml, 2581914) are not listed above" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and enoxaparin is marketed in New Zealand with 7 valid licences of 7" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "the cancelled licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All seven licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Two further cancelled licences (Clexane 20 mg in 0.2 ml, 2581868; Clexane Forte 120 mg in 0.8 ml, 2581914) are not listed above" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and enoxaparin is marketed in New Zealand with 7 valid licences of 7" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled licence status and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59) |
 
 <!-- review:end log -->

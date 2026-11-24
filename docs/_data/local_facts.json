@@ -21,11 +21,11 @@
   "items_current": 1665
  },
  "reviews": {
-  "records": 929,
+  "records": 930,
   "pages": 441,
   "public_pages_with_records": 438,
   "by_action": {
-   "correct": 531,
+   "correct": 532,
    "mechanism": 398
   }
  },
@@ -176,6 +176,12 @@
  },
  "recent_reviews": [
   {
+   "t": "Erythromycin",
+   "u": "/drugs/erythromycin/",
+   "s": "\"The only New Zealand product is an intravenous injection\" → \"The New Zealand Pharmac Schedule items are all…",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Tetracycline",
    "u": "/drugs/tetracycline/",
    "s": "Removed: \"Tetracycline is also cancelled-only in New Zealand, which limits practical use.\"",
@@ -312,15 +318,15 @@
    "u": "/drugs/topiramate/",
    "s": "Removed: \"Clarification of the current availability of the product in New Zealand, where 14 of 14 licences…",
    "d": "2026-11-06"
-  },
-  {
-   "t": "Tolcapone",
-   "u": "/drugs/tolcapone/",
-   "s": "Removed: \"Tolcapone is also no longer actively authorized in New Zealand, and i\"",
-   "d": "2026-11-06"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Erythromycin",
+   "u": "/drugs/erythromycin/",
+   "s": "\"The only New Zealand product is an intravenous injection\" → \"The New Zealand Pharmac Schedule items are all…",
+   "d": "2026-11-24"
+  },
   {
    "t": "Tetracycline",
    "u": "/drugs/tetracycline/",
@@ -361,12 +367,6 @@
    "t": "Vincristine",
    "u": "/drugs/vincristine/",
    "s": "Removed: \"The licence records compiled for this report contain no approved indication text. All three…",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Verapamil",
-   "u": "/drugs/verapamil/",
-   "s": "Removed: \"All six licences are valid\"",
    "d": "2026-11-06"
   }
  ],

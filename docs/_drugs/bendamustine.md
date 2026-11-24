@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Bendamustine: predicted new indication mantle cell lymphoma (evidence level L1). In New Zealand: 5 Pharmac Schedule items"
 ---
 
@@ -96,7 +96,7 @@ No indication text is recorded for them.
 
 <!-- review:begin nz-lic-20261106-bendamustine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report records five single-ingredient bendamustine licences, listed below. No indication text is recorded for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report records five single-ingredient bendamustine licences, listed below. No indication text is recorded for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-bendamustine-1 -->
 
@@ -152,7 +152,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The data compiled for this report records five single-ingredient bendamustine licences, listed below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The data compiled for this report records five single-ingredient bendamustine licences, listed below" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f) |
 
 <!-- review:end log -->

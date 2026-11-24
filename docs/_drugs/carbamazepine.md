@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CARBAMAZEPINE"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). In New Zealand: 6 Pharmac Schedule items"
 ---
 
@@ -118,7 +118,7 @@ No trial or publication studies carbamazepine in trigeminal nerve neoplasm. The 
 
 <!-- review:begin nz-lic-20261106-carbamazepine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications for a safety review / Clarification of which New Zealand licences are currently valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications for a safety review / Clarification of which New Zealand licences are currently valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-carbamazepine-1 -->
 
@@ -130,7 +130,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Clarification of which New Zealand licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of which New Zealand licences are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053) |
 
 <!-- review:end log -->

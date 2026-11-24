@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Sacubitril: predicted new indication Top-ranked: brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not stated in the New Zealand licence data (the combinat…"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
@@ -44,7 +44,7 @@ Overall evidence for the top-ranked prediction is only model-based, so this repo
 
 <!-- review:begin nz-lic-20261106-sacubitril-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The licence records compiled for this report do not state an approved indication, but the combination is known as a heart failure treatment." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The licence records compiled for this report do not state an approved indication, but the combination is known as a heart failure treatment." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-sacubitril-1 -->
 
@@ -107,7 +107,7 @@ For the other predictions, the only literature retrieved was PMID 37169551 (rank
 
 <!-- review:begin nz-lic-20261106-sacubitril-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three authorisations are valid, and no approved indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All three authorisations are valid, and no approved indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-sacubitril-2 -->
 
@@ -140,7 +140,7 @@ Please refer to the package insert for warnings and contraindications.
 
 <!-- review:begin nz-lic-20261106-sacubitril-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Diabetic nephropathy has a plausible mechanism and a Phase 4 trial, but that trial has unknown status and no results, and the human renal evidence is limited. Also, the drug is marketed in New Zealand, with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Diabetic nephropathy has a plausible mechanism and a Phase 4 trial, but that trial has unknown status and no results, and the human renal evidence is limited. Also, the drug is marketed in New Zealand, with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-sacubitril-3 -->
 
@@ -152,7 +152,7 @@ Please refer to the package insert for warnings and contraindications.
 
 <!-- review:begin nz-lic-20261106-sacubitril-4 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Evidence separating the contribution of sacubitril from that of valsartan in diabetic nephropathy / Clarification of the regulatory pathway, given that the drug is marketed in New Zealand with 3 valid licences of 3" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Evidence separating the contribution of sacubitril from that of valsartan in diabetic nephropathy / Clarification of the regulatory pathway, given that the drug is marketed in New Zealand with 3 valid licences of 3" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-sacubitril-4 -->
 
@@ -164,10 +164,10 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "he licence records compiled for this report do not state an approved indication, but t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "All three authorisations are valid, and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Also, the drug is marketed in New Zealand, with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that the drug is marketed in New Zealand with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "he licence records compiled for this report do not state an approved indication, but t" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three authorisations are valid, and no approved indication text is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Also, the drug is marketed in New Zealand, with 3 valid licences of 3" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that the drug is marketed in New Zealand with 3 valid licences of 3" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). In New Zealand: 6 Pharmac Schedule items"
@@ -74,7 +74,7 @@ Currently no related literature available for the top-ranked prediction. Literat
 
 <!-- review:begin nz-lic-20261106-verapamil-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All six licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All six licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-verapamil-1 -->
 
@@ -124,7 +124,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All six licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All six licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af1249b0-e889-4f02-bdc2-54862de0545e) |
 
 <!-- review:end log -->

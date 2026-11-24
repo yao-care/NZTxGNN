@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 401
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Ribociclib: predicted new indication Myeloid leukemia (evidence level L4). Approved use: Not stated in the New Zealand license data compiled for this report (…"
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -124,7 +124,7 @@ The only support for myeloid leukemia is one preclinical study and a plausible m
 
 <!-- review:begin nz-lic-20261106-ribociclib-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "In addition, ribociclib's marrow-suppressing profile is a concern in a haematological malignancy. The drug is marketed in New Zealand, with 3 of 3 licenses valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "In addition, ribociclib's marrow-suppressing profile is a concern in a haematological malignancy. The drug is marketed in New Zealand, with 3 of 3 licenses valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ribociclib-1 -->
 
@@ -135,7 +135,7 @@ The only support for myeloid leukemia is one preclinical study and a plausible m
 
 <!-- review:begin nz-lic-20261106-ribociclib-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Further preclinical work in myeloid leukemia models, including combination with standard AML therapy and assessment of marrow toxicity / Review of the New Zealand supply situation, given that the drug is marketed and all 3 of 3 licenses are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Further preclinical work in myeloid leukemia models, including combination with standard AML therapy and assessment of marrow toxicity / Review of the New Zealand supply situation, given that the drug is marketed and all 3 of 3 licenses are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ribociclib-2 -->
 
@@ -147,8 +147,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 3 of 3 licenses valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Review of the New Zealand supply situation, given that the drug is marketed and all 3 of 3 licenses are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 3 of 3 licenses valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Review of the New Zealand supply situation, given that the drug is marketed and all 3 of 3 licenses are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "FLUOROMETHOLONE"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
 description: "Fluorometholone: predicted new indication Postinfectious vasculitis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -87,7 +87,7 @@ Two papers were retrieved for the rank 6 prediction, punctate epithelial keratoc
 
 <!-- review:begin nz-lic-20261106-fluorometholone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are cancelled, and the records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are cancelled, and the records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fluorometholone-1 -->
 
@@ -133,7 +133,7 @@ The prediction for postinfectious vasculitis is based on the model score alone (
 
 <!-- review:begin nz-lic-20261106-fluorometholone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A topical ocular steroid is poorly matched to a systemic disease, and both New Zealand licences are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A topical ocular steroid is poorly matched to a systemic disease, and both New Zealand licences are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fluorometholone-2 -->
 
@@ -147,7 +147,7 @@ The prediction for postinfectious vasculitis is based on the model score alone (
 
 <!-- review:begin nz-lic-20261106-fluorometholone-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of why the licences were cancelled and whether any product could be re-supplied" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of why the licences were cancelled and whether any product could be re-supplied" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fluorometholone-3 -->
 
@@ -159,9 +159,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both authorizations are cancelled, and the records contain no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "why the licences were cancelled and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both authorizations are cancelled, and the records contain no approved indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and both New Zealand licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "why the licences were cancelled and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluorometholone Ophthalmic Suspension (fluorometholone) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7988a3b-e432-4d42-a8d2-63ca017e6a01) |
 
 <!-- review:end log -->

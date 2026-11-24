@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
 description: "Prednisolone Acetate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
@@ -155,7 +155,7 @@ The top prediction, chronic follicular conjunctivitis, rests on the model score 
 
 <!-- review:begin nz-lic-20261106-prednisolone_acetate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled licence status and the approved indication text, to confirm that a marketed product is available" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled licence status and the approved indication text, to confirm that a marketed product is available" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-prednisolone_acetate-1 -->
 
@@ -167,7 +167,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "the cancelled licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled licence status and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
 
 <!-- review:end log -->

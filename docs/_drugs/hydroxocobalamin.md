@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROXOCOBALAMIN"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
 description: "Hydroxocobalamin: predicted new indication Esophageal varices without bleeding (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -98,7 +98,7 @@ The prediction rests on a model score alone (L5), with no clinical trials, no li
 
 <!-- review:begin nz-lic-20261106-hydroxocobalamin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The only plausible hypothesis (NO scavenging) is speculative and raises a safety concern in patients with hypertension. The New Zealand authorization has also been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The only plausible hypothesis (NO scavenging) is speculative and raises a safety concern in patients with hypertension. The New Zealand authorization has also been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-hydroxocobalamin-2 -->
 
@@ -110,7 +110,7 @@ The prediction rests on a model score alone (L5), with no clinical trials, no li
 
 <!-- review:begin nz-lic-20261031-hydroxocobalamin-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Systematic literature and trial searches specific to hydroxocobalamin and portal hypertension or varices / Confirmation of a currently available formulation and route in New Zealand, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "Systematic literature and trial searches specific to hydroxocobalamin and portal hypertension or varices / Confirmation of a currently available formulation and route in New Zealand, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-hydroxocobalamin-1 -->
 
@@ -122,8 +122,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Confirmation of a currently available formulation and route in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The New Zealand authorization has also been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Confirmation of a currently available formulation and route in New Zealand, since the only licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The New Zealand authorization has also been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["non-seminomatous lesion", "chondroid hamartoma", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetuximab: predicted new indication non-seminomatous lesion (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
@@ -74,7 +74,7 @@ They carry no indication text.
 
 <!-- review:begin nz-lic-20261106-cetuximab-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The local records list three authorisations for single-ingredient cetuximab injection. They carry no indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The local records list three authorisations for single-ingredient cetuximab injection. They carry no indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-cetuximab-1 -->
 
@@ -132,7 +132,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The local records list three authorisations for single-ingredient cetuximab injection" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The local records list three authorisations for single-ingredient cetuximab injection" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "The compiled data lack a detailed mechanism-of-action entry for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9) |
 
 <!-- review:end log -->

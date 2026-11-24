@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Orphenadrine: predicted new indication Schizophrenia (evidence level L5). Approved use: Parkinsonian disorder / Parkinson disease"
 monitor_inn: "Orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
@@ -126,7 +126,7 @@ The top-ranked predictions rest on computational scores alone, with no trials, n
 
 <!-- review:begin nz-lic-20261031-orphenadrine-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "For schizophrenia, the literature supports orphenadrine only for managing antipsychotic side effects, and anticholinergics may worsen cognition and tardive dyskinesia. Orphenadrine's only New Zealand licence has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "For schizophrenia, the literature supports orphenadrine only for managing antipsychotic side effects, and anticholinergics may worsen cognition and tardive dyskinesia. Orphenadrine's only New Zealand licence has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-orphenadrine-1 -->
 
@@ -137,7 +137,7 @@ The top-ranked predictions rest on computational scores alone, with no trials, n
 
 <!-- review:begin nz-lic-20261106-orphenadrine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "For schizophrenia, a well-designed study of any antipsychotic or cognitive benefit separate from the control of extrapyramidal side effects, with attention to the cognitive and tardive dyskinesia risks of anticholinergics / A decision on whether the cancelled New Zealand licence matters for the intended use, since no current product is marketed" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "For schizophrenia, a well-designed study of any antipsychotic or cognitive benefit separate from the control of extrapyramidal side effects, with attention to the cognitive and tardive dyskinesia risks of anticholinergics / A decision on whether the cancelled New Zealand licence matters for the intended use, since no current product is marketed" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-orphenadrine-2 -->
 
@@ -149,8 +149,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Orphenadrine's only New Zealand licence has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "A decision on whether the cancelled New Zealand licence matters for the intended use, since no current product is marketed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Orphenadrine's only New Zealand licence has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A decision on whether the cancelled New Zealand licence matters for the intended use, since no current product is marketed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a) |
 
 <!-- review:end log -->

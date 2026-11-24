@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). In New Zealand: 8 Pharmac Schedule items"
@@ -105,13 +105,13 @@ Approved indication text is not available for these licences.
 
 <!-- review:begin nz-lic-20261106-pregabalin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 8 licences are valid, so this drug is currently marketed in this country. Approved indication text is not available for these licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All 8 licences are valid, so this drug is currently marketed in this country. Approved indication text is not available for these licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-pregabalin-1 -->
 
 <!-- review:begin nz-lic-20261106-pregabalin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Three further cancelled licences (Lyrica 150 mg and 25 mg, Pregabalin Pfizer 25 mg) are not listed here." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Three further cancelled licences (Lyrica 150 mg and 25 mg, Pregabalin Pfizer 25 mg) are not listed here." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-pregabalin-2 -->
 
@@ -161,7 +161,7 @@ The top prediction (tendinitis) rests on a computational score alone. No trials 
 
 <!-- review:begin nz-lic-20261106-pregabalin-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "For migraine: adult, placebo-controlled confirmatory trials / Clarification of the regulatory pathway, given that this drug is marketed with 8 valid licences of 8" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "For migraine: adult, placebo-controlled confirmatory trials / Clarification of the regulatory pathway, given that this drug is marketed with 8 valid licences of 8" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-pregabalin-3 -->
 
@@ -173,9 +173,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 8 licences are valid, so this drug is currently marketed in this country" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Three further cancelled licences (Lyrica 150 mg and 25 mg, Pregabalin Pfizer 25 mg) are not listed here" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that this drug is marketed with 8 valid licences of 8" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 8 licences are valid, so this drug is currently marketed in this country" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Three further cancelled licences (Lyrica 150 mg and 25 mg, Pregabalin Pfizer 25 mg) are not listed here" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that this drug is marketed with 8 valid licences of 8" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pregabalin Extended Release (pregabalin) prescribing information, ScieGen Pharmaceuticals, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1544a657-353c-47f8-96ac-a63fa78373f0) |
 
 <!-- review:end log -->

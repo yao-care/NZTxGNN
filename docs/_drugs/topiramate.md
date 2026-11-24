@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 457
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In New Zealand: 14 Pharmac Schedule items"
@@ -95,7 +95,7 @@ The approved indication text is not available for any of them.
 
 <!-- review:begin nz-lic-20261106-topiramate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 14 licences are currently valid. The approved indication text is not available for any of them. Five of the main authorizations are listed below." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 14 listings for this drug, 14 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All 14 licences are currently valid. The approved indication text is not available for any of them. Five of the main authorizations are listed below." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-topiramate-1 -->
 
@@ -144,7 +144,7 @@ The top prediction (trigeminal nerve neoplasm) has a very high model score but n
 
 <!-- review:begin nz-lic-20261106-topiramate-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The top prediction (trigeminal nerve neoplasm) has a very high model score but no trials, no literature and no plausible anti-tumour mechanism, so it is not supported. The drug is marketed in New Zealand, with 14 of 14 licences valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 14 listings for this drug, 14 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The top prediction (trigeminal nerve neoplasm) has a very high model score but no trials, no literature and no plausible anti-tumour mechanism, so it is not supported. The drug is marketed in New Zealand, with 14 of 14 licences valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-topiramate-2 -->
 
@@ -156,7 +156,7 @@ The top prediction (trigeminal nerve neoplasm) has a very high model score but n
 
 <!-- review:begin nz-lic-20261106-topiramate-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Disease-specific studies, such as case series or trials, for the reflex epilepsy indications / Clarification of the current availability of the product in New Zealand, where 14 of 14 licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 14 listings for this drug, 14 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Disease-specific studies, such as case series or trials, for the reflex epilepsy indications / Clarification of the current availability of the product in New Zealand, where 14 of 14 licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-topiramate-3 -->
 
@@ -168,9 +168,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 14 licences are currently valid. Five of the main authorizations are listed below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 14 of 14 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Clarification of the current availability of the product in New Zealand, where 14 of 14 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 14 licences are currently valid. Five of the main authorizations are listed below" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 14 of 14 licences valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the current availability of the product in New Zealand, where 14 of 14 licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
 
 <!-- review:end log -->

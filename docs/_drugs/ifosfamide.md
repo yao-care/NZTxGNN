@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "IFOSFAMIDE"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Ifosfamide: predicted new indication Female breast carcinoma (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
@@ -44,7 +44,7 @@ The strongest evidence in the model's top ten predictions is for **rhabdomyosarc
 
 <!-- review:begin nz-lic-20261106-ifosfamide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Ifosfamide is an alkylating chemotherapy drug used in cancer treatment. Its New Zealand licences are all cancelled, and the licence records compiled for this report contain no approved-indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Ifosfamide is an alkylating chemotherapy drug used in cancer treatment. Its New Zealand licences are all cancelled, and the licence records compiled for this report contain no approved-indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ifosfamide-1 -->
 
@@ -112,7 +112,7 @@ Most of this literature consists of older Phase 2 studies and reviews. No random
 
 <!-- review:begin nz-lic-20261106-ifosfamide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid, so ifosfamide is currently marketed with valid New Zealand authorization." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid, so ifosfamide is currently marketed with valid New Zealand authorization." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ifosfamide-2 -->
 
@@ -179,8 +179,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Its New Zealand licences are all cancelled, and the licence records compiled for this report contain no approved-indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "All three licences are valid, so ifosfamide is currently marketed with valid New Zealand authorization" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Its New Zealand licences are all cancelled, and the licence records compiled for this report contain no approved-indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three licences are valid, so ifosfamide is currently marketed with valid New Zealand authorization" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a) |
 
 <!-- review:end log -->

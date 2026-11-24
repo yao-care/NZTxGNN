@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 467
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). In New Zealand: 7 Pharmac Schedule items"
@@ -107,7 +107,7 @@ The prediction for alopecia mucinosa has a very high model score but no clinical
 
 <!-- review:begin nz-lic-20261106-triamcinolone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The prediction for alopecia mucinosa has a very high model score but no clinical trials and no triamcinolone-specific literature (L4). All five New Zealand licences are valid, so the drug is marketed, and label safety information was not available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The prediction for alopecia mucinosa has a very high model score but no clinical trials and no triamcinolone-specific literature (L4). All five New Zealand licences are valid, so the drug is marketed, and label safety information was not available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-triamcinolone-1 -->
 
@@ -126,7 +126,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All five New Zealand licences are valid, so the drug is marketed, and label safety information was not available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All five New Zealand licences are valid, so the drug is marketed, and label safety information was not available" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
 
 <!-- review:end log -->

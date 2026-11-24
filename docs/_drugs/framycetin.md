@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not specified in the licence data compiled for this report (marketed…"
 monitor_inn: "framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -96,7 +96,7 @@ Route compatibility with the predicted indication has not been assessed. A topic
 
 <!-- review:begin nz-lic-20261106-framycetin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are valid and cover ophthalmic/otic routes only. Route compatibility with the predicted indication has not been assessed." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are valid and cover ophthalmic/otic routes only. Route compatibility with the predicted indication has not been assessed." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-framycetin-1 -->
 
@@ -133,7 +133,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both authorizations are valid and cover ophthalmic/otic routes only" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both authorizations are valid and cover ophthalmic/otic routes only" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

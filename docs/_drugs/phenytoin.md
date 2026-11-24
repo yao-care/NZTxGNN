@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In New Zealand: 5 Pharmac Schedule items"
@@ -67,7 +67,7 @@ Currently no related clinical trials registered.
 
 <!-- review:begin nz-lic-20261106-phenytoin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Phenytoin is currently marketed in New Zealand, and all 5 of the 5 licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Phenytoin is currently marketed in New Zealand, and all 5 of the 5 licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-phenytoin-1 -->
 
@@ -120,7 +120,7 @@ The prediction for trigeminal nerve neoplasm rests on model score alone (L5). Th
 
 <!-- review:begin nz-lic-20261106-phenytoin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There are no trials, the literature does not address tumours, and no antineoplastic mechanism is known. The product is also no longer licensed in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "There are no trials, the literature does not address tumours, and no antineoplastic mechanism is known. The product is also no longer licensed in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-phenytoin-2 -->
 
@@ -143,8 +143,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Phenytoin is currently marketed in New Zealand, and all 5 of the 5 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The product is also no longer licensed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Phenytoin is currently marketed in New Zealand, and all 5 of the 5 licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The product is also no longer licensed in New Zealand" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
 
 <!-- review:end log -->

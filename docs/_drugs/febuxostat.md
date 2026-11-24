@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 194
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). In New Zealand: 2 Pharmac Schedule items"
@@ -130,7 +130,7 @@ The evidence is limited to a model prediction, one trial of unconfirmed relevanc
 
 <!-- review:begin nz-lic-20261106-febuxostat-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled New Zealand regulatory status and route compatibility" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled New Zealand regulatory status and route compatibility" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-febuxostat-1 -->
 
@@ -142,7 +142,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "the cancelled New Zealand regulatory status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled New Zealand regulatory status and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 329
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). In New Zealand: 2 Pharmac Schedule items"
@@ -68,7 +68,7 @@ Currently no related clinical trials registered.
 
 <!-- review:begin nz-lic-20261106-nortriptyline-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both licences are cancelled, so no nortriptyline product currently holds a valid authorization in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are cancelled, so no nortriptyline product currently holds a valid authorization in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-nortriptyline-1 -->
 
@@ -118,7 +118,7 @@ Published evidence (one pediatric RCT, a Cochrane review and several observation
 
 <!-- review:begin nz-lic-20261106-nortriptyline-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "No nortriptyline product is currently authorized in New Zealand, and label safety data are missing." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "No nortriptyline product is currently authorized in New Zealand, and label safety data are missing." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-nortriptyline-2 -->
 
@@ -130,7 +130,7 @@ Published evidence (one pediatric RCT, a Cochrane review and several observation
 
 <!-- review:begin nz-lic-20261106-nortriptyline-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Comparison against established ADHD treatments (stimulants, atomoxetine, α2-agonists) / Regulatory pathway for supply: the drug is marketed in this country, with 2 valid licences of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Comparison against established ADHD treatments (stimulants, atomoxetine, α2-agonists) / Regulatory pathway for supply: the drug is marketed in this country, with 2 valid licences of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-nortriptyline-3 -->
 
@@ -142,9 +142,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both licences are cancelled, so no nortriptyline product currently holds a valid authorization in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "No nortriptyline product is currently authorized in New Zealand, and l" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Regulatory pathway for supply: the drug is marketed in this country, with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both licences are cancelled, so no nortriptyline product currently holds a valid authorization in New Zealand" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "No nortriptyline product is currently authorized in New Zealand, and l" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Regulatory pathway for supply: the drug is marketed in this country, with 2 valid licences of 2" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb) |
 
 <!-- review:end log -->

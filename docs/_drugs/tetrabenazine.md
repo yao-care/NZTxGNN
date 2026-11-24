@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "TETRABENAZINE"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
 description: "Tetrabenazine: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -114,7 +114,7 @@ The prediction is supported only by a model score (L5). There are no clinical tr
 
 <!-- review:begin nz-lic-20261031-tetrabenazine-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "There are no clinical trials, no relevant literature and no plausible mechanistic link between VMAT2 inhibition and polycystic kidney disease. The only New Zealand licence is cancelled, and the safety profile is not fully characterized." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "There are no clinical trials, no relevant literature and no plausible mechanistic link between VMAT2 inhibition and polycystic kidney disease. The only New Zealand licence is cancelled, and the safety profile is not fully characterized." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-tetrabenazine-1 -->
 
@@ -127,7 +127,7 @@ The prediction is supported only by a model score (L5). There are no clinical tr
 
 <!-- review:begin nz-lic-20261106-tetrabenazine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled New Zealand licence and available routes of administration" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled New Zealand licence and available routes of administration" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-tetrabenazine-2 -->
 
@@ -139,8 +139,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the safety profile is not fully characterized" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "the cancelled New Zealand licence and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the safety profile is not fully characterized" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled New Zealand licence and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xenazine (tetrabenazine) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac768bab-8afa-4446-bc7f-caeeffec0cda) |
 
 <!-- review:end log -->

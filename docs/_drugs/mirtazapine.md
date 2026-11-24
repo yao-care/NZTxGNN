@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -120,7 +120,7 @@ All three predicted indications rest on model scores alone (Evidence Level L5), 
 
 <!-- review:begin nz-lic-20261106-mirtazapine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-mirtazapine-1 -->
 
@@ -132,7 +132,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "since both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both New Zealand licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887) |
 
 <!-- review:end log -->

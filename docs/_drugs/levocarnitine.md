@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "LEVOCARNITINE"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
 description: "Levocarnitine: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). In New Zealand: 6 Pharmac Schedule items"
@@ -111,7 +111,7 @@ Several other retrieved papers are off-topic: a stem-cell cardiomyopathy model a
 
 <!-- review:begin nz-lic-20261106-levocarnitine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All six licenses are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All six licenses are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-levocarnitine-1 -->
 
@@ -136,7 +136,7 @@ Approved indication text is not recorded for any license. Available forms are or
 
 <!-- review:begin nz-lic-20261106-levocarnitine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The sixth license is 2683059 (Metabolics, Capsule 500 mg, cancelled). Approved indication text is not recorded for any license." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The sixth license is 2683059 (Metabolics, Capsule 500 mg, cancelled). Approved indication text is not recorded for any license." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-levocarnitine-2 -->
 
@@ -172,8 +172,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All six licenses are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The sixth license is 2683059 (Metabolics, Capsule 500 mg, cancelled)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All six licenses are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The sixth license is 2683059 (Metabolics, Capsule 500 mg, cancelled)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

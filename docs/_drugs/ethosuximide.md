@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "ETHOSUXIMIDE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Ethosuximide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -109,7 +109,7 @@ The prediction is supported only by the TxGNN model score. The safety data also 
 
 <!-- review:begin nz-lic-20261106-ethosuximide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A review of the regulatory pathway, since both New Zealand licences are cancelled and the route compatibility for the new indication has not been assessed" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A review of the regulatory pathway, since both New Zealand licences are cancelled and the route compatibility for the new indication has not been assessed" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ethosuximide-1 -->
 
@@ -121,7 +121,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "since both New Zealand licences are cancelled and the route compatibility for the new indication has not been assessed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both New Zealand licences are cancelled and the route compatibility for the new indication has not been assessed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6) |
 
 <!-- review:end log -->

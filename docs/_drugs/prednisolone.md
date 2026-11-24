@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 377
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). In New Zealand: 4 Pharmac Schedule items"
@@ -116,7 +116,7 @@ A placebo-controlled RCT, a Cochrane network meta-analysis and systematic review
 
 <!-- review:begin nz-lic-20261106-prednisolone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Relapse after withdrawal and steroid toxicity limit its use, and JAK inhibitors are preferred for severe disease. Neither New Zealand licence is currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Relapse after withdrawal and steroid toxicity limit its use, and JAK inhibitors are preferred for severe disease. Neither New Zealand licence is currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-prednisolone-1 -->
 
@@ -128,7 +128,7 @@ A placebo-controlled RCT, a Cochrane network meta-analysis and systematic review
 
 <!-- review:begin nz-lic-20261106-prednisolone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A decision on how it positions against JAK inhibitors / Confirmation of a currently available product, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A decision on how it positions against JAK inhibitors / Confirmation of a currently available product, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-prednisolone-2 -->
 
@@ -151,8 +151,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Neither New Zealand licence is currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Confirmation of a currently available product, since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Neither New Zealand licence is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of a currently available product, since both licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
 
 <!-- review:end log -->

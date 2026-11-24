@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 263
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -107,7 +107,7 @@ The prediction has no supporting clinical trials or literature (evidence level L
 
 <!-- review:begin nz-lic-20261106-leflunomide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The drug's known teratogenic risk argues against use in congenital developmental syndromes. Leflunomide is marketed in New Zealand, with 2 valid licences out of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The drug's known teratogenic risk argues against use in congenital developmental syndromes. Leflunomide is marketed in New Zealand, with 2 valid licences out of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-leflunomide-1 -->
 
@@ -119,7 +119,7 @@ The prediction has no supporting clinical trials or literature (evidence level L
 
 <!-- review:begin nz-lic-20261106-leflunomide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A review of the teratogenicity concern and the cancelled New Zealand licence status before any further consideration" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A review of the teratogenicity concern and the cancelled New Zealand licence status before any further consideration" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-leflunomide-2 -->
 
@@ -131,8 +131,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Leflunomide is marketed in New Zealand, with 2 valid licences out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and the cancelled New Zealand licence status before any further consideration" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Leflunomide is marketed in New Zealand, with 2 valid licences out of 2" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the cancelled New Zealand licence status before any further consideration" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
 
 <!-- review:end log -->

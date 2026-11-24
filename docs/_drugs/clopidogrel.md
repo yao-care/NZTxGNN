@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Clopidogrel: predicted new indication Migraine disorder (evidence level L5). Approved use: Acute coronary syndrome"
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
@@ -125,7 +125,7 @@ There are randomised data for clopidogrel in migraine, but they are a small pilo
 
 <!-- review:begin nz-lic-20261031-clopidogrel-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Benefit appears confined to PFO-associated or post-closure migraine. In New Zealand, the only licence is cancelled and the package insert data are unavailable, so a safety screen cannot yet be completed." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "Benefit appears confined to PFO-associated or post-closure migraine. In New Zealand, the only licence is cancelled and the package insert data are unavailable, so a safety screen cannot yet be completed." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-clopidogrel-1 -->
 
@@ -138,7 +138,7 @@ There are randomised data for clopidogrel in migraine, but they are a small pilo
 
 <!-- review:begin nz-lic-20261031-clopidogrel-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "A decision on whether to target only migraine patients with a confirmed PFO or right-to-left shunt / Confirmation of the availability of a clopidogrel product in New Zealand, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "A decision on whether to target only migraine patients with a confirmed PFO or right-to-left shunt / Confirmation of the availability of a clopidogrel product in New Zealand, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-clopidogrel-2 -->
 
@@ -150,8 +150,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "In New Zealand, the only licence is cancelled and the package insert data are unavailable, so a safety screen cannot yet be completed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-10-31 | Removed: "Confirmation of the availability of a clopidogrel product in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "In New Zealand, the only licence is cancelled and the package insert data are unavailable, so a safety screen cannot yet be completed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Confirmation of the availability of a clopidogrel product in New Zealand, since the only licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
 
 <!-- review:end log -->

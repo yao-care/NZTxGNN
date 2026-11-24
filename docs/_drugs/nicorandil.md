@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 320
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Nicorandil: predicted new indication benign prostatic hyperplasia (disease) (evidence level L4). Approved use: Chronic stable angina pectoris"
 monitor_inn: "NICORANDIL"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
@@ -116,7 +116,7 @@ The TxGNN score is high (0.9971), but the supporting evidence is limited to one 
 
 <!-- review:begin nz-lic-20261106-nicorandil-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The TxGNN score is high (0.9971), but the supporting evidence is limited to one animal study and two review articles from a single research group, with no human trials. Nicorandil is currently marketed in New Zealand, with 2 valid licences of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The TxGNN score is high (0.9971), but the supporting evidence is limited to one animal study and two review articles from a single research group, with no human trials. Nicorandil is currently marketed in New Zealand, with 2 valid licences of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-nicorandil-1 -->
 
@@ -128,7 +128,7 @@ The TxGNN score is high (0.9971), but the supporting evidence is limited to one 
 
 <!-- review:begin nz-lic-20261106-nicorandil-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A review of the blood pressure effects of nicorandil in older men, who often take other antihypertensive or BPH medications / A regulatory pathway assessment, given that Nicorandil is marketed in New Zealand with 2 valid licences of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A review of the blood pressure effects of nicorandil in older men, who often take other antihypertensive or BPH medications / A regulatory pathway assessment, given that Nicorandil is marketed in New Zealand with 2 valid licences of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-nicorandil-2 -->
 
@@ -140,8 +140,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Nicorandil is currently marketed in New Zealand, with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "A regulatory pathway assessment, given that Nicorandil is marketed in New Zealand with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Nicorandil is currently marketed in New Zealand, with 2 valid licences of 2" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A regulatory pathway assessment, given that Nicorandil is marketed in New Zealand with 2 valid licences of 2" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

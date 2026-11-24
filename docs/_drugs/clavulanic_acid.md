@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 104
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection, bacterial pneumonia…"
 monitor_inn: "clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
@@ -106,7 +106,7 @@ Evidence for the other predictions is minimal. Uterine inflammatory disease has 
 
 <!-- review:begin nz-lic-20261106-clavulanic_acid-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed, and all 3 of 3 licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed, and all 3 of 3 licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-clavulanic_acid-1 -->
 
@@ -150,7 +150,7 @@ Package insert warnings and contraindications have not been retrieved. Please re
 
 <!-- review:begin nz-lic-20261106-clavulanic_acid-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The drug is marketed, with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The drug is marketed, with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-clavulanic_acid-2 -->
 
@@ -169,8 +169,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The drug is marketed, and all 3 of 3 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The drug is marketed, with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed, and all 3 of 3 licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed, with 3 valid licences of 3" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). In New Zealand: 11 Pharmac Schedule items"
 ---
 
@@ -72,7 +72,7 @@ Dexamethasone is marketed in New Zealand. The table lists 5 of them. The local d
 
 <!-- review:begin nz-lic-20261106-dexamethasone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Dexamethasone is marketed in New Zealand. All 8 licences in the local data are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 11 listings for this drug, 11 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Dexamethasone is marketed in New Zealand. All 8 licences in the local data are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-dexamethasone-1 -->
 
@@ -129,7 +129,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 8 licences in the local data are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 8 licences in the local data are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data for dexamethasone is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ozurdex (dexamethasone) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b204f44-6e8a-4d17-803c-268f0b04679f) |
 
 <!-- review:end log -->

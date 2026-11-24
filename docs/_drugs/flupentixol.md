@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 209
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Flupentixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -99,7 +99,7 @@ The prediction has a very high model score but no clinical trials, no publicatio
 
 <!-- review:begin nz-lic-20261106-flupentixol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A review of the cancelled New Zealand authorizations, and of the available routes of administration, if development is considered" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A review of the cancelled New Zealand authorizations, and of the available routes of administration, if development is considered" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-flupentixol-1 -->
 
@@ -111,7 +111,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "of the cancelled New Zealand authorizations, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "of the cancelled New Zealand authorizations, and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

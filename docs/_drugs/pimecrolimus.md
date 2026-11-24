@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 367
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PIMECROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). In New Zealand: 1 Pharmac Schedule item"
@@ -142,7 +142,7 @@ Seborrheic dermatitis has a direct randomized Phase 2 trial plus two systematic 
 
 <!-- review:begin nz-lic-20261106-pimecrolimus-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "However, there is no completed Phase 3 evidence, and the New Zealand licence is cancelled, so there is currently no marketed product in New Zealand." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "However, there is no completed Phase 3 evidence, and the New Zealand licence is cancelled, so there is currently no marketed product in New Zealand." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-pimecrolimus-2 -->
 
@@ -154,7 +154,7 @@ Seborrheic dermatitis has a direct randomized Phase 2 trial plus two systematic 
 
 <!-- review:begin nz-lic-20261031-pimecrolimus-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Published results and outcomes for NCT00403559 / Confirmation of a regulatory pathway and product availability in New Zealand, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "Published results and outcomes for NCT00403559 / Confirmation of a regulatory pathway and product availability in New Zealand, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-pimecrolimus-1 -->
 
@@ -166,8 +166,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Confirmation of a regulatory pathway and product availability in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and the New Zealand licence is cancelled, so there is currently no marketed product in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Confirmation of a regulatory pathway and product availability in New Zealand, since the only licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the New Zealand licence is cancelled, so there is currently no marketed product in New Zealand" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06) |
 
 <!-- review:end log -->

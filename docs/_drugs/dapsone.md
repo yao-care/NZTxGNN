@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 134
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Dapsone: predicted new indication Pneumocystosis (evidence level L1). Approved use: Dermatitis herpetiformis, acne, leprosy"
 monitor_inn: "DAPSONE"
 predicted_indications: ["pneumocystosis"]
@@ -64,7 +64,7 @@ Several trials directly compare dapsone with other PCP regimens. The data compil
 
 <!-- review:begin nz-lic-20261106-dapsone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are cancelled, so product availability in New Zealand should be verified." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are cancelled, so product availability in New Zealand should be verified." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-dapsone-1 -->
 
@@ -131,7 +131,7 @@ Four completed Phase 3 trials (700, 400, 290 and 600 participants) evaluate daps
 
 <!-- review:begin nz-lic-20261106-dapsone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand licences are cancelled, and the haematological risks are significant." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand licences are cancelled, and the haematological risks are significant." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-dapsone-2 -->
 
@@ -145,7 +145,7 @@ Four completed Phase 3 trials (700, 400, 290 and 600 participants) evaluate daps
 
 <!-- review:begin nz-lic-20261106-dapsone-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Confirm product availability in New Zealand, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Confirm product availability in New Zealand, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-dapsone-3 -->
 
@@ -157,9 +157,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both authorizations are cancelled, so product availability in New Zealand should be verified" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both authorizations are cancelled, so product availability in New Zealand should be verified" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and t" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c) |
 
 <!-- review:end log -->

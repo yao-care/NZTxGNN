@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 description: "Mepolizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -106,7 +106,7 @@ The prediction rests on a single case report in a hypereosinophilic setting and 
 
 <!-- review:begin nz-lic-20261031-mepolizumab-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "There are no registered trials, and the mechanism does not fit classic immune thrombocytopenia. The only New Zealand licence is cancelled, so there is no marketed product to build on." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "There are no registered trials, and the mechanism does not fit classic immune thrombocytopenia. The only New Zealand licence is cancelled, so there is no marketed product to build on." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-mepolizumab-1 -->
 
@@ -119,7 +119,7 @@ The prediction rests on a single case report in a hypereosinophilic setting and 
 
 <!-- review:begin nz-lic-20261106-mepolizumab-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Confirmation of current New Zealand availability, given the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of current New Zealand availability, given the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-mepolizumab-2 -->
 
@@ -131,8 +131,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, so there is no marketed product to build on" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "given the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, so there is no marketed product to build on" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "given the cancelled licence" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea) |
 
 <!-- review:end log -->

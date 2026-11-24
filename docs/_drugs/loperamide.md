@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "conjunctival folliculosis", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "Angelucci syndrome"]
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -121,7 +121,7 @@ The top prediction has no clinical trials, no literature, and no plausible mecha
 
 <!-- review:begin nz-lic-20261106-loperamide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Assessment of route compatibility, since no ocular formulation is available / Current New Zealand regulatory status, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Assessment of route compatibility, since no ocular formulation is available / Current New Zealand regulatory status, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-loperamide-1 -->
 
@@ -133,7 +133,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Current New Zealand regulatory status, since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Current New Zealand regulatory status, since both licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: loperamide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3310a3c2-389a-4b27-a478-67c905789854) |
 
 <!-- review:end log -->

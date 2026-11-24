@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In New Zealand: 6 Pharmac Schedule items"
@@ -90,7 +90,7 @@ No literature was available for the other nine top-ranked predictions.
 
 <!-- review:begin nz-lic-20261106-quetiapine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All six licences are valid, and no approved indication text is recorded for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All six licences are valid, and no approved indication text is recorded for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-quetiapine-1 -->
 
@@ -133,7 +133,7 @@ The top-ranked prediction, retinal dystrophy, and the other no-evidence predicti
 
 <!-- review:begin nz-lic-20261106-quetiapine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "It is best treated as a research question rather than a candidate for action. In New Zealand, quetiapine is marketed, with all six licences valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "It is best treated as a research question rather than a candidate for action. In New Zealand, quetiapine is marketed, with all six licences valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-quetiapine-2 -->
 
@@ -151,8 +151,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All six licences are valid, and no approved indication text is recorded for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "In New Zealand, quetiapine is marketed, with all six licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All six licences are valid, and no approved indication text is recorded for them" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In New Zealand, quetiapine is marketed, with all six licences valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
 
 <!-- review:end log -->

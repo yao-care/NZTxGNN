@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). In New Zealand: 5 Pharmac Schedule items"
@@ -104,7 +104,7 @@ The prediction has no supporting clinical trials or publications (evidence level
 
 <!-- review:begin nz-lic-20261106-pioglitazone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The prediction has no supporting clinical trials or publications (evidence level L5), the mechanistic link to opsismodysplasia is speculative, and pioglitazone is marketed in New Zealand with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The prediction has no supporting clinical trials or publications (evidence level L5), the mechanistic link to opsismodysplasia is speculative, and pioglitazone is marketed in New Zealand with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-pioglitazone-2 -->
 
@@ -116,7 +116,7 @@ The prediction has no supporting clinical trials or publications (evidence level
 
 <!-- review:begin nz-lic-20261106-pioglitazone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Review of the knowledge-graph contraindications (heart failure, liver and kidney disease) against the likely paediatric target population / Clarification of the regulatory pathway given the cancelled New Zealand licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Review of the knowledge-graph contraindications (heart failure, liver and kidney disease) against the likely paediatric target population / Clarification of the regulatory pathway given the cancelled New Zealand licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-pioglitazone-1 -->
 
@@ -128,8 +128,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Clarification of the regulatory pathway given the cancelled New Zealand licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and pioglitazone is marketed in New Zealand with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the regulatory pathway given the cancelled New Zealand licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and pioglitazone is marketed in New Zealand with 3 valid licences of 3" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
 
 <!-- review:end log -->

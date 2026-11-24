@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -135,7 +135,7 @@ The prediction rests on a high model score, but no study shows that metocloprami
 
 <!-- review:begin nz-lic-20261106-metoclopramide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the knowledge graph contraindication for active peptic ulcer disease / Confirmation of whether any metoclopramide product is currently marketed in New Zealand, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the knowledge graph contraindication for active peptic ulcer disease / Confirmation of whether any metoclopramide product is currently marketed in New Zealand, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-metoclopramide-1 -->
 
@@ -147,7 +147,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Confirmation of whether any metoclopramide product is currently marketed in New Zealand, since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of whether any metoclopramide product is currently marketed in New Zealand, since both licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
 
 <!-- review:end log -->

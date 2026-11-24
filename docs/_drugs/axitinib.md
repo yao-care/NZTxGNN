@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Axitinib: predicted new indication liposarcoma (evidence level L4). In New Zealand: 2 Pharmac Schedule items"
 ---
 
@@ -74,7 +74,7 @@ Currently no related clinical trials registered.
 
 <!-- review:begin nz-lic-20261106-axitinib-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Local records show axitinib as marketed in New Zealand. The detailed licence table is generated separately by the site program." Removed: its description of the New Zealand products did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Local records show axitinib as marketed in New Zealand. The detailed licence table is generated separately by the site program." Removed: its description of the New Zealand products did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-axitinib-1 -->
 
@@ -129,7 +129,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Local records show axitinib as marketed in New Zealand. The detailed licence table is generated separately by the site program" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Local records show axitinib as marketed in New Zealand. The detailed licence table is generated separately by the site program" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "DOXYCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -96,7 +96,7 @@ For reference, the strongest literature belongs to **chronic gingivitis** (mostl
 
 <!-- review:begin nz-lic-20261106-doxycycline-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Doxycycline is marketed in New Zealand, with 1 valid licence out of 1 in the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Doxycycline is marketed in New Zealand, with 1 valid licence out of 1 in the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-doxycycline-1 -->
 
@@ -158,7 +158,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Doxycycline is marketed in New Zealand, with 1 valid licence out of 1 in the data compiled for this report" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Doxycycline is marketed in New Zealand, with 1 valid licence out of 1 in the data compiled for this report" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
 
 <!-- review:end log -->

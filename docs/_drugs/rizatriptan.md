@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "RIZATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -115,7 +115,7 @@ The prediction rests on model output and class pharmacology alone, with no trial
 
 <!-- review:begin nz-lic-20261106-rizatriptan-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Triptans carry a long-standing caution in brainstem aura and hemiplegic migraine because of posterior-circulation vasoconstriction. The only New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Triptans carry a long-standing caution in brainstem aura and hemiplegic migraine because of posterior-circulation vasoconstriction. The only New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-rizatriptan-1 -->
 
@@ -133,7 +133,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The only New Zealand authorization has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rizatriptan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f000d96c-42a0-4aac-96ca-8cef289979ce) |
 
 <!-- review:end log -->

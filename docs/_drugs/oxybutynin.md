@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "OXYBUTYNIN"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -112,7 +112,7 @@ The predictions rest on model scores alone (L5 for restless legs syndrome and ga
 
 <!-- review:begin nz-lic-20261031-oxybutynin-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The predictions rest on model scores alone (L5 for restless legs syndrome and gastroduodenitis, L4 for peptic ulcer disease), with no trials and no supporting modern literature. The mechanistic link is weak or unverifiable, there is a documented reflux safety signal for upper GI use, and the only New Zealand licence is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The predictions rest on model scores alone (L5 for restless legs syndrome and gastroduodenitis, L4 for peptic ulcer disease), with no trials and no supporting modern literature. The mechanistic link is weak or unverifiable, there is a documented reflux safety signal for upper GI use, and the only New Zealand licence is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-oxybutynin-1 -->
 
@@ -124,7 +124,7 @@ The predictions rest on model scores alone (L5 for restless legs syndrome and ga
 
 <!-- review:begin nz-lic-20261031-oxybutynin-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "A literature search for anticholinergic or antimuscarinic effects in restless legs syndrome, including sleep-related adverse effects / Confirmation of current regulatory and supply status in New Zealand, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "A literature search for anticholinergic or antimuscarinic effects in restless legs syndrome, including sleep-related adverse effects / Confirmation of current regulatory and supply status in New Zealand, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-oxybutynin-2 -->
 
@@ -136,8 +136,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The mechanistic link is weak or unverifiable, there is a documented reflux safety signal for upper GI use, and the only New Zealand licence " | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-10-31 | Removed: "Confirmation of current regulatory and supply status in New Zealand, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The mechanistic link is weak or unverifiable, there is a documented reflux safety signal for upper GI use, and the only New Zealand licence " | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Confirmation of current regulatory and supply status in New Zealand, since the only licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
 
 <!-- review:end log -->

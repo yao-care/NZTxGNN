@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caffeine: predicted new indication nasal cavity disease (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
@@ -90,7 +90,7 @@ Caffeine is marketed in New Zealand. Its approved indication text is not recorde
 
 <!-- review:begin nz-lic-20261106-caffeine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Caffeine is marketed in New Zealand. The only licence on record is an oral liquid (20 mg per ml) product, Biomed (licence 461253)." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Caffeine is marketed in New Zealand. The only licence on record is an oral liquid (20 mg per ml) product, Biomed (licence 461253)." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-caffeine-1 -->
 
@@ -121,7 +121,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The only licence on record is an oral liquid (20 mg per ml) product, Biomed (licence 461253)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The only licence on record is an oral liquid (20 mg per ml) product, Biomed (licence 461253)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "The mechanism-of-action field itself is not recorded in the data compiled for this report, so this description relies on the receptor-binding data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
 
 <!-- review:end log -->

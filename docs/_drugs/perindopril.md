@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In New Zealand: 6 Pharmac Schedule items"
@@ -110,7 +110,7 @@ The prediction is mechanistically plausible but rests on a computational score a
 
 <!-- review:begin nz-lic-20261106-perindopril-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials, the single retrieved publication is not about perindopril, and the drug is marketed in New Zealand with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials, the single retrieved publication is not about perindopril, and the drug is marketed in New Zealand with 3 valid licences of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-perindopril-1 -->
 
@@ -128,7 +128,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "and the drug is marketed in New Zealand with 3 valid licences of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the drug is marketed in New Zealand with 3 valid licences of 3" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 310
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). In New Zealand: 5 Pharmac Schedule items"
@@ -64,7 +64,7 @@ Bronchitis is a broad term, and the evidence differs by subtype. The data for in
 
 <!-- review:begin nz-lic-20261106-montelukast-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three single-ingredient licences are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All three single-ingredient licences are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-montelukast-1 -->
 
@@ -150,7 +150,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All three single-ingredient licences are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three single-ingredient licences are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 349
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
 description: "Papaverine: predicted new indication Ischemic disease (evidence level L4). In New Zealand: 1 Pharmac Schedule item"
@@ -112,7 +112,7 @@ The TxGNN score is very high (0.9991), and the vasodilator mechanism is plausibl
 
 <!-- review:begin nz-lic-20261106-papaverine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "However, there is no randomized evidence for treating ischemic disease, the only registered trial is an observational diagnostic registry, and the product's New Zealand licence has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "However, there is no randomized evidence for treating ischemic disease, the only registered trial is an observational diagnostic registry, and the product's New Zealand licence has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-papaverine-2 -->
 
@@ -124,7 +124,7 @@ The TxGNN score is very high (0.9991), and the vasodilator mechanism is plausibl
 
 <!-- review:begin nz-lic-20261106-papaverine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Controlled clinical evidence of efficacy in that target condition / A route and formulation plan, since the only New Zealand licence was for an injection and has been cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Controlled clinical evidence of efficacy in that target condition / A route and formulation plan, since the only New Zealand licence was for an injection and has been cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-papaverine-1 -->
 
@@ -136,8 +136,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "A route and formulation plan, since the only New Zealand licence was for an injection and has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and the product's New Zealand licence has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A route and formulation plan, since the only New Zealand licence was for an injection and has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the product's New Zealand licence has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data from DrugBank is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e) |
 
 <!-- review:end log -->

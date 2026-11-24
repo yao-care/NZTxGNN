@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Aflibercept: predicted new indication esotropia (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
@@ -71,7 +71,7 @@ Currently no related literature available.
 
 <!-- review:begin nz-lic-20261106-aflibercept-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The local records list one licence for this product." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The local records list one licence for this product." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-aflibercept-1 -->
 
@@ -115,7 +115,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The local records list one licence for this product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The local records list one licence for this product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
 
 <!-- review:end log -->

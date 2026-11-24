@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 342
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). In New Zealand: 5 Pharmac Schedule items"
@@ -69,7 +69,7 @@ Other mesothelioma-related predictions have weaker support:
 
 <!-- review:begin nz-lic-20261106-oxaliplatin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "5 of 5 licences are valid in this country, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "5 of 5 licences are valid in this country, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-oxaliplatin-1 -->
 
@@ -138,7 +138,7 @@ Evidence for pleural mesothelioma is limited to small, single-arm Phase 2 studie
 
 <!-- review:begin nz-lic-20261106-oxaliplatin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "In New Zealand, all 5 oxaliplatin licences are valid, and the package insert safety review is blocked." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "In New Zealand, all 5 oxaliplatin licences are valid, and the package insert safety review is blocked." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-oxaliplatin-2 -->
 
@@ -157,8 +157,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "5 of 5 licences are valid in this country, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "all 5 oxaliplatin licences are valid, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "5 of 5 licences are valid in this country, and no approved indication text is available" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "all 5 oxaliplatin licences are valid, and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
 
 <!-- review:end log -->

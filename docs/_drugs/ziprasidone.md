@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "ZIPRASIDONE"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
@@ -76,7 +76,7 @@ Currently no related literature available.
 
 <!-- review:begin nz-lic-20261106-ziprasidone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All four licences are single-ingredient ziprasidone products and all are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are single-ingredient ziprasidone products and all are currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ziprasidone-1 -->
 
@@ -135,7 +135,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All four licences are single-ingredient ziprasidone products and all are currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All four licences are single-ingredient ziprasidone products and all are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data for ziprasidone are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ziprasidone Mesylate 20 Mg/Ml (ziprasidone mesylate) prescribing information, Armas Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5c27f0f-4e45-4bca-bb9a-2d3f1c243348) |
 
 <!-- review:end log -->

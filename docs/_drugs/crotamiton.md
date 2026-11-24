@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -75,7 +75,7 @@ The Evidence Pack for Crotamiton (DB00265) is incomplete — no TxGNN-predicted 
 
 <!-- review:begin nz-lic-20261106-crotamiton-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The Evidence Pack for Crotamiton (DB00265) is incomplete — no TxGNN-predicted indications were returned, no MOA data is available, the drug is not registered in New Zealand, and all safety fields are empty." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The Evidence Pack for Crotamiton (DB00265) is incomplete — no TxGNN-predicted indications were returned, no MOA data is available, the drug is not registered in New Zealand, and all safety fields are empty." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-crotamiton-1 -->
 
@@ -95,7 +95,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "the drug is not registered in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the drug is not registered in New Zealand" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

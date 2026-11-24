@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Docusate: predicted new indication Plummer-Vinson syndrome (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
@@ -110,7 +110,7 @@ No trial or publication studies docusate in Plummer-Vinson syndrome. Docusate ha
 
 <!-- review:begin nz-lic-20261106-docusate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from Medsafe / Clarification of the local licence status, since the data compiled for this report show conflicting counts of valid and cancelled licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from Medsafe / Clarification of the local licence status, since the data compiled for this report show conflicting counts of valid and cancelled licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-docusate-1 -->
 
@@ -122,7 +122,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Clarification of the local licence status, since the data compiled for this report show conflicting counts of valid and cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the local licence status, since the data compiled for this report show conflicting counts of valid and cancelled licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
 
 <!-- review:end log -->

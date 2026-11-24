@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Amorolfine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Onychomycosis (fungal nail infection)…"
 monitor_inn: "AMOROLFINE"
 predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "sacrum chordoma", "lymph node palisaded myofibroblastoma", "urethral disease"]
@@ -96,7 +96,7 @@ The prediction rests only on a TxGNN model (deep learning) score, which may refl
 
 <!-- review:begin nz-lic-20261106-amorolfine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials, no literature and no plausible mechanistic link between a topical ergosterol-synthesis inhibitor and drug-induced osteoporosis. The drug is marketed in New Zealand, and its only licence is valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials, no literature and no plausible mechanistic link between a topical ergosterol-synthesis inhibitor and drug-induced osteoporosis. The drug is marketed in New Zealand, and its only licence is valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-amorolfine-1 -->
 
@@ -115,7 +115,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The drug is marketed in New Zealand, and its only licence is valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, and its only licence is valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

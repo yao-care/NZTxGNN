@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -79,7 +79,7 @@ Currently no related literature available.
 
 <!-- review:begin nz-lic-20261106-ibuprofen-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are valid, so valid ibuprofen products are currently registered and marketed in the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are valid, so valid ibuprofen products are currently registered and marketed in the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ibuprofen-1 -->
 
@@ -136,7 +136,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All three authorizations are valid, so valid ibuprofen products are currently registered and marketed in the data compiled for this report" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three authorizations are valid, so valid ibuprofen products are currently registered and marketed in the data compiled for this report" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ibuprofen prescribing information, NuCare Pharmaceuticals,Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=141b7964-cce6-74e4-e063-6294a90af746) |
 
 <!-- review:end log -->

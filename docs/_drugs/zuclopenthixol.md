@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 487
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Zuclopenthixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Zuclopenthixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -114,7 +114,7 @@ The prediction is supported only by a score from the TxGNN model (deep learning)
 
 <!-- review:begin nz-lic-20261106-zuclopenthixol-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials or publications, no plausible mechanism, and a theoretical safety concern (retinal toxicity). The drug is marketed in New Zealand, and its only licence is valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials or publications, no plausible mechanism, and a theoretical safety concern (retinal toxicity). The drug is marketed in New Zealand, and its only licence is valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-zuclopenthixol-2 -->
 
@@ -127,7 +127,7 @@ The prediction is supported only by a score from the TxGNN model (deep learning)
 
 <!-- review:begin nz-lic-20261031-zuclopenthixol-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Assessment of route and formulation suitability for retinal indications / Clarification of current New Zealand availability, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "Assessment of route and formulation suitability for retinal indications / Clarification of current New Zealand availability, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-zuclopenthixol-1 -->
 
@@ -139,8 +139,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Clarification of current New Zealand availability, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The drug is marketed in New Zealand, and its only licence is valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Clarification of current New Zealand availability, since the only licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, and its only licence is valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

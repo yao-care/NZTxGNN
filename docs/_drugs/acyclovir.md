@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 20
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Acyclovir: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -81,7 +81,7 @@ The two publications for punctate epithelial keratoconjunctivitis (PMIDs 2193422
 
 <!-- review:begin nz-lic-20261106-acyclovir-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 4 licences are valid (4 of 4), and no indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All 4 licences are valid (4 of 4), and no indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-acyclovir-1 -->
 
@@ -128,7 +128,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 
 <!-- review:begin nz-lic-20261106-acyclovir-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Common wart is the best-supported direction (L2): one Phase 2/3 trial and several randomized comparisons, but the trials are small, mostly single-centre, use active comparators rather than placebo, and the mechanism is uncertain. / The drug is marketed in this country, with 4 valid licences out of 4." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Common wart is the best-supported direction (L2): one Phase 2/3 trial and several randomized comparisons, but the trials are small, mostly single-centre, use active comparators rather than placebo, and the mechanism is uncertain. / The drug is marketed in this country, with 4 valid licences out of 4." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-acyclovir-2 -->
 
@@ -147,8 +147,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 4 licences are valid (4 of 4), and no indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The drug is marketed in this country, with 4 valid licences out of 4" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 4 licences are valid (4 of 4), and no indication text is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in this country, with 4 valid licences out of 4" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
 
 <!-- review:end log -->

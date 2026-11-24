@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "SULFASALAZINE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine: predicted new indication Top-ranked: brachydactyly-syndactyly syndrome . Best-supported: osteoarthritis (brachydactyly-syndactyly syndrome) (evidence level L5). Approved use: Not recor…"
@@ -91,7 +91,7 @@ Several other retrieved papers cover general rheumatology topics (telemedicine, 
 
 <!-- review:begin nz-lic-20261106-sulfasalazine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand licences are cancelled, and no approved indication text is recorded for either." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand licences are cancelled, and no approved indication text is recorded for either." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-sulfasalazine-1 -->
 
@@ -129,7 +129,7 @@ The package insert warnings and contraindications could not be retrieved, so ple
 
 <!-- review:begin nz-lic-20261106-sulfasalazine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand licences are cancelled, and label safety data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand licences are cancelled, and label safety data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-sulfasalazine-2 -->
 
@@ -147,8 +147,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and no approved indication text is recorded for either" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and l" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and no approved indication text is recorded for either" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both New Zealand licences are cancelled, and l" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Azulfidine En-Tabs (sulfasalazine) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b9ef541a-93c8-4428-ba45-398aa0b327d1) |
 
 <!-- review:end log -->

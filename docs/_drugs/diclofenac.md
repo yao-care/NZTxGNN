@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In New Zealand: 11 Pharmac Schedule items"
 ---
 
@@ -94,7 +94,7 @@ Brands and products include Voltaren, Voltaren D, Voltaren SR, Diclofenac Sandoz
 
 <!-- review:begin nz-lic-20261106-diclofenac-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Local records show 11 licences for single-ingredient diclofenac products, in several dosage forms: suppositories (12.5, 25, 50 and 100 mg), dispersible tablets, enteric-coated tablets, long-acting tablets, injection and single-dose eye drops. Brands and products include Voltaren, Voltaren D, Voltaren SR, Diclofenac Sandoz and Diclofenac Devatis." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 11 listings for this drug, 11 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Local records show 11 licences for single-ingredient diclofenac products, in several dosage forms: suppositories (12.5, 25, 50 and 100 mg), dispersible tablets, enteric-coated tablets, long-acting tablets, injection and single-dose eye drops. Brands and products include Voltaren, Voltaren D, Voltaren SR, Diclofenac Sandoz and Diclofenac Devatis." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-diclofenac-1 -->
 
@@ -125,7 +125,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Local records show 11 licences for single-ingredient diclofenac products, in several dosage forms: suppositories (12.5, 25, 50 and 100 mg), " | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Local records show 11 licences for single-ingredient diclofenac products, in several dosage forms: suppositories (12.5, 25, 50 and 100 mg), " | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data for diclofenac are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10991fe6-fafd-49af-9684-83b447c19c67) |
 
 <!-- review:end log -->

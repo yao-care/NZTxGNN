@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Fluorescein: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not available"
 monitor_inn: "fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -43,7 +43,7 @@ The TxGNN model (deep learning) ranks **Prinzmetal angina** as its top predictio
 
 <!-- review:begin nz-lic-20261106-fluorescein-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Fluorescein is a fluorescent dye used mainly as a diagnostic agent, for example in angiography and corneal staining. The only New Zealand licence on record for it is cancelled, and no approved indication text is available." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Fluorescein is a fluorescent dye used mainly as a diagnostic agent, for example in angiography and corneal staining. The only New Zealand licence on record for it is cancelled, and no approved indication text is available." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fluorescein-2 -->
 
@@ -107,7 +107,7 @@ The prediction rests only on a model score. There are no clinical trials or publ
 
 <!-- review:begin nz-lic-20261031-fluorescein-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "There are no clinical trials or publications for Prinzmetal angina and no plausible mechanism. Fluorescein is a diagnostic dye, and its only New Zealand licence is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "There are no clinical trials or publications for Prinzmetal angina and no plausible mechanism. Fluorescein is a diagnostic dye, and its only New Zealand licence is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-fluorescein-1 -->
 
@@ -119,7 +119,7 @@ The prediction rests only on a model score. There are no clinical trials or publ
 
 <!-- review:begin nz-lic-20261106-fluorescein-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original approved indication and the status of the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original approved indication and the status of the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fluorescein-3 -->
 
@@ -131,9 +131,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Fluorescein is a diagnostic dye, and its only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The only New Zealand licence on record for it is cancelled, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and the status of the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Fluorescein is a diagnostic dye, and its only New Zealand licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The only New Zealand licence on record for it is cancelled, and no approved indication text is available" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the status of the cancelled licence" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0) |
 
 <!-- review:end log -->

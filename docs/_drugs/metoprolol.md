@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, acute coronary syndrome, myocardial infarction"
 ---
 
@@ -87,7 +87,7 @@ At least the following authorisations are listed, all single-ingredient products
 
 <!-- review:begin nz-lic-20261106-metoprolol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Four further licences (Myloc CR long-acting tablets at 23.75, 47.5, 95 and 190 mg) are also valid, bringing the total to 9." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Four further licences (Myloc CR long-acting tablets at 23.75, 47.5, 95 and 190 mg) are also valid, bringing the total to 9." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-metoprolol-1 -->
 
@@ -137,7 +137,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Four further licences (Myloc CR long-acting tablets at 23.75, 47.5, 95 and 190 mg) are also valid, bringing the total to 9" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Four further licences (Myloc CR long-acting tablets at 23.75, 47.5, 95 and 190 mg) are also valid, bringing the total to 9" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lopressor (metoprolol tartrate) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0283bc9d-6998-493a-824a-d4c85f704111) |
 
 <!-- review:end log -->

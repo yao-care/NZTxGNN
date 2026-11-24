@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 52
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Atropine: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -72,7 +72,7 @@ Of the retrieved publications, only some are relevant. None tests atropine as a 
 
 <!-- review:begin nz-lic-20261106-atropine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Three licences are valid (3 of 3), but no approved indication text is recorded for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Three licences are valid (3 of 3), but no approved indication text is recorded for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-atropine-1 -->
 
@@ -118,7 +118,7 @@ The only support for atropine in migraine is a computational prediction plus ind
 
 <!-- review:begin nz-lic-20261106-atropine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three New Zealand licences are valid, and the anticholinergic side-effect and interaction burden is substantial for a chronic indication." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All three New Zealand licences are valid, and the anticholinergic side-effect and interaction burden is substantial for a chronic indication." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-atropine-2 -->
 
@@ -137,8 +137,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Three licences are valid (3 of 3), but no approved indication text is recorded for any of them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "All three New Zealand licences are valid, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Three licences are valid (3 of 3), but no approved indication text is recorded for any of them" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three New Zealand licences are valid, and t" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7) |
 
 <!-- review:end log -->

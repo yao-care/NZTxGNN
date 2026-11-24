@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: predicted new indication Top-ranked prediction: psychogenic movement disorders. Best-supported candidate: chronic tic disorder (psychogenic move… (evidence level L5). Approved use: Not rec…"
@@ -129,7 +129,7 @@ Please refer to the package insert for full safety information.
 
 <!-- review:begin nz-lic-20261106-donepezil-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Movement-disorder predictions also carry a conflicting safety signal. / Both New Zealand licences are cancelled, so there is currently no marketed product in the country." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Movement-disorder predictions also carry a conflicting safety signal. / Both New Zealand licences are cancelled, so there is currently no marketed product in the country." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-donepezil-1 -->
 
@@ -142,7 +142,7 @@ Please refer to the package insert for full safety information.
 
 <!-- review:begin nz-lic-20261106-donepezil-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since the existing licences are cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since the existing licences are cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-donepezil-2 -->
 
@@ -154,8 +154,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both New Zealand licences are cancelled, so there is currently no marketed product in the country" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since the existing licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both New Zealand licences are cancelled, so there is currently no marketed product in the country" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since the existing licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975) |
 
 <!-- review:end log -->

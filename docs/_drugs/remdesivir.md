@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
 description: "Remdesivir: predicted new indication Multiple endocrine neoplasia (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -44,7 +44,7 @@ The second-ranked prediction, **HIV infectious disease**, has **1 clinical trial
 
 <!-- review:begin nz-lic-20261106-remdesivir-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Remdesivir is a nucleotide analog antiviral. The New Zealand licence record compiled for this report does not state an approved indication." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Remdesivir is a nucleotide analog antiviral. The New Zealand licence record compiled for this report does not state an approved indication." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-remdesivir-2 -->
 
@@ -132,7 +132,7 @@ The top prediction, multiple endocrine neoplasia, rests solely on a TxGNN model 
 
 <!-- review:begin nz-lic-20261031-remdesivir-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The only prediction with any retrieved evidence (HIV) is supported by material that concerns COVID-19, not HIV. Remdesivir's only New Zealand licence is cancelled, and label safety information could not be obtained." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The only prediction with any retrieved evidence (HIV) is supported by material that concerns COVID-19, not HIV. Remdesivir's only New Zealand licence is cancelled, and label safety information could not be obtained." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-remdesivir-1 -->
 
@@ -144,7 +144,7 @@ The top prediction, multiple endocrine neoplasia, rests solely on a TxGNN model 
 
 <!-- review:begin nz-lic-20261106-remdesivir-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled licence status and the current availability of remdesivir in New Zealand" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled licence status and the current availability of remdesivir in New Zealand" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-remdesivir-3 -->
 
@@ -156,9 +156,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Remdesivir's only New Zealand licence is cancelled, and label safety information could not be obtained" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The New Zealand licence record compiled for this report does not state an approved indication" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "the cancelled licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Remdesivir's only New Zealand licence is cancelled, and label safety information could not be obtained" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The New Zealand licence record compiled for this report does not state an approved indication" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled licence status and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
 
 <!-- review:end log -->

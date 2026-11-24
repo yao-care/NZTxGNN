@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 173
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L3). In New Zealand: 2 Pharmac Schedule items"
@@ -110,7 +110,7 @@ Evidence for HIV is limited to case reports, a small case series, reviews and an
 
 <!-- review:begin nz-lic-20261106-eltrombopag-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "In New Zealand, both eltrombopag licences are cancelled, and the label safety data needed for screening are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "In New Zealand, both eltrombopag licences are cancelled, and the label safety data needed for screening are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-eltrombopag-1 -->
 
@@ -130,7 +130,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "both eltrombopag licences are cancelled, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "both eltrombopag licences are cancelled, and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46) |
 
 <!-- review:end log -->

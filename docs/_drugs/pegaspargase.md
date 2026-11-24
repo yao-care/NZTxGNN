@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: predicted new indication Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -67,7 +67,7 @@ The table lists the 10 most relevant trials (the data contain 33 in total). In a
 
 <!-- review:begin nz-lic-20261031-pegaspargase-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The only New Zealand licence has been cancelled, so product availability would need to be verified before any use." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The only New Zealand licence has been cancelled, so product availability would need to be verified before any use." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-pegaspargase-1 -->
 
@@ -148,7 +148,7 @@ The predicted indication is effectively the drug's original use, and it is backe
 
 <!-- review:begin nz-lic-20261031-pegaspargase-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Detailed mechanism-of-action data from DrugBank / Confirmation of product availability in New Zealand, since only a cancelled licence exists" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "Detailed mechanism-of-action data from DrugBank / Confirmation of product availability in New Zealand, since only a cancelled licence exists" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-pegaspargase-2 -->
 
@@ -162,8 +162,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only New Zealand licence has been cancelled, so product availability would need to be verified before any use" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-10-31 | Removed: "Confirmation of product availability in New Zealand, since only a cancelled licence exists" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand licence has been cancelled, so product availability would need to be verified before any use" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Confirmation of product availability in New Zealand, since only a cancelled licence exists" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The main limits are that its individual contribution cannot be separated from the combinations, and that the New Zealand licence is cancelle" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce) |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -43,7 +43,7 @@ This is essentially an established, on-label use of the drug rather than true re
 
 <!-- review:begin nz-lic-20261106-insulin_degludec-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "This is essentially an established, on-label use of the drug rather than true repurposing, and the only New Zealand authorization on record is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "This is essentially an established, on-label use of the drug rather than true repurposing, and the only New Zealand authorization on record is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-insulin_degludec-1 -->
 
@@ -149,7 +149,7 @@ Multiple completed Phase 3 randomised trials and several systematic reviews supp
 
 <!-- review:begin nz-lic-20261106-insulin_degludec-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "However, this is an established use rather than new repurposing, and the only New Zealand authorization for the Ryzodeg product is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "However, this is an established use rather than new repurposing, and the only New Zealand authorization for the Ryzodeg product is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-insulin_degludec-2 -->
 
@@ -162,7 +162,7 @@ Multiple completed Phase 3 randomised trials and several systematic reviews supp
 
 <!-- review:begin nz-lic-20261106-insulin_degludec-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Confirmation of the current New Zealand regulatory pathway, since the Ryzodeg licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of the current New Zealand regulatory pathway, since the Ryzodeg licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-insulin_degludec-3 -->
 
@@ -174,9 +174,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "and the only New Zealand authorization on record is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and the only New Zealand authorization for the Ryzodeg product is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since the Ryzodeg licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the only New Zealand authorization on record is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the only New Zealand authorization for the Ryzodeg product is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since the Ryzodeg licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
 
 <!-- review:end log -->

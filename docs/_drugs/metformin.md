@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). In New Zealand: 8 Pharmac Schedule items"
@@ -87,7 +87,7 @@ No approved indication text is recorded for either.
 
 <!-- review:begin nz-lic-20261106-metformin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are cancelled. No approved indication text is recorded for either." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are cancelled. No approved indication text is recorded for either." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-metformin-1 -->
 
@@ -144,7 +144,7 @@ The prediction rests on a TxGNN model (deep learning) score alone. The identical
 
 <!-- review:begin nz-lic-20261106-metformin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled regulatory status, and of whether other metformin products are marketed in New Zealand" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled regulatory status, and of whether other metformin products are marketed in New Zealand" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-metformin-2 -->
 
@@ -156,8 +156,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both authorisations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "of the cancelled regulatory status, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both authorisations are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "of the cancelled regulatory status, and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metformin Hydrochloride Extended Release (metformin hydrochloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14f3091c-f243-4364-b433-727c7d4ef8d5) |
 
 <!-- review:end log -->

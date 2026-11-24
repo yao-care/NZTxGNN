@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Saccharin: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded"
 monitor_inn: "saccharin"
 drugbank_id: DB12418
@@ -97,7 +97,7 @@ The prediction rests only on a model score, with no clinical trials, no literatu
 
 <!-- review:begin nz-lic-20261106-saccharin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Saccharin's products are also cancelled in New Zealand, and the predicted disease term is obsolete." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Saccharin's products are also cancelled in New Zealand, and the predicted disease term is obsolete." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-saccharin-1 -->
 
@@ -116,7 +116,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Saccharin's products are also cancelled in New Zealand, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Saccharin's products are also cancelled in New Zealand, and t" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 412
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). In New Zealand: 4 Pharmac Schedule items"
@@ -119,7 +119,7 @@ The TxGNN score is very high and a recent randomized trial exists, but there are
 
 <!-- review:begin nz-lic-20261106-ropinirole-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Review of the regulatory pathway; the drug is marketed, and all four New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Review of the regulatory pathway; the drug is marketed, and all four New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ropinirole-1 -->
 
@@ -131,7 +131,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "the drug is marketed, and all four New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the drug is marketed, and all four New Zealand licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
 
 <!-- review:end log -->

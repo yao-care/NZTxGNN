@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Fungal infections (chromomycosis, coccidioidomycosis, aspergillosis…"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -108,7 +108,7 @@ The prediction rests on the model score alone (L5). The only trial found tests a
 
 <!-- review:begin nz-lic-20261106-posaconazole-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Pneumocystis lacks the main azole target, ergosterol, so the high score is probably a class-association artefact. Both New Zealand authorizations are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Pneumocystis lacks the main azole target, ergosterol, so the high score is probably a class-association artefact. Both New Zealand authorizations are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-posaconazole-1 -->
 
@@ -121,7 +121,7 @@ The prediction rests on the model score alone (L5). The only trial found tests a
 
 <!-- review:begin nz-lic-20261106-posaconazole-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of New Zealand availability, since both authorizations are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of New Zealand availability, since both authorizations are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-posaconazole-2 -->
 
@@ -133,8 +133,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both New Zealand authorizations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since both authorizations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both New Zealand authorizations are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both authorizations are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
 
 <!-- review:end log -->

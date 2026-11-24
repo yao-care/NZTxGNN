@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the licence records compiled for this report (rivaroxab…"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -44,7 +44,7 @@ The prediction rests on model output alone (**evidence level L5**).
 
 <!-- review:begin nz-lic-20261106-rivaroxaban-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The licence records compiled for this report do not list an approved indication text, and the drug's established use is in preventing and treating thromboembolic disease." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The licence records compiled for this report do not list an approved indication text, and the drug's established use is in preventing and treating thromboembolic disease." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-rivaroxaban-1 -->
 
@@ -115,7 +115,7 @@ The prediction has the highest model score but no clinical trials and no literat
 
 <!-- review:begin nz-lic-20261106-rivaroxaban-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in New Zealand with all three licences valid, and bleeding-related interactions with common RA co-medications add safety concerns." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in New Zealand with all three licences valid, and bleeding-related interactions with common RA co-medications add safety concerns." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-rivaroxaban-2 -->
 
@@ -128,7 +128,7 @@ The prediction has the highest model score but no clinical trials and no literat
 
 <!-- review:begin nz-lic-20261106-rivaroxaban-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from Medsafe, and the approved indications from the licence records / A review of current New Zealand availability, where all 3 licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from Medsafe, and the approved indications from the licence records / A review of current New Zealand availability, where all 3 licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-rivaroxaban-3 -->
 
@@ -140,9 +140,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "he licence records compiled for this report do not list an approved indication text, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "with all three licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and the approved indications from the licence records , where all 3 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "he licence records compiled for this report do not list an approved indication text, and t" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "with all three licences valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the approved indications from the licence records , where all 3 licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
 
 <!-- review:end log -->

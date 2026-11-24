@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
 description: "Risdiplam: predicted new indication Acne (disease) (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -102,7 +102,7 @@ The only support for this prediction is a high TxGNN score, with no clinical tri
 
 <!-- review:begin nz-lic-20261106-risdiplam-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The drug's New Zealand licence is cancelled, and its preclinical retinal and epithelial toxicity signals are difficult to justify for acne." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The drug's New Zealand licence is cancelled, and its preclinical retinal and epithelial toxicity signals are difficult to justify for acne." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-risdiplam-1 -->
 
@@ -115,7 +115,7 @@ The only support for this prediction is a high TxGNN score, with no clinical tri
 
 <!-- review:begin nz-lic-20261106-risdiplam-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory status of the cancelled licence and of route compatibility (oral versus the topical or systemic routes typically used for acne)" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory status of the cancelled licence and of route compatibility (oral versus the topical or systemic routes typically used for acne)" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-risdiplam-2 -->
 
@@ -127,8 +127,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The drug's New Zealand licence is cancelled, and i" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "of the regulatory status of the cancelled licence and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug's New Zealand licence is cancelled, and i" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "of the regulatory status of the cancelled licence and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 392
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PROPYLTHIOURACIL"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). In New Zealand: 1 Pharmac Schedule item"
@@ -111,7 +111,7 @@ The prediction rests on a model score alone (L4). No clinical trials exist, the 
 
 <!-- review:begin nz-lic-20261031-propylthiouracil-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "No clinical trials exist, the literature consists of mouse models and case reports that do not test PTU, and the mechanism suggests a risk of raising TSH and worsening goitre. The only New Zealand licence is cancelled, and the package insert safety data have not been obtained." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "No clinical trials exist, the literature consists of mouse models and case reports that do not test PTU, and the mechanism suggests a risk of raising TSH and worsening goitre. The only New Zealand licence is cancelled, and the package insert safety data have not been obtained." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-propylthiouracil-1 -->
 
@@ -123,7 +123,7 @@ The prediction rests on a model score alone (L4). No clinical trials exist, the 
 
 <!-- review:begin nz-lic-20261106-propylthiouracil-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A review of the hepatotoxicity risk and of New Zealand supply options; the drug is marketed, with 1 valid licence of 1" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A review of the hepatotoxicity risk and of New Zealand supply options; the drug is marketed, with 1 valid licence of 1" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-propylthiouracil-2 -->
 
@@ -143,8 +143,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the package insert safety data have not been obtained" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "the drug is marketed, with 1 valid licence of 1" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the package insert safety data have not been obtained" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the drug is marketed, with 1 valid licence of 1" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
 
 <!-- review:end log -->

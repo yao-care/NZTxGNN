@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis…"
 monitor_inn: "URSODEOXYCHOLIC ACID"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
@@ -98,7 +98,7 @@ The prediction is supported only by a model score (0.9986), with no clinical tri
 
 <!-- review:begin nz-lic-20261106-ursodeoxycholic_acid-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The mechanism is also biologically questionable in HoFH, where LDL receptor function is largely absent. In addition, the only New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The mechanism is also biologically questionable in HoFH, where LDL receptor function is largely absent. In addition, the only New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ursodeoxycholic_acid-1 -->
 
@@ -110,7 +110,7 @@ The prediction is supported only by a model score (0.9986), with no clinical tri
 
 <!-- review:begin nz-lic-20261106-ursodeoxycholic_acid-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications (currently blocking for safety screening) / Clarification of the regulatory status and available formulations in New Zealand, since the sole licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications (currently blocking for safety screening) / Clarification of the regulatory status and available formulations in New Zealand, since the sole licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ursodeoxycholic_acid-2 -->
 
@@ -122,8 +122,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "In addition, the only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Clarification of the regulatory status and available formulations in New Zealand, since the sole licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, the only New Zealand authorization has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the regulatory status and available formulations in New Zealand, since the sole licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iloprost: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Pulmonary arterial hypertension"
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
@@ -132,7 +132,7 @@ The data compiled for this report show that the best-supported prediction, PAH a
 
 <!-- review:begin nz-lic-20261106-iloprost-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "It also largely falls within the original PAH indication. Iloprost's New Zealand authorizations are both cancelled, so there is no currently marketed product." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "It also largely falls within the original PAH indication. Iloprost's New Zealand authorizations are both cancelled, so there is no currently marketed product." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-iloprost-1 -->
 
@@ -151,7 +151,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Iloprost's New Zealand authorizations are both cancelled, so there is no currently marketed product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Iloprost's New Zealand authorizations are both cancelled, so there is no currently marketed product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
 
 <!-- review:end log -->

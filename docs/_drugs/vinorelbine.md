@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 483
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). In New Zealand: 6 Pharmac Schedule items"
@@ -64,7 +64,7 @@ Preclinical work adds support. Microtubule-interfering drugs, including vinorelb
 
 <!-- review:begin nz-lic-20261106-vinorelbine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All seven licences are valid and no approved indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All seven licences are valid and no approved indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-vinorelbine-1 -->
 
@@ -130,7 +130,7 @@ Ewing sarcoma has the strongest support among the predicted indications. It is b
 
 <!-- review:begin nz-lic-20261106-vinorelbine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "It is backed by completed and ongoing Phase 2 studies and a recent review on the vinorelbine and cyclophosphamide regimen, but the evidence is indirect, mostly from mixed paediatric populations. The drug is marketed in New Zealand, with all 7 licences valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "It is backed by completed and ongoing Phase 2 studies and a recent review on the vinorelbine and cyclophosphamide regimen, but the evidence is indirect, mostly from mixed paediatric populations. The drug is marketed in New Zealand, with all 7 licences valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-vinorelbine-2 -->
 
@@ -148,8 +148,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All seven licences are valid and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with all 7 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All seven licences are valid and no approved indication text is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with all 7 licences valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 376
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L4). In New Zealand: 2 Pharmac Schedule items"
@@ -120,7 +120,7 @@ The prediction score is high, but no trial tests pravastatin in homozygous FH, a
 
 <!-- review:begin nz-lic-20261106-pravastatin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from Medsafe / Clarification of the regulatory status given the cancelled licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from Medsafe / Clarification of the regulatory status given the cancelled licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-pravastatin-1 -->
 
@@ -134,7 +134,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Clarification of the regulatory status given the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the regulatory status given the cancelled licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
 
 <!-- review:end log -->

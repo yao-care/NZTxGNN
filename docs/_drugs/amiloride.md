@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Amiloride: predicted new indication malignant hypertensive renal disease (evidence level L5). In New Zealand: 5 Pharmac Schedule items"
 ---
 
@@ -88,7 +88,7 @@ The available forms are 5 mg tablets and a 1 mg/mL oral liquid.
 
 <!-- review:begin nz-lic-20261106-amiloride-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Amiloride is marketed in New Zealand, with 3 valid licences. The available forms are 5 mg tablets and a 1 mg/mL oral liquid. The licence records carry no indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Amiloride is marketed in New Zealand, with 3 valid licences. The available forms are 5 mg tablets and a 1 mg/mL oral liquid. The licence records carry no indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-amiloride-1 -->
 
@@ -117,7 +117,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Amiloride is marketed in New Zealand, with 3 valid licences. The licence records carry no indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Amiloride is marketed in New Zealand, with 3 valid licences. The licence records carry no indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data for amiloride is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
 
 <!-- review:end log -->

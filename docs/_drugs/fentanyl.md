@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In New Zealand: 7 Pharmac Schedule items"
@@ -44,7 +44,7 @@ This is a model-only prediction (evidence level L5) and the recommendation is **
 
 <!-- review:begin nz-lic-20261106-fentanyl-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Fentanyl is a potent opioid (mu-opioid receptor agonist) that is marketed in New Zealand as transdermal patches and an injectable, with 7 valid licences out of 7." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Fentanyl is a potent opioid (mu-opioid receptor agonist) that is marketed in New Zealand as transdermal patches and an injectable, with 7 valid licences out of 7." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fentanyl-1 -->
 
@@ -80,13 +80,13 @@ Currently no related literature available.
 
 <!-- review:begin nz-lic-20261106-fentanyl-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 7 authorizations below are valid. The license records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All 7 authorizations below are valid. The license records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fentanyl-2 -->
 
 <!-- review:begin nz-lic-20261106-fentanyl-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Two further cancelled authorizations (Boucher and Muir injection, 50 mcg per ml, 2 ml and 10 ml ampoules; 2381176 and 2381168) are not shown in the table above." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Two further cancelled authorizations (Boucher and Muir injection, 50 mcg per ml, 2 ml and 10 ml ampoules; 2381176 and 2381168) are not shown in the table above." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fentanyl-3 -->
 
@@ -136,9 +136,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "with 7 valid licences out of 7" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "All 7 authorizations below are valid. The license records contain no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Two further cancelled authorizations (Boucher and Muir injection, 50 mcg per ml, 2 ml and 10 ml ampoules; 2381176 and 2381168) are not shown" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "with 7 valid licences out of 7" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 7 authorizations below are valid. The license records contain no approved indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Two further cancelled authorizations (Boucher and Muir injection, 50 mcg per ml, 2 ml and 10 ml ampoules; 2381176 and 2381168) are not shown" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
 
 <!-- review:end log -->

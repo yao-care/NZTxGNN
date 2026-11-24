@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "NADOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Nadolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
@@ -93,7 +93,7 @@ The records contain no approved indication text.
 
 <!-- review:begin nz-lic-20261106-nadolol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All four authorizations are valid (4 valid licences of 4). The records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All four authorizations are valid (4 valid licences of 4). The records contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-nadolol-1 -->
 
@@ -144,7 +144,7 @@ All five predictions rest on model scores alone (evidence level L5). The only li
 
 <!-- review:begin nz-lic-20261106-nadolol-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since the drug is marketed and all four New Zealand authorizations are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since the drug is marketed and all four New Zealand authorizations are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-nadolol-2 -->
 
@@ -156,8 +156,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All four authorizations are valid (4 valid licences of 4)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since the drug is marketed and all four New Zealand authorizations are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All four authorizations are valid (4 valid licences of 4)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since the drug is marketed and all four New Zealand authorizations are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nadolol prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f11553f1-18ec-41b0-a7ad-1c9f21ef2c9f) |
 
 <!-- review:end log -->

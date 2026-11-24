@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -107,7 +107,7 @@ The high TxGNN score (0.9946) for bronchitis is not backed by any clinical trial
 
 <!-- review:begin nz-lic-20261106-natalizumab-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Natalizumab's infection and PML risks, together with the cancelled New Zealand authorization, argue against pursuing this indication now." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Natalizumab's infection and PML risks, together with the cancelled New Zealand authorization, argue against pursuing this indication now." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-natalizumab-1 -->
 
@@ -120,7 +120,7 @@ The high TxGNN score (0.9946) for bronchitis is not backed by any clinical trial
 
 <!-- review:begin nz-lic-20261106-natalizumab-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory and supply status in New Zealand, given the cancelled authorization" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory and supply status in New Zealand, given the cancelled authorization" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-natalizumab-2 -->
 
@@ -132,8 +132,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "together with the cancelled New Zealand authorization" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "given the cancelled authorization" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "together with the cancelled New Zealand authorization" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "given the cancelled authorization" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
 
 <!-- review:end log -->

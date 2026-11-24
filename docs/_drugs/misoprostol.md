@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Misoprostol: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the licence data"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -131,7 +131,7 @@ The prediction has no registered trials, and the published studies concern pregn
 
 <!-- review:begin nz-lic-20261031-misoprostol-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "No plausible mechanism links a prostaglandin E1 analogue to restoring menstrual cycles. The only New Zealand licence is cancelled, and the label safety data could not be retrieved." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "No plausible mechanism links a prostaglandin E1 analogue to restoring menstrual cycles. The only New Zealand licence is cancelled, and the label safety data could not be retrieved." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-misoprostol-1 -->
 
@@ -144,7 +144,7 @@ The prediction has no registered trials, and the published studies concern pregn
 
 <!-- review:begin nz-lic-20261106-misoprostol-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original approved indication and the regulatory status of the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original approved indication and the regulatory status of the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-misoprostol-2 -->
 
@@ -156,8 +156,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the label safety data could not be retrieved" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and the regulatory status of the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the label safety data could not be retrieved" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the regulatory status of the cancelled licence" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "LITHIUM CARBONATE"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
 description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -114,7 +114,7 @@ The prediction is supported only by a model score (0.9998), with no clinical tri
 
 <!-- review:begin nz-lic-20261106-lithium_carbonate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Lithium is marketed in New Zealand, with 2 valid licences of 2, and the available safety data are incomplete." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Lithium is marketed in New Zealand, with 2 valid licences of 2, and the available safety data are incomplete." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lithium_carbonate-1 -->
 
@@ -126,7 +126,7 @@ The prediction is supported only by a model score (0.9998), with no clinical tri
 
 <!-- review:begin nz-lic-20261106-lithium_carbonate-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications (a blocking gap for safety screening) / Assessment of the regulatory pathway, given that both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications (a blocking gap for safety screening) / Assessment of the regulatory pathway, given that both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lithium_carbonate-2 -->
 
@@ -138,8 +138,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Assessment of the regulatory pathway, given that both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "with 2 valid licences of 2" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Assessment of the regulatory pathway, given that both New Zealand licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544) |
 
 <!-- review:end log -->

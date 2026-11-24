@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 363
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not documented"
 monitor_inn: "PHENYLALANINE"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -43,7 +43,7 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 
 <!-- review:begin nz-lic-20261031-phenylalanine-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Phenylalanine is an essential amino acid. The data compiled for this report contain no approved indication for it in New Zealand, and its only license has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "Phenylalanine is an essential amino acid. The data compiled for this report contain no approved indication for it in New Zealand, and its only license has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-phenylalanine-1 -->
 
@@ -114,7 +114,7 @@ The prediction rests almost entirely on a model score. No clinical trials exist,
 
 <!-- review:begin nz-lic-20261031-phenylalanine-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "No clinical trials exist, the literature shows only associations with disease symptoms, and no mechanism has been established. The only New Zealand license is cancelled and has no documented indication." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "No clinical trials exist, the literature shows only associations with disease symptoms, and no mechanism has been established. The only New Zealand license is cancelled and has no documented indication." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-phenylalanine-2 -->
 
@@ -126,7 +126,7 @@ The prediction rests almost entirely on a model score. No clinical trials exist,
 
 <!-- review:begin nz-lic-20261106-phenylalanine-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Preclinical or mechanistic studies testing whether phenylalanine or aromatic amino acid modulation affects cholestatic liver disease / Clarification of the original indication and the reason the license was cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Preclinical or mechanistic studies testing whether phenylalanine or aromatic amino acid modulation affects cholestatic liver disease / Clarification of the original indication and the reason the license was cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-phenylalanine-3 -->
 
@@ -138,9 +138,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The data compiled for this report contain no approved indication for it in New Zealand, and its only license has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-10-31 | Removed: "The only New Zealand license is cancelled and has no documented indication" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Clarification of the original indication and the reason the license was cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The data compiled for this report contain no approved indication for it in New Zealand, and its only license has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand license is cancelled and has no documented indication" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the original indication and the reason the license was cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

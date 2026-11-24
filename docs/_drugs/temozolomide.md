@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). In New Zealand: 9 Pharmac Schedule items"
 ---
 
@@ -78,7 +78,7 @@ Only the first report is closely related to the predicted disease. It involves a
 
 <!-- review:begin nz-lic-20261106-temozolomide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There are 8 valid single-ingredient licences in total; the table shows the first 5." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "There are 8 valid single-ingredient licences in total; the table shows the first 5." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-temozolomide-1 -->
 
@@ -139,7 +139,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "There are 8 valid single-ingredient licences in total; the table shows the first 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "There are 8 valid single-ingredient licences in total; the table shows the first 5" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
 
 <!-- review:end log -->

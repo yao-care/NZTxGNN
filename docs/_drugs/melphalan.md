@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -125,7 +125,7 @@ The prediction score is high and one completed Phase 2 trial is directly on-indi
 
 <!-- review:begin nz-lic-20261106-melphalan-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Mechanism-of-action data from DrugBank / A review of why the New Zealand licences were cancelled and whether any product is available for import or special access" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Mechanism-of-action data from DrugBank / A review of why the New Zealand licences were cancelled and whether any product is available for import or special access" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-melphalan-1 -->
 
@@ -137,7 +137,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "A review of why the New Zealand licences were cancelled and whether any product is available for import or special access" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A review of why the New Zealand licences were cancelled and whether any product is available for import or special access" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the general understanding of the drug class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In New Zealand: 7 Pharmac Schedule items"
 ---
 
@@ -84,7 +84,7 @@ Aripiprazole is marketed in New Zealand as oral tablets and long-acting injectab
 
 <!-- review:begin nz-lic-20261106-aripiprazole-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Aripiprazole is marketed in New Zealand as oral tablets and long-acting injectables. The table below shows 5 of the 9 valid licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Aripiprazole is marketed in New Zealand as oral tablets and long-acting injectables. The table below shows 5 of the 9 valid licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-aripiprazole-1 -->
 
@@ -137,7 +137,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The table below shows 5 of the 9 valid licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The table below shows 5 of the 9 valid licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data for aripiprazole is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Opipza (aripiprazole) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b47ede68-8942-4432-af7e-57afc14b2ba4) |
 
 <!-- review:end log -->

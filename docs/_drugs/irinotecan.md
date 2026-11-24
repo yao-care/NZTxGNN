@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 242
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Irinotecan"
 predicted_indications: ["female breast carcinoma"]
 description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). In New Zealand: 5 Pharmac Schedule items"
@@ -63,7 +63,7 @@ Earlier literature describes irinotecan as having only marginal activity in brea
 
 <!-- review:begin nz-lic-20261106-irinotecan-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All five authorizations are valid, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All five authorizations are valid, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-irinotecan-1 -->
 
@@ -138,7 +138,7 @@ The evidence consists of small Phase 1 studies and indirect data from SN-38 anti
 
 <!-- review:begin nz-lic-20261106-irinotecan-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Irinotecan has also been described as having only marginal activity in this disease. The drug is marketed in New Zealand, with all 5 licences valid, but package insert safety data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Irinotecan has also been described as having only marginal activity in this disease. The drug is marketed in New Zealand, with all 5 licences valid, but package insert safety data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-irinotecan-2 -->
 
@@ -155,8 +155,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All five authorizations are valid, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with all 5 licences valid, but package insert safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All five authorizations are valid, and no approved indication text is available" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with all 5 licences valid, but package insert safety data are missing" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
 
 <!-- review:end log -->

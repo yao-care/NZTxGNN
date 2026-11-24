@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 210
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FLUTAMIDE"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Flutamide: predicted new indication Fibroma of prostate (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -162,7 +162,7 @@ The apparent evidence for broader categories mostly reflects flutamide's origina
 
 <!-- review:begin nz-lic-20261106-flutamide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A hepatotoxicity monitoring and risk-benefit plan, and an assessment of whether any regulatory pathway exists given that both licences are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A hepatotoxicity monitoring and risk-benefit plan, and an assessment of whether any regulatory pathway exists given that both licences are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-flutamide-1 -->
 
@@ -174,7 +174,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "given that both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "given that both licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL806 (flutamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL806) |
 
 <!-- review:end log -->

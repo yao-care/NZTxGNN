@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In New Zealand: 8 Pharmac Schedule items"
@@ -115,7 +115,7 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 
 <!-- review:begin nz-lic-20261106-lamivudine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid, and no approved indication text is available." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lamivudine-1 -->
 
@@ -133,7 +133,7 @@ The top prediction is supported only by small veterinary cohort studies and in v
 
 <!-- review:begin nz-lic-20261106-lamivudine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "In New Zealand, all four lamivudine licences are valid, and the safety review is blocked because package insert data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "In New Zealand, all four lamivudine licences are valid, and the safety review is blocked because package insert data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lamivudine-2 -->
 
@@ -145,7 +145,7 @@ The top prediction is supported only by small veterinary cohort studies and in v
 
 <!-- review:begin nz-lic-20261106-lamivudine-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Controlled veterinary trials in FIV-infected cats if the veterinary direction is pursued / Confirmation of the licensing status; all four New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 8 listings for this drug, 8 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Controlled veterinary trials in FIV-infected cats if the veterinary direction is pursued / Confirmation of the licensing status; all four New Zealand licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lamivudine-3 -->
 
@@ -157,9 +157,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All four licences are valid, and no approved indication text is available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "all four lamivudine licences are valid, and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Confirmation of the licensing status; all four New Zealand licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All four licences are valid, and no approved indication text is available" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "all four lamivudine licences are valid, and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of the licensing status; all four New Zealand licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->

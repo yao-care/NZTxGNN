@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 485
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
@@ -169,7 +169,7 @@ Package insert warnings and contraindications are not available in the data comp
 
 <!-- review:begin nz-lic-20261106-zidovudine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Zidovudine is now used within combination regimens, and it is marketed in New Zealand with 2 valid licences out of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Zidovudine is now used within combination regimens, and it is marketed in New Zealand with 2 valid licences out of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-zidovudine-1 -->
 
@@ -182,7 +182,7 @@ Package insert warnings and contraindications are not available in the data comp
 
 <!-- review:begin nz-lic-20261106-zidovudine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Verification of current availability in New Zealand, given the cancelled licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Verification of current availability in New Zealand, given the cancelled licences" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-zidovudine-2 -->
 
@@ -194,8 +194,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "and it is marketed in New Zealand with 2 valid licences out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "given the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and it is marketed in New Zealand with 2 valid licences out of 2" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "given the cancelled licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 
 <!-- review:end log -->

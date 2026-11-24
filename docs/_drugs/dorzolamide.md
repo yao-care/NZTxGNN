@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -104,7 +104,7 @@ The prediction has a very high model score and a plausible IOP-lowering mechanis
 
 <!-- review:begin nz-lic-20261031-dorzolamide-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction has a very high model score and a plausible IOP-lowering mechanism, but no trial or literature evidence supports it (L5). The only New Zealand licence is cancelled, so there is currently no marketed product." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The prediction has a very high model score and a plausible IOP-lowering mechanism, but no trial or literature evidence supports it (L5). The only New Zealand licence is cancelled, so there is currently no marketed product." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-dorzolamide-1 -->
 
@@ -117,7 +117,7 @@ The prediction has a very high model score and a plausible IOP-lowering mechanis
 
 <!-- review:begin nz-lic-20261106-dorzolamide-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of availability, since the licence is cancelled and the only product is a timolol fixed combination" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of availability, since the licence is cancelled and the only product is a timolol fixed combination" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-dorzolamide-3 -->
 
@@ -129,9 +129,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, so there is currently no marketed product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, so there is currently no marketed product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-06 | Removed: "The only New Zealand authorization is a fixed combination with timolol, and it is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "the licence is cancelled and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the licence is cancelled and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
 
 <!-- review:end log -->

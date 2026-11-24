@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "FLUCLOXACILLIN"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). In New Zealand: 7 Pharmac Schedule items"
@@ -68,13 +68,13 @@ Currently no related clinical trials registered.
 
 <!-- review:begin nz-lic-20261106-flucloxacillin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All seven licences are valid. No licence records include approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All seven licences are valid. No licence records include approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-flucloxacillin-1 -->
 
 <!-- review:begin nz-lic-20261106-flucloxacillin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Two further cancelled AFT oral granule licences (2431432 at 50 mg per ml and 2431424 at 25 mg per ml) are also on record." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Two further cancelled AFT oral granule licences (2431432 at 50 mg per ml and 2431424 at 25 mg per ml) are also on record." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-flucloxacillin-2 -->
 
@@ -127,13 +127,13 @@ The prediction rests on a model score and one indirect case report involving a p
 
 <!-- review:begin nz-lic-20261106-flucloxacillin-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Comparison against current standard topical treatments for bacterial conjunctivitis / Clarification of the regulatory pathway, given that all seven licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Comparison against current standard topical treatments for bacterial conjunctivitis / Clarification of the regulatory pathway, given that all seven licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-flucloxacillin-3 -->
 
 <!-- review:begin nz-lic-20261106-flucloxacillin-4 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Evidence on an ophthalmic formulation or route, since only oral and injectable forms were previously licensed" Removed: its description of the New Zealand products did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Evidence on an ophthalmic formulation or route, since only oral and injectable forms were previously licensed" Removed: its description of the New Zealand products did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-flucloxacillin-4 -->
 
@@ -145,10 +145,10 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All seven licences are valid. No licence records include approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Two further cancelled AFT oral granule licences (2431432 at 50 mg per ml and 2431424 at 25 mg per ml) are also on record" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that all seven licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since only oral and injectable forms were previously licensed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All seven licences are valid. No licence records include approved indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Two further cancelled AFT oral granule licences (2431432 at 50 mg per ml and 2431424 at 25 mg per ml) are also on record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that all seven licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since only oral and injectable forms were previously licensed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

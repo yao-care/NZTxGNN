@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 250
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "KETAMINE"
 predicted_indications: ["headache disorder"]
 description: "Ketamine: predicted new indication Headache disorder (evidence level L1). In New Zealand: 1 Pharmac Schedule item"
@@ -44,7 +44,7 @@ Several of the trials are completed randomised studies, but most are small, and 
 
 <!-- review:begin nz-lic-20261106-ketamine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Ketamine is an injectable anaesthetic/analgesic agent, but the New Zealand licence record compiled for this report contains no approved indication text." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Ketamine is an injectable anaesthetic/analgesic agent, but the New Zealand licence record compiled for this report contains no approved indication text." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ketamine-1 -->
 
@@ -135,7 +135,7 @@ Multiple randomised trials, including one completed Phase 3 trial, and several r
 
 <!-- review:begin nz-lic-20261106-ketamine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarify the regulatory pathway given the cancelled licence, and the route of administration (intranasal vs intravenous), since the only recorded product is an injection" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarify the regulatory pathway given the cancelled licence, and the route of administration (intranasal vs intravenous), since the only recorded product is an injection" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ketamine-2 -->
 
@@ -147,8 +147,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "but the New Zealand licence record compiled for this report contains no approved indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "given the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "but the New Zealand licence record compiled for this report contains no approved indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "given the cancelled licence" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
 
 <!-- review:end log -->

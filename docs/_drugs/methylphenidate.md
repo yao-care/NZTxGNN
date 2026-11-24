@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). In New Zealand: 18 Pharmac Schedule items"
@@ -81,7 +81,7 @@ The data contain no approved indication text.
 
 <!-- review:begin nz-lic-20261106-methylphenidate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 13 licences are currently valid. Five representative licences are listed below. The data contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 18 listings for this drug, 18 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All 13 licences are currently valid. Five representative licences are listed below. The data contain no approved indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-methylphenidate-1 -->
 
@@ -133,7 +133,7 @@ The prediction rests only on a model score. There are no clinical trials or publ
 
 <!-- review:begin nz-lic-20261106-methylphenidate-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "In addition, all 13 New Zealand licences are valid (13 of 13), and package insert safety data is unavailable." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 18 listings for this drug, 18 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "In addition, all 13 New Zealand licences are valid (13 of 13), and package insert safety data is unavailable." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-methylphenidate-2 -->
 
@@ -153,8 +153,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 13 licences are currently valid. Five representative licences are listed below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "all 13 New Zealand licences are valid (13 of 13), and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 13 licences are currently valid. Five representative licences are listed below" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "all 13 New Zealand licences are valid (13 of 13), and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
 
 <!-- review:end log -->

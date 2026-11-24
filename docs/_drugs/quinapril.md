@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -121,7 +121,7 @@ The top prediction is a closely related extension of the approved hypertension u
 
 <!-- review:begin nz-lic-20261106-quinapril-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the market situation (reason for cancellation, availability of other ACE inhibitors) and whether a genuine unmet need exists" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the market situation (reason for cancellation, availability of other ACE inhibitors) and whether a genuine unmet need exists" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-quinapril-1 -->
 
@@ -133,7 +133,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "reason for cancellation" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "reason for cancellation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206) |
 
 <!-- review:end log -->

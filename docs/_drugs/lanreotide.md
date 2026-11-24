@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "LANREOTIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 description: "Lanreotide: predicted new indication Hypertrichosis (disease) (evidence level L5). In New Zealand: 7 Pharmac Schedule items"
@@ -86,13 +86,13 @@ Currently no related literature available.
 
 <!-- review:begin nz-lic-20261106-lanreotide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All seven licences are valid, and approved indication text is not available for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All seven licences are valid, and approved indication text is not available for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lanreotide-1 -->
 
 <!-- review:begin nz-lic-20261106-lanreotide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Two further cancelled licences (2659131 and 2698145) are also on record." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Two further cancelled licences (2659131 and 2698145) are also on record." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lanreotide-2 -->
 
@@ -146,7 +146,7 @@ The prediction rests solely on a TxGNN model (deep learning) score (L5), with no
 
 <!-- review:begin nz-lic-20261106-lanreotide-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Preclinical or observational evidence linking somatostatin or GH/IGF-1 signalling to hypertrichosis / A review of the current registration and supply situation, since all seven licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Preclinical or observational evidence linking somatostatin or GH/IGF-1 signalling to hypertrichosis / A review of the current registration and supply situation, since all seven licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lanreotide-3 -->
 
@@ -158,9 +158,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All seven licences are valid, and approved indication text is not available for any of them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Two further cancelled licences (2659131 and 2698145) are also on record" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "A review of the current registration and supply situation, since all seven licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All seven licences are valid, and approved indication text is not available for any of them" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Two further cancelled licences (2659131 and 2698145) are also on record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A review of the current registration and supply situation, since all seven licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d) |
 
 <!-- review:end log -->

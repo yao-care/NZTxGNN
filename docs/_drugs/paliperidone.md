@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In New Zealand: 9 Pharmac Schedule items"
@@ -83,7 +83,7 @@ No literature is available for the rank 1 prediction.
 
 <!-- review:begin nz-lic-20261106-paliperidone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid, and no approved indication text is available for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid, and no approved indication text is available for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-paliperidone-1 -->
 
@@ -142,7 +142,7 @@ The rank 1 prediction (retinal dystrophy) rests only on a computational score, w
 
 <!-- review:begin nz-lic-20261106-paliperidone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The rank 1 prediction (retinal dystrophy) rests only on a computational score, with no trials, no literature and no plausible mechanism. All five New Zealand licences are valid, and the safety data has important gaps." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The rank 1 prediction (retinal dystrophy) rests only on a computational score, with no trials, no literature and no plausible mechanism. All five New Zealand licences are valid, and the safety data has important gaps." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-paliperidone-2 -->
 
@@ -161,8 +161,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All five licences are valid, and no approved indication text is available for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "All five New Zealand licences are valid, and the safety data has important gaps" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All five licences are valid, and no approved indication text is available for them" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All five New Zealand licences are valid, and the safety data has important gaps" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
 
 <!-- review:end log -->

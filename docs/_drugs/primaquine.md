@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PRIMAQUINE"
 predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
 description: "Primaquine: predicted new indication Myiasis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -85,7 +85,7 @@ Any use would require an unapproved-medicine pathway or a new sponsor.
 
 <!-- review:begin nz-lic-20261106-primaquine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are cancelled, so no primaquine product is currently authorized in New Zealand. Any use would require an unapproved-medicine pathway or a new sponsor." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are cancelled, so no primaquine product is currently authorized in New Zealand. Any use would require an unapproved-medicine pathway or a new sponsor." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-primaquine-1 -->
 
@@ -130,7 +130,7 @@ The prediction has no clinical trials, no literature and no plausible mechanism,
 
 <!-- review:begin nz-lic-20261106-primaquine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A benefit-risk comparison with the standard treatments for myiasis (such as wound care, larval removal and ivermectin), which are likely safer. / A plan for G6PD screening and a regulatory pathway, given that the drug is marketed with 2 valid New Zealand authorizations out of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A benefit-risk comparison with the standard treatments for myiasis (such as wound care, larval removal and ivermectin), which are likely safer. / A plan for G6PD screening and a regulatory pathway, given that the drug is marketed with 2 valid New Zealand authorizations out of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-primaquine-2 -->
 
@@ -144,8 +144,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both authorizations are cancelled, so no primaquine product is currently authorized in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "A plan for G6PD screening and a regulatory pathway, given that the drug is marketed with 2 valid New Zealand authorizations out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both authorizations are cancelled, so no primaquine product is currently authorized in New Zealand" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A plan for G6PD screening and a regulatory pathway, given that the drug is marketed with 2 valid New Zealand authorizations out of 2" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: primaquine phosphate prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1bfbf4ae-81b8-4160-a00d-6322aadd4b59) |
 
 <!-- review:end log -->

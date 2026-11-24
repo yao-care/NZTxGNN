@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -136,7 +136,7 @@ Package insert warnings and contraindications were not available for this report
 
 <!-- review:begin nz-lic-20261031-propafenone-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "CPVT has a credible mechanism (RyR2 inhibition) and a long-term case report, but there are no registered trials, the clinical evidence is limited to case reports and non-specific cohorts, and flecainide is the established comparator. / The only New Zealand authorization is cancelled, so no product is currently marketed." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "CPVT has a credible mechanism (RyR2 inhibition) and a long-term case report, but there are no registered trials, the clinical evidence is limited to case reports and non-specific cohorts, and flecainide is the established comparator. / The only New Zealand authorization is cancelled, so no product is currently marketed." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-propafenone-1 -->
 
@@ -150,7 +150,7 @@ Package insert warnings and contraindications were not available for this report
 
 <!-- review:begin nz-lic-20261106-propafenone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Confirmation of an available product, since the market status is cancelled only" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of an available product, since the market status is cancelled only" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-propafenone-2 -->
 
@@ -162,8 +162,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only New Zealand authorization is cancelled, so no product is currently marketed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since the market status is cancelled only" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand authorization is cancelled, so no product is currently marketed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since the market status is cancelled only" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
 
 <!-- review:end log -->

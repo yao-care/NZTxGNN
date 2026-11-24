@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
@@ -70,7 +70,7 @@ Currently no related literature available for Rasmussen subacute encephalitis.
 
 <!-- review:begin nz-lic-20261106-amantadine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The local data lists two licences for Symmetrel (single-ingredient capsule, 100 mg). The licence records carry no indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The local data lists two licences for Symmetrel (single-ingredient capsule, 100 mg). The licence records carry no indication text." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-amantadine-1 -->
 
@@ -115,7 +115,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The local data lists two licences for Symmetrel (single-ingredient capsule, 100 mg). The licence records carry no indication text" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The local data lists two licences for Symmetrel (single-ingredient capsule, 100 mg). The licence records carry no indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gocovri (amantadine) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2bee0631-0028-1314-e063-6394a90aaaed) |
 
 <!-- review:end log -->

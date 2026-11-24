@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
 description: "Sulfadiazine: predicted new indication Pneumocystosis (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -121,7 +121,7 @@ The prediction score is high (0.9939), and the folate-pathway mechanism is plaus
 
 <!-- review:begin nz-lic-20261031-sulfadiazine-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Assessment of the sulfa-resistance risk (DHPS mutations) / Clarification of the New Zealand supply and licensing pathway, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "Assessment of the sulfa-resistance risk (DHPS mutations) / Clarification of the New Zealand supply and licensing pathway, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-sulfadiazine-1 -->
 
@@ -133,7 +133,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Clarification of the New Zealand supply and licensing pathway, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Clarification of the New Zealand supply and licensing pathway, since the only licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91) |
 
 <!-- review:end log -->

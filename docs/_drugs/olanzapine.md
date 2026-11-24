@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In New Zealand: 19 Pharmac Schedule items"
@@ -99,7 +99,7 @@ The main ones are listed below; approved indication text is not available for an
 
 <!-- review:begin nz-lic-20261106-olanzapine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 11 licences are valid. The main ones are listed below; approved indication text is not available for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 19 listings for this drug, 19 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All 11 licences are valid. The main ones are listed below; approved indication text is not available for any of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-olanzapine-1 -->
 
@@ -153,7 +153,7 @@ The top prediction for benign paroxysmal torticollis of infancy rests on a TxGNN
 
 <!-- review:begin nz-lic-20261106-olanzapine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "It has no trials or literature, a speculative mechanism, a self-limiting condition and a serious paediatric safety concern. In addition, no New Zealand licence for olanzapine is currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 19 listings for this drug, 19 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "It has no trials or literature, a speculative mechanism, a self-limiting condition and a serious paediatric safety concern. In addition, no New Zealand licence for olanzapine is currently valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-olanzapine-2 -->
 
@@ -167,7 +167,7 @@ The top prediction for benign paroxysmal torticollis of infancy rests on a TxGNN
 
 <!-- review:begin nz-lic-20261106-olanzapine-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory position in New Zealand, where all 11 licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 19 listings for this drug, 19 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory position in New Zealand, where all 11 licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-olanzapine-3 -->
 
@@ -179,9 +179,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 11 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "In addition, no New Zealand licence for olanzapine is currently valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "where all 11 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 11 licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, no New Zealand licence for olanzapine is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "where all 11 licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
 
 <!-- review:end log -->

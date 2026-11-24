@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 399
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rasagiline: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease (and related parkinsonian syndromes)"
 monitor_inn: "RASAGILINE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -108,7 +108,7 @@ The prediction rests entirely on a computational score, with no clinical trials 
 
 <!-- review:begin nz-lic-20261106-rasagiline-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The mechanistic link to PLA2G6-associated neurodegeneration is only symptomatic and theoretical, and the New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The mechanistic link to PLA2G6-associated neurodegeneration is only symptomatic and theoretical, and the New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-rasagiline-2 -->
 
@@ -119,7 +119,7 @@ The prediction rests entirely on a computational score, with no clinical trials 
 
 <!-- review:begin nz-lic-20261106-rasagiline-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Preclinical or clinical evidence in PLA2G6-associated neurodegeneration (e.g., case series or disease-model studies) / A clear regulatory pathway given the cancelled New Zealand authorization" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Preclinical or clinical evidence in PLA2G6-associated neurodegeneration (e.g., case series or disease-model studies) / A clear regulatory pathway given the cancelled New Zealand authorization" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-rasagiline-1 -->
 
@@ -131,8 +131,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "A clear regulatory pathway given the cancelled New Zealand authorization" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and the New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A clear regulatory pathway given the cancelled New Zealand authorization" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the New Zealand authorization has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60) |
 
 <!-- review:end log -->

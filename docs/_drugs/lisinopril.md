@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -139,7 +139,7 @@ The top prediction is a subtype of an indication lisinopril already covers, so t
 
 <!-- review:begin nz-lic-20261106-lisinopril-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "For chronic pulmonary heart disease, full texts and design details of the Russian-language studies, and a search for controlled trials / Clarification of why the licences were cancelled and whether any re-registration is planned" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "For chronic pulmonary heart disease, full texts and design details of the Russian-language studies, and a search for controlled trials / Clarification of why the licences were cancelled and whether any re-registration is planned" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-lisinopril-1 -->
 
@@ -151,7 +151,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Clarification of why the licences were cancelled and whether any re-registration is planned" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of why the licences were cancelled and whether any re-registration is planned" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: lisinopril prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03a497fe-fb09-4b2c-8ee0-2019600192b8) |
 
 <!-- review:end log -->

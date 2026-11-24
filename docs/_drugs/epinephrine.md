@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 180
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). In New Zealand: 6 Pharmac Schedule items"
@@ -98,7 +98,7 @@ Other predictions in this analysis are weaker:
 
 <!-- review:begin nz-lic-20261106-epinephrine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A sixth licence (223972, Epipen, Inj 0.3 mg per 0.3 ml auto-injector) is also cancelled. All six licences are injectable forms; no inhaled epinephrine product is licensed in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence (223972, Epipen, Inj 0.3 mg per 0.3 ml auto-injector) is also cancelled. All six licences are injectable forms; no inhaled epinephrine product is licensed in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-epinephrine-1 -->
 
@@ -148,7 +148,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "A sixth licence (223972, Epipen, Inj 0.3 mg per 0.3 ml auto-injector) is also cancelled. All six licences are injectable forms; no inhaled e" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A sixth licence (223972, Epipen, Inj 0.3 mg per 0.3 ml auto-injector) is also cancelled. All six licences are injectable forms; no inhaled e" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the source data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
 
 <!-- review:end log -->

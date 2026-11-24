@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 70
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Brentuximab Vedotin: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Hodgkin lymphoma (including classic Hodgkin lymphoma)"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -137,7 +137,7 @@ For follicular lymphoma, the evidence is limited to one small recruiting Phase 2
 
 <!-- review:begin nz-lic-20261106-brentuximab_vedotin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Follicular lymphoma generally has low CD30 expression, and the New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Follicular lymphoma generally has low CD30 expression, and the New Zealand authorization has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-brentuximab_vedotin-1 -->
 
@@ -151,7 +151,7 @@ For follicular lymphoma, the evidence is limited to one small recruiting Phase 2
 
 <!-- review:begin nz-lic-20261106-brentuximab_vedotin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled New Zealand authorization and current supply options" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled New Zealand authorization and current supply options" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-brentuximab_vedotin-2 -->
 
@@ -163,8 +163,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "and the New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "the cancelled New Zealand authorization and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the New Zealand authorization has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled New Zealand authorization and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
 
 <!-- review:end log -->

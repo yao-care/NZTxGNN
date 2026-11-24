@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SALICYLIC ACID"
 predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
 description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -101,7 +101,7 @@ The prediction rests on a model score alone, with no clinical trials or literatu
 
 <!-- review:begin nz-lic-20261031-salicylic_acid-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction rests on a model score alone, with no clinical trials or literature. Ocular irritation risk argues against the proposed route, and the only New Zealand licence has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The prediction rests on a model score alone, with no clinical trials or literature. Ocular irritation risk argues against the proposed route, and the only New Zealand licence has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-salicylic_acid-1 -->
 
@@ -119,7 +119,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Ocular irritation risk argues against the proposed route, and the only New Zealand licence has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Ocular irritation risk argues against the proposed route, and the only New Zealand licence has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
 
 <!-- review:end log -->

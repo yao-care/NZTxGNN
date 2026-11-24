@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "CLINDAMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
@@ -72,7 +72,7 @@ Currently no related literature available.
 
 <!-- review:begin nz-lic-20261106-clindamycin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The local data list two licences, both of single-ingredient products. The data show a mixed picture on licence validity, so no firm statement on how many are currently valid is made here." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The local data list two licences, both of single-ingredient products. The data show a mixed picture on licence validity, so no firm statement on how many are currently valid is made here." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-clindamycin-1 -->
 
@@ -113,7 +113,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The local data list two licences, both of single-ingredient products. The data show a mixed picture on licence validity, so no firm statemen" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The local data list two licences, both of single-ingredient products. The data show a mixed picture on licence validity, so no firm statemen" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cleocin Phosphate (clindamycin phosphate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05a75685-0af5-407c-ac57-e380c882b49d) |
 
 <!-- review:end log -->

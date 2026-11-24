@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 384
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Probenecid: predicted new indication hypouricemia, renal (evidence level L4). Approved use: Gout"
 monitor_inn: "PROBENECID"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
@@ -60,7 +60,7 @@ The mechanism also points the wrong way: probenecid would likely worsen this con
 
 <!-- review:begin nz-lic-20261106-probenecid-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "*Note: the New Zealand license record has no approved indication text, so the original indications above are not taken from approved labelling.*" Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "*Note: the New Zealand license record has no approved indication text, so the original indications above are not taken from approved labelling.*" Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-probenecid-1 -->
 
@@ -139,7 +139,7 @@ The TxGNN score is high, but there are no clinical trials and no literature show
 
 <!-- review:begin nz-lic-20261106-probenecid-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The mechanism argues against benefit in renal hypouricemia, because probenecid would add to the urate loss that already defines the disease. The product is also no longer authorized in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The mechanism argues against benefit in renal hypouricemia, because probenecid would add to the urate loss that already defines the disease. The product is also no longer authorized in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-probenecid-2 -->
 
@@ -158,8 +158,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "the New Zealand license record has no approved indication text, so" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The product is also no longer authorized in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the New Zealand license record has no approved indication text, so" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The product is also no longer authorized in New Zealand" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069) |
 
 <!-- review:end log -->

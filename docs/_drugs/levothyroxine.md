@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "LEVOTHYROXINE"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). In New Zealand: 9 Pharmac Schedule items"
 ---
 
@@ -94,7 +94,7 @@ Others include Eltroxin and Mercury Pharma products in 50 mcg and 100 mcg streng
 
 <!-- review:begin nz-lic-20261106-levothyroxine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Showing 5 of 9 valid single-ingredient authorizations. Others include Eltroxin and Mercury Pharma products in 50 mcg and 100 mcg strengths." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 9 listings for this drug, 9 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Showing 5 of 9 valid single-ingredient authorizations. Others include Eltroxin and Mercury Pharma products in 50 mcg and 100 mcg strengths." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-levothyroxine-1 -->
 
@@ -126,7 +126,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Showing 5 of 9 valid single-ingredient authorizations" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Showing 5 of 9 valid single-ingredient authorizations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Thyquidity (levothyroxine sodium) prescribing information, Oliva Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c839877-50e4-455f-9b6c-462efb09cb96) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pibrentasvir: predicted new indication Hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -106,7 +106,7 @@ The prediction rests only on a high model score. HBV reactivation during HCV ant
 
 <!-- review:begin nz-lic-20261031-pibrentasvir-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction rests only on a high model score. There is no plausible mechanism, no HBV trials, no HBV literature, and the only New Zealand authorization is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The prediction rests only on a high model score. There is no plausible mechanism, no HBV trials, no HBV literature, and the only New Zealand authorization is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-pibrentasvir-1 -->
 
@@ -116,7 +116,7 @@ The prediction rests only on a high model score. HBV reactivation during HCV ant
 
 <!-- review:begin nz-lic-20261031-pibrentasvir-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Package insert warnings and contraindications, in particular the HBV reactivation warning / Evidence of an active New Zealand regulatory pathway, since the only authorization is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "Package insert warnings and contraindications, in particular the HBV reactivation warning / Evidence of an active New Zealand regulatory pathway, since the only authorization is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-pibrentasvir-2 -->
 
@@ -128,8 +128,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "There is no plausible mechanism, no HBV trials, no HBV literature, and the only New Zealand authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-10-31 | Removed: "Evidence of an active New Zealand regulatory pathway, since the only authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "There is no plausible mechanism, no HBV trials, no HBV literature, and the only New Zealand authorization is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Evidence of an active New Zealand regulatory pathway, since the only authorization is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
 
 <!-- review:end log -->

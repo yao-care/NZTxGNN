@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 232
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). In New Zealand: 4 Pharmac Schedule items"
@@ -120,7 +120,7 @@ The mechanistic rationale is plausible and older literature includes imipramine 
 
 <!-- review:begin nz-lic-20261106-imipramine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Cardiac safety concerns in children, newer alternatives with better safety profiles, and the cancelled status of all four New Zealand licences all argue against moving forward now." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Cardiac safety concerns in children, newer alternatives with better safety profiles, and the cancelled status of all four New Zealand licences all argue against moving forward now." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-imipramine-1 -->
 
@@ -143,7 +143,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "and the cancelled status of all four New Zealand licences all argue against moving forward now" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and the cancelled status of all four New Zealand licences all argue against moving forward now" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20af582f-08ba-4281-a2df-0bcf68c58594) |
 
 <!-- review:end log -->

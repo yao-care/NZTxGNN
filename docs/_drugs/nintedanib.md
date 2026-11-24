@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "NINTEDANIB"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -131,7 +131,7 @@ The prediction score is high, and PDGFR-beta activation in DFSP gives a plausibl
 
 <!-- review:begin nz-lic-20261106-nintedanib-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "However, there are no clinical trials and no nintedanib-specific publications, and imatinib is already the established targeted therapy. In addition, nintedanib is marketed in New Zealand, with 2 valid licences of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "However, there are no clinical trials and no nintedanib-specific publications, and imatinib is already the established targeted therapy. In addition, nintedanib is marketed in New Zealand, with 2 valid licences of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-nintedanib-1 -->
 
@@ -143,7 +143,7 @@ The prediction score is high, and PDGFR-beta activation in DFSP gives a plausibl
 
 <!-- review:begin nz-lic-20261106-nintedanib-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the New Zealand supply and regulatory pathway for this use, since the drug is marketed with 2 valid licences of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the New Zealand supply and regulatory pathway for this use, since the drug is marketed with 2 valid licences of 2" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-nintedanib-2 -->
 
@@ -155,8 +155,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "In addition, nintedanib is marketed in New Zealand, with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since the drug is marketed with 2 valid licences of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, nintedanib is marketed in New Zealand, with 2 valid licences of 2" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since the drug is marketed with 2 valid licences of 2" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data for nintedanib is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
 
 <!-- review:end log -->

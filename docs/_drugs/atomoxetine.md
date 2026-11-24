@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ATOMOXETINE"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atomoxetine: predicted new indication specific developmental disorder (evidence level L5). In New Zealand: 7 Pharmac Schedule items"
 ---
 
@@ -83,7 +83,7 @@ All are single-ingredient products.
 
 <!-- review:begin nz-lic-20261106-atomoxetine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Five of the seven licences recorded are shown below. All are single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Five of the seven licences recorded are shown below. All are single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-atomoxetine-1 -->
 
@@ -134,7 +134,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Five of the seven licences recorded are shown below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Five of the seven licences recorded are shown below" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb) |
 
 <!-- review:end log -->

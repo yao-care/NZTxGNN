@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 314
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not available"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -119,7 +119,7 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
 
 <!-- review:begin nz-lic-20261106-mycophenolate_mofetil-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are valid, so there is currently a marketed MMF product in the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are valid, so there is currently a marketed MMF product in the data compiled for this report." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-mycophenolate_mofetil-2 -->
 
@@ -136,13 +136,13 @@ The mechanistic rationale (IMPDH inhibition, dGTP depletion, synergy with abacav
 
 <!-- review:begin nz-lic-20261031-mycophenolate_mofetil-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The mechanistic rationale (IMPDH inhibition, dGTP depletion, synergy with abacavir) is credible, and a few small human studies exist. However, there is no completed trial with direct efficacy data in HIV, the only directly relevant trial was withdrawn, and the immunosuppression risk is a real safety concern." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The mechanistic rationale (IMPDH inhibition, dGTP depletion, synergy with abacavir) is credible, and a few small human studies exist. However, there is no completed trial with direct efficacy data in HIV, the only directly relevant trial was withdrawn, and the immunosuppression risk is a real safety concern." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-mycophenolate_mofetil-1 -->
 
 <!-- review:begin nz-lic-20261106-mycophenolate_mofetil-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 3 New Zealand authorizations are valid, but package insert safety data are missing, so the case cannot advance to safety screening yet." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All 3 New Zealand authorizations are valid, but package insert safety data are missing, so the case cannot advance to safety screening yet." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-mycophenolate_mofetil-3 -->
 
@@ -161,9 +161,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "However, there is no completed trial with direct efficacy data in HIV, the only directly relevant trial was withdrawn, and the immunosuppres" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "All three authorizations are valid, so there is currently a marketed MMF product in the data compiled for this report" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "All 3 New Zealand authorizations are valid, but p" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "However, there is no completed trial with direct efficacy data in HIV, the only directly relevant trial was withdrawn, and the immunosuppres" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three authorizations are valid, so there is currently a marketed MMF product in the data compiled for this report" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 3 New Zealand authorizations are valid, but p" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the DrugBank record compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
 
 <!-- review:end log -->

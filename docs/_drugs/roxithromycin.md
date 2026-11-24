@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Roxithromycin: predicted new indication Leprosy (evidence level L5). Approved use: Not stated in the New Zealand licence records (general pharmacology s…"
 monitor_inn: "ROXITHROMYCIN"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
@@ -106,7 +106,7 @@ Support for leprosy rests on in vitro and mouse studies plus reviews, with no hu
 
 <!-- review:begin nz-lic-20261106-roxithromycin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Roxithromycin appears less active than clarithromycin, and it is marketed in New Zealand with 2 valid licences out of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Roxithromycin appears less active than clarithromycin, and it is marketed in New Zealand with 2 valid licences out of 2." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-roxithromycin-1 -->
 
@@ -117,7 +117,7 @@ Support for leprosy rests on in vitro and mouse studies plus reviews, with no hu
 
 <!-- review:begin nz-lic-20261106-roxithromycin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Head-to-head comparison with clarithromycin, or human clinical data, to justify choosing roxithromycin / Clarification of the regulatory pathway, given that both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Head-to-head comparison with clarithromycin, or human clinical data, to justify choosing roxithromycin / Clarification of the regulatory pathway, given that both New Zealand licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-roxithromycin-2 -->
 
@@ -129,8 +129,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "and it is marketed in New Zealand with 2 valid licences out of 2" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that both New Zealand licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and it is marketed in New Zealand with 2 valid licences out of 2" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the regulatory pathway, given that both New Zealand licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

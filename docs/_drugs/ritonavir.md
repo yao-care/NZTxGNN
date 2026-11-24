@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -124,7 +124,7 @@ The prediction for feline acquired immunodeficiency syndrome has a high model sc
 
 <!-- review:begin nz-lic-20261031-ritonavir-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction for feline acquired immunodeficiency syndrome has a high model score and a plausible lentiviral protease rationale, but there is no trial or literature support (evidence level L5). Ritonavir's only New Zealand licence is cancelled, and its interaction burden is heavy." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The prediction for feline acquired immunodeficiency syndrome has a high model score and a plausible lentiviral protease rationale, but there is no trial or literature support (evidence level L5). Ritonavir's only New Zealand licence is cancelled, and its interaction burden is heavy." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-ritonavir-1 -->
 
@@ -143,7 +143,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Ritonavir's only New Zealand licence is cancelled, and its interaction burden is heavy" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Ritonavir's only New Zealand licence is cancelled, and its interaction burden is heavy" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism-of-action data are not available in the data compiled for this report, so this description relies on general pharmacological knowledge" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
 
 <!-- review:end log -->

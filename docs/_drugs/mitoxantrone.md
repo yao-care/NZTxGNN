@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -89,7 +89,7 @@ Publications for the top-ranked prediction (upper aerodigestive tract neoplasm) 
 
 <!-- review:begin nz-lic-20261106-mitoxantrone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand authorisations are cancelled, and no approved indication text is recorded for either." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand authorisations are cancelled, and no approved indication text is recorded for either." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-mitoxantrone-1 -->
 
@@ -156,7 +156,7 @@ The package insert warnings and contraindications could not be obtained for this
 
 <!-- review:begin nz-lic-20261106-mitoxantrone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand authorisations are cancelled, and mitoxantrone carries significant myelosuppression and cardiotoxicity risks." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both New Zealand authorisations are cancelled, and mitoxantrone carries significant myelosuppression and cardiotoxicity risks." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-mitoxantrone-2 -->
 
@@ -169,7 +169,7 @@ The package insert warnings and contraindications could not be obtained for this
 
 <!-- review:begin nz-lic-20261106-mitoxantrone-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of whether a product would be reintroduced, given the cancelled licences, and a cardiac and haematological monitoring plan" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of whether a product would be reintroduced, given the cancelled licences, and a cardiac and haematological monitoring plan" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-mitoxantrone-3 -->
 
@@ -181,9 +181,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both New Zealand authorisations are cancelled, and no approved indication text is recorded for either" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Both New Zealand authorisations are cancelled, and m" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "given the cancelled licences" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both New Zealand authorisations are cancelled, and no approved indication text is recorded for either" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both New Zealand authorisations are cancelled, and m" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "given the cancelled licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled drug record, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae) |
 
 <!-- review:end log -->

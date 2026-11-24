@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Fluoxetine: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Relations recorded in the knowledge graph: major depressive disorder…"
 ---
 
@@ -83,7 +83,7 @@ Neither publication directly studies fluoxetine in schizoid personality disorder
 
 <!-- review:begin nz-lic-20261106-fluoxetine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fluoxetine-1 -->
 
@@ -139,7 +139,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both licences are valid single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both licences are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fluoxetine prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=620ecf00-5473-4420-afd1-94b5b38e7301) |
 
 <!-- review:end log -->

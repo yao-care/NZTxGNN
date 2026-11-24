@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 262
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Ledipasvir: predicted new indication Hepatitis B virus infection (evidence level L2). In New Zealand: 1 Pharmac Schedule item"
@@ -131,7 +131,7 @@ Only one small, completed open-label Phase 2 study (n=21) tests ledipasvir/sofos
 
 <!-- review:begin nz-lic-20261031-ledipasvir-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "There is no plausible HBV-specific target for an NS5A inhibitor, and the broader literature emphasises HBV reactivation rather than suppression. The only New Zealand licence is cancelled, and the package insert safety data are not available." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "There is no plausible HBV-specific target for an NS5A inhibitor, and the broader literature emphasises HBV reactivation rather than suppression. The only New Zealand licence is cancelled, and the package insert safety data are not available." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-ledipasvir-1 -->
 
@@ -150,7 +150,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the package insert safety data are not available" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the package insert safety data are not available" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
 
 <!-- review:end log -->

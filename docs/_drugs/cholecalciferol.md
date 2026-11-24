@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cholecalciferol: predicted new indication acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
@@ -98,7 +98,7 @@ Cholecalciferol is marketed in New Zealand. The available forms are an oral liqu
 
 <!-- review:begin nz-lic-20261106-cholecalciferol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Cholecalciferol is marketed in New Zealand. Both licences on record are valid, single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Cholecalciferol is marketed in New Zealand. Both licences on record are valid, single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-cholecalciferol-1 -->
 
@@ -131,7 +131,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both licences on record are valid, single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both licences on record are valid, single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
 
 <!-- review:end log -->

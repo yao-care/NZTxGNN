@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
 description: "Trametinib: predicted new indication Choroideremia (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -137,7 +137,7 @@ The only support for choroideremia is a model score. There are no trials or publ
 
 <!-- review:begin nz-lic-20261106-trametinib-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There are no trials or publications, and the disease biology (defective Rab prenylation caused by *CHM* loss) has no recognised link to MEK inhibition. In addition, trametinib is marketed in New Zealand, with 2 of 2 authorizations valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "There are no trials or publications, and the disease biology (defective Rab prenylation caused by *CHM* loss) has no recognised link to MEK inhibition. In addition, trametinib is marketed in New Zealand, with 2 of 2 authorizations valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-trametinib-1 -->
 
@@ -151,7 +151,7 @@ Other predictions for trametinib have more support, though all of them stay with
 
 <!-- review:begin nz-lic-20261106-trametinib-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A review of ocular safety, since MEK inhibitors can cause retinal toxicity / Confirmation of the regulatory pathway, given that the New Zealand authorizations are cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A review of ocular safety, since MEK inhibitors can cause retinal toxicity / Confirmation of the regulatory pathway, given that the New Zealand authorizations are cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-trametinib-2 -->
 
@@ -163,8 +163,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "In addition, trametinib is marketed in New Zealand, with 2 of 2 authorizations valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Confirmation of the regulatory pathway, given that the New Zealand authorizations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, trametinib is marketed in New Zealand, with 2 of 2 authorizations valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of the regulatory pathway, given that the New Zealand authorizations are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

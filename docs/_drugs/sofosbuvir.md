@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 427
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). In New Zealand: 1 Pharmac Schedule item"
@@ -128,7 +128,7 @@ Sofosbuvir has no plausible mechanism against HBV, and the available evidence (L
 
 <!-- review:begin nz-lic-20261106-sofosbuvir-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A controlled study of anti-HBV efficacy in HBV mono-infection, with HBsAg and HBV DNA endpoints / Clarification of the status of the cancelled New Zealand authorization" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A controlled study of anti-HBV efficacy in HBV mono-infection, with HBsAg and HBV DNA endpoints / Clarification of the status of the cancelled New Zealand authorization" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-sofosbuvir-1 -->
 
@@ -140,7 +140,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Clarification of the status of the cancelled New Zealand authorization" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Clarification of the status of the cancelled New Zealand authorization" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 249
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "IVERMECTIN"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "congenital candidiasis", "neonatal candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
 description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -124,7 +124,7 @@ The prediction is supported only by the TxGNN score. The few linked papers are f
 
 <!-- review:begin nz-lic-20261106-ivermectin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Assessment of route of administration and formulation suitability, since route compatibility has not been evaluated / A review of the licensing situation, since both New Zealand authorizations are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Assessment of route of administration and formulation suitability, since route compatibility has not been evaluated / A review of the licensing situation, since both New Zealand authorizations are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ivermectin-1 -->
 
@@ -136,7 +136,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "A review of the licensing situation, since both New Zealand authorizations are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A review of the licensing situation, since both New Zealand authorizations are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
 
 <!-- review:end log -->

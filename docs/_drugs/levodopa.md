@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In New Zealand: 12 Pharmac Schedule items"
@@ -76,7 +76,7 @@ The approved indication text is not available for any of them.
 
 <!-- review:begin nz-lic-20261106-levodopa-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 12 licences are valid. The approved indication text is not available for any of them. The five main authorizations are listed below." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 12 listings for this drug, 12 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All 12 licences are valid. The approved indication text is not available for any of them. The five main authorizations are listed below." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-levodopa-1 -->
 
@@ -137,7 +137,7 @@ The prediction has no supporting clinical trials or literature (evidence level L
 
 <!-- review:begin nz-lic-20261106-levodopa-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of route and formulation requirements, and of whether any valid New Zealand licence exists, given that all 12 are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 12 listings for this drug, 12 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of route and formulation requirements, and of whether any valid New Zealand licence exists, given that all 12 are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-levodopa-2 -->
 
@@ -149,8 +149,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 12 licences are valid. The five main authorizations are listed below" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and of whether any valid New Zealand licence exists, given that all 12 are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 12 licences are valid. The five main authorizations are listed below" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and of whether any valid New Zealand licence exists, given that all 12 are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 385
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "Procarbazine"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 description: "Procarbazine: predicted new indication Follicular lymphoma (evidence level L3). In New Zealand: 1 Pharmac Schedule item"
@@ -124,7 +124,7 @@ Biological plausibility is reasonable, and there are case-level reports of respo
 
 <!-- review:begin nz-lic-20261106-procarbazine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Prospective data on procarbazine-containing regimens in follicular lymphoma, compared with current standard therapy / A regulatory pathway, since the only New Zealand authorization has been cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Prospective data on procarbazine-containing regimens in follicular lymphoma, compared with current standard therapy / A regulatory pathway, since the only New Zealand authorization has been cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-procarbazine-1 -->
 
@@ -136,7 +136,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "A regulatory pathway, since the only New Zealand authorization has been cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "A regulatory pathway, since the only New Zealand authorization has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Matulane (procarbazine hydrochloride) prescribing information, Leadiant Biosciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1aa75a3a-18c9-49e1-91a6-293d0b7da756) |
 
 <!-- review:end log -->

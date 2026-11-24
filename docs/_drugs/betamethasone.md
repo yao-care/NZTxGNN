@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 63
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). In New Zealand: 14 Pharmac Schedule items"
@@ -106,7 +106,7 @@ All marketed forms are topical.
 
 <!-- review:begin nz-lic-20261106-betamethasone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Four further valid licences are not listed (Betnovate lotion 0.1%, Diprosone OV ointment, and two additional Diprosone products). All marketed forms are topical." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 14 listings for this drug, 14 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Four further valid licences are not listed (Betnovate lotion 0.1%, Diprosone OV ointment, and two additional Diprosone products). All marketed forms are topical." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-betamethasone-1 -->
 
@@ -136,7 +136,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Four further valid licences are not listed (Betnovate lotion 0.1%, Diprosone OV ointment, and two additional Diprosone products)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Four further valid licences are not listed (Betnovate lotion 0.1%, Diprosone OV ointment, and two additional Diprosone products)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

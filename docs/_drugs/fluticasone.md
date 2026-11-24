@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Fluticasone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "FLUTICASONE"
 drugbank_id: DB13867
@@ -44,7 +44,7 @@ This prediction rests on the model alone and is not yet backed by clinical evide
 
 <!-- review:begin nz-lic-20261106-fluticasone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Fluticasone is an inhaled glucocorticoid, marketed in New Zealand as Flixotide aerosol inhalers and Accuhaler powder inhalers, and all 6 of its New Zealand licences are valid. The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and only **1 publication**, and that publication addresses adverse events rather than benefit." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 13 listings for this drug, 13 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Fluticasone is an inhaled glucocorticoid, marketed in New Zealand as Flixotide aerosol inhalers and Accuhaler powder inhalers, and all 6 of its New Zealand licences are valid. The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and only **1 publication**, and that publication addresses adverse events rather than benefit." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fluticasone-1 -->
 
@@ -78,7 +78,7 @@ Currently no related clinical trials registered.
 
 <!-- review:begin nz-lic-20261106-fluticasone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "One further cancelled authorization (472859, Flixotide aerosol inhaler, 125 mcg per dose) is not shown. All 6 authorizations are single-ingredient products and are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 13 listings for this drug, 13 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "One further cancelled authorization (472859, Flixotide aerosol inhaler, 125 mcg per dose) is not shown. All 6 authorizations are single-ingredient products and are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fluticasone-2 -->
 
@@ -133,7 +133,7 @@ The prediction is supported only by the model score (L5). There are no clinical 
 
 <!-- review:begin nz-lic-20261106-fluticasone-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 6 New Zealand licences are valid, but package insert safety data and mechanism data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 13 listings for this drug, 13 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All 6 New Zealand licences are valid, but package insert safety data and mechanism data are missing." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fluticasone-3 -->
 
@@ -146,7 +146,7 @@ The prediction is supported only by the model score (L5). There are no clinical 
 
 <!-- review:begin nz-lic-20261106-fluticasone-4 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "An assessment of route compatibility, since only inhaled forms were licensed / A decision on whether any product would be re-registered, given the cancelled market status" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 13 listings for this drug, 13 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "An assessment of route compatibility, since only inhaled forms were licensed / A decision on whether any product would be re-registered, given the cancelled market status" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-fluticasone-4 -->
 
@@ -158,10 +158,10 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Fluticasone is an inhaled glucocorticoid, marketed in New Zealand as Flixotide aerosol inhalers and Accuhaler powder inhalers, and all 6 of " | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "One further cancelled authorization (472859, Flixotide aerosol inhaler, 125 mcg per dose) is not shown. All 6 authorizations are single-ingr" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "All 6 New Zealand licences are valid, but p" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since only inhaled forms were licensed - A decision on whether any product would be re-registered, given the cancelled market status" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Fluticasone is an inhaled glucocorticoid, marketed in New Zealand as Flixotide aerosol inhalers and Accuhaler powder inhalers, and all 6 of " | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "One further cancelled authorization (472859, Flixotide aerosol inhaler, 125 mcg per dose) is not shown. All 6 authorizations are single-ingr" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 6 New Zealand licences are valid, but p" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since only inhaled forms were licensed - A decision on whether any product would be re-registered, given the cancelled market status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xhance (fluticasone propionate) prescribing information, Paratek Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44fcea33-8cfa-3a5c-e063-6394a90aafb2) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Taliglucerase Alfa: predicted new indication Hurler syndrome (evidence level L5). Approved use: Gaucher disease"
 monitor_inn: "TALIGLUCERASE ALFA"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
@@ -103,7 +103,7 @@ The prediction has no supporting clinical or literature evidence (L5), and the p
 
 <!-- review:begin nz-lic-20261031-taliglucerase_alfa-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction has no supporting clinical or literature evidence (L5), and the proposed mechanism does not hold up: glucocerebrosidase does not act on the glycosaminoglycans that accumulate in Hurler syndrome. The only New Zealand licence is cancelled, and safety data are missing." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The prediction has no supporting clinical or literature evidence (L5), and the proposed mechanism does not hold up: glucocerebrosidase does not act on the glycosaminoglycans that accumulate in Hurler syndrome. The only New Zealand licence is cancelled, and safety data are missing." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-taliglucerase_alfa-1 -->
 
@@ -116,7 +116,7 @@ The prediction has no supporting clinical or literature evidence (L5), and the p
 
 <!-- review:begin nz-lic-20261106-taliglucerase_alfa-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the New Zealand supply status given the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the New Zealand supply status given the cancelled licence" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-taliglucerase_alfa-2 -->
 
@@ -128,8 +128,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and safety data are missing" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "given the cancelled licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and safety data are missing" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "given the cancelled licence" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the source database" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Elelyso (taliglucerase alfa) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3cbd5d-677c-4b19-9032-d9182cb69a83) |
 
 <!-- review:end log -->

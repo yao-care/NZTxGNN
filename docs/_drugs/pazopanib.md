@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 352
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predicted new indication Liposarcoma (evidence level L2). In New Zealand: 3 Pharmac Schedule items"
@@ -128,7 +128,7 @@ Liposarcoma has the most developed evidence (L2: completed Phase 2 trials), but 
 
 <!-- review:begin nz-lic-20261106-pazopanib-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Pazopanib's New Zealand licences are both cancelled, and the package insert safety review has not been done, which is a blocking gap." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Pazopanib's New Zealand licences are both cancelled, and the package insert safety review has not been done, which is a blocking gap." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-pazopanib-1 -->
 
@@ -147,7 +147,7 @@ Liposarcoma has the most developed evidence (L2: completed Phase 2 trials), but 
 
 <!-- review:begin nz-lic-20261106-pazopanib-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of New Zealand supply and regulatory status, since both licences are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of New Zealand supply and regulatory status, since both licences are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-pazopanib-2 -->
 
@@ -159,8 +159,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Pazopanib's New Zealand licences are both cancelled, and t" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Pazopanib's New Zealand licences are both cancelled, and t" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
 
 <!-- review:end log -->

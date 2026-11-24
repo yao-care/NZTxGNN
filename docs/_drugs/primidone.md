@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PRIMIDONE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -111,7 +111,7 @@ The top predicted indication, trigeminal nerve neoplasm, has no clinical trials 
 
 <!-- review:begin nz-lic-20261031-primidone-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The seizure-related predictions are mechanistically more coherent but are supported only by indirect, mostly older evidence (L4, research questions at best). In New Zealand, the only authorization is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The seizure-related predictions are mechanistically more coherent but are supported only by indirect, mostly older evidence (L4, research questions at best). In New Zealand, the only authorization is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-primidone-1 -->
 
@@ -129,7 +129,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "In New Zealand, the only authorization is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "In New Zealand, the only authorization is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In New Zealand: 6 Pharmac Schedule items"
@@ -117,7 +117,7 @@ Approved indication text is not available for these licences.
 
 <!-- review:begin nz-lic-20261106-propranolol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid; propranolol is marketed in this country with 5 valid licences of 5. Approved indication text is not available for these licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid; propranolol is marketed in this country with 5 valid licences of 5. Approved indication text is not available for these licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-propranolol-1 -->
 
@@ -167,7 +167,7 @@ The top-ranked prediction (distal myopathy, Tateyama type) rests on a model scor
 
 <!-- review:begin nz-lic-20261106-propranolol-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since propranolol is marketed in New Zealand with 5 valid licences of 5" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory pathway, since propranolol is marketed in New Zealand with 5 valid licences of 5" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-propranolol-2 -->
 
@@ -179,8 +179,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All five licences are valid; propranolol is marketed in this country with 5 valid licences of 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since propranolol is marketed in New Zealand with 5 valid licences of 5" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All five licences are valid; propranolol is marketed in this country with 5 valid licences of 5" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since propranolol is marketed in New Zealand with 5 valid licences of 5" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Propranolol Hydrochloride Er (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5415904b-90da-48e8-9f9e-f86749aa129c) |
 
 <!-- review:end log -->

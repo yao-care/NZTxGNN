@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "NITROFURANTOIN"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
 description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -134,7 +134,7 @@ The prediction rests only on a model score. There are no clinical trials and no 
 
 <!-- review:begin nz-lic-20261106-nitrofurantoin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The available evidence instead raises safety concerns, especially pulmonary and hepatic toxicity and the methotrexate interaction. The drug is marketed in New Zealand, with 3 of 3 authorisations valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The available evidence instead raises safety concerns, especially pulmonary and hepatic toxicity and the methotrexate interaction. The drug is marketed in New Zealand, with 3 of 3 authorisations valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-nitrofurantoin-1 -->
 
@@ -153,7 +153,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 3 of 3 authorisations valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in New Zealand, with 3 of 3 authorisations valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
 
 <!-- review:end log -->

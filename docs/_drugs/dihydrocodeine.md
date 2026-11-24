@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Dihydrocodeine: predicted new indication Nasal cavity disease (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
 ---
 
@@ -84,7 +84,7 @@ Current availability should be confirmed directly with Medsafe before any planni
 
 <!-- review:begin nz-lic-20261106-dihydrocodeine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The local data list one licence (a single-ingredient product), and its status is recorded as cancelled. The licence-level records and the market-level summary compiled for this report are not fully consistent, so current availability should be confirmed directly with Medsafe before any planning." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The local data list one licence (a single-ingredient product), and its status is recorded as cancelled. The licence-level records and the market-level summary compiled for this report are not fully consistent, so current availability should be confirmed directly with Medsafe before any planning." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-dihydrocodeine-1 -->
 
@@ -116,7 +116,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The local data list one licence (a single-ingredient product), and its status is recorded as cancelled. The licence-level records and the ma" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The local data list one licence (a single-ingredient product), and its status is recorded as cancelled. The licence-level records and the ma" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

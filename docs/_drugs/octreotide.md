@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "OCTREOTIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). In New Zealand: 11 Pharmac Schedule items"
@@ -75,7 +75,7 @@ The table lists 5 of them.
 
 <!-- review:begin nz-lic-20261106-octreotide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 11 licences are valid, and no approved indication text is recorded. The table lists 5 of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 11 listings for this drug, 11 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All 11 licences are valid, and no approved indication text is recorded. The table lists 5 of them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-octreotide-1 -->
 
@@ -127,7 +127,7 @@ The only support for either predicted indication is the model score. There are n
 
 <!-- review:begin nz-lic-20261106-octreotide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials or publications, the mechanism of action is not available, and both indications are benign conditions with low-risk standard care. Octreotide is marketed in New Zealand, with 11 of 11 licences valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 11 listings for this drug, 11 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials or publications, the mechanism of action is not available, and both indications are benign conditions with low-risk standard care. Octreotide is marketed in New Zealand, with 11 of 11 licences valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-octreotide-2 -->
 
@@ -140,7 +140,7 @@ The only support for either predicted indication is the model score. There are n
 
 <!-- review:begin nz-lic-20261106-octreotide-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Confirmation of current New Zealand supply (11 of 11 licences are valid)" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 11 listings for this drug, 11 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of current New Zealand supply (11 of 11 licences are valid)" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-octreotide-3 -->
 
@@ -152,9 +152,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 11 licences are valid, and no approved indication text is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Octreotide is marketed in New Zealand, with 11 of 11 licences valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "(11 of 11 licences are valid)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 11 licences are valid, and no approved indication text is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Octreotide is marketed in New Zealand, with 11 of 11 licences valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "(11 of 11 licences are valid)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
 description: "Riluzole: predicted new indication Bilateral parasagittal parieto-occipital polymicrogyria (evidence level L5). In New Zealand: 1 Pharmac Schedule item"
@@ -99,7 +99,7 @@ The prediction is supported only by a model score, with no trials or literature 
 
 <!-- review:begin nz-lic-20261031-riluzole-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction is supported only by a model score, with no trials or literature for this condition. The only New Zealand licence is cancelled, and the mechanistic link is speculative." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The prediction is supported only by a model score, with no trials or literature for this condition. The only New Zealand licence is cancelled, and the mechanistic link is speculative." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-riluzole-1 -->
 
@@ -112,7 +112,7 @@ The prediction is supported only by a model score, with no trials or literature 
 
 <!-- review:begin nz-lic-20261106-riluzole-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled New Zealand licence status and the availability of any current supply route" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the cancelled New Zealand licence status and the availability of any current supply route" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-riluzole-2 -->
 
@@ -124,8 +124,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the mechanistic link is speculative" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "the cancelled New Zealand licence status and" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The only New Zealand licence is cancelled, and the mechanistic link is speculative" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the cancelled New Zealand licence status and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this drug in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857) |
 
 <!-- review:end log -->

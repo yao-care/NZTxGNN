@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence record"
 ---
 
@@ -72,7 +72,7 @@ Currently, detailed mechanism of action data is not available. Methionine is an 
 
 <!-- review:begin nz-lic-20261106-methionine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Methionine is an essential amino acid involved in the methionine cycle, which produces homocysteine, and in methylation and transsulfuration pathways. The licence record does not state an approved indication, so the relationship between an original use and acne cannot be assessed." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Methionine is an essential amino acid involved in the methionine cycle, which produces homocysteine, and in methylation and transsulfuration pathways. The licence record does not state an approved indication, so the relationship between an original use and acne cannot be assessed." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-methionine-2 -->
 
@@ -113,7 +113,7 @@ Any score on this page comes from the TxGNN model (deep learning) and may reflec
 
 <!-- review:begin nz-lic-20261106-methionine-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show 1 valid single-ingredient licence. Any score on this page comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is not an approved indication, and none is claimed here." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show 1 valid single-ingredient licence. Any score on this page comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is not an approved indication, and none is claimed here." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-methionine-3 -->
 
@@ -153,8 +153,8 @@ Below is the review log for this page: statements checked against official Pharm
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "In New Zealand it is licensed as a single-ingredient component of the product MMA/PA Anamix Infant, but the licence record contains no appro" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The licence record does not state an approved indication, so the relationship between an original use and acne cannot be assessed" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "The data compiled for this report show 1 valid single-ingredient licence" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The licence record does not state an approved indication, so the relationship between an original use and acne cannot be assessed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The data compiled for this report show 1 valid single-ingredient licence" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "OLSALAZINE"
 predicted_indications: ["myelodysplastic syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "partial deletion of the long arm of chromosome 5", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Olsalazine: predicted new indication Myelodysplastic syndrome (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -107,7 +107,7 @@ The prediction is supported only by a TxGNN model (deep learning) score, with no
 
 <!-- review:begin nz-lic-20261106-olsalazine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The prediction is supported only by a TxGNN model (deep learning) score, with no clinical trials, no literature and no mechanistic data. Olsalazine has minimal systemic absorption, and it is marketed in New Zealand, with 3 valid licences out of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The prediction is supported only by a TxGNN model (deep learning) score, with no clinical trials, no literature and no mechanistic data. Olsalazine has minimal systemic absorption, and it is marketed in New Zealand, with 3 valid licences out of 3." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-olsalazine-1 -->
 
@@ -124,7 +124,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Olsalazine has minimal systemic absorption, and it is marketed in New Zealand, with 3 valid licences out of 3" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Olsalazine has minimal systemic absorption, and it is marketed in New Zealand, with 3 valid licences out of 3" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dipentum (olsalazine sodium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8512d0c6-db4e-4673-b3b4-28975c18413f) |
 
 <!-- review:end log -->

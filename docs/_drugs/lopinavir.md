@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 277
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Lopinavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). In New Zealand: 1 Pharmac Schedule item"
@@ -105,7 +105,7 @@ The only supporting evidence is three preclinical macaque studies, with no regis
 
 <!-- review:begin nz-lic-20261031-lopinavir-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "SIV infection is an animal-model indication rather than a human therapeutic use, so the prediction extends the original antiretroviral indication rather than opening a new treatment opportunity. The product's only New Zealand licence is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "SIV infection is an animal-model indication rather than a human therapeutic use, so the prediction extends the original antiretroviral indication rather than opening a new treatment opportunity. The product's only New Zealand licence is cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-lopinavir-1 -->
 
@@ -123,7 +123,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The product's only New Zealand licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "The product's only New Zealand licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->

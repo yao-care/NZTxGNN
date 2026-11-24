@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "KETOPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 description: "Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In New Zealand: not on the Pharmac Schedule in this data"
@@ -119,7 +119,7 @@ The top prediction is supported only by a model score. The data compiled for thi
 
 <!-- review:begin nz-lic-20261031-ketoprofen-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The top prediction is supported only by a model score. There are no clinical trials or publications, no plausible mechanistic link to the GDF5/BMP pathway, and the only New Zealand licence has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 0 listings for this drug, 0 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "The top prediction is supported only by a model score. There are no clinical trials or publications, no plausible mechanistic link to the GDF5/BMP pathway, and the only New Zealand licence has been cancelled." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-ketoprofen-1 -->
 
@@ -137,7 +137,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "There are no clinical trials or publications, no plausible mechanistic link to the GDF5/BMP pathway, and the only New Zealand licence has be" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "There are no clinical trials or publications, no plausible mechanistic link to the GDF5/BMP pathway, and the only New Zealand licence has be" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available for ketoprofen" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d) |
 
 <!-- review:end log -->

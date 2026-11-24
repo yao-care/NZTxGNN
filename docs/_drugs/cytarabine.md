@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L3). In New Zealand: 6 Pharmac Schedule items"
 ---
 
@@ -94,7 +94,7 @@ Cytarabine is marketed in New Zealand. No approved indication text is recorded i
 
 <!-- review:begin nz-lic-20261106-cytarabine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Cytarabine is marketed in New Zealand. All 6 licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 6 listings for this drug, 6 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Cytarabine is marketed in New Zealand. All 6 licences are valid." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-cytarabine-1 -->
 
@@ -156,7 +156,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 6 licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 6 licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
 
 <!-- review:end log -->

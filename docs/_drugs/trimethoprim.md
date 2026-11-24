@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 468
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
@@ -72,7 +72,7 @@ No literature was found for the top predicted indication, punctate epithelial ke
 
 <!-- review:begin nz-lic-20261106-trimethoprim-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in this country, and the 1 licence on record (1 of 1) is valid. The record is a 300 mg oral tablet." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in this country, and the 1 licence on record (1 of 1) is valid. The record is a 300 mg oral tablet." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-trimethoprim-1 -->
 
@@ -133,7 +133,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The drug is marketed in this country, and the 1 licence on record (1 of 1) is valid. The record is a 300 mg oral tablet" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "The drug is marketed in this country, and the 1 licence on record (1 of 1) is valid. The record is a 300 mg oral tablet" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 195
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Felodipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
@@ -96,7 +96,7 @@ For pulmonary hypertension owing to lung disease/hypoxia, nine retrieved publica
 
 <!-- review:begin nz-lic-20261106-felodipine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are valid, so felodipine is currently marketed in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are valid, so felodipine is currently marketed in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-felodipine-1 -->
 
@@ -131,7 +131,7 @@ The top-ranked pulmonary hypertension prediction rests on model score alone (L5)
 
 <!-- review:begin nz-lic-20261106-felodipine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The top-ranked pulmonary hypertension prediction rests on model score alone (L5), with no trials or literature. Felodipine's market authorizations in New Zealand are all valid (3 of 3)." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The top-ranked pulmonary hypertension prediction rests on model score alone (L5), with no trials or literature. Felodipine's market authorizations in New Zealand are all valid (3 of 3)." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-felodipine-2 -->
 
@@ -143,7 +143,7 @@ The top-ranked pulmonary hypertension prediction rests on model score alone (L5)
 
 <!-- review:begin nz-lic-20261106-felodipine-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A decision on whether Prinzmetal angina warrants further work, given the cancelled market status and the availability of other calcium channel blockers" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A decision on whether Prinzmetal angina warrants further work, given the cancelled market status and the availability of other calcium channel blockers" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-felodipine-3 -->
 
@@ -155,9 +155,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All three authorizations are valid, so felodipine is currently marketed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Felodipine's market authorizations in New Zealand are all valid (3 of 3)" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "cancelled market status and the" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three authorizations are valid, so felodipine is currently marketed in New Zealand" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Felodipine's market authorizations in New Zealand are all valid (3 of 3)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "cancelled market status and the" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
 
 <!-- review:end log -->

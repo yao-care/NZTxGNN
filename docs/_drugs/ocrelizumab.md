@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -102,7 +102,7 @@ The prediction is supported only by the TxGNN model score (L5), with no clinical
 
 <!-- review:begin nz-lic-20261106-ocrelizumab-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The prediction is supported only by the TxGNN model score (L5), with no clinical trials or relevant publications, and no mechanistic link between CD20 B-cell depletion and HER2-positive breast carcinoma is established. In addition, both New Zealand licences for the drug are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The prediction is supported only by the TxGNN model score (L5), with no clinical trials or relevant publications, and no mechanistic link between CD20 B-cell depletion and HER2-positive breast carcinoma is established. In addition, both New Zealand licences for the drug are cancelled." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ocrelizumab-1 -->
 
@@ -115,7 +115,7 @@ The prediction is supported only by the TxGNN model score (L5), with no clinical
 
 <!-- review:begin nz-lic-20261106-ocrelizumab-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the New Zealand regulatory status, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the New Zealand regulatory status, since both licences are cancelled" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ocrelizumab-2 -->
 
@@ -127,8 +127,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "In addition, both New Zealand licences for the drug are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "since both licences are cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, both New Zealand licences for the drug are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "since both licences are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 379
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L3). In New Zealand: 4 Pharmac Schedule items"
@@ -118,7 +118,7 @@ Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). The
 
 <!-- review:begin nz-lic-20261106-prednisone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 4 listings for this drug, 4 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid single-ingredient products." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-prednisone-1 -->
 
@@ -148,7 +148,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All four licences are valid single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All four licences are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a) |
 
 <!-- review:end log -->

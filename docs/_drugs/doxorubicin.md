@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 167
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
@@ -102,7 +102,7 @@ No approved indication text is available for these licences.
 
 <!-- review:begin nz-lic-20261106-doxorubicin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 7 New Zealand licences for single-agent doxorubicin have been cancelled, so there is currently no marketed doxorubicin product. No approved indication text is available for these licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All 7 New Zealand licences for single-agent doxorubicin have been cancelled, so there is currently no marketed doxorubicin product. No approved indication text is available for these licences." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-doxorubicin-1 -->
 
@@ -150,7 +150,7 @@ Multiple completed Phase 3 randomised trials and several RCT publications place 
 
 <!-- review:begin nz-lic-20261106-doxorubicin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "However, the evidence supports the combination regimen rather than doxorubicin alone, and no doxorubicin product is currently licensed in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "However, the evidence supports the combination regimen rather than doxorubicin alone, and no doxorubicin product is currently licensed in New Zealand." Removed: it conflicted with the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-doxorubicin-2 -->
 
@@ -163,7 +163,7 @@ Multiple completed Phase 3 randomised trials and several RCT publications place 
 
 <!-- review:begin nz-lic-20261106-doxorubicin-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Confirmation of access to a licensed or unapproved-medicine supply route in New Zealand, although the drug is marketed, with 7 valid licences of 7" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 7 listings for this drug, 7 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of access to a licensed or unapproved-medicine supply route in New Zealand, although the drug is marketed, with 7 valid licences of 7" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-doxorubicin-3 -->
 
@@ -192,9 +192,9 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 7 New Zealand licences for single-agent doxorubicin have been cancelled, so there is currently no marketed doxorubicin product" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "and no doxorubicin product is currently licensed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "although the drug is marketed, with 7 valid licences of 7" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All 7 New Zealand licences for single-agent doxorubicin have been cancelled, so there is currently no marketed doxorubicin product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "and no doxorubicin product is currently licensed in New Zealand" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "although the drug is marketed, with 7 valid licences of 7" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data from the drug database is not available, so this description is based on the mechanistic rationale compiled for the report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
 
 <!-- review:end log -->

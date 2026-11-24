@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 25
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alectinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer / lung cancer"
 monitor_inn: "ALECTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
@@ -133,7 +133,7 @@ The predicted indication, gingival fibromatosis, has no trials, no literature an
 
 <!-- review:begin nz-lic-20261106-alectinib-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The predicted indication, gingival fibromatosis, has no trials, no literature and no known mechanistic link to ALK inhibition, so the high TxGNN score alone is not sufficient. In addition, the only New Zealand licence for alectinib is cancelled, which limits near-term local access." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "The predicted indication, gingival fibromatosis, has no trials, no literature and no known mechanistic link to ALK inhibition, so the high TxGNN score alone is not sufficient. In addition, the only New Zealand licence for alectinib is cancelled, which limits near-term local access." Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-alectinib-2 -->
 
@@ -144,7 +144,7 @@ The predicted indication, gingival fibromatosis, has no trials, no literature an
 
 <!-- review:begin nz-lic-20261031-alectinib-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Package insert warnings and contraindications from Medsafe to allow safety screening / Clarification of the current New Zealand regulatory status of alectinib, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Pharmaceutical Schedule lists 1 listing for this drug, 1 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-10-31)**: Originally stated: "Package insert warnings and contraindications from Medsafe to allow safety screening / Clarification of the current New Zealand regulatory status of alectinib, since the only licence is cancelled" Removed: it said the Schedule listings were cancelled, discontinued, or not current, which did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-10-31). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261031-alectinib-1 -->
 
@@ -156,8 +156,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Clarification of the current New Zealand regulatory status of alectinib, since the only licence is cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "In addition, the only New Zealand licence for alectinib is cancelled, which limits near-term local access" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-10-31 | Removed: "Clarification of the current New Zealand regulatory status of alectinib, since the only licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "In addition, the only New Zealand licence for alectinib is cancelled, which limits near-term local access" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
 
 <!-- review:end log -->

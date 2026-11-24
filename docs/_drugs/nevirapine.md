@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Nevirapine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
@@ -100,7 +100,7 @@ The prediction rests on a high model score and a single preclinical paper. NNRTI
 
 <!-- review:begin nz-lic-20261106-nevirapine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Nevirapine is also no longer actively marketed in New Zealand (both licences cancelled), and it carries notable liver and skin toxicity risks." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Nevirapine is also no longer actively marketed in New Zealand (both licences cancelled), and it carries notable liver and skin toxicity risks." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-nevirapine-1 -->
 
@@ -122,7 +122,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Nevirapine is also no longer actively marketed in New Zealand (both licences cancelled), and i" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Nevirapine is also no longer actively marketed in New Zealand (both licences cancelled), and i" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-20 | "Detailed mechanism of action data are not available in the data compiled for this report, so this description relies on its known drug class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
 
 <!-- review:end log -->

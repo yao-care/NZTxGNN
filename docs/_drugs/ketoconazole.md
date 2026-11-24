@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 251
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). In New Zealand: 5 Pharmac Schedule items"
@@ -90,7 +90,7 @@ Several other retrieved publications (for example on polycystic ovary syndrome, 
 
 <!-- review:begin nz-lic-20261106-ketoconazole-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid, and no approved indication text is recorded for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid, and no approved indication text is recorded for them." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ketoconazole-1 -->
 
@@ -139,7 +139,7 @@ The evidence is limited to model prediction, laboratory studies, reviews and one
 
 <!-- review:begin nz-lic-20261106-ketoconazole-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A route and formulation strategy limited to topical use, given the systemic liver and adrenal risks / Confirmation of whether a topical product could be supplied in New Zealand, since all five current licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 5 listings for this drug, 5 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "A route and formulation strategy limited to topical use, given the systemic liver and adrenal risks / Confirmation of whether a topical product could be supplied in New Zealand, since all five current licences are valid" Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-ketoconazole-2 -->
 
@@ -151,8 +151,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All five licences are valid, and no approved indication text is recorded for them" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "Confirmation of whether a topical product could be supplied in New Zealand, since all five current licences are valid" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All five licences are valid, and no approved indication text is recorded for them" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Confirmation of whether a topical product could be supplied in New Zealand, since all five current licences are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->

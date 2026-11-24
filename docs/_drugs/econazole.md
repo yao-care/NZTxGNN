@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Econazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 ---
 
@@ -89,7 +89,7 @@ Neither carries an indication in the available records, so the uses listed above
 
 <!-- review:begin nz-lic-20261106-econazole-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products. Neither carries an indication in the available records, so the uses listed above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products. Neither carries an indication in the available records, so the uses listed above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-econazole-1 -->
 
@@ -123,7 +123,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both licences are valid single-ingredient products" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Both licences are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism-of-action data for econazole are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577) |
 
 <!-- review:end log -->

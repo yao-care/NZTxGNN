@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Diazoxide: predicted new indication Hypotrichosis simplex of the scalp . Alopecia is the best-supported p… (evidence level L5). Approved use: Hyperinsulinaemic hypoglycaemia…"
 monitor_inn: "DIAZOXIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
@@ -94,7 +94,7 @@ Related literature on hypertrichosis and the original indication:
 
 <!-- review:begin nz-lic-20261106-diazoxide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three authorisations are valid, so diazoxide is currently marketed in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "All three authorisations are valid, so diazoxide is currently marketed in New Zealand." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-diazoxide-1 -->
 
@@ -143,7 +143,7 @@ All predictions rest on model scores alone (L5), except alopecia, which has L4 i
 
 <!-- review:begin nz-lic-20261106-diazoxide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There are no human efficacy trials, the New Zealand licences are all cancelled, and the systemic side-effect burden argues against oral use." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 3 listings for this drug, 3 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "There are no human efficacy trials, the New Zealand licences are all cancelled, and the systemic side-effect burden argues against oral use." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-diazoxide-2 -->
 
@@ -161,8 +161,8 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All three authorisations are valid, so diazoxide is currently marketed in New Zealand" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
-| 2026-11-06 | Removed: "the New Zealand licences are all cancelled" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "All three authorisations are valid, so diazoxide is currently marketed in New Zealand" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "the New Zealand licences are all cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Proglycem (diazoxide) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2) |
 
 <!-- review:end log -->

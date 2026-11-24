@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "ACETYLCYSTEINE"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 description: "Acetylcysteine: predicted new indication thrombotic disease (evidence level L1). In New Zealand: 2 Pharmac Schedule items"
 ---
 
@@ -93,7 +93,7 @@ No approved indication text is recorded.
 
 <!-- review:begin nz-lic-20261106-acetylcysteine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Local records list two single-ingredient injectable licences. Both are recorded as cancelled, although the overall market status is recorded as Marketed. No approved indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Pharmaceutical Schedule lists 2 listings for this drug, 2 current; the Quick Overview and the table under New Zealand Market Information show the current figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
+> **Review correction (2026-11-06)**: Originally stated: "Local records list two single-ingredient injectable licences. Both are recorded as cancelled, although the overall market status is recorded as Marketed. No approved indication text is recorded." Removed: the number or status of Schedule listings stated here did not match the Pharmac Schedule data (the Pharmaceutical Schedule as of 2026-11-06). The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/).
 
 <!-- review:end nz-lic-20261106-acetylcysteine-1 -->
 
@@ -135,7 +135,7 @@ Below is the review log for this page: statements checked against official Pharm
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Local records list two single-ingredient injectable licences. Both are recorded as cancelled, although the overall market status is recorded" | Corrected | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
+| 2026-11-06 | Removed: "Local records list two single-ingredient injectable licences. Both are recorded as cancelled, although the overall market status is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
 
 <!-- review:end log -->
