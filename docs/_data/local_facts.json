@@ -17,15 +17,15 @@
   "drugs_none_current": 0,
   "drugs_without_data": 1,
   "drugs_partial": 0,
-  "items_total": 1665,
-  "items_current": 1665
+  "items_total": 1646,
+  "items_current": 1646
  },
  "reviews": {
-  "records": 938,
+  "records": 940,
   "pages": 441,
   "public_pages_with_records": 438,
   "by_action": {
-   "correct": 540,
+   "correct": 542,
    "mechanism": 398
   }
  },
@@ -50,15 +50,6 @@
    "lt": 18,
    "lv": 18,
    "r": 1,
-   "i": "alopecia areata"
-  },
-  {
-   "t": "Hydrocortisone Acetate",
-   "u": "/drugs/hydrocortisone-acetate/",
-   "l": "L2",
-   "lt": 18,
-   "lv": 18,
-   "r": 4,
    "i": "alopecia areata"
   },
   {
@@ -105,6 +96,15 @@
    "lv": 15,
    "r": 1,
    "i": "atopic eczema"
+  },
+  {
+   "t": "Clozapine",
+   "u": "/drugs/clozapine/",
+   "l": "L2",
+   "lt": 15,
+   "lv": 15,
+   "r": 3,
+   "i": "manic bipolar affective disorder"
   }
  ],
  "no_current": [],
@@ -176,6 +176,24 @@
  },
  "recent_reviews": [
   {
+   "t": "Prednisolone Acetate",
+   "u": "/drugs/prednisolone-acetate/",
+   "s": "\"Only the ophthalmic route\" → acetate items are eye drops; an oral prednisolone liquid is also listed",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Fluticasone Furoate",
+   "u": "/drugs/fluticasone-furoate/",
+   "s": "Premise corrected: the fluticasone furoate items on the Pharmac Schedule are inhaled",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Hydrocortisone Acetate",
+   "u": "/drugs/hydrocortisone-acetate/",
+   "s": "\"The only local product is a rectal foam\" → hydrocortisone acetate single-ingredient items are rectal foams…",
+   "d": "2026-11-25"
+  },
+  {
    "t": "Methotrexate",
    "u": "/drugs/methotrexate/",
    "s": "Caption of the earlier table (\"Main licences\") removed",
@@ -185,12 +203,6 @@
    "t": "Mesalazine",
    "u": "/drugs/mesalazine/",
    "s": "Caption of the earlier table (\"Five representative entries\") removed",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Hydrocortisone Acetate",
-   "u": "/drugs/hydrocortisone-acetate/",
-   "s": "Premise \"the local product is a rectal foam\" removed",
    "d": "2026-11-24"
   },
   {
@@ -306,21 +318,27 @@
    "u": "/drugs/tyrosine/",
    "s": "Removed: \"and the reason for license cancellation\"",
    "d": "2026-11-06"
-  },
-  {
-   "t": "Trimethoprim",
-   "u": "/drugs/trimethoprim/",
-   "s": "Removed: \"The drug is marketed in this country, and the 1 licence on record (1 of 1) is valid. The record is…",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Triamcinolone",
-   "u": "/drugs/triamcinolone/",
-   "s": "Removed: \"All five New Zealand licences are valid, so the drug is marketed, and label safety information was…",
-   "d": "2026-11-06"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Prednisolone Acetate",
+   "u": "/drugs/prednisolone-acetate/",
+   "s": "\"Only the ophthalmic route\" → acetate items are eye drops; an oral prednisolone liquid is also listed",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Fluticasone Furoate",
+   "u": "/drugs/fluticasone-furoate/",
+   "s": "Premise corrected: the fluticasone furoate items on the Pharmac Schedule are inhaled",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Hydrocortisone Acetate",
+   "u": "/drugs/hydrocortisone-acetate/",
+   "s": "\"The only local product is a rectal foam\" → hydrocortisone acetate single-ingredient items are rectal foams…",
+   "d": "2026-11-25"
+  },
   {
    "t": "Methotrexate",
    "u": "/drugs/methotrexate/",
@@ -331,12 +349,6 @@
    "t": "Mesalazine",
    "u": "/drugs/mesalazine/",
    "s": "Caption of the earlier table (\"Five representative entries\") removed",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Hydrocortisone Acetate",
-   "u": "/drugs/hydrocortisone-acetate/",
-   "s": "Premise \"the local product is a rectal foam\" removed",
    "d": "2026-11-24"
   },
   {
@@ -356,18 +368,6 @@
    "u": "/drugs/betamethasone/",
    "s": "\"marketed in New Zealand as topical products\" → mainly topical; an injection is also listed",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Erythromycin",
-   "u": "/drugs/erythromycin/",
-   "s": "\"The only New Zealand product is an intravenous injection\" → \"The New Zealand Pharmac Schedule items are all…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tetracycline",
-   "u": "/drugs/tetracycline/",
-   "s": "Removed: \"Tetracycline is also cancelled-only in New Zealand, which limits practical use.\"",
-   "d": "2026-11-12"
   }
  ],
  "files": {

@@ -1,0 +1,26 @@
+{
+  "_doc": "證據包收錯的品項（2026-11-25 第五輪，用戶決定）：scripts/rebuild_licenses_by_ingredient.py（2026-11-06 依成分重建）比對前把鹽類、酯類字樣拿掉，ferrous fumarate 與 ferrous sulfate 都變成「ferrous」、fluticasone furoate 與 propionate 都變成「fluticasone」、hydrocortisone acetate 與 butyrate 都變成「hydrocortisone」，另一個鐵鹽或另一個酯的 Pharmac 品項就被收進本藥證據包。規則：證據包名在 bundles 裡，紀錄成分欄（Pharmac Chemical）有 require 時沒有一段符合 require、或有一段符合 forbid，就從 tfda.records 移到 tfda.excluded_records（附 excluded、excluded_reason、excluded_basis），total_matches 同步扣掉。scripts/exclude_mismatched_records.py 套用（可重複執行；每週 license-refresh.yml 在 license_refresh 之前跑），rebuild_licenses_by_ingredient.py 重建時與 collectors/nzfda.py 收集時也照同一份規則不收。不收的另一類：本藥的母體（hydrocortisone、prednisolone、dexamethasone 之於其酯）、鹽類（cyclizine lactate／hydrochloride、disopyramide、desmopressin）與寫法（paracetamol、ciclosporin、glyceryl trinitrate、flupenthixol、pericyazine、ethinyloestradiol、colecalciferol、adrenaline、mitozantrone、aciclovir、macrogol）。",
+  "rules": [
+    {"bundles": ["ferrous_fumarate"], "require": "^ferrous fumarate",
+     "reason": "成分是 ferrous sulfate（硫酸亞鐵，Ferro-Liquid），不是 ferrous fumarate（富馬酸亞鐵）；兩者是不同的鐵鹽，各有自己的頁",
+     "basis": "Pharmac Pharmaceutical Schedule, Community Medicines（CPSReporting.xlsx）Chemical 欄：2664429 Ferro-Liquid「Ferrous sulfate」"},
+    {"bundles": ["ferrous_sulfate", "ferrous_sulfate_anhydrous"], "require": "^ferrous sulfate",
+     "reason": "成分是 ferrous fumarate（富馬酸亞鐵，Ferro-tab、Ferro-F-Tabs），不是 ferrous sulfate（硫酸亞鐵）；兩者是不同的鐵鹽，各有自己的頁",
+     "basis": "Pharmac Pharmaceutical Schedule, Community Medicines Chemical 欄：2162156 Ferro-tab「Ferrous fumarate」、2615584 Ferro-F-Tabs「Ferrous fumarate with folic acid」"},
+    {"bundles": ["fluticasone_furoate"], "require": "^fluticasone furoate",
+     "reason": "成分是 fluticasone propionate（丙酸氟替卡松：Flixotide、Seretide、Flixonase；Pharmac Chemical 只寫「Fluticasone」的品項都是 propionate）；fluticasone furoate 與 propionate 是兩個不同的酯（劑量與效價不同，不互相轉換）",
+     "basis": "Pharmac Pharmaceutical Schedule, Community Medicines Chemical 欄（472859 等 Flixotide、2120208 等 Seretide「Fluticasone (with salmeterol)」，2407000 Flixonase「Fluticasone propionate」）；Flixotide／Seretide／Flixonase 的有效成分是 fluticasone propionate（Medsafe data sheet）"},
+    {"bundles": ["fluticasone_propionate"], "forbid": "^fluticasone furoate",
+     "reason": "成分是 fluticasone furoate（Breo Ellipta、Trelegy Ellipta），不是 fluticasone propionate；兩個不同的酯",
+     "basis": "Pharmac Pharmaceutical Schedule, Community Medicines Chemical 欄：2494299 Breo Ellipta、2674904 Trelegy Ellipta「Fluticasone furoate with …」"},
+    {"bundles": ["hydrocortisone_acetate"], "forbid": "^hydrocortisone butyrate",
+     "reason": "成分是 hydrocortisone butyrate（丁酸氫化可體松，Locoid），不是 hydrocortisone acetate；兩個不同的酯（效價不同）",
+     "basis": "Pharmac Pharmaceutical Schedule, Community Medicines Chemical 欄：521957、2017458、210382、210307 Locoid「Hydrocortisone butyrate」"},
+    {"bundles": ["hydrocortisone_butyrate"], "forbid": "^hydrocortisone acetate",
+     "reason": "成分是 hydrocortisone acetate（醋酸氫化可體松，Cortifoam、Colifoam、Proctofoam），不是 hydrocortisone butyrate；兩個不同的酯",
+     "basis": "Pharmac Pharmaceutical Schedule, Community Medicines Chemical 欄「Hydrocortisone acetate (with pramoxine hydrochloride)」"},
+    {"bundles": ["prednisolone_acetate"], "forbid": "^prednisolone sodium phosphate",
+     "reason": "成分是 prednisolone sodium phosphate（磷酸普賴松龍鈉），不是 prednisolone acetate；兩個不同的酯",
+     "basis": "Pharmac Pharmaceutical Schedule, Community Medicines Chemical 欄：307475「Prednisolone sodium phosphate」"}
+  ]
+}

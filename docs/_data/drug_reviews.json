@@ -33128,8 +33128,8 @@
    "claim": "The only local product is a rectal foam, which is not suited to this use.",
    "replacement": "The single-ingredient hydrocortisone acetate items on the Pharmac Schedule are rectal foams, which are not suited to this use; the Schedule also lists other hydrocortisone products, including creams, ointments and lotions.",
    "summary": "\"The only local product is a rectal foam\" → hydrocortisone acetate single-ingredient items are rectal foams; other hydrocortisone products also listed",
-   "note": "Corrected: the Pharmac Schedule items collected for this page include, besides the hydrocortisone acetate rectal foams, other hydrocortisone, hydrocortisone butyrate and combination products (creams, ointments, lotions, tablets, an injection); the sentence said there was only one local product. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
-   "finding": "證據包 tfda.records 18 筆：hydrocortisone 鹼 6（乳膏、注射、粉、錠）、acetate 單方 2（Cortifoam、Colifoam 直腸泡沫）、butyrate 4（乳膏、軟膏、乳液、頭皮液）、複方 6（Proctofoam 外用泡沫等）；「The only local product is a rectal foam」只對 acetate 單方子集成立，改成明講子集並補上其他品項存在",
+   "note": "Corrected: the Pharmac Schedule items collected for this page include, besides the hydrocortisone acetate rectal foams, other hydrocortisone and combination products (creams, ointments, lotions, tablets, an injection); the sentence said there was only one local product. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+   "finding": "證據包 tfda.records 18 筆：hydrocortisone 鹼 6（乳膏、注射、粉、錠）、acetate 單方 2（Cortifoam、Colifoam 直腸泡沫）、butyrate 4（乳膏、軟膏、乳液、頭皮液）、複方 6（Proctofoam 外用泡沫等）；「The only local product is a rectal foam」只對 acetate 單方子集成立，改成明講子集並補上其他品項存在；2026-11-25 第五輪：butyrate 4 筆（Locoid）是另一個酯，依排除表移出，說明拿掉 butyrate",
    "sources": [
     {
      "title": "Pharmac Pharmaceutical Schedule",
@@ -33137,8 +33137,32 @@
      "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-24",
-   "method": "2026-11-24 第二輪人工查核（用戶決定：劑型與張數說法逐句對照證據包全部品項）"
+   "checked": "2026-11-25",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：劑型與張數說法逐句對照證據包全部品項）",
+   "history": [
+    {
+     "id": "nz-lic-20261124b-hydrocortisone_acetate-1",
+     "drug": "hydrocortisone_acetate",
+     "file": "hydrocortisone_acetate.md",
+     "action": "correct",
+     "claim": "The only local product is a rectal foam, which is not suited to this use.",
+     "replacement": "The single-ingredient hydrocortisone acetate items on the Pharmac Schedule are rectal foams, which are not suited to this use; the Schedule also lists other hydrocortisone products, including creams, ointments and lotions.",
+     "summary": "\"The only local product is a rectal foam\" → hydrocortisone acetate single-ingredient items are rectal foams; other hydrocortisone products also listed",
+     "note": "Corrected: the Pharmac Schedule items collected for this page include, besides the hydrocortisone acetate rectal foams, other hydrocortisone, hydrocortisone butyrate and combination products (creams, ointments, lotions, tablets, an injection); the sentence said there was only one local product. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+     "finding": "證據包 tfda.records 18 筆：hydrocortisone 鹼 6（乳膏、注射、粉、錠）、acetate 單方 2（Cortifoam、Colifoam 直腸泡沫）、butyrate 4（乳膏、軟膏、乳液、頭皮液）、複方 6（Proctofoam 外用泡沫等）；「The only local product is a rectal foam」只對 acetate 單方子集成立，改成明講子集並補上其他品項存在",
+     "sources": [
+      {
+       "title": "Pharmac Pharmaceutical Schedule",
+       "url": "https://schedule.pharmac.govt.nz/",
+       "accessed": "2026-11-24"
+      }
+     ],
+     "checked": "2026-11-24",
+     "method": "2026-11-24 第二輪人工查核（用戶決定：劑型與張數說法逐句對照證據包全部品項）",
+     "retired": "2026-11-25",
+     "reason": "2026-11-25 第五輪：hydrocortisone butyrate（Locoid）是另一個酯，已依排除表從本藥證據包移出，說明裡不再列"
+    }
+   ]
   },
   {
    "id": "nz-lic-20261124b-hydrocortisone_acetate-2",
@@ -33283,6 +33307,46 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 第二輪人工查核（用戶決定）"
+  },
+  {
+   "id": "nz-lic-20261125-fluticasone_furoate-1",
+   "drug": "fluticasone_furoate",
+   "file": "fluticasone_furoate.md",
+   "action": "correct",
+   "claim": "(the available forms are inhaled and intranasal, whereas eczema treatment is topical)",
+   "replacement": "(the forms on the Pharmac Schedule are inhaled, whereas eczema treatment is topical)",
+   "summary": "Premise corrected: the fluticasone furoate items on the Pharmac Schedule are inhaled",
+   "note": "Corrected: the nasal spray and most inhalers originally collected for this page (Flixonase, Flixotide, Seretide) contain fluticasone propionate, a different ester, and have been removed; the fluticasone furoate items on the Pharmac Schedule are inhalation powders (Breo Ellipta, Trelegy Ellipta). Only the premise was changed; the recommendation is unchanged.",
+   "finding": "2026-11-25 第五輪（用戶決定）：依成分重建時拿掉鹽類／酯類字樣而收錯的另一個鐵鹽或酯依 config/bundle_record_exclusions.json 移出，正文因此矛盾的句子寫紀錄：fluticasone_furoate 證據包 13 筆中 11 筆是 propionate（Pharmac Chemical「Fluticasone」＝Flixotide／Seretide，「Fluticasone propionate」＝Flixonase），移出後只剩 Breo、Trelegy 吸入粉",
+   "sources": [
+    {
+     "title": "Pharmac Pharmaceutical Schedule, Community Medicines (CPSReporting.xlsx)",
+     "url": "https://schedule.pharmac.govt.nz/",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪（用戶決定）：依成分重建時拿掉鹽類／酯類字樣而收錯的另一個鐵鹽或酯依 config/bundle_record_exclusions.json 移出，正文因此矛盾的句子寫紀錄"
+  },
+  {
+   "id": "nz-lic-20261125-prednisolone_acetate-1",
+   "drug": "prednisolone_acetate",
+   "file": "prednisolone_acetate.md",
+   "action": "correct",
+   "claim": "Only the ophthalmic route (eye drops 1%) is on record.",
+   "replacement": "The prednisolone acetate items on record are eye drops 1%; the table also lists an oral prednisolone liquid.",
+   "summary": "\"Only the ophthalmic route\" → acetate items are eye drops; an oral prednisolone liquid is also listed",
+   "note": "Corrected: the Pharmac Schedule items collected for this page also include an oral prednisolone liquid (Redipred); the sentence said only the ophthalmic route was on record. The prednisolone sodium phosphate eye drops originally collected (Minims Prednisolone) are a different ester and have been removed. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures.",
+   "finding": "2026-11-25 第五輪（用戶決定）：依成分重建時拿掉鹽類／酯類字樣而收錯的另一個鐵鹽或酯依 config/bundle_record_exclusions.json 移出，正文因此矛盾的句子寫紀錄：prednisolone_acetate 證據包移出 Minims（sodium phosphate）後剩 3 筆：Pred Forte、Prednisolone-AFT（acetate 眼藥水）與 Redipred（prednisolone 口服液）；原句「只有眼用」在移出前就不成立（Redipred 一直在），找同類時一併更正",
+   "sources": [
+    {
+     "title": "Pharmac Pharmaceutical Schedule, Community Medicines (CPSReporting.xlsx)",
+     "url": "https://schedule.pharmac.govt.nz/",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第五輪（用戶決定）：依成分重建時拿掉鹽類／酯類字樣而收錯的另一個鐵鹽或酯依 config/bundle_record_exclusions.json 移出，正文因此矛盾的句子寫紀錄"
   }
  ]
 }

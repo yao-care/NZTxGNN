@@ -702,14 +702,14 @@
       "date": "2026-11-19"
     },
     "ferrous_fumarate": {
-      "tail": "In New Zealand: 3 Pharmac Schedule items",
+      "tail": "In New Zealand: 2 Pharmac Schedule items",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-25"
     },
     "ferrous_sulfate_anhydrous": {
-      "tail": "In New Zealand: 3 Pharmac Schedule items",
+      "tail": "In New Zealand: 1 Pharmac Schedule item",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-25"
     },
     "filgrastim": {
       "tail": "In New Zealand: 2 Pharmac Schedule items",
@@ -752,9 +752,9 @@
       "date": "2026-11-19"
     },
     "fluticasone_furoate": {
-      "tail": "In New Zealand: 13 Pharmac Schedule items",
+      "tail": "In New Zealand: 2 Pharmac Schedule items",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-25"
     },
     "folic_acid": {
       "tail": "In New Zealand: 4 Pharmac Schedule items",
@@ -807,9 +807,9 @@
       "date": "2026-11-19"
     },
     "hydrocortisone_acetate": {
-      "tail": "In New Zealand: 18 Pharmac Schedule items",
+      "tail": "In New Zealand: 14 Pharmac Schedule items",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-25"
     },
     "hydroxocobalamin": {
       "tail": "In New Zealand: 1 Pharmac Schedule item",
@@ -1437,9 +1437,9 @@
       "date": "2026-11-19"
     },
     "prednisolone_acetate": {
-      "tail": "In New Zealand: 4 Pharmac Schedule items",
+      "tail": "In New Zealand: 3 Pharmac Schedule items",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-25"
     },
     "prednisone": {
       "tail": "In New Zealand: 4 Pharmac Schedule items",
@@ -4417,6 +4417,41 @@
       "date": "2026-11-19",
       "from": "\"Zuclopenthixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
       "to": "\"Zuclopenthixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In New Zealand: 2 Pharmac Schedule items\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ferrous_fumarate.md",
+      "date": "2026-11-25",
+      "from": "\"Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). In New Zealand: 3 Pharmac Schedule items\"",
+      "to": "\"Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). In New Zealand: 2 Pharmac Schedule items\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ferrous_sulfate_anhydrous.md",
+      "date": "2026-11-25",
+      "from": "\"Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). In New Zealand: 3 Pharmac Schedule items\"",
+      "to": "\"Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). In New Zealand: 1 Pharmac Schedule item\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluticasone_furoate.md",
+      "date": "2026-11-25",
+      "from": "\"Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). In New Zealand: 13 Pharmac Schedule items\"",
+      "to": "\"Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). In New Zealand: 2 Pharmac Schedule items\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hydrocortisone_acetate.md",
+      "date": "2026-11-25",
+      "from": "\"Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L2). In New Zealand: 18 Pharmac Schedule items\"",
+      "to": "\"Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L2). In New Zealand: 14 Pharmac Schedule items\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/prednisolone_acetate.md",
+      "date": "2026-11-25",
+      "from": "\"Prednisolone Acetate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). In New Zealand: 4 Pharmac Schedule items\"",
+      "to": "\"Prednisolone Acetate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). In New Zealand: 3 Pharmac Schedule items\"",
       "tool": ".claude/drug_meta_description.py --apply"
     }
   ]

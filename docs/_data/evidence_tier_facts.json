@@ -192,10 +192,10 @@
     "u": "/drugs/hydrocortisone-acetate/",
     "l": "L2",
     "i": "alopecia areata",
-    "lt": 18,
-    "lv": 18,
+    "lt": 14,
+    "lv": 14,
     "r": 4,
-    "rs": "Premise \"the local product is a rectal foam\" removed",
+    "rs": "\"The only local product is a rectal foam\" → hydrocortisone acetate single-ingredient items are rectal foams…",
     "x": 0
    },
    {
@@ -1097,17 +1097,6 @@
     "lv": 13,
     "r": 5,
     "rs": "Removed: \"since only inhaled forms were licensed - A decision on whether any product would be re-registered…",
-    "x": 0
-   },
-   {
-    "t": "Fluticasone Furoate",
-    "u": "/drugs/fluticasone-furoate/",
-    "l": "L5",
-    "i": "atopic eczema",
-    "lt": 13,
-    "lv": 13,
-    "r": 2,
-    "rs": "Removed: \"Both authorizations are combination inhalers and both are cancelled\"",
     "x": 0
    },
    {
@@ -2167,17 +2156,6 @@
     "x": 0
    },
    {
-    "t": "Prednisolone Acetate",
-    "u": "/drugs/prednisolone-acetate/",
-    "l": "L5",
-    "i": "chronic follicular conjunctivitis",
-    "lt": 4,
-    "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"the cancelled licence status and\"",
-    "x": 0
-   },
-   {
     "t": "Raltegravir",
     "u": "/drugs/raltegravir/",
     "l": "L5",
@@ -2541,28 +2519,6 @@
     "x": 0
    },
    {
-    "t": "Ferrous Fumarate",
-    "u": "/drugs/ferrous-fumarate/",
-    "l": "L5",
-    "i": "non-syndromic esophageal malformation",
-    "lt": 3,
-    "lv": 3,
-    "r": 1,
-    "rs": "Removed: \"and the only New Zealand authorisation has been cancelled\"",
-    "x": 0
-   },
-   {
-    "t": "Ferrous Sulfate Anhydrous",
-    "u": "/drugs/ferrous-sulfate-anhydrous/",
-    "l": "L5",
-    "i": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
-    "lt": 3,
-    "lv": 3,
-    "r": 2,
-    "rs": "Removed: \"Clarification of current New Zealand availability, since the only licence is cancelled\"",
-    "x": 0
-   },
-   {
     "t": "Fexofenadine",
     "u": "/drugs/fexofenadine/",
     "l": "L5",
@@ -2769,6 +2725,17 @@
     "lv": 3,
     "r": 2,
     "rs": "Removed: \"Clarification of the New Zealand licence status, given that both licences are cancelled\"",
+    "x": 0
+   },
+   {
+    "t": "Prednisolone Acetate",
+    "u": "/drugs/prednisolone-acetate/",
+    "l": "L5",
+    "i": "chronic follicular conjunctivitis",
+    "lt": 3,
+    "lv": 3,
+    "r": 3,
+    "rs": "\"Only the ophthalmic route\" → acetate items are eye drops; an oral prednisolone liquid is also listed",
     "x": 0
    },
    {
@@ -3421,6 +3388,17 @@
     "x": 0
    },
    {
+    "t": "Ferrous Fumarate",
+    "u": "/drugs/ferrous-fumarate/",
+    "l": "L5",
+    "i": "non-syndromic esophageal malformation",
+    "lt": 2,
+    "lv": 2,
+    "r": 1,
+    "rs": "Removed: \"and the only New Zealand authorisation has been cancelled\"",
+    "x": 0
+   },
+   {
     "t": "Filgrastim",
     "u": "/drugs/filgrastim/",
     "l": "L5",
@@ -3462,6 +3440,17 @@
     "lv": 2,
     "r": 2,
     "rs": "Removed: \"given that both licences are cancelled\"",
+    "x": 0
+   },
+   {
+    "t": "Fluticasone Furoate",
+    "u": "/drugs/fluticasone-furoate/",
+    "l": "L5",
+    "i": "atopic eczema",
+    "lt": 2,
+    "lv": 2,
+    "r": 3,
+    "rs": "Premise corrected: the fluticasone furoate items on the Pharmac Schedule are inhaled",
     "x": 0
    },
    {
@@ -4364,6 +4353,17 @@
     "lv": 1,
     "r": 2,
     "rs": "Removed: \"The only New Zealand licence is cancelled\"",
+    "x": 0
+   },
+   {
+    "t": "Ferrous Sulfate Anhydrous",
+    "u": "/drugs/ferrous-sulfate-anhydrous/",
+    "l": "L5",
+    "i": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
+    "lt": 1,
+    "lv": 1,
+    "r": 2,
+    "rs": "Removed: \"Clarification of current New Zealand availability, since the only licence is cancelled\"",
     "x": 0
    },
    {

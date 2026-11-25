@@ -11,6 +11,8 @@ NZ 站的本地資料是 Pharmac 的藥品給付清單（Pharmaceutical Schedule
    同一個 Pharmacode 只算一筆（任一列 Fully subsidised＝Yes 即 Yes，與 license_adapter.status_index 相同）。
 3. 寫回證據包 tfda：records＝全部比對到的 Pharmacode（單方在前），total_matches＝筆數；原紀錄整批換掉。比對結果是空的、但原紀錄的
    Pharmacode 仍在現行清單 → 不改這個證據包、列進報告（疑似比對漏掉，要人看）。
+2026-11-25（第五輪，用戶決定）：config/bundle_record_exclusions.json 列的收錯品項（拿掉鹽類／酯類字樣後撞名的另一個鐵鹽或酯，
+例 ferrous_fumarate 收到 ferrous sulfate）不收，證據包的 excluded_records 照留。
 用法（repo 根目錄）：python3 scripts/rebuild_licenses_by_ingredient.py [--skip-download] [--dry-run] [--report out.tsv] [頁 ...]
 """
 import io
@@ -24,6 +26,8 @@ import openpyxl
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+from nztxgnn.regulatory import record_exclusions as RX  # noqa: E402
 BUNDLES = ROOT / "data/bundles"
 RAW = ROOT / "data/raw"
 XLSX = RAW / "CPSReporting.xlsx"
@@ -137,6 +141,7 @@ def main(argv):
         inn = (b.get("drug") or {}).get("inn") or page.replace("_", " ")
         key = base(norm(inn))
         hit = set(by_base.get(key, set())) if len(key) >= 3 else set()
+        hit = {c for c in hit if not RX.match_ingredients(page, prods[c]["r"].get("Chemical"))}
         old_ids = sorted({str(x.get("license_id") or "").strip() for x in reg.get("records") or []} - {""})
         old_cur = sorted(set(old_ids) & set(prods))
         if not hit and old_cur and page not in CONFIRMED_EMPTY:

@@ -169,6 +169,10 @@ class LocalFDACollector(BaseCollector):
                 # Phase 1 對照沒對上的成分（例：重音字未正規化）→ 退回比對本國藥證的成分欄
                 recs = self._text_match(drug)
             active = [r for r in recs if not self._is_withdrawn(r)]
+            # 2026-11-25（第五輪）：config/bundle_record_exclusions.json 列的收錯品項不收
+            from nztxgnn.regulatory import record_exclusions as RX
+            ing_f = self.fm.get("ingredients")
+            active = [r for r in active if not (ing_f and RX.match_ingredients(drug, r.get(ing_f)))]
             return self._make_result(query=query, data=self._format(active, ids), success=True)
         except Exception as e:  # noqa: BLE001 — 與其他 collector 一致：失敗時回 not found 並帶錯誤
             return self._make_result(query=query, data={"found": False, "records": []}, success=False, error_message=str(e))

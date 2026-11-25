@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "FERROUS FUMARATE"
 predicted_indications: ["non-syndromic esophageal malformation"]
-description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
+description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Ferrous Fumarate
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 3 |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,7 +77,6 @@ Currently no related literature available.
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
 | 2162156 | Ferro-tab | Ferrous fumarate | Tab 200 mg (65.7 mg elemental) | Yes |
-| 2664429 | Ferro-Liquid | Ferrous sulfate | Oral liq 30 mg (6 mg elemental) per 1 ml | Yes |
 | 2615584 | Ferro-F-Tabs | Ferrous fumarate with folic acid | Tab 310 mg (100 mg elemental) with folic acid 350… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.

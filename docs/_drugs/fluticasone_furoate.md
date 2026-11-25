@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "fluticasone furoate"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
-description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). In New Zealand: 13 Pharmac Schedule items"
+description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). In New Zealand: 2 Pharmac Schedule items"
 ---
 
 # Fluticasone Furoate
@@ -50,8 +50,8 @@ The evidence is a model prediction only.
 | Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (13 Community Medicines items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 13 |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (2 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,19 +83,8 @@ No clinical trials are currently registered for this drug and indication.
 
 | Pharmacode | Brand | Chemical | Presentation | Fully subsidised |
 |------|------|------|------|------|
-| 472859 | Flixotide | Fluticasone | Aerosol inhaler, 125 mcg per dose | Yes |
-| 472867 | Flixotide | Fluticasone | Aerosol inhaler, 250 mcg per dose | Yes |
-| 2004887 | Flixotide | Fluticasone | Aerosol inhaler, 50 mcg per dose | Yes |
-| 402974 | Flixotide Accuhaler | Fluticasone | Powder for inhalation, 100 mcg per dose | Yes |
-| 402990 | Flixotide Accuhaler | Fluticasone | Powder for inhalation, 250 mcg per dose | Yes |
-| 402958 | Flixotide Accuhaler | Fluticasone | Powder for inhalation, 50 mcg per dose | Yes |
-| 2407000 | Flixonase Hayfever & Allergy | Fluticasone propionate | Metered aqueous nasal spray, 50 mcg per dose | Yes |
 | 2674904 | Trelegy Ellipta | Fluticasone furoate with umeclidinium and vilanterol | Powder for inhalation fluticasone furoate 100 mcg… | Yes |
 | 2494299 | Breo Ellipta | Fluticasone furoate with vilanterol | Powder for inhalation 100 mcg with vilanterol 25… | Yes |
-| 2120208 | Seretide | Fluticasone with salmeterol | Aerosol inhaler 125 mcg with salmeterol 25 mcg | Yes |
-| 2120194 | Seretide | Fluticasone with salmeterol | Aerosol inhaler 50 mcg with salmeterol 25 mcg | Yes |
-| 2120216 | Seretide Accuhaler | Fluticasone with salmeterol | Powder for inhalation 100 mcg with salmeterol 50… | Yes |
-| 2120224 | Seretide Accuhaler | Fluticasone with salmeterol | Powder for inhalation 250 mcg with salmeterol 50… | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
@@ -125,8 +114,14 @@ The prediction for atopic eczema is mechanistically plausible but rests on a mod
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Medsafe (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- Direct clinical evidence of fluticasone furoate in atopic eczema, and a check of route compatibility (the available forms are inhaled and intranasal, whereas eczema treatment is topical)
+- Direct clinical evidence of fluticasone furoate in atopic eczema, and a check of route compatibility (the forms on the Pharmac Schedule are inhaled, whereas eczema treatment is topical)
 - A review of the bronchitis and chronic cough findings as a possible separate research question
+
+<!-- review:begin nz-lic-20261125-fluticasone_furoate-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "(the available forms are inhaled and intranasal, whereas eczema treatment is topical)" Corrected: the nasal spray and most inhalers originally collected for this page (Flixonase, Flixotide, Seretide) contain fluticasone propionate, a different ester, and have been removed; the fluticasone furoate items on the Pharmac Schedule are inhalation powders (Breo Ellipta, Trelegy Ellipta). Only the premise was changed; the recommendation is unchanged. Source: [Pharmac Pharmaceutical Schedule, Community Medicines (CPSReporting.xlsx)](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261125-fluticasone_furoate-1 -->
 
 <!-- review:begin log -->
 
@@ -138,6 +133,7 @@ Below is the review log for this page: statements checked against official Pharm
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both authorizations are combination inhalers and both are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arnuity Ellipta (fluticasone furoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=50f193ee-1691-486d-9370-a664df63695c) |
+| 2026-11-25 | Premise corrected: the fluticasone furoate items on the Pharmac Schedule are inhaled | Corrected | [Pharmac Pharmaceutical Schedule, Community Medicines (CPSReporting.xlsx)](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 

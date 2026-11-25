@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
-description: "Prednisolone Acetate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). In New Zealand: 4 Pharmac Schedule items"
+description: "Prednisolone Acetate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). In New Zealand: 3 Pharmac Schedule items"
 ---
 
 # Prednisolone Acetate
@@ -50,8 +50,8 @@ Among the other predicted conditions, papillary conjunctivitis and vernal conjun
 | Predicted New Indication | Chronic follicular conjunctivitis |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (4 Community Medicines items) – Medsafe licence status is not included in this data |
-| Number of Pharmac Schedule Items | 4 |
+| New Zealand Market Status | Listed on the Pharmac Pharmaceutical Schedule (3 Community Medicines items) – Medsafe licence status is not included in this data |
+| Number of Pharmac Schedule Items | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -120,13 +120,18 @@ Most of these publications concern other corticosteroids (loteprednol) or other 
 | 317659 | Redipred | Prednisolone | Oral liq 5 mg per ml | Yes |
 | 2501511 | Prednisolone-AFT | Prednisolone acetate | Eye drops 1% | Yes |
 | 260533 | Pred Forte | Prednisolone acetate | Eye drops 1% | Yes |
-| 307475 | Minims Prednisolone | Prednisolone sodium phosphate | Eye drops 0.5%, single dose (preservative free) | Yes |
 
 Source: Pharmac Pharmaceutical Schedule, Community Medicines (funding list). These are not Medsafe licences, and Medsafe licence status is not included in this data.
 
 <!-- licenses:end -->
 
-Only the ophthalmic route (eye drops 1%) is on record.
+The prednisolone acetate items on record are eye drops 1%; the table also lists an oral prednisolone liquid.
+
+<!-- review:begin nz-lic-20261125-prednisolone_acetate-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Only the ophthalmic route (eye drops 1%) is on record." Corrected: the Pharmac Schedule items collected for this page also include an oral prednisolone liquid (Redipred); the sentence said only the ophthalmic route was on record. The prednisolone sodium phosphate eye drops originally collected (Minims Prednisolone) are a different ester and have been removed. The Quick Overview and the table under New Zealand Market Information show the current Pharmac Schedule figures. Source: [Pharmac Pharmaceutical Schedule, Community Medicines (CPSReporting.xlsx)](https://schedule.pharmac.govt.nz/).
+
+<!-- review:end nz-lic-20261125-prednisolone_acetate-1 -->
 
 ## Safety Considerations
 
@@ -169,6 +174,7 @@ Below is the review log for this page: statements checked against official Pharm
 |------|------|------|------|
 | 2026-11-06 | Removed: "the cancelled licence status and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Pharmac Pharmaceutical Schedule](https://schedule.pharmac.govt.nz/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+| 2026-11-25 | "Only the ophthalmic route" → acetate items are eye drops; an oral prednisolone liquid is also listed | Corrected | [Pharmac Pharmaceutical Schedule, Community Medicines (CPSReporting.xlsx)](https://schedule.pharmac.govt.nz/) |
 
 <!-- review:end log -->
 
